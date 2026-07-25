@@ -403,7 +403,7 @@ const mcqData = [
     "Double Taxation Avoidance Agreement (DTAA)"
   ],
   caseText: `
-    <p><strong>Case Scenario II</strong></p>
+    
 
     <p>Omega Inc., a Country F company, maintains an online web-platform through which it provides end user computer software through an End-user Licence Agreement (EULA). Trailor Ltd., an Indian company, has entered into a contract for ₹ 6.7 crores with Omega Inc., for the Financial Year 2023-24, which is approved by the Central Government.</p>
 
@@ -504,7 +504,6 @@ const mcqData = [
     "Reassessment"
   ],
   caseText: `
-    <p><strong>Case Scenario III</strong></p>
 
     <p>Sharma Pvt. Ltd. ("S") files its return of income for the P.Y. 2023-24 on 30th September 2024 declaring loss of ₹ 18,00,000. The rate of income-tax applicable to the company is 25%.</p>
 
@@ -576,7 +575,7 @@ const mcqData = [
     "International Transaction"
   ],
   caseText: `
-    <p><strong>Case Scenario I</strong></p>
+    
 
     <p>On 1.4.2023, Focus Ltd., an Indian company, borrowed ₹ 50 crores @ 9.5% p.a. from Max Inc., a US entity, thereby increasing its total borrowings to ₹ 65 crores. The said loan is guaranteed by Hik Inc., another US entity. The place of effective management of both Max Inc. and Hik Inc. is in the USA. The book value of total assets of Focus Ltd. is ₹ 180 crores.</p>
 
@@ -686,7 +685,7 @@ const mcqData = [
     "Powers of Income-tax Authority"
   ],
   caseText: `
-    <p><strong>Case Scenario II</strong></p>
+    
 
     <p>The Assessing Officer surveyed Surabhi & Hotels, which was within his jurisdiction, at 11:30 p.m. on 15.8.2023 for the purpose of obtaining information which may be relevant to the proceedings under the Income-tax Act, 1961. The restaurant is kept open for business every day between 11 a.m. and 12 a.m.</p>
 
@@ -784,7 +783,7 @@ const mcqData = [
     "Penalty under Section 270A"
   ],
   caseText: `
-    <p><strong>Case Scenario I</strong></p>
+    
 
     <p>M/s. Swift LLP filed its return of income for A.Y. 2023-24, declaring total income of ₹18 lakhs, on 2nd December 2023.</p>
 
@@ -889,7 +888,7 @@ const mcqData = [
     "TDS on Distributed Income"
   ],
   caseText: `
-    <p><strong>Case Scenario II</strong></p>
+    
 
     <p>A business trust, registered under the SEBI (Real Estate Investment Trusts) Regulations, 2014, furnished the following particulars of its income for the Previous Year 2023-24:</p>
 
@@ -1015,7 +1014,7 @@ const mcqData = [
     "Business Reorganisation"
   ],
   caseText: `
-    <p><strong>Case Scenario I</strong></p>
+    
 
     <p>Jandhan Co-operative Bank provides the following information relating to cash withdrawals by its two customers during the Previous Year 2024-25:</p>
 
@@ -1121,7 +1120,7 @@ const mcqData = [
     "Penalty under Section 270A"
   ],
   caseText: `
-    <p><strong>Case Scenario II</strong></p>
+    
 
     <p>Xylo Pvt. Ltd. (Xylo) is an Indian company. Yen Inc. (Yen) is a private company incorporated in the USA and its income is not chargeable to tax in India. Both companies are promoted by Mr. Aryan, who holds 30% of the equity share capital and voting power in both Xylo and Yen.</p>
 
@@ -1267,7 +1266,7 @@ const mcqData = [
     "Dispute Resolution Panel"
   ],
   caseText: `
-    <p><strong>Case Scenario III</strong></p>
+    
 
     <p>Wave Inc., a corporation incorporated in Country T, specializes in the manufacturing of computer hardware components and also owns the online social networking platform <strong>Attire</strong>.</p>
 

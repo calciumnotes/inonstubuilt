@@ -194,10 +194,28 @@ document.addEventListener("DOMContentLoaded", () => {
         selectedMCQs = shuffleArray(mcqData).slice(0, 3);
     }
 
+    // --- MERGE QUESTION BANKS ---
+    let combinedQuestions = [];
+    
+    // Add original questions
     if (typeof descriptiveQuestions !== 'undefined') {
-        const uniquePlacements = [...new Set(descriptiveQuestions.map(q => q.placement))].sort((a,b) => a-b);
+        combinedQuestions = combinedQuestions.concat(descriptiveQuestions);
+    }
+    
+    // Add new questions
+    if (typeof descriptiveQuestions2 !== 'undefined') {
+        combinedQuestions = combinedQuestions.concat(descriptiveQuestions2);
+    }
+
+    // --- PROCESS COMBINED POOL ---
+    if (combinedQuestions.length > 0) {
+        // Filter out any object missing a placement number to prevent "undefined" bugs
+        const uniquePlacements = [...new Set(combinedQuestions.map(q => q.placement))]
+            .filter(num => num !== undefined && num !== null)
+            .sort((a,b) => a-b);
+            
         uniquePlacements.forEach(num => {
-            let availableParts = descriptiveQuestions.filter(q => q.placement === num);
+            let availableParts = combinedQuestions.filter(q => q.placement === num);
             let selectedParts = getRandomCombinationForMarks(availableParts, 14);
             selectedDescriptive.push({ placement: num, parts: selectedParts });
         });
@@ -216,7 +234,6 @@ function generateExamData() {
 
     const examDate = getCurrentExamDate();
 
-    // Changed to Paper 4: Direct Tax Laws & International Taxation
     rawExamElements.push(`
         <div class="watermark">CAM2</div>
         <div class="header-center">FINAL EXAM<br>PAPER - 4<br>${examDate}<br>DIRECT TAX LAWS & INTERNATIONAL TAXATION</div>
@@ -261,7 +278,8 @@ function generateExamData() {
     // --- DESCRIPTIVE GENERATION ---
     if (selectedDescriptive.length > 0) {
         selectedDescriptive.forEach(group => {
-            rawExamElements.push(`<h3 class="no-split" style="color:#2563eb; border-bottom:1px solid #ccc; padding-bottom:5px; margin-top:25px; display:block;">Question ${group.placement}</h3>`);
+            const headingLabel = group.placement ? group.placement : "Extra";
+            rawExamElements.push(`<h3 class="no-split" style="color:#2563eb; border-bottom:1px solid #ccc; padding-bottom:5px; margin-top:25px; display:block;">Question ${headingLabel}</h3>`);
             
             group.parts.forEach((part, index) => {
                 const label = group.parts.length > 1 ? `<strong>(${String.fromCharCode(97 + index)})</strong> ` : "";
@@ -272,7 +290,7 @@ function generateExamData() {
                     const wrappedHtml = `${marksBadge}<br>${label}${part.question_html}`;
                     rawExamElements = rawExamElements.concat(splitHtmlIntoElements(wrappedHtml));
                 } else {
-                    const solBadge = `<div class="no-split" style="background-color: #dcfce7; color: #166534; border: 1px solid #4ade80; padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 13px; display: inline-block; margin-bottom: 8px; margin-top: 15px;">Solution Q${group.placement} ${label}</div>`;
+                    const solBadge = `<div class="no-split" style="background-color: #dcfce7; color: #166534; border: 1px solid #4ade80; padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 13px; display: inline-block; margin-bottom: 8px; margin-top: 15px;">Solution Q${headingLabel} ${label}</div>`;
                     
                     rawExamElements.push(solBadge);
                     rawExamElements = rawExamElements.concat(splitHtmlIntoElements(part.solution_html));
@@ -288,7 +306,6 @@ function generateExamData() {
     if (!examCompleted) {
         rawExamElements.push(`<button id="finish-btn" class="finish-exam-btn no-split" style="display:block;" onclick="revealAnswers()">Finish & Show Solutions</button>`);
     } else {
-        // Points back to edt.html
         rawExamElements.push(`<button id="home-btn" class="finish-exam-btn no-split" style="display:block; background:#0f172a; color:white; margin-top:15px;" onclick="window.location.href='./edt.html'">Return to Home</button>`);
     }
 }
