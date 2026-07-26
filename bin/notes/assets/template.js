@@ -7,7 +7,7 @@
     if (sidebar.classList.contains("hidden")) {
         btn.textContent = "☰ Index";
     } else {
-        btn.textContent = "✖ Close";
+        btn.textContent = "✖ Close Index";
     }
 }
 
