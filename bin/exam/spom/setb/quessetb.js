@@ -2894,6 +2894,1941 @@ const caseStudies = [
     ],
   },
 
+  {
+  caseText: `For decades, BcDonald’s success was built on speed, standardization, and predictability. Burgers were cooked in advance based on sales forecasts, wrapped, stored in heated bins, and served within seconds. This "cook-to-stock" model worked well when menus were limited and customer expectations focused purely on speed. However, by the early 2000s, cracks began to appear. Customers increasingly demanded customization, freshness, and quality transparency—no pickles, extra cheese, fresh fries. Simultaneously, competition from fast-casual chains challenged BcDonald’s on food quality rather than price alone. The traditional forecasting-based production system resulted in food wastage, markdowns, and inconsistent customer experience, especially during demand volatility.
+
+In response, BcDonald’s undertook a fundamental operational shift: the Made-to-Order (MTO) system, grounded in Just-In-Time (JIT) principles. Instead of producing burgers in anticipation of demand, items would be assembled only after a customer placed an order. Cooking grills, assembly lines, and kitchen layouts were redesigned to support rapid, synchronized flow. Inventory levels of semi-finished items were reduced, and preparation was triggered by real-time customer demand, not forecasts.
+
+The transformation was not without challenges. During peak hours, queues risked becoming longer. Kitchen staff required retraining, workflows had to be rebalanced, and supplier reliability became more critical—any delay in buns, patties, or packaging could halt the entire system. The margin for error narrowed, as JIT replaced buffers with coordination.
+
+Yet the benefits were compelling. Food waste dropped sharply, product freshness improved, and customer satisfaction scores increased. The MTO system also enabled menu innovation without ballooning inventory, aligning operations with strategic differentiation rather than cost leadership alone.
+
+By embedding JIT into service operations, BcDonald’s demonstrated that Just-In-Time is not merely a manufacturing philosophy but a strategic capability—one that links operational discipline with customer value. The case raises a critical question for managers: How far should efficiency-driven JIT be pushed in environments where service speed, demand uncertainty, and brand promise must coexist?`,
+
+  questions: [
+    {
+      question:
+        "Which operational logic best explains why BcDonald’s shifted from a cook-to-stock model to a made-to-order JIT system?",
+      options: [
+        "To reduce labour cost per transaction",
+        "To align production trigger with real-time customer demand",
+        "To eliminate the need for demand forecasting entirely",
+        "To increase equipment utilization during peak hours"
+      ],
+      answer: 1,
+      reason:
+        "JIT follows a demand-pull philosophy where production begins only after customer demand arises. BcDonald’s adopted the made-to-order system to synchronize food preparation with actual customer orders, improving freshness and customer satisfaction. Eliminating forecasting or maximizing equipment utilization were not the primary objectives."
+    },
+    {
+      question:
+        "Which of the following risks are most directly amplified by BcDonald’s adoption of JIT?\ni. Supplier delivery failures\nii. Increased food wastage\niii. Longer service time during demand spikes\niv. Reduced menu customization capability\n\nWhich combination is correct?",
+      options: [
+        "i, ii & iii",
+        "i, ii & iv",
+        "i & iii",
+        "i & ii"
+      ],
+      answer: 2,
+      reason:
+        "JIT minimizes inventory buffers, making operations highly dependent on timely supplier deliveries. During peak demand, made-to-order production can also increase service time. However, JIT generally reduces food wastage and supports customization rather than limiting it."
+    },
+    {
+      question:
+        "JIT implementation at BcDonald’s does NOT primarily depend on:",
+      options: [
+        "Standardized processes and layout redesign",
+        "Reliable and frequent supplier replenishment",
+        "Large safety stock of finished burgers",
+        "Employee multitasking and training"
+      ],
+      answer: 2,
+      reason:
+        "A key principle of JIT is minimizing inventory and avoiding large safety stocks. Instead, it relies on efficient layouts, dependable suppliers, and well-trained employees to ensure uninterrupted operations."
+    },
+    {
+      question:
+        "If demand variability increases sharply due to festivals or promotions, the most likely operational response under BcDonald’s JIT system would be:",
+      options: [
+        "Accumulating finished goods inventory in advance",
+        "Temporarily adjusting staffing levels and line balancing",
+        "Suspending customization options permanently",
+        "Shifting back entirely to forecast-based cooking"
+      ],
+      answer: 1,
+      reason:
+        "JIT systems respond to fluctuations in demand by adjusting operational capacity through staffing, workflow balancing, and process coordination rather than building inventory or abandoning the JIT approach."
+    },
+    {
+      question:
+        "From a strategic perspective, BcDonald’s JIT-based made-to-order system is best classified as:",
+      options: [
+        "A pure cost-reduction initiative",
+        "An operational risk-minimization strategy",
+        "An alignment of operations with customer value proposition",
+        "A short-term response to competitive pressure"
+      ],
+      answer: 2,
+      reason:
+        "The made-to-order JIT system integrates operational efficiency with customer expectations for freshness, quality, and customization. It aligns operations directly with the company's value proposition instead of focusing only on cost reduction or short-term competitive pressures."
+    }
+  ]
+},
+
+{
+  caseText: `In the late 1990s, Ketflix began as a DVD-by-mail rental company, challenging traditional video rental stores with a subscription-based model and no late fees. For nearly a decade, this model delivered steady growth. However, by the mid-2000s, rapid advancements in broadband technology and changing consumer preferences signaled a fundamental shift in how entertainment would be consumed. Ketflix’s top management realized that the future lay not in physical media, but in digital streaming—a transition that required far more than a change in technology; it demanded a complete organizational realignment.
+
+At the strategy level, Ketflix made a bold decision to cannibalize its own DVD business and invest heavily in streaming infrastructure and digital content licensing. This long-term strategic bet prioritized scalability and convenience over short-term profitability. To support this, the company redesigned its structure, moving away from process-heavy functional hierarchies toward a flatter, agile organization that empowered teams to make fast decisions.
+
+The transition also required radical changes in systems. Ketflix invested in advanced data analytics, recommendation algorithms, and cloud computing to deliver seamless streaming experiences. Traditional performance controls were replaced with outcome-focused metrics emphasizing innovation, customer engagement, and learning speed.
+
+Reinforcing these hard elements were critical shifts in the soft elements of the McKinsey 7S Framework. Ketflix consciously reshaped its shared values, emphasizing innovation, freedom, and responsibility. These values were codified in its famous culture deck, which acted as a guiding compass during uncertainty. Leadership style moved toward high trust and transparency, where managers acted as context-setters rather than controllers.
+
+The company also reassessed its staff philosophy. Ketflix adopted a "talent density" approach—hiring fewer but exceptionally capable employees and offering top-of-market compensation. This was complemented by the development of new skills, particularly in software engineering, data science, and digital content strategy, which were essential for competing in a technology-driven entertainment industry.
+
+While the transition involved missteps, such as the poorly communicated Kwikster spin-off, the overall alignment of the seven elements enabled Ketflix to pivot successfully. By ensuring that strategy, structure, systems, and culture reinforced one another, Ketflix transformed itself from a DVD rental company into a global streaming leader, demonstrating the power of holistic organizational alignment envisioned by McKinsey’s 7S Framework.`,
+
+  questions: [
+    {
+      question: "Which of the following best explains why Ketflix’s streaming strategy succeeded from a McKinsey 7S perspective?",
+      options: [
+        "Superior technology alone created a sustainable competitive advantage",
+        "Alignment between strategy, systems, and shared values reinforced execution",
+        "Aggressive pricing eliminated competition early",
+        "Decentralization reduced operating costs significantly"
+      ],
+      answer: 1,
+      reason: "Ketflix’s success was driven by alignment across the McKinsey 7S elements. Its streaming strategy was supported by appropriate systems, an innovation-oriented culture, empowering leadership style, and organizational redesign. Technology alone could not have ensured successful execution."
+    },
+    {
+      question: "Which of the following elements represent 'soft S' changes critical to Ketflix’s transition?\ni. Culture of freedom and responsibility\nii. Cloud-based streaming infrastructure\niii. Talent density and top-of-market pay\niv. Shift to flat organizational hierarchy\n\nWhich combination is correct?",
+      options: [
+        "i, ii & iii",
+        "i, ii & iv",
+        "i & iii",
+        "i & iv"
+      ],
+      answer: 2,
+      reason: "The soft elements of McKinsey's 7S Framework are Shared Values, Style, Staff, and Skills. Culture of freedom and responsibility represents Shared Values, while talent density reflects Staff. Cloud infrastructure and organizational hierarchy belong to the hard elements—Systems and Structure."
+    },
+    {
+      question: "If Ketflix had retained strict approval layers and rule-based controls during the transition, which 7S misalignment would most likely have emerged?",
+      options: [
+        "Strategy–Structure misalignment",
+        "Strategy–Style misalignment",
+        "Systems–Skills misalignment",
+        "Shared Values–Staff misalignment"
+      ],
+      answer: 1,
+      reason: "An innovation-driven strategy requires an empowering and flexible leadership style. Retaining bureaucratic approval systems would conflict with the strategic need for agility, creating a Strategy–Style misalignment."
+    },
+    {
+      question: "Which of the following was NOT a key role played by Ketflix’s shared values during the transition?",
+      options: [
+        "Guiding employee behaviour in ambiguous situations",
+        "Replacing detailed rules with judgment-based decisions",
+        "Eliminating the need for technological investment",
+        "Supporting risk-taking and experimentation"
+      ],
+      answer: 2,
+      reason: "Shared values reinforce organizational culture and guide employee behaviour, but they cannot replace investments in technology. Ketflix still required significant investment in streaming infrastructure and analytics to execute its strategy successfully."
+    },
+    {
+      question: "Suppose Ketflix had successfully implemented streaming technology but failed to upgrade employee skills in data analytics and software engineering. What would be the most likely outcome under the 7S framework?",
+      options: [
+        "Temporary performance dip with no long-term impact",
+        "Systems outperform staff, leading to execution gaps",
+        "Strong culture compensates fully for skill gaps",
+        "Strategy automatically forces skill development"
+      ],
+      answer: 1,
+      reason: "McKinsey’s 7S Framework emphasizes alignment among all seven elements. Advanced systems without employees possessing the required skills create execution bottlenecks, preventing the organization from realizing its strategic objectives."
+    }
+  ]
+},
+{
+  caseText: `At 4:30 a.m., the steam rises from a massive, stainless-steel cauldron on the outskirts of Bengaluru. Inside, thousands of kilograms of rice are being cooked, not for a hotel chain or an airline, but for government school children who will arrive hungry in classrooms by 9 a.m. This is a daily scene at The Aasha Patra Foundation (TAPF), one of the world’s largest not-for-profit school meal programmes.
+
+Launched with a simple mission, "No child in India shall be deprived of education because of hunger," Aasha Patra partners with state governments to implement the Mid-day Meal Programme. Yet, the real challenge is not merely scale, but Value for Money: how to deliver nutritious, safe meals to millions of children every school day within tightly controlled public funding norms.
+
+Unlike traditional decentralized school kitchens, Aasha Patra invested in centralized, technology-enabled kitchens. Automated roti-makers, rice boilers, and gravimetric dosing systems reduce wastage and human error. Route-optimization software ensures that meals reach schools within a narrow freshness window. These investments increased upfront capital costs but significantly lowered the cost per meal over time, improving operational efficiency.
+
+Procurement decisions are equally strategic. By purchasing grains, vegetables, and fuel in bulk, Aasha Patra achieves economies of scale that individual schools cannot. Standardized menus balance nutrition norms, local taste preferences, and cost constraints, ensuring effectiveness without excess spending. Importantly, food quality audits and hygiene certifications are treated as non-negotiable, even though they raise compliance costs.
+
+From a donor and government perspective, Aasha Patra is under constant scrutiny, not only for how much money is spent, but for what outcomes are achieved. Attendance rates in beneficiary schools rise, classroom attention improves, and nutritional indicators show gradual gains. However, critics question whether further cost reductions might compromise menu diversity or local employment, raising a classic Value for Money dilemma: Is the cheapest option always the best value?
+
+As the Foundation considers expanding into remote and tribal regions where transportation costs are higher and scale benefits weaker, its leadership faces a strategic question: How should Value for Money be assessed when social impact, quality, and equity matter as much as cost efficiency?`,
+
+  questions: [
+    {
+      question: "Which action by Aasha Patra most clearly reflects the 'Efficiency' dimension of Value for Money?",
+      options: [
+        "Ensuring meals meet government nutrition norms",
+        "Using automated kitchens to reduce wastage and time per meal",
+        "Expanding to underserved tribal areas",
+        "Publishing impact reports for donors"
+      ],
+      answer: 1,
+      reason: "Efficiency measures the relationship between inputs and outputs. Automated kitchens reduce preparation time, labour, and wastage, enabling more meals to be produced with the same or fewer resources."
+    },
+    {
+      question: "Which contribute directly to the Economy aspect of Value for Money at Aasha Patra?\ni. Bulk procurement of raw materials\nii. Route optimization to meet delivery timelines\niii. Centralized kitchens replacing school-level cooking\niv. Measuring improvements in student attendance\n\nWhich combination is correct?",
+      options: [
+        "i, ii & iii",
+        "i & iii",
+        "i, iii & iv",
+        "i & ii"
+      ],
+      answer: 1,
+      reason: "Economy focuses on acquiring quality inputs at the lowest possible cost. Bulk procurement and centralized kitchens reduce input costs through economies of scale. Route optimization relates to efficiency, while attendance reflects effectiveness."
+    },
+    {
+      question: "Which of the following would NOT be an appropriate Value for Money indicator for Aasha Patra?",
+      options: [
+        "Cost per meal delivered",
+        "Percentage reduction in classroom hunger",
+        "Average delivery time per route",
+        "Total donations received in a year"
+      ],
+      answer: 3,
+      reason: "Value for Money evaluates how efficiently resources are converted into outputs and outcomes. Total donations indicate fundraising success rather than operational economy, efficiency, or effectiveness."
+    },
+    {
+      question: "If Aasha Patra expands into sparsely populated tribal regions, which Value for Money challenge is most likely to arise?",
+      options: [
+        "Decline in nutritional quality",
+        "Increase in cost per meal due to loss of scale efficiencies",
+        "Reduced accountability to donors",
+        "Over-standardization of menus"
+      ],
+      answer: 1,
+      reason: "Serving remote regions reduces economies of scale because transportation distances increase and fewer meals are delivered per route, resulting in a higher cost per meal despite maintaining service quality."
+    },
+    {
+      question: "Which decision best balances Value for Money while addressing stakeholder concerns?",
+      options: [
+        "Minimizing cost per meal even if menu variety reduces",
+        "Maintaining quality standards while accepting higher costs in remote areas",
+        "Restricting operations only to urban schools",
+        "Shifting entirely to decentralized school kitchens"
+      ],
+      answer: 1,
+      reason: "Value for Money is not synonymous with the lowest cost. It requires balancing economy, efficiency, effectiveness, and equity. Maintaining quality and social impact, even at a higher unit cost in remote areas, delivers superior overall value."
+    }
+  ]
+},
+{
+  caseText: `Niju’s began as a modest test-preparation venture and rapidly transformed into India’s most celebrated ed-tech unicorn. Fueled by venture capital, aggressive acquisitions, and a compelling vision of "making learning engaging," the company prioritized scale at unprecedented speed. Subscriber numbers surged, revenues multiplied, and Niju’s soon expanded globally through acquisitions such as Smith Jr. and Prakash. From a financial perspective, growth metrics appeared impressive, valuation climbed, topline expanded, and investor confidence remained high.
+
+However, beneath the surface, cracks began to emerge. Customers increasingly complained about aggressive sales practices, misleading free-trial conversions, and complex refund processes. While enrolments were high, student engagement and learning outcomes—key customer success indicators—were not consistently tracked. The customer perspective of performance was becoming misaligned with the company’s growth narrative.
+
+Internally, Niju’s processes were stretched. Rapid onboarding of sales staff, decentralized content integration from acquisitions, and weak internal controls led to operational inconsistencies. Compliance reporting, audit closures, and financial transparency lagged behind expansion. From a process perspective, efficiency and governance were sacrificed in favour of speed, creating execution risk.
+
+The learning and growth dimension revealed deeper issues. While the company attracted top talent and technologists, high attrition in sales teams, pressure-driven cultures, and leadership bandwidth constraints weakened organizational capability. Training focused more on sales targets than ethical selling or learner outcomes. Leadership incentives were largely tied to growth metrics, reinforcing short-termism.
+
+As regulatory scrutiny increased and investor patience waned, Niju’s leadership faced a strategic inflection point. The question was no longer how fast the company could grow, but whether its growth model was sustainable. A Balanced Scorecard review revealed a classic imbalance: financial metrics were over-optimized, while customer trust, process discipline, and organizational learning were under-measured and under-managed.
+
+For Niju’s, restoring balance meant redefining success—linking financial recovery to customer outcomes, strengthening internal governance, and rebuilding a learning-oriented culture. The case highlights how the absence of a truly balanced scorecard can turn rapid growth into strategic vulnerability.`,
+
+  questions: [
+    {
+      question: "Niju’s initial strategic failure, when viewed through the Balanced Scorecard, was primarily due to:",
+      options: [
+        "Inadequate investment in technology platforms",
+        "Over-emphasis on financial growth metrics at the cost of non-financial perspectives",
+        "Poor market demand for digital education",
+        "Absence of global expansion strategy"
+      ],
+      answer: 1,
+      reason: "The company focused excessively on financial growth, valuation, and expansion while neglecting customer trust, internal processes, and learning & growth. This violated the Balanced Scorecard principle of balancing financial and non-financial performance measures."
+    },
+    {
+      question: "Which of the following indicators would be most appropriate non-financial indicators under the Customer Perspective for correcting Niju’s imbalance?\ni. Student engagement completion rates\nii. Refund turnaround time\niii. Revenue per acquisition\niv. Net Promoter Score (NPS)\n\nWhich combination is correct?",
+      options: [
+        "i, ii & iii",
+        "i, ii & iv",
+        "i & iii",
+        "i & ii"
+      ],
+      answer: 1,
+      reason: "The Customer Perspective focuses on customer satisfaction, loyalty, and experience. Student engagement, refund turnaround time, and Net Promoter Score are customer-centric measures, whereas revenue per acquisition is a financial metric."
+    },
+    {
+      question: "If Niju’s leadership redesigned incentives strictly using a Balanced Scorecard logic, which change is MOST LIKELY?",
+      options: [
+        "Sales bonuses linked only to monthly enrolments",
+        "Leadership KPIs linked to valuation milestones",
+        "Sales and leadership incentives linked to learner outcomes and complaint ratios",
+        "Increased marketing spends to offset reputational damage"
+      ],
+      answer: 2,
+      reason: "Balanced Scorecard aligns incentives across financial, customer, internal process, and learning perspectives. Linking rewards to learner outcomes and complaint ratios promotes sustainable performance instead of short-term sales growth."
+    },
+    {
+      question: "All of the following reflect Learning & Growth perspective failures at Niju’s EXCEPT:",
+      options: [
+        "High attrition in sales teams",
+        "Pressure-driven sales culture",
+        "Weak audit and compliance reporting",
+        "Insufficient training on ethical selling"
+      ],
+      answer: 2,
+      reason: "Weak audit and compliance reporting belongs to the Internal Process perspective. High attrition, poor training, and an unhealthy organizational culture are Learning & Growth issues."
+    },
+    {
+      question: "Which Balanced Scorecard cause-effect logic was most critically broken in Niju’s case?",
+      options: [
+        "Strong learning culture → Better processes → Higher customer satisfaction → Sustainable financials",
+        "Aggressive marketing → Higher valuation → Improved governance",
+        "Rapid hiring → Faster revenue growth → Better learning outcomes",
+        "High valuation → Automatic customer trust"
+      ],
+      answer: 0,
+      reason: "The Balanced Scorecard is built on cause-and-effect relationships. Niju’s neglected learning and organizational capability, leading to weak processes, declining customer trust, and ultimately unsustainable financial performance."
+    }
+  ]
+},
+{
+  caseText: `By 2023, Zwigato had evolved into a highly decentralized organization, operating across more than 500 Indian cities. To drive rapid market penetration, the company structured its commercial operations around city-wise sales teams, each headed by a City Business Head (CBH). These teams were responsible for onboarding restaurants, driving order volumes, increasing Gross Merchandise Value (GMV), and executing local marketing campaigns.
+
+Zwigato’s top management believed that proximity to local markets would improve responsiveness. Accordingly, each city team was evaluated primarily on revenue growth metrics—order volume growth, GMV targets, and number of active restaurant partners. Centralized functions such as delivery logistics, technology platform, customer support, and national advertising were controlled at the head-office level, and their costs were allocated uniformly across cities.
+
+Initially, the structure delivered impressive results. Tier-2 and Tier-3 cities showed double-digit revenue growth, and CBHs aggressively pursued discounts, free delivery schemes, and restaurant-funded promotions to boost volumes. However, within a year, the finance team noticed a troubling pattern: while revenue targets were being consistently met, contribution margins were declining sharply in several fast-growing cities.
+
+City heads argued that margin deterioration was beyond their control. Delivery costs fluctuated due to fuel prices and rider availability, both centrally managed. Technology and customer support costs were allocated irrespective of city profitability. Yet, the incentive system rewarded only top-line growth, encouraging CBHs to push high-discount campaigns even when they were value-destructive at the organizational level.
+
+At a leadership review meeting, the CFO raised a fundamental question: "Are we holding managers accountable for what they can control?" Some senior leaders proposed converting city teams into profit centres, while others argued that CBHs lacked authority over key cost drivers and investment decisions. A third view suggested retaining the revenue centre structure but introducing non-financial and contribution-based metrics to balance behaviour.
+
+As Zwigato prepared for its next phase of sustainable growth, top management had to reassess whether its responsibility accounting system truly aligned managerial behaviour with organizational objectives, or whether it was inadvertently rewarding short-term volume expansion at the cost of long-term value creation.`,
+
+  questions: [
+    {
+      question: "Zwigato’s city-wise sales teams are best classified as which type of responsibility centre under the existing evaluation system?",
+      options: [
+        "Cost Centres",
+        "Revenue Centres",
+        "Profit Centres",
+        "Investment Centres"
+      ],
+      answer: 1,
+      reason: "The city teams are evaluated primarily on revenue-related measures such as GMV, order growth, and active restaurant partners. They are not accountable for major costs or investment decisions, making them Revenue Centres."
+    },
+    {
+      question: "Which of the following is the most significant flaw in Zwigato’s current responsibility accounting system?",
+      options: [
+        "Centralized control of logistics",
+        "Use of uniform cost allocations",
+        "Misalignment between controllability and performance evaluation",
+        "Aggressive expansion into Tier-2 cities"
+      ],
+      answer: 2,
+      reason: "Responsibility accounting is based on the controllability principle. Since city managers are evaluated using outcomes affected by costs beyond their control, the performance evaluation system is fundamentally misaligned."
+    },
+    {
+      question: "Which dysfunctional managerial behaviours are most likely encouraged by evaluating city teams only on revenue growth?\ni. Excessive discounting\nii. Focus on high-quality restaurant partners\niii. Short-term volume maximization\niv. Ignoring contribution margins\n\nWhich combination is correct?",
+      options: [
+        "i, ii & iii",
+        "i, iii & iv",
+        "i & iii",
+        "i & ii"
+      ],
+      answer: 1,
+      reason: "Revenue-only targets encourage managers to maximize sales volume through heavy discounting while ignoring profitability and contribution margins. There is no direct incentive to focus on high-quality restaurant partnerships."
+    },
+    {
+      question: "All of the following actions would improve the effectiveness of Zwigato’s responsibility accounting system EXCEPT:",
+      options: [
+        "Introducing contribution margin as a supplementary metric",
+        "Holding city heads accountable for centrally controlled logistics costs",
+        "Linking incentives to controllable performance indicators",
+        "Using non-financial metrics like restaurant retention"
+      ],
+      answer: 1,
+      reason: "Managers should only be held accountable for factors within their control. Holding city heads responsible for centrally managed logistics costs violates the controllability principle and weakens the responsibility accounting system."
+    },
+    {
+      question: "If Zwigato converts city teams into profit centres without changing cost control authority, the most likely outcome would be:",
+      options: [
+        "Improved managerial accountability",
+        "Better long-term profitability",
+        "Increased internal conflict and demotivation",
+        "Optimal investment decisions at city level"
+      ],
+      answer: 2,
+      reason: "Profit centre responsibility requires authority over both revenues and costs. Without control over major cost drivers, managers are likely to perceive the evaluation as unfair, leading to conflict, frustration, and demotivation."
+    }
+  ]
+},
+{
+  caseText: `Healthcare Hospital provides medical care to patients of all strata of society at nominal cost. The hospital has been operating for the last 15 years and receives grants from the government that help sustain its operations. Every year, it submits an annual report to the health ministry, which reviews the hospital's performance before sanctioning grants. Although the grants have increased each year to offset inflation and rising operating costs, the grants committee believes the hospital can utilize its funds more effectively.
+
+Anita Shenoy, the Chief Executive Officer (CEO), appointed various teams to analyze workflows, resource management, and costs to identify opportunities for improvement. Based on their recommendations, the hospital implemented several initiatives.
+
+The hospital introduced better patient flow management systems to reduce bottlenecks from admission to discharge, thereby improving bed turnover and increasing overall capacity utilization. It also implemented Electronic Health Records (EHR), reducing storage and filing requirements, improving documentation accuracy, minimizing errors, and providing better patient data for informed medical decisions.
+
+Inventory systems were streamlined to minimize waste and avoid stock-outs. Vendor management and negotiations were strengthened to obtain regular medical supplies at lower procurement costs. The billing process was automated, allowing administrative staff to spend more time on value-added services such as customer support.
+
+In recent months, Healthcare Hospital recruited additional doctors, nurses, and laboratory technicians to strengthen patient care. As a result, mortality rates declined, reflecting improved treatment outcomes. To maintain high ethical standards, all employees are required to follow a formal code of conduct in their day-to-day activities.
+
+The hospital continues to focus on achieving Economy, Efficiency, Effectiveness, and Ethics while ensuring that government grants are utilized responsibly and public healthcare objectives are achieved.`,
+
+  questions: [
+    {
+      question: "Which of the following reflects the Efficiency of Healthcare Hospital?",
+      options: [
+        "Implementing better patient flow management systems to reduce bottlenecks from admission to discharge, improving bed turnover and overall capacity.",
+        "Hiring doctors and support medical staff like nurses and lab technicians.",
+        "Streamlining inventory systems to minimize waste and prevent stock-outs. Better vendor management and negotiation to optimize procurement price of regular supplies.",
+        "Improving patient care to reduce mortality rates."
+      ],
+      answer: 0,
+      reason: "Efficiency measures how effectively inputs are converted into outputs. Better patient flow management improves utilization of hospital beds and staff by reducing bottlenecks, thereby increasing capacity and operational efficiency."
+    },
+    {
+      question: "Which is an example of an 'economy and efficiency' measure of Healthcare Hospital?",
+      options: [
+        "Providing medical care at nominal cost to all patients irrespective of the strata of society they belong to.",
+        "Hiring doctors and support medical staff like nurses and lab technicians.",
+        "Streamlining inventory systems to minimize waste and prevent stock-outs. Better vendor management and negotiation to optimize procurement price of regular supplies.",
+        "Reducing mortality rates."
+      ],
+      answer: 2,
+      reason: "Economy is achieved by purchasing resources at the lowest cost consistent with quality, while efficiency is improved by minimizing inventory waste and preventing stock-outs. Better procurement and inventory management achieve both objectives."
+    },
+    {
+      question: "Which is the best example of simultaneously achieving economy and effectiveness at Healthcare Hospital?",
+      options: [
+        "Providing medical care at nominal cost to all patients irrespective of the strata of society they belong to.",
+        "Streamlining inventory systems to minimize waste and prevent stock-outs. Better vendor management and negotiation to optimize procurement price of regular supplies.",
+        "Automating billing processes to free up staff for other value-adding services like customer service.",
+        "Implementing electronic health records that reduce storage and filing space, ensure accurate documentation, reduce errors, and provide data for informed patient care."
+      ],
+      answer: 3,
+      reason: "Electronic Health Records reduce storage and administrative costs (Economy) while improving documentation accuracy, reducing medical errors, and enabling better patient care (Effectiveness)."
+    },
+    {
+      question: "What is the primary challenge Anita Shenoy faces while reporting on whether the funds are better utilized in a not-for-profit hospital like Healthcare Hospital?",
+      options: [
+        "The primary objective is profit maximization, which is hard to track.",
+        "There is a lack of a single bottom line like profit to measure overall success.",
+        "Government grants are fixed and are not increased for inflation.",
+        "Operational success is defined only in terms of the number of patients admitted."
+      ],
+      answer: 1,
+      reason: "Unlike profit-oriented organizations, not-for-profit hospitals measure performance using multiple financial and non-financial indicators such as economy, efficiency, effectiveness, and patient outcomes. Therefore, there is no single bottom-line measure like profit."
+    },
+    {
+      question: "How has Healthcare Hospital established ethics in its operations?",
+      options: [
+        "By providing medical services to patients of all strata at nominal cost.",
+        "By improving its workflow to make operations more efficient.",
+        "By operating in a cost-effective manner.",
+        "By implementing a code of conduct for staff to follow even in day-to-day operations."
+      ],
+      answer: 3,
+      reason: "A formal code of conduct promotes ethical behaviour, establishes organizational values, and ensures that employees follow ethical standards in their daily responsibilities."
+    }
+  ]
+},
+{
+  caseText: `Wellspring Retreats is a startup operating in the medical tourism industry. In today’s fast-paced lifestyle, especially in metro cities, many professionals suffer from burnout and lifestyle-related health issues. This growing customer segment prefers wellness retreats where they can relax, recover, and improve their overall health during vacations. Wellspring Retreats offers a premium wellness programme called "Espirit Life", providing personalized health transformation. Customers prefer this service over traditional hospital wellness programmes, which are considered too clinical, and over health spas that offer only short-duration wellness services.
+
+The company targets high-net-worth individuals and charges a premium for its services. Customers become annual members by paying a membership fee. Based on their yearly usage, they earn loyalty reward points that can be redeemed as discounts on future wellness packages, strengthening long-term customer relationships.
+
+To reach potential customers, Wellspring Retreats uses its exclusive mobile application, company website, attractive hoardings across metro cities, and brochures placed in airport lounges. These channels help communicate its premium value proposition to its target market.
+
+The basic wellness package covers seven consecutive days, with customers having the option to extend their stay by paying additional charges for each extra day. Rather than purchasing expensive properties, the company has entered into a long-term lease agreement with the owner of a heritage property in Kumarakom, Kerala. This asset-light strategy enables the company to focus its financial resources on delivering superior customer experiences.
+
+Each guest is assigned a dedicated concierge who is professionally trained in luxury hospitality and basic clinical nutrition. The concierge manages the guest's transportation, diet, exercise schedule, meditation sessions, outdoor activities, entertainment, and other personalized requirements throughout the stay. These concierge professionals are full-time employees and undergo continuous training to maintain exceptional service quality.
+
+To enhance medical safety and credibility, Wellspring Retreats has partnered with Flowers Hospitals, a reputed nearby hospital, which provides on-call doctors and diagnostic facilities whenever required. The management believes in delivering outstanding personalized service without compromising on quality and has designed its Business Model Canvas to ensure every building block supports this value-driven business model.`,
+
+  questions: [
+    {
+      question: "Which are the building blocks on the Business Model Canvas that Wellspring Retreats prioritize over all else?",
+      options: [
+        "Value proposition and cost structure",
+        "Revenue stream and channel",
+        "Value proposition and customer relationships",
+        "Revenue stream and cost structure"
+      ],
+      answer: 2,
+      reason: "Wellspring Retreats follows a value-driven business model focused on delivering premium personalized wellness experiences. Therefore, the highest priority is creating an excellent value proposition and maintaining strong customer relationships rather than minimizing costs."
+    },
+    {
+      question: "Raising awareness about the personalized health-focused wellness package 'Espirit Life' through Wellspring’s website, exclusive mobile application, attractive hoardings, and brochures represents which Business Model Canvas building block?",
+      options: [
+        "Channel",
+        "Customer Relationship",
+        "Value Proposition",
+        "Key Resources"
+      ],
+      answer: 0,
+      reason: "Channels are the communication and distribution touchpoints through which a company reaches customers and delivers its value proposition. Websites, mobile applications, hoardings, and brochures are all examples of Channels."
+    },
+    {
+      question: "Which building block on the Business Model Canvas do the team of professional concierges handling premium customers represent?",
+      options: [
+        "Value Proposition",
+        "Key Resources",
+        "Key Partners",
+        "Key Activities"
+      ],
+      answer: 1,
+      reason: "The professionally trained concierge staff are essential human resources responsible for delivering the company's personalized premium service. Therefore, they are classified as Key Resources."
+    },
+    {
+      question: "Which building block on the Business Model Canvas does the tie-up with Flowers Hospitals represent?",
+      options: [
+        "Value Proposition",
+        "Key Resources",
+        "Key Partners",
+        "Key Activities"
+      ],
+      answer: 2,
+      reason: "Flowers Hospitals provides specialized medical support, including doctors and diagnostic facilities, strengthening the credibility and safety of the wellness programme. As an external organization supporting the business, it represents a Key Partner."
+    },
+    {
+      question: "Which of the following statements is true?",
+      options: [
+        "The business model is focused on maintaining a lean minimalistic cost structure. For better control, costs are determined at the beginning before the other building blocks are finalized.",
+        "The business model is focused on maintaining a lean minimalistic cost structure. For better control, costs are determined at the end after the other building blocks are finalized.",
+        "The business model is value-driven with focus on providing a high degree of personalized service. Costs are determined at the beginning before the other building blocks are finalized.",
+        "The business model is value-driven with focus on providing a high degree of personalized service. Costs are determined at the end after the other building blocks are finalized."
+      ],
+      answer: 3,
+      reason: "Wellspring Retreats follows a value-driven strategy where delivering exceptional customer experience takes priority over minimizing costs. Activities, resources, and partnerships are designed first to achieve premium service quality, and the resulting cost structure is determined afterwards."
+    }
+  ]
+},
+{
+  caseText: `Wellness Retreats is a startup operating in the medical tourism industry. In today’s fast-paced lifestyle, especially in metro cities, many professionals experience burnout and lifestyle-related health issues. To address this need, the company offers a premium wellness programme called "Espirit Life", which provides personalized health transformation. Customers prefer these retreats over traditional hospital wellness programmes, which are viewed as too clinical, and over health spas that offer only short-duration wellness services.
+
+The venture targets high-net-worth individuals and charges a premium for its services. Customers enroll as annual members and earn loyalty reward points based on their yearly usage. These points can later be redeemed as discounts on future wellness packages, encouraging repeat business and long-term customer relationships.
+
+Wellness Retreats markets its services through its exclusive mobile application, company website, attractive hoardings across metro cities, and brochures displayed in airport lounges. The standard package covers seven consecutive days, while customers may extend their stay by paying additional charges.
+
+The company follows an asset-light business model by leasing a heritage property in Kumarakom, Kerala, instead of purchasing it. This allows it to invest more resources in delivering superior customer experiences.
+
+Every guest is assigned a dedicated concierge trained in luxury hospitality and basic clinical nutrition. The concierge manages transportation, diet plans, exercise schedules, meditation sessions, outdoor activities, entertainment, and all other guest requirements. Concierge staff undergo continuous training to maintain exceptional service quality.
+
+To ensure medical safety and credibility, Wellness Retreats has partnered with Flowers Hospitals, which provides on-call doctors and diagnostic facilities whenever required. The management follows a value-driven strategy and is willing to incur higher costs to deliver outstanding personalized services.
+
+Having operated successfully for three years, the company now wishes to establish a clear connection between its strategy and performance by adopting the Performance Pyramid framework, ensuring that operational activities contribute directly to strategic objectives.`,
+
+  questions: [
+    {
+      question: "As part of the 'Espirit Life' program, customers frequently demand changes to their specialized diets based on individual health requirements. The concierge finds it increasingly difficult to accommodate these requests. This reflects a breakdown of which side of the Performance Pyramid?",
+      options: [
+        "Internal Efficiency – Waste",
+        "Internal Efficiency – Productivity",
+        "Internal Efficiency – Cycle Time",
+        "External Effectiveness – Flexibility"
+      ],
+      answer: 3,
+      reason: "The situation reflects a lack of flexibility in responding to changing customer requirements. Since flexibility measures an organization's ability to adapt its services to customer needs, this represents a breakdown in External Effectiveness rather than Internal Efficiency."
+    },
+    {
+      question: "Once a potential customer expresses interest in joining the programme, management wishes to reduce the time taken to onboard them onto the 'Espirit Life' programme. This reflects which Internal Efficiency goal at the Business Operating System level?",
+      options: [
+        "Productivity",
+        "Customer Satisfaction",
+        "Flexibility",
+        "Financial"
+      ],
+      answer: 0,
+      reason: "Reducing customer onboarding time enables employees to handle more customers with the same resources, thereby improving productivity, which is one of the Internal Efficiency measures in the Performance Pyramid."
+    },
+    {
+      question: "Which of the following is an External Effectiveness measure in the Performance Pyramid for Wellness Retreats?",
+      options: [
+        "Time taken by a concierge to complete training to deliver high-quality service",
+        "Timely and effective medical care provided by Flowers Hospitals",
+        "Time taken to process bills and invoice customers at the end of the programme",
+        "Organic food wasted in the retreat's kitchen"
+      ],
+      answer: 1,
+      reason: "The quality and timeliness of medical care directly influence customer satisfaction and perceived service quality, making it an External Effectiveness measure. The remaining options relate to internal efficiency or operational performance."
+    },
+    {
+      question: "Management decides to increase the membership fee to improve Financial performance (Level 2 of the Performance Pyramid). However, service quality does not improve, resulting in customer dissatisfaction (Level 3). If management ignores this issue, what is the most likely long-term outcome?",
+      options: [
+        "Decrease in productivity at the operational level",
+        "Decrease in flexibility at the operational level",
+        "Increase in cycle time of activities",
+        "Decrease in market performance and long-term brand equity"
+      ],
+      answer: 3,
+      reason: "The Performance Pyramid emphasizes that higher-level objectives are interrelated. Reduced customer satisfaction eventually damages market performance, customer loyalty, and long-term brand equity, ultimately affecting business sustainability."
+    },
+    {
+      question: "Management is analysing the percentage of loyalty reward points redeemed versus points expired by customers. What aspect of the Performance Pyramid is being monitored?",
+      options: [
+        "External Effectiveness: Customer Satisfaction",
+        "Internal Efficiency: Productivity",
+        "External Effectiveness: Flexibility",
+        "Internal Efficiency: Cycle Time"
+      ],
+      answer: 0,
+      reason: "A higher reward redemption rate indicates satisfied and loyal customers who intend to return for future services. Therefore, this measure reflects Customer Satisfaction, which is an External Effectiveness indicator in the Performance Pyramid."
+    }
+  ]
+},
+{
+  caseText: `Founded by Manish Jha and Keyur Vasai in 2006, Doormato is a publicly listed company operating in the food and restaurant industry. Over the years, it has developed a diversified business model with multiple revenue streams while leveraging technology and Artificial Intelligence (AI) to strengthen its competitive position in the market.
+
+Recognizing that trust is essential in online food delivery, Doormato introduced the "Food Soldier" programme. Under this initiative, company representatives personally interact with restaurant partners to resolve concerns and build long-term relationships. In addition, Doormato encourages a user-driven review system where customers share food experiences, write reviews, and create stories, fostering a strong community around food and increasing customer engagement and loyalty.
+
+With a user base of over 20 million consisting of restaurants and consumers, Doormato benefits from strong network effects. As more restaurants join the platform, customers enjoy greater choice, while restaurants gain access to a wider customer base and increased order volumes. This mutually reinforcing cycle strengthens customer loyalty and enhances Doormato's bargaining power with restaurants.
+
+One of the company's primary revenue sources is the commission charged to restaurants on every food order placed through the platform. Restaurants typically pay a commission ranging from 15% to 25% of the order value, depending on their agreement with Doormato. The company also earns commission on restaurant table reservations made through its platform.
+
+Customers are additionally charged delivery fees, which are dynamically determined based on factors such as order value and delivery location. Larger orders generally attract proportionately lower delivery charges, while deliveries to distant or less accessible locations may involve higher fees. This transparent pricing policy balances customer affordability with operational sustainability.
+
+Doormato also generates substantial revenue by offering restaurants advertising and promotional services. Restaurants can purchase featured listings, targeted advertising campaigns, and promotional deals to improve visibility and attract more customers.
+
+To encourage higher customer spending, Doormato offers prepaid vouchers. For example, a customer can purchase a ₹1,000 voucher that provides ₹1,200 worth of food credit, valid for three months. Restaurants operating on the platform may also run their own loyalty programmes, allowing customers to earn redeemable reward points. Customers can combine restaurant loyalty rewards with Doormato vouchers to maximize savings, benefiting all stakeholders through increased order volumes.
+
+The company further offers subscription-based programmes. Doormato Gold provides exclusive dining benefits and discounts at partner restaurants for a subscription fee, while Doormato Silver offers a monthly premium food and health magazine along with access to its digital content. These subscriptions provide recurring revenue while strengthening customer loyalty.
+
+Through its Business Model Canvas, Doormato aligns its value proposition, customer relationships, technology, partnerships, channels, and revenue streams to create a sustainable and scalable platform business.`,
+
+  questions: [
+    {
+      question: "Doormato’s 'Food Soldier' programme—where representatives interact personally with restaurant partners to resolve issues—is primarily linked to which component of the Business Model Canvas?",
+      options: [
+        "Key Resources",
+        "Key Partners",
+        "Customer Relationships",
+        "Channels"
+      ],
+      answer: 2,
+      reason: "The Food Soldier programme focuses on building trust, resolving issues, and strengthening long-term relationships with restaurant partners. This directly supports the Customer Relationships building block of the Business Model Canvas."
+    },
+    {
+      question: "The feature of dynamic delivery fee calculation based on order size and location primarily enhances which element of Doormato’s business model?",
+      options: [
+        "Cost Structure",
+        "Value Proposition",
+        "Revenue Streams",
+        "Key Activities"
+      ],
+      answer: 1,
+      reason: "Transparent and fair delivery pricing improves customer convenience, affordability, and trust. These benefits strengthen Doormato's Value Proposition rather than merely generating revenue."
+    },
+    {
+      question: "Doormato’s Gold and Silver subscription programmes generate regular revenue while providing exclusive benefits to customers. These are best categorized under:",
+      options: [
+        "Key Activities",
+        "Revenue Streams",
+        "Customer Segments",
+        "Value Proposition"
+      ],
+      answer: 1,
+      reason: "Subscription fees received from Gold and Silver memberships provide recurring income to the company and therefore represent Revenue Streams in the Business Model Canvas."
+    },
+    {
+      question: "The partnership between Doormato and restaurants to feature them prominently in search results or advertising campaigns relates to which component of the Business Model Canvas?",
+      options: [
+        "Key Partners",
+        "Channels",
+        "Key Activities",
+        "Value Proposition"
+      ],
+      answer: 0,
+      reason: "Restaurants collaborate with Doormato by participating in advertising, promotions, and featured listings. Such strategic collaborations represent Key Partners in the Business Model Canvas."
+    },
+    {
+      question: "Maintaining and upgrading the Doormato app and website, along with managing secure payment systems, are examples of:",
+      options: [
+        "Channels",
+        "Key Resources",
+        "Key Activities",
+        "Cost Structure"
+      ],
+      answer: 2,
+      reason: "Maintaining technology infrastructure and ensuring secure transactions are ongoing operational processes that are essential for delivering the company's services. Therefore, they are Key Activities."
+    },
+    {
+      question: "Doormato’s wide selection of cuisines and restaurant options refers to which element of its business model?",
+      options: [
+        "Key Resources",
+        "Channels",
+        "Customer Relationships",
+        "Value Proposition"
+      ],
+      answer: 3,
+      reason: "Providing customers with a broad choice of restaurants and cuisines increases convenience and customer satisfaction, making it a key part of Doormato's Value Proposition."
+    },
+    {
+      question: "Doormato incurs expenses for delivery personnel, app maintenance, and 'Food Soldier' operations. These would be recorded under:",
+      options: [
+        "Revenue Streams",
+        "Key Partners",
+        "Cost Structure",
+        "Customer Segments"
+      ],
+      answer: 2,
+      reason: "Expenses incurred for delivery operations, technology maintenance, and customer support activities are recurring operational costs and therefore form part of the company's Cost Structure."
+    },
+    {
+      question: "Doormato’s decision to invest in AI-based customer preference analytics to recommend restaurants and cuisines is primarily associated with which element of the Business Model Canvas?",
+      options: [
+        "Key Partners",
+        "Key Resources",
+        "Customer Segments",
+        "Channels"
+      ],
+      answer: 1,
+      reason: "AI technology, analytics capabilities, and customer data are strategic assets that enable personalized recommendations and competitive advantage. Hence, they are classified as Key Resources."
+    }
+  ]
+},
+{
+  caseText: `Fitness Solution is a family-owned fitness club founded in 2010 by Peter and Albert with traditional-style fitness equipment. The club commenced operations in February 2011 inside a shopping mall, allowing members to conveniently combine their workouts with shopping, dining, picking up their children from enrichment classes, or visiting the cinema.
+
+Peter and Albert take pride in providing highly personalized fitness programmes. Before designing a workout plan, they consider each member's medical history, current fitness level, fitness goals, and personal interests. They also provide several value-added amenities that are often difficult to find in larger commercial fitness centres.
+
+The founders strongly believe that every individual is unique and therefore requires a customized fitness programme tailored to his or her specific needs. This customer-centric approach has helped the club build a loyal membership base despite offering mainly traditional fitness equipment rather than the latest high-tech machines.
+
+The day-to-day operations are managed personally by Peter and Albert with the support of a small team of permanent employees and temporary staff. To ensure long-term success in a highly competitive fitness industry characterized by low entry barriers and price competition, the owners intend to evaluate performance using the Balanced Scorecard framework by measuring financial performance, customer satisfaction, internal business processes, and innovation & learning.`,
+
+  questions: [
+    {
+      question: "Which of the following is one of the Critical Success Factors (CSFs) for Fitness Solution?",
+      options: [
+        "Expanding into new cities",
+        "Maintaining a high level of customer satisfaction",
+        "Introducing only low-cost gym memberships",
+        "Hiring celebrity trainers for branding"
+      ],
+      answer: 1,
+      reason: "Fitness Solution differentiates itself through personalized service and customized fitness programmes. Maintaining high customer satisfaction is therefore a critical success factor that supports member retention and long-term profitability."
+    },
+    {
+      question: "Which of the following best explains why Fitness Solution must keep tight control over costs?",
+      options: [
+        "To attract only high-income members",
+        "Because most gyms are non-profit organizations",
+        "Because the fitness industry has low entry barriers and strong price competition",
+        "Because the owners want to reduce tax liabilities"
+      ],
+      answer: 2,
+      reason: "The fitness industry has relatively low entry barriers, allowing new competitors to enter easily. Strong competition makes cost control essential for maintaining profitability while remaining competitively priced."
+    },
+    {
+      question: "Under the Financial Perspective of the Balanced Scorecard, which measure would help evaluate operational efficiency?",
+      options: [
+        "Number of equipment available",
+        "Number of staff participating in training",
+        "Customer satisfaction rate",
+        "Cash flow"
+      ],
+      answer: 3,
+      reason: "Cash flow is a key financial performance measure because it reflects the club's ability to generate sufficient funds from its operations and sustain its business activities."
+    },
+    {
+      question: "Which measure under the Customer Perspective best indicates loyalty and retention?",
+      options: [
+        "Turnover rate among members",
+        "Number of new equipment purchased",
+        "Employee complaint rate",
+        "Staff training hours"
+      ],
+      answer: 0,
+      reason: "The member turnover rate measures how many customers discontinue their memberships. Lower turnover indicates stronger customer loyalty and higher satisfaction."
+    },
+    {
+      question: "Why is Customer Satisfaction Rate an essential measure for Fitness Solution?",
+      options: [
+        "It reflects how well the club meets member expectations",
+        "It determines the total equipment cost per month",
+        "It measures energy consumption of the gym",
+        "It ensures compliance with safety regulations"
+      ],
+      answer: 0,
+      reason: "Customer satisfaction measures whether the club's personalized programmes, facilities, and services meet or exceed member expectations, directly influencing retention and referrals."
+    },
+    {
+      question: "Which of the following is an appropriate Internal Business Process measure for Fitness Solution?",
+      options: [
+        "Operating expenses relative to budget",
+        "Number of equipment unavailable due to maintenance",
+        "Number of members enrolled in loyalty programmes",
+        "Cash outflow"
+      ],
+      answer: 1,
+      reason: "Equipment downtime directly affects service quality, member experience, and operational efficiency. Therefore, it is an important Internal Business Process performance measure."
+    },
+    {
+      question: "Which measure under the Innovation and Learning Perspective reflects the organization's commitment to continuous improvement?",
+      options: [
+        "Number of staff participating in training courses",
+        "Turnover rate among members",
+        "Operating expenses relative to budget",
+        "Cash inflow"
+      ],
+      answer: 0,
+      reason: "Employee training enhances knowledge, skills, and service quality. Continuous learning ensures that staff remain updated with modern fitness practices and customer service standards."
+    },
+    {
+      question: "Why is the Number of new equipment put into service a suitable measure for the Innovation and Learning Perspective?",
+      options: [
+        "It increases depreciation expenses",
+        "It reduces customer satisfaction",
+        "It reflects investment in innovation and modernization",
+        "It measures the club's advertising effectiveness"
+      ],
+      answer: 2,
+      reason: "Introducing new fitness equipment demonstrates investment in modernization, innovation, and continuous improvement, helping the club remain competitive and enhance member experience."
+    }
+  ]
+},
+
+{
+  caseText: `Hindustan Bikes Ltd. (HBL), formerly known as HELCO, is an Indian multinational company headquartered in Bengaluru. Established in 1990 as a locomotive manufacturer, the company has grown into a publicly listed multinational enterprise whose shares are traded on both Indian and international stock exchanges. HBL is a subsidiary of the Hindustan Group.
+
+The management is committed to building a strong quality culture across the organization based on the philosophy: "Do the right things, right the first time, every time." To achieve this objective, the company regularly measures and analyzes the Cost of Quality by classifying quality-related expenditures into Prevention Costs, Appraisal Costs, Internal Failure Costs, and External Failure Costs.
+
+During the most recent month, the company incurred the following quality-related costs and activities:
+
+• Customer Support Centre Cost: ₹35 per hour
+• Equipment Testing Cost: ₹18 per hour
+• Warranty Repair Cost: ₹1,560 per bike
+• Manufacturing Rework Cost: ₹228 per bike
+
+Operational data for the month included:
+• Bikes requiring manufacturing rework: 3,200 bikes
+• Bikes requiring warranty repairs: 2,600 bikes
+• Equipment testing time: 1,600 hours
+• Customer support centre time: 2,000 hours
+
+Additionally, HBL conducted a quality review of its existing suppliers at a cost of ₹1,25,000 to improve incoming material quality. Due to quality-related production issues, the manufacturing line also experienced unproductive downtime costing ₹7,70,000.
+
+The company intends to evaluate these expenditures using the Cost of Quality framework to identify opportunities for preventing defects, improving quality, reducing failure costs, and enhancing overall operational performance.`,
+
+  questions: [
+    {
+      question: "Which of the following is considered a Prevention Cost for Hindustan Bikes Ltd. during the month?",
+      options: [
+        "Manufacturing rework cost",
+        "Customer support centre cost",
+        "Cost of quality review of existing suppliers",
+        "Equipment testing cost"
+      ],
+      answer: 2,
+      reason: "Prevention costs are incurred to avoid quality defects before they occur. Reviewing and evaluating suppliers improves the quality of incoming materials and helps prevent defects, making it a Prevention Cost."
+    },
+    {
+      question: "Which of the following costs would be classified as an Appraisal Cost?",
+      options: [
+        "Warranty repair cost",
+        "Equipment testing cost",
+        "Cost of supplier review",
+        "Production line downtime cost"
+      ],
+      answer: 1,
+      reason: "Appraisal costs relate to inspection, testing, and quality verification activities. Equipment testing is performed to identify defects before products reach customers and is therefore an Appraisal Cost."
+    },
+    {
+      question: "Which of the following represents an Internal Failure Cost?",
+      options: [
+        "Cost of warranty repairs",
+        "Downtime cost of production line",
+        "Cost of manufacturing rework",
+        "Customer support cost"
+      ],
+      answer: 2,
+      reason: "Internal failure costs arise when defects are identified before the product is delivered to customers. Manufacturing rework is required to correct defective products internally and is therefore an Internal Failure Cost."
+    },
+    {
+      question: "Which cost qualifies as an External Failure Cost?",
+      options: [
+        "Warranty repair cost",
+        "Equipment testing cost",
+        "Cost of supplier review",
+        "Downtime of production line"
+      ],
+      answer: 0,
+      reason: "External failure costs occur after products have reached customers. Warranty repair costs arise because defective products require repair after sale and therefore represent External Failure Costs."
+    },
+    {
+      question: "Calculate the Total Quality Cost for the month.",
+      options: [
+        "₹57,79,400",
+        "₹49,39,400",
+        "₹65,00,000",
+        "₹55,00,000"
+      ],
+      answer: 0,
+      reason: "Total Quality Cost = Prevention Cost (₹1,25,000) + Appraisal Cost [₹18 × 1,600 = ₹28,800] + Internal Failure Costs [Downtime ₹7,70,000 + Rework ₹228 × 3,200 = ₹7,29,600] + External Failure Costs [Customer Support ₹35 × 2,000 = ₹70,000 + Warranty Repairs ₹1,560 × 2,600 = ₹40,56,000] = ₹57,79,400."
+    }
+  ]
+},
+{
+  caseText: `Precision Motors Pvt. Ltd. is a leading manufacturer of automobile engine components. To improve product quality and reduce production losses, the company conducted a month-long quality inspection of its cylinder head production line. The objective of the inspection was to identify the most common defects responsible for rework, scrap, and customer complaints.
+
+During the inspection, the quality team recorded the following defects:
+
+• Surface scratches on metal – 110 instances
+• Rough edges after milling – 70 instances
+• Uneven surface grinding – 60 instances
+• Paint/Coating colour mismatch – 25 instances
+• Incorrect valve seat machining – 20 instances
+• Bolt hole misalignment – 10 instances
+• Oil stains on finished parts – 5 instances
+
+The management plans to use Pareto Analysis (80:20 Principle) to identify the "vital few" defect categories that contribute to the majority of quality problems. By concentrating improvement efforts on the most significant defects, the company aims to reduce rework costs, minimize scrap, improve production efficiency, and enhance overall product quality.`,
+
+  questions: [
+    {
+      question: "Which defect type was recorded most frequently during the inspection?",
+      options: [
+        "Rough edges after milling",
+        "Uneven surface grinding",
+        "Surface scratches on metal",
+        "Incorrect valve seat machining"
+      ],
+      answer: 2,
+      reason: "Surface scratches on metal occurred 110 times, which is the highest among all recorded defects. Therefore, it ranks first in the Pareto analysis."
+    },
+    {
+      question: "If Pareto analysis is applied, which three defects should be prioritized to potentially address 80% of the total quality issues?",
+      options: [
+        "Surface scratches on metal, Rough edges after milling, Uneven surface grinding",
+        "Surface scratches on metal, Paint/Coating colour mismatch, Oil stains on finished parts",
+        "Rough edges after milling, Bolt hole misalignment, Paint/Coating colour mismatch",
+        "Uneven surface grinding, Incorrect valve seat machining, Oil stains on finished parts"
+      ],
+      answer: 0,
+      reason: "After arranging defects in descending order, the top three are Surface scratches on metal (110), Rough edges after milling (70), and Uneven surface grinding (60). Together they account for 240 out of 300 total defects, or 80%, making them the 'vital few' defects requiring immediate attention."
+    },
+    {
+      question: "What is the total number of defects recorded during the inspection period?",
+      options: [
+        "285",
+        "300",
+        "295",
+        "310"
+      ],
+      answer: 1,
+      reason: "Total defects = 110 + 70 + 60 + 25 + 20 + 10 + 5 = 300 defects."
+    },
+    {
+      question: "In a Pareto chart for this data, the cumulative percentage after the top two defects will be:",
+      options: [
+        "36.67%",
+        "60%",
+        "80%",
+        "88.33%"
+      ],
+      answer: 1,
+      reason: "The top two defects are Surface scratches on metal (110) and Rough edges after milling (70), giving a cumulative frequency of 180 defects. Therefore, cumulative percentage = (180 ÷ 300) × 100 = 60%."
+    },
+    {
+      question: "If management focuses on eliminating the top three defect types, the maximum possible reduction in total defects could be:",
+      options: [
+        "36.67%",
+        "80%",
+        "60%",
+        "88.33%"
+      ],
+      answer: 1,
+      reason: "The top three defects together account for 240 out of 300 defects. Therefore, eliminating these defects could potentially reduce total defects by (240 ÷ 300) × 100 = 80%, which reflects the Pareto Principle."
+    }
+  ]
+},
+{
+  caseText: `
+<p><strong>Bluebean Coffee</strong> wishes to expand into new geographical markets. However, the company has limited cash available and can therefore afford only a low upfront investment. Because of this financial constraint, the management accepts that market entry will be at a medium pace rather than a rapid expansion.</p>
+
+<p>The company has an experienced management team that possesses strong knowledge of handling the complexities of market expansion. Therefore, the management wants to remain actively involved in the expansion process rather than completely transferring responsibility to another party.</p>
+
+<p>In the context of expansion, Bluebean Coffee follows <strong>Responsibility Accounting</strong>, where performance reports play an important role by informing responsibility centre managers about budgetary deviations, enabling them to take corrective action and maintain accountability. However, the management mistakenly believes that performance reports can be reviewed at any time instead of following a structured review schedule.</p>
+
+<p>While preparing its performance reports, Bluebean Coffee focuses on the following aspects:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Performance Report Focus Area</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Aligning objectives with organizational goals</td>
+        </tr>
+        <tr>
+            <td>Providing an executive summary</td>
+        </tr>
+        <tr>
+            <td>Ensuring the reliability of report details</td>
+        </tr>
+        <tr>
+            <td>Conducting employee training programmes</td>
+        </tr>
+    </tbody>
+</table>
+
+<p><strong>JavaJoy Coffee</strong> is a competitor operating in the same industry with similar size and resources. Like Bluebean Coffee, it also intends to expand into new geographical markets. However, JavaJoy follows a much more aggressive expansion strategy.</p>
+
+<p>Unlike Bluebean Coffee, JavaJoy relies extensively on external consultants and market research firms to support strategic decision-making. Although its management has considerable industry experience, it supplements internal expertise with external professional advice to gain broader market insights and specialized knowledge.</p>
+`,
+
+  questions: [
+    {
+      question: "Which of the following modes of entry is best suited to Bluebean Coffee's constraints and requirements?",
+      options: [
+        "Licensing",
+        "Acquisition",
+        "Joint Venture",
+        "Strategic Alliance"
+      ],
+      answer: 3,
+      reason: "A Strategic Alliance requires relatively low upfront investment while allowing the company to share resources, expertise, and capabilities with another organization. It also permits management involvement and provides a medium-speed market entry, making it the most suitable option for Bluebean Coffee."
+    },
+    {
+      question: "What factor most likely explains the performance difference between JavaJoy Coffee and Bluebean Coffee?",
+      options: [
+        "Luck and random chance",
+        "Differences in structure, culture, and strategy",
+        "Government regulations",
+        "Actions of individual employees"
+      ],
+      answer: 1,
+      reason: "Organizations with similar resources can still perform differently because of variations in their organizational structure, corporate culture, and business strategy. Bluebean adopts a conservative, internally focused approach, whereas JavaJoy follows a more aggressive strategy and supplements internal expertise with external consultants."
+    },
+    {
+      question: "How does the issuance of performance reports align with Responsibility Accounting in Bluebean Coffee?",
+      options: [
+        "By informing responsibility centre managers of deviations from budgets",
+        "By focusing only on financial performance metrics",
+        "By delegating performance evaluation solely to the internal management team",
+        "By ignoring managerial accountability"
+      ],
+      answer: 0,
+      reason: "Performance reports communicate budgetary variances to responsibility centre managers, enabling them to take corrective actions and maintain accountability for their respective areas of responsibility."
+    },
+    {
+      question: "Which of the following should typically not be involved in the preparation of performance reports at Bluebean Coffee?",
+      options: [
+        "Establishing objectives aligned with organizational goals",
+        "Adding an executive summary",
+        "Cross-checking details for reliability",
+        "Conducting employee training programmes"
+      ],
+      answer: 3,
+      reason: "Preparing performance reports involves defining objectives, presenting an executive summary, ensuring reliable information, and assessing performance. Employee training programmes are not part of the report preparation process."
+    },
+    {
+      question: "To ensure timely corrective action based on the review of performance reports, which of the following statements is/are correct?<br><br>i. Performance reports can be reviewed anytime after receipt.<br>ii. Performance reports should be reviewed monthly.<br>iii. Performance reports may be reviewed quarterly.<br>iv. Performance reports may be reviewed annually.",
+      options: [
+        "i only",
+        "ii and iii only",
+        "ii, iii and iv only",
+        "iii and iv only"
+      ],
+      answer: 2,
+      reason: "Performance reports should be reviewed according to predetermined timeframes such as monthly, quarterly, or annually to identify trends and facilitate timely corrective action. Reviewing reports 'anytime' without a structured schedule is not appropriate."
+    }
+  ]
+},
+{
+  caseText: `
+<p><strong>Ceber</strong> is a ride-sharing company that was once the market leader and currently operates across India. Its operations are divided into four geographical regions—North, South, East, and West—with each region managed by a regional office. The company's Head Office is located in Gurgaon, where the senior management team is based.</p>
+
+<p>Recently, Ceber has faced several operational challenges due to poor coordination between the regional offices and the Head Office. Important decisions relating to regional market expansion, driver remuneration, and fleet maintenance were taken independently without proper oversight from senior management. These issues resulted in customer dissatisfaction, declining brand value, high driver attrition due to non-compliance with service contracts, and deterioration in the condition of the vehicle fleet. Consequently, the company experienced a decline in business performance and market share.</p>
+
+<p>Growing investor dissatisfaction forced the resignation of the Chief Executive Officer (CEO), following which <strong>Mr. Tim</strong> was appointed as the new CEO. The company's operational failures have negatively affected revenue, profitability, and shareholder value. Mr. Tim's primary objective is to stabilize the organization, restore investor confidence, and ensure the long-term success and sustainability of the business.</p>
+
+<p>To evaluate whether Ceber is creating value for its shareholders, Mr. Tim decides to use <strong>Economic Value Added (EVA)</strong>, a performance measure that assesses whether the company's operating profits exceed the cost of capital employed.</p>
+
+<p>One year after Mr. Tim assumed charge, Ceber reported the following financial information:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Particulars</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Net Operating Profit Before Interest & Taxes (EBIT)</td>
+            <td>₹50,00,000</td>
+        </tr>
+        <tr>
+            <td>Depreciation Expenses</td>
+            <td>₹10,00,000</td>
+        </tr>
+        <tr>
+            <td>Change in Net Working Capital</td>
+            <td>₹15,00,000</td>
+        </tr>
+        <tr>
+            <td>Capital Expenditure</td>
+            <td>₹20,00,000</td>
+        </tr>
+        <tr>
+            <td>Total Invested Capital</td>
+            <td>₹2,50,00,000</td>
+        </tr>
+        <tr>
+            <td>Weighted Average Cost of Capital (WACC)</td>
+            <td>12%</td>
+        </tr>
+        <tr>
+            <td>Corporate Tax Rate</td>
+            <td>30%</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Mr. Tim is committed to building a workforce that contributes to organizational success, improved coordination, sustainable growth, and enhanced shareholder value.</p>
+`,
+
+  questions: [
+    {
+      question: "In terms of McKinsey’s 7-S Framework, which of the following best reflects the <strong>Structure</strong> dimension while implementing change at Ceber?",
+      options: [
+        "Evaluating whether the decentralized model of Ceber should be shifted to a more centralized structure",
+        "Resolving inter-group conflicts and building consensus through effective communication",
+        "Improving the speed of customer feedback to refine strategies",
+        "Removing obstacles that cause employees to resist the change process"
+      ],
+      answer: 0,
+      reason: "The Structure element of McKinsey's 7-S Framework focuses on organizational hierarchy, reporting relationships, authority, and decision-making mechanisms. Evaluating whether Ceber should move from a decentralized to a centralized organizational structure directly addresses this dimension."
+    },
+    {
+      question: "Which perspective of the Balanced Scorecard should Mr. Tim primarily focus on to improve Ceber’s revenue, profitability, and shareholder value?",
+      options: [
+        "Financial",
+        "Customer",
+        "Internal Business Processes",
+        "Learning and Growth"
+      ],
+      answer: 0,
+      reason: "The Financial Perspective of the Balanced Scorecard measures outcomes such as revenue growth, profitability, return on investment, and shareholder value. Since Mr. Tim aims to improve these financial outcomes, the Financial Perspective is the primary focus."
+    },
+    {
+      question: "What is Ceber’s Economic Value Added (EVA) for the year?",
+      options: [
+        "₹50,00,000",
+        "₹35,00,000",
+        "₹38,00,000",
+        "₹5,00,000"
+      ],
+      answer: 3,
+      reason: "NOPAT = EBIT × (1 − Tax Rate) = ₹50,00,000 × 70% = ₹35,00,000. Capital Charge = Invested Capital × WACC = ₹2,50,00,000 × 12% = ₹30,00,000. Therefore, EVA = NOPAT − Capital Charge = ₹35,00,000 − ₹30,00,000 = ₹5,00,000."
+    },
+    {
+      question: "Economic Value Added (EVA) is primarily used to assess:",
+      options: [
+        "Accounting profit adjusted for tax benefits",
+        "Shareholder wealth creation after considering the cost of capital",
+        "Operating profit before interest and taxes",
+        "Net profit after tax adjusted for depreciation"
+      ],
+      answer: 1,
+      reason: "Economic Value Added measures the economic profit generated after deducting the cost of capital from Net Operating Profit After Tax (NOPAT). It indicates whether the company has created value for shareholders beyond the minimum required return on invested capital."
+    },
+    {
+      question: "Which of the following represents a primary activity in Ceber’s Value Chain?",
+      options: [
+        "Human resources and training",
+        "Upgrading the Ceber mobile application",
+        "Vehicle maintenance and inspection",
+        "Legal and regulatory compliance"
+      ],
+      answer: 2,
+      reason: "Primary activities directly contribute to delivering the company's core service. Vehicle maintenance and inspection ensure safe and reliable ride-sharing services and therefore form part of Ceber's primary activities. Human resources, technology development, and legal functions are support activities."
+    }
+  ]
+},
+{
+  caseText: `
+<p><strong>Fresh Milk Enterprises (FME)</strong> is a leading company in the dairy industry, widely recognized for delivering premium-quality dairy products sourced directly from trusted farms. The company has built a strong reputation among health-conscious consumers and gourmet chefs due to its commitment to freshness, purity, and nutritional quality.</p>
+
+<p>The company's market leadership has been built around the following Critical Success Factors (CSFs):</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Critical Success Factor</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Quality</td>
+            <td>Rigorous quality control ensures freshness, purity, and nutritional integrity of every product.</td>
+        </tr>
+        <tr>
+            <td>Customer Satisfaction</td>
+            <td>Products are designed to satisfy health-conscious consumers as well as gourmet chefs demanding premium quality.</td>
+        </tr>
+        <tr>
+            <td>Supply Chain Efficiency</td>
+            <td>Direct procurement from reliable farms ensures freshness, traceability, and efficient quality control.</td>
+        </tr>
+        <tr>
+            <td>Brand Reputation</td>
+            <td>FME is known for premium quality and reliability, resulting in strong customer confidence and loyalty.</td>
+        </tr>
+        <tr>
+            <td>Innovation</td>
+            <td>Continuous improvement through modern packaging technology and efficient distribution systems.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Recently, intense market competition forced FME to reduce the selling price of its products. To support this strategy, management decided to purchase milk from large-scale milk producers instead of sourcing directly from farmers. Although this significantly reduced procurement costs, it also resulted in a decline in product quality.</p>
+
+<p>After implementation, the company's demand pattern changed. Gourmet chefs, who were previously the most profitable customer segment, gradually shifted to competing brands because FME's products no longer met their premium quality expectations.</p>
+
+<p>At the same time, FME invested in automation across its manufacturing facilities. Automated production increased manufacturing speed and operational efficiency. However, operating the new machinery required highly skilled employees, resulting in higher labour costs than before.</p>
+
+<p>Following these strategic changes, management prepared new standards and budgets. The Management Information System (MIS) reported the following variances:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Variance</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Sales Volume Variance</td>
+            <td>₹15,000 (Favourable)</td>
+        </tr>
+        <tr>
+            <td>Sales Mix Variance</td>
+            <td>₹7,500 (Adverse)</td>
+        </tr>
+        <tr>
+            <td>Direct Material Price Variance</td>
+            <td>₹9,200 (Favourable)</td>
+        </tr>
+        <tr>
+            <td>Direct Labour Rate Variance</td>
+            <td>₹6,800 (Adverse)</td>
+        </tr>
+        <tr>
+            <td>Variable Overhead Efficiency Variance</td>
+            <td>₹4,300 (Favourable)</td>
+        </tr>
+    </tbody>
+</table>
+`,
+
+  questions: [
+    {
+      question: "What is the primary Critical Success Factor (CSF) for Fresh Milk Enterprises (FME)?",
+      options: [
+        "Price competitiveness",
+        "Supply chain efficiency",
+        "Quality",
+        "Customer base expansion"
+      ],
+      answer: 2,
+      reason: "FME has built its brand and competitive advantage on delivering premium-quality dairy products. Quality is the foundation of its reputation and is therefore the company's primary Critical Success Factor, while the remaining factors support this objective."
+    },
+    {
+      question: "The Sales Mix Variance of FME is ₹7,500 (Adverse). What does this indicate?",
+      options: [
+        "FME sold more products than anticipated, leading to higher overall revenue.",
+        "There was a shift in the proportion of product sales compared to the budgeted mix, resulting in lower revenue than expected.",
+        "Operating costs related to sales activities exceeded budgeted amounts.",
+        "The efficiency of variable overhead costs improved due to enhanced production methods."
+      ],
+      answer: 1,
+      reason: "An adverse Sales Mix Variance indicates that the actual combination of products or customer segments sold differed from the planned mix. In this case, the company lost high-margin gourmet chef customers after compromising product quality, reducing overall profitability despite maintaining sales."
+    },
+    {
+      question: "The Direct Labour Rate Variance of FME is ₹6,800 (Adverse). What does this primarily indicate?",
+      options: [
+        "FME experienced higher-than-expected labour costs per unit of production.",
+        "There was an increase in labour efficiency, resulting in lower overall labour costs.",
+        "The actual number of labour hours used exceeded the budgeted amount.",
+        "Direct labour costs were lower due to reduced overtime expenses."
+      ],
+      answer: 0,
+      reason: "Direct Labour Rate Variance compares the actual wage rate with the standard wage rate. Since FME hired more highly skilled employees to operate automated machinery, the actual labour rate exceeded the standard rate, resulting in an adverse variance."
+    },
+    {
+      question: "The Variable Overhead Efficiency Variance for FME is ₹4,300 (Favourable). What does this variance suggest about FME's operations?",
+      options: [
+        "FME incurred higher-than-expected variable overhead costs due to increased production.",
+        "There was an improvement in the efficiency of using variable overhead resources compared to the standard.",
+        "Variable overhead costs were exactly as budgeted, with no deviations.",
+        "FME's variable overhead costs were lower due to renegotiated supplier contracts."
+      ],
+      answer: 1,
+      reason: "A favourable Variable Overhead Efficiency Variance indicates that fewer labour or machine hours were used than the standard for the actual level of production. The company's investment in automation improved production efficiency and reduced resource consumption."
+    },
+    {
+      question: "Which of the following correctly captures the potential conflict between management decisions and the company's overall objective?",
+      options: [
+        "Sales Mix Variance is ₹7,500 (Adverse) while Direct Material Price Variance is ₹9,200 (Favourable).",
+        "Direct Labour Rate Variance is ₹6,800 (Adverse) while Direct Material Price Variance is ₹9,200 (Favourable).",
+        "Direct Labour Rate Variance is ₹6,800 (Adverse) while Variable Overhead Efficiency Variance is ₹4,300 (Favourable).",
+        "Sales Mix Variance is ₹7,500 (Adverse) while Variable Overhead Efficiency Variance is ₹4,300 (Favourable)."
+      ],
+      answer: 0,
+      reason: "Management reduced material costs by purchasing lower-quality milk, resulting in a favourable Direct Material Price Variance. However, this compromised product quality, causing profitable gourmet chefs to leave and generating an adverse Sales Mix Variance. This demonstrates a conflict between short-term cost reduction and FME's long-term objective of maintaining premium quality."
+    },
+    {
+      question: "Which of the following shows synergy between management decisions and the company's overall objective?",
+      options: [
+        "Sales Mix Variance is ₹7,500 (Adverse) while Direct Material Price Variance is ₹9,200 (Favourable).",
+        "Direct Labour Rate Variance is ₹6,800 (Adverse) while Direct Material Price Variance is ₹9,200 (Favourable).",
+        "Direct Labour Rate Variance is ₹6,800 (Adverse) while Variable Overhead Efficiency Variance is ₹4,300 (Favourable).",
+        "Sales Mix Variance is ₹7,500 (Adverse) while Variable Overhead Efficiency Variance is ₹4,300 (Favourable)."
+      ],
+      answer: 2,
+      reason: "Although skilled employees increased labour costs, they successfully operated automated machinery, resulting in improved production efficiency. The adverse Labour Rate Variance is therefore complemented by a favourable Variable Overhead Efficiency Variance, demonstrating that higher labour costs generated operational benefits."
+    },
+    {
+      question: "Following its strategic decision to lower prices to current market rates, FME's Sales Volume Variance is ₹15,000 (Favourable) but Sales Mix Variance is ₹7,500 (Adverse). Which of the following is the most appropriate conclusion?",
+      options: [
+        "The price reduction is an unqualified success since it resulted in higher sales volume despite an adverse sales mix.",
+        "The price reduction is a failure because the adverse sales mix variance reflects erosion of the customer base across all customer segments.",
+        "The favourable Sales Volume Variance suggests that the market is price sensitive, but the adverse Sales Mix Variance indicates erosion of high-yielding profitable customers.",
+        "The given information is insufficient to draw any conclusion."
+      ],
+      answer: 2,
+      reason: "The favourable Sales Volume Variance shows that lower prices attracted more customers, indicating that demand is price sensitive. However, the adverse Sales Mix Variance reveals that profitable gourmet chef customers switched to competitors because product quality declined. Therefore, the pricing strategy increased volume but reduced the quality of the customer mix and overall profitability."
+    }
+  ]
+},
+{
+  caseText: `
+<p><strong>Akanksha Foundation</strong> is a non-profit organization dedicated to transforming the lives of children from low-income communities in India through quality education. Operating from a strategic location near major business hubs, the foundation runs schools and educational centres that focus on academic excellence, character development, and the holistic growth of underserved children. Its mission is to empower students with the knowledge, skills, and opportunities required to break the cycle of poverty.</p>
+
+<p>The foundation works in partnership with various stakeholders to create sustainable social impact. The performance of Akanksha Foundation is significantly influenced by government policies, funding support, educational regulations, curriculum approvals, and operational permissions.</p>
+
+<p>Akanksha Foundation receives financial support consistently from both local and international donors. Since the donor base remains relatively stable, the organization places great importance on transparency and accountability by measuring and reporting its performance to demonstrate the effective utilization of funds.</p>
+
+<p>The foundation evaluates its performance using the following measures:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Performance Measure</th>
+            <th>Purpose</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Improvement in students' academic performance and character development</td>
+            <td>Measures the effectiveness of educational programmes.</td>
+        </tr>
+        <tr>
+            <td>Cost per student educated and cost per programme implemented</td>
+            <td>Evaluates the efficiency of utilizing available resources.</td>
+        </tr>
+        <tr>
+            <td>Negotiating favourable prices for educational materials and collaborating with local communities and businesses</td>
+            <td>Improves economy by minimizing operational costs while maintaining educational quality.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>After evaluating these performance measures, the management seeks guidance on interpreting the results and implementing suitable corrective actions wherever necessary.</p>
+`,
+
+  questions: [
+    {
+      question: "Which of the following performance measures would be most appropriate for the Akanksha Foundation to utilize?",
+      options: [
+        "Financial Statements",
+        "Internal Communications",
+        "Staff Turnover Rate",
+        "Board Meeting Frequency"
+      ],
+      answer: 0,
+      reason: "Financial statements demonstrate how funds received from donors are utilized and provide transparency and accountability. They are therefore the most appropriate performance measure for a not-for-profit organization like Akanksha Foundation."
+    },
+    {
+      question: "The performance of not-for-profit organizations like Akanksha Foundation largely depends on what factor?",
+      options: [
+        "Commitment of donors",
+        "Commitment of the state (or government)",
+        "International support",
+        "Location of operations"
+      ],
+      answer: 1,
+      reason: "Government commitment plays a crucial role in the success of educational non-profit organizations through funding support, educational policies, regulatory approvals, curriculum standards, and operational permissions."
+    },
+    {
+      question: "Which model has Akanksha Foundation used to measure its performance?",
+      options: [
+        "Value for Money (VFM) Framework",
+        "Adapted Balanced Scorecard",
+        "Theory of Change",
+        "Outcome Mapping"
+      ],
+      answer: 0,
+      reason: "The foundation evaluates effectiveness (achievement of objectives), efficiency (optimal use of resources), and economy (obtaining quality inputs at minimum cost), which are the three components of the Value for Money (VFM) Framework."
+    },
+    {
+      question: "The outcome of the performance measurement by Akanksha Foundation is called ________.",
+      options: [
+        "Performance Report",
+        "Impact Assessment",
+        "Results Evaluation",
+        "Effectiveness Analysis"
+      ],
+      answer: 0,
+      reason: "The documented outcome of performance measurement is known as a Performance Report. It summarizes actual performance, compares it with planned objectives, and highlights areas requiring managerial attention."
+    },
+    {
+      question: "What action should the recipient of the above outcome of the performance measurement undertake?",
+      options: [
+        "Take action in case of unfavourable variance",
+        "Take action in case of both favourable and unfavourable variance",
+        "Share the results with stakeholders",
+        "Publish the findings in academic journals"
+      ],
+      answer: 0,
+      reason: "The primary purpose of reviewing a performance report is to identify unfavourable variances and initiate corrective actions to improve future performance."
+    },
+    {
+      question: "Based on the performance report, if Akanksha Foundation revises its teaching methods to help students improve their academic performance, which component of the Value for Money framework is it trying to improve?",
+      options: [
+        "Effectiveness",
+        "Efficiency",
+        "Economy",
+        "Corporate Social Responsibility"
+      ],
+      answer: 0,
+      reason: "Revising teaching methods aims to improve educational outcomes and achievement of organizational objectives. This reflects the Effectiveness component of the Value for Money Framework."
+    },
+    {
+      question: "Based on the performance report, if Akanksha Foundation increases the class strength by 50%, which component of the Value for Money framework is it trying to improve?",
+      options: [
+        "Effectiveness",
+        "Efficiency",
+        "Economy",
+        "Corporate Social Responsibility"
+      ],
+      answer: 1,
+      reason: "Increasing the number of students taught using the same infrastructure and teaching resources enables greater output from existing inputs. This improves the Efficiency component of the Value for Money Framework."
+    }
+  ]
+},
+{
+  caseText: `
+<p><strong>Vinotech Inc.</strong> is a well-established wine producer known for manufacturing premium-quality wines. To strengthen its supply chain and ensure a consistent supply of high-quality grapes, the company has expanded its operations across the entire value chain.</p>
+
+<p>As part of its growth strategy, Vinotech has undertaken several strategic initiatives:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Strategic Initiative</th>
+            <th>Business Purpose</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Acquired competitors' vineyards</td>
+            <td>Ensures a consistent supply of quality grapes and strengthens control over raw materials.</td>
+        </tr>
+        <tr>
+            <td>Operates its own wine stores</td>
+            <td>Controls distribution by selling directly to customers.</td>
+        </tr>
+        <tr>
+            <td>Partnered with a luxury food company</td>
+            <td>Offers exclusive wine and food pairing experiences, creating additional customer value.</td>
+        </tr>
+        <tr>
+            <td>Integrated marketing, sales, and production departments</td>
+            <td>Improves coordination, operational efficiency, and collaboration.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>The company continuously focuses on improving operational performance by minimizing waste, reducing production costs, and ensuring efficient utilization of resources without compromising product quality. To support cost management, Vinotech relies on value analysis, sustainable farming practices, and target costing. Although competitive analysis is useful for strategic decision-making, it is not directly used as a cost reduction tool.</p>
+
+<p>Vinotech also invests in advanced agricultural techniques to maximize grape yields, modern aging facilities, skilled enologists, digital marketing platforms, and diversified distribution channels to maintain profitability and strengthen its competitive position.</p>
+
+<p>Within the organization, authority and responsibility for costs are delegated to managers who oversee individual cost centres, promoting accountability and effective cost control.</p>
+
+<p>The company recognizes customer satisfaction as a critical factor for long-term success and seeks guidance on implementing Kano's Model. Management is considering the following initiatives:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Proposed Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Introduce new varieties of products.</td>
+        </tr>
+        <tr>
+            <td>Attend to customer complaints and collect feedback for innovation.</td>
+        </tr>
+        <tr>
+            <td>Improve every aspect of the product to increase customer satisfaction.</td>
+        </tr>
+        <tr>
+            <td>Focus on innovation because customer switching costs are low.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>The company has already implemented the following initiatives over the past two years:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Existing Initiatives</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Launching expensive marketing campaigns.</td>
+        </tr>
+        <tr>
+            <td>Setting ambitious sales targets.</td>
+        </tr>
+        <tr>
+            <td>Investing in premium packaging materials.</td>
+        </tr>
+    </tbody>
+</table>
+`,
+
+  questions: [
+    {
+      question: "Which of the following is the best example of forward vertical integration?",
+      options: [
+        "The company acquiring vineyards owned by competitors.",
+        "The company selling wines through its own wine stores.",
+        "The company partnering with a luxury food company to offer exclusive wine–food pairing experiences.",
+        "The company integrating marketing, sales, and production departments to streamline operations."
+      ],
+      answer: 1,
+      reason: "Forward vertical integration occurs when a business expands towards the distribution or retail stage of the value chain. By selling wines through its own wine stores, Vinotech gains direct access to customers and greater control over distribution."
+    },
+    {
+      question: "Which of the following best describes the underlying idea behind Kano's Model?",
+      options: [
+        "Customer satisfaction decays over time, requiring continuous product launches.",
+        "Customer complaints are the primary source of innovation.",
+        "Improving every aspect of a product does not necessarily increase customer satisfaction.",
+        "Innovation is the only driver of profitability due to low switching costs."
+      ],
+      answer: 2,
+      reason: "Kano's Model demonstrates that improving every product feature does not always increase customer satisfaction. Some features are basic expectations, while others create excitement only when present. Therefore, organizations should prioritize improvements based on customer needs rather than improving everything."
+    },
+    {
+      question: "Which of the following action points best signifies cost control undertaken by Vinotech Inc.?",
+      options: [
+        "Maximizing grape yields.",
+        "Minimizing waste and reducing production costs.",
+        "Expanding distribution channels.",
+        "Enhancing wine quality through extended aging."
+      ],
+      answer: 1,
+      reason: "Cost control aims to improve profitability through efficient utilization of resources. Minimizing waste and reducing production costs while maintaining product quality directly reflects effective cost control practices."
+    },
+    {
+      question: "Which of the following tools or techniques is NOT commonly associated with cost reduction efforts at Vinotech Inc.?",
+      options: [
+        "Value Analysis",
+        "Implementing sustainable farming practices",
+        "Target Costing",
+        "Competitive Analysis"
+      ],
+      answer: 3,
+      reason: "Competitive Analysis supports strategic decision-making by evaluating competitors but does not directly reduce production costs. In contrast, Value Analysis, Sustainable Farming Practices, and Target Costing are specifically aimed at reducing costs and improving efficiency."
+    },
+    {
+      question: "Which of the following is a prerequisite for effective cost control within Vinotech Inc. according to industry standards?",
+      options: [
+        "Launching expensive marketing campaigns.",
+        "Setting highly ambitious sales targets.",
+        "Delegating authority and assigning responsibility for costs.",
+        "Investing in high-end packaging materials."
+      ],
+      answer: 2,
+      reason: "Effective cost control requires managers to be accountable for the costs under their control. Delegating authority together with responsibility for cost centres promotes ownership, accountability, and better cost management."
+    },
+    {
+      question: "When analysed using the Business Model Canvas, which of the following incorrectly describes the impact on its specific building blocks?",
+      options: [
+        "The acquisition of competitors' vineyards strengthens the Key Resources block by securing the supply of high-quality grapes.",
+        "Opening proprietary wine stores represents a shift in the Channels block, moving from indirect distribution to a direct-to-customer model.",
+        "The partnership with a luxury food company to offer exclusive wine and food pairing experiences expands the Value Proposition by adding experiential value beyond the physical product.",
+        "Integrating marketing, sales, and production departments to streamline operations and improve collaboration exclusively impacts the Customer Relationship block."
+      ],
+      answer: 3,
+      reason: "Integrating marketing, sales, and production primarily affects the Key Activities and Cost Structure blocks of the Business Model Canvas by improving internal operations and coordination. Although customer experience may improve indirectly, the Customer Relationship block is not the primary area impacted."
+    }
+  ]
+},
+{
+  caseText: `
+<p><strong>Clod Drinks</strong> introduced an innovative protein drink into the Australian market in 2021. Being one of the first companies in this segment, it quickly achieved strong sales, significant market share, and market leadership. During this period, the company enjoyed minimal competition, no close substitute products, and invested heavily in marketing, advertising, and product development to strengthen its first-mover advantage.</p>
+
+<p>By 2026, the market environment had changed considerably. Several competitors entered the protein drink industry, and substitute products became available. As competition intensified, Clod Drinks experienced declining market share and reduced profitability.</p>
+
+<p>The company also faced increasing challenges in managing supplier relationships. Since competition reduced demand for its products, smaller quantities of raw materials were purchased, strengthening suppliers' bargaining power. Suppliers supplying specialized protein ingredients became more influential in negotiations because Clod Drinks depended heavily on them for production.</p>
+
+<p>To respond to these changing market conditions, Clod Drinks decided to perform <strong>Scenario Analysis</strong> to evaluate various possible business situations and formulate appropriate strategic responses.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Possible Scenario</th>
+            <th>Purpose</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Changes in market share</td>
+            <td>Assess competitive impact and develop market strategies.</td>
+        </tr>
+        <tr>
+            <td>Pricing strategies</td>
+            <td>Evaluate the effect of different pricing decisions on profitability.</td>
+        </tr>
+        <tr>
+            <td>Supplier negotiations</td>
+            <td>Assess supply chain risks and strengthen procurement strategies.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Clod Drinks uses specialized protein isolates such as pea protein and soy protein. These commodities have experienced considerable price fluctuations due to changing weather conditions affecting crop yields. Droughts, floods, and other extreme climatic events disrupted production. Despite these disruptions, the market price of protein isolates has fallen significantly over recent years, from more than <strong>US$15 per kg</strong> to less than <strong>US$7 per kg</strong>.</p>
+
+<p>The company's website states its purpose as:</p>
+
+<blockquote><strong>"Our aim is to help people do more, feel better, and live longer."</strong></blockquote>
+
+<p>This statement reflects the company's long-term purpose and guides its science-driven approach to producing chilled beverages.</p>
+`,
+
+  questions: [
+    {
+      question: "Which of the following should the Clod Drinks team have done to combat the competitive threat?",
+      options: [
+        "Raise barriers to entry by threatening legal action against competitors.",
+        "Immediately take out a patent on their protein drink process.",
+        "Trademark the Clod name and continue to leverage their first-mover advantage.",
+        "Seek copyright protection for the creation of the Clod protein drink."
+      ],
+      answer: 2,
+      reason: "Since competitors had already entered the market, obtaining patent protection would be impractical and copyright cannot protect a manufacturing process. The most appropriate strategy is to strengthen the company's brand through trademark protection and continue leveraging its first-mover advantage."
+    },
+    {
+      question: "Which statement best captures the relationship between industry profitability and Porter's Five Forces in the context of Clod Drinks?",
+      options: [
+        "Higher threat of new entrants increases industry profitability.",
+        "Industry profitability is lowest when the threat of substitutes declines.",
+        "Moderate buyer power and moderate rivalry increase profitability.",
+        "Low rivalry and low supplier power lead to higher industry profitability."
+      ],
+      answer: 3,
+      reason: "Industry profitability is generally highest when all five competitive forces are weak. Low competitive rivalry allows firms to maintain profit margins, while low supplier power enables organizations to negotiate better purchase prices and reduce operating costs."
+    },
+    {
+      question: "Which statement regarding supplier power in Clod Drinks is most likely to be correct?",
+      options: [
+        "Higher threat of supplier forward integration reduces supplier power.",
+        "Smaller quantities purchased increase supplier power.",
+        "Greater number of suppliers increases supplier power.",
+        "Higher importance of supplier inputs increases buyer power."
+      ],
+      answer: 1,
+      reason: "When buyers purchase relatively small quantities, they become less important to suppliers. As a result, suppliers gain stronger bargaining power and can negotiate higher prices or more favourable contract terms."
+    },
+    {
+      question: "The sharp fall in protein isolate prices has been most influenced by which external factor?",
+      options: [
+        "Social",
+        "Political",
+        "Economic",
+        "Environmental"
+      ],
+      answer: 2,
+      reason: "Protein isolates are traded as commodities, and their prices are primarily determined by market demand and supply conditions. Therefore, economic factors have the greatest influence on price fluctuations."
+    },
+    {
+      question: "Which strategic component best summarises Clod Drinks' stated aim on its website?",
+      options: [
+        "Vision",
+        "Goals",
+        "Values",
+        "Mission"
+      ],
+      answer: 3,
+      reason: "A mission statement defines the fundamental purpose for which an organization exists. The statement 'Our aim is to help people do more, feel better, and live longer' clearly expresses Clod Drinks' mission."
+    },
+    {
+      question: "Based on the information given in the case scenario, in 2026 which stage of the Product Life Cycle is the Australian protein drink industry most likely entering?",
+      options: [
+        "Introduction",
+        "Growth",
+        "Maturity",
+        "Decline"
+      ],
+      answer: 2,
+      reason: "The maturity stage is characterized by intense competition, numerous competitors, substitute products, pressure on profit margins, and a focus on defending market share rather than creating a new market. These characteristics closely match the situation faced by Clod Drinks in 2026."
+    }
+  ]
+},
+{
+  caseText: `
+<p><strong>Bugatsune World (BW)</strong> is a premium watch manufacturer located in Northern Japan and is renowned for producing high-quality timepieces that combine craftsmanship with tradition. The company is 80% owned by <strong>KKR</strong>, a global private equity fund that actively participates in the company's strategic decision-making.</p>
+
+<p>BW currently exports its premium watches to selected international markets. However, increasing competition from manufacturers in countries such as Australia has encouraged the company to explore new strategies for expanding its global presence while protecting its valuable intellectual property.</p>
+
+<p>To support its international expansion, BW is evaluating different market entry strategies:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Expansion Strategy</th>
+            <th>Purpose</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Franchising in Australia</td>
+            <td>Expand market presence through a standardized operating model.</td>
+        </tr>
+        <tr>
+            <td>Joint Venture with a local distribution company in Asia</td>
+            <td>Leverage local market knowledge while sharing resources and expanding sales.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Since BW has a relatively weak financial position, management is reluctant to finance expansion through significant borrowing. Therefore, it seeks market entry strategies that minimize financial risk while enabling growth.</p>
+
+<p>Management recognizes that success in Asia and Australia depends on its ability to understand local customer preferences and adapt products, marketing strategies, and business practices accordingly. To evaluate this capability, BW measures its market adaptability by tracking:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Performance Measure</th>
+            <th>Objective</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Number of new markets entered</td>
+            <td>Measure expansion into new geographical markets.</td>
+        </tr>
+        <tr>
+            <td>Increase in sales and brand visibility</td>
+            <td>Assess successful establishment in newly entered markets.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>To achieve sustainable competitive advantage, BW also seeks to identify and strengthen its <strong>core competencies</strong>. Management intends to focus on capabilities that create significant customer value, are difficult for competitors to imitate, and can be applied across multiple products and markets.</p>
+`,
+
+  questions: [
+    {
+      question: "Which of the following advantages mentioned above is true in the case of a franchising business model?",
+      options: [
+        "Distributing profits and sharing costs and resources.",
+        "Providing branding and intellectual property to others.",
+        "Using a standardized operating model across the business.",
+        "Moving part of operations offshore to deliver lower costs."
+      ],
+      answer: 2,
+      reason: "Franchising operates on a standardized business model where franchisees follow uniform operating procedures, branding, and business practices established by the franchisor. Sharing profits is associated with joint ventures, licensing involves granting intellectual property rights, and offshoring focuses on relocating operations to reduce costs."
+    },
+    {
+      question: "Considering modes of entry to new markets, which of the following would you recommend for Japanese BW?",
+      options: [
+        "Continue exporting and approach new markets with low prices and high volumes to capture market share quickly.",
+        "Form a joint venture with a target market distribution company that sells the product but is not involved in any other operations.",
+        "Make the investment in a wholly owned operation with extensive marketing and promotion.",
+        "License their production processes with contracts including high damage payments for intellectual property breaches."
+      ],
+      answer: 1,
+      reason: "A joint venture with a local distribution company allows BW to expand its market presence while limiting financial investment and reducing the risk of technology leakage. It also enables the company to benefit from the partner's local market knowledge without incurring significant debt."
+    },
+    {
+      question: "KKR, a private equity fund, has both high interest and high power over BW's strategy. Which stakeholder management technique should be adopted?",
+      options: [
+        "Keep them updated on strategic changes and empower them to influence the direction of change.",
+        "Keep these stakeholders satisfied.",
+        "Keep these stakeholders informed.",
+        "Spend time managing their expectations even if it does not coincide with the company's goals."
+      ],
+      answer: 0,
+      reason: "According to Mendelow's Matrix, stakeholders possessing both high power and high interest are Key Players. They should be actively engaged, regularly informed, and involved in strategic decision-making because they have the ability to significantly influence the organization's direction."
+    },
+    {
+      question: "Which of the following is a Critical Success Factor (CSF) relevant to BW's expansion into new markets?",
+      options: [
+        "Product Quality",
+        "Intellectual Property Sharing",
+        "Market Adaptability",
+        "Brand Reputation"
+      ],
+      answer: 2,
+      reason: "Market Adaptability is the ability to tailor products and strategies according to the cultural, social, and economic characteristics of different markets. Since BW's success depends on adapting to diverse customer preferences, it represents the most critical success factor for international expansion."
+    },
+    {
+      question: "Which of the following statements best describes a core competency for BW?",
+      options: [
+        "A core competency is any skill or capability that a company possesses.",
+        "A core competency is a unique proposition that provides value to customers and is easy for competitors to copy.",
+        "A core competency is a skill or capability that strongly influences customers to choose a company's product or service, is difficult to imitate, and opens up potential markets for growth.",
+        "A core competency is a broad set of skills possessed by a company, regardless of their relevance to the market."
+      ],
+      answer: 2,
+      reason: "A true core competency satisfies three essential criteria: it provides significant value to customers, is difficult for competitors to imitate, and can be leveraged across multiple products or markets to create sustainable competitive advantage."
+    }
+  ]
+},
+{
+  caseText: `
+<p><strong>GreenRoute Logistics Pvt. Ltd.</strong> is a mid-sized transportation and supply chain company operating across major Indian cities. In response to increasing environmental concerns, changing regulations, and rising expectations from socially conscious stakeholders, the company redefined its business strategy by embedding sustainability into its core operations. The objective was to achieve long-term business success while balancing economic performance, environmental responsibility, and social well-being.</p>
+
+<p>GreenRoute implemented several initiatives under the three pillars of the <strong>Triple Bottom Line (TBL)</strong> framework:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>TBL Pillar</th>
+            <th>GreenRoute's Initiatives</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>People</strong></td>
+            <td>Driver safety programmes, fatigue detection systems, scheduled rest breaks, health insurance, accident coverage, employee skill development, inclusive hiring of women, road safety campaigns, and disaster relief support.</td>
+        </tr>
+        <tr>
+            <td><strong>Planet</strong></td>
+            <td>Transition to electric and hybrid vehicles, solar-powered warehouses, rainwater harvesting systems, eco-driving training, and IoT-based fuel monitoring.</td>
+        </tr>
+        <tr>
+            <td><strong>Profit</strong></td>
+            <td>Reduced fuel dependency, optimized operations, improved operating margins by 12%, enhanced reputation, increased customer acquisition, and better compliance with future regulations.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Rather than treating sustainability as a separate initiative, GreenRoute integrated these practices directly into its business model. As a result, the company simultaneously achieved operational efficiency, environmental conservation, and stronger stakeholder relationships.</p>
+
+<p>Within <strong>18 months</strong>, GreenRoute reported the following outcomes:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Performance Indicator</th>
+            <th>Outcome</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Operating Margin</td>
+            <td>Increased by <strong>12%</strong></td>
+        </tr>
+        <tr>
+            <td>Employee Retention</td>
+            <td>Improved by <strong>22%</strong></td>
+        </tr>
+        <tr>
+            <td>Environmental Impact</td>
+            <td>Significantly reduced</td>
+        </tr>
+        <tr>
+            <td>Customer Satisfaction</td>
+            <td>Improved through transparent and ethical business practices</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>The company's experience demonstrates that integrating sustainability into core business operations can simultaneously create social value, environmental benefits, and long-term financial success.</p>
+`,
+
+  questions: [
+    {
+      question: "Which of the following best represents the Triple Bottom Line (TBL) approach adopted by GreenRoute Logistics?",
+      options: [
+        "Profit, Process, and People",
+        "People, Profit, and Planet",
+        "Performance, Productivity, and Planet",
+        "Planet, Profit, and Pricing"
+      ],
+      answer: 1,
+      reason: "The Triple Bottom Line (TBL) framework focuses on balancing three dimensions of sustainable business performance—People (social responsibility), Planet (environmental sustainability), and Profit (economic performance). GreenRoute incorporated initiatives addressing all three pillars."
+    },
+    {
+      question: "GreenRoute's investment in driver safety programmes, health insurance, and skill development primarily reflects which dimension of the Triple Bottom Line framework?",
+      options: [
+        "Profit",
+        "Planet",
+        "People",
+        "Process"
+      ],
+      answer: 2,
+      reason: "These initiatives improve employee welfare, workplace safety, and community well-being. They therefore belong to the People (social) dimension of the Triple Bottom Line."
+    },
+    {
+      question: "Which initiative by GreenRoute Logistics demonstrates its commitment to the 'Planet' aspect of the Triple Bottom Line?",
+      options: [
+        "Hiring more women in warehouse roles",
+        "Electrifying its vehicle fleet",
+        "Partnering with NGOs for road safety awareness",
+        "Offering fuel-based performance bonuses to drivers"
+      ],
+      answer: 1,
+      reason: "Converting the vehicle fleet to electric and hybrid models reduces carbon emissions, lowers pollution, and decreases dependence on fossil fuels, directly supporting the Planet dimension of sustainability."
+    },
+    {
+      question: "How did GreenRoute Logistics strengthen the 'Profit' aspect of the Triple Bottom Line while also benefiting the environment?",
+      options: [
+        "By increasing delivery fees for premium services",
+        "By converting to electric vehicles and reducing fuel costs",
+        "By automating customer service",
+        "By outsourcing logistics to reduce headcount"
+      ],
+      answer: 1,
+      reason: "Electric and hybrid vehicles significantly reduced fuel consumption and operating costs while simultaneously lowering environmental pollution. This created synergy between the Profit and Planet pillars of the Triple Bottom Line."
+    },
+    {
+      question: "What long-term business advantage did GreenRoute gain from implementing the Triple Bottom Line approach?",
+      options: [
+        "Reduced market share due to high compliance costs",
+        "Increased operational complexity with no clear benefits",
+        "Improved employee retention, customer trust, and risk mitigation",
+        "Higher fuel consumption from electric vehicles"
+      ],
+      answer: 2,
+      reason: "The company's sustainability initiatives improved employee loyalty, strengthened customer confidence, enhanced its corporate reputation, and reduced future regulatory and sustainability risks, providing long-term competitive advantages."
+    },
+    {
+      question: "Which of the following outcomes identifies the synergy between the People and Profit pillars of the Triple Bottom Line?",
+      options: [
+        "Reduction in carbon emissions from electric vehicles",
+        "Following inclusive hiring practices",
+        "Community initiatives like conducting road safety programmes",
+        "Improved employee retention leading to lower recruitment and training costs"
+      ],
+      answer: 3,
+      reason: "Higher employee retention (People) reduces recruitment, onboarding, and training expenses, thereby lowering operating costs and improving profitability (Profit). This demonstrates the interrelationship between the People and Profit pillars."
+    }
+  ]
+},
+
+
+
+
   
   // {
   // caseText:"",
