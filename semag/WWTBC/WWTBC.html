@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who Wants To Be A CA | Calcium Notes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YYJ8R39EXM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-YYJ8R39EXM');
+    </script>
+    
+</head>
+
+<body>
+    <div id="startScreen" class="overlay">
+        <div class="card">
+            <h1>Who Wants To Be A CA?</h1>
+            <p>Powered by Calcium Notes</p>
+            <button id="startBtn">START GAME</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="topbar">
+                <div>
+                    Question
+                    <span id="questionNo">1</span> /
+                    <span id="totalQuestions">15</span>
+                </div>
+                <div id="timer">
+                    30
+                </div>
+            </div>
+            <div id="questionBox">
+                Press Start to Begin
+            </div>
+            <div class="options">
+                <button class="option" data-index="0"></button>
+                <button class="option" data-index="1"></button>
+                <button class="option" data-index="2"></button>
+                <button class="option" data-index="3"></button>
+            </div>
+            <div class="buttons">
+                <button id="lockBtn">
+                    Lock Answer
+                </button>
+                <button id="nextBtn">
+                    Next
+                </button>
+            </div>
+            <div id="explanation"></div>
+        </div>
+        <div class="right">
+            <h2>Journey</h2>
+            <ul id="ladder">
+                <li class="ladder-item">Student Registration</li>
+                <li class="ladder-item">Foundation</li>
+                <li class="ladder-item">Intermediate</li>
+                <li class="ladder-item">Articleship</li>
+                <li class="ladder-item">SPOM</li>
+                <li class="ladder-item">CA Final</li>
+                <li class="ladder-item">🏆 Chartered Accountant</li>
+            </ul>
+            <hr>
+            <button id="life5050">
+                50 : 50
+            </button>
+            <button id="lifeExtraTime">
+                +30 Seconds
+            </button>
+            <button id="lifeChange">
+                Change Question
+            </button>
+        </div>
+    </div>
+    <div id="resultScreen" class="overlay" style="display:none;">
+        <div class="card">
+            <h1>Congratulations</h1>
+            <h2 id="finalScore"></h2>
+            <button id="restartBtn">
+                Play Again
+            </button>
+        </div>
+    </div>
+    <audio id="correctSound" preload="auto">
+        <source src="./audio/correct.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="wrongSound" preload="auto">
+        <source src="./audio/wrong.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="lockSound" preload="auto">
+        <source src="./audio/lock.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="tickSound" preload="auto">
+        <source src="./audio/tick.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="winSound" preload="auto">
+        <source src="./audio/win.mp3" type="audio/mpeg">
+    </audio>
+    <script src="js/questions.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>

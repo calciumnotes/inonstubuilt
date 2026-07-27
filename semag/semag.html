@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO Meta Tags -->
+    <title>Calcium | CA Examination Games</title>
+    <meta name="title" content="Calcium | CA Examination Games">
+    <meta name="description" content="Interactive Chartered Accountancy (CA) examination games and quizzes to test your knowledge, built on the Calcium dashboard.">
+    <meta name="keywords" content="CA exam, Chartered Accountancy, CA games, exam preparation, accounting quiz, Calcium dashboard, CA final, CA inter">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Calcium">
+
+
+    <!-- Open Graph / Social Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Calcium | CA Examination Games">
+    <meta property="og:description" content="Test your Chartered Accountancy knowledge with interactive exam games.">
+
+    <!-- Google Analytics: Tracking user engagement -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YYJ8R39EXM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-YYJ8R39EXM");
+    </script>
+
+    <style>
+        :root {
+            /* Premium UI Variables */
+            --accent-color: #38bdf8;
+            --hover-accent: #0ea5e9;
+            --text-main: #f8fafc;
+            --text-muted: #cbd5e1;
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.15);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            /* Premium Animated Gradient Background */
+            background: linear-gradient(135deg, #0f172a, #1e1b4b, #111827);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            color: var(--text-main);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Subtle Background Color Shift */
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* --- FLOATING "JOY SITES" BACKGROUND --- */
+        .joy-sites {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 0;
+            pointer-events: none; /* Prevents icons from blocking clicks */
+        }
+
+        .joy-icon {
+            position: absolute;
+            font-size: 2rem;
+            opacity: 0.1; /* Very subtle so it doesn't distract */
+            animation: floatUp infinite linear;
+            bottom: -100px;
+        }
+
+        /* Randomizing the float paths and speeds for a natural feel */
+        .joy-icon:nth-child(1) { left: 10%; font-size: 3.5rem; animation-duration: 25s; animation-delay: 0s; }
+        .joy-icon:nth-child(2) { left: 30%; font-size: 2rem; animation-duration: 32s; animation-delay: 5s; }
+        .joy-icon:nth-child(3) { left: 50%; font-size: 2.5rem; animation-duration: 22s; animation-delay: 2s; }
+        .joy-icon:nth-child(4) { left: 70%; font-size: 1.5rem; animation-duration: 28s; animation-delay: 10s; }
+        .joy-icon:nth-child(5) { left: 85%; font-size: 4rem; animation-duration: 35s; animation-delay: 0s; }
+        .joy-icon:nth-child(6) { left: 15%; font-size: 2.2rem; animation-duration: 20s; animation-delay: 15s; }
+        .joy-icon:nth-child(7) { left: 60%; font-size: 3rem; animation-duration: 26s; animation-delay: 8s; }
+
+        @keyframes floatUp {
+            0% { transform: translateY(0) rotate(0deg) scale(0.8); opacity: 0; }
+            10% { opacity: 0.15; }
+            90% { opacity: 0.15; }
+            100% { transform: translateY(-110vh) rotate(360deg) scale(1.2); opacity: 0; }
+        }
+
+        /* --- MAIN UI --- */
+        header {
+            text-align: center;
+            margin-top: 3rem;
+            margin-bottom: 4rem;
+            max-width: 800px;
+            z-index: 1; /* Keeps text above floating icons */
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            /* Premium gradient text */
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+        }
+
+        p.subtitle {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+            font-weight: 300;
+        }
+
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2.5rem;
+            width: 100%;
+            max-width: 1100px;
+            z-index: 1;
+        }
+
+        /* Glassmorphism Premium Cards */
+        .game-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 3rem 2rem;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Card Light Sweep / Inner Glow Effect */
+        .game-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(to right, transparent, rgba(255,255,255,0.08), transparent);
+            transform: skewX(-20deg);
+            transition: 0.6s ease;
+        }
+
+        .game-card:hover::before {
+            left: 150%;
+        }
+
+        .game-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+            border-color: rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .game-icon {
+            font-size: 4.5rem;
+            margin-bottom: 1.5rem;
+            filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.2));
+            transition: transform 0.3s ease;
+        }
+
+        .game-card:hover .game-icon {
+            transform: scale(1.1) rotate(5deg);
+        }
+
+        .game-title {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .game-desc {
+            font-size: 1rem;
+            color: var(--text-muted);
+            margin-bottom: 2.5rem;
+            line-height: 1.5;
+        }
+
+        .play-btn {
+            background: linear-gradient(135deg, var(--accent-color), #6366f1);
+            color: white;
+            border: none;
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 1.05rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            box-shadow: 0 4px 15px rgba(56, 189, 248, 0.3);
+        }
+
+        .game-card:hover .play-btn {
+            box-shadow: 0 8px 25px rgba(56, 189, 248, 0.5);
+            transform: scale(1.03);
+        }
+
+        .nav-back {
+            margin-top: 5rem;
+            text-decoration: none;
+            color: var(--text-muted);
+            font-weight: 500;
+            transition: all 0.3s ease;
+            z-index: 1;
+            padding: 12px 24px;
+            border-radius: 10px;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-back:hover {
+            color: white;
+            background: rgba(255,255,255,0.1);
+            border-color: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+
+        /* Google seo */
+                /* --- SEO CONTENT SECTION --- */
+        .seo-content {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 2.5rem;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            color: var(--text-muted);
+            text-align: left;
+            z-index: 1;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .seo-content h2 {
+            color: var(--text-main);
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .seo-content h3 {
+            color: var(--text-main);
+            font-size: 1.3rem;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+        }
+
+        .seo-content p {
+            margin-bottom: 1.2rem;
+            line-height: 1.7;
+            font-size: 1.05rem;
+        }
+
+        .seo-content ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+        
+        .seo-content li {
+            margin-bottom: 0.5rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Roaming Joy Sites in the Background -->
+    <div class="joy-sites">
+        <div class="joy-icon">✨</div>
+        <div class="joy-icon">🎓</div>
+        <div class="joy-icon">📊</div>
+        <div class="joy-icon">💡</div>
+        <div class="joy-icon">🏆</div>
+        <div class="joy-icon">📈</div>
+        <div class="joy-icon">✨</div>
+    </div>
+
+    <header>
+        <h1>CA Games</h1>
+        <p class="subtitle">Test your knowledge on taxation, auditing, and corporate laws. Select a module below to start your session.</p>
+    </header>
+
+    <main class="game-grid">
+        <!-- Main Game Card -->
+        <a href="./WWTBC/instructions.html" class="game-card" onclick="gtag('event', 'game_click', {'game_name': 'Who Wants to be a CA'});">
+            <div class="game-icon">🏆</div>
+            <h2 class="game-title">Who Wants to be a CA</h2>
+            <p class="game-desc">Test your recall</p>
+            <button class="play-btn">Launch Game</button>
+        </a>
+
+        <!-- Game Card 2: Placeholder -->
+        
+                <!-- In Development Placeholder Card -->
+        <a href="#" class="game-card" onclick="gtag('event', 'game_click', {'game_name': 'Coming Soon Placeholder'}); return false;">
+            <div class="game-icon">🚧</div>
+            <h2 class="game-title">More Games in Development</h2>
+            <p class="game-desc">Spot anomalies in mock financial statements, match corporate laws, and more. New modules are on the way!</p>
+            <button class="play-btn" style="background: #475569; box-shadow: none; cursor: not-allowed;">Coming Soon</button>
+        </a> 
+
+        <!-- Game Card 3: Placeholder -->
+        <!-- 
+        <a href="#" class="game-card" onclick="gtag('event', 'game_click', {'game_name': 'Law Flashcards'});">
+            <div class="game-icon">⚖️</div>
+            <h2 class="game-title">Law & Ethics Match</h2>
+            <p class="game-desc">Quick-fire matching for corporate and economic laws.</p>
+            <button class="play-btn">Coming Soon</button>
+        </a> 
+        -->
+    </main>
+
+    <a href="../index.html" class="nav-back">← Back to Calcium Notes</a>
+    <!-- SEO & Context Section -->
+    <section class="seo-content">
+        <h2>About Calcium CA Games</h2>
+        <p>Welcome to the interactive learning hub designed specifically for Chartered Accountancy (CA) students. Preparing for the CA exams requires immense dedication, and traditional study methods can sometimes lead to fatigue. These interactive CA examination games provide a dynamic way to test your knowledge without losing momentum.</p>
+        
+        <h3>Engaging CA Inter and CA Final Preparation</h3>
+        <p>Whether you are revising for CA Foundation, Inter, or Final, active recall is a proven method to retain complex information. Our flagship game, <strong>Who Wants to be a CA</strong>, challenges your knowledge across critical subjects including:</p>
+        <ul>
+            <li>Direct and Indirect Taxation (DT & IDT)</li>
+            <li>Advanced Auditing and Professional Ethics</li>
+            <li>Corporate and Economic Laws</li>
+            <li>Strategic Financial Management (SFM)</li>
+        </ul>
+
+        <h3>A Focused Learning Ecosystem</h3>
+        <p>These gamified quizzes act as a seamless extension of the broader Calcium study ecosystem. After utilizing your read mode, checking off your task lists, and listening to your local focus tracks, you can transition smoothly into a review session. By combining deep work environments with interactive testing, mastering accounting standards and statutory regulations becomes intuitive and rewarding.</p>
+    </section>
+
+
+</body>
+</html>
