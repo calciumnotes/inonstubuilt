@@ -4825,6 +4825,1931 @@ The management plans to use Pareto Analysis (80:20 Principle) to identify the "v
     }
   ]
 },
+{
+  caseText: `
+<p><strong>ABC Ltd.</strong> is a leading manufacturer and exporter of readymade garments with a state-of-the-art manufacturing facility located in Ludhiana, Punjab. A significant portion of its revenue is generated through exports to the European Union and the United States. Since product quality is a critical success factor in international markets, the company continuously focuses on maintaining high quality standards. However, inflationary pressures and geopolitical uncertainties have reduced profit margins in recent years.</p>
+
+<p>To improve competitiveness and enhance operational efficiency, the management has initiated a comprehensive <strong>Value Chain Optimization Study</strong>. The objective is to identify opportunities for reducing costs, eliminating waste, improving quality, and strengthening customer satisfaction throughout the value chain.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Value Chain Activity</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Inbound Logistics</strong></td>
+            <td>Sourcing premium fabrics and accessories, along with handling, storage, transportation, and ensuring only high-quality raw materials enter the production process.</td>
+        </tr>
+        <tr>
+            <td><strong>Operations</strong></td>
+            <td>Stitching, cutting, finishing, and packaging garments while minimizing waste, rework, and production defects to improve quality and reduce warranty claims.</td>
+        </tr>
+        <tr>
+            <td><strong>Outbound Logistics</strong></td>
+            <td>Order processing, packaging, and distribution of finished garments to export markets.</td>
+        </tr>
+        <tr>
+            <td><strong>Marketing & Sales</strong></td>
+            <td>Promotion, pricing strategies, and channel management to strengthen the company's global market presence.</td>
+        </tr>
+        <tr>
+            <td><strong>Service</strong></td>
+            <td>Providing warranty, repair, and replacement services to improve customer satisfaction and long-term loyalty.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Based on the study, ABC Ltd. decided to implement the following improvement initiatives:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Improvement Initiative</th>
+            <th>Expected Benefit</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Automated inventory tracking system</td>
+            <td>Ensures availability of quality raw materials at the right time, improving coordination between inbound logistics and production.</td>
+        </tr>
+        <tr>
+            <td>Increase product warranty from 1 year to 2 years by purchasing more durable fabrics</td>
+            <td>Enhances product reliability, reduces future warranty claims, and strengthens customer confidence.</td>
+        </tr>
+        <tr>
+            <td>Employee training on storage, handling, stitching, and packaging</td>
+            <td>Prevents defects, improves product quality, and minimizes quality-related failures.</td>
+        </tr>
+    </tbody>
+</table>
+`,
+
+  questions: [
+    {
+      question: "ABC Ltd. aims to reduce quality costs across its value chain. The activity involving handling, storage, and transportation of fabrics and accessories from suppliers falls under which of the following primary activities?",
+      options: [
+        "Operations",
+        "Outbound Logistics",
+        "Inbound Logistics",
+        "Service"
+      ],
+      answer: 2,
+      reason: "Inbound Logistics includes receiving, handling, transporting, storing, and managing raw materials before they enter the production process. These activities ensure that quality inputs are available when required for manufacturing."
+    },
+    {
+      question: "In ABC Ltd., stitching, cutting, finishing, and packaging of garments are part of which value chain activity?",
+      options: [
+        "Operations",
+        "Inbound Logistics",
+        "Procurement",
+        "Outbound Logistics"
+      ],
+      answer: 0,
+      reason: "Operations involve transforming raw materials into finished products. Activities such as stitching, cutting, finishing, and packaging garments are core manufacturing processes and therefore belong to the Operations activity."
+    },
+    {
+      question: "Order processing, packaging, and distribution of finished garments to export markets are examples of which primary activity?",
+      options: [
+        "Inbound Logistics",
+        "Marketing and Sales",
+        "Service",
+        "Outbound Logistics"
+      ],
+      answer: 3,
+      reason: "Outbound Logistics covers the storage, order processing, transportation, and distribution of finished goods from the manufacturer to customers or export destinations."
+    },
+    {
+      question: "ABC Ltd. plans to strengthen its global market presence through promotion, pricing strategies, and effective channel management. These actions relate to which component of the value chain?",
+      options: [
+        "Service only",
+        "Sales only",
+        "Marketing only",
+        "Marketing and Sales"
+      ],
+      answer: 3,
+      reason: "Marketing and Sales activities focus on creating customer demand through promotion, pricing decisions, distribution channels, and selling efforts that increase revenue and market presence."
+    },
+    {
+      question: "Providing warranty, repair, and replacement services to customers after delivery of garments would come under which value chain activity?",
+      options: [
+        "Service",
+        "Marketing and Sales",
+        "Operations",
+        "Outbound Logistics"
+      ],
+      answer: 0,
+      reason: "Service activities are performed after the sale to maintain product performance, satisfy customers, and strengthen long-term customer relationships through warranty, repair, and replacement support."
+    },
+    {
+      question: "ABC Ltd. intends to enhance quality and offer a long-term warranty. Which of the following activities will have the most direct impact on achieving this goal?",
+      options: [
+        "Marketing and Sales",
+        "Operations",
+        "Service",
+        "Outbound Logistics"
+      ],
+      answer: 1,
+      reason: "Product quality is primarily determined during manufacturing. Efficient operational processes that reduce defects, waste, and rework directly improve product reliability and support longer warranty commitments."
+    },
+    {
+      question: "Which of the following statements is most accurate regarding Porter's Value Chain for ABC Ltd.?",
+      options: [
+        "Primary activities directly create value through production, delivery, and service.",
+        "Marketing is considered a support activity.",
+        "Primary activities are indirect support functions such as HR and IT.",
+        "Only inbound logistics and operations affect product quality."
+      ],
+      answer: 0,
+      reason: "Porter's primary activities directly create customer value through inbound logistics, operations, outbound logistics, marketing and sales, and service. Support activities such as HR, procurement, and technology enable these value-creating activities."
+    },
+    {
+      question: "Introduction of an automated inventory tracking system as part of its work process would be an attempt to link which two primary activities in the value chain?",
+      options: [
+        "Operations and Marketing & Sales",
+        "Inbound Logistics and Operations",
+        "Procurement and Inbound Logistics",
+        "Infrastructure and Service"
+      ],
+      answer: 1,
+      reason: "The automated inventory tracking system ensures timely receipt, storage, movement, and availability of raw materials for production. Therefore, it strengthens coordination between Inbound Logistics and Operations."
+    },
+    {
+      question: "The management's decision to impart employee training will be classified under which category of the Cost of Quality (COQ) report?",
+      options: [
+        "Internal Failure Cost",
+        "External Failure Cost",
+        "Prevention Cost",
+        "Appraisal Cost"
+      ],
+      answer: 2,
+      reason: "Employee training is a proactive quality management activity undertaken to prevent defects before they occur. Therefore, it is classified as a Prevention Cost under the Cost of Quality framework."
+    }
+  ]
+},
+{
+  caseText: `
+<p><strong>Indian Petrons Ltd. (IPL)</strong> is a leading manufacturing company facing increasing pressure to reduce operating costs, control inventory levels, and improve customer service. To address these challenges, the Costing Department has decided to implement a <strong>Just-in-Time (JIT)</strong> inventory management system.</p>
+
+<p>The management strongly believes that adopting JIT will improve operational efficiency by minimizing inventory, reducing waste, and ensuring that materials are available exactly when required for production.</p>
+
+<p>However, the Supplies Manager, <strong>Mr. Brian</strong>, has expressed serious concerns regarding the practical implementation of the new system. Based on his experience with suppliers, he highlighted several existing supplier practices that may hinder the success of JIT.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Supplier Practice</th>
+            <th>Impact on JIT Implementation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Minimum order quantities</td>
+            <td>Prevents purchasing in small quantities required under JIT.</td>
+        </tr>
+        <tr>
+            <td>Long lead times</td>
+            <td>Delays material availability and reduces production flexibility.</td>
+        </tr>
+        <tr>
+            <td>Fixed delivery schedules (e.g., deliveries only on Mondays)</td>
+            <td>Disrupts continuous production flow because materials cannot arrive exactly when needed.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Mr. Brian emphasized that suppliers have traditionally dictated purchasing conditions, making it difficult for the company to obtain smaller, more frequent deliveries. Such supplier inflexibility directly conflicts with the principles of the Just-in-Time system.</p>
+
+<p>The management remains convinced that JIT is the right strategic decision. However, before implementation, the company must resolve supplier-related issues by developing stronger long-term supplier relationships, encouraging flexible deliveries, and ensuring suppliers are willing to support JIT requirements.</p>
+`,
+
+  questions: [
+    {
+      question: "What was the main reason for IPL's Costing Department to decide on implementing a JIT system?",
+      options: [
+        "To increase marketing expenditure.",
+        "To reduce costs, control inventory, and improve service.",
+        "To expand into international markets.",
+        "To increase product diversification."
+      ],
+      answer: 1,
+      reason: "The objective of implementing Just-in-Time (JIT) is to reduce operating costs, minimize inventory, eliminate waste, and improve customer service by ensuring materials are available only when required."
+    },
+    {
+      question: "What is the major concern expressed by the Supplies Manager, Mr. Brian, regarding the JIT implementation?",
+      options: [
+        "The company lacks proper costing data.",
+        "Employees resist change.",
+        "Suppliers are unwilling to deliver in small, frequent lots.",
+        "The accounting system cannot record JIT transactions."
+      ],
+      answer: 2,
+      reason: "Mr. Brian is concerned that suppliers insist on large minimum order quantities, long lead times, and fixed delivery schedules, all of which are inconsistent with the requirements of a successful JIT system."
+    },
+    {
+      question: "Which of the following best describes a key requirement for successful implementation of a JIT system?",
+      options: [
+        "Suppliers accepting delayed payments.",
+        "Suppliers providing large batch deliveries at low prices.",
+        "Suppliers delivering frequently in small, exact quantities.",
+        "Suppliers maintaining high levels of buffer inventory."
+      ],
+      answer: 2,
+      reason: "JIT relies on frequent deliveries of small quantities that arrive exactly when required for production. This minimizes inventory, reduces storage costs, and eliminates unnecessary waste."
+    },
+    {
+      question: "Why would supplier restrictions such as 'only delivering on Mondays' be problematic under JIT?",
+      options: [
+        "It would increase transportation costs.",
+        "It allows bulk purchasing discounts.",
+        "It prevents continuous and flexible production flow.",
+        "It improves coordination with weekly schedules."
+      ],
+      answer: 2,
+      reason: "JIT requires materials to arrive exactly when needed in the production process. Fixed delivery schedules reduce flexibility and may interrupt production if materials are unavailable when required."
+    },
+    {
+      question: "What is the most likely outcome if suppliers are not cooperative under JIT?",
+      options: [
+        "Lower setup times.",
+        "Reduced inventory carrying costs.",
+        "Improved product quality.",
+        "Increased lead time and production delays."
+      ],
+      answer: 3,
+      reason: "If suppliers cannot provide timely and flexible deliveries, material shortages may occur, resulting in increased lead times, production interruptions, and operational delays."
+    },
+    {
+      question: "Which of the following reflects a correct statement about JIT?",
+      options: [
+        "It relies on maintaining high safety stock to avoid shortages.",
+        "It requires close coordination and trust between buyer and supplier.",
+        "It focuses mainly on marketing efficiency.",
+        "It encourages bulk purchasing to obtain discounts."
+      ],
+      answer: 1,
+      reason: "Successful JIT implementation depends on strong partnerships with suppliers based on trust, reliability, communication, and the ability to deliver materials frequently in precise quantities."
+    },
+    {
+      question: "From a strategic viewpoint, what change must IPL make before fully adopting JIT?",
+      options: [
+        "Replace traditional costing with Activity-Based Costing.",
+        "Replace traditional costing with an ERP system.",
+        "Replace traditional costing with Target Costing.",
+        "Develop long-term supplier partnerships ensuring flexible delivery."
+      ],
+      answer: 3,
+      reason: "JIT cannot succeed unless suppliers support frequent, reliable, and flexible deliveries. Therefore, IPL should establish long-term collaborative relationships with suppliers that align with JIT principles."
+    },
+    {
+      question: "Considering the current supplier behavior, is Mr. Brian's concern justified?",
+      options: [
+        "No, because suppliers' large deliveries reduce costs.",
+        "No, because JIT does not depend on supplier coordination.",
+        "Yes, because JIT increases costs in the short term.",
+        "Yes, because supplier inflexibility threatens JIT's success."
+      ],
+    answer: 3,
+      reason: "Mr. Brian's concern is justified because supplier inflexibility regarding order quantities, delivery schedules, and lead times directly conflicts with the core requirements of a Just-in-Time system and can seriously affect its success."
+    }
+  ]
+},
+{
+  caseText: `
+<p><strong>Your Bank Ltd.</strong> was established on <strong>30 September 1940</strong> under the provisions of the Co-operative Societies Act with the objective of promoting self-help, thrift, and cooperation among its members. The bank received its banking licence under the Banking Regulation Act, 1949 on <strong>25 October 1986</strong>, enabling it to conduct banking operations within the National Capital Territory of Delhi.</p>
+
+<p>Over the years, the bank has grown steadily and now serves a large membership base through <strong>12 branches</strong> across Delhi. Traditionally, the bank has relied on counter-based banking services, with branch operating hours aligned to local market days.</p>
+
+<p>However, the Board of Directors observed that customers were increasingly shifting towards modern customer-centric banks offering a wider range of convenient banking services.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Traditional Banking</th>
+            <th>Modern Customer-Centric Banking</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Counter-based services</td>
+            <td>Direct access to executive management</td>
+        </tr>
+        <tr>
+            <td>Fixed branch timings</td>
+            <td>Appointment banking</td>
+        </tr>
+        <tr>
+            <td>Limited service availability</td>
+            <td>24×7 free online banking</td>
+        </tr>
+        <tr>
+            <td>Branch-dependent transactions</td>
+            <td>Free unlimited ATM access</td>
+        </tr>
+        <tr>
+            <td>Multiple contacts for banking needs</td>
+            <td>Single relationship manager for all banking services</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>To remain competitive, the management decided to redesign its strategy around the principle of <strong>"What Customers Want"</strong>. The bank adopted the <strong>Balanced Scorecard (BSC)</strong> as its strategic performance management framework to improve customer satisfaction while maintaining operational efficiency and long-term profitability.</p>
+
+<p>The Balanced Scorecard enables the bank to monitor performance across multiple perspectives:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Balanced Scorecard Perspective</th>
+            <th>Illustrative Focus Area</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Financial</strong></td>
+            <td>Increase profitability through cross-selling financial products.</td>
+        </tr>
+        <tr>
+            <td><strong>Customer</strong></td>
+            <td>Improve customer satisfaction, loyalty, and retention by providing convenient digital banking services.</td>
+        </tr>
+        <tr>
+            <td><strong>Internal Business Process</strong></td>
+            <td>Enhance operational efficiency through reliable online banking systems and digital processes.</td>
+        </tr>
+        <tr>
+            <td><strong>Learning & Growth</strong></td>
+            <td>Develop employee capabilities through digital relationship management training and adoption of new technologies such as Artificial Intelligence.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>The transition from traditional branch-based banking to digital banking is expected to significantly improve customer experience, operational efficiency, and the bank's competitive position.</p>
+`,
+
+  questions: [
+    {
+      question: "The primary reason for Your Bank Ltd. adopting the Balanced Scorecard approach was:",
+      options: [
+        "Declining employee morale.",
+        "Competitive pressure from customer-centric banks.",
+        "Rising loan default rates.",
+        "Statutory or regulatory requirements."
+      ],
+      answer: 1,
+      reason: "The bank adopted the Balanced Scorecard because increasing competition from customer-focused banks offering convenient digital services threatened its traditional banking model. The objective was to better understand and satisfy customer needs."
+    },
+    {
+      question: "Which Balanced Scorecard perspectives benefit from cross-selling products to existing customers?",
+      options: [
+        "Financial and Customer",
+        "Customer and Learning and Growth",
+        "Learning and Growth and Internal Business Process",
+        "Financial and Learning and Growth"
+      ],
+      answer: 0,
+      reason: "Cross-selling reflects customer satisfaction and trust under the Customer perspective because satisfied customers purchase additional products. It also improves revenue and profitability, thereby supporting the Financial perspective."
+    },
+    {
+      question: "Which of the following measures the efficiency of the Internal Business Process perspective?",
+      options: [
+        "Branch-wise profitability.",
+        "Staff turnover ratio.",
+        "Customer retention rate.",
+        "System uptime for online banking."
+      ],
+      answer: 3,
+      reason: "System uptime measures the reliability and efficiency of the bank's digital infrastructure and internal operations. Higher uptime enables uninterrupted customer service and reflects efficient internal business processes."
+    },
+    {
+      question: "Cross-selling is considered an indicator of customer satisfaction in banking because:",
+      options: [
+        "Customers are compelled to buy additional products.",
+        "Satisfied customers willingly deepen their relationship with the bank.",
+        "It reduces the need for marketing expenditure.",
+        "It improves regulatory compliance."
+      ],
+      answer: 1,
+      reason: "Customers voluntarily purchase additional banking products only when they trust the bank and perceive value in its services. Therefore, successful cross-selling indicates customer satisfaction and loyalty."
+    },
+    {
+      question: "Given the bank's transition to new-style banking, which of the following represents the Learning and Growth perspective?",
+      options: [
+        "Increasing the number of digital transactions.",
+        "Opening new physical branches.",
+        "Reducing interest rates on fixed deposits.",
+        "Upskilling staff in digital relationship management."
+      ],
+      answer: 3,
+      reason: "The Learning and Growth perspective focuses on developing employee skills, knowledge, and technological capabilities. Training employees in digital relationship management prepares them to support the bank's digital transformation."
+    },
+    {
+      question: "Which of the following reflects the Learning and Growth objective of innovation?",
+      options: [
+        "Revenue from new financial products.",
+        "Implementing AI tools for fraud detection.",
+        "Number of customers who closed their accounts.",
+        "Market share percentage."
+      ],
+      answer: 1,
+      reason: "Implementing Artificial Intelligence for fraud detection represents technological innovation that enhances employee capability, strengthens risk management, and supports continuous organizational learning."
+    },
+    {
+      question: "Under the Customer perspective, which measure best indicates customer loyalty in the short term?",
+      options: [
+        "Number of account closure requests.",
+        "Growth in deposits.",
+        "Number of new loan applications from new customers.",
+        "Market share in retail banking."
+      ],
+      answer: 0,
+      reason: "A lower number of account closure requests indicates that customers continue their relationship with the bank, making it an immediate indicator of customer loyalty and satisfaction."
+    },
+    {
+      question: "Why should the bank monitor the number of account closures as a key customer metric?",
+      options: [
+        "To evaluate teller productivity.",
+        "To control marketing expenditure.",
+        "To assess customer retention and service quality.",
+        "To comply with RBI reporting norms."
+      ],
+      answer: 2,
+      reason: "Monitoring account closures helps the bank identify customer dissatisfaction, measure retention, evaluate service quality, and take corrective action to improve customer relationships."
+    },
+    {
+      question: "Transitioning bank operations from fixed branch timings to 24×7 free online banking services primarily transforms which two non-financial Balanced Scorecard perspectives?",
+      options: [
+        "Learning and Growth and Customer.",
+        "Customer and Internal Business Process.",
+        "Internal Business Process and Financial.",
+        "Internal Business Process and Customer."
+      ],
+      answer: 3,
+      reason: "Introducing 24×7 digital banking fundamentally changes the bank's Internal Business Processes by digitizing service delivery and simultaneously improves the Customer perspective by providing greater convenience, accessibility, and customer experience."
+    }
+  ]
+},
+{
+  caseText: `
+<p><strong>ABC Limited</strong> is a business advisory company that undertakes market research assignments for clients through its consulting division. To simplify the company's billing system and encourage better cost management, the newly appointed CEO, <strong>Mr. Praveen</strong>, proposed a new pricing methodology based on a target cost contract.</p>
+
+<p>Under this approach, a target expenditure is agreed upon jointly by the client and ABC Ltd. before the project begins. If the actual expenditure is lower than the agreed target, both parties share the resulting savings. However, if the actual expenditure exceeds the target, both parties also share the additional cost. This pricing mechanism encourages ABC Ltd. to complete projects efficiently while ensuring that both the client and the consultant share the financial consequences of cost savings or cost overruns.</p>
+
+<p>The payment terms for <strong>Project 712</strong> are summarized below.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Particulars</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Target Expenditure</td>
+            <td>₹20,00,000</td>
+        </tr>
+        <tr>
+            <td>Agreed Consultancy Fee</td>
+            <td>₹1,40,000</td>
+        </tr>
+        <tr>
+            <td>Client's share of cost savings</td>
+            <td>80%</td>
+        </tr>
+        <tr>
+            <td>ABC Ltd.'s share of cost savings</td>
+            <td>20% (Maximum total fee capped at ₹1,80,000)</td>
+        </tr>
+        <tr>
+            <td>Client's share of cost overrun</td>
+            <td>80%</td>
+        </tr>
+        <tr>
+            <td>ABC Ltd.'s share of cost overrun</td>
+            <td>20% deducted from consultancy fee (Minimum assured fee ₹40,000)</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>The arrangement creates a financial incentive for ABC Ltd. to control project costs while ensuring that the client also benefits from efficient project execution. Likewise, if costs exceed the agreed target, both parties bear a proportion of the excess cost, thereby encouraging effective cost management and collaboration.</p>
+`,
+
+  questions: [
+    {
+      question: "If the actual expenditure amounted to ₹19,00,000, what is the cost saving for the project?",
+      options: [
+        "₹80,000",
+        "₹1,00,000",
+        "₹1,40,000",
+        "₹20,000"
+      ],
+      answer: 1,
+      reason: "Cost Saving = Target Expenditure − Actual Expenditure = ₹20,00,000 − ₹19,00,000 = ₹1,00,000."
+    },
+    {
+      question: "If the actual expenditure amounted to ₹19,00,000, ABC Ltd.'s share in the saving will be:",
+      options: [
+        "₹80,000",
+        "₹20,000",
+        "₹1,40,000",
+        "₹1,80,000"
+      ],
+      answer: 1,
+      reason: "Total saving is ₹1,00,000. ABC Ltd. receives 20% of the saving as an incentive. Therefore, ₹1,00,000 × 20% = ₹20,000."
+    },
+    {
+      question: "If the actual expenditure amounted to ₹19,00,000, what will be ABC Ltd.'s total consultancy fee?",
+      options: [
+        "₹1,40,000",
+        "₹1,60,000",
+        "₹1,80,000",
+        "₹2,00,000"
+      ],
+      answer: 1,
+      reason: "Total Consultancy Fee = Agreed Consultancy Fee + ABC Ltd.'s share of savings = ₹1,40,000 + ₹20,000 = ₹1,60,000."
+    },
+    {
+      question: "If the actual expenditure amounted to ₹19,00,000, what is the total cost to the client for Project 712?",
+      options: [
+        "₹20,00,000",
+        "₹20,40,000",
+        "₹20,60,000",
+        "₹21,00,000"
+      ],
+      answer: 2,
+      reason: "Total Cost to Client = Actual Expenditure + Consultancy Fee = ₹19,00,000 + ₹1,60,000 = ₹20,60,000."
+    },
+    {
+      question: "If the actual expenditure amounted to ₹24,00,000, what is the cost overrun?",
+      options: [
+        "₹3,20,000",
+        "₹80,000",
+        "₹4,00,000",
+        "₹20,000"
+      ],
+      answer: 2,
+      reason: "Cost Overrun = Actual Expenditure − Target Expenditure = ₹24,00,000 − ₹20,00,000 = ₹4,00,000."
+    },
+    {
+      question: "If the actual expenditure amounted to ₹24,00,000, what is the client's share of the excess cost?",
+      options: [
+        "₹80,000",
+        "₹3,20,000",
+        "₹4,00,000",
+        "₹1,40,000"
+      ],
+      answer: 1,
+      reason: "Client bears 80% of the excess expenditure. Therefore, ₹4,00,000 × 80% = ₹3,20,000."
+    },
+    {
+      question: "If the actual expenditure amounted to ₹24,00,000, what is ABC Ltd.'s burden due to the cost overrun?",
+      options: [
+        "₹40,000",
+        "₹80,000",
+        "₹1,40,000",
+        "₹3,20,000"
+      ],
+      answer: 1,
+      reason: "ABC Ltd. bears 20% of the cost overrun. Therefore, ₹4,00,000 × 20% = ₹80,000, which is deducted from the consultancy fee."
+    },
+    {
+      question: "What will be the total cost to the client for Project 712 if the actual expenditure amounted to ₹24,00,000?",
+      options: [
+        "₹25,40,000",
+        "₹24,80,000",
+        "₹24,60,000",
+        "₹24,00,000"
+      ],
+      answer: 2,
+      reason: "Revised Consultancy Fee = ₹1,40,000 − ₹80,000 = ₹60,000. Total Cost to Client = ₹24,00,000 + ₹60,000 = ₹24,60,000."
+    },
+    {
+      question: "The pricing arrangement described in the case best represents which type of contract?",
+      options: [
+        "Fixed Price Contract",
+        "Cost-Plus Contract",
+        "Incentive-Based Target Cost Contract",
+        "Time and Material Contract"
+      ],
+      answer: 2,
+      reason: "The agreement establishes a target cost and allows both the client and the consultant to share the benefits of cost savings as well as the burden of cost overruns. This is the characteristic feature of an Incentive-Based Target Cost Contract."
+    },
+    {
+      question: "Which objective is primarily achieved through the proposed pricing methodology?",
+      options: [
+        "Complete transfer of risk to the client",
+        "Guaranteed maximum profit for ABC Ltd.",
+        "Cost efficiency through shared incentives",
+        "Elimination of cost overruns"
+      ],
+      answer: 2,
+      reason: "The contract encourages both parties to control project costs by sharing the financial rewards of savings and the burden of cost overruns. This promotes cost efficiency through shared incentives rather than transferring all risks to one party."
+    }
+  ]
+},
+{
+  caseText: `
+<p><strong>Bharat Heavy Machinery Ltd. (BHML)</strong> is a manufacturer of automotive components specializing in the production of internal combustion engines supplied to passenger car manufacturers (OEMs). The industry requires significant investment in plant and machinery, resulting in high fixed costs. In addition, intense competition among suppliers and price-sensitive automobile manufacturers make pricing decisions critical for profitability.</p>
+
+<p>Each engine manufactured by BHML incurs a <strong>variable cost of ₹4,200</strong>, consisting of direct materials, direct labour, and variable manufacturing overheads. The company's fixed costs remain unchanged within the relevant range of production. Therefore, while determining the profit-maximizing output, management focuses on the relationship between <strong>Marginal Revenue (MR)</strong> and <strong>Marginal Cost (MC)</strong>, since fixed costs do not affect the MR = MC decision rule.</p>
+
+<p>Market research revealed that demand for BHML's engines is highly sensitive to selling price. At a selling price of <strong>₹7,400 per engine</strong>, customers place no orders because competing manufacturers offer more competitive prices. However, every reduction of <strong>₹400</strong> in the selling price increases demand by <strong>2 engines</strong>.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Selling Price (₹)</th>
+            <th>Quantity Demanded (Units)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>7,400</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>7,000</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>6,600</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>6,200</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>5,800</td>
+            <td>8</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>From the above relationship, the linear demand function can be expressed as:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Equation</th>
+            <th>Formula</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Demand Function</td>
+            <td><strong>P = 7,400 − 200Q</strong></td>
+        </tr>
+        <tr>
+            <td>Marginal Revenue Function</td>
+            <td><strong>MR = 7,400 − 400Q</strong></td>
+        </tr>
+        <tr>
+            <td>Marginal Cost</td>
+            <td><strong>MC = ₹4,200</strong></td>
+        </tr>
+    </tbody>
+</table>
+
+<p>To maximize profit, BHML applies the economic principle that profit is maximized where <strong>Marginal Revenue equals Marginal Cost (MR = MC)</strong>. This approach enables the company to determine the optimal production quantity and selling price while balancing competitive pricing, capacity utilization, and long-term relationships with automobile manufacturers.</p>
+`,
+
+  questions: [
+    {
+      question: "Based on the given demand information, which of the following correctly represents the demand (price) function?",
+      options: [
+        "P = 7,400 − 400Q",
+        "P = 7,400 − 200Q",
+        "P = 4,200 − 200Q",
+        "P = 7,400 − 2Q"
+      ],
+      answer: 1,
+      reason: "Demand increases by 2 units whenever the selling price decreases by ₹400. Therefore, the slope of the demand curve is ₹200 per unit (₹400 ÷ 2). Hence, the linear demand function is P = 7,400 − 200Q."
+    },
+    {
+      question: "Which of the following correctly represents the Marginal Revenue (MR) equation for Bharat Heavy Machinery Ltd.?",
+      options: [
+        "MR = 7,400 − 200Q",
+        "MR = 4,200",
+        "MR = 7,400 − 400Q",
+        "MR = 200Q − 7,400"
+      ],
+      answer: 2,
+      reason: "For a linear demand function P = a − bQ, the Marginal Revenue equation is MR = a − 2bQ. Since the demand function is P = 7,400 − 200Q, the MR equation becomes MR = 7,400 − 400Q."
+    },
+    {
+      question: "At what level of output (in units) will profit be maximized?",
+      options: [
+        "6 units",
+        "8 units",
+        "10 units",
+        "12 units"
+      ],
+      answer: 1,
+      reason: "Profit is maximized where Marginal Revenue equals Marginal Cost. Setting MR = MC gives: 7,400 − 400Q = 4,200. Solving the equation results in Q = 8 units."
+    },
+    {
+      question: "What should be the unit selling price per engine to maximize profit?",
+      options: [
+        "₹7,400",
+        "₹6,200",
+        "₹5,800",
+        "₹4,200"
+      ],
+      answer: 2,
+      reason: "Using the profit-maximizing output of 8 units in the demand equation, P = 7,400 − (200 × 8) = ₹5,800. Therefore, ₹5,800 is the optimal selling price."
+    },
+    {
+      question: "The fact that demand increases by 2 units for every ₹400 reduction in price indicates that:",
+      options: [
+        "Demand is perfectly inelastic.",
+        "Demand is price elastic within the relevant range.",
+        "Demand is fixed regardless of price.",
+        "The market is regulated by the government."
+      ],
+      answer: 1,
+      reason: "The quantity demanded responds to changes in selling price, indicating that customers are sensitive to price movements. This reflects price elasticity of demand within the relevant operating range."
+    }
+  ]
+},
+{
+  caseText: `
+<p><strong>Sigma Manufacturing Limited</strong> operates in a highly competitive manufacturing environment where equipment reliability, production efficiency, and product quality are essential for maintaining profitability and fulfilling customer delivery commitments. The company follows the principles of <strong>Total Productive Maintenance (TPM)</strong> and continuously monitors operational performance using <strong>Overall Equipment Effectiveness (OEE)</strong>.</p>
+
+<p>Machine <strong>X-272K-300</strong>, installed on a continuous production line, operates for a <strong>9-hour shift (540 minutes)</strong> each day. During every shift, employees are provided with three short breaks of 10 minutes each and one meal break of 45 minutes, resulting in planned downtime. In addition, the machine experienced unexpected breakdowns during production.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Operating Data</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Scheduled Shift Time</td>
+            <td>540 minutes (9 hours)</td>
+        </tr>
+        <tr>
+            <td>Planned Downtime</td>
+            <td>75 minutes (30 minutes short breaks + 45 minutes meal break)</td>
+        </tr>
+        <tr>
+            <td>Net Available Time (NAT)</td>
+            <td>465 minutes</td>
+        </tr>
+        <tr>
+            <td>Unplanned Equipment Downtime</td>
+            <td>30 minutes</td>
+        </tr>
+        <tr>
+            <td>Net Operating Time (NOT)</td>
+            <td>435 minutes</td>
+        </tr>
+        <tr>
+            <td>Ideal Production Rate</td>
+            <td>30 parts per minute</td>
+        </tr>
+        <tr>
+            <td>Total Production</td>
+            <td>12,240 units</td>
+        </tr>
+        <tr>
+            <td>Rejected Units</td>
+            <td>240 units</td>
+        </tr>
+        <tr>
+            <td>Good Units Produced</td>
+            <td>12,000 units</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Using the production data, management calculated the various components of Overall Equipment Effectiveness (OEE).</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>OEE Component</th>
+            <th>Formula</th>
+            <th>Result</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Availability</td>
+            <td>Net Operating Time ÷ Net Available Time = 435 ÷ 465</td>
+            <td><strong>93.55%</strong></td>
+        </tr>
+        <tr>
+            <td>Performance</td>
+            <td>Ideal Operating Time ÷ Net Operating Time = 408 ÷ 435</td>
+            <td><strong>93.79%</strong></td>
+        </tr>
+        <tr>
+            <td>Quality</td>
+            <td>(Ideal Operating Time − Lost Operating Time) ÷ Ideal Operating Time = (408 − 8) ÷ 408</td>
+            <td><strong>98.04%</strong></td>
+        </tr>
+        <tr>
+            <td>Overall Equipment Effectiveness (OEE)</td>
+            <td>Availability × Performance × Quality</td>
+            <td><strong>86.02%</strong></td>
+        </tr>
+    </tbody>
+</table>
+
+<p>The analysis shows that although the machine achieved an excellent quality level with only a small number of defective units, overall effectiveness was reduced mainly because of equipment downtime and operating below the ideal production speed. These findings provide management with valuable information for identifying improvement opportunities through preventive maintenance, operator involvement, and continuous improvement initiatives under the TPM framework.</p>
+`,
+
+  questions: [
+    {
+      question: "The Planned Production Time (Net Available Time) for the shift is:",
+      options: [
+        "540 minutes",
+        "465 minutes",
+        "435 minutes",
+        "408 minutes"
+      ],
+      answer: 1,
+      reason: "Net Available Time (Planned Production Time) = Scheduled Time − Planned Downtime = 540 − 75 = 465 minutes."
+    },
+    {
+      question: "Which of the following best represents the Availability loss in the given scenario?",
+      options: [
+        "Short breaks and meal break",
+        "Rejected units",
+        "Equipment downtime",
+        "Difference between standard and actual output"
+      ],
+      answer: 2,
+      reason: "Availability loss arises from unplanned equipment downtime that prevents the machine from operating during the available production time. Planned breaks are excluded while calculating Net Available Time."
+    },
+    {
+      question: "The Availability Rate of the equipment is:",
+      options: [
+        "92.47%",
+        "93.55%",
+        "93.79%",
+        "98.04%"
+      ],
+      answer: 1,
+      reason: "Availability = Net Operating Time ÷ Net Available Time = 435 ÷ 465 = 93.55%."
+    },
+    {
+      question: "The Performance Rate primarily reflects losses due to:",
+      options: [
+        "Planned downtime",
+        "Equipment breakdowns",
+        "Operating below ideal speed",
+        "Defective production"
+      ],
+      answer: 2,
+      reason: "Performance measures how efficiently the equipment operates compared with its ideal production speed. Any reduction in speed results in performance loss."
+    },
+    {
+      question: "The Performance Rate in the given data is:",
+      options: [
+        "92.47%",
+        "93.55%",
+        "93.79%",
+        "98.04%"
+      ],
+      answer: 2,
+      reason: "Ideal Operating Time = 12,240 ÷ 30 = 408 minutes. Performance = 408 ÷ 435 = 93.79%."
+    },
+    {
+      question: "The Quality Rate of the process is:",
+      options: [
+        "92.47%",
+        "93.79%",
+        "98.04%",
+        "86.02%"
+      ],
+      answer: 2,
+      reason: "Lost Operating Time due to rejected units = 240 ÷ 30 = 8 minutes. Quality = (408 − 8) ÷ 408 = 98.04%."
+    },
+    {
+      question: "The Overall Equipment Effectiveness (OEE) of the equipment is:",
+      options: [
+        "93.79%",
+        "98.04%",
+        "86.02%",
+        "88.50%"
+      ],
+      answer: 2,
+      reason: "OEE = Availability × Performance × Quality = 93.55% × 93.79% × 98.04% = 86.02%."
+    },
+    {
+      question: "The loss of 8 minutes of Lost Operating Time (LOT) is attributable to:",
+      options: [
+        "Breakdown loss",
+        "Speed loss",
+        "Quality defect loss",
+        "Setup and adjustment loss"
+      ],
+      answer: 2,
+      reason: "Lost Operating Time results from rejected or defective units. Since 240 defective units require 8 minutes of ideal production time, the loss is classified as a Quality Defect Loss."
+    },
+    {
+      question: "Despite a high Quality Rate (98.04%), OEE is limited to 86.02% mainly due to:",
+      options: [
+        "Excess planned downtime",
+        "High defect rate",
+        "Combined effect of downtime and speed losses",
+        "Incorrect standard output assumptions"
+      ],
+      answer: 2,
+      reason: "Although product quality is excellent, Overall Equipment Effectiveness is reduced because both equipment downtime (Availability loss) and operating below ideal speed (Performance loss) reduce total effectiveness."
+    },
+    {
+      question: "From a TPM and continuous improvement perspective, the most appropriate priority area for management intervention is:",
+      options: [
+        "Reducing planned breaks",
+        "Eliminating rejected units",
+        "Improving equipment reliability and operating speed",
+        "Revising the standard production rate"
+      ],
+      answer: 2,
+      reason: "Total Productive Maintenance focuses primarily on reducing unplanned breakdowns, improving equipment reliability, and eliminating speed losses through preventive maintenance and operator participation, thereby improving Overall Equipment Effectiveness."
+    }
+  ]
+},
+{
+  caseText: `
+<p><strong>KRI Sanitation Ltd.</strong> manufactures a single standardized sanitation product and uses a <strong>Standard Costing System</strong> to monitor production costs, evaluate operational performance, and analyze variances. Standard costs are established based on normal operating efficiency and serve as benchmarks for measuring actual performance.</p>
+
+<p>The company's standard cost structure for one unit of finished product is as follows:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Cost Element</th>
+            <th>Standard Requirement</th>
+            <th>Standard Rate</th>
+            <th>Standard Cost per Unit</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Direct Material</td>
+            <td>4 kg</td>
+            <td>₹7 per kg</td>
+            <td>₹28</td>
+        </tr>
+        <tr>
+            <td>Direct Labour</td>
+            <td>5 hours</td>
+            <td>₹9 per hour</td>
+            <td>₹45</td>
+        </tr>
+        <tr>
+            <td>Variable Overheads</td>
+            <td>6 labour hours</td>
+            <td>₹2 per labour hour</td>
+            <td>₹12</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>For the month of <strong>June 2020</strong>, the company budgeted production and sales of <strong>15,000 units</strong>. However, actual production and sales amounted to <strong>13,800 units</strong>.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Particulars</th>
+            <th>Budget</th>
+            <th>Actual</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Production & Sales</td>
+            <td>15,000 units</td>
+            <td>13,800 units</td>
+        </tr>
+        <tr>
+            <td>Direct Material Quantity</td>
+            <td>60,000 kg</td>
+            <td>60,000 kg</td>
+        </tr>
+        <tr>
+            <td>Material Price</td>
+            <td>₹7 per kg</td>
+            <td>₹7 per kg</td>
+        </tr>
+        <tr>
+            <td>Direct Labour Hours</td>
+            <td>75,000 hours</td>
+            <td>71,200 hours</td>
+        </tr>
+        <tr>
+            <td>Direct Labour Cost</td>
+            <td>₹6,75,000</td>
+            <td>₹5,69,600</td>
+        </tr>
+        <tr>
+            <td>Variable Overheads</td>
+            <td>₹1,80,000</td>
+            <td>₹1,72,500</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>From the available information, management can compute labour and material variances to evaluate cost control and operational efficiency. The labour data indicates that the actual wage rate was lower than the standard rate, generating a favourable labour rate variance. However, more labour hours were required than the standard allowed for the actual output, resulting in an adverse labour efficiency variance. Such analysis helps management understand whether cost savings have been achieved without compromising operational efficiency.</p>
+`,
+
+  questions: [
+    {
+      question: "What is the Direct Labour Rate Variance for the month of June 2020?",
+      options: [
+        "₹71,200 (Adverse)",
+        "₹71,200 (Favourable)",
+        "₹19,800 (Adverse)",
+        "Nil"
+      ],
+      answer: 1,
+      reason: "Actual Labour Rate = ₹5,69,600 ÷ 71,200 hours = ₹8 per hour. Labour Rate Variance = (Standard Rate − Actual Rate) × Actual Hours = (₹9 − ₹8) × 71,200 = ₹71,200 (Favourable)."
+    },
+    {
+      question: "What are the standard labour hours allowed for the actual production of 13,800 units?",
+      options: [
+        "71,200 hours",
+        "75,000 hours",
+        "69,000 hours",
+        "72,000 hours"
+      ],
+      answer: 2,
+      reason: "Standard Labour Hours = Actual Output × Standard Hours per Unit = 13,800 × 5 = 69,000 hours."
+    },
+    {
+      question: "The Direct Labour Efficiency Variance for the month is:",
+      options: [
+        "₹71,200 (Adverse)",
+        "₹19,800 (Favourable)",
+        "₹19,800 (Adverse)",
+        "Nil"
+      ],
+      answer: 2,
+      reason: "Labour Efficiency Variance = (Standard Hours − Actual Hours) × Standard Rate = (69,000 − 71,200) × ₹9 = ₹19,800 (Adverse)."
+    },
+    {
+      question: "A situation where the labour rate variance is favourable but labour efficiency variance is adverse generally indicates:",
+      options: [
+        "Excessive overtime.",
+        "Employment of higher-skilled labour.",
+        "Use of lower-skilled labour at lower wage rates.",
+        "Improved labour productivity."
+      ],
+      answer: 2,
+      reason: "Paying lower wage rates may indicate the employment of less experienced or lower-skilled workers. Although labour cost per hour decreases, productivity may also decline, resulting in more hours worked and an adverse efficiency variance."
+    },
+    {
+      question: "Which of the following best explains the combined effect of labour variances in this case?",
+      options: [
+        "Ineffective labour cost control.",
+        "Labour cost savings achieved at the cost of efficiency.",
+        "Poor standard setting.",
+        "Increase in labour wage rates."
+      ],
+      answer: 1,
+      reason: "The company benefited from lower wage rates, creating a favourable labour rate variance. However, reduced productivity increased labour hours, generating an adverse efficiency variance. This reflects cost savings achieved at the expense of operational efficiency."
+    },
+    {
+      question: "The material usage variance is reported as ₹33,600 (Adverse). This is most likely attributable to:",
+      options: [
+        "Increase in material prices.",
+        "Inferior quality of raw material.",
+        "Inefficient handling of materials by labour.",
+        "Poor supplier selection."
+      ],
+      answer: 2,
+      reason: "Inefficient or inexperienced labour may consume more material through wastage, poor handling, or increased rejection rates. Since material prices remained unchanged, the adverse usage variance is most likely due to inefficient material handling."
+    },
+    {
+      question: "Which of the following conclusions is most appropriate from the variance analysis?",
+      options: [
+        "Lower wage rates always improve profitability.",
+        "Efficiency losses can be ignored if the rate variance is favourable.",
+        "Cost reduction decisions should consider operational efficiency.",
+        "Material variances are independent of labour performance."
+      ],
+      answer: 2,
+      reason: "Reducing labour costs alone does not guarantee higher profitability. Lower wage rates may reduce productivity and increase wastage, so management must balance cost savings with operational efficiency."
+    },
+    {
+      question: "What is the net impact of labour variances on profit?",
+      options: [
+        "₹91,000 (Favourable)",
+        "₹19,800 (Adverse)",
+        "₹51,400 (Favourable)",
+        "₹17,800 (Favourable)"
+      ],
+      answer: 2,
+      reason: "Net Labour Variance = Labour Rate Variance − Labour Efficiency Variance = ₹71,200 (Favourable) − ₹19,800 (Adverse) = ₹51,400 (Favourable)."
+    },
+    {
+      question: "Which managerial action would be most effective in improving labour efficiency without eliminating the benefit of lower wage rates?",
+      options: [
+        "Increasing standard labour hours.",
+        "Increasing labour wage rates.",
+        "Improving training and supervision.",
+        "Outsourcing production."
+      ],
+      answer: 2,
+      reason: "Providing better training and supervision improves worker productivity and reduces wastage while allowing the company to continue benefiting from lower labour costs. This achieves sustainable cost control without sacrificing efficiency."
+    }
+  ]
+},
+{
+  caseText: `
+<p><strong>Sunrise Footwear Ltd.</strong> operates in the highly competitive footwear industry, where profitability depends on effective cost management, efficient utilisation of production capacity, and competitive pricing. The company currently manufactures and sells <strong>6,000 pairs of shoes per year</strong>, which represents only <strong>60% of its installed production capacity</strong>. At this production level, each pair is sold for <strong>₹143</strong>, generating a net profit of <strong>₹25 per pair</strong>.</p>
+
+<p>The existing cost structure for one pair of shoes is as follows:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Cost Element</th>
+            <th>Cost per Pair (₹)</th>
+            <th>Nature of Cost</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Direct Materials</td>
+            <td>35.00</td>
+            <td>Variable</td>
+        </tr>
+        <tr>
+            <td>Direct Wages</td>
+            <td>12.50</td>
+            <td>Variable</td>
+        </tr>
+        <tr>
+            <td>Works Overheads</td>
+            <td>62.50</td>
+            <td>50% Variable & 50% Fixed</td>
+        </tr>
+        <tr>
+            <td>Administrative Overheads</td>
+            <td>6.00</td>
+            <td>25% Variable & 75% Fixed</td>
+        </tr>
+        <tr>
+            <th>Total Cost per Pair</th>
+            <th>116.00</th>
+            <th>-</th>
+        </tr>
+        <tr>
+            <th>Selling Price</th>
+            <th>143.00</th>
+            <th>-</th>
+        </tr>
+        <tr>
+            <th>Net Profit</th>
+            <th>25.00</th>
+            <th>-</th>
+        </tr>
+    </tbody>
+</table>
+
+<p>During the forthcoming year, the company expects no improvement in normal demand, which is likely to remain at <strong>6,000 pairs</strong>. However, manufacturing costs are expected to rise due to inflation and higher operating expenses.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Expected Change</th>
+            <th>Impact</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Direct Material Cost</td>
+            <td>Increase by 6%</td>
+        </tr>
+        <tr>
+            <td>Direct Labour Cost</td>
+            <td>Increase by 8%</td>
+        </tr>
+        <tr>
+            <td>All Fixed Costs</td>
+            <td>Increase by 10%</td>
+        </tr>
+        <tr>
+            <td>Selling Price</td>
+            <td>No increase possible (remains ₹143)</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Although market conditions prevent any increase in the regular selling price, the company receives a special order that will utilise an additional <strong>20% of production capacity</strong>. Since the existing production represents only 60% of total capacity, the special order will require the manufacture of an additional <strong>2,000 pairs</strong>, increasing overall capacity utilisation to 80%.</p>
+
+<p>The management wishes to determine the <strong>minimum selling price</strong> that can be quoted for this additional order while ensuring that the company's overall annual profit reaches <strong>₹1,67,300</strong>. As the company has sufficient idle capacity, accepting the additional order will not increase fixed costs beyond those already expected. Therefore, the pricing decision should primarily consider the revised variable cost together with the additional profit required to achieve the target profit.</p>
+
+<h3>Computation of Revised Variable Cost</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Particulars</th>
+            <th>Existing (₹)</th>
+            <th>Revised (₹)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Direct Materials</td>
+            <td>35.00</td>
+            <td>37.10</td>
+        </tr>
+        <tr>
+            <td>Direct Wages</td>
+            <td>12.50</td>
+            <td>13.50</td>
+        </tr>
+        <tr>
+            <td>Variable Works Overheads</td>
+            <td>31.25</td>
+            <td>31.25</td>
+        </tr>
+        <tr>
+            <td>Variable Administrative Overheads</td>
+            <td>1.50</td>
+            <td>1.50</td>
+        </tr>
+        <tr>
+            <th>Total Variable Cost per Pair</th>
+            <th>80.25</th>
+            <th>83.35</th>
+        </tr>
+        <tr>
+            <th>Contribution per Pair</th>
+            <th>62.75</th>
+            <th>59.65</th>
+        </tr>
+    </tbody>
+</table>
+
+<p>Using the revised contribution, expected increase in fixed costs, and the desired annual profit, management can determine the minimum acceptable selling price for the additional 2,000 pairs by applying marginal costing and relevant costing principles.</p>
+`,
+
+  questions: [
+    {
+      question: "After considering the anticipated increases in direct materials (6%) and direct wages (8%), what is the revised variable cost per pair at the existing activity level?",
+      options: [
+        "₹80.25",
+        "₹82.10",
+        "₹83.35",
+        "₹85.60"
+      ],
+      answer: 2,
+      reason: "Revised Variable Cost = Direct Materials ₹37.10 + Direct Wages ₹13.50 + Variable Works Overheads ₹31.25 + Variable Administrative Overheads ₹1.50 = ₹83.35 per pair."
+    },
+    {
+      question: "Given that the selling price cannot be increased and remains at ₹143 per pair, what is the contribution per pair after revision of costs?",
+      options: [
+        "₹62.75",
+        "₹59.65",
+        "₹56.50",
+        "₹54.90"
+      ],
+      answer: 1,
+      reason: "Contribution = Selling Price − Revised Variable Cost = ₹143 − ₹83.35 = ₹59.65 per pair."
+    },
+    {
+      question: "After considering the increase in fixed costs by 10%, what is the profit at the existing activity level of 6,000 pairs?",
+      options: [
+        "₹1,50,000",
+        "₹1,67,300",
+        "₹1,25,400",
+        "₹1,08,750"
+      ],
+      answer: 3,
+      reason: "Total Contribution = 6,000 × ₹59.65 = ₹3,57,900. Revised Fixed Costs = ₹2,49,150. Profit = ₹3,57,900 − ₹2,49,150 = ₹1,08,750."
+    },
+    {
+      question: "The manufacturer desires an overall profit of ₹1,67,300. For the additional 2,000 pairs, what is the minimum profit per pair that must be earned?",
+      options: [
+        "₹25.00",
+        "₹27.50",
+        "₹29.275",
+        "₹31.65"
+      ],
+      answer: 2,
+      reason: "Additional Profit Required = ₹1,67,300 − ₹1,08,750 = ₹58,550. Profit per Additional Pair = ₹58,550 ÷ 2,000 = ₹29.275."
+    },
+    {
+      question: "What is the minimum selling price per pair that should be quoted for the additional 20% capacity utilisation (2,000 pairs) to achieve the target profit?",
+      options: [
+        "₹108.35",
+        "₹112.63",
+        "₹118.00",
+        "₹143.00"
+      ],
+      answer: 1,
+      reason: "Minimum Selling Price = Revised Variable Cost + Required Profit per Pair = ₹83.35 + ₹29.275 = ₹112.625 ≈ ₹112.63."
+    }
+  ]
+},
+{
+  "caseText": "Payfast Limited offers an application-based service to make payments by phone. It allows linking of phone numbers with bank and allow bank to bank transfer through mobile phone. It was the 1st company in the country to provide such facility. The customers could not believe that money transfer process could be made so much simpler and the company witnessed exponential growth in very few days. The services level was immaculate and no charges were levied on the customers. Seeing the growth of Payfast, many other companies joined the industry and started providing this service. Now, Payfast was required to provide other innovative offerings to the customers to maintain its leadership position. Further, the user count was increasing and so Payfast was spending more to maintain security of the user data. Security breach, if any, could result into loss of millions to its users. Similarly, all its competitors were also spending a significant amount on the security of user data. In order to incentivize customers, Payfast starting giving cash backs to its customers on every transfer. This was unheard of. Getting money for making transfer was unheard and its competitors also could not fathom it. To compete with Payfast, its competitors started adding new features on their applications like movie booking, cab booking, etc. But this was not well received by customers as customers used different apps for such transactions which had much better user interface and features. Slowly, the competitors removed those features and went back to their original product. To improve its brand presence, Payfast hired an international brand designed and designed a new logo for Payfast.",
+  "questions": [
+    {
+      "question": "How would you best describe the offering by Payfast of application to make payments through mobile phone?",
+      "options": [
+        "Performance attribute",
+        "Delighter",
+        "Indifferent",
+        "Delighter when introduced, currently threshold attribute"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which would be most appropriate description for Payfast’s offering of security improvement for user data?",
+      "options": [
+        "Delighter",
+        "Performance attribute",
+        "Indifferent",
+        "Reverse"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Should Kano spend huge amount on logo designing to improve customer satisfaction?",
+      "options": [
+        "Yes, as customers love great logo",
+        "No, as customers would be indifferent",
+        "Yes, as competitors had better logo",
+        "No, as companies change logo frequently"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Is giving cashbacks by Payfast a justified cost?",
+      "options": [
+        "Yes, as customers would be delighted",
+        "No, as customers would be indifferent",
+        "No, as it would affect profitability",
+        "No, as competitors would eventually catch up"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Adding different features by the competitors can be termed as below?",
+      "options": [
+        "Indifferent",
+        "Performance Attributes",
+        "Threshold",
+        "Reversal"
+      ],
+      "answer": 3
+    }
+  ]
+},
+{
+  "caseText": "You recently joined Management Accounting department of a fashion retail brand ‘Paridhaan’ which is struggling with dipping margin and deficiencies issues in distribution network. In meeting with CEO and COO you explained to them that Supply Chain Management can be great help for Paridhaan to overcome the many of challenges that Paridhaan is currently facing. You explained them the case of Sara Fashions, how they manage their Supply Chain to create value. Sara Fashions is a well-known premium international clothing manufacturer and retailer based in Spain that was founded in the 1980s. Because of the collaborative relationship with customers and suppliers, Sara can complete the development and shipment of a new product to its stores in two to six weeks, which is faster than the industry average of six months. Sara sells their clothing through its own retail outlets. One of the most significant benefits of Sara's supply chain strategy is its ability to respond quickly to all fashion trends and provide customers with the latest fashion outfits in two weeks in case of existing items while 4-6 weeks in case of new items. Secondly, Sara never produces in large quantities, so if the style does not sell as well as expected, Sara does not suffer as much loss because there is not much stock to discount. Thirdly, the advantages of a vertically integrated and shortened supply chain are obvious. Sara's advertising cost is only 0.3% of its revenue, whereas similar fashion retailers typically spend 3% on advertising and marketing. The high frequency of shifts in displayed merchandise (about three-quarters of them are changed every three weeks) allows for consistent customer visits. The main disadvantage of Sara's supply chain is that because Sara owns all of the supply chain channels, it is difficult to expand to distant locations because it is very expensive to distribute such products. Sara factories in Spain employ flexible manufacturing systems to allow for rapid changeover operations. Only 24% of all items are manufactured in Asia and Africa, while 50% are manufactured in Spain; and rest 26% in the rest of Europe. Sara's factories can quickly increase and decrease production rates, resulting in less inventory in the supply chain and less need for working capital to finance that inventory. They only do 50 to 60% of their manufacturing in advance, compared to competitors' 80 to 90%. Sara does not need to bet heavily on yearly fashion trends. They can place numerous smaller bets on short-term trends that are easier to predict. They employ approximately 3,000 workers in manufacturing operations in Spain at an average wage of 11.00 euros per hour, compared to an average wage of 0.80 euros per hour in Asia. COO pointed that there are two flows that majorly we need to manage at Paridhaan; the physical flow of material and exchange of information. Since many of terms and points are new for them hence, they shower you back with questions which you need to answer (with most appropriate option) keeping above facts in backdrop of your mind.",
+  "questions": [
+    {
+      "question": "By offering products through an exclusive distribution channel, Sara can _________. i. Differentiate ii. Better understand their customers iii. Encourage additional purchase iv. Specialise in a particular type of discounted merchandise",
+      "options": [
+        "Only i",
+        "Only iii",
+        "iii and iv",
+        "i, ii, and iii above"
+      ],
+      "answer": 3,
+      "reason": "Sara only sells its clothing through its own retail outlets. This allows Sara to better understand their customers and encourages additional purchases. By offering products through an exclusive distribution channel, Sara can differentiate."
+    },
+    {
+      "question": "COO statement in context of flows pertaining to supply chain management at Paridhaan, which of the following is/ are true for supply chain management? i. The physical material generally has up-stream movement ii. Exchange of information always happens both ways iii. Flow of cash always has downstream movement",
+      "options": [
+        "Only i",
+        "Only ii",
+        "Only ii and iii",
+        "All of the i, ii, and iii above"
+      ],
+      "answer": 1,
+      "reason": "There are three types of main flows that happen in any supply chains: flow of materials/ goods, flow of money/ cash, and flow of information. There is a forward flow of materials/ goods for the regular flow that happens all the way from higher tier suppliers (upstream) to the end-consumer (downstream). In addition, if there are any returns for any reason, there will be a reverse flow of materials/ goods in the opposite direction to the forward flow. Flow of money (cash flow) happens from downstream to upstream. For example, the retailer needs to pay the distributor for the goods they have received from them. Flow of information happens both ways in the supply chain since organizations will need to share different type of information with each other so that the whole supply chain can make better decisions to improve overall performance."
+    },
+    {
+      "question": "Sara’s response time to customer’s demand is comparatively less than its peers, hence it has better control over physical flow of supply chain and capable to counter negative effects. One such effect is, due to small change in customer demands, inventory oscillations become progressively larger looking through the supply chain. This is known as –",
+      "options": [
+        "Net effect",
+        "Bullwhip effect",
+        "Chain effect",
+        "Reverse effect"
+      ],
+      "answer": 1,
+      "reason": "The bullwhip effect is a supply chain phenomenon describing how small fluctuations in demand at the retail level can cause progressively larger fluctuations in demand at the wholesale, distributor, manufacturer, and raw material supplier levels. The effect is named after the physics involved in cracking a whip."
+    },
+    {
+      "question": "Which of following statements is/ are incorrect regarding Sara Fashions? i. Sara Fashions competes on flexibility and agility instead of low cost leadership ii. Sara Fashions can further reduce their cost production by shifting production facility to labour intensive market/ economy",
+      "options": [
+        "Only statement i",
+        "Only statement ii",
+        "Both of the statements",
+        "None of the statements"
+      ],
+      "answer": 3,
+      "reason": "It is stated in fact of case that they employ approximately 3,000 workers in manufacturing operations in Spain at an average wage of 11.00 euros per hour, compared to an average wage of 0.80 euros per hour in Asia. Hence Sara competes on flexibility and agility instead of low cost and cheap labour. Further it is stated that Sara factories in Spain employ flexible manufacturing systems to allow for rapid changeover operations. Only 24% of all items are manufactured in Asia and Africa, while 50% are manufactured in Spain; and rest 26% in the rest of Europe; hence scope of reducing cost of production by shifting production facilities to labour intensive economies such as India, Asian and African countries."
+    },
+    {
+      "question": "Which of following statements is/ are correct regarding cycle-time and turnover ratios of Sara Fashions? i. Stores of Sara Fashions expected to have lower inventory turnover ratio than the stores of other retail readymade clothing brands ii. Cycle time is lower in case of Sara Fashions than its peer group",
+      "options": [
+        "Only statement i",
+        "Only statement ii",
+        "Both of the statements",
+        "None of the statements"
+      ],
+      "answer": 1,
+      "reason": "Since Sara Fashions keep low inventory level low and produce in small lots according to latest fashions and customers’ needs hence Stores of Sara Fashions have higher inventory turnover ratio than the stores of other retail readymade clothing brands. Sara Fashions took only 2-6 weeks to reach back to customers with their product that meet their requirements/ expectations hence in comparison to average of 6 months for peer group hence cycle time is lower in case of Sara Fashions."
+    }
+  ]
+},
+{
+  "caseText": "Glen Engineering Limited (GEL) is adopting lean practices in a drive for excellence and productivity. Among the lean initiatives that GEL has taken in the recent past, TPM is prominent. While speaking to one of the quality circles, the Chief Management Accountant, Mr. Deepak, explains TPM consists of eight strategies (or pillars) that ensure equipment is consistently maintained and inspected by instilling a sense of responsibility for equipment in all employees. He further says one such pillar deals with routine maintenance, and all the workers are partners in the betterment of GEL, and the success of the TPM initiative depends upon their effort. A couple of training programs for workers, in addition to the EDP (Executive Development Programme) and MDP (Management Development Programme) on 5S practices, were organized by GEL to empower its managers and employees. The focus of the programs was to explain the five S: sort, set-in-order, shine, standardise, and sustain, as well as highlight their scope and useful tools. Mr. Shukla, who is VP-POM (production and operation management), also attended the MDP. He is of the opinion that there are six S instead of five, and the sixth S is Style, and he further says that the five S are only enablers for continual improvement and not results in themselves. Mr. Shukla's second opinion is countered by Trainer by emphasizing the expected benefits of each of the 5S. Mr. Dev Raj, floor supervisor, is not sure about how shine can help in productivity and what is to be performed or covered under sort phase, so he desired to understand the importance of shine and the scope of sort phase. Ms. Archana is the Manager of Risk and Control at GEL, and she is keen to know whether all the workers strive for 5S simultaneously or one person for each department at a time to speed up and avoid conflicts. You are part of trainer’s team for MDP, expected to answer following questions with most appropriate option.",
+  "questions": [
+    {
+      "question": "Which of the following item are parts of the Sort phase? i. Use of red tags ii. 48-hour rule iii. Disposition red tag items iv. Putting tools at the point of use",
+      "options": [
+        "i, ii, and iii only",
+        "i, ii, and iv only",
+        "i, iii, and iv only",
+        "ii, iii, and iv only"
+      ],
+      "answer": 0,
+      "reason": "Putting tools at the point of use belong to set in order rather than sorting. 48-hour rule may be new concept for students; hence students are advised to take note that; the 48-hour rule says if it is not going to be used in the work area within 48 hours, and it does not belong there."
+    },
+    {
+      "question": "Evaluate the correctness of opinions expressed by Mr. Shukla. i. Style is sixth S as extension of 5S ii. 5S are enablers that leads to continual improvement",
+      "options": [
+        "Statement i only",
+        "Statement ii only",
+        "Both Statements",
+        "None of the Statements"
+      ],
+      "answer": 1,
+      "reason": "Safety is sixth S as extension of 5S. In this phase, leaders focus on identifying hazards and developing preventative measures to keep their team safe. 5S, being the foundation of TPM (even all the lean practices that eventually led to TQM), acts as the enabler for continual improvement and fits in at the Do stage."
+    },
+    {
+      "question": "Which pillar of TPM focuses on routine maintenance?",
+      "options": [
+        "Quality maintenance",
+        "Early management",
+        "Planned maintenance",
+        "Autonomous maintenance"
+      ],
+      "answer": 3,
+      "reason": "Autonomous maintenance focuses on routine maintenance. Routine maintenance includes cleaning, lubricating, and inspection operations performed by the operators."
+    },
+    {
+      "question": "Which of following included in the expected benefits from Sort? i. Make work easier. ii. Customer satisfaction iii. Improving ownership iv. Prevent accumulation of unnecessary items v. Reduce chances of being distributed with unnecessary items",
+      "options": [
+        "i, iv, and v only",
+        "i, iii, and v only",
+        "ii, iii, and iv only",
+        "i, ii, iii, iv, and v"
+      ],
+      "answer": 0,
+      "reason": "Sorting makes work easier, prevents accumulation of unnecessary items, reduce chances of being distributed with unnecessary items. Customer satisfaction and ownership don’t relate to Sort."
+    },
+    {
+      "question": "Which of following included in the expected benefits from Shine? i. Creates pleasant environment ii. Makes comfortable with 5S procedures iii. Frees up space iv. Increases workers productivity v. Improves safety",
+      "options": [
+        "i, ii, and iii only",
+        "i, ii, iii, and iv only",
+        "ii, iii, iv and v only",
+        "i, iii, iv, and v only"
+      ],
+      "answer": 3,
+      "reason": "Makes comfortable with 5S procedures relates to Standardize."
+    },
+    {
+      "question": "Which of the following statements is/are correct? i. 5S should be implemented by only one person per department to save time and avoid confusion ii. Changing the area's layout is included in Set-In-Order",
+      "options": [
+        "Statement i only",
+        "Statement ii only",
+        "Both Statements",
+        "None of the Statements"
+      ],
+      "answer": 1,
+      "reason": "5S shall be implemented across organisation by all, simultaneously because 5S is more than ensuring that a workspace is neat and aesthetically orderly, 5S focuses on keeping everything in its place to maintain consistency in the work environment. Eliminating inconsistencies reduces disruptions to production processes, in turn resulting in reduced waste and a more predictable (and higher) quality of output. Set-in-order signify the systemic arrangement by adherence to the one of 14th Principle of Management enunciated by Henri Fayol in Administrative Theory of Management i.e., Principle of order which provides that there shall be place for everything and everything shall be in its place. Therefore set-in-order arrange all necessary items into their most efficient and accessible arrangements so that they can be easily selected for use and make workflow smooth and easy. Hence changing the area’s layout included in set-in-order."
+    }
+  ]
+},
+{
+  "caseText": "KG Airlines is the second largest airline in India. Post the Covid 19 pandemic, the airline industry is slowly reviving its pre-pandemic levels of operations. Business is expected to revive and grow in the next few years. Profit margins of all players in the aviation industry are under constant pressure. This is due to adverse global economic factors and overall inflationary conditions within the domestic market. KG airlines like all other players in the industry is preparing for recovery of business and wishes to maintain if not grow its market share. \"Just like the skies we operate in; customers’ expectations are limitless. At the same time, a limit certainly exists for the price that the customer is willing to pay for a flight as also to the costs we can incur in order to remain viable\" bemoaned the Chief Executive Officer (CEO) of the company. This key challenge of balancing customer satisfaction and cost reduction efforts was discussed at length by the senior management team at the company’s head quarters in Mumbai. The Regional Marketing Head emphasised that customer experience should not be compromised due to cost reduction measures. Annoyed customers are very likely to switch to rival airlines and hence market share can be impacted. The Chief Financial Officer (CFO) is a capable experienced Chartered Accountant who has good insights about the operations in an airline industry. She says \"We have many costs such as aviation turbine fuel, government taxes etc. which are not within our control. Let us, therefore, target those costs that are variable and hence controllable by us. Charging customers for every service can many times annoy and affect their flight experience. Therefore, let us reward them instead while cutting down costs!\" She further detailed how this can be done: It was found that passengers arrive at the airport for check in typically or 2 hours before the flight, although the airline recommends that they come 3 hours before in order to avoid congestion. Due to the constant last-minute arrivals, the airline has a higher staffing requirement at the check in counter, flight boarding staff and other ground crew. If the arrivals are streamlined by making the passengers arrive earlier, the company can save ₹ 2,00,00,000 per annum due to lower staffing requirements. This benefit is considering the savings across all airports that KG airlines operates in. To incentivise passengers to arrive 3 hours early, the airline can propose to add 50-mile points to their frequent flyer reward program. The reward points can be encashed to get exciting, customized gifts. Approximately 10,000 passengers are expected to avail of this incentive each year, with each mile point costing the airline ₹ 20 per mile point. Additional mile points can help maintain a loyal frequent flyer base. Another major benefit is that the airline can avoid delays in flight take off due to late passenger arrival. Hence, the benefits of this program are far reaching.",
+  "questions": [
+    {
+      "question": "Calculate the net benefit to KG airlines by incentivising passengers to arrive early at the airport?",
+      "options": [
+        "90,00,000",
+        "1,00,00,000",
+        "1,10,00,000",
+        "80,00,000"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is ₹ 1,00,00,000. Each mile costs ₹ 20, which means each passenger credited with 50-mile points for coming early, will cost ₹ 1,000. For 10,000 passengers the cost would be ₹ 1,00,00,000. Overall savings to the company due to this initiative is ₹ 2,00,00,000. Therefore, the net benefit to KG airlines for incentivising passengers to arrive early at the airport would be ₹ 1,00,00,000 (Savings of ₹ 2,00,00,000 less cost of ₹ 1,00,00,000)."
+    },
+    {
+      "question": "As per the Kano model, match the factors to their corresponding attributes − Factor Attribute: i. Initiatives taken to ensure flight safety a. Reverse attribute ii. Initiative to incentivise early check in of passengers b. Indifferent attribute iii. Delay in flight take-off and landing c. Threshold attribute iv. Airport fees paid incurred by the airline d. Excitement or delight attribute",
+      "options": [
+        "i- a, ii- b, iii- c and iv- d",
+        "i- c, ii- a, iii- b and iv- d",
+        "i- c, ii- d, iii- a and iv- b",
+        "i- d, ii- a, iii- c and iv- b"
+      ],
+      "answer": 2,
+      "reason": "Initiatives taken to ensure flight safety - Threshold attribute, a must have attribute. Initiative to incentivise early check in of passengers - Excitement or delight attribute, a unique and unexpected reward that delights passengers. Delay in flight take-off and landing - Reverse attribute, if present causes dissatisfaction, delays cause dissatisfaction. Customers always expect flights to be on time. Airport fees paid incurred by the airline – Indifferent attribute since it is irrelevant to customer satisfaction."
+    },
+    {
+      "question": "During the meeting, the management discussed key information requirements and needs of various stakeholders. Using Mendelow’s Matrix, match the stakeholders to the power and interest they wield over KG airlines. Stakeholder Power and interest: i. Air traffic control a. Key Players - High power high interest ii. Suppliers of aviation fuel b. Influential - High power low interest iii. Contract employees c. Marginal - Low power low interest iv. Environment activists d. Affected - Low power high interest",
+      "options": [
+        "i-b, ii- a, iii- c and iv- d",
+        "i-a, ii- b, iii- c and iv- d",
+        "i-c, ii- d, iii- a and iv- b",
+        "i-b, ii- a, iii- d and iv- c"
+      ],
+      "answer": 3,
+      "reason": "Air Traffic Control: Influential - High power low interest. Suppliers of aviation fuel: Key Players - High power high interest. Contract employees: Affected - Low power high interest. Environment activists: Marginal - Low power low interest."
+    },
+    {
+      "question": "Growth in aviation sector has led to congestion in airports across the country. Due to which parking space available for planes at the airport hanger is limited. Due to high demand, the parking fees is also increasing at a rapid rate. Which tool of strategic cost management will you apply to minimise the time a plane is parked at the hanger?",
+      "options": [
+        "Kaizen improvement",
+        "Quality management",
+        "Theory of constraints",
+        "Preventive maintenance"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is theory of constraints. Here, the constraint/ bottleneck is the parking space available in the airports. Using theory of constraints, KG airlines can plan its flight plan and route connections such that either (i) it can choose a time for arrival or departure when parking is reasonably available else (ii) it can plan it route connections such that the need for parking is reduced."
+    },
+    {
+      "question": "If KG wants to analyse its revenue generation based on various segments, which analysis should it undertake?",
+      "options": [
+        "Value chain analysis",
+        "Customer profitability analysis",
+        "Supply chain analysis",
+        "Balanced scorecard"
+      ],
+      "answer": 1,
+      "reason": "Only customer profitability analysis."
+    }
+  ]
+},
+{
+  "caseText": "A private bank has approached an Information Technology (IT) company for consultation regarding various challenges it is facing in business operations. Few of them are: 1. High staffing requirements for validating data across different applications, scanned documents, worksheets, and other paper documents. 2. Unforeseeable fluctuations in staffing (especially during exigencies like floods, pandemic etc.) disrupt regular business operations leading to unpredictable execution lead times. This has in the past lead to violation of Service Level Agreements (SLAs) and compliance issues. 3. Higher instances of error and resultant customer complaints due to significant manual intervention in many processes. The IT company has studied the bank’s various processes and has identified a set of processes that can be automated using Robotic Process Automation (RPA). Robotic Process Automation (RPA) is an intelligent software program that make use of “robotic bots” to handle repetitive, rule based digital tasks just the way humans do. The benefits these bots can do can be explained with an example: A call centre employee gets a complaint from a customer regarding a complaint about account login access. While the employee is attending to the customer, the robotic bot will instantaneously pull out the customer’s data from various sources into a single screen. This will help the call centre executive assist the customer in a more holistic manner since information is readily available on hand.",
+  "questions": [
+    {
+      "question": "Given that Robotic Process Automation (RPA) can handle routine repetitive tasks, which of the following tasks cannot be handled by RPA?",
+      "options": [
+        "Generation of Tax Deduction at Source (TDS) Certificates like 15G/ 15H",
+        "New product development that requires engagement with clients",
+        "Automated Teller Machine (ATM) transaction reconciliation",
+        "Loan origination process involving data entry, document routing, email notification, etc."
+      ],
+      "answer": 1,
+      "reason": "The correct answer is new product development that requires engagement with clients. These are not repetitive routine tasks that can be automated and hence cannot be handled by RPA. These would require bank personnel (who would now be freed of routine tasks) to engage with clients to develop new products based on changing customer demands."
+    },
+    {
+      "question": "Which of the following are benefits of RPA? i. Fraud detection and prevention ii Cost reduction in staffing requirements iii Improved business productivity due to fast turnaround time iv Enhanced customer experience due to continuous availability of service and accurate processing",
+      "options": [
+        "i and ii",
+        "ii and iv",
+        "ii and iii",
+        "i, ii, iii, and iv"
+      ],
+      "answer": 3,
+      "reason": "RPA dramatically improves business productivity as it automates routine, high volume transactions. Due to automation, processing is largely error free which enhances customer experience. RPA bots are available any time at the click of the button and hence customers can avail service anytime. Service is no longer dependent on availability of staff. Automation also prevents fraud instances and RPA with other AI technologies can also help in fraud detection. Automation can significantly reduce the workforce requirement for routine tasks, and this can then be used for more creative and innovative work for the company."
+    },
+    {
+      "question": "Successful implementation of RPA would free up the availability of workforce. The bank plans to engage few of its talented workforce to create or unlock value in terms of enhanced revenue, either by cutting costs and/or by creating new processes, products, and services. The workforce will be working with the organization and will not have any ownership rights over innovations and other initiatives. This will promote innovation in the organization to attain cost efficiency and will give impetus to growth. Such a team of workforce would be known as:",
+      "options": [
+        "Entrepreneurship",
+        "Intrapreneurship",
+        "Innovators",
+        "Task force"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is Intrapreneurship. Intrapreneurship is a revolutionary system of speeding up innovations within large companies by making better use of available or allocated resources (with use of entrepreneurial talent of Intrapreneur). Hence, Intrapreneurship is a restorative action taken to counter stagnation within a large organisation."
+    },
+    {
+      "question": "Considering that digital technologies are causing disruption across industries, especially the financial services industry, which strategy is the bank following in response to such disruptions?",
+      "options": [
+        "Withdraw",
+        "Milking the cash cow",
+        "Invest and counter invest",
+        "Restrict presence and shift focus to the core"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is ‘invest and counter invest’. The bank is responding to digital transformation and disruption by investing in resources and capabilities that in turn cause disruption."
+    },
+    {
+      "question": "The bank’s loan origination department manages handling many types of loans like personal loans, home loans, commercial loans to small and medium enterprises. The department’s processes include filling up and completion of loan applications, confirming information in the form with supporting documentary evidence, routing the process further to loan approval and disbursement departments. Thus far, the loan origination process requires a lot of manual intervention and is subject to the capacity of workforce available with the department. With the introduction of RPA, all this can be digitalized and automated. Which of the cost management techniques has the bank implemented?",
+      "options": [
+        "Target costing",
+        "Life cycle costing",
+        "Theory of constraints",
+        "Standard costing"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is theory of constraints. The loan origination department has a process that requires manual intervention and is subject to the capacity of the available workforce. This problem can be addressed with the introduction of RPA since the entire process can be digitalized and automated at the department. Due to this, the constraint of workforce time availability is reduced, and the freed-up time can be used to handle cases where exceptions have to be made to the standard process. RPA does not necessarily address target costing, life cycle costing and standard costing, although if implemented properly it can help in cost reduction."
+    }
+  ]
+},
+{
+  "caseText": "<p>Hydrogen fuel cells are the cutting-edge technological development that is slated to replace standard petrol / diesel engines in large motor vehicles like buses and trucks. Green energy initiatives that reduce carbon emissions are the need of the hour, such ventures are being encouraged by the Governments across the globe through various policy initiatives. In order to have a viable business in place, an entire eco-system for supporting this technology is being developed in the form of service centres, hydrogen fuel storage and distribution centres and other infrastructural needs.</p><p>H-Power is a large petroleum oil refining company that has in the past 5 years forayed into manufacturing Green Hydrogen fuel cells business. Green Hydrogen fuel is being considered more environment friendly as compared to Grey Hydrogen fuel as the later uses fossil fuel like natural gas or coal in its production. On the other hand, Green Hydrogen uses solar and wind power in its production and hence is considered more environment friendly. Green Hydrogen can help reduce emission levels drastically.</p><p>Hydrogen as a gas is found in scare quantity on earth. Rather, it is found abundantly as being part of water, which is composed of Hydrogen and Oxygen. An electrolyser splits water into hydrogen and oxygen and is hence a very useful component in the production of Green Hydrogen. Ecopower is a company (Global Rank 110) that manufactures hydrogen electrolysers. Ecopower has been a supplier of electrolysers to H-Power for its Hydrogen fuel cell business. Recently, H-Power has been in talks with Ecopower for acquisition of company for a sum of $1 billion. The acquisition would help strengthen H-Power’s production capabilities. Building production capabilities are very capital-intensive requiring billions of dollars of investment.</p><p>The adoption of hydrogen fuel technology is dependent on the cost of production of hydrogen fuel. Currently, the cost of producing Grey Hydrogen is much lower than the cost of producing Green Hydrogen. Hence, the adoption of Grey Hydrogen is more popular among both fuel cell manufacturers and manufacturers of buses and trucks. Lately, H-Power has started collaborating closely with the car and truck manufacturers to help them understand Green Hydrogen technology. It has convinced few large car and truck manufacturers to revise its engines to accommodate Green Hydrogen fuel cells on an experimental basis.</p>",
+  "questions": [
+    {
+      "question": "Acquisition of Ecopower by H-Power would be an example of:",
+      "options": [
+        "Horizontal Integration",
+        "Backward Vertical Integration",
+        "Forward Integration",
+        "Cost Integration"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is Backward Vertical Integration. Ecopower is the supplier of H-Power. With this acquisition, H-Power would be able to control more levels of the supply chain, hence it is a vertical integration. Since this would be acquisition of a supplier, it would be backward vertical integration."
+    },
+    {
+      "question": "Given the information in the above scenario, which of Michael Porter’s Five forces should H-Power consider as a concern to its business:\n\n| S.No. | Force |\n| :--- | :--- |\n| i | Bargaining power of suppliers |\n| ii | Bargaining power of buyers |\n| iii | Threat of substitutes |\n| iv | Threat of new entrants |",
+      "options": [
+        "i and ii",
+        "i and iii",
+        "ii and iii",
+        "iii and iv"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is threat of substitutes and the bargaining power of buyers. Threat of substitutes, Grey Hydrogen is a substitute to Green Hydrogen. The cost of producing Grey Hydrogen is much lower than the cost of producing Green Hydrogen. This leads to bargaining power of buyers, who are the bus and truck manufacturers. The buyers due to the cost advantage are preferring Grey over Green Hydrogen. Hence, to make the transition to Green Hydrogen, H-Power should be able to convince them of the viability of Green Hydrogen technology."
+    },
+    {
+      "question": "The transition that H-Power is adopting by foraying Green Hydrogen fuel cells affects which aspect of Triple Bottom Line concept of business?",
+      "options": [
+        "Planet",
+        "Profit",
+        "People",
+        "Investment"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is Planet, Green Hydrogen fuel cells are environmentally friendly. H-Power is transitioning its business from fossil fuel-based Oil Refining business into Green Hydrogen fuels cell manufacturing. This has a positive impact on the Planet / environment."
+    },
+    {
+      "question": "Assuming that H-Power is able to develop commercially viable Green Hydrogen fuel cells for buses and trucks, with not much change in cost of production from current levels, this technology will represent which of the following business factor:",
+      "options": [
+        "Critical Success Factor leading to cost leadership",
+        "Key Performance Indicator leading to product differentiation",
+        "Commercial Business Factor leading to cost leadership",
+        "Core Competency leading to product differentiation"
+      ],
+      "answer": 3,
+      "reason": "The correct answer is Core Competency leading to product differentiation. Core Competency is a unique preposition which help firm to stand ahead in industry by serving value to its customers. Core Competency leads to either cost leadership or product differentiation, which are primary source for firm to gain competitive advantage. In the case of H-Power a commercially viable Green Hydrogen fuel cell technology that results in very low emissions will represent a competency that will give it competitive advantage over its rivals. This leads to product differentiation. Critical Success Factor articulates what the company must do, and do well, to achieve the goals outlined in its strategic plan. In this case, H-Power had to make the technology commercially viable, but it does not lead towards cost leadership at the current cost of production. Rather preference of Green Hydrogen over Grey Hydrogen will be based on product differentiation. Key Performance Indicator measure the performance of business organisation regarding a particular Critical Success Factor."
+    },
+    {
+      "question": "Which of the following parameters is not a test for core competency?",
+      "options": [
+        "Cost advantage",
+        "Difficulty in imitation by competitors",
+        "Relevance to the customer",
+        "Breadth of application in terms of the potential markets it can open up"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is Cost advantage is not a test of core competency."
+    },
+    {
+      "question": "In the case scenario, an ecosystem is being built for Hydrogen fuel cells which includes manufacturers of fuel cells like H-Power, their suppliers like Ecopower, customers like manufacturers of buses and trucks, other infrastructure providers like service centres, hydrogen fuel storage and distribution centres and other infrastructural need providers. Business ecosystems influence cost, value and performance which is explained in the form of flywheels. Match the following actions to the respective flywheel:\n\n| Action | Flywheel |\n| :--- | :--- |\n| i. Partnering with universities to improve current Green Hydrogen Technology in terms of efficiency and effectiveness | a. Cost Flywheel |\n| ii. Exploring application in other industries like fertilizer and bulk chemicals | b. Data Flywheel |\n| iii. Exploring the ability to achieve economies of scale in production of Green Hydrogen | c. Growth Flywheel |",
+      "options": [
+        "i-b, ii- c, and iii- a",
+        "i- c, ii- b, and iii- a",
+        "i- a, ii- c, and iii- b",
+        "i- c, ii- b and iii- a"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is i- b, ii- c, and iii- a. Partnering with universities to improve current Green Hydrogen Technology in terms of efficiency and effectiveness – Data Flywheel, because this action provides data for deeper and better insight that enables Research and Development work in the Hydrogen fuel industry. Exploring application in other industries like fertilizer and bulk chemicals – Growth Flywheel, since this move explores application of value proposition to increase the network of users and consumers of Green Hydrogen technology. Exploring the ability to achieve economies of scale in production of Green Hydrogen – Cost Flywheel, since achieving economies of scale in production of Green Hydrogen will help distribute the fixed cost of production over larger production quantity, thereby helping reduce the unit cost of production."
+    }
+  ]
+},
+
+{
+  "caseText": "<p>Ski Slope had planned, when it originally designed its budget, to buy its artificial ice for ₹ 10 per kg. However, due to subsequent innovations in technology, producers slashed their prices to ₹ 9.70 per kg. and this figure is now considered to be a general market price for the purpose of performance assessment for the budget period. The actual price paid was ₹ 9.50, as the Ski Slope procurement department negotiated strongly for a better price. The other information relating to that period were as follows:</p><table><thead><tr><th>Original Standards (ex-ante)</th><th>Revised Standards (ex-post)</th><th>Actual (5,500 units)</th></tr></thead><tbody><tr><td>5,500 units<br>× 5 Kgs.<br>× ₹ 10<br><strong>₹ 2,75,000</strong></td><td>5,500 units<br>× 4.75 Kgs.<br>× ₹ 9.70<br><strong>₹ 2,53,412.50</strong></td><td>27,225 Kgs.<br>× ₹ 9.50<br><strong>₹ 2,58,637.50</strong></td></tr></tbody></table>",
+  "questions": [
+    {
+      "question": "Traditional Variances for ‘Ice’ are as under:",
+      "options": [
+        "Usage Variance ₹ 2,750 (F); Price Variance ₹ 13,612.50 (F)",
+        "Usage Variance ₹ 13,750 (A); Price Variance ₹ 16,362.50 (F)",
+        "Usage Variance ₹ 2,750 (F); Price Variance ₹ 13,612.50 (A)",
+        "Usage Variance ₹ 10,670 (A); Price Variance ₹ 5,554 (A)"
+      ],
+      "answer": 0,
+      "reason": "Traditional Variances: Usage Variance = (27,500 Kgs. – 27,225 Kgs.) × ₹ 10 = ₹ 2,750 (F). Price Variance = (₹ 10 – ₹ 9.50) × 27,225 Kgs. = ₹ 13,612.50 (F)."
+    },
+    {
+      "question": "Operational Variances for ‘Ice’ are as under:",
+      "options": [
+        "Usage Variance ₹ 10,670 (F); Price Variance ₹ 5,225 (A)",
+        "Usage Variance ₹ 13,750 (A); Price Variance ₹ 5,225 (F)",
+        "Usage Variance ₹ 10,670 (A); Price Variance ₹ 5,445 (F)",
+        "Usage Variance ₹ 10,760 (F); Price Variance ₹ 5,445 (A)"
+      ],
+      "answer": 2,
+      "reason": "Operational Variances: Usage Variance = (26,125 Kgs. – 27,225 Kgs.) × ₹ 9.70 = ₹ 10,670 (A). Price Variance = (₹ 9.70 – ₹ 9.50) × 27,225 Kgs. = ₹ 5,445 (F)."
+    },
+    {
+      "question": "Planning Variances for ‘Ice’ are as under:",
+      "options": [
+        "Usage Variance ₹ 13,750 (F); Price Variance ₹ 8,737.50 (A)",
+        "Usage Variance ₹ 13,570 (A); Price Variance ₹ 7,837.50 (F)",
+        "Usage Variance ₹ 21,587 (A); Price Variance ₹ 8,737.50 (A)",
+        "Usage Variance ₹ 13,750 (F); Price Variance ₹ 7,837.50 (F)"
+      ],
+      "answer": 3,
+      "reason": "Planning Variances: Usage Variance = (27,500 Kgs. – 26,125 Kgs.) × ₹ 10 = ₹ 13,750 (F). Price Variance = (₹ 10 – ₹ 9.70) × 26,125 Kgs. = ₹ 7,837.50 (F)."
+    },
+    {
+      "question": "The better negotiation of a price should be recognised as an ___________ matter.",
+      "options": [
+        "Operational",
+        "Financial",
+        "Planning",
+        "Marketing"
+      ],
+      "answer": 0,
+      "reason": "The better negotiation of a price should be recognised as an operational matter. Operational variances are self-evidently under the control of operational management, so operational efficiency must be assessed with only these figures in mind."
+    },
+    {
+      "question": "An innovation in technology is _______ the control of Ski Slope and is, by nature, a __________ ‘error’.",
+      "options": [
+        "Under, Operational",
+        "Outside, Technological",
+        "Outside, Planning",
+        "Outside, Marketing"
+      ],
+      "answer": 2,
+      "reason": "An innovation in technology is outside the control of Ski Slope and is, by nature, a planning ‘error’. Planning variances are generally not controllable. Where a revision of standards is required due to environmental/ technological changes that were not anticipated at the time the budget was prepared, the planning variances are truly uncontrollable. However, standards that failed to anticipate known market trends when they were set will reflect faulty standard-setting: it could be argued that these variances were controllable at the planning stage."
+    }
+  ]
+},
+{
+  "caseText": "<p>National Fabric Company (NFC) is a leading manufacturer of Khadi fabric that is further made up into dresses and suits. NFC was established 4 decades ago and presently enjoys the reputation as producer of quality fabric. The popularity of “Made in India” concept in the recent years, has led to a change in demand for Khadi fabric. NFC manufactures this fabric in designs established many years ago keeping its traditional nature intact. The manufactured fabric is further sold to designing and weaving companies who would then covert them into traditional Khadi attire like Kurtas, shirts etc. Hence, currently NFC does have any direct reach with textile retail outlets or final customers.</p><p>Management team at NFC believe in integration (vertical and horizontal) and diversification (product range or market reach) as tool of risk reduction and value enhancement (profit too).</p><p>NFC opts for acquiring ‘Skylark Designer Clothing’ (SDC). SDC is operating in designing and weaving of fabric into fashion wears which are mainly made from modern fabric material (for example satin, chiffon, velvet etc.) that give required gloss, style and look. SDC is targeting the customers who are in age group from 18 to 30 years. Due to its high-quality sourcing of materials, young and dynamic fashion designers and well spread distribution channels, SDC is a very profitable enterprise. SDC’s apparel are sold in different retail textile outlets that have a national presence.</p><p>The management of NFC plans to retain the fashion apparel line of SDC. However, it plans to scale up the operations of SDC to include the next age group category of 30 to 50 years. Since the scale of operations is expanding many times over, NFC plans for SDC to manufacture its own fabric instead of relying on external vendors. A detailed market research is undertaken to understand the fashion apparel industry, leading to different pricing strategies for both categories.</p><table><thead><tr><th>Parameters</th><th>18 to 30 Years Category (Existing)</th><th>30 to 50 Years Category (Proposed Expansion)</th></tr></thead><tbody><tr><td><strong>Customer Profile</strong></td><td>Fashion-conscious youth, for whom looking “in vogue” is a preference.</td><td>Generally price sensitive, but with higher disposable income.</td></tr><tr><td><strong>Demand Estimation</strong></td><td>Current base demand.</td><td>Likely to be at least 8 times more than the 18-30 year category.</td></tr><tr><td><strong>Fabric Quality</strong></td><td>High-quality modern fabric material (satin, chiffon, velvet, etc.).</td><td>Lower grade fabric compared to the other segment.</td></tr><tr><td><strong>Market Competition</strong></td><td>Profitable enterprise with established retail presence.</td><td>High competition with many players; retail outlets have a variety of suppliers to choose from.</td></tr><tr><td><strong>Profit Margin</strong></td><td>High (premium pricing possible).</td><td>Much lower per apparel unit; difficult to negotiate a premium price.</td></tr></tbody></table><p>In order to increase profitability NFC plans to circumvent even the retail outlets and reach out to the direct customers directly via online website portals. It plans to ship the orders using private courier service. This is aimed at both the segments of customers of SDC.</p>",
+  "questions": [
+    {
+      "question": "By manufacturing lower grade cloth for use for the price sensitive 30 to 50 year age category, what competitive advantage is NFC trying to achieve?",
+      "options": [
+        "Broad Target with Differentiation",
+        "Narrow Target with Differentiation Focus",
+        "Broad Target with Cost Leadership",
+        "Narrow Target with Cost Focus"
+      ],
+      "answer": 3,
+      "reason": "The correct answer is Narrow target with cost focus. NFC is focussing on reducing the cost of production by using lower grade cloth specifically for the 30 to 50 year age category. Hence, the advantage will have narrow target with focus on cost for that particular category."
+    },
+    {
+      "question": "Which of the following maybe a point of concern in end to end production of fashion apparel?",
+      "options": [
+        "Access to customer specifications and customer related data",
+        "Control over production, pricing and marketing",
+        "Complexity of value system",
+        "Improves profitability"
+      ],
+      "answer": 2,
+      "reason": "NFC is going from being a manufacturer of Khadi fabric sold to weaver and designers and is expanding into an end-to-end business in fashion apparel (manufacturing up to sales and delivery). The expansion of operations will make the value chain more complex with many linkages that NFC must have the capability to attend to."
+    },
+    {
+      "question": "If the production at SDC has to happen in a sequential manner, production of fabric, weaving, designing and stitching which of the following may be very helpful to minimize work in progress between the processes:",
+      "options": [
+        "Cellular Manufacturing",
+        "Principle of Kaizen",
+        "Principle of Six Sigma",
+        "Just in Time procurement of raw materials"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is – Cellular Manufacturing (i.e., group machines into working cells) that will reduce excessive work-in-process inventory and defective parts. A working cell is a small cluster of machines which can be run by a single machine operator. This individual machine operator takes each output part from machine to machine within the cell; and thus, there is no way for work-in-process to build up between machines."
+    }
+  ]
+},
+{
+  "caseText": "<p>National Fabric Company (NFC) is a leading manufacturer of Khadi fabric that is further made up into dresses and suits. NFC was established 4 decades ago and presently enjoys the reputation as producer of quality fabric. The popularity of “Made in India” concept in the recent years, has led to a change in demand for Khadi fabric. NFC manufactures this fabric in designs established many years ago keeping its traditional nature intact. The manufactured fabric is further sold to designing and weaving companies who would then covert them into traditional Khadi attire like Kurtas, Shirts etc. Hence, currently NFC does have any direct reach with textile retail outlets or final customers.</p><p>Management team at NFC believe in integration (vertical and horizontal) and diversification (product range or market reach) as tool of risk reduction and value enhancement (profit too).</p><p>NFC opts for acquiring ‘Skylark Designer Clothing’ (SDC). SDC is operating in designing and weaving of fabric into fashion wears which are mainly made from modern fabric material (for example satin, chiffon, velvet etc.) that give required gloss, style and look. SDC is targeting the customers who are in age group from 18 to 30 years. Customers in this category comprise of fashion-conscious youth, for whom looking “in vogue” would be a desired preference. Due to its high-quality sourcing of materials, young and dynamic fashion designers and well spread distribution channels, SDC is a very profitable enterprise. SDC’s apparel are sold in different retail textile outlets that have a national presence.</p><p>Management of NFC plans to revamp the entire business operation of SDC. Due to their focus on a specific customer segment, in terms of scale of operations SDC is relatively smaller as compared to NFC. The management of NFC then plans to replace fashion apparel line with Khadi apparel. NFC will expand its capacity to manufacture more Khadi fabric, given that demand for the “Made in India” product. It will use SDC’s facilities and manpower for designing and weaving the fabric into traditional attire. Using SDC’s national wide distribution network, it plans to gain access to retail outlets that sell the textile to the end user. The target audience would be of every age group.</p>",
+  "questions": [
+    {
+      "question": "Which would best describe NFC’s acquisition of SDC?",
+      "options": [
+        "Backward organic integration",
+        "Backward un organic integration",
+        "Forward organic integration",
+        "Forward un organic integration"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is Forward organic integration. NFC is currently only a manufacturer of Khadi fabric with no access to further segments of the value chain. By acquiring SDC, it (1) plans to expand its own scale of operations to manufacture more Khadi fabric, (2) It plans to use SDC’s capabilities to gain access to designing, weaving resources as well as SDC’s well established national distribution network with retail textile outlets. Hence, point 1 makes it an organic growth and point 2 makes it a forward integration."
+    },
+    {
+      "question": "What would be the competitive advantage that NFC would gain by acquiring SDC?",
+      "options": [
+        "Broad Target with Differentiation",
+        "Narrow Target with Differentiation focus",
+        "Broad Target with Cost Leadership",
+        "Narrow Target with Cost Focus"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is Broad Target with Differentiation. Broad target since the target group is from all age groups. Differentiation is because NFC’s products are unique due to their traditional nature and their concept of catering to the demand for “Made in India” products."
+    }
+  ]
+},
+{
+  "caseText": "<p>National Fabric Company (NFC) is a leading manufacturer of Khadi fabric that is further made up into dresses and suits. NFC was established 4 decades ago and presently enjoys the reputation as producer of quality fabric. The popularity of “Made in India” concept in the recent years, has led to a change in demand for Khadi fabric. NFC manufactures this fabric in designs established many years ago keeping its traditional nature intact. The manufactured fabric is further sold to designing and weaving companies who would then covert them into traditional Khadi attire like Kurtas, shirts etc. Hence, currently NFC does have any direct reach with textile retail outlets or final customers.</p><p>Management team at NFC believe in integration (vertical and horizontal) and diversification (product range or market reach) as tool of risk reduction and value enhancement (profit too).</p><p>NFC opts for acquiring ‘Skylark Designer Clothing’ (SDC). SDC is operating in designing and weaving of fabric into fashion wears which are mainly made from modern fabric material (for example satin, chiffon, velvet etc.) that give required gloss, style and look. SDC is targeting the customers who are in age group from 18 to 30 years. Customers in this category comprise of fashion-conscious youth, for whom looking “in vogue” would be a desired preference. Due to its high-quality sourcing of materials, young and dynamic fashion designers and well spread distribution channels, SDC is a very profitable enterprise. SDC’s apparel are sold in different retail textile outlets that have a national presence.</p><p>With integration and diversification is the main reason for NFC’s acquisition of SDC. NFC plans to retain the business operations of SDC as it is without changing much of the current structure.</p>",
+  "questions": [
+    {
+      "question": "Which of the following would best describe the acquisition of NFC of SDC?",
+      "options": [
+        "Backward organic integration",
+        "Backward un organic integration",
+        "Forward organic integration",
+        "Forward un organic integration"
+      ],
+      "answer": 3,
+      "reason": "The correct answer is forward un organic integration. NFC is currently only a manufacturer of Khadi fabric with no access to further segments of the value chain. By acquiring SDC, it is going for an un organic integration by acquiring another company, (Organic integration would be one where the company uses internal growth to expand operations) NFC is expanding its operations in the form of extending its reach further in the value chain. SDC’s business would give NFC access to textile retail outlets. This makes it a forward un organic integration."
+    },
+    {
+      "question": "What would be the competitive advantage (from SDC’s business model) that NFC would gain by acquiring SDC?",
+      "options": [
+        "Broad Target with Differentiation",
+        "Narrow Target with Differentiation Focus",
+        "Broad Target with Cost Leadership",
+        "Narrow Target with Cost Focus"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is Narrow Target with Differentiation focus. SDC currently targets only customers within the age group from 18 years to 30 years. They are not targeting any other segment. Hence, this is a narrow target. To them, they sell stylish, “in vogue” fashion apparel that appeals to the youth. This is Differentiation focus."
+    }
+  ]
+},
+{
+  "caseText": "<p>Marcus Neo-Fashion Limited (MNFL) is leading brand in fashion world. Company is dealing in both fabric and readymade garments. Since the company was established long ago, hence has well established SOPs. Management at MNFL is highly concerned with performance and productivity.</p><p>In order to determine and appraise the performance, MNFL conducts fortnightly meetings of heads of different responsibility centres apart from quarterly master meeting. In master meeting each of such departmental head need to present report for his department on following aspects–</p><h3>Performance Matrix Dashboard at MNFL</h3><table><thead><tr><th>Criteria</th><th>Indicators</th></tr></thead><tbody><tr><td><strong>I</strong></td><td>Average Capital Employed in department with detailed information of source and nature (working or permanent capital)</td></tr><tr><td><strong>II</strong></td><td>Revenue and Earnings</td></tr><tr><td><strong>III</strong></td><td>Output (in terms of no of units and per employee productivity)</td></tr><tr><td><strong>IV</strong></td><td>Existing Clients and New Customer added with data on market share</td></tr></tbody></table><p>In one of recent such master meetings, which was chaired by CEO, newly appointed VP-HR quoted ‘Intellectual capital is as critical as financial capital in order to ensure smoothening, success and sustainability of any business’ hence employee where so ever lagged in technical skills, it is essential and important to work on his skills in order to enhance the productivity. VP-HR said at MNFL ratio of skilled, semi-skilled and unskilled worker are 1:2:6, which needs to be worked at. He also insists to roll-out new wage policy which should support ‘Performance Related Pay’. He said, ‘I don’t know much about enterprise performance, but I strongly believe that performance indicators must include performance of employees in term of their skill and knowledge’.</p><p>Immediately VP-Finance said existing performance matrix is essentially focused EV/ EBIT and returns on capital hence sufficient from perspective of performance appraisal. Hence there is no major need to consider impact and effect of human capital. He also added that entities revenue is growing @ of 14% and earning is growing at 12% which 4% on higher side then industry. He said present rate of ROI is 11.5% which is better than industry average of 9%; and Market Cap is also doing well.</p><p>VP-Finance countered by VP-Planning & Operations, according to him ‘skilled labour will be added advantage in order to develop ‘zed’ culture i.e., zero accidents, zero defects, zero delays, zero inventory, zero breakdowns, zero changeovers, zero waste’. He also said skilled labour can also add value by incorporating innovations. He quoted presently average defect rate is 1.5% of total production.</p><p>On this VP-Marketing add ‘skilled employee means better process and better processes leads to competent value chain which can serve highly customised product; hence preconceived quality (conformance to customers’ need) leads to strong brand equity.</p><p>Chief Information officer support VP-Marketing and VP-HR by quoting the position of brand can be improved by product development. Newly developed product will meet and set, latest style statement in market; eventually help MNFL to acquire new customers within existing marketing without incurring much on advertisement or sales and promotion. Skilled labour can easily bring innovation to the product.</p>",
+  "questions": [
+    {
+      "question": "What are the objectives of performance management indicators? i Evaluating the achievements of organisation strategic objective ii Evaluating the performance of the employees iii Provides an objective basis for compensating employees iv Assess the quantitative performance of an organization with its benchmarks only",
+      "options": [
+        "ii and iii",
+        "i, ii and iii",
+        "i, ii and iv",
+        "i, ii, iii and iv"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is (i), (ii) and (iii). Statement (iv) is incorrect because performance management indicators assess qualitative performance in addition to quantitative performance of an organization. Therefore, an organization has both financial as well as non-financial indicators."
+    },
+    {
+      "question": "Which are the non-financial performance indicators mentioned in the case scenario? I Skill, Attrition and Job Satisfaction of Human Resource Ii Quality of Product Iii Brand Equity Iv Reduction in Delivery Cycle Time",
+      "options": [
+        "i, ii and iii",
+        "i, iii and iv",
+        "ii, iii and iv",
+        "i, ii, iii and iv"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is i, ii and iii as all the indicators mentioned are non-financial performance indicators. Financial performance indicators are those that relate to profits of the company like EBIT, growth of revenue, ROI etc. Delivery cycle time is not discussed in the scenario."
+    },
+    {
+      "question": "At present is Marcus Neo-Fashion Limited (MNFL) tracking any non-financial performance indicator at all?",
+      "options": [
+        "Yes, MNFL in addition to capital employed and revenue and earnings is tracking output performance indicators in terms of quantity and per employee productivity",
+        "Yes, MNFL in addition to capital employed and revenue and earnings is tracking customer retention and expansion of market share",
+        "No, MNFL is tracking only financial indicators since output performance and market share eventually relate to financial profits",
+        "Yes, MNFL in addition to capital employed and revenue and earnings is tracking both production output (output quantity and employee productivity) and market share (existing and expansion of customer base)"
+      ],
+      "answer": 3,
+      "reason": "MNFL in addition to capital employed and revenue and earnings is tracking both production output (output quantity and employee productivity) and market share (existing and expansion of customer base)."
+    },
+    {
+      "question": "Match the non-financial performance models to their objectives:\n\n| Non-Financial Performance Model | Objectives |\n| :--- | :--- |\n| i. Balanced Scorecard | a. Performance assessment based on market related measures in addition to financial measures |\n| ii. Performance Pyramid | b. Identify and track KPIs for CSFs in order to determine performance related rewards for employees |\n| iii. Building Block | c. Better information for decision making with respect to perspectives like customers, financial, innovation & learning and business processes |",
+      "options": [
+        "i-c, ii- a, and iii- b",
+        "i-c, ii- b, and iii- a",
+        "i-b, ii- a, and iii- c",
+        "i-b, ii- c, and iii- a"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is i- c, ii- a, and iii- b. Balanced Scorecard - Better information for decision making with respect to perspectives like customers, financial, innovation & learning and business processes. Performance Pyramid - Performance assessment based on market related measures in addition to financial measures. Building Block - Identify and track KPIs for CSFs in order to determine performance related rewards for employees."
+    },
+    {
+      "question": "Which of the following is not true regarding the role of quality in performance measurement systems?",
+      "options": [
+        "A strong costing system is a prerequisite for develop KPIs based on cost of quality that can be used as a basis for staff rewards",
+        "There is an inverse relation between the rigor of Quality Management System and the cost of non-conformance",
+        "Lean production system aims at reducing production activities to the minimum in order to improve quality performance",
+        "Good quality information practices improve the reliability, accuracy, timeliness, objectivity of Management Information Systems (MIS) that is used for performance measurement"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is - Lean production systems aim at reducing waste in production activities to the minimum in order to get the right thing to the right place at the right time, first time. Hence, leans production results in improvement in performance thought."
+    }
+  ]
+},
+
+
+
+
 
 
 
