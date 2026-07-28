@@ -6746,6 +6746,562 @@ The management plans to use Pareto Analysis (80:20 Principle) to identify the "v
     }
   ]
 },
+{
+  "caseText": "<p>Rabi Ltd. Manufactures its product from Divisions X and Y. Rabi Ltd. is considering the discontinuance of Division Y since it is incurring a net loss of ₹ 2,00,000. The production at Division X is going to remain unchanged. The following information is given:</p><table><thead><tr><th>Particulars</th><th>Divisions X (₹)</th><th>Division Y (₹)</th><th>Total (₹)</th></tr></thead><tbody><tr><td>Sales (Maximum achievable)</td><td>50,00,000</td><td>7,00,000</td><td>57,00,000</td></tr><tr><td>Less: Variable cost</td><td>36,00,000</td><td>4,00,000</td><td>40,00,000</td></tr><tr><td>Contribution</td><td>14,00,000</td><td>3,00,000</td><td>17,00,000</td></tr><tr><td>Less: Specific avoidable fixed cost</td><td>2,00,000</td><td>5,00,000</td><td>7,00,000</td></tr><tr><td><strong>Divisional Income</strong></td><td><strong>12,00,000</strong></td><td><strong>-2,00,000</strong></td><td><strong>10,00,000</strong></td></tr></tbody></table><p>The rates of variable costs are 90% of the normal rates due to the current volume of operation. There is adequate market demand.</p><p>For any lower volume of operation, the rates would go back to normal rates. Specific avoidable fixed cost relates to the rental and property tax cost of the premises of Division Y, which operates from a prime business area.</p><p>Facilities released by discontinuing Division Y cannot be used for any other purpose.</p>",
+  "questions": [
+    {
+      "question": "If Division Y is discontinued, what will the increase in Variable cost be for Rabi Ltd?",
+      "options": [
+        "₹ 3,60,000",
+        "₹ 4,00,000",
+        "₹ 4,44,444",
+        "₹ 4,20,000"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is ₹ 4,00,000, if Division Y is shut down no variable cost will not be incurred at the division, it will be incurred only in division X. The current variable cost is at 90% of normal rates, hence (₹ 36,00,000 / 90%) = ₹ 40,00,000 will be the total variable cost at full cost basis. Hence, the increase in variable cost will be ₹ 4,00,000"
+    },
+    {
+      "question": "If Division Y is discontinued, what will be the total savings and total increase in cost for Rabi Ltd on account of this decision?",
+      "options": [
+        "Savings ₹ 5,00,000; Increase in cost ₹ 7,00,000; net loss ₹ 2,00,000",
+        "Savings ₹ 5,00,000; Increase in cost ₹ 4,00,000; net benefit ₹ 1,00,000",
+        "Savings ₹ 7,00,000; Increase in cost ₹ 7,00,000; no loss or benefit",
+        "Savings ₹ 7,00,000; Increase in cost ₹ 4,00,000; net benefit ₹ 3,00,000"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is Savings ₹ 5,00,000 Increase in cost ₹ 7,00,000 therefore net loss ₹ 2,00,000. <table><thead><tr><th>Particulars</th><th>Amount (₹)</th></tr></thead><tbody><tr><td><strong>Savings Due to Discontinuance</strong></td><td></td></tr><tr><td>Specific Fixed Cost (A)</td><td>5,00,000</td></tr><tr><td><strong>Total</strong></td><td><strong>5,00,000</strong></td></tr><tr><td><strong>Loss/ Increase in Cost Due to Discontinuance</strong></td><td></td></tr><tr><td>Loss of Contribution</td><td>3,00,000</td></tr><tr><td>Increase in Variable Cost</td><td>4,00,000</td></tr><tr><td><strong>Total (B)</strong></td><td><strong>7,00,000</strong></td></tr><tr><td><strong>Excess of Loss Over Savings (B) – (A)</strong></td><td><strong>2,00,000</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "Rabi Ltd. is compelled to reconsider its decision of closing down Division Y because that could impact its brand image and pose challenges for re-establishment of the market for the product. What type of consideration is being given weight to by the management by looking into these factors?",
+      "options": [
+        "Relevant cost consideration",
+        "Financial consideration",
+        "Ethical consideration",
+        "Non-financial consideration"
+      ],
+      "answer": 3,
+      "reason": "The correct answer is non-financial consideration. Information about an organization, like number of employees, employee morale, customer satisfaction that cannot be expressed in monetary terms is termed non-financial in nature. Non- financial information is long term focused and ensures profitability and sustainability in the long term for an organization thereby evaluating the internal performance of the company. Brand image and challenges in re-establishing the market for a product are non-financial aspects that a business must look into taking a balanced view into consideration. Closure of a branch/ division is not unethical and is driven by business considerations. Relevant cost by its nature is a financial consideration."
+    },
+    {
+      "question": "Which of the following is not a limitation of non-financial consideration?",
+      "options": [
+        "Subjective measurement that could be subject to bias and interpretation",
+        "Improper measures will lead the companies to draw attention on wrong objectives",
+        "Focuses on factors that can aid sustainability of the organization in the long run",
+        "Possibility of error due to lack of statistical reliability"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is non-financial consideration makes an organization focus on factors that can aid sustainability of the organization in the long run. This will improve its profitability in the long run and encourages establishing a sustainable business model."
+    }
+  ]
+},
+{
+  "caseText": "<p>A company follows Cost Volume Profit (CVP) analysis to arrive at the Break Even Point of Sales. The company produces two products, Product A and Product B both of which are manufactured in batches. As quarterly exercise, the management is reassessing its production schedule for the products.</p><p>Currently, a machine produces 25 units of Product A in one batch. The monthly production of Product A 10,000 units. After each batch of Product A is produced, a setup is required for setting up the machine to produce product B. The company wants to increase the batch size of Product A to 50 units of Product A in one batch. Therefore, the number of set-ups will reduce from 400 (10,000 units / 25 units) to 200 (10,000 units / 50 units). Due to larger batch production, additional inventory storage area would be required to store that will cost the company ₹ 75,000 per month extra. Given below is information about Product A −</p><table><thead><tr><th>Particulars of Product A</th><th>Activity Based CVP Analysis</th></tr></thead><tbody><tr><td>Monthly demand and production</td><td>10,000 units</td></tr><tr><td>Selling Price per unit</td><td>₹ 5,000 p.u.</td></tr><tr><td>Variable cost price per unit</td><td>₹ 4,000 p.u.</td></tr><tr><td>Fixed cost per month (excluding any additional inventory storage area cost)</td><td>₹ 8,00,000 p.m.</td></tr><tr><td>Current number of set ups and cost</td><td>400 set ups @ ₹ 500 per set up</td></tr><tr><td>Proposed number of set ups and cost</td><td>200 set ups @ ₹ 500 per set up</td></tr></tbody></table>",
+  "questions": [
+    {
+      "question": "What is the current monthly Breakeven point of Product A in terms of units?",
+      "options": [
+        "1,000 units",
+        "800 units",
+        "900 units",
+        "975 units"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is 1,000 units is the current BEP of product A each month. Refer working in subsequent part."
+    },
+    {
+      "question": "What is the current monthly profitability of Product A?",
+      "options": [
+        "₹ 1,00,00,000",
+        "₹ 90,00,000",
+        "₹ 90,25,000",
+        "₹ 95,00,000"
+      ],
+      "answer": 1,
+      "reason": "₹ 90,00,000 is the current monthly profitability of Product A. Refer working in subsequent part."
+    },
+    {
+      "question": "What is the monthly Breakeven point of Product A in terms of units after proposed change in batch size?",
+      "options": [
+        "1,000 units",
+        "800 units",
+        "900 units",
+        "975 units"
+      ],
+      "answer": 3,
+      "reason": "BEP is 975 units of product A after the proposed change in batch size. Refer working in subsequent part."
+    },
+    {
+      "question": "What is the expected monthly profitability of Product A after proposed change in batch size?",
+      "options": [
+        "₹ 1,00,00,000",
+        "₹ 90,00,000",
+        "₹ 90,25,000",
+        "₹ 95,00,000"
+      ],
+      "answer": 2,
+      "reason": "₹ 90,25,000 is the expected monthly profitability of product A each month after the proposed change in batch size. <table><thead><tr><th>Particulars</th><th>Activity Based CVP Analysis (Current)</th><th>Activity Based CVP Analysis (Proposed)</th></tr></thead><tbody><tr><td>Selling Price per unit</td><td>5,000</td><td>5,000</td></tr><tr><td>Variable Cost per unit</td><td>4,000</td><td>4,000</td></tr><tr><td>Contribution per unit</td><td>1,000</td><td>1,000</td></tr><tr><td>Fixed Cost per month (per Activity Based method)</td><td>8,00,000</td><td>8,75,000</td></tr><tr><td>{Fixed Cost p.m. + (number of set-ups × cost per set-up)}/ Contribution p.u.</td><td>= {₹ 8,00,000 + (400 × ₹ 500 per setup)}/ ₹ 1,000 per unit</td><td>= {₹ 8,75,000 + (200 × ₹ 500 per setup)}/ ₹ 1,000 per unit</td></tr><tr><td>Or, Break-even Point (per month in units)</td><td>1,000</td><td>975</td></tr><tr><td>Monthly Demand (units)</td><td>10,000</td><td>10,000</td></tr><tr><td>Profit per month = {Monthly demand (units) × Contribution per unit} – (Fixed Cost per month + Set-up cost per month)</td><td>90,00,000</td><td>90,25,000</td></tr></tbody></table>"
+    },
+    {
+      "question": "Should the company implement the proposed change of increasing the batch size from 25 units to 50 units of Product A? <table><tbody><tr><td>i</td><td>Yes, the monthly profitability of Product A increases.</td></tr><tr><td>ii</td><td>Yes, the company as lesser set ups improve the productivity of the machine</td></tr><tr><td>iii</td><td>No, by increasing the batch size, the inventory storage area requirement increases, this reduces the monthly profitability of Product A</td></tr><tr><td>iv</td><td>No, because lesser set ups reduce the productivity of the machine</td></tr></tbody></table>",
+      "options": [
+        "i only",
+        "iv only",
+        "i and ii",
+        "iii and iv"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is (i) and (ii) because the monthly profitability of Product A increases by ₹ 25,000 and lesser the number of set ups better the productivity of the machine. Set up costs will be lower. Since set ups are lesser, labour hour requirement will be lesser, which can be used to reduce costs or improve productivity elsewhere."
+    },
+    {
+      "question": "Which of the following should not be included as labour cost while calculating set up cost?",
+      "options": [
+        "Cost of temporary labour hired for set up",
+        "Cost of permanent labour who are otherwise idle",
+        "Overtime cost paid to labour for set up activities",
+        "Opportunity cost of permanent labour who are otherwise engaged in some other revenue generating production activity"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is the cost of permanent labour who are otherwise idle, is not an additional cost that the company incurs on account of machine set up. It is a sunk cost and hence should not be included while calculating set up costs."
+    },
+    {
+      "question": "What type of inventory management system is the company following?",
+      "options": [
+        "Pull system of inventory management",
+        "Push system of inventory management",
+        "Just in time production inventory management",
+        "Batch level inventory management system"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is Push System of inventory management, since inventory is being manufactured in anticipation of demand. Batch production is done in anticipation of demand and is not done based on actual client orders. This can also be inferred from the need for additional storage area on increasing the batch size production."
+    }
+  ]
+},
+{
+  "caseText": "<p>Kowloon Toy Company (KTC) expects to successfully launch Toy “H” based on a Disney character. KTC must pay a 20% royalty on the selling price to Disneyland.</p><p>KTC targets a selling price of ₹ 500 per toy and profit of 25% on the selling price.</p><p>The following are the cost data forecast:</p><table><thead><tr><th>Cost Component</th><th>Per unit of toy (₹)</th></tr></thead><tbody><tr><td>Component H1</td><td>90</td></tr><tr><td>Component H2</td><td>70</td></tr><tr><td>Labour: 0.40 hr. @ ₹ 200 per hr.</td><td>80</td></tr><tr><td>Product Specific Overheads</td><td>20</td></tr></tbody></table><p>In addition to the above, each toy requires 0.6 kg of other materials, which are supplied at a cost of ₹ 40 per kg with a normal 4% substandard quality, which is not usable in the manufacture.</p>",
+  "questions": [
+    {
+      "question": "Calculate the target cost for per unit of Toy “H”.",
+      "options": [
+        "₹ 400 per unit",
+        "₹ 375 per unit",
+        "₹ 500 per unit",
+        "₹ 275 per unit"
+      ],
+      "answer": 3,
+      "reason": "The correct answer is ₹ 275 per unit of Toy H. Below is the calculation: <table><tbody><tr><td>Target Selling Price</td><td>500</td></tr><tr><td>Less: Royalty @20%</td><td>100</td></tr><tr><td>Less: Profit @ 25%</td><td>125</td></tr><tr><td><strong>Target Cost</strong></td><td><strong>275</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "Calculate the total cost of manufacturing of Toy “H”.",
+      "options": [
+        "₹ 285 per unit",
+        "₹ 286 per unit",
+        "₹ 280 per unit",
+        "₹ 290 per unit"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is ₹ 285 per unit of Toy “H”. Below is the calculation: <table><tbody><tr><td>Component H1</td><td>90</td></tr><tr><td>Component H2</td><td>70</td></tr><tr><td>Labour (0.40 hr. × ₹ 200 per hr.)</td><td>80</td></tr><tr><td>Product Specific Overheads</td><td>20</td></tr><tr><td>Other Material (0.6 kg / 96% × ₹ 40)</td><td>25</td></tr><tr><td><strong>Total Cost of Manufacturing</strong></td><td><strong>285</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "What should be the cost reduction to meet the target cost of Toy \"H\"?",
+      "options": [
+        "₹ 11 per unit",
+        "₹ 12 per unit",
+        "₹ 10 per unit",
+        "₹ 15 per unit"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is ₹ 10 per unit of Toy “H”. As explained above, the target cost is ₹ 275 per unit while the current cost of manufacturing is ₹ 285 per unit. Hence, the cost reduction should be ₹ 10 per unit."
+    },
+    {
+      "question": "Which of the following statements is false?",
+      "options": [
+        "Target costing takes a market driven approach towards cost by shifting focus on creation of values that tend to the needs of the customers",
+        "Target costing is capable to take into account initial design and engineering costs, as well as cost of manufacturing, distribution, sales, and services",
+        "Strategy of using target costing may affect the quality of the product negatively",
+        "Cost reduction through target costing is temporary in nature"
+      ],
+      "answer": 3,
+      "reason": "Cost reduction through target costing is permanent in nature. Target costing is not just a product costing system, but rather a management technique that aims at reducing the overall cost of a product (over the entire life cycle) with the help of productivity, value engineering, and effectiveness at the research and design phase."
+    },
+    {
+      "question": "In which of the following industries is the likelihood of utility of target costing may perhaps be lower?<br><br>i. Assembly oriented industries where most of the product costs are committed in the design phase<br>ii. Service oriented industries<br>iii. Industries with high levels of competition<br>iv. Industries involved in production of raw materials",
+      "options": [
+        "i and iv",
+        "ii and iv",
+        "i, ii and iii",
+        "i, ii, iii, iv"
+      ],
+      "answer": 1,
+      "reason": "Target costing may be less useful in: Service industries - In the services area, such as consulting, the bulk of all activities can be reconfigured for cost reduction when services are being provided directly to the customer. Industries involved in production of raw materials - Production of raw materials has no design features. Instead, the industrial engineering staff tries to create the most efficient possible production process, which has little to do with cost reduction through the improvement of customer value."
+    }
+  ]
+},
+{
+  "caseText": "<p>H. Ltd. manufactures three products. The material cost, selling price and bottleneck resource details per unit are as follows:</p><table><thead><tr><th>Particulars</th><th>Product X</th><th>Product Y</th><th>Product Z</th></tr></thead><tbody><tr><td>Selling Price ($)</td><td>100</td><td>200</td><td>300</td></tr><tr><td>Material and Other Variable Cost ($)</td><td>70</td><td>140</td><td>240</td></tr><tr><td>Bottleneck Resource Time (Minutes)</td><td>15</td><td>15</td><td>20</td></tr></tbody></table><p>Budgeted factory costs for the period are $2,00,000. The bottleneck resources time available is 1,25,000 minutes per period. Company adopted throughput accounting and products are ranked according to ‘product return per minute’.</p>",
+  "questions": [
+    {
+      "question": "Which of the following is true regarding ranking of product as per product return per minute?",
+      "options": [
+        "Rank 1 - Product X, Rank 2 - Product Y, and Rank 3 - Product Z",
+        "Rank 1 - Product Y, Rank 2 - Product X, and Rank 3 - Product Z",
+        "Rank 1 - Product Y, Rank 2 - Product Z, and Rank 3 - Product X",
+        "Rank 1 - Product X, Rank 2 - Product Z, and Rank 3 - Product Y"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is Rank 1 - Product Y, Rank 2 - Product Z and Rank 3 - Product X. <table><thead><tr><th>Particulars</th><th>X</th><th>Y</th><th>Z</th></tr></thead><tbody><tr><td>Selling Price</td><td>100</td><td>200</td><td>300</td></tr><tr><td>Variable Cost</td><td>70</td><td>140</td><td>240</td></tr><tr><td>Throughput Contribution</td><td>30</td><td>60</td><td>60</td></tr><tr><td>Minutes per unit</td><td>15</td><td>15</td><td>20</td></tr><tr><td>Contribution per minute</td><td>2</td><td>4</td><td>3</td></tr><tr><td><strong>Ranking</strong></td><td><strong>III</strong></td><td><strong>I</strong></td><td><strong>II</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "Which of the following is true regarding ranking of product as per Throughput Accounting Ratio?",
+      "options": [
+        "Rank 1 - Product X, Rank 2 - Product Y, and Rank 3 - Product Z",
+        "Rank 1 - Product Y, Rank 2 - Product X, and Rank 3 - Product Z",
+        "Rank 1 - Product Y, Rank 2 - Product Z, and Rank 3 - Product X",
+        "Rank 1 - Product X, Rank 2 - Product Z, and Rank 3 - Product Y"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is Rank 1 - Product Y, Rank 2- Product Z, and Rank 3 - Product X. <table><thead><tr><th>Particulars</th><th>X</th><th>Y</th><th>Z</th></tr></thead><tbody><tr><td>Selling Price</td><td>100</td><td>200</td><td>300</td></tr><tr><td>Variable Cost</td><td>70</td><td>140</td><td>240</td></tr><tr><td>Throughput Contribution</td><td>30</td><td>60</td><td>60</td></tr><tr><td>Minutes per unit</td><td>15</td><td>15</td><td>20</td></tr><tr><td>Contribution per minute</td><td>2</td><td>4</td><td>3</td></tr><tr><td>Factory Cost per minute (2,00,000 / 1,25,000)</td><td>1.6</td><td>1.6</td><td>1.6</td></tr><tr><td>TA Ratio (Cont. per minute / Factory Cost per minute)</td><td>1.25</td><td>2.5</td><td>1.875</td></tr><tr><td><strong>Ranking Based on TA Ratio</strong></td><td><strong>III</strong></td><td><strong>I</strong></td><td><strong>II</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "Which of the following is not true regarding theory of constraints?",
+      "options": [
+        "The optimum production of bottleneck activity should determine the production schedule of the non-bottleneck activities",
+        "The workers of non-bottleneck machines should be motivated to improve their productivity",
+        "Constraint can be removed by elevating system bottlenecks",
+        "Constraint can be removed by increasing bottleneck efficiency and capacity"
+      ],
+      "answer": 1,
+      "reason": "It is not true that the workers of non-bottleneck machines should be motivated to improve their productivity. Producing more non-bottleneck output results in an increase in WIP inventories. This is because the additional output cannot be processed by bottleneck machine. Therefore, the optimum production of bottleneck activity should determine the production schedule of the non-bottleneck activities."
+    },
+    {
+      "question": "Which of the following is not true regarding Theory of constraints / Throughput Accounting (TOC/ TA) based approach for product mix decisions?",
+      "options": [
+        "The TOC/ TA approach focuses on push approach to production management as opposed to pull approach of Just in Time Management",
+        "One of the disadvantages of the TOC/ TA approach is that there may be circumstances when operating expenses cannot be classified definitively as fixed",
+        "Where the TA ratio is greater than 1 the product in question is profitable",
+        "TOC/ TA approach has its main emphasis on quality of production"
+      ],
+      "answer": 3,
+      "reason": "It is not true that the TOC/ TA approach places its main emphasis on quality of production. The main emphasis of this approach is to increases sales and sales volume."
+    }
+  ]
+},
+{
+  "caseText": "<p>Given data about Price (P) and quantity demanded (Q) given the following sales and demand data −</p><table><thead><tr><th>Selling Price per unit (P)</th><th>Number of units sold (Q)</th></tr></thead><tbody><tr><td>₹ 100</td><td>500</td></tr><tr><td>₹ 90</td><td>480</td></tr></tbody></table>",
+  "questions": [
+    {
+      "question": "Find the linear relationship between P and Q.",
+      "options": [
+        "P = 350 – 0.5Q",
+        "Q = 350 – 0.5P",
+        "P = 350 + 0.5Q",
+        "Q = 350 + 0.5P"
+      ],
+      "answer": 0,
+      "reason": "P = a – bQ Where ‘P’ is the selling price per unit, a is the price at which demand is zero, Q is the quantity demanded. -b = -0.5 (change in price / change in quantity demanded = (₹ 100 - ₹ 90) / (500 - 480) units = -0.5). Therefore, the equation is P = a – 0.5Q. Substitute P and Q in the above equation to find ‘a’: 100 = a – (0.5×500). Therefore, a = 350 units. Therefore, the linear relationship between Price (P) and quantity demanded (Q) can be written as P = 350 – 0.5Q."
+    },
+    {
+      "question": "Find the equation for the Marginal Revenue based on your calculations above.",
+      "options": [
+        "MR = 350 – Q",
+        "MR = 350 + P",
+        "MR = 350 + Q",
+        "MR = 350 – P"
+      ],
+      "answer": 0,
+      "reason": "Marginal Revenue = a - 2bQ whereas calculated in (i) a = 350 units and b = -0.5. Therefore, the Marginal Revenue equation is MR = 350 – 2(0.5); MR = 350 - Q."
+    },
+    {
+      "question": "What is the volume of sales / production (Q) when it is given that profit is maximum when marginal cost is ₹ 150 per unit?",
+      "options": [
+        "210 units",
+        "200 units",
+        "190 units",
+        "220 units"
+      ],
+      "answer": 1,
+      "reason": "When profit is maximum, as per the pricing theory Marginal Cost = Marginal Revenue = in this case ₹ 150 per unit. From (ii) MR = 350 – Q. Therefore, 150 = 350 – Q. Therefore Q = 200 units. This is the sales volume at which profit is maximum."
+    },
+    {
+      "question": "Based on your calculation in (iii) above, at what selling price (P) is the profit maximum.",
+      "options": [
+        "₹ 220 per unit",
+        "₹ 240 per unit",
+        "₹ 230 per unit",
+        "₹ 250 per unit"
+      ],
+      "answer": 3,
+      "reason": "Profit will be maximum when Selling Price (P) is ₹ 250 per unit. From (iii) it is found that when sales volume is 200 units (Q) the profit is maximum because it is at this point that MR = MC. From (i) the linear equation between P and Q is P = 350 – 0.5Q. Substituting Q to be 200 units: P = 350 – 0.5(200) = 350 – 100 = ₹ 250. Therefore, it can be concluded that when Selling Price (P) is ₹ 250, the sales volume (Q) is 200 units and the profit earned at this level will be maximum."
+    },
+    {
+      "question": "The condition for profit maximisation is –",
+      "options": [
+        "MC Curve cuts MR Curve from below",
+        "MC Curve cuts MR Curve from above",
+        "Slope of MC > Slope of MR",
+        "Slope of MC = Slope of MR"
+      ],
+      "answer": 0,
+      "reason": "One of the two requirements for a firm to reach stable equilibrium is that its MC curve cuts the MR curve from below, not from above. The equilibrium created if the MC curve cuts the MR curve from above won't be stable because greater production could increase profits."
+    }
+  ]
+},
+{
+  "caseText": "<p>Nutty Bites produces many edible snacks that are very popular especially among children. Peanuts, Peanut oil are essential ingredients in many of its products. They are currently facing this ethical issue: Medical studies have indicated peanut allergic reactions are on the rise. The prevalence is more profound among children. Reactions can range from hives around the mouth to potentially life-threatening reactions when exposed even to the slightest trace of peanuts. There is growing media campaign to force companies like Nutty Bites to make disclosure about the presence of peanut on its package labelling.</p><p>Nutty Bites is a mid-size company that has a growing market. Risk to peanut exposure can come not just from the presence of peanuts in its products. Some of its bought-in ingredients (raw material input) are cooked in peanut oil. There are risks of “cross-contamination” amongst products. Let us say, an equipment has been used produce cookies that has peanuts. Next, the equipment is used, without being cleaned, to produce chips that does not have peanuts as an ingredient. Some portion of the peanuts / peanut oil could contaminate that specific batch of chips produced. Since labels of chips would not mention “peanuts” as an ingredient, it poses a potential risk of causing allergic reaction to a customer unaware of this contamination. Management of Nutty Bites has called for a meeting to discuss this issue. “The issue need not be addressed at all. After-all Nutty Bites is doing nothing against the law” is the opinion of many members on the board of the company.</p>",
+  "questions": [
+    {
+      "question": "Would you agree with the popular opinion with the management of Nutty Bites that “The issue need not be addressed at all. After-all Nutty Bites is doing nothing against the law”?",
+      "options": [
+        "Yes, the health and safety of consumers cannot be the responsibility of Nutty Bites. Hence, the issue need not be addressed at all.",
+        "No, food safety is a fiduciary duty that Nutty Bites owes to the society. Corporate Social Responsibility (CSR) is the duty an organization has towards a wider community. Hence, Nutty Bites has to take steps to address the problem.",
+        "Yes, Nutty Bites is doing nothing against the law. Hence the issue need not be addressed at all.",
+        "Yes, Nutty Bites need not take any action as there is no lawsuit filed against the company from the customers."
+      ],
+      "answer": 1,
+      "reason": "The correct answer is No, food safety is a fiduciary duty that Nutty Bites owes to the society. Corporate Social Responsibility (CSR) is the duty an organization has towards a wider community. Hence, Nutty Bites has to take steps to address the problem."
+    },
+    {
+      "question": "Which of the following scenarios has a less chance of happening if Nutty Bites does not take any action?",
+      "options": [
+        "On consuming the product, if the consumer faces a medical issue that gets traced back to the product manufactured by Nutty Bites, it could result in bad publicity that could damage its brand value",
+        "It can increase the risk of potential legal action for tort or committing a civil wrong",
+        "Operating in an ethical environment can increase employee morale and well being",
+        "Profitability from sale of the products for the current month (short run) will be impacted"
+      ],
+      "answer": 3,
+      "reason": "The correct answer is - Profitability from sale of the products for the current month (short run) will be impacted. In the very immediate future, as mentioned the span of current month, it is unlikely that the profit will be impacted. However, in the long-term health and safety concerns about the product can lead to potential financial penalties, legal issues that can impact the brand image."
+    },
+    {
+      "question": "Which is not a non-financial consideration while considering any potential responses to address the health and safety issue?",
+      "options": [
+        "Disclosure about the presence of peanut on its package labelling",
+        "Machine sanitization to remove traces of peanut oil",
+        "Increase in selling price of products to recoup the cost of making proposed changes",
+        "Audit of upstream supply chain to get information of which bought in ingredients (raw material input) are cooked in peanut oil"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is - Increase in selling price of products to recoup the cost of making proposed changes is a financial consideration. The rest are non-financial considerations."
+    }
+  ]
+},
+{
+  "caseText": "<p>A company makes a single product with the following details:</p><table><thead><tr><th>Particulars</th><th>Current Situation</th><th>Proposed Situation</th></tr></thead><tbody><tr><td>Selling Price per unit (₹)</td><td>10</td><td>10</td></tr><tr><td>Direct Cost per unit (₹)</td><td>5</td><td>5</td></tr><tr><td>Present number of setups per production period</td><td>40</td><td>-</td></tr><tr><td>Cost per set up (₹)</td><td>400</td><td>270</td></tr><tr><td>Production units per run</td><td>1,000</td><td>2,000</td></tr><tr><td>Engineering hours for production period</td><td>600</td><td>460</td></tr><tr><td>Cost per engineering hour (₹)</td><td>10</td><td>10</td></tr></tbody></table><p>(Before each production run, setup is done)</p><p>The company has begun Activity Based Costing of fixed costs and has presently identified two cost drivers, viz. production runs and engineering hours. The total current fixed costs are ₹ 97,000. After the above ABC analysis on production runs and engineering runs, ₹ 75,000 of the remaining fixed costs are yet to be analysed. There are changes as proposed above for the next production period for the same volume of output.</p>",
+  "questions": [
+    {
+      "question": "Given the information above, compute the number of setups (which will also be the number of production runs) after the proposed change.",
+      "options": [
+        "20 production runs",
+        "18 production runs",
+        "24 production runs",
+        "22 production runs"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is 20 production runs. Total number of units produced currently = Production units per run × Number of set ups (which is also the number of production runs) = 1,000 units × 40 set ups = 40,000 units. Batch size after proposed changes = 2,000 units. Therefore, the number of production runs = 40,000 units / 2,000 units = 20 production runs."
+    },
+    {
+      "question": "Based on the calculation in (i) above, what is the total set up cost?",
+      "options": [
+        "₹ 5,400",
+        "₹ 4,860",
+        "₹ 4,680",
+        "₹ 5,940"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is ₹ 5,400. Total set up costs = 20 set ups × ₹ 270 per set up."
+    },
+    {
+      "question": "What is the break-even point in the current scenario?",
+      "options": [
+        "19,200 units",
+        "19,320 units",
+        "19,400 units",
+        "19,420 units"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is 19,400 units. Total fixed cost = ₹ 97,000 and contribution per unit = ₹ 5 per unit (selling price ₹ 10 – direct cost ₹ 5). Hence, Break-even point = fixed cost / contribution per unit = 97,000 / 5 = 19,400 units."
+    },
+    {
+      "question": "What is the break-even point in the proposed scenario?",
+      "options": [
+        "16,900 units",
+        "16,000 units",
+        "17,200 units",
+        "17,000 units"
+      ],
+      "answer": 3,
+      "reason": "The correct answer is 17,000 units. Total fixed cost = ₹ 85,000 and contribution per unit = ₹ 5 per unit (selling price ₹ 10 – direct cost ₹ 5). Hence Break-even point = fixed cost / contribution per unit = 85,000 / 5 = 17,000 units."
+    },
+    {
+      "question": "The break-even point in the proposed scenario will be achieved in _________ production run.",
+      "options": [
+        "8th",
+        "9th",
+        "10th",
+        "11th"
+      ],
+      "answer": 1,
+      "reason": "The break-even point will be achieved in 9th production run (BEP 17,000 units / 2,000 units per batch) = 8.5 batch which is basically the 9th batch being produced."
+    },
+    {
+      "question": "What do you infer from the above case scenario? <table><tbody><tr><td>i</td><td>Activity Based Costing showed that while costs may be fixed with respect to volume, they may not be fixed with respect to other cost drivers.</td></tr><tr><td>ii</td><td>Analysing cost using cost drivers can open up opportunities to save costs</td></tr><tr><td>iii</td><td>It might be advisable to analyse the balance ₹ 75,000 fixed cost as well using Activity Based Costing</td></tr><tr><td>iv</td><td>A lower break even point after proposed changes increases the chances of being profitable</td></tr></tbody></table>",
+      "options": [
+        "i and ii",
+        "i, ii and iv",
+        "i, ii and iii",
+        "i, ii, iii and iv"
+      ],
+      "answer": 3,
+      "reason": "The correct answer is all the statements are true."
+    },
+    {
+      "question": "Given the above case scenario, if the management implements that proposed change in production, which among these will be a concern that the management needs to pay attention to?",
+      "options": [
+        "Set up time for production runs reduces due to the proposed change in production",
+        "Doubling the batch size can lead to the risk of machine downtime and more repairs and maintenance",
+        "Break even point has reduced due to the proposed change in production",
+        "Engineering hours required for production run reduces due to proposed change in production"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is doubling the batch size implies that the machine runs for longer. The management has to consider whether this could lead to machine break down. In the long run this will lead to machine downtime and therefore more repairs and maintenance. Batch size is a non-financial factor which has a longer-term implication. Hence, while the company may be able to earn short term profits, it might not be profitable in the long term."
+    }
+  ]
+},
+{
+  "caseText": "<p>VServeU connects customers who require home services to service providers. Services provided include electrical, plumbing and similar home repair services at the customer’s doorstep. The company owns the digital platform that uses algorithms to matches users to service providers in the required locality. The working of the business model is relatively simple. The consumer in need of services, uses VServeU’s application that is available on both Andriod and IoS phones. By specifying their requirement, they place a request through the app. The company’s algorithm then matches the request with service providers who are registered with the company. Once a match is made with respect to the requirement, locality and cost, the service provider is despatched to the customer’s home for providing the service.</p><p>In order to make the business more profitable, VServeU wishes to compete in the market based on quality and variety of services it can offer. Recent business trends indicate that services required by customers are more complex in nature that require an experienced service provider. Many times, they may require a host of service providers to address different home repair problems at the same time. Hence, VServeU wants to onboard agencies that offer different home repair services. These agencies hire different specialists who can work as a team while on assignments.</p><p>Agencies approach the platform to advertise their services on it. In return, VServeU helps the agency connect with customers who need their services. The agency benefits from this since its business reach expands exponentially using VServeU’s platform. On the other hand, customers would prefer VServeU’s platform since the quality and variety of services advertised is much more. Customers get it free, do not have to pay for using the VServeU application. This increases the popularity of the platform application, which in turn improves the visibility that the home repair agency can get. Higher visibility allows VServeU to charge a premium from agencies to advertise on its application platform. This makes the model more profitable for VServeU.</p><p>Once the assignment is complete, the customer can, using the VServeU application, rate the service agency on certain other parameters like cost, quality, punctuality etc. and as also rate the digital platform provided by VServeU in terms of whether the customer expectations have been met, reliability etc.</p>",
+  "questions": [
+    {
+      "question": "Which is the business model that VServeU follows?",
+      "options": [
+        "Experience model",
+        "On Demand model",
+        "Subscription model",
+        "Service ecosystem model"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is On Demand model, the digital platform connecting customers to service providers has made accessibility of service easier and convenient and “on demand” for the customer. VServeU earns a commission for matching the customer with the service provider."
+    },
+    {
+      "question": "Which business model VServeU is planning to follow?",
+      "options": [
+        "Hidden Revenue model",
+        "Razor Blade model",
+        "Subscription model",
+        "On Demand model"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is Hidden Revenue Model, also known Advertising model. This is a subset of the Free Business Models. The customer, user of the application platform, does not pay. The application instead earns revenue from the advertiser, who is the agency providing home repair solutions. The value proposition here is to connect customers to agencies that provide high quality service for a variety of home repair needs."
+    },
+    {
+      "question": "Which element of the business model canvas does the activity of customer rating and feedback represent?",
+      "options": [
+        "Customer relationship",
+        "Key activity",
+        "Channel",
+        "Customer segment"
+      ],
+      "answer": 0,
+      "reason": "The answer is Customer relationship, where the company engages with the customer regarding the service. VServeU uses the feedback and ratings to improve its services that will help it develop a loyal customer base."
+    },
+    {
+      "question": "VServeU is the first company in the country to offer convenient and standard quality home services to customers through the digital app platform. What kind of innovation does this represent?",
+      "options": [
+        "Transformational innovation",
+        "Disruptive innovation",
+        "Basic research",
+        "Incremental innovation"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is disruptive innovation as it is challenging the existing industry. The company is making home services easily accessible to customers in need of them while also providing the platform to service providers to expand their reach. Its online presence is bound to help extend the reach of services. Hence, the company is disrupting the current industry by making services easily available to a broader customer base."
+    },
+    {
+      "question": "Which is the key resource for VServeU as per the business model canvas?",
+      "options": [
+        "The digital platform operating on applications",
+        "Service providers",
+        "Customers",
+        "Both customers and service providers"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is the Digital platform operating on applications is the key resource of VServeU. It is this algorithm that matches customers to service providers. This is the key resource to deliver on the value proposition to both customers and service providers. Customers and service providers form part of the customer segment on the business canvas."
+    }
+  ]
+},
+{
+  "caseText": "<p>VServeU connects customers who require home services to service providers. Services provided include electrical, plumbing and similar home repair services at the customer’s doorstep. The company owns the digital platform that uses algorithms to matches users to service providers in the required locality. The working of the business model is relatively simple. The consumer in need of services, uses VServeU’s application that is available on both Andriod and IoS phones. By specifying their requirement, they place a request through the app. The company’s algorithm then matches the request with service providers who are registered with the company. Once a match is made with respect to the requirement, locality and cost, the service provider is despatched to the customer’s home for providing the service.</p><p>In general, customers have safety concerns about using the services of unknown professionals at home. To address this problem, VServeU has taken the onus of doing through background check and police verification of all service providers to ensure the safety of the customer. The other challenge is to keep the standard of service delivery uniform across service providers. This is vital for the company to ensure that the quality of service is as per standard irrespective of whichever service provider is deployed for the request. For this, the service providers are given training and are groomed for the service. They are also provided full equipment and other tools so that the customer gets an enhanced experience of getting service with least inconvenience.</p><p>Each time a service request is placed on the application, the customer makes an upfront payment. VServeU retains a part of it as commission for its service and the balance is passed onto the service provider. This commission-based revenue forms a large chunk of its revenue source.</p>",
+  "questions": [
+    {
+      "question": "Which is the business model that VServeU follows?",
+      "options": [
+        "Experience model",
+        "Service ecosystem model",
+        "Subscription model",
+        "On Demand model"
+      ],
+      "answer": 3,
+      "reason": "The correct answer is On Demand Model, the digital platform connecting customers to service providers has made accessibility of service easier and convenient and “on demand” for the customer. VServeU earns a commission for matching the customer with the service provider."
+    },
+    {
+      "question": "Who form the customer segment of VServeU on the business model canvas?",
+      "options": [
+        "Customers who need the service",
+        "Service providers who provide the service",
+        "Both customers and service providers",
+        "All current and future customers"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is both customers and service providers form the customer segment for VServeU. The company earns a commission from the charges paid by the customer, the balance is passed onto the service provider. Service providers generate the commission revenue stream for the company and therefore are part of the customer segment."
+    },
+    {
+      "question": "Which of the following are the value propositions for VServeU as per business model canvas? <table><tbody><tr><td>i</td><td>Providing quality home services on demand to customers conveniently at their doorstep.</td></tr><tr><td>ii</td><td>Expanding the service reach of the service provider</td></tr><tr><td>iii</td><td>Getting access to training and tools to provide the service effectively</td></tr><tr><td>iv</td><td>Providing service at cost efficient rates</td></tr></tbody></table>",
+      "options": [
+        "only i",
+        "i and ii",
+        "i, ii and iii",
+        "i, ii and iv"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is i, ii and iii. Statement i is a value proposition for the customer who gets the service on demand at their convenience. Statement ii is a value proposition for the service provider as their service reach can expand using the company’s application. Without this, the service provider would have to find his own ways of marketing his services typically depending on word of mouth or advertisements in local papers. Statement iii is also a value proposition for the service provider, who gets a structured training to improve and implement his skills. The case scenario above does not state that services will be provided at cost efficient rates."
+    },
+    {
+      "question": "Which is the key resource for VServeU as per the business model canvas?",
+      "options": [
+        "The digital platform operating on applications",
+        "The service providers",
+        "The customers",
+        "Both customers and service providers"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is the digital platform operating on applications is the key resource of VServeU. It is this algorithm that matches customers to service providers. This is the key resource to deliver on the value proposition to both customers and service providers. Customers and service providers form part of the customer segment on the business canvas."
+    }
+  ]
+},
+{
+  "caseText": "<p>DG is a consumer goods multinational company well known for its personal health care and hygiene products. It manages world famous brands for products ranging from baby care, fabric care, home care, personal hygiene, skin care products. Traditionally it depended on its internal research and development team for innovation of new products. Over the years however, with increasing competition, the research was giving lesser payoffs. In the year 2000, its then CEO Mr. DKG saw that DG cannot meet its growth targets by spending more on R&D with lesser and lesser payoffs. Therefore, the “Connect and Develop” model was adopted partially opening up the research and development of products to experts from outside. While the core team of researchers and infrastructure would be in place, DG would also collaborate with external scientists, entrepreneurs, suppliers, and universities to create newer, better, and cheaper products. Through the internet, they partnered with platforms such as InnoCentives, Your-encore among others to reach out to the talent pool that can help generate and create ideas for its products. This is the “connect” part of the program. Using proven technologies, packages and products, viable ideas would then be assessed for improvement, scaling up and marketing. This is the “develop” part of the program.</p><p>In the following years, DG noticed that the connect and develop program substantially improved research productivity. Many products were launched that were influenced mainly by external expertise. Some of the well- known innovations are Swiffer Duster, Magic Eraser, Spinbrush etc. This created a sustainable innovation model for the company.</p>",
+  "questions": [
+    {
+      "question": "Match the following: <table><tbody><tr><td>i</td><td>Converting ideas into viable products</td><td>a</td><td>Key Resources</td></tr><tr><td>ii</td><td>Platforms that connect P&G to the expert talent pool</td><td>b</td><td>Cost Structure</td></tr><tr><td>iii</td><td>Grow by creating newer, better and cheaper products</td><td>c</td><td>Key Activity</td></tr><tr><td>iv</td><td>Improving impact of R&D spend by bridging internal R&D with external expertise</td><td>d</td><td>Value Proposition</td></tr></tbody></table>",
+      "options": [
+        "i-a, ii- b, iii- c, iv- d",
+        "i-c, ii- a, iii- d, iv- b",
+        "i-c, ii- b, iii- a, iv- d",
+        "i-b, ii- c, iii- d, iv- a"
+      ],
+      "answer": 1,
+      "reason": "Converting ideas into viable products – Key Activity. Platforms that connect DG to the expert talent pool – Key Resource. Grow by creating newer, better and cheaper products – Value Proposition. Improving impact of R&D spend by bridging internal R&D with external expertise – Cost Structure."
+    },
+    {
+      "question": "Which type of approach has DG taken for developing a sustainable business model?",
+      "options": [
+        "Open innovation",
+        "Sharing economy",
+        "Closed loop production",
+        "Social enterprises and benefit corporations"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is Open Innovation where a company collaborates with other organizations, groups of people, or individuals to generate and commercialize new ideas. This type of collaboration is especially suited to dealing with the complex interdependencies that characterize the transition to a more sustainable built environment."
+    }
+  ]
+}
 
 
 
