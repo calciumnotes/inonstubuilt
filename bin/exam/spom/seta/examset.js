@@ -55,8 +55,9 @@ function initExam() {
                 question: q.question,
                 options: q.options,
                 correct: q.answer,
-                solution: q.solution || "No reason provided"
+                solution: q.reason || q.solution || "No reason provided" // Now checks for 'reason'
             });
+
         }
 
         if (selectedQuestions.length >= TOTAL_QUESTIONS) break;
