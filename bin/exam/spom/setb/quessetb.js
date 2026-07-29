@@ -7301,16 +7301,1375 @@ The management plans to use Pareto Analysis (80:20 Principle) to identify the "v
       "reason": "The correct answer is Open Innovation where a company collaborates with other organizations, groups of people, or individuals to generate and commercialize new ideas. This type of collaboration is especially suited to dealing with the complex interdependencies that characterize the transition to a more sustainable built environment."
     }
   ]
-}
+},
+{
+  "caseText": "<p>“Be Informed” is a monthly magazine that focuses on current affairs, economics, international business, technology and culture. Few college students pursuing their course in Mass Communication had started this as a summer project. During the course of their project, they realized that there was a gap in the news media sector for in depth analysis on the afore-stated topics. Hence, this project was scaled up to become a regular business which has continued successfully for the last 5 years. The magazine has both a print edition and an online edition. Readers of the print edition pay an annual fee; the magazine is posted to their correspondence address each month during the year.</p><p>Due to ongoing economic slowdown, advertisement spend by companies have reduced across all mediums. Accordingly, advertisement revenue from the print version has been on the decline over the last 2 years. The annual fee income from readers alone will not be sufficient to support the print version of the magazine in the long run. To address this, the publishers decided to offer the online edition of the magazine. Readers of the online version create a login on their website, sharing personal details and reading preferences. They can access up to 5 articles each month free of cost. Beyond this the reader has to pay a subscription fee to access articles. A reader may be willing to pay for these articles because of the insight these in-depth analytical articles offer.</p>",
+  "questions": [
+    {
+      "question": "Identify the business model that is followed for the print edition of “Be Informed”.",
+      "options": [
+        "Freemium model",
+        "Subscription model",
+        "Advertising model (Hidden Revenue model)",
+        "Cross Subsidisation model"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is Subscription model. The readers of the print edition have to pay an annual fee (subscription) to receive their magazine."
+    },
+    {
+      "question": "Identify the business model that is followed for the online edition of “Be Informed”.",
+      "options": [
+        "Freemium model",
+        "Subscription model",
+        "Advertising model (Hidden Revenue model)",
+        "Cross Subsidisation model"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is Freemium model. Users share their personal information and preferences while creating an account on the website. 5 articles can be read free of cost of the online edition. Beyond this the reader has to pay a subscription fee to access articles. Hence, the product is first offered for free and for further access subscription fee has to be paid. Therefore, this is a freemium model."
+    },
+    {
+      "question": "What would be an appropriate Key Performance Indicator to determine if the business model of the online version of “Be Informed” is successful?",
+      "options": [
+        "Number of readers creating their user account on the website",
+        "Number of readers reading the 5 articles each month free of cost",
+        "Number of users upgrading their account to access further online articles",
+        "Advertisement revenue increase for the online version of the magazine"
+      ],
+      "answer": 2,
+      "reason": "Key Performance Indicator for the online version of the magazine (Freemium Model) would be the conversion of free users to subscription paying users. This is shown by the number of users upgrading their account to access further online articles."
+    },
+    {
+      "question": "What is the objective of publishers following the business model as described in the question for their online edition of the magazine? <table><tbody><tr><td>i</td><td>To reduce the reliance on advertisement as an income stream for the online edition</td></tr><tr><td>ii</td><td>Corporate social responsibility of offering few articles for free to a user who creates an account on their website</td></tr><tr><td>iii</td><td>To charge a premium for the value that the magazine is creating for the reader in the form of insights from its in depth analysis</td></tr><tr><td>iv</td><td>To popularise and increase the readership of the magazine</td></tr></tbody></table>",
+      "options": [
+        "i, ii and iv",
+        "iii and iv",
+        "i and iv",
+        "i, iii and iv"
+      ],
+      "answer": 3,
+      "reason": "Statement i – It is given in the question description that the economic slowdown has reduced the advertisement spend of companies across all mediums. Hence, it is important to create an independent revenue stream for the magazine, which the publishers have done in the form of charging subscription fee for the magazine beyond 5 articles a month. Statement iii – It costs to run and publish a magazine, hence it would be prudent to charge for the valuable insights that the reader derives from the in depth analysis of these articles. Hence, the Freemium business model followed here charges a fee for the premium product articles. Statement iv – The idea of offering 5 articles for free each month to every reader is to spark their interest in the magazine and popularize it. This is the way to increase the conversion of readers from free model to a paying reader."
+    },
+    {
+      "question": "“Be Informed” is a monthly magazine that provides an analytical viewpoint of on various subjects. The accuracy and relevance of these analytical write up would fall under which attribute of the Kano Model?",
+      "options": [
+        "Threshold Attribute",
+        "Excitement Attribute",
+        "Reverse Quality",
+        "Indifferent Quality"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is Threshold attribute of the Kano Model. Threshold attribute is the characteristics that are taken for granted, but when not met lead to dissatisfaction of the customers. If the articles are not accurate and relevant, the readers would be dissatisfied with the magazine and may slowly switch to other resources for information."
+    }
+  ]
+},
+{
+  "caseText": "<p>Buymore is an ecommerce company that connects retail buyers and sellers of wide range of products in consumer electronics, home essentials, fashion etc. It does not own any of the products, rather it connects the sellers of these brands to the buyers through its website. The company earns a seller fee for the sales made through the website. Buyers pay a yearly subscription fee in order to access the website services.</p><p>Data analysts at Buymore noticed that with penetration of internet connectivity, buyers in rural Indian towns have aspirations to procure many of the products sold on the website. Likewise, many of the sellers who are registered with Buymore are mainly medium to small scale entrepreneurs who do not have the capability of storing and shipping the goods beyond certain geographical limits from their main area of operation. Due to their inability to invest in warehousing and shipping services, sellers are unable to expand the reach of their products to newer markets. This is the reason most of the sales that are routed through the Buymore website are in more localized markets concentrated in mainly in the big cities.</p><p>Buymore is a well established company, that has the resources to rent out/ own warehouses and also to provide shipping services over road and railway means of transport. Therefore, to address the problem of the sellers’ inability to expand their product reach, Buymore has decided to provide warehousing and shipping services. This will be provided at a charge in addition to the seller fee that is paid on each sale. This move will alleviate the pain faced by the sellers in expanding their product reach. It will also create gain to the buyers in rural Indian markets since they can now buy these products online.</p>",
+  "questions": [
+    {
+      "question": "What type of business model does Buymore follow?",
+      "options": [
+        "Hypermarket model",
+        "Digital Platform model",
+        "Freemium model",
+        "Service Ecosystem model"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is Digital Platform model. More specifically Buymore follows the Business to Consumer digital platform Model. Buymore is a digital platform that connects business to retail consumers."
+    },
+    {
+      "question": "Who are the customers of Buymore?",
+      "options": [
+        "The sellers who register on their website",
+        "The buyers who register on their website",
+        "The sellers and buyers who register on their website",
+        "The sellers and buyers who do not register on their website"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is − the sellers and buyers who register on their website. There are two revenue streams for Buymore, the seller fee collected on sales made through the website and the yearly subscription fees that the buyers pay to access the services."
+    },
+    {
+      "question": "The aspirational need of buyers in rural Indian towns as well as the need of the sellers to expand their product reach represent which of the following in the Value Proposition Canvas?",
+      "options": [
+        "Customer Jobs",
+        "Customer Pains",
+        "Customer Gains",
+        "Gain Creators"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is Customer Jobs. Customer Jobs describes the important issues that business’s customers are trying to solve/resolve in their work, it could be their needs that they wish to satisfy or may be a task that they try to perform and complete in their life (professional and personal) or at workspace. The aspirational need of buyers in rural Indian towns as well as the need of the sellers to expand their product reach represent a need that is unresolved."
+    },
+    {
+      "question": "Inability of sellers to invest in warehousing and storage facilities represents which of the following represents in the Value Proposition Canvas?",
+      "options": [
+        "Customer Jobs",
+        "Customer Pains",
+        "Customer Gains",
+        "Pain Relivers"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is Customer Pains. Sellers who are registered with Buymore are its (Buymore’s) customers. Inability to invest in warehousing and storage facilities have hindered their prospects of expanding their product reach. Hence, this represents customer pains on the value proposition canvas."
+    },
+    {
+      "question": "Which of the following elements have acted as a pain reliver and/or a gain creator to each of Buymore’s customers? <table><tbody><tr><td>i</td><td>Risk reduction</td></tr><tr><td>ii</td><td>Accessibility</td></tr><tr><td>iii</td><td>Performance</td></tr><tr><td>iv</td><td>Convenience</td></tr></tbody></table>",
+      "options": [
+        "i and ii",
+        "ii and iv",
+        "i and iii",
+        "i and iv"
+      ],
+      "answer": 1,
+      "reason": "Accessibility is making products and services available to customers who previously lacked access to them. Convenience is making things more convenient or easier to use can create substantial value. By providing warehousing and shipping services to sellers registered with Buymore, the company has made it easier for these sellers to expand their product reach. Along with convenience, access to these services have been provided by Buymore. This is a pain reliever / gain creator for the sellers. Also, for buyers in the rural Indian markets this move will provide them access to products that were previously not available to them. Procurement of these products can be done online on Buymore’s website, which adds to the convenience aspect. This is a pain reliever / gain creator for the buyers."
+    }
+  ]
+},
+{
+  "caseText": "<p>JPY Motors Corp. is a race car manufacturer based in Iwaki (city name). The company manufactures cars primarily for professional car racers who participate in championships held all across the world. Race cars need high grade fuel that is specially used in high performance engines. The company has many engineers from allied fields who constantly research on ways to improve performance. They have recently proposed a change to the fuel composition that will make a marked improvement to the performance of the engine. This will have a direct and immediate impact on the training and career performance of the customers of JPY Ltd, who are all professional car racers.</p><p>Improved engine performance has a direct bearing on the careers of professional car racers. Improved engine performance will enable JPY Ltd to improve its market share in this niche market. This will have substantial impact on the financials of the company. Changing the fuel composition also requires the company to get approvals from the Government for meeting emission standards as well as safety standards for the car. Many environmental groups have hailed this change as the new fuel composition is made from more sustainable source of fuel, moving away from fossil fuels.</p><p>The adoption of new fuel composition will require a change in the engine design and components. Hence, material requirement for the new model will require changes to the procurement function of the supply chain. Currently, suppliers for key components like engine and its parts are based in the vicinity of JPY Motors’s factory in Iwaki. However, the proposed changes will require the company to purchase the key engine component from suppliers based in Yokohama.</p><p>While manufacturing process undergoes a change due to change in engine design, there will be no significant variation in the assembly line operations for the new model. Most of the employees in the assembly line are hired on contractual basis and do not have any union to represent them.</p><p>The above consideration to change the fuel composition is being viewed a decision that will affect the company’s strategic position. Before making their decision public, the senior management wants to first assess the power and interest of various stakeholders who can influence this decision. As a management accountant, you need to assist the senior management to understand the type of information to be given to each stakeholder depending on their power to influence and their interest in the objective to change fuel composition.</p><p>Using Mendelow’s Matrix, answer the following questions −</p>",
+  "questions": [
+    {
+      "question": "Which of the following stakeholders are in the high interest and high power group?",
+      "options": [
+        "Customers and Government regulators",
+        "Customers and Board of Directors",
+        "Government Regulators and Current Suppliers of key components",
+        "Suppliers of key components and Employees at assembly line operations"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is Customers and Board of Directors. Customers who are professional car racers will be directly impacted by JPY’s decision as it affects both their training and career performance. JPY Motors manufactures cars primarily for professional car racers, hence customers have both high power and high influence over this objective. The change will improve market share in this niche market segment and will have substantial financial impact on the company. The Board of Directors as stakeholders will have high power and high influence over this objective."
+    },
+    {
+      "question": "Which of the following stakeholders are in the high interest and low power group?",
+      "options": [
+        "Current suppliers of key components and Environment activist groups",
+        "Government regulators and Environment activist groups",
+        "Employees at the assembly line and Current suppliers of key components",
+        "Customers and Environment activist groups"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is Current suppliers of key components and Environment activist groups. Current suppliers of key components will be adversely impacted by this decision since procurement for the new engine model will happen from Yokohama. However, despite having high interest, they do not have the power to influence this decision directly. Environment activist groups have a high interest since the fuel composition impacts the environment directly, which in the case of this change will be a positive impact due to the sustainable nature of the fuel. However, they too do not have the power to influence the decision directly."
+    },
+    {
+      "question": "Which of the following stakeholders are in the high power and low interest group?",
+      "options": [
+        "Employees at the assembly line",
+        "Customers",
+        "Current suppliers of key components",
+        "Government regulators"
+      ],
+      "answer": 3,
+      "reason": "The correct answer is Government regulators. They have high power since the fuel composition change can be implemented only with their approval. However, they are not directly interested in the objective."
+    },
+    {
+      "question": "Which of the following stakeholders are in the low power and low interest group?",
+      "options": [
+        "Employees at the assembly line",
+        "Customers",
+        "Current suppliers of key components",
+        "Government regulators"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is Employees at the assembly line. While manufacturing process undergoes a change due to change in engine design, there will be no significant variation in the assembly line operations for the new model. Most of the employees in the assembly line are hired on contractual basis and do not have any union to represent them. Hence assembly line employees have low power and low interest in this decision."
+    },
+    {
+      "question": "With which group should the company actively engage in order while implementing the change?",
+      "options": [
+        "High power and low interest group",
+        "Low power and high interest group",
+        "High power and high interest group",
+        "Low power and low interest group"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is high power and high interest group. This will comprise of the customers will be directly impacted by the decision. Since the company manufactures the cars primarily for them, they need to be actively engaged while the decision is being taken. Likewise, since the financials and the market share of the company are going to be impacted, the board of directors will need to be actively engaged while the decision is being taken."
+    },
+    {
+      "question": "With which stakeholders should the company keep informed while implementing the change?",
+      "options": [
+        "High power and low interest group, because they can be impacted by the decision",
+        "Low power and high interest group, because they can join forces with a more powerful stakeholder to influence the decision",
+        "High power and high interest group, because cannot influence the decision",
+        "Low power and low interest group, because it is very relevant decision for them"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is low power and high interest group. This group will comprise of current suppliers of key components and environment activist groups. While they have low power, they can join more powerful groups like the customers (professional car racers) and then try to influence the decision. By keeping the group informed, the company is showing consideration towards this group. This may make them less inclined to try to indirectly influence by joining forces with other groups. Similarly, environment activist groups do not have direct power to influence the decision. However, they are in a position to influence indirectly say by influencing the news media perception about the change. Hence, this group should also be given consideration and be kept informed about the change while it is being implemented."
+    },
+    {
+      "question": "With which stakeholder should the company ensure that they are satisfied while implementing the change?",
+      "options": [
+        "High power and low interest group",
+        "Low power and high interest group",
+        "High power and high interest group",
+        "Low power and low interest group"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is high power and low interest group. These would be the government regulators who need to give approval for the fuel composition change. They have high power since the fuel composition change can be implemented only with their approval. While they are not directly interested in this decision, they have the power to influence it. Hence, the company should ensure that relevant information is provided to keep them satisfied while implementing the change."
+    },
+    {
+      "question": "With which stakeholder is minimum effort to be taken while implementing the change?",
+      "options": [
+        "High power and low interest group",
+        "Low power and high interest group",
+        "High power and high interest group",
+        "Low power and low interest group"
+      ],
+      "answer": 3,
+      "reason": "The correct answer is low power and low interest group. This would be the group of assembly line workers who are not impacted by the change. Hence, their interest is low in this decision. As employees they do not have a union representing them, hence their power is low. Since there is no direct impact on their working, the company need not to focus too much on this group while implementing the change."
+    }
+  ]
+},
+{
+  "caseText": "<p>A company has a division A producing three products called X, Y, Z. Each product can be sold in the open market in the following manner. Maximum external sales are X 800 units, Y 500 units, Z 300 units.</p><table><thead><tr><th>Particulars</th><th>X</th><th>Y</th><th>Z</th></tr></thead><tbody><tr><td>Selling price per unit ($)</td><td>96</td><td>92</td><td>80</td></tr><tr><td>Variable Cost of production in Division A ($)</td><td>33</td><td>24</td><td>28</td></tr><tr><td>Labour Hours required per unit in Division A</td><td>6</td><td>8</td><td>4</td></tr></tbody></table><p>Product Y can be transferred to Division B, but the maximum quantity that might be required for transfer is 300 units of Y. Division B could buy similar product in the open market at a price of $45 per unit.</p>",
+  "questions": [
+    {
+      "question": "The number of hours needed for external sales are _________.",
+      "options": [
+        "11,500",
+        "11,000",
+        "10,000",
+        "10,500"
+      ],
+      "answer": 2,
+      "reason": "The number of hours needed for external sales are 10,000. <table><thead><tr><th>External Sales</th><th>Quantity (units)</th><th>Hours per unit</th><th>Total Hours need</th></tr></thead><tbody><tr><td>X</td><td>800</td><td>6</td><td>4,800</td></tr><tr><td>Y</td><td>500</td><td>8</td><td>4,000</td></tr><tr><td>Z</td><td>300</td><td>4</td><td>1,200</td></tr><tr><td><strong>Total hours needed for external sales</strong></td><td></td><td></td><td><strong>10,000</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "When Division A has capacity of 12,000 hours, which of the following statements are true?<br><br>i. Contribution per hour of X is $10.50, Y is $8.50 and Z is $13<br>ii. The constraining factor is labour hours, which needs to be utilized optimally<br>iii. There is a shortfall 400 hours, to meet both external production and the request of 300 units of Y from Division B<br>iv. Due to limited capacity Division A will incur an opportunity cost due to lost sales if it caters to the request of Division B",
+      "options": [
+        "i and ii",
+        "ii, iii and iv",
+        "i, iii and iv",
+        "i, ii, iii and iv"
+      ],
+      "answer": 3,
+      "reason": "Statement i, ii, iii, iv are true. The total hours needed for external sales is 10,000 and those need for internal transfer is 2,400 hours. In all, 12,400 hours are needed, when only 12,000 hours are available. There is a shortfall of 400 hours. Capacity is hence limited. Since labour hours is the constraint, it should be used optimally for which the contribution per labour hour has to be calculated. If Division A has to cater to the request from Division B, it has to account for opportunity cost from lost sales. Contribution per hour of X is $10.50 per unit, Y is $8.50 per unit and Z is $13 per unit. <table><thead><tr><th>Particulars</th><th>X</th><th>Y</th><th>Z</th></tr></thead><tbody><tr><td>Selling Price per unit</td><td>$96</td><td>$92</td><td>$80</td></tr><tr><td>Less: Variable Cost per unit</td><td>$33</td><td>$24</td><td>$28</td></tr><tr><td>Contribution per unit</td><td>$63</td><td>$68</td><td>$52</td></tr><tr><td>Labour hours per unit</td><td>6</td><td>8</td><td>4</td></tr><tr><td>Contribution per hour</td><td>$10.50</td><td>$8.50</td><td>$13.00</td></tr><tr><td>Ranking high to low</td><td>II</td><td>III</td><td>I</td></tr></tbody></table>"
+    },
+    {
+      "question": "When Division A has capacity of 12,000 hours, what will be optimum mix of production for external sales?",
+      "options": [
+        "X - 800 units, Y - 500 units and Z - 300 units",
+        "X - 800 units, Y - 600 units and Z - 300 units",
+        "X - 800 units, Y - 250 units and Z - 300 units",
+        "X - 800 units, Y - 800 units and Z - 300 units"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is X 800 units, Y 500 units and Z 300 units is the optimum mix for external sales. The entire demand of Product Z will be produced first. This requires 1,200 hours. Out of the balance 10,800 hours, Product X will require 4,800 hours. This leaves a balance of 6,000 hours for Product Y. Product Y requires 8 hours p.u. External sales of product require 4,000 hours (500 units × 8 hours p.u.). This leaves 2,000 hours available for production of 300 units of Y to be sold to Division B. <table><thead><tr><th>Priority</th><th>External Sales</th><th>Quantity units</th><th>Hours per unit</th><th>Total Hours needed</th><th>Remaining hours</th></tr></thead><tbody><tr><td>1</td><td>Z</td><td>300</td><td>4</td><td>1,200</td><td>10,800</td></tr><tr><td>2</td><td>X</td><td>800</td><td>6</td><td>4,800</td><td>6,000</td></tr><tr><td>3</td><td>Y</td><td>500</td><td>8</td><td>4,000</td><td>2,000</td></tr></tbody></table> For the internal demand of Product Y 300 units will require 2,400 hours (300 units × 8 hours p.u.). Hence, there is a shortfall of 400 hours to meet this internal demand. This shortfall of 400 hours will be made up with diverting hours earmarked for external sale of Product Y (Rank 3 as explained earlier)."
+    },
+    {
+      "question": "Given that Division A has a capacity of 12,000 hours. If Division A accepts to produce 300 units of Y for Division B, what will be the contribution lost from reduced sales?",
+      "options": [
+        "Contribution lost from reduced sales of X - $3,400",
+        "Contribution lost from reduced sales of Y - $ 3,400",
+        "Contribution lost from reduced sales of Y - $2,550",
+        "Contribution lost from reduced sales of Y - $4,250"
+      ],
+      "answer": 1,
+      "reason": "Contribution lost from reduced sales of Y $ 3,400. As explained earlier, the shortfall of 400 hours to meet the internal requirement for Y is met by diverting hours earmarked for external sale of Product Y (Rank 3 as explained earlier). Contribution Lost by Diverting 400 hours from Product Y for External Sales = 400 hours × contribution per hour = 400 hours × $8.5 = $3,400."
+    },
+    {
+      "question": "Given that Division A has a capacity of 12,000 hours. If Division A accepts to produce 300 units of Y for Division B, what should be the transfer price that should be charged to Division B at the minimum?",
+      "options": [
+        "$24 per unit",
+        "$45 per unit",
+        "$35.33 per unit",
+        "$92 per unit"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is $35.33 per unit. On a per unit basis, lost contribution = 3,400 / 300 units = 11.33 per unit. Therefore, Transfer Price = Marginal Cost p.u. + Contribution Lost from Reduced External Sales = 24 + 11.33 = $35.33 per unit."
+    },
+    {
+      "question": "Given that Division A has a capacity of 12,000 hours. If Division A accepts to produce 300 units of Y for Division B, what should be the transfer price range that should be charged to Division B?",
+      "options": [
+        "$24 per unit - $45 per unit",
+        "$45 per unit - $92 per unit",
+        "$35.33 per unit - $45 per unit",
+        "$92 per unit"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is $35.33 per unit - $45 per unit. Division B will be willing to buy within in this range below the external buy in piece of $45 per unit. Division A will want to charge at the minimum $35.33 per unit. In order to recoup the contribution from lost sales. Hence this will be the range."
+    }
+  ]
+},
+{
+  "caseText": "<p>A company has a division A producing three products called X, Y, Z. Each product can be sold in the open market in the following manner. Maximum external sales are X 800 units, Y 500 units, Z 300 units.</p><table><thead><tr><th>Particulars</th><th>X</th><th>Y</th><th>Z</th></tr></thead><tbody><tr><td>Selling price per unit ($)</td><td>96</td><td>92</td><td>80</td></tr><tr><td>Variable Cost of production in Division A ($)</td><td>33</td><td>24</td><td>28</td></tr><tr><td>Labour Hours required per unit in Division A</td><td>6</td><td>8</td><td>4</td></tr></tbody></table><p>Product Y can be transferred to Division B, but the maximum quantity that might be required for transfer is 300 units of Y. Division B could buy similar product in the open market at a price of $45 per unit.</p>",
+  "questions": [
+    {
+      "question": "The number of hours needed for external sales are _________.",
+      "options": [
+        "9,000",
+        "10,000",
+        "12,000",
+        "11,000"
+      ],
+      "answer": 1,
+      "reason": "The number of hours needed for external sales are 10,000. <table><thead><tr><th>External Sales</th><th>Quantity (units)</th><th>Hours per unit</th><th>Total Hours need</th></tr></thead><tbody><tr><td>X</td><td>800</td><td>6</td><td>4,800</td></tr><tr><td>Y</td><td>500</td><td>8</td><td>4,000</td></tr><tr><td>Z</td><td>300</td><td>4</td><td>1,200</td></tr><tr><td><strong>Total hours needed for external sales</strong></td><td></td><td></td><td><strong>10,000</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "When Division A has capacity of 8,000 hours, which of the following statements are true? <table><tbody><tr><td>i.</td><td>There is a shortfall 4,400 hours to meet both external production and request of 300 units of Y from Division B</td></tr><tr><td>ii.</td><td>The constraining factor is labour hours, which needs to be utilized optimally</td></tr><tr><td>iii.</td><td>Contribution per hour of X is $10.50, Y is $8.50 and Z is $13</td></tr><tr><td>iv.</td><td>Due to limited capacity Division A will incur an opportunity cost due to lost sales if it caters to the request of Division B</td></tr></tbody></table>",
+      "options": [
+        "i and ii",
+        "ii, iii and iv",
+        "i, iii and iv",
+        "i, ii, iii and iv"
+      ],
+      "answer": 3,
+      "reason": "Statements i, ii, iii and iv are true when Division A has 8,000 hours of actual capacity. Division A needs 10,000 hours for external sales and 2,400 hours for meeting Division B’s request. Hence the total hours required is 12,400. Actual capacity is 8,000 hours. Hence there is a shortfall of 4,400 hours. Since labour hours is the constraint, it should be used optimally for which the contribution per labour hour has to be calculated. If Division A has to cater to the request from Division B, it has to account for opportunity cost from lost sales. <table><thead><tr><th>Particulars</th><th>X</th><th>Y</th><th>Z</th></tr></thead><tbody><tr><td>Selling Price per unit</td><td>$96</td><td>$92</td><td>$80</td></tr><tr><td>Less: Variable Cost per unit</td><td>$33</td><td>$24</td><td>$28</td></tr><tr><td>Contribution per unit</td><td>$63</td><td>$68</td><td>$52</td></tr><tr><td>Labour hours per unit</td><td>6</td><td>8</td><td>4</td></tr><tr><td>Contribution per hour</td><td>$10.50</td><td>$8.50</td><td>$13.00</td></tr><tr><td>Ranking high to low</td><td>II</td><td>III</td><td>I</td></tr></tbody></table>"
+    },
+    {
+      "question": "When Division A has capacity of 8,000 hours, what will be optimum mix of production for external sales?",
+      "options": [
+        "X - 800 units, Y - 500 units and Z - 300 units",
+        "X - 800 units, Y - 600 units and Z - 300 units",
+        "X - 800 units, Y - 250 units and Z - 300 units",
+        "X - 733 units, Y - 500 units and Z - 300 units"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is X - 800 units, Y - 250 units and Z - 300 units. The optimum production mix for external sales is calculated as – Total hours available = 8,000 hours. The products are ranked as per their contribution per hour. Product Z yields the maximum contribution per labour hour, followed by X and Y. Hence, hours will first be allotted to Z, then to X and the last to Y. <table><thead><tr><th>Priority</th><th>External Sales</th><th>Quantity units</th><th>Hours per unit</th><th>Total Hours needed</th><th>Remaining hours</th></tr></thead><tbody><tr><td>1</td><td>Z</td><td>300</td><td>4</td><td>1,200</td><td>6,800</td></tr><tr><td>2</td><td>X</td><td>800</td><td>6</td><td>4,800</td><td>2,000</td></tr><tr><td>3</td><td>Y</td><td>250</td><td>8</td><td>2,000</td><td>NIL</td></tr></tbody></table> The entire demand of Product Z will be produced first. This requires 1,200 hours. Out of the balance 6,800 hours, Product X will require 4,800 hours. This leaves a balance of 2,000 hours for Product Y. Product Y requires 8 hours per unit. Hence, maximum production of product Y = 2,000 hours / 8 = 250 units."
+    },
+    {
+      "question": "Given that Division A has a capacity of 8,000 hours. If Division A accepts to produce 300 units of Y for Division B, what will be the contribution lost from reduced sales?",
+      "options": [
+        "Contribution lost from reduced sales of X - $8,400 and Z - $3,900",
+        "Contribution lost from reduced sales of Y - $17,000 and Z - $3,900",
+        "Contribution lost from reduced sales of Y - $17,000 and X - $8,400",
+        "Contribution lost from reduced sales of Y - $17,000 and X - $4,200"
+      ],
+      "answer": 3,
+      "reason": "Contribution lost from reduced sales of Y = $17,000 and X = $4,200. If Division A accepts to produce 300 units of Y for Division B, the total hours required for internal sales would be 2,400 hours. This can be catered to by curtailing its external sales. 2,000 hours from production of external sales of Product Y is first diverted and the balance 400 hours are diverted from production of Product X. Hence this results in lost contribution, an opportunity cost that has to be included in transfer pricing. Contribution Lost from Reduced External Sales = Product Y (2,000 hours × contribution per hour of $8.5) + Product X (400 hours × contribution per hour of $10.5) = $17,000 + $4,200 = $21,200."
+    },
+    {
+      "question": "Given that Division A has a capacity of 8,000 hours. If Division A accepts to produce 300 units of Y for Division B, what should be the transfer price that should be charged to Division B?",
+      "options": [
+        "$24 per unit",
+        "$45 per unit",
+        "$94.66 per unit",
+        "$92 per unit"
+      ],
+      "answer": 2,
+      "reason": "If Division A accepts to produce 300 units of Y for Division B, the transfer price that should be charged to Division B would be $94.66 per unit. On a per unit basis, lost contribution works out to $21,200 / 300 units = $70.66. Transfer Price = Marginal Cost p.u. + Contribution Lost from Reduced External Sales = $24 + $70.66 = $94.66. Since Division B can buy at $45, it would be cheaper to purchase the component from outside."
+    },
+    {
+      "question": "In continuation of previous part….. Should Division B purchase Y from Division A?",
+      "options": [
+        "Yes, purchasing from Division A promotes goal congruence",
+        "No, the product Y is cheaper in the external market and hence Division B should purchase it from outside",
+        "Yes, the product Y is marginally cheaper in the external market and hence Division B should purchase it from Division A to promote goal congruence",
+        "No, the product Y is costlier in the external market and hence Division B should not purchase it from outside"
+      ],
+      "answer": 1,
+      "reason": "No, the product Y is cheaper in the external market and hence Division B should purchase it from outside. Transfer price set at as explained in earlier part is $94.66 per unit. External buy in cost in $45 per unit. Hence it would be cheaper to purchase from outside."
+    }
+  ]
+},
+{
+  "caseText": "<p>Speed Auto-mobile Limited (SAL) is recently formed Indian automobile company with aspiration to be global brand in upcoming decade. It enters into strategic alliance with enterprises based in Japan, Germany, and France for R&D support apart from sharing of latest technologies. SAL striving towards effectiveness and efficiency by better correlate system, strategy, staff, skill etc. Mr. Deepak Gupta, the Management Accountant of SAL had experience of using 7-S framework in his previous job and willing to apply the same framework at SAL to support the drive for efficiency and effectiveness. He made presentation to C-suite. CEO is convinced with utility that 7-S framework is capable to produce. But she and some of officers have queries regarding the application of Mckinsey’s 7-S; moreover, sceptic about; how SAL going to get maximum out of 7-S?</p><p>Mr. Gupta explained that 7-S are divided into two sets i.e., Soft and Hard elements based upon ease in their identification and degree of influence that management can exercise. He also explained the successful cases of US companies which used 7-S in drive towards efficiency and effectiveness.</p><p>Since concept is new for many of C-suite members, hence, MD-cum-CEO Ms. Catz asked Mr. Gupta to list out the 7-S with classification into Soft and Hard S elements and also stating reason and implications thereof.</p><p>Chief Strategic Officer Ms. Karen argues that business environment of US and India is not same, hence not wise to opt and implement 7-S framework applied by US firms. She asked Mr. Gupta to explain the steps that are involved in implementation of 7-S framework, so that a caution list can be prepared if it is decided to go ahead. She further raises the issue of change resistance.</p><p>HR head Mr. Ajai Singh asked, whether HR practices also covered by any one out of 7-S, or combination thereof. He took reference of role a leader play, stories and belief prevailing among employees, etc.</p><p>Chief marketing officer Mr. Andrew extended the point raised by Mr. Ajai and ask whether 7-S has bearing on generic strategies adopted by business. He took reference of various global automobiles companies to understand how these automobile company with different generic strategies get advantage from 7-S framework.</p><p>Then, Chief Operating Officer Ms. Anjum Aggarwal whose KRA includes designing and implementation of SOPs willing to know whether adjustment can be made to all the S elements or only in some of them.</p><p>Some of question posed by C-suite are specified ahead, you are required to select most appropriate option for each of MCQ.</p><p>Students may take note, the C-suite refers to a company's top management positions, where the \"C\" stands for \"chief.\" Various chief officers (e.g., CEO, CIO, CFO, etc.) are the occupants of the C-suite.</p>",
+  "questions": [
+    {
+      "question": "The McKinsey 7-S Framework highlights the _________ of the seven hard and soft elements.",
+      "options": [
+        "Interchangeability",
+        "Independence",
+        "Interconnectedness",
+        "Intermittence"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is Interconnectedness. The McKinsey 7S Model refers to a tool that analyses a company’s ‘organizational design’. The goal of the model is to depict how effectiveness can be achieved in an organization through the interactions of seven key and interconnected elements that are Structure, Strategy, Skill, System, Shared Values, Style, and Staff. Note – All the ‘S’ of 7-S having same importance and impact on each other due to interconnectedness."
+    },
+    {
+      "question": "In context to question posed by Ms. Anjum, which of the following statement are correct –<br><br>i. If one area of the 7-S framework needs adjusting or tweaking for business success, the other S elements are presumed to be stable or remain constant i.e., ceteris paribus<br>ii. If one area of the 7-S framework needs adjusting or tweaking for business success, the other S elements are need adjusting too<br>iii. Hard S elements are easily identified and influenced by management comparing to Soft S<br>iv. Soft S elements are easily identified and influenced by management comparing to Hard S",
+      "options": [
+        "Only statement i and iii are correct",
+        "Only statements ii and iii are correct",
+        "Only statement i and iv are correct",
+        "Only statements ii and iv are correct"
+      ],
+      "answer": 1,
+      "reason": "The goal of the 7-S framework is to depict how effectiveness can be achieved in an organization through the interactions of seven key and interconnected elements that are Structure, Strategy, Skill, System, Shared Values, Style, and Staff. Since all the S of 7-S impact each other due to interconnectedness, hence if one area of the 7-S framework needs adjusting or tweaking for business success, the other S elements are need adjusting too. The seven components of McKinsey's 7-S model are divided into two groups: hard S and soft S. The Hard S elements are Strategy, Structure, and Systems. The Soft S elements are Style, Staff, Skills, and Shared values. Since there is substantial involvement of human element in Soft S elements, which make change management relatively difficult; further Soft S elements are highly intangible and invisible in nature hence identification of underlying sub-set of Soft S elements are relatively difficult. Therefore, Hard S elements are easily identified and influenced by management comparing to Soft S."
+    },
+    {
+      "question": "In context of requirement to list out Hard and Soft S elements by Ms. Catz, the ‘hard’ elements of the 7-S framework include all of the following except –",
+      "options": [
+        "Strategy",
+        "Structure",
+        "System",
+        "Style"
+      ],
+      "answer": 3,
+      "reason": "Strategy, Structure, and Systems are feasible and easy to identify. These can be found in strategy statements, corporate plans, organizational charts, and other documentations. They are easier to change than the others. Therefore, called Hard S elements. While Skills, Staff, Style, and Shared Values are called Soft S elements."
+    },
+    {
+      "question": "The McKinsey 7-S Framework is useful in which of these situations?<br><br>i. Improving overall business performance<br>ii. Understanding worker termination process<br>iii. Examining effects of future change<br>iv. Aligning departments during a merger",
+      "options": [
+        "i and iii only",
+        "i and iv only",
+        "i, ii and iii only",
+        "i, iii and iv only"
+      ],
+      "answer": 3,
+      "reason": "Understanding worker termination process is not covered by any S element of the 7-S Framework. While rest three are objectives or use-cases of 7-S."
+    },
+    {
+      "question": "Which of the following S element signify the superordinate goals?",
+      "options": [
+        "Staff",
+        "Shared Value",
+        "Strategy",
+        "Not covered by any of S element of 7-S"
+      ],
+      "answer": 1,
+      "reason": "The superordinate goals signify what we stand for and are the glue that holds the organization together i.e., shared values (refers to the values the members of the organization share). When this model was suggested first, the term superordinate goals was used instead of shared value, later replaced with shared value."
+    },
+    {
+      "question": "In context to question posed by HR head, Mr. Ajai Singh ‘How the company's managers lead’ falls under which S element of 7-S?",
+      "options": [
+        "Skill",
+        "Style",
+        "Staff",
+        "Not covered by any of S element of 7-S"
+      ],
+      "answer": 1,
+      "reason": "Style refers to the management style prevalent in a company that decides the level of employee productivity and satisfaction, including leadership styles (such as Autocrat, Bureaucrat, Democrat, Laissez-faire, Transformational and Transactional). Staff represents the talent pool required, the size of the existing workforce, and their motivations. Skill refer to the abilities of employees to complete tasks."
+    },
+    {
+      "question": "In context of requirement to list out Hard and Soft S elements by Ms. Catz, the ‘Soft’ elements of the 7-S framework include all of the following except –",
+      "options": [
+        "Skills",
+        "Shared values",
+        "Systems",
+        "Style"
+      ],
+      "answer": 2,
+      "reason": "Strategy, Structure, and Systems are feasible and easy to identify. These can be found in strategy statements, corporate plans, organizational charts, and other documentations. They are easier to change than the others. Therefore, called hard S elements. While Skills, Staff, Style, and Shared Values are not change-feasible. These are harder to describe since capabilities, values and elements of corporate culture are continuously developing and changing. They are highly determined by the people at work in the organization. Hence these are harder to change directly, and typically take longer to do so. Therefore, called soft S elements. Note - Effective companies, however, tend to pay as much attention to these soft S factors as to the hard S’s."
+    },
+    {
+      "question": "Regarding concern highlighted by Ms. Karen in context to implementation of 7-S framework and change resistance, which of following statement are incorrect?<br><br>i. Change agents can effectively implement the McKinsey 7-S model using a top-bottom approach<br>ii. Organisation should identify internal change agents or hire change consultants best suited to implement your changes",
+      "options": [
+        "Statement i only",
+        "Statement ii only",
+        "Both of the statement i and ii",
+        "None of the statement i and ii"
+      ],
+      "answer": 3,
+      "reason": "The change implementation stage is the most critical stage of any change initiative, and only well-implemented changes will avoid resistance to change and prevent overall change failures. Hence change agents can effectively implement the McKinsey 7-S model using a top-bottom approach. Moreover, the organisation should identify internal change agents or hire change consultants best suited to implement your changes. A change agent, or agent of change, is someone who promotes and enables change to happen within any group or organization. In business, a change agent is an individual who promotes and supports a new way of doing something within the company."
+    },
+    {
+      "question": "In context of relation among the elements of 7-S framework and with the strategy which of following are incorrect:<br><br>i. Strategy is one among the 7 elements of 7S framework that is core to all remaining elements of 7S<br>ii. All the element of 7S framework have equal importance<br>iii. Hard S elements have more important than Soft S elements",
+      "options": [
+        "i and ii",
+        "ii and iii",
+        "i and iii",
+        "None of the i, ii and iii"
+      ],
+      "answer": 2,
+      "reason": "All the elements of 7S framework have equal importance, while shared values are core to rest of elements. Hard and Soft S are different from each other only in respect to identification and influence that can be exercised by the management."
+    }
+  ]
+},
+{
+  "caseText": "<p>Given the information below</p><table><thead><tr><th></th><th>Division A</th><th>Division B</th></tr></thead><tbody><tr><td>Profit</td><td>₹ 50,00,000</td><td>₹ 12,00,000</td></tr><tr><td>Investment</td><td>₹ 5,00,00,000</td><td>₹ 80,00,000</td></tr><tr><td>Cost of capital</td><td>8%</td><td>8%</td></tr></tbody></table>",
+  "questions": [
+    {
+      "question": "What is the Return on Investment for Division A and Division B?",
+      "options": [
+        "Division A 12%; Division B 15%",
+        "Division A 10%; Division B 15%",
+        "Division A 8%; Division B 8%",
+        "Division A 2%; Division B 7%"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is – Division A 10% and Division B 15%.<br><br>ROI = Profit / Investment<br><table><thead><tr><th></th><th>Division A</th><th>Division B</th></tr></thead><tbody><tr><td>Profit</td><td>50,00,000</td><td>12,00,000</td></tr><tr><td>Investment</td><td>5,00,00,000</td><td>80,00,000</td></tr><tr><td><strong>ROI</strong></td><td><strong>10%</strong></td><td><strong>15%</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "What is the Residual Income for Division A and Division B?",
+      "options": [
+        "Division A ₹ 50,00,000; Division B ₹ 12,00,000",
+        "Division A ₹ 40,00,000; Division B ₹ 6,40,000",
+        "Division A ₹ 10,00,000; Division B ₹ 5,60,000",
+        "Division A ₹ 90,00,000; Division B ₹ 18,40,000"
+      ],
+      "answer": 2,
+      "reason": "Residual Income is – Division A ₹ 10,00,000; Division B ₹ 5,60,000<br><br>Residual Income = Profit less Cost of Capital<br>Cost of Capital = 8% × Investment in Division<br><table><thead><tr><th></th><th>Division A</th><th>Division B</th></tr></thead><tbody><tr><td>Profit</td><td>50,00,000</td><td>12,00,000</td></tr><tr><td>Less: Cost of Capital</td><td>40,00,000</td><td>6,40,000</td></tr><tr><td><strong>Residual Income</strong></td><td><strong>10,00,000</strong></td><td><strong>5,60,000</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "Which of the following summarizes the performance of Division A and Division B correctly",
+      "options": [
+        "The return on investment of Division B is more than Division A but in absolute terms the residual income of Division B is lower than of Division A",
+        "The return on investment of Division A is more than Division B but in absolute terms the residual income of Division A is lower than of Division B",
+        "The return on investment of Division B is more than Division A but in absolute terms the residual income of Division A is lower than of Division B",
+        "The return on investment of Division B is the same as Division A but in absolute terms the residual income of Division B is lower than of Division A"
+      ],
+      "answer": 0,
+      "reason": "The return on investment of Division B (15%) is more than Division A (10%) but in absolute terms the residual income of Division B (₹ 5,60,000) is lower than of Division A (₹ 10,00,000)."
+    },
+    {
+      "question": "Based on the conclusion in above, which of the following are correct?<br><br>i. Higher the residual income of the division necessarily means better the performance of the division<br>ii. Residual income alone is the best measure of evaluating the performance of managers of Division A and B<br>iii. It is not appropriate to use residual income as the only basis for evaluating the performance of managers of Division A and B<br>iv. Return on investment along with residual income should be considered for evaluating the performance of managers of Division A and B",
+      "options": [
+        "i only",
+        "ii only",
+        "i and iv",
+        "iii and iv"
+      ],
+      "answer": 3,
+      "reason": "It is not appropriate to use Residual Income as the only basis for evaluating the performance of managers of Division A and B. The ROI of Division B (15%) is more that Division A (10%) but in absolute terms the residual income of Division B (₹ 5,60,000) is lower than of Division A (₹ 10,00,000). Hence, going by Residual Income alone, it seems that Division A is performing better than Division B. However, this is only because of the difference in size of operation of Division A and Division B. As per ROI, Division B is more profitable. Hence Return on Investment along with Residual Income should be considered for evaluating the performance of managers of Division A and B."
+    }
+  ]
+},
+{
+  "caseText": "<p>A1 is an organization that does trading of milk and milk products and operates within a large district in Uttar Pradesh, India. Milk producers (dairy farmers) sell quality milk and milk products which is then sent to retailers to be sold to customers. Each day the milk producers get the milk to the collection centre in the village. A sample of milk is drawn from individual lots to test the milk for quality. Once the quality check is passed, measurement of milk is done carefully, and the milk collected is recorded in the name of the individual milk producer. The milk is then brought to the main collection centre where further quality check is done. Once the quality test is passed, the milk is then packaged and dispatched in specially designed vans with coolers to retailers spread across various locations within the district. Consumers get their daily milk supplies from the retailers.</p>",
+  "questions": [
+    {
+      "question": "From the viewpoint of A1, procurement of good quality milk from dairy farmers best describes which of the following situations?",
+      "options": [
+        "Value chain management",
+        "Upstream supply chain management",
+        "Downstream supply chain management",
+        "Triple bottom line"
+      ],
+      "answer": 1,
+      "reason": "The correct answer is 'Upstream Supply Chain Management'. Procurement of good quality milk from dairy farmers refers to procurement of raw materials from suppliers, which is Upstream Supply Chain Management."
+    },
+    {
+      "question": "From the viewpoint of A1, ensuring distribution of milk packets to retailers well within the expiry date (milk being a perishable commodity) best describes which of the following situations?",
+      "options": [
+        "Value chain management",
+        "Upstream supply chain management",
+        "Downstream supply chain management",
+        "Triple bottom line"
+      ],
+      "answer": 2,
+      "reason": "The correct answer is 'Downstream Supply Chain Management'. Distribution of milk within expiry date is a post-manufacturing activity that deals with the movement of finished goods to the retailer and therefrom the final customer."
+    },
+    {
+      "question": "In the recent years, A1 has been battling complaints about decreasing quality of products. Hence it is thinking of taking strategic decisions. One among them is to own dairy farms where the livestock are kept, instead of procuring the milk from dairy farmers individually. It is felt that this would standardize the rearing the livestock cattle (breed of cattle, their feed, milk collection procedure etc). This will also give better control over milk production and therefore improve quality of milk output. Which scenario best describes this scenario?",
+      "options": [
+        "Value chain management",
+        "Upstream supply chain management",
+        "Downstream supply chain management",
+        "Triple bottom line"
+      ],
+      "answer": 0,
+      "reason": "The correct answer is 'Value Chain Management'. A1 essentially wants to do vertical integration to ensure that the quality of milk produced can be controlled. This decision relates to the procurement function of Porter’s Value Chain Analysis."
+    },
+    {
+      "question": "The decision enumerated in (iii) above has raised concerns with the dairy farmers who stand to lose their livelihood. A1 has assured them that all the dairy farmers will be given employment within the dairy farms owned by the organization. Moreover, milk production will be based on sustainable methods which will ensure the good health of the livestock cattle as also that of the environment. The customers also benefit by getting farm fresh milk. A happy customer will be a loyal customer, thus ensuring the sustainability of business. A1 aims to develop a framework that will monitor and ensure the well-being of the livestock cattle and its dairy farmers, ensure sustainability practices that ensure that production is done is an eco-friendly manner. Which scenario best describes this scenario?",
+      "options": [
+        "Value chain management",
+        "Upstream supply chain management",
+        "Downstream supply chain management",
+        "Triple bottom line"
+      ],
+      "answer": 3,
+      "reason": "The correct answer is 'Triple Bottom Line'. This is framework that organizations can adopt to ensure that their operations are being carried out in sustainable manner with respect to Profit, People and the Planet."
+    }
+  ]
+},
+{
+  "caseText": "<p>Bluebean coffee wishes to expand into other geographical markets. It has limited cash available and so can only afford a low upfront investment. Bluebean know that this is likely to mean they cannot enter the market as fast as they would like and that they will have to settle for a medium speed entry into the market. However, they have a management team that is experienced in the complexity of market expansion and want to involve them directly in the proposed expansion.</p><p>In the context of Bluebean Coffee's expansion plans, performance reports play a vital role in Responsibility Accounting by informing responsibility center managers about budgetary deviations, ensuring accountability in decision-making for market expansion. This allows them to take necessary actions to address these variances and maintain accountability within their respective areas of responsibility. The management of Bluebean Coffee ignored the need for undertaking managerial accountability. The Management is of the view that the performance reports can be reviewed anytime.</p><p>While preparing the Bluebean Coffee's performance report, it focused on following aspects:</p><ul><li>aligning objectives with organizational goals</li><li>providing an executive summary</li><li>ensuring the reliability of report details.</li><li>conducting employee training programs</li></ul><p>JavaJoy Coffee is a competitor of Bluebean Coffee operating in the same industry. Similar in size and resources, JavaJoy also aims to expand its market reach beyond its current geographical boundaries. However, unlike Bluebean, JavaJoy is more aggressive in its approach to market expansion.</p><p>However, what distinguishes JavaJoy from its competitors is its reliance on external consultants and market research firms for guidance in its expansion strategies. While JavaJoy's management possesses industry experience, they prefer to supplement their knowledge with insights from external experts. This approach provides JavaJoy with a broader perspective and access to specialized expertise.</p>",
+  "questions": [
+    {
+      "question": "Which of the following modes of entry is best suited to Bluebean’s constraints and requirements?",
+      "options": [
+        "Licensing",
+        "Acquisition",
+        "Joint venture",
+        "Strategic alliance"
+      ],
+      "answer": 3,
+      "reason": "This option is correct because a strategic alliance allows a medium speed of entry to the market, involves managerial complexity but has the advantage of a low upfront investment. (note Strategic Alliance is less complex and less binding than a joint venture).<br><br>Option (a) is incorrect because licensing requires low managerial complexity and will not provide the opportunity to leverage the skills of their experienced management team.<br>Option (b) is incorrect because they have limited funds. Acquiring a company has a faster speed of entry than forming an alliance.<br>Option (c) is incorrect because a joint venture requires a medium up-front investment which Bluebean do not have, involves managerial complexity."
+    },
+    {
+      "question": "What factors most likely contribute to this performance difference between JavaJoy Coffee from Bluebean Coffee?",
+      "options": [
+        "Luck and random chance",
+        "Differences in structure, culture, and strategy",
+        "Government regulations",
+        "Actions of individual employees"
+      ],
+      "answer": 1,
+      "reason": "Despite two businesses operating in the same industry, even at the same level and with the same set of resources, there is surely a difference in their performance level. The reason behind such a difference is the structure, culture, and strategy of said businesses. The same factors mentioned above contribute to the difference in performance between JavaJoy and Blue Beans Coffee."
+    },
+    {
+      "question": "How does the issuance of performance reports align with Responsibility Accounting in Bluebeans Coffee?",
+      "options": [
+        "By informing responsibility center managers of deviations from budgets",
+        "By solely focusing on financial performance metrics",
+        "By undertaking performance evaluation through internal management team",
+        "By ignoring the need for managerial accountability"
+      ],
+      "answer": 0,
+      "reason": "Responsibility Accounting is implemented by issuing performance reports at frequent intervals that inform responsibility centre managers of the deviations from budgets for which they are accountable and required to take action."
+    },
+    {
+      "question": "Which aspect should typically not be involved in the preparation of performance reports of Bluebeans Coffee?",
+      "options": [
+        "Establishing objectives aligned with organizational goals.",
+        "Adding an Executive Summary for a brief overview.",
+        "Cross-checking details for report reliability.",
+        "Conducting employee training programs."
+      ],
+      "answer": 3,
+      "reason": "The aspects involved in the Preparation of Performance Reports:<ul><li>Have a clear idea about the need and use-case for the user/ receipt.</li><li>Establishment of Objectives in light of Organisational Objectives (Vision or Mission)</li><li>Add an Executive Summary</li><li>The Real Stuff - Performance Assessment</li></ul>Thus, conducting employee training is not mentioned as an aspect in the preparation of performance reports of Bluebeans Coffee."
+    },
+    {
+      "question": "According to you, can the performance reports be reviewed anytime?<br><br>i. The performance reports can be reviewed anytime after receipt of the same.<br>ii. The performance reports needs to be reviewed within a month after receipt of the same.<br>iii. The performance reports can be reviewed within a quarter after receipt of the same.<br>iv. The performance reports can be reviewed within a year after receipt of the same.",
+      "options": [
+        "i",
+        "ii,iii",
+        "ii,iii,iv",
+        "iii,iv"
+      ],
+      "answer": 2,
+      "reason": "Once the performance reporting has been established by the organization for its activities or for a specific project, the next step is to analyse the information and take the required corrective (including preventive as well as feed-forward) action. This task typically rests with senior managers or experts who understand business intelligence.<br><br>The data that needs to be analysed can be quantitative, such as sales and marketing results, or qualitative, such as customer survey responses. Whatever the type, a structure is required to detail the process, beginning with goal setting and ending with an action plan.<br><br>It is critical but equally important that the entity set a time frame for analysis, whether it is a month, quarter, or annual report. This timeframe allows to identify trends.<br><br>Thus, based on above, the performance reports should be reviewed by setting a time frame -monthly, quarterly or annually."
+    }
+  ]
+},
+{
+  "caseText": "<p>Ceber, the ride-sharing company, has been hit by various scandals that have led to the co-founder having to resign as CEO, Board members resigning and significant public relations damage. These issues directly impact Ceber's revenue, profitability, and possibly shareholder value. The scandals and negative publicity may have led to reduced revenue, increased costs due to legal fees or operational changes and decreased profitability. The new CEO of Ceber Mr. Tim has a big job on his hands. Therefore, Mr. Tim needs to focus on measures which will result into the success and sustainability for the organization.</p><p>These issues necessitate a focused approach from Mr. Tim to stabilize the company and restore shareholder confidence.</p><p>In this context, Economic Value Added (EVA) emerges as a crucial tool for Mr. Tim. EVA goes beyond traditional financial metrics. This metric enables Mr. Tim to evaluate the efficiency of Ceber's capital utilization and to prioritize investments that promise to maximize shareholder value.</p><p>Ceber reported the following financial data for the year:</p><ul><li>Net Operating Profit Before Interest & Taxes: $50,000</li><li>Depreciation Expenses: $10,000</li><li>Change in Net Working Capital: $5,000</li><li>Capital Expenditure: $20,000</li><li>Total Invested Capital: $150,000</li><li>Weighted Average Cost of Capital (WACC): 12%</li><li>Corporate Tax Rate: 30%</li></ul><p>Mr. Tim is dedicated to assembling a staff that is committed to enhancing the organization's success and sustainability.</p>",
+  "questions": [
+    {
+      "question": "In terms of McKinsey’s 7-S framework, which of the following describes structure dimension as he implements change at the company?",
+      "options": [
+        "Consider whether the decentralised model for Ceber should be moved to one that is more centralised.",
+        "Resolve inter-group conflicts and build a consensus for change that is embedded with effective communication.",
+        "Improve the speed of feedback from customers to better understand which strategies need to be modified.",
+        "Remove obstacles that are causing Ceber staff to resist or ignore the change process that needs to be implemented."
+      ],
+      "answer": 0,
+      "reason": "Option (a) is correct as it directly addresses the structure dimension of McKinsey’s 7-S framework, which focuses on the organizational hierarchy and decision-making model. Evaluating whether Ceber should transition from a decentralized to a centralized model is critical for aligning the structure with the company’s strategic goals during this period of change."
+    },
+    {
+      "question": "According to you, which of the following perspectives of the balanced scorecard will Mr. Tim need to focus in order to improve Ceber's revenue, profitability and shareholder value.?",
+      "options": [
+        "Financial.",
+        "Customers.",
+        "Business processes.",
+        "Learning and growth."
+      ],
+      "answer": 0,
+      "reason": "Financial performance measures indicate whether the company’s strategy implementation and execution are contributing to its revenue and earnings. Thus, Mr. Tim will need to focus on financial perspective."
+    },
+    {
+      "question": "Calculate Ceber's Economic Value Added (EVA) for the year.",
+      "options": [
+        "$17000",
+        "$6,200",
+        "$3,200",
+        "($3,200)"
+      ],
+      "answer": 0,
+      "reason": "To calculate EVA, we need to follow these steps:<br>Calculate NOPAT = $50,000 - $15,000 = $35,000<br>Calculate Capital Charge: = $150,000 * 12% = $18,000<br>Calculate EVA: EVA = $35,000 - $18,000 = $17,000"
+    },
+    {
+      "question": "Economic Value Added (EVA) is a metric used to assess:",
+      "options": [
+        "Accounting profit adjusted for tax benefits",
+        "Shareholder wealth creation beyond the cost of capital",
+        "Operating profit before interest and taxes",
+        "Net profit after tax adjusted for depreciation"
+      ],
+      "answer": 1,
+      "reason": "EVA measures the value created by a company by subtracting the cost of capital (both equity and debt) from its net operating profit after tax (NOPAT), reflecting shareholder wealth creation.<br><br>Option (a) is incorrect. EVA does not directly adjust accounting profit for tax benefits but rather assesses economic profit by subtracting the cost of capital.<br>Option (c) is incorrect. EVA is not based on operating profit before interest and taxes but uses NOPAT in its calculation.<br>Option (d) is incorrect. EVA is not based on net profit after tax adjusted for depreciation but rather focuses on economic profit adjusted for the cost of capital."
+    },
+    {
+      "question": "Which of the following activities are considered primary activities in Ceber's value chain?",
+      "options": [
+        "Human Resources and Training",
+        "Upgrading Caber App",
+        "Vehicle Maintenance and Inspection",
+        "Legal and Regulatory Compliance"
+      ],
+      "answer": 2,
+      "reason": "Value chain comprises the activities in two sets, the first being primary activities (vertical) which are directly involved in the transformation of products or provisioning of services.<br><br>Primary activities in Ceber's value chain directly contribute to the creation and delivery of its ride-sharing service. Options (a), (b) and (d) are support activities that facilitate the smooth operation of the business but are not directly involved in the core service of transporting passengers. Option (c), Vehicle Maintenance and Inspection, is crucial as it ensures the quality and safety of the vehicles used in providing the ride-sharing service, thereby directly impacting service delivery and customer satisfaction."
+    }
+  ]
+},
+{
+  "caseText": "<p>Fresh Milk Enterprises (FME) stands as a distinguished leader in the dairy industry, renowned for its unwavering commitment to delivering exceptional quality dairy products sourced directly from trusted farms. With a steadfast focus on providing premium milk that embodies freshness and purity, FME has garnered a robust reputation among health-conscious consumers and discerning gourmet chefs alike.</p><p>At the core of FME's success are several components that have underpinned its market leadership:</p><ol><li>Quality: Central to FME's ethos is an uncompromising dedication to quality. Each product undergoes rigorous scrutiny to ensure it meets the highest standards of freshness, purity, and nutritional integrity.</li><li>Customer Satisfaction: FME prides itself on consistently meeting the stringent expectations of its diverse clientele. Whether it's health-conscious consumers seeking nutritious options or gourmet chefs demanding impeccable taste and consistency, FME's products are tailored to satisfy even the most discerning palates.</li><li>Supply Chain Efficiency: By maintaining direct relationships with reliable farms, FME ensures a seamless supply chain that prioritizes freshness and quality control at every stage. This direct sourcing approach not only guarantees the traceability of ingredients but also reinforces FME's ability to respond swiftly to market demands while upholding its stringent quality standards.</li><li>Brand Reputation: Synonymous with excellence, FME's brand is a hallmark of premium quality and reliability in the dairy industry. Upholding this esteemed reputation requires continuous vigilance and adherence to stringent quality assurance protocols, thereby reinforcing consumer confidence and loyalty.</li><li>Innovation: Committed to continual improvement, FME embraces innovation across its operations, from state-of-the-art packaging solutions that preserve freshness to efficient distribution channels that ensure timely delivery.</li></ol><p>Recently, FME has encountered market pressures to reduce prices in order to compete more aggressively and increase market share. Management is considering the implications of this decision on their overall corporate strategy. The Management has predicted following variances if the decision to lower prices is undertaken:</p><table><thead><tr><th>Variance Type</th><th>Amount (Favourable /Adverse)</th></tr></thead><tbody><tr><td>Sales Volume Variance</td><td>15,000 (F)</td></tr><tr><td>Sales Mix Variance</td><td>7,500 (A)</td></tr><tr><td>Direct Material Price Variance</td><td>9,200 (F)</td></tr><tr><td>Direct Labor Rate Variance</td><td>6,800 (A)</td></tr><tr><td>Variable Overhead Efficiency Variance</td><td>4,300 (F)</td></tr></tbody></table><p>Based on above, the Management will take a decision whether to reduce the prices or not.</p>",
+  "questions": [
+    {
+      "question": "What is the primary Critical Success Factor for Fresh Milk Enterprises (FME)?",
+      "options": [
+        "Price competitiveness",
+        "Supply chain efficiency",
+        "Quality",
+        "Customer base expansion"
+      ],
+      "answer": 2,
+      "reason": "FME's reputation and success are built on providing premium quality dairy products. This factor is critical as it distinguishes FME from competitors and attracts health-conscious consumers and gourmet chefs who prioritize freshness and purity. All the others are secondary."
+    },
+    {
+      "question": "Why might FME face pressures to lower prices despite its focus on quality?",
+      "options": [
+        "To attract high-end restaurants",
+        "To increase profitability",
+        "To meet customer demand for variety",
+        "To expand into price-sensitive markets"
+      ],
+      "answer": 3,
+      "reason": "FME may face competitive pressures to enter new market segments that prioritize lower prices over premium quality. This strategy aims to capture market share from more price-sensitive consumers and increase overall sales volume."
+    },
+    {
+      "question": "The Sales Mix Variance for Fresh Milk Enterprises (FME) is 7,500 (A). What does this variance signify?",
+      "options": [
+        "FME sold more products than anticipated, leading to higher overall revenue.",
+        "There was a shift in the proportion of product sales compared to the budgeted mix, resulting in lower revenue than expected.",
+        "Operating costs related to sales activities exceeded budgeted amounts.",
+        "The efficiency of variable overhead costs improved due to enhanced production methods."
+      ],
+      "answer": 1,
+      "reason": "Sales Mix Variance indicates how changes in the proportion of products sold (compared to the budgeted mix) impact overall revenue. A negative (adverse) variance suggests that the actual mix led to lower revenue compared to what was budgeted."
+    },
+    {
+      "question": "The Direct Labor Rate Variance for FME is 6,800 (A). What does this variance primarily indicate?",
+      "options": [
+        "FME experienced higher-than-expected labour costs per unit of production.",
+        "There was an increase in labour efficiency, resulting in lower overall labour costs.",
+        "The actual number of labour hours used exceeded the budgeted amount.",
+        "Direct labour costs were lower due to reduced overtime expenses."
+      ],
+      "answer": 0,
+      "reason": "Direct Labor Rate Variance reflects the difference between the actual labour rate paid per hour and the standard rate. An adverse variance indicates that the actual rate was higher than the standard rate, leading to increased labour costs per unit of production."
+    },
+    {
+      "question": "The Variable Overhead Efficiency Variance for FME is 4,300 (F). What does this variance suggest about FME's operations?",
+      "options": [
+        "FME incurred higher-than-expected variable overhead costs due to increased production.",
+        "There was an improvement in the efficiency of using variable overhead resources compared to the standard.",
+        "Variable overhead costs were exactly as budgeted, with no deviations.",
+        "FME's variable overhead costs were lower due to renegotiated supplier contracts."
+      ],
+      "answer": 1,
+      "reason": "Variable Overhead Efficiency Variance measures how efficiently FME utilized variable overhead resources compared to the standard. A favorable (positive) variance indicates that the actual usage was more efficient than expected, leading to lower variable overhead costs."
+    }
+  ]
+},
+{
+  "caseText": "<p>Akanksha Foundation is a non-profit organization dedicated to transforming the lives of children from low-income communities in India through education. They operate from a strategic location where big business hubs are situated. Established with the mission to provide quality education, Akanksha operates schools and centers that cater to underserved children, focusing on academic excellence, character development, and holistic growth. The foundation believes in nurturing talent and empowering children to reach their full potential, equipping them with the skills and opportunities needed to break the cycle of poverty. Through innovative educational initiatives and partnerships, Akanksha Foundation strives to create positive, sustainable change in the lives of students and their communities.</p><p>The government's policies, funding allocations, and support for education initiatives directly impact the foundation's ability to achieve its mission. The state or government's commitment includes not only financial support but also regulatory frameworks that affect educational standards, curriculum approvals, and operational permissions for educational institutions. Akanksha Foundation secures funding from both local and international sources consistently each year. The donor base remains largely stable over time, providing a reliable stream of financial support. To ensure accountability and transparency towards their contributors, Akanksha Foundation measures its performance to demonstrate the effective use of funds. Akanksha Foundation measures the performance as under:</p><ul><li>They assess the percentage of students who demonstrate improved academic performance and character development after participating in their programs.</li><li>They analyze the cost-effectiveness of their initiatives, such as calculating the cost per student educated or per program implemented. By leveraging technology and innovative teaching methods, Akanksha maximizes the impact of every rupee spent, ensuring that resources are used efficiently to deliver high-quality education to a large number of students.</li><li>They negotiate favorable terms with suppliers for educational materials and services. They also collaborate with local communities and businesses to access discounted or donated resources, minimizing operational costs while expanding their educational reach.</li></ul><p>However, the Management of Akanksha Foundation wants your guidance as to how to analyse and accordingly implement the necessary action points after understanding the outcome of above performance measures.</p>",
+  "questions": [
+    {
+      "question": "Which of the following performance measures would be most appropriate for the Akanksha Foundation to utilize?",
+      "options": [
+        "Financial Statements",
+        "Internal Communications",
+        "Staff Turnover Rate",
+        "Board Meeting Frequency"
+      ],
+      "answer": 0,
+      "reason": "Financial statements are crucial for NPOs to demonstrate fiscal responsibility and transparency. They provide detailed information on how funds are utilized, ensuring accountability towards contributors. Internal communications [Option (b)] are important but primarily focus on organizational efficiency rather than directly demonstrating the use of funds. Staff turnover rate [Option (c)] and board meeting frequency [Option (d)] are indicators of organizational health and governance but do not directly measure the use of funds for the stated purpose. Therefore, financial statements are the most appropriate measure to ensure contributors' confidence."
+    },
+    {
+      "question": "The performance of not-for-profit organizations like Akanksha Foundation largely depends on what factor?",
+      "options": [
+        "The commitment of donors",
+        "The commitment of the state (or government)",
+        "The international support",
+        "The location of operations"
+      ],
+      "answer": 1,
+      "reason": "The performance of not-for-profit organizations is significantly affected by the commitment and performance of the state or government in similar sectors. (Specifically in food security, education and health)"
+    },
+    {
+      "question": "Which model has Akanksha Foundation used to measure the performance?",
+      "options": [
+        "Value for Money Framework",
+        "Adapted Balanced Scorecard",
+        "Theory of Change",
+        "Outcome Mapping"
+      ],
+      "answer": 0,
+      "reason": "Akanksha Foundation used VFM Framework to measure the performance. VFM framework can be used for measurement of performance in the not-for-profit sector because Not-for-profit organisations are expected to provide the best possible value from available money (usually limited). VFM framework ensures–<ul><li>Effectiveness (spend wisely) (an output measure, the goal approach) whether the organisation has achieved its desired mission and objectives?</li><li>Efficiency (spend well) (a link between input and output factor, as a process approach) → Whether the resources and funds available to the organisation have been efficiently utilised i.e., maximum output has been obtained with minimum input?</li><li>Economy (spend less) (as an input measure, the resource approach) Whether the appropriate quantity and quality of inputs are available at the lowest cost?</li></ul>"
+    },
+    {
+      "question": "The outcome of the performance measurement by Akanksha Foundation is called as __________________.",
+      "options": [
+        "Performance Report",
+        "Impact Assessment",
+        "Results Evaluation",
+        "Effectiveness Analysis"
+      ],
+      "answer": 0,
+      "reason": "A performance report is a document that addresses the outcome of an activity or the work of an individual."
+    },
+    {
+      "question": "What action does the person who receives the above outcome of the performance measurement should undertake?",
+      "options": [
+        "To take action in case of unfavourable variance.",
+        "To take action in case of both favourable and unfavourable variance.",
+        "Share the results with stakeholders",
+        "Publish the findings in academic journals"
+      ],
+      "answer": 0,
+      "reason": "The recipient of a performance report is expected to take action when there is an unfavourable variance."
+    }
+  ]
+},
+{
+  "caseText": "<p>Vinotech Inc. (hereinafter referred to as “the company”) is renowned for its high-quality wines and operates vineyards across several regions. Seeking to strengthen its supply chain efficiencies and ensure consistent product quality, Vinotech Inc. acquired wines stores located in prime grape-growing regions, thus controlling the entire process.</p><p>Vinotech Inc. has acquired vineyards of competitors, ensuring a consistent and quality grape supply for its winemaking operations, thereby enhancing control over its production process and supply chain. Vinotech partnered with luxury food company to offer exclusive wine and food pairing experiences, diversifying its business into related industries and integrated marketing, sales, and production departments to streamline operations and improve collaboration.</p><p>The company aims to ensure efficient resource utilization and optimize operational performance. The company understands that minimizing waste throughout the production process is essential for maximizing efficiency and profitability. By identifying areas where waste occurs, such as in raw materials, labor, or energy usage, the company can implement strategies to mitigate these losses. Additionally, reducing production costs without compromising on quality enables Vinotech Inc. to remain competitive in the market while meeting consumer demands.</p><p>While competitive analysis is essential for Vinotech Inc.'s strategic positioning, it diverges from direct engagement in operational tactics. Instead, Vinotech primarily relies on tools like value analysis, sustainable farming practices, and target costing to refine its production processes and ensure optimal resource utilization. These methods contribute to Vinotech's commitment to excellence and efficiency in its operations, aligning with its overarching goals for quality and sustainability.</p><p>The company aims to maintain profitability by employing advanced agricultural techniques to optimize vineyard conditions, ensuring abundant grape harvests, leveraging digital platforms and innovative marketing strategies, by diversifying its distribution channels, reaching a broader audience of wine enthusiasts worldwide. Vinotech Inc. meticulously crafts its wines, allowing them to mature in carefully selected barrels, imparting complex flavors and aromas.</p><p>Within Vinotech Inc., effective delegation of authority and accountability for costs is fundamental. This practice ensures that managers take ownership of cost centers, fostering a culture of responsibility and enabling efficient cost management throughout the organization's operations.</p><p>By investing in state-of-the-art aging facilities and employing skilled enologists, Vinotech Inc. ensures that each wine undergoes a meticulous aging process, resulting in exceptional quality and character.</p><p>The company recognizes the pivotal role of customer satisfaction in sustaining long-term success. The company endeavors to discern customer preferences and allocate resources efficiently to meet or exceed expectations. In order to achieve the same, the company is seeking some advice from a professional consultant as to which of the following action points needs to be implemented as per Kano’s model:</p><ul><li>Introduce new varieties of products.</li><li>Attending to customer complaints and gathering data from the same can lead to innovation.</li><li>Improving every aspect of a product will lead to improved customer satisfaction outcomes.</li><li>To innovate because customers switching costs are low.</li></ul><p>The company is already implementing following action plans since last 2 years:</p><ul><li>Launching expensive marketing campaigns.</li><li>Setting ambitious sales targets.</li><li>Investing in high-end packaging materials.</li></ul>",
+  "questions": [
+    {
+      "question": "Which of the following is the best example of forward vertical integration?",
+      "options": [
+        "The company acquiring other vineyards of competitors",
+        "The company selling wines to its wine stores",
+        "The company partners with luxury food company to offer exclusive wine and food pairing experiences, diversifying its business into related industries.",
+        "The company integrates marketing, sales, and production departments to streamline operations and improve collaboration."
+      ],
+      "answer": 1,
+      "reason": "The company selling wines to its wine stores - This is an example of forward vertical integration, as it involves expanding into the distribution and retail stage."
+    },
+    {
+      "question": "Which of the following describes the underlying idea behind Kano’s model?",
+      "options": [
+        "Customer satisfaction decays over time so companies must continually release new products",
+        "Customer complaints are a source of data that often results in companies delivering innovation",
+        "Improving every aspect of a product doesn’t necessarily lead to improved customer satisfaction outcomes",
+        "The only action that will improve the bottom line is innovation because customers switching costs are low"
+      ],
+      "answer": 2,
+      "reason": "Option (c) is correct because Kano was challenging the notion that if you improve all the key attributes of a product, it will lead to improved customer satisfaction outcomes. Option (a) is incorrect because customer satisfaction may decay over time, but this is not the point of Kano's observations. Option (b) is incorrect because customer complaints are not a key factor for delivering innovation. Option (d) is incorrect because innovation is not always the answer to an improvement in the bottom line - it is one option an organisation can consider."
+    },
+    {
+      "question": "According to you, which of the action points mentioned below signifies cost control undertaken by Vinotech Inc.?",
+      "options": [
+        "Maximizing grape yields",
+        "Minimizing waste and reducing production costs",
+        "Expanding distribution channels",
+        "Enhancing wine quality through aging processes"
+      ],
+      "answer": 1,
+      "reason": "Cost control would primarily focus on minimizing waste and reducing production costs to improve profitability while maintaining quality standards. This ensures efficient resource utilization and optimal operational performance."
+    },
+    {
+      "question": "Which tool or technique is NOT commonly associated with cost reduction efforts at Vinotech Inc.?",
+      "options": [
+        "Value Analysis",
+        "Implementing sustainable farming practices",
+        "Target Costing",
+        "Competitive Analysis"
+      ],
+      "answer": 3,
+      "reason": "While competitive analysis is important for strategic decision-making, it is not directly associated with cost reduction efforts. Tools like value analysis, target costing, and implementing sustainable farming practices are more commonly used by company to reduce production costs and improve efficiency. Cost Control does competitive analysis of actual results with established standards."
+    },
+    {
+      "question": "Which of the following is a prerequisite for effective cost control within Vinotech Inc. according to industry standards?",
+      "options": [
+        "Launching expensive marketing campaigns",
+        "Setting ambitious sales targets",
+        "Delegating authority and assigning responsibility for costs",
+        "Investing in high-end packaging materials"
+      ],
+      "answer": 2,
+      "reason": "Effective delegation of authority and assigning responsibility for costs ensures accountability. This allows managers to take ownership of cost centers and work towards achieving cost control objectives, ensuring that costs are managed effectively at all levels of the organization."
+    }
+  ]
+},
+{
+  "caseText": "<p>In 2021, Clod Drinks introduced a pioneering protein drink product into the Australian market, achieving remarkable success characterized by robust sales and a dominant market position. During this period, the company operated in an environment marked by minimal competition and a conspicuous absence of substitute products. The Clod Drinks team spent heavily on marketing and advertising and product development to grow their market share.</p><p>In 2023, they noticed competitors for protein drink entering the market and eating into their market share. This influx of competitors, along with the emergence of alternative products, notably impacted Clod Drinks' profitability, underscoring the influence of competitive pressures. The role of suppliers became increasingly significant in sustaining their operations and maintaining competitiveness. Suppliers play a crucial role in providing the necessary raw materials and ingredients for Clod Drinks' protein drink production. However, with the influx of rival companies into the market and the emergence of alternative products, Clod Drinks may face challenges related to supplier power.</p><p>As Clod Drinks faces intensified competition, the demand for raw materials may fluctuate, potentially leading to smaller quantities being purchased. This scenario could bolster the bargaining power of suppliers, enabling them to negotiate more favourable terms or impose higher prices on Clod Drinks. Moreover, suppliers with limited alternatives may capitalize on their position to exert greater influence during negotiations, especially considering Clod Drinks' reliance on their input for production. Therefore, effectively managing supplier relationships becomes crucial for Clod Drinks to ensure a stable supply chain, mitigate risks associated with changing market dynamics, and sustain competitiveness amidst heightened competition.</p><p>In response to the heightened competition and fluctuating market dynamics, Clod Drinks could conduct scenario analysis to anticipate various outcomes and devise strategic responses. By simulating different scenarios, such as changes in market share, pricing strategies, or supplier negotiations, Clod Drinks can proactively identify risks and opportunities to maintain competitiveness and ensure a resilient supply chain. Scenario analysis enables Clod Drinks to make informed decisions, adapt quickly to evolving market conditions, and safeguard their market position in the face of intensified competition.</p><p>Specialized protein isolates, like pea, soy protein, have experienced price fluctuations due to weather conditions affecting crop yields. Droughts, floods, or other extreme weather events disrupted production, leading to increased costs and potential shortages in the market. The price of protein isolates has fallen dramatically in the last few years from over US$15/kg to less than US$7/kg.</p><p>Clod Drinks is dedicated to empowering individuals to live more vibrant lives through our science-driven approach to chilled beverages. Clod Drinks website states “Our aim is to help people do more, feel better, and live longer”.</p>",
+  "questions": [
+    {
+      "question": "Which of the following should the Clod team have done to combat this threat?",
+      "options": [
+        "Raised barriers to entry by threatening legal action against competitors",
+        "Immediately taken out a patent on their process for making protein drink",
+        "Trademark the Clod name and continue to leverage their first mover advantage",
+        "Seek copyright protection for the creation of the Clod protein drink to prevent copies"
+      ],
+      "answer": 2,
+      "reason": "This is the only option they can reasonably take. Competitors have already entered the market, so they would trademark their name and use their brand strength to grow their market. Trademarks don't protect products from being copied. All the other options are not valid given the question information. Option (a) is incorrect because they have no basis on which to take legal action. Option (b) is incorrect because the company would need to do this before competitors come into the market with a similar product. It is too late to attempt to get a patent, which can take years, to protect market share that is already reducing. There is also no evidence they have a process that is unique and could be patented. Option (d) is incorrect because company can't copyright a process. Copyright is for artistic creations which would not cover a protein drink."
+    },
+    {
+      "question": "Which of the following statements most accurately captures the relationship between industry profitability in Clod Drinks and Porter’s Five Forces model?",
+      "options": [
+        "The higher the threat of new entrants, the higher industry profitability is likely to be",
+        "Industry profitability is likely to be lowest when the threat of substitutes is declining",
+        "Moderate buyer power and moderate level of rivalry is likely to increase industry profitability",
+        "Low levels of rivalry and low supplier power are likely to be associated with higher industry profitability."
+      ],
+      "answer": 3,
+      "reason": "Industry profitability is likely to be the highest when the power of each of the five forces is low. A low level of rivalry suggests that competitors in the industry do not have to compete away profits in order to attract buyers. Similarly, low supplier power suggests that organisations in the industry are not forced to pay high prices for their purchases. Both features are positive for industry profitability. Option (a) is incorrect because the threat of new entrants and industry profitability are usually inversely related— that is, the higher the threat the lower the profitability. Note that in a fast-growing industry new entrants often don’t reduce industry profitability at that stage of the industry life cycle. However, as the industry moves towards maturity, profit margins erode. Option (b) is incorrect because lower threat of substitutes would give rise to high industry profitability. If there are fewer substitutes to the industry’s product there are low alternatives for buyers to purchase and reduced pressure on profitability. Option (c) is incorrect because only low buyer power and industry rivalry would give rise to higher industry profitability. Moderate levels of these forces would give rise to moderate levels of profitability only."
+    },
+    {
+      "question": "Which of the following statements about supplier power in Clod Drinks is most likely to be correct?",
+      "options": [
+        "The higher the threat by suppliers to forward integrate, the lower their power relative to industry rivals.",
+        "The smaller the quantities of supplies purchased by companies in the industry, the higher the supplier power.",
+        "The higher the number of suppliers, the more power suppliers will have in negotiating prices with companies in the industry.",
+        "The higher the importance of the suppliers' input to industry rivals, the more power industry rivals have in negotiating with suppliers."
+      ],
+      "answer": 1,
+      "reason": "If the companies in an industry purchase a low volume of products from suppliers, the industry is relatively unimportant to the suppliers, and companies in the industry are not in a position to bargain down the prices paid for these supplies. Option (a) is incorrect because the ability for suppliers to forward integrate increases their power relative to the industry. Option (c) is incorrect because the more suppliers that exist, the more likely industry rivals will hold the negotiating power by having a wider range of supplier choice. Option (d) is incorrect because the higher the importance of the suppliers' input to industry rivals, the less power industry rivals have in negotiating with suppliers."
+    },
+    {
+      "question": "The sharp price fall in the prices of protein isolates has been affected most by which of the following external factors?",
+      "options": [
+        "Social",
+        "Political",
+        "Economic",
+        "Environmental"
+      ],
+      "answer": 2,
+      "reason": "These are commodities and are therefore heavily influenced by the market they are traded in and therefore the economic conditions in the countries of buyers and sellers. Option (a) is incorrect as social norms have little impact on this industry. Option (b) is incorrect although countries can have a political influence with policy changes, they are not as strong as the economic influences on this market. Option (d) is incorrect because although the environmental impact is increasing and causing some policy changes this influence is much smaller than the economic one."
+    },
+    {
+      "question": "Which of the following strategic components best summarises Clod Drinks aim as stated on its website?",
+      "options": [
+        "Vision",
+        "Goals",
+        "Values",
+        "Mission"
+      ],
+      "answer": 3,
+      "reason": "The company stated their fundamental purpose, or why they exist (to help people do more, feel better and live longer). This form what is known as the mission. Option (a) is incorrect because the vision describes what an organisation wishes to achieve—it is not a description of its ideal future state. Option (b) is incorrect because goals set the desired achievement outcomes for the organisation. Option (c) is incorrect because values support the mission by guiding behaviour."
+    }
+  ]
+},
+{
+  "caseText": "<p>In the competitive world of premium watches, Japanese Bugatsune World (BW) located in Northen Japan stands out as a hallmark of quality and tradition. BW is 80% owned by KKR, a private equity fund who is known across the world for strategic investments and involved in the business decisions of their investments.</p><p>BW exports its premium watches to select markets worldwide. However, with competitors from countries like Australia gaining traction, BW is determined to expand its market reach while safeguarding its intellectual property.</p><p>Recognizing the need for strategic expansion, BW explores franchising options in Australia also they were exploring joint venture with a local distribution company in Asia as a potential business model. In the case of BW, an important factor for success in Asia and Australia is its ability to adapt its products and strategies to the preferences and trends of different target markets. This involves understanding the cultural, social, and economic dynamics of each market and tailoring offerings accordingly. To measure BW's effectiveness in this aspect, they can track the rate at which it successfully enters and establishes a presence in new markets. This can be quantified by monitoring the number of new markets penetrated within a given time period and observing the corresponding increase in sales and brand visibility in those markets. Due to their weak financial position, BW is reluctant to incur significant debt. Additionally, BW needs to identify its core competencies to effectively capitalize on its strengths and gain a competitive advantage. With this understanding, BW should assess its core competencies in terms of their relevance and breadth of application. By focusing on core competencies that align with its strategic goals, BW can enhance its market position and successfully expand into new markets while protecting its intellectual property.</p>",
+  "questions": [
+    {
+      "question": "Which of the following advantages mentioned above is true in case of a franchising business model?",
+      "options": [
+        "Distributing profits and sharing costs and resources.",
+        "Providing your branding and intellectual property to others.",
+        "Using a standardised operating model across the business.",
+        "Moving part of your operations offshore to deliver lower costs to the business."
+      ],
+      "answer": 2,
+      "reason": "Using a standardised operating model across the business is characteristics of franchise operation. Option (a) is incorrect because this is a characteristic of a joint venture model. Option (b) is incorrect because this is a characteristic of a licensing model. Option (d) is incorrect because this is a characteristic of offshoring."
+    },
+    {
+      "question": "Considering modes of entry to new markets, which of the following would you recommend for Japanese BW?",
+      "options": [
+        "Continue to export and approach new markets with low prices and high volumes with the aim to capture market share quickly",
+        "Form a joint venture with a target market distribution company who sells the product but is not involved in any other operations",
+        "Make the investment in a wholly owned operation with extensive marketing and promotion to grow customer awareness and sales",
+        "License their production processes with contracts including high damages payments if intellectual property conditions are breached"
+      ],
+      "answer": 1,
+      "reason": "Option (b) is correct because a joint venture enables them to achieve more market penetration than they have now. A local partner could assist them in selling the product and growing the customer base. By limiting the partner to those functions, they hope to limit the technology leakage. Option (a) is incorrect because continuing to export is not going to increase their market penetration enough. Lowering prices might assist (noting that gross margins will decline); however, option (b) is likely to be more successful. Option (c) is incorrect because the question states they have some capital but are not willing to take on significant debt. Wholly owned operations are likely the most expensive option for market entry which means they are unlikely to pursue this option. Option (d) is incorrect because licensing has one of the highest risks for technology leakage and would be a risky option to undertake."
+    },
+    {
+      "question": "KKR, a private equity fund has both high interest and power over BW’s strategy, which of the following techniques would you use to interact with them?",
+      "options": [
+        "Keep them both updated on any strategic changes and empowered to steer the direction of change",
+        "Keep these stakeholders satisfied.",
+        "Keep these stakeholders informed",
+        "Spend time to manage the expectations of this stakeholder group even if doesn’t coincide with the company’s goals."
+      ],
+      "answer": 0,
+      "reason": "These will be considered key stakeholders, and a business will need to actively engage this group. This group is likely to have a significant influence; they may be the driver behind the change or strategy. They will likely have the power to stop the change or strategy from going ahead if they are unhappy. This is the group that requires most focus. Keep them both updated on any strategic changes and empowered to steer the direction of change (or at least feel that they have the opportunity to input into the direction of the project)."
+    },
+    {
+      "question": "Which of the following is a Key Success Factor (CSF) relevant to BW's expansion into new markets?",
+      "options": [
+        "Product Quality",
+        "Intellectual Property Protection",
+        "Market Adaptability",
+        "Brand Reputation"
+      ],
+      "answer": 2,
+      "reason": "Market Adaptability refers to the ability to adjust products and strategies according to the preferences and trends of different target markets. While product quality, intellectual property protection, and brand reputation are important factors, in the context of expanding into new markets, the ability to adapt to the nuances of each market is crucial for success."
+    },
+    {
+      "question": "Which of the following statements best describes a core competency for BW?",
+      "options": [
+        "A core competency is any skill or capability that a company possesses",
+        "A core competency is a unique proposition that provides value to customers and is easy for competitors to copy",
+        "A core competency is a skill or capability that strongly influences customers to choose a company's product or service, is difficult to imitate, and opens up potential markets for growth",
+        "A core competency is a broad set of skills possessed by a company, regardless of their relevance to the market"
+      ],
+      "answer": 2,
+      "reason": "According to the provided information, a core competency must meet three parameters: relevance to customers, difficulty of imitation, and breadth of application. Therefore, option (C) best describes a core competency as it encompasses all three parameters."
+    }
+  ]
+},
+{
+  "caseText": "<p>In a bustling city, LuxeMart executives wrestled with their performance management system. LuxeMart had a framework of responsibility among managers, clear organizational objectives, periodic performance reviews and enhancing customer satisfaction.</p><p>Despite improving operational metrics, financial performance stagnated. CEO Mr. Johnson queried steps to bridge this gap during a boardroom discussion, emphasizing customer satisfaction as crucial for growth. Therefore, maintaining high levels of customer satisfaction was identified as crucial for LuxeMart's continued growth and financial success. LuxeMart measures satisfaction through metrics like NPS, Customer Retention Rate, Repeat Purchase Rate etc. Luxemart has broken the customer service into following 10 tasks:</p><ol><li>Greeting Customers<ul><li>Establish a Welcoming Environment: Ensure the physical space is inviting with clear signage and a clean, organized layout.</li><li>Train Employees on Greeting Standards: Develop specific guidelines for greeting customers, including tone of voice, body language, and timing.</li><li>Acknowledge Every Customer Promptly: Instruct employees to greet customers as soon as they enter the store, ideally within a few seconds.</li><li>Personalize Greetings: Encourage employees to personalize greetings based on cues such as customer demeanor or familiarity.</li><li>Use Professional Language: Provide examples of professional language that employees can use to greet customers respectfully.</li><li>Offer Assistance: Train employees to offer assistance immediately after greeting, indicating availability to help with product selection or inquiries.</li><li>Smile and Maintain Eye Contact: Emphasize the importance of non-verbal communication, such as smiling and making eye contact during greetings.</li><li>Monitor and Provide Feedback: Implement a system to monitor greetings and provide constructive feedback to employees for improvement.</li><li>Encourage Consistency Across Shifts: Ensure all employees, regardless of shift or location, adhere to the same greeting standards.</li><li>Empower Employees to Enhance Customer Experience: Teach employees how to adapt greetings based on customer feedback or special circumstances, demonstrating flexibility and empathy.</li></ul>Out of the above smaller tasks, Luxemart finalised Train Employees on Greeting Standards, Personalize Greetings, Use Professional Language, Smile and Maintain Eye Contact and Empower Employees to Enhance Customer Experience.</li><li>Assisting with Product Selection</li><li>Handling Inquiries and Requests</li><li>Processing Transactions</li><li>Resolving Issues and Complaints</li><li>Facilitating Returns and Exchanges</li><li>Promoting Loyalty Programs and Upselling</li><li>Maintaining Store Appearance and Cleanliness</li><li>Continued Training and Development</li></ol><p>Similar to greeting customers, all the above tasks were also broken down into smaller tasks and the most efficient method was selected.</p><p>During the board meeting, LuxeMart discussed venturing into virtual retail and optimizing online platforms. The company prioritizes skilled personnel and a supportive work environment to foster employee engagement and maximize organizational performance.</p>",
+  "questions": [
+    {
+      "question": "Which of the following is NOT a component of Performance Management?",
+      "options": [
+        "Establishing responsibility centres",
+        "Setting organizational objectives",
+        "Reviewing performance periodically",
+        "Enhancing total productive maintenance"
+      ],
+      "answer": 3,
+      "reason": "Performance Management is considered as key aspect of management accounting, which deals with–<ul><li>Determining an appropriate organisation's structure, level of decentralisation, etc.</li><li>Establishing a responsibility centre and assigning responsibility to the manager.</li><li>Establishing a performance measurement system and fixing the yardsticks.</li><li>Reviewing the performance periodically and taking corrective measures where performance is not acceptable.</li></ul>Total productive maintenance, is a lean technique."
+    },
+    {
+      "question": "According to Robert S. Kaplan and David P. Norton, what should executives do if improved operational performance doesn't lead to improved financial performance?",
+      "options": [
+        "Ignore the operational metrics",
+        "Change the financial reporting standards",
+        "Rethink the company's strategy or implementation plans",
+        "Fire the operational team"
+      ],
+      "answer": 2,
+      "reason": "Robert S. Kaplan and David P. Norton, in 1992 suggested the balanced scorecard that can translate a company’s strategy into specific, measurable objectives. Further, both authors also suggested that “a failure to convert improved operational performance, as measured in the scorecard, into improved financial performance should send executives back to their drawing boards to rethink the company’s strategy or its implementation plans”."
+    },
+    {
+      "question": "Which of the following is the Critical Success Factor (CSF) for LuxeMart?",
+      "options": [
+        "Customer Retention rate",
+        "Repeat Purchase Rate",
+        "Average Order Value",
+        "Customer Satisfaction"
+      ],
+      "answer": 3,
+      "reason": "Critical Success Factors (CSF) are specific elements or action areas a business, team, or department must focus on and successfully implement to reach its strategic objectives. Customer satisfaction is critical for LuxeMart's success as it influences repeat business and brand reputation, directly impacting financial growth."
+    },
+    {
+      "question": "What is the name of the process applied by Luxemart in addressing the task of greeting customers?",
+      "options": [
+        "McDonaldization",
+        "Change Management",
+        "Performance Management",
+        "Gap analysis"
+      ],
+      "answer": 0,
+      "reason": "McDonaldization – Breaking tasks into smallest possible units and rationalising them to find the single most efficient method for completing each task. All other tasks are discarded. standards can be more accurately set and assessed. Thus, Luxemart used the process of McDonaldization by breaking down tasks into small possible units and then selecting the most efficient method."
+    },
+    {
+      "question": "Luxemart is following _______________ type of control by ensuring that every job in their organisation is given to a person with appropriate skills and a conducive environment is provided to all the employees.",
+      "options": [
+        "Behavioural Control",
+        "Personnel and Cultural Control",
+        "Reporting Control",
+        "Soft Control"
+      ],
+      "answer": 1,
+      "reason": "Management control systems have an important role to play in developing accountability, and in turn, accountability leads to better performance. There are three broad categories of control mechanism which any business can use-<br><br>Behavioural Control – to ensure only desired actions take place.<br>Personnel and Cultural Control – for every job, a person with appropriate skills and a conducive environment is provided.<br><br>Thus, Luxemart is following Personnel and Cultural Control by ensuring that every job in their organisation is given to a person with appropriate skills and a conducive environment is provided to all the employees."
+    },
+    {
+      "question": "According to you, the virtual organisation on which the Board intends to brainstorm will be ____________structure.",
+      "options": [
+        "simple business",
+        "complex business",
+        "Hybrid business",
+        "Multi business"
+      ],
+      "answer": 1,
+      "reason": "A virtual organisation is also considered as a complex business structure. A virtual organisation that works on the Assets Lite Model which means there are little or no physical premises but where employees and managers work remotely (typically from their own location) and are connected using IT."
+    }
+  ]
+},
+{
+  "caseText": "<p>‘Xu’ and ‘Yu’ are two divisions of the Shenzhen group. The ‘Xu’ division manufactures electrical components which it sells to other divisions and external customers.</p><p>The ‘Yu’ division has designed a new product, Product B, and has asked ‘Xu’ to supply the electrical component, Component A, that is needed in the new product. This will be a completely new style of component. Each unit of Product B will require one Component A. This component will not be sold by ‘Xu’ to external customers. ‘Xu’ has quoted a transfer price to ‘Yu’ of ₹ 180 for each unit of Component A.</p><p>It is the policy of the Shenzhen group to reward managers based on their individual division’s return on capital employed.</p><p>Details of the monthly production for each division are as follows:</p><p><strong>‘Xu’ Division</strong></p><table><tbody><tr><td>Output</td><td>Component A will be produced in batches of 1,000 units. The maximum capacity is 6,000 components per month.</td></tr><tr><td>Variable Cost</td><td>₹ 60 per component</td></tr><tr><td>Fixed Costs</td><td>₹ 2,00,000 (these are incurred specifically to produce Component A)</td></tr></tbody></table><p><strong>‘Yu’ Division</strong></p><table><tbody><tr><td>Output</td><td>Product B will be produced in batches of 1,000 units. The maximum customer demand is 24,000 units of Product B per month.</td></tr><tr><td>Variable Cost</td><td>₹ 36 per unit the cost of Component A</td></tr><tr><td>Fixed Costs</td><td>₹ 3,00,000 (these are incurred specifically to produce Component B)</td></tr></tbody></table><p>The relationship between monthly customer demand and the selling price of Product B is shown below:</p><table><thead><tr><th>Demand</th><th>Selling Price per unit (₹)</th></tr></thead><tbody><tr><td>1,000 units</td><td>480</td></tr><tr><td>2,000 units</td><td>440</td></tr><tr><td>3,000 units</td><td>400</td></tr><tr><td>4,000 units</td><td>360</td></tr><tr><td>5,000 units</td><td>320</td></tr><tr><td>6,000 units</td><td>268</td></tr></tbody></table>",
+  "questions": [
+    {
+      "question": "At a transfer price of ₹ 180 per Component A, how many units of Product B will the 'Yu' division produce to maximize its profit?",
+      "options": [
+        "6,000 units",
+        "4,000 units",
+        "8,000 units",
+        "5,000 units"
+      ],
+      "answer": 1,
+      "reason": "Based on a transfer price of ₹ 180 per component, the total variable cost per unit of Product B will be ₹ 216.<br><br><table><thead><tr><th>Demand</th><th>Selling Price (₹)</th><th>Variable Cost (₹)</th><th>Contribution (₹)</th><th>Total Contribution (₹’000)</th></tr></thead><tbody><tr><td>1,000 units</td><td>480</td><td>216</td><td>264</td><td>264</td></tr><tr><td>2,000 units</td><td>440</td><td>216</td><td>224</td><td>448</td></tr><tr><td>3,000 units</td><td>400</td><td>216</td><td>184</td><td>552</td></tr><tr><td>4,000 units</td><td>360</td><td>216</td><td>144</td><td>576</td></tr><tr><td>5,000 units</td><td>320</td><td>216</td><td>104</td><td>520</td></tr><tr><td>6,000 units</td><td>268</td><td>216</td><td>52</td><td>312</td></tr></tbody></table><br>‘Yu’ will produce 4,000 units of Product B and will therefore order 4,000 of Component A from ‘Xu’."
+    },
+    {
+      "question": "What is the profit for the 'Xu' division when 4,000 units of Component A are sold to the 'Yu' division?",
+      "options": [
+        "₹ 2,80,000",
+        "₹ 2,76,000",
+        "₹ 5,56,000",
+        "₹ 3,76,000"
+      ],
+      "answer": 0,
+      "reason": "<table><thead><tr><th>Particulars</th><th>Xu (₹’000)</th><th>Yu (₹’000)</th><th>Group (₹’000)</th></tr></thead><tbody><tr><td>Revenue</td><td>720</td><td>1,440</td><td>1,440</td></tr><tr><td>Less: Variable Costs</td><td>240</td><td>864</td><td>384</td></tr><tr><td>Less: Fixed Costs</td><td>200</td><td>300</td><td>500</td></tr><tr><td><strong>Profit</strong></td><td><strong>280</strong></td><td><strong>276</strong></td><td><strong>556</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "What is the maximum monthly profit for the Shenzhen group based on the total marginal costs of the divisions?",
+      "options": [
+        "₹ 11,20,000",
+        "₹ 11,56,000",
+        "₹ 6,20,000",
+        "₹ 9,99,000"
+      ],
+      "answer": 2,
+      "reason": "Using the total marginal costs of the divisions: Variable cost per Product B is ₹ 96.<br><br><table><thead><tr><th>Demand</th><th>Selling Price (₹)</th><th>Variable Cost (₹)</th><th>Contribution (₹)</th><th>Total Contribution (₹’000)</th></tr></thead><tbody><tr><td>1,000 units</td><td>480</td><td>96</td><td>384</td><td>384</td></tr><tr><td>2,000 units</td><td>440</td><td>96</td><td>344</td><td>688</td></tr><tr><td>3,000 units</td><td>400</td><td>96</td><td>304</td><td>912</td></tr><tr><td>4,000 units</td><td>360</td><td>96</td><td>264</td><td>1,056</td></tr><tr><td>5,000 units</td><td>320</td><td>96</td><td>224</td><td>1,120</td></tr><tr><td>6,000 units</td><td>268</td><td>96</td><td>172</td><td>1,032</td></tr></tbody></table><br>The profit maximising output is 5,000 units of Product B. This will earn a total monthly profit for the Shenzhen Group of ₹ 6,20,000 (₹ 11,20,000 - ₹ 5,00,000)."
+    },
+    {
+      "question": "What is the selling price per unit of Product B when the maximum output is produced for the highest profit?",
+      "options": [
+        "₹ 400",
+        "₹ 360",
+        "₹ 320",
+        "₹ 440"
+      ],
+      "answer": 2,
+      "reason": "<table><thead><tr><th>Demand</th><th>Selling Price (₹)</th><th>Variable Cost (₹)</th><th>Contribution (₹)</th><th>Total Contribution (₹’000)</th></tr></thead><tbody><tr><td>1,000 units</td><td>480</td><td>96</td><td>384</td><td>384</td></tr><tr><td>2,000 units</td><td>440</td><td>96</td><td>344</td><td>688</td></tr><tr><td>3,000 units</td><td>400</td><td>96</td><td>304</td><td>912</td></tr><tr><td>4,000 units</td><td>360</td><td>96</td><td>264</td><td>1,056</td></tr><tr><td>5,000 units</td><td>320</td><td>96</td><td>224</td><td>1,120</td></tr><tr><td>6,000 units</td><td>268</td><td>96</td><td>172</td><td>1,032</td></tr></tbody></table>"
+    }
+  ]
+},
+{
+  "caseText": "<p>Oxford Medical Care Co. (OMCC) is a pharmaceutical firm, operating its entire business through its four customers Ox1, Ox2, Ox3, and Ox4. Ox1 and Ox2 are small pharmaceutical stores while Ox3 and Ox4 are large discount stores with attached pharmacies. OMCC uses discount pricing strategy and prices its products at variable cost plus 25%.</p><table><thead><tr><th rowspan=\"2\">Item</th><th colspan=\"2\">Small Pharmaceuticals</th><th colspan=\"2\">Large Pharmaceuticals</th><th rowspan=\"2\">Activity Rate</th></tr><tr><th>Ox1</th><th>Ox2</th><th>Ox3</th><th>Ox4</th></tr></thead><tbody><tr><td>Number of Orders</td><td>4</td><td>9</td><td>6</td><td>3</td><td>₹ 750</td></tr><tr><td>Order Size</td><td>₹ 40,000</td><td>₹ 20,000</td><td>₹ 4,25,000</td><td>₹ 4,00,000</td><td>n/a</td></tr><tr><td>Average Discount</td><td>4.50%</td><td>9.50%</td><td>17.50%</td><td>11.50%</td><td>n/a</td></tr><tr><td>Regular Deliveries</td><td>4</td><td>9</td><td>6</td><td>3</td><td>₹ 375</td></tr><tr><td>Expedited Deliveries</td><td>2</td><td>0</td><td>2</td><td>0</td><td>₹ 1,250</td></tr><tr><td>General Administration Cost</td><td colspan=\"2\">₹ 20,250</td><td colspan=\"2\">₹ 48,375</td><td></td></tr></tbody></table>",
+  "questions": [
+    {
+      "question": "What is the total customer profit for large pharmaceuticals (Ox3 + Ox4)?",
+      "options": [
+        "₹ 63,750",
+        "₹ 75,630",
+        "₹ 36,550",
+        "₹ 1,53,125"
+      ],
+      "answer": 3,
+      "reason": "<table><thead><tr><th rowspan=\"2\">Particulars</th><th colspan=\"3\">Small Stores</th><th colspan=\"3\">Large Stores</th></tr><tr><th>Ox1</th><th>Ox2</th><th>Channel Total</th><th>Ox3</th><th>Ox4</th><th>Channel Total</th></tr></thead><tbody><tr><td>Revenue</td><td>1,60,000</td><td>1,80,000</td><td>3,40,000</td><td>25,50,000</td><td>12,00,000</td><td>37,50,000</td></tr><tr><td>Discount</td><td>7,200</td><td>17,100</td><td>24,300</td><td>4,46,250</td><td>1,38,000</td><td>5,84,250</td></tr><tr><td>Net Revenue</td><td>1,52,800</td><td>1,62,900</td><td>3,15,700</td><td>21,03,750</td><td>10,62,000</td><td>31,65,750</td></tr><tr><td>Variable Costs</td><td>1,28,000</td><td>1,44,000</td><td>2,72,000</td><td>20,40,000</td><td>9,60,000</td><td>30,00,000</td></tr><tr><td>Contribution Margin</td><td>24,800</td><td>18,900</td><td>43,700</td><td>63,750</td><td>1,02,000</td><td>1,65,750</td></tr><tr><td>Order Processing</td><td>3,000</td><td>6,750</td><td>9,750</td><td>4,500</td><td>2,250</td><td>6,750</td></tr><tr><td>Regular Deliveries</td><td>1,500</td><td>3,375</td><td>4,875</td><td>2,250</td><td>1,125</td><td>3,375</td></tr><tr><td>Expedited Deliveries</td><td>2,500</td><td>---</td><td>2,500</td><td>2,500</td><td>---</td><td>2,500</td></tr><tr><td>Customer Profit</td><td>17,800</td><td>8,775</td><td>26,575</td><td>54,500</td><td>98,625</td><td>1,53,125</td></tr><tr><td>Channel Cost</td><td></td><td></td><td>20,250</td><td></td><td></td><td>48,375</td></tr><tr><td>Channel Profit</td><td></td><td></td><td>6,325</td><td></td><td></td><td>1,04,750</td></tr></tbody></table>"
+    },
+    {
+      "question": "What is the channel profit for small pharmaceuticals?",
+      "options": [
+        "₹ 6,325",
+        "₹ 5326",
+        "₹ 88,425",
+        "₹ 48,375"
+      ],
+      "answer": 0,
+      "reason": "<table><thead><tr><th rowspan=\"2\">Particulars</th><th colspan=\"3\">Small Stores</th><th colspan=\"3\">Large Stores</th></tr><tr><th>Ox1</th><th>Ox2</th><th>Channel Total</th><th>Ox3</th><th>Ox4</th><th>Channel Total</th></tr></thead><tbody><tr><td>Revenue</td><td>1,60,000</td><td>1,80,000</td><td>3,40,000</td><td>25,50,000</td><td>12,00,000</td><td>37,50,000</td></tr><tr><td>Discount</td><td>7,200</td><td>17,100</td><td>24,300</td><td>4,46,250</td><td>1,38,000</td><td>5,84,250</td></tr><tr><td>Net Revenue</td><td>1,52,800</td><td>1,62,900</td><td>3,15,700</td><td>21,03,750</td><td>10,62,000</td><td>31,65,750</td></tr><tr><td>Variable Costs</td><td>1,28,000</td><td>1,44,000</td><td>2,72,000</td><td>20,40,000</td><td>9,60,000</td><td>30,00,000</td></tr><tr><td>Contribution Margin</td><td>24,800</td><td>18,900</td><td>43,700</td><td>63,750</td><td>1,02,000</td><td>1,65,750</td></tr><tr><td>Order Processing</td><td>3,000</td><td>6,750</td><td>9,750</td><td>4,500</td><td>2,250</td><td>6,750</td></tr><tr><td>Regular Deliveries</td><td>1,500</td><td>3,375</td><td>4,875</td><td>2,250</td><td>1,125</td><td>3,375</td></tr><tr><td>Expedited Deliveries</td><td>2,500</td><td>---</td><td>2,500</td><td>2,500</td><td>---</td><td>2,500</td></tr><tr><td>Customer Profit</td><td>17,800</td><td>8,775</td><td>26,575</td><td>54,500</td><td>98,625</td><td>1,53,125</td></tr><tr><td>Channel Cost</td><td></td><td></td><td>20,250</td><td></td><td></td><td>48,375</td></tr><tr><td>Channel Profit</td><td></td><td></td><td>6,325</td><td></td><td></td><td>1,04,750</td></tr></tbody></table>"
+    },
+    {
+      "question": "What is the recommendation for improving the profit from Ox2?",
+      "options": [
+        "Increase the order size and reduce the discount",
+        "Decrease the variable costs",
+        "Increase expedited deliveries",
+        "Increase the discount and reduce the order size"
+      ],
+      "answer": 0,
+      "reason": "<strong>Small Pharmaceuticals</strong><br>Even though Ox1 has lower sales volume (11% lesser from Ox2), it is contributing around 67% of small store’s profit as its order is for larger quantities and discount offered is very less.<br>OMCC is only just at breakeven point with small pharmaceuticals. To improve profit OMCC should:<ul><li>Coordinate with Ox2 to increase order size and try to negotiate a smaller discount.</li><li>Try to work with Ox1 to reduce expedited deliveries.</li></ul>"
+    },
+    {
+      "question": "What is the recommendation for reducing the costs for Ox1?",
+      "options": [
+        "Increase the discount",
+        "Reduce expedited deliveries",
+        "Increase the order size",
+        "Increase the discount and reduce the order size"
+      ],
+      "answer": 1,
+      "reason": "<strong>Small Pharmaceuticals</strong><br>Even though Ox1 has lower sales volume (11% lesser from Ox2), it is contributing around 67% of small store’s profit as its order is for larger quantities and discount offered is very less.<br>OMCC is only just at breakeven point with small pharmaceuticals. To improve profit OMCC should:<ul><li>Coordinate with Ox2 to increase order size and try to negotiate a smaller discount.</li><li>Try to work with Ox1 to reduce expedited deliveries.</li></ul>"
+    }
+  ]
+},
+{
+  "caseText": "<p>A and B are two customers of XYZ Electronics Ltd., a manufacturer of audio players. Selling price per unit is ₹ 5,400. Its cost of production per unit is ₹ 4,420. Additional costs are:</p><table><tbody><tr><td>Order Processing Cost</td><td>₹ 2,000 per order</td></tr><tr><td>Delivery Costs</td><td>₹ 3,500 per delivery</td></tr></tbody></table><p>Details of customers A and B for the period are given below:</p><table><thead><tr><th></th><th>Customer A</th><th>Customer B</th></tr></thead><tbody><tr><td>Audio Players purchased(nos.)</td><td>350</td><td>500</td></tr><tr><td>No. of orders</td><td>5 (each of 70 units)</td><td>10 (each of 50 units)</td></tr><tr><td>No. of deliveries</td><td>5</td><td>0</td></tr></tbody></table><p>The company’s policy is to give a discount of 5% on the selling price on orders for 50 units or more, and to further give 8% discount on the undiscounted selling price if a customer uses his own transport of collect the order. Assume that production levels are not altered by these orders.</p>",
+  "questions": [
+    {
+      "question": "What is the net selling price per unit for Customer B after discounts?",
+      "options": [
+        "₹ 4,420",
+        "₹ 4,698",
+        "₹ 5,400",
+        "₹ 5,020"
+      ],
+      "answer": 1,
+      "reason": "<table><thead><tr><th>Particulars</th><th>Customer- A</th><th>Customer- B</th></tr></thead><tbody><tr><td>Sales (units)</td><td>350</td><td>500</td></tr><tr><td>Selling Price per unit (₹)</td><td>5,400</td><td>5,400</td></tr><tr><td>Less: Discount (Quantity)</td><td>270 (₹ 5,400 × 5%)</td><td>270 (₹ 5,400 × 5%)</td></tr><tr><td>Less: Discount (Delivery)</td><td>-</td><td>432 (₹ 5,400 × 8%)</td></tr><tr><td><strong>Selling Price (Net of Discounts) per unit</strong></td><td><strong>5,130</strong></td><td><strong>4,698</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "What is the total profit for Customer A after additional overheads?",
+      "options": [
+        "₹ 1,19,000",
+        "₹ 1,20,000",
+        "₹ 2,21,000",
+        "₹ 1,39,000"
+      ],
+      "answer": 2,
+      "reason": "<table><thead><tr><th>Particulars</th><th>Customer- A</th><th>Customer- B</th></tr></thead><tbody><tr><td>Sales (units)</td><td>350</td><td>500</td></tr><tr><td>Selling Price (Net of Discounts) per unit (₹)</td><td>5,130</td><td>4,698</td></tr><tr><td>Variable Cost per unit (₹)</td><td>4,420</td><td>4,420</td></tr><tr><td>Contribution per unit (₹)</td><td>710</td><td>278</td></tr><tr><td>Total Contribution (₹)</td><td>2,48,500 (₹ 710 × 350 units)</td><td>1,39,000 (₹ 278 × 500 units)</td></tr><tr><td>Less: Additional Overheads</td><td></td><td></td></tr><tr><td>Delivery Cost (₹)</td><td>17,500 (5 × ₹ 3,500)</td><td>-</td></tr><tr><td>Order Processing Cost (₹)</td><td>10,000 (5 × ₹ 2,000)</td><td>20,000 (10 × ₹ 2,000)</td></tr><tr><td><strong>Profit per customer (₹)</strong></td><td><strong>2,21,000</strong></td><td><strong>1,19,000</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "What is the profit per unit for Customer A?",
+      "options": [
+        "₹ 278",
+        "₹ 207",
+        "₹ 631",
+        "₹ 525"
+      ],
+      "answer": 2,
+      "reason": "<table><thead><tr><th>Particulars</th><th>Customer- A</th><th>Customer- B</th></tr></thead><tbody><tr><td>Sales (units)</td><td>350</td><td>500</td></tr><tr><td>Selling Price (Net of Discounts) per unit (₹)</td><td>5,130</td><td>4,698</td></tr><tr><td>Less: Variable Cost per unit (₹)</td><td>4,420</td><td>4,420</td></tr><tr><td>Contribution per unit (₹)</td><td>710</td><td>278</td></tr><tr><td>Total Contribution (₹)</td><td>2,48,500 (₹ 710 × 350 units)</td><td>1,39,000 (₹ 278 × 500 units)</td></tr><tr><td>Less: Additional Overheads</td><td></td><td></td></tr><tr><td>Delivery Cost (₹)</td><td>17,500 (5 × ₹ 3,500)</td><td>---</td></tr><tr><td>Order Processing Cost (₹)</td><td>10,000 (5 × ₹ 2,000)</td><td>20,000 (10 × ₹ 2,000)</td></tr><tr><td>Profit per customer (₹)</td><td>2,21,000</td><td>1,19,000</td></tr><tr><td><strong>Profit per customer per unit (₹)</strong></td><td><strong>631.43</strong></td><td><strong>238.00</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "What is the profit per unit for Customer B?",
+      "options": [
+        "₹ 632",
+        "₹ 238",
+        "₹ 271",
+        "₹ 710"
+      ],
+      "answer": 1,
+      "reason": "<table><thead><tr><th>Particulars</th><th>Customer- A</th><th>Customer- B</th></tr></thead><tbody><tr><td>Sales (units)</td><td>350</td><td>500</td></tr><tr><td>Selling Price (Net of Discounts) per unit (₹)</td><td>5,130</td><td>4,698</td></tr><tr><td>Less: Variable Cost per unit (₹)</td><td>4,420</td><td>4,420</td></tr><tr><td>Contribution per unit (₹)</td><td>710</td><td>278</td></tr><tr><td>Total Contribution (₹)</td><td>2,48,500 (₹ 710 × 350 units)</td><td>1,39,000 (₹ 278 × 500 units)</td></tr><tr><td>Less: Additional Overheads</td><td></td><td></td></tr><tr><td>Delivery Cost (₹)</td><td>17,500 (5 × ₹ 3,500)</td><td>---</td></tr><tr><td>Order Processing Cost (₹)</td><td>10,000 (5 × ₹ 2,000)</td><td>20,000 (10 × ₹ 2,000)</td></tr><tr><td>Profit per customer (₹)</td><td>2,21,000</td><td>1,19,000</td></tr><tr><td><strong>Profit per customer per unit (₹)</strong></td><td><strong>631.43</strong></td><td><strong>238.00</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "How much is the delivery discount per unit for Customer B?",
+      "options": [
+        "₹ 432",
+        "₹ 504",
+        "₹ 234",
+        "₹ 405"
+      ],
+      "answer": 0,
+      "reason": "₹ 432 = ₹ 5,400 × 8%"
+    }
+  ]
+},
+{
+  "caseText": "<p>A and B are two customers of XYZ Electronics Ltd., a manufacturer of audio players. Selling price per unit is ₹ 5,400. Its cost of production per unit is ₹ 4,420. Additional costs are:</p><table><tbody><tr><td>Order Processing Cost</td><td>₹ 2,000 per order</td></tr><tr><td>Delivery Costs</td><td>₹ 3,500 per delivery</td></tr></tbody></table><p>Details of customers A and B for the period are given below:</p><table><thead><tr><th></th><th>Customer A</th><th>Customer B</th></tr></thead><tbody><tr><td>Audio Players purchased(nos.)</td><td>350</td><td>500</td></tr><tr><td>No. of orders</td><td>5 (each of 70 units)</td><td>10 (each of 50 units)</td></tr><tr><td>No. of deliveries</td><td>5</td><td>0</td></tr></tbody></table><p>The company’s policy is to give a discount of 5% on the selling price on orders for 50 units or more, and to further give 8% discount on the undiscounted selling price if a customer uses his own transport of collect the order. Assume that production levels are not altered by these orders.</p>",
+  "questions": [
+    {
+      "question": "What is the net selling price per unit for Customer B after discounts?",
+      "options": [
+        "₹ 4,420",
+        "₹ 4,698",
+        "₹ 5,400",
+        "₹ 5,020"
+      ],
+      "answer": 1,
+      "reason": "<table><thead><tr><th>Particulars</th><th>Customer- A</th><th>Customer- B</th></tr></thead><tbody><tr><td>Sales (units)</td><td>350</td><td>500</td></tr><tr><td>Selling Price per unit (₹)</td><td>5,400</td><td>5,400</td></tr><tr><td>Less: Discount (Quantity)</td><td>270 (₹ 5,400 × 5%)</td><td>270 (₹ 5,400 × 5%)</td></tr><tr><td>Less: Discount (Delivery)</td><td>-</td><td>432 (₹ 5,400 × 8%)</td></tr><tr><td><strong>Selling Price (Net of Discounts) per unit</strong></td><td><strong>5,130</strong></td><td><strong>4,698</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "What is the total profit for Customer A after additional overheads?",
+      "options": [
+        "₹ 1,19,000",
+        "₹ 1,20,000",
+        "₹ 2,21,000",
+        "₹ 1,39,000"
+      ],
+      "answer": 2,
+      "reason": "<table><thead><tr><th>Particulars</th><th>Customer- A</th><th>Customer- B</th></tr></thead><tbody><tr><td>Sales (units)</td><td>350</td><td>500</td></tr><tr><td>Selling Price (Net of Discounts) per unit (₹)</td><td>5,130</td><td>4,698</td></tr><tr><td>Variable Cost per unit (₹)</td><td>4,420</td><td>4,420</td></tr><tr><td>Contribution per unit (₹)</td><td>710</td><td>278</td></tr><tr><td>Total Contribution (₹)</td><td>2,48,500 (₹ 710 × 350 units)</td><td>1,39,000 (₹ 278 × 500 units)</td></tr><tr><td>Less: Additional Overheads</td><td></td><td></td></tr><tr><td>Delivery Cost (₹)</td><td>17,500 (5 × ₹ 3,500)</td><td>-</td></tr><tr><td>Order Processing Cost (₹)</td><td>10,000 (5 × ₹ 2,000)</td><td>20,000 (10 × ₹ 2,000)</td></tr><tr><td><strong>Profit per customer (₹)</strong></td><td><strong>2,21,000</strong></td><td><strong>1,19,000</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "What is the profit per unit for Customer A?",
+      "options": [
+        "₹ 278",
+        "₹ 207",
+        "₹ 631",
+        "₹ 525"
+      ],
+      "answer": 2,
+      "reason": "<table><thead><tr><th>Particulars</th><th>Customer- A</th><th>Customer- B</th></tr></thead><tbody><tr><td>Sales (units)</td><td>350</td><td>500</td></tr><tr><td>Selling Price (Net of Discounts) per unit (₹)</td><td>5,130</td><td>4,698</td></tr><tr><td>Less: Variable Cost per unit (₹)</td><td>4,420</td><td>4,420</td></tr><tr><td>Contribution per unit (₹)</td><td>710</td><td>278</td></tr><tr><td>Total Contribution (₹)</td><td>2,48,500 (₹ 710 × 350 units)</td><td>1,39,000 (₹ 278 × 500 units)</td></tr><tr><td>Less: Additional Overheads</td><td></td><td></td></tr><tr><td>Delivery Cost (₹)</td><td>17,500 (5 × ₹ 3,500)</td><td>---</td></tr><tr><td>Order Processing Cost (₹)</td><td>10,000 (5 × ₹ 2,000)</td><td>20,000 (10 × ₹ 2,000)</td></tr><tr><td>Profit per customer (₹)</td><td>2,21,000</td><td>1,19,000</td></tr><tr><td><strong>Profit per customer per unit (₹)</strong></td><td><strong>631.43</strong></td><td><strong>238.00</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "What is the profit per unit for Customer B?",
+      "options": [
+        "₹ 632",
+        "₹ 238",
+        "₹ 271",
+        "₹ 710"
+      ],
+      "answer": 1,
+      "reason": "<table><thead><tr><th>Particulars</th><th>Customer- A</th><th>Customer- B</th></tr></thead><tbody><tr><td>Sales (units)</td><td>350</td><td>500</td></tr><tr><td>Selling Price (Net of Discounts) per unit (₹)</td><td>5,130</td><td>4,698</td></tr><tr><td>Less: Variable Cost per unit (₹)</td><td>4,420</td><td>4,420</td></tr><tr><td>Contribution per unit (₹)</td><td>710</td><td>278</td></tr><tr><td>Total Contribution (₹)</td><td>2,48,500 (₹ 710 × 350 units)</td><td>1,39,000 (₹ 278 × 500 units)</td></tr><tr><td>Less: Additional Overheads</td><td></td><td></td></tr><tr><td>Delivery Cost (₹)</td><td>17,500 (5 × ₹ 3,500)</td><td>---</td></tr><tr><td>Order Processing Cost (₹)</td><td>10,000 (5 × ₹ 2,000)</td><td>20,000 (10 × ₹ 2,000)</td></tr><tr><td>Profit per customer (₹)</td><td>2,21,000</td><td>1,19,000</td></tr><tr><td><strong>Profit per customer per unit (₹)</strong></td><td><strong>631.43</strong></td><td><strong>238.00</strong></td></tr></tbody></table>"
+    },
+    {
+      "question": "How much is the delivery discount per unit for Customer B?",
+      "options": [
+        "₹ 432",
+        "₹ 504",
+        "₹ 234",
+        "₹ 405"
+      ],
+      "answer": 0,
+      "reason": "₹ 432 = ₹ 5,400 × 8%"
+    }
+  ]
+},
+{
+  "caseText": "<p>Osaka Manufacturing Co. (OMC) is a leading consumer goods company. The budgeted and actual data of OMC for the year 2023-24 are as follows:</p><table><thead><tr><th>Particulars</th><th>Budget</th><th>Actual</th><th>Variance</th></tr></thead><tbody><tr><td>Sales / Production (units)</td><td>2,00,000</td><td>1,65,000</td><td>(35,000)</td></tr><tr><td>Sales (₹)</td><td>21,00,000</td><td>16,92,900</td><td>(4,07,100)</td></tr><tr><td>Less: Variable Costs (₹)</td><td>12,66,000</td><td>10,74,150</td><td>1,91,850</td></tr><tr><td>Less: Fixed Costs (₹)</td><td>3,15,000</td><td>3,30,000</td><td>(15,000)</td></tr><tr><td>Profit</td><td>5,19,000</td><td>2,88,750</td><td>(2,30,250)</td></tr></tbody></table><p>The budgeted data shown in the table is based on the assumption that total market size would be 4,00,000 units but it turned out to be 3,75,000 units.</p>",
+  "questions": [
+    {
+      "question": "What is the Sales Volume Contribution Planning Variance?",
+      "options": [
+        "₹ 52,125 (A)",
+        "₹ 22,125 (A)",
+        "₹ 52,215 (F)",
+        "₹ 52,152 (F)"
+      ],
+      "answer": 0,
+      "reason": "Volume Contribution Planning<br>= Budgeted Market Share % × (Actual Industry Sales Quantity in units – Budgeted Industry Sales Quantity in units) × (Average Budgeted Contribution per unit)<br>= 50% × (3,75,000 units – 4,00,000 units) × ₹ 4.17 = ₹ 52,125 (A)"
+    },
+    {
+      "question": "What is the Sales Volume Contribution Operational Variance?",
+      "options": [
+        "₹ 93,825 (F)",
+        "₹ 93,825 (A)",
+        "₹ 82,582 (A)",
+        "₹ 82,582 (F)"
+      ],
+      "answer": 1,
+      "reason": "Volume Contribution Operational = (Actual Market Share % – Budgeted Market Share %) × (Actual Industry Sales Quantity in units) × (Average Budgeted Contribution per unit)<br>= (44% – 50 %) × 3,75,000 units × ₹ 4.17 = ₹ 93,825 (A)"
+    },
+    {
+      "question": "What is the Fixed Cost Expenditure Variance?",
+      "options": [
+        "₹ 16,000 (A)",
+        "₹ 15,000 (F)",
+        "₹ 17,000 (A)",
+        "₹ 15,000 (A)"
+      ],
+      "answer": 3,
+      "reason": "Fixed Cost Expenditure Variance: = Budgeted Fixed Cost – Actual Fixed Cost<br>= ₹ 3,15,000 – ₹ 3,30,000 = ₹ 15,000 (A)"
+    },
+    {
+      "question": "What is the Variable Cost Variance?",
+      "options": [
+        "₹ 79,700(A)",
+        "₹ 79,700(F)",
+        "₹ 29,700(A)",
+        "₹ 29,700(F)"
+      ],
+      "answer": 2,
+      "reason": "Variable Cost Variance: = Standard Cost for Production – Actual Cost<br>= Actual Production × (Standard Cost per unit – Actual Cost per unit)<br>= 1,65,000 units × (₹ 6.33 – ₹ 6.51) = ₹ 29,700(A)"
+    }
+  ]
+},
+{
+  "caseText": "<p>Young Chin Limited uses standard and marginal costing system. It provides the following details for the year 2022-23 relating to its production, cost and sales:</p><table><thead><tr><th>Particulars</th><th>Budget</th><th>Actual</th></tr></thead><tbody><tr><td>Sales units</td><td>24,000</td><td>25,600</td></tr><tr><td>Sales value (₹)</td><td>6,000</td><td>6,784</td></tr><tr><td>Materials (₹)</td><td>960</td><td>1,080</td></tr><tr><td>Labour (₹)</td><td>1,440</td><td>1,664</td></tr><tr><td>Variable overheads (₹)</td><td>2,400</td><td>2,592</td></tr></tbody></table><p>The sales budget is based on the expectation of the company's estimate of market share of 12%. The entire industry's sales of the same product for the year 2022-23 is 2,40,000 units. Further details are as follows:</p><table><thead><tr><th>Particulars</th><th>Standard (In ₹)</th><th>Actual (In ₹)</th></tr></thead><tbody><tr><td>Material price per kg.</td><td>8.00</td><td>7.50</td></tr><tr><td>Labour rate per hour</td><td>6.00</td><td>6.40</td></tr></tbody></table>",
+  "questions": [
+    {
+      "question": "What is the sales contribution price variance for Young Chin Limited?",
+      "options": [
+        "₹ 160 (F)",
+        "₹ 384 (F)",
+        "₹ 384 (A)",
+        "₹ 160 (A)"
+      ],
+      "answer": 1,
+      "reason": "Sales Contribution Price Variance = Sales Price Variance = 384 (F)"
+    },
+    {
+      "question": "What is the budgeted (profit volume ratio) for Young Chin Limited?",
+      "options": [
+        "0.05",
+        "0.20",
+        "0.17",
+        "0.08"
+      ],
+      "answer": 1,
+      "reason": "Budgeted Profit Volume Ratio = 1,200 / 6,000 x 100 = 20% = 0.20"
+    },
+    {
+      "question": "What is the market size variance for Young Chin Limited?",
+      "options": [
+        "₹ 160 (A)",
+        "₹ 240 (F)",
+        "₹ 240 (A)",
+        "₹ 160 (F)"
+      ],
+      "answer": 1,
+      "reason": "Market Size Variance = (Required Sales Quantity in units – Total Budgeted Quantity in units) × Average Budgeted Contribution per unit<br>= (28,800 units – 24,000 units) × ₹ 0.05 = ₹ 240 (F)"
+    },
+    {
+      "question": "What is the market share variance for Young Chin Limited?",
+      "options": [
+        "₹ 160 (A)",
+        "₹ 240 (F)",
+        "₹ 210 (A)",
+        "₹ 100 (A)"
+      ],
+      "answer": 0,
+      "reason": "Market Share Variance = (Total Actual Quantity in units – Required Sales Quantity in units) × Average Budgeted Contribution per unit<br>= (25,600 units – 28,800 units) × ₹ 0.05 = ₹ 160 (A)"
+    }
+  ]
+},
 
 
 
 
-
-
-
-
-  
   // {
   // caseText:"",
   // questions:[{question:" ",
