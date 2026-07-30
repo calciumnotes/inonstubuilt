@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>SPOM Set A & Set B MCQ Practice – Free Online Test | Calcium Notes</title>
 
-    <meta name="description" content="Practice SPOM Set A & Set B MCQs online for free. Updated ICAI pattern questions with instant results and detailed explanations. Improve your SPOM exam preparation with full-length mock tests at Calcium Notes.">
+    <meta name="description"
+        content="Practice SPOM Set A & Set B MCQs online for free. Updated ICAI pattern questions with instant results and detailed explanations. Improve your SPOM exam preparation with full-length mock tests at Calcium Notes.">
 
     <link rel="canonical" href="https://calciumnotes.com/bin/exam/spom/espom.html">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph -->
     <meta property="og:title" content="SPOM Set A & Set B MCQ Practice – Free Online Test">
-    <meta property="og:description" content="Free updated SPOM Set A & Set B MCQ practice with instant results and ICAI pattern questions. Start practicing now.">
+    <meta property="og:description"
+        content="Free updated SPOM Set A & Set B MCQ practice with instant results and ICAI pattern questions. Start practicing now.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://calciumnotes.com/bin/exam/spom/espom.html">
     <meta property="og:image" content="https://calciumnotes.com/og-image.png">
@@ -21,304 +24,427 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SPOM Set A & Set B MCQ Practice – Free Online Test">
-    <meta name="twitter:description" content="Practice SPOM Set A & Set B MCQs online for free with updated questions and instant results.">
+    <meta name="twitter:description"
+        content="Practice SPOM Set A & Set B MCQs online for free with updated questions and instant results.">
     <meta name="twitter:image" content="https://calciumnotes.com/og-image.png">
+
     <link rel="icon" href="../../../fevicol.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YYJ8R39EXM"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-YYJ8R39EXM');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-YYJ8R39EXM');
     </script>
+
     <style>
-    * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
 
-body {
-    background: #0f172a;
-    color: white;
-    min-height: 100vh;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-}
+        body {
+            background: #0f172a;
+            color: white;
+            min-height: 100vh;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
 
-/* HEADER */
-.fixed-header {
-    position: sticky;
-    top: 0;
-    padding: 20px 0;
-    text-align: center;
-    backdrop-filter: blur(8px);
-    background: rgba(15, 23, 42, 0.85);
-    z-index: 1000;
-}
+        /* ================= HEADER ================= */
 
-.fixed-header h1 {
-    font-size: 2.6rem;
-    font-weight: 900;
-    letter-spacing: 6px;
-}
+        .fixed-header {
+            position: sticky;
+            top: 0;
+            padding: 20px;
+            text-align: center;
+            backdrop-filter: blur(8px);
+            background: rgba(15, 23, 42, .9);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(255,255,255,.08);
+        }
 
-.fixed-header h2 {
-    font-size: 0.75rem;
-    letter-spacing: 2px;
-    color: #3b82f6;
-    margin-top: 8px;
-}
+        .fixed-header h1 {
+            font-size: 2.4rem;
+            font-weight: 900;
+            letter-spacing: 4px;
+        }
 
-/* STACK LAYOUT */
-.scene-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 120px;
-    perspective: 1000px;
-}
+        .fixed-header h2 {
+            margin-top: 10px;
+            font-size: .8rem;
+            letter-spacing: 2px;
+            color: #60a5fa;
+        }
 
-.carousel {
-    width: 100%;
-    max-width: 360px; /* smaller */
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    transform-style: preserve-3d;
-}
+        .fixed-header a{
+            color:#60a5fa;
+            text-decoration:none;
+        }
 
-/* CARD STYLE (SMALLER) */
-.card {
-    width: 100%;
-    height: 150px; /* reduced */
-    border-radius: 18px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(12px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    transition: 
-        transform 0.4s ease,
-        opacity 0.6s ease,
-        box-shadow 0.4s ease,
-        filter 0.4s ease;
-    opacity: 0;
-    transform: translateY(50px);
-}
+        .fixed-header a:hover{
+            text-decoration:underline;
+        }
 
-/* Reveal animation */
-.card.visible {
-    opacity: 1;
-    transform: translateY(0px);
-}
+        /* ================= MAIN ================= */
 
-/* Hover */
-.card:hover {
-    border-color: #3b82f6;
-    box-shadow: 0 0 25px rgba(59,130,246,0.5);
-    transform: scale(1.04);
-}
+        .scene-wrapper{
+            width:100%;
+            display:flex;
+            justify-content:center;
+            padding:40px 20px 120px;
+        }
 
-/* Slight bend illusion */
-.card.bend {
-    transform: translateY(var(--offset)) scale(0.97);
-    filter: brightness(0.85);
-}
+        .carousel{
+            width:100%;
+            max-width:760px;
+            display:flex;
+            flex-direction:column;
+            gap:22px;
+        }
 
-/* Labels */
-.set-label {
-    font-size: 2.8rem;
-    font-weight: 900;
-}
+        /* ================= SECTION TITLE ================= */
 
-.exam-label {
-    font-size: 0.6rem;
-    letter-spacing: 2px;
-    color: #94a3b8;
-}
+        .section-title{
+            font-size:1.45rem;
+            font-weight:800;
+            color:#3b82f6;
+            margin-top:18px;
+            padding-left:6px;
+            border-left:4px solid #3b82f6;
+        }
 
-/* Dropdown */
-.set-dropdown {
-    margin-top: 12px;
-    background: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.2);
-    color: white;
-    padding: 6px 10px;
-    border-radius: 8px;
-    font-size: 0.65rem;
-    width: 85%;
-}
+        /* ================= CARD ================= */
 
-/* Progress Bar */
-.scroll-indicator {
-    position: fixed;
-    bottom: 25px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 180px;
-    height: 4px;
-    background: rgba(255,255,255,0.1);
-    border-radius: 20px;
-    overflow: hidden;
-}
+        .card{
+            width:100%;
+            min-height:150px;
 
-.scroll-progress {
-    height: 100%;
-    width: 0%;
-    background: #3b82f6;
-    transition: width 0.2s ease;
-}
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
 
-</style>
-    
+            text-decoration:none;
+            color:white;
+
+            background:rgba(255,255,255,.05);
+            border:1px solid rgba(255,255,255,.08);
+            border-radius:18px;
+            backdrop-filter:blur(14px);
+
+            transition:.35s;
+
+            opacity:0;
+            transform:translateY(45px);
+        }
+
+        .card.visible{
+            opacity:1;
+            transform:translateY(0);
+        }
+
+        .card:hover{
+            transform:translateY(-5px);
+            border-color:#3b82f6;
+            box-shadow:0 0 30px rgba(59,130,246,.35);
+        }
+
+        .set-label{
+            font-size:2.7rem;
+            font-weight:900;
+        }
+
+        .exam-label{
+            margin-top:6px;
+            font-size:.72rem;
+            letter-spacing:2px;
+            color:#cbd5e1;
+            text-align:center;
+        }
+
+        /* ================= PROGRESS BAR ================= */
+
+        .scroll-indicator{
+            position:fixed;
+            bottom:25px;
+            left:50%;
+            transform:translateX(-50%);
+            width:180px;
+            height:4px;
+            border-radius:10px;
+            overflow:hidden;
+            background:rgba(255,255,255,.08);
+        }
+
+        .scroll-progress{
+            width:0%;
+            height:100%;
+            background:#3b82f6;
+            transition:.2s;
+        }
+
+        @media(max-width:768px){
+
+            .fixed-header h1{
+                font-size:1.7rem;
+                letter-spacing:2px;
+            }
+
+            .scene-wrapper{
+                padding:25px 15px 100px;
+            }
+
+            .card{
+                min-height:140px;
+            }
+
+            .set-label{
+                font-size:2.2rem;
+            }
+
+        }
+
+    </style>
+
 </head>
+
 <body>
 
-    <div class="fixed-header">
-        <h1>SPOM Set A & Set B MCQ Practice – Free Online Test</h1>
-        <h1>visit <a href="../../../index.html">www.calciumnotes.com</a></h1>
-        <h2>Select set to write exam</h2>
-        <h2><strong> Scroll down for More</strong> </h2>
-    </div>
+<div class="fixed-header">
 
+    <h1>SPOM Set A & Set B MCQ Practice</h1>
+
+    <h2>
+        Visit
+        <a href="../../../index.html">
+            www.calciumnotes.com
+        </a>
+    </h2>
+
+    <h2>Select your SPOM Set / Subject</h2>
+
+</div>
     <div class="scene-wrapper">
+
         <div class="carousel" id="carousel">
+
+            <!-- ================= SET A ================= -->
+
+            <h2 class="section-title">SET A</h2>
+
             <a href="./seta/instructions.html" class="card">
                 <span class="set-label">A</span>
-                <span class="exam-label">PRE-FINAL</span>
-                <span class="exam-label">Click to write Exam</span>
-            </a>
-            <a href="./setb/instructions.html" class="card">
-                <span class="set-label">B</span>
-                <span class="exam-label">PRE-FINAL</span>
+                <span class="exam-label">PRE-FINAL MOCK TEST</span>
                 <span class="exam-label">Click to Write Exam</span>
             </a>
-            <div class="card dropdown-card">
-    <span class="set-label">C</span>
-    <span class="exam-label">SELECT SUBJECT</span>
-    <select class="set-dropdown" onchange="openModal('C', this.value)">
-        <option value="" disabled selected>Coming Soon</option>
-        <!-- <option value="Risk Management">Risk Management</option>
-        <option value="Sustainable Development">Sustainable Dev.</option>
-        <option value="Public Finance">Public Finance</option>
-        <option value="IBC">IBC</option>
-        <option value="International Taxation">International Taxation</option>
-        <option value="The Arbitration and Conciliation Act, 1996">The Arbitration and Conciliation Act, 1996</option>
-        <option value="Forensic Accounting">Forensic Accounting</option>
-        <option value="Valuation">Valuation</option>
-        <option value="Financial Services and Capital Markets">Financial Services and Capital Markets</option>
-        <option value="Forex and Treasury Management">Forex and Treasury Management</option> -->
-    </select>
-</div>
 
-<div class="card dropdown-card">
-    <span class="set-label">D</span>
-    <span class="exam-label">SELECT SUBJECT</span>
-    <select class="set-dropdown" onchange="openModal('D', this.value)">
-        <option value="" disabled selected>Coming Soon</option>
-        <!-- <option value="The Constitution of India & Art of Advocacy">The Constitution of India & Art of Advocacy</option>
-        <option value="Psychology & Philosophy">Psychology & Philosophy</option>
-        <option value="Entrepreneurship & Start-up Ecosystem">Entrepreneurship & Start-up Ecosystem</option>
-        <option value="Digital Ecosystem and Controls">Digital Ecosystem and Controls</option> -->
-    </select>
-</div>
+            <!-- ================= SET B ================= -->
+
+            <h2 class="section-title">SET B</h2>
+
+            <a href="./setb/instructions.html" class="card">
+                <span class="set-label">B</span>
+                <span class="exam-label">PRE-FINAL MOCK TEST</span>
+                <span class="exam-label">Click to Write Exam</span>
+            </a>
+
+            <!-- ================= SET C ================= -->
+
+            <h2 class="section-title">SET C SUBJECTS</h2>
+
+            <a href="./setc/instibc.html" class="card">
+                <span class="set-label">IBC</span>
+                <span class="exam-label">SET C</span>
+                <span class="exam-label">Insolvency & Bankruptcy Code</span>
+                <span class="exam-label">Click to Write Exam</span>
+            </a>
+
+            <a href="./setc/instforacc.html" class="card">
+                <span class="set-label">Forensic Accounting</span>
+                <span class="exam-label">SET C</span>
+                <span class="exam-label">Click to Write Exam</span>
+            </a>
+
+            <a href="./setc/instArbitration.html" class="card">
+                <span class="set-label">Arbitration and Conciliation Act, 1996</span>
+                <span class="exam-label">SET C</span>
+                <span class="exam-label">Click to Write Exam</span>
+            </a>
+
+            <!-- <a href="./setc/instvaluation.html" class="card">
+                <span class="set-label">VAL</span>
+                <span class="exam-label">SET C</span>
+                <span class="exam-label">Valuation</span>
+                <span class="exam-label">Click to Write Exam</span>
+            </a> -->
+
+            <!-- ================= SET D ================= -->
+
+            <h2 class="section-title">SET D SUBJECTS</h2>
+
+            <a href="#" class="card">
+                <span class="set-label">SOON</span>
+                <span class="exam-label">SET D</span>
+                <span class="exam-label">Subjects will be added shortly</span>
+            </a>
+
         </div>
+
     </div>
 
-    
-<div class="scroll-indicator">
-    <div class="scroll-progress" id="scrollProgress"></div>
-</div>
-<script>
-const cards = document.querySelectorAll(".card");
-const progressBar = document.getElementById("scrollProgress");
+    <!-- Scroll Progress -->
 
-/* Reveal animation on scroll */
-function revealCards() {
-    const trigger = window.innerHeight * 0.85;
+    <div class="scroll-indicator">
+        <div class="scroll-progress" id="scrollProgress"></div>
+    </div>
 
-    cards.forEach(card => {
-        const top = card.getBoundingClientRect().top;
-        if (top < trigger) {
-            card.classList.add("visible");
+    <script>
+
+        const cards = document.querySelectorAll(".card");
+        const progressBar = document.getElementById("scrollProgress");
+
+        function revealCards() {
+
+            const trigger = window.innerHeight * 0.85;
+
+            cards.forEach(card => {
+
+                const top = card.getBoundingClientRect().top;
+
+                if (top < trigger) {
+                    card.classList.add("visible");
+                }
+
+            });
+
         }
-    });
-}
 
-/* Scroll progress */
-function updateProgress() {
-    const scrollTop = window.pageYOffset;
-    const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-    const percent = (scrollTop / maxScroll) * 100;
-    progressBar.style.width = percent + "%";
-}
+        function updateProgress() {
 
-window.addEventListener("scroll", () => {
-    revealCards();
-    updateProgress();
-});
+            const scrollTop = window.pageYOffset;
 
-/* Initial check */
-revealCards();
-updateProgress();
-</script>
-<section style="max-width:800px;margin:60px auto;padding:20px;text-align:center;color:#cbd5e1;">
-    <h2>About SPOM Set A & Set B MCQ Practice</h2>
-    <a href="./what-is-spom.html">Know more about SPOM</a>
-    <p>
-        The SPOM Set A and Set B MCQ practice tests are designed to help CA students prepare effectively for the Self-Paced Online Modules examination conducted by ICAI. These online mock tests follow the latest exam pattern and include objective-type multiple-choice questions similar to the actual exam.
-    </p>
-    <p>
-        Students can attempt full-length practice exams with instant results and performance tracking. The tests are structured to improve conceptual clarity, time management, and accuracy. Regular practice using updated SPOM MCQs helps build confidence before the final examination.
-    </p>
-    <p>
-        Our SPOM mock tests are completely free and accessible online. Simply select your set and start practicing. No registration required. Improve your SPOM exam preparation with realistic exam simulations and detailed explanations.
-    </p>
-    <p>
-    If you are searching for SPOM Set A MCQ questions or SPOM Set B online mock test, this platform provides updated practice material based on ICAI syllabus. Regular practice improves speed and accuracy for the actual SPOM examination.
-    </p>
-</section>
+            const maxScroll =
+                document.documentElement.scrollHeight -
+                window.innerHeight;
+
+            const percent = (scrollTop / maxScroll) * 100;
+
+            progressBar.style.width = percent + "%";
+
+        }
+
+        window.addEventListener("scroll", () => {
+
+            revealCards();
+            updateProgress();
+
+        });
+
+        revealCards();
+        updateProgress();
+
+    </script>
+        <section style="max-width:900px;margin:60px auto;padding:20px;text-align:center;color:#cbd5e1;line-height:1.8;">
+
+        <h2 style="color:#fff;margin-bottom:20px;">
+            About SPOM Set A, Set B, Set C & Set D Mock Tests
+        </h2>
+
+        <p style="margin-bottom:18px;">
+            The Self-Paced Online Module (SPOM) Mock Tests provided by
+            <strong>Calcium Notes</strong> are designed to help CA students
+            prepare effectively for the ICAI examination.
+            Our mock tests follow the latest ICAI pattern and provide a real
+            exam experience with objective-type MCQs, instant evaluation,
+            and detailed performance analysis.
+        </p>
+
+        <p style="margin-bottom:18px;">
+            Students can practice multiple SPOM Sets and improve their speed,
+            accuracy, conceptual understanding, and confidence before appearing
+            for the actual examination.
+        </p>
+
+        <p style="margin-bottom:18px;">
+            Every question is carefully prepared based on the latest ICAI
+            syllabus and updated whenever ICAI introduces new concepts or
+            amendments.
+        </p>
+
+        <p style="margin-bottom:18px;">
+            Calcium Notes aims to provide completely free, high-quality SPOM
+            preparation resources for CA students including Notes, Mock Tests,
+            Practice Questions, Case Scenario MCQs and Performance Analysis.
+        </p>
+
+        <a href="./what-is-spom.html"
+            style="
+                display:inline-block;
+                margin-top:20px;
+                padding:12px 22px;
+                background:#2563eb;
+                color:#fff;
+                border-radius:10px;
+                text-decoration:none;
+                font-weight:700;
+            ">
+            Learn More About SPOM
+        </a>
+
+    </section>
+
+
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is SPOM Set A and Set B MCQ practice free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, SPOM Set A and Set B MCQ practice tests are completely free and accessible online without registration."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are these SPOM mock tests based on the latest ICAI pattern?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the mock tests follow the latest ICAI SPOM exam pattern and include updated objective type questions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I get instant results after completing the test?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, students receive instant results and performance analysis after completing the SPOM MCQ practice test."
-      }
-    }
-  ]
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+
+        {
+            "@type":"Question",
+            "name":"Is SPOM Mock Test free?",
+            "acceptedAnswer":{
+                "@type":"Answer",
+                "text":"Yes. All SPOM Mock Tests available on Calcium Notes are completely free."
+            }
+        },
+
+        {
+            "@type":"Question",
+            "name":"Are these tests based on the latest ICAI pattern?",
+            "acceptedAnswer":{
+                "@type":"Answer",
+                "text":"Yes. Questions are updated according to the latest ICAI syllabus and examination pattern."
+            }
+        },
+
+        {
+            "@type":"Question",
+            "name":"Do I get instant results?",
+            "acceptedAnswer":{
+                "@type":"Answer",
+                "text":"Yes. Students receive instant scorecards along with detailed explanations after completing the examination."
+            }
+        },
+
+        {
+            "@type":"Question",
+            "name":"Can I attempt the mock test multiple times?",
+            "acceptedAnswer":{
+                "@type":"Answer",
+                "text":"Yes. You can attempt the mock tests as many times as you want to improve your preparation."
+            }
+        }
+
+    ]
 }
 </script>
-</body>
 
+</body>
 </html>
