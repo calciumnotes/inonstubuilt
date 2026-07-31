@@ -31,36 +31,54 @@ function shuffleArray(array) {
 }
 
 // ==========================
-// INIT EXAM
+// INIT EXAM (UPDATED)
 // ==========================
 function initExam() {
-
-    let shuffledCases = [...caseStudies];
-    shuffleArray(shuffledCases);
-
     selectedQuestions = [];
 
-    for (let cs of shuffledCases) {
+    // 1. Process structured case studies and standalone questions
+    if (typeof caseStudies !== 'undefined') {
+        let shuffledCases = [...caseStudies];
+        shuffleArray(shuffledCases);
 
-        if (!cs.questions) continue;
-
-        for (let q of cs.questions) {
-
+        for (let cs of shuffledCases) {
             if (selectedQuestions.length >= TOTAL_QUESTIONS) break;
 
-            if (!q.question || !q.options || q.answer === undefined) continue;
+            // Handle standalone questions placed at root level in the array
+            if (!cs.questions && cs.question && cs.options && cs.answer !== undefined) {
+                selectedQuestions.push({
+                    caseContent: "", 
+                    question: cs.question,
+                    options: cs.options,
+                    correct: cs.answer,
+                    solution: cs.reason || cs.solution || "No reason provided"
+                });
+                continue;
+            }
 
-            selectedQuestions.push({
-                caseContent: cs.caseText || "",
-                question: q.question,
-                options: q.options,
-                correct: q.answer,
-                solution: q.reason || q.solution || "No reason provided" // Now checks for 'reason'
-            });
+            if (!cs.questions) continue;
 
+            for (let q of cs.questions) {
+                if (selectedQuestions.length >= TOTAL_QUESTIONS) break;
+                if (!q.question || !q.options || q.answer === undefined) continue;
+
+                selectedQuestions.push({
+                    caseContent: cs.caseText || "",
+                    question: q.question,
+                    options: q.options,
+                    correct: q.answer,
+                    solution: q.reason || q.solution || "No reason provided"
+                });
+            }
         }
+    }
 
-        if (selectedQuestions.length >= TOTAL_QUESTIONS) break;
+    // Shuffle the final compiled list so standalone and case questions mix up nicely
+    shuffleArray(selectedQuestions);
+
+    // Trim down if it exceeds TOTAL_QUESTIONS
+    if (selectedQuestions.length > TOTAL_QUESTIONS) {
+        selectedQuestions = selectedQuestions.slice(0, TOTAL_QUESTIONS);
     }
 
     const total = selectedQuestions.length;
@@ -85,9 +103,14 @@ function loadQuestion() {
 
     const q = selectedQuestions[currentQuestion];
 
-    // ✅ FIXED: Always update case correctly
+    // ✅ FIXED: Always update case correctly (clears box if standalone)
     if (lastCase !== q.caseContent) {
-        document.getElementById("caseBox").innerHTML = q.caseContent;
+        const caseBoxElement = document.getElementById("caseBox");
+        if (caseBoxElement) {
+            caseBoxElement.innerHTML = q.caseContent;
+            // Optional: Hide/show case box container if empty
+            caseBoxElement.style.display = q.caseContent.trim() === "" ? "none" : "block";
+        }
         lastCase = q.caseContent;
     }
 
@@ -286,7 +309,6 @@ function showResult(score, percentage, grade, correctCount, wrongCount, unanswer
         <h3>Detailed Solution Review</h3>
     `;
 
-    // Leave the remaining selectedQuestions.forEach loop exactly as it is below this line...
     selectedQuestions.forEach((q, index) => {
         html += `
             <div class="reviewBox">
