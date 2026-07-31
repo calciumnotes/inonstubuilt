@@ -31,39 +31,40 @@ function shuffleArray(array) {
 }
 
 // ==========================
-// INIT EXAM (UPDATED)
+// INIT EXAM (UPDATED FOR GROUPED CASES)
 // ==========================
 function initExam() {
     selectedQuestions = [];
 
-    // 1. Process structured case studies and standalone questions
     if (typeof caseStudies !== 'undefined') {
-        let shuffledCases = [...caseStudies];
-        shuffleArray(shuffledCases);
+        // Create a copy and shuffle the top-level case studies / standalone items block-wise
+        let shuffledBlocks = [...caseStudies];
+        shuffleArray(shuffledBlocks);
 
-        for (let cs of shuffledCases) {
+        for (let block of shuffledBlocks) {
             if (selectedQuestions.length >= TOTAL_QUESTIONS) break;
 
-            // Handle standalone questions placed at root level in the array
-            if (!cs.questions && cs.question && cs.options && cs.answer !== undefined) {
+            // Handle standalone questions at the root level
+            if (!block.questions && block.question && block.options && block.answer !== undefined) {
                 selectedQuestions.push({
                     caseContent: "", 
-                    question: cs.question,
-                    options: cs.options,
-                    correct: cs.answer,
-                    solution: cs.reason || cs.solution || "No reason provided"
+                    question: block.question,
+                    options: block.options,
+                    correct: block.answer,
+                    solution: block.reason || block.solution || "No reason provided"
                 });
                 continue;
             }
 
-            if (!cs.questions) continue;
+            if (!block.questions || !Array.isArray(block.questions)) continue;
 
-            for (let q of cs.questions) {
+            // Keep all questions belonging to this case study together in order
+            for (let q of block.questions) {
                 if (selectedQuestions.length >= TOTAL_QUESTIONS) break;
                 if (!q.question || !q.options || q.answer === undefined) continue;
 
                 selectedQuestions.push({
-                    caseContent: cs.caseText || "",
+                    caseContent: block.caseText || "",
                     question: q.question,
                     options: q.options,
                     correct: q.answer,
@@ -72,9 +73,6 @@ function initExam() {
             }
         }
     }
-
-    // Shuffle the final compiled list so standalone and case questions mix up nicely
-    shuffleArray(selectedQuestions);
 
     // Trim down if it exceeds TOTAL_QUESTIONS
     if (selectedQuestions.length > TOTAL_QUESTIONS) {
@@ -108,7 +106,6 @@ function loadQuestion() {
         const caseBoxElement = document.getElementById("caseBox");
         if (caseBoxElement) {
             caseBoxElement.innerHTML = q.caseContent;
-            // Optional: Hide/show case box container if empty
             caseBoxElement.style.display = q.caseContent.trim() === "" ? "none" : "block";
         }
         lastCase = q.caseContent;
