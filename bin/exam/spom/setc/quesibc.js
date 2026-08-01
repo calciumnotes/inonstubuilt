@@ -522,6 +522,332 @@ options:[
 answer:1
 },
 
+// Chapter 2 - Preliminary
+
+{
+question:"The Insolvency and Bankruptcy Code, 2016 is not applicable to:",
+options:[
+"Companies incorporated under the Companies Act, 2013",
+"Financial service provider",
+"Personal guarantor to corporate debtor",
+"Partnership firm"
+],
+answer:2
+},
+
+{
+question:"The Insolvency and Bankruptcy Code, 2016, applies for:",
+options:[
+"Insolvency or liquidation of entities",
+"Insolvency or bankruptcy of entities",
+"Insolvency, liquidation, voluntary liquidation or bankruptcy of entities",
+"Insolvency or voluntary liquidation of entities"
+],
+answer:3
+},
+{
+question:"Creditor as defined under the Code, includes:",
+options:[
+"Financial creditor, operational creditor",
+"Financial creditor, operational creditor, secured creditor",
+"Financial creditor, operational creditor, decree holder",
+"Financial creditor, operational creditor, secured creditor, unsecured creditor, decree holder"
+],
+answer:4
+},
+{
+question:"Financial debt includes:",
+options:[
+"Payment of dues payable to Central Government",
+"Payment of dues in respect of goods supplied",
+"Money borrowed against the payment of interest",
+"Payment of dues in respect of services provided"
+],
+answer:3
+},
+{
+question:"Insolvency Resolution for which of the following Housing Finance Company can not be undertaken under the Insolvency and Bankruptcy Code, 2016:",
+options:[
+"ABC Housing Finance Company with asset size of ₹400 crore",
+"XYZ Housing Finance Company with asset size of ₹600 crore",
+"PQR Housing Finance Company with asset size of ₹1000 crore",
+"MNO Housing Finance Company with asset size of ₹750 crore"
+],
+answer:1
+},
+{
+question:"Insolvency Resolution for which of the following Housing Finance Company can not be undertaken under the Insolvency and Bankruptcy Code, 2016:",
+options:[
+"ABC Housing Finance Company with asset size of ₹400 crore",
+"XYZ Housing Finance Company with asset size of ₹600 crore",
+"PQR Housing Finance Company with asset size of ₹1000 crore",
+"MNO Housing Finance Company with asset size of ₹750 crore"
+],
+answer:1
+},
+{
+caseText:"<p>Beta Financial Services Limited (BFSL) is engaged in providing financial services pursuant to registration granted by the appropriate financial sector regulator. Gamma Housing Finance Company Limited (GHFCL), another financial service provider, has an asset size of ₹620 crore as per its last audited balance sheet.</p><p>The management of BFSL argues that since it is incorporated as a company, it automatically falls within the definition of 'corporate person' under the Insolvency and Bankruptcy Code, 2016. A creditor, however, points out the specific exclusion relating to financial service providers.</p><p>GHFCL is also experiencing serious financial distress. Its stakeholders examine the Central Government's power under section 227 and the notification concerning certain non-banking finance companies, including housing finance companies. Questions also arise regarding whether RBI, SEBI, IRDAI and PFRDA fall within the meaning of financial sector regulator.</p>",
+questions:[
+{
+question:"A person engaged in providing financial services pursuant to authorisation or registration granted by a financial sector regulator is called:",
+options:[
+"Financial creditor",
+"Financial service provider",
+"Insolvency professional",
+"Information utility"
+],
+answer:2
+},
+{
+question:"Which of the following is included within the meaning of 'financial sector regulator' under the Code?",
+options:[
+"Reserve Bank of India",
+"Committee of Creditors",
+"National Company Law Tribunal",
+"Insolvency Professional Agency"
+],
+answer:1
+},
+{
+question:"Which of the following activities is specifically included within 'financial service' under the Code?",
+options:[
+"Manufacturing industrial machinery",
+"Supplying raw materials to a company",
+"Effecting contracts of insurance",
+"Providing employment to workers"
+],
+answer:3
+},
+{
+question:"BFSL argues that being a company incorporated with limited liability necessarily makes it a 'corporate person' under section 3(7). Which statement is most accurate?",
+options:[
+"BFSL is correct because every incorporated company without exception is a corporate person.",
+"BFSL is incorrect because the definition of corporate person expressly excludes a financial service provider.",
+"BFSL is correct provided its paid-up capital exceeds ₹1 crore.",
+"BFSL is incorrect because no company engaged in finance can ever be incorporated under the Companies Act."
+],
+answer:2
+},
+{
+question:"GHFCL has an asset size of ₹620 crore as per its last audited balance sheet. Based on the notification described in the Chapter, which statement is correct?",
+options:[
+"Its insolvency resolution cannot be undertaken under the Code because every financial service provider is absolutely excluded.",
+"Its insolvency resolution may be undertaken under the Code because notified NBFCs, including housing finance companies, having asset size of ₹500 crore or more are covered by the specified framework.",
+"It cannot be covered unless its asset size exceeds ₹1,000 crore.",
+"It is covered solely because it is incorporated under the Companies Act, irrespective of section 227."
+],
+answer:2
+}
+]
+},
+{
+caseText:"<p>Delta Infrastructure Limited (DIL) has entered into several financing and commercial arrangements. It borrowed money from Bank A against payment of interest. It also raised funds by issuing debentures and entered into a finance lease recognised as such under the applicable accounting standards. Further, certain receivables were sold on a non-recourse basis.</p><p>Separately, an allottee paid money to DIL under a real estate project. DIL also received an interest-free loan from another company. The management is uncertain whether the absence of an express interest obligation necessarily prevents such loan from constituting financial debt.</p><p>DIL has created a mortgage over one of its properties in favour of Bank A to secure repayment. Its legal team is examining the concepts of financial debt, security interest, charge and secured creditor under the Code.</p>",
+questions:[
+{
+question:"Money borrowed by DIL from Bank A against payment of interest is:",
+options:[
+"Financial debt",
+"Operational debt",
+"Core service",
+"Financial information only"
+],
+answer:1
+},
+{
+question:"The amount raised by DIL through issue of debentures is included within:",
+options:[
+"Operational debt",
+"Financial debt",
+"Government dues",
+"Core services"
+],
+answer:2
+},
+{
+question:"Bank A, in whose favour security interest has been created, would be regarded as:",
+options:[
+"Operational creditor",
+"Information utility",
+"Secured creditor",
+"Insolvency professional"
+],
+answer:3
+},
+{
+question:"Which of the following arrangements is specifically EXCLUDED from the relevant limb of financial debt dealing with receivables?",
+options:[
+"Receivables sold or discounted with recourse",
+"Receivables discounted as part of a financing transaction",
+"Receivables sold on a non-recourse basis",
+"Receivables sold where the transaction has financing characteristics"
+],
+answer:3
+},
+{
+question:"Consider the following two transactions: (I) Amount raised from an allottee under a real estate project. (II) An interest-free loan. Which statement most accurately reflects the Chapter?",
+options:[
+"Neither can constitute financial debt because payment of express interest is mandatory in every case.",
+"Only (I) can constitute financial debt; an interest-free loan can never fall within section 5(8).",
+"Amount raised from an allottee is deemed to have the commercial effect of borrowing, and the Supreme Court has also held that an interest-free loan may fall within the definition of financial debt.",
+"Only (II) constitutes financial debt because amounts received from real estate allottees are operational debts."
+],
+answer:3
+}
+]
+},
+{
+question:"Under section 3(1) of the Insolvency and Bankruptcy Code, 'Board' means:",
+options:[
+"Insolvency and Bankruptcy Board of India",
+"National Company Law Tribunal",
+"Debt Recovery Tribunal",
+"Insolvency Professional Agency"
+],
+answer:1
+},
+{
+question:"A 'Corporate Debtor' under section 3(8) means:",
+options:[
+"Any company which has incurred a loss",
+"A corporate person who owes a debt to any person",
+"Any person who has committed a default",
+"A company undergoing liquidation"
+],
+answer:2
+},
+{
+question:"Which of the following is specifically included in the definition of 'Creditor' under section 3(10)?",
+options:[
+"Only financial creditors",
+"Only secured creditors",
+"A decree holder",
+"Only operational creditors"
+],
+answer:3
+},
+{
+question:"Operational debt under section 5(21) includes a claim in respect of:",
+options:[
+"Provision of goods or services including employment",
+"Money borrowed against payment of interest only",
+"Issue of debentures only",
+"Derivative transactions only"
+],
+answer:1
+},
+{
+question:"A creditor in whose favour a security interest has been created is known as:",
+options:[
+"Financial creditor",
+"Operational creditor",
+"Secured creditor",
+"Decree holder"
+],
+answer:3
+},
+{
+question:"Which of the following is NOT included in the definition of 'Corporate Person' under section 3(7) of the Code?",
+options:[
+"A company as defined under section 2(20) of the Companies Act, 2013",
+"A Limited Liability Partnership",
+"A person incorporated with limited liability under any law for the time being in force",
+"A financial service provider"
+],
+answer:4
+},
+{
+question:"Which of the following statements regarding 'Claim' under section 3(6) is correct?",
+options:[
+"A right to payment is a claim only if it has been reduced to judgment",
+"A disputed right to payment cannot constitute a claim",
+"A right to payment may constitute a claim whether fixed, disputed, undisputed, secured or unsecured",
+"A right arising from breach of contract can never constitute a claim"
+],
+answer:3
+},
+{
+question:"Which of the following is NOT included within 'financial debt' under section 5(8)?",
+options:[
+"Money borrowed against payment of interest",
+"Amount raised through issue of debentures",
+"Receivables sold on a non-recourse basis",
+"Liability in respect of a finance or capital lease as specified"
+],
+answer:3
+},
+{
+question:"For the purpose of financial debt, an amount raised from an allottee under a real estate project is:",
+options:[
+"Always treated as operational debt",
+"Deemed to be an amount having the commercial effect of a borrowing",
+"Excluded from both financial and operational debt",
+"Treated as financial debt only when the allottee receives interest"
+],
+answer:2
+},
+{
+question:"Which of the following most accurately describes 'default' under section 3(12)?",
+options:[
+"Non-payment only when the entire debt becomes due",
+"Non-payment of a debt only after a decree is obtained",
+"Non-payment of the whole or any part or instalment of debt when it has become due and payable",
+"Non-payment only of financial debt and not operational debt"
+],
+answer:3
+},
+{
+question:"Consider the following statements: (I) A claim may exist even though the right to payment is disputed. (II) A claim gives rise to debt only when it is due. (III) Default occurs when debt becomes due and payable and is not paid. Which of the following is correct?",
+options:[
+"I only",
+"I and II only",
+"II and III only",
+"I, II and III"
+],
+answer:4
+},
+{
+question:"Consider the following: (I) A company incorporated under the Companies Act. (II) An LLP incorporated under the LLP Act. (III) A financial service provider. (IV) A person incorporated with limited liability under another law. Which of these can fall within the definition of 'corporate person' under section 3(7)?",
+options:[
+"I and II only",
+"I, II and IV only",
+"I, III and IV only",
+"I, II, III and IV"
+],
+answer:2
+},
+{
+question:"A Housing Finance Company has an asset size of ₹500 crore as per its last audited balance sheet. Which statement most accurately reflects the position described in the Chapter?",
+options:[
+"It can never undergo insolvency resolution under the Code because every financial service provider is absolutely excluded",
+"It falls within the notified class of NBFCs, including housing finance companies, with asset size of ₹500 crore or more whose insolvency resolution and liquidation may be undertaken under the Code and Rules",
+"It is outside the notified framework because its assets must exceed ₹500 crore",
+"It automatically becomes a corporate person under section 3(7) merely because its asset size reaches ₹500 crore"
+],
+answer:2
+},
+{
+question:"Which of the following combinations is correctly matched? (I) Charge — interest or lien created on property/assets as security and includes mortgage. (II) Secured creditor — creditor in whose favour security interest is created. (III) Transfer of property — includes creation of a charge upon property. (IV) Security interest — excludes hypothecation and assignment.",
+options:[
+"I and II only",
+"I, II and III only",
+"II, III and IV only",
+"I, II, III and IV"
+],
+answer:2
+},
+{
+question:"Consider the following transactions: (I) Interest-free loan. (II) Amount raised from an allottee under a real estate project. (III) Receivables sold on a non-recourse basis. (IV) Counter-indemnity obligation in respect of a documentary letter of credit issued by a bank. Based on the Chapter, which combination can fall within 'financial debt' under section 5(8)?",
+options:[
+"I and II only",
+"II, III and IV only",
+"I, II and IV only",
+"I, II, III and IV"
+],
+answer:3
+},
+
+
+
 
 // {
 // caseText:"",    
