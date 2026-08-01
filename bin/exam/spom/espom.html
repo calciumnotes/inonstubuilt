@@ -13,7 +13,6 @@
     <link rel="canonical" href="https://calciumnotes.com/bin/exam/spom/espom.html">
     <meta name="robots" content="index, follow">
 
-    <!-- Open Graph -->
     <meta property="og:title" content="SPOM Set A & Set B MCQ Practice – Free Online Test">
     <meta property="og:description"
         content="Free updated SPOM Set A & Set B MCQ practice with instant results and ICAI pattern questions. Start practicing now.">
@@ -21,7 +20,6 @@
     <meta property="og:url" content="https://calciumnotes.com/bin/exam/spom/espom.html">
     <meta property="og:image" content="https://calciumnotes.com/og-image.png">
 
-    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SPOM Set A & Set B MCQ Practice – Free Online Test">
     <meta name="twitter:description"
@@ -29,9 +27,8 @@
     <meta name="twitter:image" content="https://calciumnotes.com/og-image.png">
 
     <link rel="icon" href="../../../fevicol.png" type="image/png">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
 
-    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YYJ8R39EXM"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -41,16 +38,28 @@
     </script>
 
     <style>
+        :root {
+            --bg-dark: #0f172a;
+            --bg-darker: #020617;
+            --card-bg: rgba(255, 255, 255, 0.04);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --accent-blue: #3b82f6;
+            --accent-blue-light: #60a5fa;
+            --text-main: #ffffff;
+            --text-muted: #94a3b8;
+        }
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
         }
 
         body {
-            background: #0f172a;
-            color: white;
+            background: radial-gradient(circle at top left, #1e293b 0%, #0f172a 40%, #020617 100%);
+            color: var(--text-main);
             min-height: 100vh;
             overflow-x: hidden;
             scroll-behavior: smooth;
@@ -58,393 +67,454 @@
 
         /* ================= HEADER ================= */
 
-        .fixed-header {
+        .app-header {
             position: sticky;
             top: 0;
-            padding: 20px;
-            text-align: center;
-            backdrop-filter: blur(8px);
-            background: rgba(15, 23, 42, .9);
+            padding: 25px 20px 15px;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            background: rgba(15, 23, 42, 0.85);
             z-index: 1000;
-            border-bottom: 1px solid rgba(255,255,255,.08);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: center;
         }
 
-        .fixed-header h1 {
-            font-size: 2.4rem;
+        .app-header h1 {
+            font-size: 1.8rem;
             font-weight: 900;
-            letter-spacing: 4px;
+            letter-spacing: -0.5px;
+            margin-bottom: 4px;
         }
 
-        .fixed-header h2 {
-            margin-top: 10px;
-            font-size: .8rem;
+        .app-header h2 {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent-blue);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .app-header a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+
+        /* ================= MAIN SCENE ================= */
+
+        .scene-wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 20px 100px;
+        }
+
+        .list-container {
+            width: 100%;
+            max-width: 650px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ================= SECTION TITLES ================= */
+
+        .section-title {
+            font-size: 0.9rem;
+            font-weight: 800;
+            color: var(--text-muted);
             letter-spacing: 2px;
-            color: #60a5fa;
+            text-transform: uppercase;
+            margin: 30px 0 12px 15px;
         }
 
-        .fixed-header a{
-            color:#60a5fa;
-            text-decoration:none;
+        /* ================= ROUNDED EXAM CARDS ================= */
+
+        .card {
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 32px; 
+            padding: 22px 28px;
+            margin-bottom: 16px;
+            
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            text-decoration: none;
+            color: white;
+            transition: all 0.25s ease;
+            -webkit-tap-highlight-color: transparent;
         }
 
-        .fixed-header a:hover{
-            text-decoration:underline;
+        .card:hover, .card:active {
+            background: rgba(59, 130, 246, 0.08);
+            border-color: var(--accent-blue);
+            transform: scale(0.98);
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.15);
         }
 
-        /* ================= MAIN ================= */
-
-        .scene-wrapper{
-            width:100%;
-            display:flex;
-            justify-content:center;
-            padding:40px 20px 120px;
+        .card-left {
+            display: flex;
+            flex-direction: column;
         }
 
-        .carousel{
-            width:100%;
-            max-width:760px;
-            display:flex;
-            flex-direction:column;
-            gap:22px;
+        .set-label {
+            font-size: 2.2rem;
+            font-weight: 900;
+            letter-spacing: -1px;
+            line-height: 1.1;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
         }
 
-        /* ================= SECTION TITLE ================= */
-
-        .section-title{
-            font-size:1.45rem;
-            font-weight:800;
-            color:#3b82f6;
-            margin-top:18px;
-            padding-left:6px;
-            border-left:4px solid #3b82f6;
+        .set-tag {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--accent-blue);
         }
 
-        /* ================= CARD ================= */
-
-        .card{
-            width:100%;
-            min-height:150px;
-
-            display:flex;
-            flex-direction:column;
-            justify-content:center;
-            align-items:center;
-
-            text-decoration:none;
-            color:white;
-
-            background:rgba(255,255,255,.05);
-            border:1px solid rgba(255,255,255,.08);
-            border-radius:18px;
-            backdrop-filter:blur(14px);
-
-            transition:.35s;
-
-            opacity:0;
-            transform:translateY(45px);
+        .exam-desc {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-muted);
         }
 
-        .card.visible{
-            opacity:1;
-            transform:translateY(0);
+        /* ================= AI BLINKING BADGE (SET C ONLY) ================= */
+
+        .ai-badge {
+            display: inline-flex;
+            align-items: center;
+            background: rgba(59, 130, 246, 0.12);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            color: var(--accent-blue-light);
+            font-size: 0.75rem;
+            font-weight: 800;
+            letter-spacing: 1px;
+            padding: 4px 10px;
+            border-radius: 100px;
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.1);
         }
 
-        .card:hover{
-            transform:translateY(-5px);
-            border-color:#3b82f6;
-            box-shadow:0 0 30px rgba(59,130,246,.35);
+        .ai-dot {
+            width: 6px;
+            height: 6px;
+            background-color: var(--accent-blue-light);
+            border-radius: 50%;
+            margin-right: 6px;
+            box-shadow: 0 0 8px var(--accent-blue-light);
+            animation: pulse-blink 1.2s infinite alternate;
         }
 
-        .set-label{
-            font-size:2.7rem;
-            font-weight:900;
+        @keyframes pulse-blink {
+            0% { opacity: 1; transform: scale(1); }
+            100% { opacity: 0.2; transform: scale(0.8); }
         }
 
-        .exam-label{
-            margin-top:6px;
-            font-size:.72rem;
-            letter-spacing:2px;
-            color:#cbd5e1;
-            text-align:center;
+        /* ================= EXAM ENTRY ARROW ================= */
+
+        .enter-icon {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.3s;
+            flex-shrink: 0;
+        }
+
+        .card:hover .enter-icon {
+            background: var(--accent-blue);
+            transform: translateX(5px);
         }
 
         /* ================= PROGRESS BAR ================= */
 
-        .scroll-indicator{
-            position:fixed;
-            bottom:25px;
-            left:50%;
-            transform:translateX(-50%);
-            width:180px;
-            height:4px;
-            border-radius:10px;
-            overflow:hidden;
-            background:rgba(255,255,255,.08);
+        .scroll-indicator {
+            position: fixed;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 160px;
+            height: 5px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+            z-index: 1000;
         }
 
-        .scroll-progress{
-            width:0%;
-            height:100%;
-            background:#3b82f6;
-            transition:.2s;
+        .scroll-progress {
+            width: 0%;
+            height: 100%;
+            background: var(--accent-blue);
+            border-radius: 10px;
         }
 
-        @media(max-width:768px){
-
-            .fixed-header h1{
-                font-size:1.7rem;
-                letter-spacing:2px;
-            }
-
-            .scene-wrapper{
-                padding:25px 15px 100px;
-            }
-
-            .card{
-                min-height:140px;
-            }
-
-            .set-label{
-                font-size:2.2rem;
-            }
-
+        /* ================= INFO SECTION (EXTENDED WIDTH) ================= */
+        
+        .info-container {
+            width: 100%;
+            max-width: 880px; /* Noticeably wider than the 650px exam cards */
+            margin-top: 50px;
         }
 
+        .info-box {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            padding: 35px 40px;
+            text-align: left;
+            line-height: 1.8;
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
+        .info-box h3 {
+            color: white;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 1.35rem;
+        }
+
+        .info-box p {
+            margin-bottom: 16px;
+        }
+
+        .info-box p:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .learn-btn {
+            display: block;
+            margin: 30px auto 0;
+            width: fit-content;
+            padding: 14px 28px;
+            background: var(--accent-blue);
+            color: white;
+            border-radius: 100px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+
+        .learn-btn:hover {
+            opacity: 0.85;
+            transform: translateY(-2px);
+        }
+
+        @media(max-width:768px) {
+            .app-header h1 {
+                font-size: 1.5rem;
+            }
+            .card {
+                padding: 20px 24px;
+                border-radius: 28px;
+            }
+            .set-label {
+                font-size: 1.9rem;
+            }
+            .set-tag {
+                font-size: 1.05rem;
+            }
+            .info-box {
+                padding: 25px 20px;
+            }
+        }
     </style>
-
 </head>
 
 <body>
 
-<div class="fixed-header">
+    <header class="app-header">
+        <h1>SPOM MOCK EXAMS</h1>
+        <h2><a href="../../../index.html"> Check Here for Calcium Notes</a></h2>
+    </header>
 
-    <h1>SPOM Set A & Set B MCQ Practice</h1>
-
-    <h2>
-        Visit
-        <a href="../../../index.html">
-            www.calciumnotes.com
-        </a>
-    </h2>
-
-    <h2>Select your SPOM Set / Subject</h2>
-
-</div>
     <div class="scene-wrapper">
 
-        <div class="carousel" id="carousel">
+        <div class="list-container" id="carousel">
 
-            <!-- ================= SET A ================= -->
-
-            <h2 class="section-title">SET A</h2>
+            <h2 class="section-title">Mandatory Sets</h2>
 
             <a href="./seta/instructions.html" class="card">
-                <span class="set-label">A</span>
-                <span class="exam-label">PRE-FINAL MOCK TEST</span>
-                <span class="exam-label">Click to Write Exam</span>
+                <div class="card-left">
+                    <div class="set-label">SET A</div>
+                    <div class="exam-desc">Pre-Final Mock Test</div>
+                </div>
+                <div class="enter-icon">
+                    <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1.5L7.5 8L1.5 14.5" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
             </a>
-
-            <!-- ================= SET B ================= -->
-
-            <h2 class="section-title">SET B</h2>
 
             <a href="./setb/instructions.html" class="card">
-                <span class="set-label">B</span>
-                <span class="exam-label">PRE-FINAL MOCK TEST</span>
-                <span class="exam-label">Click to Write Exam</span>
+                <div class="card-left">
+                    <div class="set-label">SET B</div>
+                    <div class="exam-desc">Pre-Final Mock Test</div>
+                </div>
+                <div class="enter-icon">
+                    <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1.5L7.5 8L1.5 14.5" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
             </a>
 
-            <!-- ================= SET C ================= -->
-
-            <h2 class="section-title">SET C SUBJECTS</h2>
+            <h2 class="section-title">Set C Subjects</h2>
 
             <a href="./setc/instibc.html" class="card">
-                <span class="set-label">IBC</span>
-                <span class="exam-label">SET C</span>
-                <span class="exam-label">Insolvency & Bankruptcy Code</span>
-                <span class="exam-label">Click to Write Exam</span>
+                <div class="card-left">
+                    <div class="set-label">
+                        IBC 
+                        <span class="set-tag">SET C</span>
+                        <div class="ai-badge"><div class="ai-dot"></div>AI</div>
+                    </div>
+                    <div class="exam-desc">Insolvency & Bankruptcy Code</div>
+                </div>
+                <div class="enter-icon">
+                    <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1.5L7.5 8L1.5 14.5" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
             </a>
 
             <a href="./setc/instforacc.html" class="card">
-                <span class="set-label">Forensic Accounting</span>
-                <span class="exam-label">SET C</span>
-                <span class="exam-label">Click to Write Exam</span>
+                <div class="card-left">
+                    <div class="set-label">
+                        FOR 
+                        <span class="set-tag">SET C</span>
+                        <div class="ai-badge"><div class="ai-dot"></div>AI</div>
+                    </div>
+                    <div class="exam-desc">Forensic Accounting</div>
+                </div>
+                <div class="enter-icon">
+                    <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1.5L7.5 8L1.5 14.5" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
             </a>
 
             <a href="./setc/instArbitration.html" class="card">
-                <span class="set-label">Arbitration and Conciliation Act, 1996</span>
-                <span class="exam-label">SET C</span>
-                <span class="exam-label">Click to Write Exam</span>
+                <div class="card-left">
+                    <div class="set-label">
+                        ARB 
+                        <span class="set-tag">SET C</span>
+                        <div class="ai-badge"><div class="ai-dot"></div>AI</div>
+                    </div>
+                    <div class="exam-desc">Arbitration & Conciliation Act</div>
+                </div>
+                <div class="enter-icon">
+                    <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 1.5L7.5 8L1.5 14.5" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
             </a>
 
-            <!-- <a href="./setc/instvaluation.html" class="card">
-                <span class="set-label">VAL</span>
-                <span class="exam-label">SET C</span>
-                <span class="exam-label">Valuation</span>
-                <span class="exam-label">Click to Write Exam</span>
-            </a> -->
+            <h2 class="section-title">Set D Subjects</h2>
 
-            <!-- ================= SET D ================= -->
-
-            <h2 class="section-title">SET D SUBJECTS</h2>
-
-            <a href="#" class="card">
-                <span class="set-label">SOON</span>
-                <span class="exam-label">SET D</span>
-                <span class="exam-label">Subjects will be added shortly</span>
-            </a>
+            <div class="card" style="opacity: 0.6; cursor: not-allowed; pointer-events: none;">
+                <div class="card-left">
+                    <div class="set-label">SET D</div>
+                    <div class="exam-desc">Subjects will be added shortly</div>
+                </div>
+                <div class="enter-icon" style="background: transparent;">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                    </svg>
+                </div>
+            </div>
 
         </div>
 
-    </div>
+        <div class="info-container">
+            <div class="info-box">
+                <h3>About SPOM Set A, Set B, Set C & Set D Mock Tests</h3>
+                <p>
+                    The Self-Paced Online Module (SPOM) Mock Tests provided by <strong style="color:white;">Calcium Notes</strong> are designed to help CA students prepare effectively for the ICAI examination. Our mock tests follow the latest ICAI pattern and provide a real exam experience with objective-type MCQs, instant evaluation, and detailed performance analysis.
+                </p>
+                <p>
+                    Students can practice multiple SPOM Sets and improve their speed, accuracy, conceptual understanding, and confidence before appearing for the actual examination.
+                </p>
+                <p>
+                    Every question is carefully prepared based on the latest ICAI syllabus and updated whenever ICAI introduces new concepts or amendments.
+                </p>
+                <p>
+                    Calcium Notes aims to provide completely free, high-quality SPOM preparation resources for CA students including Notes, Mock Tests, Practice Questions, Case Scenario MCQs and Performance Analysis.
+                </p>
+                <a href="./what-is-spom.html" class="learn-btn">Learn More About SPOM</a>
+            </div>
+        </div>
 
-    <!-- Scroll Progress -->
+    </div>
 
     <div class="scroll-indicator">
         <div class="scroll-progress" id="scrollProgress"></div>
     </div>
 
     <script>
-
-        const cards = document.querySelectorAll(".card");
         const progressBar = document.getElementById("scrollProgress");
 
-        function revealCards() {
-
-            const trigger = window.innerHeight * 0.85;
-
-            cards.forEach(card => {
-
-                const top = card.getBoundingClientRect().top;
-
-                if (top < trigger) {
-                    card.classList.add("visible");
-                }
-
-            });
-
-        }
-
         function updateProgress() {
-
             const scrollTop = window.pageYOffset;
-
-            const maxScroll =
-                document.documentElement.scrollHeight -
-                window.innerHeight;
-
+            const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+            if(maxScroll <= 0) {
+                progressBar.style.width = "0%";
+                return;
+            }
             const percent = (scrollTop / maxScroll) * 100;
-
             progressBar.style.width = percent + "%";
-
         }
 
-        window.addEventListener("scroll", () => {
-
-            revealCards();
-            updateProgress();
-
-        });
-
-        revealCards();
+        window.addEventListener("scroll", updateProgress);
         updateProgress();
-
     </script>
-        <section style="max-width:900px;margin:60px auto;padding:20px;text-align:center;color:#cbd5e1;line-height:1.8;">
 
-        <h2 style="color:#fff;margin-bottom:20px;">
-            About SPOM Set A, Set B, Set C & Set D Mock Tests
-        </h2>
-
-        <p style="margin-bottom:18px;">
-            The Self-Paced Online Module (SPOM) Mock Tests provided by
-            <strong>Calcium Notes</strong> are designed to help CA students
-            prepare effectively for the ICAI examination.
-            Our mock tests follow the latest ICAI pattern and provide a real
-            exam experience with objective-type MCQs, instant evaluation,
-            and detailed performance analysis.
-        </p>
-
-        <p style="margin-bottom:18px;">
-            Students can practice multiple SPOM Sets and improve their speed,
-            accuracy, conceptual understanding, and confidence before appearing
-            for the actual examination.
-        </p>
-
-        <p style="margin-bottom:18px;">
-            Every question is carefully prepared based on the latest ICAI
-            syllabus and updated whenever ICAI introduces new concepts or
-            amendments.
-        </p>
-
-        <p style="margin-bottom:18px;">
-            Calcium Notes aims to provide completely free, high-quality SPOM
-            preparation resources for CA students including Notes, Mock Tests,
-            Practice Questions, Case Scenario MCQs and Performance Analysis.
-        </p>
-
-        <a href="./what-is-spom.html"
-            style="
-                display:inline-block;
-                margin-top:20px;
-                padding:12px 22px;
-                background:#2563eb;
-                color:#fff;
-                border-radius:10px;
-                text-decoration:none;
-                font-weight:700;
-            ">
-            Learn More About SPOM
-        </a>
-
-    </section>
-
-
-<script type="application/ld+json">
-{
-    "@context":"https://schema.org",
-    "@type":"FAQPage",
-    "mainEntity":[
-
-        {
-            "@type":"Question",
-            "name":"Is SPOM Mock Test free?",
-            "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. All SPOM Mock Tests available on Calcium Notes are completely free."
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":[
+            {
+                "@type":"Question",
+                "name":"Is SPOM Mock Test free?",
+                "acceptedAnswer":{
+                    "@type":"Answer",
+                    "text":"Yes. All SPOM Mock Tests available on Calcium Notes are completely free."
+                }
+            },
+            {
+                "@type":"Question",
+                "name":"Are these tests based on the latest ICAI pattern?",
+                "acceptedAnswer":{
+                    "@type":"Answer",
+                    "text":"Yes. Questions are updated according to the latest ICAI syllabus and examination pattern."
+                }
+            },
+            {
+                "@type":"Question",
+                "name":"Do I get instant results?",
+                "acceptedAnswer":{
+                    "@type":"Answer",
+                    "text":"Yes. Students receive instant scorecards along with detailed explanations after completing the examination."
+                }
+            },
+            {
+                "@type":"Question",
+                "name":"Can I attempt the mock test multiple times?",
+                "acceptedAnswer":{
+                    "@type":"Answer",
+                    "text":"Yes. You can attempt the mock tests as many times as you want to improve your preparation."
+                }
             }
-        },
-
-        {
-            "@type":"Question",
-            "name":"Are these tests based on the latest ICAI pattern?",
-            "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. Questions are updated according to the latest ICAI syllabus and examination pattern."
-            }
-        },
-
-        {
-            "@type":"Question",
-            "name":"Do I get instant results?",
-            "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. Students receive instant scorecards along with detailed explanations after completing the examination."
-            }
-        },
-
-        {
-            "@type":"Question",
-            "name":"Can I attempt the mock test multiple times?",
-            "acceptedAnswer":{
-                "@type":"Answer",
-                "text":"Yes. You can attempt the mock tests as many times as you want to improve your preparation."
-            }
-        }
-
-    ]
-}
-</script>
+        ]
+    }
+    </script>
 
 </body>
 </html>
