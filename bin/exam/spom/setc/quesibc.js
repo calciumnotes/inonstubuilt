@@ -2713,57 +2713,49 @@ answer: 2
   question_id: "ibc_mcq_05",
   chapter_name: ["Liquidation Estate"],
   difficulty: "Hard",
+  question: `<p>
+Epsilon Manufacturing Limited has been ordered to be liquidated. While forming
+the liquidation estate under Section 36, the liquidator identifies several assets
+which are physically located at Epsilon's premises or are connected with its
+business.
+</p>
 
-  question: `
-    <p>
-      Epsilon Manufacturing Limited has been ordered to be liquidated. While forming
-      the liquidation estate under Section 36, the liquidator identifies several assets
-      which are physically located at Epsilon's premises or are connected with its
-      business.
-    </p>
+<p>
+These include: (i) a factory building legally owned by Epsilon;
+(ii) machinery over which a secured creditor has relinquished its security interest;
+(iii) finished goods belonging to a customer and held by Epsilon under a
+<strong>bailment arrangement</strong>; (iv) amounts due to employees from the
+provident fund, pension fund and gratuity fund; (v) shares owned by Epsilon in
+its wholly-owned subsidiary; and (vi) a warehouse which is legally owned by that
+wholly-owned subsidiary itself.
+</p>
 
-    <p>
-      These include: (i) a factory building legally owned by Epsilon;
-      (ii) machinery over which a secured creditor has relinquished its security interest;
-      (iii) finished goods belonging to a customer and held by Epsilon under a
-      <strong>bailment arrangement</strong>; (iv) amounts due to employees from the
-      provident fund, pension fund and gratuity fund; (v) shares owned by Epsilon in
-      its wholly-owned subsidiary; and (vi) a warehouse which is legally owned by that
-      wholly-owned subsidiary itself.
-    </p>
+<p>
+A director argues that because Epsilon owns 100% of the subsidiary, the subsidiary's
+warehouse should also be treated as Epsilon's asset. Another stakeholder argues
+that anything physically located at Epsilon's premises automatically becomes part
+of the liquidation estate.
+</p>
 
-    <p>
-      A director argues that because Epsilon owns 100% of the subsidiary, the subsidiary's
-      warehouse should also be treated as Epsilon's asset. Another stakeholder argues
-      that anything physically located at Epsilon's premises automatically becomes part
-      of the liquidation estate.
-    </p>
-
-    <p>
-      Which of the following combinations consists <strong>only of assets that are
-      excluded from Epsilon's liquidation estate</strong>?
-    </p>
-  `,
-
+<p>
+Which of the following combinations consists <strong>only of assets that are
+excluded from Epsilon's liquidation estate</strong>?
+</p>`,
   options: [
     "Factory building, shares in the subsidiary and relinquished secured asset",
     "Customer's goods held under bailment, amounts due from provident/pension/gratuity funds, and the subsidiary's own warehouse",
     "Shares in the subsidiary, customer goods under bailment and factory building",
     "Relinquished secured asset, subsidiary shares and provident fund dues"
   ],
-
   answer: 1,
-
-  solution_html: `
-    <p><strong>Correct Answer: Option B.</strong></p>
-    <p>
-      Section 36(4) excludes, among other things, <strong>third-party assets held under
-      bailment</strong>, amounts due from <strong>provident fund, pension fund and
-      gratuity fund</strong>, and assets of an Indian or foreign subsidiary of the
-      corporate debtor. Ownership of shares in the subsidiary does not make the
-      subsidiary's own assets property of the corporate debtor.
-    </p>
-  `
+  solution_html: `<p><strong>Correct Answer: Option B.</strong></p>
+<p>
+Section 36(4) excludes, among other things, <strong>third-party assets held under
+bailment</strong>, amounts due from <strong>provident fund, pension fund and
+gratuity fund</strong>, and assets of an Indian or foreign subsidiary of the
+corporate debtor. Ownership of shares in the subsidiary does not make the
+subsidiary's own assets property of the corporate debtor.
+</p>`
 },
 
 
