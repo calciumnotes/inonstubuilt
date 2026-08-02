@@ -846,6 +846,117 @@ options:[
 answer:3
 },
 
+//  Chapter 2 - confusing questions
+
+{
+question:"Which of the following best describes a 'debt' under section 3(11) of the Insolvency and Bankruptcy Code, 2016?",
+options:[
+"A right to payment whether or not such right has become due",
+"A liability or obligation in respect of a claim which is due from any person and includes financial debt and operational debt",
+"Any liability or obligation whether due or not, provided it is secured",
+"A right to payment only when such right has resulted in default"
+],
+answer:2
+},
+
+{
+question:"Which of the following correctly describes the relationship between claim, debt and default under the Code?",
+options:[
+"A claim becomes a debt when it is due, and default occurs when such debt becomes due and payable and is not paid",
+"A claim becomes a default when disputed, and thereafter gives rise to debt",
+"A debt first becomes a claim when payable, and non-payment converts the claim into default",
+"A claim and debt arise simultaneously in every case, whereas default arises only after adjudication"
+],
+answer:1
+},
+
+{
+question:"Which of the following persons is specifically EXCLUDED from the definition of 'corporate person' under section 3(7)?",
+options:[
+"A Limited Liability Partnership",
+"A company incorporated under the Companies Act, 2013",
+"A financial service provider",
+"A person incorporated with limited liability under another law"
+],
+answer:3
+},
+
+{
+question:"Which of the following is most appropriately classified as an 'operational debt' under section 5(21)?",
+options:[
+"Money borrowed by a company against payment of interest",
+"Amount payable by a company for services received from a service provider",
+"Amount raised by issue of debentures",
+"Liability arising under a finance lease"
+],
+answer:2
+},
+
+{
+question:"Which of the following statements regarding 'default' under section 3(12) is correct?",
+options:[
+"Default occurs only when the whole amount of debt becomes due and remains unpaid",
+"Default occurs when the whole or any part or instalment of debt has become due and payable and is not paid",
+"Default occurs whenever a claim is raised against the debtor, irrespective of whether it is due",
+"Default occurs only when the Adjudicating Authority determines the amount of debt"
+],
+answer:2
+},
+
+{
+question:"Which of the following transactions is NOT included in financial debt under the specific categories stated in section 5(8)?",
+options:[
+"Money borrowed against payment of interest",
+"Receivables sold or discounted other than on a non-recourse basis",
+"Receivables sold on a non-recourse basis",
+"Amount raised pursuant to issue of bonds or debentures"
+],
+answer:3
+},
+
+{
+question:"Which of the following correctly distinguishes 'charge' from 'security interest' under the Code?",
+options:[
+"Charge includes an interest or lien created as security and includes a mortgage, while security interest has a wider definition including mortgage, charge, hypothecation, assignment and encumbrance",
+"Charge includes only mortgage whereas security interest includes only hypothecation",
+"Security interest is narrower than charge because it excludes mortgage and assignment",
+"Charge applies only to movable property whereas security interest applies only to immovable property"
+],
+answer:1
+},
+
+{
+question:"A person is enrolled with an Insolvency Professional Agency as its member but has not been registered with the IBBI under section 207. Which statement is most accurate?",
+options:[
+"He is an Insolvency Professional because enrolment with an IPA alone is sufficient",
+"He is not an Insolvency Professional because both membership with an IPA and registration with the Board are required",
+"He becomes an Insolvency Professional automatically after enrolment for 30 days",
+"He is an Insolvency Professional if authorised by the corporate debtor even without registration with the Board"
+],
+answer:2
+},
+
+{
+question:"Which of the following correctly describes the functions of an Information Utility under the Code?",
+options:[
+"It primarily adjudicates disputes between financial and operational creditors",
+"It collects, collates, authenticates and disseminates financial information for insolvency, liquidation and bankruptcy proceedings",
+"It regulates Insolvency Professionals and Insolvency Professional Agencies",
+"It approves resolution plans submitted during the Corporate Insolvency Resolution Process"
+],
+answer:2
+},
+
+{
+question:"A Housing Finance Company has an asset size of ₹490 crore as per its last audited balance sheet. Based on the notification referred to in the Chapter, which statement is most appropriate?",
+options:[
+"It falls within the notified framework because housing finance companies with assets exceeding ₹400 crore are covered",
+"It does not fall within the notified ₹500 crore-or-more category referred to in the Chapter",
+"It falls within the notified framework because every housing finance company is covered irrespective of asset size",
+"It falls within the notified framework only because housing finance companies are not financial service providers"
+],
+answer:2
+},
 
 
 
