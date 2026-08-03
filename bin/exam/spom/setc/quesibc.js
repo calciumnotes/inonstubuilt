@@ -2896,7 +2896,1117 @@ subsidiary's own assets property of the corporate debtor.
       to vote unless it is also a financial creditor</strong>.
     </p>
   `
-}
+},
+
+// Chapter - 4
+
+{
+  "caseText": "<p>Mr. Arjun is an individual debtor who has been facing financial difficulties and is unable to pay his debts. His gross annual income is ₹55,000 and the aggregate value of his assets is ₹18,000. His qualifying debts amount to ₹32,000. Arjun is not an undischarged bankrupt and no fresh start process, insolvency resolution process or bankruptcy process is pending against him. He has not obtained any fresh start order during the preceding twelve months.</p><p>Arjun does not own any dwelling unit. He decides to make an application for a fresh start under the Insolvency and Bankruptcy Code, 2016. He files the application himself without engaging a resolution professional. On filing the application, one of his creditors proposes to initiate legal proceedings for recovery of its outstanding debt.</p><p>Based on the provisions of the Insolvency and Bankruptcy Code, 2016 relating to the Fresh Start Process, answer the following questions:</p>",
+  "questions": [
+    {
+      "question": "Whether Arjun satisfies the financial eligibility conditions for making an application for a fresh start process?",
+      "options": [
+        "No, because his annual income exceeds ₹50,000",
+        "No, because his qualifying debts exceed ₹30,000",
+        "Yes, because his income, assets and qualifying debts are within the prescribed limits",
+        "No, because only a resolution professional can make an application"
+      ],
+      "answer": 2,
+      "reason": "Under Section 80, the gross annual income must not exceed ₹60,000, aggregate value of assets must not exceed ₹20,000 and aggregate qualifying debts must not exceed ₹35,000. Arjun satisfies all these financial conditions."
+    },
+    {
+      "question": "Which of the following facts is relevant for Arjun's eligibility for the fresh start process?",
+      "options": [
+        "He must own at least one dwelling unit",
+        "He must not own a dwelling unit",
+        "He must own a dwelling unit worth less than ₹20,000",
+        "He may own a dwelling unit provided it is mortgaged"
+      ],
+      "answer": 1,
+      "reason": "Section 80 requires that the debtor must not own a dwelling unit, irrespective of whether such dwelling unit is encumbered or not."
+    },
+    {
+      "question": "What happens immediately upon filing Arjun's application for fresh start?",
+      "options": [
+        "A moratorium of 180 days immediately begins",
+        "An interim-moratorium commences",
+        "All his qualifying debts are immediately discharged",
+        "A bankruptcy order is deemed to have been passed"
+      ],
+      "answer": 1,
+      "reason": "Under Section 81, an interim-moratorium commences on the date of filing of the application and continues until admission or rejection of the application."
+    },
+    {
+      "question": "During the interim-moratorium, can Arjun's creditor initiate legal proceedings for recovery of the debt?",
+      "options": [
+        "Yes, with permission of the resolution professional",
+        "Yes, because the application has not yet been admitted",
+        "No, creditors cannot initiate legal action or proceedings in respect of such debt",
+        "Yes, if the debt exceeds ₹10,000"
+      ],
+      "answer": 2,
+      "reason": "During the interim-moratorium under Section 81, no creditor can initiate legal action or proceedings in respect of such debt and pending proceedings are deemed to have been stayed."
+    },
+    {
+      "question": "Since Arjun filed the application himself without a resolution professional, within what period shall the Adjudicating Authority direct the Board to nominate a resolution professional?",
+      "options": [
+        "3 days",
+        "7 days",
+        "10 days",
+        "14 days"
+      ],
+      "answer": 1,
+      "reason": "Under Section 82, where the application is filed by the debtor himself, the Adjudicating Authority shall direct the Board within 7 days of receipt of the application to nominate a resolution professional."
+    }
+  ]
+},
+
+{
+  "caseText": "<p>Mr. Karan is undergoing a fresh start process under the Insolvency and Bankruptcy Code, 2016. His application was admitted by the Adjudicating Authority on 1st April. Consequently, a moratorium commenced in respect of all his debts.</p><p>During the moratorium period, Karan proposes to sell some of his assets to his brother. He also wishes to accept appointment as a director of XYZ Limited and plans to travel outside India for a business meeting without seeking permission from the Adjudicating Authority.</p><p>One of Karan's creditors subsequently discovers that the amount of its debt has been incorrectly specified in the order admitting the fresh start application. The creditor receives the order and proposes to object to the incorrect details.</p><p>Based on the above facts and the provisions relating to the Fresh Start Process, answer the following questions:</p>",
+  "questions": [
+    {
+      "question": "What is the maximum period for which the moratorium under the fresh start process ordinarily continues?",
+      "options": [
+        "90 days",
+        "120 days",
+        "180 days",
+        "270 days"
+      ],
+      "answer": 2,
+      "reason": "Under Section 85, the moratorium ceases to have effect at the end of 180 days beginning with the date of admission, unless the admission order is revoked earlier."
+    },
+    {
+      "question": "Can Karan act as a director of XYZ Limited during the moratorium period?",
+      "options": [
+        "Yes, without any restriction",
+        "Yes, with the approval of creditors",
+        "No",
+        "Yes, if he is appointed as a non-executive director"
+      ],
+      "answer": 2,
+      "reason": "Section 85 provides that during the moratorium period the debtor shall not act as a director of any company or directly or indirectly participate in its promotion, formation or management."
+    },
+    {
+      "question": "Can Karan dispose of or alienate his assets during the moratorium period?",
+      "options": [
+        "Yes, if sold to a relative",
+        "Yes, if consideration is received in cash",
+        "No",
+        "Yes, after informing the resolution professional"
+      ],
+      "answer": 2,
+      "reason": "Section 85 prohibits the debtor from disposing of or alienating any of his assets during the moratorium period."
+    },
+    {
+      "question": "Can Karan travel outside India during the fresh start moratorium?",
+      "options": [
+        "Yes, without any restriction",
+        "Yes, but only after obtaining permission of the Adjudicating Authority",
+        "Yes, after informing creditors",
+        "No, under any circumstances"
+      ],
+      "answer": 1,
+      "reason": "Under Section 85, the debtor cannot travel outside India except with the permission of the Adjudicating Authority."
+    },
+    {
+      "question": "Within what period can the creditor object to the incorrect details of its qualifying debt?",
+      "options": [
+        "7 days from receipt of the order",
+        "10 days from receipt of the order",
+        "14 days from receipt of the order",
+        "21 days from receipt of the order"
+      ],
+      "answer": 1,
+      "reason": "Under Section 86, a creditor may object within 10 days from the date of receipt of the order under Section 84 regarding inclusion of a qualifying debt or incorrectness of its details."
+    }
+  ]
+},
+
+{
+  "caseText": "<p>Mr. Rohan is a partner of M/s RST & Co., a partnership firm consisting of Rohan, Suresh and Tarun. The firm has defaulted in repayment of its debts. Rohan wants to initiate an insolvency resolution process in respect of the firm. However, Suresh agrees with Rohan while Tarun refuses to join the application.</p><p>Separately, a creditor of the firm serves a demand notice upon the debtor. Even after expiry of 14 days from service of the notice, the debt remains unpaid. The creditor therefore decides to initiate insolvency resolution proceedings.</p><p>The application is subsequently admitted by the Adjudicating Authority. The Adjudicating Authority issues a public notice inviting claims from creditors. After receipt of claims, the resolution professional prepares the list of creditors. The debtor thereafter prepares a repayment plan in consultation with the resolution professional.</p><p>Based on the above facts and the Insolvency and Bankruptcy Code, 2016, answer the following questions:</p>",
+  "questions": [
+    {
+      "question": "Can Rohan and Suresh jointly initiate insolvency resolution process in respect of the partnership firm despite Tarun's refusal?",
+      "options": [
+        "No, consent of every partner is mandatory",
+        "Yes, because all or a majority of partners may jointly file the application",
+        "No, only a creditor can initiate the process against a partnership firm",
+        "Yes, Rohan alone could also initiate the process"
+      ],
+      "answer": 1,
+      "reason": "Under Section 94, where the debtor is a partner of a firm, an application in respect of the firm must be filed jointly by all or a majority of the partners. Rohan and Suresh constitute the majority."
+    },
+    {
+      "question": "Which condition relating to the demand notice is relevant where the creditor initiates the insolvency resolution process?",
+      "options": [
+        "Debt must remain unpaid for 7 days after service of notice",
+        "Debt must remain unpaid for 10 days after service of notice",
+        "Debt must remain unpaid for 14 days after service of notice",
+        "Debt must remain unpaid for 30 days after service of notice"
+      ],
+      "answer": 2,
+      "reason": "Section 95 requires details relating to the failure of the debtor to pay the debt within 14 days of service of the notice of demand."
+    },
+    {
+      "question": "Within what period from the order of admission shall the Adjudicating Authority issue a public notice inviting claims?",
+      "options": [
+        "Within 7 days",
+        "Within 10 days",
+        "Within 14 days",
+        "Within 21 days"
+      ],
+      "answer": 0,
+      "reason": "Under Section 102, the Adjudicating Authority shall issue a public notice within 7 days of passing the order under Section 100."
+    },
+    {
+      "question": "Creditors are required to submit their claims within what period from the issue of the public notice?",
+      "options": [
+        "7 days",
+        "14 days",
+        "21 days",
+        "30 days"
+      ],
+      "answer": 2,
+      "reason": "Section 102 provides that the public notice shall invite claims from all creditors within 21 days of its issue."
+    },
+    {
+      "question": "Who prepares the repayment plan?",
+      "options": [
+        "Resolution professional independently",
+        "Committee of creditors",
+        "Debtor in consultation with the resolution professional",
+        "Adjudicating Authority in consultation with creditors"
+      ],
+      "answer": 2,
+      "reason": "Under Section 105, the debtor prepares the repayment plan in consultation with the resolution professional containing a proposal to creditors for restructuring his debts or affairs."
+    }
+  ]
+},
+
+{
+  "caseText": "<p>Mr. Dev is undergoing an insolvency resolution process. A repayment plan has been prepared and a meeting of creditors is convened to consider the plan. ABC Bank is a secured creditor and wishes to participate and vote on the repayment plan while retaining its right to enforce its security. Another creditor, Mr. Raj, is an associate of Dev.</p><p>At the meeting, creditors representing 78% in value of the creditors present and voting support the repayment plan. The resolution professional accordingly submits the report of the meeting to the Adjudicating Authority. The Adjudicating Authority approves the repayment plan and directs its implementation.</p><p>However, despite attempts to implement the plan, it is not fully implemented within the period specified therein. Certain creditors remain unpaid. The resolution professional submits the required report to the Adjudicating Authority.</p><p>Based on the above facts and the provisions of the Insolvency and Bankruptcy Code, 2016, answer the following questions:</p>",
+  "questions": [
+    {
+      "question": "Is Mr. Raj, being an associate of the debtor, entitled to vote at the meeting of creditors?",
+      "options": [
+        "Yes, every creditor has an unconditional right to vote",
+        "Yes, if his debt exceeds ₹1 lakh",
+        "No, an associate of the debtor is not entitled to vote",
+        "No, unless the Adjudicating Authority gives prior approval"
+      ],
+      "answer": 2,
+      "reason": "Under Section 109, a creditor who is an associate of the debtor is not entitled to vote at the meeting of creditors."
+    },
+    {
+      "question": "If ABC Bank wants to retain its right to enforce security, its voting right will ordinarily be restricted to:",
+      "options": [
+        "The entire secured debt",
+        "Only the unsecured part of its debt",
+        "50% of the secured debt",
+        "It cannot vote at all"
+      ],
+      "answer": 1,
+      "reason": "Under Section 110, where a secured creditor does not forfeit the right to enforce security, it must submit an affidavit stating that its voting right is exercised only in respect of the unsecured part of the debt and stating the estimated value thereof."
+    },
+    {
+      "question": "Is 78% in value of the creditors present and voting sufficient to approve the repayment plan?",
+      "options": [
+        "No, approval requires 100%",
+        "No, approval requires at least 90%",
+        "Yes, because approval requires a majority of more than three-fourths in value",
+        "No, exactly 80% approval is required"
+      ],
+      "answer": 2,
+      "reason": "Under Section 111, the repayment plan or modification thereof requires approval by a majority of more than three-fourths in value of creditors present in person or by proxy and voting. Therefore, 78% satisfies the requirement."
+    },
+    {
+      "question": "What is the effect of approval of the repayment plan by the Adjudicating Authority?",
+      "options": [
+        "It binds only those creditors who voted in favour",
+        "It binds only secured creditors",
+        "It becomes binding on the creditors mentioned in the repayment plan and the debtor",
+        "It is merely recommendatory"
+      ],
+      "answer": 2,
+      "reason": "Under Section 115, once approved by the Adjudicating Authority, the repayment plan takes effect as if proposed by the debtor in the meeting and becomes binding on the creditors mentioned in the repayment plan and the debtor."
+    },
+    {
+      "question": "Since the repayment plan was not fully implemented within the period specified, which of the following is correct?",
+      "options": [
+        "The repayment plan automatically extends for another 180 days",
+        "The repayment plan is deemed to have come to an end prematurely",
+        "All unpaid debts are automatically discharged",
+        "The creditors permanently lose their right to recover the unpaid amounts"
+      ],
+      "answer": 1,
+      "reason": "Under Section 118, a repayment plan is deemed to have come to an end prematurely if it has not been fully implemented in respect of all persons bound by it within the period mentioned in the repayment plan. The debtor or creditors whose claims have not been fully satisfied may thereafter become entitled to apply for a bankruptcy order."
+    }
+  ]
+},
+
+  /* ===========================
+     EASY – 5 MCQs
+  =========================== */
+
+  {
+    id: "IBC_CH4_001",
+    difficulty: "easy",
+    question: "What is the minimum amount of default specified under Section 78 for the application of Part III of the Insolvency and Bankruptcy Code, 2016?",
+    options: [
+      "₹500",
+      "₹1,000",
+      "₹10,000",
+      "₹1,00,000"
+    ],
+    answer: 1,
+    reason: "Under Section 78, the minimum amount of default is ₹1,000. The Central Government may specify a higher minimum amount by notification, but such amount shall not exceed ₹1 lakh."
+  },
+
+  {
+    id: "IBC_CH4_002",
+    difficulty: "easy",
+    question: "For the purpose of Part III of the Insolvency and Bankruptcy Code, 2016, 'Adjudicating Authority' means:",
+    options: [
+      "National Company Law Tribunal",
+      "National Company Law Appellate Tribunal",
+      "Debt Recovery Tribunal",
+      "Debt Recovery Appellate Tribunal"
+    ],
+    answer: 2,
+    reason: "As per Section 79, the Adjudicating Authority means the Debt Recovery Tribunal constituted under Section 3(1) of the Recovery of Debts Due to Banks and Financial Institutions Act, 1993."
+  },
+
+  {
+    id: "IBC_CH4_003",
+    difficulty: "easy",
+    question: "Which of the following is NOT included in the immediate family of a debtor?",
+    options: [
+      "Spouse",
+      "Dependent children",
+      "Dependent parents",
+      "Brother"
+    ],
+    answer: 3,
+    reason: "Under Section 79, immediate family of the debtor means his spouse, dependent children and dependent parents. Brother is not included in this definition."
+  },
+
+  {
+    id: "IBC_CH4_004",
+    difficulty: "easy",
+    question: "For eligibility under the Fresh Start Process, the aggregate value of qualifying debts of the debtor shall not exceed:",
+    options: [
+      "₹20,000",
+      "₹25,000",
+      "₹35,000",
+      "₹60,000"
+    ],
+    answer: 2,
+    reason: "Under Section 80, one of the eligibility conditions for a Fresh Start Process is that the aggregate value of qualifying debts shall not exceed ₹35,000."
+  },
+
+  {
+    id: "IBC_CH4_005",
+    difficulty: "easy",
+    question: "Under Section 111, a repayment plan is approved by creditors if it receives approval of:",
+    options: [
+      "More than one-half in value of creditors present and voting",
+      "At least two-thirds in value of creditors present and voting",
+      "More than three-fourths in value of creditors present in person or by proxy and voting",
+      "All creditors unanimously"
+    ],
+    answer: 2,
+    reason: "Section 111 requires a majority of more than three-fourths in value of creditors present in person or by proxy and voting for approval of the repayment plan or any modification thereof."
+  },
+
+
+  /* ===========================
+     MEDIUM – 5 MCQs
+  =========================== */
+
+  {
+    id: "IBC_CH4_006",
+    difficulty: "medium",
+    question: "A debtor has gross annual income of ₹58,000, assets worth ₹19,000 and qualifying debts of ₹34,000. He is not an undischarged bankrupt and no insolvency process is pending against him. However, he owns a dwelling unit which is fully mortgaged to a bank. Which of the following is correct regarding his eligibility for a Fresh Start Process?",
+    options: [
+      "He is eligible because the dwelling unit is fully encumbered",
+      "He is eligible because all the monetary limits under Section 80 are satisfied",
+      "He is not eligible because he owns a dwelling unit, irrespective of whether it is encumbered or not",
+      "He is eligible only if the value of the dwelling unit does not exceed ₹20 lakh"
+    ],
+    answer: 2,
+    reason: "Under Section 80, the debtor must not own a dwelling unit irrespective of whether it is encumbered or not. Therefore, satisfaction of the monetary limits alone is insufficient."
+  },
+
+  {
+    id: "IBC_CH4_007",
+    difficulty: "medium",
+    question: "A Fresh Start application is admitted on 10th January. During the moratorium, the debtor wants to travel outside India for an urgent business purpose. Which of the following is correct?",
+    options: [
+      "The debtor can travel freely after informing the resolution professional",
+      "The debtor cannot travel outside India under any circumstances",
+      "The debtor can travel outside India with the permission of the Adjudicating Authority",
+      "The debtor can travel outside India with approval of more than 75% of creditors"
+    ],
+    answer: 2,
+    reason: "Section 85 provides that during the moratorium period the debtor shall not travel outside India except with the permission of the Adjudicating Authority."
+  },
+
+  {
+    id: "IBC_CH4_008",
+    difficulty: "medium",
+    question: "A creditor files an application under Section 95 for initiating an insolvency resolution process. The debt claimed by the creditor is registered with an information utility. The debtor disputes the validity of such debt before the resolution professional. Which of the following is correct?",
+    options: [
+      "The debtor may dispute the debt by producing oral evidence",
+      "The debtor may dispute the debt only with permission of the Adjudicating Authority",
+      "The debtor is not entitled to dispute the validity of such debt",
+      "The debt must first be confirmed by all other creditors"
+    ],
+    answer: 2,
+    reason: "Under Section 99, where the debt for which an application has been filed by a creditor is registered with an information utility, the debtor shall not be entitled to dispute the validity of such debt."
+  },
+
+  {
+    id: "IBC_CH4_009",
+    difficulty: "medium",
+    question: "A secured creditor participates in the meeting of creditors and wants to vote on the repayment plan without forfeiting its right to enforce the security. What should the creditor do?",
+    options: [
+      "Vote in respect of the entire debt without any additional requirement",
+      "Abstain completely from voting",
+      "Submit an affidavit stating that the voting right is exercised only in respect of the unsecured part of the debt and specify its estimated value",
+      "Obtain prior permission from the Adjudicating Authority to vote in respect of the secured debt"
+    ],
+    answer: 2,
+    reason: "Under Section 110, where a secured creditor does not forfeit the right to enforce security, it must submit an affidavit stating that its voting right is exercised only in respect of the unsecured part of the debt and specifying the estimated value of such unsecured part."
+  },
+
+  {
+    id: "IBC_CH4_010",
+    difficulty: "medium",
+    question: "Which of the following circumstances does NOT, by itself, permit filing of an application for bankruptcy under Section 121?",
+    options: [
+      "Rejection of an insolvency application because it was made with the intention to defraud creditors or the resolution professional",
+      "Rejection of the repayment plan by the Adjudicating Authority",
+      "Repayment plan not being completely implemented",
+      "Mere filing of an application for insolvency resolution under Section 94"
+    ],
+    answer: 3,
+    reason: "Under Section 121, bankruptcy may be applied for where an order has been passed under Section 100(4), Section 115(2), or Section 118(3). Mere filing of an insolvency resolution application under Section 94 does not by itself give a right to apply for bankruptcy."
+  },
+
+  /* =========================================================
+     CASE SCENARIO 1 — EASY
+     Sections 124, 125 & 126
+  ========================================================= */
+  {
+    case_id: "IBC_CS_01",
+    difficulty: "Easy",
+    case_chapter: ["Bankruptcy Process", "Sections 124-126"],
+
+    caseText: `
+      <p>Mr. Arjun, an individual debtor, is facing serious financial difficulties. An application for bankruptcy is filed in respect of him. On the date of making the application, certain legal proceedings concerning his debts are already pending against his properties.</p>
+
+      <p>An insolvency professional, Mr. K, is proposed as the bankruptcy trustee in the application. The Adjudicating Authority receives the application and initiates the process for obtaining confirmation from the Board regarding Mr. K.</p>
+
+      <p>The Board subsequently confirms that there are no disciplinary proceedings pending against Mr. K and confirms his appointment. The Adjudicating Authority thereafter proceeds with the bankruptcy process in accordance with the Insolvency and Bankruptcy Code, 2016.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "IBC_CS_01_Q1",
+        difficulty: "Easy",
+        question: "When does the interim-moratorium commence in the above case?",
+        options: [
+          "From the date of admission of the application",
+          "From the date of making of the application",
+          "From the date of appointment of the bankruptcy trustee",
+          "From the bankruptcy commencement date"
+        ],
+        answer: 1,
+        solution_html: `
+          <p><strong>Answer: (b)</strong></p>
+          <p>Under Section 124, the interim-moratorium commences <strong>on the date of making of the application</strong>.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_01_Q2",
+        difficulty: "Easy",
+        question: "What happens to pending legal proceedings against the property of Arjun in respect of his debts during the interim-moratorium?",
+        options: [
+          "They continue until the bankruptcy order is passed",
+          "They are deemed to have been stayed",
+          "They are permanently terminated",
+          "They continue with the permission of creditors"
+        ],
+        answer: 1,
+        solution_html: `
+          <p><strong>Answer: (b)</strong></p>
+          <p>Section 124 provides that pending legal actions or proceedings against any property of the debtor in respect of his debts shall be <strong>deemed to have been stayed</strong>.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_01_Q3",
+        difficulty: "Easy",
+        question: "Within how many days of receiving the bankruptcy application shall the Adjudicating Authority direct the Board to confirm the proposed insolvency professional?",
+        options: [
+          "3 days",
+          "7 days",
+          "10 days",
+          "14 days"
+        ],
+        answer: 1,
+        solution_html: `
+          <p><strong>Answer: (b)</strong></p>
+          <p>Under Section 125, where an insolvency professional is proposed, the Adjudicating Authority shall direct the Board <strong>within 7 days</strong> of receiving the application.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_01_Q4",
+        difficulty: "Easy",
+        question: "Within what period must the Board respond to the direction regarding confirmation of the proposed bankruptcy trustee?",
+        options: [
+          "7 days",
+          "10 days",
+          "14 days",
+          "21 days"
+        ],
+        answer: 1,
+        solution_html: `
+          <p><strong>Answer: (b)</strong></p>
+          <p>The Board shall, <strong>within 10 days</strong> of receipt of the direction, either confirm the proposed professional or reject him and nominate another bankruptcy trustee.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_01_Q5",
+        difficulty: "Easy",
+        question: "Within how many days of receiving confirmation or nomination of the bankruptcy trustee must the Adjudicating Authority pass the bankruptcy order?",
+        options: [
+          "7 days",
+          "10 days",
+          "14 days",
+          "21 days"
+        ],
+        answer: 2,
+        solution_html: `
+          <p><strong>Answer: (c)</strong></p>
+          <p>Under Section 126, the Adjudicating Authority shall pass the bankruptcy order <strong>within 14 days</strong> of receiving confirmation or nomination of the bankruptcy trustee.</p>
+        `
+      }
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 2 — EASY
+     Sections 130-135
+  ========================================================= */
+  {
+    case_id: "IBC_CS_02",
+    difficulty: "Easy",
+    case_chapter: ["Bankruptcy Process", "Creditors and Voting"],
+
+    caseText: `
+      <p>A bankruptcy order has been passed against Mr. Bharat. The Adjudicating Authority initiates the process of notifying creditors and inviting their claims. A public notice is issued and the creditors submit their claims to the bankruptcy trustee.</p>
+
+      <p>After considering the relevant information and claims, the bankruptcy trustee prepares the list of creditors. He thereafter calls a meeting of creditors. Some creditors propose to attend personally while others intend to participate through proxies.</p>
+
+      <p>One creditor whose debt is for an unliquidated amount also seeks to exercise voting rights at the meeting.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "IBC_CS_02_Q1",
+        difficulty: "Easy",
+        question: "Within how many days of publication of the public notice are creditors required under Section 131 to register their claims with the bankruptcy trustee?",
+        options: [
+          "3 days",
+          "7 days",
+          "10 days",
+          "14 days"
+        ],
+        answer: 1,
+        solution_html: `
+          <p><strong>Answer: (b)</strong></p>
+          <p>Under Section 131, creditors shall register their claims with the bankruptcy trustee <strong>within 7 days of publication of the public notice</strong>.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_02_Q2",
+        difficulty: "Easy",
+        question: "Within what period from the bankruptcy commencement date must the bankruptcy trustee prepare the list of creditors?",
+        options: [
+          "7 days",
+          "10 days",
+          "14 days",
+          "21 days"
+        ],
+        answer: 2,
+        solution_html: `
+          <p><strong>Answer: (c)</strong></p>
+          <p>Under Section 132, the bankruptcy trustee shall prepare the list of creditors <strong>within 14 days from the bankruptcy commencement date</strong>.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_02_Q3",
+        difficulty: "Easy",
+        question: "Who acts as the convener of the meeting of creditors?",
+        options: [
+          "Adjudicating Authority",
+          "Largest secured creditor",
+          "Bankruptcy trustee",
+          "Resolution professional appointed by creditors"
+        ],
+        answer: 2,
+        solution_html: `
+          <p><strong>Answer: (c)</strong></p>
+          <p>Under Section 134, the <strong>bankruptcy trustee</strong> is the convener of the meeting of creditors.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_02_Q4",
+        difficulty: "Easy",
+        question: "Who decides the quorum for the meeting of creditors?",
+        options: [
+          "Adjudicating Authority",
+          "Bankruptcy trustee",
+          "Committee of creditors",
+          "Creditors having at least 75% voting share"
+        ],
+        answer: 1,
+        solution_html: `
+          <p><strong>Answer: (b)</strong></p>
+          <p>Section 134 provides that the <strong>bankruptcy trustee shall decide the quorum</strong> and conduct the meeting only if such quorum is present.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_02_Q5",
+        difficulty: "Easy",
+        question: "Can the creditor having an unliquidated debt vote at the meeting?",
+        options: [
+          "Yes, without restriction",
+          "Yes, if permitted by the bankruptcy trustee",
+          "No, a creditor cannot vote in respect of a debt for an unliquidated amount",
+          "Yes, but only through a proxy"
+        ],
+        answer: 2,
+        solution_html: `
+          <p><strong>Answer: (c)</strong></p>
+          <p>Under Section 135, a creditor <strong>shall not be entitled to vote in respect of a debt for an unliquidated amount</strong>.</p>
+        `
+      }
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 3 — MEDIUM
+     Sections 138-142
+  ========================================================= */
+  {
+    case_id: "IBC_CS_03",
+    difficulty: "Medium",
+    case_chapter: ["Discharge", "Restrictions on Bankrupt"],
+
+    caseText: `
+      <p>A bankruptcy order is passed against Mr. Charan. After the bankruptcy commencement date, Charan continues participating in the management of a company in which he had been actively involved before bankruptcy.</p>
+
+      <p>He also proposes to create a charge over part of his estate to obtain additional finance. He does not obtain the previous sanction of the bankruptcy trustee for creating the charge. Further, Charan plans to travel overseas for a business meeting without approaching the Adjudicating Authority.</p>
+
+      <p>Subsequently, the administration of his estate is completed earlier than one year from the bankruptcy commencement date and the committee of creditors approves the completion of administration. Certain bankruptcy debts, however, arose from fraud committed by Charan.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "IBC_CS_03_Q1",
+        difficulty: "Medium",
+        question: "Which of the following correctly describes Charan's participation in the management of the company after the bankruptcy commencement date?",
+        options: [
+          "Permitted because he was involved in the company before bankruptcy",
+          "Permitted with approval of the committee of creditors",
+          "Restricted under Section 141",
+          "Permitted until a discharge order is passed"
+        ],
+        answer: 2,
+        solution_html: `
+          <p><strong>Answer: (c)</strong></p>
+          <p>Under Section 141, a bankrupt shall <strong>not act as a director or directly or indirectly take part in or be concerned in the promotion, formation or management of a company</strong>.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_03_Q2",
+        difficulty: "Medium",
+        question: "Whose previous sanction is required before Charan creates a charge on his estate?",
+        options: [
+          "Adjudicating Authority",
+          "Bankruptcy trustee",
+          "Board",
+          "Committee of creditors"
+        ],
+        answer: 1,
+        solution_html: `
+          <p><strong>Answer: (b)</strong></p>
+          <p>Under Section 141, creation of a charge on the bankrupt's estate or taking further debt requires the <strong>previous sanction of the bankruptcy trustee</strong>.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_03_Q3",
+        difficulty: "Medium",
+        question: "Can Charan travel overseas without obtaining any permission?",
+        options: [
+          "Yes, if the journey is for business",
+          "Yes, after informing the bankruptcy trustee",
+          "No, permission of the Adjudicating Authority is required",
+          "No, overseas travel is absolutely prohibited until one year has expired"
+        ],
+        answer: 2,
+        solution_html: `
+          <p><strong>Answer: (c)</strong></p>
+          <p>Section 141 provides that a bankrupt shall <strong>not be permitted to travel overseas without permission of the Adjudicating Authority</strong>.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_03_Q4",
+        difficulty: "Medium",
+        question: "If the committee of creditors approves completion of administration before expiry of one year, when must the bankruptcy trustee apply for the discharge order?",
+        options: [
+          "Immediately on approval",
+          "Within 3 days of approval",
+          "Within 7 days of approval",
+          "Only after expiry of one year"
+        ],
+        answer: 2,
+        solution_html: `
+          <p><strong>Answer: (c)</strong></p>
+          <p>Under Section 138, where approval is obtained before expiry of one year, the bankruptcy trustee shall apply for a discharge order <strong>within 7 days of such approval</strong>.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_03_Q5",
+        difficulty: "Medium",
+        question: "What is the effect of the discharge order on debts incurred by Charan by means of fraud?",
+        options: [
+          "All such debts are automatically released",
+          "Only 50% of such debts are released",
+          "Such debts are not released by the discharge",
+          "They are released if the committee of creditors approves"
+        ],
+        answer: 2,
+        solution_html: `
+          <p><strong>Answer: (c)</strong></p>
+          <p>Under Section 139, discharge does <strong>not release the bankrupt from any debt incurred by means of fraud or breach of trust</strong> to which he was a party.</p>
+        `
+      }
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 4 — MEDIUM
+     Sections 145-148
+  ========================================================= */
+  {
+    case_id: "IBC_CS_04",
+    difficulty: "Medium",
+    case_chapter: ["Bankruptcy Trustee", "Replacement and Resignation"],
+
+    caseText: `
+      <p>Ms. Divya has been appointed as the bankruptcy trustee in the bankruptcy process of an individual debtor. During the process, several creditors become dissatisfied with her handling of the estate and propose her replacement.</p>
+
+      <p>At a meeting of the committee of creditors, creditors having 76% of the voting share vote in favour of replacing Divya. The committee accordingly approaches the Adjudicating Authority.</p>
+
+      <p>Separately, assume that instead of being replaced by the committee, Divya wishes to resign because a subsequent change in circumstances has created a conflict of interest which prevents her from properly discharging her duties.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "IBC_CS_04_Q1",
+        difficulty: "Medium",
+        question: "Is the 76% vote sufficient for the committee of creditors to propose replacement of Divya?",
+        options: [
+          "No, at least 90% is required",
+          "No, at least 80% is required",
+          "Yes, because at least 75% voting share is required",
+          "Yes, because only a simple majority is required"
+        ],
+        answer: 2,
+        solution_html: `
+          <p><strong>Answer: (c)</strong></p>
+          <p>Under Section 145, the committee of creditors may propose replacement of the bankruptcy trustee by a vote of <strong>75% of voting share</strong>. Therefore, 76% is sufficient.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_04_Q2",
+        difficulty: "Medium",
+        question: "After receiving the committee's application for replacement, within what period must the Adjudicating Authority direct the Board to recommend a replacement?",
+        options: [
+          "3 days",
+          "7 days",
+          "10 days",
+          "14 days"
+        ],
+        answer: 1,
+        solution_html: `
+          <p><strong>Answer: (b)</strong></p>
+          <p>The Adjudicating Authority shall, <strong>within 7 days</strong> of receiving the application, direct the Board to recommend a replacement bankruptcy trustee.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_04_Q3",
+        difficulty: "Medium",
+        question: "Within what period must the Board recommend a bankruptcy trustee for replacement after receiving the direction of the Adjudicating Authority?",
+        options: [
+          "7 days",
+          "10 days",
+          "14 days",
+          "21 days"
+        ],
+        answer: 1,
+        solution_html: `
+          <p><strong>Answer: (b)</strong></p>
+          <p>Under Section 145, the Board shall recommend a replacement <strong>within 10 days</strong> of the direction.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_04_Q4",
+        difficulty: "Medium",
+        question: "Is conflict of interest a valid ground for Divya to resign as bankruptcy trustee?",
+        options: [
+          "No, a bankruptcy trustee can never resign",
+          "Yes",
+          "Only if 75% of creditors approve",
+          "Only after completion of administration"
+        ],
+        answer: 1,
+        solution_html: `
+          <p><strong>Answer: (b)</strong></p>
+          <p>Section 146 permits resignation where there is a <strong>conflict of interest or change of personal circumstances</strong> which precludes further discharge of the bankruptcy trustee's duties.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_04_Q5",
+        difficulty: "Medium",
+        question: "When is the earlier bankruptcy trustee released from office in case of replacement?",
+        options: [
+          "On the date the committee passes the replacement resolution",
+          "On the date the application for replacement is filed",
+          "On the date the Adjudicating Authority passes an order appointing the new bankruptcy trustee",
+          "Seven days after appointment of the new trustee"
+        ],
+        answer: 2,
+        solution_html: `
+          <p><strong>Answer: (c)</strong></p>
+          <p>Under Section 148, the earlier bankruptcy trustee is released <strong>with effect from the date on which the Adjudicating Authority passes an order appointing the new bankruptcy trustee</strong>.</p>
+        `
+      }
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 5 — MEDIUM
+     Sections 164, 165, 167 & 178
+  ========================================================= */
+  {
+    case_id: "IBC_CS_05",
+    difficulty: "Medium",
+    case_chapter: ["Avoidance Transactions", "Priority of Payments"],
+
+    caseText: `
+      <p>Mr. Eshan is declared bankrupt. During examination of his previous transactions, the bankruptcy trustee discovers several transactions entered into before the bankruptcy proceedings.</p>
+
+      <p>Eighteen months before the application for bankruptcy, Eshan transferred valuable property to an associate for consideration significantly lower than its actual value. The transaction was not undertaken in the ordinary course of Eshan's business.</p>
+
+      <p>Five months before the bankruptcy application, Eshan also made a payment to an unrelated creditor which placed that creditor in a better position than it would otherwise have occupied if Eshan became bankrupt. The circumstances establish the required desire to prefer that creditor.</p>
+
+      <p>The trustee further discovers that eighteen months before the bankruptcy commencement date Eshan had obtained credit from an unregulated lender on terms requiring exorbitant payments.</p>
+
+      <p>After realising the estate, the bankruptcy trustee has to distribute the available amount among various classes of creditors.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "IBC_CS_05_Q1",
+        difficulty: "Medium",
+        question: "How should the transfer of property to Eshan's associate eighteen months before the bankruptcy application be treated under Section 164?",
+        options: [
+          "It cannot be examined because only transactions within six months are covered",
+          "It is deemed to be an undervalued transaction since it was with an associate within the relevant two-year period",
+          "It is valid merely because some consideration was received",
+          "It can be challenged only if entered into within one year"
+        ],
+        answer: 1,
+        solution_html: `
+          <p><strong>Answer: (b)</strong></p>
+          <p>Under Section 164, a transaction between the bankrupt and his associate entered into during the <strong>two years preceding the date of making the bankruptcy application</strong> is deemed to be an undervalued transaction.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_05_Q2",
+        difficulty: "Medium",
+        question: "What is the relevant look-back period for a preference given to a person who is NOT an associate of the bankrupt?",
+        options: [
+          "3 months",
+          "6 months",
+          "1 year",
+          "2 years"
+        ],
+        answer: 1,
+        solution_html: `
+          <p><strong>Answer: (b)</strong></p>
+          <p>Under Section 165, a preference transaction involving a person other than an associate must have been entered into during the <strong>six months ending on the date of the bankruptcy application</strong>.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_05_Q3",
+        difficulty: "Medium",
+        question: "What is the relevant period for examining the extortionate credit transaction entered into by Eshan?",
+        options: [
+          "Six months ending on the date of application",
+          "One year ending on the date of application",
+          "Two years ending on the bankruptcy commencement date",
+          "Two years ending on the date of application"
+        ],
+        answer: 2,
+        solution_html: `
+          <p><strong>Answer: (c)</strong></p>
+          <p>Under Section 167, an extortionate credit transaction must have been entered into during the <strong>two years ending on the bankruptcy commencement date</strong>.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_05_Q4",
+        difficulty: "Medium",
+        question: "Which of the following debts receives FIRST priority in distribution of the final dividend under Section 178?",
+        options: [
+          "Government dues",
+          "Workmen's dues",
+          "Secured creditors",
+          "Costs and expenses incurred by the bankruptcy trustee for the bankruptcy process"
+        ],
+        answer: 3,
+        solution_html: `
+          <p><strong>Answer: (d)</strong></p>
+          <p>Section 178 gives first priority to the <strong>costs and expenses incurred by the bankruptcy trustee for the bankruptcy process in full</strong>.</p>
+        `
+      },
+      {
+        question_id: "IBC_CS_05_Q5",
+        difficulty: "Medium",
+        question: "Which is the correct sequence of priority under Section 178?",
+        options: [
+          "Bankruptcy costs → Government dues → Workmen and secured creditors → Employees → Other debts",
+          "Bankruptcy costs → Workmen's dues and secured creditors → Employees other than workmen → Government dues → Other debts",
+          "Secured creditors → Bankruptcy costs → Government dues → Employees → Unsecured creditors",
+          "Bankruptcy costs → Employees → Government dues → Secured creditors → Other debts"
+        ],
+        answer: 1,
+        solution_html: `
+          <p><strong>Answer: (b)</strong></p>
+          <p>The priority under Section 178 is:</p>
+          <p><strong>1.</strong> Bankruptcy process costs and expenses<br>
+          <strong>2.</strong> Workmen's dues for 24 months + debts owed to secured creditors<br>
+          <strong>3.</strong> Wages/unpaid dues of employees other than workmen for 12 months<br>
+          <strong>4.</strong> Central and State Government dues for the relevant two-year period<br>
+          <strong>5.</strong> All other debts and dues, including unsecured debts.</p>
+        `
+      }
+    ]
+  },
+
+  /* =========================================================
+     EASY — 5 MCQs
+  ========================================================= */
+
+  {
+    question_id: "IBC_IND_01",
+    difficulty: "Easy",
+    chapter_name: ["Bankruptcy Process", "Section 127"],
+    question: "A bankruptcy order passed by the Adjudicating Authority under Section 126 shall continue to have effect until:",
+    options: [
+      "The bankruptcy trustee completes preparation of the list of creditors",
+      "The debtor is discharged under Section 138",
+      "One year from the bankruptcy commencement date in every case",
+      "The first meeting of creditors is held"
+    ],
+    answer: 1,
+    solution_html: `
+      <p><strong>Answer: (b)</strong></p>
+      <p>As per <strong>Section 127</strong>, the bankruptcy order continues to have effect until the debtor is <strong>discharged under Section 138</strong>.</p>
+    `
+  },
+
+  {
+    question_id: "IBC_IND_02",
+    difficulty: "Easy",
+    chapter_name: ["Bankruptcy Process", "Section 129"],
+    question: "Where a bankruptcy order is passed on an application made by a creditor under Section 123, within what period must the bankrupt submit his statement of financial position to the bankruptcy trustee?",
+    options: [
+      "Within 3 days from the bankruptcy commencement date",
+      "Within 7 days from the bankruptcy commencement date",
+      "Within 10 days from the bankruptcy commencement date",
+      "Within 14 days from the bankruptcy commencement date"
+    ],
+    answer: 1,
+    solution_html: `
+      <p><strong>Answer: (b)</strong></p>
+      <p>Under <strong>Section 129</strong>, where the bankruptcy order is passed on a creditor's application under Section 123, the bankrupt shall submit his statement of financial position <strong>within 7 days from the bankruptcy commencement date</strong>.</p>
+    `
+  },
+
+  {
+    question_id: "IBC_IND_03",
+    difficulty: "Easy",
+    chapter_name: ["Bankruptcy Process", "Section 134"],
+    question: "A meeting of creditors convened under Section 134 shall not be adjourned by the bankruptcy trustee for more than:",
+    options: [
+      "3 days at a time",
+      "7 days at a time",
+      "10 days at a time",
+      "14 days at a time"
+    ],
+    answer: 1,
+    solution_html: `
+      <p><strong>Answer: (b)</strong></p>
+      <p>Under <strong>Section 134</strong>, the bankruptcy trustee shall not adjourn the meeting of creditors for any purpose for <strong>more than 7 days at a time</strong>.</p>
+    `
+  },
+
+  {
+    question_id: "IBC_IND_04",
+    difficulty: "Easy",
+    chapter_name: ["Administration of Estate", "Section 149"],
+    question: "Which of the following is NOT a function of the bankruptcy trustee under Section 149?",
+    options: [
+      "Investigate the affairs of the bankrupt",
+      "Realise the estate of the bankrupt",
+      "Distribute the estate of the bankrupt",
+      "Invest the surplus funds of the bankrupt"
+    ],
+    answer: 3,
+    solution_html: `
+      <p><strong>Answer: (d)</strong></p>
+      <p>Under <strong>Section 149</strong>, the bankruptcy trustee performs three principal functions: investigate the affairs of the bankrupt, realise the estate and distribute the estate.</p>
+      <p><strong>Investing surplus funds</strong> is not stated as a function under this section.</p>
+    `
+  },
+
+  {
+    question_id: "IBC_IND_05",
+    difficulty: "Easy",
+    chapter_name: ["Administration of Estate", "Section 158"],
+    question: "A disposition of property made by the debtor between the date of filing of the application for bankruptcy and the bankruptcy commencement date shall be:",
+    options: [
+      "Valid",
+      "Voidable at the option of the bankruptcy trustee",
+      "Void",
+      "Valid if made for adequate consideration"
+    ],
+    answer: 2,
+    solution_html: `
+      <p><strong>Answer: (c)</strong></p>
+      <p>Under <strong>Section 158</strong>, any disposition of property made by the debtor during the period between filing of the bankruptcy application and the bankruptcy commencement date shall be <strong>void</strong>.</p>
+    `
+  },
+
+
+  /* =========================================================
+     MEDIUM — 5 MCQs
+  ========================================================= */
+
+  {
+    question_id: "IBC_IND_06",
+    difficulty: "Medium",
+    chapter_name: ["Administration of Estate", "Section 159"],
+    question: "The bankruptcy trustee comes to know on 1st August that certain after-acquired property has devolved upon the bankrupt. Ordinarily, by when must the trustee give notice claiming such property for the estate?",
+    options: [
+      "Within 7 days from the date of acquisition, irrespective of knowledge",
+      "Within 10 days from the date on which the property was acquired",
+      "Within 15 days from the day on which the acquisition or devolution comes to his knowledge",
+      "Within 30 days from the bankruptcy commencement date"
+    ],
+    answer: 2,
+    solution_html: `
+      <p><strong>Answer: (c)</strong></p>
+      <p>Under <strong>Section 159</strong>, notice must ordinarily be given <strong>within 15 days from the day on which the acquisition or devolution of the after-acquired property comes to the knowledge of the bankruptcy trustee</strong>.</p>
+      <p>A notice after this period may be served only with the approval of the Adjudicating Authority.</p>
+    `
+  },
+
+  {
+    question_id: "IBC_IND_07",
+    difficulty: "Medium",
+    chapter_name: ["Administration of Estate", "Section 160"],
+    question: "Which of the following is included within the meaning of 'onerous property' for the purposes of Section 160?",
+    options: [
+      "Only immovable property subject to a mortgage",
+      "Only property having a value below its acquisition cost",
+      "An unprofitable contract or property which is unsaleable or not readily saleable or may give rise to a claim",
+      "Every property acquired by the bankrupt after the bankruptcy commencement date"
+    ],
+    answer: 2,
+    solution_html: `
+      <p><strong>Answer: (c)</strong></p>
+      <p>For the purposes of <strong>Section 160</strong>, onerous property includes:</p>
+      <p>(i) any <strong>unprofitable contract</strong>; and<br>
+      (ii) property comprised in the estate which is <strong>unsaleable or not readily saleable, or may give rise to a claim</strong>.</p>
+    `
+  },
+
+  {
+    question_id: "IBC_IND_08",
+    difficulty: "Medium",
+    chapter_name: ["Avoidance Transactions", "Sections 164 & 165"],
+    question: "Which of the following correctly matches the relevant period with the transaction?",
+    options: [
+      "Preference to an associate — 6 months ending on the bankruptcy application date",
+      "Preference to a non-associate — 2 years ending on the bankruptcy application date",
+      "Undervalued transaction covered by Section 164 — 2 years ending on the filing of the bankruptcy application",
+      "Extortionate credit transaction — 6 months ending on the bankruptcy commencement date"
+    ],
+    answer: 2,
+    solution_html: `
+      <p><strong>Answer: (c)</strong></p>
+      <p>Under <strong>Section 164</strong>, the relevant period for an undervalued transaction is <strong>2 years ending on the filing of the application for bankruptcy</strong>.</p>
+      <p>For preference transactions under Section 165, the relevant period is <strong>2 years for an associate</strong> and <strong>6 months for a non-associate</strong>, ending on the date of the bankruptcy application.</p>
+    `
+  },
+
+  {
+    question_id: "IBC_IND_09",
+    difficulty: "Medium",
+    chapter_name: ["Proof of Debt", "Sections 171 & 172"],
+    question: "Which of the following statements regarding proof of debt by a secured creditor is correct?",
+    options: [
+      "A secured creditor who realises his security may prove his entire original claim",
+      "A secured creditor who surrenders his security may prove only the balance remaining after deducting the value of security",
+      "A secured creditor who realises his security may prove the balance due, whereas one who surrenders his security for the general benefit of creditors may prove his whole claim",
+      "A secured creditor is prohibited from proving any debt in the bankruptcy process"
+    ],
+    answer: 2,
+    solution_html: `
+      <p><strong>Answer: (c)</strong></p>
+      <p>Under <strong>Section 172</strong>:</p>
+      <p>• Where the secured creditor <strong>realises his security</strong>, he may prove the <strong>balance due</strong>.</p>
+      <p>• Where he <strong>surrenders his security</strong> to the bankruptcy trustee for the general benefit of creditors, he may prove his <strong>whole claim</strong>.</p>
+    `
+  },
+
+  {
+    question_id: "IBC_IND_10",
+    difficulty: "Medium",
+    chapter_name: ["Adjudicating Authority", "Sections 181 & 182"],
+    question: "Which of the following correctly states the time limits for appeals under Sections 181 and 182?",
+    options: [
+      "DRT to DRAT: 30 days + maximum 15 days extension; DRAT to Supreme Court on a question of law: 45 days + maximum 15 days extension",
+      "DRT to DRAT: 45 days + maximum 15 days extension; DRAT to Supreme Court: 30 days + maximum 15 days extension",
+      "DRT to DRAT: 30 days + maximum 30 days extension; DRAT to Supreme Court: 45 days + maximum 30 days extension",
+      "DRT to DRAT: 15 days + maximum 15 days extension; DRAT to Supreme Court: 30 days + maximum 15 days extension"
+    ],
+    answer: 0,
+    solution_html: `
+      <p><strong>Answer: (a)</strong></p>
+      <p>Under <strong>Section 181</strong>, an appeal from DRT to DRAT must be filed within <strong>30 days</strong>, with a further period not exceeding <strong>15 days</strong> where sufficient cause exists.</p>
+      <p>Under <strong>Section 182</strong>, an appeal from DRAT to the Supreme Court <strong>on a question of law</strong> must be filed within <strong>45 days</strong>, with a further period not exceeding <strong>15 days</strong>.</p>
+    `
+  }
 
   // {
   // caseText:"",
