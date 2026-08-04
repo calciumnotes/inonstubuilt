@@ -4006,8 +4006,652 @@ subsidiary's own assets property of the corporate debtor.
       <p>Under <strong>Section 181</strong>, an appeal from DRT to DRAT must be filed within <strong>30 days</strong>, with a further period not exceeding <strong>15 days</strong> where sufficient cause exists.</p>
       <p>Under <strong>Section 182</strong>, an appeal from DRAT to the Supreme Court <strong>on a question of law</strong> must be filed within <strong>45 days</strong>, with a further period not exceeding <strong>15 days</strong>.</p>
     `
-  }
+  },
 
+  // Chapter 5
+
+  {
+  question_id: "IBC_CH5_001",
+  difficulty: "Medium",
+  chapter_name: ["Regulation of Insolvency Professionals, Agencies and Information Utilities"],
+  question: `Mr. Raghav is appointed as a member of the Insolvency and Bankruptcy Board of India (IBBI). He is 62 years old at the time of his appointment. His appointment order provides for a term of five years. After completing three years in office, he attains the age of 65 years. He contends that since he was appointed for a fixed term of five years, he can continue for the remaining two years. Under the Insolvency and Bankruptcy Code, 2016, which of the following is correct?`,
+  options: [
+    "He can continue for the entire five-year term irrespective of his age.",
+    "He shall cease to hold office on attaining the age of 65 years.",
+    "He shall cease to hold office on attaining the age of 70 years.",
+    "He can continue beyond 65 years if specifically permitted by the Central Government."
+  ],
+  answer: 1,
+  solution_html: `<p><strong>Correct Answer: (b)</strong></p>
+  <p>Under <strong>Section 189(4)</strong> of the Insolvency and Bankruptcy Code, 2016, the term of office of the Chairperson and members of the Board, other than ex officio members, is <strong>five years or until they attain the age of 65 years, whichever is earlier</strong>.</p>
+  <p>Therefore, although Mr. Raghav was appointed for five years, his tenure comes to an end when he attains 65 years of age.</p>`
+},
+{
+  question_id: "IBC_CH5_002",
+  difficulty: "Medium",
+  chapter_name: ["Regulation of Insolvency Professionals, Agencies and Information Utilities"],
+  question: `An Insolvency Professional Agency obtained its certificate of registration by making a material misrepresentation in its application. After discovering the fact, the IBBI proposes to cancel its registration immediately without granting it an opportunity of being heard. The cancellation order is proposed to be passed by a part-time member of the Board. Which of the following correctly states the legal position?`,
+  options: [
+    "The action is valid since registration obtained by misrepresentation can be cancelled immediately.",
+    "The action is valid if the Chairperson subsequently approves the cancellation.",
+    "The agency must be given a reasonable opportunity of being heard, and such an order cannot be passed by any member except a whole-time member of the Board.",
+    "Registration obtained by misrepresentation cannot be cancelled and only a monetary penalty may be imposed."
+  ],
+  answer: 2,
+  solution_html: `<p><strong>Correct Answer: (c)</strong></p>
+  <p>Under <strong>Section 201(5)</strong>, the Board may suspend or cancel the registration of an Insolvency Professional Agency where, among other things, registration was obtained by making a <strong>false statement, misrepresentation or by any other unlawful means</strong>.</p>
+  <p>However, the concerned IPA must be given a <strong>reasonable opportunity of being heard</strong>. Further, such an order shall not be passed by any member except a <strong>whole-time member of the Board</strong>.</p>`
+},
+{
+  question_id: "IBC_CH5_003",
+  difficulty: "Medium",
+  chapter_name: ["Regulation of Insolvency Professionals, Agencies and Information Utilities"],
+  question: `Mr. Karan, an insolvency professional holding a valid authorisation for assignment, is presently acting as resolution professional in several corporate insolvency resolution processes. At the same time, he accepts a full-time managerial employment with a consulting company, claiming that his employment does not interfere with his insolvency assignments. Which of the following is correct under the Code of Conduct applicable to insolvency professionals?`,
+  options: [
+    "He may accept employment if it does not create a conflict of interest.",
+    "He may accept employment after obtaining approval from his Insolvency Professional Agency.",
+    "He must not engage in any employment while holding a valid authorisation for assignment or while undertaking an assignment.",
+    "The restriction applies only when he is acting as a liquidator and not when acting as a resolution professional."
+  ],
+  answer: 2,
+  solution_html: `<p><strong>Correct Answer: (c)</strong></p>
+  <p>Under <strong>Clause 23 of the Code of Conduct for Insolvency Professionals</strong>, an insolvency professional must <strong>not engage in any employment</strong> when he holds a valid authorisation for assignment or when he is undertaking an assignment.</p>
+  <p>Accordingly, Mr. Karan cannot accept the full-time managerial employment merely on the ground that it does not interfere with his existing assignments.</p>`
+},
+{
+  question_id: "IBC_CH5_004",
+  difficulty: "Medium",
+  chapter_name: ["Regulation of Insolvency Professionals, Agencies and Information Utilities"],
+  question: `During an investigation into an Insolvency Professional, the Investigating Authority of the IBBI seizes certain books, registers and records which are relevant to the investigation. The authority proposes to retain the documents even after conclusion of the investigation on the ground that they may be useful in subsequent disciplinary proceedings. Which of the following is correct?`,
+  options: [
+    "The Investigating Authority may retain the documents indefinitely if disciplinary proceedings are contemplated.",
+    "The documents may be retained for a maximum period of five years from the date of seizure.",
+    "The documents shall be kept in custody for a period not later than the conclusion of the investigation and thereafter returned to the concerned person.",
+    "The documents must be returned within fifteen days from the date of seizure irrespective of whether the investigation has concluded."
+  ],
+  answer: 2,
+  solution_html: `<p><strong>Correct Answer: (c)</strong></p>
+  <p>According to <strong>Section 218(5)</strong>, the Investigating Authority shall keep the seized books, registers, documents and records in its custody for a period <strong>not later than the conclusion of the investigation</strong> and thereafter return them to the person from whose custody or power they were seized.</p>
+  <p>Before returning them, the Investigating Authority may place <strong>identification marks</strong> on such books, registers, documents or records or any part thereof.</p>`
+},
+{
+  question_id: "IBC_CH5_005",
+  difficulty: "Medium",
+  chapter_name: ["Regulation of Insolvency Professionals, Agencies and Information Utilities"],
+  question: `An Insolvency Professional is found to have contravened the provisions of the Insolvency and Bankruptcy Code, 2016. The contravention caused a loss of ₹20 lakh to the persons concerned, while the unlawful gain made by the Insolvency Professional was ₹15 lakh. The Disciplinary Committee proposes to impose a monetary penalty under Section 220(3). What is the amount of penalty that may be imposed in accordance with the provision?`,
+  options: [
+    "₹20 lakh",
+    "₹45 lakh",
+    "₹60 lakh",
+    "₹1 crore"
+  ],
+  answer: 2,
+  solution_html: `<p><strong>Correct Answer: (c) ₹60 lakh</strong></p>
+  <p>Under <strong>Section 220(3)</strong>, the penalty shall be:</p>
+  <p>(i) <strong>three times the amount of loss caused or likely to have been caused</strong>; or<br>
+  (ii) <strong>three times the amount of unlawful gain</strong>,<br>
+  whichever is higher.</p>
+  <p>Three times the loss = ₹20 lakh × 3 = <strong>₹60 lakh</strong>.</p>
+  <p>Three times the unlawful gain = ₹15 lakh × 3 = <strong>₹45 lakh</strong>.</p>
+  <p>Since ₹60 lakh is higher, the applicable penalty is <strong>₹60 lakh</strong>.</p>`
+},
+
+{
+  question_id: "IBC_CH5_006",
+  difficulty: "Hard",
+  chapter_name: ["Regulation of Insolvency Professionals, Agencies and Information Utilities"],
+  question: `Mr. A, a member of the Insolvency and Bankruptcy Board of India, is also a director of XYZ Ltd. A matter concerning XYZ Ltd., in which Mr. A has a pecuniary interest as such director, comes up for consideration at a meeting of the Board. Mr. A discloses the nature of his interest at the meeting, and the disclosure is duly recorded in the proceedings. However, he participates in the deliberations but abstains from voting on the final decision. Examine the validity of his conduct under the Insolvency and Bankruptcy Code, 2016.`,
+  options: [
+    "His conduct is valid because disclosure of the interest and abstention from voting are sufficient.",
+    "His conduct is valid because the restriction applies only to voting and not to deliberations.",
+    "His conduct is not valid because after disclosure he must not take part in any deliberation or decision of the Board with respect to that matter.",
+    "His conduct is not valid only if his participation actually affects the final decision of the Board."
+  ],
+  answer: 2,
+  solution_html: `<p><strong>Correct Answer: (c)</strong></p>
+  <p>Under <strong>Section 193</strong>, where a member who is a director of a company has a pecuniary interest, as such director, in a matter coming before the Board, he shall:</p>
+  <p>• disclose the nature of his interest at the meeting;<br>
+  • ensure that such disclosure is recorded in the proceedings; and<br>
+  • <strong>not take any part in any deliberation or decision</strong> of the Board with respect to that matter.</p>
+  <p>Therefore, merely abstaining from voting is insufficient. Mr. A's participation in the deliberations itself violates Section 193.</p>`
+},
+{
+  question_id: "IBC_CH5_007",
+  difficulty: "Hard",
+  chapter_name: ["Regulation of Insolvency Professionals, Agencies and Information Utilities"],
+  question: `An individual was convicted by a competent court for an offence not involving moral turpitude and was sentenced to imprisonment for 8 months. His sentence expired three years ago. Another individual was convicted and sentenced to imprisonment for 7 years, and his sentence expired six years ago. Both now apply for registration as insolvency professionals. Which of the following correctly states their eligibility under Regulation 4 of the IBBI (Insolvency Professionals) Regulations, 2016?`,
+  options: [
+    "Both are eligible because their respective sentences have already expired.",
+    "The first individual is eligible because the offence did not involve moral turpitude, but the second individual is permanently ineligible.",
+    "The first individual is presently ineligible, while the second individual is also ineligible irrespective of the time elapsed after expiry of his sentence.",
+    "The first individual becomes eligible only after five years from expiry of the sentence, whereas the second individual becomes eligible after seven years from expiry of the sentence."
+  ],
+  answer: 2,
+  solution_html: `<p><strong>Correct Answer: (c)</strong></p>
+  <p>Under <strong>Regulation 4</strong> of the IBBI (Insolvency Professionals) Regulations, 2016, an individual is not eligible where he has been convicted for an offence punishable with imprisonment for a term <strong>exceeding six months</strong> or for an offence involving moral turpitude, and <strong>five years have not elapsed from the date of expiry of the sentence</strong>.</p>
+  <p>The first individual was sentenced to 8 months and only 3 years have elapsed from expiry of the sentence. Hence, he is presently ineligible.</p>
+  <p>Further, where a person has been convicted of any offence and sentenced to imprisonment for a period of <strong>seven years or more</strong>, he shall not be eligible to be registered. Therefore, the second individual is also ineligible.</p>`
+},
+{
+  question_id: "IBC_CH5_008",
+  difficulty: "Hard",
+  chapter_name: ["Regulation of Insolvency Professionals, Agencies and Information Utilities"],
+  question: `A public company applies for registration as an Information Utility. Its sole object is to provide core services and other permitted services, it has a net worth of ₹60 crore, and its shareholding and bye-laws comply with the applicable Regulations. However, one of its promoters, holding 4% of its paid-up equity share capital, is found not to be a fit and proper person. The company argues that this should not affect its eligibility since the promoter holds less than 5%. Which of the following is correct?`,
+  options: [
+    "The company is eligible because the fit and proper requirement applies only to persons holding more than 5% of the paid-up equity share capital or voting power.",
+    "The company is not eligible because the fit and proper requirement independently applies to the information utility itself, its promoters, directors and key managerial personnel, apart from persons holding more than 5%.",
+    "The company is eligible because a promoter is subject to the fit and proper test only when he is also a director.",
+    "The company is not eligible only if the promoter holds more than 10% of its paid-up equity share capital."
+  ],
+  answer: 1,
+  solution_html: `<p><strong>Correct Answer: (b)</strong></p>
+  <p>Under <strong>Regulation 3 of the IBBI (Information Utilities) Regulations, 2017</strong>, the fit and proper requirement applies to:</p>
+  <p>• the person itself;<br>
+  • its <strong>promoters</strong>;<br>
+  • its directors;<br>
+  • its key managerial personnel; and<br>
+  • persons holding more than 5%, directly or indirectly, of its paid-up equity share capital or total voting power.</p>
+  <p>The 5% threshold does <strong>not</strong> qualify the separate requirement applicable to promoters. Therefore, even though the promoter holds only 4%, he must be a fit and proper person.</p>`
+},
+{
+  question_id: "IBC_CH5_009",
+  difficulty: "Hard",
+  chapter_name: ["Regulation of Insolvency Professionals, Agencies and Information Utilities"],
+  question: `The Governing Board of an Information Utility consists of a managing director, 4 independent directors and 4 shareholder directors. One of the shareholder directors is an employee of the Information Utility other than the managing director. At a meeting of the Governing Board, the managing director, all 4 shareholder directors and no independent director are present. Which of the following is correct under the IBBI (Information Utilities) Regulations, 2017?`,
+  options: [
+    "The meeting is valid because the managing director is treated as an independent director for determining presence at the meeting.",
+    "The meeting is valid because the requirement relating to independent directors concerns only the composition of the Governing Board and not attendance at individual meetings.",
+    "The meeting cannot be held because at least one independent director must be present at a meeting of the Governing Board.",
+    "The meeting can be held if more than half of the directors present are citizens of India and residents in India."
+  ],
+  answer: 2,
+  solution_html: `<p><strong>Correct Answer: (c)</strong></p>
+  <p>Under <strong>Regulation 9 of the IBBI (Information Utilities) Regulations, 2017</strong>, the number of independent directors shall not be less than the number of shareholder directors.</p>
+  <p>Further, <strong>no meeting of the Governing Board shall be held without the presence of at least one independent director</strong>.</p>
+  <p>The managing director is expressly excluded from being considered either an independent director or a shareholder director.</p>
+  <p>Also, an employee of the Information Utility appointed as a director, other than the managing director, is deemed to be a <strong>shareholder director</strong>.</p>
+  <p>Accordingly, since no independent director is present, the meeting cannot be held.</p>`
+},
+{
+  question_id: "IBC_CH5_010",
+  difficulty: "Hard",
+  chapter_name: ["Regulation of Insolvency Professionals, Agencies and Information Utilities"],
+  question: `An Insolvency Professional is found to have contravened the Code. The loss caused to stakeholders is ₹18 lakh, while the unlawful gain made by him is ₹25 lakh. Separately, it is established that by another act forming part of the contravention, he averted a loss of ₹12 lakh. Consider the following statements regarding the powers available under Section 220:<br><br>
+  I. The Disciplinary Committee may impose a penalty of ₹75 lakh based on the higher of three times the loss caused and three times the unlawful gain.<br>
+  II. The Board may direct disgorgement of an amount equivalent to the loss averted by the Insolvency Professional.<br>
+  III. The amount disgorged can never be utilised to provide restitution to persons who suffered loss.<br><br>
+  Which of the above statements is/are correct?`,
+  options: [
+    "I only",
+    "I and II only",
+    "II and III only",
+    "I, II and III"
+  ],
+  answer: 1,
+  solution_html: `<p><strong>Correct Answer: (b) I and II only</strong></p>
+  <p><strong>Statement I is correct.</strong> Under Section 220(3), the penalty is:</p>
+  <p>• Three times loss = ₹18 lakh × 3 = <strong>₹54 lakh</strong><br>
+  • Three times unlawful gain = ₹25 lakh × 3 = <strong>₹75 lakh</strong></p>
+  <p>The higher amount is ₹75 lakh.</p>
+  <p><strong>Statement II is correct.</strong> Under Section 220(4), the Board may direct a person who has made an unlawful gain or <strong>averted loss</strong> through a contravention to disgorge an amount equivalent to such unlawful gain or aversion of loss.</p>
+  <p><strong>Statement III is incorrect.</strong> Under Section 220(5), the Board may take action to provide <strong>restitution</strong> to the person who suffered loss from the amount disgorged, where such person is identifiable and the loss is directly attributable to such person.</p>
+  <p>Hence, <strong>Statements I and II only are correct.</strong></p>`
+},
+
+{
+  case_id: "IBC_CH5_CS001",
+  case_chapter: ["Regulation of Insolvency Professionals, Agencies and Information Utilities"],
+  difficulty: "Medium",
+
+  caseText: `<p>The Central Government appointed Mr. Arvind as a member of the Insolvency and Bankruptcy Board of India (IBBI). At the time of his appointment, he was 61 years old and possessed considerable experience in finance, insolvency and administration. His appointment order stated that he would hold office for a term of five years, subject to the provisions of the Insolvency and Bankruptcy Code, 2016.</p>
+
+  <p>During his tenure, a meeting of the Board was convened to consider several regulatory matters. The Chairperson was unable to attend the meeting due to illness. The members present therefore chose one among themselves to preside over the meeting. On one of the matters placed before the Board, the votes of the members present and voting were equally divided. The member presiding over the meeting exercised a second or casting vote to decide the matter.</p>
+
+  <p>Another matter considered at the same meeting related to a company in which one of the members of the Board, Mr. Bharat, was a director and had a pecuniary interest. Mr. Bharat disclosed the nature of his interest at the meeting but expressed his intention to participate in the deliberations on the ground that mere disclosure was sufficient.</p>
+
+  <p>Subsequently, the Central Government received material indicating that Mr. Arvind had abused his position in a manner that made his continuation in office detrimental to public interest. The Government proposed to remove him immediately without providing him an opportunity of being heard.</p>`,
+
+  questions: [
+    {
+      question_id: "IBC_CH5_CS001_Q01",
+      difficulty: "Medium",
+      chapter_name: ["Constitution of IBBI"],
+      question: "Up to what age can Mr. Arvind continue as a member of the Board, assuming no earlier removal or resignation?",
+      options: [
+        "Until 66 years of age because his appointment is for five years",
+        "Until 65 years of age",
+        "Until 70 years of age",
+        "There is no age restriction where the member is appointed for five years"
+      ],
+      answer: 1,
+      solution_html: `<p><strong>Correct Answer: (b)</strong></p><p>Under <strong>Section 189(4)</strong>, the term of office of the Chairperson and members, other than ex officio members, is <strong>five years or until attainment of 65 years of age, whichever is earlier</strong>. Since Mr. Arvind was 61 when appointed, he can ordinarily continue only until he attains 65 years.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS001_Q02",
+      difficulty: "Medium",
+      chapter_name: ["Meetings of IBBI"],
+      question: "Was it permissible for another member to preside over the meeting in the absence of the Chairperson?",
+      options: [
+        "No, every meeting must necessarily be presided over by the Chairperson",
+        "Yes, any other member chosen by the members present may preside",
+        "Yes, but only a member nominated by the Central Government may preside",
+        "Yes, but only the RBI-nominated member may preside"
+      ],
+      answer: 1,
+      solution_html: `<p><strong>Correct Answer: (b)</strong></p><p>Under <strong>Section 192</strong>, where the Chairperson is unable to attend a meeting, any other member <strong>chosen by the members present</strong> may preside over the meeting.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS001_Q03",
+      difficulty: "Medium",
+      chapter_name: ["Meetings of IBBI"],
+      question: "Where the votes were equally divided, could the member presiding in the Chairperson's absence exercise a casting vote?",
+      options: [
+        "No, only the Chairperson has a casting vote",
+        "No, the matter must be referred to the Central Government",
+        "Yes, the person presiding in the Chairperson's absence has a second or casting vote",
+        "Yes, but only after obtaining approval of the majority of whole-time members"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Section 192 provides that questions are decided by majority of members present and voting. In case of equality of votes, the <strong>Chairperson or, in his absence, the person presiding</strong> has a second or casting vote.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS001_Q04",
+      difficulty: "Medium",
+      chapter_name: ["Member's Interest"],
+      question: "After disclosing his pecuniary interest, can Mr. Bharat participate in the deliberation and decision relating to the company?",
+      options: [
+        "Yes, because disclosure of interest is sufficient",
+        "Yes, if the Chairperson permits him",
+        "No, he must not take part in any deliberation or decision concerning that matter",
+        "No, unless he first resigns as a director of the company"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Under <strong>Section 193</strong>, the member must disclose the nature of his interest, the disclosure must be recorded in the proceedings, and the member <strong>shall not participate in any deliberation or decision</strong> concerning that matter.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS001_Q05",
+      difficulty: "Medium",
+      chapter_name: ["Removal of Member"],
+      question: "Can the Central Government remove Mr. Arvind for abuse of position without giving him an opportunity of being heard?",
+      options: [
+        "Yes, because the Central Government has absolute power of removal",
+        "Yes, where continuation is considered detrimental to public interest",
+        "No, a reasonable opportunity of being heard must be given where removal is on this ground",
+        "No, because a member cannot be removed before completion of five years"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Under <strong>Section 190</strong>, abuse of position rendering continuation detrimental to public interest is a ground for removal. However, removal on this ground requires that the member be given a <strong>reasonable opportunity of being heard</strong>.</p>`
+    }
+  ]
+},
+
+{
+  case_id: "IBC_CH5_CS002",
+  case_chapter: ["Regulation of Insolvency Professionals, Agencies and Information Utilities"],
+  difficulty: "Medium",
+
+  caseText: `<p>Resolve India Professional Agency Ltd. proposes to function as an Insolvency Professional Agency (IPA) under the Insolvency and Bankruptcy Code, 2016. Its management initially takes the view that it can commence enrolling insolvency professionals immediately and apply to the Insolvency and Bankruptcy Board of India for registration at a later stage.</p>
+
+  <p>The legal adviser of the entity points out that an Insolvency Professional Agency cannot carry on its business and enrol insolvency professionals as its members except under and in accordance with a certificate of registration issued by the Board. Accordingly, Resolve India applies to the Board for registration and pays the prescribed fee. The application is received by the Board, but no acknowledgement is issued for ten days.</p>
+
+  <p>After examining the application, the Board finds that certain eligibility requirements have not been fulfilled and proposes to reject the application without giving Resolve India an opportunity of being heard. Later, after the deficiencies are rectified, registration is granted.</p>
+
+  <p>Two years thereafter, the Board discovers that Resolve India has repeatedly failed to comply with requirements contained in regulations made by the Board and certain bye-laws applicable to it. The Board therefore considers suspension of its certificate. Resolve India contends that suspension is possible only when registration was originally obtained by fraud or misrepresentation. It further argues that any order of suspension can be passed by any member of the Board.</p>`,
+
+  questions: [
+    {
+      question_id: "IBC_CH5_CS002_Q01",
+      difficulty: "Medium",
+      chapter_name: ["Insolvency Professional Agencies"],
+      question: "Could Resolve India legally commence business as an IPA and enrol insolvency professionals before obtaining registration?",
+      options: [
+        "Yes, provided it applies for registration within 30 days",
+        "Yes, if it subsequently obtains approval from the Board",
+        "No, it must hold a valid certificate of registration issued by the Board",
+        "No, unless specifically authorised by the Central Government"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Under <strong>Section 199</strong>, no person shall carry on business as an Insolvency Professional Agency and enrol insolvency professionals as its members except under and in accordance with a <strong>certificate of registration issued by the Board</strong>.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS002_Q02",
+      difficulty: "Medium",
+      chapter_name: ["Registration of IPA"],
+      question: "Within what period should the Board acknowledge receipt of Resolve India's application?",
+      options: [
+        "3 days",
+        "7 days",
+        "15 days",
+        "30 days"
+      ],
+      answer: 1,
+      solution_html: `<p><strong>Correct Answer: (b)</strong></p><p>Section <strong>201(1)</strong> provides that every application received by the Board shall be <strong>acknowledged within seven days</strong> of its receipt.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS002_Q03",
+      difficulty: "Medium",
+      chapter_name: ["Registration of IPA"],
+      question: "Can the Board reject the application without providing Resolve India an opportunity of being heard?",
+      options: [
+        "Yes, because registration is entirely discretionary",
+        "Yes, if eligibility requirements have not been satisfied",
+        "No, an order rejecting the application must be made after giving an opportunity of being heard",
+        "No, because the Board has no power to reject an application"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Under <strong>Section 201(2)</strong>, where the Board proposes to reject an application for registration, the applicant must be provided an <strong>opportunity of being heard</strong>.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS002_Q04",
+      difficulty: "Medium",
+      chapter_name: ["Registration of IPA"],
+      question: "Is Resolve India's contention that registration can be suspended only where it was obtained through fraud or misrepresentation correct?",
+      options: [
+        "Yes",
+        "Yes, unless the Central Government directs otherwise",
+        "No, failure to comply with regulations made by the Board or bye-laws made by the IPA is also a ground for suspension or cancellation",
+        "No, but registration can be suspended only for violation of the Code itself"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Under <strong>Section 201(5)</strong>, failure to comply with requirements of regulations made by the Board or bye-laws made by the IPA is also a ground for <strong>suspension or cancellation</strong> of registration.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS002_Q05",
+      difficulty: "Medium",
+      chapter_name: ["Registration of IPA"],
+      question: "Who may pass the order suspending or cancelling the certificate of registration of the IPA?",
+      options: [
+        "Any member of the Board",
+        "Only the Chairperson",
+        "Only whole-time members of the Board",
+        "Only the Central Government"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Section 201 provides that an order of suspension or cancellation shall not be passed by any member except <strong>whole-time members of the Board</strong>.</p>`
+    }
+  ]
+},
+
+{
+  case_id: "IBC_CH5_CS003",
+  case_chapter: ["Regulation of Insolvency Professionals, Agencies and Information Utilities"],
+  difficulty: "Medium",
+
+  caseText: `<p>Mr. Sameer is a registered Insolvency Professional and a professional member of a recognised Insolvency Professional Agency. He holds a valid authorisation for assignment. Over the years, he has developed a strong practice in corporate insolvency matters and has accepted several assignments as resolution professional.</p>
+
+  <p>At present, Mr. Sameer is acting as resolution professional in eleven corporate insolvency resolution processes. Out of these eleven assignments, three involve admitted claims exceeding ₹1,000 crore each. He believes that this arrangement is permissible because he has not exceeded the separate limit relating to assignments involving admitted claims above ₹1,000 crore.</p>
+
+  <p>In one of his assignments, Mr. Sameer discovers that his brother is interested in acquiring an asset of the corporate debtor. In another assignment, Mr. Sameer becomes aware that he has a pecuniary relationship with one of the stakeholders entitled to distribution. He decides not to disclose the relationship because, according to him, it has not influenced any decision taken by him.</p>
+
+  <p>Mr. Sameer is also offered full-time employment by a consultancy company while continuing to hold a valid authorisation for assignment. He proposes to accept the employment while simultaneously continuing his insolvency assignments. Further, during an investigation initiated by the Board, he refuses to provide certain records, claiming that the records are confidential.</p>`,
+
+  questions: [
+    {
+      question_id: "IBC_CH5_CS003_Q01",
+      difficulty: "Medium",
+      chapter_name: ["Code of Conduct for IP"],
+      question: "Is Mr. Sameer permitted to have eleven CIRP assignments as resolution professional at the same point of time?",
+      options: [
+        "Yes, because only three involve admitted claims exceeding ₹1,000 crore",
+        "Yes, because there is no overall limit",
+        "No, an insolvency professional may not have more than ten such assignments at any point of time",
+        "No, the maximum number is three"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>An insolvency professional may, at any point of time, have <strong>not more than ten assignments as resolution professional in CIRP</strong>, of which not more than three may have admitted claims exceeding ₹1,000 crore each.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS003_Q02",
+      difficulty: "Medium",
+      chapter_name: ["Code of Conduct for IP"],
+      question: "Can Mr. Sameer knowingly permit his brother to acquire an asset of the debtor during the relevant process merely because Mr. Sameer himself is not purchasing it?",
+      options: [
+        "Yes, because the restriction applies only to the insolvency professional",
+        "Yes, if the purchase takes place at market value",
+        "No, the Code of Conduct restricts the insolvency professional from knowingly permitting a relative to acquire such assets in the circumstances specified",
+        "Yes, if creditors approve the transaction by simple majority"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>The Code of Conduct contains specific safeguards regarding acquisition of debtor's assets by the insolvency professional or his relatives in order to preserve <strong>independence, objectivity and impartiality</strong>.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS003_Q03",
+      difficulty: "Medium",
+      chapter_name: ["Code of Conduct for IP"],
+      question: "Is Mr. Sameer required to disclose his pecuniary relationship with the stakeholder even if he believes it has not influenced his decisions?",
+      options: [
+        "No, disclosure is required only where actual bias is established",
+        "No, unless the stakeholder demands disclosure",
+        "Yes, he must disclose the existence of such pecuniary or personal relationship as soon as he becomes aware of it",
+        "Yes, but only after completion of the insolvency process"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>An insolvency professional must disclose the existence of any <strong>pecuniary or personal relationship</strong> with relevant stakeholders and the concerned corporate person/debtor as soon as he becomes aware of it.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS003_Q04",
+      difficulty: "Medium",
+      chapter_name: ["Code of Conduct for IP"],
+      question: "Can Mr. Sameer accept full-time employment while he holds a valid authorisation for assignment?",
+      options: [
+        "Yes, if the employer permits him to continue insolvency assignments",
+        "Yes, provided the employment is unrelated to insolvency",
+        "No, an insolvency professional must not engage in employment when he holds a valid authorisation for assignment or is undertaking an assignment",
+        "No, unless approved by his Insolvency Professional Agency"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Under the Code of Conduct, an insolvency professional <strong>must not engage in employment</strong> when he holds a valid authorisation for assignment or when he is undertaking an assignment.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS003_Q05",
+      difficulty: "Medium",
+      chapter_name: ["Code of Conduct for IP"],
+      question: "Can Mr. Sameer refuse to provide records during an investigation merely on the ground of confidentiality?",
+      options: [
+        "Yes, confidentiality overrides the investigation powers of the Board",
+        "Yes, unless ordered by the Adjudicating Authority",
+        "No, an insolvency professional must cooperate with inspections and investigations and provide information and records as required",
+        "No, but only records relating to completed assignments need to be provided"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>The Code of Conduct requires an insolvency professional to <strong>appear, cooperate and be available for inspections and investigations</strong> and to provide information and records required by the Board or the IPA with which he is enrolled.</p>`
+    }
+  ]
+},
+
+{
+  case_id: "IBC_CH5_CS004",
+  case_chapter: ["Regulation of Insolvency Professionals, Agencies and Information Utilities"],
+  difficulty: "Medium",
+
+  caseText: `<p>FinData Repository Ltd. proposes to establish an Information Utility under the Insolvency and Bankruptcy Code, 2016. It is incorporated as a public company with the sole object of providing core services and other services permitted under the applicable regulations. Its management is evaluating the regulatory requirements that must be satisfied before commencing operations.</p>
+
+  <p>The company presently has a net worth of ₹45 crore. Its promoters argue that this should be sufficient because the company has strong technological infrastructure and can increase its net worth after commencement of business. The company also proposes to commence receiving financial information from creditors while its application for registration is pending before the Board.</p>
+
+  <p>After subsequently satisfying the applicable requirements and obtaining registration, FinData receives electronic financial information concerning several debtors. It proposes to store the information immediately without getting it authenticated by all concerned parties. It also intends to provide access to stored financial information in the manner specified by regulations but does not wish to publish statistical information.</p>
+
+  <p>The management further takes the view that interoperability with other Information Utilities is commercially undesirable and therefore should remain optional.</p>`,
+
+  questions: [
+    {
+      question_id: "IBC_CH5_CS004_Q01",
+      difficulty: "Medium",
+      chapter_name: ["Information Utilities"],
+      question: "What is the minimum net worth requirement mentioned in the eligibility conditions for registration of an Information Utility?",
+      options: [
+        "₹25 crore",
+        "₹40 crore",
+        "₹50 crore",
+        "₹100 crore"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Regulation 3 of the IBBI (Information Utilities) Regulations, 2017 requires, among other conditions, a <strong>minimum net worth of ₹50 crore</strong>.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS004_Q02",
+      difficulty: "Medium",
+      chapter_name: ["Information Utilities"],
+      question: "Can FinData commence business as an Information Utility while its registration application is pending?",
+      options: [
+        "Yes, because it is already incorporated as a public company",
+        "Yes, provided registration is obtained within six months",
+        "No, it cannot carry on business as an Information Utility without a certificate of registration issued by the Board",
+        "No, unless authorised by the Central Government"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Under <strong>Section 209</strong>, no person shall carry on business as an Information Utility without a <strong>certificate of registration issued by the Board</strong>.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS004_Q03",
+      difficulty: "Medium",
+      chapter_name: ["Obligations of Information Utility"],
+      question: "Can FinData store the financial information without getting it authenticated by all concerned parties?",
+      options: [
+        "Yes, if submitted by a financial creditor",
+        "Yes, if submitted electronically",
+        "No, information received from various persons must be authenticated by all concerned parties before being stored",
+        "Yes, provided the amount involved is below ₹1 crore"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Under <strong>Section 214</strong>, an Information Utility must get information received from various persons <strong>authenticated by all concerned parties before storing such information</strong>.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS004_Q04",
+      difficulty: "Medium",
+      chapter_name: ["Obligations of Information Utility"],
+      question: "Which statement regarding publication of statistical information is correct?",
+      options: [
+        "An Information Utility is never required to publish statistical information",
+        "An Information Utility shall publish such statistical information as may be specified by regulations",
+        "Only the Board can publish statistical information",
+        "Publication is required only with consent of every debtor"
+      ],
+      answer: 1,
+      solution_html: `<p><strong>Correct Answer: (b)</strong></p><p>Section <strong>214(g)</strong> requires an Information Utility to <strong>publish such statistical information as may be specified by regulations</strong>.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS004_Q05",
+      difficulty: "Medium",
+      chapter_name: ["Obligations of Information Utility"],
+      question: "Is FinData correct in treating interoperability with other Information Utilities as optional?",
+      options: [
+        "Yes, interoperability is purely a commercial decision",
+        "Yes, unless specifically directed by the Central Government",
+        "No, an Information Utility is required to have interoperability with other Information Utilities",
+        "No, but interoperability is required only between Information Utilities owned by the same promoters"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Section <strong>214(h)</strong> specifically provides that an Information Utility shall <strong>have interoperability with other Information Utilities</strong>.</p>`
+    }
+  ]
+},
+
+{
+  case_id: "IBC_CH5_CS005",
+  case_chapter: ["Regulation of Insolvency Professionals, Agencies and Information Utilities"],
+  difficulty: "Medium",
+
+  caseText: `<p>A group of creditors files a complaint before the Insolvency and Bankruptcy Board of India alleging serious misconduct by an Insolvency Professional. On examining the complaint and other available material, the Board forms reasonable grounds to believe that provisions of the Insolvency and Bankruptcy Code, 2016 and the regulations made thereunder may have been contravened.</p>
+
+  <p>The Board appoints an Investigating Authority to investigate the matter. During the investigation, the Authority discovers that certain relevant documents are in the possession of a consultant who had advised the Insolvency Professional. The consultant refuses to furnish the documents, claiming that Section 218 applies only to registered service providers. The Investigating Authority also identifies certain records at an office premises and considers entering the premises and seizing relevant documents in accordance with law.</p>
+
+  <p>After completing the investigation, a detailed report is submitted to the Board. The Board proposes to issue a show-cause notice to the Insolvency Professional. The notice provides only seven days for making a written submission. Subsequently, the matter is proposed to be placed before a Disciplinary Committee consisting of one whole-time member and two external insolvency experts.</p>
+
+  <p>The alleged contravention resulted in an unlawful gain of ₹20 lakh and a quantifiable loss of ₹15 lakh to stakeholders. The Disciplinary Committee is required to consider the penalty that may be imposed under Section 220 if the contravention is established.</p>`,
+
+  questions: [
+    {
+      question_id: "IBC_CH5_CS005_Q01",
+      difficulty: "Medium",
+      chapter_name: ["Inspection and Investigation"],
+      question: "Can the consultant refuse to furnish relevant documents merely because he is not a registered Insolvency Professional?",
+      options: [
+        "Yes, Section 218 applies only to registered service providers",
+        "Yes, unless NCLT directs him to furnish the documents",
+        "No, the Investigating Authority may require any person likely to possess relevant documents, records or information to furnish them",
+        "No, but only after obtaining permission from the Central Government"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Under <strong>Section 218(3)</strong>, the Investigating Authority may require <strong>any person</strong> likely to have relevant documents, records or information to furnish the same, and such person is bound to furnish them.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS005_Q02",
+      difficulty: "Medium",
+      chapter_name: ["Inspection and Investigation"],
+      question: "Can the Investigating Authority enter a building or place and seize relevant documents during the investigation?",
+      options: [
+        "No, it has no power of seizure",
+        "Yes, without being subject to any other law",
+        "Yes, subject to the provisions of Section 100 of the Code of Criminal Procedure, 1973, insofar as applicable",
+        "Only after obtaining approval of the Insolvency Professional Agency"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Under <strong>Section 218(4)</strong>, the Investigating Authority may enter a building or place and seize relevant documents, records or information, subject to <strong>Section 100 of the Code of Criminal Procedure, 1973</strong>, insofar as applicable.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS005_Q03",
+      difficulty: "Medium",
+      chapter_name: ["Show Cause Notice"],
+      question: "Is providing only seven days for written submission in the show-cause notice consistent with the stated Regulation 12 requirement?",
+      options: [
+        "Yes, seven days is the prescribed period",
+        "Yes, because the Board may always determine any period",
+        "No, the show-cause notice shall provide 15 days to the noticee to make a written submission",
+        "No, at least 30 days must be provided"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Under <strong>Regulation 12</strong> of the IBBI (Inspection and Investigation) Regulations, 2017, the show-cause notice shall provide <strong>15 days</strong> to the noticee to make a written submission.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS005_Q04",
+      difficulty: "Medium",
+      chapter_name: ["Disciplinary Committee"],
+      question: "Is the proposed composition of the Disciplinary Committee valid under Section 220?",
+      options: [
+        "Yes, provided at least one member is a whole-time member",
+        "Yes, external experts may constitute the majority",
+        "No, the Disciplinary Committee shall consist of whole-time members of the Board only",
+        "No, the Committee must consist exclusively of independent directors"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c)</strong></p><p>Under <strong>Section 220(1)</strong>, the Board shall constitute a Disciplinary Committee to consider the investigation report, and such committee shall consist of <strong>whole-time members of the Board only</strong>.</p>`
+    },
+
+    {
+      question_id: "IBC_CH5_CS005_Q05",
+      difficulty: "Medium",
+      chapter_name: ["Penalty"],
+      question: "If the unlawful gain is ₹20 lakh and the quantifiable loss caused is ₹15 lakh, what penalty may be imposed under Section 220(3), based on these figures?",
+      options: [
+        "₹20 lakh",
+        "₹45 lakh",
+        "₹60 lakh",
+        "₹1 crore"
+      ],
+      answer: 2,
+      solution_html: `<p><strong>Correct Answer: (c) ₹60 lakh</strong></p><p>Under <strong>Section 220(3)</strong>, the penalty may be <strong>three times the loss caused or likely to have been caused, or three times the unlawful gain, whichever is higher</strong>.</p><p>Three times loss = ₹15 lakh × 3 = <strong>₹45 lakh</strong>.</p><p>Three times unlawful gain = ₹20 lakh × 3 = <strong>₹60 lakh</strong>.</p><p>Since ₹60 lakh is higher, the applicable penalty based on the given figures is <strong>₹60 lakh</strong>.</p>`
+    }
+  ]
+}
   // {
   // caseText:"",
   // questions:[{question:" ",
