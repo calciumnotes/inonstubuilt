@@ -4651,7 +4651,675 @@ subsidiary's own assets property of the corporate debtor.
       solution_html: `<p><strong>Correct Answer: (c) ₹60 lakh</strong></p><p>Under <strong>Section 220(3)</strong>, the penalty may be <strong>three times the loss caused or likely to have been caused, or three times the unlawful gain, whichever is higher</strong>.</p><p>Three times loss = ₹15 lakh × 3 = <strong>₹45 lakh</strong>.</p><p>Three times unlawful gain = ₹20 lakh × 3 = <strong>₹60 lakh</strong>.</p><p>Since ₹60 lakh is higher, the applicable penalty based on the given figures is <strong>₹60 lakh</strong>.</p>`
     }
   ]
-}
+},
+
+// Chapter 6
+
+  // =========================================================
+  // CASE SCENARIO 1 — MEDIUM
+  // Chapter 6: Miscellaneous Provisions
+  // =========================================================
+  {
+    case_id: "IBC_CH6_CS01",
+    case_chapter: ["Miscellaneous Provisions"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p>
+        Apex Finserve Limited (“AFL”) is a non-banking financial company having
+        an asset size of ₹720 crore as per its last audited balance sheet.
+        Due to prolonged liquidity issues, AFL defaulted on several financial
+        obligations. A group of financial creditors proposed to directly initiate
+        a corporate insolvency resolution process against AFL under the Insolvency
+        and Bankruptcy Code, 2016.
+      </p>
+
+      <p>
+        The Reserve Bank of India (“RBI”), being the appropriate regulator,
+        subsequently filed an application before the Adjudicating Authority for
+        initiation of insolvency resolution proceedings against AFL. The application
+        proposed Mr. Raghav as the Administrator. On admission of the application,
+        the Adjudicating Authority appointed Mr. Raghav as Administrator.
+      </p>
+
+      <p>
+        During the proceedings, questions arose regarding the period before
+        admission of the application, the status of AFL's licence to conduct
+        financial services and constitution of an Advisory Committee. RBI considered
+        it necessary to constitute an Advisory Committee 40 days after the insolvency
+        commencement date. The Committee consisted of three experienced professionals
+        from the fields of finance, law and risk management. Mr. Raghav chaired
+        its meetings.
+      </p>
+
+      <p>
+        A resolution plan was subsequently approved by the committee of creditors
+        under section 30(4). The Administrator sought RBI's “no objection” regarding
+        the persons who would control and manage AFL after approval of the resolution
+        plan. Forty-five working days passed from receipt of the request without RBI
+        refusing to grant the no objection.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "IBC_CH6_CS01_Q01",
+        chapter_name: ["Miscellaneous Provisions"],
+        difficulty: "Medium",
+
+        question: `
+          Which of the following is correct regarding initiation of the insolvency
+          resolution process against AFL?
+        `,
+
+        options: [
+          "Any financial creditor may directly initiate CIRP against AFL under section 7",
+          "Only the Central Government may initiate the process",
+          "The process may be initiated only upon an application made by the appropriate regulator",
+          "The Administrator himself must initiate the process"
+        ],
+
+        answer: 2,
+
+        reason: `
+          Under Rule 5 relating to insolvency resolution of notified financial
+          service providers, no CIRP shall be initiated against such financial
+          service provider except upon an application made by the appropriate regulator.
+        `
+      },
+
+      {
+        question_id: "IBC_CH6_CS01_Q02",
+        chapter_name: ["Miscellaneous Provisions"],
+        difficulty: "Medium",
+
+        question: `
+          What is the position regarding moratorium between filing and
+          admission/rejection of RBI's application?
+        `,
+
+        options: [
+          "No moratorium applies until admission",
+          "An interim moratorium commences from the date of filing and continues until admission or rejection",
+          "A moratorium begins 14 days after filing",
+          "A moratorium begins only when the Administrator takes charge"
+        ],
+
+        answer: 1,
+
+        reason: `
+          In case of a notified financial service provider, an interim moratorium
+          commences from the date of filing of the application and continues until
+          its admission or rejection.
+        `
+      },
+
+      {
+        question_id: "IBC_CH6_CS01_Q03",
+        chapter_name: ["Miscellaneous Provisions"],
+        difficulty: "Medium",
+
+        question: `
+          What happens to AFL's licence or registration authorising it to engage
+          in the business of providing financial services during the interim
+          moratorium and CIRP?
+        `,
+
+        options: [
+          "It is automatically cancelled on filing of the application",
+          "It is suspended immediately on admission",
+          "It shall not be suspended or cancelled during the interim moratorium and CIRP",
+          "It remains valid only with approval of the Committee of Creditors"
+        ],
+
+        answer: 2,
+
+        reason: `
+          The licence or registration authorising a financial service provider
+          to engage in the business of providing financial services shall not be
+          suspended or cancelled during the interim moratorium and the corporate
+          insolvency resolution process.
+        `
+      },
+
+      {
+        question_id: "IBC_CH6_CS01_Q04",
+        chapter_name: ["Miscellaneous Provisions"],
+        difficulty: "Medium",
+
+        question: `
+          Examine the validity of RBI constituting the Advisory Committee
+          40 days after the insolvency commencement date.
+        `,
+
+        options: [
+          "Invalid, because it must be constituted within 30 days",
+          "Valid, because the appropriate regulator may constitute it within 45 days of the insolvency commencement date",
+          "Invalid, because only the Committee of Creditors can constitute it",
+          "Valid only if the Central Government gives prior approval"
+        ],
+
+        answer: 1,
+
+        reason: `
+          The appropriate regulator may, where considered necessary, constitute
+          an Advisory Committee within 45 days of the insolvency commencement date.
+          Therefore, constitution on the 40th day is permissible.
+        `
+      },
+
+      {
+        question_id: "IBC_CH6_CS01_Q05",
+        chapter_name: ["Miscellaneous Provisions"],
+        difficulty: "Medium",
+
+        question: `
+          RBI did not refuse to grant its “no objection” within 45 working days
+          from receipt of the Administrator's application. What is the consequence?
+        `,
+
+        options: [
+          "The resolution plan automatically lapses",
+          "The Administrator must submit a fresh application",
+          "It shall be deemed that the no objection has been granted",
+          "The matter must be referred to the Central Government"
+        ],
+
+        answer: 2,
+
+        reason: `
+          Where the appropriate regulator does not refuse the no objection within
+          45 working days of receipt of the application, it shall be deemed that
+          the no objection has been granted.
+        `
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 2 — MEDIUM
+  // Chapter 6: Miscellaneous Provisions
+  // =========================================================
+  {
+    case_id: "IBC_CH6_CS02",
+    case_chapter: ["Miscellaneous Provisions"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p>
+        Zenith Engineering Limited (“ZEL”) defaulted on repayment of a financial
+        debt. The default occurred more than three years before the financial
+        creditor filed an application under section 7 of the Insolvency and
+        Bankruptcy Code, 2016. However, before expiry of the original limitation
+        period, ZEL had acknowledged the outstanding liability in its balance sheet.
+        The financial creditor relied upon this acknowledgement while defending
+        the maintainability of its application.
+      </p>
+
+      <p>
+        During the insolvency proceedings, the resolution professional discovered
+        that ZEL owned valuable machinery situated in a foreign country. India had
+        entered into reciprocal arrangements with that country. The resolution
+        professional was of the opinion that evidence and action relating to those
+        foreign assets were necessary for the insolvency resolution process and
+        therefore approached the Adjudicating Authority.
+      </p>
+
+      <p>
+        At the same time, a dispute arose regarding another domestic asset of ZEL.
+        A State enactment contained provisions inconsistent with the Insolvency and
+        Bankruptcy Code. One of the stakeholders argued that the State enactment
+        should prevail. Another stakeholder instituted proceedings before a civil
+        court seeking an injunction in relation to a matter in which the
+        Adjudicating Authority was empowered under the Code to pass an order.
+      </p>
+
+      <p>
+        Separately, an alleged contravention of the Code by one of ZEL's officers
+        came to light. No specific penalty or punishment was provided elsewhere
+        in the Code for that particular contravention. Questions therefore arose
+        regarding the general penalty provision under the Code.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "IBC_CH6_CS02_Q01",
+        chapter_name: ["Miscellaneous Provisions"],
+        difficulty: "Medium",
+
+        question: `
+          Which provision makes the Limitation Act, 1963 applicable, as far as
+          may be, to proceedings or appeals before the authorities specified
+          under the Insolvency and Bankruptcy Code?
+        `,
+
+        options: [
+          "Section 231",
+          "Section 235A",
+          "Section 238",
+          "Section 238A"
+        ],
+
+        answer: 3,
+
+        reason: `
+          Section 238A provides that the provisions of the Limitation Act, 1963
+          shall, as far as may be, apply to proceedings or appeals before the
+          Adjudicating Authority, NCLAT, DRT or DRAT, as the case may be.
+        `
+      },
+
+      {
+        question_id: "IBC_CH6_CS02_Q02",
+        chapter_name: ["Miscellaneous Provisions"],
+        difficulty: "Medium",
+
+        question: `
+          What is the effect of ZEL acknowledging its debt in the balance sheet
+          before expiry of the applicable limitation period?
+        `,
+
+        options: [
+          "Acknowledgement in a balance sheet can never affect limitation",
+          "It may satisfy the requirements of section 18 of the Limitation Act and result in a fresh period of limitation",
+          "It automatically extinguishes the original debt",
+          "It extends limitation permanently without any further requirement"
+        ],
+
+        answer: 1,
+
+        reason: `
+          As discussed in the Chapter, acknowledgement of debt in the balance
+          sheet may satisfy section 18 of the Limitation Act, resulting in a fresh
+          period of limitation commencing from such acknowledgement, provided the
+          acknowledgement is within the prescribed limitation period.
+        `
+      },
+
+      {
+        question_id: "IBC_CH6_CS02_Q03",
+        chapter_name: ["Miscellaneous Provisions"],
+        difficulty: "Medium",
+
+        question: `
+          What course may be adopted where the resolution professional requires
+          evidence or action concerning ZEL's assets situated in a country with
+          which reciprocal arrangements have been made?
+        `,
+
+        options: [
+          "The resolution professional may directly seize the foreign assets",
+          "The Central Government must automatically transfer the assets to India",
+          "The resolution professional may apply to the Adjudicating Authority, which may issue a letter of request to the competent court or authority of that country",
+          "The Committee of Creditors may issue a binding order to the foreign government"
+        ],
+
+        answer: 2,
+
+        reason: `
+          Under section 235, the resolution professional may make an application
+          to the Adjudicating Authority where evidence or action relating to
+          foreign assets is required. If satisfied, the Adjudicating Authority
+          may issue a letter of request to the competent court or authority of
+          the country concerned.
+        `
+      },
+
+      {
+        question_id: "IBC_CH6_CS02_Q04",
+        chapter_name: ["Miscellaneous Provisions"],
+        difficulty: "Medium",
+
+        question: `
+          Where a provision of another law is inconsistent with the Insolvency
+          and Bankruptcy Code, which of the following correctly states the effect
+          of section 238?
+        `,
+
+        options: [
+          "The other law will always prevail over the Code",
+          "The law enacted earlier in time will prevail",
+          "The provisions of the Code shall have effect notwithstanding anything inconsistent contained in another law or instrument having effect by virtue of such law",
+          "Both laws automatically become inoperative"
+        ],
+
+        answer: 2,
+
+        reason: `
+          Section 238 gives overriding effect to the Insolvency and Bankruptcy
+          Code where there is inconsistency with another law for the time being
+          in force or an instrument having effect by virtue of such law.
+        `
+      },
+
+      {
+        question_id: "IBC_CH6_CS02_Q05",
+        chapter_name: ["Miscellaneous Provisions"],
+        difficulty: "Medium",
+
+        question: `
+          Assume the officer's contravention is one for which no specific penalty
+          or punishment is provided elsewhere in the Code. What punishment may
+          apply under section 235A?
+        `,
+
+        options: [
+          "Fine not less than ₹50,000 but extending to ₹1 crore",
+          "Fine not less than ₹1 lakh but which may extend to ₹2 crore",
+          "Fine not less than ₹2 lakh but which may extend to ₹5 crore",
+          "A mandatory imprisonment of three years"
+        ],
+
+        answer: 1,
+
+        reason: `
+          Section 235A provides that where a person contravenes a provision of
+          the Code or rules or regulations made thereunder and no specific penalty
+          or punishment is provided, the person is punishable with a fine of not
+          less than ₹1 lakh, which may extend to ₹2 crore.
+        `
+      }
+
+    ]
+  },
+
+  {
+    id: "IBC_CH6_MCQ01",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Miscellaneous Provisions",
+
+    question: `
+      Mr. A contributed ₹12 lakh to the Insolvency and Bankruptcy Fund.
+      Subsequently, proceedings under the Insolvency and Bankruptcy Code were
+      initiated in respect of him before the Adjudicating Authority. He seeks
+      withdrawal of ₹15 lakh from the Fund for payment to workmen and protection
+      of his assets. What is the maximum amount that he may seek to withdraw?
+    `,
+
+    options: [
+      "₹15 lakh, since proceedings have already commenced",
+      "₹12 lakh, being the amount contributed by him",
+      "₹6 lakh, being 50% of the contribution",
+      "No withdrawal is permitted from the Fund"
+    ],
+
+    answer: 1,
+
+    reason: `
+      Under section 224, a person who has contributed to the Insolvency and
+      Bankruptcy Fund may, where proceedings are initiated in respect of such
+      person, apply to the Adjudicating Authority for withdrawal. However, the
+      withdrawal cannot exceed the amount contributed by that person.
+    `
+  },
+
+  {
+    id: "IBC_CH6_MCQ02",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Miscellaneous Provisions",
+
+    question: `
+      The Central Government issues a written direction to IBBI on a question
+      which it considers to be a matter of policy. IBBI disagrees and contends
+      that the question is not one of policy. Which of the following is correct?
+    `,
+
+    options: [
+      "IBBI's determination regarding whether the question is one of policy shall be final",
+      "The matter must compulsorily be referred to NCLAT",
+      "The Central Government's decision as to whether a question is one of policy shall be final",
+      "The direction is ineffective unless approved by Parliament"
+    ],
+
+    answer: 2,
+
+    reason: `
+      Under section 225, IBBI is bound by written directions of the Central
+      Government on questions of policy. The decision of the Central Government
+      as to whether a question is one of policy or not is final.
+    `
+  },
+
+  {
+    id: "IBC_CH6_MCQ03",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Miscellaneous Provisions",
+
+    question: `
+      Due to a grave emergency, IBBI becomes unable to discharge its statutory
+      functions. The Central Government proposes to supersede the Board for
+      eight months through a notification. Which statement is correct?
+    `,
+
+    options: [
+      "The proposal is valid because there is a grave emergency",
+      "The proposal is invalid because supersession cannot exceed six months",
+      "The Board can be superseded only for three months",
+      "The Board can never be superseded on the ground of grave emergency"
+    ],
+
+    answer: 1,
+
+    reason: `
+      Under section 226, the Central Government may supersede the Board where
+      specified circumstances exist, including a grave emergency. However, the
+      period specified in the notification cannot exceed six months.
+    `
+  },
+
+  {
+    id: "IBC_CH6_MCQ04",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Miscellaneous Provisions",
+
+    question: `
+      Immediately after IBBI is validly superseded by the Central Government,
+      which of the following consequences will NOT follow?
+    `,
+
+    options: [
+      "All members of the Board shall vacate their offices from the date of supersession",
+      "The Board's powers and functions may be exercised by person or persons directed by the Central Government",
+      "Property owned or controlled by the Board shall temporarily vest in the Central Government",
+      "The Chairperson alone shall continue exercising all powers of the Board during supersession"
+    ],
+
+    answer: 3,
+
+    reason: `
+      Under section 226, upon supersession all members vacate their offices.
+      Until reconstitution, the powers and functions are exercised by persons
+      directed by the Central Government and the property owned or controlled
+      by the Board vests in the Central Government.
+    `
+  },
+
+  {
+    id: "IBC_CH6_MCQ05",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Miscellaneous Provisions",
+
+    question: `
+      A notified financial service provider has committed a default. One of its
+      financial creditors proposes to directly file an application for initiation
+      of CIRP against it. Under the special framework applicable to such financial
+      service providers, which statement is correct?
+    `,
+
+    options: [
+      "Any financial creditor can directly initiate CIRP in the ordinary manner",
+      "CIRP can be initiated only upon an application made by the appropriate regulator",
+      "Only the Central Government can file the application",
+      "The financial service provider itself must initiate CIRP"
+    ],
+
+    answer: 1,
+
+    reason: `
+      Under Rule 5 of the Insolvency and Bankruptcy (Insolvency and Liquidation
+      Proceedings of Financial Service Providers and Application to Adjudicating
+      Authority) Rules, 2019, CIRP against a notified financial service provider
+      can be initiated only upon an application by the appropriate regulator.
+    `
+  },
+
+  {
+    id: "IBC_CH6_MCQ06",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Miscellaneous Provisions",
+
+    question: `
+      An application for initiation of insolvency resolution proceedings against
+      a notified financial service provider is filed by the appropriate regulator.
+      The application remains pending for admission. What is the position regarding
+      moratorium during this period?
+    `,
+
+    options: [
+      "There is no moratorium until the application is admitted",
+      "An interim moratorium operates from the date of filing until admission or rejection",
+      "The moratorium commences 30 days after filing",
+      "The moratorium begins only after constitution of the Committee of Creditors"
+    ],
+
+    answer: 1,
+
+    reason: `
+      For a notified financial service provider, an interim moratorium commences
+      from the date of filing of the application and continues until its admission
+      or rejection.
+    `
+  },
+
+  {
+    id: "IBC_CH6_MCQ07",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Miscellaneous Provisions",
+
+    question: `
+      IBBI proposes to delegate certain powers to one of its officers through a
+      special order in writing. Which of the following powers cannot be delegated
+      under section 230?
+    `,
+
+    options: [
+      "Administrative powers relating to its ordinary functions",
+      "Powers and functions specifically permitted to be delegated under the Code",
+      "Power to make regulations under section 240",
+      "Functions delegated subject to conditions specified in the order"
+    ],
+
+    answer: 2,
+
+    reason: `
+      Section 230 permits the Board to delegate its powers and functions to any
+      member or officer by general or special order in writing, subject to
+      conditions. However, the powers under section 240 relating to making
+      regulations cannot be delegated.
+    `
+  },
+
+  {
+    id: "IBC_CH6_MCQ08",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Miscellaneous Provisions",
+
+    question: `
+      A stakeholder approaches a civil court seeking an injunction concerning
+      a matter in which the Adjudicating Authority is empowered under the
+      Insolvency and Bankruptcy Code to pass an order. Which statement is correct?
+    `,
+
+    options: [
+      "The civil court has concurrent jurisdiction with the Adjudicating Authority",
+      "The civil court can grant an injunction but cannot decide the merits",
+      "The civil court's jurisdiction is barred and no injunction can be granted in respect of such action",
+      "The civil court can hear the matter after obtaining permission from IBBI"
+    ],
+
+    answer: 2,
+
+    reason: `
+      Section 231 bars the jurisdiction of civil courts in respect of matters in
+      which the Adjudicating Authority or the Board is empowered under the Code
+      to pass an order. It also prohibits injunctions concerning action taken or
+      to be taken pursuant to such orders.
+    `
+  },
+
+  {
+    id: "IBC_CH6_MCQ09",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Miscellaneous Provisions",
+
+    question: `
+      During CIRP, the resolution professional discovers assets of the corporate
+      debtor situated in a country outside India with which reciprocal arrangements
+      have been made under section 234. Evidence relating to those assets is
+      required. What should the resolution professional do?
+    `,
+
+    options: [
+      "Directly issue a letter of request to the foreign court",
+      "Apply to the Adjudicating Authority, which may issue a letter of request to the competent foreign court or authority",
+      "Request IBBI to confiscate the foreign assets",
+      "Apply directly to the Central Government for transfer of the assets"
+    ],
+
+    answer: 1,
+
+    reason: `
+      Under section 235, the resolution professional, liquidator or bankruptcy
+      trustee may apply to the Adjudicating Authority where evidence or action
+      relating to assets situated in a country having reciprocal arrangements
+      is required. The Adjudicating Authority may thereafter issue a letter of
+      request to the competent court or authority of that country.
+    `
+  },
+
+  {
+    id: "IBC_CH6_MCQ10",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Miscellaneous Provisions",
+
+    question: `
+      A person contravenes a provision of the Insolvency and Bankruptcy Code.
+      Neither that provision nor any other relevant provision specifies a
+      particular penalty or punishment for the contravention. What is the
+      punishment under section 235A?
+    `,
+
+    options: [
+      "Fine not less than ₹50,000 which may extend to ₹1 crore",
+      "Fine not less than ₹1 lakh which may extend to ₹1 crore",
+      "Fine not less than ₹1 lakh which may extend to ₹2 crore",
+      "Fine not less than ₹2 lakh which may extend to ₹5 crore"
+    ],
+
+    answer: 2,
+
+    reason: `
+      Section 235A is the residuary penalty provision. Where a contravention of
+      the Code, rules or regulations has no specific penalty or punishment
+      provided, the person is punishable with a fine of not less than ₹1 lakh,
+      which may extend to ₹2 crore.
+    `
+  }
   // {
   // caseText:"",
   // questions:[{question:" ",
