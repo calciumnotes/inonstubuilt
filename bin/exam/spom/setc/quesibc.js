@@ -5319,7 +5319,650 @@ subsidiary's own assets property of the corporate debtor.
       provided, the person is punishable with a fine of not less than ₹1 lakh,
       which may extend to ₹2 crore.
     `
-  }
+  },
+
+  // Chapter 7
+
+
+  {
+    id: "IBC_CH7_MCQ01",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Significant Judicial Pronouncements",
+
+    question: `
+      CIRP against Alpha Ltd. has already been admitted by the NCLT and a
+      moratorium under Section 14 is in force. Subsequently, a supplier invokes
+      the arbitration clause contained in the contract and commences arbitration
+      proceedings against Alpha Ltd. Which of the following is correct?
+    `,
+
+    options: [
+      "The arbitration is valid because arbitration is not a court proceeding.",
+      "The arbitration can continue only with approval of the Committee of Creditors.",
+      "The arbitration initiated after the moratorium is non est in law.",
+      "The arbitration may continue only after permission of the District Court."
+    ],
+
+    answer: 2,
+
+    reason: `
+      In Alchemist Asset Reconstruction Co. Ltd. v. Hotel Gaudavan Pvt. Ltd.,
+      the Supreme Court held that once moratorium under Section 14 begins,
+      institution or continuation of proceedings against the corporate debtor,
+      including arbitration initiated after the moratorium, is barred and is
+      non est in law.
+    `
+  },
+
+  {
+    id: "IBC_CH7_MCQ02",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Significant Judicial Pronouncements",
+
+    question: `
+      XYZ Ltd. claims that since its liabilities are temporarily suspended under
+      a State Relief Undertakings Act, a financial creditor cannot initiate CIRP
+      under the Insolvency and Bankruptcy Code. Which principle laid down in
+      Innoventive Industries Ltd. v. ICICI Bank is applicable?
+    `,
+
+    options: [
+      "The State law prevails because it is a special law.",
+      "Both laws operate simultaneously without conflict.",
+      "The IBC prevails over the inconsistent State law due to Section 238 and Article 254.",
+      "The State Government alone decides which law will apply."
+    ],
+
+    answer: 2,
+
+    reason: `
+      The Supreme Court held that where the State law conflicts with the IBC,
+      the Parliamentary legislation prevails. Section 238 of the IBC and
+      Article 254 ensure that inconsistent State provisions cannot obstruct CIRP.
+    `
+  },
+
+  {
+    id: "IBC_CH7_MCQ03",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Significant Judicial Pronouncements",
+
+    question: `
+      An operational creditor serves a demand notice under Section 8. Before
+      receiving the notice, the corporate debtor had already raised a genuine
+      dispute supported by correspondence regarding defective services.
+      According to Mobilox Innovations Pvt. Ltd. v. Kirusa Software Pvt. Ltd.,
+      the Adjudicating Authority should:
+    `,
+
+    options: [
+      "Admit the application because the debt exceeds the threshold.",
+      "Reject the application if a genuine and plausible dispute exists.",
+      "Admit the application unless the debtor has already filed a civil suit.",
+      "Ignore disputes raised through correspondence."
+    ],
+
+    answer: 1,
+
+    reason: `
+      Mobilox held that if there exists a real and plausible dispute—not a
+      spurious or illusory one—the Section 9 application must be rejected.
+      The Adjudicating Authority does not examine the merits in detail.
+    `
+  },
+
+  {
+    id: "IBC_CH7_MCQ04",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Significant Judicial Pronouncements",
+
+    question: `
+      An operational creditor files an application under Section 9 without
+      enclosing the certificate under Section 9(3)(c) from its financial
+      institution. Which statement is correct according to Macquarie Bank Ltd.
+      v. Shilpi Cable Technologies Ltd.?
+    `,
+
+    options: [
+      "The application must always be rejected.",
+      "The certificate is mandatory unless waived by NCLT.",
+      "The certificate is directory and default may be proved by other evidence.",
+      "Only foreign operational creditors are exempt."
+    ],
+
+    answer: 2,
+
+    reason: `
+      The Supreme Court held that the certificate under Section 9(3)(c) is not
+      mandatory. Default can be established through other documentary evidence.
+    `
+  },
+
+  {
+    id: "IBC_CH7_MCQ05",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Significant Judicial Pronouncements",
+
+    question: `
+      After the 2018 amendment, allottees in a real estate project are treated as
+      which category of creditors under the IBC as affirmed in Chitra Sharma v.
+      Union of India?
+    `,
+
+    options: [
+      "Operational Creditors",
+      "Secured Creditors only",
+      "Financial Creditors",
+      "Other Creditors"
+    ],
+
+    answer: 2,
+
+    reason: `
+      Chitra Sharma affirmed that home buyers are treated as financial creditors
+      because the amounts raised from allottees have the commercial effect of
+      borrowing.
+    `
+  },
+
+  {
+    id: "IBC_CH7_MCQ06",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Significant Judicial Pronouncements",
+
+    question: `
+      A foreign operational creditor is unable to obtain the certificate from an
+      Indian financial institution referred to in Section 9(3)(c). According to
+      Sunrise 14 A/S Denmark v. Ravi Mahajan, what is the legal position?
+    `,
+
+    options: [
+      "The application cannot be filed.",
+      "The requirement cannot be insisted upon where compliance is impossible.",
+      "Only RBI can exempt such creditors.",
+      "The creditor must first open a bank account in India."
+    ],
+
+    answer: 1,
+
+    reason: `
+      The Supreme Court held that a foreign operational creditor cannot be
+      compelled to perform an impossible requirement. Therefore, absence of
+      such certificate does not invalidate the application.
+    `
+  },
+
+  {
+    id: "IBC_CH7_MCQ07",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Significant Judicial Pronouncements",
+
+    question: `
+      A financial creditor files an application under Section 7 based on a
+      default that occurred more than four years earlier, without any ground
+      for condonation of delay. According to B.K. Educational Services Pvt. Ltd.
+      v. Parag Gupta & Associates, the application is:
+    `,
+
+    options: [
+      "Maintainable because the IBC contains no limitation period.",
+      "Maintainable if the debt exceeds ₹1 crore.",
+      "Barred by limitation under Article 137 unless delay is condoned.",
+      "Automatically maintainable after insertion of Section 238A."
+    ],
+
+    answer: 2,
+
+    reason: `
+      The Supreme Court held that the Limitation Act applies to Sections 7 and 9
+      applications from the inception of the Code. Article 137 prescribes a
+      three-year limitation period from the date of default.
+    `
+  },
+
+  {
+    id: "IBC_CH7_MCQ08",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Significant Judicial Pronouncements",
+
+    question: `
+      During CIRP, the Resolution Professional rejects a claim after verification.
+      A creditor argues that the Resolution Professional exercised judicial
+      powers while doing so. Which statement is correct according to Swiss
+      Ribbons Pvt. Ltd. v. Union of India?
+    `,
+
+    options: [
+      "The Resolution Professional performs judicial functions.",
+      "The Resolution Professional exercises only administrative functions and acts as a facilitator.",
+      "The Resolution Professional has powers equal to those of the NCLT.",
+      "The Resolution Professional decides disputes finally."
+    ],
+
+    answer: 1,
+
+    reason: `
+      Swiss Ribbons clarified that the Resolution Professional performs
+      administrative functions, facilitates the CIRP and possesses no
+      adjudicatory powers.
+    `
+  },
+
+  {
+    id: "IBC_CH7_MCQ09",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Significant Judicial Pronouncements",
+
+    question: `
+      Members of the suspended Board of Directors seek copies of the resolution
+      plans before the CoC meeting to participate effectively. According to
+      Vijay Kumar Jain v. Standard Chartered Bank, they:
+    `,
+
+    options: [
+      "Have no right to receive the resolution plans.",
+      "Can receive the plans subject to confidentiality safeguards.",
+      "Can inspect the plans only after approval by the CoC.",
+      "Can receive only the agenda but not supporting documents."
+    ],
+
+    answer: 1,
+
+    reason: `
+      The Supreme Court held that suspended directors are entitled to receive
+      resolution plans as relevant documents for meaningful participation,
+      subject to confidentiality obligations such as non-disclosure agreements.
+    `
+  },
+
+  {
+    id: "IBC_CH7_MCQ10",
+    difficulty: "Medium",
+    subject: "IBC",
+    chapter: "Significant Judicial Pronouncements",
+
+    question: `
+      During CIRP conducted before the 2018 amendment, only 67% of the voting
+      share of financial creditors approved the resolution plan. No alternative
+      resolution plan was approved within the prescribed time. According to
+      K. Sashidhar v. Indian Overseas Bank, which consequence follows?
+    `,
+
+    options: [
+      "NCLT may approve the plan considering commercial viability.",
+      "NCLAT may substitute its own commercial wisdom.",
+      "The resolution plan is deemed rejected and liquidation follows.",
+      "The threshold of 66% introduced later automatically applies."
+    ],
+
+    answer: 2,
+
+    reason: `
+      K. Sashidhar held that neither NCLT nor NCLAT can substitute the commercial
+      wisdom of the CoC. Since the required voting threshold applicable at the
+      relevant time was not achieved and no alternative plan was approved,
+      liquidation must follow.
+    `
+  },
+
+/* ===========================================================
+   CASE SCENARIO 1
+=========================================================== */
+{
+  case_id: "IBC_CH7_CS1",
+  difficulty: "Medium",
+  chapter: ["Significant Judicial Pronouncements"],
+
+  caseText: `
+  <p><strong>Alpha Infrastructure Limited</strong>, a real estate developer, defaulted on repayment of its bank loans. A financial creditor filed an application under Section 7 of the Insolvency and Bankruptcy Code, 2016 before the NCLT. The application was admitted and a moratorium under Section 14 came into force.</p>
+
+  <p>Despite the moratorium, one operational creditor invoked the arbitration clause contained in the supply agreement and initiated arbitration proceedings for recovery of its dues. Another supplier filed a fresh civil recovery suit before a District Court. The suspended Board of Directors argued that these proceedings were independent and should continue because they had commenced after admission of CIRP.</p>
+
+  <p>The Resolution Professional opposed the actions stating that once the moratorium commenced, no legal proceedings could be initiated or continued against the Corporate Debtor. The parties relied upon the judicial principles laid down by the Supreme Court while deciding the dispute.</p>
+  `,
+
+  questions: [
+    {
+      question: "Which Supreme Court judgment directly governs the validity of arbitration proceedings initiated after the moratorium?",
+      options: [
+        "Swiss Ribbons Pvt. Ltd.",
+        "Mobilox Innovations Pvt. Ltd.",
+        "Alchemist Asset Reconstruction Co. Ltd.",
+        "K. Sashidhar"
+      ],
+      answer: 2
+    },
+    {
+      question: "The arbitration proceedings initiated after the moratorium are:",
+      options: [
+        "Perfectly valid",
+        "Valid only with CoC approval",
+        "Non est in law",
+        "Valid after District Court permission"
+      ],
+      answer: 2
+    },
+    {
+      question: "Can the fresh civil recovery suit continue during the moratorium?",
+      options: [
+        "Yes",
+        "Only after NCLT permission",
+        "No",
+        "Only if filed by an operational creditor"
+      ],
+      answer: 2
+    },
+    {
+      question: "The objective of the moratorium is primarily to:",
+      options: [
+        "Increase liquidation value",
+        "Provide a calm period for CIRP",
+        "Recover government dues first",
+        "Terminate all contracts"
+      ],
+      answer: 1
+    },
+    {
+      question: "Which provision of the IBC imposes the moratorium?",
+      options: [
+        "Section 7",
+        "Section 9",
+        "Section 14",
+        "Section 29A"
+      ],
+      answer: 2
+    }
+  ]
+},
+
+/* ===========================================================
+   CASE SCENARIO 2
+=========================================================== */
+{
+  case_id: "IBC_CH7_CS2",
+  difficulty: "Medium",
+  chapter: ["Significant Judicial Pronouncements"],
+
+  caseText: `
+  <p><strong>Nova Engineering Ltd.</strong> had been declared a relief undertaking under a State law which temporarily suspended enforcement of liabilities. A consortium of banks nevertheless initiated CIRP under Section 7 of the IBC.</p>
+
+  <p>The company argued before the NCLT that because the State legislation had granted protection from repayment, insolvency proceedings under the IBC could not continue. The banks argued that the IBC is a Central legislation containing an overriding clause and would prevail over any inconsistent State law.</p>
+
+  <p>The dispute required interpretation of constitutional principles relating to repugnancy and the overriding effect of the Insolvency and Bankruptcy Code.</p>
+  `,
+
+  questions: [
+    {
+      question: "Which landmark judgment deals with this issue?",
+      options: [
+        "Innoventive Industries Ltd.",
+        "Mobilox Innovations Pvt. Ltd.",
+        "Macquarie Bank Ltd.",
+        "Vijay Kumar Jain"
+      ],
+      answer: 0
+    },
+    {
+      question: "Which section gives overriding effect to the IBC?",
+      options: [
+        "Section 21",
+        "Section 29A",
+        "Section 238",
+        "Section 53"
+      ],
+      answer: 2
+    },
+    {
+      question: "The State legislation will:",
+      options: [
+        "Always prevail",
+        "Prevail only if enacted earlier",
+        "Yield to the IBC if inconsistent",
+        "Override the IBC in insolvency matters"
+      ],
+      answer: 2
+    },
+    {
+      question: "The doctrine mainly discussed by the Supreme Court was:",
+      options: [
+        "Estoppel",
+        "Res judicata",
+        "Repugnancy",
+        "Promissory estoppel"
+      ],
+      answer: 2
+    },
+    {
+      question: "The Supreme Court ultimately held that:",
+      options: [
+        "CIRP cannot proceed",
+        "State law overrides Section 238",
+        "IBC prevails and CIRP may continue",
+        "Matter should go to arbitration"
+      ],
+      answer: 2
+    }
+  ]
+},
+
+/* ===========================================================
+   CASE SCENARIO 3
+=========================================================== */
+{
+  case_id: "IBC_CH7_CS3",
+  difficulty: "Medium",
+  chapter: ["Significant Judicial Pronouncements"],
+
+  caseText: `
+  <p><strong>Bright Solutions Pvt. Ltd.</strong> supplied software services to Orion Technologies Ltd. After completion of the project, payment remained outstanding. Before the operational creditor issued a demand notice under Section 8, the Corporate Debtor had repeatedly complained through emails that the software was defective and incomplete.</p>
+
+  <p>Ignoring those communications, the supplier issued a demand notice and subsequently filed an application under Section 9 of the IBC claiming that default had occurred. The Corporate Debtor argued that a genuine dispute regarding quality of services had existed much before the demand notice was issued.</p>
+
+  <p>The Adjudicating Authority had to determine whether CIRP could be initiated despite the existence of such dispute.</p>
+  `,
+
+  questions: [
+    {
+      question: "Which Supreme Court judgment applies?",
+      options: [
+        "Mobilox Innovations Pvt. Ltd.",
+        "Swiss Ribbons",
+        "K. Sashidhar",
+        "Sunrise Denmark"
+      ],
+      answer: 0
+    },
+    {
+      question: "The Adjudicating Authority should admit the application only if:",
+      options: [
+        "Debt exceeds ₹1 lakh",
+        "No genuine dispute exists",
+        "Operational creditor requests admission",
+        "Corporate debtor remains absent"
+      ],
+      answer: 1
+    },
+    {
+      question: "A dispute should be:",
+      options: [
+        "Hypothetical",
+        "Illusory",
+        "Real and plausible",
+        "Raised after admission"
+      ],
+      answer: 2
+    },
+    {
+      question: "If a genuine dispute exists, the application under Section 9 should be:",
+      options: [
+        "Admitted",
+        "Transferred to arbitration",
+        "Rejected",
+        "Approved with conditions"
+      ],
+      answer: 2
+    },
+    {
+      question: "The Supreme Court held that the Adjudicating Authority should:",
+      options: [
+        "Conduct a detailed trial",
+        "Decide contractual rights finally",
+        "Only examine whether a plausible dispute exists",
+        "Ignore correspondence"
+      ],
+      answer: 2
+    }
+  ]
+},
+
+/* ===========================================================
+   CASE SCENARIO 4
+=========================================================== */
+{
+  case_id: "IBC_CH7_CS4",
+  difficulty: "Medium",
+  chapter: ["Significant Judicial Pronouncements"],
+
+  caseText: `
+  <p><strong>Galaxy Manufacturing Ltd.</strong> entered CIRP after defaulting on its financial obligations. During the process, the Resolution Professional convened meetings of the Committee of Creditors (CoC).</p>
+
+  <p>The suspended directors received notices of meetings but were denied copies of the resolution plans. The Resolution Professional argued that the plans contained confidential commercial information and therefore could not be shared with former directors. The directors claimed that without access to the plans they could not effectively participate in CoC meetings.</p>
+
+  <p>The controversy reached the Supreme Court for interpretation of the rights of suspended directors during CIRP.</p>
+  `,
+
+  questions: [
+    {
+      question: "Which judgment governs this issue?",
+      options: [
+        "Vijay Kumar Jain",
+        "Innoventive Industries",
+        "Mobilox",
+        "Alchemist ARC"
+      ],
+      answer: 0
+    },
+    {
+      question: "Suspended directors are entitled to:",
+      options: [
+        "Vote in CoC meetings",
+        "Receive resolution plans subject to confidentiality",
+        "Reject resolution plans",
+        "Replace the Resolution Professional"
+      ],
+      answer: 1
+    },
+    {
+      question: "Suspended directors in CoC meetings have:",
+      options: [
+        "Voting rights",
+        "Casting vote",
+        "Participation rights but no voting rights",
+        "Equal rights with financial creditors"
+      ],
+      answer: 2
+    },
+    {
+      question: "The Resolution Professional may require directors to:",
+      options: [
+        "Deposit security",
+        "Sign a confidentiality undertaking",
+        "Resign permanently",
+        "Obtain CoC approval"
+      ],
+      answer: 1
+    },
+    {
+      question: "The Supreme Court held that access to the resolution plan is necessary for:",
+      options: [
+        "Valuation of shares",
+        "Meaningful participation in CoC meetings",
+        "Appointment as Resolution Professional",
+        "Voting on liquidation"
+      ],
+      answer: 1
+    }
+  ]
+},
+
+/* ===========================================================
+   CASE SCENARIO 5
+=========================================================== */
+{
+  case_id: "IBC_CH7_CS5",
+  difficulty: "Medium",
+  chapter: ["Significant Judicial Pronouncements"],
+
+  caseText: `
+  <p><strong>Omega Steel Ltd.</strong> underwent Corporate Insolvency Resolution Process. The Committee of Creditors voted on a resolution plan. Financial creditors holding 67% of the voting share approved the plan, while the remaining creditors opposed it. At the relevant time, the law required approval by at least 75% voting share.</p>
+
+  <p>The Corporate Debtor argued before the NCLT that since a substantial majority had approved the plan, the Tribunal should exercise equitable powers and approve it. The dissenting financial creditors opposed the request and insisted that statutory voting requirements had not been fulfilled.</p>
+
+  <p>The dispute eventually reached the Supreme Court, where the scope of judicial review over the commercial wisdom of the Committee of Creditors was examined.</p>
+  `,
+
+  questions: [
+    {
+      question: "Which Supreme Court decision governs this issue?",
+      options: [
+        "Swiss Ribbons",
+        "K. Sashidhar",
+        "Mobilox",
+        "Sunrise Denmark"
+      ],
+      answer: 1
+    },
+    {
+      question: "Can NCLT substitute the commercial wisdom of the CoC?",
+      options: [
+        "Yes",
+        "Only in exceptional cases",
+        "No",
+        "Only with RBI approval"
+      ],
+      answer: 2
+    },
+    {
+      question: "Since the required voting percentage was not achieved, the plan is:",
+      options: [
+        "Automatically approved",
+        "Deemed rejected",
+        "Kept pending indefinitely",
+        "Sent back for arbitration"
+      ],
+      answer: 1
+    },
+    {
+      question: "If no alternative plan is approved within the prescribed period:",
+      options: [
+        "Fresh CIRP begins",
+        "Liquidation follows",
+        "CoC stands dissolved",
+        "Government takes over management"
+      ],
+      answer: 1
+    },
+    {
+      question: "The Supreme Court emphasized that commercial decisions of the CoC are:",
+      options: [
+        "Completely reviewable on merits",
+        "Subject to judicial substitution",
+        "Normally non-justiciable",
+        "Controlled by operational creditors"
+      ],
+      answer: 2
+    }
+  ]
+}
   // {
   // caseText:"",
   // questions:[{question:" ",
