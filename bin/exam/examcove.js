@@ -34,7 +34,7 @@ class Particle {
   draw() {
     ctx.fillStyle = `rgba(58, 46, 42, ${this.opacity})`;
     ctx.font = `bold ${this.size}px "Segoe UI", sans-serif`;
-    ctx.fillText("ca", this.x, this.y); // Draws the letters "ca"
+    ctx.fillText("CA", this.x, this.y); // Draws the letters "ca"
   }
 }
 
