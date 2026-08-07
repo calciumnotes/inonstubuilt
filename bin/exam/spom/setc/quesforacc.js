@@ -2549,6 +2549,2349 @@ const caseStudies = [
     ],
     answer: 1,
     reason: "Forensic accounting services focus on establishing facts, tracing assets, identifying fraud, quantifying losses, preserving evidence and supporting legal or regulatory proceedings through objective analysis."
+},
+
+// Chapter 2
+
+{
+  case_id: "FA_CH2_CS01",
+  chapter: "Introduction and Basic Concepts",
+  difficulty: "Easy",
+  case_title: "Suspicious Vendor Payments",
+  caseText: `<p>ABC Manufacturing Ltd. noticed that payments to a newly appointed vendor had increased significantly during the last six months. The Audit Committee suspected that certain invoices might have been fabricated to divert company funds. Instead of asking the statutory auditor to investigate, it appointed a Chartered Accountant experienced in Forensic Accounting. The engagement required gathering evidence, examining accounting records, tracing fund flow and preparing a report that could be used before a Competent Authority if required.</p>`,
+  questions: [
+    {
+      question_id: "FA_CH2_CS01_Q1",
+      question: "The primary nature of this engagement is:",
+      options: [
+        "Statutory Audit",
+        "Internal Audit",
+        "Forensic Accounting",
+        "Tax Audit"
+      ],
+      answer: 2,
+      reason: "The engagement involves gathering evidence for possible legal proceedings, which is a forensic accounting engagement."
+    },
+    {
+      question_id: "FA_CH2_CS01_Q2",
+      question: "The overriding objective of Forensic Accounting is to:",
+      options: [
+        "Express an audit opinion",
+        "Prepare financial statements",
+        "Gather and evaluate evidence to report findings before a Competent Authority",
+        "Reduce taxation"
+      ],
+      answer: 2,
+      reason: "The Framework defines forensic accounting as gathering and evaluation of evidence to report findings before a Competent Authority."
+    },
+    {
+      question_id: "FA_CH2_CS01_Q3",
+      question: "The professional engaged is expected to:",
+      options: [
+        "Express an audit opinion",
+        "Reach a conclusion based on evidence without expressing an audit opinion",
+        "Approve vendor payments",
+        "Prepare management accounts"
+      ],
+      answer: 1,
+      reason: "A forensic accountant reaches conclusions but does not express an audit opinion."
+    },
+    {
+      question_id: "FA_CH2_CS01_Q4",
+      question: "The fabricated invoices primarily indicate a possibility of:",
+      options: [
+        "Operational inefficiency",
+        "Fraud",
+        "Depreciation error",
+        "Accounting estimate"
+      ],
+      answer: 1,
+      reason: "Fabrication of invoices to divert funds is an example of fraud."
+    },
+    {
+      question_id: "FA_CH2_CS01_Q5",
+      question: "Which stakeholder appointed the Professional?",
+      options: [
+        "Suppliers",
+        "Audit Committee",
+        "Customers",
+        "Income Tax Department"
+      ],
+      answer: 1,
+      reason: "The Audit Committee appointed the Professional and is the Primary Stakeholder."
+    }
+  ]
+},
+{
+  case_id: "FA_CH2_CS02",
+  chapter: "Introduction and Basic Concepts",
+  difficulty: "Easy",
+  case_title: "Inventory Pilferage",
+  caseText: `<p>A pharmaceutical company suspected that expensive raw materials were disappearing from its warehouse. A Professional examined inventory records, reconciled physical stock with accounting records, reviewed production consumption, analysed wastage records and requested CCTV footage. The evidence suggested deliberate pilferage by certain employees.</p>`,
+  questions: [
+    {
+      question_id: "FA_CH2_CS02_Q1",
+      question: "The review of accounting records and physical stock is an example of:",
+      options: [
+        "Statutory Audit",
+        "Forensic Accounting",
+        "Secretarial Audit",
+        "Tax Investigation"
+      ],
+      answer: 1,
+      reason: "The engagement focuses on gathering evidence relating to suspected fraud."
+    },
+    {
+      question_id: "FA_CH2_CS02_Q2",
+      question: "Reviewing CCTV footage primarily forms part of:",
+      options: [
+        "Evidence gathering",
+        "Budget preparation",
+        "Financial reporting",
+        "Internal control design"
+      ],
+      answer: 0,
+      reason: "CCTV footage is used as supporting evidence during investigation."
+    },
+    {
+      question_id: "FA_CH2_CS02_Q3",
+      question: "The objective of this engagement is mainly to:",
+      options: [
+        "Express audit opinion",
+        "Confirm or rule out suspicion of fraud",
+        "Calculate GST liability",
+        "Prepare financial statements"
+      ],
+      answer: 1,
+      reason: "The engagement seeks to establish the truth regarding suspected inventory pilferage."
+    },
+    {
+      question_id: "FA_CH2_CS02_Q4",
+      question: "Inventory pilferage resulting in unlawful loss to the company is an example of:",
+      options: [
+        "Fraud",
+        "Accounting estimate",
+        "Business risk",
+        "Going concern issue"
+      ],
+      answer: 0,
+      reason: "Intentional theft of inventory through deception constitutes fraud."
+    },
+    {
+      question_id: "FA_CH2_CS02_Q5",
+      question: "Which evidence strengthened the conclusion of pilferage?",
+      options: [
+        "Sales budget",
+        "CCTV footage",
+        "Cash flow statement",
+        "Bank reconciliation statement"
+      ],
+      answer: 1,
+      reason: "CCTV footage corroborated the accounting evidence."
+    }
+  ]
+},
+{
+  case_id: "FA_CH2_CS03",
+  chapter: "Introduction and Basic Concepts",
+  difficulty: "Easy",
+  case_title: "Anonymous Threat Letter",
+  caseText: `<p>The CEO of XYZ Ltd. received an anonymous handwritten letter threatening harm unless money was paid. Police seized the letter and envelope. Experts examined fingerprints, handwriting, ink, paper quality and postal markings while simultaneously identifying possible suspects and comparing handwriting samples.</p>`,
+  questions: [
+    {
+      question_id: "FA_CH2_CS03_Q1",
+      question: "The examination of handwriting and fingerprints is an example of:",
+      options: [
+        "Forensics",
+        "Financial Audit",
+        "Internal Control Review",
+        "Cost Audit"
+      ],
+      answer: 0,
+      reason: "Scientific examination of physical evidence is forensics."
+    },
+    {
+      question_id: "FA_CH2_CS03_Q2",
+      question: "The primary purpose of forensic analysis here is to:",
+      options: [
+        "Prepare financial statements",
+        "Identify reliable evidence relating to the crime",
+        "Calculate compensation",
+        "Prepare an audit report"
+      ],
+      answer: 1,
+      reason: "Forensics scientifically analyses evidence connected with a crime."
+    },
+    {
+      question_id: "FA_CH2_CS03_Q3",
+      question: "Comparing handwriting samples mainly helps to:",
+      options: [
+        "Determine tax liability",
+        "Identify probable author",
+        "Prepare legal notices",
+        "Value assets"
+      ],
+      answer: 1,
+      reason: "Handwriting comparison assists in identifying the likely writer."
+    },
+    {
+      question_id: "FA_CH2_CS03_Q4",
+      question: "Which of the following is NOT part of forensic examination in this case?",
+      options: [
+        "Fingerprint analysis",
+        "Ink examination",
+        "Preparation of audit opinion",
+        "Handwriting analysis"
+      ],
+      answer: 2,
+      reason: "Expressing an audit opinion is unrelated to forensic examination."
+    },
+    {
+      question_id: "FA_CH2_CS03_Q5",
+      question: "The techniques used by experts were intended to:",
+      options: [
+        "Support legal proceedings with scientific evidence",
+        "Increase profitability",
+        "Prepare budgets",
+        "Reduce taxation"
+      ],
+      answer: 0,
+      reason: "Forensic evidence is collected to support legal proceedings."
+    }
+  ]
+},
+{
+  case_id: "FA_CH2_CS04",
+  chapter: "Introduction and Basic Concepts",
+  difficulty: "Easy",
+  case_title: "Misuse of the Term 'Forensic Audit'",
+  caseText: `<p>A television news channel repeatedly reported that regulators had ordered a "Forensic Audit" of a listed company. The appointed Chartered Accountant clarified that the engagement actually involved gathering evidence regarding suspected fund diversion and preparing findings for regulatory authorities. He also explained that ICAI's Standards discourage the use of the term "Forensic Audit".</p>`,
+  questions: [
+    {
+      question_id: "FA_CH2_CS04_Q1",
+      question: "According to FAIS, the term 'Forensic Audit' is considered:",
+      options: [
+        "Mandatory",
+        "Correct legal terminology",
+        "A misnomer",
+        "An auditing standard"
+      ],
+      answer: 2,
+      reason: "FAIS clearly states that 'Forensic Audit' is a misleading term."
+    },
+    {
+      question_id: "FA_CH2_CS04_Q2",
+      question: "The engagement described is actually:",
+      options: [
+        "Internal Audit",
+        "Forensic Accounting and Investigation",
+        "Secretarial Audit",
+        "Tax Audit"
+      ],
+      answer: 1,
+      reason: "The work involves gathering evidence and investigation."
+    },
+    {
+      question_id: "FA_CH2_CS04_Q3",
+      question: "The outcome of a forensic accounting engagement is:",
+      options: [
+        "Audit Opinion",
+        "Investigation Report containing findings",
+        "Cost Sheet",
+        "Budget"
+      ],
+      answer: 1,
+      reason: "The Professional reports findings rather than expressing an audit opinion."
+    },
+    {
+      question_id: "FA_CH2_CS04_Q4",
+      question: "The Professional should determine the engagement's nature primarily from:",
+      options: [
+        "Media reports",
+        "The engagement mandate",
+        "Annual Report",
+        "Company logo"
+      ],
+      answer: 1,
+      reason: "The mandate defines the nature and objectives of the engagement."
+    },
+    {
+      question_id: "FA_CH2_CS04_Q5",
+      question: "FAIS applies when the engagement is in the nature of:",
+      options: [
+        "Only statutory audit",
+        "Only internal audit",
+        "Forensic Accounting or Investigation",
+        "Cost audit only"
+      ],
+      answer: 2,
+      reason: "FAIS applies to forensic accounting and investigation engagements."
+    }
+  ]
+},
+{
+  case_id: "FA_CH2_CS05",
+  chapter: "Introduction and Basic Concepts",
+  difficulty: "Easy",
+  case_title: "Choosing the Right Engagement",
+  caseText: `<p>The Board of Directors suspected that confidential customer data had been stolen by an employee. A Chartered Accountant was asked to examine electronic records, interview employees, collect evidence and determine whether legal action should be initiated. Before accepting the assignment, the Professional carefully understood the engagement objectives and applicable laws.</p>`,
+  questions: [
+    {
+      question_id: "FA_CH2_CS05_Q1",
+      question: "Before commencing work, the Professional should primarily determine:",
+      options: [
+        "Expected company profits",
+        "Nature and objectives of the engagement",
+        "Dividend policy",
+        "Employee salary structure"
+      ],
+      answer: 1,
+      reason: "Understanding the engagement's nature and objectives is fundamental."
+    },
+    {
+      question_id: "FA_CH2_CS05_Q2",
+      question: "The examination of electronic records relates mainly to:",
+      options: [
+        "Digital evidence",
+        "Inventory valuation",
+        "Tax planning",
+        "Budgeting"
+      ],
+      answer: 0,
+      reason: "Electronic records form part of digital evidence."
+    },
+    {
+      question_id: "FA_CH2_CS05_Q3",
+      question: "Interviewing employees during the engagement is an example of:",
+      options: [
+        "Investigation procedure",
+        "Statutory audit requirement",
+        "Cost accounting",
+        "Management accounting"
+      ],
+      answer: 0,
+      reason: "Interviews are an important investigation technique."
+    },
+    {
+      question_id: "FA_CH2_CS05_Q4",
+      question: "The Board of Directors in this engagement is the:",
+      options: [
+        "Expert",
+        "Primary Stakeholder",
+        "Other Stakeholder",
+        "Competitor"
+      ],
+      answer: 1,
+      reason: "The appointing authority is the Primary Stakeholder."
+    },
+    {
+      question_id: "FA_CH2_CS05_Q5",
+      question: "The overall objective of the engagement is to:",
+      options: [
+        "Issue an audit opinion",
+        "Establish facts and gather evidence for possible legal action",
+        "Increase sales",
+        "Prepare financial statements"
+      ],
+      answer: 1,
+      reason: "The purpose is to establish facts and collect evidence for legal proceedings if necessary."
+    }
+  ]
+},
+{
+  case_id: "FA_CH2_CS06",
+  chapter: "Introduction and Basic Concepts",
+  difficulty: "Medium",
+  case_title: "Understanding Fraud Risk",
+  caseText: `<p>The management of Prime Electronics Ltd. noticed that one branch consistently reported profits despite declining industry conditions. A forensic accounting professional was appointed after anonymous complaints alleged manipulation of sales figures. During preliminary discussions, the professional found that branch managers were under intense pressure to achieve unrealistic profit targets, internal controls over sales returns were weak, and senior staff justified temporary manipulation by claiming the business would recover next year.</p>`,
+  questions: [
+    {
+      question_id: "FA_CH2_CS06_Q1",
+      question: "The three conditions observed represent:",
+      options: [
+        "Fraud Scale",
+        "Fraud Triangle",
+        "Fraud Diamond",
+        "Fraud Pentagon"
+      ],
+      answer: 1,
+      reason: "Pressure, opportunity and rationalization are the three elements of the Fraud Triangle."
+    },
+    {
+      question_id: "FA_CH2_CS06_Q2",
+      question: "Weak controls over sales returns primarily indicate:",
+      options: [
+        "Capability",
+        "Opportunity",
+        "Integrity",
+        "Competence"
+      ],
+      answer: 1,
+      reason: "Weak internal controls create an opportunity to commit fraud."
+    },
+    {
+      question_id: "FA_CH2_CS06_Q3",
+      question: "The unrealistic profit targets represent:",
+      options: [
+        "Pressure",
+        "Capability",
+        "Evidence",
+        "Integrity"
+      ],
+      answer: 0,
+      reason: "Pressure or incentive is one element of the Fraud Triangle."
+    },
+    {
+      question_id: "FA_CH2_CS06_Q4",
+      question: "The justification that results will improve later represents:",
+      options: [
+        "Capability",
+        "Rationalization",
+        "Opportunity",
+        "Professional judgment"
+      ],
+      answer: 1,
+      reason: "Fraudsters often justify their actions through rationalization."
+    },
+    {
+      question_id: "FA_CH2_CS06_Q5",
+      question: "According to FAIS 120, fraud risk generally involves:",
+      options: [
+        "Possibility of fraudulent events or suspicious transactions",
+        "Only accounting errors",
+        "Only cyber fraud",
+        "Tax disputes"
+      ],
+      answer: 0,
+      reason: "FAIS 120 states that FAI engagements generally involve the possibility of fraudulent events or suspicious transactions."
+    }
+  ]
+},
+{
+  case_id: "FA_CH2_CS07",
+  chapter: "Introduction and Basic Concepts",
+  difficulty: "Medium",
+  case_title: "Choosing Between Audit and Investigation",
+  caseText: `<p>The statutory auditor of Delta Ltd. noticed unusual year-end journal entries but had insufficient evidence to conclude that fraud had occurred. The Audit Committee separately appointed a forensic accounting professional to determine whether the entries represented deliberate manipulation and to collect legally admissible evidence if fraud was established.</p>`,
+  questions: [
+    {
+      question_id: "FA_CH2_CS07_Q1",
+      question: "The statutory auditor's primary responsibility is to:",
+      options: [
+        "Express an opinion on financial statements",
+        "Prosecute fraudsters",
+        "Recover stolen assets",
+        "Conduct police investigation"
+      ],
+      answer: 0,
+      reason: "The objective of an audit is to express an independent opinion."
+    },
+    {
+      question_id: "FA_CH2_CS07_Q2",
+      question: "The forensic accountant's objective is mainly to:",
+      options: [
+        "Express an audit opinion",
+        "Gather evidence and establish facts",
+        "Prepare tax returns",
+        "Prepare budgets"
+      ],
+      answer: 1,
+      reason: "Forensic accounting focuses on evidence gathering and fact finding."
+    },
+    {
+      question_id: "FA_CH2_CS07_Q3",
+      question: "The auditor's observation of unusual journal entries is best described as:",
+      options: [
+        "Conclusive proof of fraud",
+        "A fraud indicator or red flag",
+        "A legal judgment",
+        "An admission of guilt"
+      ],
+      answer: 1,
+      reason: "Unusual entries are fraud indicators requiring further examination."
+    },
+    {
+      question_id: "FA_CH2_CS07_Q4",
+      question: "Which engagement is expected to produce evidence suitable for legal proceedings?",
+      options: [
+        "Statutory Audit",
+        "Internal Audit",
+        "Forensic Accounting",
+        "Cost Audit"
+      ],
+      answer: 2,
+      reason: "Forensic Accounting gathers evidence that may be used before a Competent Authority."
+    },
+    {
+      question_id: "FA_CH2_CS07_Q5",
+      question: "The Audit Committee in this case is the:",
+      options: [
+        "Expert",
+        "Primary Stakeholder",
+        "Other Stakeholder",
+        "Witness"
+      ],
+      answer: 1,
+      reason: "The appointing authority is the Primary Stakeholder."
+    }
+  ]
+},
+{
+  case_id: "FA_CH2_CS08",
+  chapter: "Introduction and Basic Concepts",
+  difficulty: "Medium",
+  case_title: "Applying the Fraud Diamond",
+  caseText: `<p>A senior finance manager manipulated vendor master data over three years. He had unrestricted access to the accounting system, understood internal controls thoroughly and confidently believed that management trusted him completely. The investigation revealed that financial pressure had initially motivated him.</p>`,
+  questions: [
+    {
+      question_id: "FA_CH2_CS08_Q1",
+      question: "Which fraud theory introduces 'Capability' as an additional element?",
+      options: [
+        "Fraud Triangle",
+        "Fraud Scale",
+        "Fraud Diamond",
+        "Fraud Circle"
+      ],
+      answer: 2,
+      reason: "Fraud Diamond adds Capability to the Fraud Triangle."
+    },
+    {
+      question_id: "FA_CH2_CS08_Q2",
+      question: "The manager's technical knowledge of internal controls represents:",
+      options: [
+        "Pressure",
+        "Capability",
+        "Rationalization",
+        "Integrity"
+      ],
+      answer: 1,
+      reason: "Capability includes the ability to understand and exploit systems."
+    },
+    {
+      question_id: "FA_CH2_CS08_Q3",
+      question: "His unrestricted system access primarily created:",
+      options: [
+        "Pressure",
+        "Opportunity",
+        "Integrity",
+        "Quality Control"
+      ],
+      answer: 1,
+      reason: "Access to systems creates opportunity."
+    },
+    {
+      question_id: "FA_CH2_CS08_Q4",
+      question: "Financial pressure is an example of:",
+      options: [
+        "Capability",
+        "Pressure",
+        "Competence",
+        "Arrogance"
+      ],
+      answer: 1,
+      reason: "Financial pressure forms one side of the Fraud Triangle."
+    },
+    {
+      question_id: "FA_CH2_CS08_Q5",
+      question: "The manager's confidence that he would not be detected supports which observation under the Fraud Diamond?",
+      options: [
+        "Confidence of escaping detection",
+        "Integrity",
+        "Professional skepticism",
+        "Evidence reliability"
+      ],
+      answer: 0,
+      reason: "Fraud Diamond includes confidence of avoiding detection as part of capability."
+    }
+  ]
+},
+{
+  case_id: "FA_CH2_CS09",
+  chapter: "Introduction and Basic Concepts",
+  difficulty: "Medium",
+  case_title: "Maintaining Confidentiality",
+  caseText: `<p>A forensic accounting engagement involving suspected bribery was in progress. During the investigation, a journalist contacted the Professional requesting copies of interview notes and preliminary findings. At the same time, one of the suspects requested access to confidential witness statements before the investigation was completed.</p>`,
+  questions: [
+    {
+      question_id: "FA_CH2_CS09_Q1",
+      question: "Which FAIS basic principle is most relevant here?",
+      options: [
+        "Confidentiality",
+        "Capability",
+        "Competence",
+        "Materiality"
+      ],
+      answer: 0,
+      reason: "Confidentiality requires protection of information obtained during the engagement."
+    },
+    {
+      question_id: "FA_CH2_CS09_Q2",
+      question: "Information obtained during the engagement should normally be disclosed:",
+      options: [
+        "To the media",
+        "To anyone requesting it",
+        "Only on a need-to-know basis or where legally required",
+        "To all employees"
+      ],
+      answer: 2,
+      reason: "FAIS permits disclosure only where appropriate or legally required."
+    },
+    {
+      question_id: "FA_CH2_CS09_Q3",
+      question: "Maintaining confidentiality also includes protecting:",
+      options: [
+        "Privacy rights of individuals",
+        "Only accounting records",
+        "Only audit files",
+        "Only management discussions"
+      ],
+      answer: 0,
+      reason: "The Professional must protect privacy rights while gathering evidence."
+    },
+    {
+      question_id: "FA_CH2_CS09_Q4",
+      question: "Reports should generally be addressed to:",
+      options: [
+        "The media",
+        "Specified individuals who appointed the Professional",
+        "Every employee",
+        "Customers"
+      ],
+      answer: 1,
+      reason: "Reports are submitted only to those specified in the engagement."
+    },
+    {
+      question_id: "FA_CH2_CS09_Q5",
+      question: "The Professional should refuse unauthorized disclosure because:",
+      options: [
+        "Confidentiality is a basic principle of FAIS",
+        "The Companies Act prohibits all communication",
+        "Journalists cannot understand reports",
+        "Evidence belongs to employees"
+      ],
+      answer: 0,
+      reason: "Confidentiality is one of the ten basic principles of FAIS."
+    }
+  ]
+},
+{
+  case_id: "FA_CH2_CS10",
+  chapter: "Introduction and Basic Concepts",
+  difficulty: "Medium",
+  case_title: "Selecting the Right FAIS",
+  caseText: `<p>A Chartered Accountant accepted an assignment involving suspected diversion of bank loan funds. Before commencing detailed procedures, she clearly defined the engagement objectives, evaluated the appointment conditions, prepared an investigation plan and later collected documentary evidence and electronic records for reporting.</p>`,
+  questions: [
+    {
+      question_id: "FA_CH2_CS10_Q1",
+      question: "Which FAIS primarily deals with Engagement Objectives?",
+      options: [
+        "FAIS 110",
+        "FAIS 210",
+        "FAIS 320",
+        "FAIS 510"
+      ],
+      answer: 1,
+      reason: "FAIS 210 deals with Engagement Objectives."
+    },
+    {
+      question_id: "FA_CH2_CS10_Q2",
+      question: "Evaluating appointment conditions is governed mainly by:",
+      options: [
+        "FAIS 220",
+        "FAIS 320",
+        "FAIS 420",
+        "FAIS 610"
+      ],
+      answer: 0,
+      reason: "FAIS 220 covers Engagement Acceptance and Appointment."
+    },
+    {
+      question_id: "FA_CH2_CS10_Q3",
+      question: "Planning the investigation is covered under:",
+      options: [
+        "FAIS 250",
+        "FAIS 310",
+        "FAIS 510",
+        "FAIS 610"
+      ],
+      answer: 1,
+      reason: "FAIS 310 deals with Planning the Assignment."
+    },
+    {
+      question_id: "FA_CH2_CS10_Q4",
+      question: "Collection of documentary evidence is primarily governed by:",
+      options: [
+        "FAIS 320",
+        "FAIS 340",
+        "FAIS 410",
+        "FAIS 610"
+      ],
+      answer: 0,
+      reason: "FAIS 320 covers Evidence and Documentation."
+    },
+    {
+      question_id: "FA_CH2_CS10_Q5",
+      question: "Preparing the final written report is governed by:",
+      options: [
+        "FAIS 220",
+        "FAIS 350",
+        "FAIS 510",
+        "FAIS 610"
+      ],
+      answer: 2,
+      reason: "FAIS 510 deals with Reporting Results."
+    }
+  ]
+},
+{
+  case_id: "FA_CH2_CS11",
+  chapter: "Introduction and Basic Concepts",
+  difficulty: "Hard",
+  case_title: "Cross-Border Bribery Investigation",
+  caseText: `<p>Zenith Global Ltd., an Indian listed company, secured several overseas government contracts through its foreign subsidiary. A whistle-blower alleged that senior executives had routed consultancy payments through shell entities to bribe foreign public officials. The Board appointed a Forensic Accounting Professional to determine whether violations of Indian and foreign anti-bribery laws had occurred, trace fund movements, gather electronic evidence from multiple jurisdictions and prepare a report that could support legal proceedings.</p>`,
+  questions: [
+    {
+      question_id: "FA_CH2_CS11_Q1",
+      question: "The engagement primarily involves:",
+      options: [
+        "Routine statutory audit",
+        "Forensic Accounting and Investigation",
+        "Cost audit",
+        "Secretarial audit"
+      ],
+      answer: 1,
+      reason: "The assignment involves investigation, evidence gathering and legal reporting."
+    },
+    {
+      question_id: "FA_CH2_CS11_Q2",
+      question: "Which FAIS Key Concept becomes especially important due to multiple jurisdictions?",
+      options: [
+        "Fraud Risk",
+        "Laws and Regulations",
+        "Contextualisation",
+        "Quality Control"
+      ],
+      answer: 1,
+      reason: "Cross-border investigations require understanding applicable Indian and foreign laws."
+    },
+    {
+      question_id: "FA_CH2_CS11_Q3",
+      question: "Which foreign legislation is specifically aimed at preventing bribery by UK-linked entities?",
+      options: [
+        "Sarbanes-Oxley Act",
+        "Foreign Corrupt Practices Act",
+        "UK Bribery Act",
+        "PMLA"
+      ],
+      answer: 2,
+      reason: "The UK Bribery Act, 2010 specifically addresses bribery offences."
+    },
+    {
+      question_id: "FA_CH2_CS11_Q4",
+      question: "Gathering emails and server records mainly relates to:",
+      options: [
+        "FAIS 420",
+        "FAIS 220",
+        "FAIS 110",
+        "FAIS 610"
+      ],
+      answer: 0,
+      reason: "FAIS 420 deals with Evidence Gathering in the Digital Domain."
+    },
+    {
+      question_id: "FA_CH2_CS11_Q5",
+      question: "The Professional's report is expected to:",
+      options: [
+        "Express an audit opinion",
+        "Recommend dividend",
+        "Present findings supported by evidence",
+        "Approve foreign contracts"
+      ],
+      answer: 2,
+      reason: "FAI reports present findings supported by reliable evidence."
+    }
+  ]
+},
+{
+  case_id: "FA_CH2_CS12",
+  chapter: "Introduction and Basic Concepts",
+  difficulty: "Hard",
+  case_title: "Manipulation of Financial Statements",
+  caseText: `<p>A listed company consistently exceeded market expectations despite declining cash flows. The forensic team discovered fabricated sales, fictitious debtors and unauthorized journal entries passed near year-end. Senior management argued that the manipulation was temporary and intended only to protect investor confidence until business conditions improved.</p>`,
+  questions: [
+    {
+      question_id: "FA_CH2_CS12_Q1",
+      question: "Management's justification best represents:",
+      options: [
+        "Opportunity",
+        "Capability",
+        "Rationalization",
+        "Integrity"
+      ],
+      answer: 2,
+      reason: "Justifying fraudulent behaviour is rationalization."
+    },
+    {
+      question_id: "FA_CH2_CS12_Q2",
+      question: "Fabricated sales primarily indicate:",
+      options: [
+        "Fraud",
+        "Accounting estimate",
+        "Inventory loss",
+        "Going concern issue"
+      ],
+      answer: 0,
+      reason: "Recording fictitious sales is financial statement fraud."
+    },
+    {
+      question_id: "FA_CH2_CS12_Q3",
+      question: "The engagement objective is mainly to:",
+      options: [
+        "Express audit opinion",
+        "Gather evidence and determine financial statement manipulation",
+        "Prepare revised budgets",
+        "Calculate depreciation"
+      ],
+      answer: 1,
+      reason: "The Professional must establish facts relating to manipulation."
+    },
+    {
+      question_id: "FA_CH2_CS12_Q4",
+      question: "The mismatch between profits and cash flows is primarily:",
+      options: [
+        "Conclusive proof of fraud",
+        "A fraud indicator",
+        "Audit opinion",
+        "Internal control"
+      ],
+      answer: 1,
+      reason: "It is a red flag requiring further investigation."
+    },
+    {
+      question_id: "FA_CH2_CS12_Q5",
+      question: "Which FAIS principle requires the Professional to remain unbiased while evaluating evidence?",
+      options: [
+        "Integrity and Objectivity",
+        "Confidentiality",
+        "Skills and Competence",
+        "Quality Control"
+      ],
+      answer: 0,
+      reason: "Integrity and Objectivity require unbiased evaluation of evidence."
+    }
+  ]
+},
+{
+  case_id: "FA_CH2_CS13",
+  chapter: "Introduction and Basic Concepts",
+  difficulty: "Hard",
+  case_title: "Application of Multiple FAIS Standards",
+  caseText: `<p>A bank appointed a forensic accounting firm to investigate diversion of loan funds by a corporate borrower. During the engagement, specialists in cyber forensics and valuation were engaged. The engagement required planning, interviews, documentary evidence, expert reports, supervision, reporting and eventual testimony before a tribunal.</p>`,
+  questions: [
+    {
+      question_id: "FA_CH2_CS13_Q1",
+      question: "Using valuation and cyber experts is primarily covered by:",
+      options: [
+        "FAIS 230",
+        "FAIS 250",
+        "FAIS 420",
+        "FAIS 610"
+      ],
+      answer: 0,
+      reason: "FAIS 230 deals with Using the Work of an Expert."
+    },
+    {
+      question_id: "FA_CH2_CS13_Q2",
+      question: "Conducting interviews is governed by:",
+      options: [
+        "FAIS 340",
+        "FAIS 320",
+        "FAIS 210",
+        "FAIS 430"
+      ],
+      answer: 0,
+      reason: "FAIS 340 deals with Conducting Interviews."
+    },
+    {
+      question_id: "FA_CH2_CS13_Q3",
+      question: "Review and supervision of work procedures are covered by:",
+      options: [
+        "FAIS 350",
+        "FAIS 610",
+        "FAIS 250",
+        "FAIS 510"
+      ],
+      answer: 0,
+      reason: "FAIS 350 covers Review and Supervision."
+    },
+    {
+      question_id: "FA_CH2_CS13_Q4",
+      question: "Testifying before a tribunal is governed by:",
+      options: [
+        "FAIS 360",
+        "FAIS 420",
+        "FAIS 410",
+        "FAIS 240"
+      ],
+      answer: 0,
+      reason: "FAIS 360 deals with Testifying before a Competent Authority."
+    },
+    {
+      question_id: "FA_CH2_CS13_Q5",
+      question: "Which FAIS specifically addresses loans or borrowings?",
+      options: [
+        "FAIS 410",
+        "FAIS 430",
+        "FAIS 330",
+        "FAIS 510"
+      ],
+      answer: 1,
+      reason: "FAIS 430 deals with engagements relating to Loans or Borrowings."
+    }
+  ]
+},
+{
+  case_id: "FA_CH2_CS14",
+  chapter: "Introduction and Basic Concepts",
+  difficulty: "Hard",
+  case_title: "Applying Basic Principles",
+  caseText: `<p>During a sensitive investigation, the Professional faced pressure from the company's CEO to remove certain observations from the draft report. Simultaneously, the suspect demanded disclosure of confidential witness identities, while a regulator requested periodic updates. The Professional carefully documented all evidence, remained unbiased and complied only with lawful communication requirements.</p>`,
+  questions: [
+    {
+      question_id: "FA_CH2_CS14_Q1",
+      question: "Refusing management pressure primarily demonstrates:",
+      options: [
+        "Independence",
+        "Capability",
+        "Competence",
+        "Opportunity"
+      ],
+      answer: 0,
+      reason: "Independence requires freedom from undue influence."
+    },
+    {
+      question_id: "FA_CH2_CS14_Q2",
+      question: "Keeping witness identities confidential reflects:",
+      options: [
+        "Integrity",
+        "Confidentiality",
+        "Contextualisation",
+        "Fraud Risk"
+      ],
+      answer: 1,
+      reason: "Confidentiality protects information obtained during the engagement."
+    },
+    {
+      question_id: "FA_CH2_CS14_Q3",
+      question: "Remaining unbiased while evaluating evidence demonstrates:",
+      options: [
+        "Integrity and Objectivity",
+        "Primacy of Truth",
+        "Quality Control",
+        "Skills and Competence"
+      ],
+      answer: 0,
+      reason: "Integrity and Objectivity require unbiased assessment."
+    },
+    {
+      question_id: "FA_CH2_CS14_Q4",
+      question: "Providing updates only where legally permitted reflects:",
+      options: [
+        "Respecting Rights and Obligations",
+        "Opportunity",
+        "Capability",
+        "Fraud Scale"
+      ],
+      answer: 0,
+      reason: "Professionals must respect legal rights and obligations."
+    },
+    {
+      question_id: "FA_CH2_CS14_Q5",
+      question: "The ultimate objective of all these principles is to:",
+      options: [
+        "Increase profits",
+        "Ensure credibility and reliability of the engagement",
+        "Reduce audit fees",
+        "Improve tax planning"
+      ],
+      answer: 1,
+      reason: "The principles collectively ensure credible forensic engagements."
+    }
+  ]
+},
+{
+  case_id: "FA_CH2_CS15",
+  chapter: "Introduction and Basic Concepts",
+  difficulty: "Hard",
+  case_title: "Integrated Forensic Assignment",
+  caseText: `<p>A multinational manufacturing company suspected that procurement officials had colluded with suppliers to inflate purchase prices and siphon funds. The Professional developed hypotheses, analysed ERP data, obtained electronic evidence, interviewed employees, engaged an external IT expert, evaluated fraud risk, maintained confidentiality and finally submitted a detailed report before a Competent Authority.</p>`,
+  questions: [
+    {
+      question_id: "FA_CH2_CS15_Q1",
+      question: "Developing hypotheses before detailed work is specifically covered by:",
+      options: [
+        "FAIS 140",
+        "FAIS 110",
+        "FAIS 510",
+        "FAIS 610"
+      ],
+      answer: 0,
+      reason: "FAIS 140 deals with Applying Hypotheses."
+    },
+    {
+      question_id: "FA_CH2_CS15_Q2",
+      question: "Analysing ERP data primarily involves:",
+      options: [
+        "FAIS 410",
+        "FAIS 210",
+        "FAIS 610",
+        "FAIS 250"
+      ],
+      answer: 0,
+      reason: "FAIS 410 deals with Applying Data Analysis."
+    },
+    {
+      question_id: "FA_CH2_CS15_Q3",
+      question: "Engaging an IT specialist is governed by:",
+      options: [
+        "FAIS 230",
+        "FAIS 330",
+        "FAIS 360",
+        "FAIS 510"
+      ],
+      answer: 0,
+      reason: "FAIS 230 covers Using the Work of an Expert."
+    },
+    {
+      question_id: "FA_CH2_CS15_Q4",
+      question: "Submitting findings before a Competent Authority best reflects the definition of:",
+      options: [
+        "Forensic Accounting",
+        "Internal Audit",
+        "Management Audit",
+        "Operational Audit"
+      ],
+      answer: 0,
+      reason: "Forensic Accounting involves gathering and evaluating evidence to report findings before a Competent Authority."
+    },
+    {
+      question_id: "FA_CH2_CS15_Q5",
+      question: "Which combination best represents the engagement performed?",
+      options: [
+        "Audit only",
+        "Forensic Accounting + Investigation + Litigation Support",
+        "Cost Audit + Tax Audit",
+        "Internal Audit + Secretarial Audit"
+      ],
+      answer: 1,
+      reason: "The engagement included forensic accounting, investigation and reporting for legal proceedings, amounting to litigation support."
+    }
+  ]
+},
+
+{
+id:"FA_CH2_MCQ001",
+difficulty:"Easy",
+question:"The term 'Forensics' generally refers to:",
+options:[
+"Preparation of financial statements",
+"Scientific methods of solving crimes involving examination of evidence",
+"Internal control evaluation",
+"Preparation of audit reports"
+],
+answer:1,
+reason:"Forensics involves scientific methods used to solve crimes by examining relevant evidence."
+},
+{
+id:"FA_CH2_MCQ002",
+difficulty:"Easy",
+question:"According to the Framework governing FAI, Forensic Accounting primarily involves:",
+options:[
+"Expressing an audit opinion",
+"Gathering and evaluating evidence to report findings before a Competent Authority",
+"Preparing tax returns",
+"Designing accounting software"
+],
+answer:1,
+reason:"The Framework defines Forensic Accounting as gathering and evaluating evidence to report findings before a Competent Authority."
+},
+{
+id:"FA_CH2_MCQ003",
+difficulty:"Easy",
+question:"The overriding objective of Forensic Accounting is to:",
+options:[
+"Express an opinion",
+"Reach a conclusion supported by evidence",
+"Prepare financial statements",
+"Prepare budgets"
+],
+answer:1,
+reason:"The Professional reaches a conclusion based on evidence and does not express an audit opinion."
+},
+{
+id:"FA_CH2_MCQ004",
+difficulty:"Easy",
+question:"Investigation is best described as:",
+options:[
+"Preparation of financial statements",
+"Systematic and critical examination of facts, records and documents for a specific purpose",
+"Routine audit testing",
+"Preparation of budgets"
+],
+answer:1,
+reason:"Investigation involves systematic examination of facts, records and documents."
+},
+{
+id:"FA_CH2_MCQ005",
+difficulty:"Easy",
+question:"Fraud, as defined in the Framework governing FAI, is:",
+options:[
+"Any accounting error",
+"Any intentional act to deprive another of property or money through deception or unfair means",
+"Only theft of cash",
+"Only cyber crime"
+],
+answer:1,
+reason:"Fraud involves intentional deception for wrongful gain."
+},
+{
+id:"FA_CH2_MCQ006",
+difficulty:"Easy",
+question:"Section 447 of the Companies Act, 2013 broadly defines fraud in relation to:",
+options:[
+"Only auditors",
+"Only directors",
+"Affairs of a company or body corporate",
+"Only shareholders"
+],
+answer:2,
+reason:"Section 447 applies to fraud relating to the affairs of a company or body corporate."
+},
+{
+id:"FA_CH2_MCQ007",
+difficulty:"Easy",
+question:"Which of the following is NOT an example of Forensic Accounting?",
+options:[
+"Tracing diverted funds",
+"Gathering evidence for legal proceedings",
+"Expressing an audit opinion",
+"Examining suspicious accounting entries"
+],
+answer:2,
+reason:"Expressing an audit opinion is the objective of an audit, not forensic accounting."
+},
+{
+id:"FA_CH2_MCQ008",
+difficulty:"Easy",
+question:"Which statement correctly differentiates audit from forensic accounting?",
+options:[
+"Both express audit opinions.",
+"Forensic Accounting gathers evidence for legal purposes, whereas audit expresses an opinion.",
+"Audit always investigates fraud.",
+"There is no difference."
+],
+answer:1,
+reason:"Audit expresses an opinion, while forensic accounting gathers evidence and reports findings."
+},
+{
+id:"FA_CH2_MCQ009",
+difficulty:"Easy",
+question:"The term 'Forensic Audit' is considered under FAIS as:",
+options:[
+"The correct professional terminology",
+"A mandatory engagement type",
+"A misnomer",
+"A statutory audit"
+],
+answer:2,
+reason:"FAIS discourages use of the term 'Forensic Audit' as it is misleading."
+},
+{
+id:"FA_CH2_MCQ010",
+difficulty:"Easy",
+question:"The applicability of FAIS depends primarily upon:",
+options:[
+"Company turnover",
+"Purpose and nature of the engagement",
+"Number of auditors",
+"Industry classification"
+],
+answer:1,
+reason:"FAIS applies where the engagement is forensic accounting or investigation in nature."
+},
+{
+id:"FA_CH2_MCQ011",
+difficulty:"Easy",
+question:"The appointing authority in a forensic engagement is known as the:",
+options:[
+"Expert",
+"Primary Stakeholder",
+"Other Stakeholder",
+"Suspect"
+],
+answer:1,
+reason:"The appointing authority is referred to as the Primary Stakeholder."
+},
+{
+id:"FA_CH2_MCQ012",
+difficulty:"Easy",
+question:"Customers, suppliers and lenders are generally classified as:",
+options:[
+"Primary Stakeholders",
+"Experts",
+"Other Stakeholders",
+"Competent Authorities"
+],
+answer:2,
+reason:"Stakeholders other than the appointing authority are Other Stakeholders."
+},
+{
+id:"FA_CH2_MCQ013",
+difficulty:"Easy",
+question:"Which committee plays an important role in strengthening corporate governance and monitoring financial reporting?",
+options:[
+"CSR Committee",
+"Audit Committee",
+"Nomination Committee",
+"Risk Committee"
+],
+answer:1,
+reason:"The Audit Committee performs several governance-related responsibilities."
+},
+{
+id:"FA_CH2_MCQ014",
+difficulty:"Easy",
+question:"According to FAIS 120, FAI engagements generally involve the possibility of:",
+options:[
+"Tax planning",
+"Fraudulent events or suspicious transactions",
+"Only cyber attacks",
+"Dividend declarations"
+],
+answer:1,
+reason:"FAIS 120 focuses on fraud risk."
+},
+{
+id:"FA_CH2_MCQ015",
+difficulty:"Easy",
+question:"Which of the following forms the three elements of the Fraud Triangle?",
+options:[
+"Pressure, Opportunity and Rationalization",
+"Capability, Competence and Integrity",
+"Fraud, Audit and Investigation",
+"Evidence, Opinion and Report"
+],
+answer:0,
+reason:"The Fraud Triangle consists of Pressure, Opportunity and Rationalization."
+},
+{
+id:"FA_CH2_MCQ016",
+difficulty:"Easy",
+question:"Weak internal controls primarily create:",
+options:[
+"Pressure",
+"Opportunity",
+"Integrity",
+"Competence"
+],
+answer:1,
+reason:"Weak controls create opportunities for fraud."
+},
+{
+id:"FA_CH2_MCQ017",
+difficulty:"Easy",
+question:"Financial pressure on management is an example of:",
+options:[
+"Capability",
+"Pressure under the Fraud Triangle",
+"Competence",
+"Objectivity"
+],
+answer:1,
+reason:"Pressure is one side of the Fraud Triangle."
+},
+{
+id:"FA_CH2_MCQ018",
+difficulty:"Easy",
+question:"Justifying fraudulent behaviour by saying 'I will repay later' is known as:",
+options:[
+"Capability",
+"Rationalization",
+"Opportunity",
+"Professional skepticism"
+],
+answer:1,
+reason:"Rationalization refers to mentally justifying fraudulent acts."
+},
+{
+id:"FA_CH2_MCQ019",
+difficulty:"Easy",
+question:"Who developed the Fraud Triangle Theory?",
+options:[
+"Steve Albrecht",
+"Donald Cressey",
+"Wolf and Hermanson",
+"ICAI"
+],
+answer:1,
+reason:"Donald Cressey developed the Fraud Triangle Theory."
+},
+{
+id:"FA_CH2_MCQ020",
+difficulty:"Easy",
+question:"The Fraud Triangle Theory consists of how many essential elements?",
+options:[
+"2",
+"3",
+"4",
+"5"
+],
+answer:1,
+reason:"The Fraud Triangle has three elements—Pressure, Opportunity and Rationalization."
+},
+
+{
+id:"FA_CH2_MCQ021",
+difficulty:"Easy",
+question:"Which fraud theory adds 'Capability' as the fourth element to the Fraud Triangle?",
+options:[
+"Fraud Scale",
+"Fraud Pentagon",
+"Fraud Diamond",
+"Fraud Circle"
+],
+answer:2,
+reason:"The Fraud Diamond introduced by Wolfe and Hermanson adds Capability to the Fraud Triangle."
+},
+{
+id:"FA_CH2_MCQ022",
+difficulty:"Easy",
+question:"According to the Fraud Diamond theory, capability primarily refers to:",
+options:[
+"The ability to understand and exploit internal controls",
+"The availability of financial resources",
+"The size of the fraud",
+"The company's profitability"
+],
+answer:0,
+reason:"Capability includes the knowledge and ability to exploit systems and controls."
+},
+{
+id:"FA_CH2_MCQ023",
+difficulty:"Easy",
+question:"Which fraud theory introduces 'Arrogance' as an additional factor?",
+options:[
+"Fraud Circle",
+"Fraud Diamond",
+"Fraud Pentagon",
+"Fraud Scale"
+],
+answer:2,
+reason:"The Fraud Pentagon adds Competence and Arrogance."
+},
+{
+id:"FA_CH2_MCQ024",
+difficulty:"Easy",
+question:"Under the Fraud Pentagon, arrogance refers to:",
+options:[
+"Lack of accounting knowledge",
+"Belief that company rules do not apply to oneself",
+"Pressure from creditors",
+"Poor internal controls"
+],
+answer:1,
+reason:"Arrogance reflects an attitude of superiority and entitlement."
+},
+{
+id:"FA_CH2_MCQ025",
+difficulty:"Easy",
+question:"The Fraud Scale was developed by:",
+options:[
+"Donald Cressey",
+"Wolfe and Hermanson",
+"Steve Albrecht",
+"ICAI"
+],
+answer:2,
+reason:"Steve Albrecht developed the Fraud Scale."
+},
+{
+id:"FA_CH2_MCQ026",
+difficulty:"Easy",
+question:"According to the Fraud Scale, occupational fraud is more likely when:",
+options:[
+"Personal integrity is high",
+"Situational pressure and opportunity are high while personal integrity is low",
+"There are strong internal controls",
+"The organisation is profitable"
+],
+answer:1,
+reason:"The Fraud Scale links high pressure and opportunity with low integrity."
+},
+{
+id:"FA_CH2_MCQ027",
+difficulty:"Easy",
+question:"The Fraud Circle theory recognizes that:",
+options:[
+"Fraud exists only in large organisations",
+"Fraud is omnipresent wherever money exists",
+"Fraud occurs only in banks",
+"Fraud occurs only in listed companies"
+],
+answer:1,
+reason:"The Fraud Circle recognizes that fraud can exist wherever money is involved."
+},
+{
+id:"FA_CH2_MCQ028",
+difficulty:"Easy",
+question:"Forensic Accounting and Investigation Standards (FAIS) became mandatory for engagements conducted on or after:",
+options:[
+"1 April 2022",
+"1 July 2023",
+"1 January 2024",
+"1 April 2023"
+],
+answer:1,
+reason:"FAIS became mandatory from 1 July 2023."
+},
+{
+id:"FA_CH2_MCQ029",
+difficulty:"Easy",
+question:"FAIS issued by ICAI are:",
+options:[
+"Rule-based",
+"Principle-based",
+"Tax-based",
+"Industry-specific"
+],
+answer:1,
+reason:"FAIS are principle-based standards allowing professional judgment."
+},
+{
+id:"FA_CH2_MCQ030",
+difficulty:"Easy",
+question:"Which of the following is NOT an objective of FAIS?",
+options:[
+"Providing minimum standards for FAI engagements",
+"Helping users understand expected quality of services",
+"Guaranteeing detection of every fraud",
+"Providing guidance for implementation"
+],
+answer:2,
+reason:"FAIS do not guarantee detection of every fraud."
+},
+{
+id:"FA_CH2_MCQ031",
+difficulty:"Medium",
+question:"The Framework governing Forensic Accounting and Investigations consists of how many key components?",
+options:[
+"Two",
+"Three",
+"Four",
+"Five"
+],
+answer:2,
+reason:"The Framework consists of Basic Principles, Key Concepts, Standards and Guidance."
+},
+{
+id:"FA_CH2_MCQ032",
+difficulty:"Medium",
+question:"Which of the following is NOT one of the four components of the FAI Framework?",
+options:[
+"Basic Principles",
+"Key Concepts",
+"Accounting Standards",
+"Guidance"
+],
+answer:2,
+reason:"Accounting Standards are separate and not one of the four Framework components."
+},
+{
+id:"FA_CH2_MCQ033",
+difficulty:"Medium",
+question:"How many Basic Principles are identified under the Framework?",
+options:[
+"8",
+"10",
+"12",
+"15"
+],
+answer:1,
+reason:"The Framework identifies ten Basic Principles."
+},
+{
+id:"FA_CH2_MCQ034",
+difficulty:"Medium",
+question:"The first five Basic Principles mainly relate to:",
+options:[
+"Performance",
+"Reporting",
+"Attributes of the Professional",
+"Quality Control"
+],
+answer:2,
+reason:"The first five principles relate to the Professional's attributes."
+},
+{
+id:"FA_CH2_MCQ035",
+difficulty:"Medium",
+question:"Which of the following is NOT a Principle of Attributes?",
+options:[
+"Integrity and Objectivity",
+"Due Professional Care",
+"Contextualisation of Situation",
+"Confidentiality"
+],
+answer:2,
+reason:"Contextualisation of Situation is a Principle of Performance."
+},
+{
+id:"FA_CH2_MCQ036",
+difficulty:"Medium",
+question:"Which principle requires the Professional to remain free from undue influence?",
+options:[
+"Primacy of Truth",
+"Independence",
+"Quality Control",
+"Contextualisation"
+],
+answer:1,
+reason:"Independence requires freedom from undue influence."
+},
+{
+id:"FA_CH2_MCQ037",
+difficulty:"Medium",
+question:"The principle requiring honest, ethical and unbiased conduct is:",
+options:[
+"Integrity and Objectivity",
+"Confidentiality",
+"Skills and Competence",
+"Quality Control"
+],
+answer:0,
+reason:"Integrity and Objectivity require fairness and unbiased judgment."
+},
+{
+id:"FA_CH2_MCQ038",
+difficulty:"Medium",
+question:"Which Basic Principle specifically requires protecting confidential information obtained during the engagement?",
+options:[
+"Primacy of Truth",
+"Confidentiality",
+"Contextualisation",
+"Respecting Rights and Obligations"
+],
+answer:1,
+reason:"Confidentiality requires protection of information acquired during the engagement."
+},
+{
+id:"FA_CH2_MCQ039",
+difficulty:"Medium",
+question:"The Professional should undertake only those engagements for which he possesses:",
+options:[
+"Management approval",
+"Adequate skills and competence",
+"Legal degree only",
+"Audit experience only"
+],
+answer:1,
+reason:"The Skills and Competence principle requires sufficient expertise."
+},
+{
+id:"FA_CH2_MCQ040",
+difficulty:"Medium",
+question:"If the Professional lacks specialised expertise required for an engagement, he should:",
+options:[
+"Decline every assignment",
+"Ignore the requirement",
+"Use an internal or external expert without compromising independence",
+"Express an audit opinion instead"
+],
+answer:2,
+reason:"FAIS permits use of experts while maintaining independence."
+},
+
+{
+id:"FA_CH2_MCQ041",
+difficulty:"Medium",
+question:"Which Principle of Performance requires the Professional to understand the business environment and surrounding circumstances before conducting the engagement?",
+options:[
+"Primacy of Truth",
+"Contextualisation of Situation",
+"Integrity and Objectivity",
+"Quality and Continuous Improvement"
+],
+answer:1,
+reason:"Every FAI engagement should be understood in its proper business and legal context."
+},
+{
+id:"FA_CH2_MCQ042",
+difficulty:"Medium",
+question:"Predication in a forensic engagement is generally based on:",
+options:[
+"Management representation alone",
+"Review of the totality of circumstances and fraud indicators",
+"Rumours from employees",
+"Anonymous social media posts only"
+],
+answer:1,
+reason:"Predication is based on evaluating all relevant circumstances and fraud indicators."
+},
+{
+id:"FA_CH2_MCQ043",
+difficulty:"Medium",
+question:"The Principle of 'Primacy of Truth' requires the Professional to:",
+options:[
+"Support management's position",
+"Focus primarily on discovering what actually occurred",
+"Protect company reputation",
+"Maximize recovery of losses"
+],
+answer:1,
+reason:"The ultimate objective is to establish the truth based on evidence."
+},
+{
+id:"FA_CH2_MCQ044",
+difficulty:"Medium",
+question:"Which Principle requires giving the suspect an opportunity to present his version of facts?",
+options:[
+"Respecting Rights and Obligations",
+"Contextualisation of Situation",
+"Primacy of Truth",
+"Due Professional Care"
+],
+answer:0,
+reason:"The principles of natural justice require giving parties an opportunity to be heard."
+},
+{
+id:"FA_CH2_MCQ045",
+difficulty:"Medium",
+question:"The Principle of 'Separating Facts from Opinions' primarily requires the Professional to:",
+options:[
+"Ignore witness statements",
+"Avoid allowing personal opinions to influence findings",
+"Accept management explanations without verification",
+"Express personal views in the report"
+],
+answer:1,
+reason:"Only verified facts should form the basis of conclusions."
+},
+{
+id:"FA_CH2_MCQ046",
+difficulty:"Medium",
+question:"Which Principle emphasizes continuous monitoring and improvement of engagement quality?",
+options:[
+"Confidentiality",
+"Quality and Continuous Improvement",
+"Skills and Competence",
+"Integrity"
+],
+answer:1,
+reason:"The Framework emphasizes continuous quality improvement."
+},
+{
+id:"FA_CH2_MCQ047",
+difficulty:"Medium",
+question:"Which FAIS deals with the Nature of Engagement?",
+options:[
+"FAIS 110",
+"FAIS 120",
+"FAIS 210",
+"FAIS 310"
+],
+answer:0,
+reason:"FAIS 110 explains the nature of FAI engagements."
+},
+{
+id:"FA_CH2_MCQ048",
+difficulty:"Medium",
+question:"FAIS 120 primarily deals with:",
+options:[
+"Fraud Risk",
+"Laws and Regulations",
+"Planning the Assignment",
+"Reporting Results"
+],
+answer:0,
+reason:"FAIS 120 focuses on Fraud Risk."
+},
+{
+id:"FA_CH2_MCQ049",
+difficulty:"Medium",
+question:"Which FAIS explains the Professional's responsibility to understand applicable laws and regulations?",
+options:[
+"FAIS 130",
+"FAIS 140",
+"FAIS 220",
+"FAIS 320"
+],
+answer:0,
+reason:"FAIS 130 deals with Laws and Regulations."
+},
+{
+id:"FA_CH2_MCQ050",
+difficulty:"Medium",
+question:"Applying hypotheses during an investigation is governed by:",
+options:[
+"FAIS 110",
+"FAIS 140",
+"FAIS 240",
+"FAIS 410"
+],
+answer:1,
+reason:"FAIS 140 deals with Applying Hypotheses."
+},
+{
+id:"FA_CH2_MCQ051",
+difficulty:"Medium",
+question:"The primary objective of applying hypotheses is to:",
+options:[
+"Predetermine guilt",
+"Make evidence gathering more methodical and objective",
+"Replace interviews",
+"Reduce documentation"
+],
+answer:1,
+reason:"Hypotheses help structure the investigation objectively."
+},
+{
+id:"FA_CH2_MCQ052",
+difficulty:"Medium",
+question:"Which series of FAIS deals with Engagement Management?",
+options:[
+"100 Series",
+"200 Series",
+"300 Series",
+"500 Series"
+],
+answer:1,
+reason:"The 200 Series covers Engagement Management."
+},
+{
+id:"FA_CH2_MCQ053",
+difficulty:"Medium",
+question:"FAIS 210 relates to:",
+options:[
+"Engagement Objectives",
+"Quality Control",
+"Evidence",
+"Digital Domain"
+],
+answer:0,
+reason:"FAIS 210 deals with Engagement Objectives."
+},
+{
+id:"FA_CH2_MCQ054",
+difficulty:"Medium",
+question:"FAIS 220 primarily covers:",
+options:[
+"Using Experts",
+"Engagement Acceptance and Appointment",
+"Reporting Results",
+"Planning Assignments"
+],
+answer:1,
+reason:"FAIS 220 governs engagement acceptance."
+},
+{
+id:"FA_CH2_MCQ055",
+difficulty:"Medium",
+question:"Using the work of an external cyber expert is governed by:",
+options:[
+"FAIS 230",
+"FAIS 240",
+"FAIS 340",
+"FAIS 610"
+],
+answer:0,
+reason:"FAIS 230 deals with the use of experts."
+},
+{
+id:"FA_CH2_MCQ056",
+difficulty:"Medium",
+question:"Interaction with agencies such as RBI, SEBI, ED or CBI is covered under:",
+options:[
+"FAIS 240",
+"FAIS 250",
+"FAIS 310",
+"FAIS 430"
+],
+answer:0,
+reason:"FAIS 240 deals with Engaging with Agencies."
+},
+{
+id:"FA_CH2_MCQ057",
+difficulty:"Medium",
+question:"Communication with stakeholders during an engagement is governed by:",
+options:[
+"FAIS 250",
+"FAIS 230",
+"FAIS 320",
+"FAIS 510"
+],
+answer:0,
+reason:"FAIS 250 covers communication with stakeholders."
+},
+{
+id:"FA_CH2_MCQ058",
+difficulty:"Medium",
+question:"Which FAIS belongs to the 300 Series?",
+options:[
+"Planning the Assignment",
+"Fraud Risk",
+"Reporting Results",
+"Quality Control"
+],
+answer:0,
+reason:"FAIS 310 is the first standard in the 300 Series."
+},
+{
+id:"FA_CH2_MCQ059",
+difficulty:"Medium",
+question:"Planning an assignment is governed by:",
+options:[
+"FAIS 310",
+"FAIS 320",
+"FAIS 350",
+"FAIS 510"
+],
+answer:0,
+reason:"FAIS 310 deals with planning."
+},
+{
+id:"FA_CH2_MCQ060",
+difficulty:"Medium",
+question:"Evidence and Documentation are covered under:",
+options:[
+"FAIS 320",
+"FAIS 330",
+"FAIS 340",
+"FAIS 420"
+],
+answer:0,
+reason:"FAIS 320 deals with evidence and documentation."
+},
+{
+id:"FA_CH2_MCQ061",
+difficulty:"Hard",
+question:"Work procedures performed to collect, analyse and interpret evidence are governed by:",
+options:[
+"FAIS 330",
+"FAIS 320",
+"FAIS 340",
+"FAIS 610"
+],
+answer:0,
+reason:"FAIS 330 deals with Conducting Work Procedures."
+},
+{
+id:"FA_CH2_MCQ062",
+difficulty:"Hard",
+question:"Which FAIS specifically deals with conducting interviews?",
+options:[
+"FAIS 320",
+"FAIS 330",
+"FAIS 340",
+"FAIS 350"
+],
+answer:2,
+reason:"FAIS 340 governs interviews."
+},
+{
+id:"FA_CH2_MCQ063",
+difficulty:"Hard",
+question:"Review and supervision of engagement work is governed by:",
+options:[
+"FAIS 350",
+"FAIS 360",
+"FAIS 510",
+"FAIS 610"
+],
+answer:0,
+reason:"FAIS 350 deals with review and supervision."
+},
+{
+id:"FA_CH2_MCQ064",
+difficulty:"Hard",
+question:"Appearing before a Competent Authority to explain findings is covered by:",
+options:[
+"FAIS 330",
+"FAIS 350",
+"FAIS 360",
+"FAIS 510"
+],
+answer:2,
+reason:"FAIS 360 governs testimony before Competent Authorities."
+},
+{
+id:"FA_CH2_MCQ065",
+difficulty:"Hard",
+question:"The primary objective of FAIS 360 is to guide the Professional regarding:",
+options:[
+"Preparation of audit reports",
+"Testifying before a Competent Authority",
+"Internal financial controls",
+"Fraud Risk Assessment"
+],
+answer:1,
+reason:"FAIS 360 specifically deals with testimony before Competent Authorities."
+},
+
+{
+id:"FA_CH2_MCQ066",
+difficulty:"Hard",
+question:"Which FAIS deals with applying data analysis techniques during FAI engagements?",
+options:[
+"FAIS 320",
+"FAIS 410",
+"FAIS 420",
+"FAIS 610"
+],
+answer:1,
+reason:"FAIS 410 deals with Applying Data Analysis."
+},
+{
+id:"FA_CH2_MCQ067",
+difficulty:"Hard",
+question:"The primary purpose of data analysis in forensic engagements is to:",
+options:[
+"Prepare financial statements",
+"Identify patterns, anomalies and irregular transactions",
+"Express an audit opinion",
+"Prepare tax computations"
+],
+answer:1,
+reason:"Data analysis helps discover unusual patterns and suspicious transactions."
+},
+{
+id:"FA_CH2_MCQ068",
+difficulty:"Hard",
+question:"Evidence gathering in the Digital Domain is governed by:",
+options:[
+"FAIS 330",
+"FAIS 410",
+"FAIS 420",
+"FAIS 510"
+],
+answer:2,
+reason:"FAIS 420 deals with electronic or digital evidence."
+},
+{
+id:"FA_CH2_MCQ069",
+difficulty:"Hard",
+question:"Electronic evidence collected during a forensic engagement should primarily:",
+options:[
+"Be kept confidential only",
+"Be capable of satisfying judicial scrutiny",
+"Be shared with all stakeholders",
+"Be converted into paper records immediately"
+],
+answer:1,
+reason:"Electronic evidence must withstand judicial scrutiny."
+},
+{
+id:"FA_CH2_MCQ070",
+difficulty:"Hard",
+question:"FAIS 430 specifically deals with:",
+options:[
+"Cyber fraud investigations",
+"Loans or Borrowings",
+"Whistle-blower complaints",
+"Money laundering"
+],
+answer:1,
+reason:"FAIS 430 relates to disputed loan or borrowing transactions."
+},
+{
+id:"FA_CH2_MCQ071",
+difficulty:"Hard",
+question:"The objective of FAIS 430 includes:",
+options:[
+"Determining audit fees",
+"Gathering evidence relating to loan utilisation and violations",
+"Preparing loan agreements",
+"Approving bank finance"
+],
+answer:1,
+reason:"FAIS 430 focuses on examination of loan-related transactions."
+},
+{
+id:"FA_CH2_MCQ072",
+difficulty:"Hard",
+question:"Reporting Results are governed by:",
+options:[
+"FAIS 320",
+"FAIS 420",
+"FAIS 510",
+"FAIS 610"
+],
+answer:2,
+reason:"FAIS 510 deals with reporting findings."
+},
+{
+id:"FA_CH2_MCQ073",
+difficulty:"Hard",
+question:"The written report issued by the Professional primarily addresses:",
+options:[
+"Audit opinion requirements",
+"Engagement objectives and mandate",
+"Income tax provisions",
+"Cost accounting standards"
+],
+answer:1,
+reason:"The report should satisfy the engagement objectives and mandate."
+},
+{
+id:"FA_CH2_MCQ074",
+difficulty:"Hard",
+question:"Quality Control in FAI engagements is governed by:",
+options:[
+"FAIS 610",
+"FAIS 510",
+"FAIS 410",
+"FAIS 320"
+],
+answer:0,
+reason:"FAIS 610 establishes quality control requirements."
+},
+{
+id:"FA_CH2_MCQ075",
+difficulty:"Hard",
+question:"The Quality Control System primarily aims to:",
+options:[
+"Reduce engagement fees",
+"Ensure consistent quality of work performed",
+"Increase profitability",
+"Replace professional judgment"
+],
+answer:1,
+reason:"FAIS 610 promotes consistent quality."
+},
+{
+id:"FA_CH2_MCQ076",
+difficulty:"Hard",
+question:"Which of the following is NOT one of the four components of the Framework Governing FAI?",
+options:[
+"Basic Principles",
+"Guidance",
+"Financial Reporting Standards",
+"Key Concepts"
+],
+answer:2,
+reason:"Financial Reporting Standards are not part of the FAI Framework."
+},
+{
+id:"FA_CH2_MCQ077",
+difficulty:"Hard",
+question:"The Framework Governing FAI is primarily intended to:",
+options:[
+"Prescribe accounting entries",
+"Preserve and enhance the quality of FAI services",
+"Replace Standards on Auditing",
+"Govern company audits"
+],
+answer:1,
+reason:"Its objective is to preserve and improve the quality of forensic engagements."
+},
+{
+id:"FA_CH2_MCQ078",
+difficulty:"Hard",
+question:"The Code of Ethics applicable to ICAI members conducting FAI engagements is issued by:",
+options:[
+"SEBI",
+"ICAI",
+"RBI",
+"MCA"
+],
+answer:1,
+reason:"ICAI issues the applicable Code of Ethics."
+},
+{
+id:"FA_CH2_MCQ079",
+difficulty:"Hard",
+question:"A Chartered Accountant conducting FAI engagements is additionally governed by:",
+options:[
+"Only FAIS",
+"Only Companies Act, 2013",
+"CA Act, Code of Ethics and other ICAI pronouncements",
+"Only Indian Evidence Act"
+],
+answer:2,
+reason:"All these pronouncements collectively govern ICAI members."
+},
+{
+id:"FA_CH2_MCQ080",
+difficulty:"Hard",
+question:"Which of the following best describes 'Predication'?",
+options:[
+"A conclusion reached after investigation",
+"A reasonable basis to commence an investigation based on available circumstances",
+"A legal notice",
+"A witness statement"
+],
+answer:1,
+reason:"Predication provides the justification for initiating an investigation."
+},
+{
+id:"FA_CH2_MCQ081",
+difficulty:"Hard",
+question:"Which FAIS Key Concept assists the Professional in maintaining neutrality while evaluating alternative explanations?",
+options:[
+"Fraud Risk",
+"Applying Hypotheses",
+"Laws and Regulations",
+"Nature of Engagement"
+],
+answer:1,
+reason:"Applying hypotheses promotes objective evaluation."
+},
+{
+id:"FA_CH2_MCQ082",
+difficulty:"Hard",
+question:"Which of the following is NOT one of the engagements identified in FAIS 110?",
+options:[
+"Forensic Accounting",
+"Investigation",
+"Litigation Support",
+"Statutory Audit"
+],
+answer:3,
+reason:"Statutory Audit is outside the scope of FAIS 110."
+},
+{
+id:"FA_CH2_MCQ083",
+difficulty:"Hard",
+question:"A Professional is unable to comply with a requirement of a FAIS due to a statutory conflict. The Professional should:",
+options:[
+"Ignore the conflict",
+"Withdraw immediately",
+"Explain the material departure and reasons in the report",
+"Continue without documentation"
+],
+answer:2,
+reason:"Material departures should be appropriately disclosed and explained."
+},
+{
+id:"FA_CH2_MCQ084",
+difficulty:"Hard",
+question:"Which of the following best describes the objective of litigation support?",
+options:[
+"Preparation of audit evidence",
+"Supporting legal proceedings through financial expertise",
+"Preparing financial statements",
+"Conducting statutory audit"
+],
+answer:1,
+reason:"Litigation support assists legal proceedings using financial expertise."
+},
+{
+id:"FA_CH2_MCQ085",
+difficulty:"Hard",
+question:"The Primary Stakeholder in an FAI engagement is generally:",
+options:[
+"The suspect",
+"The appointing authority",
+"The regulator only",
+"The auditor"
+],
+answer:1,
+reason:"The appointing authority is the Primary Stakeholder."
+},
+{
+id:"FA_CH2_MCQ086",
+difficulty:"Hard",
+question:"The principle of natural justice mainly supports which Performance Principle?",
+options:[
+"Primacy of Truth",
+"Respecting Rights and Obligations",
+"Contextualisation",
+"Quality Control"
+],
+answer:1,
+reason:"It requires that all affected parties receive an opportunity to be heard."
+},
+{
+id:"FA_CH2_MCQ087",
+difficulty:"Hard",
+question:"The main objective of evidence gathering during FAI engagements is to:",
+options:[
+"Support assumptions",
+"Obtain relevant and reliable evidence",
+"Prepare management reports",
+"Reduce audit procedures"
+],
+answer:1,
+reason:"Evidence should be both relevant and reliable."
+},
+{
+id:"FA_CH2_MCQ088",
+difficulty:"Hard",
+question:"The Professional should primarily rely upon:",
+options:[
+"Rumours",
+"Verified evidence",
+"Media reports",
+"Personal opinions"
+],
+answer:1,
+reason:"Forensic conclusions must be evidence-based."
+},
+{
+id:"FA_CH2_MCQ089",
+difficulty:"Hard",
+question:"Which of the following best differentiates forensic accounting from investigation?",
+options:[
+"There is no difference.",
+"Forensic Accounting focuses mainly on financial evidence, while investigation may also examine non-financial matters.",
+"Investigation is part of statutory audit.",
+"Forensic Accounting cannot involve interviews."
+],
+answer:1,
+reason:"Investigation may extend beyond financial matters."
+},
+{
+id:"FA_CH2_MCQ090",
+difficulty:"Hard",
+question:"The ultimate output of a Forensic Accounting engagement is generally:",
+options:[
+"An audit opinion",
+"A report containing findings and conclusions supported by evidence",
+"A financial statement",
+"A management representation letter"
+],
+answer:1,
+reason:"The Professional reports findings and conclusions rather than expressing an audit opinion."
+},
+{
+id:"FA_CH2_MCQ091",
+difficulty:"Hard",
+question:"A Professional who allows management pressure to influence findings violates primarily which Basic Principle?",
+options:[
+"Independence",
+"Skills and Competence",
+"Quality Control",
+"Contextualisation"
+],
+answer:0,
+reason:"Independence requires freedom from undue influence."
+},
+{
+id:"FA_CH2_MCQ092",
+difficulty:"Hard",
+question:"Which of the following is most critical when evidence may ultimately be produced before a court?",
+options:[
+"Management approval",
+"Admissibility and reliability of evidence",
+"Length of the report",
+"Company profitability"
+],
+answer:1,
+reason:"Evidence must be reliable and legally admissible."
+},
+{
+id:"FA_CH2_MCQ093",
+difficulty:"Hard",
+question:"A forensic engagement involving digital evidence, interviews and expert assistance is best described as:",
+options:[
+"A multidisciplinary engagement",
+"A tax audit",
+"A compliance audit",
+"A limited review"
+],
+answer:0,
+reason:"Modern forensic engagements often require multidisciplinary expertise."
+},
+{
+id:"FA_CH2_MCQ094",
+difficulty:"Hard",
+question:"Which statement best reflects the overall philosophy of FAIS?",
+options:[
+"Follow rigid procedures irrespective of circumstances.",
+"Apply principle-based standards using professional judgment.",
+"Focus only on accounting records.",
+"Guarantee fraud detection in every engagement."
+],
+answer:1,
+reason:"FAIS are principle-based and rely on informed professional judgment."
+},
+{
+id:"FA_CH2_MCQ095",
+difficulty:"Hard",
+question:"The success of a forensic accounting engagement ultimately depends on:",
+options:[
+"The volume of documentation collected",
+"The credibility, relevance and reliability of evidence gathered",
+"The number of interviews conducted",
+"The size of the investigation team"
+],
+answer:1,
+reason:"Reliable and credible evidence is the foundation of every forensic accounting engagement."
+},
+
+{
+id:"FA_CH2_MCQ096",
+difficulty:"Hard",
+question:"Which of the following best describes the relationship between the Framework Governing FAI and the FAIS?",
+options:[
+"The Framework replaces the FAIS.",
+"The Framework provides the underlying principles and boundaries within which the FAIS operate.",
+"The FAIS apply only when the Framework is ignored.",
+"There is no relationship between them."
+],
+answer:1,
+reason:"The Framework establishes the principles and boundaries, while the FAIS prescribe the minimum requirements for conducting FAI engagements."
+},
+{
+id:"FA_CH2_MCQ097",
+difficulty:"Hard",
+question:"Which statement is MOST appropriate regarding professional judgment under FAIS?",
+options:[
+"Professional judgment is not permitted because FAIS are rule-based.",
+"Professional judgment is exercised only during reporting.",
+"Professional judgment is essential because FAIS are principle-based and engagements differ in nature.",
+"Professional judgment is required only for litigation support engagements."
+],
+answer:2,
+reason:"FAIS are principle-based and require the Professional to apply judgment depending on the facts and circumstances of each engagement."
+},
+{
+id:"FA_CH2_MCQ098",
+difficulty:"Hard",
+question:"Which of the following best represents the correct sequence in a typical Forensic Accounting engagement?",
+options:[
+"Reporting → Planning → Evidence Gathering → Appointment",
+"Appointment → Planning → Evidence Gathering → Reporting",
+"Evidence Gathering → Appointment → Planning → Reporting",
+"Planning → Reporting → Appointment → Evidence Gathering"
+],
+answer:1,
+reason:"A typical engagement begins with appointment, followed by planning, evidence gathering and finally reporting."
+},
+{
+id:"FA_CH2_MCQ099",
+difficulty:"Hard",
+question:"Which of the following statements is most appropriate regarding the conclusion reached by a Forensic Accounting Professional?",
+options:[
+"The Professional expresses an audit opinion on the financial statements.",
+"The Professional reaches conclusions based on evidence but does not express an audit opinion.",
+"The Professional certifies that fraud has occurred in every engagement.",
+"The Professional determines punishment for the accused."
+],
+answer:1,
+reason:"A Forensic Accounting Professional reports findings and reaches conclusions based on evidence without expressing an audit opinion."
+},
+{
+id:"FA_CH2_MCQ100",
+difficulty:"Hard",
+question:"A Chartered Accountant conducting a Forensic Accounting engagement discovers evidence inconsistent with the original hypothesis. What should the Professional do?",
+options:[
+"Ignore the contradictory evidence.",
+"Modify or develop new hypotheses and continue the investigation objectively.",
+"Continue supporting the original hypothesis.",
+"Immediately conclude that no fraud exists."
+],
+answer:1,
+reason:"FAIS requires an objective approach. Hypotheses should be revised when new evidence emerges, ensuring the investigation remains focused on discovering the truth."
 }
 
 ];
