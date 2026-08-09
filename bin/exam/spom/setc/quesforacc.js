@@ -4892,6 +4892,3157 @@ options:[
 ],
 answer:1,
 reason:"FAIS requires an objective approach. Hypotheses should be revised when new evidence emerges, ensuring the investigation remains focused on discovering the truth."
+},
+
+{
+id:"FA_CH3_MCQ001",
+
+difficulty:"Moderate",
+
+question:"Fraud can broadly be categorized into which of the following three categories?",
+
+options:[
+
+"Fraud against individuals, fraud against corporates and fraud by corporates.",
+
+"Banking fraud, insurance fraud and securities fraud.",
+
+"Occupational fraud, cyber fraud and tax fraud.",
+
+"Consumer fraud, corporate fraud and intellectual property fraud."
+
+],
+
+answer:0,
+
+reason:"Fraud is broadly categorized into three main categories: fraud against individuals, fraud against corporates and fraud by corporates."
+},
+
+{
+id:"FA_CH3_MCQ002",
+
+difficulty:"Moderate",
+
+question:"Which of the following is an example of fraud against individuals?",
+
+options:[
+
+"Financial statement manipulation by a company.",
+
+"Identity theft and phishing scams targeting individuals.",
+
+"Fictitious invoicing between related companies.",
+
+"Manipulation of company inventory by employees."
+
+],
+
+answer:1,
+
+reason:"Fraud against individuals includes scams and fraudulent activities such as identity theft, phishing scams, investment fraud and credit card fraud."
+},
+
+{
+id:"FA_CH3_MCQ003",
+
+difficulty:"Moderate",
+
+question:"Which of the following is a major preventive measure against fraud committed against corporates?",
+
+options:[
+
+"Robust internal controls and regular review of financial processes.",
+
+"Ignoring unusual transactions until the annual audit.",
+
+"Allowing a single employee to control the entire payment process.",
+
+"Reducing employee training on fraud risks."
+
+],
+
+answer:0,
+
+reason:"Companies can mitigate fraud risks by implementing robust internal controls and regularly reviewing financial processes to detect and prevent fraudulent activities."
+},
+
+{
+id:"FA_CH3_MCQ004",
+
+difficulty:"Hard",
+
+question:"A company intentionally manipulates its financial records to overstate revenues and assets while understating liabilities. Which type of fraud is primarily involved?",
+
+options:[
+
+"Consumer fraud.",
+
+"Financial statement fraud.",
+
+"Insurance fraud.",
+
+"Identity theft."
+
+],
+
+answer:1,
+
+reason:"Financial statement fraud involves intentionally manipulating financial statements to misrepresent the company's financial performance or financial position."
+},
+
+{
+id:"FA_CH3_MCQ005",
+
+difficulty:"Hard",
+
+question:"A fraudster steals an individual's personal information and uses it to impersonate the individual and conduct financial transactions. Which banking fraud is most directly involved?",
+
+options:[
+
+"ATM skimming.",
+
+"Identity theft.",
+
+"Cheque fraud.",
+
+"Loan flipping."
+
+],
+
+answer:1,
+
+reason:"Identity theft involves stealing personal information and using it to impersonate an individual, open accounts or conduct transactions under a false identity."
+},
+
+{
+id:"FA_CH3_MCQ006",
+
+difficulty:"Hard",
+
+question:"A fraudster sends an email pretending to be a bank and asks the customer to enter login credentials on a fraudulent website. Which type of fraud is this?",
+
+options:[
+
+"Phishing scam.",
+
+"Account takeover.",
+
+"Cheque fraud.",
+
+"Insider fraud."
+
+],
+
+answer:0,
+
+reason:"Phishing involves fraudulent attempts to obtain sensitive information by pretending to be a trustworthy entity through emails, websites or messages."
+},
+
+{
+id:"FA_CH3_MCQ007",
+
+difficulty:"Hard",
+
+question:"A criminal installs a device on an ATM to capture customers' card information. Which fraud technique is being used?",
+
+options:[
+
+"Mobile banking fraud.",
+
+"ATM skimming.",
+
+"Investment fraud.",
+
+"Account takeover."
+
+],
+
+answer:1,
+
+reason:"ATM skimming involves installing devices on ATMs to steal card information, which may subsequently be used to create counterfeit cards or conduct unauthorized transactions."
+},
+
+{
+id:"FA_CH3_MCQ008",
+
+difficulty:"Hard",
+
+question:"Which of the following is an example of corporate fraud involving the unauthorized use or theft of company resources?",
+
+options:[
+
+"Asset misappropriation.",
+
+"Phishing.",
+
+"Telemarketing fraud.",
+
+"Premium fraud."
+
+],
+
+answer:0,
+
+reason:"Asset misappropriation involves the illicit use or theft of company resources such as cash, inventory, intellectual property or other assets."
+},
+
+{
+id:"FA_CH3_MCQ009",
+
+difficulty:"Hard",
+
+question:"An employee steals company funds by siphoning off cash and using it for personal purposes. Which form of corporate fraud is most specifically described?",
+
+options:[
+
+"Embezzlement.",
+
+"Insider trading.",
+
+"Bid rigging.",
+
+"Market manipulation."
+
+],
+
+answer:0,
+
+reason:"Embezzlement involves theft of company funds or assets by an employee or executive for personal use."
+},
+
+{
+id:"FA_CH3_MCQ010",
+
+difficulty:"Hard",
+
+question:"An employee uses confidential and non-public information about a company to trade its securities for personal gain. What type of fraud is involved?",
+
+options:[
+
+"Churning.",
+
+"Insider trading.",
+
+"Pump and dump.",
+
+"False advertising."
+
+],
+
+answer:1,
+
+reason:"Insider trading involves using confidential and non-public material information about a company to trade its securities for personal gain."
+},
+
+{
+id:"FA_CH3_MCQ011",
+
+difficulty:"Hard",
+
+question:"An insurance policyholder intentionally causes an accident and exaggerates the resulting loss to obtain a higher insurance payment. Which type of insurance fraud is involved?",
+
+options:[
+
+"Premium fraud.",
+
+"Staged accident.",
+
+"Insurance agent fraud.",
+
+"Identity theft."
+
+],
+
+answer:1,
+
+reason:"Staged accident fraud involves intentionally causing an accident or exaggerating the severity of an accident in order to file fraudulent insurance claims."
+},
+
+{
+id:"FA_CH3_MCQ012",
+
+difficulty:"Hard",
+
+question:"A business provides false information about the number of employees and nature of its operations to obtain a lower insurance premium. Which type of insurance fraud is involved?",
+
+options:[
+
+"Premium fraud.",
+
+"Healthcare fraud.",
+
+"Life insurance fraud.",
+
+"Property insurance fraud."
+
+],
+
+answer:0,
+
+reason:"Premium fraud occurs when an individual or business provides false information to insurers in order to obtain a lower insurance premium."
+},
+
+{
+id:"FA_CH3_MCQ013",
+
+difficulty:"Hard",
+
+question:"A broker excessively trades in a client's account mainly to generate commissions rather than to serve the client's interests. What is this practice called?",
+
+options:[
+
+"Front running.",
+
+"Churning.",
+
+"Market manipulation.",
+
+"Pump and dump."
+
+],
+
+answer:1,
+
+reason:"Churning occurs when a broker excessively trades in a client's account to generate commissions for themselves rather than acting in the client's best interest."
+},
+
+{
+id:"FA_CH3_MCQ014",
+
+difficulty:"Hard",
+
+question:"A trader uses information about a client's pending large trade to purchase securities before executing the client's transaction. Which securities fraud is involved?",
+
+options:[
+
+"Front running.",
+
+"Churning.",
+
+"Accounting fraud.",
+
+"Ponzi scheme."
+
+],
+
+answer:0,
+
+reason:"Front running occurs when a broker or trader uses information about a client's pending trade to make their own trade before the client's trade to benefit from the expected market movement."
+},
+
+{
+id:"FA_CH3_MCQ015",
+
+difficulty:"Hard",
+
+question:"A fraudster promises unusually high and consistent returns and uses money received from new investors to pay earlier investors. Which scheme is being operated?",
+
+options:[
+
+"Pyramid scheme.",
+
+"Ponzi scheme.",
+
+"Pump and dump scheme.",
+
+"Loan flipping scheme."
+
+],
+
+answer:1,
+
+reason:"A Ponzi scheme promises high returns and uses funds from new investors to pay returns to earlier investors instead of generating legitimate investment profits."
+},
+
+{
+id:"FA_CH3_MCQ016",
+
+difficulty:"Hard",
+
+question:"Which of the following correctly represents the stages of money laundering described in the chapter?",
+
+options:[
+
+"Layering, Placement and Integration.",
+
+"Placement, Layering and Integration.",
+
+"Integration, Placement and Layering.",
+
+"Placement, Integration and Layering."
+
+],
+
+answer:1,
+
+reason:"Money laundering generally involves three stages: Placement introduces illicit funds into the financial system, Layering obscures their origin through complex transactions, and Integration reintroduces them as apparently legitimate funds."
+},
+
+{
+id:"FA_CH3_MCQ017",
+
+difficulty:"Hard",
+
+question:"A taxpayer deliberately fails to report income earned from a business in order to reduce the amount of tax payable. Which type of tax fraud is involved?",
+
+options:[
+
+"False charitable donation.",
+
+"Underreporting income.",
+
+"False claim.",
+
+"Overstating deductions."
+
+],
+
+answer:1,
+
+reason:"Underreporting income occurs when individuals or businesses deliberately fail to report all income in order to reduce their tax liability."
+},
+
+{
+id:"FA_CH3_MCQ018",
+
+difficulty:"Hard",
+
+question:"Which of the following is a characteristic of cybercrime that makes investigation and prosecution difficult?",
+
+options:[
+
+"Cybercrime always occurs within the victim's country.",
+
+"Cybercrime necessarily leaves extensive physical evidence.",
+
+"Cybercriminals can operate anonymously across geographical boundaries.",
+
+"Cybercrime can only target individuals."
+
+],
+
+answer:2,
+
+reason:"Cybercrime has a global reach and criminals can use technology to conceal their identities and operate from different jurisdictions, making investigation and prosecution difficult."
+},
+
+{
+id:"FA_CH3_MCQ019",
+
+difficulty:"Hard",
+
+question:"A company creates a fictitious entity with little or no actual business activity and uses it to receive payments for services that were never provided. What fraud mechanism is most directly involved?",
+
+options:[
+
+"Shell company mechanism.",
+
+"Channel stuffing.",
+
+"Churning.",
+
+"Straw buyer scheme."
+
+],
+
+answer:0,
+
+reason:"A shell company typically exists primarily as a legal entity with little or no genuine business operations and may be used to receive fraudulent payments, conceal ownership or facilitate other fraudulent activities."
+},
+
+{
+id:"FA_CH3_MCQ020",
+
+difficulty:"Hard",
+
+question:"A company transfers funds to a related entity through inflated invoices for goods and services that were either overpriced or never provided. What fraudulent mechanism is being used?",
+
+options:[
+
+"ATM skimming.",
+
+"Related party transaction fraud.",
+
+"Insurance premium fraud.",
+
+"False advertising."
+
+],
+
+answer:1,
+
+reason:"Related party transaction fraud can involve fictitious invoicing or overbilling, through which excess funds are transferred to a related entity under the appearance of legitimate business transactions."
+},
+
+{
+id:"FA_CH3_MCQ021",
+
+difficulty:"Hard",
+
+question:"Which of the following is a key consequence of fraud against corporates?",
+
+options:[
+"Improved employee morale",
+"Reputational damage and financial losses",
+"Guaranteed increase in profitability",
+"Reduced regulatory scrutiny"
+],
+
+answer:1,
+
+reason:"Fraud against corporates can result in reputational damage, financial losses, reduced employee morale, legal consequences and regulatory repercussions."
+},
+
+{
+id:"FA_CH3_MCQ022",
+
+difficulty:"Hard",
+
+question:"Which preventive measure is specifically relevant to protecting individuals from phishing and identity theft?",
+
+options:[
+"Verify the authenticity of URLs, email addresses and contact details",
+"Allow unrestricted access to personal information",
+"Use the same password for every account",
+"Ignore unsolicited communications requesting personal information"
+],
+
+answer:0,
+
+reason:"Individuals should verify the authenticity of sources, including URLs, email addresses and contact details, before sharing personal information or conducting transactions."
+},
+
+{
+id:"FA_CH3_MCQ023",
+
+difficulty:"Hard",
+
+question:"An employee deliberately omits cash sales from the company's accounting records and keeps the cash received from customers. What type of scheme is this?",
+
+options:[
+"Lapping",
+"Unrecorded sales",
+"False refunds",
+"Forged endorsement"
+],
+
+answer:1,
+
+reason:"Unrecorded sales are a skimming technique in which sales are deliberately omitted from company records so that the employee can pocket the cash received."
+},
+
+{
+id:"FA_CH3_MCQ024",
+
+difficulty:"Hard",
+
+question:"An employee records lower sales than those actually made and keeps the difference in cash. Which scheme is being used?",
+
+options:[
+"Understated sales",
+"Fictitious revenues",
+"False voids",
+"Payroll fraud"
+],
+
+answer:0,
+
+reason:"Understated sales involve deliberately reporting fewer sales or altering sales figures so that part of the cash received can be misappropriated."
+},
+
+{
+id:"FA_CH3_MCQ025",
+
+difficulty:"Very Hard",
+
+question:"An employee steals a customer's payment and subsequently uses the payment received from another customer to cover the earlier shortage. What scheme does this describe?",
+
+options:[
+"Write-off scheme",
+"Lapping scheme",
+"False refund scheme",
+"Billing scheme"
+],
+
+answer:1,
+
+reason:"In a lapping scheme, payments from subsequent customers are applied to cover amounts stolen from earlier transactions, thereby concealing the initial theft."
+},
+
+{
+id:"FA_CH3_MCQ026",
+
+difficulty:"Very Hard",
+
+question:"An employee creates a fictitious credit memo and writes off a genuine receivable to conceal the theft of cash. Which scheme is involved?",
+
+options:[
+"Write-off scheme",
+"Skimming through unrecorded sales",
+"False void scheme",
+"Payroll scheme"
+],
+
+answer:0,
+
+reason:"Write-off schemes involve manipulating or fraudulently writing off legitimate accounts receivable, often through fictitious credit memos or documents, to conceal misappropriation."
+},
+
+{
+id:"FA_CH3_MCQ027",
+
+difficulty:"Hard",
+
+question:"An employee generates a fake refund for a customer who never returned any goods and keeps the refunded amount. Which fraud is this?",
+
+options:[
+"False refund",
+"False void",
+"Unconcealed larceny",
+"Lapping"
+],
+
+answer:0,
+
+reason:"False refund fraud involves creating fraudulent refund transactions for non-existent returns or transactions and diverting the refunded amount for personal gain."
+},
+
+{
+id:"FA_CH3_MCQ028",
+
+difficulty:"Very Hard",
+
+question:"A fraudster creates a fictitious company controlled by the fraudster and submits invoices for services that were never provided. The company then approves the invoices. What type of billing scheme is this?",
+
+options:[
+"Personal purchase scheme",
+"Shell company billing scheme",
+"Payroll scheme",
+"Expense reimbursement scheme"
+],
+
+answer:1,
+
+reason:"In a shell company billing scheme, a fictitious entity is created and used to submit invoices for goods or services that were never provided, allowing company funds to be diverted."
+},
+
+{
+id:"FA_CH3_MCQ029",
+
+difficulty:"Very Hard",
+
+question:"An employee colludes with a genuine external vendor. The vendor submits inflated invoices and the excess amount is returned to the employee. Which billing scheme is involved?",
+
+options:[
+"Non-accomplice vendor scheme",
+"Shell company scheme",
+"Personal purchase scheme",
+"False refund scheme"
+],
+
+answer:0,
+
+reason:"A non-accomplice vendor scheme involves collusion with a real vendor to generate false or inflated invoices, with the excess payment being returned to the employee or fraudster."
+},
+
+{
+id:"FA_CH3_MCQ030",
+
+difficulty:"Hard",
+
+question:"An employee uses company funds to purchase personal goods but records them as business expenses. Which billing scheme is most directly applicable?",
+
+options:[
+"Personal purchases",
+"Shell companies",
+"Lapping",
+"False voids"
+],
+
+answer:0,
+
+reason:"Personal purchase schemes involve employees abusing their position to use company funds for personal purchases and disguising those purchases as legitimate business expenses."
+},
+
+{
+id:"FA_CH3_MCQ031",
+
+difficulty:"Hard",
+
+question:"An employee submits a personal vacation expense as a legitimate business travel expense and claims reimbursement. What type of expense reimbursement fraud is involved?",
+
+options:[
+"Overstated expense",
+"Mischaracterised expense",
+"Fictitious expense",
+"Multiple reimbursement"
+],
+
+answer:1,
+
+reason:"Mischaracterised expenses occur when personal expenses are falsely represented as legitimate business expenses to obtain reimbursement."
+},
+
+{
+id:"FA_CH3_MCQ032",
+
+difficulty:"Hard",
+
+question:"An employee actually spends ₹8,000 on a business conference but submits a claim showing ₹12,000. Which expense reimbursement scheme is involved?",
+
+options:[
+"Fictitious expense",
+"Multiple reimbursement",
+"Overstated expense",
+"Mischaracterised expense"
+],
+
+answer:2,
+
+reason:"Overstated expenses involve inflating the actual cost of legitimate business expenses to obtain a higher reimbursement."
+},
+
+{
+id:"FA_CH3_MCQ033",
+
+difficulty:"Hard",
+
+question:"An employee creates a fake invoice for a business service that was never purchased and submits it for reimbursement. Which scheme is involved?",
+
+options:[
+"Fictitious expense",
+"Overstated expense",
+"Multiple reimbursement",
+"Mischaracterised expense"
+],
+
+answer:0,
+
+reason:"Fictitious expenses involve fabricating expenses that never occurred and submitting fake receipts or invoices to obtain reimbursement."
+},
+
+{
+id:"FA_CH3_MCQ034",
+
+difficulty:"Very Hard",
+
+question:"An employee submits the same business expense for reimbursement to two different departments. Which fraud scheme is this?",
+
+options:[
+"Mischaracterised expense",
+"Overstated expense",
+"Multiple reimbursements",
+"Fictitious expense"
+],
+
+answer:2,
+
+reason:"Multiple reimbursement schemes involve submitting duplicate or multiple claims for the same expense to obtain reimbursement more than once."
+},
+
+{
+id:"FA_CH3_MCQ035",
+
+difficulty:"Very Hard",
+
+question:"A fraudster intercepts a genuine cheque and changes the name of the intended payee to another person. Which cheque tampering scheme is involved?",
+
+options:[
+"Forged maker",
+"Forged endorsement",
+"Altered payee",
+"Authorised maker"
+],
+
+answer:2,
+
+reason:"An altered payee scheme involves intercepting an authorized cheque and changing the payee information to divert the payment to the fraudster or another party."
+},
+
+{
+id:"FA_CH3_MCQ036",
+
+difficulty:"Very Hard",
+
+question:"A fraudster intercepts a genuine cheque and forges the signature of the intended recipient on the back of the cheque. Which scheme is involved?",
+
+options:[
+"Forged endorsement",
+"Forged maker",
+"Altered payee",
+"Authorised maker"
+],
+
+answer:0,
+
+reason:"Forged endorsement occurs when a fraudster intercepts a legitimately issued cheque and forges the endorsement signature of the intended payee to redirect the payment."
+},
+
+{
+id:"FA_CH3_MCQ037",
+
+difficulty:"Very Hard",
+
+question:"A person without authority creates a cheque using the name and account details of a legitimate company and forges the company's signature. What type of cheque fraud is this?",
+
+options:[
+"Authorised maker",
+"Forged endorsement",
+"Altered payee",
+"Forged maker"
+],
+
+answer:3,
+
+reason:"A forged maker scheme occurs when an unauthorized individual creates a fraudulent cheque using the legitimate account holder's details and forges the maker's signature."
+},
+
+{
+id:"FA_CH3_MCQ038",
+
+difficulty:"Very Hard",
+
+question:"An employee with legitimate signing authority issues a cheque to himself for a personal purpose without authorization. Which scheme is involved?",
+
+options:[
+"Forged maker",
+"Authorised maker",
+"Forged endorsement",
+"Altered payee"
+],
+
+answer:1,
+
+reason:"An authorised maker scheme involves a person with legitimate signing authority fraudulently issuing cheques or authorizing payments for personal or unauthorized purposes."
+},
+
+{
+id:"FA_CH3_MCQ039",
+
+difficulty:"Hard",
+
+question:"An employee receives cash from a customer, records the sale, and later takes the cash from the register. Which method of cash misappropriation is involved?",
+
+options:[
+"Skimming",
+"Cash larceny",
+"Lapping",
+"Write-off scheme"
+],
+
+answer:1,
+
+reason:"Cash larceny involves stealing cash after the transaction has already been recorded, unlike skimming where cash is stolen before it is recorded."
+},
+
+{
+id:"FA_CH3_MCQ040",
+
+difficulty:"Hard",
+
+question:"Which combination represents the three primary categories of occupational fraud?",
+
+options:[
+"Asset misappropriation, corruption and financial statement fraud",
+"Banking fraud, tax fraud and consumer fraud",
+"Identity theft, phishing and hacking",
+"Loan fraud, insurance fraud and securities fraud"
+],
+
+answer:0,
+
+reason:"The three primary categories of occupational fraud are asset misappropriation, corruption and financial statement fraud."
+},
+
+{
+id:"FA_CH3_MCQ041",
+
+difficulty:"Hard",
+
+question:"Which of the following best describes asset misappropriation?",
+
+options:[
+"Manipulating financial statements to mislead investors",
+"Unauthorized use or theft of an organization's resources by individuals within the organization",
+"Offering bribes to government officials",
+"Manipulating market prices of securities"
+],
+
+answer:1,
+
+reason:"Asset misappropriation involves fraudulent and unauthorized use or theft of an organization's resources or assets by individuals within the organization."
+},
+
+{
+id:"FA_CH3_MCQ042",
+
+difficulty:"Very Hard",
+
+question:"An employee deliberately damages inventory through careless handling and later takes the spoiled inventory for personal use. Which category of asset misappropriation is most relevant?",
+
+options:[
+"Misuse of inventory",
+"Financial statement fraud",
+"Cheque tampering",
+"Corruption"
+],
+
+answer:0,
+
+reason:"Misuse of inventory includes unauthorized personal use, theft or embezzlement, and deliberate or careless handling resulting in wastage or spoilage."
+},
+
+{
+id:"FA_CH3_MCQ043",
+
+difficulty:"Hard",
+
+question:"An employee generates a false requisition for company equipment and diverts the equipment to an unauthorized person. Which larceny method is involved?",
+
+options:[
+"False sales and shipping",
+"Assets requisitions and transfers",
+"Unconcealed larceny",
+"Purchasing and receiving"
+],
+
+answer:1,
+
+reason:"Assets requisitions and transfers involve manipulating requisition or transfer processes to divert inventory or assets to unauthorized recipients or for personal use."
+},
+
+{
+id:"FA_CH3_MCQ044",
+
+difficulty:"Very Hard",
+
+question:"An employee creates a fictitious sales order and alters shipping documents so that company inventory is delivered to an unauthorized location. Which scheme is this?",
+
+options:[
+"Assets requisitions and transfers",
+"False sales and shipping",
+"Purchasing and receiving",
+"Unconcealed larceny"
+],
+
+answer:1,
+
+reason:"False sales and shipping involves fabricating or manipulating sales orders or shipping records to divert inventory or assets for unauthorized purposes."
+},
+
+{
+id:"FA_CH3_MCQ045",
+
+difficulty:"Very Hard",
+
+question:"An employee colludes with a fictitious vendor to create purchase orders for goods that were never delivered and diverts the resulting assets. Which method is involved?",
+
+options:[
+"Purchasing and receiving",
+"False sales and shipping",
+"Unconcealed larceny",
+"Cash larceny"
+],
+
+answer:0,
+
+reason:"Purchasing and receiving schemes involve fictitious vendors, fraudulent purchase orders or invoices, and manipulation of received goods or quantities to divert company resources."
+},
+
+{
+id:"FA_CH3_MCQ046",
+
+difficulty:"Hard",
+
+question:"An employee simply removes inventory from a warehouse without attempting to conceal the theft. What is this known as?",
+
+options:[
+"Unconcealed larceny",
+"Lapping",
+"Skimming",
+"False void"
+],
+
+answer:0,
+
+reason:"Unconcealed larceny occurs when an individual directly steals inventory or assets without attempting to conceal the theft."
+},
+
+{
+id:"FA_CH3_MCQ047",
+
+difficulty:"Very Hard",
+
+question:"Which of the following is an example of financial statement fraud involving overstatement of net income?",
+
+options:[
+"Recording fictitious revenues",
+"Accelerating expenses into the current period",
+"Undervaluing inventory",
+"Deferring revenue recognition"
+],
+
+answer:0,
+
+reason:"Recording fictitious revenues creates artificial income and is a method of overstating net income or net worth."
+},
+
+{
+id:"FA_CH3_MCQ048",
+
+difficulty:"Hard",
+
+question:"A company deliberately fails to record certain liabilities and expenses in order to appear more profitable. This is an example of:",
+
+options:[
+"Concealed liabilities and expenses",
+"Understated revenues",
+"Proper asset valuation",
+"Cash larceny"
+],
+
+answer:0,
+
+reason:"Concealed liabilities and expenses involve hiding obligations or expenses that should be reported, thereby making the company appear more profitable."
+},
+
+{
+id:"FA_CH3_MCQ049",
+
+difficulty:"Very Hard",
+
+question:"A company records revenue in the current reporting period even though the related transaction belongs to a later period. Which financial statement fraud technique is being used?",
+
+options:[
+"Timing differences",
+"Improper disclosures",
+"Understated liabilities",
+"Asset misappropriation"
+],
+
+answer:0,
+
+reason:"Timing differences involve manipulating the recognition of revenues or expenses between reporting periods to artificially increase or decrease reported income."
+},
+
+{
+id:"FA_CH3_MCQ050",
+
+difficulty:"Very Hard",
+
+question:"A company intentionally records expenses earlier than necessary and defers revenue recognition to a later period. What is the likely effect?",
+
+options:[
+"Overstatement of current-period net income",
+"Understatement of current-period net income",
+"No effect on current-period income",
+"Increase in reported assets only"
+],
+
+answer:1,
+
+reason:"Accelerating expenses and deferring revenue reduces current-period reported income and is a method of understating net income."
+},
+
+{
+id:"FA_CH3_MCQ051",
+
+difficulty:"Hard",
+
+question:"Which of the following would most directly result in understatement of net income?",
+
+options:[
+"Fictitious revenues",
+"Understated expenses",
+"Overstated liabilities and expenses",
+"Overvalued inventory"
+],
+
+answer:2,
+
+reason:"Overstating liabilities or expenses increases the amounts charged against income and therefore reduces reported net income."
+},
+
+{
+id:"FA_CH3_MCQ052",
+
+difficulty:"Very Hard",
+
+question:"A company intentionally undervalues its inventory and property in its financial statements. What is the likely effect?",
+
+options:[
+"Overstatement of net worth",
+"Understatement of net worth or income",
+"Increase in reported revenue",
+"No effect on financial statements"
+],
+
+answer:1,
+
+reason:"Improper downward valuation of assets, such as inventory or property, can reduce reported net worth or income."
+},
+
+{
+id:"FA_CH3_MCQ053",
+
+difficulty:"Very Hard",
+
+question:"Which of the following is an example of improper disclosure as a financial statement fraud technique?",
+
+options:[
+"Recording a genuine sale twice",
+"Failing to disclose significant off-balance-sheet liabilities",
+"Stealing cash from the register",
+"Creating a fictitious vendor"
+],
+
+answer:1,
+
+reason:"Improper disclosures include failure to disclose material information such as off-balance-sheet liabilities or significant risks, which can mislead stakeholders."
+},
+
+{
+id:"FA_CH3_MCQ054",
+
+difficulty:"Hard",
+
+question:"Corruption primarily involves:",
+
+options:[
+"Misuse of power or authority for personal gain",
+"Only theft of physical assets",
+"Only manipulation of inventory records",
+"Only cyber attacks against banks"
+],
+
+answer:0,
+
+reason:"Corruption refers to misuse of power or authority for personal gain through practices such as bribery, nepotism, conflicts of interest, illegal gratuities and abuse of public resources."
+},
+
+{
+id:"FA_CH3_MCQ055",
+
+difficulty:"Very Hard",
+
+question:"A procurement officer awards a contract to a supplier owned by a close relative without disclosing the relationship. Which type of corruption risk is most directly involved?",
+
+options:[
+"Conflict of interest",
+"Cash larceny",
+"Financial statement fraud",
+"Loan flipping"
+],
+
+answer:0,
+
+reason:"A conflict of interest arises when an individual's personal or financial interests may influence decisions that should be made in the best interests of the organization."
+},
+
+{
+id:"FA_CH3_MCQ056",
+
+difficulty:"Very Hard",
+
+question:"A procurement employee consistently selects a particular supplier because of a personal relationship, despite the availability of better suppliers. This is an example of:",
+
+options:[
+"Supplier bias",
+"Bid rigging",
+"False refund",
+"Asset requisition fraud"
+],
+
+answer:0,
+
+reason:"Supplier bias occurs when procurement personnel favour particular suppliers due to personal relationships or benefits, rather than selecting the best option for the organization."
+},
+
+{
+id:"FA_CH3_MCQ057",
+
+difficulty:"Very Hard",
+
+question:"Several competing companies secretly agree in advance which company will win a contract and submit inflated bids to create an appearance of competition. What is this?",
+
+options:[
+"Invoice kickback",
+"Bid rigging",
+"Channel stuffing",
+"Illegal gratuity"
+],
+
+answer:1,
+
+reason:"Bid rigging involves competitors conspiring to manipulate a competitive bidding process by predetermining the winner or submitting artificially inflated bids."
+},
+
+{
+id:"FA_CH3_MCQ058",
+
+difficulty:"Hard",
+
+question:"A vendor inflates an invoice and secretly returns the excess amount to the employee who approved the purchase. Which form of bribery is this?",
+
+options:[
+"Bid rigging",
+"Invoice kickback",
+"Illegal gratuity",
+"Economic extortion"
+],
+
+answer:1,
+
+reason:"An invoice kickback occurs when an employee or contractor receives a payment from a vendor after inflated invoices or prices have been approved."
+},
+
+{
+id:"FA_CH3_MCQ059",
+
+difficulty:"Very Hard",
+
+question:"A sales employee pushes excessive inventory onto distributors near the end of the reporting period to artificially meet sales targets. Which technique is being used?",
+
+options:[
+"Channel stuffing",
+"Supplier bias",
+"Lapping",
+"Loan flipping"
+],
+
+answer:0,
+
+reason:"Channel stuffing involves pushing excess inventory onto distributors or customers near the end of a reporting period to meet sales targets or artificially inflate revenues."
+},
+
+{
+id:"FA_CH3_MCQ060",
+
+difficulty:"Very Hard",
+
+question:"Which statement best distinguishes an illegal gratuity from a direct bribery arrangement as described in the chapter?",
+
+options:[
+"An illegal gratuity necessarily involves theft of company assets",
+"An illegal gratuity involves providing something of value with an expectation of favourable treatment, without a specific direct quid pro quo",
+"An illegal gratuity is always a legitimate business expense",
+"An illegal gratuity can only involve cash payments"
+],
+
+answer:1,
+
+reason:"The chapter distinguishes illegal gratuities from bribery by explaining that an illegal gratuity involves providing something of value with an expectation of future favourable treatment, without a specific direct quid pro quo."
+},
+
+{
+id:"FA_CH3_MCQ061",
+
+difficulty:"Very Hard",
+
+question:"A business owner is threatened with disruption of operations unless a recurring payment is made to a criminal group. Which form of economic extortion does this most closely represent?",
+
+options:[
+"Protection racketeering",
+"Bid rigging",
+"Invoice kickback",
+"Supplier bias"
+],
+
+answer:0,
+
+reason:"Protection racketeering is a form of extortion where criminals offer protection to businesses or individuals in exchange for regular payments."
+},
+
+{
+id:"FA_CH3_MCQ062",
+
+difficulty:"Hard",
+
+question:"A person threatens to disclose damaging information about a company unless the company pays money. Which method of economic extortion is involved?",
+
+options:[
+"Influence peddling",
+"Blackmail",
+"Coercive contract",
+"Supplier bias"
+],
+
+answer:1,
+
+reason:"Blackmail occurs when someone threatens to reveal damaging information about a person or organization unless a payment is made."
+},
+
+{
+id:"FA_CH3_MCQ063",
+
+difficulty:"Very Hard",
+
+question:"A government official uses his position to demand money from a business before granting a required permission. Which method of economic extortion is this?",
+
+options:[
+"Abuse of power",
+"False billing",
+"Channel stuffing",
+"Illegal gratuity"
+],
+
+answer:0,
+
+reason:"Abuse of power occurs when individuals in authoritative positions misuse their authority to demand bribes or kickbacks in exchange for services or permissions."
+},
+
+{
+id:"FA_CH3_MCQ064",
+
+difficulty:"Very Hard",
+
+question:"An intermediary offers access to influential decision-makers in exchange for financial compensation. Which method of economic extortion is described?",
+
+options:[
+"Protection racketeering",
+"Influence peddling",
+"Blackmail",
+"Bid rigging"
+],
+
+answer:1,
+
+reason:"Influence peddling involves offering access to influential contacts or decision-makers in exchange for financial compensation."
+},
+
+{
+id:"FA_CH3_MCQ065",
+
+difficulty:"Very Hard",
+
+question:"A public official receives an expensive gift after taking an official action, with the giver expecting favourable treatment in the future but without a specific agreed exchange. Which concept is most applicable?",
+
+options:[
+"Illegal gratuity",
+"Invoice kickback",
+"Loan flipping",
+"Asset larceny"
+],
+
+answer:0,
+
+reason:"An illegal gratuity involves giving something of value with an expectation of favourable treatment, without necessarily having a specific direct quid pro quo."
+},
+
+{
+id:"FA_CH3_MCQ066",
+
+difficulty:"Hard",
+
+question:"Which of the following is a distinguishing feature of a Ponzi scheme?",
+
+options:[
+"Returns are generated entirely from legitimate business profits",
+"Returns to earlier investors are funded using money from newer investors",
+"The scheme depends only on bank loans",
+"Investors are guaranteed returns by a government authority"
+],
+
+answer:1,
+
+reason:"A Ponzi scheme does not generate legitimate profits sufficient to support promised returns. Instead, funds from new investors are used to pay earlier investors."
+},
+
+{
+id:"FA_CH3_MCQ067",
+
+difficulty:"Very Hard",
+
+question:"Why is a Ponzi scheme inherently unsustainable?",
+
+options:[
+"It requires continuous recruitment of new investors to meet payment obligations",
+"It requires the company to maintain large inventories",
+"It depends on regular government subsidies",
+"It requires all investors to withdraw simultaneously"
+],
+
+answer:0,
+
+reason:"A Ponzi scheme depends on a continuous inflow of new investors. When new money stops coming in or withdrawals increase, the scheme collapses."
+},
+
+{
+id:"FA_CH3_MCQ068",
+
+difficulty:"Hard",
+
+question:"Which sequence correctly represents the three stages of money laundering described in the chapter?",
+
+options:[
+"Layering → Placement → Integration",
+"Placement → Layering → Integration",
+"Integration → Placement → Layering",
+"Placement → Integration → Layering"
+],
+
+answer:1,
+
+reason:"Money laundering is commonly described through three stages: placement introduces illicit funds into the financial system, layering obscures their origin, and integration reintroduces them as apparently legitimate funds."
+},
+
+{
+id:"FA_CH3_MCQ069",
+
+difficulty:"Very Hard",
+
+question:"A criminal deposits illegally obtained cash into the financial system through various accounts and investments to distance it from its criminal source. Which stage of money laundering is this?",
+
+options:[
+"Placement",
+"Layering",
+"Integration",
+"Structuring"
+],
+
+answer:0,
+
+reason:"Placement is the stage in which illegally obtained funds are first introduced into the financial system through deposits, investments or purchases."
+},
+
+{
+id:"FA_CH3_MCQ070",
+
+difficulty:"Very Hard",
+
+question:"An individual moves illicit funds through numerous accounts and jurisdictions to make tracing the source difficult. Which stage of money laundering is involved?",
+
+options:[
+"Placement",
+"Layering",
+"Integration",
+"Tax reporting"
+],
+
+answer:1,
+
+reason:"Layering involves moving money through complex transactions, accounts, jurisdictions or financial institutions to conceal its criminal origin."
+},
+
+{
+id:"FA_CH3_MCQ071",
+
+difficulty:"Very Hard",
+
+question:"After moving illicit funds through multiple transactions, a fraudster uses the money to purchase apparently legitimate assets and conduct lawful-looking business transactions. Which stage is this?",
+
+options:[
+"Placement",
+"Layering",
+"Integration",
+"Structuring"
+],
+
+answer:2,
+
+reason:"Integration occurs when sufficiently layered illicit funds are reintroduced into the economy through apparently legitimate transactions."
+},
+
+{
+id:"FA_CH3_MCQ072",
+
+difficulty:"Hard",
+
+question:"A person divides a large amount of illicit cash into many smaller transactions to avoid reporting requirements. Which money laundering method is being used?",
+
+options:[
+"Trade-based laundering",
+"Structuring",
+"Integration",
+"Loan flipping"
+],
+
+answer:1,
+
+reason:"Structuring involves breaking large sums into smaller, less conspicuous amounts to avoid reporting requirements or detection."
+},
+
+{
+id:"FA_CH3_MCQ073",
+
+difficulty:"Very Hard",
+
+question:"A company manipulates the price and quantity shown on international trade invoices to disguise the movement of illicit funds. Which method is this?",
+
+options:[
+"Trade-based money laundering",
+"Account takeover",
+"Payroll fraud",
+"Channel stuffing"
+],
+
+answer:0,
+
+reason:"Trade-based money laundering uses international trade transactions, including manipulated prices, quantities or invoices, to move or disguise illicit funds."
+},
+
+{
+id:"FA_CH3_MCQ074",
+
+difficulty:"Hard",
+
+question:"Which of the following is a red flag of potential money laundering?",
+
+options:[
+"Transactions consistent with the customer's normal business activity",
+"Frequent international transfers without a clear business purpose",
+"Regular salary credits from an identifiable employer",
+"Routine payments supported by valid documentation"
+],
+
+answer:1,
+
+reason:"Frequent international transfers involving different countries or jurisdictions without a clear business purpose can indicate potential money laundering."
+},
+
+{
+id:"FA_CH3_MCQ075",
+
+difficulty:"Hard",
+
+question:"Which of the following is a type of tax fraud?",
+
+options:[
+"Underreporting income",
+"Maintaining accurate tax records",
+"Making timely tax payments",
+"Disclosing all taxable assets"
+],
+
+answer:0,
+
+reason:"Underreporting income is a common form of tax fraud in which taxpayers deliberately fail to report all income in order to reduce tax liability."
+},
+
+{
+id:"FA_CH3_MCQ076",
+
+difficulty:"Very Hard",
+
+question:"A taxpayer deliberately claims a charitable donation that was never actually made in order to reduce taxable income. Which tax fraud is involved?",
+
+options:[
+"False charitable donation",
+"Understated liability",
+"Loan application fraud",
+"Trade-based laundering"
+],
+
+answer:0,
+
+reason:"False charitable donations involve claiming donations that were not actually made in order to obtain an unwarranted reduction in tax liability."
+},
+
+{
+id:"FA_CH3_MCQ077",
+
+difficulty:"Very Hard",
+
+question:"A taxpayer deliberately hides assets in an offshore structure so that the tax authority cannot identify the assets as taxable. Which type of tax fraud is this?",
+
+options:[
+"False charitable donation",
+"Concealing assets or income",
+"Overstated business expenses only",
+"Loan flipping"
+],
+
+answer:1,
+
+reason:"Concealing assets or income involves hiding taxable assets or income, including through offshore structures, to make them difficult for tax authorities to identify."
+},
+
+{
+id:"FA_CH3_MCQ078",
+
+difficulty:"Hard",
+
+question:"Which of the following is a major impact of tax fraud on honest taxpayers?",
+
+options:[
+"They receive automatic tax refunds",
+"They bear an unfair tax burden because of lost government revenue",
+"They receive preferential treatment from tax authorities",
+"They face no impact whatsoever"
+],
+
+answer:1,
+
+reason:"Tax fraud reduces government revenue and can place an unfair burden on honest taxpayers who effectively bear a greater share of the tax burden."
+},
+
+{
+id:"FA_CH3_MCQ079",
+
+difficulty:"Very Hard",
+
+question:"Which measure can help tax authorities identify potential tax fraud using large volumes of financial information?",
+
+options:[
+"Eliminating tax reporting requirements",
+"Data analytics and artificial intelligence",
+"Reducing information sharing",
+"Removing audit procedures"
+],
+
+answer:1,
+
+reason:"The chapter identifies technology, including data analytics and artificial intelligence, as useful tools for identifying potential tax fraud and enforcing compliance."
+},
+
+{
+id:"FA_CH3_MCQ080",
+
+difficulty:"Very Hard",
+
+question:"Which combination best represents the principal characteristics of cybercrime described in the chapter?",
+
+options:[
+"Local reach, slow execution and extensive physical evidence",
+"Use of technology, anonymity, global reach, speed and constantly evolving methods",
+"Dependence exclusively on physical documents",
+"Limited targets and fixed methods"
+],
+
+answer:1,
+
+reason:"Cybercrime is characterized by the use of digital technology, anonymity, global reach, speed, limited physical evidence and constantly evolving methods."
+},
+
+{
+id:"FA_CH3_MCQ081",
+
+difficulty:"Easy",
+
+question:"Which of the following is a broad category of fraud?",
+
+options:[
+"Fraud against individuals",
+"Fraud against machines only",
+"Fraud against weather systems",
+"Fraud against transportation only"
+],
+
+answer:0,
+
+reason:"Fraud can broadly be categorized into fraud against individuals, fraud against corporates and fraud by corporates."
+},
+
+{
+id:"FA_CH3_MCQ082",
+
+difficulty:"Easy",
+
+question:"Which of the following is an example of fraud against individuals?",
+
+options:[
+"Identity theft",
+"Financial statement manipulation by a company",
+"Bid rigging between companies",
+"Corporate tax planning"
+],
+
+answer:0,
+
+reason:"Identity theft is a common example of fraud targeting individuals."
+},
+
+{
+id:"FA_CH3_MCQ083",
+
+difficulty:"Easy",
+
+question:"Which of the following is an example of fraud against corporates?",
+
+options:[
+"False billing",
+"Lottery winnings",
+"Personal budgeting",
+"Normal business transactions"
+],
+
+answer:0,
+
+reason:"False billing is a type of fraud that can target businesses or organizations."
+},
+
+{
+id:"FA_CH3_MCQ084",
+
+difficulty:"Easy",
+
+question:"Which of the following is an example of fraud by corporates?",
+
+options:[
+"Financial statement fraud",
+"Lost mobile phone",
+"Personal password change",
+"Normal customer purchase"
+],
+
+answer:0,
+
+reason:"Fraud by corporates can include financial statement fraud, insider trading, bribery, tax evasion and price-fixing."
+},
+
+{
+id:"FA_CH3_MCQ085",
+
+difficulty:"Easy",
+
+question:"Which of the following is an important preventive measure against fraud?",
+
+options:[
+"Regular audits",
+"Ignoring suspicious activities",
+"Sharing passwords",
+"Removing internal controls"
+],
+
+answer:0,
+
+reason:"Regular audits are an important measure for detecting and preventing fraudulent activities."
+},
+
+{
+id:"FA_CH3_MCQ086",
+
+difficulty:"Easy",
+
+question:"What is the basic nature of fraud?",
+
+options:[
+"Deliberate deception",
+"Accidental error only",
+"Normal business activity",
+"Routine accounting"
+],
+
+answer:0,
+
+reason:"The essence of fraud lies in deliberate deception, including intentional misrepresentation, manipulation or concealment."
+},
+
+{
+id:"FA_CH3_MCQ087",
+
+difficulty:"Easy",
+
+question:"What does banking fraud generally aim to obtain through deceptive means?",
+
+options:[
+"Money or assets",
+"Employee training",
+"Business licenses",
+"Company policies"
+],
+
+answer:0,
+
+reason:"Banking fraud involves deceitful or illegal activities intended to acquire money or assets from a bank or its customers."
+},
+
+{
+id:"FA_CH3_MCQ088",
+
+difficulty:"Easy",
+
+question:"Which banking fraud involves stealing personal information to impersonate another person?",
+
+options:[
+"Identity theft",
+"ATM maintenance",
+"Loan repayment",
+"Account reconciliation"
+],
+
+answer:0,
+
+reason:"Identity theft involves stealing personal information and using it to impersonate individuals or conduct unauthorized transactions."
+},
+
+{
+id:"FA_CH3_MCQ089",
+
+difficulty:"Easy",
+
+question:"Which banking fraud involves fake emails or messages designed to obtain sensitive information?",
+
+options:[
+"Phishing",
+"Cash larceny",
+"Asset valuation",
+"Bid rigging"
+],
+
+answer:0,
+
+reason:"Phishing involves fraudulent emails, websites or messages designed to obtain sensitive information by pretending to be a trustworthy entity."
+},
+
+{
+id:"FA_CH3_MCQ090",
+
+difficulty:"Easy",
+
+question:"What is account takeover?",
+
+options:[
+"Unauthorized access to a person's bank account",
+"Opening a legitimate savings account",
+"Making a normal cash deposit",
+"Closing a bank account"
+],
+
+answer:0,
+
+reason:"Account takeover occurs when criminals obtain unauthorized access to a person's bank account and manipulate it for their benefit."
+},
+
+{
+id:"FA_CH3_MCQ091",
+
+difficulty:"Easy",
+
+question:"Which fraud involves using a stolen or cloned card to make unauthorized transactions?",
+
+options:[
+"Credit or debit card fraud",
+"Tax fraud",
+"Insurance fraud",
+"Financial statement fraud"
+],
+
+answer:0,
+
+reason:"Credit or debit card fraud involves using stolen or cloned cards to conduct unauthorized transactions."
+},
+
+{
+id:"FA_CH3_MCQ092",
+
+difficulty:"Easy",
+
+question:"What is ATM skimming?",
+
+options:[
+"Using a device to steal card information from an ATM",
+"Depositing cash into an ATM",
+"Changing an ATM password",
+"Repairing an ATM"
+],
+
+answer:0,
+
+reason:"ATM skimming involves installing devices on ATMs to capture card information, which may then be used for unauthorized transactions."
+},
+
+{
+id:"FA_CH3_MCQ093",
+
+difficulty:"Easy",
+
+question:"Which of the following is a type of corporate fraud?",
+
+options:[
+"Asset misappropriation",
+"Normal salary payment",
+"Customer service",
+"Routine inventory counting"
+],
+
+answer:0,
+
+reason:"Asset misappropriation is a form of corporate fraud involving the unauthorized use or theft of company resources."
+},
+
+{
+id:"FA_CH3_MCQ094",
+
+difficulty:"Easy",
+
+question:"What does financial statement fraud involve?",
+
+options:[
+"Misrepresenting financial information",
+"Preparing accurate accounts",
+"Paying employees on time",
+"Maintaining proper records"
+],
+
+answer:0,
+
+reason:"Financial statement fraud involves intentionally manipulating financial statements to misrepresent a company's financial performance or position."
+},
+
+{
+id:"FA_CH3_MCQ095",
+
+difficulty:"Easy",
+
+question:"Which of the following involves offering or receiving something of value for a business advantage?",
+
+options:[
+"Bribery and corruption",
+"Identity theft",
+"ATM skimming",
+"Data backup"
+],
+
+answer:0,
+
+reason:"Bribery and corruption can involve offering or receiving something of value in exchange for a business advantage or favourable treatment."
+},
+
+{
+id:"FA_CH3_MCQ096",
+
+difficulty:"Easy",
+
+question:"What is embezzlement?",
+
+options:[
+"Theft of company funds or assets by an employee or executive",
+"Legitimate investment by a company",
+"Payment of normal business expenses",
+"Routine preparation of financial statements"
+],
+
+answer:0,
+
+reason:"Embezzlement is the theft or misappropriation of company funds or assets by an employee or executive for personal use."
+},
+
+{
+id:"FA_CH3_MCQ097",
+
+difficulty:"Easy",
+
+question:"What is insurance fraud?",
+
+options:[
+"Deceitful activity intended to obtain a fraudulent outcome from an insurance process",
+"Buying a genuine insurance policy",
+"Paying an insurance premium on time",
+"Comparing different insurance policies"
+],
+
+answer:0,
+
+reason:"Insurance fraud involves a deceitful or illegal act committed with the intention of obtaining a fraudulent outcome from an insurance process."
+},
+
+{
+id:"FA_CH3_MCQ098",
+
+difficulty:"Easy",
+
+question:"Which of the following is an example of insurance fraud?",
+
+options:[
+"Submitting a false insurance claim",
+"Paying a genuine insurance premium",
+"Updating a policy address",
+"Renewing a valid policy"
+],
+
+answer:0,
+
+reason:"Submitting false or exaggerated claims is a common form of insurance fraud."
+},
+
+{
+id:"FA_CH3_MCQ099",
+
+difficulty:"Easy",
+
+question:"What is securities fraud?",
+
+options:[
+"Deceiving investors or manipulating financial markets for personal gain",
+"Buying securities after proper research",
+"Maintaining an investment portfolio",
+"Receiving legitimate dividends"
+],
+
+answer:0,
+
+reason:"Securities fraud involves deceiving investors or manipulating financial markets for personal gain."
+},
+
+{
+id:"FA_CH3_MCQ100",
+
+difficulty:"Easy",
+
+question:"Which of the following is a common form of securities fraud?",
+
+options:[
+"Ponzi scheme",
+"Regular dividend payment",
+"Legitimate investment research",
+"Normal stock trading"
+],
+
+answer:0,
+
+reason:"Ponzi schemes are a common form of securities or investment fraud in which funds from new investors are used to pay returns to earlier investors."
+},
+
+{
+id:"FA_CH3_MCQ101",
+
+difficulty:"Easy",
+
+question:"What is consumer fraud?",
+
+options:[
+"Deceptive practices targeting consumers for unfair financial gain",
+"Normal purchase of goods",
+"Regular customer service",
+"Legitimate advertising"
+],
+
+answer:0,
+
+reason:"Consumer fraud involves deceptive or dishonest practices aimed at gaining an unfair advantage or financial benefit at the consumer's expense."
+},
+
+{
+id:"FA_CH3_MCQ102",
+
+difficulty:"Easy",
+
+question:"Which of the following is an example of consumer fraud?",
+
+options:[
+"False advertising",
+"Honest product description",
+"Proper billing",
+"Transparent pricing"
+],
+
+answer:0,
+
+reason:"False advertising involves misleading or false claims about a product or service and is a common form of consumer fraud."
+},
+
+{
+id:"FA_CH3_MCQ103",
+
+difficulty:"Easy",
+
+question:"What is an online shopping scam?",
+
+options:[
+"Paying for a product that is never delivered or receiving a counterfeit product",
+"Buying a genuine product online",
+"Comparing product prices",
+"Reading customer reviews"
+],
+
+answer:0,
+
+reason:"Online shopping scams occur when a seller fails to deliver the promised product or delivers a counterfeit or inferior product."
+},
+
+{
+id:"FA_CH3_MCQ104",
+
+difficulty:"Easy",
+
+question:"What is a pyramid scheme?",
+
+options:[
+"A scheme where participants earn primarily by recruiting others",
+"A normal business selling products",
+"A government investment scheme",
+"A bank savings account"
+],
+
+answer:0,
+
+reason:"Pyramid schemes promise returns primarily through recruitment of new participants rather than through legitimate business activities."
+},
+
+{
+id:"FA_CH3_MCQ105",
+
+difficulty:"Easy",
+
+question:"What is intellectual property fraud?",
+
+options:[
+"Unauthorized use or theft of another person's ideas, inventions or creative works",
+"Buying a registered trademark",
+"Obtaining permission to use copyrighted material",
+"Registering one's own invention"
+],
+
+answer:0,
+
+reason:"Intellectual property fraud involves unauthorized use or theft of ideas, inventions, creative works or other intellectual property."
+},
+
+{
+id:"FA_CH3_MCQ106",
+
+difficulty:"Easy",
+
+question:"Which of the following is an example of intellectual property fraud?",
+
+options:[
+"Copyright infringement",
+"Obtaining a copyright legally",
+"Using an authorized trademark",
+"Buying licensed software"
+],
+
+answer:0,
+
+reason:"Copyright infringement involves unauthorized use, reproduction or distribution of copyrighted material."
+},
+
+{
+id:"FA_CH3_MCQ107",
+
+difficulty:"Easy",
+
+question:"What is cybersquatting?",
+
+options:[
+"Registering a domain name similar to a popular brand to deceive or profit from the rightful owner",
+"Creating a secure website",
+"Renewing a company's genuine domain",
+"Using a company's official website"
+],
+
+answer:0,
+
+reason:"Cybersquatting involves registering a domain name with the intention of selling it to the rightful owner or confusing consumers."
+},
+
+{
+id:"FA_CH3_MCQ108",
+
+difficulty:"Easy",
+
+question:"What are the three primary categories of occupational fraud?",
+
+options:[
+"Asset misappropriation, corruption and financial statement fraud",
+"Banking fraud, insurance fraud and tax fraud",
+"Phishing, hacking and malware",
+"Loan fraud, consumer fraud and securities fraud"
+],
+
+answer:0,
+
+reason:"Occupational fraud has three primary categories: asset misappropriation, corruption and financial statement fraud."
+},
+
+{
+id:"FA_CH3_MCQ109",
+
+difficulty:"Easy",
+
+question:"What is cash skimming?",
+
+options:[
+"Stealing cash before it is officially recorded",
+"Stealing cash after it is recorded",
+"Depositing cash into a bank",
+"Reconciling cash balances"
+],
+
+answer:0,
+
+reason:"Skimming involves stealing cash before the transaction is officially recorded in the company's books."
+},
+
+{
+id:"FA_CH3_MCQ110",
+
+difficulty:"Easy",
+
+question:"What is cash larceny?",
+
+options:[
+"Stealing cash after it has been recorded",
+"Stealing cash before a sale is recorded",
+"Recording a genuine cash sale",
+"Depositing cash into the company's account"
+],
+
+answer:0,
+
+reason:"Cash larceny involves stealing cash after the related transaction has already been recorded."
+},
+
+{
+id:"FA_CH3_MCQ111",
+
+difficulty:"Easy",
+
+question:"What is a false void scheme?",
+
+options:[
+"Falsely cancelling a legitimate sale and keeping the customer's payment",
+"Properly cancelling a genuine transaction",
+"Recording a new sale",
+"Depositing cash into a bank account"
+],
+
+answer:0,
+
+reason:"In a false void scheme, an employee falsely voids a legitimate sale and keeps the cash instead of returning it to the customer."
+},
+
+{
+id:"FA_CH3_MCQ112",
+
+difficulty:"Easy",
+
+question:"What is a false refund scheme?",
+
+options:[
+"Creating a fraudulent refund and keeping the refunded amount",
+"Giving a genuine refund to a customer",
+"Recording a normal sale",
+"Returning defective goods properly"
+],
+
+answer:0,
+
+reason:"False refunds involve creating fraudulent refund transactions for transactions or returns that did not actually occur and diverting the money."
+},
+
+{
+id:"FA_CH3_MCQ113",
+
+difficulty:"Easy",
+
+question:"Which of the following is a form of asset misappropriation?",
+
+options:[
+"Theft of company inventory",
+"Accurate financial reporting",
+"Proper vendor selection",
+"Employee training"
+],
+
+answer:0,
+
+reason:"Asset misappropriation includes theft or unauthorized use of company resources such as cash, inventory and other assets."
+},
+
+{
+id:"FA_CH3_MCQ114",
+
+difficulty:"Easy",
+
+question:"What is lapping?",
+
+options:[
+"Using later customer payments to cover an earlier theft",
+"Stealing inventory from a warehouse",
+"Creating a fake company",
+"Manipulating a tax return"
+],
+
+answer:0,
+
+reason:"Lapping involves using subsequent customer payments to cover a shortage created by the earlier theft of cash."
+},
+
+{
+id:"FA_CH3_MCQ115",
+
+difficulty:"Easy",
+
+question:"What is a billing scheme?",
+
+options:[
+"Manipulating the billing process to divert company funds",
+"Preparing a genuine invoice",
+"Paying a supplier on time",
+"Checking an invoice for accuracy"
+],
+
+answer:0,
+
+reason:"Billing schemes involve manipulating billing systems or invoices to divert company funds for personal or unauthorized purposes."
+},
+
+{
+id:"FA_CH3_MCQ116",
+
+difficulty:"Easy",
+
+question:"Which of the following is an example of an expense reimbursement fraud?",
+
+options:[
+"Submitting a personal expense as a business expense",
+"Submitting a genuine business expense",
+"Obtaining prior approval for an expense",
+"Keeping proper expense records"
+],
+
+answer:0,
+
+reason:"Mischaracterised expenses occur when personal expenses are falsely represented as legitimate business expenses to obtain reimbursement."
+},
+
+{
+id:"FA_CH3_MCQ117",
+
+difficulty:"Easy",
+
+question:"What is a forged maker scheme?",
+
+options:[
+"Creating a cheque using a forged signature of the legitimate account holder",
+"Changing the name of the cheque's payee",
+"Forging the payee's endorsement",
+"Issuing a cheque with proper authorization"
+],
+
+answer:0,
+
+reason:"A forged maker scheme involves an unauthorized person creating a fraudulent cheque and forging the legitimate account holder's signature."
+},
+
+{
+id:"FA_CH3_MCQ118",
+
+difficulty:"Easy",
+
+question:"What is an altered payee scheme?",
+
+options:[
+"Changing the intended recipient's name on a genuine cheque",
+"Forging the maker's signature",
+"Submitting a duplicate expense claim",
+"Creating a fictitious vendor"
+],
+
+answer:0,
+
+reason:"An altered payee scheme involves intercepting an authorized cheque and changing the payee information to divert the payment."
+},
+
+{
+id:"FA_CH3_MCQ119",
+
+difficulty:"Easy",
+
+question:"Which of the following is an example of misuse of company assets?",
+
+options:[
+"Using a company vehicle for unauthorized personal purposes",
+"Using a company vehicle for approved business travel",
+"Maintaining company equipment properly",
+"Returning company equipment after use"
+],
+
+answer:0,
+
+reason:"Unauthorized personal use of company vehicles or equipment is a form of misuse of company assets."
+},
+
+{
+id:"FA_CH3_MCQ120",
+
+difficulty:"Easy",
+
+question:"Which of the following is a preventive measure against asset misappropriation?",
+
+options:[
+"Regular inventory audits",
+"Ignoring inventory differences",
+"Giving unrestricted access to assets",
+"Removing segregation of duties"
+],
+
+answer:0,
+
+reason:"Regular inventory audits help detect irregularities and reduce the risk of asset misappropriation."
+},
+
+{
+case_id:"FA_CH3_CS01",
+
+case_chapter:["Nature and Types of Fraud","Occupational Fraud","Asset Misappropriation","Cash Misappropriation"],
+
+caseText:`
+
+<p>
+Apex Retail Solutions Limited operates a chain of electronic stores across several cities.
+The company has a centralized accounts receivable department responsible for collecting
+customer payments and updating individual customer ledgers. The company had historically
+experienced very few problems with receivables, and the management therefore gave the
+receivables team considerable autonomy.
+</p>
+
+<p>
+Rohan, a senior accounts executive, had been working in the department for almost six years.
+His responsibilities included receiving customer payments, updating customer accounts,
+preparing bank deposit information and assisting in the preparation of receivables ageing
+reports. Although the company had an internal control policy requiring segregation of duties,
+the same employee was often permitted to perform several stages of the collection process
+because of staff shortages.
+</p>
+
+<p>
+During an internal review, the finance manager noticed that the balance outstanding from
+several long-standing customers had remained almost unchanged for several months.
+However, the customers' statements showed that payments were being received regularly.
+When the manager contacted one of the customers directly, the customer confirmed that a
+payment of ₹4,80,000 had been made two months earlier.
+</p>
+
+<p>
+The payment, however, had not been credited to that customer's account in the company's
+books. Rohan explained that the payment had been received late and was still under
+reconciliation. A few weeks later, another customer's account showed a similar discrepancy.
+The customer confirmed that its payment had already been made and provided a bank
+confirmation.
+</p>
+
+<p>
+A detailed review revealed that Rohan had been taking payments received from Customer A
+and temporarily using them for his personal purposes. When Customer B subsequently made
+a payment, Rohan applied Customer B's payment to Customer A's account. When Customer C
+paid, that amount was applied to Customer B's account, and the process continued.
+</p>
+
+<p>
+To make the records appear normal, Rohan also prepared explanations for outstanding
+balances and occasionally created false adjustment documents. The fraud remained
+undetected for several months because the company relied heavily on system-generated
+receivables reports without independently confirming balances with customers.
+</p>
+
+<p>
+The investigation concluded that the initial theft was repeatedly concealed using subsequent
+customer collections. Management also observed that no independent employee was
+performing regular customer balance confirmations and that bank reconciliations were not
+reviewed promptly.
+</p>
+`,
+
+questions:[
+
+{
+question_id:"FA_CH3_CS01_Q1",
+
+difficulty:"Hard",
+
+question:"Which occupational fraud scheme most appropriately describes Rohan's method of concealing the initial theft?",
+
+options:[
+"False refund scheme",
+"Lapping scheme",
+"False void scheme",
+"Payroll scheme"
+],
+
+answer:1,
+
+reason:"Rohan used payments received from subsequent customers to cover the shortage created by the earlier theft. This is characteristic of a lapping scheme."
+},
+
+{
+question_id:"FA_CH3_CS01_Q2",
+
+difficulty:"Very Hard",
+
+question:"Why was the fraud able to continue for several months?",
+
+options:[
+"The company had excessive inventory",
+"The company did not independently confirm customer balances and had weak segregation of duties",
+"The customers were unaware of their own payments",
+"The company had no receivables system"
+],
+
+answer:1,
+
+reason:"The case specifically states that segregation of duties was weak and customer balances were not independently confirmed. These control weaknesses enabled the scheme to continue."
+},
+
+{
+question_id:"FA_CH3_CS01_Q3",
+
+difficulty:"Hard",
+
+question:"If Rohan had stolen cash before recording the related customer payment in the books, which technique would have been involved?",
+
+options:[
+"Cash larceny",
+"Skimming",
+"Lapping",
+"False refund"
+],
+
+answer:1,
+
+reason:"Skimming involves stealing cash before it is officially recorded in the company's books."
+},
+
+{
+question_id:"FA_CH3_CS01_Q4",
+
+difficulty:"Very Hard",
+
+question:"Which control would have been most effective in detecting the scheme at an early stage?",
+
+options:[
+"Allowing Rohan to continue performing all collection functions",
+"Independent confirmation of customer balances and segregation of duties",
+"Removing customer statements",
+"Reducing the frequency of bank reconciliations"
+],
+
+answer:1,
+
+reason:"Independent customer confirmations and proper segregation of duties would make it significantly more difficult for one employee to steal and conceal customer collections."
+},
+
+{
+question_id:"FA_CH3_CS01_Q5",
+
+difficulty:"Very Hard",
+
+question:"The creation of false adjustment documents by Rohan primarily served what purpose?",
+
+options:[
+"To increase genuine sales",
+"To conceal irregularities and support the fraudulent accounting entries",
+"To reduce inventory",
+"To improve customer service"
+],
+
+answer:1,
+
+reason:"False adjustment documents were used to provide an apparent explanation for discrepancies and conceal the misappropriation."
+}
+
+]
+},
+
+{
+case_id:"FA_CH3_CS02",
+
+case_chapter:["Nature and Types of Fraud","Financial Statement Fraud","Corporate Fraud"],
+
+caseText:`
+
+<p>
+Zenith Infrastructure Limited was preparing its annual financial statements at a time when
+the company was negotiating a large bank loan. Management had informed the finance team
+that maintaining a strong profit figure was critical because the proposed loan agreement
+contained financial performance conditions.
+</p>
+
+<p>
+The Chief Financial Officer instructed the accounting department to ensure that the company
+reported a substantial increase in revenue compared with the previous year. During the final
+week of the financial year, several sales invoices were raised for customers who had not yet
+placed confirmed orders. Some invoices related to goods that had not been dispatched and
+others related to services that had not yet been performed.
+</p>
+
+<p>
+The sales team objected that the transactions did not represent completed business. However,
+the finance department argued that the invoices could be reversed in the following period if
+necessary.
+</p>
+
+<p>
+The company also had an obligation to pay certain performance-related bonuses to senior
+employees. Instead of recording the related expense in the current year, the finance team
+recorded the expense in the following financial year.
+</p>
+
+<p>
+During the same period, the company owned a large quantity of specialized equipment whose
+market value had declined considerably. An independent valuation had indicated that the
+equipment was worth approximately ₹18 crore. Management nevertheless instructed the
+accounts department to continue carrying the equipment at ₹27 crore, arguing that its
+"strategic value" justified the higher amount.
+</p>
+
+<p>
+In addition, a major contingent liability arising from an ongoing legal dispute was not included
+in the financial statement disclosures. Management believed that disclosure of the dispute
+could negatively affect the bank's lending decision.
+</p>
+
+<p>
+The forensic review subsequently identified three separate methods used to make the company
+appear financially stronger than it actually was: premature or fictitious revenue recognition,
+deferral of expenses, and improper valuation and disclosure of financial information.
+</p>
+`,
+
+questions:[
+
+{
+    question_id:"FA_CH3_CS02_Q1",
+
+    difficulty:"Hard",
+
+    question:"Which action most directly represents fictitious revenue?",
+
+    options:[
+        "Recording revenue for goods or services that were not actually provided",
+        "Recording a genuine expense in the correct period",
+        "Recording a genuine customer payment",
+        "Disclosing a contingent liability"
+    ],
+
+    answer:0,
+
+    reason:"Fictitious revenues arise when revenues are fabricated or recorded without corresponding genuine sales or services."
+},
+
+{
+question_id:"FA_CH3_CS02_Q2",
+
+difficulty:"Very Hard",
+
+question:"The decision to record the performance-related bonus expense in the following year primarily represents:",
+
+options:[
+"Timing difference",
+"Asset misappropriation",
+"Cash larceny",
+"Loan flipping"
+],
+
+answer:0,
+
+reason:"Deferring an expense to a later reporting period is a timing difference used to artificially increase current-period net income."
+},
+
+{
+question_id:"FA_CH3_CS02_Q3",
+
+difficulty:"Very Hard",
+
+question:"Carrying equipment at ₹27 crore when its appropriate value was substantially lower is an example of:",
+
+options:[
+"Improper asset valuation",
+"False charitable donation",
+"Cash skimming",
+"Bid rigging"
+],
+
+answer:0,
+
+reason:"Manipulating the value of assets upward to inflate net worth is an example of improper asset valuation."
+},
+
+{
+question_id:"FA_CH3_CS02_Q4",
+
+difficulty:"Hard",
+
+question:"Why was the contingent liability deliberately omitted from the financial statements?",
+
+options:[
+"To improve the apparent financial position of the company",
+"To reduce inventory",
+"To increase cash collections",
+"To prevent employee turnover"
+],
+
+answer:0,
+
+reason:"Failure to disclose significant liabilities or risks can make the company appear financially stronger than it actually is and mislead lenders and investors."
+},
+
+{
+question_id:"FA_CH3_CS02_Q5",
+
+difficulty:"Very Hard",
+
+question:"Taken together, the actions of Zenith most appropriately represent:",
+
+options:[
+"Financial statement fraud involving overstatement of net income or net worth",
+"Only consumer fraud",
+"Only cybercrime",
+"Only insurance fraud"
+],
+
+answer:0,
+
+reason:"The company manipulated revenues, expenses, asset values and disclosures to present a stronger financial position, which constitutes financial statement fraud."
+}
+
+]
+},
+
+{
+case_id:"FA_CH3_CS03",
+
+case_chapter:["Nature and Types of Fraud","Loans and Borrowings","Mortgage Fraud","Ponzi Scheme"],
+
+caseText:`
+
+<p>
+A financial consultancy named Secure Wealth Advisors began marketing an investment
+opportunity to individuals in several cities. The promoters claimed that investors could earn
+a fixed return of 24% per annum with virtually no risk. They explained that the returns were
+generated through a highly specialized international trading strategy and that the details could
+not be disclosed because they were "commercially confidential."
+</p>
+
+<p>
+The first group of investors received regular monthly payments. These payments created
+confidence among investors, who began recommending the scheme to friends and relatives.
+As the number of investors increased, the promoters used money received from newer
+investors to make payments to earlier investors.
+</p>
+
+<p>
+At the same time, one of the promoters was involved in obtaining a large business loan.
+The promoter submitted financial statements showing substantially higher revenue and assets
+than the business actually had. Several fictitious customers were included in the accounting
+records to make the business appear larger and more profitable.
+</p>
+
+<p>
+The promoter also arranged for a friend with an excellent credit history to appear as the
+purchaser of a property. The promoter was the actual person intending to obtain the benefit
+of the loan but did not meet the lender's credit requirements.
+</p>
+
+<p>
+For several months the investment scheme continued successfully because new investors
+continued to enter. Eventually, withdrawals increased while the number of new investors
+declined. The promoters could no longer meet payment obligations.
+</p>
+
+<p>
+The forensic examination revealed that the investment business had not generated legitimate
+profits sufficient to support the promised returns. It also revealed false financial statements,
+fictitious customers and the use of another person's stronger credit profile to obtain financing.
+</p>
+`,
+
+questions:[
+
+{
+question_id:"FA_CH3_CS03_Q1",
+
+difficulty:"Hard",
+
+question:"Which feature most clearly indicates that Secure Wealth Advisors was operating a Ponzi scheme?",
+
+options:[
+"Returns were funded using money from newer investors",
+"The company earned returns from genuine business activities",
+"Investors were given ordinary market returns",
+"The scheme depended only on bank interest"
+],
+
+answer:0,
+
+reason:"A Ponzi scheme uses funds from new investors to pay returns to earlier investors rather than generating sufficient legitimate profits."
+},
+
+{
+question_id:"FA_CH3_CS03_Q2",
+
+difficulty:"Very Hard",
+
+question:"Why did the investment scheme eventually collapse?",
+
+options:[
+"New investors stopped providing sufficient funds while withdrawal demands increased",
+"The company had too much legitimate profit",
+"The bank increased its interest rate",
+"Investors stopped receiving account statements"
+],
+
+answer:0,
+
+reason:"Ponzi schemes are unsustainable because they require a continuous inflow of new investor money. When new investments decline or withdrawals increase, the scheme collapses."
+},
+
+{
+question_id:"FA_CH3_CS03_Q3",
+
+difficulty:"Hard",
+
+question:"The promoter's submission of inflated revenue and assets to obtain a larger business loan is an example of:",
+
+options:[
+"Falsified financial statements fraud",
+"ATM skimming",
+"False refund",
+"Cybersquatting"
+],
+
+answer:0,
+
+reason:"Manipulating financial statements presented to lenders by overstating revenues or assets is a form of business loan fraud."
+},
+
+{
+question_id:"FA_CH3_CS03_Q4",
+
+difficulty:"Very Hard",
+
+question:"The fictitious customers were primarily created to:",
+
+options:[
+"Make the business appear financially stronger to lenders",
+"Improve genuine customer service",
+"Reduce the company's inventory",
+"Protect customer identities"
+],
+
+answer:0,
+
+reason:"Fictitious customers can be inserted into accounting records to artificially inflate apparent business activity and financial strength."
+},
+
+{
+question_id:"FA_CH3_CS03_Q5",
+
+difficulty:"Very Hard",
+
+question:"The use of a friend with better credit to obtain property financing for the actual borrower is known as:",
+
+options:[
+"Loan flipping",
+"Straw buyer scheme",
+"Foreclosure rescue scam",
+"Misapplication of payments"
+],
+
+answer:1,
+
+reason:"A straw buyer scheme uses another person, usually with better credit, as the apparent buyer to obtain financing for the actual beneficiary."
+}
+
+]
+},
+
+{
+case_id:"FA_CH3_CS04",
+
+case_chapter:["Nature and Types of Fraud","Cyber Fraud","Cybercrime","Digital Money"],
+
+caseText:`
+
+<p>
+GlobalPay Services Limited operates a large online payment platform. The company had
+recently introduced a mobile application that allowed customers to transfer money,
+manage cards and update account information through their smartphones.
+</p>
+
+<p>
+An attacker created a website that closely resembled the company's official login page. The
+attacker then sent thousands of emails containing a message stating that customers needed
+to "verify their accounts immediately" or their accounts would be suspended.
+</p>
+
+<p>
+The email contained a link leading to the fraudulent website. Several customers entered their
+usernames, passwords and card information. The attacker used these credentials to access
+some customer accounts and initiate unauthorized transactions.
+</p>
+
+<p>
+The attacker subsequently installed malicious software on the computer of one employee
+through a seemingly harmless attachment. The malware provided unauthorized access to
+internal systems and enabled the attacker to obtain additional customer information.
+</p>
+
+<p>
+The company discovered the incident only after its monitoring system detected an unusually
+large number of transactions occurring from accounts that normally showed little activity.
+The company also found that several systems had not been updated for months despite the
+availability of security patches.
+</p>
+
+<p>
+The forensic investigation noted that the attacker had exploited both technological
+vulnerabilities and human behaviour. The attack demonstrated how cybercrime can be
+conducted quickly, anonymously and across geographical boundaries.
+</p>
+
+<p>
+The investigation also considered the role of digital money. Some stolen funds were
+transferred through digital wallets and cryptocurrency accounts, making recovery difficult
+because certain digital currency transactions are generally difficult to reverse.
+</p>
+`,
+
+questions:[
+
+{
+question_id:"FA_CH3_CS04_Q1",
+
+difficulty:"Hard",
+
+question:"The fraudulent email asking customers to enter their login credentials on a fake website is an example of:",
+
+options:[
+"Phishing",
+"Cash larceny",
+"Bid rigging",
+"Loan flipping"
+],
+
+answer:0,
+
+reason:"Phishing involves deceptive emails, websites or messages designed to trick individuals into revealing sensitive information."
+},
+
+{
+question_id:"FA_CH3_CS04_Q2",
+
+difficulty:"Hard",
+
+question:"The attacker's unauthorized use of stolen customer credentials to access accounts is most closely associated with:",
+
+options:[
+"Account takeover",
+"Tax fraud",
+"Insurance fraud",
+"Channel stuffing"
+],
+
+answer:0,
+
+reason:"Account takeover occurs when unauthorized persons obtain access to a person's account credentials and manipulate the account for their benefit."
+},
+
+{
+question_id:"FA_CH3_CS04_Q3",
+
+difficulty:"Very Hard",
+
+question:"Why did outdated software increase the company's cybercrime risk?",
+
+options:[
+"Security updates may contain patches for vulnerabilities exploited by criminals",
+"Outdated software automatically prevents phishing",
+"Old software eliminates malware",
+"Software updates are unrelated to cybersecurity"
+],
+
+answer:0,
+
+reason:"Regular software updates frequently include security patches designed to correct vulnerabilities that cybercriminals may exploit."
+},
+
+{
+question_id:"FA_CH3_CS04_Q4",
+
+difficulty:"Very Hard",
+
+question:"Which characteristic of cybercrime is particularly demonstrated by the attacker's ability to target thousands of customers from another location?",
+
+options:[
+"Global reach",
+"Physical evidence",
+"Limited target base",
+"Slow execution"
+],
+
+answer:0,
+
+reason:"Cybercrime has global reach because perpetrators can operate from one location while targeting victims across different countries or jurisdictions."
+},
+
+{
+question_id:"FA_CH3_CS04_Q5",
+
+difficulty:"Very Hard",
+
+question:"Which preventive combination would most directly address the weaknesses identified in the case?",
+
+options:[
+"Employee training, multi-factor authentication, software updates and transaction monitoring",
+"Removing security monitoring and allowing shared passwords",
+"Disabling backups and reducing access controls",
+"Using identical passwords for all employees"
+],
+
+answer:0,
+
+reason:"The chapter recommends education, strong passwords and MFA, software updates, monitoring and robust security controls as important cybercrime prevention measures."
+}
+
+]
+},
+
+{
+case_id:"FA_CH3_CS05",
+
+case_chapter:["Nature and Types of Fraud","Shell Companies","Foreign Entities","Related Party Transactions"],
+
+caseText:`
+
+<p>
+Nova Manufacturing Limited had grown rapidly over five years and had established several
+subsidiaries in different jurisdictions. One subsidiary, Nova Global Trading Ltd., was
+registered in a low-tax foreign jurisdiction and had very limited employees and physical
+operations.
+</p>
+
+<p>
+During the year, Nova Manufacturing transferred substantial amounts of money to Nova
+Global Trading for "consultancy and strategic advisory services." The fees were significantly
+higher than the amounts paid to independent consultants for similar services. No detailed
+evidence of the services performed could initially be located.
+</p>
+
+<p>
+A second entity, Alpha Procurement Ltd., was owned indirectly by individuals connected with
+senior management. Alpha Procurement supplied raw materials to Nova Manufacturing.
+Although several independent suppliers offered the same materials at lower prices, Nova
+continued purchasing from Alpha Procurement at substantially higher rates.
+</p>
+
+<p>
+The forensic team also discovered a series of transactions between Nova Manufacturing and
+another related entity. Nova sold goods to the entity and recorded the transactions as revenue.
+The related entity subsequently transferred substantially the same amount back to Nova
+through another transaction. No meaningful economic activity appeared to have taken place.
+</p>
+
+<p>
+Further investigation showed that certain payments had passed through several subsidiaries
+and offshore entities before eventually reaching an entity controlled by a senior executive.
+The complicated structure initially made it difficult for investigators to identify the ultimate
+beneficial owner.
+</p>
+
+<p>
+Management argued that all transactions were supported by invoices and formal agreements.
+However, the forensic team concluded that documentation alone did not establish that the
+transactions represented genuine economic activity at fair values.
+</p>
+
+<p>
+The investigation recommended independent valuation of related-party transactions,
+disclosure of relationships, enhanced due diligence, regular audits and stronger controls
+over transactions involving subsidiaries and foreign entities.
+</p>
+`,
+
+questions:[
+
+{
+question_id:"FA_CH3_CS05_Q1",
+
+difficulty:"Hard",
+
+question:"The unusually high consultancy payments to a foreign subsidiary with little evidence of services may indicate:",
+
+options:[
+"Fund transfer to an own or controlled entity",
+"Normal payroll processing",
+"Cash larceny only",
+"Consumer fraud"
+],
+
+answer:0,
+
+reason:"Companies may transfer funds to subsidiaries or shell entities under apparently legitimate arrangements to siphon funds or manipulate financial statements."
+},
+
+{
+question_id:"FA_CH3_CS05_Q2",
+
+difficulty:"Very Hard",
+
+question:"The transactions in which funds moved between related entities without meaningful economic activity are best described as:",
+
+options:[
+"Round-tripping or circular transactions",
+"Loan flipping",
+"False refunds",
+"ATM skimming"
+],
+
+answer:0,
+
+reason:"Round-tripping or circular transactions create the appearance of legitimate sales or purchases while funds are transferred between related entities without genuine economic activity."
+},
+
+{
+question_id:"FA_CH3_CS05_Q3",
+
+difficulty:"Very Hard",
+
+question:"Why was Alpha Procurement's relationship with senior management particularly important to the forensic investigation?",
+
+options:[
+"It created a potential conflict of interest and related-party transaction risk",
+"It automatically made all transactions legitimate",
+"It eliminated the need for disclosure",
+"It proved that the supplier was independent"
+],
+
+answer:0,
+
+reason:"A supplier connected with management creates potential conflicts of interest and related-party transaction risks, particularly when purchases occur at inflated prices."
+},
+
+{
+question_id:"FA_CH3_CS05_Q4",
+
+difficulty:"Very Hard",
+
+question:"Which measure would most directly help determine whether the prices paid to Alpha Procurement were reasonable?",
+
+options:[
+"Independent valuation or benchmarking of the transactions",
+"Allowing management to determine the value without review",
+"Removing supplier documentation",
+"Stopping all inventory records"
+],
+
+answer:0,
+
+reason:"Independent valuations and comparison with market prices can help determine whether assets or services involved in related-party transactions are being valued appropriately."
+},
+
+{
+question_id:"FA_CH3_CS05_Q5",
+
+difficulty:"Very Hard",
+
+question:"The use of multiple subsidiaries and offshore entities primarily created difficulty in:",
+
+options:[
+"Tracing the flow of funds and identifying true ownership",
+"Recording employee attendance",
+"Calculating depreciation automatically",
+"Preparing customer invoices"
+],
+
+answer:0,
+
+reason:"Complex networks of subsidiaries, offshore entities and shell companies can obscure transactions, ownership and the ultimate flow of funds, making investigation difficult."
+}
+
+]
 }
 
 ];
