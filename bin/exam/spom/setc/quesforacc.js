@@ -12712,6 +12712,2118 @@ reason:"Modified electronic records may require additional scrutiny, while unmat
 },
 
 
+// Chapter 6
+
+{
+  case_id: "FA_CH6_CS01",
+
+  caseText: `<p><strong>Case Scenario 1 – Unusual Procurement Transactions and Suspected Vendor Collusion</strong></p>
+
+  <p>Zenith Infrastructure Limited is engaged in the construction and maintenance of large infrastructure projects. The company has a centralized procurement department responsible for purchasing construction materials, machinery, spare parts and other items required at various project locations. Over the last two years, the company had experienced rapid growth in revenue and had secured several large contracts from both government and private-sector customers.</p>
+
+  <p>Although the company's revenue had increased substantially, the internal audit department observed that procurement expenses had increased at a much higher rate. The increase was particularly significant in relation to certain categories of construction materials. Management explained that the increase was due to inflation, transportation costs and the rapid expansion of project activities.</p>
+
+  <p>During a preliminary review, the internal audit team noticed that a particular vendor, Apex Industrial Supplies, had received a significant increase in business during the last six months. The vendor had been onboarded shortly before the increase in procurement. Further review showed that the vendor's registered address was similar to the address of another supplier already dealing with the company.</p>
+
+  <p>The procurement department stated that Apex Industrial Supplies had quoted competitive prices and had successfully completed several orders. However, the internal audit team observed that another vendor had quoted a lower price for some of the same materials but was not selected.</p>
+
+  <p>Several purchase orders were also split into smaller amounts even though the purchases related to the same project and material. In some cases, individual purchase orders were below the approval threshold applicable to senior management. The aggregate value of these orders, however, was substantial.</p>
+
+  <p>The finance department further noticed that some payments were processed before the corresponding invoices were formally recorded. A few payments were also made outside normal business hours. In addition, certain invoices contained round amounts and similar descriptions of goods.</p>
+
+  <p>The company's procurement manager was responsible for vendor selection, approval of purchase requisitions and review of goods receipt documentation. The same manager also had considerable influence over payment approvals. There was no effective segregation of duties between vendor selection and certain subsequent approval activities.</p>
+
+  <p>During an informal discussion, an employee stated that the procurement manager frequently interacted privately with representatives of Apex Industrial Supplies. The employee also mentioned that the procurement manager had recently acquired expensive personal assets. However, the employee could not provide direct evidence linking the personal assets to the vendor payments.</p>
+
+  <p>The Board became concerned about the possibility of vendor-employee collusion and appointed a forensic accounting Professional. The mandate did not state that fraud had already occurred. Instead, the Professional was required to determine whether the circumstances indicated a reasonable possibility of fraudulent or unlawful activity and, if so, investigate the matter further.</p>
+
+  <p>Before commencing detailed procedures, the Professional reviewed the totality of circumstances. The Professional considered the unusual vendor concentration, the similarity in vendor addresses, purchase-order splitting, selection of a higher-priced vendor, weak segregation of duties and unusual payment patterns.</p>
+
+  <p>The Professional decided not to assume that the procurement manager was guilty merely because several red flags existed. Instead, the Professional developed alternative hypotheses. One hypothesis was that the procurement manager and the vendor had colluded to inflate procurement costs. Another hypothesis was that the unusual transactions resulted from legitimate operational requirements and weaknesses in procurement controls rather than intentional fraud.</p>
+
+  <p>The Professional planned procedures to test both possibilities. These included comparing vendor prices, examining vendor master data, reviewing purchase orders and goods receipt notes, tracing payments, examining employee-vendor relationships and analysing transaction patterns.</p>`,
+
+  questions: [
+
+    {
+      question_id: "FA_CH6_CS01_Q1",
+      difficulty: "Easy",
+      question: "Which of the following was a significant red flag identified during the preliminary review?",
+      options: [
+        "The company had several large infrastructure projects",
+        "Purchase orders were split into smaller amounts to remain below approval thresholds",
+        "The company had increased its revenue",
+        "The company used a centralized procurement department"
+      ],
+      answer: 1,
+      reason: "Purchase-order splitting to remain below approval thresholds is a potential procurement fraud indicator because it may be used to circumvent established approval controls."
+    },
+
+    {
+      question_id: "FA_CH6_CS01_Q2",
+      difficulty: "Easy",
+      question: "Why did the Professional consider the totality of circumstances before proceeding with the investigation?",
+      options: [
+        "Because an FAI engagement should have proper predication based on the probability of fraud or unlawful activity",
+        "Because every unusual transaction automatically proves fraud",
+        "Because the Professional must identify the guilty person before gathering evidence",
+        "Because red flags are conclusive evidence of fraud"
+      ],
+      answer: 0,
+      reason: "Predication is based on reviewing the totality of circumstances and evaluating the probability of fraud or unlawful activity requiring examination."
+    },
+
+    {
+      question_id: "FA_CH6_CS01_Q3",
+      difficulty: "Easy",
+      question: "Which of the following is most closely associated with the weakness identified in the procurement process?",
+      options: [
+        "Effective segregation of duties",
+        "Lack of segregation of duties",
+        "Strong independent oversight",
+        "Effective vendor monitoring"
+      ],
+      answer: 1,
+      reason: "The procurement manager had influence over multiple stages of the process, indicating inadequate segregation of duties."
+    },
+
+    {
+      question_id: "FA_CH6_CS01_Q4",
+      difficulty: "Hard",
+      question: "The Professional develops two alternative hypotheses: one involving vendor-employee collusion and another involving legitimate business activity combined with control weaknesses. Why is testing both hypotheses appropriate?",
+      options: [
+        "It ensures that the Professional focuses only on the suspected employee",
+        "It maintains objectivity by considering alternative explanations and testing evidence that may prove or disprove each hypothesis",
+        "It eliminates the need for professional skepticism",
+        "It allows the Professional to assume that the stronger hypothesis is correct without further investigation"
+      ],
+      answer: 1,
+      reason: "The hypotheses approach supports objectivity and professional skepticism. Alternative explanations should be considered and tested rather than prematurely targeting a particular individual."
+    },
+
+    {
+      question_id: "FA_CH6_CS01_Q5",
+      difficulty: "Hard",
+      question: "The employee's statement regarding the procurement manager's personal assets is not supported by direct evidence. What should the Professional do?",
+      options: [
+        "Treat the statement as conclusive proof of kickbacks",
+        "Ignore the statement completely because it is not documentary evidence",
+        "Treat it as an investigative lead and seek independent corroborating evidence relating to transactions, relationships and financial benefits",
+        "Immediately report the procurement manager as guilty"
+      ],
+      answer: 2,
+      reason: "A statement unsupported by direct evidence may provide a useful investigative lead, but conclusions should be based on appropriate corroboration and objective evidence."
+    }
+
+  ]
+},
+
+{
+  case_id: "FA_CH6_CS02",
+
+  caseText: `<p><strong>Case Scenario 2 – Rapid Growth, Management Pressure and Weak Governance</strong></p>
+
+  <p>Vertex Consumer Products Limited operates in a highly competitive industry. During the previous three years, the company had reported revenue and profit growth substantially higher than the industry average. The management frequently highlighted the company's exceptional performance in presentations to investors, lenders and analysts.</p>
+
+  <p>However, the industry as a whole had experienced declining consumer demand and shrinking margins. Several competitors had reported lower revenues and reduced profitability. Despite this industry-wide downturn, Vertex continued to report exceptionally high growth and maintained aggressive profit forecasts.</p>
+
+  <p>The company's senior management received substantial performance-linked bonuses based on revenue growth, EBITDA and share-price performance. The Chief Executive Officer had also made public commitments to investors regarding future earnings targets.</p>
+
+  <p>During the year, the company experienced increasing pressure to achieve these targets. The finance department was instructed to ensure that quarterly results did not fall below market expectations. Certain senior executives also expressed concern that failure to achieve the announced targets could negatively affect the company's share price and their personal compensation.</p>
+
+  <p>The forensic accounting Professional appointed to conduct a preliminary fraud risk assessment observed that management had committed to aggressive and potentially unrealistic forecasts. The Professional also noticed that the personal financial interests of senior management were closely connected with the company's financial performance.</p>
+
+  <p>The organization also had a complex structure involving numerous subsidiaries and special-purpose entities. Some accounting and information systems were outdated, and there were significant deficiencies in internal controls. Previous internal audit reports had identified weaknesses in access controls and approval procedures, but management had not implemented corrective actions within the recommended timelines.</p>
+
+  <p>Relations between management and the statutory auditor had also become strained. Management had repeatedly challenged audit adjustments and had imposed unrealistic deadlines on the audit team. On certain occasions, access to information requested by the statutory auditor was delayed.</p>
+
+  <p>The Professional categorized the identified indicators into different categories. Some indicators arose from external factors, such as declining market demand and intense competition. Others arose from governance and organizational culture, such as unrealistic forecasts, management pressure, ineffective monitoring and significant deficiencies in internal controls.</p>
+
+  <p>The Professional concluded that these indicators did not establish that fraud had occurred. However, they increased the assessed fraud risk and indicated areas requiring further investigation.</p>`,
+
+  questions: [
+
+    {
+      question_id: "FA_CH6_CS02_Q1",
+      difficulty: "Easy",
+      question: "Which of the following is an external-factor fraud risk indicator in the case?",
+      options: [
+        "Declining customer demand and increasing business failures in the industry",
+        "Management bonuses linked to financial performance",
+        "Ineffective monitoring of management",
+        "Management failing to remedy control deficiencies"
+      ],
+      answer: 0,
+      reason: "Declining customer demand and increasing business failures in the industry are examples of fraud risk indicators arising from external factors."
+    },
+
+    {
+      question_id: "FA_CH6_CS02_Q2",
+      difficulty: "Easy",
+      question: "Management's commitment to aggressive and unrealistic forecasts is primarily an indicator relating to:",
+      options: [
+        "Governance and culture",
+        "Physical evidence",
+        "Inventory valuation only",
+        "External market conditions only"
+      ],
+      answer: 0,
+      reason: "Aggressive or unrealistic forecasts committed to analysts, creditors and other third parties are indicators arising from governance and culture."
+    },
+
+    {
+      question_id: "FA_CH6_CS02_Q3",
+      difficulty: "Easy",
+      question: "Why did the Professional consider management's performance-linked compensation relevant?",
+      options: [
+        "It may create pressure or incentive for management to manipulate results",
+        "It automatically proves management fraud",
+        "It eliminates the need for data analysis",
+        "It proves that the company's financial statements are accurate"
+      ],
+      answer: 0,
+      reason: "Management compensation linked to aggressive financial targets can create an incentive or pressure to manipulate financial performance."
+    },
+
+    {
+      question_id: "FA_CH6_CS02_Q4",
+      difficulty: "Hard",
+      question: "Which combination most appropriately represents governance and culture indicators in the case?",
+      options: [
+        "Declining industry demand and market saturation",
+        "Unrealistic forecasts, ineffective monitoring and failure to correct significant internal control deficiencies",
+        "Increasing customer demand and improving margins",
+        "Higher industry profitability and stronger competition"
+      ],
+      answer: 1,
+      reason: "Unrealistic forecasts, ineffective monitoring and failure to remedy known control deficiencies are specifically associated with governance and culture."
+    },
+
+    {
+      question_id: "FA_CH6_CS02_Q5",
+      difficulty: "Hard",
+      question: "Vertex's exceptional performance compared with a declining industry is best treated by the Professional as:",
+      options: [
+        "Conclusive evidence that revenue has been fabricated",
+        "A green flag that is always evidence of legitimate performance",
+        "A potential fraud indicator requiring investigation, because unusually strong performance may be inconsistent with the surrounding circumstances",
+        "An irrelevant matter because only losses indicate fraud"
+      ],
+      answer: 2,
+      reason: "Green flags can represent 'too good to be true' situations. They are indicators, not conclusive evidence, and require further investigation."
+    }
+
+  ]
+},
+
+{
+  case_id: "FA_CH6_CS03",
+
+  caseText: `<p><strong>Case Scenario 3 – Data Analytics in a Procure-to-Pay Investigation</strong></p>
+
+  <p>National Manufacturing Limited operates several manufacturing plants across India. The company purchases raw materials from hundreds of vendors through a centralized procure-to-pay system. During the year, the company's procurement expenditure increased significantly even though production volume remained relatively stable.</p>
+
+  <p>The audit committee appointed a forensic accounting Professional to conduct a fraud risk assessment and identify potentially suspicious transactions. The Professional first reviewed the company's financial statements, internal audit reports, statutory auditor's report, CARO report and information relating to internal controls over financial reporting.</p>
+
+  <p>The preliminary financial analysis showed a significant increase in certain procurement expenses. The Professional also observed that some suppliers had experienced unusually rapid growth in business with the company.</p>
+
+  <p>Since the organization processed a very large number of transactions, the Professional decided to use data analytics and data-mining techniques rather than manually examining every transaction. The objective was to identify patterns, relationships and anomalies that could indicate possible fraud.</p>
+
+  <p>The Professional performed several analytical tests. These included matching purchase requisitions with purchase orders, goods receipt notes and invoices. The Professional also searched for duplicate invoices, round-value transactions, payments made outside normal business hours, payments made before invoice dates, purchases recorded near the end of the financial year and payments made before the goods were received.</p>
+
+  <p>The analysis also compared vendor master data with employee records. It revealed that the address and contact details of one vendor were similar to the details of an employee's family business. Another analysis showed that several vendors had identical bank coordinates.</p>
+
+  <p>The Professional also identified instances where the same individual was responsible for procurement and approval of goods receipt notes. In several cases, purchase orders had been split into smaller amounts and processed separately.</p>
+
+  <p>However, the Professional did not rely exclusively on quantitative results. The Professional also examined qualitative evidence, including relationships between employees and vendors, financial interests, personal guarantees, previous associations and other connections between parties involved in the transactions.</p>
+
+  <p>One vendor had received unusually high business despite repeatedly quoting prices above those offered by competing suppliers. Further investigation showed that a senior employee had previously worked with the vendor's proprietor. The Professional therefore considered whether this relationship could explain the unusual procurement pattern.</p>
+
+  <p>The Professional used the results of data analysis to formulate and refine hypotheses. The Professional understood that data analysis itself did not establish fraud but could identify suspicious patterns requiring detailed investigation.</p>`,
+
+  questions: [
+
+    {
+      question_id: "FA_CH6_CS03_Q1",
+      difficulty: "Easy",
+      question: "Why did the Professional use data mining?",
+      options: [
+        "To identify patterns and relationships in a large volume of data",
+        "To replace all forensic evidence",
+        "To prove fraud automatically",
+        "To avoid reviewing any documents"
+      ],
+      answer: 0,
+      reason: "Data mining involves extracting patterns from large amounts of data and assists in identifying suspicious or abnormal relationships."
+    },
+
+    {
+      question_id: "FA_CH6_CS03_Q2",
+      difficulty: "Easy",
+      question: "Which of the following is a qualitative factor considered in the investigation?",
+      options: [
+        "Relationship between employees and vendors",
+        "Number of invoices processed",
+        "Total purchase value",
+        "Number of transactions"
+      ],
+      answer: 0,
+      reason: "Relationships, financial interests and personal connections between parties are examples of qualitative evidence."
+    },
+
+    {
+      question_id: "FA_CH6_CS03_Q3",
+      difficulty: "Easy",
+      question: "What does a three-way match generally compare?",
+      options: [
+        "Purchase Order, Goods Receipt Note and Invoice",
+        "Bank statement, salary register and tax return",
+        "Sales invoice, customer complaint and annual report",
+        "Budget, share price and market capitalization"
+      ],
+      answer: 0,
+      reason: "A three-way match generally compares the purchase order, goods receipt note and invoice to identify inconsistencies."
+    },
+
+    {
+      question_id: "FA_CH6_CS03_Q4",
+      difficulty: "Hard",
+      question: "The data analysis shows that a vendor's details match an employee's family business, but there is no evidence of financial benefit to the employee. What is the most appropriate conclusion?",
+      options: [
+        "Fraud is conclusively established",
+        "The relationship is irrelevant because no payment was identified",
+        "The relationship is a qualitative indicator that should be investigated and corroborated with other evidence",
+        "The vendor must immediately be blacklisted"
+      ],
+      answer: 2,
+      reason: "A relationship between an employee and vendor may be a significant qualitative indicator, but it does not by itself establish fraud. Further corroboration is required."
+    },
+
+    {
+      question_id: "FA_CH6_CS03_Q5",
+      difficulty: "Hard",
+      question: "Why is combining quantitative data analysis with qualitative evidence particularly useful in a forensic investigation?",
+      options: [
+        "Quantitative analysis always proves the motive, while qualitative evidence proves the amount of fraud",
+        "Quantitative analysis can identify suspicious patterns, while qualitative evidence can provide context about relationships, interests and possible motives",
+        "Qualitative evidence eliminates the need for transaction testing",
+        "Data analytics should be used only after the final conclusion has been reached"
+      ],
+      answer: 1,
+      reason: "Quantitative analysis can identify anomalies and patterns, while qualitative evidence helps understand the relationships, connections and circumstances behind those transactions."
+    }
+
+  ]
+},
+
+{
+  case_id: "FA_CH6_CS04",
+
+  caseText: `<p><strong>Case Scenario 4 – Digital Evidence in a Loan Fraud Investigation</strong></p>
+
+  <p>Orion Engineering Limited obtained substantial credit facilities from a bank for expansion of its manufacturing operations. The company submitted audited financial statements, stock statements, property documents and other financial information to the bank while obtaining the facilities.</p>
+
+  <p>After a few years, the loan account became irregular and subsequently turned into a non-performing asset. The bank's internal review identified several unusual transactions. The stock statements submitted to the bank appeared significantly higher than the physical inventory available at certain project locations. There were also indications that some of the funds received from the bank had been transferred to entities connected with the promoters.</p>
+
+  <p>The bank appointed a forensic accounting Professional to investigate whether there had been any misrepresentation or manipulation in the documents submitted for obtaining the loan and whether the loan funds had been diverted or siphoned off.</p>
+
+  <p>During the preliminary review, the Professional identified several emails exchanged between senior management and employees relating to the preparation of stock statements. The Professional also found indications that certain electronic files had been deleted from the computers used by the finance department.</p>
+
+  <p>The Professional decided that digital evidence could be important in determining whether financial information had been manipulated. A forensic image of the relevant computer storage devices was therefore created using appropriate forensic procedures.</p>
+
+  <p>The original storage devices were preserved without alteration. The Professional performed hash testing on the forensic images and retained the relevant hash information. The Professional also documented the date and time of collection, the person who collected the device, the person who subsequently handled it and the location where the evidence was stored.</p>
+
+  <p>The forensic team worked on copies of the original data rather than modifying the original storage devices. Relevant documents were separately preserved and cross-checked against the originals.</p>
+
+  <p>During the investigation, the management of Orion Engineering argued that the electronic files could not be relied upon because the data had been copied. The Professional explained that appropriate procedures had been followed to preserve the integrity and authenticity of the evidence.</p>
+
+  <p>The Professional also considered the applicable laws and regulations governing electronic evidence and the admissibility of evidence before competent authorities. Since the investigation could potentially result in legal proceedings, the Professional ensured that the evidence-gathering process was properly documented.</p>
+
+  <p>Further investigation revealed that certain payments made from the loan account were transferred to related entities shortly after the loan funds were received. However, the Professional did not immediately conclude that every related-party transaction represented diversion of funds. Each transaction was examined in light of its commercial purpose, supporting documentation and the terms of the loan agreement.</p>`,
+
+  questions: [
+
+    {
+      question_id: "FA_CH6_CS04_Q1",
+      difficulty: "Easy",
+      question: "Why did the Professional perform hash testing on the digital evidence?",
+      options: [
+        "To determine the profitability of the company",
+        "To help ensure the integrity and authenticity of the digital evidence",
+        "To calculate the amount of the loan",
+        "To identify the company's related parties"
+      ],
+      answer: 1,
+      reason: "Hash testing helps establish that a forensic copy or image has not been altered and supports the integrity and authenticity of digital evidence."
+    },
+
+    {
+      question_id: "FA_CH6_CS04_Q2",
+      difficulty: "Easy",
+      question: "What is the purpose of maintaining a chain of custody?",
+      options: [
+        "To record successive custodians and preserve the integrity of evidence",
+        "To calculate the value of financial losses",
+        "To determine the company's profitability",
+        "To prepare management forecasts"
+      ],
+      answer: 0,
+      reason: "Chain of custody records the successive custodians and handling of evidence and helps demonstrate that the evidence has remained intact."
+    },
+
+    {
+      question_id: "FA_CH6_CS04_Q3",
+      difficulty: "Easy",
+      question: "On which data did the forensic team primarily perform its detailed analysis?",
+      options: [
+        "Only the original storage device after modifying it",
+        "Copies or forensic images while preserving the original data",
+        "Only verbal statements of employees",
+        "Only management's explanations"
+      ],
+      answer: 1,
+      reason: "The original evidence should remain unaltered and analysis should generally be performed on properly created copies or forensic images."
+    },
+
+    {
+      question_id: "FA_CH6_CS04_Q4",
+      difficulty: "Hard",
+      question: "Why is maintaining the chain of custody particularly important where the investigation may lead to court proceedings?",
+      options: [
+        "It proves that the suspect committed the fraud",
+        "It eliminates the need for corroborative evidence",
+        "It helps establish that the evidence presented before the competent authority is the same evidence that was originally collected and has not been improperly altered",
+        "It guarantees that the Professional's conclusion will be accepted by the court"
+      ],
+      answer: 2,
+      reason: "A properly maintained chain of custody supports the integrity and authenticity of evidence and reduces the possibility of challenges regarding alteration or improper handling."
+    },
+
+    {
+      question_id: "FA_CH6_CS04_Q5",
+      difficulty: "Hard",
+      question: "The Professional finds that loan funds were transferred to related entities shortly after receipt. Why should the Professional avoid concluding immediately that diversion of funds has occurred?",
+      options: [
+        "Related-party transactions can never constitute fraud",
+        "Timing alone is sufficient only when the amount is immaterial",
+        "The transaction should be evaluated against its commercial substance, supporting evidence and loan conditions before reaching a conclusion",
+        "The Professional is prohibited from examining related-party transactions"
+      ],
+      answer: 2,
+      reason: "A suspicious pattern is an investigative lead, not conclusive proof. The Professional should examine the commercial purpose, supporting documents and applicable loan conditions."
+    }
+
+  ]
+},
+
+{
+  case_id: "FA_CH6_CS05",
+
+  caseText: `<p><strong>Case Scenario 5 – Suspicious Transactions During Insolvency Proceedings</strong></p>
+
+  <p>Nova Textiles Limited had been experiencing financial difficulties for several years. The company had significant outstanding liabilities to banks, suppliers, employees and other creditors. Its working capital position deteriorated substantially and several creditors initiated proceedings under the Insolvency and Bankruptcy Code.</p>
+
+  <p>After commencement of the corporate insolvency resolution process, the Resolution Professional appointed a forensic accounting Professional to examine certain transactions undertaken by the company before the insolvency commencement date.</p>
+
+  <p>The initial review revealed that the company had sold certain valuable machinery to an entity controlled by one of the promoters. The consideration received appeared substantially lower than the apparent market value of the machinery.</p>
+
+  <p>Another transaction involved repayment of a substantial amount to a particular creditor shortly before the insolvency proceedings. Other creditors with similar claims had not received comparable payments.</p>
+
+  <p>The forensic Professional also identified certain transactions involving entities connected with the promoters. In some cases, the transaction documentation was incomplete. There were also instances where goods were allegedly sold at prices significantly different from prevailing market prices.</p>
+
+  <p>The Professional understood that the existence of an unusual transaction did not automatically establish that the transaction was fraudulent or preferential. The Professional therefore developed multiple hypotheses rather than adopting a single predetermined theory.</p>
+
+  <p>One hypothesis was that valuable assets had been transferred to connected parties at undervalued prices with the intention of reducing the assets available to creditors. Another hypothesis was that certain transactions were ordinary commercial transactions entered into at market conditions. A third hypothesis considered whether payments to selected creditors had been structured to provide them an advantage over other creditors.</p>
+
+  <p>To test the hypotheses, the Professional examined transaction agreements, valuation reports, bank statements, board approvals, correspondence, ownership details of counterparties and evidence relating to the actual movement of goods and assets.</p>
+
+  <p>The Professional also prepared a timeline showing when each transaction occurred, who approved it, when consideration was received and when insolvency proceedings commenced.</p>
+
+  <p>During the investigation, one of the hypotheses was disproved because documentary evidence showed that the transaction had been entered into several years earlier at a commercially reasonable price. Another hypothesis remained unproved because sufficient evidence relating to the actual movement of goods was unavailable.</p>
+
+  <p>However, the evidence relating to one asset transfer indicated that the machinery was transferred to a promoter-controlled entity at a substantially undervalued price shortly before the insolvency proceedings, and the available documentation suggested that the transaction had been structured to reduce the assets available to creditors.</p>
+
+  <p>The Professional therefore evaluated the transaction in accordance with the relevant provisions of the IBC concerning transactions that may be examined during insolvency proceedings, including the relevant provisions relating to PUFE transactions.</p>`,
+
+  questions: [
+
+    {
+      question_id: "FA_CH6_CS05_Q1",
+      difficulty: "Easy",
+      question: "What was the primary reason for developing multiple hypotheses in this investigation?",
+      options: [
+        "To ensure that only the promoter was investigated",
+        "To maintain an objective and methodical approach while testing different possible explanations",
+        "To avoid reviewing transaction documents",
+        "To prove that every related-party transaction was fraudulent"
+      ],
+      answer: 1,
+      reason: "The hypotheses approach helps the Professional remain objective by developing and testing alternative explanations rather than prematurely adopting one conclusion."
+    },
+
+    {
+      question_id: "FA_CH6_CS05_Q2",
+      difficulty: "Easy",
+      question: "Which of the following was examined by the Professional while testing the hypotheses?",
+      options: [
+        "Transaction agreements and valuation reports",
+        "Only employee attendance records",
+        "Only the company's advertising expenses",
+        "Only the company's share price"
+      ],
+      answer: 0,
+      reason: "Transaction agreements, valuation reports, bank statements, ownership details and other supporting evidence can be relevant to testing hypotheses."
+    },
+
+    {
+      question_id: "FA_CH6_CS05_Q3",
+      difficulty: "Easy",
+      question: "What does PUFE stand for in the context of insolvency proceedings?",
+      options: [
+        "Preferential, Undervalued, Fraudulent Trading and Extortionate Credit",
+        "Payment, Underwriting, Fraud and Equity",
+        "Preferential, Unsecured, Financial and External",
+        "Purchase, Undervaluation, Finance and Equity"
+      ],
+      answer: 0,
+      reason: "PUFE refers to Preferential, Undervalued, Fraudulent Trading and Extortionate Credit transactions."
+    },
+
+    {
+      question_id: "FA_CH6_CS05_Q4",
+      difficulty: "Hard",
+      question: "The Professional discovers that one hypothesis cannot be established because sufficient evidence regarding movement of goods is unavailable. What is the most appropriate conclusion?",
+      options: [
+        "The hypothesis must be treated as proved because the transaction was unusual",
+        "The hypothesis should be treated as disproved because evidence is unavailable",
+        "The hypothesis may remain not proved, and the Professional should distinguish this from both proof and disproof",
+        "The Professional must select whichever conclusion supports the creditors"
+      ],
+      answer: 2,
+      reason: "The hypotheses approach recognizes three possible outcomes: proved, disproved, or not proved. Lack of sufficient evidence does not automatically prove or disprove a hypothesis."
+    },
+
+    {
+      question_id: "FA_CH6_CS05_Q5",
+      difficulty: "Hard",
+      question: "Why is preparing a chronological timeline particularly useful in testing the asset-transfer hypothesis?",
+      options: [
+        "It automatically establishes fraudulent intent",
+        "It helps link the timing of transactions with approvals, asset transfers, consideration and insolvency proceedings, thereby assisting in assessing the possible modus operandi",
+        "It replaces the need to examine supporting documents",
+        "It proves that every transaction before insolvency is invalid"
+      ],
+      answer: 1,
+      reason: "A timeline helps the Professional understand when events occurred and how different actions and individuals may be connected, which can be important in testing the suspected modus operandi."
+    }
+
+  ]
+},
+
+{
+  case_id: "FA_CH6_CS06",
+
+  caseText: `<p><strong>Case Scenario 6 – Year-End Revenue Manipulation</strong></p>
+
+  <p>Galaxy Electronics Limited manufactures and sells electronic equipment to distributors throughout India. The company had historically maintained steady revenue growth. However, during the current year, management announced that revenue had increased by 38%, despite only a modest increase in production capacity and market demand.</p>
+
+  <p>The company's management had publicly communicated that it expected to achieve a particular revenue target by the end of the financial year. Senior executives were entitled to substantial bonuses if the target was achieved.</p>
+
+  <p>During a preliminary fraud risk assessment, the forensic accounting Professional observed that a significant portion of the reported annual revenue had been recorded during the final week of the financial year.</p>
+
+  <p>Several invoices recorded during the final few days had unusually high discounts. Some invoices did not have corresponding proof of delivery at the time revenue was recorded. A few sales were subsequently cancelled or returned shortly after the year-end.</p>
+
+  <p>The Professional also identified a significant difference between the quantity of goods sold and the corresponding increase in sales value. In certain cases, large quantities had been recorded as sold even though the corresponding customer confirmations were delayed.</p>
+
+  <p>Further analysis showed that some distributors had purchased unusually large quantities immediately before year-end. The distributors were not operating at a level that appeared consistent with the quantities purchased.</p>
+
+  <p>The Professional did not immediately conclude that the additional revenue was fictitious. Instead, several hypotheses were developed. One hypothesis was that management had prematurely recognized revenue to achieve performance targets. Another was that the distributors had genuinely placed large year-end orders due to commercial reasons. A third possibility was that goods had been invoiced but had not actually been dispatched.</p>
+
+  <p>The Professional designed procedures to test these hypotheses. These included reviewing sales contracts, dispatch records, transport documents, customer confirmations, subsequent returns, credit notes, payment receipts and correspondence between the company and distributors.</p>
+
+  <p>Data analytics was also performed to identify revenue recorded immediately before year-end, unusual discounts, duplicate customer information, unusual sales patterns and transactions involving customers with common addresses or contact details.</p>
+
+  <p>The analysis showed that several customers had common contact information. Further review revealed that some customers were controlled by persons connected with employees of the company. The Professional therefore expanded the investigation to examine whether there was any undisclosed relationship or arrangement.</p>
+
+  <p>The Professional maintained an open mind throughout the investigation. Transactions that appeared unusual were investigated, but conclusions were reached only after considering supporting evidence and alternative explanations.</p>`,
+
+  questions: [
+
+    {
+      question_id: "FA_CH6_CS06_Q1",
+      difficulty: "Easy",
+      question: "Which of the following was a red flag relating to revenue in the case?",
+      options: [
+        "A significant portion of revenue was recorded during the final days of the financial year",
+        "The company had several distributors",
+        "The company manufactured electronic equipment",
+        "Production capacity increased modestly"
+      ],
+      answer: 0,
+      reason: "Revenue recorded unusually close to the year-end, particularly where other supporting circumstances exist, can be a red flag for premature or improper revenue recognition."
+    },
+
+    {
+      question_id: "FA_CH6_CS06_Q2",
+      difficulty: "Easy",
+      question: "Why were substantial management bonuses relevant to the fraud risk assessment?",
+      options: [
+        "They created a possible incentive or pressure to achieve financial targets",
+        "They conclusively established fraudulent intent",
+        "They eliminated the need for customer confirmations",
+        "They proved that revenue was genuine"
+      ],
+      answer: 0,
+      reason: "Performance-linked compensation can create pressure or incentive for management to manipulate financial results."
+    },
+
+    {
+      question_id: "FA_CH6_CS06_Q3",
+      difficulty: "Easy",
+      question: "Which procedure would be most directly relevant to verifying whether goods had actually been dispatched?",
+      options: [
+        "Reviewing transport and dispatch records",
+        "Reviewing employee attendance records",
+        "Reviewing the company's share price",
+        "Reviewing office rent agreements"
+      ],
+      answer: 0,
+      reason: "Dispatch and transport records provide evidence regarding whether goods were actually dispatched to customers."
+    },
+
+    {
+      question_id: "FA_CH6_CS06_Q4",
+      difficulty: "Hard",
+      question: "Several sales were recorded before year-end but were subsequently returned shortly after year-end. How should this information primarily be treated?",
+      options: [
+        "As conclusive proof that all year-end revenue was fraudulent",
+        "As a potential indicator requiring investigation into the substance and timing of the original sales",
+        "As irrelevant because returns always occur in normal business",
+        "As automatic proof of employee collusion"
+      ],
+      answer: 1,
+      reason: "Subsequent returns can be an important indicator requiring investigation, particularly where revenue was recorded immediately before year-end. However, they do not by themselves prove fraud."
+    },
+
+    {
+      question_id: "FA_CH6_CS06_Q5",
+      difficulty: "Hard",
+      question: "Why was the development of alternative hypotheses important when investigating the year-end sales?",
+      options: [
+        "It allowed the Professional to assume that management had manipulated revenue",
+        "It allowed the Professional to distinguish between genuine commercial transactions, premature revenue recognition and transactions lacking actual dispatch",
+        "It prevented the Professional from examining customer confirmations",
+        "It ensured that every unusual transaction would be classified as fraud"
+      ],
+      answer: 1,
+      reason: "Alternative hypotheses help maintain objectivity and allow the Professional to test whether unusual transactions resulted from legitimate business activity or a suspected fraud mechanism."
+    }
+
+  ]
+},
+
+  {
+    id: "FD121",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following may create an incentive or pressure to commit fraud?",
+    options: [
+      "Pressure to achieve aggressive financial targets",
+      "Effective internal controls",
+      "Independent oversight",
+      "Proper segregation of duties"
+    ],
+    answer: 0,
+    reason: "Pressure to achieve aggressive financial targets can create an incentive or pressure to commit fraud."
+  },
+
+  {
+    id: "FD122",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following is an example of an unusual financial statement indicator?",
+    options: [
+      "Unreconciled subsidiary and general ledger accounts",
+      "Regular bank reconciliation",
+      "Timely recording of transactions",
+      "Consistent accounting policies"
+    ],
+    answer: 0,
+    reason: "Unreconciled subsidiary and general ledger accounts are specifically identified as a fraud risk indicator."
+  },
+
+  {
+    id: "FD123",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following may indicate unusual financial conditions of an organisation?",
+    options: [
+      "A sudden change in fortunes of the organisation",
+      "Stable financial performance",
+      "Regular cash flows",
+      "Normal industry performance"
+    ],
+    answer: 0,
+    reason: "A sudden change in fortunes, such as huge profits or losses, is an unusual financial condition that may indicate fraud risk."
+  },
+
+  {
+    id: "FD124",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Excessive related-party transactions may be considered:",
+    options: [
+      "A fraud risk indicator",
+      "Conclusive proof of fraud",
+      "A normal internal control",
+      "A statutory audit procedure"
+    ],
+    answer: 0,
+    reason: "Excessive related-party transactions are listed as a general fraud risk indicator, but their presence alone does not prove fraud."
+  },
+
+  {
+    id: "FD125",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following is a general fraud risk indicator relating to employees?",
+    options: [
+      "Employee behaviour and lifestyle inconsistencies",
+      "Regular employee training",
+      "Proper segregation of duties",
+      "Timely employee appraisals"
+    ],
+    answer: 0,
+    reason: "Employee behaviour and lifestyle inconsistencies are specifically mentioned as fraud risk indicators."
+  },
+
+  {
+    id: "FD126",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "What does premature revenue recognition involve?",
+    options: [
+      "Recording revenue before it is appropriate to do so",
+      "Recording expenses before payment",
+      "Recording depreciation at year-end",
+      "Recording purchases after delivery"
+    ],
+    answer: 0,
+    reason: "Premature revenue recognition involves recognising revenue earlier than permitted or appropriate, potentially inflating reported revenue."
+  },
+
+  {
+    id: "FD127",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following is an indicator of possible revenue manipulation?",
+    options: [
+      "Unapproved high discounts, especially towards period end",
+      "Regular customer confirmations",
+      "Stable pricing throughout the year",
+      "Timely revenue recognition"
+    ],
+    answer: 0,
+    reason: "Unexplained or unapproved high discounts, especially towards the end of an accounting period, may indicate revenue manipulation."
+  },
+
+  {
+    id: "FD128",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following may indicate vendor-related fraud?",
+    options: [
+      "Onboarding vendors outside the regular onboarding procedure",
+      "Independent vendor verification",
+      "Competitive bidding",
+      "Proper vendor approval"
+    ],
+    answer: 0,
+    reason: "Vendor onboarding that does not follow the organisation's regular procedures can be a fraud risk indicator."
+  },
+
+  {
+    id: "FD129",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "What is bid rigging?",
+    options: [
+      "Collusion intended to distort fair competition in procurement",
+      "A method of preparing financial statements",
+      "A method of calculating depreciation",
+      "A method of verifying inventory"
+    ],
+    answer: 0,
+    reason: "Bid rigging involves collusion to distort fair competition in the procurement process."
+  },
+
+  {
+    id: "FD130",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following is an example of substitution fraud?",
+    options: [
+      "A vendor supplying inferior goods or cheaper alternatives",
+      "A vendor submitting a competitive quotation",
+      "A vendor providing goods according to specifications",
+      "A vendor offering a volume discount"
+    ],
+    answer: 0,
+    reason: "Substitution fraud occurs when vendors deliver substandard or inferior goods or use cheaper alternatives, causing financial loss."
+  },
+
+  {
+    id: "FD131",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following may be a fraud indicator in bank loan accounts?",
+    options: [
+      "Heavy cash withdrawals from loan accounts",
+      "Timely repayment of instalments",
+      "Regular submission of documents",
+      "Proper utilisation of loan funds"
+    ],
+    answer: 0,
+    reason: "Heavy cash withdrawals in loan accounts are specifically listed as an early warning signal in banking."
+  },
+
+  {
+    id: "FD132",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Frequent invocation of bank guarantees may indicate:",
+    options: [
+      "A potential fraud risk or financial irregularity",
+      "Effective internal control",
+      "Proper loan servicing",
+      "Normal employee behaviour"
+    ],
+    answer: 0,
+    reason: "Frequent invocation of bank guarantees is identified as an early warning signal in bank loan accounts."
+  },
+
+  {
+    id: "FD133",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following is an insurance-related fraud risk indicator?",
+    options: [
+      "Several claims of a similar nature within a short period",
+      "Proper verification of claims",
+      "Independent claim assessment",
+      "Timely settlement of genuine claims"
+    ],
+    answer: 0,
+    reason: "Several claims of a similar nature lodged within a relatively short period may indicate insurance fraud risk."
+  },
+
+  {
+    id: "FD134",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following is an example of an external fraud risk factor?",
+    options: [
+      "Rapid changes in technology or product obsolescence",
+      "Effective management monitoring",
+      "Strong ethical culture",
+      "Proper internal controls"
+    ],
+    answer: 0,
+    reason: "High vulnerability to rapid changes such as technology changes and product obsolescence is an external fraud risk indicator."
+  },
+
+  {
+    id: "FD135",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following indicates a weak governance and culture environment?",
+    options: [
+      "Management failing to remedy significant internal control deficiencies",
+      "Effective monitoring of controls",
+      "Strong ethical standards",
+      "Independent oversight"
+    ],
+    answer: 0,
+    reason: "Failure by management to timely remedy known significant deficiencies in internal control is a governance and culture-related fraud risk indicator."
+  },
+
+  {
+    id: "FD136",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which technology is primarily used for graphical representation and data visualisation?",
+    options: [
+      "Power BI",
+      "SQL",
+      "Python",
+      "ACL"
+    ],
+    answer: 0,
+    reason: "Power BI is identified as a data visualisation tool with graphic data representation capabilities."
+  },
+
+  {
+    id: "FD137",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following can be used to identify patterns and relationships hidden within large datasets?",
+    options: [
+      "Data mining",
+      "Manual filing",
+      "Physical counting",
+      "Bank reconciliation only"
+    ],
+    answer: 0,
+    reason: "Data mining extracts patterns and relationships from large amounts of data and is an important tool in fraud detection."
+  },
+
+  {
+    id: "FD138",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "What is qualitative evidence primarily concerned with?",
+    options: [
+      "Non-financial aspects such as relationships and connections between parties",
+      "Only the total amount of revenue",
+      "Only the amount of profit",
+      "Only the number of transactions"
+    ],
+    answer: 0,
+    reason: "Qualitative evidence considers factors such as relationships, connections, financial interests and other non-financial information."
+  },
+
+  {
+    id: "FD139",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Under the hypotheses approach, what should the Professional do with evidence that contradicts a hypothesis?",
+    options: [
+      "Consider it objectively along with other evidence",
+      "Ignore it",
+      "Delete it from the investigation file",
+      "Automatically treat it as irrelevant"
+    ],
+    answer: 0,
+    reason: "The Professional should maintain objectivity and consider evidence whether it proves or disproves a hypothesis."
+  },
+
+  {
+    id: "FD140",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following is an important principle while applying hypotheses?",
+    options: [
+      "Maintain an open mind and professional skepticism",
+      "Target one individual from the beginning",
+      "Assume the allegation is true",
+      "Ignore alternative explanations"
+    ],
+    answer: 0,
+    reason: "The hypotheses approach requires the Professional to maintain an open mind, professional skepticism and objectivity while testing possible explanations."
+  },
+
+  {
+    id: "FD141",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following may indicate a lack of transparency in an organisation?",
+    options: [
+      "Limited sharing of information",
+      "Regular communication with stakeholders",
+      "Independent monitoring",
+      "Transparent reporting"
+    ],
+    answer: 0,
+    reason: "Lack of transparency and information sharing is identified as a general fraud risk indicator."
+  },
+
+  {
+    id: "FD142",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following is a general fraud risk indicator?",
+    options: [
+      "Unexplained inventory discrepancies",
+      "Regular physical verification of inventory",
+      "Proper inventory records",
+      "Independent inventory checks"
+    ],
+    answer: 0,
+    reason: "Unexplained inventory discrepancies may indicate manipulation or misappropriation and are therefore a fraud risk indicator."
+  },
+
+  {
+    id: "FD143",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Management override of controls may be considered:",
+    options: [
+      "A fraud risk indicator",
+      "A preventive control",
+      "A normal accounting procedure",
+      "Evidence that controls are effective"
+    ],
+    answer: 0,
+    reason: "Management override of controls is specifically identified as a fraud risk indicator."
+  },
+
+  {
+    id: "FD144",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following is a revenue-related fraud indicator?",
+    options: [
+      "Unexplained variations between budgeted and actual revenue",
+      "Regular comparison of budget and actual revenue",
+      "Proper revenue documentation",
+      "Timely customer confirmations"
+    ],
+    answer: 0,
+    reason: "Unexplained variations between budgeted revenues and actual revenues may indicate a fraud risk."
+  },
+
+  {
+    id: "FD145",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "What is a fictitious sale?",
+    options: [
+      "A sale recorded without genuine underlying goods or services",
+      "A genuine sale made at a discount",
+      "A sale made to an existing customer",
+      "A sale made through a distributor"
+    ],
+    answer: 0,
+    reason: "Fictitious sales are unsupported by genuine underlying transactions and may be used to inflate revenue."
+  },
+
+  {
+    id: "FD146",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following may indicate vendor-employee collusion?",
+    options: [
+      "Kickbacks received through vendor arrangements",
+      "Independent vendor selection",
+      "Competitive bidding",
+      "Proper vendor verification"
+    ],
+    answer: 0,
+    reason: "Personal profiteering and kickbacks through vendor-employee collusion are listed as fraud indicators."
+  },
+
+  {
+    id: "FD147",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following is a procurement-related red flag?",
+    options: [
+      "Purchase orders being split into smaller orders",
+      "Proper approval of purchase orders",
+      "Independent review of purchases",
+      "Competitive procurement"
+    ],
+    answer: 0,
+    reason: "Purchase order splitting can be used to avoid approval thresholds and is therefore a potential fraud indicator."
+  },
+
+  {
+    id: "FD148",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following may indicate duplicate payment?",
+    options: [
+      "Duplicate invoices or payments",
+      "One invoice matched to one payment",
+      "Independent payment approval",
+      "Regular bank reconciliation"
+    ],
+    answer: 0,
+    reason: "High-value or duplicate invoices/payments are among the data analysis tests used to identify possible irregularities."
+  },
+
+  {
+    id: "FD149",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "A payment made before the invoice date may be considered:",
+    options: [
+      "A potential procurement red flag",
+      "Conclusive evidence of fraud",
+      "A normal statutory requirement",
+      "Proof that goods were received"
+    ],
+    answer: 0,
+    reason: "Payment dates occurring before invoice dates are specifically listed as a potential procurement red flag."
+  },
+
+  {
+    id: "FD150",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "What may be indicated when a vendor's bank account name differs from the vendor name?",
+    options: [
+      "A potential irregularity requiring investigation",
+      "Automatic proof of fraud",
+      "Effective vendor verification",
+      "Normal revenue recognition"
+    ],
+    answer: 0,
+    reason: "A difference between the bank account name and vendor name is a data analysis exception that may require further investigation."
+  },
+
+  {
+    id: "FD151",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following is a data visualisation tool mentioned in the chapter?",
+    options: [
+      "Tableau",
+      "Indian Evidence Act",
+      "Companies Act",
+      "IBC"
+    ],
+    answer: 0,
+    reason: "Tableau is mentioned as a data visualisation tool along with Power BI."
+  },
+
+  {
+    id: "FD152",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following is an advanced data analysis tool mentioned in the chapter?",
+    options: [
+      "Python",
+      "WordPad",
+      "Paint",
+      "Calculator"
+    ],
+    answer: 0,
+    reason: "Python is among the advanced data analysis tools listed in the chapter."
+  },
+
+  {
+    id: "FD153",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "What is the primary purpose of data analysis in an FAI engagement?",
+    options: [
+      "To identify patterns, inconsistencies and anomalies",
+      "To prepare payroll",
+      "To calculate depreciation only",
+      "To replace all professional judgment"
+    ],
+    answer: 0,
+    reason: "Data analysis is applied to identify patterns, irregular activities, inconsistencies and anomalies that may support the investigation."
+  },
+
+  {
+    id: "FD154",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following may be used to understand connections between parties in a transaction?",
+    options: [
+      "Qualitative analysis",
+      "Depreciation calculation",
+      "Trial balance preparation only",
+      "Inventory valuation only"
+    ],
+    answer: 0,
+    reason: "Qualitative evidence can help identify relationships, connections and financial interests between parties involved in transactions."
+  },
+
+  {
+    id: "FD155",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "What is a direct impact law in an FAI engagement?",
+    options: [
+      "A law specifically relevant to conducting the forensic investigation",
+      "A law that applies only to taxation",
+      "A law that applies only to employment",
+      "A law that has no relevance to evidence"
+    ],
+    answer: 0,
+    reason: "Direct impact laws form an essential basis for conducting an FAI engagement and may specifically govern evidence and investigation procedures."
+  },
+
+  {
+    id: "FD156",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following is an example of an engagement-specific law?",
+    options: [
+      "RBI regulations for a bank loan fraud investigation",
+      "A company's internal leave policy",
+      "An employee's personal contract",
+      "A supplier's marketing policy"
+    ],
+    answer: 0,
+    reason: "Engagement-specific laws depend on the nature of the assignment. RBI regulations may be relevant to a bank loan fraud investigation."
+  },
+
+  {
+    id: "FD157",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "What is the purpose of performing work on copies while keeping original digital evidence unaltered?",
+    options: [
+      "To preserve the original evidence",
+      "To destroy unnecessary evidence",
+      "To avoid maintaining documentation",
+      "To change the original evidence"
+    ],
+    answer: 0,
+    reason: "Working on copies while preserving and sealing the original helps maintain the integrity of the original evidence."
+  },
+
+  {
+    id: "FD158",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "What does natural justice generally require in an FAI engagement?",
+    options: [
+      "Giving the concerned party a fair opportunity to present its version",
+      "Assuming the suspect is guilty",
+      "Ignoring the suspect's explanation",
+      "Allowing only one side to provide evidence"
+    ],
+    answer: 0,
+    reason: "Natural justice includes the right to be heard and requires giving concerned parties an opportunity to present their case and evidence."
+  },
+
+  {
+    id: "FD159",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "Which of the following may help formulate a hypothesis?",
+    options: [
+      "Nature of allegations and suspected violations",
+      "Only the final investigation report",
+      "Only the Professional's personal opinion",
+      "Only the company's profit figure"
+    ],
+    answer: 0,
+    reason: "The nature of allegations or suspected violations is one of the factors considered when forming hypotheses."
+  },
+
+  {
+    id: "FD160",
+    difficulty: "Easy",
+    chapter: "Fraud Detection",
+    question: "What should happen to a hypothesis when new evidence changes the understanding of the case?",
+    options: [
+      "It may be revised or updated",
+      "It must never be changed",
+      "It must automatically be treated as proved",
+      "It must automatically be treated as false"
+    ],
+    answer: 0,
+    reason: "Hypothesis formation is iterative. Based on evidence and changing circumstances, hypotheses may be redrafted, updated, added or dropped."
+  },
+
+  {
+    id: "FD161",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A company reports increasing profits every year, but its operating cash flows remain persistently negative. From a forensic investigation perspective, this situation should primarily be treated as:",
+    options: [
+      "Conclusive evidence of financial statement fraud",
+      "A fraud risk indicator requiring further investigation",
+      "Evidence that the company's internal controls are effective",
+      "A normal situation that does not require attention"
+    ],
+    answer: 1,
+    reason: "Persistent cash flow problems despite regularly reported profits are a fraud risk indicator. However, a red flag is not conclusive evidence of fraud."
+  },
+
+  {
+    id: "FD162",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A bank notices that a borrower has substantially increased working capital borrowings as a percentage of turnover while also showing increasing unbilled revenue. What would be the most appropriate forensic response?",
+    options: [
+      "Immediately conclude that the borrower has committed fraud",
+      "Treat the indicators as potential warning signals and investigate the underlying transactions",
+      "Ignore the indicators because the borrower has reported profits",
+      "Consider only the borrower's tax returns"
+    ],
+    answer: 1,
+    reason: "A substantial increase in working capital borrowing as a percentage of turnover and increasing unbilled revenue are warning signals. They should trigger further investigation rather than an immediate conclusion."
+  },
+
+  {
+    id: "FD163",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "During procurement testing, an invoice is found to have been paid before the invoice date. What does this finding represent?",
+    options: [
+      "Conclusive proof of a fictitious vendor",
+      "A potential exception that requires further investigation",
+      "Proof that goods were received before the purchase order",
+      "Evidence that the vendor is independent"
+    ],
+    answer: 1,
+    reason: "Payment before invoice date is a procurement data-analysis exception. It is a red flag but does not independently establish fraud."
+  },
+
+  {
+    id: "FD164",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A company has three vendors registered at the same address and using the same contact details. Which forensic technique would be particularly useful initially?",
+    options: [
+      "Reviewing vendor master data for common details",
+      "Calculating depreciation",
+      "Reviewing only employee attendance",
+      "Ignoring the similarity because each vendor has a different name"
+    ],
+    answer: 0,
+    reason: "Multiple vendors having the same details or coordinates is a specific data-analysis test that may identify potential related vendors or vendor manipulation."
+  },
+
+  {
+    id: "FD165",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "Management claims that unusually high year-end sales resulted from genuine customer demand. Which combination would provide stronger evidence for evaluating this explanation?",
+    options: [
+      "Customer confirmations, dispatch records and subsequent payment evidence",
+      "Management's oral explanation alone",
+      "The company's annual budget alone",
+      "The number of employees in the sales department"
+    ],
+    answer: 0,
+    reason: "Customer confirmations, dispatch records and subsequent payment evidence can help establish whether the reported sales represented genuine transactions."
+  },
+
+  {
+    id: "FD166",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A forensic Professional discovers that management's compensation is heavily dependent on achieving an aggressive profit target. This primarily represents:",
+    options: [
+      "An incentive or pressure factor in the fraud risk assessment",
+      "Proof that management has committed fraud",
+      "An external market factor only",
+      "A form of qualitative evidence that must automatically be ignored"
+    ],
+    answer: 0,
+    reason: "Compensation linked to aggressive financial targets can create pressure or incentive to manipulate financial results. It is an indicator, not proof of fraud."
+  },
+
+  {
+    id: "FD167",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "Why should a Professional avoid beginning an FAI engagement with the assumption that a particular employee committed the fraud?",
+    options: [
+      "Because the Professional must maintain objectivity and consider alternative hypotheses",
+      "Because employees cannot commit fraud",
+      "Because only management can commit fraud",
+      "Because employee evidence is never relevant"
+    ],
+    answer: 0,
+    reason: "The hypotheses approach requires an open mind. Targeting a particular individual too early can introduce bias and undermine objectivity."
+  },
+
+  {
+    id: "FD168",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "An investigator develops a hypothesis that loan funds were diverted to related parties. Which evidence would most directly assist in testing this hypothesis?",
+    options: [
+      "Bank statements tracing the flow of loan proceeds",
+      "The company's employee leave records",
+      "The company's advertising expenditure",
+      "The number of directors on the board"
+    ],
+    answer: 0,
+    reason: "Bank statements and fund-flow analysis can directly establish whether loan proceeds moved to related or connected parties."
+  },
+
+  {
+    id: "FD169",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A hypothesis regarding fictitious purchases is being tested. Which combination would be most relevant?",
+    options: [
+      "Purchase records, invoices, goods receipt records and bank payments",
+      "Only the company's profit and loss account",
+      "Only management's representation",
+      "Only the vendor's advertisement"
+    ],
+    answer: 0,
+    reason: "Testing fictitious purchases requires examining the complete transaction trail, including purchase records, invoices, receipt of goods and payment."
+  },
+
+  {
+    id: "FD170",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A Professional finds evidence that supports one hypothesis but also finds evidence contradicting it. What is the appropriate approach?",
+    options: [
+      "Consider both sets of evidence objectively before reaching a conclusion",
+      "Ignore the contradictory evidence",
+      "Accept only the evidence supporting the hypothesis",
+      "Automatically reject the entire investigation"
+    ],
+    answer: 0,
+    reason: "The Professional should collect and evaluate evidence irrespective of whether it proves or disproves a hypothesis."
+  },
+
+  {
+    id: "FD171",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A company operates in an industry experiencing a significant downturn, yet its profits have increased dramatically. How should this initially be viewed?",
+    options: [
+      "As a potential red or green flag requiring investigation",
+      "As conclusive evidence of fraud",
+      "As evidence that the financial statements are correct",
+      "As irrelevant to fraud risk"
+    ],
+    answer: 0,
+    reason: "Outstanding results when the industry is suffering a downturn can be an unusual indicator. Green flags can represent 'too good to be true' situations and require investigation."
+  },
+
+  {
+    id: "FD172",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A company has weak segregation of duties because the same employee can create vendors, approve purchases and process payments. What risk does this primarily create?",
+    options: [
+      "Greater opportunity for fraud through manipulation of multiple stages of a transaction",
+      "Lower fraud risk because fewer employees are involved",
+      "Only a tax compliance risk",
+      "No risk if the employee has sufficient experience"
+    ],
+    answer: 0,
+    reason: "Inadequate segregation of duties increases the opportunity for an individual to initiate, conceal and benefit from fraudulent transactions."
+  },
+
+  {
+    id: "FD173",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A Professional is investigating software piracy. In addition to direct impact laws relating to evidence and electronic records, which engagement-specific law may become relevant?",
+    options: [
+      "Copyright Act, 1957",
+      "Reserve Bank of India Act only",
+      "Insolvency and Bankruptcy Code only",
+      "Prevention of Corruption Act only"
+    ],
+    answer: 0,
+    reason: "For software piracy, the Copyright Act, 1957 is specifically identified as an engagement-specific law, along with relevant direct impact laws."
+  },
+
+  {
+    id: "FD174",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A bank appoints a Professional to investigate a suspected loan fraud. Why is understanding RBI regulations important?",
+    options: [
+      "Because the engagement may be governed by banking-specific requirements",
+      "Because RBI regulations automatically prove fraud",
+      "Because RBI regulations replace all evidence requirements",
+      "Because the Professional does not need to examine the loan documents"
+    ],
+    answer: 0,
+    reason: "Loan fraud investigations may involve RBI guidelines and regulations applicable to banking and fraud reporting."
+  },
+
+  {
+    id: "FD175",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "Why should a Professional working on digital evidence generally analyse a forensic copy instead of modifying the original data?",
+    options: [
+      "To preserve the original evidence in an unaltered condition",
+      "To make the evidence less reliable",
+      "To avoid performing hash analysis",
+      "To eliminate the need for documentation"
+    ],
+    answer: 0,
+    reason: "Working on copies while preserving the original helps protect the integrity and authenticity of the evidence."
+  },
+
+  {
+    id: "FD176",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "Which of the following best illustrates qualitative evidence?",
+    options: [
+      "A personal relationship between the promoter and a vendor involved in a significant transaction",
+      "Total sales recorded during the year",
+      "Total number of invoices",
+      "Gross profit percentage"
+    ],
+    answer: 0,
+    reason: "Relationships and connections between parties are examples of qualitative evidence that may reveal hidden intentions or conflicts."
+  },
+
+  {
+    id: "FD177",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A Professional discovers that several invoices were booked on weekends and were immediately paid. What is the most appropriate interpretation?",
+    options: [
+      "It is a potential data-analysis exception requiring investigation",
+      "It automatically proves that the invoices are fictitious",
+      "It proves that the goods were never received",
+      "It is always a normal business practice"
+    ],
+    answer: 0,
+    reason: "Payments processed during non-business hours, weekends or holidays can be useful exception criteria in data analysis, but they are not conclusive proof of fraud."
+  },
+
+  {
+    id: "FD178",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "Why can data mining be particularly useful in a forensic accounting investigation?",
+    options: [
+      "It can identify suspicious patterns and relationships within large volumes of data",
+      "It eliminates the need for professional judgment",
+      "It automatically proves criminal intent",
+      "It replaces all documentary evidence"
+    ],
+    answer: 0,
+    reason: "Data mining assists in identifying patterns and relationships hidden within large datasets and can highlight suspicious transactions for further investigation."
+  },
+
+  {
+    id: "FD179",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "During an investigation, a hypothesis initially appears reasonable but new evidence contradicts it. What should the Professional do?",
+    options: [
+      "Revise or reject the hypothesis based on the evidence",
+      "Continue using it regardless of the evidence",
+      "Destroy the contradictory evidence",
+      "Treat the original hypothesis as the final conclusion"
+    ],
+    answer: 0,
+    reason: "Hypothesis formation is iterative. New evidence may cause hypotheses to be modified, dropped or replaced with alternative hypotheses."
+  },
+
+  {
+    id: "FD180",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "Which situation best demonstrates the application of the hypotheses approach?",
+    options: [
+      "Developing several possible explanations for suspicious transactions and designing procedures to prove or disprove them",
+      "Selecting a suspect before reviewing the evidence",
+      "Reviewing every transaction without defining any investigative objective",
+      "Accepting management's explanation without verification"
+    ],
+    answer: 0,
+    reason: "The hypotheses approach involves developing possible explanations, identifying expected evidence and testing each hypothesis objectively to prove, disprove or leave it not proved."
+  },
+  {
+    id: "FD181",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A company has reported exceptional growth in revenue while the overall industry is experiencing declining demand. The forensic professional should initially treat this situation as:",
+    options: [
+      "Conclusive proof of revenue manipulation",
+      "A potential fraud risk indicator requiring further investigation",
+      "Evidence that the company has superior management",
+      "A matter relevant only to statutory auditors"
+    ],
+    answer: 1,
+    reason: "Outstanding results when the industry is suffering a downturn can be a fraud risk indicator. It is not conclusive proof and requires further investigation."
+  },
+
+  {
+    id: "FD182",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "During a review of revenue transactions, the professional notices that a large number of sales were recorded just before year-end but supporting proof of delivery is unavailable. Which fraud risk indicator is most relevant?",
+    options: [
+      "Fictitious revenue or sales",
+      "High employee turnover",
+      "Excessive related party transactions",
+      "Unusual financial ratios"
+    ],
+    answer: 0,
+    reason: "Sales without supporting proof of delivery may indicate fictitious sales. Revenue recognition manipulation through premature or improper booking is also a relevant concern."
+  },
+
+  {
+    id: "FD183",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A vendor is selected despite quoting a substantially higher price than another eligible vendor. Further investigation reveals that the procurement manager has a personal relationship with the selected vendor. What combination of indicators is present?",
+    options: [
+      "Vendor selection manipulation and possible conflict of interest",
+      "Only a liquidity risk",
+      "Only an external economic factor",
+      "Only a revenue recognition issue"
+    ],
+    answer: 0,
+    reason: "Selecting a higher-priced vendor and having an undisclosed relationship with the vendor may indicate improper vendor selection and conflict of interest."
+  },
+
+  {
+    id: "FD184",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A company repeatedly records large adjustment entries for expenses near the end of each accounting period. What should the professional primarily consider?",
+    options: [
+      "It may be a fraud risk indicator requiring examination of the underlying entries",
+      "It proves that all expenses are fictitious",
+      "It proves that the company's budget is incorrect",
+      "It has no forensic significance"
+    ],
+    answer: 0,
+    reason: "Expenses booked towards the end of an accounting period as adjustment entries are specifically identified as a potential fraud risk indicator."
+  },
+
+  {
+    id: "FD185",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "Which of the following would most strongly support a hypothesis that a vendor is fictitious?",
+    options: [
+      "The vendor has no verifiable business presence and its registered details match those of an employee",
+      "The vendor has been operating for ten years",
+      "The vendor has a valid purchase order",
+      "The vendor provides goods at competitive prices"
+    ],
+    answer: 0,
+    reason: "Absence of a verifiable business presence combined with vendor details matching employee data is a strong indicator requiring investigation of a possible ghost vendor."
+  },
+
+  {
+    id: "FD186",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "In a procure-to-pay investigation, which test would most directly identify whether goods were received before a purchase order was issued?",
+    options: [
+      "Compare the dates of the GRN and purchase order",
+      "Compare annual revenue with industry revenue",
+      "Review employee compensation",
+      "Calculate the current ratio"
+    ],
+    answer: 0,
+    reason: "Comparing the Goods Receipt Note (GRN) date with the Purchase Order date can identify instances where goods appear to have been received before the PO was issued."
+  },
+
+  {
+    id: "FD187",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A forensic professional finds that multiple invoices have identical amounts, vendors and invoice dates. Which data-analysis test would be most relevant?",
+    options: [
+      "Duplicate invoice/payment testing",
+      "Benchmarking against competitors",
+      "Ratio analysis",
+      "Trend analysis of employee costs"
+    ],
+    answer: 0,
+    reason: "High-value or duplicate invoices/payments are specifically identified as useful data-analysis exceptions in procurement investigations."
+  },
+
+  {
+    id: "FD188",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A company has complex transactions between several entities controlled by the same promoter. Which qualitative factor should receive particular attention?",
+    options: [
+      "Connections and relationships between the parties involved",
+      "Number of employees in the company",
+      "Office location alone",
+      "Depreciation method alone"
+    ],
+    answer: 0,
+    reason: "Qualitative evidence includes relationships and connections between parties and individuals involved in transactions."
+  },
+
+  {
+    id: "FD189",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "Which statement best describes fraud predication?",
+    options: [
+      "It is the conclusion that fraud has definitely occurred",
+      "It is based on the totality of circumstances and the probability that fraud or unlawful activity may have occurred",
+      "It requires the professional to identify the perpetrator before starting work",
+      "It eliminates the need for risk assessment"
+    ],
+    answer: 1,
+    reason: "Predication involves reviewing the totality of circumstances and evaluating the probability of fraud or unlawful activity requiring examination."
+  },
+
+  {
+    id: "FD190",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A bank observes frequent invocation of bank guarantees and devolvement of letters of credit by a borrower. These circumstances should be considered as:",
+    options: [
+      "Potential early warning signals of wrongdoing in the loan account",
+      "Conclusive evidence of money laundering",
+      "Proof that the borrower is solvent",
+      "Evidence unrelated to loan fraud"
+    ],
+    answer: 0,
+    reason: "Frequent invocation of bank guarantees and devolvement of letters of credit are listed as early warning signals in bank loan accounts."
+  },
+
+  {
+    id: "FD191",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A forensic professional is appointed under a specific statute to investigate a suspected fraud. Which statement is most appropriate?",
+    options: [
+      "The professional should ensure that the objectives and procedures are consistent with the applicable law or regulation",
+      "The professional may ignore the statute if the client agrees",
+      "The professional is governed only by the engagement letter",
+      "The professional need not consider evidence requirements"
+    ],
+    answer: 0,
+    reason: "Where a professional is appointed under specific law or regulation, the objectives of the engagement must be aligned with the applicable legal provisions."
+  },
+
+  {
+    id: "FD192",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A client appoints a professional through a contractual arrangement to investigate suspected employee fraud. Which statement is correct?",
+    options: [
+      "The contractual mandate provides the scope but the engagement remains subject to applicable laws and regulations",
+      "The contract overrides all applicable laws",
+      "No legal requirements apply because the appointment is private",
+      "Only the employee's consent determines the scope"
+    ],
+    answer: 0,
+    reason: "A contractual arrangement may provide the mandate, but the engagement must still be conducted within the framework of applicable laws and regulations."
+  },
+
+  {
+    id: "FD193",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "Why is the chain of custody particularly important for digital evidence?",
+    options: [
+      "It helps demonstrate that the evidence has maintained its integrity and has not been altered",
+      "It guarantees that the suspect will be convicted",
+      "It eliminates the need for expert testimony",
+      "It makes irrelevant evidence admissible"
+    ],
+    answer: 0,
+    reason: "Maintaining chain of custody helps establish the integrity and authenticity of evidence and assists in demonstrating that it has not been altered."
+  },
+
+  {
+    id: "FD194",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "Which of the following is an appropriate procedure for maintaining the chain of custody of digital evidence?",
+    options: [
+      "Performing hash analysis and preserving the hash certificate",
+      "Editing the original evidence for easier analysis",
+      "Deleting unnecessary metadata immediately",
+      "Allowing unrestricted access to the original evidence"
+    ],
+    answer: 0,
+    reason: "Hash testing and preservation of hash certificates can help establish the integrity and authenticity of digital evidence."
+  },
+
+  {
+    id: "FD195",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A professional uses Power BI and Tableau during an FAI engagement. These tools are primarily associated with:",
+    options: [
+      "Data visualization and limited data analysis",
+      "Physical evidence preservation",
+      "Legal drafting",
+      "Forensic imaging of hard drives"
+    ],
+    answer: 0,
+    reason: "Power BI and Tableau are data visualization tools with graphic representation capabilities and some data-analysis capabilities."
+  },
+
+  {
+    id: "FD196",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "Which of the following best distinguishes data mining from ordinary review of financial statements?",
+    options: [
+      "Data mining can identify hidden patterns and relationships in large volumes of data",
+      "Data mining can only be performed manually",
+      "Data mining eliminates the need for evidence",
+      "Data mining is limited to calculating financial ratios"
+    ],
+    answer: 0,
+    reason: "Data mining involves extracting patterns from large amounts of data and identifying relationships or suspicious patterns that may not be apparent through ordinary review."
+  },
+
+  {
+    id: "FD197",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A professional investigating possible corruption formulates a hypothesis that unusual contacts occurred between company officials and government officials. Which evidence would be particularly relevant?",
+    options: [
+      "Communication records, meeting details and relevant transaction trails",
+      "Only the company's depreciation schedule",
+      "Only the number of company shareholders",
+      "Only the company's inventory turnover ratio"
+    ],
+    answer: 0,
+    reason: "Under the hypotheses approach, the professional identifies what evidence should exist if the hypothesis is true and then tests for such evidence."
+  },
+
+  {
+    id: "FD198",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "During an investigation, the professional develops an initial hypothesis but later discovers new information that changes the circumstances. What does the iterative nature of hypothesis formation permit?",
+    options: [
+      "The hypothesis may be redrafted, updated or replaced",
+      "The original hypothesis must always remain unchanged",
+      "The investigation must immediately be terminated",
+      "Only evidence supporting the original hypothesis may be considered"
+    ],
+    answer: 0,
+    reason: "Hypothesis formation is iterative. Based on new evidence and changing dynamics, hypotheses may be redrafted, updated, dropped or replaced."
+  },
+
+  {
+    id: "FD199",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A company has no effective monitoring of management and management frequently overrides internal controls. These circumstances primarily indicate:",
+    options: [
+      "Fraud risk indicators arising from governance and culture",
+      "External economic factors",
+      "Only operational efficiency issues",
+      "Only market risk"
+    ],
+    answer: 0,
+    reason: "Ineffective monitoring of management and management override of controls are indicators associated with governance and culture."
+  },
+
+  {
+    id: "FD200",
+    difficulty: "Medium",
+    chapter: "Fraud Detection",
+    question: "A forensic professional is investigating whether trade receivables are fictitious. Which combination of procedures would provide the strongest investigation approach?",
+    options: [
+      "Balance confirmations, data analysis, documentation review and site visits",
+      "Only reviewing the general ledger",
+      "Only asking management whether receivables exist",
+      "Only comparing total receivables with the previous year"
+    ],
+    answer: 0,
+    reason: "The ICAI example on authenticity of trade receivables uses multiple procedures including confirmations, abnormal-duplication testing, documentation review, ledger analysis, site visits and public-domain checks."
+  },
+
+  {
+    id: "FD201",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A company reports a 40% increase in revenue despite a 15% decline in industry demand. The forensic professional also observes unusually high year-end discounts, several sales without proof of delivery, and a significant increase in receivables. Which inference is most appropriate at this stage?",
+    options: [
+      "Revenue fraud has been conclusively established",
+      "The combination of indicators provides reasonable predication for further investigation of possible revenue manipulation",
+      "The increase in receivables automatically proves that sales are fictitious",
+      "The industry decline is irrelevant because the company's financial statements are audited"
+    ],
+    answer: 1,
+    reason: "The combination of unusual industry performance, year-end discounts, unsupported sales and rising receivables constitutes significant fraud indicators. However, indicators do not by themselves establish fraud conclusively. They provide a basis for predication and further investigation."
+  },
+
+  {
+    id: "FD202",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "During a procurement investigation, a professional finds that the procurement manager approved the GRN, the vendor's bank account is similar to an employee's bank account, several invoices are rounded amounts, and payments were made on weekends. Which approach would be MOST appropriate?",
+    options: [
+      "Treat each exception independently and investigate only the largest transaction",
+      "Develop hypotheses around possible collusion and test the combined transaction patterns",
+      "Conclude immediately that the procurement manager committed fraud",
+      "Ignore the exceptions because each individual transaction may be legal"
+    ],
+    answer: 1,
+    reason: "Multiple related exceptions may collectively indicate a modus operandi. A hypothesis-driven approach helps test possible collusion objectively rather than prematurely concluding guilt."
+  },
+
+  {
+    id: "FD203",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A forensic professional suspects that a company created fictitious vendors to siphon funds. Which combination of procedures would provide the strongest evidence trail?",
+    options: [
+      "Review only the vendor master",
+      "Compare vendor details with employee/customer data, verify business existence, trace payments and examine supporting invoices",
+      "Compare total procurement expense with the previous year",
+      "Interview only the head of procurement"
+    ],
+    answer: 1,
+    reason: "A ghost-vendor hypothesis should be tested using multiple evidence sources including master-data comparisons, external verification, payment tracing and documentary review."
+  },
+
+  {
+    id: "FD204",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A professional is investigating a loan fraud. The borrower submitted inflated stock statements, diverted funds to a related entity and allegedly used forged documents while obtaining the loan. Which statement BEST reflects the approach to applicable laws?",
+    options: [
+      "Only the Companies Act, 2013 would apply because the borrower is a company",
+      "Only RBI regulations would apply because the matter concerns a bank loan",
+      "Multiple laws may become relevant depending on the modus operandi, including RBI requirements, Companies Act, criminal law, money-laundering provisions and evidence-related laws",
+      "Only the law mentioned in the engagement letter should be considered"
+    ],
+    answer: 2,
+    reason: "The applicable laws depend on the facts and modus operandi. A loan fraud may involve RBI requirements, Companies Act provisions, criminal law, PMLA and evidence-related laws."
+  },
+
+  {
+    id: "FD205",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A professional develops a hypothesis that promoters diverted loan funds for personal purposes. Bank statements of the borrower's principal account do not establish diversion. However, evidence later shows substantial payments to a related entity, followed by transfers to accounts controlled by promoters. What is the correct conclusion?",
+    options: [
+      "The original hypothesis must be rejected because the principal account did not directly show personal payments",
+      "The hypothesis may be supported if the complete money trail establishes the indirect diversion",
+      "Only direct payments to promoters can establish diversion",
+      "The professional should ignore the related-party transactions"
+    ],
+    answer: 1,
+    reason: "Fraudulent diversion may occur through multiple layers. A complete money trail can establish an indirect flow of funds and support the hypothesis."
+  },
+
+  {
+    id: "FD206",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A forensic professional investigating fictitious receivables finds multiple customer masters created within a short period. The customers have similar naming patterns and no credible online presence. Management claims that they are genuine customers. Which evidence would BEST strengthen the conclusion?",
+    options: [
+      "Management's oral confirmation alone",
+      "Customer balance confirmations, site visits, documentation review and external verification",
+      "Comparison of total sales with the previous year only",
+      "Review of depreciation expense"
+    ],
+    answer: 1,
+    reason: "Existence of receivables should be corroborated through independent confirmations, physical/site verification, underlying documents and external checks."
+  },
+
+  {
+    id: "FD207",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A professional receives an electronic copy of an accounting database from an employee. The professional immediately begins analysing the original database and several entries are subsequently modified. Which fundamental forensic principle has been compromised?",
+    options: [
+      "Benchmarking",
+      "Chain of custody and preservation of original evidence",
+      "Trend analysis",
+      "Qualitative risk assessment"
+    ],
+    answer: 1,
+    reason: "Working directly on original digital evidence and allowing subsequent modification compromises its integrity. Original evidence should generally be preserved and analysis performed on copies."
+  },
+
+  {
+    id: "FD208",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A professional has a hypothesis that employees colluded with a vendor. Evidence supports unusual payments but does not establish whether the procurement manager or another employee was involved. What should the professional do?",
+    options: [
+      "Name the procurement manager as the perpetrator because that person had procurement authority",
+      "Collect evidence relating to all plausible individuals and maintain alternate hypotheses",
+      "Stop the investigation because the perpetrator cannot immediately be identified",
+      "Consider only evidence against the procurement manager"
+    ],
+    answer: 1,
+    reason: "The hypotheses approach requires objectivity and avoidance of premature targeting. Alternate hypotheses should remain open until evidence supports or rejects them."
+  },
+
+  {
+    id: "FD209",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A company has rapidly growing profits while its cash flows remain persistently negative. The company also has unusually high related-party transactions and management frequently overrides controls. Which classification BEST captures these indicators?",
+    options: [
+      "Only external-factor indicators",
+      "Only governance and culture indicators",
+      "A combination of financial/general indicators and governance-related fraud risk indicators",
+      "Only technology-related indicators"
+    ],
+    answer: 2,
+    reason: "Persistent cash-flow problems despite reported profits are financial indicators, while excessive related-party transactions and management override are governance/culture indicators."
+  },
+
+  {
+    id: "FD210",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "During a procurement review, invoices are recorded before the corresponding goods are received, payments are made before invoice dates, and several purchase orders remain open even after projects are closed. What would be the MOST effective next step?",
+    options: [
+      "Conclude that all procurement transactions are fraudulent",
+      "Develop hypotheses around premature recording, fictitious procurement or fund diversion and test the relevant transaction trails",
+      "Ignore the exceptions because procurement transactions are routine",
+      "Review only the annual financial statements"
+    ],
+    answer: 1,
+    reason: "The exceptions provide potential fraud indicators. A hypothesis-based investigation can determine whether they represent control failures, timing issues or a deliberate fraudulent scheme."
+  },
+
+  {
+    id: "FD211",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A professional uses data mining to identify transactions involving unusually high payments to vendors. What is the correct interpretation of the data-mining result?",
+    options: [
+      "The identified transactions are automatically fraudulent",
+      "The identified transactions represent suspicious patterns requiring further investigation",
+      "Data mining itself constitutes sufficient evidence for conviction",
+      "Only transactions identified by data mining may be considered"
+    ],
+    answer: 1,
+    reason: "Data mining identifies patterns, anomalies and potentially suspicious transactions. The results support hypotheses and further investigation but do not automatically establish fraud."
+  },
+
+  {
+    id: "FD212",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A professional discovers that an unusual transaction is completely legal but significantly different from the customer's normal transaction pattern. Which type of indicator most closely describes this situation?",
+    options: [
+      "Red flag",
+      "Yellow flag",
+      "Green flag",
+      "Conclusive fraud evidence"
+    ],
+    answer: 1,
+    reason: "Yellow flags relate to unusual activities that may be routine and legal but could pose future risk or justify preventive controls."
+  },
+
+  {
+    id: "FD213",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A company in a declining industry reports exceptionally strong profitability. At the same time, management has aggressive earnings targets linked to bonuses and faces pressure from lenders. Which statement is MOST appropriate?",
+    options: [
+      "Only the industry decline is relevant",
+      "Only management compensation is relevant",
+      "The combination of external pressure and governance/culture indicators increases the fraud risk requiring further assessment",
+      "The high profitability eliminates fraud risk"
+    ],
+    answer: 2,
+    reason: "Declining industry conditions are an external indicator, while aggressive targets and compensation linked to performance are governance/culture indicators. Together they may increase fraud risk."
+  },
+
+  {
+    id: "FD214",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A forensic professional is investigating possible software piracy. Which approach to law would be MOST appropriate?",
+    options: [
+      "Consider only the Companies Act, 2013",
+      "Consider only RBI regulations",
+      "Consider engagement-specific provisions such as the Copyright Act along with relevant direct-impact laws concerning evidence and technology",
+      "Ignore legal provisions because the engagement is contractual"
+    ],
+    answer: 2,
+    reason: "Software piracy requires consideration of the Copyright Act, 1957 along with relevant direct-impact laws such as evidence and information-technology provisions."
+  },
+
+  {
+    id: "FD215",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "During an investigation, evidence gathered supports one hypothesis but contradicts another. The professional's report ultimately states that the fraud theory is 'not proved'. What does this indicate?",
+    options: [
+      "The professional has necessarily concluded that fraud did not occur",
+      "The available evidence was insufficient to establish the theory, without necessarily proving that the opposite is true",
+      "The professional failed to investigate",
+      "The hypothesis approach cannot be used in forensic investigations"
+    ],
+    answer: 1,
+    reason: "An investigation may result in a hypothesis being proved, disproved or not proved. 'Not proved' means the evidence is insufficient to establish the proposition; it does not necessarily prove the opposite."
+  },
+
+  {
+    id: "FD216",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A professional investigating a suspected fraud focuses exclusively on evidence supporting the initial allegation and ignores evidence that contradicts it. Which fundamental principle is MOST clearly compromised?",
+    options: [
+      "Objectivity and professional skepticism",
+      "Data visualization",
+      "Benchmarking",
+      "Financial ratio analysis"
+    ],
+    answer: 0,
+    reason: "The professional must remain objective and consider evidence that both supports and disproves hypotheses. Ignoring contradictory evidence creates confirmation bias."
+  },
+
+  {
+    id: "FD217",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A company has multiple vendors whose registered addresses, telephone numbers and bank details overlap. The procurement department states that the vendors are independent. Which combination of techniques would be MOST useful?",
+    options: [
+      "Vendor-master analysis, external verification, relationship analysis and payment tracing",
+      "Only ratio analysis",
+      "Only benchmarking",
+      "Only review of depreciation schedules"
+    ],
+    answer: 0,
+    reason: "Common vendor details may indicate connected or fictitious vendors. Master-data analysis, external verification, relationship analysis and payment tracing can help establish the connection."
+  },
+
+  {
+    id: "FD218",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A professional investigating possible fraud receives evidence directly from a regulatory agency. Which statement is MOST appropriate regarding the responsibility for relevance and reliability of such documentation?",
+    options: [
+      "The professional automatically guarantees the authenticity of every document",
+      "The agency providing the documents bears the onus regarding their relevance, reliability and appropriateness, which should be appropriately mentioned in the report",
+      "The documents can never be used as evidence",
+      "The professional must recreate every document independently"
+    ],
+    answer: 1,
+    reason: "Where documents and information are received directly from agencies, the source agency bears the onus regarding relevance, reliability and appropriateness, and this should be reflected appropriately in the report."
+  },
+
+  {
+    id: "FD219",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A professional investigating an alleged government-contract kickback initially considers three hypotheses: unusual government contacts, contract terms being altered to favour the company, and exchange of favours. Evidence disproves the first two but supports the third. What is the primary advantage demonstrated by this approach?",
+    options: [
+      "It guarantees that the initial allegation is true",
+      "It enables systematic elimination of alternative explanations and strengthens the eventual case theory",
+      "It eliminates the need for documentary evidence",
+      "It allows the professional to focus exclusively on the suspect"
+    ],
+    answer: 1,
+    reason: "Multiple hypotheses allow alternative explanations to be tested and eliminated. The surviving hypothesis can then form a stronger basis for the final case theory."
+  },
+
+  {
+    id: "FD220",
+    difficulty: "Hard",
+    chapter: "Fraud Detection",
+    question: "A forensic professional is investigating a suspected fraud involving digital evidence. The professional creates a forensic copy, calculates a hash value, seals the original, records the date and time of each transfer of custody and performs analysis on the copy. Which principle is MOST comprehensively demonstrated?",
+    options: [
+      "Benchmarking",
+      "Chain of custody and preservation of evidence integrity",
+      "Trend analysis",
+      "Qualitative evidence analysis"
+    ],
+    answer: 1,
+    reason: "Creating a forensic copy, hashing the evidence, preserving the original, documenting custody transfers and analysing the copy are key procedures supporting chain of custody and evidence integrity."
+  }
+
+
+
+
 
 
 
