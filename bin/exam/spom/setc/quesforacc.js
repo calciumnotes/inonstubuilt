@@ -12717,8 +12717,7 @@ reason:"Modified electronic records may require additional scrutiny, while unmat
 {
   case_id: "FA_CH6_CS01",
 
-  caseText: `<p><strong>Case Scenario 1 – Unusual Procurement Transactions and Suspected Vendor Collusion</strong></p>
-
+  caseText: `
   <p>Zenith Infrastructure Limited is engaged in the construction and maintenance of large infrastructure projects. The company has a centralized procurement department responsible for purchasing construction materials, machinery, spare parts and other items required at various project locations. Over the last two years, the company had experienced rapid growth in revenue and had secured several large contracts from both government and private-sector customers.</p>
 
   <p>Although the company's revenue had increased substantially, the internal audit department observed that procurement expenses had increased at a much higher rate. The increase was particularly significant in relation to certain categories of construction materials. Management explained that the increase was due to inflation, transportation costs and the rapid expansion of project activities.</p>
@@ -12821,7 +12820,7 @@ reason:"Modified electronic records may require additional scrutiny, while unmat
 {
   case_id: "FA_CH6_CS02",
 
-  caseText: `<p><strong>Case Scenario 2 – Rapid Growth, Management Pressure and Weak Governance</strong></p>
+  caseText: `
 
   <p>Vertex Consumer Products Limited operates in a highly competitive industry. During the previous three years, the company had reported revenue and profit growth substantially higher than the industry average. The management frequently highlighted the company's exceptional performance in presentations to investors, lenders and analysts.</p>
 
@@ -12919,8 +12918,7 @@ reason:"Modified electronic records may require additional scrutiny, while unmat
 {
   case_id: "FA_CH6_CS03",
 
-  caseText: `<p><strong>Case Scenario 3 – Data Analytics in a Procure-to-Pay Investigation</strong></p>
-
+  caseText: `<p>
   <p>National Manufacturing Limited operates several manufacturing plants across India. The company purchases raw materials from hundreds of vendors through a centralized procure-to-pay system. During the year, the company's procurement expenditure increased significantly even though production volume remained relatively stable.</p>
 
   <p>The audit committee appointed a forensic accounting Professional to conduct a fraud risk assessment and identify potentially suspicious transactions. The Professional first reviewed the company's financial statements, internal audit reports, statutory auditor's report, CARO report and information relating to internal controls over financial reporting.</p>
@@ -13019,7 +13017,7 @@ reason:"Modified electronic records may require additional scrutiny, while unmat
 {
   case_id: "FA_CH6_CS04",
 
-  caseText: `<p><strong>Case Scenario 4 – Digital Evidence in a Loan Fraud Investigation</strong></p>
+  caseText: `<p>
 
   <p>Orion Engineering Limited obtained substantial credit facilities from a bank for expansion of its manufacturing operations. The company submitted audited financial statements, stock statements, property documents and other financial information to the bank while obtaining the facilities.</p>
 
@@ -13119,8 +13117,7 @@ reason:"Modified electronic records may require additional scrutiny, while unmat
 {
   case_id: "FA_CH6_CS05",
 
-  caseText: `<p><strong>Case Scenario 5 – Suspicious Transactions During Insolvency Proceedings</strong></p>
-
+  caseText: `<p>
   <p>Nova Textiles Limited had been experiencing financial difficulties for several years. The company had significant outstanding liabilities to banks, suppliers, employees and other creditors. Its working capital position deteriorated substantially and several creditors initiated proceedings under the Insolvency and Bankruptcy Code.</p>
 
   <p>After commencement of the corporate insolvency resolution process, the Resolution Professional appointed a forensic accounting Professional to examine certain transactions undertaken by the company before the insolvency commencement date.</p>
@@ -13223,8 +13220,7 @@ reason:"Modified electronic records may require additional scrutiny, while unmat
 {
   case_id: "FA_CH6_CS06",
 
-  caseText: `<p><strong>Case Scenario 6 – Year-End Revenue Manipulation</strong></p>
-
+  caseText: `
   <p>Galaxy Electronics Limited manufactures and sells electronic equipment to distributors throughout India. The company had historically maintained steady revenue growth. However, during the current year, management announced that revenue had increased by 38%, despite only a modest increase in production capacity and market demand.</p>
 
   <p>The company's management had publicly communicated that it expected to achieve a particular revenue target by the end of the financial year. Senior executives were entitled to substantial bonuses if the target was achieved.</p>
