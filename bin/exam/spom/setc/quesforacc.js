@@ -14815,7 +14815,2247 @@ reason:"Modified electronic records may require additional scrutiny, while unmat
     ],
     answer: 1,
     reason: "Creating a forensic copy, hashing the evidence, preserving the original, documenting custody transfers and analysing the copy are key procedures supporting chain of custody and evidence integrity."
-  }
+  },
+
+  // Chapter 7
+
+  {
+    id: "DF201",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Which of the following best describes digital forensics?",
+    options: [
+      "Only analysis of financial statements",
+      "Identification, collection, acquisition and preservation of digital evidence",
+      "Only recovery of deleted files",
+      "Preparation of statutory audit reports"
+    ],
+    answer: 1,
+    reason: "Digital forensics broadly covers identification, collection, acquisition and preservation of digital evidence from digital media."
+  },
+
+  {
+    id: "DF202",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "According to FAIS 420, digital evidence refers to data or information that is:",
+    options: [
+      "Only stored on computers",
+      "Only available on mobile phones",
+      "Acquired, stored, accessed, examined, transmitted and used in electronic form",
+      "Only available through the internet"
+    ],
+    answer: 2,
+    reason: "FAIS 420 defines digital evidence broadly as data or information acquired, stored, accessed, examined, transmitted and used in electronic form."
+  },
+
+  {
+    id: "DF203",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Which of the following is an example of a source of digital evidence?",
+    options: [
+      "ERP system",
+      "Physical cash",
+      "Paper currency",
+      "Office furniture"
+    ],
+    answer: 0,
+    reason: "ERP systems are among the information systems that may contain digital evidence."
+  },
+
+  {
+    id: "DF204",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Which of the following may constitute digital evidence?",
+    options: [
+      "Emails",
+      "Instant messages",
+      "System logs",
+      "All of the above"
+    ],
+    answer: 3,
+    reason: "Emails, instant messages and system logs are all examples of digital evidence."
+  },
+
+  {
+    id: "DF205",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "What is the primary purpose of maintaining a Digital Chain of Custody?",
+    options: [
+      "To increase internet speed",
+      "To track the movement and handling of digital evidence",
+      "To delete unnecessary data",
+      "To prepare financial statements"
+    ],
+    answer: 1,
+    reason: "Digital Chain of Custody records the sequential movement of evidence through collection, storage, safeguarding, transfer and analysis."
+  },
+
+  {
+    id: "DF206",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Which of the following is a technical risk in e-discovery?",
+    options: [
+      "Data corruption",
+      "Violation of privacy laws",
+      "Breach of confidentiality by employees",
+      "Disclosure of privileged information"
+    ],
+    answer: 0,
+    reason: "Data corruption, incomplete collection, inaccurate analysis and conversion errors are examples of technical risks."
+  },
+
+  {
+    id: "DF207",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Which of the following is a human risk in e-discovery?",
+    options: [
+      "Data conversion error",
+      "Errors in data collection or analysis",
+      "Network topology",
+      "Data encryption"
+    ],
+    answer: 1,
+    reason: "Errors in data collection or analysis, breach of confidentiality and intentional destruction of evidence are human risks."
+  },
+
+  {
+    id: "DF208",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Which of the following is a digital forensic acquisition tool?",
+    options: [
+      "FTK Imager",
+      "Power BI",
+      "Microsoft Word",
+      "Excel"
+    ],
+    answer: 0,
+    reason: "FTK Imager is specifically identified as a digital forensic acquisition software/tool."
+  },
+
+  {
+    id: "DF209",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Which tool is specifically mentioned for mobile acquisition and cloud?",
+    options: [
+      "Oxygen Forensic Detective",
+      "Sumuri",
+      "Intella",
+      "X1"
+    ],
+    answer: 0,
+    reason: "Oxygen Forensic Detective is listed for mobile acquisition and cloud."
+  },
+
+  {
+    id: "DF210",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Which of the following is an e-discovery forensic software?",
+    options: [
+      "Relativity",
+      "FTK Imager",
+      "EnCase Forensic Acquisition",
+      "Tableau TX1"
+    ],
+    answer: 0,
+    reason: "Relativity is listed as e-discovery forensic software along with Intella Pro and NUIX."
+  },
+
+  {
+    id: "DF211",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Which stage of the digital evidence gathering process involves identifying laptops, mobile phones and server data?",
+    options: [
+      "Data Processing",
+      "Identify Source",
+      "Data Review",
+      "Presentation"
+    ],
+    answer: 1,
+    reason: "The first stage is Identify Source, where relevant digital sources such as laptops, mobile phones and server data are identified."
+  },
+
+  {
+    id: "DF212",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Which stage involves filtering relevant data and indexing it for searching and review?",
+    options: [
+      "Data Collection",
+      "Data Processing",
+      "Presentation",
+      "Identify Source"
+    ],
+    answer: 1,
+    reason: "Data Processing includes filtering, converting and indexing data to facilitate searching and review."
+  },
+
+  {
+    id: "DF213",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Which of the following is an example of data analysis during digital forensics?",
+    options: [
+      "Identifying patterns and anomalies",
+      "Issuing a search warrant",
+      "Creating an employment contract",
+      "Preparing a bank reconciliation"
+    ],
+    answer: 0,
+    reason: "Data analysis uses tools and techniques to identify patterns, trends and anomalies in digital data."
+  },
+
+  {
+    id: "DF214",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Which section of the Information Technology Act, 2000 provides legal recognition to electronic records?",
+    options: [
+      "Section 4",
+      "Section 43",
+      "Section 65",
+      "Section 66"
+    ],
+    answer: 0,
+    reason: "Section 4 of the Information Technology Act, 2000 provides legal recognition of electronic records."
+  },
+
+  {
+    id: "DF215",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Section 43 of the Information Technology Act, 2000 primarily deals with:",
+    options: [
+      "Identity theft",
+      "Damage to computer, computer system, etc.",
+      "Electronic records",
+      "Violation of privacy"
+    ],
+    answer: 1,
+    reason: "Section 43 provides for penalty and compensation for damage to computers, computer systems and related resources."
+  },
+
+  {
+    id: "DF216",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Which section deals with compensation for failure to protect data?",
+    options: [
+      "Section 43A",
+      "Section 45",
+      "Section 66B",
+      "Section 79A"
+    ],
+    answer: 0,
+    reason: "Section 43A deals with compensation for failure of a body corporate to protect sensitive personal data or information."
+  },
+
+  {
+    id: "DF217",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Which section of the Information Technology Act deals with tampering with computer source documents?",
+    options: [
+      "Section 43",
+      "Section 65",
+      "Section 66C",
+      "Section 67"
+    ],
+    answer: 1,
+    reason: "Section 65 deals with tampering with computer source documents."
+  },
+
+  {
+    id: "DF218",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Which section deals with identity theft under the Information Technology Act, 2000?",
+    options: [
+      "Section 66B",
+      "Section 66C",
+      "Section 66D",
+      "Section 66E"
+    ],
+    answer: 1,
+    reason: "Section 66C deals with punishment for identity theft, including fraudulent or dishonest use of another person's electronic signature, password or unique identification feature."
+  },
+
+  {
+    id: "DF219",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Section 66D of the Information Technology Act, 2000 deals with:",
+    options: [
+      "Identity theft",
+      "Cheating by personation using computer resource",
+      "Violation of privacy",
+      "Publishing obscene material"
+    ],
+    answer: 1,
+    reason: "Section 66D deals with cheating by personation using a computer resource or communication device."
+  },
+
+  {
+    id: "DF220",
+    difficulty: "Easy",
+    chapter: "Digital Forensics",
+    question: "Under Section 79A of the Information Technology Act, 2000, the Central Government may notify an entity as:",
+    options: [
+      "Digital Evidence Auditor",
+      "Examiner of Electronic Evidence",
+      "Cyber Tax Officer",
+      "Digital Compliance Officer"
+    ],
+    answer: 1,
+    reason: "Section 79A allows the Central Government to notify a department, body or agency as an Examiner of Electronic Evidence for providing expert opinion on electronic-form evidence."
+  },
+
+  {
+    id: "DF221",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following is included in an organisation's Information System that may contain digital evidence?",
+    options: [
+      "Customer Relationship Management system",
+      "Office furniture register only",
+      "Physical cash register only",
+      "None of the above"
+    ],
+    answer: 0,
+    reason: "Customer Relationship Management (CRM) system is one of the information systems that may contain digital evidence."
+  },
+
+  {
+    id: "DF222",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following is an example of digital evidence found in a computer or mobile device?",
+    options: [
+      "Web browsing history",
+      "Physical signature on paper",
+      "Cash in hand",
+      "Office chair"
+    ],
+    answer: 0,
+    reason: "Web browsing history, search queries and cookies can constitute digital evidence."
+  },
+
+  {
+    id: "DF223",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "What is e-discovery?",
+    options: [
+      "Preparation of electronic financial statements",
+      "Process of gathering and collecting evidence in the digital domain",
+      "Deletion of irrelevant electronic records",
+      "Creation of a company's website"
+    ],
+    answer: 1,
+    reason: "Electronic gathering or e-discovery refers to the process used for gathering and collecting evidence in the digital domain."
+  },
+
+  {
+    id: "DF224",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Why should digital evidence be acquired in a manner that preserves its integrity?",
+    options: [
+      "To ensure that the original data is not modified or deleted",
+      "To reduce the amount of data permanently",
+      "To make the evidence publicly available",
+      "To avoid maintaining records"
+    ],
+    answer: 0,
+    reason: "Digital evidence must be collected and acquired while ensuring that the original data is not modified or deleted."
+  },
+
+  {
+    id: "DF225",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following may be recorded as part of Digital Chain of Custody?",
+    options: [
+      "Date and time of collection",
+      "Person handling the evidence",
+      "Purpose of transfer",
+      "All of the above"
+    ],
+    answer: 3,
+    reason: "Digital Chain of Custody records the handling, transfer, date, time and purpose associated with the evidence."
+  },
+
+  {
+    id: "DF226",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Before conducting digital evidence gathering, a professional should understand:",
+    options: [
+      "The organisation's Information System environment",
+      "Only the company's annual turnover",
+      "Only the physical location of the office",
+      "Only the number of employees"
+    ],
+    answer: 0,
+    reason: "Understanding the Information System environment is an important consideration before digital evidence gathering."
+  },
+
+  {
+    id: "DF227",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following is a legal risk associated with e-discovery?",
+    options: [
+      "Data corruption",
+      "Violation of data protection laws",
+      "Incorrect file indexing",
+      "Data conversion error"
+    ],
+    answer: 1,
+    reason: "Violation of data protection laws is specifically identified as a legal risk in e-discovery."
+  },
+
+  {
+    id: "DF228",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following is a consideration while defining the e-discovery timeline?",
+    options: [
+      "Size and complexity of data",
+      "Scope of the request",
+      "Urgency of the investigation",
+      "All of the above"
+    ],
+    answer: 3,
+    reason: "The e-discovery timeline depends on the size and complexity of data, scope of the request and urgency of the investigation."
+  },
+
+  {
+    id: "DF229",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following is a specialised digital forensic tool mentioned for mobile acquisition?",
+    options: [
+      "Oxygen Forensic Detective",
+      "Power BI",
+      "Tableau",
+      "Excel"
+    ],
+    answer: 0,
+    reason: "Oxygen Forensic Detective is listed as a tool for mobile acquisition and cloud."
+  },
+
+  {
+    id: "DF230",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which tool is listed for social media acquisition?",
+    options: [
+      "X1",
+      "Sumuri",
+      "FTK Imager",
+      "Intella"
+    ],
+    answer: 0,
+    reason: "X1 is listed as a digital forensic acquisition tool for social media acquisition."
+  },
+
+  {
+    id: "DF231",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which tool is mentioned for email acquisition?",
+    options: [
+      "Intella",
+      "X1",
+      "Sumuri",
+      "Tableau TX1"
+    ],
+    answer: 0,
+    reason: "Intella is listed as a digital forensic acquisition tool for email acquisition."
+  },
+
+  {
+    id: "DF232",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following is an e-discovery forensic software?",
+    options: [
+      "NUIX",
+      "FTK Imager",
+      "Oxygen Forensic Detective",
+      "Sumuri"
+    ],
+    answer: 0,
+    reason: "NUIX is listed as e-discovery forensic software along with Intella Pro and Relativity."
+  },
+
+  {
+    id: "DF233",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which stage comes immediately after identifying the source in the digital evidence gathering process?",
+    options: [
+      "Data preservation",
+      "Presentation",
+      "Data review",
+      "Reporting"
+    ],
+    answer: 0,
+    reason: "The evidence gathering process begins with Identify Source, followed by Data Preservation."
+  },
+
+  {
+    id: "DF234",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "What is the purpose of data preservation in digital forensics?",
+    options: [
+      "To prevent loss or alteration of data",
+      "To permanently delete old data",
+      "To modify original evidence",
+      "To make evidence publicly accessible"
+    ],
+    answer: 0,
+    reason: "Data preservation aims to prevent loss or alteration of relevant digital data."
+  },
+
+  {
+    id: "DF235",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Forensic acquisition primarily involves:",
+    options: [
+      "Collection and preservation of digital evidence",
+      "Preparation of tax returns",
+      "Preparation of financial statements",
+      "Interviewing only the suspect"
+    ],
+    answer: 0,
+    reason: "Forensic acquisition involves collecting digital evidence using specialised tools while maintaining its integrity."
+  },
+
+  {
+    id: "DF236",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following may be performed during data processing?",
+    options: [
+      "Hashing",
+      "Indexing",
+      "Keyword searches",
+      "All of the above"
+    ],
+    answer: 3,
+    reason: "Data processing may involve recovering, indexing, hashing, categorisation, artefact compilation and keyword searches."
+  },
+
+  {
+    id: "DF237",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "During data review and analysis, human experts review data mainly for:",
+    options: [
+      "Relevance, privilege and confidentiality",
+      "Increasing the company's sales",
+      "Preparing payroll",
+      "Calculating depreciation"
+    ],
+    answer: 0,
+    reason: "Data review and analysis includes human review for relevance, privilege and confidentiality."
+  },
+
+  {
+    id: "DF238",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following is an example of physical evidence?",
+    options: [
+      "Material left at the scene of an incident",
+      "Email metadata",
+      "Web browsing history",
+      "System audit trail"
+    ],
+    answer: 0,
+    reason: "Physical evidence includes materials that a suspect may leave at the scene of an incident."
+  },
+
+  {
+    id: "DF239",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "NABL is associated with:",
+    options: [
+      "Accreditation of testing and calibration laboratories",
+      "Issuing computer passwords",
+      "Operating ERP systems",
+      "Maintaining social media accounts"
+    ],
+    answer: 0,
+    reason: "The National Accreditation Board for Testing and Calibration Laboratories (NABL) accredits testing laboratories in accordance with international standards."
+  },
+
+  {
+    id: "DF240",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which section of the Information Technology Act, 2000 deals with punishment for violation of privacy?",
+    options: [
+      "Section 66B",
+      "Section 66C",
+      "Section 66D",
+      "Section 66E"
+    ],
+    answer: 3,
+    reason: "Section 66E deals with punishment for violation of privacy involving the intentional or knowing capture, publication or transmission of images of a private area without consent."
+  },
+
+  {
+    id: "DF241",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional is appointed to investigate suspected manipulation of electronic records. Before collecting evidence, the professional wants to understand where the relevant data is stored, how it is accessed, what applications are involved and what backup arrangements exist. Which consideration is most directly relevant?",
+    options: [
+      "Understanding the Information System environment",
+      "Presentation of the final report",
+      "Laboratory analysis of physical evidence",
+      "Calculation of financial ratios"
+    ],
+    answer: 0,
+    reason: "Understanding the Information System environment includes identifying hardware and software, data storage and backups, access procedures, third-party providers and other IT infrastructure."
+  },
+
+  {
+    id: "DF242",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "During an e-discovery exercise, the investigation team discovers that some relevant files may have been accidentally corrupted during conversion into a usable format. This situation primarily represents which type of risk?",
+    options: [
+      "Legal risk",
+      "Technical risk",
+      "Human risk",
+      "Regulatory risk only"
+    ],
+    answer: 1,
+    reason: "Data corruption, incomplete data collection, inaccurate data analysis and errors in data conversion are examples of technical risks."
+  },
+
+  {
+    id: "DF243",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional restricts access to a server containing potentially relevant evidence so that employees cannot modify or delete the information. This activity primarily relates to which stage?",
+    options: [
+      "Data Preservation",
+      "Data Processing",
+      "Data Review and Analysis",
+      "Presentation/Reporting"
+    ],
+    answer: 0,
+    reason: "Data preservation involves preventing loss or alteration of evidence, including restricting access to the media containing the data."
+  },
+
+  {
+    id: "DF244",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A forensic expert creates a forensic copy of a computer's storage media using specialised software while ensuring that the original evidence remains unaltered. This process is best described as:",
+    options: [
+      "Forensic acquisition",
+      "Data presentation",
+      "Data review",
+      "Legal preservation order"
+    ],
+    answer: 0,
+    reason: "Forensic acquisition is the forensic collection of data from digital assets while maintaining the integrity of the evidence."
+  },
+
+  {
+    id: "DF245",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which sequence correctly represents the broad digital evidence gathering process described in the chapter?",
+    options: [
+      "Data Analysis → Identify Source → Data Collection → Presentation",
+      "Identify Source → Data Preservation → Data Collection → Data Processing → Review and Analysis → Presentation",
+      "Data Collection → Identify Source → Presentation → Data Processing",
+      "Presentation → Data Processing → Data Collection → Identify Source"
+    ],
+    answer: 1,
+    reason: "The chapter provides six broad stages: Identify Source, Data Preservation, Data Collection, Data Processing, Data Review and Analysis, and Presentation/Reporting."
+  },
+
+  {
+    id: "DF246",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "An investigation team has collected millions of emails and documents. It now removes irrelevant material, converts information into a usable format and indexes the remaining data for searching. Which stage is being performed?",
+    options: [
+      "Data Collection",
+      "Data Processing",
+      "Data Preservation",
+      "Presentation"
+    ],
+    answer: 1,
+    reason: "Data Processing involves filtering irrelevant data, converting data into a usable format and indexing it to facilitate searching and review."
+  },
+
+  {
+    id: "DF247",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional needs to identify unusual patterns, trends and anomalies after digital evidence has been processed. Which activity would be most appropriate?",
+    options: [
+      "Data Review and Analysis",
+      "Data Preservation",
+      "Source Identification",
+      "Physical evidence collection only"
+    ],
+    answer: 0,
+    reason: "Data Review and Analysis involves human review and the use of data analysis techniques to identify relevant facts, patterns, trends and anomalies."
+  },
+
+  {
+    id: "DF248",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which combination correctly matches the tool with its stated acquisition purpose?",
+    options: [
+      "Sumuri — Mac acquisition",
+      "Intella — Social media acquisition",
+      "X1 — Email acquisition",
+      "Oxygen Forensic Detective — Mac acquisition"
+    ],
+    answer: 0,
+    reason: "Sumuri is listed for Mac acquisition. Intella is for email acquisition, X1 for social media acquisition and Oxygen Forensic Detective for mobile acquisition and cloud."
+  },
+
+  {
+    id: "DF249",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following correctly distinguishes digital forensic acquisition software from e-discovery forensic software?",
+    options: [
+      "Acquisition software gathers and preserves digital evidence, while e-discovery software is primarily used to search and analyse processed evidence.",
+      "Both are used exclusively for preparing court judgments.",
+      "E-discovery software is used only for physical evidence.",
+      "Acquisition software is used only for preparing financial statements."
+    ],
+    answer: 0,
+    reason: "Digital forensic acquisition software is used for forensic collection of digital assets, whereas e-discovery software processes and analyses acquired evidence for searching and investigation."
+  },
+
+  {
+    id: "DF250",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional is not technically competent to perform forensic imaging of a server. What is the most appropriate approach based on the chapter?",
+    options: [
+      "Perform the technical work regardless of expertise",
+      "Ignore the digital evidence",
+      "Use the services of an appropriately qualified Digital Forensic Expert",
+      "Ask the suspect to collect the evidence"
+    ],
+    answer: 2,
+    reason: "Where the professional lacks the necessary technical expertise, a Digital Forensic Expert should perform the technical procedures. FAIS 230 regarding use of an expert is relevant."
+  },
+
+  {
+    id: "DF251",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following is primarily a regulatory consideration during e-discovery?",
+    options: [
+      "Data indexing",
+      "Rules of evidence",
+      "Keyword searching",
+      "File categorisation"
+    ],
+    answer: 1,
+    reason: "Rules of evidence, chain of custody, confidentiality, data protection, privacy, retention laws, preservation orders and search warrants are regulatory considerations."
+  },
+
+  {
+    id: "DF252",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional is collecting electronic records that may ultimately be presented before a court. Which combination is most important for maintaining admissibility?",
+    options: [
+      "High storage capacity and fast internet",
+      "Applicable legal requirements and proper chain of custody",
+      "Only a written statement from management",
+      "Only a backup of the evidence"
+    ],
+    answer: 1,
+    reason: "Digital evidence must comply with applicable laws and proper chain of custody to support its admissibility before a competent authority."
+  },
+
+  {
+    id: "DF253",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "An organisation's employee intentionally deletes relevant information from a computer resource, thereby affecting the information's value. Which provision is most directly relevant based on the chapter?",
+    options: [
+      "Section 4",
+      "Section 43",
+      "Section 66C",
+      "Section 79A"
+    ],
+    answer: 1,
+    reason: "Section 43 covers, among other acts, destroying, deleting or altering information residing in a computer resource or diminishing its value or utility."
+  },
+
+  {
+    id: "DF254",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A company handling sensitive personal data fails to implement reasonable security practices, resulting in wrongful loss to an individual. Which section is most relevant?",
+    options: [
+      "Section 43A",
+      "Section 65",
+      "Section 66B",
+      "Section 67"
+    ],
+    answer: 0,
+    reason: "Section 43A deals with compensation where a body corporate handling sensitive personal data is negligent in implementing reasonable security practices and this causes wrongful loss or gain."
+  },
+
+  {
+    id: "DF255",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "An employee knowingly alters computer source code that is required to be maintained by law. Which provision of the Information Technology Act, 2000 is directly relevant?",
+    options: [
+      "Section 43A",
+      "Section 65",
+      "Section 66B",
+      "Section 66E"
+    ],
+    answer: 1,
+    reason: "Section 65 deals with knowingly or intentionally concealing, destroying or altering computer source code required to be kept or maintained by law."
+  },
+
+  {
+    id: "DF256",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A person dishonestly receives a stolen communication device knowing or having reason to believe that it is stolen. Which section is relevant?",
+    options: [
+      "Section 66B",
+      "Section 66C",
+      "Section 66D",
+      "Section 66E"
+    ],
+    answer: 0,
+    reason: "Section 66B deals with dishonestly receiving or retaining a stolen computer resource or communication device."
+  },
+
+  {
+    id: "DF257",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A person fraudulently uses another person's password to access or use an electronic system. Which provision most directly addresses identity theft?",
+    options: [
+      "Section 66B",
+      "Section 66C",
+      "Section 66D",
+      "Section 67"
+    ],
+    answer: 1,
+    reason: "Section 66C deals with fraudulent or dishonest use of another person's electronic signature, password or other unique identification feature."
+  },
+
+  {
+    id: "DF258",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A person uses a computer resource to cheat another person by pretending to be someone else. Which section is most directly applicable?",
+    options: [
+      "Section 65",
+      "Section 66B",
+      "Section 66D",
+      "Section 79A"
+    ],
+    answer: 2,
+    reason: "Section 66D specifically deals with cheating by personation using a computer resource or communication device."
+  },
+
+  {
+    id: "DF259",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which statement best explains the role of a Digital Forensic Expert in an FAI engagement?",
+    options: [
+      "The expert only prepares the final financial statements.",
+      "The expert gathers digital data forensically through identification, collection, acquisition and preservation.",
+      "The expert replaces the professional in all investigative activities.",
+      "The expert decides the final legal judgment."
+    ],
+    answer: 1,
+    reason: "Digital forensic experts perform technical evidence gathering and follow the forensic process of identification, collection, acquisition and preservation."
+  },
+
+  {
+    id: "DF260",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A forensic investigation involves electronic evidence that requires expert opinion before a court or other authority. Which provision allows the Central Government to notify an entity as an Examiner of Electronic Evidence?",
+    options: [
+      "Section 43",
+      "Section 66",
+      "Section 67",
+      "Section 79A"
+    ],
+    answer: 3,
+    reason: "Section 79A provides for the Central Government to notify a department, body or agency as an Examiner of Electronic Evidence for providing expert opinion on electronic-form evidence."
+  },
+
+  {
+    id: "DF261",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional is asked to collect evidence from an organisation's ERP, email server and mobile devices. Before commencing the exercise, the professional identifies the hardware, software, data storage locations, backups and third-party IT service providers. Which principle is being applied?",
+    options: [
+      "Understanding the Information System environment",
+      "Data presentation",
+      "Laboratory analysis",
+      "Expert testimony"
+    ],
+    answer: 0,
+    reason: "Understanding the Information System environment involves identifying relevant hardware and software, storage and backups, security arrangements and third-party providers."
+  },
+
+  {
+    id: "DF262",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "During an e-discovery assignment, the professional discovers that employees may intentionally destroy relevant electronic records. This should primarily be considered as:",
+    options: [
+      "Technical risk",
+      "Legal risk",
+      "Human risk",
+      "Data processing activity"
+    ],
+    answer: 2,
+    reason: "Intentional destruction of evidence is specifically identified as a human risk in e-discovery."
+  },
+
+  {
+    id: "DF263",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional needs to determine the period for which emails and system records should be collected. Which factor would be least relevant while defining the e-discovery timeline?",
+    options: [
+      "Size and complexity of data",
+      "Scope of the request",
+      "Urgency of the investigation",
+      "Colour of the organisation's office walls"
+    ],
+    answer: 3,
+    reason: "The timeline depends on the size and complexity of data, scope of the request and urgency of the investigation, not irrelevant physical characteristics."
+  },
+
+  {
+    id: "DF264",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following best explains why documented procedures are used during e-discovery?",
+    options: [
+      "To ensure consistency and accuracy",
+      "To eliminate the need for forensic experts",
+      "To permit modification of original evidence",
+      "To avoid complying with applicable laws"
+    ],
+    answer: 0,
+    reason: "Documented procedures help ensure consistency and accuracy and may include both technical and regulatory considerations."
+  },
+
+  {
+    id: "DF265",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "During digital evidence processing, metadata such as date, time stamp, file size and file format is preserved. This activity is primarily associated with:",
+    options: [
+      "Data collection and preservation",
+      "Final reporting only",
+      "Physical laboratory examination",
+      "Expert testimony only"
+    ],
+    answer: 0,
+    reason: "Data collection and preservation includes preserving metadata and maintaining the integrity of the evidence."
+  },
+
+  {
+    id: "DF266",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A forensic team uses software to filter irrelevant documents and convert the remaining information into a searchable format. What is the primary objective of this activity?",
+    options: [
+      "Data processing",
+      "Data preservation",
+      "Source identification",
+      "Expert testimony"
+    ],
+    answer: 0,
+    reason: "Data processing involves filtering irrelevant data, converting data into a usable format and indexing it for searching and review."
+  },
+
+  {
+    id: "DF267",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following is most appropriately associated with the 'Data Review and Analysis' stage?",
+    options: [
+      "Identifying the source device",
+      "Restricting access to the evidence media",
+      "Using keyword searches and data visualisation to identify relevant facts",
+      "Creating a legal hold before collection"
+    ],
+    answer: 2,
+    reason: "Data review and analysis involves human review and analytical techniques such as keyword searches, data visualisation and statistical analysis."
+  },
+
+  {
+    id: "DF268",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which one of the following combinations is correctly matched?",
+    options: [
+      "EnCase Forensic Acquisition — hard disk and Virtual OS",
+      "X1 — Mac acquisition",
+      "Sumuri — social media acquisition",
+      "Intella — mobile acquisition only"
+    ],
+    answer: 0,
+    reason: "EnCase Forensic Acquisition is listed for hard disk and Virtual OS. X1 is for social media, Sumuri for Mac acquisition and Intella for email acquisition."
+  },
+
+  {
+    id: "DF269",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following is specifically associated with server SAS hard disk and SATA hard disk acquisition?",
+    options: [
+      "Write Blocker Tableau TX1",
+      "Oxygen Forensic Detective",
+      "X1",
+      "Intella"
+    ],
+    answer: 0,
+    reason: "Write Blocker Tableau TX1 hardware is listed for server SAS hard disk and SATA hard disk acquisition."
+  },
+
+  {
+    id: "DF270",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "An e-discovery software is used to categorise documents, perform OCR, identify relationships between artefacts and create timelines. Which statement is most appropriate?",
+    options: [
+      "These are capabilities of e-discovery forensic software",
+      "These activities are limited to physical evidence laboratories",
+      "These are functions exclusively performed by an ERP",
+      "These activities relate only to Section 43 of the IT Act"
+    ],
+    answer: 0,
+    reason: "The chapter identifies document categorisation, image categorisation, OCR, artefact relationship links, intelligence searches and timelines as capabilities of e-discovery forensic software."
+  },
+
+  {
+    id: "DF271",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Why may a professional require the assistance of a Digital Forensic Expert even when the professional understands the investigative objectives?",
+    options: [
+      "The professional may lack specialised technical skills required for digital acquisition",
+      "The expert is legally required in every FAI assignment",
+      "Only the expert can understand the allegations",
+      "The professional cannot review any financial information"
+    ],
+    answer: 0,
+    reason: "Digital acquisition involves specialised technical procedures. A professional who lacks such expertise may use a Digital Forensic Expert in accordance with FAIS 230."
+  },
+
+  {
+    id: "DF272",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional wants to ensure that digital evidence can be traced from the time it was collected until its analysis. Which information should be documented?",
+    options: [
+      "Only the name of the person who collected it",
+      "Only the date of collection",
+      "Sequential movement, persons handling it, dates, times and purpose of transfers",
+      "Only the final analytical conclusion"
+    ],
+    answer: 2,
+    reason: "Digital Chain of Custody tracks the sequential movement of evidence and records persons handling it, dates, times and purposes of transfers."
+  },
+
+  {
+    id: "DF273",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following is a regulatory consideration specifically related to electronic evidence admissibility?",
+    options: [
+      "Rules of evidence",
+      "Office seating arrangement",
+      "Employee performance appraisal",
+      "Marketing strategy"
+    ],
+    answer: 0,
+    reason: "Rules of evidence are a key regulatory consideration in e-discovery, including requirements relating to admissibility of electronic records."
+  },
+
+  {
+    id: "DF274",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A company retains electronic records only for a specified statutory period. During e-discovery, the professional considers the applicable requirement concerning the period for which data must be retained. Which consideration is relevant?",
+    options: [
+      "Data retention laws",
+      "Network topology",
+      "File categorisation",
+      "Image recognition"
+    ],
+    answer: 0,
+    reason: "Data retention laws require certain data to be retained for a specified period and are relevant regulatory considerations during e-discovery."
+  },
+
+  {
+    id: "DF275",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which of the following best describes Section 4 of the Information Technology Act, 2000?",
+    options: [
+      "It provides legal recognition to electronic records",
+      "It deals with identity theft",
+      "It deals with computer-related offences",
+      "It deals with violation of privacy"
+    ],
+    answer: 0,
+    reason: "Section 4 provides legal recognition to electronic records where information is required to be in writing, provided the electronic information is accessible for subsequent reference."
+  },
+
+  {
+    id: "DF276",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A person accesses a computer network without permission and downloads data from it. Which provision of the Information Technology Act, 2000 is primarily relevant?",
+    options: [
+      "Section 4",
+      "Section 43",
+      "Section 66C",
+      "Section 79A"
+    ],
+    answer: 1,
+    reason: "Section 43 covers unauthorised access and downloading, copying or extracting data from a computer, computer system or network, among other specified acts."
+  },
+
+  {
+    id: "DF277",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A person dishonestly or fraudulently performs an act covered under Section 43. Which provision may make the conduct a computer-related offence?",
+    options: [
+      "Section 43A",
+      "Section 65",
+      "Section 66",
+      "Section 79A"
+    ],
+    answer: 2,
+    reason: "Section 66 provides punishment where a person dishonestly or fraudulently does an act referred to in Section 43."
+  },
+
+  {
+    id: "DF278",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A person intentionally captures and transmits an image of another person's private area without consent in circumstances violating privacy. Which section is applicable?",
+    options: [
+      "Section 66B",
+      "Section 66C",
+      "Section 66D",
+      "Section 66E"
+    ],
+    answer: 3,
+    reason: "Section 66E deals with punishment for violation of privacy involving intentional or knowing capture, publication or transmission of an image of a private area without consent."
+  },
+
+  {
+    id: "DF279",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A forensic investigator submits electronic evidence requiring expert opinion before a court. Which provision permits the Central Government to notify an appropriate body as an Examiner of Electronic Evidence?",
+    options: [
+      "Section 43A",
+      "Section 66",
+      "Section 67",
+      "Section 79A"
+    ],
+    answer: 3,
+    reason: "Section 79A empowers the Central Government to notify a department, body or agency as an Examiner of Electronic Evidence."
+  },
+
+  {
+    id: "DF280",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional is investigating a fire claim and sends debris samples to an accredited laboratory. The laboratory identifies traces of a heavy petroleum distillate and the investigation also finds intentional deletion of CCTV data before the fire. What is the significance of these findings?",
+    options: [
+      "They may support the indication that the fire was intentionally caused",
+      "They automatically prove the insured committed fraud",
+      "They have no relevance because laboratory evidence cannot be used in forensic accounting",
+      "They only establish that the CCTV equipment was defective"
+    ],
+    answer: 0,
+    reason: "Detection of fire accelerants, suspicious fire patterns and intentional deletion of CCTV data may support findings indicating the incendiary or intentional nature of the fire, but do not by themselves automatically establish guilt."
+  },
+
+  {
+    id: "DF281",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "During an FAI engagement, the professional identifies relevant emails, ERP records, mobile data and server logs. The professional decides that the original digital media should remain untouched, while forensic copies will be used for examination. Which combination most appropriately explains the underlying objective of this approach?",
+    options: [
+      "To ensure the original evidence remains unaltered while examination is performed on copies",
+      "To avoid maintaining a digital chain of custody because copies are not evidence",
+      "To ensure that only metadata is preserved and the underlying data can be modified",
+      "To eliminate the requirement for specialised forensic acquisition tools"
+    ],
+    answer: 0,
+    reason: "Digital evidence must be acquired and preserved in a manner that maintains its integrity. Examination can be performed on forensic copies while the original evidence remains protected from alteration."
+  },
+
+  {
+    id: "DF282",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional directly accesses a suspect's laptop, searches files and copies selected documents onto a pen drive. The professional records the date of collection but does not document who subsequently handled the pen drive, when it was transferred, or why it was transferred. Which statement is most appropriate?",
+    options: [
+      "The evidence is automatically inadmissible because only a Digital Forensic Expert can collect evidence",
+      "The absence of a documented sequential movement of evidence creates a chain-of-custody concern",
+      "The evidence remains fully reliable because the initial collection date was recorded",
+      "Chain of custody applies only to physical evidence and not to digital evidence"
+    ],
+    answer: 1,
+    reason: "Digital Chain of Custody requires tracking the sequential movement of evidence through collection, storage, safeguarding and analysis, including persons handling it, dates, times and purposes of transfers."
+  },
+
+  {
+    id: "DF283",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "An investigator has access to millions of documents. The evidence has already been forensically acquired and processed. The investigator now wants to use OCR, document categorisation, artefact relationship links and timeline analysis to identify evidence relevant to the allegations. Which tool category is most appropriate?",
+    options: [
+      "Digital forensic acquisition software",
+      "e-discovery forensic software",
+      "Write blocker hardware only",
+      "Network infrastructure software"
+    ],
+    answer: 1,
+    reason: "The chapter identifies OCR, document categorisation, artefact relationship links, intelligence searches and timeline capabilities as features of e-discovery forensic software."
+  },
+
+  {
+    id: "DF284",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional lacks technical expertise in forensic acquisition but decides to personally acquire a mobile phone image because the investigative allegations are within the professional's area of expertise. Which is the most appropriate conclusion based on the chapter?",
+    options: [
+      "The professional should always perform the acquisition because investigative knowledge is more important than technical expertise",
+      "The professional should consider using a Digital Forensic Expert because technical acquisition requires specialised skills and errors may have legal ramifications",
+      "The professional should ask the suspect to create a copy of the mobile data",
+      "The professional should avoid collecting any digital evidence whatsoever"
+    ],
+    answer: 1,
+    reason: "Technical digital acquisition requires specialised expertise. The chapter highlights the legal risks of technical mistakes and refers to FAIS 230 regarding the use of an expert."
+  },
+
+  {
+    id: "DF285",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A company claims that a particular email proves that a payment approval was given by its CFO. The email contains a timestamp and the CFO's name, but the investigation discovers that the email account credentials were accessible to several employees. What should the professional primarily consider before treating the email as conclusive evidence?",
+    options: [
+      "The mere presence of the CFO's name is sufficient to establish authenticity",
+      "The professional should consider the integrity, source, authentication and surrounding evidence before drawing a conclusion",
+      "The email should automatically be rejected because all electronic records are unreliable",
+      "The timestamp alone establishes that the CFO personally sent the email"
+    ],
+    answer: 1,
+    reason: "Digital evidence must be evaluated for reliability and integrity. The existence of an electronic record or name alone does not necessarily establish who created or authorised it."
+  },
+
+  {
+    id: "DF286",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "During an e-discovery assignment, the team discovers that some potentially relevant information is protected by confidentiality obligations, while another portion may contain privileged information. Which approach is most consistent with the chapter?",
+    options: [
+      "Ignore confidentiality because all digital evidence must be disclosed",
+      "Consider confidentiality, privilege and applicable legal requirements during search and review",
+      "Delete all confidential information before preserving the evidence",
+      "Provide unrestricted access to all employees involved in the investigation"
+    ],
+    answer: 1,
+    reason: "Relevant regulatory considerations include confidentiality agreements, privacy, data protection and review for relevance and privilege."
+  },
+
+  {
+    id: "DF287",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "An organisation's server contains relevant evidence. Before collection, the professional permits employees to continue accessing and modifying the server but plans to create a forensic image several weeks later. Which is the greatest concern?",
+    options: [
+      "The evidence may be altered or destroyed before preservation, affecting its integrity",
+      "The evidence will automatically become physical evidence",
+      "The data will necessarily become inadmissible because servers cannot be examined",
+      "The professional will no longer need to understand the Information System environment"
+    ],
+    answer: 0,
+    reason: "Data preservation is intended to prevent loss or alteration of evidence. Allowing uncontrolled access may compromise the integrity of relevant digital evidence."
+  },
+
+  {
+    id: "DF288",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A forensic investigator finds that an employee used another employee's password to access a computer system. The investigator also establishes that the employee dishonestly obtained the password and used it to impersonate the other employee online. Which provision is most directly associated with the use of another person's password or unique identification feature?",
+    options: [
+      "Section 43",
+      "Section 66B",
+      "Section 66C",
+      "Section 66E"
+    ],
+    answer: 2,
+    reason: "Section 66C specifically addresses fraudulent or dishonest use of another person's electronic signature, password or other unique identification feature."
+  },
+
+  {
+    id: "DF289",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A person uses a fake online identity to deceive a customer and obtain money through a computer resource. The conduct involves personation rather than merely using another person's password. Which provision most directly addresses this conduct?",
+    options: [
+      "Section 65",
+      "Section 66B",
+      "Section 66C",
+      "Section 66D"
+    ],
+    answer: 3,
+    reason: "Section 66D specifically deals with cheating by personation using a communication device or computer resource. Section 66C concerns identity theft involving another person's electronic signature, password or unique identification feature."
+  },
+
+  {
+    id: "DF290",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A company suffers a cyber incident because it failed to implement reasonable security practices while handling sensitive personal data. The incident causes wrongful loss to an affected person. Which pairing is most appropriate?",
+    options: [
+      "Section 43 — failure to protect sensitive personal data",
+      "Section 43A — negligence in implementing reasonable security practices causing wrongful loss or gain",
+      "Section 66C — failure to protect corporate data",
+      "Section 79A — compensation for data protection failure"
+    ],
+    answer: 1,
+    reason: "Section 43A specifically addresses negligence by a body corporate in implementing and maintaining reasonable security practices for sensitive personal data or information resulting in wrongful loss or gain."
+  },
+
+  {
+    id: "DF291",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A person accesses a computer system without permission, downloads data and subsequently dishonestly performs the act. Which statement best distinguishes Sections 43 and 66?",
+    options: [
+      "Section 43 deals with specified unauthorised acts and compensation, while Section 66 applies where an act referred to in Section 43 is done dishonestly or fraudulently",
+      "Section 43 applies only to identity theft, while Section 66 applies only to privacy violations",
+      "Section 43 creates criminal liability only, while Section 66 deals exclusively with compensation",
+      "There is no conceptual distinction between Sections 43 and 66"
+    ],
+    answer: 0,
+    reason: "Section 43 covers specified acts such as unauthorised access and downloading data and provides for compensation. Section 66 addresses such acts when done dishonestly or fraudulently."
+  },
+
+  {
+    id: "DF292",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional receives a forensic image of a hard disk from a Digital Forensic Expert. The professional then uses e-discovery software to search the image for relevant emails, documents and artefacts. Which statement best describes the respective roles?",
+    options: [
+      "The Digital Forensic Expert primarily performs forensic acquisition and preservation, while the professional can analyse the processed evidence using e-discovery tools",
+      "The professional must repeat the entire forensic acquisition process because e-discovery software cannot analyse acquired evidence",
+      "The Digital Forensic Expert is responsible for making the final legal conclusion",
+      "The professional cannot analyse any data acquired by an expert"
+    ],
+    answer: 0,
+    reason: "The chapter distinguishes forensic acquisition from subsequent e-discovery analysis. The Digital Forensic Expert may acquire and preserve evidence, while the professional may analyse the acquired and processed evidence."
+  },
+
+  {
+    id: "DF293",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "During an investigation, the professional identifies a deleted CCTV recording relating to a suspected fire. Laboratory examination also detects traces of a heavy petroleum distillate in debris, while the investigation finds that the CCTV DVR had been intentionally switched off before the fire. Which conclusion is most appropriate?",
+    options: [
+      "The evidence automatically establishes the identity of the person responsible",
+      "The combined findings may support an inference of an incendiary or intentional fire but should be evaluated with other evidence",
+      "The laboratory findings are irrelevant because digital evidence cannot be combined with physical evidence",
+      "The deleted CCTV recording proves that the fire was accidental"
+    ],
+    answer: 1,
+    reason: "The chapter's illustration shows how laboratory findings, suspicious fire patterns and intentional deletion of CCTV data can support the indication of an incendiary fire. Such findings should be evaluated as part of the overall evidence."
+  },
+
+  {
+    id: "DF294",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional is investigating electronic evidence that may be presented before a competent authority. Management suggests modifying the original electronic records to remove irrelevant information before submission. What should the professional do?",
+    options: [
+      "Modify the original because irrelevant information should never be preserved",
+      "Preserve the original evidence and perform processing or analysis on appropriate copies",
+      "Allow management to modify the evidence if it signs an undertaking",
+      "Delete the original after creating a screenshot"
+    ],
+    answer: 1,
+    reason: "Preserving the integrity of original digital evidence is fundamental. Processing and analysis should be conducted on copies while the original remains protected."
+  },
+
+  {
+    id: "DF295",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional is investigating a cyber incident involving unauthorised access, deletion of information and identity theft. Which approach to the Information Technology Act, 2000 is most appropriate?",
+    options: [
+      "Only Section 66C can be considered because the matter involves digital evidence",
+      "Only Section 43 can apply because all cyber incidents are covered by one provision",
+      "Different provisions may become relevant depending on the specific acts and circumstances of the incident",
+      "Section 79A automatically governs all cyber incidents"
+    ],
+    answer: 2,
+    reason: "The IT Act contains different provisions addressing different conduct, such as unauthorised acts under Section 43, computer-related offences under Section 66 and identity theft under Section 66C."
+  },
+
+  {
+    id: "DF296",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "Which scenario most appropriately demonstrates the difference between data preservation and data processing?",
+    options: [
+      "Preservation prevents alteration of evidence, while processing involves activities such as indexing, hashing, categorisation and keyword searches",
+      "Preservation deletes irrelevant documents, while processing seals the original media",
+      "Both preservation and processing have exactly the same purpose",
+      "Preservation is performed only after final reporting"
+    ],
+    answer: 0,
+    reason: "Preservation protects evidence from loss or alteration, whereas processing involves recovering, indexing, hashing, categorising and otherwise preparing data for review."
+  },
+
+  {
+    id: "DF297",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional is asked to produce electronic evidence in legal proceedings. The professional has properly collected the evidence but cannot demonstrate how it moved from the original device to the analysis environment. Which aspect is most likely to be challenged?",
+    options: [
+      "The company's profitability",
+      "The Digital Chain of Custody and integrity of the evidence",
+      "The organisation's business continuity plan",
+      "The employee's performance appraisal"
+    ],
+    answer: 1,
+    reason: "A documented Digital Chain of Custody is necessary to track the sequential movement and handling of evidence and support its integrity and admissibility."
+  },
+
+  {
+    id: "DF298",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A professional is investigating an alleged fraud and wants to establish whether a particular employee deleted files, accessed confidential information and communicated with an external party. Which combination of digital evidence would potentially be most useful?",
+    options: [
+      "Only the employee's annual salary",
+      "System logs, file metadata, access records and email or messaging data",
+      "Only the company's physical cash balance",
+      "Only the employee's written employment contract"
+    ],
+    answer: 1,
+    reason: "System logs, metadata, access records and electronic communications can provide digital footprints relevant to determining activities, timing and relationships."
+  },
+
+  {
+    id: "DF299",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "A forensic team has identified relevant laptops and mobile devices but has not yet determined which custodians and date ranges are relevant to the investigation. Which statement is most appropriate?",
+    options: [
+      "The identification stage should include determining relevant custodians and date ranges",
+      "Custodians and date ranges are considered only after final reporting",
+      "Custodians are irrelevant when investigating digital evidence",
+      "The team should immediately delete all data outside the suspected transaction date"
+    ],
+    answer: 0,
+    reason: "The Identify Source stage includes identifying relevant digital sources as well as relevant custodians and date ranges of data to be collected."
+  },
+
+  {
+    id: "DF300",
+    difficulty: "Hard",
+    subject: "Forensic Accounting",
+    chapter: "Digital Forensics",
+    question: "An investigator argues that because a digital record is stored electronically and can be displayed on a computer, it automatically satisfies every legal requirement for admissibility. Which response is most appropriate?",
+    options: [
+      "Correct, because every electronic record is automatically admissible",
+      "Incorrect, because digital evidence must comply with applicable laws and proper chain-of-custody requirements",
+      "Correct, provided the record is stored on a cloud server",
+      "Incorrect only when the evidence relates to financial statements"
+    ],
+    answer: 1,
+    reason: "FAIS 420 states that digital evidence needs to comply with applicable laws and proper chain of custody in order to be admissible before a competent authority."
+  },
+
+  {
+  case_id: "DF_CS_01",
+  case_chapter: ["Digital Forensics", "Digital Evidence", "Chain of Custody"],
+  caseText: `
+    <p><strong>Arnav Technologies Limited</strong> is a company engaged in the development
+    of enterprise software and provides cloud-based services to large corporate customers.
+    The company maintains extensive digital records through its ERP system, email servers,
+    document management system, financial accounting system and customer relationship
+    management system.</p>
+
+    <p>During the financial year, the internal audit department noticed that certain payments
+    had been made to a group of newly created vendors. The vendors had received substantial
+    amounts within a short period after their creation in the vendor master. Some of the
+    invoices were approved electronically by employees belonging to the procurement and
+    finance departments.</p>
+
+    <p>The management suspected that certain employees might have colluded with external
+    parties to create fictitious vendors and process fraudulent payments. A professional was
+    appointed to conduct a Forensic Accounting and Investigation engagement.</p>
+
+    <p>During the preliminary assessment, the professional identified several potential sources
+    of digital evidence, including the email system, ERP records, employee laptops, vendor
+    master data, payment records, system logs and mobile devices used by certain employees.</p>
+
+    <p>The professional consulted a Digital Forensic Expert (DFE) because the organisation's
+    IT environment was complex. The DFE explained that the original digital media should be
+    preserved and that forensic acquisition should be performed using specialised tools.
+    The expert also advised that relevant custodians and the appropriate date range should
+    be identified before collecting the data.</p>
+
+    <p>The investigation team subsequently created forensic copies of relevant digital media.
+    The original media was secured, while analysis was performed on the acquired copies.
+    Hash values were generated and preserved. Details regarding the collection, storage,
+    transfer and handling of the evidence were documented, including the date, time, person
+    handling the evidence and purpose of each transfer.</p>
+
+    <p>After processing the acquired data, the professional used e-discovery software to
+    search emails, documents and other electronic records. The analysis identified several
+    communications between a procurement employee and one of the newly created vendors.
+    Further review also showed that some vendor details were similar to details appearing
+    in the employee master records.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "DF_CS_01_1",
+      difficulty: "Easy",
+      question: "Which of the following is a potential source of digital evidence in the above investigation?",
+      options: [
+        "ERP records",
+        "Only physical cash",
+        "Only printed annual reports",
+        "Only physical inventory"
+      ],
+      answer: 0,
+      reason: "ERP records are specifically recognised as a source of digital evidence."
+    },
+
+    {
+      question_id: "DF_CS_01_2",
+      difficulty: "Easy",
+      question: "What is the primary purpose of preserving the original digital media?",
+      options: [
+        "To prevent alteration of the original evidence",
+        "To allow employees to freely modify the evidence",
+        "To reduce the quantity of evidence",
+        "To eliminate the need for analysis"
+      ],
+      answer: 0,
+      reason: "Preservation prevents loss or alteration of the original digital evidence."
+    },
+
+    {
+      question_id: "DF_CS_01_3",
+      difficulty: "Easy",
+      question: "Which software category would be most appropriate for searching and analysing the processed evidence?",
+      options: [
+        "e-Discovery forensic software",
+        "Payroll software",
+        "Word processing software",
+        "Spreadsheet software only"
+      ],
+      answer: 0,
+      reason: "e-Discovery forensic software can process extensive datasets and provide search and analysis capabilities."
+    },
+
+    {
+      question_id: "DF_CS_01_4",
+      difficulty: "Hard",
+      question: "The investigation team recorded the date, time, person handling the evidence and purpose of each transfer. What fundamental requirement is being addressed?",
+      options: [
+        "Data processing",
+        "Digital Chain of Custody",
+        "Data visualisation",
+        "Business continuity"
+      ],
+      answer: 1,
+      reason: "Digital Chain of Custody tracks the sequential movement of evidence through collection, storage, safeguarding and analysis."
+    },
+
+    {
+      question_id: "DF_CS_01_5",
+      difficulty: "Hard",
+      question: "Why was the involvement of the Digital Forensic Expert particularly appropriate in this case?",
+      options: [
+        "Because only a DFE can determine whether fraud occurred",
+        "Because technical identification, collection, acquisition and preservation of digital evidence require specialised expertise",
+        "Because the professional is legally prohibited from analysing digital evidence",
+        "Because e-discovery software cannot be used by professionals"
+      ],
+      answer: 1,
+      reason: "Digital forensic acquisition and preservation require specialised technical skills. The professional may use a DFE in accordance with the requirements relating to use of an expert."
+    }
+
+  ]
+},
+
+{
+  case_id: "DF_CS_02",
+  case_chapter: ["Digital Forensics", "E-Discovery", "Forensic Tools"],
+  caseText: `
+    <p><strong>Zenith Financial Services Limited</strong> provides financial technology
+    services to customers across India. The company maintains a large digital environment
+    consisting of servers, employee computers, mobile devices, cloud-based applications,
+    email accounts and customer databases.</p>
+
+    <p>The company received a complaint alleging that an employee had improperly accessed
+    confidential customer information and had subsequently shared some of the information
+    with an external person. Management appointed a professional to investigate the matter.</p>
+
+    <p>During the initial stage, the professional obtained an understanding of the company's
+    Information System environment. The professional identified the relevant hardware,
+    software, network architecture, data storage locations, backup arrangements and
+    third-party service providers.</p>
+
+    <p>The investigation team identified the employee's laptop, corporate email account,
+    mobile phone and relevant server logs as potential sources of evidence. Since the volume
+    of information was extremely large, the team decided that manually reviewing every
+    document would not be practical.</p>
+
+    <p>A Digital Forensic Expert performed forensic acquisition of the relevant devices using
+    appropriate forensic acquisition tools. The acquired data was then processed. Irrelevant
+    information was filtered, data was indexed, metadata was preserved and system artefacts
+    were extracted.</p>
+
+    <p>The professional subsequently used e-discovery forensic software having capabilities
+    such as document categorisation, OCR, timeline analysis, artefact relationship links and
+    advanced searches.</p>
+
+    <p>The analysis identified several files that had been deleted from the employee's laptop.
+    It also identified communications with an external email address during the same period
+    in which the confidential customer information was accessed.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "DF_CS_02_1",
+      difficulty: "Easy",
+      question: "What should the professional first understand before conducting evidence gathering in the digital domain?",
+      options: [
+        "The Information System environment",
+        "Only the employee's salary",
+        "Only the company's physical assets",
+        "Only the company's tax return"
+      ],
+      answer: 0,
+      reason: "Understanding the Information System environment is an important consideration before digital evidence gathering."
+    },
+
+    {
+      question_id: "DF_CS_02_2",
+      difficulty: "Easy",
+      question: "Which of the following may constitute digital evidence in this case?",
+      options: [
+        "Corporate emails",
+        "Only physical furniture",
+        "Only printed invoices",
+        "Only cash vouchers"
+      ],
+      answer: 0,
+      reason: "Emails are specifically recognised as a form of digital evidence."
+    },
+
+    {
+      question_id: "DF_CS_02_3",
+      difficulty: "Easy",
+      question: "Which activity is associated with data processing?",
+      options: [
+        "Indexing data to facilitate searching and review",
+        "Destroying the original evidence",
+        "Allowing unrestricted access to the evidence",
+        "Ignoring metadata"
+      ],
+      answer: 0,
+      reason: "Data processing includes filtering, converting, indexing and preparing data for searching and review."
+    },
+
+    {
+      question_id: "DF_CS_02_4",
+      difficulty: "Hard",
+      question: "Why would e-discovery software be particularly useful in this investigation?",
+      options: [
+        "It replaces the requirement for forensic acquisition",
+        "It can assist in analysing extensive processed datasets using capabilities such as OCR, categorisation, searches and timeline analysis",
+        "It automatically determines the guilt of the employee",
+        "It makes chain of custody unnecessary"
+      ],
+      answer: 1,
+      reason: "e-Discovery software is designed to process and analyse large datasets and provides capabilities such as OCR, categorisation, searches, relationship links and timelines."
+    },
+
+    {
+      question_id: "DF_CS_02_5",
+      difficulty: "Hard",
+      question: "The investigator discovers deleted files and communications with an external email address during the same period as the alleged data access. What is the most appropriate forensic approach?",
+      options: [
+        "Immediately conclude that the employee committed the fraud",
+        "Treat these findings as potentially relevant evidence and analyse them with other evidence before reaching a conclusion",
+        "Ignore the deleted files because deleted data can never be relevant",
+        "Treat the external email communication as conclusive proof by itself"
+      ],
+      answer: 1,
+      reason: "Digital forensic findings should be analysed objectively with other relevant evidence. The existence of suspicious digital footprints does not by itself establish the final conclusion."
+    }
+
+  ]
+},
+
+{
+  case_id: "DF_CS_03",
+  case_chapter: ["Digital Forensics", "Information Technology Act, 2000"],
+  caseText: `
+    <p><strong>Nova Retail Limited</strong> operates a nationwide online retail platform.
+    Customers access the platform through mobile applications and websites, while the
+    company maintains customer databases, payment systems and communication systems
+    electronically.</p>
+
+    <p>During an investigation, the company discovered that an employee had obtained the
+    password of another employee and used it to access restricted systems. The employee
+    subsequently used the identity of the other employee while communicating with a
+    customer through an online platform.</p>
+
+    <p>Further investigation revealed that certain confidential information had been copied
+    from the company's computer system without permission. Some information stored in the
+    system was also deleted and altered.</p>
+
+    <p>The company appointed a professional to investigate the incident. The professional
+    understood that the Information Technology Act, 2000 is a direct impact law relevant
+    to electronic evidence gathering and that the exact legal provisions applicable would
+    depend upon the nature of the acts involved.</p>
+
+    <p>During the investigation, the professional also considered whether the evidence had
+    been collected and preserved appropriately so that its reliability and admissibility
+    before a competent authority would not be compromised.</p>
+
+    <p>The investigation team also consulted an appropriate digital forensic expert for the
+    technical acquisition and preservation of the relevant electronic evidence.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "DF_CS_03_1",
+      difficulty: "Easy",
+      question: "Which law is identified in the chapter as a direct impact law relevant to electronic gathering of evidence?",
+      options: [
+        "Information Technology Act, 2000",
+        "Companies Act, 2013 only",
+        "Income-tax Act, 1961 only",
+        "Sale of Goods Act only"
+      ],
+      answer: 0,
+      reason: "The Information Technology Act, 2000 is identified as a direct impact law relevant to electronic gathering of evidence."
+    },
+
+    {
+      question_id: "DF_CS_03_2",
+      difficulty: "Easy",
+      question: "Which section deals with legal recognition of electronic records?",
+      options: [
+        "Section 4",
+        "Section 43A",
+        "Section 66C",
+        "Section 79A"
+      ],
+      answer: 0,
+      reason: "Section 4 provides legal recognition of electronic records subject to the conditions specified therein."
+    },
+
+    {
+      question_id: "DF_CS_03_3",
+      difficulty: "Easy",
+      question: "Which section relates to identity theft?",
+      options: [
+        "Section 43",
+        "Section 65",
+        "Section 66C",
+        "Section 66E"
+      ],
+      answer: 2,
+      reason: "Section 66C deals with punishment for identity theft."
+    },
+
+    {
+      question_id: "DF_CS_03_4",
+      difficulty: "Hard",
+      question: "The employee dishonestly used another person's password and unique identification feature to access the system. Which provision is most directly relevant?",
+      options: [
+        "Section 66B",
+        "Section 66C",
+        "Section 66D",
+        "Section 67"
+      ],
+      answer: 1,
+      reason: "Section 66C specifically covers fraudulent or dishonest use of another person's electronic signature, password or other unique identification feature."
+    },
+
+    {
+      question_id: "DF_CS_03_5",
+      difficulty: "Hard",
+      question: "The employee accessed the system without permission, copied data and altered or deleted information. Which statement best reflects the legal analysis?",
+      options: [
+        "Only Section 66C can apply because a password was involved",
+        "Only Section 4 can apply because the information was electronic",
+        "Different provisions may be relevant depending on the specific conduct, including provisions dealing with unauthorised acts and computer-related offences",
+        "Section 79A automatically makes the employee liable for all acts"
+      ],
+      answer: 2,
+      reason: "The IT Act contains separate provisions dealing with different forms of conduct. Section 43 addresses specified unauthorised acts, while Section 66 applies where an act referred to in Section 43 is done dishonestly or fraudulently."
+    }
+
+  ]
+},
+
+{
+  case_id: "DF_CS_04",
+  case_chapter: ["Digital Forensics", "Digital Forensic Acquisition", "Use of Expert"],
+  caseText: `
+    <p><strong>Vertex Infrastructure Limited</strong> undertakes large infrastructure
+    projects across different states. The company uses an ERP system for procurement,
+    finance and project management. Employees also use laptops, mobile phones and cloud
+    applications for conducting business.</p>
+
+    <p>The internal audit department noticed unusual changes in certain purchase orders.
+    Several purchase orders had been modified after approval, and the modified orders
+    reflected higher prices than the originally approved orders. The changes were made
+    using the credentials of employees who claimed that they had not made the
+    modifications.</p>
+
+    <p>Management appointed a professional to investigate the matter. During the initial
+    discussion, the professional understood that the investigation could involve ERP
+    records, employee laptops, system logs, email communications and access-control
+    records.</p>
+
+    <p>Since the investigation involved technically complex systems, the professional
+    decided to obtain assistance from a Digital Forensic Expert. The expert first
+    identified the relevant devices and systems and advised the professional regarding
+    the location and manner in which relevant data was stored.</p>
+
+    <p>The expert then performed forensic acquisition of the relevant digital media using
+    specialised acquisition tools. The original media was preserved and the investigation
+    team worked on acquired copies. Hash values were generated to assist in establishing
+    the integrity of the acquired evidence.</p>
+
+    <p>After acquisition and preservation, the data was processed. Deleted files, system
+    artefacts, logs and metadata were extracted. The professional then used appropriate
+    e-discovery software to review the processed evidence and identify relevant records.</p>
+
+    <p>The investigation eventually identified that certain purchase orders had been
+    modified shortly after approval. The system logs also indicated access from a device
+    associated with an employee's account during a period when the employee claimed to
+    be unavailable.</p>
+  `,
+  questions: [
+    {
+      question_id: "DF_CS_04_1",
+      difficulty: "Easy",
+      question: "Who would generally possess specialised expertise in identifying, collecting, acquiring and preserving digital evidence?",
+      options: [
+        "Digital Forensic Expert",
+        "Only the HR manager",
+        "Only the statutory auditor",
+        "Only the purchase manager"
+      ],
+      answer: 0,
+      reason: "A Digital Forensic Expert possesses specialised technical expertise in digital forensic acquisition and preservation."
+    },
+
+    {
+      question_id: "DF_CS_04_2",
+      difficulty: "Easy",
+      question: "Why were the original digital media preserved while analysis was performed on acquired copies?",
+      options: [
+        "To protect the integrity of the original evidence",
+        "To destroy irrelevant evidence",
+        "To avoid documenting the evidence",
+        "To make the evidence inaccessible"
+      ],
+      answer: 0,
+      reason: "Working on copies helps preserve the original evidence in an unaltered state."
+    },
+
+    {
+      question_id: "DF_CS_04_3",
+      difficulty: "Easy",
+      question: "Which of the following is an example of a digital artefact that may be analysed?",
+      options: [
+        "System logs",
+        "Physical building walls",
+        "Office furniture",
+        "Paper stationery"
+      ],
+      answer: 0,
+      reason: "System logs are digital information that can form part of the forensic evidence."
+    },
+
+    {
+      question_id: "DF_CS_04_4",
+      difficulty: "Hard",
+      question: "Why should the professional avoid independently performing technically complex forensic acquisition where appropriate expertise is unavailable?",
+      options: [
+        "Because professionals can never examine digital evidence",
+        "Because technical mistakes during acquisition may affect the integrity, reliability and admissibility of evidence",
+        "Because acquisition is not part of digital forensics",
+        "Because only management can preserve digital evidence"
+      ],
+      answer: 1,
+      reason: "Improper technical acquisition may compromise evidence and expose the professional to technical and legal challenges. Appropriate expert assistance may therefore be necessary."
+    },
+
+    {
+      question_id: "DF_CS_04_5",
+      difficulty: "Hard",
+      question: "The system logs show access through an employee's account when the employee claims to have been unavailable. What should the professional conclude?",
+      options: [
+        "The employee definitely committed the fraud",
+        "The employee's account could not have been compromised",
+        "The finding is a relevant lead that should be corroborated with other evidence",
+        "The system logs should automatically be ignored"
+      ],
+      answer: 2,
+      reason: "A forensic finding should be evaluated objectively and corroborated with other evidence before reaching a final conclusion."
+    }
+  ]
+},
+
+{
+  case_id: "DF_CS_05",
+  case_chapter: ["Digital Forensics", "Laboratory Analysis", "Physical Evidence"],
+  caseText: `
+    <p><strong>SecureShield Insurance Limited</strong> received a large insurance claim
+    following a fire at a warehouse belonging to one of its corporate customers. The
+    warehouse contained electronic equipment, computer servers, surveillance systems
+    and other valuable assets.</p>
+
+    <p>The claimant stated that the fire had resulted from an accidental electrical
+    short-circuit and claimed substantial compensation for the damaged assets. However,
+    certain circumstances surrounding the incident appeared unusual to the insurer.</p>
+
+    <p>The surveillance system had stopped recording shortly before the fire. The Digital
+    Video Recorder (DVR) showed signs that certain data had been deleted. In addition,
+    investigators observed unusual fire patterns at different locations within the
+    warehouse.</p>
+
+    <p>A professional was appointed to investigate the genuineness and circumstances of
+    the insurance claim. Samples of debris and damaged electrical wiring were collected
+    and sent to an appropriate forensic laboratory for examination.</p>
+
+    <p>The laboratory analysis did not detect a short-circuit in the electrical wiring
+    samples. However, traces of a heavy petroleum distillate were detected in debris
+    samples. Such material can act as a fire-accelerating agent.</p>
+
+    <p>The investigation also established that CCTV data had been intentionally deleted
+    before the date of the fire and that the DVR had been switched off. These findings,
+    together with suspicious fire patterns, raised the possibility that the incident may
+    not have been accidental.</p>
+
+    <p>The professional considered the laboratory findings along with the digital evidence
+    and other investigative information rather than relying on any single finding in
+    isolation.</p>
+  `,
+  questions: [
+    {
+      question_id: "DF_CS_05_1",
+      difficulty: "Easy",
+      question: "What is one purpose of laboratory examination of physical evidence?",
+      options: [
+        "To analyse and compare physical evidence using scientific methodologies",
+        "To automatically determine the accused person's guilt",
+        "To replace the investigation entirely",
+        "To eliminate the need for evidence preservation"
+      ],
+      answer: 0,
+      reason: "Laboratory examination uses scientific methodologies to analyse and compare physical evidence."
+    },
+
+    {
+      question_id: "DF_CS_05_2",
+      difficulty: "Easy",
+      question: "Which organisation is mentioned as accrediting testing and calibration laboratories?",
+      options: [
+        "NABL",
+        "RBI",
+        "SEBI",
+        "ICAI"
+      ],
+      answer: 0,
+      reason: "NABL, a constituent Board of the Quality Council of India, accredits testing laboratories in accordance with applicable standards."
+    },
+
+    {
+      question_id: "DF_CS_05_3",
+      difficulty: "Easy",
+      question: "Which of the following was identified as digital evidence in the case?",
+      options: [
+        "Deleted CCTV/DVR data",
+        "Only the physical debris",
+        "Only electrical wiring",
+        "Only warehouse walls"
+      ],
+      answer: 0,
+      reason: "CCTV/DVR data is electronic information and therefore constitutes digital evidence."
+    },
+
+    {
+      question_id: "DF_CS_05_4",
+      difficulty: "Hard",
+      question: "The laboratory found traces of heavy petroleum distillate but did not detect a short-circuit. What is the most appropriate interpretation?",
+      options: [
+        "The laboratory result alone conclusively proves intentional fire",
+        "The result is irrelevant because no short-circuit was found",
+        "The result is an important investigative finding that should be considered with other evidence",
+        "The result automatically establishes who caused the fire"
+      ],
+      answer: 2,
+      reason: "Laboratory findings provide evidence regarding the nature of the incident but should be evaluated together with other physical, digital and investigative evidence."
+    },
+
+    {
+      question_id: "DF_CS_05_5",
+      difficulty: "Hard",
+      question: "Why is the combination of deleted CCTV data, switching off of the DVR, absence of a detected short-circuit and presence of a fire-accelerating substance significant?",
+      options: [
+        "Each finding independently proves the identity of the person responsible",
+        "The combined findings may support a hypothesis of an intentionally caused fire and justify further investigation",
+        "Digital evidence cannot be considered with physical evidence",
+        "Laboratory evidence automatically overrides all other evidence"
+      ],
+      answer: 1,
+      reason: "Multiple independent findings can collectively support or challenge a hypothesis. They should be evaluated objectively rather than treating any single finding as conclusive."
+    }
+  ]
+},
+
+{
+  case_id: "DF_CS_06",
+  case_chapter: ["Digital Forensics", "Information Technology Act, 2000"],
+  caseText: `
+    <p><strong>Orion Health Services Limited</strong> operates an online platform through
+    which customers can access various healthcare-related services. The company maintains
+    sensitive customer information electronically and uses multiple computer systems,
+    databases and communication platforms.</p>
+
+    <p>During an internal investigation, the company discovered that an employee had
+    accessed certain computer resources without permission. The employee downloaded
+    confidential information and subsequently altered certain records in the system.</p>
+
+    <p>The company also discovered that another person had obtained a company employee's
+    password and used it to impersonate that employee while communicating with customers
+    through a computer resource.</p>
+
+    <p>Management appointed a professional to investigate the matter. The professional
+    identified that different acts could potentially attract different provisions of the
+    Information Technology Act, 2000.</p>
+
+    <p>During the investigation, the professional also considered whether the company had
+    implemented reasonable security practices and procedures for protecting sensitive
+    personal data. The investigation team preserved relevant electronic evidence and
+    maintained appropriate records regarding its collection and handling.</p>
+
+    <p>The professional also consulted an appropriate expert regarding electronic evidence.
+    The expert explained that the Information Technology Act, 2000 contains provisions
+    relating to an Examiner of Electronic Evidence and that the Central Government may
+    notify an appropriate department, body or agency for providing expert opinion on
+    electronic evidence before a court or other authority.</p>
+  `,
+  questions: [
+    {
+      question_id: "DF_CS_06_1",
+      difficulty: "Easy",
+      question: "Which section of the Information Technology Act, 2000 deals with legal recognition of electronic records?",
+      options: [
+        "Section 4",
+        "Section 43",
+        "Section 66C",
+        "Section 79A"
+      ],
+      answer: 0,
+      reason: "Section 4 provides legal recognition of electronic records subject to the specified conditions."
+    },
+
+    {
+      question_id: "DF_CS_06_2",
+      difficulty: "Easy",
+      question: "Which section deals with identity theft?",
+      options: [
+        "Section 65",
+        "Section 66B",
+        "Section 66C",
+        "Section 67"
+      ],
+      answer: 2,
+      reason: "Section 66C deals with punishment for identity theft."
+    },
+
+    {
+      question_id: "DF_CS_06_3",
+      difficulty: "Easy",
+      question: "Which section provides for notification of an Examiner of Electronic Evidence?",
+      options: [
+        "Section 43A",
+        "Section 66D",
+        "Section 67",
+        "Section 79A"
+      ],
+      answer: 3,
+      reason: "Section 79A empowers the Central Government to notify an Examiner of Electronic Evidence."
+    },
+
+    {
+      question_id: "DF_CS_06_4",
+      difficulty: "Hard",
+      question: "Orion Health Services Limited, while possessing sensitive personal data, is negligent in implementing reasonable security practices and this negligence causes wrongful loss to a person. Which provision is most directly relevant?",
+      options: [
+        "Section 43A",
+        "Section 65",
+        "Section 66B",
+        "Section 66D"
+      ],
+      answer: 0,
+      reason: "Section 43A deals with compensation where a body corporate handling sensitive personal data is negligent in implementing and maintaining reasonable security practices and this causes wrongful loss or wrongful gain."
+    },
+
+    {
+      question_id: "DF_CS_06_5",
+      difficulty: "Hard",
+      question: "An individual dishonestly accesses a computer system without permission, downloads data and alters information. If the conduct is of the nature covered by Section 43 and is done dishonestly or fraudulently, which provision specifically deals with computer-related offences?",
+      options: [
+        "Section 4",
+        "Section 43A",
+        "Section 66",
+        "Section 79A"
+      ],
+      answer: 2,
+      reason: "Section 66 provides punishment where a person dishonestly or fraudulently does an act referred to in Section 43."
+    }
+  ]
+}
 
 
 
