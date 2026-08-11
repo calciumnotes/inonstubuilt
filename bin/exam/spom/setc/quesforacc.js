@@ -17055,7 +17055,1326 @@ reason:"Modified electronic records may require additional scrutiny, while unmat
       reason: "Section 66 provides punishment where a person dishonestly or fraudulently does an act referred to in Section 43."
     }
   ]
-}
+},
+
+// Chapter 8
+
+{
+  case_id: "INT_CS_01",
+  case_chapter: ["Interviewing Skills", "Planning an Interview", "Conducting an Interview"],
+  caseText: `
+    <p><strong>Nova Furnishings Limited</strong> manufactures and exports home furnishing
+    products to customers in India and overseas. The company recently discovered a
+    significant difference between its inventory records and the physical inventory
+    available at one of its manufacturing units.</p>
+
+    <p>The management initially suspected that certain employees responsible for the
+    custody and maintenance of inventory may have failed to properly record the movement
+    of finished goods. However, there were also indications that the difference could have
+    resulted from weaknesses in the inventory recording system or delays in recording
+    dispatches.</p>
+
+    <p>The company appointed a forensic accountant, CA R, to investigate the matter.
+    Before conducting interviews, CA R reviewed the available inventory records, purchase
+    documents, dispatch records, internal audit observations and relevant system reports.
+    He also considered different hypotheses, including the possibility that employees had
+    intentionally removed inventory as well as the possibility that the discrepancy had
+    arisen because of an accounting or recording error.</p>
+
+    <p>CA R classified the persons to be interviewed into different categories. The first
+    employee was responsible for warehouse operations and could provide information
+    regarding the movement of inventory. Another employee was responsible for updating
+    inventory records in the system. A third employee had reported the discrepancy to
+    management.</p>
+
+    <p>CA R prepared an interview plan identifying the important events and topics that
+    needed to be covered. Instead of preparing a rigid list of questions that had to be
+    asked in a predetermined manner, he identified key points and possible questions.
+    He understood that the questions might need to change depending upon the answers
+    received during the interview.</p>
+
+    <p>For the interview, CA R selected a private meeting room that provided adequate
+    confidentiality and allowed the interviewee to feel reasonably comfortable. The
+    interviewee was formally informed about the purpose, time and place of the interview.
+    CA R also considered whether any interpreter or representative might be required.</p>
+
+    <p>During the interview, CA R remained polite, patient and impartial. He did not assume
+    that the warehouse employee was guilty merely because the employee had custody of
+    inventory. He began with general questions and gradually moved towards questions
+    concerning specific transactions and events.</p>
+
+    <p>CA R asked the employee, “Can you describe what normally happens when finished
+    goods are moved from the production area to the warehouse?” He then remained silent
+    and allowed the employee to provide a complete account without unnecessary
+    interruption.</p>
+
+    <p>After receiving the initial account, CA R summarised the employee's responses and
+    asked whether his understanding was factually correct. The employee was given an
+    opportunity to add further information before the interview moved to another topic.</p>
+  `,
+  questions: [
+    {
+      question_id: "INT_CS_01_1",
+      difficulty: "Easy",
+      question: "What is the primary objective of conducting an interview in a forensic accounting investigation?",
+      options: [
+        "To corroborate evidence and obtain relevant information",
+        "To force the interviewee to confess",
+        "To establish guilt before collecting evidence",
+        "To replace documentary evidence completely"
+      ],
+      answer: 0,
+      reason: "The overall objective of an interview is to seek information for corroborating evidence and, where appropriate, record statements or admissions."
+    },
+
+    {
+      question_id: "INT_CS_01_2",
+      difficulty: "Easy",
+      question: "Which type of question was used when CA R asked, 'Can you describe what normally happens when finished goods are moved from the production area to the warehouse?'",
+      options: [
+        "Open-ended question",
+        "Leading question",
+        "Admission-seeking question",
+        "Closed question"
+      ],
+      answer: 0,
+      reason: "The question encourages the interviewee to provide a detailed account rather than merely answering yes or no."
+    },
+
+    {
+      question_id: "INT_CS_01_3",
+      difficulty: "Easy",
+      question: "Why did CA R remain silent after asking the open-ended question?",
+      options: [
+        "To allow the interviewee to provide an uninterrupted account",
+        "To intimidate the interviewee",
+        "To indicate that the interview was over",
+        "To prevent the interviewee from answering"
+      ],
+      answer: 0,
+      reason: "During the First Free Account phase, the interviewer should actively listen and avoid unnecessarily interrupting the interviewee."
+    },
+
+    {
+      question_id: "INT_CS_01_4",
+      difficulty: "Hard",
+      question: "Why was it appropriate for CA R to consider the possibility that the inventory discrepancy resulted from a recording error as well as intentional removal of inventory?",
+      options: [
+        "Because every interview must result in an admission",
+        "Because the professional should maintain an open mind and explore alternative hypotheses, including innocence",
+        "Because documentary evidence is irrelevant in forensic investigations",
+        "Because the interviewee must decide the hypothesis"
+      ],
+      answer: 1,
+      reason: "The professional should not assume guilt or focus prematurely on one explanation. Alternative hypotheses, including the possibility that the subject is innocent, should be considered."
+    },
+
+    {
+      question_id: "INT_CS_01_5",
+      difficulty: "Hard",
+      question: "After summarising the employee's responses, CA R asked the employee to confirm whether his understanding was factually correct. Which phase of the interview does this most closely represent?",
+      options: [
+        "Introduction and rapport building",
+        "First Free Account",
+        "Review and Repeat",
+        "Admission-seeking phase"
+      ],
+      answer: 2,
+      reason: "In the Review and Repeat phase, the interviewer reviews or summarises the interviewee's account and seeks confirmation of factual accuracy."
+    }
+  ]
+},
+
+{
+  case_id: "INT_CS_02",
+  case_chapter: ["Interviewing Skills", "Recording Statements", "Closing an Interview"],
+  caseText: `
+    <p><strong>Ardent Electronics Limited</strong> manufactures electronic components.
+    During a forensic investigation into suspected procurement irregularities, the
+    professional identified several transactions involving a supplier that had received
+    unusually large orders shortly before the end of the financial year.</p>
+
+    <p>The professional decided to interview Mr. K, the procurement manager who was
+    responsible for vendor selection and purchase orders. Before the interview, Mr. K was
+    informed about the background and purpose of the interview, the scope of the
+    investigation and the manner in which the information provided during the interview
+    would be used.</p>
+
+    <p>The lead interviewer introduced the members of the interview team and explained
+    the procedure to Mr. K. He also explained that the interview would be conducted in a
+    professional and respectful manner and that Mr. K could seek appropriate advice.</p>
+
+    <p>The lead interviewer proposed recording the interview through audio and video.
+    Mr. K was informed about the proposed recording and gave his prior consent. The
+    interviewer ensured that the consent was properly recorded before commencing the
+    interview.</p>
+
+    <p>During the interview, the interviewer asked Mr. K to explain the vendor selection
+    process. Mr. K initially gave a general explanation. The interviewer then asked
+    additional non-confrontational questions regarding the relevant purchase orders,
+    approval process and communication with the vendor.</p>
+
+    <p>At one point, the interviewer showed Mr. K a copy of a purchase order and asked him
+    to explain the circumstances surrounding its approval. The interviewer did not hand
+    over the original document and maintained control over the original records.</p>
+
+    <p>Mr. K provided several explanations. The interviewer took continuous notes and
+    ensured that the notes were objective, accurate and relevant. The interviewer did not
+    record personal opinions regarding Mr. K's credibility or guilt in the interview notes.</p>
+
+    <p>At the conclusion of the interview, the interviewer asked Mr. K whether he had any
+    additional information or concerns relevant to the investigation. Mr. K provided
+    additional information regarding another employee involved in vendor approvals.</p>
+
+    <p>The written statement was reviewed with Mr. K. Corrections were initialled and Mr. K
+    signed the statement. The interviewer also provided an appropriate contact method in
+    case Mr. K wished to provide additional information later.</p>
+  `,
+  questions: [
+    {
+      question_id: "INT_CS_02_1",
+      difficulty: "Easy",
+      question: "When may an interview be audio or video recorded according to the chapter?",
+      options: [
+        "Only after obtaining prior consent of the interviewee",
+        "Whenever the interviewer wants",
+        "Without informing the interviewee",
+        "Only after the investigation is completed"
+      ],
+      answer: 0,
+      reason: "Audio or video recording should be done only with the prior consent of the interviewee."
+    },
+
+    {
+      question_id: "INT_CS_02_2",
+      difficulty: "Easy",
+      question: "What should interview notes generally contain?",
+      options: [
+        "Objective, accurate and relevant information",
+        "The interviewer's personal opinion about guilt",
+        "Only statements supporting the allegation",
+        "Only the interviewer's conclusions"
+      ],
+      answer: 0,
+      reason: "Interview notes should be comprehensive, objective, accurate and relevant and capture the key discussions."
+    },
+
+    {
+      question_id: "INT_CS_02_3",
+      difficulty: "Easy",
+      question: "Why did the interviewer show Mr. K a copy rather than the original purchase order?",
+      options: [
+        "To maintain control and safeguard the original document",
+        "Because originals can never be used in investigations",
+        "Because copies automatically become primary evidence",
+        "To prevent Mr. K from answering questions"
+      ],
+      answer: 0,
+      reason: "It is good practice to share a copy rather than the original document during an interview."
+    },
+
+    {
+      question_id: "INT_CS_02_4",
+      difficulty: "Hard",
+      question: "Suppose the interviewer had secretly recorded the conversation without Mr. K's knowledge or consent. Which statement is most consistent with the chapter?",
+      options: [
+        "The recording would automatically become stronger evidence because it was secret",
+        "Discrete recording is inadmissible as evidence before competent authorities",
+        "Secret recording is mandatory in every forensic interview",
+        "Consent is unnecessary when the interview concerns an employee"
+      ],
+      answer: 1,
+      reason: "The chapter specifically states that audio/video recording requires prior consent and that discrete recording is inadmissible as evidence before competent authorities."
+    },
+
+    {
+      question_id: "INT_CS_02_5",
+      difficulty: "Hard",
+      question: "Why should the interviewer provide an opportunity for Mr. K to provide additional information at the end of the interview?",
+      options: [
+        "To allow relevant additional facts or concerns to emerge before closing the interview",
+        "To force him to admit wrongdoing",
+        "To replace the investigation's documentary evidence",
+        "To prevent him from contacting anyone later"
+      ],
+      answer: 0,
+      reason: "Closing an interview should include an opportunity for the interviewee to document or provide additional information relevant to the investigation."
+    }
+  ]
+},
+
+{
+  case_id: "INT_CS_03",
+  case_chapter: ["Interviewing Skills", "Non-verbal Cues", "Types of Questions"],
+  caseText: `
+    <p><strong>Meridian Retail Limited</strong> operates a chain of retail stores. The
+    company noticed that certain employees had been processing unusually high numbers
+    of refunds and cancellations. Some of these transactions were subsequently followed
+    by cash withdrawals.</p>
+
+    <p>A forensic accountant, CA S, was appointed to examine the matter. Based on the
+    preliminary review, CA S decided to interview employees involved in processing
+    refunds. One of the employees, Ms. P, had processed a significantly higher number
+    of refunds than most other employees.</p>
+
+    <p>CA S began the interview with introductory questions concerning Ms. P's job role,
+    normal duties, experience and the procedures followed at the store. The questions
+    were deliberately neutral and non-accusatory so that Ms. P would not immediately
+    become defensive.</p>
+
+    <p>CA S then moved to informational questions. He first asked broad questions such as,
+    “Can you describe the normal refund process followed at your store?” After obtaining
+    the general account, he gradually moved towards specific questions concerning certain
+    refund transactions.</p>
+
+    <p>While answering some questions, Ms. P avoided eye contact, repeatedly rubbed her
+    hands and appeared unusually nervous. CA S noticed these non-verbal cues but did not
+    immediately conclude that Ms. P was lying. Instead, he considered the observations as
+    factors that might warrant further examination.</p>
+
+    <p>CA S then showed Ms. P selected transaction records and asked her to explain the
+    circumstances surrounding those transactions. He rephrased certain questions in
+    different ways to verify whether the explanations remained consistent.</p>
+
+    <p>Towards the end of the interview, CA S asked assessment questions concerning the
+    employee's understanding of company rules and whether she believed an employee could
+    misuse the refund process. The employee became defensive when these questions were
+    asked.</p>
+
+    <p>CA S did not immediately treat the employee's reaction as proof of misconduct. He
+    continued to evaluate the answers, documentary evidence and other information
+    gathered during the investigation.</p>
+  `,
+  questions: [
+    {
+      question_id: "INT_CS_03_1",
+      difficulty: "Easy",
+      question: "What is the purpose of introductory questions?",
+      options: [
+        "To establish rapport and collect general information",
+        "To force an admission",
+        "To accuse the interviewee immediately",
+        "To conclude the interview"
+      ],
+      answer: 0,
+      reason: "Introductory questions help provide an introduction, establish rapport, communicate expectations and observe initial responses."
+    },
+
+    {
+      question_id: "INT_CS_03_2",
+      difficulty: "Easy",
+      question: "Which question is most clearly open-ended?",
+      options: [
+        "Did you process this refund?",
+        "Were you working that day?",
+        "Can you describe the normal refund process followed at your store?",
+        "You approved the refund, didn't you?"
+      ],
+      answer: 2,
+      reason: "The question invites the interviewee to provide a detailed account rather than limiting the answer to yes or no."
+    },
+
+    {
+      question_id: "INT_CS_03_3",
+      difficulty: "Easy",
+      question: "Which of the following is an example of a non-verbal cue?",
+      options: [
+        "Avoiding eye contact",
+        "A written invoice",
+        "A purchase order",
+        "A ledger account"
+      ],
+      answer: 0,
+      reason: "Eye contact and body language are examples of non-verbal communication cues."
+    },
+
+    {
+      question_id: "INT_CS_03_4",
+      difficulty: "Hard",
+      question: "Why was CA S correct in not concluding that Ms. P was dishonest merely because she avoided eye contact and appeared nervous?",
+      options: [
+        "Non-verbal cues can never be useful",
+        "A non-verbal cue by itself does not conclusively establish deception and should be evaluated with other evidence",
+        "Nervousness automatically proves innocence",
+        "Eye contact is irrelevant in every interview"
+      ],
+      answer: 1,
+      reason: "Non-verbal cues may help an interviewer identify areas requiring further examination, but they should not alone be treated as conclusive proof of deception."
+    },
+
+    {
+      question_id: "INT_CS_03_5",
+      difficulty: "Hard",
+      question: "Why did CA S begin with broad informational questions and subsequently move towards specific transactions?",
+      options: [
+        "To establish the sequence and context of events before testing specific facts",
+        "Because specific questions cannot be asked in forensic interviews",
+        "To ensure that the interviewee never sees any evidence",
+        "Because open-ended questions are only used at the end"
+      ],
+      answer: 0,
+      reason: "The general approach is to begin with general/open-ended questions and then move towards specific questions, helping establish the context and sequence of events while allowing the interviewee to provide a free account."
+    }
+  ]
+},
+
+  {
+    id: "INT101",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "According to FAIS 340, what is an interview?",
+    options: [
+      "A written investigation report",
+      "A structured meeting with individuals for eliciting information",
+      "A meeting conducted only with suspects",
+      "A formal court proceeding"
+    ],
+    answer: 1,
+    reason: "FAIS 340 defines interview as a structured meeting with individuals for eliciting information."
+  },
+
+  {
+    id: "INT102",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "What is the primary objective of conducting an interview in an FAI engagement?",
+    options: [
+      "To force the interviewee to confess",
+      "To corroborate evidence and obtain relevant information",
+      "To replace documentary evidence",
+      "To determine punishment"
+    ],
+    answer: 1,
+    reason: "The overall objective of an interview is to seek information for corroborating evidence and, where appropriate, record statements of admission."
+  },
+
+  {
+    id: "INT103",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which of the following is a good practice for an interviewer?",
+    options: [
+      "Assume the interviewee is guilty",
+      "Keep an open mind",
+      "Become aggressive with the interviewee",
+      "Reveal all available evidence immediately"
+    ],
+    answer: 1,
+    reason: "The interviewer should keep an open mind and should not assume either guilt or innocence."
+  },
+
+  {
+    id: "INT104",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Why should an interviewer remain in control during an interview?",
+    options: [
+      "To intimidate the interviewee",
+      "To maintain control over the interview and remain composed",
+      "To prevent the interviewee from answering",
+      "To force an admission"
+    ],
+    answer: 1,
+    reason: "The interviewer should stay in control of both the interview and themselves, even when faced with aggressive or insulting comments."
+  },
+
+  {
+    id: "INT105",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which type of question generally encourages an interviewee to provide a full response?",
+    options: [
+      "Open-ended question",
+      "Closed question",
+      "Leading question",
+      "Yes-or-no question"
+    ],
+    answer: 0,
+    reason: "Open-ended questions encourage the interviewee to give a full and uninterrupted account."
+  },
+
+  {
+    id: "INT106",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "What should an interviewer generally avoid doing during an interview?",
+    options: [
+      "Listening actively",
+      "Maintaining an open mind",
+      "Revealing the full extent of their knowledge",
+      "Asking relevant questions"
+    ],
+    answer: 2,
+    reason: "The interviewer should not reveal the extent of their knowledge because doing so may allow the interviewee to tailor their explanation."
+  },
+
+  {
+    id: "INT107",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Ideally, an interview should be conducted in an environment that provides:",
+    options: [
+      "Maximum public exposure",
+      "Privacy and confidentiality",
+      "Constant interruptions",
+      "An uncomfortable atmosphere"
+    ],
+    answer: 1,
+    reason: "Interviews should ideally be conducted in a private and controlled environment where confidentiality can be maintained."
+  },
+
+  {
+    id: "INT108",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "What should the interviewer generally maintain during an interview?",
+    options: [
+      "Avoidance of eye contact",
+      "Eye contact",
+      "Physical distance from the interviewee at all times",
+      "A threatening expression"
+    ],
+    answer: 1,
+    reason: "Maintaining eye contact as much as possible creates a comfortable environment and facilitates the flow of information."
+  },
+
+  {
+    id: "INT109",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which of the following should an interviewer avoid expressing during an interview?",
+    options: [
+      "Politeness",
+      "Patience",
+      "Personal opinions about the interviewee",
+      "Respect"
+    ],
+    answer: 2,
+    reason: "The interviewer should avoid making opinions or impressions about the interviewee."
+  },
+
+  {
+    id: "INT110",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "What are the three broad stages of the interview process?",
+    options: [
+      "Planning, conducting and closing",
+      "Planning, auditing and reporting",
+      "Investigation, prosecution and judgment",
+      "Evidence, trial and punishment"
+    ],
+    answer: 0,
+    reason: "The interview process consists of planning an interview, conducting it and closing it."
+  },
+
+  {
+    id: "INT111",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which of the following should be considered while planning an interview?",
+    options: [
+      "Classification of the interviewee",
+      "Only the interviewer's personal opinion",
+      "The punishment to be imposed",
+      "The final court judgment"
+    ],
+    answer: 0,
+    reason: "The interviewer should understand the interviewee's classification, such as whistleblower, witness, information provider or subject."
+  },
+
+  {
+    id: "INT112",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "An interview plan primarily provides a framework for:",
+    options: [
+      "Determining punishment",
+      "Questioning, including sequence and outline of topics",
+      "Replacing the investigation",
+      "Preparing financial statements"
+    ],
+    answer: 1,
+    reason: "An interview plan provides a framework for questioning, including the sequence and outline for questions relating to activities or events."
+  },
+
+  {
+    id: "INT113",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which of the following is generally discouraged as an interview location?",
+    options: [
+      "A private meeting room",
+      "A controlled meeting room",
+      "The interviewee's own office",
+      "A confidential location"
+    ],
+    answer: 2,
+    reason: "An interview in the interviewee's office is discouraged."
+  },
+
+  {
+    id: "INT114",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Who generally provides direction to the interview?",
+    options: [
+      "The interviewee",
+      "The Lead Interviewer",
+      "The receptionist",
+      "The external auditor"
+    ],
+    answer: 1,
+    reason: "The Lead Interviewer is responsible for the interview and provides direction to it."
+  },
+
+  {
+    id: "INT115",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which phase of an interview involves obtaining a complete account from the interviewee?",
+    options: [
+      "First Free Account",
+      "Closing phase",
+      "Admission phase",
+      "Reporting phase"
+    ],
+    answer: 0,
+    reason: "During the First Free Account phase, the interviewer seeks a complete account and actively listens."
+  },
+
+  {
+    id: "INT116",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which questions are generally used during the First Free Account phase?",
+    options: [
+      "Broad open-ended questions",
+      "Only accusatory questions",
+      "Only yes-or-no questions",
+      "Only admission-seeking questions"
+    ],
+    answer: 0,
+    reason: "The First Free Account phase generally begins with broad open-ended questions."
+  },
+
+  {
+    id: "INT117",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "What is the purpose of the Review and Repeat phase?",
+    options: [
+      "To confuse the interviewee",
+      "To confirm the interviewer's understanding of the interviewee's account",
+      "To terminate the investigation",
+      "To force an admission"
+    ],
+    answer: 1,
+    reason: "The interviewer reviews or summarises the account and seeks confirmation of its factual accuracy."
+  },
+
+  {
+    id: "INT118",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Audio or video recording of an interview should be done:",
+    options: [
+      "Secretly",
+      "Without informing the interviewee",
+      "With prior consent of the interviewee",
+      "Only after the investigation is completed"
+    ],
+    answer: 2,
+    reason: "The interview can be audio or video recorded only with the prior consent of the interviewee."
+  },
+
+  {
+    id: "INT119",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which of the following is a suitable action while closing an interview?",
+    options: [
+      "Prevent the interviewee from providing further information",
+      "Give the interviewee an opportunity to provide additional information",
+      "Destroy the interview notes",
+      "Immediately accuse the interviewee"
+    ],
+    answer: 1,
+    reason: "At the end of the interview, the interviewee should be given an opportunity to provide additional relevant information or concerns."
+  },
+
+  {
+    id: "INT120",
+    difficulty: "Easy",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "What do non-verbal cues include?",
+    options: [
+      "Only written statements",
+      "Facial expressions, gestures and eye contact",
+      "Only financial records",
+      "Only documentary evidence"
+    ],
+    answer: 1,
+    reason: "Non-verbal cues include facial expressions, gestures, emotions, eye contact and other body-language indicators."
+  },
+  {
+    id: "INT121",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "During an FAI interview, the interviewer suspects that the interviewee may be involved in misconduct. What is the most appropriate approach?",
+    options: [
+      "Assume guilt and frame questions accordingly",
+      "Maintain an open mind and consider both guilt and innocence",
+      "Avoid asking any questions concerning the suspected misconduct",
+      "Inform the interviewee that guilt has already been established"
+    ],
+    answer: 1,
+    reason: "The interviewer should not assume either guilt or innocence and should gather facts impartially."
+  },
+
+  {
+    id: "INT122",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Why should an interviewer generally avoid preparing a rigid list of predetermined questions?",
+    options: [
+      "Questions are not required during forensic interviews",
+      "The interview should be allowed to develop based on the answers provided",
+      "Predetermined questions are prohibited by FAIS",
+      "Only the interviewee can decide what questions should be asked"
+    ],
+    answer: 1,
+    reason: "The interviewer may prepare key points and possible questions, but the flow should not be restricted because questions may need to change based on responses."
+  },
+
+  {
+    id: "INT123",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "An interviewer immediately tells a suspect that substantial evidence has already been collected against him. What is the principal concern with this approach?",
+    options: [
+      "The interview will necessarily become shorter",
+      "The suspect may tailor his explanation after knowing the extent of the interviewer's knowledge",
+      "The interviewer will lose access to documentary evidence",
+      "The suspect will automatically confess"
+    ],
+    answer: 1,
+    reason: "Revealing the extent of knowledge can provide the interviewee an opportunity to explain or tailor their actions based on what the interviewer knows."
+  },
+
+  {
+    id: "INT124",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "A professional is planning an interview with an employee who speaks a language unfamiliar to the interview team. What should the professional consider?",
+    options: [
+      "Proceed without communication assistance",
+      "Use an interpreter who can translate accurately and confidentially",
+      "Ask another employee to answer on behalf of the interviewee",
+      "Cancel the interview permanently"
+    ],
+    answer: 1,
+    reason: "Where necessary, an interpreter should be considered to ensure clear and unambiguous communication, with an obligation to translate accurately and confidentially."
+  },
+
+  {
+    id: "INT125",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Why is an interview team generally preferred over a one-on-one interview?",
+    options: [
+      "A large team is always required by law",
+      "One-on-one interviews are generally discouraged, while an appropriately sized team can support the interview",
+      "The interviewee must always face at least ten interviewers",
+      "A team eliminates the need for a Lead Interviewer"
+    ],
+    answer: 1,
+    reason: "Interviews are normally conducted with the help of an interview team. However, the team should not be too large because that may create an interrogation-like atmosphere."
+  },
+
+  {
+    id: "INT126",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Why should the purpose of an interview be aligned with the objective of the investigation?",
+    options: [
+      "To ensure that the interview remains relevant to the engagement",
+      "To make the interview more intimidating",
+      "To prevent the interviewee from asking questions",
+      "To avoid collecting documentary evidence"
+    ],
+    answer: 0,
+    reason: "The interview objective should support the aim of the investigation and should not be different from it."
+  },
+
+  {
+    id: "INT127",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which of the following best describes the relationship between hypotheses and interview planning?",
+    options: [
+      "Hypotheses should be ignored during interview planning",
+      "Linking the interview plan with relevant hypotheses can make questioning more effective",
+      "Only the interviewee should formulate hypotheses",
+      "A hypothesis must always prove the suspect's guilt"
+    ],
+    answer: 1,
+    reason: "Linking the interview plan with specific hypotheses helps the professional conduct focused and effective questioning."
+  },
+
+  {
+    id: "INT128",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "During an interview, the interviewer asks the employee to describe the entire sequence of events and does not interrupt the employee while speaking. Which phase is this?",
+    options: [
+      "Assessment Questions",
+      "Admission-seeking Questions",
+      "First Free Account",
+      "Closing Questions"
+    ],
+    answer: 2,
+    reason: "The First Free Account phase involves seeking a complete account and actively listening without unnecessary interruption."
+  },
+
+  {
+    id: "INT129",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "An interviewer summarises the interviewee's explanation and asks, 'Is my understanding of what happened factually correct?' What is the primary purpose?",
+    options: [
+      "To establish a criminal penalty",
+      "To confirm the interviewer's understanding and factual accuracy",
+      "To terminate the investigation",
+      "To force an admission"
+    ],
+    answer: 1,
+    reason: "The Review and Repeat phase allows the interviewer to confirm the factual accuracy of the account."
+  },
+
+  {
+    id: "INT130",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which of the following is most appropriate when taking interview notes?",
+    options: [
+      "Record only statements supporting the investigation hypothesis",
+      "Include personal impressions about whether the interviewee is guilty",
+      "Maintain comprehensive, objective, accurate and relevant notes",
+      "Write the notes several weeks after the interview"
+    ],
+    answer: 2,
+    reason: "Interview notes should be comprehensive, objective, accurate and relevant and should capture key discussions."
+  },
+
+  {
+    id: "INT131",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "A professional wants to record an interview through video. Which step should be taken before recording begins?",
+    options: [
+      "Obtain prior consent from the interviewee",
+      "Record secretly",
+      "Obtain consent only after the interview ends",
+      "Record without informing anyone"
+    ],
+    answer: 0,
+    reason: "Audio or video recording requires prior consent of the interviewee."
+  },
+
+  {
+    id: "INT132",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Why should an interviewer normally use copies rather than original documents when showing documents to an interviewee?",
+    options: [
+      "Original documents are never evidence",
+      "Copies help protect and maintain control over original documents",
+      "Copies are always legally superior to originals",
+      "The interviewee cannot understand original documents"
+    ],
+    answer: 1,
+    reason: "It is better for the professional to share a copy and retain control over the original document."
+  },
+
+  {
+    id: "INT133",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "At the conclusion of an interview, the interviewee mentions an additional fact that may be relevant to the investigation. What should the interviewer generally do?",
+    options: [
+      "Ignore the information because the interview has ended",
+      "Provide an opportunity to document and consider the additional information",
+      "Immediately accuse the interviewee",
+      "Delete the previous interview notes"
+    ],
+    answer: 1,
+    reason: "Closing the interview should include an opportunity for the interviewee to provide additional relevant information or concerns."
+  },
+
+  {
+    id: "INT134",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Why should the interviewer review the entire interview after it has been completed?",
+    options: [
+      "To determine whether further action is necessary and how the account fits with the investigation",
+      "To destroy irrelevant evidence",
+      "To decide the punishment immediately",
+      "To prevent further investigation"
+    ],
+    answer: 0,
+    reason: "Post-interview evaluation helps determine further action, assess how the account fits with the investigation, review coverage and reassess priorities."
+  },
+
+  {
+    id: "INT135",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Why should introductory questions generally be neutral and non-accusatory?",
+    options: [
+      "To prevent the interviewee from becoming unnecessarily defensive",
+      "To ensure no questions are asked later",
+      "To establish guilt indirectly",
+      "To eliminate the need for rapport"
+    ],
+    answer: 0,
+    reason: "Accusatory language at the beginning can put the respondent in a defensive frame of mind and affect subsequent responses."
+  },
+
+  {
+    id: "INT136",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which sequence is generally appropriate while asking informational questions?",
+    options: [
+      "Specific questions followed by general questions",
+      "General questions followed by specific questions",
+      "Admission questions followed by introductory questions",
+      "Closing questions followed by informational questions"
+    ],
+    answer: 1,
+    reason: "The general rule is to begin with general questions and then gradually move to specific questions."
+  },
+
+  {
+    id: "INT137",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which of the following is an example of an informational question?",
+    options: [
+      "Can you describe your day-to-day functions in the department?",
+      "You stole the money, didn't you?",
+      "Why should we not punish you?",
+      "You are responsible for this, aren't you?"
+    ],
+    answer: 0,
+    reason: "Informational questions are generally non-confronting and seek information about systems, processes and events."
+  },
+
+  {
+    id: "INT138",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "What is the main purpose of closing questions?",
+    options: [
+      "To reconfirm facts and obtain additional relevant information",
+      "To intimidate the interviewee",
+      "To start the investigation",
+      "To replace assessment questions"
+    ],
+    answer: 0,
+    reason: "Closing questions are generally used to reconfirm facts already gathered and obtain additional information before concluding the interview."
+  },
+
+  {
+    id: "INT139",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Assessment questions are generally asked toward the end of an interview primarily to:",
+    options: [
+      "Establish the respondent's credibility and observe reactions",
+      "Collect only general background information",
+      "Introduce the interviewee to the interviewer",
+      "Record the interviewer's personal opinion"
+    ],
+    answer: 0,
+    reason: "Assessment questions are designed to establish credibility in cases of doubt and may help the interviewer assess verbal and non-verbal reactions."
+  },
+
+  {
+    id: "INT140",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Why should non-verbal cues be considered along with other information during an interview?",
+    options: [
+      "They can provide useful indications but should be considered as part of the overall assessment",
+      "They conclusively prove whether a person is lying",
+      "They completely replace documentary evidence",
+      "They are irrelevant in every investigation"
+    ],
+    answer: 0,
+    reason: "Facial expressions, gestures, emotions and eye contact may provide useful indications, but they should be considered along with the overall evidence and circumstances."
+  },
+  {
+    id: "INT141",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "A professional begins an interview by telling the employee, 'We know that you manipulated the records, so explain why you did it.' Which principle of interviewing is most clearly violated?",
+    options: [
+      "Maintaining an open mind",
+      "Taking continuous notes",
+      "Providing a preferred contact method",
+      "Closing the interview positively"
+    ],
+    answer: 0,
+    reason: "The interviewer should not assume guilt. The purpose is to establish facts objectively rather than confirm a preconceived conclusion."
+  },
+
+  {
+    id: "INT142",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "During planning, a professional considers the possibility that the subject of the investigation may actually be innocent. This approach demonstrates:",
+    options: [
+      "Premature conclusion",
+      "Objectivity in hypothesis development",
+      "Admission seeking",
+      "Confirmation of guilt"
+    ],
+    answer: 1,
+    reason: "The interviewer should explore all hypotheses, including the possibility that the subject is innocent."
+  },
+
+  {
+    id: "INT143",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Why should information gathered before an interview be analysed before questioning begins?",
+    options: [
+      "To ensure relevant facts are understood and questioning is properly focused",
+      "To guarantee that the interviewee will confess",
+      "To eliminate the need for open-ended questions",
+      "To prevent the interviewee from giving explanations"
+    ],
+    answer: 0,
+    reason: "Incomplete preliminary information may result in false or evasive responses and can reduce the effectiveness of the interview."
+  },
+
+  {
+    id: "INT144",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "A professional has identified several key events that must be covered but does not prepare a rigid sequence of questions. Why is this appropriate?",
+    options: [
+      "The interviewer should have no preparation",
+      "The flow can be adapted according to the interviewee's responses",
+      "Questions are unnecessary during interviews",
+      "The interviewee should prepare all questions"
+    ],
+    answer: 1,
+    reason: "The interviewer may prepare key points and possible questions, but the interview should remain flexible."
+  },
+
+  {
+    id: "INT145",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "An interviewee wishes to have a representative accompany him during the interview. Which statement is most appropriate?",
+    options: [
+      "The interviewee cannot have anyone accompany him",
+      "The interviewee may choose a representative to accompany him",
+      "Only the interviewer can nominate a representative",
+      "The interview must automatically be cancelled"
+    ],
+    answer: 1,
+    reason: "The interviewee may choose a representative, usually nominated by him, to accompany him."
+  },
+
+  {
+    id: "INT146",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Why should an interview location take confidentiality and privacy into account?",
+    options: [
+      "Because interviews may contain sensitive investigative information",
+      "Because the interviewee must always be isolated",
+      "Because interviews cannot be conducted during business hours",
+      "Because documentary evidence cannot be discussed in meetings"
+    ],
+    answer: 0,
+    reason: "The interview location should protect confidentiality and privacy and should be conducive to conducting the interview."
+  },
+
+  {
+    id: "INT147",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which of the following is an appropriate purpose of sending a formal written interview invitation?",
+    options: [
+      "To state the time, place and purpose of the interview",
+      "To disclose all evidence against the interviewee",
+      "To force the interviewee to admit wrongdoing",
+      "To provide the final investigation conclusion"
+    ],
+    answer: 0,
+    reason: "A formal written invitation should state the time, place and purpose of the interview."
+  },
+
+  {
+    id: "INT148",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "At the beginning of an interview, the Lead Interviewer explains the purpose, procedure, ground rules and rights of the interviewee. This primarily helps to:",
+    options: [
+      "Establish understanding and rapport before questioning",
+      "Complete the investigation immediately",
+      "Force the interviewee to cooperate",
+      "Avoid recording statements"
+    ],
+    answer: 0,
+    reason: "Explaining the purpose, procedure, ground rules and rights helps establish a shared understanding and develops rapport."
+  },
+
+  {
+    id: "INT149",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Why should the Lead Interviewer converse in a language understood by the interviewee?",
+    options: [
+      "To ensure clear and unambiguous communication",
+      "To make the interview more formal",
+      "To avoid taking notes",
+      "To prevent the interviewee from asking questions"
+    ],
+    answer: 0,
+    reason: "Clear and unambiguous communication is a prerequisite for a successful interview."
+  },
+
+  {
+    id: "INT150",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "An interviewer repeatedly interrupts an employee while the employee is providing a free account. What is the main issue with this approach?",
+    options: [
+      "It may prevent the employee from providing a complete uninterrupted account",
+      "It guarantees accurate evidence",
+      "It improves active listening",
+      "It is required during the First Free Account"
+    ],
+    answer: 0,
+    reason: "During the First Free Account, the interviewer should actively listen and avoid unnecessary intervention while the interviewee is speaking."
+  },
+
+  {
+    id: "INT151",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "An interviewer asks, 'What happened after the goods were delivered?' Which interviewing technique does this question primarily support?",
+    options: [
+      "Obtaining an account of the sequence of events",
+      "Making an admission",
+      "Closing the interview",
+      "Assessing punishment"
+    ],
+    answer: 0,
+    reason: "Questions such as 'What happened next?' encourage the interviewee to describe events in sequence."
+  },
+
+  {
+    id: "INT152",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Why may an interviewer rephrase a question during an informational interview?",
+    options: [
+      "To provide an opportunity to verify and clarify the answer",
+      "To confuse the interviewee",
+      "To change the investigation objective",
+      "To force the interviewee to agree"
+    ],
+    answer: 0,
+    reason: "Questions may be rephrased and asked in different words to give the interviewee an opportunity to verify their answers."
+  },
+
+  {
+    id: "INT153",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which of the following best represents active listening during an interview?",
+    options: [
+      "Listening carefully to the free account without unnecessarily interrupting",
+      "Preparing the next question while ignoring the answer",
+      "Interrupting after every sentence",
+      "Disagreeing with every explanation"
+    ],
+    answer: 0,
+    reason: "Active listening requires the interviewer to carefully hear and understand the interviewee's account."
+  },
+
+  {
+    id: "INT154",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "During an interview, an employee becomes angry and makes insulting comments. What should the interviewer do?",
+    options: [
+      "Become angry in response",
+      "Remain patient, polite and in control",
+      "Immediately terminate the investigation",
+      "Threaten the employee with punishment"
+    ],
+    answer: 1,
+    reason: "The interviewer should remain in control and should not allow aggressive comments to provoke irritation or anger."
+  },
+
+  {
+    id: "INT155",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which of the following is most appropriate regarding the interviewer's emotions?",
+    options: [
+      "The interviewer should show excitement whenever important information is disclosed",
+      "The interviewer should remain neutral and avoid conveying emotions",
+      "The interviewer should show anger when the answer is inconsistent",
+      "The interviewer should celebrate an apparent admission"
+    ],
+    answer: 1,
+    reason: "The interviewer should not convey emotions such as excitement during the interview or while taking notes."
+  },
+
+  {
+    id: "INT156",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "A whistleblower is interviewed regarding suspected financial misconduct. Which interviewee classification does the whistleblower fall under?",
+    options: [
+      "Subject",
+      "Witness",
+      "Whistleblower",
+      "Interpreter"
+    ],
+    answer: 2,
+    reason: "Whistleblower is specifically identified as one of the classifications of persons who may be interviewed."
+  },
+
+  {
+    id: "INT157",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Which statement correctly distinguishes assessment questions from informational questions?",
+    options: [
+      "Assessment questions may help establish credibility, while informational questions primarily gather facts",
+      "Assessment questions are always asked first",
+      "Informational questions are always accusatory",
+      "There is no difference between the two"
+    ],
+    answer: 0,
+    reason: "Informational questions gather facts and build the sequence of events, while assessment questions may be used to assess credibility and reactions."
+  },
+
+  {
+    id: "INT158",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "What is the primary purpose of admission-seeking questions?",
+    options: [
+      "To probe the accused or supporters and potentially obtain an admission",
+      "To establish basic personal information",
+      "To introduce the interviewer",
+      "To provide confidentiality assurance"
+    ],
+    answer: 0,
+    reason: "Admission-seeking questions are directed towards probing the accused or supporters and may seek an admission or clarification of responsibility."
+  },
+
+  {
+    id: "INT159",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "Why should admission-seeking questions be handled with extreme care?",
+    options: [
+      "They may be direct or accusatory in nature",
+      "They are always open-ended",
+      "They can only be asked to witnesses",
+      "They are used only for introductory purposes"
+    ],
+    answer: 0,
+    reason: "Admission-seeking questions may include direct accusatory questions and therefore require careful handling."
+  },
+
+  {
+    id: "INT160",
+    difficulty: "Medium",
+    subject: "Forensic Accounting",
+    chapter: "Interviewing Skills",
+    question: "At the end of an interview, the professional asks the interviewee, 'Are there any other facts I need to know regarding this matter?' This is best classified as:",
+    options: [
+      "An introductory question",
+      "An informational question",
+      "A closing question",
+      "An admission-seeking question"
+    ],
+    answer: 2,
+    reason: "Closing questions are used to reconfirm facts and obtain any additional relevant information before concluding the interview."
+  }
 
 
 
