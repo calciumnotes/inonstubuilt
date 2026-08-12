@@ -21833,7 +21833,1477 @@ reason:"Modified electronic records may require additional scrutiny, while unmat
     }
 
   ]
-}
+},
+
+// Chapter 10
+  {
+    id: "FRP101",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "What is the primary purpose of an anti-fraud policy?",
+    options: [
+      "To increase sales of the organisation",
+      "To minimise the likelihood of fraud and maximise its detection",
+      "To eliminate the need for internal controls",
+      "To replace the audit function"
+    ],
+    answer: 1
+  },
+  {
+    id: "FRP102",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "Which of the following should be conducted as the first step in a risk-based fraud prevention programme?",
+    options: [
+      "Fraud Risk Assessment",
+      "Surprise audit",
+      "Employee termination",
+      "Purchase of insurance"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP103",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "Which of the following is considered while assessing the likelihood of occurrence of fraud?",
+    options: [
+      "Past occurrences",
+      "Colour of the company's logo",
+      "Office furniture",
+      "Number of holidays"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP104",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "Which of the following is an example of a preventive control?",
+    options: [
+      "Segregation of duties",
+      "Post-fraud investigation",
+      "Criminal prosecution",
+      "Court proceedings"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP105",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "What is residual fraud risk?",
+    options: [
+      "Fraud risk before any controls are implemented",
+      "Fraud risk remaining after considering existing controls",
+      "Fraud risk relating only to external parties",
+      "Fraud risk that has already resulted in a loss"
+    ],
+    answer: 1
+  },
+  {
+    id: "FRP106",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "Which of the following is a response to fraud risk?",
+    options: [
+      "Avoid the risk",
+      "Transfer the risk",
+      "Mitigate the risk",
+      "All of the above"
+    ],
+    answer: 3
+  },
+  {
+    id: "FRP107",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "Purchase of an insurance policy to protect against a risk is an example of:",
+    options: [
+      "Avoiding the risk",
+      "Transferring the risk",
+      "Assuming the risk",
+      "Ignoring the risk"
+    ],
+    answer: 1
+  },
+  {
+    id: "FRP108",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "Implementation of preventive and detective controls is an example of:",
+    options: [
+      "Mitigating the risk",
+      "Avoiding the risk",
+      "Transferring the risk",
+      "Assuming the risk"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP109",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "Under section 177(9) of the Companies Act, 2013, certain companies are required to establish:",
+    options: [
+      "A marketing committee",
+      "A vigil mechanism",
+      "A sales committee",
+      "A recruitment committee"
+    ],
+    answer: 1
+  },
+  {
+    id: "FRP110",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "The vigil mechanism provides safeguards against:",
+    options: [
+      "Victimisation of persons using the mechanism",
+      "Reduction in profits",
+      "Increase in taxation",
+      "Employee promotion"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP111",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "A whistleblower policy primarily enables individuals to:",
+    options: [
+      "Report unethical or illegal activities",
+      "Approve financial statements",
+      "Prepare tax returns",
+      "Conduct statutory audits"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP112",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "Which of the following is an important feature of a whistleblower policy?",
+    options: [
+      "Anonymity",
+      "Public disclosure of the whistleblower's identity",
+      "Restriction on reporting",
+      "Removal of confidentiality"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP113",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "Which of the following is a common internal control useful for preventing fraud?",
+    options: [
+      "Segregation of duties",
+      "Ignoring reconciliations",
+      "Removing access controls",
+      "Avoiding audits"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP114",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "Which of the following is an example of an internal control?",
+    options: [
+      "Reconciliation",
+      "Fraud encouragement",
+      "Removal of logs",
+      "Unlimited access"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP115",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "Job rotation is useful primarily because it:",
+    options: [
+      "Can help prevent and detect fraudulent activities",
+      "Eliminates all business risks",
+      "Removes the need for supervision",
+      "Increases employee secrecy"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP116",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "The initial step towards preventing fraud is to adopt a culture of:",
+    options: [
+      "Honesty and integrity",
+      "Secrecy and fear",
+      "Competition at any cost",
+      "Profit maximisation only"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP117",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "A code of conduct or ethics generally outlines:",
+    options: [
+      "Company values and expected employee behaviour",
+      "Only employee salaries",
+      "Only sales targets",
+      "Only tax liabilities"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP118",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "Which of the following is a basic principle of natural justice?",
+    options: [
+      "Rule against bias",
+      "Rule against evidence",
+      "Rule against investigation",
+      "Rule against documentation"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP119",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "The principle 'No man shall be a judge in his own case' represents:",
+    options: [
+      "Rule against bias",
+      "Rule of taxation",
+      "Rule of confidentiality",
+      "Rule of evidence"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP120",
+    difficulty: "easy",
+    chapter: "Fraud Prevention",
+    question: "The principle 'No man should be condemned unheard' relates to:",
+    options: [
+      "Rule of fair hearing",
+      "Rule against bias",
+      "Rule of transfer",
+      "Rule of risk assumption"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP121",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "While assessing the likelihood of occurrence of a specific fraud risk, which of the following factors may be considered?",
+    options: [
+      "Past occurrences, complexity of fraud and management ethics",
+      "Only the current share price of the company",
+      "Only the number of employees",
+      "Only the age of the organisation"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP122",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "Which of the following may be considered while assessing the significance or impact of a fraud risk?",
+    options: [
+      "Value of assets associated with the risk",
+      "Potential financial loss",
+      "Reputation loss and legal liabilities",
+      "All of the above"
+    ],
+    answer: 3
+  },
+  {
+    id: "FRP123",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "Before mapping existing controls to identified fraud risks, an organisation should specifically evaluate:",
+    options: [
+      "People most likely to commit the fraud",
+      "Only external auditors",
+      "Only customers of the organisation",
+      "Only the company's competitors"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP124",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "Which of the following can help management evaluate whether an identified fraud control is operating effectively?",
+    options: [
+      "Interviews with management",
+      "Review of previous audit reports",
+      "Recreation of transactions",
+      "All of the above"
+    ],
+    answer: 3
+  },
+  {
+    id: "FRP125",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "After existing controls are considered, the organisation determines the:",
+    options: [
+      "Residual fraud risk",
+      "Statutory audit fee",
+      "Employee turnover rate",
+      "Marketing budget"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP126",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "A company decides to discontinue a business activity because the cost of fraud risk is substantially higher than the expected benefit. This represents:",
+    options: [
+      "Risk transfer",
+      "Risk mitigation",
+      "Risk avoidance",
+      "Risk assumption"
+    ],
+    answer: 2
+  },
+  {
+    id: "FRP127",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "A company decides to accept a fraud risk because the probability of its occurrence is extremely low. This is an example of:",
+    options: [
+      "Avoiding the risk",
+      "Transferring the risk",
+      "Mitigating the risk",
+      "Assuming the risk"
+    ],
+    answer: 3
+  },
+  {
+    id: "FRP128",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "Under the vigil mechanism provisions, direct access may be provided to the:",
+    options: [
+      "Chief Executive Officer",
+      "Chairperson of the Audit Committee",
+      "Human Resources Manager",
+      "External Auditor"
+    ],
+    answer: 1
+  },
+  {
+    id: "FRP129",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "Under Rule 7, which company is required to establish a vigil mechanism?",
+    options: [
+      "A company that has borrowed more than ₹50 crore from banks and public financial institutions",
+      "Every sole proprietorship",
+      "Every partnership firm irrespective of size",
+      "Only companies having foreign shareholders"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP130",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "Which statement correctly distinguishes a vigil mechanism from a whistleblower policy?",
+    options: [
+      "Vigil mechanism is broader, while whistleblower policy is a specific component for reporting concerns",
+      "Whistleblower policy is broader than the entire vigilance framework",
+      "Both terms necessarily have completely different purposes",
+      "Neither deals with fraud risk"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP131",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "Why is anonymity important in a whistleblower policy?",
+    options: [
+      "It can encourage individuals to report wrongdoing without fear of retaliation",
+      "It eliminates the need to investigate allegations",
+      "It prevents management from knowing about fraud",
+      "It makes all allegations automatically true"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP132",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "Which of the following is specifically mentioned as a way of increasing awareness about fraud detection procedures?",
+    options: [
+      "Mandatory leave policy",
+      "Job rotation",
+      "Proactive and surprise audits",
+      "All of the above"
+    ],
+    answer: 3
+  },
+  {
+    id: "FRP133",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "A well-documented anti-fraud policy should clearly state that it applies to:",
+    options: [
+      "Only junior employees",
+      "Only directors",
+      "All levels of staff, employees and executives",
+      "Only the internal audit department"
+    ],
+    answer: 2
+  },
+  {
+    id: "FRP134",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "Why should an anti-fraud policy specify the procedures for reporting and investigating fraud?",
+    options: [
+      "To identify responsibilities and authorities for handling fraud reports",
+      "To eliminate the need for evidence",
+      "To prevent employees from reporting concerns",
+      "To ensure all investigations remain informal"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP135",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "Which of the following should generally be kept confidential in an anti-fraud investigation?",
+    options: [
+      "The investigation and related information, except on a need-to-know basis",
+      "All company policies",
+      "All employee salaries",
+      "The company's public financial statements"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP136",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "Which of the following is NOT listed as a common internal control helpful in preventing fraud?",
+    options: [
+      "Segregation of duties",
+      "Maintaining logs",
+      "Physical access controls",
+      "Removing reconciliations"
+    ],
+    answer: 3
+  },
+  {
+    id: "FRP137",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "The primary objective of a code of conduct or ethics in fraud prevention is to:",
+    options: [
+      "Establish values and expectations regarding employee behaviour",
+      "Replace all internal controls",
+      "Increase employee remuneration",
+      "Remove disciplinary procedures"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP138",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "Which of the following is an element of developing an Ethics Code of Conduct programme?",
+    options: [
+      "Ethics training",
+      "Designated ethics personnel",
+      "Ethics communication system",
+      "All of the above"
+    ],
+    answer: 3
+  },
+  {
+    id: "FRP139",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "Which of the following is a component generally included in the professional Code of Ethics for fraud examiners?",
+    options: [
+      "Professional competence and due diligence",
+      "Sales promotion",
+      "Product pricing",
+      "Marketing strategy"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP140",
+    difficulty: "medium",
+    chapter: "Fraud Prevention",
+    question: "Which principle of natural justice requires that a person should be given an opportunity to be heard before being condemned?",
+    options: [
+      "Rule against bias",
+      "Rule of fair hearing",
+      "Rule of risk transfer",
+      "Rule of confidentiality"
+    ],
+    answer: 1
+  },
+  {
+    id: "FRP141",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "A company identifies a high-value procurement fraud risk. Existing controls include segregation of duties, approval limits and periodic reconciliations. However, testing reveals that the approval control is frequently bypassed. What should the organisation primarily determine next?",
+    options: [
+      "Whether the control is operating effectively and the residual fraud risk remains acceptable",
+      "Whether the fraud risk should automatically be assumed",
+      "Whether all existing controls should immediately be removed",
+      "Whether the fraud risk assessment is no longer required"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP142",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "During fraud risk assessment, a risk is classified as having a remote likelihood but potentially material impact. Which approach is most appropriate?",
+    options: [
+      "Ignore the risk because its likelihood is remote",
+      "Assess the significance and determine an appropriate fraud risk response based on the overall risk profile",
+      "Automatically classify the risk as immaterial",
+      "Transfer the risk irrespective of cost or circumstances"
+    ],
+    answer: 1
+  },
+  {
+    id: "FRP143",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "Management discovers that existing controls reduce the likelihood of employee fraud but do not adequately address collusion between employees and external contractors. Which stage of fraud risk management is particularly relevant?",
+    options: [
+      "Mapping existing controls and determining residual fraud risk",
+      "Ignoring external risks because internal controls already exist",
+      "Assuming that all controls prevent collusion",
+      "Removing the fraud risk from the risk register"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP144",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "A company purchases insurance against losses arising from employee embezzlement while retaining its existing preventive controls. How should this response primarily be classified?",
+    options: [
+      "Avoidance because the company has eliminated the fraud risk",
+      "Transfer because insurance shifts the financial consequences of the risk",
+      "Assumption because the company continues its business",
+      "Mitigation because insurance prevents the fraud from occurring"
+    ],
+    answer: 1
+  },
+  {
+    id: "FRP145",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "A fraud risk assessment identifies manual intervention in a critical financial system as a significant risk factor. Which combination would most directly address this risk?",
+    options: [
+      "Segregation of duties, access controls and periodic review of system activity",
+      "Removal of all reconciliations and increased manual processing",
+      "Providing unrestricted access to senior employees",
+      "Reducing fraud awareness training"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP146",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "A company has an anti-fraud policy, but employees are unaware of its reporting procedures and disciplinary consequences. Which conclusion is most appropriate?",
+    options: [
+      "The existence of the policy alone is sufficient",
+      "The policy may fail to achieve its purpose unless it is effectively communicated and awareness is created",
+      "Only senior management needs to know the policy",
+      "The whistleblower mechanism becomes unnecessary"
+    ],
+    answer: 1
+  },
+  {
+    id: "FRP147",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "An employee reports suspected procurement fraud through the whistleblower mechanism. Management immediately discloses the employee's identity to the suspected individuals. Which fundamental aspect of the mechanism has potentially been compromised?",
+    options: [
+      "Anonymity and protection against victimisation",
+      "Segregation of duties",
+      "Risk transfer",
+      "Physical access control"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP148",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "Which statement best explains why a whistleblower policy is considered a component of a broader vigil mechanism?",
+    options: [
+      "The vigil mechanism covers the wider framework for preventing and detecting wrongdoing, while the whistleblower policy provides a structured reporting framework",
+      "The whistleblower policy replaces all internal controls",
+      "The vigil mechanism deals only with employee grievances unrelated to fraud",
+      "The two mechanisms cannot operate together"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP149",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "A company has established segregation of duties, but the same employee can modify vendor master data and initiate payments because system access has not been properly restricted. Which control weakness is most evident?",
+    options: [
+      "Logical access control weakness",
+      "Insurance coverage weakness",
+      "Code of ethics weakness only",
+      "Natural justice weakness"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP150",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "Why can surprise audits act as a fraud prevention measure even before any fraud is detected?",
+    options: [
+      "They create awareness that detection procedures may operate unpredictably, increasing the perceived likelihood of detection",
+      "They guarantee that fraud can never occur",
+      "They eliminate the need for preventive controls",
+      "They automatically establish criminal liability"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP151",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "Management decides that a particular fraud risk has a very low probability and the cost of additional controls would exceed the expected benefit. Which response may be appropriate according to the chapter?",
+    options: [
+      "Assume the risk",
+      "Automatically transfer the risk",
+      "Avoid all business activities",
+      "Treat the risk as having zero impact"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP152",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "Which factor would most appropriately influence the significance assessment of an identified fraud risk?",
+    options: [
+      "Potential financial loss, reputation damage and legal liabilities",
+      "Only the number of employees in the department",
+      "Only the age of the organisation",
+      "Only the geographical location of the head office"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP153",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "A company's anti-fraud policy states that failure to report known suspicious activity may result in disciplinary action. What is the primary purpose of such a provision?",
+    options: [
+      "To encourage cooperation and reporting of suspected fraud by employees",
+      "To prevent employees from participating in investigations",
+      "To make every employee personally liable for every fraud",
+      "To eliminate the need for a reporting mechanism"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP154",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "Which of the following best demonstrates the difference between legal compliance and ethical behaviour?",
+    options: [
+      "A person's conduct may comply with the minimum legal requirement while still raising broader ethical concerns",
+      "Anything legal is automatically the highest possible ethical standard",
+      "Ethical standards are always identical to statutory provisions",
+      "Ethical behaviour is relevant only when no law exists"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP155",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "An organisation wants its ethics programme to be effective rather than merely documentary. Which combination would best support this objective?",
+    options: [
+      "Ethical leadership, ethics training, communication and a reporting system",
+      "Only issuing the code once to employees",
+      "Keeping the code confidential from employees",
+      "Delegating all ethical responsibility to external auditors"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP156",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "Which of the following situations most clearly creates a concern under the rule against bias?",
+    options: [
+      "A person participates in deciding a matter in which that person has a personal interest",
+      "A person is given an opportunity to present their explanation",
+      "A person receives a copy of the written decision",
+      "A person is informed of the allegations against them"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP157",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "An employee is accused of fraud and is punished without being informed of the allegations or being given an opportunity to explain the circumstances. Which principle of natural justice is most directly violated?",
+    options: [
+      "Rule against bias",
+      "Rule of fair hearing",
+      "Rule of risk mitigation",
+      "Rule of confidentiality"
+    ],
+    answer: 1
+  },
+  {
+    id: "FRP158",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "Which statement correctly distinguishes criminal and civil consequences of fraud?",
+    options: [
+      "Criminal action is generally initiated by the Government for violation of law, while civil action may provide remedies such as damages",
+      "Civil cases always result in imprisonment",
+      "Criminal cases can only result in compensation to the victim",
+      "Civil and criminal proceedings are identical in nature and consequence"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP159",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "A company relies heavily on its anti-fraud policy but has no mechanism to monitor whether its controls actually operate as intended. Which fraud risk management step has been inadequately performed?",
+    options: [
+      "Evaluating whether identified controls operate effectively",
+      "Identifying the existence of fraud risks",
+      "Determining the company's vision statement",
+      "Preparing employee salary structures"
+    ],
+    answer: 0
+  },
+  {
+    id: "FRP160",
+    difficulty: "hard",
+    chapter: "Fraud Prevention",
+    question: "Which sequence most appropriately reflects the fraud risk assessment and response process described in the chapter?",
+    options: [
+      "Identify risks → assess likelihood and significance → assess impacted personnel and map controls → evaluate controls → determine residual risk → determine response",
+      "Determine response → ignore existing controls → identify risks → determine residual risk",
+      "Evaluate controls → purchase insurance → identify risks → assess personnel",
+      "Determine residual risk → identify risks → remove controls → assume all risks"
+    ],
+    answer: 0
+  },
+
+  {
+  id: "DF_CS case study_10_1",
+  chapter: "Fraud Prevention",
+  caseText: `
+
+    <p>
+      Asteron Manufacturing Limited is a rapidly growing company engaged in the manufacture
+      and sale of industrial equipment. Over the last three years, the company has expanded
+      its operations significantly and has established multiple manufacturing units, warehouses
+      and regional sales offices across India. With the expansion of business, the company has
+      also increased its dependence on automated accounting systems, online banking and
+      third-party vendors.
+    </p>
+
+    <p>
+      The Board of Directors recently became concerned about the increasing number of
+      unexplained inventory shortages, unusual vendor payments and instances where employees
+      appeared to have bypassed established approval procedures. Although no major fraud had
+      yet been formally established, management decided to undertake a comprehensive fraud
+      risk assessment.
+    </p>
+
+    <p>
+      The fraud risk assessment team first identified several significant risks. These included
+      misappropriation of inventory, fictitious vendors, manipulation of purchase invoices,
+      unauthorised payments, employee collusion with suppliers and misuse of system access.
+      The team then assessed the likelihood and significance of each risk by considering past
+      incidents, the complexity of transactions, the level of manual intervention, unexplained
+      losses and the financial and reputational impact that could arise.
+    </p>
+
+    <p>
+      During the assessment, the team discovered that the purchase department could create
+      vendor records, while members of the accounts department could process payments.
+      However, in certain regional offices, the same senior employee had administrative access
+      to the vendor master database as well as authority to approve certain payments. This
+      arrangement had developed because of staff shortages and rapid expansion.
+    </p>
+
+    <p>
+      The company had several controls, including segregation of duties, periodic
+      reconciliations, job rotation, surprise audits and system access controls. However, the
+      fraud risk assessment team found that some controls existed only on paper. For example,
+      system access reviews were supposed to be performed every quarter, but several regional
+      offices had not completed the reviews for more than one year. Surprise audits were also
+      conducted inconsistently.
+    </p>
+
+    <p>
+      The team further discovered that a vendor named Orion Industrial Supplies had received
+      substantial payments from one regional office. The vendor's bank account had recently
+      been changed, and the revised bank details were approved by an employee who was also
+      involved in processing purchase-related documentation. A subsequent review showed that
+      certain invoices submitted by the vendor contained similar formatting and descriptions.
+      However, the team did not immediately conclude that fraud had occurred because further
+      evidence was required.
+    </p>
+
+    <p>
+      During the same period, an employee submitted a complaint through the company's
+      whistleblower mechanism alleging that certain employees were favouring selected vendors.
+      The employee requested confidentiality because of concerns about retaliation. The
+      whistleblower policy provided for confidentiality and safeguards against victimisation.
+      It also provided a mechanism for reporting genuine concerns and allowed access to senior
+      governance personnel in appropriate cases.
+    </p>
+
+    <p>
+      The investigation team recommended that the company strengthen its logical access
+      controls, review vendor master changes, introduce stronger segregation of duties,
+      conduct periodic surprise audits and increase employee awareness regarding the
+      anti-fraud policy. It also recommended that the whistleblower's identity be protected
+      and that the allegation be investigated objectively rather than assuming either guilt or
+      innocence.
+    </p>
+
+    <p>
+      The management considered several possible responses to the identified fraud risks.
+      For certain high-risk processes, it decided to implement additional preventive and
+      detective controls. For a separate low-probability risk involving a non-critical asset,
+      management concluded that the cost of additional controls would be disproportionate
+      to the potential loss. For certain financial exposures, management also considered
+      insurance coverage.
+    </p>
+
+    <p>
+      The Board emphasised that fraud prevention should not depend only on detecting fraud
+      after it occurs. It therefore decided to strengthen the company's compliance culture by
+      updating its code of conduct, conducting periodic ethics training and clearly
+      communicating disciplinary consequences for fraudulent behaviour. Management also
+      reiterated that fraud prevention is ultimately the responsibility of management, even
+      though specific oversight responsibilities may be delegated to appropriate committees
+      or individuals.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "DF_CS case study_10_1_1",
+      difficulty: "easy",
+      chapter_name: ["Fraud Prevention"],
+      question: "What is the primary purpose of conducting a fraud risk assessment in Asteron Manufacturing Limited?",
+      options: [
+        "To identify and assess fraud risks so that appropriate responses and controls can be designed",
+        "To prove that every identified employee has committed fraud",
+        "To eliminate the need for internal controls",
+        "To replace the company's code of conduct"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "DF_CS case study_10_1_2",
+      difficulty: "easy",
+      chapter_name: ["Fraud Prevention"],
+      question: "Which of the following is an example of a preventive/detective control mentioned in the case?",
+      options: [
+        "Segregation of duties",
+        "Ignoring vendor changes",
+        "Removing system access reviews",
+        "Allowing unrestricted employee access"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "DF_CS case study_10_1_3",
+      difficulty: "tough",
+      chapter_name: ["Fraud Prevention"],
+      question: "The same senior employee in certain regional offices can access the vendor master database and approve certain payments. Which of the following best explains the principal fraud risk arising from this arrangement?",
+      options: [
+        "The arrangement may weaken segregation of duties and enable manipulation of vendor information followed by unauthorised or improper payments",
+        "The arrangement automatically proves that the employee has committed fraud",
+        "The arrangement eliminates the need for periodic reconciliations",
+        "The arrangement constitutes transfer of the fraud risk through insurance"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "DF_CS case study_10_1_4",
+      difficulty: "tough",
+      chapter_name: ["Fraud Prevention"],
+      question: "The company decides to implement additional preventive and detective controls for high-risk processes after assessing the residual fraud risk. Which fraud risk response is primarily being adopted?",
+      options: [
+        "Avoiding the risk",
+        "Transferring the risk",
+        "Mitigating the risk",
+        "Assuming the risk"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "DF_CS case study_10_1_5",
+      difficulty: "tough",
+      chapter_name: ["Fraud Prevention"],
+      question: "Management decides not to introduce additional controls for a low-probability risk relating to a non-critical asset because the cost of implementing such controls would be disproportionate to the potential loss. Which response is most consistent with the fraud risk response framework?",
+      options: [
+        "Avoid the risk because every low-probability risk must be eliminated",
+        "Transfer the risk because management has decided not to implement controls",
+        "Mitigate the risk because no further action is required",
+        "Assume the risk because the probability is very low and the organisation considers the additional control cost disproportionate"
+      ],
+      answer: 3
+    }
+
+  ]
+},
+
+{
+  id: "DF_CS case study_10_2",
+  chapter: "Fraud Prevention",
+  caseText: `
+
+    <p>
+      Zenith Infrastructure Limited is engaged in large-scale infrastructure projects across
+      several states. The company frequently appoints contractors for civil works, equipment
+      supply and maintenance services. Due to the large volume of transactions and the use of
+      several regional offices, the management has identified procurement and contractor
+      payments as areas having a relatively high exposure to fraud.
+    </p>
+
+    <p>
+      During a fraud risk assessment, the company identified risks such as fictitious contractors,
+      inflated invoices, duplicate payments, collusion between employees and contractors,
+      manipulation of measurement records and unauthorised changes in bank account details.
+      The assessment team considered historical fraud incidents, the complexity of transactions,
+      manual intervention and the availability of resources for controlling such risks.
+    </p>
+
+    <p>
+      The team classified one of the contractor-related risks as having a high likelihood and
+      significant financial impact. It was observed that some project managers could recommend
+      contractors, certify completion of work and influence payment processing. The company
+      therefore decided to strengthen segregation of duties by separating contractor selection,
+      work certification and payment approval among different employees.
+    </p>
+
+    <p>
+      The company also introduced mandatory rotation of employees handling sensitive procurement
+      activities. Surprise audits were planned at selected project sites. Reconciliations between
+      purchase orders, measurement records, invoices and payments were made mandatory.
+      Additionally, system logs were introduced to record changes made to contractor master data.
+    </p>
+
+    <p>
+      During the assessment, the company found that some employees were unaware of the
+      anti-fraud policy. The policy clearly defined fraud, applied to employees at all levels,
+      specified reporting procedures and stated that disciplinary action could be taken for
+      fraudulent conduct. However, the policy had not been adequately communicated to newly
+      appointed employees.
+    </p>
+
+    <p>
+      Management therefore decided to include anti-fraud training in employee induction
+      programmes and conduct periodic awareness sessions. Employees were informed that
+      failure to report known fraudulent activity or refusal to cooperate in an investigation
+      could result in disciplinary action.
+    </p>
+
+    <p>
+      The company also maintained a whistleblower mechanism through which employees and
+      other stakeholders could report genuine concerns. The Board decided that complaints
+      should be handled confidentially and that persons making genuine complaints should be
+      protected against victimisation.
+    </p>
+
+    <p>
+      After implementing the additional controls, management planned to reassess the remaining
+      fraud risk. The Board clarified that controls should not merely exist formally but should
+      operate effectively and should actually mitigate the identified risk in the manner intended.
+    </p>
+  `,
+  questions: [
+    {
+      question_id: "DF_CS case study_10_2_1",
+      difficulty: "easy",
+      chapter_name: ["Fraud Prevention"],
+      question: "Which control was introduced to reduce the risk arising from one employee performing several incompatible procurement functions?",
+      options: [
+        "Segregation of duties",
+        "Removal of reconciliations",
+        "Elimination of system logs",
+        "Reduction of employee training"
+      ],
+      answer: 0
+    },
+    {
+      question_id: "DF_CS case study_10_2_2",
+      difficulty: "easy",
+      chapter_name: ["Fraud Prevention"],
+      question: "What is the purpose of the whistleblower mechanism described in the case?",
+      options: [
+        "To enable reporting of genuine concerns",
+        "To automatically punish every employee named in a complaint",
+        "To eliminate the need for management oversight",
+        "To disclose every complaint publicly"
+      ],
+      answer: 0
+    },
+    {
+      question_id: "DF_CS case study_10_2_3",
+      difficulty: "tough",
+      chapter_name: ["Fraud Prevention"],
+      question: "Why is it insufficient for Zenith to merely have documented controls without checking their actual operation?",
+      options: [
+        "A control can exist formally but fail to mitigate the intended fraud risk if it does not operate effectively",
+        "Documented controls automatically eliminate all fraud risks",
+        "Controls are required only when fraud has already occurred",
+        "Control effectiveness is relevant only to external auditors"
+      ],
+      answer: 0
+    },
+    {
+      question_id: "DF_CS case study_10_2_4",
+      difficulty: "tough",
+      chapter_name: ["Fraud Prevention"],
+      question: "The company introduces mandatory employee rotation in sensitive procurement functions. What is the principal fraud-prevention rationale for this measure?",
+      options: [
+        "It can reduce opportunities for prolonged collusion or concealment of fraudulent activity",
+        "It guarantees that employees will never commit fraud",
+        "It transfers all procurement risk to contractors",
+        "It eliminates the need for segregation of duties"
+      ],
+      answer: 0
+    },
+    {
+      question_id: "DF_CS case study_10_2_5",
+      difficulty: "tough",
+      chapter_name: ["Fraud Prevention"],
+      question: "After additional controls are implemented, management reassesses the remaining fraud exposure. What is this remaining exposure generally referred to as?",
+      options: [
+        "Inherent risk",
+        "Residual fraud risk",
+        "Transferred risk",
+        "Eliminated risk"
+      ],
+      answer: 1
+    }
+  ]
+},
+
+{
+  id: "DF_CS case study_10_3",
+  chapter: "Fraud Prevention",
+  caseText: `
+
+    <p>
+      Meridian Consumer Products Limited operates a nationwide distribution network.
+      The company recently discovered several instances of inventory shortages at regional
+      warehouses. Although individual shortages were relatively small, the cumulative value
+      was significant. Management therefore initiated a fraud risk assessment covering
+      inventory procurement, storage, dispatch and sales.
+    </p>
+
+    <p>
+      The assessment identified several risks, including theft of inventory, fictitious dispatches,
+      manipulation of stock records, unauthorised warehouse access and collusion between
+      warehouse employees and transporters.
+    </p>
+
+    <p>
+      The risk assessment team evaluated both likelihood and significance. Historical shortages,
+      weak physical access controls and manual stock adjustments indicated that certain risks
+      were reasonably probable. The potential financial loss, reputational damage and impact
+      on employee morale indicated that some of these risks were material.
+    </p>
+
+    <p>
+      The company responded by introducing physical access controls at warehouses, maintaining
+      electronic logs of entries and exits, conducting surprise inventory counts and requiring
+      periodic reconciliation between physical inventory and accounting records.
+    </p>
+
+    <p>
+      Management also noticed that employees responsible for maintaining inventory records had
+      remained in the same position for several years. The company therefore introduced job
+      rotation and mandatory leave policies for selected sensitive positions.
+    </p>
+
+    <p>
+      During the review, an employee submitted an anonymous complaint alleging that a warehouse
+      supervisor was permitting selected transporters to remove goods without proper documentation.
+      The employee specifically requested that his identity not be disclosed.
+    </p>
+
+    <p>
+      The company decided to investigate the complaint while protecting the employee from
+      victimisation. The investigation team was instructed not to assume that the supervisor
+      was guilty merely because a complaint had been received.
+    </p>
+
+    <p>
+      Management also reviewed its insurance arrangements. It concluded that certain risks
+      relating to employee theft could be covered through appropriate fidelity insurance.
+      However, it recognised that insurance would not replace preventive and detective controls.
+    </p>
+  `,
+  questions: [
+    {
+      question_id: "DF_CS case study_10_3_1",
+      difficulty: "easy",
+      chapter_name: ["Fraud Prevention"],
+      question: "Which control directly helps restrict unauthorised physical entry into a warehouse?",
+      options: [
+        "Physical access controls",
+        "Ethics training",
+        "Insurance coverage",
+        "Financial reporting"
+      ],
+      answer: 0
+    },
+    {
+      question_id: "DF_CS case study_10_3_2",
+      difficulty: "easy",
+      chapter_name: ["Fraud Prevention"],
+      question: "What should the company do regarding the anonymous whistleblower's identity?",
+      options: [
+        "Protect confidentiality and safeguards against victimisation",
+        "Immediately disclose the identity to the accused employee",
+        "Publish the identity on the company website",
+        "Ignore the complaint because it is anonymous"
+      ],
+      answer: 0
+    },
+    {
+      question_id: "DF_CS case study_10_3_3",
+      difficulty: "tough",
+      chapter_name: ["Fraud Prevention"],
+      question: "Why should management not conclude that the warehouse supervisor is guilty merely because a whistleblower complaint was received?",
+      options: [
+        "The allegation should be investigated objectively and conclusions should be based on appropriate evidence",
+        "Whistleblower complaints are never relevant evidence",
+        "Only the supervisor can decide whether the allegation is true",
+        "Insurance companies must determine guilt before investigation"
+      ],
+      answer: 0
+    },
+    {
+      question_id: "DF_CS case study_10_3_4",
+      difficulty: "tough",
+      chapter_name: ["Fraud Prevention"],
+      question: "The company purchases fidelity insurance to protect against employee theft losses. Which fraud risk response does this represent?",
+      options: [
+        "Avoiding the risk",
+        "Mitigating the risk",
+        "Transferring the risk",
+        "Assuming the risk"
+      ],
+      answer: 2
+    },
+    {
+      question_id: "DF_CS case study_10_3_5",
+      difficulty: "tough",
+      chapter_name: ["Fraud Prevention"],
+      question: "Why would mandatory leave and job rotation be particularly relevant for sensitive inventory positions?",
+      options: [
+        "They may expose concealed irregularities and reduce the opportunity for continuous manipulation by one individual",
+        "They eliminate the need for physical inventory counts",
+        "They guarantee that inventory shortages cannot occur",
+        "They transfer inventory responsibility to insurers"
+      ],
+      answer: 0
+    }
+  ]
+},
+
+{
+  id: "DF_CS case study_10_4",
+  chapter: "Fraud Prevention",
+  caseText: `
+
+    <p>
+      Nova Digital Services Limited is a technology company providing cloud-based services
+      to corporate customers. Because most of its financial and operational activities are
+      conducted through digital systems, the company has identified information technology
+      and system access as significant areas of fraud risk.
+    </p>
+
+    <p>
+      During a fraud risk assessment, the company identified risks involving unauthorised
+      access, manipulation of customer records, fraudulent refunds, misuse of privileged
+      accounts and leakage of confidential information.
+    </p>
+
+    <p>
+      The company assessed these risks by considering the likelihood and significance of their
+      occurrence. Risks involving privileged system access were considered particularly serious
+      because unauthorised changes could affect large numbers of transactions simultaneously.
+    </p>
+
+    <p>
+      The company mapped existing logical access controls to the identified risks. It found that
+      employees who had changed departments sometimes continued to retain access rights from
+      their previous roles. In addition, periodic access reviews were not consistently completed.
+    </p>
+
+    <p>
+      Management therefore decided to strengthen user-access controls. Access would be granted
+      based on job responsibilities and reviewed periodically. Employees leaving the organisation
+      would have their access removed promptly. System logs would be maintained to identify
+      significant changes made by users.
+    </p>
+
+    <p>
+      The company also revised its anti-fraud policy. The revised policy clearly defined fraud,
+      applied to all employees regardless of seniority, established reporting procedures and
+      described disciplinary consequences. Employees were informed that fraud could result in
+      suspension, termination, loss of benefits, reporting to law enforcement agencies or legal
+      action.
+    </p>
+
+    <p>
+      Management further decided to strengthen the company's ethics programme. The programme
+      included ethics training, designated ethics personnel, an ethics communication system and
+      a reporting mechanism.
+    </p>
+
+    <p>
+      The Board emphasised that compliance with the law represents an important minimum standard,
+      but ethical behaviour requires individuals to consider broader principles of honesty,
+      integrity and fairness.
+    </p>
+  `,
+  questions: [
+    {
+      question_id: "DF_CS case study_10_4_1",
+      difficulty: "easy",
+      chapter_name: ["Fraud Prevention"],
+      question: "Which type of control is primarily concerned with restricting unauthorised access to digital systems?",
+      options: [
+        "Logical access control",
+        "Physical inventory count",
+        "Job rotation only",
+        "Insurance control"
+      ],
+      answer: 0
+    },
+    {
+      question_id: "DF_CS case study_10_4_2",
+      difficulty: "easy",
+      chapter_name: ["Fraud Prevention"],
+      question: "Which of the following is an element of the company's revised ethics programme?",
+      options: [
+        "Ethics training",
+        "Removal of reporting mechanisms",
+        "Elimination of designated ethics personnel",
+        "Ignoring employee concerns"
+      ],
+      answer: 0
+    },
+    {
+      question_id: "DF_CS case study_10_4_3",
+      difficulty: "tough",
+      chapter_name: ["Fraud Prevention"],
+      question: "Why are privileged system accounts considered a significant fraud risk in the case?",
+      options: [
+        "Unauthorised changes made through privileged accounts can potentially affect a large number of transactions or systems",
+        "Privileged accounts are always fraudulent",
+        "Privileged users are legally prohibited from accessing systems",
+        "System access has no relationship with fraud risk"
+      ],
+      answer: 0
+    },
+    {
+      question_id: "DF_CS case study_10_4_4",
+      difficulty: "tough",
+      chapter_name: ["Fraud Prevention"],
+      question: "An employee changes departments but retains access rights from the previous role. Which control weakness is most directly indicated?",
+      options: [
+        "Failure to properly review and update logical access rights",
+        "Failure to purchase insurance",
+        "Failure to conduct employee training",
+        "Failure to rotate external auditors"
+      ],
+      answer: 0
+    },
+    {
+      question_id: "DF_CS case study_10_4_5",
+      difficulty: "tough",
+      chapter_name: ["Fraud Prevention"],
+      question: "The Board states that legal compliance represents a minimum standard, while ethical behaviour requires consideration of broader principles. Which statement best reflects this distinction?",
+      options: [
+        "Anything legal is automatically ethical in every circumstance",
+        "Ethics is irrelevant where laws exist",
+        "Legal standards do not completely establish ethical principles; ethical conduct may require adherence to broader principles",
+        "Ethical behaviour requires ignoring applicable laws"
+      ],
+      answer: 2
+    }
+  ]
+},
+
+{
+  id: "DF_CS case study_10_5",
+  chapter: "Fraud Prevention",
+  caseText: `
+
+    <p>
+      Prudent Finance Limited is a financial services company with a large network of
+      employees and customer-facing branches. The company has recently faced concerns
+      regarding employee misconduct, conflicts of interest and inadequate reporting of
+      suspicious activities.
+    </p>
+
+    <p>
+      The Board decided that preventing fraud required more than implementing individual
+      controls. It therefore initiated a comprehensive fraud prevention programme covering
+      fraud risk assessment, internal controls, ethics, whistleblower mechanisms and
+      disciplinary procedures.
+    </p>
+
+    <p>
+      The fraud risk assessment identified several risks. These included unauthorised
+      customer refunds, manipulation of customer records, misuse of confidential information,
+      conflicts of interest and collusion between employees and external agents.
+    </p>
+
+    <p>
+      The company assessed the likelihood and significance of each risk and mapped the
+      existing controls. It found that reconciliations and approval controls were effective
+      in certain branches but were inconsistently applied in others.
+    </p>
+
+    <p>
+      The company therefore introduced stronger segregation of duties, periodic rotation of
+      employees in sensitive roles, surprise audits and early reporting mechanisms. It also
+      introduced analytical review procedures to identify unusual transaction patterns.
+    </p>
+
+    <p>
+      The company revised its written code of conduct to address gifts and favours, conflicts
+      of interest, confidentiality, protection of company assets, fair competition and
+      disciplinary consequences. Annual declarations were required from key personnel.
+    </p>
+
+    <p>
+      Employees were informed about the disciplinary process and the consequences of
+      fraudulent behaviour. Management emphasised that disciplinary proceedings should
+      follow the principles of natural justice.
+    </p>
+
+    <p>
+      In particular, management recognised two fundamental principles: the rule against bias
+      and the rule of fair hearing. Therefore, an employee accused of misconduct should not
+      be denied a reasonable opportunity to know the allegations and present his or her side.
+    </p>
+
+    <p>
+      The company also distinguished between civil and criminal consequences. Management
+      explained that criminal proceedings are generally initiated by the Government for
+      violation of law and may result in imprisonment, fines or other criminal consequences,
+      whereas civil proceedings may result in remedies such as damages or compensation to
+      the affected party.
+    </p>
+  `,
+  questions: [
+    {
+      question_id: "DF_CS case study_10_5_1",
+      difficulty: "easy",
+      chapter_name: ["Fraud Prevention"],
+      question: "Which principle of natural justice requires that a person should not be condemned without being given an opportunity to be heard?",
+      options: [
+        "Rule of fair hearing",
+        "Rule against bias",
+        "Rule of strict liability",
+        "Rule of confidentiality"
+      ],
+      answer: 0
+    },
+    {
+      question_id: "DF_CS case study_10_5_2",
+      difficulty: "easy",
+      chapter_name: ["Fraud Prevention"],
+      question: "Which of the following is an example of a civil remedy mentioned in the case?",
+      options: [
+        "Damages or compensation",
+        "Imprisonment",
+        "Criminal fine",
+        "Community service imposed as criminal punishment"
+      ],
+      answer: 0
+    },
+    {
+      question_id: "DF_CS case study_10_5_3",
+      difficulty: "tough",
+      chapter_name: ["Fraud Prevention"],
+      question: "A manager who personally benefits from the outcome of a disciplinary proceeding is asked to decide the case against an employee. Which principle of natural justice is most directly compromised?",
+      options: [
+        "Rule against bias",
+        "Rule of fair hearing",
+        "Rule of reconciliation",
+        "Rule of insurance"
+      ],
+      answer: 0
+    },
+    {
+      question_id: "DF_CS case study_10_5_4",
+      difficulty: "tough",
+      chapter_name: ["Fraud Prevention"],
+      question: "Which combination best represents the company's overall approach to fraud prevention?",
+      options: [
+        "Only punitive action after fraud occurs",
+        "Fraud risk assessment combined with preventive and detective controls, ethics, reporting mechanisms and disciplinary processes",
+        "Only external audit procedures",
+        "Only insurance coverage without internal controls"
+      ],
+      answer: 1
+    },
+    {
+      question_id: "DF_CS case study_10_5_5",
+      difficulty: "tough",
+      chapter_name: ["Fraud Prevention"],
+      question: "Why is the distinction between civil and criminal proceedings important in the context of fraud prevention and disciplinary mechanisms?",
+      options: [
+        "Because every fraud automatically results only in a civil case",
+        "Because civil and criminal proceedings have different purposes and consequences, with criminal action generally addressing violation of law and civil action providing remedies to affected parties",
+        "Because civil cases can never involve financial compensation",
+        "Because criminal proceedings are initiated by the affected company in every case"
+      ],
+      answer: 1
+    }
+  ]
+},
+
 
 
 
