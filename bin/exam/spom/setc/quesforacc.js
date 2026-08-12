@@ -19557,12 +19557,2283 @@ reason:"Modified electronic records may require additional scrutiny, while unmat
         "The Professional should recommend the criminal punishment"
     ],
     answer: 2
+},
+
+// Chapte 9
+
+  {
+    id: "DF_CH9_EASY_01",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "The primary purpose of a forensic investigation report is to:",
+    options: [
+      "Express the guilt of the suspect",
+      "Clearly and accurately communicate the results of the assignment",
+      "Provide legal advice to the stakeholders",
+      "Replace the court's decision"
+    ],
+    answer: 1,
+    solution: "A forensic investigation report communicates the results of the assignment clearly and accurately based on relevant and reliable evidence."
+  },
+
+  {
+    id: "DF_CH9_EASY_02",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which of the following is an important quality of a forensic investigation report?",
+    options: [
+      "Biased",
+      "Ambiguous",
+      "Factual",
+      "Speculative"
+    ],
+    answer: 2,
+    solution: "A forensic investigation report should be factual and supported by relevant and reliable evidence."
+  },
+
+  {
+    id: "DF_CH9_EASY_03",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Findings in a forensic investigation report should preferably be presented in:",
+    options: [
+      "Random order",
+      "Chronological order",
+      "Alphabetical order only",
+      "Order of personal preference"
+    ],
+    answer: 1,
+    solution: "Presenting findings chronologically helps the reader understand the sequence of events."
+  },
+
+  {
+    id: "DF_CH9_EASY_04",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Where possible, the financial impact of findings should be:",
+    options: [
+      "Ignored",
+      "Estimated without evidence",
+      "Quantified",
+      "Presented only verbally"
+    ],
+    answer: 2,
+    solution: "Where possible, the impact of findings should be quantified, such as specifying the amount of financial loss."
+  },
+
+  {
+    id: "DF_CH9_EASY_05",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A forensic investigation report should use language that is:",
+    options: [
+      "Highly complicated",
+      "Clear and understandable",
+      "Always technical",
+      "Ambiguous"
+    ],
+    answer: 1,
+    solution: "The report should use clear and understandable language, avoiding unnecessary technical terminology."
+  },
+
+  {
+    id: "DF_CH9_EASY_06",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which of the following may be used to present fund flows in a forensic report?",
+    options: [
+      "Flow charts",
+      "Personal opinions",
+      "Unverified statements",
+      "Informal messages"
+    ],
+    answer: 0,
+    solution: "Tables, process flows and fund trail charts may be used to present findings effectively."
+  },
+
+  {
+    id: "DF_CH9_EASY_07",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "When using the work of an expert, the report should mention the expert's:",
+    options: [
+      "Personal hobbies",
+      "Qualifications and credentials",
+      "Family details",
+      "Political views"
+    ],
+    answer: 1,
+    solution: "The report should clearly state the expert's qualifications, credentials, relevant experience and expertise."
+  },
+
+  {
+    id: "DF_CH9_EASY_08",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which of the following should be considered while reporting the use of an expert's work?",
+    options: [
+      "Expert's methodology",
+      "Expert's personal preferences",
+      "Expert's social media activity",
+      "Expert's unrelated interests"
+    ],
+    answer: 0,
+    solution: "The methodology and approach used by the expert should be described in the report."
+  },
+
+  {
+    id: "DF_CH9_EASY_09",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "In reporting digital evidence, the professional should specifically describe the:",
+    options: [
+      "Chain of custody",
+      "Personal opinion of the investigator",
+      "Family history of the suspect",
+      "Personal preferences of the expert"
+    ],
+    answer: 0,
+    solution: "The chain of custody is important to demonstrate the integrity and proper handling of digital evidence."
+  },
+
+  {
+    id: "DF_CH9_EASY_10",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which of the following is a possible source of data for forensic data analytics?",
+    options: [
+      "Financial records",
+      "Personal assumptions",
+      "Unverified rumours",
+      "Imaginary transactions"
+    ],
+    answer: 0,
+    solution: "Financial records, transaction logs and databases can be sources of data for forensic analytics."
+  },
+
+  {
+    id: "DF_CH9_EASY_11",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Data analytics may be used in a forensic investigation for:",
+    options: [
+      "Pattern recognition",
+      "Changing evidence",
+      "Destroying records",
+      "Avoiding documentation"
+    ],
+    answer: 0,
+    solution: "Data analytics can be used for pattern recognition, anomaly detection and trend analysis."
+  },
+
+  {
+    id: "DF_CH9_EASY_12",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "When reporting interviews, the professional should maintain a:",
+    options: [
+      "Biased tone",
+      "Neutral and objective tone",
+      "Threatening tone",
+      "Personal tone"
+    ],
+    answer: 1,
+    solution: "Interview findings should be reported objectively and neutrally without subjective opinions."
+  },
+
+  {
+    id: "DF_CH9_EASY_13",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which information should generally be documented when reporting an interview?",
+    options: [
+      "Date, time, location and participants",
+      "Only the interviewee's name",
+      "Only the investigator's opinion",
+      "Only the final conclusion"
+    ],
+    answer: 0,
+    solution: "Interview documentation should include relevant details such as date, time, location, participants and observations."
+  },
+
+  {
+    id: "DF_CH9_EASY_14",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "An interim report is generally based on:",
+    options: [
+      "All possible future evidence",
+      "Work procedures performed up to that date",
+      "The final court judgment",
+      "Only management's opinion"
+    ],
+    answer: 1,
+    solution: "An interim report contains observations based on work procedures performed up to the date of the report."
+  },
+
+  {
+    id: "DF_CH9_EASY_15",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "An interim report should indicate that its observations:",
+    options: [
+      "Can never change",
+      "May change after further work or information",
+      "Are always final",
+      "Are legally binding"
+    ],
+    answer: 1,
+    solution: "Since an interim report is based on incomplete work, its observations may change after further procedures or information."
+  },
+
+  {
+    id: "DF_CH9_EASY_16",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A forensic investigation report should NOT express an opinion regarding:",
+    options: [
+      "The chronology of events",
+      "The evidence gathered",
+      "The guilt or innocence of a person",
+      "The scope of the assignment"
+    ],
+    answer: 2,
+    solution: "The professional shall refrain from expressing an opinion or passing judgment on the guilt or innocence of any person."
+  },
+
+  {
+    id: "DF_CH9_EASY_17",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which of the following is generally included in the key elements of a forensic investigation report?",
+    options: [
+      "Scope and objectives",
+      "Personal opinions of the professional",
+      "Political views",
+      "Unverified allegations"
+    ],
+    answer: 0,
+    solution: "Scope and objectives are important components of a forensic investigation report."
+  },
+
+  {
+    id: "DF_CH9_EASY_18",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "The executive summary of a forensic report provides:",
+    options: [
+      "A concise overview of the engagement and findings",
+      "Only the names of suspects",
+      "Only legal provisions",
+      "Only financial calculations"
+    ],
+    answer: 0,
+    solution: "The executive summary provides a concise overview of the concerns, work procedures and key findings."
+  },
+
+  {
+    id: "DF_CH9_EASY_19",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Distribution of a forensic investigation report to persons other than the primary stakeholders generally requires:",
+    options: [
+      "No approval",
+      "Prior approval of the Primary Stakeholders",
+      "Approval of the suspect",
+      "Approval of any employee"
+    ],
+    answer: 1,
+    solution: "Distribution to others should generally be made only with prior approval of the Primary Stakeholders."
+  },
+
+  {
+    id: "DF_CH9_EASY_20",
+    difficulty: "easy",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "If the professional faces restricted access to relevant records, this should generally be:",
+    options: [
+      "Ignored",
+      "Hidden from the stakeholders",
+      "Disclosed as a limitation in the report",
+      "Removed from the working papers"
+    ],
+    answer: 2,
+    solution: "Restrictions or limitations affecting the work should be appropriately disclosed in the report."
+  },
+
+  {
+    id: "DF_CH9_MED_21",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A professional identifies a financial loss during an investigation but cannot trace the amount to reliable supporting documents. What is the most appropriate approach?",
+    options: [
+      "Include the amount without any qualification",
+      "Exclude the finding permanently",
+      "Substantiate the amount with evidence before reporting it",
+      "Replace the amount with an estimated figure without disclosure"
+    ],
+    answer: 2,
+    solution: "Amounts reported in the findings should be substantiated by relevant and reliable evidence."
+  },
+
+  {
+    id: "DF_CH9_MED_22",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "During an investigation, an expert's analysis is relied upon by the professional. Which combination should be appropriately disclosed in the report?",
+    options: [
+      "Expert's qualifications and scope of engagement",
+      "Expert's personal opinions and family details",
+      "Only the expert's name",
+      "Only the final amount calculated by the expert"
+    ],
+    answer: 0,
+    solution: "When using an expert's work, the report should disclose relevant matters such as the expert's qualifications and the scope of engagement."
+  },
+
+  {
+    id: "DF_CH9_MED_23",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "An expert was unable to access certain encrypted files during a digital forensic examination. How should this matter be dealt with in the report?",
+    options: [
+      "The limitation should be disclosed",
+      "The limitation should be ignored",
+      "The missing files should be assumed to contain fraud",
+      "The report should state that all digital evidence was examined"
+    ],
+    answer: 0,
+    solution: "Limitations and challenges, including encrypted data that could not be accessed, should be appropriately disclosed."
+  },
+
+  {
+    id: "DF_CH9_MED_24",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A forensic report contains findings supported by several documents. What is the best reporting practice?",
+    options: [
+      "Mention the documents without identifying their relevance",
+      "Clearly reference the findings to the supporting evidence",
+      "Include only the most favourable documents",
+      "Avoid mentioning supporting evidence in the report"
+    ],
+    answer: 1,
+    solution: "Findings should be clearly referenced to the relevant evidence and information gathered."
+  },
+
+  {
+    id: "DF_CH9_MED_25",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Why should the background of a finding be explained in a forensic report?",
+    options: [
+      "Because the report may be read by persons without detailed knowledge of the matter",
+      "Because the professional must provide legal advice",
+      "Because all reports must contain lengthy explanations",
+      "Because background information replaces evidence"
+    ],
+    answer: 0,
+    solution: "The report may be read by a lay person, so sufficient background should be provided to understand the finding."
+  },
+
+  {
+    id: "DF_CH9_MED_26",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A professional uses data analytics to identify unusual spikes in transactions. Which part of the report should explain the significance of these unusual transactions?",
+    options: [
+      "Pattern recognition or anomaly detection",
+      "Covering letter only",
+      "Distribution list",
+      "Title of the report"
+    ],
+    answer: 0,
+    solution: "Unusual spikes and outliers identified through analytics can be discussed under pattern recognition and anomaly detection."
+  },
+
+  {
+    id: "DF_CH9_MED_27",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which of the following best describes the purpose of data preparation before forensic data analytics?",
+    options: [
+      "To remove all unusual transactions",
+      "To clean, normalize and transform data for analysis",
+      "To change evidence to support a hypothesis",
+      "To eliminate the need for professional judgment"
+    ],
+    answer: 1,
+    solution: "Data preparation may include cleaning, normalization and transformation so that the data can be appropriately analysed."
+  },
+
+  {
+    id: "DF_CH9_MED_28",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "During an interview, an employee gives an explanation inconsistent with documentary evidence. What should the professional do while reporting the interview?",
+    options: [
+      "Immediately declare the employee guilty",
+      "Ignore the inconsistency",
+      "Report the discrepancy objectively",
+      "Alter the documentary evidence"
+    ],
+    answer: 2,
+    solution: "Discrepancies or inconsistencies arising from interviews should be reported objectively without premature conclusions."
+  },
+
+  {
+    id: "DF_CH9_MED_29",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "The mandate requires the subject party to be given an opportunity to respond to draft findings. What should happen to the response received?",
+    options: [
+      "It should be ignored",
+      "It should be included in the written report",
+      "It should replace the original findings",
+      "It should be disclosed only verbally"
+    ],
+    answer: 1,
+    solution: "Where the engagement mandate requires discussion of findings with the subject, a summary of the responses should be included in the written report."
+  },
+
+  {
+    id: "DF_CH9_MED_30",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "An interim report is issued before all investigation procedures are completed. Which statement is most appropriate?",
+    options: [
+      "The observations are necessarily final",
+      "The observations may change after further procedures or information",
+      "The report cannot contain any findings",
+      "The report must express an opinion on guilt"
+    ],
+    answer: 1,
+    solution: "An interim report is based on work performed up to that date and its observations may change after further work or information."
+  },
+
+  {
+    id: "DF_CH9_MED_31",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which statement would be most appropriate in an interim report?",
+    options: [
+      "The observations are based on work procedures performed till date",
+      "The investigation is legally concluded",
+      "No further information can affect the findings",
+      "The professional guarantees the final outcome"
+    ],
+    answer: 0,
+    solution: "An interim report should clearly state that its observations are based on procedures performed up to that date."
+  },
+
+  {
+    id: "DF_CH9_MED_32",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which of the following is consistent with the principle that a forensic report should be free from bias?",
+    options: [
+      "The professional states that the suspect is definitely guilty",
+      "The professional reports facts supported by evidence without personal bias",
+      "The professional accepts management's allegations as facts",
+      "The professional excludes evidence that contradicts the hypothesis"
+    ],
+    answer: 1,
+    solution: "A report should be based on facts determined during the engagement and should not contain personal bias."
+  },
+
+  {
+    id: "DF_CH9_MED_33",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A professional concludes that certain transactions deviated from prescribed procedures. Can the professional state that the employee involved is guilty in the report?",
+    options: [
+      "Yes, whenever a deviation exists",
+      "Yes, if management agrees",
+      "No, the report should not pass judgment on guilt or innocence",
+      "Yes, if the amount involved is significant"
+    ],
+    answer: 2,
+    solution: "The professional may report factual findings and conclusions regarding the engagement objectives but should not express an opinion on guilt or innocence."
+  },
+
+  {
+    id: "DF_CH9_MED_34",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which section of a forensic report generally provides a concise overview of the engagement and key findings?",
+    options: [
+      "Executive Summary",
+      "Distribution List",
+      "Disclaimer only",
+      "Footnote"
+    ],
+    answer: 0,
+    solution: "The executive summary provides a concise overview of the concerns, work performed and important findings."
+  },
+
+  {
+    id: "DF_CH9_MED_35",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A professional could not review certain relevant records because access was denied. What should the report disclose?",
+    options: [
+      "Only the final findings",
+      "The limitation, reasons and potential impact where appropriate",
+      "That the records did not exist",
+      "That the investigation was fully completed without limitation"
+    ],
+    answer: 1,
+    solution: "Where relevant information could not be reviewed, the report should disclose the limitation, reasons and potential impact as appropriate."
+  },
+
+  {
+    id: "DF_CH9_MED_36",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Why should the report identify the source of evidence used for a finding?",
+    options: [
+      "To establish support for the finding",
+      "To increase the length of the report",
+      "To avoid documenting the chain of custody",
+      "To replace the executive summary"
+    ],
+    answer: 0,
+    solution: "Clearly identifying evidence sources helps establish the basis and support for the reported finding."
+  },
+
+  {
+    id: "DF_CH9_MED_37",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A forensic report is intended only for primary stakeholders under the engagement terms. What is the appropriate approach to wider circulation?",
+    options: [
+      "Circulate it freely to all employees",
+      "Share it with others only after appropriate approval",
+      "Publish it publicly",
+      "Share it with the media automatically"
+    ],
+    answer: 1,
+    solution: "Distribution to persons other than the primary stakeholders should generally require prior approval."
+  },
+
+  {
+    id: "DF_CH9_MED_38",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which of the following best describes the purpose of the 'Scope and Objectives' section?",
+    options: [
+      "To explain the boundaries and purpose of the engagement",
+      "To determine the suspect's punishment",
+      "To provide personal opinions",
+      "To replace detailed findings"
+    ],
+    answer: 0,
+    solution: "The scope and objectives explain the purpose and boundaries of the forensic accounting and investigation engagement."
+  },
+
+  {
+    id: "DF_CH9_MED_39",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A report states that information was obtained from public-domain sources. What limitation may be relevant?",
+    options: [
+      "The professional can guarantee that public records are never changed",
+      "The integrity and completeness of public-domain information may not be guaranteed",
+      "Public-domain information cannot ever be used",
+      "All public information is automatically false"
+    ],
+    answer: 1,
+    solution: "Public-domain information may change, be removed or be incomplete, and its integrity cannot necessarily be guaranteed."
+  },
+
+  {
+    id: "DF_CH9_MED_40",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which of the following is an appropriate best practice when formatting numbers in a forensic report?",
+    options: [
+      "Use unlimited decimal places",
+      "Use either no decimals or two decimals",
+      "Use random decimal places",
+      "Avoid presenting numbers in tables"
+    ],
+    answer: 1,
+    solution: "The chapter recommends that numbers should either have no decimals or two decimals for consistency."
+  },
+  {
+    id: "DF_CH9_MED_41",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "While drafting the summary of findings, a professional identifies the reason why a particular modus operandi was adopted. This primarily helps in understanding the:",
+    options: [
+      "Root cause and circumstances surrounding the finding",
+      "Distribution list of the report",
+      "Formatting requirements of the report",
+      "Personal opinion of the investigator"
+    ],
+    answer: 0,
+    solution: "Understanding why a particular modus operandi was adopted helps the professional identify the circumstances and root causes surrounding the finding."
+  },
+
+  {
+    id: "DF_CH9_MED_42",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A professional wants to show the relationship between several entities involved in a suspected transaction network. Which presentation technique would be most appropriate?",
+    options: [
+      "Link-Network Diagram",
+      "Covering Letter",
+      "Glossary",
+      "Distribution List"
+    ],
+    answer: 0,
+    solution: "A Link-Network Diagram can be used to explain links and relationships between parties involved in an investigation."
+  },
+
+  {
+    id: "DF_CH9_MED_43",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which of the following would help a reader understand the sequence of events surrounding a forensic finding?",
+    options: [
+      "Timeline of events",
+      "Personal opinion of the professional",
+      "Unrelated background information",
+      "Only the final amount of loss"
+    ],
+    answer: 0,
+    solution: "A timeline of events helps establish the background, context and sequence of events relevant to the finding."
+  },
+
+  {
+    id: "DF_CH9_MED_44",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "When reporting the work of an expert, the professional should disclose limitations faced by the expert primarily to:",
+    options: [
+      "Help the reader understand the extent and constraints of the expert's work",
+      "Prove that the expert was incorrect",
+      "Avoid referring to the expert's methodology",
+      "Replace the expert's report"
+    ],
+    answer: 0,
+    solution: "Disclosing limitations and constraints helps the reader understand the scope and reliability of the expert's work."
+  },
+
+  {
+    id: "DF_CH9_MED_45",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "An expert relied on information obtained from a third party. What should the professional consider while reporting the expert's work?",
+    options: [
+      "The source of the information and assessment of its reliability",
+      "Only the third party's name",
+      "The expert's personal opinion about the third party",
+      "Nothing, because third-party information need not be disclosed"
+    ],
+    answer: 0,
+    solution: "Where an expert relies on third-party information, the report should disclose the source and explain how its reliability was assessed."
+  },
+
+  {
+    id: "DF_CH9_MED_46",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "During digital evidence reporting, details such as make, model, serial number and capacity relate primarily to:",
+    options: [
+      "Digital devices and storage media examined",
+      "Expert qualifications",
+      "Management response",
+      "Report circulation"
+    ],
+    answer: 0,
+    solution: "These details identify the digital devices and storage media examined during the investigation."
+  },
+
+  {
+    id: "DF_CH9_MED_47",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A forensic investigator analyses file creation and modification dates to reconstruct events. This is an example of:",
+    options: [
+      "Timeline analysis",
+      "Relationship mapping",
+      "Data normalization",
+      "Management response"
+    ],
+    answer: 0,
+    solution: "Login/logout times and file creation or modification dates can be used for timeline analysis of digital activities."
+  },
+
+  {
+    id: "DF_CH9_MED_48",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "An investigator discovers that some relevant digital files were encrypted. Which reporting approach is appropriate?",
+    options: [
+      "Ignore the encryption",
+      "Document how encryption was addressed and its impact on the investigation",
+      "Assume the files contain fraudulent information",
+      "State that all files were successfully examined"
+    ],
+    answer: 1,
+    solution: "Where encryption is encountered, the report should explain how it was addressed and document any successful decryption and its impact."
+  },
+
+  {
+    id: "DF_CH9_MED_49",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A professional uses analytics to identify suspicious transactions involving common vendors and employees. Which technique may help illustrate these relationships?",
+    options: [
+      "Relationship mapping",
+      "Executive summary",
+      "Covering letter",
+      "Disclaimer"
+    ],
+    answer: 0,
+    solution: "Relationship mapping can be used to identify and present relationships between customers, vendors, employees or other entities."
+  },
+
+  {
+    id: "DF_CH9_MED_50",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A professional uses a dashboard to visually present unusual transaction patterns discovered through analytics. This is an example of:",
+    options: [
+      "Data visualization",
+      "Chain of custody",
+      "Expert qualification",
+      "Legal disclaimer"
+    ],
+    answer: 0,
+    solution: "Graphs, charts and dashboards are examples of data visualization used to present analytical findings clearly."
+  },
+
+  {
+    id: "DF_CH9_MED_51",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which statement best reflects the treatment of limitations in a forensic report?",
+    options: [
+      "Limitations should be disclosed when they restrict the work performed",
+      "Limitations should always be omitted",
+      "Limitations should be replaced with assumptions without disclosure",
+      "Limitations are relevant only to audit reports"
+    ],
+    answer: 0,
+    solution: "Limitations that restrict methodologies or procedures should be appropriately disclosed in the forensic report."
+  },
+
+  {
+    id: "DF_CH9_MED_52",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "If a professional is unable to complete a forensic investigation, what should be done regarding the incomplete work?",
+    options: [
+      "Delete all records of the work",
+      "Adequately capture the incomplete procedures and reasons in the subsequent Final Report",
+      "Issue a report stating that the investigation was fully completed",
+      "Transfer responsibility to the subject"
+    ],
+    answer: 1,
+    solution: "If the engagement cannot be completed, the incomplete procedures and reasons should be adequately captured in the Final Report subsequently issued."
+  },
+
+  {
+    id: "DF_CH9_MED_53",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which of the following best describes the purpose of a disclaimer stating that the executive summary is not a substitute for the report?",
+    options: [
+      "To ensure that the executive summary is read together with the complete report",
+      "To prevent the use of an executive summary",
+      "To eliminate the need for detailed findings",
+      "To express an opinion on guilt"
+    ],
+    answer: 0,
+    solution: "The executive summary provides an overview but should be read in conjunction with the complete report."
+  },
+
+  {
+    id: "DF_CH9_MED_54",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A professional includes sampling methods, digital tools, interviews and site visits performed during an engagement. These details would generally form part of:",
+    options: [
+      "Approach and broad work procedures undertaken",
+      "Distribution list",
+      "Executive summary disclaimer",
+      "Covering letter only"
+    ],
+    answer: 0,
+    solution: "The approach and broad work procedures section documents procedures performed, including sampling, digital tools, interviews and site visits."
+  },
+
+  {
+    id: "DF_CH9_MED_55",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A report contains an assumption that significantly affects the subject matter of the engagement. What should the professional do?",
+    options: [
+      "Disclose the relevant assumption and reliance placed on it",
+      "Keep it confidential from all readers",
+      "Convert it into a finding without evidence",
+      "Remove the assumption from working papers"
+    ],
+    answer: 0,
+    solution: "Relevant assumptions having a significant bearing on the subject matter should be adequately disclosed along with the reliance placed on them."
+  },
+
+  {
+    id: "DF_CH9_MED_56",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which statement is most appropriate regarding the professional's role in determining culpability?",
+    options: [
+      "The professional should determine guilt or innocence",
+      "The professional should pass judgment where financial loss is significant",
+      "Determination of culpability is generally a disciplinary or judicial process",
+      "The professional must always recommend criminal punishment"
+    ],
+    answer: 2,
+    solution: "Determination of culpability is a disciplinary process within an organization or a judicial process, depending on the circumstances."
+  },
+
+  {
+    id: "DF_CH9_MED_57",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A professional's report identifies that prescribed procedures were not followed but does not determine whether the employee is guilty. This approach is:",
+    options: [
+      "Consistent with FAIS reporting principles",
+      "Incorrect because every finding must establish guilt",
+      "Incorrect because conclusions are prohibited in all circumstances",
+      "Required only for interim reports"
+    ],
+    answer: 0,
+    solution: "The professional may report factual findings and conclusions regarding deviations or legal violations but should not express an opinion on guilt or innocence."
+  },
+
+  {
+    id: "DF_CH9_MED_58",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Why may a forensic report include a glossary of terms?",
+    options: [
+      "To help readers understand technical or specialized terminology",
+      "To replace the executive summary",
+      "To provide legal advice",
+      "To identify guilty persons"
+    ],
+    answer: 0,
+    solution: "A glossary can make the report more accessible by explaining specialized terminology used in the report."
+  },
+
+  {
+    id: "DF_CH9_MED_59",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A professional prepares a table summarizing applicable laws and their implications for the case. The main benefit is to:",
+    options: [
+      "Objectively show the correlation between laws and the findings",
+      "Replace all legal advice",
+      "Determine the punishment of the suspect",
+      "Avoid presenting evidence"
+    ],
+    answer: 0,
+    solution: "A tabular summary of applicable laws and their implications can objectively classify and explain their correlation with the case."
+  },
+
+  {
+    id: "DF_CH9_MED_60",
+    difficulty: "medium",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which of the following should be checked before issuing a forensic investigation report?",
+    options: [
+      "Casting and serial numbers in tables",
+      "Only the report title",
+      "Only the font size",
+      "Only the professional's signature"
+    ],
+    answer: 0,
+    solution: "Before issuing the report, checks should include casting, serial numbers, annexure references, numbering, grammar and possible copy-paste errors."
+  },
+
+  {
+    id: "DF_CH9_HARD_61",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "During an investigation, the Professional was unable to obtain certain records because access was denied by management. The absence of these records could materially affect the findings. What is the MOST appropriate reporting treatment?",
+    options: [
+      "Exclude the matter because the records were not available",
+      "State the limitation, reasons for it and potential impact on the work performed",
+      "Assume that the missing records would support the allegation",
+      "Issue an unconditional conclusion based on available records"
+    ],
+    answer: 1,
+    solution: "Where access to relevant information is restricted or denied, the Professional should disclose the limitation, reasons for it and its potential impact on the engagement."
+  },
+
+  {
+    id: "DF_CH9_HARD_62",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A forensic accountant concludes from the evidence that certain transactions deviated from prescribed procedures. However, the evidence does not establish whether the employee intentionally committed the deviation. Which reporting approach is most appropriate?",
+    options: [
+      "State that the employee is guilty because the procedure was violated",
+      "Avoid reporting the deviation because intent cannot be established",
+      "Report the factual deviation and refrain from expressing an opinion on guilt or innocence",
+      "State that the employee is innocent because intent was not established"
+    ],
+    answer: 2,
+    solution: "The Professional can report factual findings and conclusions regarding deviations but must refrain from expressing an opinion or judgment on guilt or innocence."
+  },
+
+  {
+    id: "DF_CH9_HARD_63",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "An expert engaged by the Professional used a financial model based partly on information received from a third party. Which combination should ideally be addressed in the forensic report?",
+    options: [
+      "Only the expert's name and fee",
+      "Expert's qualifications, methodology, information relied upon and assessment of third-party information",
+      "Only the expert's final conclusion",
+      "Only the third party's identity"
+    ],
+    answer: 1,
+    solution: "When using an expert's work, the report should address qualifications, scope, methodology, data provided, reliance on third-party information and relevant findings or limitations."
+  },
+
+  {
+    id: "DF_CH9_HARD_64",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "An Interim Report states that ₹8 crore of transactions appear unusual based on procedures completed so far. The investigation is still continuing. Which statement would be MOST appropriate?",
+    options: [
+      "The ₹8 crore represents the final confirmed loss",
+      "The observations are based on work performed till date and may change after further procedures",
+      "The Professional guarantees that no further evidence will alter the findings",
+      "The Interim Report should be treated as the Final Report"
+    ],
+    answer: 1,
+    solution: "An Interim Report should clearly state that observations are based on work performed till date and may change after completion of procedures or receipt of further information."
+  },
+
+  {
+    id: "DF_CH9_HARD_65",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A Professional's Interim Report does not comply with all FAIS requirements because the investigation is incomplete. Which disclosure is specifically relevant?",
+    options: [
+      "The report should state that it may not be in accordance with all FAIS",
+      "The report should state that it is automatically a Final Report",
+      "The report should omit all limitations",
+      "The report should express an opinion on the incomplete evidence"
+    ],
+    answer: 0,
+    solution: "The guidance permits an Interim Report to state that it may not be in accordance with all Forensic Accounting and Investigation Standards because work is incomplete."
+  },
+
+  {
+    id: "DF_CH9_HARD_66",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A report contains a detailed finding that ₹12.50 crore was transferred through several entities. The Professional has not provided references showing how the amount was established. Which reporting principle is primarily compromised?",
+    options: [
+      "Factual and evidence-supported reporting",
+      "Restricted circulation",
+      "Use of capital letters",
+      "Covering letter requirement"
+    ],
+    answer: 0,
+    solution: "Amounts stated in the report should be substantiated by evidence and appropriately referenced. Unsupported financial amounts weaken the factual nature of the report."
+  },
+
+  {
+    id: "DF_CH9_HARD_67",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A Professional discovers that the same vendor is linked to multiple employees and that payments to the vendor increased immediately after certain employees approved purchases. Which combination would BEST present this finding?",
+    options: [
+      "Relationship mapping together with chronological and quantitative analysis",
+      "Only a covering letter",
+      "Only a glossary of terms",
+      "Only the distribution list"
+    ],
+    answer: 0,
+    solution: "Relationship mapping can show connections between entities, while chronology and quantitative analysis can demonstrate timing and financial patterns."
+  },
+
+  {
+    id: "DF_CH9_HARD_68",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A forensic accountant uses data analytics and identifies 2,400 transactions as potential anomalies out of 120,000 transactions examined. Which reporting element would make this analytical result more meaningful?",
+    options: [
+      "Quantifying the findings and explaining the significance of the anomalies",
+      "Simply stating that analytics were used",
+      "Omitting the underlying data population",
+      "Reporting the anomalies as proven frauds"
+    ],
+    answer: 0,
+    solution: "Data analytics reporting should quantify findings and explain the significance of identified anomalies without automatically treating anomalies as proven fraud."
+  },
+
+  {
+    id: "DF_CH9_HARD_69",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "During a digital investigation, an investigator recovered deleted emails. Which additional information would be MOST relevant to establish the evidentiary context?",
+    options: [
+      "The investigator's personal view of the sender",
+      "The methods used for recovery and the chain of custody of the digital evidence",
+      "Only the number of emails recovered",
+      "Only the date on which the report was issued"
+    ],
+    answer: 1,
+    solution: "The report should explain relevant forensic techniques and maintain a documented chain of custody to support the integrity of digital evidence."
+  },
+
+  {
+    id: "DF_CH9_HARD_70",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A Professional relies on public-domain information that was available on the date of the investigation. Later, the source updates or removes some information. Which limitation is most relevant?",
+    options: [
+      "The Professional can guarantee the completeness of historical public-domain information",
+      "Public-domain information may change and previously available or subsequently filed information may not be identified",
+      "Public-domain information automatically becomes primary evidence",
+      "No limitation is required because public records are always complete"
+    ],
+    answer: 1,
+    solution: "Public-domain sources may change, and information previously removed or subsequently filed may not be identifiable as of the report date."
+  },
+
+  {
+    id: "DF_CH9_HARD_71",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "The engagement requires the Professional to discuss draft findings with the subject before finalisation. The subject provides explanations that contradict certain findings. What should the Professional generally do?",
+    options: [
+      "Ignore the explanations because the original findings were already prepared",
+      "Include the response received in the written report and assess it against the evidence",
+      "Replace all findings with the subject's explanation",
+      "Delete the draft findings from the working papers"
+    ],
+    answer: 1,
+    solution: "Where the engagement mandate requires discussion of findings with the subject, the response received should be included in the written report."
+  },
+
+  {
+    id: "DF_CH9_HARD_72",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A report is factually accurate but uses highly technical forensic terminology without explanation and is intended for non-specialist stakeholders. Which quality is primarily affected?",
+    options: [
+      "Clear and unambiguous communication",
+      "Chain of custody",
+      "Expert independence",
+      "Restricted circulation"
+    ],
+    answer: 0,
+    solution: "The report should use non-technical language where possible or explain technical terms so that stakeholders can understand the findings."
+  },
+
+  {
+    id: "DF_CH9_HARD_73",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A Professional includes the name of an employee in a list of persons referred to in the report. The evidence merely establishes that the employee approved a transaction and does not establish misconduct. What is the BEST safeguard?",
+    options: [
+      "State that the employee is a suspect",
+      "Include a caveat that names appearing in the report do not by themselves indicate involvement and that the report should be read in full",
+      "Remove all employee names regardless of relevance",
+      "Conclude that the employee participated in the fraud"
+    ],
+    answer: 1,
+    solution: "The chapter suggests a caveat that names used in the report do not tantamount to involvement and that the report should be read in full."
+  },
+
+  {
+    id: "DF_CH9_HARD_74",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A Professional could not interview the suspected individual because the engagement scope did not include obtaining formal clarification from that individual. Which disclosure is most appropriate?",
+    options: [
+      "State the limitation and clarify that findings may need amendment if further information becomes available",
+      "State that the suspect's silence proves the allegations",
+      "Omit the fact that the interview was not conducted",
+      "Treat the allegations as conclusively established"
+    ],
+    answer: 0,
+    solution: "The report may disclose that formal clarification was not obtained and reserve the right to amend findings if further information becomes available."
+  },
+
+  {
+    id: "DF_CH9_HARD_75",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "Which of the following combinations MOST appropriately reflects the distinction between a forensic report's conclusions and an opinion on culpability?",
+    options: [
+      "Conclusion on whether evidence supports the concern — permissible; judgment that a person is guilty — not permissible",
+      "Both are prohibited",
+      "Both are mandatory",
+      "Judgment on guilt is permissible whenever evidence is strong"
+    ],
+    answer: 0,
+    solution: "The Professional may conclude whether evidence supports the concerns or whether deviations occurred, but should not express an opinion or judgment on guilt or innocence."
+  },
+
+  {
+    id: "DF_CH9_HARD_76",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "An investigation report is circulated to several persons who were not identified as Primary Stakeholders, without obtaining the required approval. Which reporting principle is most directly violated?",
+    options: [
+      "Restricted circulation and confidentiality",
+      "Chronological presentation",
+      "Quantification of findings",
+      "Use of data analytics"
+    ],
+    answer: 0,
+    solution: "The report generally has restricted circulation and should be shared with others only with prior approval of the Primary Stakeholders, where applicable."
+  },
+
+  {
+    id: "DF_CH9_HARD_77",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A forensic report states that the investigation was conducted in accordance with FAIS but does not mention a material departure from a relevant requirement. Which principle is potentially compromised?",
+    options: [
+      "Transparency regarding compliance with applicable standards",
+      "Use of chronological order",
+      "Formatting of tables",
+      "Executive summary length"
+    ],
+    answer: 0,
+    solution: "The report should state that the engagement was conducted in accordance with FAIS and highlight material departures, if any."
+  },
+
+  {
+    id: "DF_CH9_HARD_78",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A professional's report is based on information supplied by management. Reasonable corroboration was performed, but the complete dataset was not independently verified. Which disclaimer is MOST appropriate?",
+    options: [
+      "The Professional guarantees the authenticity and completeness of all information",
+      "The report should disclose reliance on the information and limitations regarding independent verification",
+      "Management information automatically becomes verified evidence",
+      "The Professional should omit the source of the information"
+    ],
+    answer: 1,
+    solution: "Where complete datasets have not been independently verified, the report should appropriately disclose reliance on the information and the resulting limitations."
+  },
+
+  {
+    id: "DF_CH9_HARD_79",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A report identifies a significant control weakness, explains the modus operandi, quantifies the resulting loss and identifies the evidence supporting the finding. Which additional element would BEST improve the usefulness of the finding?",
+    options: [
+      "A practical recommendation addressing the root cause",
+      "An unsupported opinion about the employee's character",
+      "A statement declaring the employee guilty",
+      "Removal of the supporting evidence references"
+    ],
+    answer: 0,
+    solution: "Actionable recommendations addressing the root cause can help stakeholders take practical remedial measures."
+  },
+
+  {
+    id: "DF_CH9_HARD_80",
+    difficulty: "hard",
+    subject: "Forensic Accounting",
+    chapter: "Writing a Forensic Investigation Report",
+    question: "A forensic report contains findings supported by documents, digital evidence, interviews and expert analysis. However, the report does not explain how the evidence was obtained or who provided it. Which important reporting consideration is missing?",
+    options: [
+      "Evidence sources and chain of custody",
+      "Only the executive summary",
+      "Only the report title",
+      "Only the date format"
+    ],
+    answer: 0,
+    solution: "The report should clearly reference supporting evidence and specifically mention the chain of custody, including who provided the evidence or how it was discovered."
+  },
+
+  {
+    case_id: "DF_CS_19_1",
+    case_chapter: ["Writing a Forensic Investigation Report"],
+
+    caseText: `
+
+      <p>
+      Zenith Infrastructure Limited, a company engaged in the execution of large
+      infrastructure projects, appointed a Professional to conduct a Forensic Accounting
+      and Investigation engagement after its internal management received complaints
+      regarding irregular payments to certain vendors. The complaints indicated that
+      some vendors appeared to have common ownership or connections with employees
+      of the procurement department.
+      </p>
+
+      <p>
+      The engagement covered transactions entered into during the period from April
+      2023 to March 2026. The Professional was required to examine procurement
+      records, purchase orders, invoices, bank statements, vendor master data,
+      approval records, email communications and other relevant documents. The
+      engagement terms also permitted the Professional to use specialists where
+      required.
+      </p>
+
+      <p>
+      During the investigation, the Professional identified 18 vendors that had received
+      substantial payments from Zenith Infrastructure Limited. Data analytics were
+      performed on approximately 1,80,000 purchase and payment transactions. The
+      analysis identified several unusual patterns. In particular, payments to seven
+      vendors increased significantly shortly after certain employees were appointed
+      as approving authorities. Further analysis showed that some vendors shared
+      common telephone numbers, addresses and bank account details.
+      </p>
+
+      <p>
+      The Professional prepared a relationship map showing connections between
+      employees, vendors, bank accounts and certain intermediary entities. A separate
+      chronological analysis showed that purchase orders were frequently raised,
+      approved and paid within unusually short periods. The Professional also prepared
+      a fund-flow chart to demonstrate the movement of certain payments from Zenith
+      Infrastructure Limited to vendors and subsequently to other related entities.
+      </p>
+
+      <p>
+      During the course of the engagement, a Digital Forensic Expert was appointed to
+      examine emails and certain company laptops. The expert acquired digital evidence
+      using appropriate forensic tools and maintained records relating to the handling,
+      storage and transfer of the evidence. Deleted emails relating to certain vendor
+      negotiations were recovered. Metadata examination was also performed to
+      establish the creation and modification dates of certain documents.
+      </p>
+
+      <p>
+      The Professional also conducted interviews with the procurement head, two
+      purchase managers, three employees involved in vendor approval and certain
+      other personnel. During one interview, an employee stated that a particular
+      vendor had been recommended by the procurement head. Another employee stated
+      that he had approved certain purchase orders based on instructions received
+      from his superior.
+      </p>
+
+      <p>
+      The Professional did not treat the statements of employees as conclusive proof.
+      Instead, the statements were compared with purchase orders, email records,
+      payment records and other documentary evidence. Some inconsistencies were
+      identified between the explanations given during interviews and the documentary
+      evidence.
+      </p>
+
+      <p>
+      An external expert in valuation was also engaged to determine whether certain
+      purchases were made at prices substantially higher than comparable market
+      prices. The expert was provided with purchase records, invoices and market
+      information. The expert's report identified significant differences between the
+      prices paid by Zenith Infrastructure Limited and the prices generally prevailing
+      for similar goods.
+      </p>
+
+      <p>
+      While drafting the report, the Professional decided to prepare an Executive
+      Summary followed by detailed findings. The findings were arranged broadly in
+      chronological order. Each major finding contained references to supporting
+      documents and evidence. The report also identified the relevant persons involved
+      in approving transactions, described the modus operandi identified and quantified
+      the financial impact wherever possible.
+      </p>
+
+      <p>
+      However, certain bank records relating to one intermediary entity could not be
+      obtained because the relevant records were subject to restrictions imposed by a
+      competent authority. The Professional therefore could not independently verify
+      the complete movement of funds relating to that entity.
+      </p>
+
+      <p>
+      The Professional also prepared a draft report and discussed the relevant
+      observations with the subject employees, as required under the engagement
+      mandate. Some employees denied any knowledge of relationships with vendors and
+      provided additional explanations. These responses were considered against the
+      documentary and digital evidence already gathered.
+      </p>
+
+      <p>
+      At the time of finalisation, one senior employee was found to have approved
+      several transactions that were inconsistent with the company's procurement
+      procedures. The evidence established the deviations and the financial impact.
+      However, the Professional was not engaged to determine criminal or disciplinary
+      culpability and therefore did not express an opinion on whether the employee was
+      guilty or innocent.
+      </p>
+
+      <p>
+      The Professional also ensured that the report clearly mentioned its scope,
+      objectives, work procedures, use of experts, findings, assumptions, limitations
+      and relevant disclaimers. The report was addressed to the Primary Stakeholders
+      and contained a restriction on further circulation without appropriate approval.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "DF_CS_19_1_Q1",
+        difficulty: "easy",
+        chapter_name: ["Writing a Forensic Investigation Report"],
+        question: "Which section of the report provides a concise overview of the engagement and its key findings?",
+        options: [
+          "Executive Summary",
+          "Distribution List",
+          "Assumptions and Limitations",
+          "Covering Letter"
+        ],
+        answer: 0,
+        solution_html: `
+          <p>
+          The <strong>Executive Summary</strong> provides a concise overview of the
+          engagement, concerns raised, work procedures performed and important findings.
+          </p>
+        `
+      },
+
+      {
+        question_id: "DF_CS_19_1_Q2",
+        difficulty: "easy",
+        chapter_name: ["Writing a Forensic Investigation Report"],
+        question: "The Professional could not independently verify certain bank records because access was restricted. What should the Professional do?",
+        options: [
+          "Ignore the unavailable records",
+          "Assume that the records support the allegations",
+          "Disclose the limitation, its reason and potential impact",
+          "Treat the missing records as proof of wrongdoing"
+        ],
+        answer: 2,
+        solution_html: `
+          <p>
+          Where relevant information cannot be reviewed or verified, the Professional
+          should disclose the <strong>limitation, reasons for the limitation and its
+          potential impact</strong> on the engagement.
+          </p>
+        `
+      },
+
+      {
+        question_id: "DF_CS_19_1_Q3",
+        difficulty: "easy",
+        chapter_name: ["Writing a Forensic Investigation Report"],
+        question: "Which presentation technique would be most appropriate for showing connections between employees, vendors, bank accounts and intermediary entities?",
+        options: [
+          "Relationship or Link-Network Diagram",
+          "Covering Letter",
+          "Glossary",
+          "Distribution List"
+        ],
+        answer: 0,
+        solution_html: `
+          <p>
+          A <strong>Link-Network Diagram</strong> can be used to explain links and
+          relationships between parties or entities involved in an investigation.
+          </p>
+        `
+      },
+
+      {
+        question_id: "DF_CS_19_1_Q4",
+        difficulty: "hard",
+        chapter_name: ["Writing a Forensic Investigation Report"],
+        question: "The evidence establishes that a senior employee approved transactions contrary to procurement procedures, but the Professional was not engaged to determine culpability. Which reporting approach is MOST appropriate?",
+        options: [
+          "Conclude that the employee is guilty because the transactions violated procedures",
+          "Conclude that the employee is innocent because criminal intent was not established",
+          "Report the factual deviation, supporting evidence and financial impact without expressing an opinion on guilt or innocence",
+          "Exclude the employee's transactions because culpability cannot be determined"
+        ],
+        answer: 2,
+        solution_html: `
+          <p>
+          The Professional may report the <strong>facts, evidence, procedural
+          deviations and financial implications</strong>. However, the Professional
+          should refrain from expressing an opinion or judgment regarding the
+          <strong>guilt or innocence</strong> of any person.
+          </p>
+        `
+      },
+
+      {
+        question_id: "DF_CS_19_1_Q5",
+        difficulty: "hard",
+        chapter_name: ["Writing a Forensic Investigation Report"],
+        question: "The Professional used data analytics, digital forensic evidence, interviews and an external valuation expert. Several employees disputed the draft findings. Which approach BEST complies with the reporting principles?",
+        options: [
+          "Report only the Professional's interpretation and exclude the employees' responses because they contradict the findings",
+          "Include the expert's conclusion without mentioning the expert's qualifications or methodology and treat employee statements as conclusive evidence",
+          "Present findings with references to supporting evidence, disclose the expert's credentials and scope, explain relevant analytical and digital procedures, consider the employees' responses, and disclose material limitations",
+          "Conclude that the employees are responsible because the data analytics identified unusual transactions"
+        ],
+        answer: 2,
+        solution_html: `
+          <p>
+          The report should provide a transparent and evidence-based presentation.
+          It should appropriately disclose the <strong>expert's qualifications,
+          scope and methodology</strong>, explain relevant data analytics and digital
+          forensic procedures, reference supporting evidence, consider responses
+          received from the subject party and disclose material limitations.
+          </p>
+
+          <p>
+          Importantly, unusual transactions identified through analytics do not by
+          themselves establish culpability. The Professional must correlate analytical
+          results with other evidence and maintain an objective and neutral approach.
+          </p>
+        `
+      }
+
+    ]
+  },
+
+  {
+  case_id: "DF_CS_19_2",
+  case_chapter: ["Writing a Forensic Investigation Report"],
+
+  caseText: `
+
+
+    <p>
+    Apex Consumer Products Limited is engaged in the manufacture and distribution
+    of packaged consumer goods across several states in India. During the financial
+    year 2025-26, the company's internal audit department noticed that certain
+    distributors had recorded unusually high sales shortly before the end of several
+    reporting periods. It was also observed that a number of credit notes were issued
+    shortly after such sales were recorded.
+    </p>
+
+    <p>
+    The Audit Committee requested the management to examine the matter. Since the
+    transactions involved multiple distributors, employees and a large volume of
+    accounting data, the company appointed a Professional to conduct a Forensic
+    Accounting and Investigation engagement. The scope of the engagement included
+    examination of sales transactions, credit notes, distributor master data, bank
+    statements, sales invoices, dispatch records, emails and relevant employee
+    communications.
+    </p>
+
+    <p>
+    The Professional first obtained information regarding the company's sales process,
+    approval hierarchy and credit-note procedures. The data for approximately
+    2,50,000 sales invoices covering three financial years was extracted and processed.
+    Data analytics were performed to identify unusual sales patterns, repeated invoice
+    amounts, transactions recorded immediately before period-end and credit notes
+    issued shortly after sales.
+    </p>
+
+    <p>
+    The analysis identified 1,850 transactions requiring further examination. Out of
+    these, 420 transactions related to eight distributors. Several of the transactions
+    had similar characteristics. Goods were dispatched during the last few days of a
+    reporting period, revenue was recorded before the period ended and credit notes
+    were subsequently issued within a short period.
+    </p>
+
+    <p>
+    The Professional did not immediately conclude that all such transactions were
+    fraudulent. Instead, supporting documents were examined. These included purchase
+    orders from distributors, dispatch records, delivery acknowledgements, sales
+    invoices, credit notes and correspondence between the distributors and company
+    employees.
+    </p>
+
+    <p>
+    During the review of emails, the Professional noticed communications between
+    certain sales executives and distributors discussing year-end sales targets.
+    Since the emails were relevant to the investigation, a Digital Forensic Expert was
+    engaged. The expert acquired relevant electronic evidence from company laptops
+    and email systems using appropriate forensic procedures. The evidence was
+    preserved and its handling and transfer were documented.
+    </p>
+
+    <p>
+    The Professional also engaged a specialist to analyse the pricing and commercial
+    terms offered to distributors. The specialist compared the transactions under
+    review with similar transactions involving other distributors. The specialist
+    concluded that some distributors received unusually favourable commercial terms.
+    The Professional considered the qualifications, scope, methodology and
+    information relied upon by the specialist before incorporating the relevant work
+    into the report.
+    </p>
+
+    <p>
+    Interviews were conducted with the Head of Sales, regional sales managers,
+    sales executives and certain distributors. The interviewees were informed about
+    the purpose and background of the interviews. Notes were maintained and relevant
+    statements were compared with documentary and digital evidence.
+    </p>
+
+    <p>
+    One sales manager stated that the year-end sales were genuine and that the
+    subsequent credit notes were issued only because distributors had requested
+    commercial adjustments. However, certain emails appeared to indicate that some
+    employees were aware that distributors might return part of the goods after the
+    reporting period.
+    </p>
+
+    <p>
+    The Professional also identified a weakness in the company's credit-note approval
+    process. In several cases, the same senior sales employee who was involved in
+    approving the original sales transactions was also involved in approving the
+    subsequent credit notes.
+    </p>
+
+    <p>
+    While preparing the draft report, the Professional presented the relevant
+    observations to the concerned employees. The employees provided explanations
+    regarding the commercial reasons for the transactions. These explanations were
+    evaluated against invoices, dispatch records, emails, credit notes and other
+    evidence.
+    </p>
+
+    <p>
+    The final report was prepared in a structured manner. It contained the scope and
+    objectives, work procedures, executive summary, detailed findings, references to
+    supporting evidence, use of experts, assumptions and limitations and conclusions
+    relating to the investigation objectives.
+    </p>
+
+    <p>
+    The Professional quantified the transactions that required further consideration
+    and separately identified the transactions where sufficient evidence was available
+    to establish deviations from the company's prescribed procedures. The report did
+    not state that any particular employee was guilty or innocent.
+    </p>
+
+    <p>
+    Certain distributor confirmations could not be obtained because the distributors
+    had discontinued their business operations. The Professional therefore disclosed
+    this limitation and explained that the inability to obtain confirmations restricted
+    the procedures that could be performed in relation to certain transactions.
+    </p>
+
+    <p>
+    Since the report was confidential and intended for the Audit Committee and other
+    Primary Stakeholders, the report contained a restriction on further circulation.
+    The Professional also ensured that the report was not read in isolation and that
+    relevant assumptions, limitations and disclaimers were clearly stated.
+  `,
+
+  questions: [
+
+    {
+      question_id: "DF_CS_19_2_Q1",
+      difficulty: "easy",
+      chapter_name: ["Writing a Forensic Investigation Report"],
+      question: "What was the primary purpose of using data analytics in the above investigation?",
+      options: [
+        "To automatically establish the guilt of employees",
+        "To identify unusual patterns and transactions requiring further examination",
+        "To replace documentary evidence",
+        "To prepare the final legal judgment"
+      ],
+      answer: 1,
+      solution_html: `
+        <p>
+        Data analytics was used to identify <strong>patterns, anomalies and unusual
+        transactions</strong> that required further investigation. Identification of an
+        anomaly does not by itself establish fraud or culpability.
+        </p>
+      `
+    },
+
+    {
+      question_id: "DF_CS_19_2_Q2",
+      difficulty: "easy",
+      chapter_name: ["Writing a Forensic Investigation Report"],
+      question: "Which information should be considered when reporting the work of the specialist engaged to analyse distributor pricing?",
+      options: [
+        "Only the specialist's name",
+        "Only the specialist's final conclusion",
+        "The specialist's qualifications, scope, methodology and information relied upon",
+        "Only the amount of fees paid to the specialist"
+      ],
+      answer: 2,
+      solution_html: `
+        <p>
+        When using the work of an Expert, the report should appropriately address
+        the Expert's <strong>qualifications, scope of engagement, methodology,
+        information provided and relevant findings or limitations</strong>.
+        </p>
+      `
+    },
+
+    {
+      question_id: "DF_CS_19_2_Q3",
+      difficulty: "easy",
+      chapter_name: ["Writing a Forensic Investigation Report"],
+      question: "The Professional could not obtain confirmations from certain distributors because they had discontinued their businesses. How should this matter be dealt with?",
+      options: [
+        "It should be ignored because the distributors were no longer operating",
+        "The Professional should assume the confirmations would support the company",
+        "The limitation and its potential impact on the procedures should be disclosed",
+        "The affected transactions should automatically be treated as fraudulent"
+      ],
+      answer: 2,
+      solution_html: `
+        <p>
+        When evidence or information cannot be obtained, the Professional should
+        disclose the <strong>limitation, its reason and the potential impact</strong>
+        on the work performed.
+        </p>
+      `
+    },
+
+    {
+      question_id: "DF_CS_19_2_Q4",
+      difficulty: "hard",
+      chapter_name: ["Writing a Forensic Investigation Report"],
+      question: "The data analytics identified 1,850 unusual transactions, while subsequent procedures established deviations from prescribed procedures only for certain transactions. Which reporting approach is MOST appropriate?",
+      options: [
+        "Report all 1,850 transactions as fraudulent because they were flagged by analytics",
+        "Exclude the 1,850 transactions because data analytics cannot be used in a forensic investigation",
+        "Distinguish between transactions identified for further examination and transactions for which sufficient evidence established specific deviations",
+        "Conclude that every employee connected with the transactions is responsible"
+      ],
+      answer: 2,
+      solution_html: `
+        <p>
+        Data analytics is useful for identifying <strong>patterns, anomalies and
+        transactions requiring further investigation</strong>. However, an analytical
+        flag does not automatically establish misconduct.
+        </p>
+
+        <p>
+        Therefore, the report should distinguish between transactions identified
+        through analytics and those for which subsequent procedures provided
+        sufficient evidence of specific deviations.
+        </p>
+      `
+    },
+
+    {
+      question_id: "DF_CS_19_2_Q5",
+      difficulty: "hard",
+      chapter_name: ["Writing a Forensic Investigation Report"],
+      question: "The Professional found that the same senior sales employee participated in approving both the original sales transactions and subsequent credit notes. Emails also indicated awareness that some goods could be returned after year-end. However, the employee provided an alternative commercial explanation during the draft-report discussion. Which approach BEST reflects the requirements of a forensic investigation report?",
+      options: [
+        "State that the employee is guilty because the approval process and emails prove intentional manipulation",
+        "Ignore the employee's explanation because the Professional had already reached a conclusion",
+        "Present the relevant facts, documentary and digital evidence, control deviation, financial implications and the employee's response, while avoiding a judgment on guilt or innocence",
+        "Remove the employee's name and all related transactions from the report"
+      ],
+      answer: 2,
+      solution_html: `
+        <p>
+        The Professional should maintain an <strong>objective, factual and neutral
+        approach</strong>. The report may present the approval conflict, relevant
+        emails, transaction evidence, control deviation and financial implications.
+        </p>
+
+        <p>
+        Since the draft findings were discussed with the subject, the relevant
+        response should also be considered and, where applicable, included in the
+        report. The Professional should not express an opinion or judgment on the
+        employee's guilt or innocence.
+        </p>
+      `
+    }
+
+  ]
+},
+
+{
+  case_id: "DF_CS_19_3",
+  case_chapter: ["Writing a Forensic Investigation Report"],
+
+  caseText: `
+
+    <p>
+    Nova Healthcare Equipment Limited manufactures and supplies specialised
+    medical equipment to hospitals and government institutions. During an internal
+    review, the management noticed that the company had made several large
+    payments to newly appointed suppliers. Some of these suppliers had been
+    onboarded shortly before receiving their first purchase orders. The internal
+    review also identified instances where purchase prices appeared significantly
+    higher than prices paid for similar equipment from other suppliers.
+    </p>
+
+    <p>
+    The Audit Committee was concerned about the transactions and appointed a
+    Professional to conduct a Forensic Accounting and Investigation engagement.
+    The engagement objectives included examining the procurement process,
+    identifying the persons involved in vendor selection and approval, determining
+    whether prescribed procedures had been followed and quantifying the financial
+    impact of any identified deviations.
+    </p>
+
+    <p>
+    The Professional obtained the company's procurement policy, vendor master,
+    purchase orders, invoices, goods receipt notes, payment records and approval
+    records. The Professional also reviewed correspondence between the procurement
+    department and suppliers. The period examined covered transactions entered
+    into between April 2024 and March 2026.
+    </p>
+
+    <p>
+    More than 75,000 procurement transactions were analysed. Data analytics
+    identified several red flags, including suppliers with recently created vendor
+    accounts, repeated purchases just below approval thresholds, unusual changes
+    in purchase prices and multiple suppliers having similar contact details.
+    These indicators were used to identify transactions requiring detailed
+    examination.
+    </p>
+
+    <p>
+    Further examination showed that six suppliers shared certain contact details.
+    In two instances, the registered addresses of suppliers were different but the
+    telephone numbers provided in the vendor master were identical. The bank
+    account details of two suppliers also showed similarities with accounts used
+    by another entity that had previously supplied equipment to the company.
+    </p>
+
+    <p>
+    The Professional did not treat the common contact details as conclusive proof
+    of wrongdoing. Additional documentary evidence was examined, including
+    incorporation documents, invoices, delivery records and correspondence.
+    The Professional also performed a review of the approval trail for the
+    transactions.
+    </p>
+
+    <p>
+    Since some relevant communications were stored on company laptops, a Digital
+    Forensic Expert was appointed. The expert acquired images of relevant devices
+    and examined emails, documents and metadata. Certain deleted files were
+    recovered. The expert maintained documentation relating to acquisition,
+    preservation, storage and transfer of the digital evidence.
+    </p>
+
+    <p>
+    The Professional also interviewed the procurement head, purchase officers,
+    finance personnel and selected employees responsible for vendor onboarding.
+    During the interviews, one purchase officer stated that the suppliers had been
+    recommended by the procurement head. The procurement head, however, stated
+    that the suppliers had been selected after independent commercial evaluation.
+    </p>
+
+    <p>
+    The Professional compared these statements with the available documentation.
+    Certain emails showed that the procurement head had communicated with one
+    supplier before the supplier was formally registered in the vendor master.
+    However, the evidence did not independently establish that the procurement
+    head had personally benefited from the transactions.
+    </p>
+
+    <p>
+    A valuation specialist was engaged to assess the reasonableness of prices paid
+    for certain medical equipment. The specialist compared the relevant purchase
+    prices with available market information and comparable transactions. The
+    report of the specialist identified significant price differences in some
+    transactions. The Professional reviewed the specialist's qualifications,
+    methodology, scope and information relied upon before using the work in the
+    forensic report.
+    </p>
+
+    <p>
+    While drafting the report, the Professional prepared a chronological timeline
+    showing vendor creation, purchase order approval, delivery, invoicing and
+    payment. A fund-flow chart was also prepared for selected transactions.
+    These presentations helped the Primary Stakeholders understand the sequence
+    of events and movement of funds.
+    </p>
+
+    <p>
+    During the draft-report discussion, the procurement head disputed certain
+    observations and stated that the similarities in vendor details were merely
+    coincidental. Additional documents were submitted in support of this
+    explanation. The Professional reviewed the documents before finalising the
+    findings.
+    </p>
+
+    <p>
+    Certain original vendor incorporation documents could not be independently
+    verified because the relevant records were not available from the source
+    during the period of the engagement. The Professional therefore disclosed
+    this limitation and explained that the absence of independent verification
+    restricted the procedures relating to those particular documents.
+    </p>
+
+    <p>
+    The final report contained a covering letter, scope and objectives, work
+    procedures, executive summary, detailed findings, reference to expert work,
+    assumptions, limitations and disclaimers and conclusions relevant to the
+    objectives of the engagement.
+    </p>
+
+    <p>
+    The Professional ensured that the report remained factual and free from
+    personal bias. Although certain transactions and procedural deviations were
+    reported, the Professional did not state that any individual was guilty or
+    innocent. The report was addressed to the Primary Stakeholders and contained
+    an appropriate restriction on further circulation.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "DF_CS_19_3_Q1",
+      difficulty: "easy",
+      chapter_name: ["Writing a Forensic Investigation Report"],
+      question: "What was the primary purpose of the data analytics performed by the Professional?",
+      options: [
+        "To automatically prove fraud",
+        "To identify red flags and transactions requiring detailed examination",
+        "To replace the investigation process",
+        "To determine the guilt of employees"
+      ],
+      answer: 1,
+      solution_html: `
+        <p>
+        Data analytics was used to identify <strong>red flags, unusual patterns
+        and transactions requiring further examination</strong>. Analytical
+        indicators do not automatically establish fraud or culpability.
+        </p>
+      `
+    },
+
+    {
+      question_id: "DF_CS_19_3_Q2",
+      difficulty: "easy",
+      chapter_name: ["Writing a Forensic Investigation Report"],
+      question: "Which presentation tool was used to show the sequence of vendor creation, purchase order approval, delivery, invoicing and payment?",
+      options: [
+        "Chronological timeline",
+        "Glossary",
+        "Distribution list",
+        "Covering letter"
+      ],
+      answer: 0,
+      solution_html: `
+        <p>
+        A <strong>chronological timeline</strong> helps present the sequence of
+        events and provides context to the findings.
+        </p>
+      `
+    },
+
+    {
+      question_id: "DF_CS_19_3_Q3",
+      difficulty: "easy",
+      chapter_name: ["Writing a Forensic Investigation Report"],
+      question: "Why did the Professional disclose the inability to independently verify certain vendor incorporation documents?",
+      options: [
+        "Because every report must contain a limitation even when none exists",
+        "Because the limitation restricted the procedures that could be performed",
+        "Because unavailable documents automatically prove fraud",
+        "Because the Professional was required to remove the finding"
+      ],
+      answer: 1,
+      solution_html: `
+        <p>
+        A limitation should be disclosed when the Professional is unable to
+        perform relevant procedures. The report should explain the
+        <strong>nature and potential impact of the limitation</strong>.
+        </p>
+      `
+    },
+
+    {
+      question_id: "DF_CS_19_3_Q4",
+      difficulty: "hard",
+      chapter_name: ["Writing a Forensic Investigation Report"],
+      question: "The evidence showed that the procurement head communicated with a supplier before the supplier was formally registered, but there was no evidence establishing that the procurement head personally benefited. Which conclusion would be MOST appropriate for the Professional?",
+      options: [
+        "The procurement head is guilty because communication occurred before registration",
+        "The procurement head is innocent because no personal benefit was identified",
+        "The report may state the relevant chronology and evidence, but should refrain from expressing an opinion on the procurement head's guilt or innocence",
+        "The communication should be excluded because it does not establish personal benefit"
+      ],
+      answer: 2,
+      solution_html: `
+        <p>
+        The Professional should report the <strong>factual circumstances,
+        chronology and supporting evidence</strong>. The absence or presence of
+        personal benefit may be relevant, but the Professional should not make
+        a judgment regarding the person's guilt or innocence.
+        </p>
+      `
+    },
+
+    {
+      question_id: "DF_CS_19_3_Q5",
+      difficulty: "hard",
+      chapter_name: ["Writing a Forensic Investigation Report"],
+      question: "The procurement head disputed the draft findings and submitted additional documents. The Professional subsequently reviewed those documents before finalising the report. Which approach BEST reflects the reporting requirements?",
+      options: [
+        "Ignore the additional documents because the draft findings had already been prepared",
+        "Replace the findings completely with the procurement head's explanation",
+        "Consider the additional information against the existing evidence and appropriately include the relevant response in the final report",
+        "Remove all findings concerning the procurement head to avoid bias"
+      ],
+      answer: 2,
+      solution_html: `
+        <p>
+        Where the engagement mandate requires discussion of draft findings with
+        the subject party, the response received should be considered and the
+        relevant response should be included in the final report.
+        </p>
+
+        <p>
+        The Professional should assess the additional documents against the
+        <strong>existing documentary, digital and other evidence</strong> rather
+        than automatically accepting or rejecting the explanation.
+        </p>
+      `
+    }
+
+  ]
+},
+
+{
+  case_id: "DF_CS_19_4",
+  case_chapter: ["Writing a Forensic Investigation Report"],
+
+  caseText: `
+
+    <p>
+    Meridian Renewable Energy Limited is engaged in the development and operation
+    of solar power projects. The company operates through several project offices
+    and regularly appoints contractors for civil works, equipment installation,
+    transportation and maintenance activities. During a review of expenditure
+    relating to one of its large solar projects, the Audit Committee observed a
+    significant increase in contractor payments during the final two quarters of
+    the financial year.
+    </p>
+
+    <p>
+    The management initially attributed the increase to accelerated project
+    construction and higher material costs. However, an internal review identified
+    several purchase orders issued to contractors that had not previously worked
+    with the company. Some of these contractors were approved shortly before
+    receiving substantial work orders. The Audit Committee therefore appointed a
+    Professional to conduct a Forensic Accounting and Investigation engagement.
+    </p>
+
+    <p>
+    The scope of the engagement included examination of contractor onboarding,
+    purchase orders, work orders, invoices, measurement sheets, goods receipt
+    records, payment vouchers, bank statements, approval records and relevant
+    correspondence. The Professional was also required to examine whether the
+    company's procurement policies and approval procedures had been followed.
+    </p>
+
+    <p>
+    The Professional began by understanding the procurement and payment process.
+    Particular attention was given to the roles of project managers, procurement
+    personnel, finance employees and approving authorities. The Professional
+    obtained the vendor master and analysed approximately 95,000 contractor
+    transactions covering two financial years.
+    </p>
+
+    <p>
+    Data analytics identified several unusual patterns. A number of work orders
+    were issued immediately before the financial year-end. Several invoices were
+    for amounts close to the approval limits applicable to project managers.
+    There were also repeated invoice amounts and instances where different
+    contractors had similar bank account information or contact details.
+    </p>
+
+    <p>
+    The Professional selected transactions for detailed examination based on the
+    red flags identified through the analytics. Supporting documents were compared
+    with site records and payment information. In certain cases, the quantity of
+    work certified in measurement sheets was higher than the quantity supported
+    by available site documentation.
+    </p>
+
+    <p>
+    During the investigation, the Professional engaged a quantity-surveying expert
+    to examine selected construction measurements. The expert reviewed drawings,
+    measurement sheets, site records and other technical information. The expert
+    identified differences between certain quantities certified for payment and
+    quantities that could be supported by available technical records.
+    </p>
+
+    <p>
+    The Professional appropriately considered the expert's qualifications,
+    experience, scope of work, methodology and limitations before referring to the
+    expert's work in the report. The expert's report was also retained as supporting
+    documentation.
+    </p>
+
+    <p>
+    Certain relevant communications were stored on the laptops of project
+    personnel. A Digital Forensic Expert was therefore appointed to acquire and
+    examine relevant electronic evidence. The expert identified emails discussing
+    changes to measurement sheets and certain communications between project
+    personnel and contractors. The expert maintained records of acquisition,
+    preservation and handling of the electronic evidence.
+    </p>
+
+    <p>
+    Interviews were conducted with project managers, engineers, procurement
+    personnel and finance employees. The Professional maintained objective notes
+    and compared statements with documentary and digital evidence. One project
+    manager stated that all measurements were based on actual work completed at
+    the site. However, certain emails and site records appeared inconsistent with
+    this explanation.
+    </p>
+
+    <p>
+    The Professional did not automatically treat the inconsistency as proof of
+    misconduct. Further procedures were performed to determine the facts. The
+    Professional also considered whether there could be legitimate explanations
+    for differences between site records and measurement sheets.
+    </p>
+
+    <p>
+    During preparation of the draft report, the Professional arranged a discussion
+    with relevant subject personnel. One project manager submitted additional
+    measurement records and explained that some work had been completed but was
+    not reflected in the earlier site documentation. The Professional reviewed
+    the additional records and compared them with the expert's analysis.
+    </p>
+
+    <p>
+    The final report presented the findings in chronological order. It explained
+    the procurement process, the relevant work procedures performed, the red
+    flags identified through data analytics, the technical findings of the expert,
+    the relevant digital evidence and the results of interviews.
+    </p>
+
+    <p>
+    The report quantified the financial impact wherever sufficient evidence was
+    available. Where the Professional could not reliably quantify the impact, the
+    report clearly explained the limitation instead of presenting an unsupported
+    amount.
+    </p>
+
+    <p>
+    Certain original site records relating to one contractor could not be obtained
+    because the records had been misplaced before the commencement of the
+    investigation. The Professional disclosed this limitation and explained that
+    the absence of those records affected the extent to which certain transactions
+    could be independently verified.
+    </p>
+
+    <p>
+    The report was prepared for the Primary Stakeholders. It included the scope
+    and objectives, approach and broad work procedures, executive summary,
+    detailed findings, reference to expert work, assumptions, limitations and
+    disclaimers and conclusions relevant to the objectives of the engagement.
+    The report specifically avoided expressing any opinion regarding the guilt or
+    innocence of any individual.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "DF_CS_19_4_Q1",
+      difficulty: "easy",
+      chapter_name: ["Writing a Forensic Investigation Report"],
+      question: "What was the purpose of using data analytics in the investigation?",
+      options: [
+        "To automatically establish misconduct",
+        "To identify unusual patterns and transactions for further examination",
+        "To replace the expert's technical analysis",
+        "To determine the guilt of project personnel"
+      ],
+      answer: 1,
+      solution_html: `
+        <p>
+        Data analytics helps identify <strong>patterns, anomalies and red flags</strong>
+        that can be selected for further detailed examination. An analytical red
+        flag by itself does not establish misconduct.
+        </p>
+      `
+    },
+
+    {
+      question_id: "DF_CS_19_4_Q2",
+      difficulty: "easy",
+      chapter_name: ["Writing a Forensic Investigation Report"],
+      question: "Which of the following was used to examine differences between certified construction quantities and technical records?",
+      options: [
+        "Quantity-surveying expert",
+        "Distribution list",
+        "Executive summary",
+        "Covering letter"
+      ],
+      answer: 0,
+      solution_html: `
+        <p>
+        A <strong>quantity-surveying expert</strong> was engaged to examine the
+        construction measurements and compare certified quantities with the
+        available technical records.
+        </p>
+      `
+    },
+
+    {
+      question_id: "DF_CS_19_4_Q3",
+      difficulty: "easy",
+      chapter_name: ["Writing a Forensic Investigation Report"],
+      question: "How did the Professional deal with the missing original site records?",
+      options: [
+        "The Professional ignored the missing records",
+        "The missing records were treated as proof of fraud",
+        "The limitation and its effect on independent verification were disclosed",
+        "The Professional estimated the missing records without disclosure"
+      ],
+      answer: 2,
+      solution_html: `
+        <p>
+        When relevant records are unavailable, the Professional should disclose
+        the <strong>limitation and its potential impact</strong> on the procedures
+        and findings.
+        </p>
+      `
+    },
+
+    {
+      question_id: "DF_CS_19_4_Q4",
+      difficulty: "hard",
+      chapter_name: ["Writing a Forensic Investigation Report"],
+      question: "The project manager provided additional measurement records after the draft findings were discussed. Some of these records appeared to explain the difference identified earlier. What should the Professional do before finalising the report?",
+      options: [
+        "Reject the additional records because they were submitted after the draft findings",
+        "Accept the additional records without performing any further verification",
+        "Evaluate the additional records against the existing evidence, including the expert's work, and appropriately reflect the relevant response and resulting assessment",
+        "Remove the entire finding because the project manager provided an explanation"
+      ],
+      answer: 2,
+      solution_html: `
+        <p>
+        The Professional should objectively assess the additional information
+        against the <strong>existing documentary evidence, digital evidence,
+        expert analysis and other work performed</strong>.
+        </p>
+
+        <p>
+        Where the engagement requires discussion of draft findings with the
+        subject, the relevant response should be considered and appropriately
+        reflected in the final report.
+        </p>
+      `
+    },
+
+    {
+      question_id: "DF_CS_19_4_Q5",
+      difficulty: "hard",
+      chapter_name: ["Writing a Forensic Investigation Report"],
+      question: "The investigation established that certain measurement sheets contained quantities unsupported by available records, while other transactions could not be independently verified because original site records were missing. Which reporting approach is MOST appropriate?",
+      options: [
+        "Report the entire amount as confirmed financial loss",
+        "Exclude all findings because some records were unavailable",
+        "Clearly distinguish supported findings from matters affected by limitations and quantify only the amounts that can be reasonably substantiated",
+        "Assume that all unsupported quantities represent intentional fraud"
+      ],
+      answer: 2,
+      solution_html: `
+        <p>
+        A forensic report should be <strong>factual and evidence-supported</strong>.
+        Amounts should be quantified only where they can be reasonably
+        substantiated.
+        </p>
+
+        <p>
+        Matters affected by unavailable evidence should be separately identified
+        as limitations, together with their potential impact. The Professional
+        should not convert an inability to verify a transaction into an automatic
+        conclusion of fraud or culpability.
+        </p>
+      `
+    }
+
+  ]
 }
-
-  
-
-
-
 
 
 
