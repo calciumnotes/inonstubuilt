@@ -1,10 +1,11 @@
 // ==========================
 // CONFIG
 // ==========================
-const TOTAL_QUESTIONS = 50;
-const MARK_PER_QUESTION = 2;
+const TARGET_CASE_QUESTIONS = 25;
+const TARGET_INDIVIDUAL_QUESTIONS = 50;
+const TOTAL_QUESTIONS = 75;
 const PASS_MARK = 50;
-const TOTAL_TIME = 3 * 60 * 60;
+const TOTAL_TIME = 2 * 60 * 60; // 2 hours = 7200 seconds
 
 // ==========================
 // GLOBAL VARIABLES
@@ -17,7 +18,7 @@ let visitedQuestions = [];
 let timeLeft = TOTAL_TIME;
 let timerInterval;
 
-// 🔥 NEW (fix for case switching)
+// Track last case to handle case switching
 let lastCase = null;
 
 // ==========================
@@ -31,52 +32,84 @@ function shuffleArray(array) {
 }
 
 // ==========================
-// INIT EXAM (UPDATED FOR GROUPED CASES)
+// INIT EXAM (Mixed format: 25 Case Scenario Questions [2m] + 50 Individual MCQs [1m] = 75 Questions / 100 Marks / 2 Hours)
+// Each case scenario's sub-questions stay together as a contiguous block.
 // ==========================
 function initExam() {
     selectedQuestions = [];
 
     if (typeof caseStudies !== 'undefined') {
-        // Create a copy and shuffle the top-level case studies / standalone items block-wise
-        let shuffledBlocks = [...caseStudies];
-        shuffleArray(shuffledBlocks);
+        let caseBlocks = [];
+        let standaloneList = [];
 
-        for (let block of shuffledBlocks) {
-            if (selectedQuestions.length >= TOTAL_QUESTIONS) break;
-
-            // Handle standalone questions at the root level
-            if (!block.questions && block.question && block.options && block.answer !== undefined) {
-                selectedQuestions.push({
-                    caseContent: "", 
-                    question: block.question,
-                    options: block.options,
-                    correct: block.answer,
-                    solution: block.reason || block.solution || "No reason provided"
-                });
-                continue;
+        // Separate Case Studies and Standalone MCQs
+        for (let item of caseStudies) {
+            if (item.questions && Array.isArray(item.questions) && item.questions.length > 0) {
+                caseBlocks.push(item);
+            } else if (item.question && item.options && item.answer !== undefined) {
+                standaloneList.push(item);
             }
+        }
 
-            if (!block.questions || !Array.isArray(block.questions)) continue;
+        // Shuffle candidate pools
+        shuffleArray(caseBlocks);
+        shuffleArray(standaloneList);
 
-            // Keep all questions belonging to this case study together in order
+        let questionUnits = [];
+
+        // 1. Select Case Scenario blocks (Target: 25 sub-questions total)
+        // Keep each case scenario's sub-questions grouped together in a contiguous array unit
+        let caseQuestionsCount = 0;
+        for (let block of caseBlocks) {
+            if (caseQuestionsCount >= TARGET_CASE_QUESTIONS) break;
+
+            let cText = block.caseText || "";
+            let blockUnit = [];
             for (let q of block.questions) {
-                if (selectedQuestions.length >= TOTAL_QUESTIONS) break;
+                if (caseQuestionsCount + blockUnit.length >= TARGET_CASE_QUESTIONS) break;
                 if (!q.question || !q.options || q.answer === undefined) continue;
 
-                selectedQuestions.push({
-                    caseContent: block.caseText || "",
+                blockUnit.push({
+                    caseContent: cText,
                     question: q.question,
                     options: q.options,
                     correct: q.answer,
-                    solution: q.reason || q.solution || "No reason provided"
+                    solution: q.reason || q.solution || q.solution_html || "No reason provided",
+                    marks: 2,
+                    questionType: "Case Scenario"
                 });
             }
-        }
-    }
 
-    // Trim down if it exceeds TOTAL_QUESTIONS
-    if (selectedQuestions.length > TOTAL_QUESTIONS) {
-        selectedQuestions = selectedQuestions.slice(0, TOTAL_QUESTIONS);
+            if (blockUnit.length > 0) {
+                caseQuestionsCount += blockUnit.length;
+                questionUnits.push(blockUnit);
+            }
+        }
+
+        // 2. Select 50 Individual MCQs (each as a 1-item array unit)
+        let individualCount = 0;
+        for (let q of standaloneList) {
+            if (individualCount >= TARGET_INDIVIDUAL_QUESTIONS) break;
+
+            questionUnits.push([{
+                caseContent: "",
+                question: q.question,
+                options: q.options,
+                correct: q.answer,
+                solution: q.reason || q.solution || q.solution_html || "No reason provided",
+                marks: 1,
+                questionType: "Individual MCQ"
+            }]);
+            individualCount++;
+        }
+
+        // 3. Shuffle all units together (intersperses case scenario blocks and individual MCQs randomly)
+        shuffleArray(questionUnits);
+
+        // 4. Flatten mixed units into selectedQuestions
+        for (let unit of questionUnits) {
+            selectedQuestions.push(...unit);
+        }
     }
 
     const total = selectedQuestions.length;
@@ -91,7 +124,7 @@ function initExam() {
 }
 
 // ==========================
-// LOAD QUESTION (FIXED)
+// LOAD QUESTION
 // ==========================
 function loadQuestion() {
 
@@ -101,7 +134,7 @@ function loadQuestion() {
 
     const q = selectedQuestions[currentQuestion];
 
-    // ✅ FIXED: Always update case correctly (clears box if standalone)
+    // Always update case content correctly
     if (lastCase !== q.caseContent) {
         const caseBoxElement = document.getElementById("caseBox");
         if (caseBoxElement) {
@@ -113,7 +146,7 @@ function loadQuestion() {
 
     document.getElementById("questionText").innerText = q.question;
     document.getElementById("questionNumber").innerText =
-        `Question ${currentQuestion + 1} of ${selectedQuestions.length}`;
+        `Question ${currentQuestion + 1} of ${selectedQuestions.length} (${q.questionType} - ${q.marks} Mark${q.marks > 1 ? 's' : ''})`;
 
     const optionsDiv = document.getElementById("options");
     optionsDiv.innerHTML = "";
@@ -158,7 +191,6 @@ function prevQuestion() {
     }
 }
 
-// 🔥 FIXED jump navigation
 function goToQuestion(index) {
     currentQuestion = index;
     lastCase = null; // force case reload
@@ -239,26 +271,37 @@ function submitExam() {
     clearInterval(timerInterval);
 
     let score = 0;
+    let totalPossibleMarks = 0;
     let correctCount = 0;
     let wrongCount = 0;
     let unanswered = 0;
 
+    let caseCorrect = 0, caseWrong = 0, caseUnanswered = 0;
+    let indCorrect = 0, indWrong = 0, indUnanswered = 0;
+
     selectedQuestions.forEach((q, index) => {
+        totalPossibleMarks += q.marks;
 
         if (userAnswers[index] === null) {
             unanswered++;
+            if (q.marks === 2) caseUnanswered++;
+            else indUnanswered++;
         }
         else if (userAnswers[index] === q.correct) {
-            score += MARK_PER_QUESTION;
+            score += q.marks;
             correctCount++;
+            if (q.marks === 2) caseCorrect++;
+            else indCorrect++;
         }
         else {
             wrongCount++;
+            if (q.marks === 2) caseWrong++;
+            else indWrong++;
         }
     });
 
     let percentage = (
-        (score / (selectedQuestions.length * MARK_PER_QUESTION)) * 100
+        (score / (totalPossibleMarks || 100)) * 100
     ).toFixed(2);
 
     let grade = "";
@@ -267,13 +310,16 @@ function submitExam() {
     else if (percentage >= 50) grade = "B";
     else grade = "Fail";
 
-    showResult(score, percentage, grade, correctCount, wrongCount, unanswered);
+    showResult(score, totalPossibleMarks, percentage, grade, correctCount, wrongCount, unanswered, {
+        caseCorrect, caseWrong, caseUnanswered,
+        indCorrect, indWrong, indUnanswered
+    });
 }
 
 // ==========================
 // RESULT
 // ==========================
-function showResult(score, percentage, grade, correctCount, wrongCount, unanswered) {
+function showResult(score, totalPossibleMarks, percentage, grade, correctCount, wrongCount, unanswered, breakdown) {
 
     document.getElementById("examArea").style.display = "none";
     const resultDiv = document.getElementById("resultArea");
@@ -293,15 +339,15 @@ function showResult(score, percentage, grade, correctCount, wrongCount, unanswer
         </div>
 
         <h2>Exam Result</h2>
-        <p><strong>Total Marks:</strong> ${score} / ${selectedQuestions.length * MARK_PER_QUESTION}</p>
+        <p><strong>Total Marks:</strong> ${score} / ${totalPossibleMarks}</p>
         <p><strong>Percentage:</strong> ${percentage}%</p>
         <p><strong>Grade:</strong> ${grade}</p>
         <p><strong>Status:</strong> ${score >= PASS_MARK ? "PASS ✅" : "FAIL ❌"}</p>
         <hr>
         <h3>Performance Analytics</h3>
-        <p>Correct: ${correctCount}</p>
-        <p>Wrong: ${wrongCount}</p>
-        <p>Unanswered: ${unanswered}</p>
+        <p><strong>Total Questions:</strong> ${selectedQuestions.length} (Correct: ${correctCount}, Wrong: ${wrongCount}, Unanswered: ${unanswered})</p>
+        <p><strong>Case Scenario MCQs (2 Marks each):</strong> Correct: ${breakdown.caseCorrect}/25 | Wrong: ${breakdown.caseWrong} | Unanswered: ${breakdown.caseUnanswered}</p>
+        <p><strong>Individual MCQs (1 Mark each):</strong> Correct: ${breakdown.indCorrect}/50 | Wrong: ${breakdown.indWrong} | Unanswered: ${breakdown.indUnanswered}</p>
         <hr>
         <h3>Detailed Solution Review</h3>
     `;
@@ -309,7 +355,7 @@ function showResult(score, percentage, grade, correctCount, wrongCount, unanswer
     selectedQuestions.forEach((q, index) => {
         html += `
             <div class="reviewBox">
-                <p><strong>Q${index + 1}:</strong> ${q.question}</p>
+                <p><strong>Q${index + 1} (${q.questionType} - ${q.marks} Mark${q.marks > 1 ? 's' : ''}):</strong> ${q.question}</p>
                 <p>Your Answer: ${
                     userAnswers[index] !== null
                         ? q.options[userAnswers[index]]
