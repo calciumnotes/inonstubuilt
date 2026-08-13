@@ -7,7 +7,6 @@ const caseStudies = [
   chapter: "Introduction",
 
   caseText: `
-    <p><strong>CASE SCENARIO</strong></p>
 
     <p>
       Nova Traders and Bright Industries entered into a supply contract. A dispute arose
@@ -117,7 +116,6 @@ const caseStudies = [
   chapter: "Introduction",
 
   caseText: `
-    <p><strong>CASE SCENARIO</strong></p>
 
     <p>
       Riya and Karan had a dispute regarding payment for professional services. They agreed
@@ -228,7 +226,6 @@ const caseStudies = [
   chapter: "Introduction",
 
   caseText: `
-    <p><strong>CASE SCENARIO</strong></p>
 
     <p>
       A vehicle accident resulted in a compensation dispute between Sameer and Arjun.
@@ -339,7 +336,6 @@ const caseStudies = [
   chapter: "Introduction",
 
   caseText: `
-    <p><strong>CASE SCENARIO</strong></p>
 
     <p>
       Zenith Infrastructure Limited entered into a contract with Apex Engineering Services
@@ -474,7 +470,6 @@ const caseStudies = [
   chapter: "Introduction",
 
   caseText: `
-    <p><strong>CASE SCENARIO</strong></p>
 
     <p>
       Greenfield Foods Limited entered into a long-term supply agreement with Harvest
@@ -2559,7 +2554,6 @@ const caseStudies = [
     case_id: "ARB_CH2_CS_01",
 
     caseText: `
-      <p><b>Case Scenario:</b></p>
 
       <p>
       Zenith Components Limited entered into a five-year supply agreement with
@@ -2675,7 +2669,6 @@ const caseStudies = [
     case_id: "ARB_CH2_CS_02",
 
     caseText: `
-      <p><b>Case Scenario:</b></p>
 
       <p>
       Apex Infrastructure Limited entered into a construction contract with
@@ -2737,7 +2730,7 @@ const caseStudies = [
         difficulty: "easy",
         question: "A written arbitral award signed by two of three arbitrators can satisfy the signature requirement when:",
         options: [
-          "The third arbitrator refuses to sign for any reason and no explanation is given",
+          "The third arbitrator refuses to sign for any reason and no reason is given",
           "The reason for the omitted signature is stated",
           "The parties subsequently sign the award",
           "The court signs the award"
@@ -2795,7 +2788,6 @@ const caseStudies = [
     case_id: "ARB_CH2_CS_03",
 
     caseText: `
-      <p><b>Case Scenario:</b></p>
 
       <p>
       Nova Engineering Limited entered into a written contract with Prime
@@ -2915,7 +2907,6 @@ const caseStudies = [
     case_id: "ARB_CH2_CS_04",
 
     caseText: `
-      <p><b>Case Scenario:</b></p>
 
       <p>
       Sunrise Pharmaceuticals Limited entered into a distribution agreement with
@@ -2936,7 +2927,7 @@ const caseStudies = [
       The arbitral tribunal directed both parties to submit their statements of claim
       and defence. Global Medico submitted its statement within the prescribed
       period. Sunrise, however, failed to file its defence and did not provide any
-      sufficient explanation for the delay.
+      sufficient reason for the delay.
       </p>
 
       <p>
@@ -3033,7 +3024,6 @@ const caseStudies = [
     case_id: "ARB_CH2_CS_05",
 
     caseText: `
-      <p><b>Case Scenario:</b></p>
 
       <p>
       Metro Construction Limited entered into an infrastructure development
@@ -3140,6 +3130,2464 @@ const caseStudies = [
       }
 
     ]
-  }
+  },
+
+  // Chapter 3
+
+  /* =========================================================
+     CASE SCENARIO 1
+     TOPIC: AD HOC, INSTITUTIONAL & FAST TRACK ARBITRATION
+  ========================================================= */
+
+  {
+    case_id: "arb_ch3_cs1",
+    case_chapter: [
+      "Types of Arbitration",
+      "Ad hoc Arbitration",
+      "Institutional Arbitration",
+      "Fast Track Arbitration"
+    ],
+
+    caseText: `
+      <p>
+        <b>Zenith Components Ltd.</b>, an Indian manufacturer, entered into a
+        commercial agreement with Orion Industrial Solutions Ltd. The agreement
+        contained an arbitration clause providing that any dispute arising out
+        of the contract would be resolved through arbitration.
+      </p>
+
+      <p>
+        When a dispute arose regarding payment and quality of goods, the parties
+        decided not to approach any established arbitration institution. Instead,
+        they mutually selected an arbitrator and agreed upon the procedural
+        arrangements, hearing dates and document exchange mechanism themselves.
+        No institutional rules were adopted.
+      </p>
+
+      <p>
+        During the proceedings, both parties realised that the dispute was
+        relatively straightforward. They therefore agreed <b>in writing</b> to
+        resolve the dispute through the fast-track procedure under Section 29B.
+        The tribunal adopted a simplified procedure, restricted unnecessary
+        documentary requirements and reduced the number of hearings.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "arb_ch3_cs1_q1",
+        difficulty: 2,
+        difficulty_name: "Easy",
+        chapter_name: ["Ad hoc Arbitration"],
+        question:
+          "Which type of arbitration was initially adopted by Zenith Components Ltd. and Orion Industrial Solutions Ltd.?",
+        options: [
+          "Institutional arbitration",
+          "Statutory arbitration",
+          "Ad hoc arbitration",
+          "Geneva Convention arbitration"
+        ],
+        answer: 2,
+        solution_html: `
+          <p>
+            <b>Ad hoc arbitration</b> is conducted by the parties themselves
+            without the involvement of an established arbitration institution.
+          </p>
+        `
+      },
+
+      {
+        question_id: "arb_ch3_cs1_q2",
+        difficulty: 2,
+        difficulty_name: "Easy",
+        chapter_name: ["Ad hoc Arbitration"],
+        question:
+          "Which of the following is a principal feature of the ad hoc arbitration adopted by the parties?",
+        options: [
+          "Mandatory institutional administration",
+          "Greater flexibility for the parties",
+          "Mandatory appointment by an arbitration institution",
+          "Compulsory use of institutional procedural rules"
+        ],
+        answer: 1,
+        solution_html: `
+          <p>
+            <b>Flexibility</b> is a major feature of ad hoc arbitration because
+            the parties can determine the procedure and other arrangements,
+            subject to mandatory legal requirements.
+          </p>
+        `
+      },
+
+      {
+        question_id: "arb_ch3_cs1_q3",
+        difficulty: 4,
+        difficulty_name: "Hard",
+        chapter_name: ["Fast Track Arbitration"],
+        question:
+          "Which of the following correctly explains the legal basis for the parties' subsequent decision to adopt fast-track arbitration?",
+        options: [
+            "Section 29B permits parties to agree in writing to have their dispute resolved through the fast-track procedure.",
+            "Section 45 automatically converts every ad hoc arbitration into fast-track arbitration.",
+            "Section 49 requires every commercial arbitration to follow a fast-track procedure.",
+            "Fast-track arbitration can be imposed by the court even without the parties' agreement."
+        ],
+        answer: 0,
+        solution_html: `
+          <p>
+            <b>Section 29B</b> provides that parties to an arbitration agreement
+            may agree in writing to have their dispute resolved by the
+            fast-track procedure.
+          </p>
+        `
+      },
+
+      {
+        question_id: "arb_ch3_cs1_q4",
+        difficulty: 4,
+        difficulty_name: "Hard",
+        chapter_name: ["Fast Track Arbitration"],
+        question:
+          "Which combination most appropriately reflects the features of the fast-track procedure described in the case?",
+        options: [
+          "More hearings, extensive discovery and lengthy procedure",
+          "Limited documents, simplified procedure and reduced hearings",
+          "Mandatory institutional administration and unlimited hearings",
+          "Complete elimination of the arbitral tribunal"
+        ],
+        answer: 1,
+        solution_html: `
+          <p>
+            Fast-track arbitration focuses on an <b>accelerated and simplified
+            process</b>. It may involve limited documentary requirements,
+            fewer hearings and a focused procedure.
+          </p>
+        `
+      },
+
+      {
+        question_id: "arb_ch3_cs1_q5",
+        difficulty: 5,
+        difficulty_name: "Very Hard",
+        chapter_name: [
+          "Ad hoc Arbitration",
+          "Institutional Arbitration",
+          "Fast Track Arbitration"
+        ],
+        question:
+          "Suppose the parties had instead referred their dispute to an established arbitration institution, which provided procedural rules, administrative support and assistance in appointment of the arbitrator. Which classification would best describe that arrangement?",
+        options: [
+          "Ad hoc arbitration",
+          "Institutional arbitration",
+          "Statutory arbitration",
+          "Domestic arbitral award"
+        ],
+        answer: 1,
+        solution_html: `
+          <p>
+            Where an established arbitration institution administers the
+            arbitration, provides procedural rules and assists with matters such
+            as appointment and case management, it is <b>institutional
+            arbitration</b>.
+          </p>
+        `
+      }
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 2
+     TOPIC: NEW YORK CONVENTION AWARD
+     SECTIONS 44 TO 50
+  ========================================================= */
+
+  {
+    case_id: "arb_ch3_cs2",
+    case_chapter: [
+      "New York Convention Awards",
+      "Sections 44 to 50",
+      "Enforcement of Foreign Awards"
+    ],
+
+    caseText: `
+      <p>
+        <b>Global Machinery Inc.</b>, a company incorporated outside India,
+        entered into a commercial agreement with an Indian company. The
+        agreement contained a written arbitration clause. The arbitration was
+        conducted outside India in a territory notified by the Central
+        Government for the purposes of the New York Convention.
+      </p>
+
+      <p>
+        An award was made in favour of Global Machinery Inc. The company
+        approached the appropriate court in India for enforcement of the award.
+        Along with its application, it produced the duly authenticated original
+        award, the original arbitration agreement and evidence establishing that
+        the award was a foreign award.
+      </p>
+
+      <p>
+        The documents were originally in a foreign language, so certified English
+        translations were also produced. The Indian company opposed enforcement,
+        alleging that it had not been given proper notice of the appointment of
+        the arbitrator and had been unable to present its case.
+      </p>
+
+      <p>
+        The Indian company further argued that the award dealt with a matter
+        outside the scope of the arbitration agreement.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "arb_ch3_cs2_q1",
+        difficulty: 2,
+        difficulty_name: "Easy",
+        chapter_name: ["Section 44"],
+        question:
+          "Which provision primarily defines a 'foreign award' for the purposes of the New York Convention chapter?",
+        options: [
+          "Section 44",
+          "Section 47",
+          "Section 49",
+          "Section 53"
+        ],
+        answer: 0,
+        solution_html: `
+          <p>
+            <b>Section 44</b> defines a foreign award for Chapter I of Part II
+            of the Arbitration and Conciliation Act, 1996.
+          </p>
+        `
+      },
+
+      {
+        question_id: "arb_ch3_cs2_q2",
+        difficulty: 2,
+        difficulty_name: "Easy",
+        chapter_name: ["Section 47"],
+        question:
+          "Which of the following is NOT one of the documents specifically required under Section 47(1)?",
+        options: [
+          "Original award or duly authenticated copy",
+          "Original arbitration agreement or duly certified copy",
+          "Evidence necessary to prove that the award is a foreign award",
+          "Mandatory copy of the entire court proceedings from the country of arbitration"
+        ],
+        answer: 3,
+        solution_html: `
+          <p>
+            Section 47 requires the award, arbitration agreement and necessary
+            evidence establishing that the award is a foreign award. It does
+            <b>not</b> specifically require a complete copy of court proceedings
+            from the foreign country.
+          </p>
+        `
+      },
+
+      {
+        question_id: "arb_ch3_cs2_q3",
+        difficulty: 4,
+        difficulty_name: "Hard",
+        chapter_name: ["Section 48"],
+        question:
+          "The Indian company claims that it was not given proper notice of the appointment of the arbitrator and was unable to present its case. Under which ground may enforcement be refused?",
+        options: [
+          "Section 48(1)(a)",
+          "Section 48(1)(b)",
+          "Section 48(1)(d)",
+          "Section 48(2)(a)"
+        ],
+        answer: 1,
+        solution_html: `
+          <p>
+            Under <b>Section 48(1)(b)</b>, enforcement may be refused where the
+            party against whom the award is invoked was not given proper notice
+            of the appointment of the arbitrator or arbitral proceedings, or was
+            otherwise unable to present its case.
+          </p>
+        `
+      },
+
+      {
+        question_id: "arb_ch3_cs2_q4",
+        difficulty: 5,
+        difficulty_name: "Very Hard",
+        chapter_name: ["Section 48"],
+        question:
+          "The award includes a decision on a dispute which was never submitted to arbitration. What is the most appropriate consequence under Section 48?",
+        options: [
+          "The entire award must automatically be enforced",
+          "The award can never be enforced in any part",
+          "Enforcement may be refused to the extent the award deals with matters beyond the submission, while separable submitted matters may still be enforced",
+          "The award automatically becomes a domestic award"
+        ],
+        answer: 2,
+        solution_html: `
+          <p>
+            Section 48(1)(c) deals with awards concerning matters not contemplated
+            by or falling outside the submission to arbitration. Where decisions
+            on submitted matters are separable from those beyond the submission,
+            the submitted portion may still be enforced.
+          </p>
+        `
+      },
+
+      {
+        question_id: "arb_ch3_cs2_q5",
+        difficulty: 5,
+        difficulty_name: "Very Hard",
+        chapter_name: ["Sections 48 and 49"],
+        question:
+          "Assume the court rejects all objections under Section 48 and is satisfied that the foreign award is enforceable. What is the legal effect under Section 49?",
+        options: [
+          "The award becomes an interim order only",
+          "The award is treated as a foreign contract",
+          "The award is deemed to be a decree of the Court",
+          "The award must be converted into a domestic arbitration agreement"
+        ],
+        answer: 2,
+        solution_html: `
+          <p>
+            Under <b>Section 49</b>, once the Court is satisfied that the foreign
+            award is enforceable under Chapter I, the award is <b>deemed to be a
+            decree of that Court</b>.
+          </p>
+        `
+      }
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 3
+     TOPIC: GENEVA CONVENTION AWARDS
+     SECTIONS 53 TO 60
+  ========================================================= */
+
+  {
+    case_id: "arb_ch3_cs3",
+    case_chapter: [
+      "Geneva Convention Awards",
+      "Sections 53 to 60",
+      "Enforcement of Foreign Awards"
+    ],
+
+    caseText: `
+      <p>
+        <b>Eastern Trading Co.</b>, an Indian company, entered into a commercial
+        contract with a foreign enterprise from a territory to which the Geneva
+        Convention provisions applied. The contract contained an arbitration
+        agreement referring disputes to arbitration.
+      </p>
+
+      <p>
+        A foreign arbitral tribunal was constituted in accordance with the
+        arbitration agreement and the applicable procedural law. An award was
+        subsequently made in favour of the foreign enterprise.
+      </p>
+
+      <p>
+        The foreign enterprise approached the Indian court for enforcement. It
+        produced the authenticated award and evidence showing that the award had
+        become final in the country in which it was made.
+      </p>
+
+      <p>
+        Eastern Trading Co. opposed enforcement on the ground that it had not
+        received sufficient notice of the arbitration proceedings and therefore
+        had no reasonable opportunity to present its case. It also alleged that
+        part of the award dealt with matters outside the scope of the arbitration
+        submission.
+      </p>
+
+      <p>
+        During the enforcement proceedings, it was also discovered that the award
+        had been challenged before the competent authority in the country where
+        the award was made.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "arb_ch3_cs3_q1",
+        difficulty: 2,
+        difficulty_name: "Easy",
+        chapter_name: ["Section 53"],
+        question:
+          "Which section defines a foreign award for the purposes of Chapter II dealing with Geneva Convention Awards?",
+        options: [
+          "Section 44",
+          "Section 49",
+          "Section 53",
+          "Section 58"
+        ],
+        answer: 2,
+        solution_html: `
+          <p>
+            <b>Section 53</b> defines a foreign award for Chapter II of Part II
+            dealing with Geneva Convention Awards.
+          </p>
+        `
+      },
+
+      {
+        question_id: "arb_ch3_cs3_q2",
+        difficulty: 2,
+        difficulty_name: "Easy",
+        chapter_name: ["Section 56"],
+        question:
+          "Which additional evidence is specifically important under Section 56 when enforcing a Geneva Convention award?",
+        options: [
+          "Evidence that the award has become final",
+          "Evidence that the award is an interim award",
+          "Evidence that the parties waived arbitration",
+          "Evidence that the award was made in India"
+        ],
+        answer: 0,
+        solution_html: `
+          <p>
+            Section 56 requires, among other things, <b>evidence proving that the
+            award has become final</b>.
+          </p>
+        `
+      },
+
+      {
+        question_id: "arb_ch3_cs3_q3",
+        difficulty: 4,
+        difficulty_name: "Hard",
+        chapter_name: ["Section 57"],
+        question:
+          "Eastern Trading Co. proves that it was not given sufficient notice of the arbitration proceedings and therefore could not present its case. Which provision directly addresses this objection?",
+        options: [
+          "Section 57(1)(a)",
+          "Section 57(1)(d)",
+          "Section 57(2)(b)",
+          "Section 58"
+        ],
+        answer: 2,
+        solution_html: `
+          <p>
+            Under <b>Section 57(2)(b)</b>, enforcement shall be refused where the
+            party against whom the award is sought was not given sufficient
+            notice of the arbitration proceedings to enable it to present its
+            case, or was under legal incapacity and not properly represented.
+          </p>
+        `
+      },
+
+      {
+        question_id: "arb_ch3_cs3_q4",
+        difficulty: 5,
+        difficulty_name: "Very Hard",
+        chapter_name: ["Section 57"],
+        question:
+          "If the award has not covered all the differences submitted to the arbitral tribunal, what may the Court do under Section 57?",
+        options: [
+          "It must always reject the entire award",
+          "It may postpone enforcement or grant enforcement subject to a guarantee",
+          "It must automatically convert the award into a domestic award",
+          "It must refer the matter to a new arbitration institution"
+        ],
+        answer: 1,
+        solution_html: `
+          <p>
+            Under the proviso to <b>Section 57(2)(c)</b>, where the award has not
+            covered all differences submitted to the arbitral tribunal, the Court
+            may postpone enforcement or grant enforcement subject to such
+            guarantee as it considers appropriate.
+          </p>
+        `
+      },
+
+      {
+        question_id: "arb_ch3_cs3_q5",
+        difficulty: 5,
+        difficulty_name: "Very Hard",
+        chapter_name: ["Sections 57 and 58"],
+        question:
+          "During enforcement proceedings, it is discovered that proceedings challenging the validity of the award are pending in the country where the award was made. Which statement is most appropriate?",
+        options: [
+          "The award is necessarily treated as final in India regardless of the foreign proceedings",
+          "The award cannot be considered final for the purposes of Section 53 while proceedings contesting its validity are pending in the country where it was made",
+          "The award automatically becomes a domestic award",
+          "The Court must enforce the award because foreign awards cannot be challenged"
+        ],
+        answer: 1,
+        solution_html: `
+          <p>
+            Under <b>Section 53</b>, an award is not deemed to be final if
+            proceedings for contesting its validity are pending in the country
+            where it was made. Section 57 also requires the award to have become
+            final in that country for enforcement under Chapter II.
+          </p>
+        `
+      }
+    ]
+  },
+
+  /* =========================================================
+   CASE SCENARIO 4
+   TOPIC: SECTIONS 45–50 — NEW YORK CONVENTION
+========================================================= */
+
+{
+  case_id: "arb_ch3_cs4",
+  case_chapter: [
+    "New York Convention Awards",
+    "Sections 45 to 50",
+    "Enforcement of Foreign Awards"
+  ],
+
+  caseText: `
+    <p>
+      <b>Alpha Engineering Pvt. Ltd.</b>, an Indian company, entered into a
+      commercial agreement with <b>Nordic Machines AB</b>, a foreign company.
+      The agreement contained a written arbitration clause providing for
+      arbitration in a foreign territory to which the New York Convention
+      applies.
+    </p>
+
+    <p>
+      A dispute subsequently arose regarding defective machinery. Alpha
+      Engineering approached an Indian judicial authority seeking relief in
+      relation to the dispute. Nordic Machines requested that the matter be
+      referred to arbitration in accordance with the arbitration agreement.
+    </p>
+
+    <p>
+      Alpha Engineering argued that the arbitration agreement was incapable of
+      being performed. The judicial authority examined the agreement and found
+      that it was valid, operative and capable of being performed.
+    </p>
+
+    <p>
+      The matter was thereafter referred to arbitration. The foreign tribunal
+      passed an award in favour of Nordic Machines. Nordic Machines applied for
+      enforcement of the award in India.
+    </p>
+
+    <p>
+      The Indian court refused to enforce the foreign award. Nordic Machines
+      wants to challenge the order refusing enforcement.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "arb_ch3_cs4_q1",
+      difficulty: 2,
+      difficulty_name: "Easy",
+      chapter_name: ["Section 45"],
+      question:
+        "Under Section 45, when may a judicial authority refer parties to arbitration?",
+      options: [
+        "Only when both parties jointly request it",
+        "At the request of one of the parties or a person claiming through or under him, subject to the statutory conditions",
+        "Only on its own motion",
+        "Only after the arbitration tribunal is already constituted"
+      ],
+      answer: 1,
+      solution_html: `
+        <p>
+          Under <b>Section 45</b>, the judicial authority shall refer the parties
+          to arbitration at the request of one of the parties or any person
+          claiming through or under him, unless the agreement is prima facie
+          null and void, inoperative or incapable of being performed.
+        </p>
+      `
+    },
+
+    {
+      question_id: "arb_ch3_cs4_q2",
+      difficulty: 2,
+      difficulty_name: "Easy",
+      chapter_name: ["Section 46"],
+      question:
+        "Once enforceable under Chapter I, how may a foreign award be relied upon in legal proceedings in India?",
+      options: [
+        "Only as evidence",
+        "Only as a claim for damages",
+        "By way of defence, set-off or otherwise",
+        "Only after conversion into a domestic award"
+      ],
+      answer: 2,
+      solution_html: `
+        <p>
+          Under <b>Section 46</b>, an enforceable foreign award is binding and
+          may be relied upon by way of <b>defence, set-off or otherwise</b> in
+          legal proceedings in India.
+        </p>
+      `
+    },
+
+    {
+      question_id: "arb_ch3_cs4_q3",
+      difficulty: 4,
+      difficulty_name: "Hard",
+      chapter_name: ["Section 45"],
+      question:
+        "Suppose the judicial authority finds prima facie that the arbitration agreement is null and void. What is the appropriate consequence under Section 45?",
+      options: [
+        "It must refer the parties to arbitration in every case",
+        "It may refuse to refer the parties because Section 45 permits refusal where the agreement is prima facie null and void, inoperative or incapable of being performed",
+        "It must automatically enforce the foreign award",
+        "It must refer the matter under Section 54"
+      ],
+      answer: 1,
+      solution_html: `
+        <p>
+          Section 45 requires reference to arbitration unless the judicial
+          authority <b>prima facie finds</b> that the arbitration agreement is
+          null and void, inoperative or incapable of being performed.
+        </p>
+      `
+    },
+
+    {
+      question_id: "arb_ch3_cs4_q4",
+      difficulty: 5,
+      difficulty_name: "Very Hard",
+      chapter_name: ["Section 50"],
+      question:
+        "Nordic Machines wants to challenge the Indian court's order refusing enforcement of the foreign award under Section 48. Which statement is correct?",
+      options: [
+        "No appeal is available against such an order",
+        "An appeal lies under Section 50 to the Court authorised by law to hear appeals from such order",
+        "A second appeal is automatically available as a matter of right",
+        "The matter must first be referred to arbitration again"
+      ],
+      answer: 1,
+      solution_html: `
+        <p>
+          Under <b>Section 50(1)(b)</b>, an appeal lies from an order refusing
+          to enforce a foreign award under Section 48 to the Court authorised
+          by law to hear appeals from such order.
+        </p>
+      `
+    },
+
+    {
+      question_id: "arb_ch3_cs4_q5",
+      difficulty: 5,
+      difficulty_name: "Very Hard",
+      chapter_name: ["Section 50"],
+      question:
+        "If an appeal is decided under Section 50, what is the position regarding a second appeal?",
+      options: [
+        "A second appeal is available as a matter of right",
+        "A second appeal is expressly barred, although the constitutional right to approach the Supreme Court is not taken away",
+        "A second appeal must be filed before the arbitral tribunal",
+        "A second appeal is compulsory before enforcement"
+      ],
+      answer: 1,
+      solution_html: `
+        <p>
+          <b>Section 50(2)</b> provides that no second appeal shall lie from an
+          order passed in appeal under this section. However, this does not
+          affect or take away any right to appeal to the <b>Supreme Court</b>.
+        </p>
+      `
+    }
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 5
+   TOPIC: SECTIONS 47–49 — EVIDENCE, REFUSAL & ENFORCEMENT
+========================================================= */
+
+{
+  case_id: "arb_ch3_cs5",
+  case_chapter: [
+    "New York Convention Awards",
+    "Sections 47 to 49",
+    "Conditions for Enforcement"
+  ],
+
+  caseText: `
+    <p>
+      <b>Pacific Technologies Ltd.</b>, a foreign company, obtained a foreign
+      arbitral award against <b>Indo Systems Pvt. Ltd.</b> in relation to a
+      commercial supply agreement. Pacific Technologies approached the
+      appropriate High Court in India for enforcement of the award.
+    </p>
+
+    <p>
+      The award and arbitration agreement were written in a foreign language.
+      Pacific Technologies therefore produced certified English translations
+      along with the original authenticated award and the duly certified
+      arbitration agreement.
+    </p>
+
+    <p>
+      Indo Systems opposed enforcement on several grounds. It argued that the
+      award had not yet become binding on the parties and that proceedings for
+      setting aside the award were pending before a competent authority in the
+      country where the award was made.
+    </p>
+
+    <p>
+      Indo Systems also alleged that enforcement of the award would be contrary
+      to the public policy of India because the making of the award was affected
+      by fraud.
+    </p>
+
+    <p>
+      Pacific Technologies argued that the Indian court should not reconsider
+      the merits of the dispute merely because Indo Systems objected to the
+      award.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "arb_ch3_cs5_q1",
+      difficulty: 2,
+      difficulty_name: "Easy",
+      chapter_name: ["Section 47"],
+      question:
+        "Where the foreign award or arbitration agreement is in a foreign language, what must the party seeking enforcement produce?",
+      options: [
+        "Only the original document without translation",
+        "An English translation certified in the prescribed manner",
+        "Only an oral translation",
+        "A fresh arbitration agreement executed in India"
+      ],
+      answer: 1,
+      solution_html: `
+        <p>
+          Under <b>Section 47(2)</b>, a document in a foreign language must be
+          accompanied by an English translation certified by a diplomatic or
+          consular agent or in another manner sufficient under Indian law.
+        </p>
+      `
+    },
+
+    {
+      question_id: "arb_ch3_cs5_q2",
+      difficulty: 2,
+      difficulty_name: "Easy",
+      chapter_name: ["Section 49"],
+      question:
+        "If the Court is satisfied that a foreign award is enforceable under Chapter I, what is its status under Section 49?",
+      options: [
+        "It is deemed to be a decree of the Court",
+        "It is deemed to be a domestic contract",
+        "It becomes an interim order",
+        "It is sent back to the foreign tribunal"
+      ],
+      answer: 0,
+      solution_html: `
+        <p>
+          Under <b>Section 49</b>, an enforceable foreign award is deemed to be
+          a <b>decree of the Court</b>.
+        </p>
+      `
+    },
+
+    {
+      question_id: "arb_ch3_cs5_q3",
+      difficulty: 4,
+      difficulty_name: "Hard",
+      chapter_name: ["Section 48(1)(e)"],
+      question:
+        "Indo Systems establishes that proceedings for setting aside the award are pending before a competent authority in the country where the award was made. What may the Indian Court do under Section 48(3)?",
+      options: [
+        "It must enforce the award immediately",
+        "It may adjourn the decision on enforcement and may order suitable security from the other party",
+        "It must permanently reject the award",
+        "It must convert the foreign award into a domestic award"
+      ],
+      answer: 1,
+      solution_html: `
+        <p>
+          Under <b>Section 48(3)</b>, where proceedings for setting aside or
+          suspension are pending before the competent authority, the Court may
+          adjourn its decision on enforcement and may order the party claiming
+          enforcement to provide suitable security through the other party.
+        </p>
+      `
+    },
+
+    {
+      question_id: "arb_ch3_cs5_q4",
+      difficulty: 5,
+      difficulty_name: "Very Hard",
+      chapter_name: ["Section 48(2)"],
+      question:
+        "Indo Systems alleges that the making of the award was affected by fraud. Under the reason to Section 48, which statement is most accurate?",
+      options: [
+        "Fraud can never constitute a public policy objection",
+        "An award induced or affected by fraud or corruption may fall within the specified public policy ground",
+        "Any disagreement with the tribunal's reasoning automatically constitutes public policy",
+        "The Court must conduct a complete rehearing on the merits"
+      ],
+      answer: 1,
+      solution_html: `
+        <p>
+          Under the reason to <b>Section 48(2)</b>, an award is in conflict
+          with the public policy of India, among other specified circumstances,
+          where its making was induced or affected by <b>fraud or corruption</b>.
+        </p>
+      `
+    },
+
+    {
+      question_id: "arb_ch3_cs5_q5",
+      difficulty: 5,
+      difficulty_name: "Very Hard",
+      chapter_name: ["Section 48"],
+      question:
+        "Pacific Technologies argues that Indo Systems is effectively asking the Indian Court to reconsider the merits of the dispute under the ground of fundamental policy of Indian law. Which principle is specifically stated in reason 2 to Section 48?",
+      options: [
+        "The Court must always reconsider the merits",
+        "The fundamental-policy test does not entail a review on the merits of the dispute",
+        "Every foreign award must be reviewed on merits before enforcement",
+        "The Court can rewrite the foreign award on merits"
+      ],
+      answer: 1,
+      solution_html: `
+        <p>
+          <b>reason 2 to Section 48</b> expressly clarifies that the test of
+          whether there is contravention with the fundamental policy of Indian
+          law <b>shall not entail a review on the merits of the dispute</b>.
+        </p>
+      `
+    }
+  ]
+},
+
+  {
+    id: "E_61",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "What is meant by ad hoc arbitration?",
+    options: [
+      "Arbitration administered by a permanent arbitration institution",
+      "Arbitration managed by the parties themselves without an established arbitration institution",
+      "Arbitration imposed compulsorily by statute",
+      "Arbitration conducted only by a government authority"
+    ],
+    answer: 1,
+    reason: "Ad hoc arbitration is conducted without the assistance of an established arbitration institution, with the parties managing the proceedings themselves."
+  },
+
+  {
+    id: "E_62",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which of the following is a major feature of ad hoc arbitration?",
+    options: [
+      "Complete absence of party autonomy",
+      "Flexibility in determining the procedure",
+      "Mandatory institutional administration",
+      "Fixed arbitrator appointed by the Government"
+    ],
+    answer: 1,
+    reason: "Flexibility is one of the main features of ad hoc arbitration."
+  },
+
+  {
+    id: "E_63",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "In institutional arbitration, who generally administers the arbitration proceedings?",
+    options: [
+      "The police department",
+      "An established arbitration institution",
+      "The Income Tax Department",
+      "The parties' auditors"
+    ],
+    answer: 1,
+    reason: "Institutional arbitration is administered by an established arbitration institution that provides procedural and administrative support."
+  },
+
+  {
+    id: "E_64",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Compared with ad hoc arbitration, institutional arbitration generally involves:",
+    options: [
+      "Higher institutional fees",
+      "No procedural rules",
+      "No arbitrator",
+      "No administration"
+    ],
+    answer: 0,
+    reason: "Institutional arbitration generally involves additional administrative and institutional fees."
+  },
+
+  {
+    id: "E_65",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Domestic arbitration generally takes place:",
+    options: [
+      "Outside India only",
+      "Within the domestic legal framework of the country",
+      "Only before foreign courts",
+      "Only under the Geneva Convention"
+    ],
+    answer: 1,
+    reason: "Domestic arbitration takes place within the domestic legal framework of the relevant country."
+  },
+
+  {
+    id: "E_66",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "International arbitration generally involves:",
+    options: [
+      "Only purely domestic transactions",
+      "Parties or transactions having an international dimension",
+      "Only disputes between government departments",
+      "Only disputes concerning taxation"
+    ],
+    answer: 1,
+    reason: "International arbitration involves parties from different countries or transactions having a cross-border dimension."
+  },
+
+  {
+    id: "E_67",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Contractual arbitration arises primarily from:",
+    options: [
+      "A statutory compulsion",
+      "An arbitration clause or agreement between the parties",
+      "A criminal court order",
+      "A government notification alone"
+    ],
+    answer: 1,
+    reason: "Contractual arbitration is based on an arbitration clause or agreement voluntarily incorporated by the parties into their contract."
+  },
+
+  {
+    id: "E_68",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "What is the main distinguishing feature of statutory arbitration?",
+    options: [
+      "It is always conducted outside India",
+      "It is imposed by operation of law",
+      "It requires no legal authority",
+      "It can never be binding"
+    ],
+    answer: 1,
+    reason: "Statutory arbitration is mandatory arbitration imposed by the operation of law, and consent of the parties is not necessary."
+  },
+
+  {
+    id: "E_69",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which section provides for fast-track procedure under the Arbitration and Conciliation Act, 1996?",
+    options: [
+      "Section 29B",
+      "Section 44",
+      "Section 48",
+      "Section 57"
+    ],
+    answer: 0,
+    reason: "Section 29B provides for the fast-track procedure, where parties agree in writing to resolve the dispute through the fast-track process."
+  },
+
+  {
+    id: "E_70",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Fast-track arbitration primarily aims at:",
+    options: [
+      "Delaying arbitration proceedings",
+      "Speedy resolution of disputes",
+      "Increasing the number of hearings",
+      "Eliminating arbitration agreements"
+    ],
+    answer: 1,
+    reason: "Fast-track arbitration is designed to provide an accelerated and time-bound mechanism for resolving disputes."
+  },
+
+  {
+    id: "E_71",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Arbitration proceedings conducted outside India are generally referred to as:",
+    options: [
+      "Domestic arbitration",
+      "Foreign arbitration",
+      "Statutory arbitration",
+      "Institutional arbitration only"
+    ],
+    answer: 1,
+    reason: "When arbitration proceedings are conducted in a place outside India, it is referred to as foreign arbitration."
+  },
+
+  {
+    id: "E_72",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which Part of the Arbitration and Conciliation Act, 1996 deals with enforcement of certain foreign awards?",
+    options: [
+      "Part I",
+      "Part II",
+      "Part III",
+      "Part IV"
+    ],
+    answer: 1,
+    reason: "Part II of the Arbitration and Conciliation Act, 1996 deals with enforcement of certain foreign awards."
+  },
+
+  {
+    id: "E_73",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Chapter I of Part II of the Arbitration and Conciliation Act, 1996 deals with:",
+    options: [
+      "Domestic arbitration",
+      "New York Convention Awards",
+      "Conciliation proceedings",
+      "Lok Adalat proceedings"
+    ],
+    answer: 1,
+    reason: "Chapter I of Part II deals with foreign awards under the New York Convention."
+  },
+
+  {
+    id: "E_74",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Chapter II of Part II of the Arbitration and Conciliation Act, 1996 deals with:",
+    options: [
+      "Geneva Convention Awards",
+      "Domestic awards",
+      "Fast-track arbitration",
+      "Conciliation"
+    ],
+    answer: 0,
+    reason: "Chapter II of Part II deals with foreign awards under the Geneva Convention."
+  },
+
+  {
+    id: "E_75",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which section defines 'foreign award' for Chapter I of Part II?",
+    options: [
+      "Section 44",
+      "Section 45",
+      "Section 47",
+      "Section 49"
+    ],
+    answer: 0,
+    reason: "Section 44 defines 'foreign award' for the purposes of Chapter I of Part II."
+  },
+
+  {
+    id: "E_76",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Section 45 deals with:",
+    options: [
+      "Evidence required for enforcement",
+      "Power of judicial authority to refer parties to arbitration",
+      "Appeals against enforcement orders",
+      "Deeming foreign awards to be decrees"
+    ],
+    answer: 1,
+    reason: "Section 45 empowers a judicial authority to refer parties to arbitration subject to the conditions specified therein."
+  },
+
+  {
+    id: "E_77",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 46, an enforceable foreign award is treated as:",
+    options: [
+      "Non-binding on the parties",
+      "Binding on the persons between whom it was made",
+      "Only an advisory opinion",
+      "A criminal judgment"
+    ],
+    answer: 1,
+    reason: "Section 46 provides that an enforceable foreign award shall be treated as binding on the persons between whom it was made."
+  },
+
+  {
+    id: "E_78",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which section deals with evidence required for enforcement of a New York Convention foreign award?",
+    options: [
+      "Section 45",
+      "Section 46",
+      "Section 47",
+      "Section 50"
+    ],
+    answer: 2,
+    reason: "Section 47 specifies the documents and evidence that the party seeking enforcement of a foreign award must produce."
+  },
+
+  {
+    id: "E_79",
+    difficulty: "easy",
+    difficulty_name: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 49, an enforceable foreign award is deemed to be:",
+    options: [
+      "A contract",
+      "A decree of the Court",
+      "A domestic arbitration agreement",
+      "A notice"
+    ],
+    answer: 1,
+    reason: "Section 49 provides that where the Court is satisfied that the foreign award is enforceable, the award shall be deemed to be a decree of that Court."
+  },
+
+  {
+    id: "E_80",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which convention is associated with Chapter I of Part II of the Arbitration and Conciliation Act, 1996?",
+    options: [
+      "Geneva Convention",
+      "New York Convention",
+      "Vienna Convention",
+      "Paris Convention"
+    ],
+    answer: 1,
+    reason: "Chapter I of Part II deals with foreign awards under the New York Convention."
+  },
+
+  {
+    id: "M_81",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which of the following is a distinguishing feature of institutional arbitration as compared with ad hoc arbitration?",
+    options: [
+      "The parties have no role in selecting arbitrators",
+      "An established arbitration institution provides administrative and procedural support",
+      "The arbitration is necessarily imposed by statute",
+      "The award cannot be enforced by a court"
+    ],
+    answer: 1,
+    reason: "Institutional arbitration is administered by an established arbitration institution which provides procedural rules, administrative support and assistance in appointment of arbitrators."
+  },
+
+  {
+    id: "M_82",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A statutory arbitration differs from contractual arbitration mainly because:",
+    options: [
+      "Statutory arbitration requires a written arbitration clause",
+      "Contractual arbitration is imposed by law",
+      "Statutory arbitration arises by operation of law without requiring consent of the parties",
+      "Contractual arbitration cannot result in an enforceable award"
+    ],
+    answer: 2,
+    reason: "Statutory arbitration is mandatory arbitration imposed by operation of law, whereas contractual arbitration arises from an agreement between the parties."
+  },
+
+  {
+    id: "M_83",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 29B, parties may agree to resolve their dispute through fast-track arbitration:",
+    options: [
+      "Only through an oral agreement",
+      "In writing",
+      "Only after obtaining permission from the Supreme Court",
+      "Only when ordered by the arbitral tribunal"
+    ],
+    answer: 1,
+    reason: "Section 29B provides that parties to an arbitration agreement may agree in writing to have their dispute resolved by the fast-track procedure."
+  },
+
+  {
+    id: "M_84",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which of the following is a requirement for an award to qualify as a foreign award under Section 44?",
+    options: [
+      "It must necessarily be made by an Indian arbitrator",
+      "It must be made in pursuance of an agreement in writing for arbitration to which the New York Convention applies",
+      "It must always be made in India",
+      "It must relate only to criminal disputes"
+    ],
+    answer: 1,
+    reason: "Section 44 requires, among other things, an agreement in writing for arbitration to which the New York Convention applies and the award must be made in a notified territory."
+  },
+
+  {
+    id: "M_85",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 45, when can a judicial authority refuse to refer parties to arbitration?",
+    options: [
+      "Whenever one party objects to arbitration",
+      "When it prima facie finds that the arbitration agreement is null and void, inoperative or incapable of being performed",
+      "Whenever the dispute involves a foreign party",
+      "Whenever the arbitration is ad hoc"
+    ],
+    answer: 1,
+    reason: "Section 45 requires reference to arbitration at the request of the concerned party unless the judicial authority prima facie finds the arbitration agreement to be null and void, inoperative or incapable of being performed."
+  },
+
+  {
+    id: "M_86",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 46, an enforceable foreign award may be relied upon by the parties in Indian legal proceedings by way of:",
+    options: [
+      "Defence, set-off or otherwise",
+      "Criminal prosecution only",
+      "Appeal only",
+      "Review only"
+    ],
+    answer: 0,
+    reason: "Section 46 provides that an enforceable foreign award may be relied upon by way of defence, set-off or otherwise in legal proceedings in India."
+  },
+
+  {
+    id: "M_87",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which of the following documents is NOT specifically mentioned under Section 47(1) as evidence for enforcement of a New York Convention foreign award?",
+    options: [
+      "Original award or duly authenticated copy",
+      "Original arbitration agreement or duly certified copy",
+      "Evidence necessary to prove that the award is a foreign award",
+      "Evidence of payment of Indian income tax by the award-holder"
+    ],
+    answer: 3,
+    reason: "Section 47(1) requires the original or authenticated award, arbitration agreement and evidence necessary to prove that the award is a foreign award. Income-tax payment evidence is not prescribed."
+  },
+
+  {
+    id: "M_88",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Where the award or arbitration agreement under Section 47 is in a foreign language, the party seeking enforcement must produce:",
+    options: [
+      "A translation into Hindi only",
+      "A translation into English certified in the prescribed manner",
+      "An uncertified translation in any language",
+      "No translation if the award is signed by the arbitrator"
+    ],
+    answer: 1,
+    reason: "Section 47(2) requires a translation into English certified by a diplomatic or consular agent or in another manner sufficient under Indian law."
+  },
+
+  {
+    id: "M_89",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 48(1)(b), enforcement may be refused where the party against whom the award is invoked:",
+    options: [
+      "Was not given proper notice of appointment of the arbitrator or proceedings",
+      "Disagrees with the amount awarded",
+      "Believes arbitration is expensive",
+      "Is a foreign national"
+    ],
+    answer: 0,
+    reason: "Section 48(1)(b) provides a ground for refusal where proper notice was not given regarding appointment of the arbitrator or arbitral proceedings, or the party was otherwise unable to present its case."
+  },
+
+  {
+    id: "M_90",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "An award contains decisions on matters both within and outside the scope of the arbitration agreement. Under Section 48, the Court may:",
+    options: [
+      "Enforce only the separable portion relating to matters submitted to arbitration",
+      "Always enforce the entire award",
+      "Always reject the entire award",
+      "Refer the entire dispute to a new arbitrator"
+    ],
+    answer: 0,
+    reason: "The proviso to Section 48(1)(c) allows the portion of the award dealing with matters submitted to arbitration to be enforced if it can be separated from the other portion."
+  },
+
+  {
+    id: "M_91",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 48(1)(d), enforcement may be refused if:",
+    options: [
+      "The arbitral procedure was not in accordance with the agreement of the parties",
+      "The award is commercially unfavorable",
+      "The arbitrator belongs to another country",
+      "The proceedings were confidential"
+    ],
+    answer: 0,
+    reason: "Section 48(1)(d) permits refusal where the composition of the arbitral authority or arbitral procedure was not in accordance with the parties' agreement or applicable law."
+  },
+
+  {
+    id: "M_92",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which of the following is a ground under Section 48(1)(e) for refusing enforcement of a foreign award?",
+    options: [
+      "The award has not yet become binding on the parties",
+      "The award was made by an expert arbitrator",
+      "The parties selected institutional arbitration",
+      "The award was made confidentially"
+    ],
+    answer: 0,
+    reason: "Section 48(1)(e) permits refusal where the award has not yet become binding or has been set aside or suspended by a competent authority."
+  },
+
+  {
+    id: "M_93",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which of the following can independently lead the Court to refuse enforcement under Section 48(2)?",
+    options: [
+      "The subject matter is not capable of settlement by arbitration under Indian law",
+      "The award was made by three arbitrators",
+      "The arbitration was conducted confidentially",
+      "The parties belong to different countries"
+    ],
+    answer: 0,
+    reason: "Section 48(2) permits refusal where the subject matter is not capable of settlement by arbitration under Indian law or enforcement would be contrary to the public policy of India."
+  },
+
+  {
+    id: "M_94",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which of the following is specifically included in the explanation of public policy under Section 48?",
+    options: [
+      "The award is financially inconvenient",
+      "The making of the award was induced or affected by fraud or corruption",
+      "The award was made outside India",
+      "The award involves commercial parties"
+    ],
+    answer: 1,
+    reason: "Explanation 1 to Section 48 states that an award is in conflict with public policy of India if its making was induced or affected by fraud or corruption, among other specified grounds."
+  },
+
+  {
+    id: "M_95",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Explanation 2 to Section 48 clarifies that the test of contravention with the fundamental policy of Indian law:",
+    options: [
+      "Requires reconsideration of the merits of the dispute",
+      "Does not entail a review on the merits of the dispute",
+      "Requires a fresh arbitration",
+      "Requires examination of every factual finding again"
+    ],
+    answer: 1,
+    reason: "Explanation 2 expressly states that determining contravention with the fundamental policy of Indian law shall not entail a review on the merits of the dispute."
+  },
+
+  {
+    id: "M_96",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "If proceedings for setting aside or suspension of a foreign award are pending in the country where it was made, the Indian Court may under Section 48(3):",
+    options: [
+      "Automatically reject the award",
+      "Adjourn the decision on enforcement and order suitable security",
+      "Automatically enforce the award",
+      "Ignore the pending proceedings"
+    ],
+    answer: 1,
+    reason: "Section 48(3) empowers the Court to adjourn its decision on enforcement and, where appropriate, order the party against whom enforcement is sought to provide suitable security."
+  },
+
+  {
+    id: "M_97",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Once the Court is satisfied under Section 49 that a foreign award is enforceable, the award:",
+    options: [
+      "Is treated merely as evidence",
+      "Is deemed to be a decree of the Court",
+      "Must be sent back to the arbitral tribunal",
+      "Becomes a domestic arbitration agreement"
+    ],
+    answer: 1,
+    reason: "Section 49 provides that an enforceable foreign award shall be deemed to be a decree of the Court."
+  },
+
+  {
+    id: "M_98",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 50, an appeal lies from an order refusing:",
+    options: [
+      "To refer parties to arbitration under Section 45 or to enforce a foreign award under Section 48",
+      "To appoint an arbitrator in every case",
+      "To admit evidence under Section 47",
+      "To conduct institutional arbitration"
+    ],
+    answer: 0,
+    reason: "Section 50 provides an appeal from an order refusing to refer parties to arbitration under Section 45 or refusing to enforce a foreign award under Section 48."
+  },
+
+  {
+    id: "M_99",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which statement correctly compares Section 49 and Section 58?",
+    options: [
+      "Both deal with domestic awards",
+      "Section 49 applies to New York Convention awards, while Section 58 applies to Geneva Convention awards",
+      "Section 49 applies to Geneva Convention awards, while Section 58 applies to New York Convention awards",
+      "Both sections deal only with arbitration agreements"
+    ],
+    answer: 1,
+    reason: "Section 49 provides for a foreign award under Chapter I (New York Convention) to be deemed a decree, whereas Section 58 provides the same consequence for an enforceable award under Chapter II (Geneva Convention)."
+  },
+
+  {
+    id: "M_100",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which section deals with the evidence required for enforcement of a Geneva Convention foreign award?",
+    options: [
+      "Section 47",
+      "Section 50",
+      "Section 56",
+      "Section 59"
+    ],
+    answer: 2,
+    reason: "Section 56 deals with the evidence that must be produced when applying for enforcement of a foreign award under Chapter II relating to Geneva Convention awards."
+  },
+
+  {
+    id: "M_101",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 53, a foreign award under the Geneva Convention provisions must relate to matters considered as commercial under:",
+    options: [
+      "The law of the country where the arbitrator resides",
+      "The law in force in India",
+      "The law selected by the losing party",
+      "The law of the country where enforcement is sought"
+    ],
+    answer: 1,
+    reason: "Section 53 defines a foreign award as an arbitral award on differences relating to matters considered as commercial under the law in force in India."
+},
+
+{
+    id: "M_102",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 53, a Geneva Convention foreign award is required to have been made after:",
+    options: [
+      "11th October 1960",
+      "28th July 1924",
+      "26th January 1950",
+      "15th August 1947"
+    ],
+    answer: 1,
+    reason: "Section 53 provides that the foreign award must have been made after 28th July, 1924."
+},
+
+{
+    id: "M_103",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 53, a Geneva Convention award will not be treated as final if:",
+    options: [
+      "The award involves a foreign party",
+      "Proceedings contesting the validity of the award are pending in the country where it was made",
+      "The award was made by an institutional tribunal",
+      "The award contains monetary relief"
+    ],
+    answer: 1,
+    reason: "Section 53 specifically provides that an award is not deemed final if proceedings for contesting its validity are pending in the country where it was made."
+},
+
+{
+    id: "M_104",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 54, a judicial authority may refer parties to arbitration when the contract:",
+    options: [
+      "Contains a valid arbitration agreement capable of being carried into effect",
+      "Contains only a verbal promise to arbitrate",
+      "Has already been declared illegal",
+      "Does not contain any arbitration agreement"
+    ],
+    answer: 0,
+    reason: "Section 54 applies where the contract contains an arbitration agreement, whether referring to present or future differences, which is valid and capable of being carried into effect."
+},
+
+{
+    id: "M_105",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 54, reference to arbitration is made by the judicial authority:",
+    options: [
+      "Suo motu in every case",
+      "On the application of either party or a person claiming through or under such party",
+      "Only on application of the arbitrator",
+      "Only after approval of the Central Government"
+    ],
+    answer: 1,
+    reason: "Section 54 permits reference to arbitration on the application of either party to the arbitration agreement or any person claiming through or under such party."
+},
+
+{
+    id: "M_106",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which statement regarding the time limit under Section 54 is correct?",
+    options: [
+      "A fixed period of 30 days is prescribed",
+      "A fixed period of 90 days is prescribed",
+      "No specific time limit is prescribed under Section 54",
+      "A maximum period of six months is prescribed"
+    ],
+    answer: 2,
+    reason: "Section 54 does not prescribe a specific time limit. The matter is left to the discretion of the judicial authority based on the circumstances."
+},
+
+{
+    id: "M_107",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 55, an enforceable Geneva Convention foreign award may be relied upon in Indian proceedings by way of:",
+    options: [
+      "Defence or set-off",
+      "Criminal prosecution only",
+      "Tax assessment only",
+      "Appeal against the arbitrator"
+    ],
+    answer: 0,
+    reason: "Section 55 provides that an enforceable foreign award may be relied upon by way of defence, set-off or otherwise in legal proceedings in India."
+},
+
+{
+    id: "M_108",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which of the following must be produced under Section 56 while seeking enforcement of a Geneva Convention foreign award?",
+    options: [
+      "Original award or duly authenticated copy",
+      "Only the arbitration agreement",
+      "Only a certified copy of the court decree",
+      "Income-tax assessment order"
+    ],
+    answer: 0,
+    reason: "Section 56 requires the original award or duly authenticated copy, evidence that the award has become final and other prescribed evidence."
+},
+
+{
+    id: "M_109",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which additional evidence is specifically required under Section 56 compared with Section 47?",
+    options: [
+      "Evidence proving that the award has become final",
+      "Evidence of payment of arbitration fees",
+      "Evidence of the arbitrator's nationality",
+      "Evidence of the parties' income"
+    ],
+    answer: 0,
+    reason: "Section 56 specifically requires evidence proving that the Geneva Convention award has become final."
+},
+
+{
+    id: "M_110",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 57(1), which of the following is necessary for enforcement of a Geneva Convention foreign award?",
+    options: [
+      "The award must be capable of settlement only through litigation",
+      "The subject matter of the award must be capable of settlement by arbitration under Indian law",
+      "The award must be made by an Indian arbitrator",
+      "The award must be made in India"
+    ],
+    answer: 1,
+    reason: "Section 57(1)(b) requires that the subject matter of the award be capable of settlement by arbitration under the law of India."
+},
+
+{
+    id: "M_111",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 57(1)(c), the arbitral tribunal must have been:",
+    options: [
+      "Selected only by the Court",
+      "Constituted in the manner agreed upon by the parties and in conformity with the governing law",
+      "Appointed only by the Central Government",
+      "Selected by the enforcing party alone"
+    ],
+    answer: 1,
+    reason: "Section 57(1)(c) requires that the tribunal be constituted as provided in the submission to arbitration or in the manner agreed upon by the parties and in conformity with the governing law."
+},
+
+{
+    id: "M_112",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A Geneva Convention award is still open to appeal in the country where it was made. Can it normally be considered final under Section 57?",
+    options: [
+      "Yes, because every foreign award is automatically final",
+      "No, because an award open to opposition or appeal is not considered final",
+      "Yes, if the award is monetary",
+      "Yes, if the parties are from different countries"
+    ],
+    answer: 1,
+    reason: "Section 57(1)(d) requires the award to have become final in the country where it was made. An award open to opposition or appeal is not considered final."
+},
+
+{
+    id: "M_113",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 57(1)(e), enforcement of a Geneva Convention foreign award must not be contrary to:",
+    options: [
+      "The personal preference of the judge",
+      "Public policy or the law of India",
+      "The law of the arbitrator's nationality only",
+      "The rules of an unrelated arbitration institution"
+    ],
+    answer: 1,
+    reason: "Section 57(1)(e) requires that enforcement of the award should not be contrary to public policy or the law of India."
+},
+
+{
+    id: "M_114",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Even when the requirements of Section 57(1) are fulfilled, enforcement must be refused if:",
+    options: [
+      "The award has been annulled in the country where it was made",
+      "The award was made by an expert",
+      "The arbitration was confidential",
+      "The award was made by an institution"
+    ],
+    answer: 0,
+    reason: "Section 57(2)(a) provides that enforcement shall be refused if the award has been annulled in the country in which it was made."
+},
+
+{
+    id: "M_115",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 57(2)(b), enforcement may be refused where the party against whom the award is sought to be used:",
+    options: [
+      "Was not given sufficient notice to present its case",
+      "Is a foreign national",
+      "Did not appoint an expert witness",
+      "Did not agree with the final amount"
+    ],
+    answer: 0,
+    reason: "Section 57(2)(b) permits refusal where sufficient notice of the arbitration proceedings was not given or the party was under legal incapacity and was not properly represented."
+},
+
+{
+    id: "M_116",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "If a Geneva Convention award has not covered all the differences submitted to the arbitral tribunal, the Court may:",
+    options: [
+      "Always enforce the award without conditions",
+      "Postpone enforcement or grant enforcement subject to a guarantee",
+      "Automatically cancel the arbitration agreement",
+      "Order criminal proceedings against the arbitrator"
+    ],
+    answer: 1,
+    reason: "The proviso to Section 57(2)(c) permits the Court to postpone enforcement or grant it subject to such guarantee as the Court may decide."
+},
+
+{
+    id: "M_117",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 57(3), the Court may give the party a reasonable time to:",
+    options: [
+      "Have the award annulled by the competent tribunal",
+      "Change the arbitration agreement",
+      "Appoint a new judge",
+      "Recover court fees"
+    ],
+    answer: 0,
+    reason: "Section 57(3) permits the Court to refuse or adjourn enforcement and give the party reasonable time to have the award annulled by the competent tribunal."
+},
+
+{
+    id: "M_118",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which section provides that an enforceable Geneva Convention foreign award shall be deemed to be a decree of the Court?",
+    options: [
+      "Section 49",
+      "Section 54",
+      "Section 58",
+      "Section 60"
+    ],
+    answer: 2,
+    reason: "Section 58 provides that when the Court is satisfied that a Geneva Convention foreign award is enforceable, the award shall be deemed to be a decree of the Court."
+},
+
+{
+    id: "M_119",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Under Section 59, an appeal lies from an order refusing:",
+    options: [
+      "To refer parties to arbitration under Section 54 or enforce a foreign award under Section 57",
+      "To admit a new arbitrator under Section 56",
+      "To grant confidentiality under Section 55",
+      "To issue an arbitration agreement under Section 53"
+    ],
+    answer: 0,
+    reason: "Section 59 provides an appeal against an order refusing to refer parties to arbitration under Section 54 or refusing to enforce a foreign award under Section 57."
+},
+
+{
+    id: "M_120",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which statement correctly compares Section 50 and Section 59?",
+    options: [
+      "Section 50 relates to New York Convention awards, while Section 59 relates to Geneva Convention awards",
+      "Section 50 relates only to domestic arbitration, while Section 59 relates to international arbitration",
+      "Both sections deal exclusively with fast-track arbitration",
+      "Section 50 deals with arbitration agreements, while Section 59 deals with contractual arbitration"
+    ],
+    answer: 0,
+    reason: "Section 50 provides appeals concerning Chapter I and New York Convention awards, whereas Section 59 provides appeals concerning Chapter II and Geneva Convention awards."
+},
+
+{
+    id: "H_121",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "An Indian company enters into an arbitration agreement governed by Indian law. The arbitration is conducted in London and the arbitrator applies Indian substantive law. The resulting award is sought to be enforced in India. Based on the principle stated in NTPC Vs. Singer Company, which is the most appropriate conclusion?",
+    options: [
+      "The award is necessarily a foreign award because the arbitration was conducted outside India",
+      "The award is necessarily a foreign award because the arbitrator was seated in London",
+      "The award may be treated as a domestic award because the arbitration agreement and governing law are Indian",
+      "The award automatically falls under the Geneva Convention"
+    ],
+    answer: 2,
+    reason: "The chapter notes that in NTPC Vs. Singer Company, an interim award made in London under an arbitration agreement governed by Indian law was held to be a domestic award and governed by Indian law."
+},
+
+{
+    id: "H_122",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A party seeks enforcement of a New York Convention award in India. The award is in French and the applicant produces the original award and arbitration agreement but does not initially produce their English translations. Which provision specifically requires the translation into English?",
+    options: [
+      "Section 45",
+      "Section 47(2)",
+      "Section 48(2)",
+      "Section 49"
+    ],
+    answer: 1,
+    reason: "Section 47(2) requires a document produced under Section 47(1) that is in a foreign language to be accompanied by an English translation certified in the prescribed manner."
+},
+
+{
+    id: "H_123",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A foreign award contains decisions on two matters. One matter was within the arbitration submission, while the other was completely outside its scope. Under Section 48(1)(c), what is the correct position?",
+    options: [
+      "The entire award must necessarily be refused enforcement",
+      "The entire award must necessarily be enforced",
+      "The portion relating to matters submitted to arbitration may be enforced if it can be separated from the other portion",
+      "The Court must refer the matter back to the foreign tribunal"
+    ],
+    answer: 2,
+    reason: "Section 48(1)(c) permits enforcement of the portion dealing with matters submitted to arbitration where that portion can be separated from decisions beyond the scope of submission."
+},
+
+{
+    id: "H_124",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A party opposing enforcement of a New York Convention award argues that the arbitral tribunal incorrectly interpreted the commercial contract and therefore the award violates the fundamental policy of Indian law. What limitation is specifically relevant under Section 48?",
+    options: [
+      "The Court must conduct a complete rehearing of the contractual dispute",
+      "The Court may review the merits because public policy is involved",
+      "The test of fundamental policy does not entail a review on the merits of the dispute",
+      "The Court must automatically refuse enforcement"
+    ],
+    answer: 2,
+    reason: "Explanation 2 to Section 48 clarifies that determining whether there is a contravention of the fundamental policy of Indian law does not entail a review on the merits of the dispute."
+},
+
+{
+    id: "H_125",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A foreign award has been challenged before a competent authority in the country where it was made. During enforcement proceedings in India, the award-holder requests immediate enforcement. What may the Indian Court do under Section 48(3)?",
+    options: [
+      "It must always enforce the award immediately",
+      "It may adjourn the enforcement decision and may order the other party to provide suitable security",
+      "It must permanently refuse enforcement",
+      "It must set aside the foreign award itself"
+    ],
+    answer: 1,
+    reason: "Under Section 48(3), where setting aside or suspension proceedings are pending before the competent authority, the Court may adjourn the enforcement decision and may order suitable security from the opposing party."
+},
+
+{
+    id: "H_126",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A party against whom a New York Convention award is invoked claims that the award is unenforceable but produces no proof of any ground specified in Section 48(1). Which principle is most consistent with the chapter?",
+    options: [
+      "The burden under Section 48(1) lies on the party resisting enforcement to furnish proof of the relevant ground",
+      "The award-holder must prove that every possible Section 48 ground is absent",
+      "The Court must refuse enforcement whenever an objection is raised",
+      "The foreign tribunal must decide the Indian enforcement question"
+    ],
+    answer: 0,
+    reason: "Section 48(1) provides that enforcement may be refused at the request of the party against whom the award is invoked only if that party furnishes proof of the specified grounds."
+},
+
+{
+    id: "H_127",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A foreign award is otherwise enforceable under Chapter I. The subject matter of the dispute, however, is not capable of settlement by arbitration under Indian law. Which provision provides the relevant ground for refusal?",
+    options: [
+      "Section 47(1)",
+      "Section 48(2)(a)",
+      "Section 49",
+      "Section 50(1)"
+    ],
+    answer: 1,
+    reason: "Section 48(2)(a) permits refusal of enforcement where the subject matter of the difference is not capable of settlement by arbitration under Indian law."
+},
+
+{
+    id: "H_128",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A judicial authority in India is seized of a matter covered by a Section 44 arbitration agreement. One party requests reference to arbitration. The Court finds prima facie that the arbitration agreement is null and void. What is the correct consequence under Section 45?",
+    options: [
+      "The Court must refer the parties to arbitration because Section 45 uses the word 'shall'",
+      "The Court may refuse the reference because the statutory exception applies",
+      "The Court must refer the dispute to the Central Government",
+      "The Court must enforce any foreign award already issued"
+    ],
+    answer: 1,
+    reason: "Although Section 45 requires reference to arbitration upon a proper request, the judicial authority need not refer the parties where it prima facie finds the agreement null and void, inoperative or incapable of being performed."
+},
+
+{
+    id: "H_129",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A New York Convention foreign award is found enforceable by the Court under Chapter I. What is the legal consequence under Section 49?",
+    options: [
+      "It remains merely persuasive evidence",
+      "It becomes an interim order of the arbitral tribunal",
+      "It is deemed to be a decree of the Court",
+      "It automatically becomes a domestic arbitral award"
+    ],
+    answer: 2,
+    reason: "Section 49 provides that where the Court is satisfied that the foreign award is enforceable under Chapter I, the award shall be deemed to be a decree of that Court."
+},
+
+{
+    id: "H_130",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "An order refuses to refer parties to arbitration under Section 45. The aggrieved party files an appeal under Section 50. The appellate court passes an order. Can a second appeal ordinarily be filed under Section 50?",
+    options: [
+      "Yes, because every arbitration order carries two statutory appeals",
+      "Yes, but only before the same appellate court",
+      "No, no second appeal lies under Section 50, though the right to appeal to the Supreme Court is preserved",
+      "No appeal of any kind is possible after the first order"
+    ],
+    answer: 2,
+    reason: "Section 50(2) expressly states that no second appeal lies from an order passed in appeal, while preserving any right to appeal to the Supreme Court."
+},
+
+{
+    id: "H_131",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A Geneva Convention award is presented for enforcement in India while proceedings challenging its validity remain pending in the country where the award was made. Which requirement is directly affected?",
+    options: [
+      "The award's status as final under Section 53 and Section 57",
+      "The appointment of an Indian arbitrator under Section 54",
+      "The appeal mechanism under Section 59 only",
+      "The definition of domestic arbitration under Part I"
+    ],
+    answer: 0,
+    reason: "Section 53 states that an award is not deemed final if proceedings contesting its validity are pending in the country where it was made. Section 57 also requires finality for enforcement."
+},
+
+{
+    id: "H_132",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A Geneva Convention award was made by a tribunal constituted contrary to the method agreed by the parties. The award otherwise satisfies the remaining requirements. Which provision creates the principal difficulty for enforcement?",
+    options: [
+      "Section 55",
+      "Section 56(2)",
+      "Section 57(1)(c)",
+      "Section 58"
+    ],
+    answer: 2,
+    reason: "Section 57(1)(c) requires the arbitral tribunal to be constituted in the manner agreed upon by the parties and in conformity with the law governing the arbitration procedure."
+},
+
+{
+    id: "H_133",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A Geneva Convention award satisfies all requirements under Section 57(1), but the Court finds that the award was annulled in the country where it was made. What should follow?",
+    options: [
+      "The Court must enforce it because Section 57(1) requirements are satisfied",
+      "The Court must refuse enforcement under Section 57(2)(a)",
+      "The Court must convert it into a domestic award",
+      "The Court must automatically send it to arbitration again"
+    ],
+    answer: 1,
+    reason: "Section 57(2)(a) expressly provides that enforcement shall be refused if the award has been annulled in the country in which it was made."
+},
+
+{
+    id: "H_134",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A party resisting a Geneva Convention award establishes a ground under the law governing the arbitration procedure that is not one of the grounds specifically mentioned in Sections 57(1)(a), 57(1)(c), 57(2)(b) or 57(2)(c). What power does Section 57(3) give the Court?",
+    options: [
+      "The Court has no power to consider the ground",
+      "The Court must enforce the award immediately",
+      "The Court may refuse enforcement or adjourn consideration and give reasonable time to seek annulment",
+      "The Court must refer the issue to the Central Government"
+    ],
+    answer: 2,
+    reason: "Section 57(3) permits the Court, where such an additional ground is proved, to refuse enforcement or adjourn consideration and give reasonable time for the award to be annulled by the competent tribunal."
+},
+
+{
+    id: "H_135",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A party seeks enforcement of a Geneva Convention award that does not cover all differences submitted to arbitration. Which statement best reflects Section 57?",
+    options: [
+      "The Court must reject the entire award without exception",
+      "The Court may postpone enforcement or grant enforcement subject to a guarantee",
+      "The Court must enforce only the monetary portion",
+      "The Court has no jurisdiction over an incomplete award"
+    ],
+    answer: 1,
+    reason: "The proviso to Section 57(2)(c) allows the Court, where the award has not covered all submitted differences, to postpone enforcement or grant it subject to a guarantee."
+},
+
+{
+    id: "H_136",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A Geneva Convention award is found enforceable under Chapter II. Which provision converts the enforceable award into a decree-like status?",
+    options: [
+      "Section 53",
+      "Section 55",
+      "Section 58",
+      "Section 60"
+    ],
+    answer: 2,
+    reason: "Section 58 provides that once the Court is satisfied that a foreign award is enforceable under Chapter II, it shall be deemed to be a decree of the Court."
+},
+
+{
+    id: "H_137",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which pairing correctly matches the evidence provisions for New York Convention and Geneva Convention awards?",
+    options: [
+      "Section 47 - New York Convention; Section 56 - Geneva Convention",
+      "Section 48 - New York Convention; Section 57 - Geneva Convention",
+      "Section 49 - New York Convention; Section 58 - Geneva Convention",
+      "Section 50 - New York Convention; Section 59 - Geneva Convention"
+    ],
+    answer: 0,
+    reason: "Section 47 deals with evidence required for enforcement of New York Convention awards, while Section 56 deals with evidence required for Geneva Convention awards."
+},
+
+{
+    id: "H_138",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which pairing correctly identifies the provisions dealing with refusal of enforcement of New York Convention and Geneva Convention awards respectively?",
+    options: [
+      "Sections 45 and 54",
+      "Sections 46 and 55",
+      "Sections 48 and 57",
+      "Sections 49 and 58"
+    ],
+    answer: 2,
+    reason: "Section 48 contains the grounds for refusal of enforcement of New York Convention awards, while Section 57 contains the conditions and grounds concerning enforcement of Geneva Convention awards."
+},
+
+{
+    id: "H_139",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A foreign award covered by Chapter I of Part II is sought to be dealt with under Chapter II. What is the effect of Section 52?",
+    options: [
+      "Chapter II must always be applied first",
+      "Chapter II does not apply to foreign awards to which Chapter I applies",
+      "Both chapters must be applied simultaneously",
+      "The choice between the chapters is left entirely to the award-holder"
+    ],
+    answer: 1,
+    reason: "Section 52 expressly provides that Chapter II does not apply in relation to foreign awards to which Chapter I applies."
+},
+
+{
+    id: "H_140",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "An appeal is filed against an order refusing enforcement of a Geneva Convention award under Section 57. Which statement is correct?",
+    options: [
+      "The appeal is governed by Section 50",
+      "The appeal is governed by Section 59 and no second appeal lies, subject to the constitutional right of appeal to the Supreme Court",
+      "No appeal is available under the Act",
+      "A second statutory appeal is automatically available"
+    ],
+    answer: 1,
+    reason: "Section 59 provides an appeal against an order refusing enforcement under Section 57. It further states that no second appeal lies, while preserving any right to appeal to the Supreme Court."
+},
+
+{
+    id: "H_141",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "An Indian Court is seized of a dispute covered by a New York Convention arbitration agreement. One party applies under Section 45 for reference to arbitration. The opposing party argues that the arbitration agreement is merely inconvenient but does not establish that it is null and void, inoperative or incapable of being performed. What should the judicial authority generally do?",
+    options: [
+      "Refuse reference because arbitration would be inconvenient",
+      "Refer the parties to arbitration if the statutory conditions are otherwise satisfied",
+      "Decide the entire dispute on merits before referring it",
+      "Automatically treat the agreement as a domestic arbitration agreement"
+    ],
+    answer: 1,
+    reason: "Section 45 requires the judicial authority to refer the parties to arbitration at the request of a party unless it prima facie finds the agreement null and void, inoperative or incapable of being performed."
+},
+
+{
+    id: "H_142",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A foreign award is enforceable under Chapter I. The award-holder wants to rely upon the award as a defence in separate legal proceedings in India rather than immediately seeking execution. Which provision supports this use?",
+    options: [
+      "Section 45",
+      "Section 46",
+      "Section 47",
+      "Section 49"
+    ],
+    answer: 1,
+    reason: "Section 46 provides that an enforceable foreign award is binding and may be relied upon by the parties by way of defence, set-off or otherwise in legal proceedings in India."
+},
+
+{
+    id: "H_143",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A party seeking enforcement of a New York Convention award produces a duly authenticated copy of the award and the arbitration agreement but fails to produce evidence showing that the award qualifies as a foreign award. Which requirement has not been specifically satisfied?",
+    options: [
+      "Section 47(1)(a)",
+      "Section 47(1)(b)",
+      "Section 47(1)(c)",
+      "Section 48(2)(b)"
+    ],
+    answer: 2,
+    reason: "Section 47(1)(c) requires such evidence as may be necessary to prove that the award is a foreign award."
+},
+
+{
+    id: "H_144",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A foreign award has not yet become binding on the parties under the applicable law of the country where it was made. The award-holder nevertheless seeks enforcement in India. Which Section 48 ground is directly relevant?",
+    options: [
+      "Section 48(1)(a)",
+      "Section 48(1)(b)",
+      "Section 48(1)(d)",
+      "Section 48(1)(e)"
+    ],
+    answer: 3,
+    reason: "Section 48(1)(e) permits refusal where the award has not yet become binding on the parties or has been set aside or suspended by a competent authority of the relevant country."
+},
+
+{
+    id: "H_145",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "The composition of a foreign arbitral tribunal differs from the composition expressly agreed upon by the parties. The opposing party relies on this defect to resist enforcement. Which provision is most directly attracted?",
+    options: [
+      "Section 47(2)",
+      "Section 48(1)(d)",
+      "Section 49",
+      "Section 50(2)"
+    ],
+    answer: 1,
+    reason: "Section 48(1)(d) provides a ground for refusal where the composition of the arbitral authority or arbitral procedure was not in accordance with the parties' agreement or, failing such agreement, the law of the country of arbitration."
+},
+
+{
+    id: "H_146",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A party resisting enforcement of a New York Convention award proves that it was not given proper notice of the appointment of the arbitrator and consequently could not present its case. Which principle is reflected in this ground?",
+    options: [
+      "Party autonomy",
+      "Natural justice",
+      "Reciprocity",
+      "Finality of taxation proceedings"
+    ],
+    answer: 1,
+    reason: "Section 48(1)(b) protects the opportunity of a party to present its case and reflects the principle of natural justice."
+},
+
+{
+    id: "H_147",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A foreign award contains one decision within the arbitration submission and another decision outside the submission. The two portions are capable of being clearly separated. What is the most appropriate result under Section 48?",
+    options: [
+      "Only the portion within the submission may be enforced",
+      "Only the portion outside the submission may be enforced",
+      "Both portions must necessarily be refused",
+      "The Court must rewrite the award"
+    ],
+    answer: 0,
+    reason: "Section 48(1)(c) allows the portion dealing with matters submitted to arbitration to be enforced where it can be separated from matters beyond the scope of submission."
+},
+
+{
+    id: "H_148",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A party argues that enforcement of a foreign award should be refused merely because the Court disagrees with the tribunal's interpretation of evidence. No fraud, corruption, violation of fundamental policy, or conflict with basic notions of morality or justice is established. Which conclusion is most appropriate?",
+    options: [
+      "The Court must refuse enforcement because any disagreement amounts to public policy",
+      "The Court should treat enforcement proceedings as a full appeal on merits",
+      "Mere disagreement on the merits does not by itself establish the specified public policy ground",
+      "The award automatically becomes invalid"
+    ],
+    answer: 2,
+    reason: "Explanation 2 to Section 48 clarifies that the fundamental-policy test does not entail a review on the merits of the dispute."
+},
+
+{
+    id: "H_149",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A foreign award was induced by fraud. The award-holder argues that the dispute itself was arbitrable and the tribunal was properly constituted. Can enforcement nevertheless be refused under the public policy provision?",
+    options: [
+      "No, fraud is irrelevant once the tribunal is properly constituted",
+      "Yes, fraud in the making of the award is expressly included within the specified public policy ground",
+      "No, because public policy applies only to domestic awards",
+      "Yes, but only if the award was also made by an ad hoc tribunal"
+    ],
+    answer: 1,
+    reason: "Explanation 1 to Section 48 states that an award conflicts with public policy of India if its making was induced or affected by fraud or corruption, among the specified grounds."
+},
+
+{
+    id: "H_150",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "The Court finds that the subject matter of a foreign award is incapable of settlement by arbitration under Indian law. The award-holder argues that the parties voluntarily chose arbitration. What is the correct position?",
+    options: [
+      "Party consent always overrides Indian law on arbitrability",
+      "The Court may refuse enforcement under Section 48(2)(a)",
+      "The Court must enforce the award because it is foreign",
+      "The Court must apply Section 50 instead"
+    ],
+    answer: 1,
+    reason: "Section 48(2)(a) permits refusal of enforcement where the subject matter of the difference is not capable of settlement by arbitration under Indian law."
+},
+
+{
+    id: "H_151",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A Court in India has already determined that a New York Convention award is enforceable under Chapter I. Which statement correctly describes the effect of Section 49?",
+    options: [
+      "The award-holder must commence a fresh arbitration in India",
+      "The award is deemed to be a decree of that Court",
+      "The award is merely treated as evidence of liability",
+      "The award automatically becomes an award under Chapter II"
+    ],
+    answer: 1,
+    reason: "Section 49 provides that when the Court is satisfied that the foreign award is enforceable under Chapter I, the award shall be deemed to be a decree of that Court."
+},
+
+{
+    id: "H_152",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "An order refuses to enforce a New York Convention award under Section 48. The aggrieved party wants to appeal. Which provision specifically governs the appeal?",
+    options: [
+      "Section 45",
+      "Section 47",
+      "Section 50",
+      "Section 52"
+    ],
+    answer: 2,
+    reason: "Section 50 provides an appeal against an order refusing to enforce a foreign award under Section 48."
+},
+
+{
+    id: "H_153",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A party attempts to file a second statutory appeal against an appellate order arising from Section 48. Which statement is correct under Section 50?",
+    options: [
+      "A second appeal is expressly provided",
+      "A second appeal lies as of right",
+      "No second appeal lies under Section 50, though the constitutional right to appeal to the Supreme Court is preserved",
+      "Only the arbitral tribunal can hear the second appeal"
+    ],
+    answer: 2,
+    reason: "Section 50(2) expressly bars a second appeal while preserving any right to appeal to the Supreme Court."
+},
+
+{
+    id: "H_154",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A Geneva Convention award is sought to be enforced in India. The applicant produces the original award but does not produce evidence proving that the award has become final. Which provision creates this evidentiary requirement?",
+    options: [
+      "Section 47",
+      "Section 54",
+      "Section 56",
+      "Section 58"
+    ],
+    answer: 2,
+    reason: "Section 56(1)(b) specifically requires evidence proving that the Geneva Convention award has become final."
+},
+
+{
+    id: "H_155",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A document required for enforcement of a Geneva Convention award is written in a foreign language. What does Section 56(2) generally require?",
+    options: [
+      "No translation is required",
+      "Translation into English certified in the prescribed manner",
+      "Translation only into the language of the arbitral tribunal",
+      "Translation into Hindi only"
+    ],
+    answer: 1,
+    reason: "Section 56(2) requires documents in a foreign language to be accompanied by an English translation certified by the prescribed diplomatic, consular or legally sufficient authority."
+},
+
+{
+    id: "H_156",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A Geneva Convention award was made by a tribunal not constituted in conformity with the parties' agreement or the applicable procedural law. Which requirement of Section 57 is directly violated?",
+    options: [
+      "Section 57(1)(a)",
+      "Section 57(1)(b)",
+      "Section 57(1)(c)",
+      "Section 57(1)(e)"
+    ],
+    answer: 2,
+    reason: "Section 57(1)(c) requires the arbitral tribunal to be constituted as provided in the submission to arbitration or in the manner agreed by the parties and in conformity with the governing procedural law."
+},
+
+{
+    id: "H_157",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A Geneva Convention award has become final, but the Court finds that its enforcement would be contrary to the public policy of India. Which provision permits refusal?",
+    options: [
+      "Section 53",
+      "Section 55",
+      "Section 57(1)(e)",
+      "Section 59"
+    ],
+    answer: 2,
+    reason: "Section 57(1)(e) requires that enforcement of the Geneva Convention award not be contrary to the public policy or law of India."
+},
+
+{
+    id: "H_158",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A Geneva Convention award was made without giving the respondent sufficient notice of the arbitration proceedings, preventing the respondent from presenting its case. Which provision permits refusal even if other Section 57(1) conditions are satisfied?",
+    options: [
+      "Section 57(2)(b)",
+      "Section 57(1)(a)",
+      "Section 56(1)(b)",
+      "Section 58"
+    ],
+    answer: 0,
+    reason: "Section 57(2)(b) provides for refusal where the party against whom enforcement is sought was not given sufficient notice to enable presentation of its case."
+},
+
+{
+    id: "H_159",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "A Geneva Convention award contains a decision on a matter completely outside the terms of submission to arbitration. The respondent objects to enforcement. Which provision is directly applicable?",
+    options: [
+      "Section 57(2)(c)",
+      "Section 55",
+      "Section 58",
+      "Section 60"
+    ],
+    answer: 0,
+    reason: "Section 57(2)(c) provides for refusal where the award deals with differences outside the terms of submission to arbitration or decides matters beyond its scope."
+},
+
+{
+    id: "H_160",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 3 - Enforcement of Certain Foreign Awards",
+    question: "Which combination correctly distinguishes the appeal provisions for New York Convention and Geneva Convention awards?",
+    options: [
+      "Section 50 applies to Sections 45 and 48; Section 59 applies to Sections 54 and 57",
+      "Section 50 applies only to Section 47; Section 59 applies only to Section 56",
+      "Section 50 applies to Geneva awards; Section 59 applies to New York awards",
+      "Both types of awards are governed exclusively by Section 50"
+    ],
+    answer: 0,
+    reason: "Section 50 provides appeals against orders refusing reference under Section 45 or enforcement under Section 48, while Section 59 provides appeals against orders refusing reference under Section 54 or enforcement under Section 57."
+}
+
+  
+
+  
 
 ];
