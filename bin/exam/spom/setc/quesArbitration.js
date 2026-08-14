@@ -5584,6 +5584,3232 @@ const caseStudies = [
     ],
     answer: 0,
     reason: "Section 50 provides appeals against orders refusing reference under Section 45 or enforcement under Section 48, while Section 59 provides appeals against orders refusing reference under Section 54 or enforcement under Section 57."
+},
+
+// Chapter 4
+
+{
+    id: "H_161",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A Ltd. sends B Ltd. a written invitation to conciliate, identifying the subject of the dispute. B Ltd. neither accepts nor rejects the invitation. The invitation specifies that a response must be given within 15 days. B Ltd. remains silent for 15 days. What may A Ltd. do under Section 62?",
+    options: [
+      "Treat the silence as automatic acceptance of conciliation",
+      "Treat the silence as rejection and inform B Ltd. in writing accordingly",
+      "Commence conciliation proceedings without B Ltd.'s consent",
+      "Refer the matter directly to arbitration"
+    ],
+    answer: 1,
+    reason: "Under Section 62(4), where no reply is received within the period specified in the invitation, the initiating party may elect to treat the silence as rejection, but must inform the other party in writing."
+},
+
+{
+    id: "H_162",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "X Ltd. sends a written invitation for conciliation to Y Ltd. Y Ltd. verbally agrees during a telephone conversation but does not provide written acceptance. When will the conciliation proceedings commence?",
+    options: [
+      "Immediately upon the verbal acceptance",
+      "When the conciliator accepts the appointment",
+      "Only when Y Ltd. accepts the invitation in writing",
+      "When X Ltd. files the dispute before a court"
+    ],
+    answer: 2,
+    reason: "Section 62(2) specifically provides that conciliation proceedings commence when the other party accepts the invitation to conciliate in writing."
+},
+
+{
+    id: "H_163",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A and B agree to appoint three conciliators. A appoints one conciliator and B appoints another. They cannot agree on the identity of the third conciliator. Which statement is correct under Section 64?",
+    options: [
+      "The first conciliator automatically becomes the presiding conciliator",
+      "The second conciliator automatically becomes the presiding conciliator",
+      "The third conciliator must be agreed upon by the parties and acts as presiding conciliator",
+      "The conciliators themselves must unanimously appoint the third conciliator"
+    ],
+    answer: 2,
+    reason: "Under Section 64(1)(c), each party appoints one conciliator and the parties may agree on the name of the third conciliator, who acts as the presiding conciliator."
+},
+
+{
+    id: "H_164",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "During conciliation involving three conciliators, the two party-appointed conciliators disagree on a proposed settlement. The presiding conciliator claims that he can impose his preferred solution on the parties. Which statement is most appropriate?",
+    options: [
+      "The presiding conciliator can impose a binding decision",
+      "The presiding conciliator can decide the dispute as an arbitrator",
+      "The conciliator's function is to assist the parties in reaching an amicable settlement, not impose a binding adjudicatory decision",
+      "The presiding conciliator automatically has a casting vote"
+    ],
+    answer: 2,
+    reason: "Conciliation is assisted and non-adversarial. The conciliator assists the parties in reaching settlement and does not ordinarily adjudicate the dispute like an arbitrator."
+},
+
+{
+    id: "H_165",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A conciliator receives factual information from Party A concerning the dispute. Party A does not impose any confidentiality condition. What is the conciliator generally required to do under Section 70?",
+    options: [
+      "Keep the information permanently secret",
+      "Disclose the substance of the information to Party B so that B can provide an explanation",
+      "Disclose only the identity of Party A",
+      "Use the information to make a binding decision"
+    ],
+    answer: 1,
+    reason: "Section 70 requires the conciliator to disclose the substance of factual information received from one party to the other party, unless it was provided subject to a specific confidentiality condition."
+},
+
+{
+    id: "H_166",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Party A gives commercially sensitive information to the conciliator and specifically states that the information must remain confidential. Party B asks the conciliator to disclose it. What should the conciliator do?",
+    options: [
+      "Disclose it because all information must always be shared",
+      "Disclose it because Party B is also participating in the proceedings",
+      "Keep the information confidential as specifically requested by Party A",
+      "Terminate the conciliation automatically"
+    ],
+    answer: 2,
+    reason: "The proviso to Section 70 states that where information is given subject to a specific condition that it be kept confidential, the conciliator shall not disclose it to the other party."
+},
+
+{
+    id: "H_167",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A conciliator believes that settlement is possible and prepares proposed settlement terms. Both parties provide observations suggesting substantial changes. What may the conciliator do under Section 73?",
+    options: [
+      "Reject all observations because the first proposal is final",
+      "Reformulate the proposed settlement terms in light of the parties' observations",
+      "Convert the proceedings into arbitration automatically",
+      "Impose the original settlement terms"
+    ],
+    answer: 1,
+    reason: "Section 73(1) permits the conciliator to reformulate the terms of a possible settlement after receiving observations from the parties."
+},
+
+{
+    id: "H_168",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A conciliator proposes settlement terms orally and does not provide written reasons for the proposal. One party objects that the proposal is invalid because it must be written and reasoned. Which is correct?",
+    options: [
+      "The objection is correct because every settlement proposal must be written",
+      "The objection is correct because reasons are mandatory",
+      "The proposal may be valid because Section 67 permits proposals that need not be in writing or accompanied by reasons",
+      "The conciliator cannot propose settlement terms at all"
+    ],
+    answer: 2,
+    reason: "Section 67(4) expressly permits the conciliator to make settlement proposals at any stage, and such proposals need not be in writing or accompanied by reasons."
+},
+
+{
+    id: "H_169",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "During conciliation, a party insists that the conciliator must strictly follow the Code of Civil Procedure, 1908 and the Indian Evidence Act, 1872 while receiving documents. What is the correct legal position?",
+    options: [
+      "The conciliator is strictly bound by both enactments",
+      "The conciliator is bound only by the Indian Evidence Act",
+      "The conciliator is bound only by the Code of Civil Procedure",
+      "The conciliator is not bound by either enactment under Section 66"
+    ],
+    answer: 3,
+    reason: "Section 66 provides that the conciliator is not bound by the Code of Civil Procedure, 1908 or the Indian Evidence Act, 1872, while still being expected to act impartially and according to principles of natural justice."
+},
+
+{
+    id: "H_170",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "The parties cannot agree on the location for their conciliation meetings. The conciliator wants to select a convenient location without consulting either party. Is this consistent with Section 69?",
+    options: [
+      "Yes, the conciliator has unrestricted authority to choose the location",
+      "No, the conciliator should determine the place after consultation with the parties and having regard to the circumstances",
+      "No, only the court can determine the place",
+      "Yes, but only if the dispute exceeds a prescribed monetary value"
+    ],
+    answer: 1,
+    reason: "Section 69(2) provides that if the parties have not agreed upon the place, the conciliator shall determine it after consultation with the parties and having regard to the circumstances of the proceedings."
+},
+
+{
+    id: "H_171",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A conciliator conducts separate meetings with Party A and Party B instead of conducting every meeting jointly. Party B argues that such separate communication is prohibited. Which is correct?",
+    options: [
+      "Separate communication is expressly permitted under Section 69",
+      "Separate communication is permitted only with court approval",
+      "Separate communication is prohibited in all circumstances",
+      "Separate communication converts conciliation into arbitration"
+    ],
+    answer: 0,
+    reason: "Section 69(1) permits the conciliator to communicate with the parties together or with each of them separately, orally or in writing."
+},
+
+{
+    id: "H_172",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A settlement agreement is negotiated during conciliation but the parties orally agree to its terms and leave without signing a written settlement agreement. Under Section 73, when does the settlement acquire final and binding status contemplated by the section?",
+    options: [
+      "Immediately upon the conciliator orally suggesting the terms",
+      "When one party orally accepts the proposal",
+      "When the parties draw up and sign the written settlement agreement",
+      "When the conciliator privately approves the terms"
+    ],
+    answer: 2,
+    reason: "Section 73(2) provides for a written settlement agreement signed by the parties, and Section 73(3) states that when the parties sign it, it becomes final and binding."
+},
+
+{
+    id: "H_173",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "After both parties sign a settlement agreement, the conciliator refuses to authenticate it and does not provide copies to the parties. Which statutory obligation has not been complied with?",
+    options: [
+      "Section 62",
+      "Section 65",
+      "Section 73(4)",
+      "Section 76"
+    ],
+    answer: 2,
+    reason: "Section 73(4) requires the conciliator to authenticate the settlement agreement and furnish a copy to each party."
+},
+
+{
+    id: "H_174",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A settlement agreement is properly signed by the parties following successful conciliation. One party later argues that it is merely a private contract and has no special statutory status. Which provision provides otherwise?",
+    options: [
+      "Section 66",
+      "Section 69",
+      "Section 74",
+      "Section 76"
+    ],
+    answer: 2,
+    reason: "Section 74 provides that the settlement agreement has the same status and effect as if it were an arbitral award on agreed terms under Section 30."
+},
+
+{
+    id: "H_175",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "The conciliator concludes, after consulting the parties, that further efforts are no longer justified. He wants to terminate the proceedings but does so only through an oral statement. Is this sufficient under Section 76?",
+    options: [
+      "Yes, an oral declaration is always sufficient",
+      "Yes, provided one party agrees",
+      "No, the conciliator must make a written declaration after consultation with the parties",
+      "No, only a court can terminate conciliation"
+    ],
+    answer: 2,
+    reason: "Section 76(b) requires a written declaration by the conciliator, after consultation with the parties, stating that further efforts at conciliation are no longer justified."
+},
+
+{
+    id: "H_176",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Both parties jointly send a written declaration to the conciliator stating that they wish to terminate the conciliation proceedings. When does the termination take effect?",
+    options: [
+      "Thirty days after the declaration",
+      "On the date of the written declaration",
+      "Only after the conciliator approves the declaration",
+      "After the court records the declaration"
+    ],
+    answer: 1,
+    reason: "Under Section 76(c), proceedings terminate on the date of the written declaration made by the parties to the conciliator."
+},
+
+{
+    id: "H_177",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "One party alone sends a written declaration to the other party and the conciliator stating that it wants to terminate the conciliation. The other party objects. What is the effect under Section 76?",
+    options: [
+      "The proceedings necessarily continue because both parties must agree to termination",
+      "The proceedings terminate on the date of the declaration",
+      "The proceedings terminate only after 30 days",
+      "The conciliator must convert the matter into arbitration"
+    ],
+    answer: 1,
+    reason: "Section 76(d) expressly permits termination through a written declaration by one party addressed to the other party and the conciliator, and termination occurs on the date of that declaration."
+},
+
+{
+    id: "H_178",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A dispute falls within a category that another Indian statute expressly prohibits from being submitted to conciliation. The parties nevertheless mutually agree to conciliate. Can Part III of the Arbitration and Conciliation Act, 1996 be applied merely because of their consent?",
+    options: [
+      "Yes, party consent always overrides statutory restrictions",
+      "Yes, provided the conciliator agrees",
+      "No, Section 61(2) excludes disputes that cannot be submitted to conciliation under law",
+      "Yes, provided the settlement is not challenged"
+    ],
+    answer: 2,
+    reason: "Section 61(2) provides that Part III does not apply where any law in force provides that certain disputes may not be submitted to conciliation."
+},
+
+{
+    id: "H_179",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A conciliator requests each party to submit additional documents at a later stage because he considers them necessary for resolving the dispute. One party argues that such a request can be made only immediately after appointment. Which is correct?",
+    options: [
+      "The party is correct because Section 65 permits only one request",
+      "The conciliator may request additional information at any stage under Section 65(3)",
+      "Additional information can be requested only by a court",
+      "Additional information cannot be requested after the first meeting"
+    ],
+    answer: 1,
+    reason: "Section 65(3) empowers the conciliator to request a party to submit additional information at any stage of the conciliation proceedings."
+},
+
+{
+    id: "H_180",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "During a conciliation, the parties sign a settlement agreement on 20 August. The conciliator authenticates it on 22 August. One party argues that the conciliation proceedings terminate only on 22 August because authentication occurred then. Which is correct?",
+    options: [
+      "The party is correct because authentication creates the settlement",
+      "The proceedings terminate on 22 August because the conciliator must authenticate first",
+      "The proceedings terminate on 20 August when the parties sign the settlement agreement",
+      "The proceedings remain pending until a court declares them terminated"
+    ],
+    answer: 2,
+    reason: "Section 76(a) provides that conciliation proceedings terminate by the signing of the settlement agreement by the parties, on the date of the agreement."
+},
+
+{
+    id: "H_181",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "P Ltd. sends Q Ltd. a written invitation to conciliate on 1 August. The invitation does not specify any period for acceptance. Q Ltd. gives no response. On 31 August, P Ltd. decides to treat the silence as rejection. Which statement is correct?",
+    options: [
+      "P Ltd. can treat the silence as rejection only after 60 days",
+      "P Ltd. may treat the silence as rejection after 30 days and must inform Q Ltd. in writing",
+      "P Ltd. must obtain court permission before treating silence as rejection",
+      "Silence can never be treated as rejection under Section 62"
+    ],
+    answer: 1,
+    reason: "Under Section 62(4), where no reply is received within 30 days from the date of invitation, the initiating party may elect to treat the silence as rejection and must inform the other party in writing."
+},
+
+{
+    id: "H_182",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A and B agree to appoint two conciliators. A appoints X and B appoints Y. X proposes a settlement which Y opposes. X argues that since he was appointed first, his proposal should prevail. Which statement is correct?",
+    options: [
+      "X's proposal automatically prevails",
+      "Y's proposal automatically prevails",
+      "Both conciliators ought, as a general rule, to act jointly",
+      "The conciliator appointed first becomes an arbitrator"
+    ],
+    answer: 2,
+    reason: "Section 63(2) provides that where there is more than one conciliator, they ought, as a general rule, to act jointly."
+},
+
+{
+    id: "H_183",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A and B appoint three conciliators. Each party appoints one conciliator, while the third is selected by an arbitration institution without obtaining the parties' agreement. Which is most consistent with Section 64?",
+    options: [
+      "The institution can always appoint the third conciliator without any authority from the parties",
+      "The parties may agree that an institution or person directly make the appointment",
+      "The third conciliator must always be appointed by the court",
+      "The third conciliator must be appointed by the first party"
+    ],
+    answer: 1,
+    reason: "Under Section 64(2), the parties may agree that a suitable institution or person make the appointment of one or more conciliators."
+},
+
+{
+    id: "H_184",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "An institution is asked to recommend a sole conciliator for a dispute between parties of the same nationality. Which consideration is specifically relevant to the institution under Section 64(2)?",
+    options: [
+      "The conciliator must be selected only from the same city",
+      "The institution must select the oldest available conciliator",
+      "The institution should have regard to independence and impartiality and, for a sole conciliator, consider the advisability of a different nationality",
+      "The institution must select a government officer"
+    ],
+    answer: 2,
+    reason: "Section 64(2) requires consideration of independence and impartiality and, regarding a sole or third conciliator, the advisability of appointing a conciliator of a nationality other than the parties."
+},
+
+{
+    id: "H_185",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "The conciliator asks A to submit a brief statement describing the general nature of the dispute and points at issue. A submits the statement but refuses to send a copy to B. What is the correct position?",
+    options: [
+      "A may keep it confidential in every case",
+      "A is required to send a copy of the statement to B",
+      "Only the conciliator may decide whether B receives it",
+      "The statement must be submitted only to the court"
+    ],
+    answer: 1,
+    reason: "Section 65(1) requires each party to send a copy of its brief written statement to the other party."
+},
+
+{
+    id: "H_186",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A party submits additional documents and evidence along with its further written statement. It argues that the documents need not be shared because they were voluntarily submitted. What does Section 65 provide?",
+    options: [
+      "The documents must be kept confidential automatically",
+      "The documents must be sent to the other party",
+      "The documents must be submitted only after court approval",
+      "The conciliator must destroy the documents after inspection"
+    ],
+    answer: 1,
+    reason: "Section 65(2) requires the party to send a copy of the further statement, documents and other evidence to the other party."
+},
+
+{
+    id: "H_187",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A conciliator believes that a particular industry practice is important in determining an acceptable settlement. Which of the following may the conciliator consider under Section 67(2)?",
+    options: [
+      "Only the written contract",
+      "Only previous court judgments",
+      "Rights and obligations, trade usages, circumstances of the dispute and previous business practices",
+      "Only the financial position of the claimant"
+    ],
+    answer: 2,
+    reason: "Section 67(2) requires the conciliator to be guided by objectivity, fairness and justice while considering, among other things, rights and obligations, trade usages, surrounding circumstances and previous business practices."
+},
+
+{
+    id: "H_188",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "During conciliation, one party requests that the conciliator hear oral statements instead of requiring extensive written submissions. The conciliator refuses solely because oral statements are never permitted. Which statement is correct?",
+    options: [
+      "The conciliator must always reject oral statements",
+      "The conciliator may conduct proceedings appropriately while considering the parties' wishes, including a request to hear oral statements",
+      "Oral statements are permitted only in arbitration",
+      "The request can be granted only by a court"
+    ],
+    answer: 1,
+    reason: "Section 67(3) allows the conciliator to conduct proceedings in a manner considered appropriate, taking into account the circumstances and wishes of the parties, including requests to hear oral statements."
+},
+
+{
+    id: "H_189",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "The parties and conciliator agree that administrative support is required for arranging meetings and communications. Who may arrange such assistance under Section 68?",
+    options: [
+      "Only the court",
+      "Only the conciliator without party consent",
+      "The parties, or the conciliator with the consent of the parties",
+      "Only the initiating party"
+    ],
+    answer: 2,
+    reason: "Section 68 permits the parties, or the conciliator with the consent of the parties, to arrange administrative assistance by a suitable institution or person."
+},
+
+{
+    id: "H_190",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A conciliator wishes to meet Party A privately to understand its concerns and later meet Party B separately. Party B argues that all communications must occur jointly. Which provision supports the conciliator?",
+    options: [
+      "Section 62",
+      "Section 65",
+      "Section 69",
+      "Section 76"
+    ],
+    answer: 2,
+    reason: "Section 69(1) expressly permits the conciliator to communicate with the parties together or with each of them separately."
+},
+
+{
+    id: "H_191",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A party gives the conciliator information subject to an express condition that it must remain confidential. The conciliator believes that disclosure would help the other party understand the dispute. Can the conciliator disclose it?",
+    options: [
+      "Yes, because all factual information must be disclosed",
+      "Yes, if disclosure may help settlement",
+      "No, the specific confidentiality condition prevents disclosure to the other party",
+      "Yes, after obtaining permission from the other party"
+    ],
+    answer: 2,
+    reason: "Under the proviso to Section 70, information given to the conciliator subject to a specific condition of confidentiality must not be disclosed to the other party."
+},
+
+{
+    id: "H_192",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A conciliator receives factual information from Party X without a confidentiality condition. Before disclosing its substance to Party Y, the conciliator allows X to withdraw the information. Is this consistent with Section 70?",
+    options: [
+      "Yes, because the conciliator may always withhold factual information",
+      "No, Section 70 generally requires disclosure of the substance to the other party unless confidentiality was specifically imposed",
+      "Yes, because only documents must be disclosed",
+      "No, because all information must be disclosed directly to the court"
+    ],
+    answer: 1,
+    reason: "Section 70 requires the conciliator to disclose the substance of factual information received from one party to the other party, unless the information was supplied subject to a specific confidentiality condition."
+},
+
+{
+    id: "H_193",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "After the conciliator prepares settlement terms, both parties suggest modifications. The conciliator incorporates some suggestions but rejects others. The parties subsequently sign the revised settlement agreement. What is the legal effect?",
+    options: [
+      "The agreement is merely recommendatory",
+      "The agreement is final and binding on the parties and persons claiming under them",
+      "The agreement is binding only if a court approves it",
+      "The agreement has no effect until arbitration begins"
+    ],
+    answer: 1,
+    reason: "Under Section 73(3), once the parties sign the settlement agreement, it becomes final and binding on them and persons claiming under them."
+},
+
+{
+    id: "H_194",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A party argues that a settlement agreement signed under Section 73 has less legal effect than an arbitral award because it was reached through conciliation. Which provision defeats this argument?",
+    options: [
+      "Section 61",
+      "Section 67",
+      "Section 74",
+      "Section 76"
+    ],
+    answer: 2,
+    reason: "Section 74 gives a settlement agreement the same status and effect as an arbitral award on agreed terms under Section 30."
+},
+
+{
+    id: "H_195",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A conciliator issues a written declaration, after consulting the parties, that further efforts at conciliation are no longer justified. The parties disagree with the declaration. When do the proceedings terminate?",
+    options: [
+      "Only when both parties agree",
+      "On the date of the conciliator's written declaration",
+      "Thirty days after the declaration",
+      "Only after a court confirms the declaration"
+    ],
+    answer: 1,
+    reason: "Section 76(b) provides for termination on the date of the conciliator's written declaration after consultation with the parties."
+},
+
+{
+    id: "H_196",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Party A alone sends a written declaration to Party B and the conciliator stating that the conciliation is terminated. Party B refuses to sign the declaration. What is the effect?",
+    options: [
+      "Termination is invalid because B did not sign",
+      "Termination occurs on the date of A's written declaration",
+      "Termination occurs only after 30 days",
+      "The conciliator must continue proceedings indefinitely"
+    ],
+    answer: 1,
+    reason: "Section 76(d) permits a party to terminate the proceedings by a written declaration addressed to the other party and the conciliator, and termination occurs on the date of the declaration."
+},
+
+{
+    id: "H_197",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A dispute arises from a legal relationship that is non-contractual in nature. The parties wish to use conciliation. Which statement is correct regarding Section 61?",
+    options: [
+      "Conciliation is restricted only to contractual disputes",
+      "Part III may apply to disputes arising out of legal relationships whether contractual or not, subject to statutory restrictions",
+      "Conciliation is available only where a written arbitration agreement exists",
+      "Non-contractual disputes must always be resolved through courts"
+    ],
+    answer: 1,
+    reason: "Section 61(1) expressly extends Part III to conciliation of disputes arising out of legal relationships, whether contractual or not, subject to the provisions of law."
+},
+
+{
+    id: "H_198",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A party argues that because the conciliator is not bound by the Code of Civil Procedure or Evidence Act, the conciliator may act in a biased manner. Which is the correct response?",
+    options: [
+      "Correct, because procedural freedom permits bias",
+      "Correct, because conciliation has no legal standards",
+      "Incorrect, because the conciliator must act independently and impartially and be guided by objectivity, fairness and justice",
+      "Incorrect only because the court supervises every conciliation meeting"
+    ],
+    answer: 2,
+    reason: "Section 66 removes the requirement to follow the CPC and Evidence Act, but Section 67 requires the conciliator to act independently and impartially and be guided by objectivity, fairness and justice."
+},
+
+{
+    id: "H_199",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A settlement is signed by the parties, but the conciliator has not yet authenticated it. One party claims that no settlement exists until authentication. Which is the better interpretation of Sections 73 and 76?",
+    options: [
+      "Authentication is what creates the settlement",
+      "The settlement becomes final and binding when signed by the parties; authentication is a subsequent obligation of the conciliator",
+      "The settlement becomes final only after court approval",
+      "The settlement becomes final only after 30 days"
+    ],
+    answer: 1,
+    reason: "Section 73(3) makes the settlement final and binding when the parties sign it. Section 73(4) separately requires the conciliator to authenticate it and furnish copies."
+},
+
+{
+    id: "H_200",
+    difficulty: "Hard",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A party contends that conciliation must follow a fixed procedural code identical to court proceedings because the dispute involves complex commercial evidence. Which statement best reflects the statutory scheme?",
+    options: [
+      "The conciliator must strictly follow the CPC and Evidence Act",
+      "The conciliator has procedural flexibility and is not bound by the CPC or Evidence Act, while remaining subject to impartiality, fairness and natural justice",
+      "The parties must appoint a judge as conciliator",
+      "Conciliation must automatically be converted into arbitration for complex disputes"
+    ],
+    answer: 1,
+    reason: "Sections 66 and 67 together provide procedural flexibility: the conciliator is not bound by the CPC or Evidence Act but must act independently and impartially and follow objectivity, fairness and justice."
+},
+
+{
+    id: "M_201",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Under Section 62, who must initiate the conciliation process by sending a written invitation?",
+    options: [
+      "The conciliator",
+      "The court",
+      "The party initiating conciliation",
+      "Both parties jointly"
+    ],
+    answer: 2,
+    reason: "Under Section 62(1), the party initiating conciliation must send a written invitation to the other party, briefly identifying the subject of the dispute."
+  },
+
+{
+    id: "M_202",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "When do conciliation proceedings commence under Section 62?",
+    options: [
+      "When the written invitation is sent",
+      "When the other party accepts the invitation in writing",
+      "When the conciliator is appointed",
+      "When the first meeting is conducted"
+    ],
+    answer: 1,
+    reason: "Section 62(2) provides that conciliation proceedings commence when the other party accepts the invitation to conciliate in writing."
+  },
+
+{
+    id: "M_203",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A party receives an invitation to conciliate but rejects it in writing. What is the consequence?",
+    options: [
+      "Conciliation proceedings automatically commence",
+      "The court must appoint a conciliator",
+      "There will be no conciliation proceedings",
+      "The conciliator can continue without the party"
+    ],
+    answer: 2,
+    reason: "Under Section 62(3), if the other party rejects the invitation, there will be no conciliation proceedings."
+  },
+
+{
+    id: "M_204",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "If the initiating party receives no reply within 30 days of sending the invitation, what option is available to it?",
+    options: [
+      "It must automatically treat the silence as acceptance",
+      "It may elect to treat the silence as rejection and inform the other party in writing",
+      "It must wait for another 30 days",
+      "It must immediately approach the court"
+    ],
+    answer: 1,
+    reason: "Section 62(4) allows the initiating party to treat the absence of a reply within 30 days as rejection, if it elects to do so, and it must inform the other party in writing."
+  },
+
+{
+    id: "M_205",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "What is the normal number of conciliators under Section 63?",
+    options: [
+      "One",
+      "Two",
+      "Three",
+      "Five"
+    ],
+    answer: 0,
+    reason: "Section 63(1) provides that there shall be one conciliator unless the parties agree that there shall be two or three conciliators."
+  },
+
+{
+    id: "M_206",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Where two conciliators are appointed, who appoints them?",
+    options: [
+      "The court appoints both",
+      "The conciliator appoints the second conciliator",
+      "Each party may appoint one conciliator",
+      "Both must be appointed by an institution"
+    ],
+    answer: 2,
+    reason: "Under Section 64(1)(b), in proceedings with two conciliators, each party may appoint one conciliator."
+  },
+
+{
+    id: "M_207",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Where three conciliators are appointed, who selects the third conciliator?",
+    options: [
+      "The first party alone",
+      "The second party alone",
+      "The court",
+      "The parties may agree on the name of the third conciliator"
+    ],
+    answer: 3,
+    reason: "Under Section 64(1)(c), each party appoints one conciliator and the parties may agree on the name of the third conciliator, who acts as the presiding conciliator."
+  },
+
+{
+    id: "M_208",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "The conciliator may request each party to submit a brief written statement describing:",
+    options: [
+      "Only the amount claimed",
+      "The general nature of the dispute and the points at issue",
+      "Only the names of witnesses",
+      "Only the applicable law"
+    ],
+    answer: 1,
+    reason: "Section 65(1) allows the conciliator to request a brief written statement describing the general nature of the dispute and the points at issue."
+  },
+
+{
+    id: "M_209",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "When a party submits a further written statement and supporting documents under Section 65(2), what must the party generally do?",
+    options: [
+      "Keep them confidential from the other party",
+      "Send copies to the other party",
+      "Send them only to the court",
+      "Send them only to the conciliator's institution"
+    ],
+    answer: 1,
+    reason: "Section 65(2) requires the party to send a copy of the further statement, documents and other evidence to the other party."
+  },
+
+{
+    id: "M_210",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which statement correctly describes the conciliator's position regarding the Code of Civil Procedure, 1908?",
+    options: [
+      "The conciliator is fully bound by it",
+      "The conciliator is not bound by it",
+      "The conciliator is bound only during hearings",
+      "The conciliator can follow it only with court permission"
+    ],
+    answer: 1,
+    reason: "Section 66 expressly provides that the conciliator is not bound by the Code of Civil Procedure, 1908."
+  },
+
+{
+    id: "M_211",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which of the following is a guiding principle for a conciliator under Section 67?",
+    options: [
+      "Adversarial competition",
+      "Objectivity, fairness and justice",
+      "Strict application of criminal procedure",
+      "Preference for one party"
+    ],
+    answer: 1,
+    reason: "Section 67(2) requires the conciliator to be guided by principles of objectivity, fairness and justice."
+  },
+
+{
+    id: "M_212",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "At what stage may a conciliator make proposals for settlement?",
+    options: [
+      "Only at the first meeting",
+      "Only after both parties request it",
+      "At any stage of the conciliation proceedings",
+      "Only after submission of evidence"
+    ],
+    answer: 2,
+    reason: "Section 67(4) permits the conciliator to make proposals for settlement at any stage of the conciliation proceedings."
+  },
+
+{
+    id: "M_213",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Under Section 69, can a conciliator communicate separately with each party?",
+    options: [
+      "No, all communications must be joint",
+      "Yes, the conciliator may communicate with each party separately",
+      "Only with court permission",
+      "Only when three conciliators are appointed"
+    ],
+    answer: 1,
+    reason: "Section 69(1) permits the conciliator to meet or communicate with the parties together or with each of them separately."
+  },
+
+{
+    id: "M_214",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "If the parties have not agreed on the place of conciliation meetings, who determines the place?",
+    options: [
+      "The court",
+      "The initiating party",
+      "The conciliator after consultation with the parties",
+      "The institution that appointed the conciliator"
+    ],
+    answer: 2,
+    reason: "Section 69(2) provides that the conciliator determines the place after consultation with the parties, having regard to the circumstances."
+  },
+
+{
+    id: "M_215",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A conciliator receives factual information from one party without any confidentiality condition. What should the conciliator generally do?",
+    options: [
+      "Keep the information permanently secret",
+      "Disclose the substance of the information to the other party",
+      "Immediately terminate the proceedings",
+      "Use the information to issue a binding award"
+    ],
+    answer: 1,
+    reason: "Under Section 70, the conciliator shall disclose the substance of factual information received from one party to the other party so that the other party may present an explanation."
+  },
+
+{
+    id: "M_216",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "What happens if information is provided to the conciliator subject to a specific condition that it be kept confidential?",
+    options: [
+      "The conciliator must disclose it",
+      "The conciliator may disclose it after 30 days",
+      "The conciliator shall not disclose it to the other party",
+      "The information automatically becomes evidence"
+    ],
+    answer: 2,
+    reason: "The proviso to Section 70 prohibits disclosure where the party has specifically required that the information be kept confidential."
+  },
+
+{
+    id: "M_217",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "When the parties sign a settlement agreement under Section 73, what is its effect?",
+    options: [
+      "It is merely a recommendation",
+      "It is final and binding on the parties and persons claiming under them",
+      "It becomes binding only after a fresh arbitration",
+      "It has no legal effect"
+    ],
+    answer: 1,
+    reason: "Section 73(3) provides that the settlement agreement becomes final and binding when signed by the parties."
+  },
+
+{
+    id: "M_218",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "What status does a settlement agreement have under Section 74?",
+    options: [
+      "Same status and effect as an arbitral award on agreed terms",
+      "Same status as a court summons",
+      "Status of a mere oral understanding",
+      "Status of an interim order only"
+    ],
+    answer: 0,
+    reason: "Section 74 provides that the settlement agreement has the same status and effect as an arbitral award on agreed terms under Section 30."
+  },
+
+{
+    id: "M_219",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which of the following is a valid mode of termination of conciliation proceedings under Section 76?",
+    options: [
+      "Only by court order",
+      "Only by agreement of both parties",
+      "By signing of the settlement agreement by the parties",
+      "Only by resignation of the conciliator"
+    ],
+    answer: 2,
+    reason: "Section 76(a) provides that conciliation proceedings terminate by the signing of the settlement agreement by the parties."
+  },
+
+{
+    id: "M_220",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which provision states that Part III does not apply to disputes that cannot be submitted to conciliation under any law in force?",
+    options: [
+      "Section 61(2)",
+      "Section 62(2)",
+      "Section 67(4)",
+      "Section 76"
+    ],
+    answer: 0,
+    reason: "Section 61(2) specifically excludes disputes which, under any law in force, may not be submitted to conciliation."
+  },
+
+  {
+    id: "M_221",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which of the following best describes the nature of conciliation?",
+    options: [
+      "A compulsory adjudicatory process",
+      "A voluntary and non-adversarial dispute resolution process",
+      "A criminal proceeding before a court",
+      "A process where the conciliator imposes a binding decision"
+    ],
+    answer: 1,
+    reason: "Conciliation is voluntary and non-adversarial. The conciliator assists the parties in reaching a mutually acceptable settlement rather than imposing a decision."
+},
+
+{
+    id: "M_222",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which of the following is NOT a characteristic of conciliation?",
+    options: [
+      "Voluntary participation",
+      "Confidentiality",
+      "Non-adversarial approach",
+      "Compulsory adjudication by the conciliator"
+    ],
+    answer: 3,
+    reason: "Conciliation is voluntary and non-adversarial. The conciliator assists the parties and does not adjudicate the dispute by imposing a binding decision."
+},
+
+{
+    id: "M_223",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A party refuses to participate in conciliation despite the other party's willingness. Can the conciliation proceedings be commenced?",
+    options: [
+      "Yes, because one party's consent is sufficient",
+      "Yes, if the conciliator agrees",
+      "No, because acceptance by the other party is required",
+      "Yes, if the dispute is commercial"
+    ],
+    answer: 2,
+    reason: "Under Section 62, conciliation proceedings commence only when the other party accepts the invitation to conciliate in writing."
+},
+
+{
+    id: "M_224",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A party initiating conciliation sends a written invitation but does not briefly identify the subject of the dispute. Which requirement has not been properly complied with?",
+    options: [
+      "Section 61",
+      "Section 62(1)",
+      "Section 67",
+      "Section 73"
+    ],
+    answer: 1,
+    reason: "Section 62(1) requires the written invitation to conciliate to briefly identify the subject of the dispute."
+},
+
+{
+    id: "M_225",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Where three conciliators are appointed, what is the role of the third conciliator?",
+    options: [
+      "He acts as the presiding conciliator",
+      "He acts as the court-appointed judge",
+      "He automatically becomes an arbitrator",
+      "He represents the initiating party"
+    ],
+    answer: 0,
+    reason: "Under Section 64(1)(c), each party appoints one conciliator and the parties may agree on the third conciliator, who acts as the presiding conciliator."
+},
+
+{
+    id: "M_226",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Can the parties seek assistance from a suitable institution in appointing conciliators?",
+    options: [
+      "No, only courts can assist",
+      "Yes, under Section 64(2)",
+      "Only when there are three conciliators",
+      "Only after conciliation proceedings are terminated"
+    ],
+    answer: 1,
+    reason: "Section 64(2) allows the parties to enlist the assistance of a suitable institution or person in connection with the appointment of conciliators."
+},
+
+{
+    id: "M_227",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "A conciliator asks a party to provide additional information during the middle of the proceedings. Is the conciliator empowered to do so?",
+    options: [
+      "No, information can be requested only immediately after appointment",
+      "Yes, additional information may be requested at any stage",
+      "Only the other party can request it",
+      "Only a court can authorize such a request"
+    ],
+    answer: 1,
+    reason: "Section 65(3) allows the conciliator to request a party to submit additional information at any stage of the conciliation proceedings."
+},
+
+{
+    id: "M_228",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which of the following is the primary role of a conciliator?",
+    options: [
+      "To decide which party is legally correct",
+      "To impose a settlement on the parties",
+      "To assist the parties in reaching an amicable settlement",
+      "To act as an advocate for the weaker party"
+    ],
+    answer: 2,
+    reason: "Section 67(1) provides that the conciliator shall assist the parties independently and impartially in their attempt to reach an amicable settlement."
+},
+
+{
+    id: "M_229",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "Which of the following may be considered by a conciliator while attempting to resolve a dispute?",
+    options: [
+      "Only the monetary claim",
+      "Only statutory provisions",
+      "Rights and obligations, trade usages and circumstances surrounding the dispute",
+      "Only evidence admissible in court"
+    ],
+    answer: 2,
+    reason: "Under Section 67(2), the conciliator considers factors such as the rights and obligations of the parties, trade usages, circumstances of the dispute and previous business practices."
+},
+
+{
+    id: "M_230",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "The conciliator wants to conduct separate meetings with the parties. Which statement is correct?",
+    options: [
+      "Separate meetings are prohibited",
+      "Separate meetings are permitted under Section 69",
+      "Separate meetings require court approval",
+      "Separate meetings are permitted only after settlement"
+    ],
+    answer: 1,
+    reason: "Section 69(1) permits the conciliator to meet or communicate with the parties together or with each party separately."
+},
+
+{
+    id: "M_231",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "If the parties have not agreed upon the place of meetings, the conciliator must determine the place:",
+    options: [
+      "Without consulting anyone",
+      "After consultation with the parties and having regard to the circumstances",
+      "Only according to the residence of the initiating party",
+      "Only according to the residence of the responding party"
+    ],
+    answer: 1,
+    reason: "Section 69(2) provides that the conciliator determines the place after consultation with the parties, taking into account the circumstances of the proceedings."
+},
+
+{
+    id: "M_232",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "What is the general rule regarding information received by a conciliator from one party?",
+    options: [
+      "It must always remain confidential",
+      "Its substance should generally be disclosed to the other party",
+      "It must be disclosed only to the court",
+      "It can never be disclosed"
+    ],
+    answer: 1,
+    reason: "Section 70 requires the conciliator to disclose the substance of factual information received from one party to the other party, unless confidentiality was specifically requested."
+},
+
+{
+    id: "M_233",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "A conciliator receives information from Party A with a specific request that it remain confidential. What is the conciliator's duty?",
+    options: [
+      "Disclose it immediately to Party B",
+      "Disclose it after the next meeting",
+      "Not disclose it to Party B",
+      "Publish it as part of the settlement"
+    ],
+    answer: 2,
+    reason: "The proviso to Section 70 states that information given subject to a specific condition of confidentiality shall not be disclosed to the other party."
+},
+
+{
+    id: "M_234",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "When the conciliator believes that acceptable settlement elements exist, what may he do under Section 73?",
+    options: [
+      "Impose the settlement immediately",
+      "Formulate terms of a possible settlement and submit them to the parties for observations",
+      "Refer the matter to a court automatically",
+      "Issue an arbitral award"
+    ],
+    answer: 1,
+    reason: "Section 73(1) provides that the conciliator may formulate terms of a possible settlement and submit them to the parties for their observations."
+},
+
+{
+    id: "M_235",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "If requested by the parties, who may draw up or assist in drawing up the settlement agreement?",
+    options: [
+      "The court only",
+      "The conciliator",
+      "The opposing party's advocate only",
+      "The police authority"
+    ],
+    answer: 1,
+    reason: "Under Section 73(2), the conciliator may draw up or assist the parties in drawing up the settlement agreement if requested by them."
+},
+
+{
+    id: "M_236",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "When does a settlement agreement become final and binding under Section 73?",
+    options: [
+      "When the conciliator first proposes it",
+      "When one party accepts it",
+      "When the parties sign the settlement agreement",
+      "When the court issues notice"
+    ],
+    answer: 2,
+    reason: "Section 73(3) provides that the settlement agreement becomes final and binding when the parties sign it."
+},
+
+{
+    id: "M_237",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "After the parties sign a settlement agreement, what must the conciliator do?",
+    options: [
+      "Authenticate it and furnish a copy to each party",
+      "Destroy the original",
+      "Refer it to arbitration",
+      "Obtain approval from the police"
+    ],
+    answer: 0,
+    reason: "Section 73(4) requires the conciliator to authenticate the settlement agreement and furnish a copy to each party."
+},
+
+{
+    id: "M_238",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "Which of the following is a valid method of terminating conciliation proceedings?",
+    options: [
+      "Written declaration by a party to the other party and conciliator",
+      "Oral disagreement by a witness",
+      "Automatic termination after the first meeting",
+      "Termination only by a court decree"
+    ],
+    answer: 0,
+    reason: "Section 76(d) provides for termination by a written declaration of a party addressed to the other party and the conciliator, if appointed."
+},
+
+{
+    id: "M_239",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "A conciliator issues a written declaration after consulting the parties that further efforts are no longer justified. On which date are the proceedings terminated?",
+    options: [
+      "The date of the declaration",
+      "Thirty days after the declaration",
+      "The date of the first meeting",
+      "The date when the court approves it"
+    ],
+    answer: 0,
+    reason: "Under Section 76(b), termination occurs on the date of the conciliator's written declaration."
+},
+
+{
+    id: "M_240",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "Which statement correctly distinguishes conciliation from arbitration?",
+    options: [
+      "The conciliator normally imposes a binding decision on the parties",
+      "The conciliator assists the parties in reaching a settlement rather than adjudicating the dispute",
+      "Conciliation is always compulsory",
+      "The conciliator acts as an advocate for both parties"
+    ],
+    answer: 1,
+    reason: "Conciliation is an assisted, non-adversarial process in which the conciliator helps the parties reach an amicable settlement rather than imposing an adjudicatory decision."
+},
+
+{
+    id: "M_241",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Under Section 61, Part III of the Arbitration and Conciliation Act, 1996 generally applies to disputes arising out of:",
+    options: [
+      "Only written contracts",
+      "Only commercial contracts",
+      "Legal relationships, whether contractual or not",
+      "Only disputes referred by courts"
+    ],
+    answer: 2,
+    reason: "Section 61(1) provides that Part III applies to conciliation of disputes arising out of legal relationships, whether contractual or not, subject to applicable law."
+  },
+
+{
+    id: "M_242",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which situation prevents Part III from applying to a particular dispute?",
+    options: [
+      "The dispute is commercial",
+      "The parties are from different cities",
+      "A law in force provides that the dispute cannot be submitted to conciliation",
+      "The dispute involves a large monetary claim"
+    ],
+    answer: 2,
+    reason: "Section 61(2) provides that Part III shall not apply where any law in force provides that certain disputes may not be submitted to conciliation."
+  },
+
+{
+    id: "M_243",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A party sends a written invitation to another party to conciliate but the invitation does not identify the subject of the dispute. Which requirement under Section 62 has not been satisfied?",
+    options: [
+      "The requirement relating to the conciliator's appointment",
+      "The requirement relating to identification of the subject of dispute",
+      "The requirement relating to settlement agreement",
+      "The requirement relating to termination"
+    ],
+    answer: 1,
+    reason: "Section 62(1) requires the written invitation to briefly identify the subject of the dispute."
+  },
+
+{
+    id: "M_244",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "Party A sends an invitation to Party B for conciliation. B accepts the invitation orally but does not give written acceptance. What is the position under Section 62?",
+    options: [
+      "Proceedings commence immediately",
+      "Proceedings commence because oral acceptance is sufficient",
+      "Proceedings commence only when B accepts the invitation in writing",
+      "Proceedings commence after 30 days"
+    ],
+    answer: 2,
+    reason: "Section 62(2) specifically requires acceptance of the invitation in writing for conciliation proceedings to commence."
+  },
+
+{
+    id: "M_245",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "Which statement regarding the number of conciliators is correct?",
+    options: [
+      "There must always be three conciliators",
+      "There shall be one conciliator unless the parties agree to have two or three",
+      "There must always be two conciliators",
+      "The court determines the number in every case"
+    ],
+    answer: 1,
+    reason: "Section 63(1) provides for one conciliator as the normal arrangement, unless the parties agree to two or three conciliators."
+  },
+
+{
+    id: "M_246",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Where more than one conciliator is appointed, how should they generally act?",
+    options: [
+      "Independently and separately in every matter",
+      "Only the presiding conciliator can act",
+      "They ought, as a general rule, to act jointly",
+      "They must act as arbitrators"
+    ],
+    answer: 2,
+    reason: "Section 63(2) provides that where there is more than one conciliator, they ought, as a general rule, to act jointly."
+  },
+
+{
+    id: "M_247",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "In proceedings involving one conciliator, who may agree on the name of the sole conciliator?",
+    options: [
+      "The initiating party alone",
+      "The other party alone",
+      "The parties",
+      "The court alone"
+    ],
+    answer: 2,
+    reason: "Section 64(1)(a) provides that in proceedings with one conciliator, the parties may agree on the name of the sole conciliator."
+  },
+
+{
+    id: "M_248",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "An institution is requested to recommend suitable conciliators. Which consideration should guide the institution?",
+    options: [
+      "The financial strength of the parties",
+      "Independence and impartiality of the conciliator",
+      "The amount of the claim only",
+      "The preference of one party alone"
+    ],
+    answer: 1,
+    reason: "Section 64(2) requires regard to considerations likely to secure the appointment of an independent and impartial conciliator."
+  },
+
+{
+    id: "M_249",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "What may the conciliator request from each party after appointment regarding the dispute?",
+    options: [
+      "A brief written statement describing the general nature of the dispute and points at issue",
+      "A final court judgment",
+      "A criminal complaint",
+      "An arbitral award"
+    ],
+    answer: 0,
+    reason: "Section 65(1) allows the conciliator to request each party to submit a brief written statement describing the general nature of the dispute and points at issue."
+  },
+
+{
+    id: "M_250",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Can the conciliator request additional information from a party after the initial statements have been submitted?",
+    options: [
+      "No, never",
+      "Yes, at any stage of the conciliation proceedings",
+      "Only before the appointment of conciliator",
+      "Only after termination"
+    ],
+    answer: 1,
+    reason: "Section 65(3) permits the conciliator to request additional information from a party at any stage of the conciliation proceedings."
+  },
+
+{
+    id: "M_251",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which statement correctly describes the conciliator's procedural freedom?",
+    options: [
+      "The conciliator must follow the CPC in every matter",
+      "The conciliator must follow the Indian Evidence Act in every matter",
+      "The conciliator is not bound by the CPC or Indian Evidence Act",
+      "The conciliator can ignore all principles of fairness"
+    ],
+    answer: 2,
+    reason: "Section 66 states that the conciliator is not bound by the Code of Civil Procedure, 1908 or the Indian Evidence Act, 1872."
+  },
+
+{
+    id: "M_252",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "While conducting conciliation, the conciliator should act in which manner?",
+    options: [
+      "Independently and impartially",
+      "In favour of the claimant",
+      "In favour of the respondent",
+      "As an advocate for the weaker party"
+    ],
+    answer: 0,
+    reason: "Section 67(1) requires the conciliator to assist the parties in an independent and impartial manner."
+  },
+
+{
+    id: "M_253",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which of the following may influence the manner in which a conciliator conducts proceedings?",
+    options: [
+      "Only the conciliator's personal preference",
+      "The circumstances of the case and wishes expressed by the parties",
+      "Only the amount involved",
+      "Only the provisions of the Evidence Act"
+    ],
+    answer: 1,
+    reason: "Section 67(3) permits the conciliator to conduct proceedings appropriately by considering the circumstances of the case and the wishes of the parties."
+  },
+
+{
+    id: "M_254",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A conciliator wants to make a settlement proposal but does not want to provide reasons for the proposal. Is this permissible?",
+    options: [
+      "No, reasons are always compulsory",
+      "Yes, settlement proposals need not be accompanied by reasons",
+      "Only if the court permits",
+      "Only when three conciliators are appointed"
+    ],
+    answer: 1,
+    reason: "Section 67(4) states that settlement proposals need not be in writing and need not be accompanied by a statement of reasons."
+  },
+
+{
+    id: "M_255",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Who may arrange administrative assistance for conducting conciliation proceedings?",
+    options: [
+      "Only the court",
+      "The parties, or the conciliator with the consent of the parties",
+      "Only the conciliator without consent",
+      "Only the respondent"
+    ],
+    answer: 1,
+    reason: "Section 68 permits the parties, or the conciliator with the consent of the parties, to arrange administrative assistance by a suitable institution or person."
+  },
+
+{
+    id: "M_256",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "The parties have not agreed upon a place for their meetings with the conciliator. What should the conciliator do?",
+    options: [
+      "Select a place without consulting the parties",
+      "Ask the court to select the place",
+      "Determine the place after consultation with the parties",
+      "Terminate the proceedings"
+    ],
+    answer: 2,
+    reason: "Under Section 69(2), where the parties have not agreed upon the place, the conciliator determines it after consultation with the parties."
+  },
+
+{
+    id: "M_257",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A conciliator receives factual information from Party A and wants Party B to have an opportunity to respond. What should the conciliator generally do?",
+    options: [
+      "Disclose the substance of the information to Party B",
+      "Keep all information confidential",
+      "Terminate the proceedings",
+      "Issue a binding order"
+    ],
+    answer: 0,
+    reason: "Section 70 requires disclosure of the substance of factual information to the other party so that it has an opportunity to present an explanation, unless confidentiality was specifically requested."
+  },
+
+{
+    id: "M_258",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    question: "After considering the parties' observations on proposed settlement terms, what may the conciliator do?",
+    options: [
+      "Reformulate the terms of the possible settlement",
+      "Automatically issue an arbitral award",
+      "Dismiss the dispute",
+      "Compel the parties to accept the original terms"
+    ],
+    answer: 0,
+    reason: "Section 73(1) permits the conciliator to reformulate the terms of a possible settlement in light of the parties' observations."
+  },
+
+{
+    id: "M_259",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "If the parties sign a settlement agreement, on whom is the agreement binding?",
+    options: [
+      "Only the conciliator",
+      "Only the initiating party",
+      "The parties and persons claiming under them respectively",
+      "Only the court"
+    ],
+    answer: 2,
+    reason: "Section 73(3) provides that the signed settlement agreement is final and binding on the parties and persons claiming under them respectively."
+  },
+
+{
+    id: "M_260",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which of the following correctly matches the provision with the subject matter?",
+    options: [
+      "Section 62 — Commencement of conciliation proceedings",
+      "Section 67 — Settlement agreement",
+      "Section 73 — Appointment of conciliators",
+      "Section 76 — Submission of statements"
+    ],
+    answer: 0,
+    reason: "Section 62 deals with commencement of conciliation proceedings. Section 67 deals with the role of the conciliator, Section 73 with settlement agreements, and Section 76 with termination."
+  },
+
+  {
+    id: "M_261",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A party sends a written invitation to another party for conciliation. The other party neither accepts nor rejects the invitation within 30 days. What may the initiating party do under Section 62(4)?",
+    options: [
+      "Automatically commence conciliation proceedings",
+      "Treat the silence as acceptance",
+      "Elect to treat the absence of reply as rejection and inform the other party in writing",
+      "Approach the conciliator and obtain a binding settlement"
+    ],
+    answer: 2,
+    reason: "Under Section 62(4), if no reply is received within 30 days or the period specified in the invitation, the initiating party may elect to treat this as rejection and must inform the other party in writing."
+  },
+
+{
+    id: "M_262",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Party A's invitation to Party B specifies that acceptance must be given within 15 days. Party B does not respond within 15 days. Which statement is correct?",
+    options: [
+      "Party B is deemed to have accepted",
+      "Party A may elect to treat the absence of reply as rejection",
+      "Conciliation automatically commences on the 16th day",
+      "Party A must wait for 30 days in every case"
+    ],
+    answer: 1,
+    reason: "Section 62(4) permits the initiating party to treat the absence of a reply within the period specified in the invitation as rejection, if the initiating party so elects."
+  },
+
+{
+    id: "M_263",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Two parties agree to appoint three conciliators. Which arrangement is prescribed under Section 64?",
+    options: [
+      "Each party appoints one and the court appoints the third",
+      "One party appoints all three conciliators",
+      "Each party appoints one conciliator and the parties agree on the third conciliator",
+      "The institution automatically appoints all three"
+    ],
+    answer: 2,
+    reason: "Under Section 64(1)(c), each party appoints one conciliator and the parties may agree on the name of the third conciliator, who acts as the presiding conciliator."
+  },
+
+{
+    id: "M_264",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Where three conciliators are appointed, the third conciliator is generally known as:",
+    options: [
+      "Chief Arbitrator",
+      "Presiding Conciliator",
+      "Judicial Conciliator",
+      "Executive Conciliator"
+    ],
+    answer: 1,
+    reason: "Under Section 64(1)(c), the third conciliator agreed upon by the parties acts as the presiding conciliator."
+  },
+
+{
+    id: "M_265",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A suitable institution is requested to appoint a sole conciliator. Which factor should the institution particularly consider?",
+    options: [
+      "The conciliator's nationality must always be the same as both parties",
+      "The conciliator should be independent and impartial",
+      "The conciliator must be a serving judge",
+      "The conciliator must be appointed by the initiating party"
+    ],
+    answer: 1,
+    reason: "Section 64(2) requires regard to considerations likely to secure the appointment of an independent and impartial conciliator."
+  },
+
+{
+    id: "M_266",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "An institution is appointing a sole conciliator for parties having different nationalities. What does the proviso to Section 64(2) suggest?",
+    options: [
+      "The sole conciliator should always have the nationality of the claimant",
+      "The sole conciliator should always have the nationality of the respondent",
+      "The advisability of appointing a conciliator of a nationality other than those of the parties should be considered",
+      "Nationality of the conciliator can never be considered"
+    ],
+    answer: 2,
+    reason: "For a sole or third conciliator, the institution or person should take into account the advisability of appointing someone of a nationality other than the nationalities of the parties."
+  },
+
+{
+    id: "M_267",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Under Section 65(1), when the conciliator requests a brief written statement from each party, what must each party do with its statement?",
+    options: [
+      "Keep it exclusively with the conciliator",
+      "Send a copy to the other party",
+      "Submit it only to the court",
+      "Publish it publicly"
+    ],
+    answer: 1,
+    reason: "Section 65(1) requires each party to send a copy of its brief written statement to the other party."
+  },
+
+{
+    id: "M_268",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "The conciliator asks Party A to provide further written submissions along with supporting documents. What is Party A required to do?",
+    options: [
+      "Send the documents only to the conciliator",
+      "Send copies of the statement, documents and evidence to Party B",
+      "Submit them only after settlement",
+      "Refuse because additional documents cannot be requested"
+    ],
+    answer: 1,
+    reason: "Under Section 65(2), further written statements, documents and evidence submitted at the conciliator's request must also be copied to the other party."
+  },
+
+{
+    id: "M_269",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which statement best explains the difference between a conciliator and an arbitrator?",
+    options: [
+      "A conciliator generally assists parties in reaching an amicable settlement, whereas an arbitrator adjudicates the dispute",
+      "Both always issue binding decisions",
+      "A conciliator acts as a judge and an arbitrator only facilitates discussions",
+      "Neither has any role in dispute resolution"
+    ],
+    answer: 0,
+    reason: "The conciliator assists parties in reaching an amicable settlement, while an arbitrator decides the dispute and generally renders a binding award."
+  },
+
+{
+    id: "M_270",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "While deciding how to conduct the proceedings, the conciliator may consider which of the following?",
+    options: [
+      "Only the conciliator's personal convenience",
+      "The circumstances of the case, wishes of the parties and need for speedy settlement",
+      "Only the monetary value of the dispute",
+      "Only the documents submitted by the initiating party"
+    ],
+    answer: 1,
+    reason: "Section 67(3) permits the conciliator to conduct proceedings appropriately considering the circumstances, wishes of the parties and the need for speedy settlement."
+  },
+
+{
+    id: "M_271",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A conciliator proposes a settlement orally during a meeting. Is such a proposal permissible?",
+    options: [
+      "No, every settlement proposal must be in writing",
+      "Yes, a settlement proposal need not be in writing",
+      "Only if approved by a court",
+      "Only if there are three conciliators"
+    ],
+    answer: 1,
+    reason: "Section 67(4) provides that proposals for settlement need not be in writing and need not contain reasons."
+  },
+
+{
+    id: "M_272",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "The parties cannot agree on the place where meetings with the conciliator should be held. Who determines the place?",
+    options: [
+      "The initiating party",
+      "The respondent",
+      "The conciliator after consultation with the parties",
+      "The nearest civil court"
+    ],
+    answer: 2,
+    reason: "Section 69(2) provides that where the parties have not agreed on the place, the conciliator determines it after consultation with the parties."
+  },
+
+{
+    id: "M_273",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Can a conciliator communicate separately with each party?",
+    options: [
+      "No, all communications must always be joint",
+      "Yes, the conciliator may communicate with each party separately",
+      "Only with permission of the court",
+      "Only after termination of proceedings"
+    ],
+    answer: 1,
+    reason: "Section 69(1) permits the conciliator to meet or communicate with the parties together or with each of them separately."
+  },
+
+{
+    id: "M_274",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Party A gives factual information to the conciliator without asking that it be kept confidential. What is the general duty of the conciliator under Section 70?",
+    options: [
+      "Never disclose the information",
+      "Disclose the substance of the information to Party B",
+      "Publish the information publicly",
+      "Immediately terminate the proceedings"
+    ],
+    answer: 1,
+    reason: "Section 70 requires the conciliator to disclose the substance of factual information received from one party to the other party, unless it was specifically given subject to confidentiality."
+  },
+
+{
+    id: "M_275",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Party A provides information to the conciliator specifically on the condition that it must remain confidential. What should the conciliator do?",
+    options: [
+      "Disclose it to Party B immediately",
+      "Not disclose it to Party B",
+      "Publish it in the settlement agreement",
+      "Send it to the court"
+    ],
+    answer: 1,
+    reason: "The proviso to Section 70 states that information given subject to a specific condition of confidentiality shall not be disclosed to the other party."
+  },
+
+{
+    id: "M_276",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "The conciliator believes that acceptable settlement terms may exist. What is the next appropriate step under Section 73?",
+    options: [
+      "Immediately impose the settlement on the parties",
+      "Formulate possible settlement terms and submit them to the parties for observations",
+      "Issue a binding arbitral award",
+      "Terminate the proceedings automatically"
+    ],
+    answer: 1,
+    reason: "Section 73(1) requires the conciliator, where appropriate settlement elements exist, to formulate possible settlement terms and submit them to the parties for observations."
+  },
+
+{
+    id: "M_277",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "After receiving observations from the parties on proposed settlement terms, the conciliator may:",
+    options: [
+      "Reformulate the possible settlement terms",
+      "Force the parties to accept the original proposal",
+      "Declare one party successful",
+      "Convert the proceedings into a civil suit"
+    ],
+    answer: 0,
+    reason: "Section 73(1) permits the conciliator to reformulate the terms of a possible settlement in light of the parties' observations."
+  },
+
+{
+    id: "M_278",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "When does a settlement agreement become final and binding under Section 73?",
+    options: [
+      "When the conciliator first proposes the settlement",
+      "When the parties sign the settlement agreement",
+      "When one party orally agrees",
+      "When the court approves every settlement"
+    ],
+    answer: 1,
+    reason: "Under Section 73(3), the settlement agreement becomes final and binding on the parties and persons claiming under them when the parties sign it."
+  },
+
+{
+    id: "M_279",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "What is the legal status and effect of a settlement agreement under Section 74?",
+    options: [
+      "It has no legal effect",
+      "It has the same status and effect as an arbitral award on agreed terms",
+      "It is merely a private oral understanding",
+      "It automatically becomes a court judgment without any statutory basis"
+    ],
+    answer: 1,
+    reason: "Section 74 provides that the settlement agreement has the same status and effect as if it were an arbitral award on agreed terms under Section 30."
+  },
+
+{
+    id: "M_280",
+    difficulty: "Medium",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which of the following correctly describes one method of termination under Section 76?",
+    options: [
+      "Termination can occur only by order of a court",
+      "The conciliator may terminate proceedings through a written declaration after consultation with the parties when further efforts are no longer justified",
+      "The conciliator can terminate proceedings orally without any declaration",
+      "A party can terminate proceedings only after obtaining the other party's written consent"
+    ],
+    answer: 1,
+    reason: "Section 76(b) provides that the conciliator may terminate the proceedings by a written declaration, after consultation with the parties, stating that further efforts at conciliation are no longer justified."
+  },
+
+  {
+    id: "E_81",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which Part of the Arbitration and Conciliation Act, 1996 deals with conciliation?",
+    options: [
+      "Part I",
+      "Part II",
+      "Part III",
+      "Part IV"
+    ],
+    answer: 2,
+    reason: "Part III of the Arbitration and Conciliation Act, 1996 deals with conciliation."
+  },
+
+{
+    id: "E_82",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which section deals with the application and scope of conciliation?",
+    options: [
+      "Section 61",
+      "Section 62",
+      "Section 63",
+      "Section 64"
+    ],
+    answer: 0,
+    reason: "Section 61 deals with the application and scope of conciliation proceedings."
+  },
+
+{
+    id: "E_83",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Conciliation is generally a:",
+    options: [
+      "Voluntary process",
+      "Compulsory process",
+      "Criminal proceeding",
+      "Court trial"
+    ],
+    answer: 0,
+    reason: "Conciliation is voluntary and requires the consent of the parties."
+  },
+
+{
+    id: "E_84",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "What is the main objective of conciliation?",
+    options: [
+      "To punish the defaulting party",
+      "To assist parties in reaching an amicable settlement",
+      "To impose a court judgment",
+      "To conduct a criminal investigation"
+    ],
+    answer: 1,
+    reason: "The main objective of conciliation is to assist the parties in finding a mutually acceptable and amicable solution."
+  },
+
+{
+    id: "E_85",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "The neutral person who assists parties in conciliation is called:",
+    options: [
+      "Judge",
+      "Arbitrator",
+      "Conciliator",
+      "Mediator-General"
+    ],
+    answer: 2,
+    reason: "The neutral third party who assists the parties in reaching a settlement is called a conciliator."
+  },
+
+{
+    id: "E_86",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which of the following is a characteristic of conciliation?",
+    options: [
+      "Adversarial nature",
+      "Confidentiality",
+      "Compulsory participation",
+      "Criminal liability"
+    ],
+    answer: 1,
+    reason: "Confidentiality is one of the important characteristics of conciliation."
+  },
+
+{
+    id: "E_87",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Under Section 62, who must send the written invitation to conciliate?",
+    options: [
+      "The conciliator",
+      "The court",
+      "The party initiating conciliation",
+      "The police authority"
+    ],
+    answer: 2,
+    reason: "The party initiating conciliation must send a written invitation to the other party."
+  },
+
+{
+    id: "E_88",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "The written invitation to conciliate should briefly identify the:",
+    options: [
+      "Judge",
+      "Subject of the dispute",
+      "Assets of the parties",
+      "Court fees"
+    ],
+    answer: 1,
+    reason: "Section 62 requires the written invitation to briefly identify the subject of the dispute."
+  },
+
+{
+    id: "E_89",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "When do conciliation proceedings commence under Section 62?",
+    options: [
+      "When the invitation is sent",
+      "When the conciliator is appointed",
+      "When the other party accepts the invitation in writing",
+      "When the dispute arises"
+    ],
+    answer: 2,
+    reason: "Conciliation proceedings commence when the other party accepts the invitation to conciliate in writing."
+  },
+
+{
+    id: "E_90",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "What happens if the other party rejects the invitation to conciliate?",
+    options: [
+      "Conciliation automatically commences",
+      "There will be no conciliation proceedings",
+      "The court appoints a conciliator",
+      "The conciliator issues an award"
+    ],
+    answer: 1,
+    reason: "If the other party rejects the invitation, conciliation proceedings do not commence."
+  },
+
+{
+    id: "E_91",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "If no reply is received to an invitation to conciliate, the initiating party may generally treat it as rejection after:",
+    options: [
+      "7 days",
+      "15 days",
+      "30 days",
+      "60 days"
+    ],
+    answer: 2,
+    reason: "Under Section 62(4), the initiating party may treat the absence of a reply within 30 days as rejection, subject to the provision."
+  },
+
+{
+    id: "E_92",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Under Section 63, the normal number of conciliators is:",
+    options: [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    answer: 0,
+    reason: "Section 63 provides that there shall be one conciliator unless the parties agree to have two or three."
+  },
+
+{
+    id: "E_93",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "What is the maximum number of conciliators that parties may agree to appoint under Section 63?",
+    options: [
+      "One",
+      "Two",
+      "Three",
+      "Five"
+    ],
+    answer: 2,
+    reason: "The parties may agree to appoint two or three conciliators, making three the maximum under Section 63."
+  },
+
+{
+    id: "E_94",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Where there is more than one conciliator, they should generally act:",
+    options: [
+      "Individually",
+      "Jointly",
+      "Only through the court",
+      "Alternately"
+    ],
+    answer: 1,
+    reason: "Section 63(2) provides that where there is more than one conciliator, they ought, as a general rule, to act jointly."
+  },
+
+{
+    id: "E_95",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "In proceedings with two conciliators, who appoints the conciliators?",
+    options: [
+      "The court appoints both",
+      "Each party appoints one conciliator",
+      "The conciliator appoints another conciliator",
+      "The government appoints both"
+    ],
+    answer: 1,
+    reason: "Under Section 64, where there are two conciliators, each party may appoint one conciliator."
+  },
+
+{
+    id: "E_96",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "In proceedings with three conciliators, the third conciliator acts as the:",
+    options: [
+      "Chief Judge",
+      "Presiding conciliator",
+      "Court-appointed arbitrator",
+      "Registrar"
+    ],
+    answer: 1,
+    reason: "The third conciliator agreed upon by the parties acts as the presiding conciliator."
+  },
+
+{
+    id: "E_97",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "The conciliator may request each party to submit a brief written statement describing the:",
+    options: [
+      "General nature of the dispute and points at issue",
+      "Personal history of the parties",
+      "Court's previous judgments",
+      "Financial statements of every employee"
+    ],
+    answer: 0,
+    reason: "Section 65 allows the conciliator to request a brief written statement describing the general nature of the dispute and points at issue."
+  },
+
+{
+    id: "E_98",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A conciliator may request additional information from a party:",
+    options: [
+      "Only before proceedings begin",
+      "Only after settlement",
+      "At any stage of the conciliation proceedings",
+      "Never"
+    ],
+    answer: 2,
+    reason: "Section 65(3) permits the conciliator to request additional information at any stage of the conciliation proceedings."
+  },
+
+{
+    id: "E_99",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "A conciliator is not bound by which of the following?",
+    options: [
+      "Principles of natural justice",
+      "Code of Civil Procedure, 1908 and Indian Evidence Act, 1872",
+      "Agreement between parties",
+      "Basic fairness"
+    ],
+    answer: 1,
+    reason: "Under Section 66, the conciliator is not bound by the Code of Civil Procedure, 1908 or the Indian Evidence Act, 1872."
+  },
+
+{
+    id: "E_100",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "The conciliator must assist the parties in an:",
+    options: [
+      "Independent and impartial manner",
+      "Adversarial manner",
+      "Punitive manner",
+      "Partisan manner"
+    ],
+    answer: 0,
+    reason: "Section 67 requires the conciliator to assist the parties independently and impartially."
+  },
+
+{
+    id: "E_101",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which principles should guide the conciliator under Section 67?",
+    options: [
+      "Objectivity, fairness and justice",
+      "Punishment, penalty and prosecution",
+      "Competition, secrecy and pressure",
+      "Profit, loss and taxation"
+    ],
+    answer: 0,
+    reason: "The conciliator is guided by the principles of objectivity, fairness and justice."
+  },
+
+{
+    id: "E_102",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Can a conciliator make proposals for settlement during the proceedings?",
+    options: [
+      "Yes, at any stage",
+      "No, never",
+      "Only after a court order",
+      "Only after arbitration begins"
+    ],
+    answer: 0,
+    reason: "Section 67(4) allows the conciliator to make settlement proposals at any stage of the conciliation proceedings."
+  },
+
+{
+    id: "E_103",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Under Section 69, the conciliator may communicate with the parties:",
+    options: [
+      "Only orally",
+      "Only in writing",
+      "Orally or in writing",
+      "Only through the court"
+    ],
+    answer: 2,
+    reason: "The conciliator may communicate with the parties orally or in writing."
+  },
+
+{
+    id: "E_104",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "The conciliator may meet the parties:",
+    options: [
+      "Only together",
+      "Only separately",
+      "Together or separately",
+      "Only in court"
+    ],
+    answer: 2,
+    reason: "Section 69 permits the conciliator to meet or communicate with the parties together or with each separately."
+  },
+
+{
+    id: "E_105",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Who may authenticate the settlement agreement under Section 73?",
+    options: [
+      "The conciliator",
+      "The police officer",
+      "The respondent alone",
+      "Any employee of the parties"
+    ],
+    answer: 0,
+    reason: "The conciliator shall authenticate the settlement agreement and furnish a copy to each party."
+  },
+
+{
+    id: "E_106",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Under Section 74, a settlement agreement has the same status and effect as:",
+    options: [
+      "An ordinary letter",
+      "An arbitral award on agreed terms",
+      "A criminal complaint",
+      "A private notice"
+    ],
+    answer: 1,
+    reason: "Section 74 gives the settlement agreement the same status and effect as an arbitral award on agreed terms under Section 30."
+  },
+
+{
+    id: "E_107",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "When parties sign a settlement agreement, it becomes:",
+    options: [
+      "Final and binding",
+      "Automatically void",
+      "Only a recommendation",
+      "Subject to a new invitation"
+    ],
+    answer: 0,
+    reason: "Under Section 73(3), the signed settlement agreement is final and binding on the parties and persons claiming under them."
+  },
+
+{
+    id: "E_108",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which section deals with termination of conciliation proceedings?",
+    options: [
+      "Section 70",
+      "Section 73",
+      "Section 74",
+      "Section 76"
+    ],
+    answer: 3,
+    reason: "Section 76 provides the circumstances in which conciliation proceedings are terminated."
+  },
+
+{
+    id: "E_109",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Conciliation proceedings terminate when the parties sign the settlement agreement:",
+    options: [
+      "After 30 days",
+      "On the date of the agreement",
+      "After court approval",
+      "At the end of the financial year"
+    ],
+    answer: 1,
+    reason: "Under Section 76(a), proceedings terminate on the date on which the parties sign the settlement agreement."
+  },
+
+{
+    id: "E_110",
+    difficulty: "Easy",
+    subject: "International Business Laws",
+    chapter: "Chapter 4 - Conciliation",
+    question: "Which of the following may terminate conciliation proceedings?",
+    options: [
+      "A written declaration by a party to the other party and the conciliator",
+      "Only an oral statement by a witness",
+      "Only a police complaint",
+      "Only an order of the Supreme Court"
+    ],
+    answer: 0,
+    reason: "Section 76(d) permits termination through a written declaration by a party to the other party and the conciliator, if appointed."
+  },
+
+  /* =========================================================
+     CASE SCENARIO 1
+     ========================================================= */
+
+  {
+    case_id: "CON_CS_01",
+    case_chapter: ["Chapter 4 - Conciliation"],
+    caseText: `
+      <p>
+        <strong>Arjun Traders</strong> and <strong>Bharat Supplies Ltd.</strong> have been
+        doing business with each other for several years. A dispute arose regarding the
+        price of certain goods supplied by Bharat Supplies Ltd. Arjun Traders wanted to
+        resolve the dispute through conciliation.
+      </p>
+      <p>
+        Arjun Traders sent Bharat Supplies Ltd. a written invitation under Part III of the
+        Arbitration and Conciliation Act, 1996, briefly identifying the subject of the dispute.
+        Bharat Supplies Ltd. initially did not respond. The invitation stated that a response
+        should be given within 20 days.
+      </p>
+      <p>
+        Bharat Supplies Ltd. did not respond within 20 days. Arjun Traders decided to treat
+        the absence of a response as rejection and informed Bharat Supplies Ltd. about its
+        decision in writing.
+      </p>
+    `,
+    questions: [
+
+      {
+        question_id: "CON_CS_01_1",
+        difficulty: "Easy",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "What was required to be sent by Arjun Traders for initiating conciliation?",
+        options: [
+          "An oral request",
+          "A written invitation to conciliate",
+          "A court decree",
+          "An arbitral award"
+        ],
+        answer: 1,
+        reason: "Under Section 62(1), the party initiating conciliation must send a written invitation to the other party, briefly identifying the subject of the dispute."
+      },
+
+      {
+        question_id: "CON_CS_01_2",
+        difficulty: "Easy",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "When would the conciliation proceedings actually commence?",
+        options: [
+          "When Arjun Traders sent the invitation",
+          "When the dispute arose",
+          "When Bharat Supplies Ltd. accepted the invitation in writing",
+          "When the conciliator was selected"
+        ],
+        answer: 2,
+        reason: "Section 62(2) provides that conciliation proceedings commence when the other party accepts the invitation to conciliate in writing."
+      },
+
+      {
+        question_id: "CON_CS_01_3",
+        difficulty: "Medium",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "Since the invitation specified a response period of 20 days, what could Arjun Traders do after receiving no reply within that period?",
+        options: [
+          "Treat the absence of reply as automatic acceptance",
+          "Treat the absence of reply as rejection if it elected to do so",
+          "Commence conciliation without Bharat's consent",
+          "Obtain a binding decision from the conciliator"
+        ],
+        answer: 1,
+        reason: "Section 62(4) permits the initiating party to treat the absence of a reply within the period specified in the invitation as rejection, provided it elects to do so."
+      },
+
+      {
+        question_id: "CON_CS_01_4",
+        difficulty: "Medium",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "Was Arjun Traders required to inform Bharat Supplies Ltd. in writing after treating the non-response as rejection?",
+        options: [
+          "Yes",
+          "No",
+          "Only if the conciliator directed it",
+          "Only if the court directed it"
+        ],
+        answer: 0,
+        reason: "Under Section 62(4), if the initiating party elects to treat the absence of a reply as rejection, it must inform the other party accordingly in writing."
+      },
+
+      {
+        question_id: "CON_CS_01_5",
+        difficulty: "Hard",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "Suppose Bharat Supplies Ltd. had verbally stated within the 20-day period that it agreed to conciliation but gave no written acceptance. What would be the correct position?",
+        options: [
+          "Conciliation would automatically commence because verbal acceptance is sufficient",
+          "Conciliation would commence because the invitation itself was written",
+          "Conciliation would not commence merely on verbal acceptance under Section 62(2)",
+          "The court would automatically appoint a conciliator"
+        ],
+        answer: 2,
+        reason: "Section 62(2) specifically provides that conciliation proceedings commence when the other party accepts the invitation in writing. Mere oral acceptance does not satisfy this requirement."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 2
+     ========================================================= */
+
+  {
+    case_id: "CON_CS_02",
+    case_chapter: ["Chapter 4 - Conciliation"],
+    caseText: `
+      <p>
+        <strong>Omega Infrastructure Ltd.</strong> and <strong>Nova Engineering Ltd.</strong>
+        agreed to resolve their commercial dispute through conciliation. They decided to
+        appoint three conciliators because of the technical nature of the dispute.
+      </p>
+      <p>
+        Each party appointed one conciliator. The parties then mutually agreed upon
+        Ms. Kavya as the third conciliator, who was to act as the presiding conciliator.
+        The parties also decided to seek assistance from an arbitration institution for
+        administrative support.
+      </p>
+      <p>
+        During the proceedings, the conciliators jointly considered the dispute. The
+        conciliator also requested the parties to submit written statements explaining the
+        general nature of the dispute and the points at issue.
+      </p>
+    `,
+    questions: [
+
+      {
+        question_id: "CON_CS_02_1",
+        difficulty: "Easy",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "Under Section 63, can the parties agree to have three conciliators?",
+        options: [
+          "Yes",
+          "No",
+          "Only with permission of the Supreme Court",
+          "Only if the dispute is criminal"
+        ],
+        answer: 0,
+        reason: "Section 63 permits the parties to agree to have two or three conciliators instead of the normal arrangement of one conciliator."
+      },
+
+      {
+        question_id: "CON_CS_02_2",
+        difficulty: "Easy",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "Who appoints the third conciliator when three conciliators are appointed?",
+        options: [
+          "The court",
+          "The government",
+          "The parties may agree on the name of the third conciliator",
+          "The first conciliator alone"
+        ],
+        answer: 2,
+        reason: "Under Section 64(1)(c), each party appoints one conciliator and the parties may agree on the name of the third conciliator, who acts as the presiding conciliator."
+      },
+
+      {
+        question_id: "CON_CS_02_3",
+        difficulty: "Medium",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "As a general rule, how should multiple conciliators act?",
+        options: [
+          "Individually and independently",
+          "Jointly",
+          "Only through the court",
+          "Only through the initiating party"
+        ],
+        answer: 1,
+        reason: "Section 63(2) provides that where there is more than one conciliator, they ought, as a general rule, to act jointly."
+      },
+
+      {
+        question_id: "CON_CS_02_4",
+        difficulty: "Medium",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "Can the parties seek assistance from a suitable institution in connection with appointment of conciliators?",
+        options: [
+          "Yes",
+          "No",
+          "Only after termination",
+          "Only where there are exactly two conciliators"
+        ],
+        answer: 0,
+        reason: "Section 64(2) permits parties to enlist the assistance of a suitable institution or person for recommending or directly making appointments of conciliators."
+      },
+
+      {
+        question_id: "CON_CS_02_5",
+        difficulty: "Hard",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "The conciliator asks each party to submit a brief written statement describing the general nature of the dispute and points at issue. Which statement is correct?",
+        options: [
+          "Only the initiating party must submit the statement",
+          "Each party should submit the statement and send a copy to the other party",
+          "The statements must be submitted only to the court",
+          "The conciliator cannot request such statements"
+        ],
+        answer: 1,
+        reason: "Section 65(1) allows the conciliator to request each party to submit a brief written statement. Each party must send a copy of its statement to the other party."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 3
+     ========================================================= */
+
+  {
+    case_id: "CON_CS_03",
+    case_chapter: ["Chapter 4 - Conciliation"],
+    caseText: `
+      <p>
+        <strong>Zenith Motors Ltd.</strong> and <strong>Prime Components Ltd.</strong> were
+        involved in a dispute concerning defective components. The parties agreed to
+        conciliation and appointed Mr. Raj as the conciliator.
+      </p>
+      <p>
+        During the proceedings, Mr. Raj requested both parties to provide information
+        and supporting documents. He also met each party separately to understand
+        their concerns. Prime Components Ltd. gave Mr. Raj certain factual information
+        concerning the dispute and specifically requested that the information be kept
+        confidential.
+      </p>
+      <p>
+        Later, after considering the circumstances and the wishes of the parties, Mr. Raj
+        formulated possible settlement terms and submitted them to the parties for their
+        observations. After some modifications, both parties agreed to the settlement
+        and signed a written settlement agreement.
+      </p>
+    `,
+    questions: [
+
+      {
+        question_id: "CON_CS_03_1",
+        difficulty: "Easy",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "Can the conciliator meet the parties separately?",
+        options: [
+          "Yes",
+          "No",
+          "Only with court permission",
+          "Only after settlement"
+        ],
+        answer: 0,
+        reason: "Section 69(1) permits the conciliator to meet or communicate with the parties together or with each of them separately."
+      },
+
+      {
+        question_id: "CON_CS_03_2",
+        difficulty: "Medium",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "What should Mr. Raj do with information specifically given by Prime Components Ltd. on the condition that it remain confidential?",
+        options: [
+          "Disclose it to Zenith Motors Ltd.",
+          "Publish it with the settlement",
+          "Keep it confidential and not disclose it to Zenith Motors Ltd.",
+          "Submit it to the court"
+        ],
+        answer: 2,
+        reason: "Under the proviso to Section 70, when a party gives information to the conciliator subject to a specific condition that it be kept confidential, the conciliator shall not disclose it to the other party."
+      },
+
+      {
+        question_id: "CON_CS_03_3",
+        difficulty: "Medium",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "Was Mr. Raj permitted to formulate possible settlement terms?",
+        options: [
+          "Yes, under Section 73",
+          "No, conciliators cannot make settlement proposals",
+          "Only the court can formulate settlement terms",
+          "Only an arbitrator can formulate settlement terms"
+        ],
+        answer: 0,
+        reason: "Section 73(1) provides that when the conciliator considers that elements of a settlement may be acceptable, he shall formulate terms of a possible settlement and submit them to the parties for observations."
+      },
+
+      {
+        question_id: "CON_CS_03_4",
+        difficulty: "Hard",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "Suppose the parties had merely orally agreed to the settlement terms but had not signed a settlement agreement. Which is the most appropriate conclusion?",
+        options: [
+          "The settlement is automatically final and binding",
+          "The settlement has the same status as an arbitral award immediately",
+          "The successful conciliation settlement has not yet taken final form under Section 73",
+          "The conciliator can sign on behalf of both parties without authority"
+        ],
+        answer: 2,
+        reason: "Under Section 73, the parties must draw up and sign a written settlement agreement. The settlement becomes final and binding when the parties sign the agreement."
+      },
+
+      {
+        question_id: "CON_CS_03_5",
+        difficulty: "Hard",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "After both Zenith Motors Ltd. and Prime Components Ltd. signed the settlement agreement, what status does it acquire under Section 74?",
+        options: [
+          "It remains merely a recommendation",
+          "It has the same status and effect as an arbitral award on agreed terms",
+          "It becomes void unless separately approved by a civil court",
+          "It can be ignored by either party at any time"
+        ],
+        answer: 1,
+        reason: "Section 74 provides that a settlement agreement has the same status and effect as if it were an arbitral award on agreed terms under Section 30."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 4
+     ========================================================= */
+
+  {
+    case_id: "CON_CS_04",
+    case_chapter: ["Chapter 4 - Conciliation"],
+    caseText: `
+      <p>
+        <strong>Global Textiles Ltd.</strong> and <strong>Metro Garments Ltd.</strong> entered
+        into conciliation proceedings concerning payment disputes. The conciliator
+        attempted several rounds of discussions but concluded that further efforts would
+        not result in a settlement.
+      </p>
+      <p>
+        After consulting the parties, the conciliator made a written declaration stating
+        that further efforts at conciliation were no longer justified. The parties also
+        discussed whether the proceedings could instead be terminated by a written
+        declaration from one of the parties.
+      </p>
+      <p>
+        No settlement agreement had been signed between the parties before the
+        conciliator made the written declaration.
+      </p>
+    `,
+    questions: [
+
+      {
+        question_id: "CON_CS_04_1",
+        difficulty: "Easy",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "Which section deals with termination of conciliation proceedings?",
+        options: [
+          "Section 62",
+          "Section 67",
+          "Section 73",
+          "Section 76"
+        ],
+        answer: 3,
+        reason: "Section 76 of the Arbitration and Conciliation Act, 1996 provides the circumstances in which conciliation proceedings are terminated."
+      },
+
+      {
+        question_id: "CON_CS_04_2",
+        difficulty: "Medium",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "Can the conciliator terminate proceedings by a written declaration after consultation with the parties when further efforts are no longer justified?",
+        options: [
+          "Yes",
+          "No",
+          "Only with approval of the Supreme Court",
+          "Only after signing a settlement agreement"
+        ],
+        answer: 0,
+        reason: "Section 76(b) provides that the conciliator may terminate the proceedings by a written declaration, after consultation with the parties, stating that further efforts at conciliation are no longer justified."
+      },
+
+      {
+        question_id: "CON_CS_04_3",
+        difficulty: "Medium",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "On what date are the proceedings terminated when the conciliator makes such a written declaration?",
+        options: [
+          "Thirty days after the declaration",
+          "On the date of the declaration",
+          "On the date of the original dispute",
+          "At the end of the financial year"
+        ],
+        answer: 1,
+        reason: "Under Section 76(b), termination takes effect on the date of the conciliator's written declaration."
+      },
+
+      {
+        question_id: "CON_CS_04_4",
+        difficulty: "Hard",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "Which of the following is also a valid method of termination under Section 76?",
+        options: [
+          "Written declaration by the parties addressed to the conciliator",
+          "Oral disagreement by a witness",
+          "Automatic termination after 30 days in every case",
+          "Termination only by court order"
+        ],
+        answer: 0,
+        reason: "Section 76(c) provides for termination through a written declaration by the parties addressed to the conciliator."
+      },
+
+      {
+        question_id: "CON_CS_04_5",
+        difficulty: "Hard",
+        chapter_name: ["Chapter 4 - Conciliation"],
+        question: "If one party alone wants to terminate the proceedings, which procedure is specifically recognized under Section 76?",
+        options: [
+          "The party may make a written declaration to the other party and the conciliator, if appointed",
+          "The party must obtain a decree from the civil court",
+          "The party must obtain the conciliator's written consent",
+          "The party can terminate only by refusing to attend one meeting"
+        ],
+        answer: 0,
+        reason: "Section 76(d) permits a party to terminate the proceedings by a written declaration addressed to the other party and the conciliator, if appointed. Termination takes effect on the date of the declaration."
+      }
+
+    ]
+  },
+
+  {
+  case_id: "CON_CS_05",
+  case_chapter: ["Chapter 4 - Conciliation"],
+  caseText: `
+    <p>
+      <strong>Alpha Engineering Limited</strong> and <strong>Beta Industrial Components
+      Private Limited</strong> had entered into a long-term commercial arrangement for
+      the manufacture and supply of specialised machinery components. The relationship
+      between the parties had continued for several years and involved regular purchase
+      orders, technical specifications, quality inspections and payment arrangements.
+      The agreement between the parties did not contain any provision requiring them to
+      approach a court immediately in the event of a commercial dispute. Instead, the
+      parties preferred to explore an amicable method of resolving disagreements so that
+      their long-standing business relationship would not be affected.
+    </p>
+
+    <p>
+      A dispute arose when Alpha Engineering Limited alleged that certain components
+      supplied by Beta Industrial Components Private Limited did not conform to the
+      technical specifications agreed between the parties. Beta Industrial Components
+      denied the allegation and contended that the components had been manufactured
+      according to the specifications supplied by Alpha Engineering Limited. Alpha
+      Engineering further claimed compensation for production losses allegedly suffered
+      because of the defective components, while Beta Industrial Components claimed that
+      the outstanding purchase price should be paid immediately.
+    </p>
+
+    <p>
+      After several unsuccessful commercial discussions, Alpha Engineering Limited
+      decided to initiate conciliation proceedings. It sent a written invitation to Beta
+      Industrial Components Private Limited under Part III of the Arbitration and
+      Conciliation Act, 1996. The invitation briefly identified the subject matter of the
+      dispute and proposed that the parties attempt to resolve their differences through
+      conciliation. Beta Industrial Components accepted the invitation in writing.
+      Accordingly, the conciliation proceedings commenced.
+    </p>
+
+    <p>
+      Considering the technical nature of the dispute, the parties agreed to appoint
+      three conciliators. Alpha Engineering Limited appointed one conciliator and Beta
+      Industrial Components Private Limited appointed another. The parties mutually
+      agreed upon Mr. Rohan Mehta as the third conciliator, who was to act as the
+      presiding conciliator. The parties also agreed that all three conciliators would
+      generally act jointly during the proceedings.
+    </p>
+
+    <p>
+      Shortly after their appointment, the conciliators requested both parties to submit
+      brief written statements explaining the general nature of the dispute and the
+      principal points at issue. Alpha Engineering submitted details regarding the
+      alleged defects, inspection reports and the losses claimed by it. Beta Industrial
+      Components submitted its explanation regarding the manufacturing process,
+      technical specifications and the reasons for rejecting Alpha Engineering's claim.
+      Copies of the statements were exchanged between the parties.
+    </p>
+
+    <p>
+      During the proceedings, the conciliators requested further written statements and
+      supporting documents from both parties. Alpha Engineering produced quality-control
+      reports and correspondence exchanged with Beta Industrial Components. Beta
+      Industrial Components produced manufacturing records and technical documents.
+      The conciliators also requested certain additional information from both parties
+      whenever they considered it necessary for understanding the dispute.
+    </p>
+
+    <p>
+      The conciliators conducted meetings with both parties together on several
+      occasions. They also separately communicated with each party to understand its
+      concerns and possible areas of compromise. Since the parties could not agree on
+      a convenient location for one of the meetings, the conciliators determined the
+      place of the meeting after consulting both parties and considering the
+      circumstances of the proceedings.
+    </p>
+
+    <p>
+      During one of the separate meetings, Beta Industrial Components provided the
+      conciliators with certain factual information relating to an internal quality
+      inspection. Beta specifically stated that this particular information was supplied
+      on the condition that it should be kept confidential and should not be disclosed to
+      Alpha Engineering. The conciliators therefore considered the confidentiality
+      requirement while dealing with that information.
+    </p>
+
+    <p>
+      In another instance, Alpha Engineering provided factual information to the
+      conciliators without imposing any specific condition of confidentiality. The
+      conciliators considered that the substance of this information was relevant to the
+      dispute and should be disclosed to Beta Industrial Components so that Beta could
+      provide an appropriate explanation.
+    </p>
+
+    <p>
+      Throughout the proceedings, the conciliators did not treat the matter as a
+      traditional adversarial contest in which one party had to win and the other had to
+      lose. Instead, they attempted to identify a commercially practical solution that
+      would address the concerns of both parties. They considered the rights and
+      obligations of the parties, the nature of the machinery industry, the business
+      practices followed by the parties in previous transactions and the circumstances
+      surrounding the dispute.
+    </p>
+
+    <p>
+      After several discussions, the conciliators concluded that there were reasonable
+      elements of a possible settlement. The presiding conciliator formulated proposed
+      settlement terms. The proposal contemplated that Beta Industrial Components
+      would replace certain disputed components and provide a limited price adjustment,
+      while Alpha Engineering would withdraw a portion of its compensation claim and
+      pay the undisputed outstanding amount within an agreed period.
+    </p>
+
+    <p>
+      The proposed terms were submitted to both parties for their observations. Alpha
+      Engineering suggested certain modifications relating to the replacement period,
+      while Beta Industrial Components requested changes regarding the payment
+      schedule. After considering these observations, the conciliators reformulated the
+      proposed settlement terms.
+    </p>
+
+    <p>
+      Both parties eventually agreed to the revised terms. They decided to draw up a
+      written settlement agreement. At the request of the parties, the conciliators
+      assisted them in preparing the settlement agreement. The agreement clearly
+      recorded the obligations of Alpha Engineering and Beta Industrial Components and
+      stated that the settlement represented the resolution of the disputes covered by
+      the conciliation proceedings.
+    </p>
+
+    <p>
+      The parties then signed the written settlement agreement. Following the signing,
+      the conciliators authenticated the settlement agreement and furnished a copy to
+      each party. The parties understood that the signed settlement agreement was final
+      and binding and would have the same status and effect as an arbitral award on
+      agreed terms.
+    </p>
+
+    <p>
+      Subsequently, Alpha Engineering attempted to raise a fresh claim concerning a
+      matter that had already been expressly covered and settled under the written
+      settlement agreement. Beta Industrial Components objected, stating that the
+      settlement had already become final and binding once both parties had signed it.
+      The dispute therefore required an examination of the statutory provisions governing
+      the settlement agreement and the termination of conciliation proceedings.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CON_CS_05_1",
+      difficulty: "Easy",
+      chapter_name: ["Chapter 4 - Conciliation"],
+      question: "When did the conciliation proceedings between Alpha Engineering Limited and Beta Industrial Components Private Limited commence?",
+      options: [
+        "When Alpha Engineering sent the written invitation",
+        "When Beta Industrial Components accepted the invitation in writing",
+        "When the first conciliator was appointed",
+        "When the first meeting was held"
+      ],
+      answer: 1,
+      reason: "Under Section 62(2), conciliation proceedings commence when the other party accepts the invitation to conciliate in writing. Therefore, the proceedings commenced when Beta Industrial Components gave its written acceptance."
+    },
+
+    {
+      question_id: "CON_CS_05_2",
+      difficulty: "Medium",
+      chapter_name: ["Chapter 4 - Conciliation"],
+      question: "The parties appointed three conciliators. Which statement correctly describes their appointment?",
+      options: [
+        "Each party appoints one conciliator and the court appoints the third",
+        "One party appoints all three conciliators",
+        "Each party appoints one conciliator and the parties may agree on the third conciliator",
+        "All three conciliators must be appointed by an arbitration institution"
+      ],
+      answer: 2,
+      reason: "Section 64(1)(c) provides that where three conciliators are appointed, each party may appoint one conciliator and the parties may agree on the name of the third conciliator, who acts as the presiding conciliator."
+    },
+
+    {
+      question_id: "CON_CS_05_3",
+      difficulty: "Hard",
+      chapter_name: ["Chapter 4 - Conciliation"],
+      question: "Beta Industrial Components specifically requested that certain information supplied to the conciliators be kept confidential. What should the conciliators do?",
+      options: [
+        "Disclose the information to Alpha Engineering because all information must always be shared",
+        "Disclose the information only after obtaining permission from the court",
+        "Keep the information confidential and not disclose it to Alpha Engineering",
+        "Include the information automatically in the settlement agreement"
+      ],
+      answer: 2,
+      reason: "Under the proviso to Section 70, where a party gives information to the conciliator subject to a specific condition that it be kept confidential, the conciliator shall not disclose that information to the other party."
+    },
+
+    {
+      question_id: "CON_CS_05_4",
+      difficulty: "Hard",
+      chapter_name: ["Chapter 4 - Conciliation"],
+      question: "Alpha Engineering provided factual information without imposing any condition of confidentiality. The conciliators considered the substance relevant to the dispute. What is the appropriate course under Section 70?",
+      options: [
+        "The conciliators must permanently keep the information confidential",
+        "The conciliators should disclose the substance to Beta so that Beta has an opportunity to present an explanation",
+        "The conciliators must immediately terminate the proceedings",
+        "The conciliators must convert the proceedings into arbitration"
+      ],
+      answer: 1,
+      reason: "Section 70 requires the conciliator, when receiving factual information concerning the dispute from one party, to disclose the substance of that information to the other party so that the other party has an opportunity to present an appropriate explanation, unless the information was specifically given subject to confidentiality."
+    },
+
+    {
+      question_id: "CON_CS_05_5",
+      difficulty: "Very Hard",
+      chapter_name: ["Chapter 4 - Conciliation"],
+      question: "After both parties signed the written settlement agreement, Alpha Engineering attempted to reopen a matter expressly covered by that agreement. Which is the most appropriate legal position?",
+      options: [
+        "Alpha Engineering can automatically reopen the settled matter because conciliation settlements are only recommendations",
+        "The settlement becomes final and binding only after approval by a civil court",
+        "The signed settlement agreement is final and binding on the parties and persons claiming under them",
+        "The settlement becomes binding only if the conciliators unanimously issue a separate arbitral award"
+      ],
+      answer: 2,
+      reason: "Section 73(3) provides that when the parties sign the settlement agreement, it becomes final and binding on the parties and persons claiming under them. Section 74 further provides that the settlement agreement has the same status and effect as an arbitral award on agreed terms under Section 30."
+    }
+
+  ]
+},
+{
+  case_id: "CON_CS_06",
+  case_chapter: ["Chapter 4 - Conciliation"],
+  caseText: `
+    <p>
+      <strong>Nova Infrastructure Limited</strong> entered into a contract with
+      <strong>Eastern Electrical Systems Private Limited</strong> for the supply and
+      installation of specialised electrical equipment at a large industrial project.
+      The contract involved several stages of supply, installation, testing and final
+      commissioning. Both parties had maintained a satisfactory commercial relationship
+      for several years and were interested in resolving any disagreement without
+      damaging their future business relationship.
+    </p>
+
+    <p>
+      A dispute arose when Nova Infrastructure alleged that Eastern Electrical Systems
+      had delayed the installation of certain equipment. Nova claimed that the delay had
+      resulted in additional project expenses and sought compensation from Eastern
+      Electrical Systems. Eastern Electrical Systems disputed the claim and contended
+      that the delay was caused by Nova's failure to provide the required site access and
+      technical information within the agreed time.
+    </p>
+
+    <p>
+      After several rounds of commercial negotiations, the parties were unable to reach
+      a mutually acceptable solution. Nova Infrastructure therefore sent a written
+      invitation to Eastern Electrical Systems proposing that the dispute be resolved
+      through conciliation under Part III of the Arbitration and Conciliation Act, 1996.
+      The invitation briefly described the dispute and requested Eastern Electrical
+      Systems to communicate its decision.
+    </p>
+
+    <p>
+      Eastern Electrical Systems initially did not respond to the invitation. The
+      invitation specifically stated that acceptance should be communicated within
+      twenty-five days. Twenty-five days passed without any response. Nova considered
+      whether the absence of a reply could be treated as rejection and decided to send a
+      written communication to Eastern Electrical Systems stating that it was treating
+      the invitation as rejected.
+    </p>
+
+    <p>
+      A few days later, Eastern Electrical Systems contacted Nova and stated that it was
+      now willing to participate in conciliation. Nova agreed to continue discussions.
+      The parties then mutually agreed to appoint a sole conciliator, Ms. Priya Sharma,
+      who had experience in infrastructure and construction disputes.
+    </p>
+
+    <p>
+      After her appointment, the conciliator requested each party to submit a brief
+      written statement explaining the general nature of the dispute and the principal
+      points at issue. Nova and Eastern Electrical Systems submitted their respective
+      statements and exchanged copies with each other. The conciliator subsequently
+      requested further statements from both parties along with documents supporting
+      their respective positions.
+    </p>
+
+    <p>
+      Eastern Electrical Systems submitted project correspondence and internal
+      technical records. Nova submitted site-access records, project schedules and
+      correspondence relating to the alleged delay. The conciliator also requested
+      additional information from Nova concerning certain dates appearing in the project
+      schedule. Nova provided the requested information.
+    </p>
+
+    <p>
+      During the proceedings, the conciliator arranged meetings with the parties
+      together and also held separate discussions with each party. The parties had not
+      agreed upon a specific place for all meetings. After consulting both parties and
+      considering the circumstances of the dispute, the conciliator selected a suitable
+      location for the meetings.
+    </p>
+
+    <p>
+      During a separate discussion, Eastern Electrical Systems informed the conciliator
+      that it was prepared to offer a limited price adjustment if Nova withdrew part of
+      its compensation claim. However, Eastern Electrical Systems specifically requested
+      that the conciliator keep this proposal confidential until it had an opportunity to
+      formally consider its final settlement position.
+    </p>
+
+    <p>
+      The conciliator continued to assist both parties in identifying areas of compromise.
+      She considered the contractual obligations of the parties, the circumstances
+      surrounding the delay, the nature of the infrastructure industry and the previous
+      business practices between Nova and Eastern Electrical Systems.
+    </p>
+
+    <p>
+      After several meetings, the conciliator believed that the parties were close to
+      reaching a settlement. She formulated possible settlement terms and submitted
+      them to both parties for their observations. Nova suggested that the payment
+      adjustment should be made within thirty days, while Eastern Electrical Systems
+      proposed a sixty-day period. After considering these observations, the conciliator
+      reformulated the settlement terms.
+    </p>
+
+    <p>
+      The revised terms were accepted by both parties. They agreed to prepare a written
+      settlement agreement recording the final terms. The conciliator assisted the parties
+      in preparing the document. Both parties signed the settlement agreement.
+    </p>
+
+    <p>
+      After the agreement was signed, the conciliator authenticated it and furnished a
+      copy to each party. Nova subsequently attempted to initiate a fresh claim relating
+      to an amount that had already been expressly dealt with in the settlement
+      agreement. Eastern Electrical Systems objected, arguing that the settlement had
+      become final and binding once it was signed by both parties.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CON_CS_06_1",
+      difficulty: "Medium",
+      chapter_name: ["Chapter 4 - Conciliation"],
+      question: "Nova specified a period of 25 days for acceptance of its invitation. Eastern Electrical Systems did not reply within that period. What could Nova do under Section 62?",
+      options: [
+        "Automatically commence conciliation without Eastern's consent",
+        "Treat the absence of a reply as rejection and inform Eastern in writing",
+        "Approach the court and obtain an order commencing conciliation",
+        "Appoint a conciliator unilaterally and commence proceedings"
+      ],
+      answer: 1,
+      reason: "Section 62(4) allows the initiating party to treat the absence of a reply within the period specified in the invitation as a rejection. If the initiating party elects to do so, it must inform the other party in writing."
+    },
+
+    {
+      question_id: "CON_CS_06_2",
+      difficulty: "Medium",
+      chapter_name: ["Chapter 4 - Conciliation"],
+      question: "After the conciliator was appointed, she requested brief written statements from both parties. Which statement is correct?",
+      options: [
+        "Only Nova was required to submit a statement",
+        "The parties could submit statements only with court permission",
+        "Each party was required to send a copy of its statement to the other party",
+        "The conciliator was prohibited from requesting written statements"
+      ],
+      answer: 2,
+      reason: "Under Section 65(1), the conciliator may request each party to submit a brief written statement describing the general nature of the dispute and points at issue. Each party shall send a copy of such statement to the other party."
+    },
+
+    {
+      question_id: "CON_CS_06_3",
+      difficulty: "Medium",
+      chapter_name: ["Chapter 4 - Conciliation"],
+      question: "The parties had not agreed upon the place for the conciliation meetings. Who could determine the place of meetings?",
+      options: [
+        "Nova alone",
+        "Eastern Electrical Systems alone",
+        "The conciliator, after consultation with the parties",
+        "The civil court having jurisdiction over the dispute"
+      ],
+      answer: 2,
+      reason: "Section 69(2) provides that where the parties have not agreed upon the place of meetings, the conciliator shall determine the place after consultation with the parties and having regard to the circumstances of the conciliation proceedings."
+    },
+
+    {
+      question_id: "CON_CS_06_4",
+      difficulty: "Medium",
+      chapter_name: ["Chapter 4 - Conciliation"],
+      question: "Eastern Electrical Systems gave the conciliator information subject to a specific request that it remain confidential. What should the conciliator do?",
+      options: [
+        "Disclose it immediately to Nova",
+        "Publish it in the settlement record",
+        "Keep the information confidential",
+        "Send it to the court for verification"
+      ],
+      answer: 2,
+      reason: "Under the proviso to Section 70, when a party gives information to the conciliator subject to a specific condition that it be kept confidential, the conciliator shall not disclose that information to the other party."
+    },
+
+    {
+      question_id: "CON_CS_06_5",
+      difficulty: "Medium",
+      chapter_name: ["Chapter 4 - Conciliation"],
+      question: "What is the legal effect of the settlement agreement after Nova and Eastern Electrical Systems signed it?",
+      options: [
+        "It is merely a recommendation of the conciliator",
+        "It becomes final and binding on the parties and persons claiming under them",
+        "It remains provisional until approved by the conciliator",
+        "It becomes enforceable only after a new arbitration agreement is executed"
+      ],
+      answer: 1,
+      reason: "Section 73(3) provides that when the parties sign the settlement agreement, it becomes final and binding on the parties and persons claiming under them. Section 74 gives the settlement agreement the same status and effect as an arbitral award on agreed terms."
+    }
+
+  ]
 }
 
   
