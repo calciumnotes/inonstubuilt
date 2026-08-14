@@ -2224,5 +2224,1015 @@ const AICaseStudies = [
         reason: "Under Section 167(3), where all directors vacate their offices, the promoter or, in his absence, the Central Government shall appoint the required number of directors who hold office until directors are appointed by the company in general meeting."
       }
     ]
+  },
+
+  /* =========================================================
+     HARD CASE SCENARIO 6
+     SECTION 163 + GOVERNMENT COMPANY EXEMPTION
+  ========================================================= */
+
+  {
+    case_id: "seta_AI_cs_006",
+    difficulty: "Hard",
+    caseText: `
+      <p><strong>National Industrial Projects Limited (NIPL)</strong> is a
+      Government company whose entire paid-up share capital is held by the
+      Central Government. The company has 15 directors on its Board. A group of
+      minority institutional shareholders has requested that the Articles of the
+      company contain provisions for appointment of directors through proportional
+      representation so that minority interests can receive representation on the
+      Board.</p>
+
+      <p>The legal department of NIPL examines Section 163 and observes that,
+      ordinarily, the Articles should provide for appointment of not less than
+      two-thirds of the total number of directors through proportional
+      representation. The proposed Articles contemplate appointment of 10
+      directors through proportional representation using the single transferable
+      vote system.</p>
+
+      <p>However, NIPL has not committed any default in filing its financial
+      statements under Section 137 or its annual return under Section 92 with the
+      Registrar. The company therefore claims the exemption applicable to a
+      Government company.</p>
+
+      <p>Separately, NIPL has a wholly-owned subsidiary, <strong>National
+      Infrastructure Services Limited</strong>, whose entire paid-up share capital
+      is held by NIPL. The subsidiary also wishes to know whether Section 163
+      applies to it. The legal adviser is required to determine the position by
+      considering the statutory exemption and the minimum proportion applicable
+      in cases where Section 163 does apply.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "seta_AI_cs_6_42",
+        question: "If Section 163 were applicable to NIPL, what is the minimum number of directors out of 15 whose appointment would have to be provided for by proportional representation?",
+        options: [
+          "5 directors",
+          "8 directors",
+          "10 directors",
+          "12 directors"
+        ],
+        answer: 2,
+        reason: "Section 163 requires the Articles to provide for appointment of not less than two-thirds of the total number of directors through proportional representation. Two-thirds of 15 is 10 directors."
+      },
+
+      {
+        question_id: "seta_AI_cs_6_43",
+        question: "Which of the following is the most appropriate conclusion regarding the applicability of Section 163 to NIPL?",
+        options: [
+          "Section 163 necessarily applies because NIPL is a public company",
+          "Section 163 does not apply because NIPL is a Government company wholly owned by the Central Government and has not committed the specified filing defaults",
+          "Section 163 applies because minority shareholders have demanded proportional representation",
+          "Section 163 applies unless the Articles specifically exclude it"
+        ],
+        answer: 1,
+        reason: "Section 163 does not apply to a Government company in which the entire paid-up share capital is held by the Central Government, State Government(s), or combination of Central and State Governments, subject to the condition that the Government company has not committed the specified filing defaults."
+      },
+
+      {
+        question_id: "seta_AI_cs_6_44",
+        question: "NIPL's subsidiary is wholly owned by NIPL. Assuming NIPL satisfies the conditions of the exemption, which statement is correct regarding the subsidiary?",
+        options: [
+          "The subsidiary is automatically subject to Section 163 because it is not itself a Government company",
+          "The subsidiary may also fall within the exemption where its entire paid-up share capital is held by the qualifying Government company",
+          "The subsidiary is exempt only if it has more than 20 directors",
+          "The subsidiary can claim exemption only with approval of the Registrar"
+        ],
+        answer: 1,
+        reason: "The exemption also extends to a subsidiary of the qualifying Government company where the entire paid-up share capital of the subsidiary is held by that Government company, subject to the prescribed condition regarding filing defaults."
+      },
+
+      {
+        question_id: "seta_AI_cs_6_45",
+        question: "NIPL proposes to use the single transferable vote system for proportional representation. Which statement correctly describes the permitted voting methods under Section 163?",
+        options: [
+          "Only single transferable vote is permitted",
+          "Only cumulative voting is permitted",
+          "Single transferable vote, cumulative voting or another transparent and effective method ensuring fair minority representation may be used",
+          "Only ordinary majority voting may be used"
+        ],
+        answer: 2,
+        reason: "Section 163 permits single transferable vote, cumulative voting, or otherwise another transparent and effective method of voting that ensures fair representation of minority interests."
+      },
+
+      {
+        question_id: "seta_AI_cs_6_46",
+        question: "A director appointed through proportional representation subsequently vacates office. The Articles are silent regarding the casual vacancy. Which procedure is applicable?",
+        options: [
+          "The vacancy must be filled only by proportional representation at the next general meeting",
+          "The Central Government must appoint the replacement",
+          "The Board may fill the vacancy by Board resolution, subject to subsequent regularisation by shareholders at the immediately held general meeting",
+          "The vacancy cannot be filled until the next three-year cycle"
+        ],
+        answer: 2,
+        reason: "Section 163 provides that casual vacancies of such directors are filled in accordance with Section 161(4). Where the Articles contain no provision, the Board may fill the vacancy by Board resolution, subject to regularisation by shareholders at the immediately held general meeting."
+      }
+    ]
+  },
+
+
+  /* =========================================================
+     HARD CASE SCENARIO 7
+     SECTION 164 - MULTIPLE DISQUALIFICATIONS
+  ========================================================= */
+
+  {
+    case_id: "seta_AI_cs_007",
+    difficulty: "Hard",
+    caseText: `
+      <p><strong>Orion Technologies Limited</strong> is evaluating three
+      candidates for appointment as directors.</p>
+
+      <p><strong>Mr. A</strong> was convicted of an offence and sentenced to
+      imprisonment for eight months. His sentence expired three years ago. He has
+      filed an appeal against the conviction, arguing that the conviction should
+      not operate as a disqualification while the appeal is pending.</p>
+
+      <p><strong>Mr. B</strong> was convicted of an offence and sentenced to
+      imprisonment for seven years. He completed his sentence several years ago.
+      He contends that since more than five years have elapsed from the expiry of
+      his sentence, he is now eligible for appointment.</p>
+
+      <p><strong>Mr. C</strong> was a director of another company which failed to
+      file its financial statements and annual returns for a continuous period of
+      three financial years. He was appointed as a director of the defaulting
+      company only one month before the disqualification consequences were being
+      considered. The Board argues that he should immediately suffer the same
+      disqualification as directors who had been associated with the company for
+      the entire period.</p>
+
+      <p>The company also discovers that another proposed director has failed to
+      obtain a DIN and that one candidate has not paid calls on shares held jointly
+      with another shareholder, with more than six months having elapsed from the
+      last date fixed for payment.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "seta_AI_cs_7_47",
+        question: "Mr. A was sentenced to imprisonment for eight months and only three years have elapsed from expiry of his sentence. Is he disqualified despite filing an appeal?",
+        options: [
+          "No, because an appeal automatically removes the disqualification",
+          "Yes, because imprisonment was not less than six months and five years have not elapsed; the specified disqualification continues despite an appeal or petition",
+          "No, because only imprisonment of seven years or more causes disqualification",
+          "Yes, but only if the shareholders pass a resolution"
+        ],
+        answer: 1,
+        reason: "A person convicted and sentenced to imprisonment for not less than six months is disqualified if five years have not elapsed from expiry of the sentence. Under the proviso to Section 164(3), the disqualifications under clauses (d), (e) and (g) continue even where an appeal or petition has been filed."
+      },
+
+      {
+        question_id: "seta_AI_cs_7_48",
+        question: "Mr. B was sentenced to imprisonment for seven years. More than five years have elapsed since completion of his sentence. Can he be appointed as a director?",
+        options: [
+          "Yes, because the five-year period has expired",
+          "Yes, if the Board approves his appointment",
+          "No, because a person sentenced to imprisonment for seven years or more is not eligible to be appointed as a director in any company",
+          "Yes, but only in a private company"
+        ],
+        answer: 2,
+        reason: "Where a person has been convicted and sentenced to imprisonment for seven years or more, he shall not be eligible to be appointed as a director in any company. The general five-year rule does not make him eligible."
+      },
+
+      {
+        question_id: "seta_AI_cs_7_49",
+        question: "Mr. C was appointed as a director of a company that had already committed a Section 164(2) default. For how long from the date of his appointment does the special six-month provision operate?",
+        options: [
+          "Three months",
+          "Six months",
+          "One year",
+          "Five years"
+        ],
+        answer: 1,
+        reason: "Where a person is appointed as a director of a company which has committed a default under Section 164(2), he shall not incur the disqualification for a period of six months from the date of his appointment."
+      },
+
+      {
+        question_id: "seta_AI_cs_7_50",
+        question: "A proposed director has failed to obtain a Director Identification Number. Which provision makes this a disqualification?",
+        options: [
+          "Section 149(6)",
+          "Section 152(3)",
+          "Section 164(1)(h)",
+          "Section 165(6)"
+        ],
+        answer: 2,
+        reason: "Section 164(1)(h) provides disqualification where the person has not complied with Section 152(3), which requires a director to have a DIN."
+      },
+
+      {
+        question_id: "seta_AI_cs_7_51",
+        question: "A person has failed to pay calls on shares held jointly with another person, and six months have elapsed from the last day fixed for payment. Which statement is correct?",
+        options: [
+          "The disqualification does not apply because the shares are jointly held",
+          "The disqualification applies because Section 164(1)(f) covers shares held individually or jointly",
+          "The disqualification applies only if the shares are listed",
+          "The disqualification applies only after one year"
+        ],
+        answer: 1,
+        reason: "Section 164(1)(f) applies where calls in respect of shares held by the person have not been paid and six months have elapsed from the last day fixed for payment. It is immaterial whether the shares are held individually or jointly."
+      }
+    ]
+  },
+
+
+  /* =========================================================
+     HARD CASE SCENARIO 8
+     SECTION 165 - COMPUTATION OF DIRECTORSHIPS
+  ========================================================= */
+
+  {
+    case_id: "seta_AI_cs_008",
+    difficulty: "Hard",
+    caseText: `
+      <p><strong>Mr. Arvind</strong> is currently a director in 19 companies.
+      His portfolio consists of 9 public companies, 8 ordinary private companies,
+      1 private company which is a subsidiary of a public company, and 1 dormant
+      company.</p>
+
+      <p>He has now received an offer to become a director of one additional
+      public company. He argues that his dormant company directorship should not
+      be counted while determining the ceiling of 20 companies. He also argues
+      that because the new company is public, the only question is whether his
+      total public-company directorships exceed 10.</p>
+
+      <p>During the same period, the members of one of the companies in which
+      Arvind is a director have passed a special resolution stating that a director
+      of that company shall not act as a director in more than 12 companies.</p>
+
+      <p>Arvind nevertheless accepts the new appointment. The company later
+      discovers that his appointment may have resulted in contravention of both the
+      overall limit and the public-company limit.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "seta_AI_cs_8_52",
+        question: "For determining the statutory limit of 20 companies, which of Arvind's existing directorships is excluded?",
+        options: [
+          "The directorship in the private subsidiary of a public company",
+          "The directorship in the dormant company",
+          "One of the ordinary private companies",
+          "One of the public companies"
+        ],
+        answer: 1,
+        reason: "Directorship in a dormant company is excluded from the calculation of the maximum limit of 20 companies."
+      },
+
+      {
+        question_id: "seta_AI_cs_8_53",
+        question: "Ignoring the dormant company, how many counted companies is Arvind already a director of?",
+        options: [
+          "18",
+          "19",
+          "20",
+          "21"
+        ],
+        answer: 0,
+        reason: "Arvind has 19 stated directorships, including one dormant company. Since the dormant company is excluded, 18 directorships are counted."
+      },
+
+      {
+        question_id: "seta_AI_cs_8_54",
+        question: "For the purpose of the 10-public-company limit, which of the following must be considered?",
+        options: [
+          "Only the 9 companies legally classified as public companies",
+          "The 9 public companies plus the private company that is a subsidiary of a public company",
+          "Only private companies",
+          "The dormant company and the ordinary private companies"
+        ],
+        answer: 1,
+        reason: "The 10-company public-company limit includes directorships in private companies that are holding or subsidiary companies of a public company."
+      },
+
+      {
+        question_id: "seta_AI_cs_8_55",
+        question: "If Arvind accepts the additional public-company directorship, what is the number of counted public-company directorships for the purpose of the statutory limit?",
+        options: [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        answer: 2,
+        reason: "Arvind already has 9 public companies plus 1 private company that is a subsidiary of a public company, making 10 for the public-company limit. The additional public company takes the total to 11."
+      },
+
+      {
+        question_id: "seta_AI_cs_8_56",
+        question: "What is the effect of the special resolution passed by the members restricting a director to not more than 12 companies?",
+        options: [
+          "It is invalid because only the Central Government can reduce the limit",
+          "It is valid because members may specify a lesser number by special resolution",
+          "It is valid only if approved by the Registrar",
+          "It automatically changes the statutory maximum for every company"
+        ],
+        answer: 1,
+        reason: "Section 165(2) permits members of a company, by special resolution, to specify a lesser number of companies in which a director of that company may act as director."
+      }
+    ]
+  },
+
+
+  /* =========================================================
+     HARD CASE SCENARIO 9
+     INDEPENDENT DIRECTOR - SECTION 149
+  ========================================================= */
+
+  {
+    case_id: "seta_AI_cs_009",
+    difficulty: "Hard",
+    caseText: `
+      <p><strong>Vertex Healthcare Limited</strong> is a listed public company
+      having 11 directors. The Board proposes to appoint Mr. Rohit as an
+      independent director.</p>
+
+      <p>Rohit is not a promoter and is not related to any promoter or director.
+      However, his relative has outstanding indebtedness to the company of
+      ₹48 lakh. The relative has also provided a guarantee in connection with the
+      indebtedness of another person to the company for ₹49 lakh.</p>
+
+      <p>Rohit himself was an employee of the company's associate company two
+      financial years immediately preceding the financial year in which he is
+      proposed to be appointed. He resigned from that employment before the
+      proposed appointment.</p>
+
+      <p>His professional firm had also provided consulting services to the company
+      during the preceding three financial years. The transactions constituted
+      12% of the gross turnover of that professional firm.</p>
+
+      <p>Rohit has together with his relatives 1.8% of the total voting power of the
+      company. The Board nevertheless believes that he satisfies the independence
+      requirements. Rohit is also proposed to be appointed for a three-year term
+      and, after completion, the company proposes another three-year term followed
+      immediately by a fresh appointment in a different capacity.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "seta_AI_cs_9_57",
+        question: "Vertex Healthcare Limited has 11 directors. What is the minimum number of independent directors required?",
+        options: [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        answer: 2,
+        reason: "A listed public company must have at least one-third of its total number of directors as independent directors. One-third of 11 is 3.67, and any fraction is rounded off as one, resulting in 4 independent directors."
+      },
+
+      {
+        question_id: "seta_AI_cs_9_58",
+        question: "Does Rohit's relative being indebted to the company for ₹48 lakh necessarily violate the prescribed ₹50 lakh threshold stated in the case material?",
+        options: [
+          "Yes, because any indebtedness of a relative is prohibited",
+          "No, because the amount is below ₹50 lakh",
+          "Yes, because the threshold is ₹25 lakh",
+          "No, because relatives are completely ignored"
+        ],
+        answer: 1,
+        reason: "The prescribed amount referred to in Rule 5 is ₹50 lakh. Indebtedness exceeding that amount creates the specified restriction. ₹48 lakh is below the stated threshold."
+      },
+
+      {
+        question_id: "seta_AI_cs_9_59",
+        question: "Does Rohit's previous employment with the associate company two financial years immediately preceding the proposed appointment affect his eligibility?",
+        options: [
+          "Yes, because the restriction covers employment in the company, its holding, subsidiary or associate company during any of the three immediately preceding financial years",
+          "No, because only employment with the company itself matters",
+          "No, because the employment ended before appointment",
+          "Yes, but only if he was a promoter"
+        ],
+        answer: 0,
+        reason: "Section 149(6) restricts a person who is or has been an employee of the company or its holding, subsidiary or associate company during any of the three financial years immediately preceding the financial year in which he is proposed to be appointed."
+      },
+
+      {
+        question_id: "seta_AI_cs_9_60",
+        question: "Rohit's professional firm had transactions with the company amounting to 12% of the firm's gross turnover. What is the consequence?",
+        options: [
+          "There is no restriction because the transaction is below 25%",
+          "It may disqualify Rohit because the prescribed threshold for such legal or consulting firm transactions is 10% or more of the firm's gross turnover",
+          "It is permissible because only transactions exceeding 50% are prohibited",
+          "It is permissible if the Board approves the appointment"
+        ],
+        answer: 1,
+        reason: "Section 149(6) restricts a person who has been an employee, proprietor or partner of a legal or consulting firm which has or had transactions with the company or specified group companies amounting to 10% or more of the gross turnover of that firm during the relevant three-year period."
+      },
+
+      {
+        question_id: "seta_AI_cs_9_61",
+        question: "If Rohit completes two consecutive three-year terms as an independent director, can he immediately be appointed by the same company in another capacity?",
+        options: [
+          "Yes, because his total tenure is only six years",
+          "Yes, provided shareholders pass an ordinary resolution",
+          "No, he must observe a cooling period of three years and during that period cannot be appointed or associated with the company in any other capacity, directly or indirectly",
+          "Yes, because the cooling period applies only after two five-year terms"
+        ],
+        answer: 2,
+        reason: "An independent director cannot hold office for more than two consecutive terms. After ceasing to be an independent director, he may be appointed only after a cooling period of three years, and during that period he cannot be appointed or associated with the company in any other capacity, directly or indirectly."
+      }
+    ]
+  },
+
+
+  /* =========================================================
+     HARD CASE SCENARIO 10
+     SECTIONS 150, 166 AND 167
+  ========================================================= */
+
+  {
+    case_id: "seta_AI_cs_010",
+    difficulty: "Hard",
+    caseText: `
+      <p><strong>Summit Renewable Energy Limited</strong> proposes to appoint
+      Ms. Kavya as an independent director. Kavya's name is included in the
+      databank maintained by the Indian Institute of Corporate Affairs. Her
+      inclusion was initially for one year, but she failed to apply for renewal
+      within thirty days from expiry of the period. Consequently, her name was
+      removed from the databank.</p>
+
+      <p>Kavya subsequently applies for restoration and pays the prescribed
+      restoration fee. Her name is placed in the restored category for one year.
+      During this period, she does not pass the online proficiency self-assessment
+      test.</p>
+
+      <p>Separately, one existing independent director of Summit Renewable Energy
+      Limited resigns. The Board postpones filling the vacancy indefinitely,
+      arguing that the company can wait until the next annual general meeting.</p>
+
+      <p>Another director, Mr. Varun, knowingly continues to act as director even
+      after his office has become vacant due to a statutory disqualification.
+      The Board ignores the issue.</p>
+
+      <p>Finally, all directors of a different company in the same group vacate
+      their offices. The company has no functioning Board and no director remains
+      in office. The promoters are available and are considering the appropriate
+      statutory course.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "seta_AI_cs_10_62",
+        question: "What happens when an individual's name is not renewed in the databank within 30 days from expiry of the period for which it was included?",
+        options: [
+          "The name remains permanently active",
+          "The name stands removed from the databank",
+          "The name is automatically converted into lifetime registration",
+          "The Central Government renews it automatically"
+        ],
+        answer: 1,
+        reason: "Under Rule 6, an individual must apply for renewal within 30 days from expiry of the inclusion period. Failing this, the individual's name stands removed from the databank."
+      },
+
+      {
+        question_id: "seta_AI_cs_10_63",
+        question: "After restoration, what must Kavya generally do within the one-year restored category to have her name included in the databank again?",
+        options: [
+          "Obtain approval from the Registrar",
+          "Pass the online proficiency self-assessment test",
+          "Obtain approval from the Central Government",
+          "Serve as a director for one year"
+        ],
+        answer: 1,
+        reason: "After restoration on payment of the prescribed fee, the individual's name is placed in a separate restored category for one year, during which she is required to pass the online proficiency self-assessment test for restoration to the databank."
+      },
+
+      {
+        question_id: "seta_AI_cs_10_64",
+        question: "The independent director of Summit Renewable Energy Limited resigns. By when should the intermittent vacancy generally be filled by the Board?",
+        options: [
+          "Only at the next AGM",
+          "Within six months",
+          "At the earliest but not later than the immediate next Board meeting or three months from the date of vacancy, whichever is later",
+          "Within thirty days in every case"
+        ],
+        answer: 2,
+        reason: "An intermittent vacancy of an independent director is to be filled by the Board at the earliest but not later than the immediate next Board meeting or three months from the date of vacancy, whichever is later."
+      },
+
+      {
+        question_id: "seta_AI_cs_10_65",
+        question: "Mr. Varun knowingly continues to act as a director after his office has become vacant under Section 167(1). What is the maximum fine prescribed under Section 167(2)?",
+        options: [
+          "₹50,000",
+          "₹1,00,000",
+          "₹5,00,000",
+          "₹10,00,000"
+        ],
+        answer: 2,
+        reason: "A person who functions as a director knowing that his office has become vacant under Section 167(1) is punishable with fine of not less than ₹1,00,000, which may extend to ₹5,00,000."
+      },
+
+      {
+        question_id: "seta_AI_cs_10_66",
+        question: "Where all directors of a company have vacated their offices under Section 167(1), who is responsible for appointing the required number of directors until the company appoints directors in general meeting?",
+        options: [
+          "The Registrar alone",
+          "The promoter, or in his absence, the Central Government",
+          "The statutory auditor",
+          "The independent directors of the group company"
+        ],
+        answer: 1,
+        reason: "Section 167(3) provides that where all directors vacate their offices, the promoter or, in his absence, the Central Government shall appoint the required number of directors, who hold office until directors are appointed by the company in general meeting."
+      }
+    ]
+  },
+
+  /* =========================================================
+     MEDIUM CASE SCENARIO 11
+     SECTION 168 - RESIGNATION OF DIRECTOR
+  ========================================================= */
+
+  {
+    case_id: "seta_AI_cs_011",
+    difficulty: "Medium",
+    caseText: `
+      <p><strong>Alpha Manufacturing Limited</strong> has five directors on its
+      Board. Mr. Raj, one of the directors, decides to resign from office.
+      He sends a written resignation notice to the company on 10th August,
+      stating that his resignation shall take effect from 20th August.</p>
+
+      <p>The company actually receives the resignation notice on 12th August.
+      The Board takes note of the resignation on 14th August.</p>
+
+      <p>Raj is concerned about the statutory filings and asks the Company
+      Secretary whether the company is required to intimate the Registrar about
+      his resignation. He also wants to know whether he remains responsible for
+      offences committed by the company during the period in which he was a
+      director.</p>
+
+      <p>Separately, another director, Mr. David, who is a foreign national,
+      resigns from the company. The company has already filed Form DIR-12 with
+      the Registrar. David is unable to personally complete the filing
+      requirements in India.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "seta_AI_cs_11_67",
+        question: "From which date will Raj's resignation take effect?",
+        options: [
+          "10th August",
+          "12th August",
+          "14th August",
+          "20th August"
+        ],
+        answer: 3,
+        reason: "A director's resignation takes effect from the date on which the notice is received by the company or from the date specified by the director in the notice, whichever is later. Here, receipt is on 12th August and the specified date is 20th August. Therefore, resignation takes effect from 20th August."
+      },
+
+      {
+        question_id: "seta_AI_cs_11_68",
+        question: "By when should Alpha Manufacturing Limited intimate the Registrar about Raj's resignation?",
+        options: [
+          "Within 7 days from the resignation",
+          "Within 15 days from the resignation",
+          "Within 30 days from receipt of the resignation notice",
+          "Within 60 days from the resignation"
+        ],
+        answer: 2,
+        reason: "The company is required to intimate the Registrar regarding the resignation of a director within 30 days of receipt of the notice of resignation, through Form DIR-12."
+      },
+
+      {
+        question_id: "seta_AI_cs_11_69",
+        question: "Does Raj cease to be liable for offences committed by the company during his tenure merely because he has resigned?",
+        options: [
+          "Yes, resignation completely removes his liability",
+          "Yes, once the Board takes note of the resignation",
+          "No, he remains liable for offences which occurred during his tenure",
+          "No, but only for offences committed after resignation"
+        ],
+        answer: 2,
+        reason: "Section 168 specifically provides that a director who has resigned shall remain liable for offences which occurred during his tenure."
+      },
+
+      {
+        question_id: "seta_AI_cs_11_70",
+        question: "David, the foreign director, may authorise which of the following persons to sign and file Form DIR-11 on his behalf, where the company has already filed Form DIR-12?",
+        options: [
+          "Only the Registrar",
+          "A practising CA, practising Cost Accountant, practising Company Secretary or another resident director of the company",
+          "Only the Managing Director",
+          "Any shareholder of the company"
+        ],
+        answer: 1,
+        reason: "In the specified situation, a foreign director may authorise in writing a practising Chartered Accountant, Cost Accountant in practice, Company Secretary in practice or any other resident director of the company to sign and file Form DIR-11 on his behalf."
+      },
+
+      {
+        question_id: "seta_AI_cs_11_71",
+        question: "If all directors of Alpha Manufacturing Limited resign simultaneously, who shall appoint the required number of directors until directors are appointed by the company in general meeting?",
+        options: [
+          "The Registrar of Companies",
+          "The statutory auditor",
+          "The promoter, or in his absence, the Central Government",
+          "The outgoing directors"
+        ],
+        answer: 2,
+        reason: "Where all directors resign or vacate their offices, the promoter, or in his absence the Central Government, shall appoint the required number of directors until directors are appointed by the company in general meeting."
+      }
+    ]
+  },
+
+
+  /* =========================================================
+     MEDIUM CASE SCENARIO 12
+     SECTION 169 - REMOVAL OF DIRECTOR
+  ========================================================= */
+
+  {
+    case_id: "seta_AI_cs_012",
+    difficulty: "Medium",
+    caseText: `
+      <p><strong>Bright Star Limited</strong> has nine directors. The shareholders
+      propose to remove Mr. Karan, a director appointed in the general meeting,
+      before completion of his term.</p>
+
+      <p>A group of members holding 1.5% of the total voting power submits a
+      special notice proposing the removal. The company sends a copy of the
+      notice to Karan. Karan submits a written representation explaining why he
+      should not be removed and requests that the representation be circulated
+      to the members.</p>
+
+      <p>The company has sufficient time before sending the meeting notice.
+      However, the Board proposes not to circulate Karan's representation,
+      arguing that shareholders should decide the matter without being influenced
+      by his explanation.</p>
+
+      <p>At the same time, the company is considering removal of Ms. Priya, an
+      independent director who has been re-appointed for her second consecutive
+      term.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "seta_AI_cs_12_72",
+        question: "Is the special notice submitted by members holding 1.5% of total voting power sufficient for proposing removal of Karan?",
+        options: [
+          "No, members must hold at least 5% voting power",
+          "Yes, because members holding not less than 1% of total voting power can give special notice",
+          "No, members must hold at least 10% voting power",
+          "Yes, but only if all members consent"
+        ],
+        answer: 1,
+        reason: "Special notice under Section 115 may be given by members holding not less than 1% of the total voting power or holding shares on which an aggregate sum of at least ₹5 lakh has been paid."
+      },
+
+      {
+        question_id: "seta_AI_cs_12_73",
+        question: "Karan has submitted a written representation and requested circulation to members. The company has sufficient time. What should the company generally do?",
+        options: [
+          "Ignore the representation",
+          "Circulate the representation to members along with the notice",
+          "Send it only to the Registrar",
+          "Send it only to the Board members"
+        ],
+        answer: 1,
+        reason: "Where the director makes a written representation and requests its notification to members, and time permits, the company shall state the fact of the representation in the notice and send the representation to every member to whom the meeting notice is sent."
+      },
+
+      {
+        question_id: "seta_AI_cs_12_74",
+        question: "Which resolution is ordinarily required for removal of Karan, assuming he is not covered by an exception under Section 169?",
+        options: [
+          "Board resolution",
+          "Ordinary resolution",
+          "Special resolution in every case",
+          "Resolution of the Tribunal"
+        ],
+        answer: 1,
+        reason: "A company may remove a director before expiry of his term by passing an ordinary resolution, subject to the exceptions and procedural requirements under Section 169."
+      },
+
+      {
+        question_id: "seta_AI_cs_12_75",
+        question: "Priya is an independent director re-appointed for her second term. What type of resolution is required for her removal?",
+        options: [
+          "Board resolution",
+          "Ordinary resolution",
+          "Special resolution",
+          "No resolution is required"
+        ],
+        answer: 2,
+        reason: "An independent director re-appointed for a second term under Section 149(10) can be removed only by passing a special resolution."
+      },
+
+      {
+        question_id: "seta_AI_cs_12_76",
+        question: "If Karan is removed and the vacancy is filled at the same meeting, what condition applies regarding the proposed replacement?",
+        options: [
+          "No prior notice is required",
+          "Special notice of the proposed appointment must have been given",
+          "Only Board approval is required",
+          "The Registrar must nominate the replacement"
+        ],
+        answer: 1,
+        reason: "Where the vacancy resulting from removal is filled at the same meeting, the appointment of another director can be made provided special notice of the proposed appointment has been given."
+      }
+    ]
+  },
+
+
+  /* =========================================================
+     MEDIUM CASE SCENARIO 13
+     SECTION 169 - PROPORTIONAL REPRESENTATION + TRIBUNAL
+  ========================================================= */
+
+  {
+    case_id: "seta_AI_cs_013",
+    difficulty: "Medium",
+    caseText: `
+      <p><strong>Unity Infrastructure Limited</strong> has twelve directors.
+      Eight of them were appointed according to the principle of proportional
+      representation under Section 163, while four directors were appointed
+      through the ordinary procedure.</p>
+
+      <p>A group of shareholders wants to remove three directors. Two of the
+      proposed directors for removal were appointed through proportional
+      representation, while one was appointed through the ordinary procedure.</p>
+
+      <p>The shareholders also initiate proceedings before the Tribunal under
+      Section 241 alleging oppression and mismanagement and seek removal of
+      another director.</p>
+
+      <p>The director who is the subject of the Tribunal proceedings argues that
+      even if the Tribunal removes him, he should be entitled to compensation
+      for the premature termination of his office and should be free to become
+      a director in another company immediately.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "seta_AI_cs_13_77",
+        question: "How many of Unity Infrastructure Limited's directors were appointed through proportional representation?",
+        options: [
+          "4",
+          "6",
+          "8",
+          "10"
+        ],
+        answer: 2,
+        reason: "The case specifically states that 8 of the 12 directors were appointed according to proportional representation."
+      },
+
+      {
+        question_id: "seta_AI_cs_13_78",
+        question: "Which of the following directors can ordinarily be removed by shareholders under Section 169?",
+        options: [
+          "All eight proportional representation directors",
+          "Only the four directors not appointed through proportional representation",
+          "Only directors appointed for less than three years",
+          "None of the directors"
+        ],
+        answer: 1,
+        reason: "Where two-thirds or more of the total number of directors are appointed according to proportional representation, such directors cannot be removed under Section 169. Here, 8 out of 12 equals two-thirds, so the four directors not appointed through proportional representation can ordinarily be removed."
+      },
+
+      {
+        question_id: "seta_AI_cs_13_79",
+        question: "Can the Tribunal remove a director under Section 242 where an application has been made under Section 241 for prevention of oppression and mismanagement?",
+        options: [
+          "No, only shareholders can remove directors",
+          "Yes, the Tribunal has such power",
+          "Only the Registrar can remove the director",
+          "Only the auditor can recommend removal"
+        ],
+        answer: 1,
+        reason: "Under Section 242, the Tribunal may remove a director where an application has been made under Section 241 for prevention of oppression and mismanagement."
+      },
+
+      {
+        question_id: "seta_AI_cs_13_80",
+        question: "If the Tribunal removes the director, is he entitled to compensation for loss of office under Section 243?",
+        options: [
+          "Yes, automatically",
+          "Yes, if he has completed more than half his term",
+          "No, he shall not be entitled to claim compensation for loss of office",
+          "Yes, but only from the Tribunal"
+        ],
+        answer: 2,
+        reason: "Section 243 provides that a director removed pursuant to an order of the Tribunal shall not be entitled to claim compensation for loss of office."
+      },
+
+      {
+        question_id: "seta_AI_cs_13_81",
+        question: "For how long is a director removed by the Tribunal generally restricted from being offered appointment as a director without leave of the Tribunal?",
+        options: [
+          "One year",
+          "Three years",
+          "Five years",
+          "Ten years"
+        ],
+        answer: 2,
+        reason: "A director removed by an order of the Tribunal shall not be appointed or offered appointment as a director for five years from the date of the Tribunal's order without first obtaining the leave of the Tribunal."
+      }
+    ]
+  },
+
+
+  /* =========================================================
+     MEDIUM CASE SCENARIO 14
+     SECTION 170 + SECTION 171
+     ========================================================= */
+
+  {
+    case_id: "seta_AI_cs_014",
+    difficulty: "Medium",
+    caseText: `
+      <p><strong>Greenfield Industries Limited</strong> maintains a register
+      containing particulars of its directors and key managerial personnel at
+      its registered office.</p>
+
+      <p>Mr. Arjun, a shareholder of the company, wants to inspect the register
+      during business hours. He also requests copies of certain entries. The
+      company refuses to provide the copies, stating that only the Registrar is
+      entitled to inspect the register.</p>
+
+      <p>Arjun submits a written request for copies. Thirty-five days pass and
+      the company has still not provided the copies.</p>
+
+      <p>Separately, Greenfield appoints a new director. The Company Secretary
+      plans to file Form DIR-12 six weeks after the appointment because the
+      company is busy preparing for its annual general meeting.</p>
+
+      <p>The compliance officer is asked to determine the statutory position.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "seta_AI_cs_14_82",
+        question: "Can a member inspect the register of directors and KMP during business hours?",
+        options: [
+          "No, only directors can inspect it",
+          "No, only the Registrar can inspect it",
+          "Yes, members have a right to inspect it during business hours",
+          "Yes, but only with Tribunal permission"
+        ],
+        answer: 2,
+        reason: "Section 171 gives members the right to inspect the register of directors and key managerial personnel during business hours."
+      },
+
+      {
+        question_id: "seta_AI_cs_14_83",
+        question: "Within what period should copies requested by a member generally be provided?",
+        options: [
+          "7 days",
+          "15 days",
+          "30 days",
+          "60 days"
+        ],
+        answer: 2,
+        reason: "Copies/extracts requested by members are to be provided within 30 days from the date of the request, free of cost."
+      },
+
+      {
+        question_id: "seta_AI_cs_14_84",
+        question: "Since the company has failed to provide the requested copies within 30 days, what remedy is available to Arjun?",
+        options: [
+          "He can apply to the Registrar, who may order immediate inspection and supply of copies",
+          "He can only approach the statutory auditor",
+          "He has no remedy",
+          "He must wait until the next AGM"
+        ],
+        answer: 0,
+        reason: "Where inspection is refused or copies are not supplied within 30 days, the Registrar may, on an application, order immediate inspection and supply of copies."
+      },
+
+      {
+        question_id: "seta_AI_cs_14_85",
+        question: "Within what period should Greenfield file Form DIR-12 regarding the appointment of the new director?",
+        options: [
+          "Within 7 days",
+          "Within 15 days",
+          "Within 30 days",
+          "Within 90 days"
+        ],
+        answer: 2,
+        reason: "Under Section 170(2) read with Rule 18, Form DIR-12 is required to be filed with the Registrar within 30 days from the appointment of a director or KMP."
+      },
+
+      {
+        question_id: "seta_AI_cs_14_86",
+        question: "Which of the following is included among the prescribed particulars relating to a director in the register?",
+        options: [
+          "Only the director's name",
+          "Only the director's DIN",
+          "Date of appointment, date of cessation and reasons for cessation, among other prescribed particulars",
+          "Only the director's remuneration"
+        ],
+        answer: 2,
+        reason: "The register contains several prescribed particulars, including DIN, name, address, date of appointment/reappointment, date of cessation and reasons for cessation, offices held elsewhere and other specified details."
+      }
+    ]
+  },
+
+
+  /* =========================================================
+     MEDIUM CASE SCENARIO 15
+     SECTION 172 + MIXED PROVISIONS
+  ========================================================= */
+
+  {
+    case_id: "seta_AI_cs_015",
+    difficulty: "Medium",
+    caseText: `
+      <p><strong>Nova Consumer Products Limited</strong> has recently undergone
+      several changes in its Board. One director resigned, another director was
+      appointed, and certain statutory particulars relating to directors and
+      key managerial personnel were not updated within the prescribed period.</p>
+
+      <p>The company also failed to comply with a requirement under Chapter XI
+      of the Companies Act, 2013 for which no specific penalty or punishment is
+      provided in that particular provision.</p>
+
+      <p>The Registrar issues a notice to the company and the officers in default.
+      The company argues that the violation should not attract a continuing
+      penalty because the original contravention occurred only once.</p>
+
+      <p>The compliance officer explains that Section 172 provides a general
+      punishment for contraventions of Sections 149 to 171 where no specific
+      penalty or punishment is prescribed.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "seta_AI_cs_15_87",
+        question: "Section 172 applies generally to contraventions of which range of provisions?",
+        options: [
+          "Sections 1 to 50",
+          "Sections 100 to 120",
+          "Sections 149 to 171",
+          "Sections 200 to 250"
+        ],
+        answer: 2,
+        reason: "Section 172 provides punishment for contravention of provisions contained in Chapter XI, namely Sections 149 to 171, where no specific penalty or punishment is provided."
+      },
+
+      {
+        question_id: "seta_AI_cs_15_88",
+        question: "What is the initial penalty prescribed under Section 172 for the company and every officer in default?",
+        options: [
+          "₹10,000",
+          "₹25,000",
+          "₹50,000",
+          "₹1,00,000"
+        ],
+        answer: 2,
+        reason: "The company and every officer of the company who is in default are liable to a penalty of ₹50,000 where Section 172 applies."
+      },
+
+      {
+        question_id: "seta_AI_cs_15_89",
+        question: "If the default continues, what further penalty is prescribed for each day during which the failure continues?",
+        options: [
+          "₹100 per day",
+          "₹500 per day",
+          "₹1,000 per day",
+          "₹5,000 per day"
+        ],
+        answer: 1,
+        reason: "In case of continuing failure, Section 172 provides a further penalty of ₹500 for each day during which the failure continues."
+      },
+
+      {
+        question_id: "seta_AI_cs_15_90",
+        question: "What is the maximum aggregate penalty that may be imposed on the company under Section 172?",
+        options: [
+          "₹1 lakh",
+          "₹2 lakh",
+          "₹3 lakh",
+          "₹5 lakh"
+        ],
+        answer: 2,
+        reason: "The maximum penalty under Section 172 is ₹3 lakh in the case of the company."
+      },
+
+      {
+        question_id: "seta_AI_cs_15_91",
+        question: "What is the maximum aggregate penalty that may be imposed on an officer in default under Section 172?",
+        options: [
+          "₹50,000",
+          "₹1 lakh",
+          "₹2 lakh",
+          "₹3 lakh"
+        ],
+        answer: 1,
+        reason: "For an officer in default, the maximum aggregate penalty under Section 172 is ₹1 lakh."
+      }
+    ]
   }
 ];
