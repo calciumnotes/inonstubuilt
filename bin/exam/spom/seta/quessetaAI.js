@@ -3234,5 +3234,6529 @@ const AICaseStudies = [
         reason: "For an officer in default, the maximum aggregate penalty under Section 172 is ₹1 lakh."
       }
     ]
-  }
+  },
+
+  // Chapter 2
+
+  /* =========================================================
+     CASE SCENARIO 1
+     TOPIC: APPOINTMENT OF MD / WTD / MANAGER - SECTION 196
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS01",
+    case_chapter: [
+      "Appointment of Managing Director",
+      "Whole-time Director",
+      "Manager",
+      "Section 196"
+    ],
+
+    caseText: `
+      <p>
+        Bright Star Limited is a public company engaged in the manufacturing
+        business. The Board of Directors proposes to appoint Mr. Arjun as its
+        Managing Director. Mr. Arjun is already a director of the company and
+        possesses substantial experience in managing business affairs.
+      </p>
+
+      <p>
+        The company proposes to appoint him for a period of six years. The Board
+        also proposes that Mr. Arjun may be re-appointed immediately after the
+        expiry of his first term without waiting for any prescribed period.
+      </p>
+
+      <p>
+        The Board seeks advice regarding the maximum permissible tenure and the
+        timing of re-appointment of a Managing Director under the Companies Act,
+        2013.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS01_Q01",
+        question: "What is the maximum period for which a Managing Director can be appointed at one time?",
+        options: [
+          "3 years",
+          "5 years",
+          "7 years",
+          "10 years"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS01_Q02",
+        question: "Can Bright Star Limited appoint Mr. Arjun as Managing Director for six years at one time?",
+        options: [
+          "Yes, because he is a director",
+          "Yes, if approved by the Board",
+          "No, the term cannot exceed five years at a time",
+          "Yes, if approved by the Central Government"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS01_Q03",
+        question: "Under Section 196, re-appointment of a Managing Director cannot be made earlier than:",
+        options: [
+          "Six months before expiry of the term",
+          "One year before expiry of the term",
+          "Two years before expiry of the term",
+          "Three years before expiry of the term"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS01_Q04",
+        question: "A Managing Director must first be:",
+        options: [
+          "A shareholder of the company",
+          "An employee of another company",
+          "A director of the company",
+          "A member of the Nomination and Remuneration Committee"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS01_Q05",
+        question: "Which statement is correct regarding appointment of a Managing Director and Manager at the same time?",
+        options: [
+          "Both can always be appointed together",
+          "Both can be appointed only with Central Government approval",
+          "A company cannot appoint a Managing Director and Manager at the same time",
+          "Both can be appointed if approved by the Board"
+        ],
+        answer: 2
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 2
+     TOPIC: AGE ELIGIBILITY OF MD / WTD / MANAGER
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS02",
+    case_chapter: [
+      "Section 196",
+      "Age Eligibility",
+      "Managing Director",
+      "Whole-time Director",
+      "Manager"
+    ],
+
+    caseText: `
+      <p>
+        Sunrise Industries Limited wants to appoint managerial personnel for
+        strengthening its management team. The company considers three
+        candidates.
+      </p>
+
+      <p>
+        Mr. Ravi is 25 years old, Mr. Mohan is 68 years old and Mr. Suresh is
+        72 years old. The Board is considering appointing one of them as
+        Managing Director.
+      </p>
+
+      <p>
+        The Board understands that the Companies Act, 2013 prescribes age-related
+        conditions for appointment of a Managing Director, Whole-time Director
+        or Manager. The Board wants to know whether a person who has attained
+        70 years can still be appointed.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS02_Q01",
+        question: "What is the minimum age prescribed for appointment as Managing Director, Whole-time Director or Manager?",
+        options: [
+          "18 years",
+          "21 years",
+          "25 years",
+          "30 years"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS02_Q02",
+        question: "What is the normal maximum age for appointment as Managing Director, Whole-time Director or Manager?",
+        options: [
+          "65 years",
+          "68 years",
+          "70 years",
+          "75 years"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS02_Q03",
+        question: "Can a person who has attained 70 years be appointed as Managing Director?",
+        options: [
+          "Never",
+          "Yes, subject to passing a special resolution",
+          "Yes, automatically by Board resolution",
+          "Only if he is a shareholder"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS02_Q04",
+        question: "Where a person above 70 years is proposed to be appointed through a special resolution, the explanatory statement should indicate:",
+        options: [
+          "His family details",
+          "His educational marks",
+          "The justification for appointing such person",
+          "His bank account details"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS02_Q05",
+        question: "Which of the following candidates satisfies the normal age requirement without requiring the special resolution applicable to persons above 70 years?",
+        options: [
+          "Mr. Suresh aged 72 years",
+          "Mr. Ravi aged 25 years",
+          "A person aged 75 years",
+          "A person aged 80 years"
+        ],
+        answer: 1
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 3
+     TOPIC: KEY MANAGERIAL PERSONNEL - SECTION 203
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS03",
+    case_chapter: [
+      "Key Managerial Personnel",
+      "Section 203",
+      "Whole-time KMP",
+      "Company Secretary",
+      "Chief Financial Officer"
+    ],
+
+    caseText: `
+      <p>
+        Apex Technologies Limited is a listed company having substantial
+        operations in India. The company is reviewing its organisational
+        structure and the appointment of Key Managerial Personnel (KMP).
+      </p>
+
+      <p>
+        The company currently has a Managing Director but has not appointed a
+        whole-time Company Secretary or Chief Financial Officer. The Board is
+        also considering appointing a person as CFO who is already serving as a
+        whole-time KMP in another company.
+      </p>
+
+      <p>
+        The Board wants to understand the basic requirements relating to
+        whole-time KMP under Section 203 of the Companies Act, 2013.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS03_Q01",
+        question: "Which of the following is a Key Managerial Personnel?",
+        options: [
+          "Office attendant",
+          "Chief Financial Officer",
+          "Security guard",
+          "Sales executive"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS03_Q02",
+        question: "Which company is required to have whole-time KMP under Rule 8?",
+        options: [
+          "Every small private company",
+          "Every listed company",
+          "Every partnership firm",
+          "Every sole proprietorship"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS03_Q03",
+        question: "Every other public company having paid-up share capital of ₹10 crore or more is required to have:",
+        options: [
+          "Only an auditor",
+          "Whole-time KMP",
+          "Only an independent director",
+          "Only a legal advisor"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS03_Q04",
+        question: "Who appoints whole-time KMP under Section 203?",
+        options: [
+          "Only the shareholders",
+          "Only the Central Government",
+          "The Board of Directors by resolution",
+          "The statutory auditor"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS03_Q05",
+        question: "As a general rule, a whole-time KMP shall not hold office in more than one company at the same time except:",
+        options: [
+          "Any unrelated company",
+          "Its subsidiary company",
+          "Any partnership firm",
+          "Any foreign company"
+        ],
+        answer: 1
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 4
+     TOPIC: MAXIMUM MANAGERIAL REMUNERATION - SECTION 197
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS04",
+    case_chapter: [
+      "Section 197",
+      "Maximum Managerial Remuneration",
+      "Net Profits",
+      "Managing Director",
+      "Whole-time Director"
+    ],
+
+    caseText: `
+      <p>
+        Greenfield Limited is a public company having sufficient profits during
+        the financial year. The company has one Managing Director and one
+        Whole-time Director. The Board is considering the remuneration payable
+        to its managerial personnel.
+      </p>
+
+      <p>
+        The company also has directors who are neither Managing Directors nor
+        Whole-time Directors. The Board wants to ensure that the proposed
+        remuneration remains within the limits prescribed under Section 197 of
+        the Companies Act, 2013.
+      </p>
+
+      <p>
+        The Board is also considering whether the overall limit can be exceeded
+        by obtaining approval from the shareholders.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS04_Q01",
+        question: "What is the overall maximum managerial remuneration payable by a public company to its directors, including MD, WTD and Manager?",
+        options: [
+          "5% of net profits",
+          "10% of net profits",
+          "11% of net profits",
+          "15% of net profits"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS04_Q02",
+        question: "Where there is more than one Managing Director/Whole-time Director/Manager, the remuneration payable to all such persons taken together is normally limited to:",
+        options: [
+          "5% of net profits",
+          "10% of net profits",
+          "11% of net profits",
+          "3% of net profits"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS04_Q03",
+        question: "Where there is one Managing Director, Whole-time Director or Manager, the normal maximum remuneration payable to such person is:",
+        options: [
+          "1% of net profits",
+          "3% of net profits",
+          "5% of net profits",
+          "10% of net profits"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS04_Q04",
+        question: "Where a company has a Managing Director, the normal maximum remuneration payable to directors who are neither MD nor WTD is:",
+        options: [
+          "1% of net profits",
+          "3% of net profits",
+          "5% of net profits",
+          "10% of net profits"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS04_Q05",
+        question: "The overall 11% limit can be exceeded with:",
+        options: [
+          "Approval of the statutory auditor",
+          "Approval of the Central Government in every case",
+          "Approval of the company in general meeting by special resolution",
+          "Approval of the Company Secretary"
+        ],
+        answer: 2
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 5
+     TOPIC: SECRETARIAL AUDIT - SECTION 204
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS05",
+    case_chapter: [
+      "Secretarial Audit",
+      "Section 204",
+      "Section 205",
+      "Company Secretary in Practice",
+      "MR-3"
+    ],
+
+    caseText: `
+      <p>
+        National Manufacturing Limited is a public company. Its paid-up share
+        capital is ₹55 crore, annual turnover is ₹220 crore and its outstanding
+        loans and borrowings from banks and public financial institutions are
+        ₹80 crore.
+      </p>
+
+      <p>
+        The Board wants to determine whether the company is required to conduct
+        a secretarial audit under Section 204 of the Companies Act, 2013.
+      </p>
+
+      <p>
+        The company also wants to know who is authorised to conduct the
+        secretarial audit, the form in which the report is prepared and the
+        manner in which the report is dealt with in the Board's Report.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS05_Q01",
+        question: "Which of the following companies is mandatorily required to conduct secretarial audit?",
+        options: [
+          "Every sole proprietorship",
+          "Every listed company",
+          "Every partnership firm",
+          "Every small private company"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS05_Q02",
+        question: "A public company having paid-up share capital of ₹50 crore or more is covered under the prescribed class for secretarial audit.",
+        options: [
+          "True",
+          "False",
+          "Only if turnover exceeds ₹500 crore",
+          "Only if it is a private company"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS05_Q03",
+        question: "In the given case, National Manufacturing Limited has paid-up share capital of ₹55 crore. Therefore, it is:",
+        options: [
+          "Required to conduct secretarial audit",
+          "Not required to conduct secretarial audit",
+          "Required only if shareholders approve",
+          "Required only if turnover exceeds ₹1,000 crore"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS05_Q04",
+        question: "Who is authorised to give the Secretarial Audit Report?",
+        options: [
+          "Statutory auditor",
+          "Company Secretary in practice",
+          "Chief Financial Officer",
+          "Managing Director"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS05_Q05",
+        question: "The Secretarial Audit Report is prepared in:",
+        options: [
+          "Form MR-1",
+          "Form MR-2",
+          "Form MR-3",
+          "Form DIR-12"
+        ],
+        answer: 2
+      }
+
+    ]
+  },
+
+  /* =========================================================
+     CASE SCENARIO 6
+     TOPIC: FUNCTIONS OF COMPANY SECRETARY - SECTION 205
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS06",
+    case_chapter: [
+      "Functions of Company Secretary",
+      "Section 205",
+      "Secretarial Standards",
+      "Corporate Governance"
+    ],
+
+    caseText: `
+      <p>
+        Horizon Limited has recently appointed Ms. Neha as its Company Secretary.
+        The Board wants her to assist the company in complying with the Companies
+        Act, 2013 and other applicable laws.
+      </p>
+
+      <p>
+        The Board also expects Ms. Neha to guide the directors regarding their
+        duties, responsibilities and powers. She is also asked to facilitate
+        Board and general meetings, attend the meetings and maintain their
+        minutes.
+      </p>
+
+      <p>
+        Ms. Neha informs the Board that ensuring compliance with applicable
+        secretarial standards and assisting the Board in maintaining good
+        corporate governance are also among her functions.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS06_Q01",
+        question: "Under Section 205, the Company Secretary is required to report to the Board about compliance with:",
+        options: [
+          "Only tax laws",
+          "Only labour laws",
+          "The Companies Act, rules and other applicable laws",
+          "Only securities laws"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS06_Q02",
+        question: "The Company Secretary should provide guidance to directors regarding their:",
+        options: [
+          "Personal investments only",
+          "Duties, responsibilities and powers",
+          "Personal tax returns",
+          "Family businesses"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS06_Q03",
+        question: "Which of the following is a function of the Company Secretary?",
+        options: [
+          "Conducting statutory audit",
+          "Maintaining minutes of meetings",
+          "Determining income tax rates",
+          "Appointing all employees"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS06_Q04",
+        question: "The Company Secretary assists the Board in ensuring:",
+        options: [
+          "Good corporate governance",
+          "Higher share prices",
+          "Minimum taxation in every case",
+          "Personal benefits to directors"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS06_Q05",
+        question: "Which of the following Secretarial Standards has been approved by the Central Government?",
+        options: [
+          "SS-1 and SS-2",
+          "SS-3 and SS-4",
+          "SS-5 and SS-6",
+          "SS-7 and SS-8"
+        ],
+        answer: 0
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 7
+     TOPIC: SITTING FEES AND MODE OF REMUNERATION
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS07",
+    case_chapter: [
+      "Section 197",
+      "Sitting Fees",
+      "Mode of Remuneration",
+      "Rule 4"
+    ],
+
+    caseText: `
+      <p>
+        Sunrise Healthcare Limited is a public company. Its Board of Directors
+        is considering the remuneration payable to its directors. Apart from
+        their regular remuneration, the directors are paid sitting fees for
+        attending meetings of the Board and its committees.
+      </p>
+
+      <p>
+        The Board proposes to fix the sitting fee at ₹80,000 for every Board
+        meeting. The company also has independent directors and women directors.
+      </p>
+
+      <p>
+        The Board is also considering whether managerial remuneration can be
+        paid through a monthly payment, as a percentage of net profits, or by
+        combining both methods.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS07_Q01",
+        question: "What is the maximum sitting fee prescribed per meeting of the Board or committee thereof?",
+        options: [
+          "₹25,000",
+          "₹50,000",
+          "₹1,00,000",
+          "₹2,00,000"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS07_Q02",
+        question: "The proposed sitting fee of ₹80,000 per meeting is:",
+        options: [
+          "Within the prescribed limit",
+          "Above the prescribed limit",
+          "Valid only with Central Government approval",
+          "Valid only with Tribunal approval"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS07_Q03",
+        question: "The sitting fee payable to an Independent Director shall:",
+        options: [
+          "Always be zero",
+          "Be less than that payable to other directors",
+          "Not be less than that payable to other directors",
+          "Be fixed only by the Central Government"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS07_Q04",
+        question: "Remuneration to a director or manager may be paid:",
+        options: [
+          "Only as monthly payment",
+          "Only as a percentage of net profits",
+          "Only through stock options",
+          "By monthly payment, percentage of net profits, or partly by both"
+        ],
+        answer: 3
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS07_Q05",
+        question: "The percentages specified under Section 197(1) are:",
+        options: [
+          "Inclusive of sitting fees",
+          "Exclusive of sitting fees",
+          "Applicable only to sitting fees",
+          "Applicable only to independent directors"
+        ],
+        answer: 1
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 8
+     TOPIC: RECOVERY OF EXCESS REMUNERATION - SECTION 197
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS08",
+    case_chapter: [
+      "Section 197",
+      "Excess Remuneration",
+      "Refund of Remuneration",
+      "Waiver"
+    ],
+
+    caseText: `
+      <p>
+        Zenith Limited discovered that its Managing Director, Mr. Karan, had
+        received remuneration in excess of the limit prescribed under Section
+        197. The excess amount received by Mr. Karan is ₹8 lakh.
+      </p>
+
+      <p>
+        The company asks Mr. Karan to refund the excess amount. Mr. Karan wants
+        to know the period within which the excess remuneration has to be
+        refunded and whether he can simply retain the amount until the matter
+        is resolved.
+      </p>
+
+      <p>
+        The Board also wants to know whether the company can waive the recovery
+        of the excess remuneration.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS08_Q01",
+        question: "Where a director receives excess remuneration under Section 197, he is required to:",
+        options: [
+          "Retain the amount permanently",
+          "Refund the excess amount to the company",
+          "Pay the amount to the Central Government",
+          "Transfer the amount to shareholders"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS08_Q02",
+        question: "The excess remuneration should generally be refunded within:",
+        options: [
+          "Six months",
+          "One year",
+          "Two years",
+          "Five years"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS08_Q03",
+        question: "Until the excess remuneration is refunded, the director shall hold the amount:",
+        options: [
+          "As his personal property",
+          "In trust for the company",
+          "On behalf of the shareholders personally",
+          "With the statutory auditor"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS08_Q04",
+        question: "Can the company waive recovery of excess remuneration?",
+        options: [
+          "Never under any circumstances",
+          "Yes, through a special resolution subject to the prescribed conditions",
+          "Yes, automatically by Board resolution",
+          "Only through an NCLT order"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS08_Q05",
+        question: "The special resolution for waiver of recovery should generally be passed within:",
+        options: [
+          "Three months from payment",
+          "One year from payment",
+          "Two years from the date the sum becomes refundable",
+          "Five years from payment"
+        ],
+        answer: 2
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 9
+     TOPIC: INSURANCE PREMIUM AND HOLDING/SUBSIDIARY
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS09",
+    case_chapter: [
+      "Section 197",
+      "Insurance Premium",
+      "Indemnification",
+      "Holding Company",
+      "Subsidiary Company"
+    ],
+
+    caseText: `
+      <p>
+        Reliable Industries Limited has taken an insurance policy for its
+        Managing Director, Mr. Amit, to indemnify him against liability arising
+        from negligence, default, misfeasance, breach of duty or breach of trust
+        in relation to the company.
+      </p>
+
+      <p>
+        The company also has a subsidiary company from which Mr. Amit receives
+        commission in addition to the remuneration received from Reliable
+        Industries Limited.
+      </p>
+
+      <p>
+        The Board wants to determine whether the insurance premium will always
+        form part of Mr. Amit's remuneration and whether receipt of commission
+        from the subsidiary company is prohibited.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS09_Q01",
+        question: "If a company takes insurance for its MD against specified liabilities, the premium is generally:",
+        options: [
+          "Always treated as remuneration",
+          "Not treated as remuneration",
+          "Always treated as dividend",
+          "Always treated as sitting fees"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS09_Q02",
+        question: "If the managerial personnel is proved guilty in relation to the liability covered by such insurance, the premium paid shall be:",
+        options: [
+          "Ignored completely",
+          "Treated as part of remuneration",
+          "Treated as share capital",
+          "Refunded to shareholders"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS09_Q03",
+        question: "A Managing Director may receive remuneration or commission from a holding or subsidiary company subject to:",
+        options: [
+          "Section 197",
+          "Section 123 only",
+          "Section 92 only",
+          "Section 135 only"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS09_Q04",
+        question: "Receipt of commission by the MD from a holding or subsidiary company is:",
+        options: [
+          "Absolutely prohibited",
+          "Permitted subject to the provisions of Section 197",
+          "Permitted without any conditions",
+          "Permitted only if he resigns as MD"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS09_Q05",
+        question: "The fact of receiving such remuneration or commission from the holding or subsidiary company must be disclosed in:",
+        options: [
+          "The Board's Report",
+          "The attendance register",
+          "The share certificate",
+          "The prospectus in every case"
+        ],
+        answer: 0
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 10
+     TOPIC: COMPENSATION FOR LOSS OF OFFICE - SECTION 202
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS10",
+    case_chapter: [
+      "Section 202",
+      "Compensation for Loss of Office",
+      "Managing Director",
+      "Whole-time Director",
+      "Manager"
+    ],
+
+    caseText: `
+      <p>
+        Metro Engineering Limited has a Managing Director, Mr. Raj, whose term
+        of office is five years. Due to certain circumstances, the company is
+        considering termination of his office before the expiry of his term.
+      </p>
+
+      <p>
+        Mr. Raj claims compensation for loss of office. The company examines
+        the provisions of Section 202 relating to the maximum amount of
+        compensation and the circumstances in which compensation cannot be
+        paid.
+      </p>
+
+      <p>
+        Mr. Raj has not been found guilty of fraud, breach of trust, gross
+        negligence or gross mismanagement. The remaining period of his term is
+        two years.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS10_Q01",
+        question: "Compensation for loss of office under Section 202 may be paid to:",
+        options: [
+          "Any shareholder",
+          "Any employee",
+          "Managing Director, Whole-time Director or Manager",
+          "Only an independent director"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS10_Q02",
+        question: "The maximum compensation is generally limited to remuneration for:",
+        options: [
+          "One year or remaining term, whichever is longer",
+          "Three years or remaining term, whichever is shorter",
+          "Five years in every case",
+          "Ten years in every case"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS10_Q03",
+        question: "If the remaining term of Mr. Raj is two years, the maximum period for calculating compensation would generally be:",
+        options: [
+          "One year",
+          "Two years",
+          "Three years",
+          "Five years"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS10_Q04",
+        question: "Compensation cannot be paid where the director has been guilty of:",
+        options: [
+          "Good performance",
+          "Fraud or breach of trust",
+          "Completing his term",
+          "Attending Board meetings"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS10_Q05",
+        question: "Compensation under Section 202 is calculated based on the average remuneration earned during:",
+        options: [
+          "The immediately preceding three years",
+          "The immediately preceding ten years",
+          "Only the last month",
+          "Only the first year of appointment"
+        ],
+        answer: 0
+      }
+
+    ]
+  },
+
+
+
+  /* =========================================================
+     CASE SCENARIO 11
+     TOPIC: CALCULATION OF PROFITS - SECTION 198
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS11",
+    case_chapter: [
+      "Section 198",
+      "Calculation of Profits",
+      "Managerial Remuneration"
+    ],
+
+    caseText: `
+      <p>
+        Bright Industries Limited is calculating its net profits for determining
+        the managerial remuneration payable under Section 197 of the Companies
+        Act, 2013. The company has earned a subsidy from the Government during
+        the financial year.
+      </p>
+
+      <p>
+        The company has also recorded certain profits arising from the sale of
+        its fixed assets. The management wants to determine which amounts should
+        be considered while calculating profits under Section 198.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS11_Q01",
+        question: "For calculating net profits under Section 198, credit shall be given for:",
+        options: [
+          "All capital profits",
+          "Government bounties and subsidies, subject to the provisions of Section 198",
+          "Profits on sale of forfeited shares",
+          "Unrealised gains"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS11_Q02",
+        question: "Profit from sale of fixed assets of a capital nature is generally:",
+        options: [
+          "Included without any condition",
+          "Not given credit, subject to the specified exception",
+          "Always treated as revenue profit",
+          "Added twice"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS11_Q03",
+        question: "Which of the following is generally not given credit under Section 198?",
+        options: [
+          "Government subsidy",
+          "Usual business income",
+          "Profit on sale of forfeited shares",
+          "Eligible operating profit"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS11_Q04",
+        question: "Unrealised or notional gains are:",
+        options: [
+          "Added while calculating profits",
+          "Included as managerial profit automatically",
+          "Not given credit under Section 198",
+          "Always treated as cash profits"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS11_Q05",
+        question: "The net profits for managerial remuneration are calculated primarily in accordance with:",
+        options: [
+          "Section 123",
+          "Section 148",
+          "Section 198",
+          "Section 204"
+        ],
+        answer: 2
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 12
+     TOPIC: EFFECTIVE CAPITAL - SCHEDULE V
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS12",
+    case_chapter: [
+      "Schedule V",
+      "Effective Capital",
+      "Inadequate Profits",
+      "Managerial Remuneration"
+    ],
+
+    caseText: `
+      <p>
+        ABC Manufacturing Limited has no profits during the current financial
+        year. The company therefore wants to determine the maximum managerial
+        remuneration payable under Section II of Part II of Schedule V.
+      </p>
+
+      <p>
+        The company has paid-up share capital of ₹4 crore, share premium of
+        ₹50 lakh, eligible reserves of ₹1 crore and a long-term loan of
+        ₹2 crore. It also has investments and accumulated losses which have to
+        be considered while calculating effective capital.
+      </p>
+
+      <p>
+        The Board explains that effective capital is not simply the amount of
+        paid-up share capital and must be calculated according to the formula
+        prescribed under Schedule V.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS12_Q01",
+        question: "Effective capital is relevant for determining managerial remuneration particularly when:",
+        options: [
+          "The company has no profits or inadequate profits",
+          "The company has unlimited profits",
+          "The company is being incorporated only",
+          "The company pays dividend"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS12_Q02",
+        question: "Which of the following is included in effective capital?",
+        options: [
+          "Share premium account",
+          "Revaluation reserve",
+          "Accumulated losses",
+          "Preliminary expenses not written off as a deduction"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS12_Q03",
+        question: "Revaluation reserve is:",
+        options: [
+          "Added to effective capital",
+          "Excluded from reserves and surplus for effective capital",
+          "Always treated as a long-term loan",
+          "Deducted twice"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS12_Q04",
+        question: "Accumulated losses are:",
+        options: [
+          "Added to effective capital",
+          "Ignored completely",
+          "Deducted while calculating effective capital",
+          "Treated as share premium"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS12_Q05",
+        question: "Working capital loans are generally:",
+        options: [
+          "Included as long-term loans in effective capital",
+          "Excluded from the long-term loan component",
+          "Added to share capital",
+          "Treated as reserves"
+        ],
+        answer: 1
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 13
+     TOPIC: KMP - SECTION 203
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS13",
+    case_chapter: [
+      "Section 203",
+      "Key Managerial Personnel",
+      "Appointment of KMP",
+      "Whole-time KMP"
+    ],
+
+    caseText: `
+      <p>
+        Sunrise Public Limited is a listed company. The Board is reviewing the
+        appointment of its whole-time Key Managerial Personnel (KMP). The
+        company already has a Managing Director, a Company Secretary and a
+        Chief Financial Officer.
+      </p>
+
+      <p>
+        The Board is informed that whole-time KMP must be appointed through a
+        Board resolution containing the terms and conditions of appointment,
+        including remuneration.
+      </p>
+
+      <p>
+        The Company Secretary also explains that a whole-time KMP cannot normally
+        hold office in more than one company at the same time, except in the
+        permitted case involving its subsidiary company.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS13_Q01",
+        question: "Which of the following is included within Key Managerial Personnel?",
+        options: [
+          "Chief Financial Officer",
+          "External auditor",
+          "Tax consultant only",
+          "Bank manager"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS13_Q02",
+        question: "A whole-time KMP is appointed by:",
+        options: [
+          "The external auditor",
+          "A resolution of the Board",
+          "The Registrar of Companies",
+          "The Central Government in every case"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS13_Q03",
+        question: "The Board resolution appointing whole-time KMP should contain:",
+        options: [
+          "Only the name of the KMP",
+          "Only the date of joining",
+          "Terms and conditions including remuneration",
+          "Only educational qualifications"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS13_Q04",
+        question: "A whole-time KMP shall generally not hold office in more than:",
+        options: [
+          "One company at the same time",
+          "Two companies without restriction",
+          "Five companies",
+          "Ten companies"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS13_Q05",
+        question: "A whole-time KMP may hold office in another company at the same time in the permitted case of:",
+        options: [
+          "Any unrelated company",
+          "Its subsidiary company",
+          "Any competitor",
+          "Any foreign company without restriction"
+        ],
+        answer: 1
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 14
+     TOPIC: VACANCY AND PENALTY OF KMP
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS14",
+    case_chapter: [
+      "Section 203",
+      "Vacancy of KMP",
+      "Penalty",
+      "Key Managerial Personnel"
+    ],
+
+    caseText: `
+      <p>
+        Global Technologies Limited is required to have whole-time Key
+        Managerial Personnel. During the financial year, the office of its Chief
+        Financial Officer became vacant.
+      </p>
+
+      <p>
+        The Board discussed the vacancy and decided to appoint a new CFO. The
+        Company Secretary informed the Board that the resulting vacancy in the
+        office of a whole-time KMP must be filled within the prescribed period.
+      </p>
+
+      <p>
+        The Board also reviewed the consequences of non-compliance with Section
+        203 and the penalties applicable to the company and defaulting officers.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS14_Q01",
+        question: "A vacancy in the office of a whole-time KMP must be filled by:",
+        options: [
+          "The shareholders alone",
+          "The Board at a Board meeting",
+          "The statutory auditor",
+          "The Registrar"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS14_Q02",
+        question: "The vacancy of whole-time KMP should be filled within:",
+        options: [
+          "30 days",
+          "3 months",
+          "6 months",
+          "2 years"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS14_Q03",
+        question: "The penalty on the company for default under Section 203 is:",
+        options: [
+          "₹50,000",
+          "₹1 lakh",
+          "₹5 lakh",
+          "₹10 lakh"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS14_Q04",
+        question: "The defaulting director or KMP is liable to an initial penalty of:",
+        options: [
+          "₹10,000",
+          "₹25,000",
+          "₹50,000",
+          "₹5 lakh"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS14_Q05",
+        question: "For a continuing default, the additional penalty on the defaulting director or KMP is:",
+        options: [
+          "₹100 per day",
+          "₹500 per day",
+          "₹1,000 per day, subject to the prescribed maximum",
+          "₹10,000 per day without any maximum"
+        ],
+        answer: 2
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 15
+     TOPIC: SECRETARIAL AUDIT - SECTION 204
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS15",
+    case_chapter: [
+      "Section 204",
+      "Secretarial Audit",
+      "Secretarial Audit Report",
+      "Form MR-3"
+    ],
+
+    caseText: `
+      <p>
+        Prime Infrastructure Limited is a public company. Its paid-up share
+        capital is ₹55 crore and its turnover is ₹200 crore. The company also
+        has outstanding borrowings from banks of ₹80 crore.
+      </p>
+
+      <p>
+        The Board is examining whether the company is required to obtain a
+        Secretarial Audit Report under Section 204. The Company Secretary in
+        practice explains that certain prescribed classes of companies are
+        required to obtain a secretarial audit report.
+      </p>
+
+      <p>
+        The Board also wants to know who is authorised to issue the report and
+        whether the report has to be attached to the Board's Report.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS15_Q01",
+        question: "Secretarial audit under Section 204 is mandatory for:",
+        options: [
+          "Every small private company",
+          "Every listed company",
+          "Every partnership firm",
+          "Every sole proprietorship"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS15_Q02",
+        question: "A public company having paid-up share capital of ₹50 crore or more is covered for secretarial audit.",
+        options: [
+          "True",
+          "False",
+          "Only if turnover exceeds ₹1,000 crore",
+          "Only if it is a private company"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS15_Q03",
+        question: "Secretarial Audit Report is issued by:",
+        options: [
+          "Chartered Accountant in practice",
+          "Cost Accountant in practice",
+          "Company Secretary in practice",
+          "Statutory auditor only"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS15_Q04",
+        question: "The Secretarial Audit Report is prepared in:",
+        options: [
+          "Form MR-1",
+          "Form MR-2",
+          "Form MR-3",
+          "Form AOC-4"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS15_Q05",
+        question: "The Secretarial Audit Report obtained by the company is annexed with:",
+        options: [
+          "The Board's Report",
+          "The auditor's appointment letter",
+          "The share certificate",
+          "The memorandum of association"
+        ],
+        answer: 0
+      }
+
+    ]
+  },
+
+  /* =========================================================
+     CASE SCENARIO 16
+     TOPIC: APPOINTMENT OF MD / WTD / MANAGER - SECTION 196
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS16",
+    case_chapter: [
+      "Section 196",
+      "Appointment of MD",
+      "Appointment of WTD",
+      "Appointment of Manager"
+    ],
+
+    caseText: `
+      <p>
+        Zenith Industries Limited is considering the appointment of Mr. Arjun
+        as its Managing Director. The Board is examining the statutory
+        requirements relating to the appointment and tenure of managerial
+        personnel under Section 196 of the Companies Act, 2013.
+      </p>
+
+      <p>
+        The Board proposes to appoint Mr. Arjun for a term of six years. The
+        Company Secretary points out that the Companies Act, 2013 prescribes a
+        maximum period for which a Managing Director, Whole-time Director or
+        Manager may be appointed or re-appointed at a time.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS16_Q01",
+        question: "A company can appoint a Managing Director for a term not exceeding:",
+        options: [
+          "2 years",
+          "3 years",
+          "5 years",
+          "10 years"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS16_Q02",
+        question: "The maximum term of five years under Section 196 applies to:",
+        options: [
+          "Only Managing Director",
+          "Only Whole-time Director",
+          "Only Manager",
+          "Managing Director, Whole-time Director or Manager"
+        ],
+        answer: 3
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS16_Q03",
+        question: "Can a company appoint a Managing Director and a Manager at the same time?",
+        options: [
+          "Yes, always",
+          "Yes, if approved by the auditor",
+          "No",
+          "Yes, if both are relatives"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS16_Q04",
+        question: "Re-appointment of a Managing Director cannot be made earlier than:",
+        options: [
+          "One month before expiry of the term",
+          "Six months before expiry of the term",
+          "One year before expiry of the term",
+          "Two years before expiry of the term"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS16_Q05",
+        question: "Mr. Arjun proposed to be appointed as Managing Director for six years would be:",
+        options: [
+          "Valid because the Board can decide any tenure",
+          "Valid if approved by the auditor",
+          "Invalid because the term cannot exceed five years at a time",
+          "Valid only for a private company"
+        ],
+        answer: 2
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 17
+     TOPIC: AGE AND ELIGIBILITY OF MANAGERIAL PERSONNEL
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS17",
+    case_chapter: [
+      "Section 196",
+      "Eligibility Conditions",
+      "Age of MD/WTD/Manager",
+      "Schedule V"
+    ],
+
+    caseText: `
+      <p>
+        Sunrise Textiles Limited proposes to appoint Mr. Dev as its Managing
+        Director. Mr. Dev is 72 years old and has extensive experience in the
+        textile industry.
+      </p>
+
+      <p>
+        The Board is aware that Section 196 prescribes an age limit for
+        appointment as Managing Director, Whole-time Director or Manager.
+        However, the Board also learns that a person who has attained the age
+        of 70 years may be appointed if the prescribed special resolution is
+        passed by the company.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS17_Q01",
+        question: "A person appointed as Managing Director should ordinarily have completed at least:",
+        options: [
+          "18 years",
+          "21 years",
+          "25 years",
+          "30 years"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS17_Q02",
+        question: "The normal upper age limit for appointment as MD, WTD or Manager is:",
+        options: [
+          "60 years",
+          "65 years",
+          "70 years",
+          "75 years"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS17_Q03",
+        question: "A person who has attained 70 years may be appointed as MD if:",
+        options: [
+          "The auditor approves the appointment",
+          "A special resolution is passed",
+          "Only the Company Secretary approves it",
+          "The Registrar gives automatic approval"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS17_Q04",
+        question: "For appointment of a person above 70 years, the explanatory statement should indicate:",
+        options: [
+          "His personal assets",
+          "The justification for appointing such person",
+          "His income-tax return",
+          "The company's dividend history"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS17_Q05",
+        question: "Mr. Dev, aged 72, can be appointed as Managing Director if the company:",
+        options: [
+          "Passes the required special resolution",
+          "Gets approval from its statutory auditor",
+          "Obtains approval from every employee",
+          "Appoints him only as a Manager"
+        ],
+        answer: 0
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 18
+     TOPIC: FUNCTIONS OF COMPANY SECRETARY - SECTION 205
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS18",
+    case_chapter: [
+      "Section 205",
+      "Functions of Company Secretary",
+      "Secretarial Standards",
+      "Corporate Governance"
+    ],
+
+    caseText: `
+      <p>
+        Reliable Motors Limited has appointed Ms. Neha as its Company Secretary.
+        The Board asks her to assist the company in complying with the Companies
+        Act, applicable rules and secretarial standards.
+      </p>
+
+      <p>
+        Ms. Neha also assists the Board in convening meetings, maintaining
+        minutes and obtaining necessary approvals from the Board, shareholders
+        and government authorities. She also advises the Board on corporate
+        governance matters.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS18_Q01",
+        question: "The Company Secretary has a duty to report to the Board regarding:",
+        options: [
+          "Compliance with applicable laws",
+          "Personal matters of shareholders",
+          "Competitors' salaries",
+          "Bank interest rates only"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS18_Q02",
+        question: "The Company Secretary should ensure compliance with applicable:",
+        options: [
+          "Secretarial standards",
+          "Foreign laws only",
+          "Accounting standards only",
+          "Banking regulations only"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS18_Q03",
+        question: "The Company Secretary facilitates the convening of:",
+        options: [
+          "Only shareholder meetings",
+          "Only Board meetings",
+          "Board, committee and general meetings",
+          "Only meetings of employees"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS18_Q04",
+        question: "The Company Secretary may assist the Board in ensuring:",
+        options: [
+          "Good corporate governance",
+          "Higher tax liability",
+          "Reduction of share capital in every case",
+          "Personal investments of directors"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS18_Q05",
+        question: "The Company Secretary may represent the company before:",
+        options: [
+          "Various regulators and authorities under the Companies Act",
+          "Only private banks",
+          "Only employees",
+          "Only shareholders"
+        ],
+        answer: 0
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 19
+     TOPIC: SITTING FEES - SECTION 197(5)
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS19",
+    case_chapter: [
+      "Section 197",
+      "Sitting Fees",
+      "Directors",
+      "Rule 4"
+    ],
+
+    caseText: `
+      <p>
+        Apex Pharma Limited wants to revise the sitting fees payable to its
+        directors for attending meetings of the Board and its committees.
+        The Board proposes to pay ₹75,000 to each director for every meeting
+        attended.
+      </p>
+
+      <p>
+        The Company Secretary informs the Board that the Companies Act permits
+        payment of sitting fees subject to the prescribed ceiling. The Board
+        also considers the position of Independent Directors and Women Directors.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS19_Q01",
+        question: "Sitting fees may be paid to directors for attending:",
+        options: [
+          "Board or committee meetings",
+          "Only annual general meetings",
+          "Only employee meetings",
+          "Only meetings with auditors"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS19_Q02",
+        question: "The maximum sitting fee prescribed per Board or committee meeting is:",
+        options: [
+          "₹25,000",
+          "₹50,000",
+          "₹1 lakh",
+          "₹2 lakh"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS19_Q03",
+        question: "A sitting fee of ₹75,000 per meeting would be:",
+        options: [
+          "Within the prescribed ceiling",
+          "Above the prescribed ceiling",
+          "Invalid in every case",
+          "Payable only to the Managing Director"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS19_Q04",
+        question: "The sitting fee payable to an Independent Director shall:",
+        options: [
+          "Always be zero",
+          "Not be less than that payable to other directors",
+          "Always be double that payable to other directors",
+          "Be decided by the statutory auditor"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS19_Q05",
+        question: "The sitting fee payable to Women Directors shall:",
+        options: [
+          "Not be less than that payable to other directors",
+          "Always be less than other directors",
+          "Not be paid",
+          "Be fixed only by the Central Government"
+        ],
+        answer: 0
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 20
+     TOPIC: REFUND OF EXCESS REMUNERATION - SECTION 197(9)
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS20",
+    case_chapter: [
+      "Section 197",
+      "Excess Remuneration",
+      "Refund",
+      "Managerial Remuneration"
+    ],
+
+    caseText: `
+      <p>
+        Pioneer Limited discovers that its Managing Director, Mr. Karan, has
+        received remuneration in excess of the limit prescribed under Section
+        197 without obtaining the required approval.
+      </p>
+
+      <p>
+        The company asks Mr. Karan to refund the excess amount. Mr. Karan argues
+        that since the amount has already been paid to him, he should be allowed
+        to retain it.
+      </p>
+
+      <p>
+        The Board explains that the Companies Act contains specific provisions
+        requiring refund of excess remuneration and also provides a mechanism
+        for waiver subject to prescribed conditions.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS20_Q01",
+        question: "Excess remuneration received by a director in violation of Section 197 is required to be:",
+        options: [
+          "Retained permanently",
+          "Refunded to the company",
+          "Paid to the shareholders",
+          "Transferred to the Central Government"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS20_Q02",
+        question: "The excess remuneration should generally be refunded within:",
+        options: [
+          "Six months",
+          "One year",
+          "Two years",
+          "Five years"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS20_Q03",
+        question: "Until the excess remuneration is refunded, the director holds the amount:",
+        options: [
+          "As his personal property",
+          "As trustee for employees",
+          "In trust for the company",
+          "On behalf of the auditor"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS20_Q04",
+        question: "Can the company waive recovery of excess remuneration?",
+        options: [
+          "Yes, automatically",
+          "Yes, subject to approval by special resolution within the prescribed period",
+          "No, under any circumstances",
+          "Yes, only through an ordinary Board circular"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS20_Q05",
+        question: "Where the company has defaulted in payment of specified secured dues, before obtaining approval for waiver it may need prior approval of:",
+        options: [
+          "The concerned creditor",
+          "Every employee",
+          "The Registrar only",
+          "The statutory auditor only"
+        ],
+        answer: 0
+      }
+
+    ]
+  },
+
+  /* =========================================================
+     CASE SCENARIO 26
+     TOPIC: MANAGER - SECTION 2(53)
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS26",
+    case_chapter: [
+      "Section 2(53)",
+      "Manager",
+      "Managerial Personnel"
+    ],
+
+    caseText: `
+      <p>
+        Excellent Foods Limited has appointed Mr. Rahul to supervise and control
+        the marketing department of the company. Mr. Rahul is responsible only
+        for the marketing activities and does not have control over the whole or
+        substantially the whole affairs of the company.
+      </p>
+
+      <p>
+        The Board wants to determine whether Mr. Rahul can be regarded as a
+        "Manager" within the meaning of Section 2(53) of the Companies Act,
+        2013.
+      </p>
+
+      <p>
+        The Company Secretary explains that a manager must have the management
+        of the whole, or substantially the whole, of the affairs of the company,
+        subject to the superintendence, control and direction of the Board.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS26_Q01",
+        question: "A Manager under Section 2(53) must have management of:",
+        options: [
+          "Only one department",
+          "The whole or substantially the whole affairs of the company",
+          "Only the finance department",
+          "Only the marketing department"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS26_Q02",
+        question: "A person heading only the marketing department is generally:",
+        options: [
+          "A Manager under Section 2(53)",
+          "Not a Manager under Section 2(53)",
+          "Automatically a Managing Director",
+          "Automatically a Whole-time Director"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS26_Q03",
+        question: "A Manager functions subject to the:",
+        options: [
+          "Control of shareholders alone",
+          "Superintendence, control and direction of the Board",
+          "Directions of the statutory auditor",
+          "Directions of the Registrar"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS26_Q04",
+        question: "A Manager under Section 2(53) is:",
+        options: [
+          "Always required to be a director",
+          "An individual",
+          "Always a company",
+          "Always a shareholder"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS26_Q05",
+        question: "Mr. Rahul, who manages only the marketing department, would generally be:",
+        options: [
+          "A Manager under Section 2(53)",
+          "Not a Manager under Section 2(53)",
+          "A KMP automatically",
+          "A Managing Director automatically"
+        ],
+        answer: 1
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 27
+     TOPIC: MANAGING DIRECTOR - SECTION 2(54)
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS27",
+    case_chapter: [
+      "Section 2(54)",
+      "Managing Director",
+      "Substantial Powers of Management"
+    ],
+
+    caseText: `
+      <p>
+        Horizon Industries Limited has appointed Mr. Sameer as a director.
+        Under an agreement with the company, he has been entrusted with
+        substantial powers of management of the affairs of the company.
+      </p>
+
+      <p>
+        The Board also authorises Mr. Sameer to perform certain routine
+        administrative functions, such as signing certificates and drawing
+        cheques. Mr. Sameer argues that these routine powers alone make him a
+        Managing Director.
+      </p>
+
+      <p>
+        The Company Secretary explains that routine administrative acts do not
+        by themselves constitute substantial powers of management for the
+        purpose of the definition of Managing Director.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS27_Q01",
+        question: "A Managing Director must first be:",
+        options: [
+          "A shareholder",
+          "A director",
+          "A statutory auditor",
+          "A Company Secretary"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS27_Q02",
+        question: "A Managing Director is entrusted with:",
+        options: [
+          "Substantial powers of management",
+          "Only clerical duties",
+          "Only accounting duties",
+          "Only secretarial duties"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS27_Q03",
+        question: "Substantial powers of management may be entrusted through:",
+        options: [
+          "An agreement with the company",
+          "Only an oral statement by an employee",
+          "Only an auditor's report",
+          "Only a bank letter"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS27_Q04",
+        question: "Routine administrative acts authorised by the Board are:",
+        options: [
+          "Automatically substantial powers of management",
+          "Not treated as substantial powers merely because they are authorised",
+          "Always prohibited for an MD",
+          "Allowed only to shareholders"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS27_Q05",
+        question: "If Mr. Sameer ceases to be a director, he would:",
+        options: [
+          "Continue automatically as Managing Director",
+          "Cease to be Managing Director",
+          "Become Company Secretary",
+          "Become an Independent Director automatically"
+        ],
+        answer: 1
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 28
+     TOPIC: WHOLE-TIME DIRECTOR - SECTION 2(94)
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS28",
+    case_chapter: [
+      "Section 2(94)",
+      "Whole-time Director",
+      "WTD"
+    ],
+
+    caseText: `
+      <p>
+        Silverline Limited wants to appoint Mr. Karan as its Whole-time
+        Director. Mr. Karan is currently a full-time employee of the company
+        but is not a director.
+      </p>
+
+      <p>
+        The Board proposes to designate him as a Whole-time Director because he
+        spends all his working time managing the affairs of the company.
+      </p>
+
+      <p>
+        The Company Secretary explains that being in whole-time employment is
+        not sufficient by itself. A Whole-time Director must also be a director
+        of the company.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS28_Q01",
+        question: "A Whole-time Director is a:",
+        options: [
+          "Director in the whole-time employment of the company",
+          "Part-time employee only",
+          "Shareholder only",
+          "Statutory auditor"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS28_Q02",
+        question: "A person who is not a director can be appointed as Whole-time Director.",
+        options: [
+          "True",
+          "False",
+          "Only with auditor approval",
+          "Only in a private company"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS28_Q03",
+        question: "A Whole-time Director is expected to devote:",
+        options: [
+          "Only one hour a week",
+          "His time in totality for the management of the company",
+          "No time to the company",
+          "Only time during AGM"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS28_Q04",
+        question: "Mr. Karan, being only a full-time employee and not a director, can be designated as WTD immediately.",
+        options: [
+          "Yes",
+          "No",
+          "Yes, if employees approve",
+          "Yes, if the auditor agrees"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS28_Q05",
+        question: "The key requirement distinguishing a WTD is that he is:",
+        options: [
+          "A director in whole-time employment",
+          "Only a shareholder",
+          "Only an executive employee",
+          "Only a consultant"
+        ],
+        answer: 0
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 29
+     TOPIC: REMUNERATION - SECTION 197
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS29",
+    case_chapter: [
+      "Section 197",
+      "Maximum Managerial Remuneration",
+      "Public Company"
+    ],
+
+    caseText: `
+      <p>
+        Prosperity Limited is a public company having profits for the financial
+        year. The company is considering the remuneration payable to its
+        directors, including its Managing Director and other directors.
+      </p>
+
+      <p>
+        The Board is informed that the overall managerial remuneration payable
+        by a public company to its directors, including the Managing Director,
+        Whole-time Director and Manager, is subject to an overall statutory
+        ceiling based on the net profits calculated under Section 198.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS29_Q01",
+        question: "The overall maximum managerial remuneration under Section 197 for a public company is generally:",
+        options: [
+          "5% of net profits",
+          "10% of net profits",
+          "11% of net profits",
+          "20% of net profits"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS29_Q02",
+        question: "The 11% overall limit is calculated with reference to:",
+        options: [
+          "Gross turnover",
+          "Net profits calculated under Section 198",
+          "Paid-up capital",
+          "Share premium"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS29_Q03",
+        question: "The overall 11% limit may be exceeded with approval by:",
+        options: [
+          "The company's general meeting through special resolution",
+          "The statutory auditor alone",
+          "The Registrar alone",
+          "Any employee"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS29_Q04",
+        question: "The 11% overall limit relates to remuneration payable to:",
+        options: [
+          "Only the Managing Director",
+          "Only independent directors",
+          "Directors including MD, WTD and Manager",
+          "Only the Company Secretary"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS29_Q05",
+        question: "Section 197's provisions regarding overall managerial remuneration apply to:",
+        options: [
+          "Public companies",
+          "Only sole proprietorships",
+          "Only partnership firms",
+          "Every private company without exception"
+        ],
+        answer: 0
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 30
+     TOPIC: MD / WTD / MANAGER - AGE DISQUALIFICATION
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_EASY_CS30",
+    case_chapter: [
+      "Section 196",
+      "Eligibility",
+      "Disqualification",
+      "Managerial Personnel"
+    ],
+
+    caseText: `
+      <p>
+        Blue Star Limited is considering the appointment of Mr. Mohan as its
+        Whole-time Director. During the due diligence process, the company
+        discovers that Mr. Mohan has been adjudged an undischarged insolvent.
+      </p>
+
+      <p>
+        The Board also examines other statutory eligibility conditions applicable
+        to persons appointed as Managing Director, Whole-time Director or
+        Manager under Section 196.
+      </p>
+
+      <p>
+        The Company Secretary explains that certain circumstances, including
+        being an undischarged insolvent, can disqualify a person from such
+        appointment.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_EASY_CS30_Q01",
+        question: "An undischarged insolvent can ordinarily be appointed as MD, WTD or Manager.",
+        options: [
+          "True",
+          "False",
+          "Only with shareholder approval",
+          "Only in a public company"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS30_Q02",
+        question: "Being an undischarged insolvent is relevant to the eligibility conditions under:",
+        options: [
+          "Section 196",
+          "Section 123",
+          "Section 205 only",
+          "Section 204 only"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS30_Q03",
+        question: "A person who has been adjudged an insolvent and remains undischarged is:",
+        options: [
+          "Eligible automatically",
+          "Disqualified from appointment under the specified provision",
+          "Automatically appointed as Manager",
+          "Eligible only if he is a shareholder"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS30_Q04",
+        question: "Which of the following is another specified disqualification under Section 196?",
+        options: [
+          "Suspending payment to creditors or making composition with them",
+          "Attending Board meetings",
+          "Holding a professional qualification",
+          "Receiving sitting fees"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_EASY_CS30_Q05",
+        question: "The eligibility conditions under Section 196 apply to appointment as:",
+        options: [
+          "Only Managing Director",
+          "Only Whole-time Director",
+          "Only Manager",
+          "Managing Director, Whole-time Director or Manager"
+        ],
+        answer: 3
+      }
+
+    ]
+  },
+
+  /* =========================================================
+     CASE SCENARIO 31
+     DIFFICULTY: MEDIUM
+     TOPIC: APPOINTMENT OF MD/WTD/MANAGER - SECTION 196
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_MEDIUM_CS31",
+    difficulty: "Medium",
+    case_chapter: [
+      "Section 196",
+      "Appointment of MD/WTD/Manager",
+      "Tenure",
+      "Re-appointment"
+    ],
+
+    caseText: `
+      <p>
+        Apex Engineering Limited appointed Mr. Arvind as its Managing Director
+        for a period of five years commencing from 1 April 2024. His term is
+        therefore scheduled to expire on 31 March 2029.
+      </p>
+
+      <p>
+        The Board, being satisfied with his performance, proposes to re-appoint
+        him for another term of five years. The proposal is placed before the
+        shareholders on 15 March 2028.
+      </p>
+
+      <p>
+        One of the directors argues that the company cannot consider the
+        re-appointment before the expiry of the existing term. The Company
+        Secretary points out that the Companies Act, 2013 permits re-appointment
+        before expiry, but restricts how early such re-appointment can be made.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS31_Q01",
+        difficulty: "Medium",
+        question: "When can the re-appointment of Mr. Arvind validly be considered under Section 196(2)?",
+        options: [
+          "Only after expiry of the existing term",
+          "At any time during the existing term",
+          "Not earlier than one year before expiry of the existing term",
+          "Only during the last one month of the existing term"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS31_Q02",
+        difficulty: "Medium",
+        question: "The maximum term for which Mr. Arvind can be re-appointed at one time is:",
+        options: [
+          "Three years",
+          "Five years",
+          "Seven years",
+          "Ten years"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS31_Q03",
+        difficulty: "Medium",
+        question: "If the company proposes the re-appointment on 15 March 2028, when the existing term expires on 31 March 2029, the proposal is:",
+        options: [
+          "Valid because it is within one year before expiry",
+          "Invalid because re-appointment can only occur after expiry",
+          "Invalid because the existing term has not expired",
+          "Valid only if approved by the Central Government"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS31_Q04",
+        difficulty: "Medium",
+        question: "Which statement correctly describes the tenure restriction under Section 196(2)?",
+        options: [
+          "Appointment can be for any period if shareholders agree",
+          "Appointment or re-appointment cannot exceed five years at a time",
+          "Appointment can be for life in a private company",
+          "Appointment can exceed five years with Board approval alone"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS31_Q05",
+        difficulty: "Medium",
+        question: "If the Articles of Apex Engineering Limited provide that an MD may be appointed for life, the provision would be:",
+        options: [
+          "Valid because Articles override Section 196",
+          "Valid if approved by the Board",
+          "Invalid because the statutory maximum tenure is five years",
+          "Valid only for private companies"
+        ],
+        answer: 2
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 32
+     DIFFICULTY: MEDIUM
+     TOPIC: AGE OF MD/WTD/MANAGER
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_MEDIUM_CS32",
+    difficulty: "Medium",
+    case_chapter: [
+      "Section 196(3)",
+      "Age Limit",
+      "Special Resolution",
+      "Central Government Approval"
+    ],
+
+    caseText: `
+      <p>
+        Zenith Textiles Limited proposes to appoint Mr. Ramesh as its Managing
+        Director. Mr. Ramesh is 72 years old and has considerable experience in
+        the textile industry.
+      </p>
+
+      <p>
+        The Board proposes to place the appointment before the members in general
+        meeting. Some shareholders are concerned that a person who has attained
+        the age of 70 years cannot be appointed as Managing Director.
+      </p>
+
+      <p>
+        The Company Secretary explains that although the normal age limit is
+        70 years, the Act permits appointment of a person who has attained
+        70 years if the required special resolution is passed. The explanatory
+        statement must also contain justification for appointing such person.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS32_Q01",
+        difficulty: "Medium",
+        question: "The normal maximum age for appointment as MD, WTD or Manager is:",
+        options: [
+          "60 years",
+          "65 years",
+          "70 years",
+          "75 years"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS32_Q02",
+        difficulty: "Medium",
+        question: "Mr. Ramesh, aged 72 years, may be appointed as MD if:",
+        options: [
+          "The Board alone approves the appointment",
+          "A special resolution is passed by the company",
+          "The auditor approves the appointment",
+          "All shareholders individually consent"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS32_Q03",
+        difficulty: "Medium",
+        question: "The explanatory statement accompanying the notice for appointment of a person above 70 years should indicate:",
+        options: [
+          "His personal wealth",
+          "The justification for appointing such person",
+          "His shareholding only",
+          "The auditor's opinion"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS32_Q04",
+        difficulty: "Medium",
+        question: "If the special resolution is not passed but votes in favour exceed votes against, the appointment may still be regularised if:",
+        options: [
+          "The Board requests the Central Government and it is satisfied that the appointment is most beneficial to the company",
+          "The auditor approves it",
+          "The Registrar automatically approves it",
+          "The Company Secretary approves it"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS32_Q05",
+        difficulty: "Medium",
+        question: "Who is required to be satisfied regarding the benefit of appointing the person above 70 years when the special resolution is not passed?",
+        options: [
+          "Board of Directors",
+          "Central Government",
+          "Statutory Auditor",
+          "Nomination and Remuneration Committee"
+        ],
+        answer: 1
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 33
+     DIFFICULTY: MEDIUM
+     TOPIC: KMP - MULTIPLE APPOINTMENTS
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_MEDIUM_CS33",
+    difficulty: "Medium",
+    case_chapter: [
+      "Section 203",
+      "Key Managerial Personnel",
+      "Multiple Appointments",
+      "Subsidiary Company"
+    ],
+
+    caseText: `
+      <p>
+        Global Finance Limited is a listed company. Ms. Priya is its whole-time
+        Chief Financial Officer (CFO). A subsidiary company, Global Finance
+        Services Private Limited, proposes to appoint Ms. Priya as its whole-time
+        CFO as well.
+      </p>
+
+      <p>
+        The Board of the parent company is considering whether such appointment
+        would violate the restriction on holding office as whole-time KMP in more
+        than one company.
+      </p>
+
+      <p>
+        The Company Secretary explains that a whole-time KMP cannot ordinarily
+        hold office in more than one company at the same time, except in its
+        subsidiary company. A whole-time KMP may also become a director in any
+        company with the permission of the Board.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS33_Q01",
+        difficulty: "Medium",
+        question: "As a general rule, a whole-time KMP cannot hold office in:",
+        options: [
+          "More than one company at the same time",
+          "Any company",
+          "A subsidiary company only",
+          "The company appointing him"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS33_Q02",
+        difficulty: "Medium",
+        question: "The restriction contains an exception for:",
+        options: [
+          "Any unrelated company",
+          "Its subsidiary company",
+          "Any partnership firm",
+          "Any foreign company"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS33_Q03",
+        difficulty: "Medium",
+        question: "Ms. Priya can hold the office of whole-time KMP in Global Finance Limited and its subsidiary:",
+        options: [
+          "Never",
+          "Yes, subject to the applicable provisions",
+          "Only if the auditor permits",
+          "Only if the Registrar permits"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS33_Q04",
+        difficulty: "Medium",
+        question: "A whole-time KMP may also be a director in another company:",
+        options: [
+          "Only without Board permission",
+          "With the permission of the Board",
+          "Only with Central Government approval",
+          "Never"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS33_Q05",
+        difficulty: "Medium",
+        question: "If Ms. Priya is appointed as whole-time CFO of an unrelated company simultaneously, the appointment would generally:",
+        options: [
+          "Be permitted automatically",
+          "Be prohibited under the multiple-office restriction",
+          "Require only auditor approval",
+          "Require only shareholder approval"
+        ],
+        answer: 1
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 34
+     DIFFICULTY: MEDIUM
+     TOPIC: KMP VACANCY
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_MEDIUM_CS34",
+    difficulty: "Medium",
+    case_chapter: [
+      "Section 203(4)",
+      "KMP Vacancy",
+      "Board Meeting"
+    ],
+
+    caseText: `
+      <p>
+        Sunrise Industries Limited is a listed company. Its whole-time Company
+        Secretary resigns from office on 10 January 2026. The Board acknowledges
+        the resignation but decides to wait until the next Annual General Meeting
+        in September 2026 before appointing a replacement.
+      </p>
+
+      <p>
+        The compliance officer informs the Board that the vacancy of whole-time
+        KMP cannot simply be left vacant until the next general meeting. The
+        resulting vacancy must be filled by the Board within the prescribed
+        period.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS34_Q01",
+        difficulty: "Medium",
+        question: "A vacancy in the office of a whole-time KMP must be filled by:",
+        options: [
+          "The shareholders only",
+          "The Board of Directors",
+          "The statutory auditor",
+          "The Registrar"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS34_Q02",
+        difficulty: "Medium",
+        question: "The vacancy must be filled within:",
+        options: [
+          "30 days",
+          "90 days",
+          "Six months",
+          "One year"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS34_Q03",
+        difficulty: "Medium",
+        question: "The Board should fill the vacancy:",
+        options: [
+          "At a meeting of the Board",
+          "Only at the AGM",
+          "Only through postal ballot",
+          "Only through a court order"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS34_Q04",
+        difficulty: "Medium",
+        question: "If the vacancy occurred on 10 January 2026, the statutory six-month period would generally run from:",
+        options: [
+          "The next AGM",
+          "10 January 2026",
+          "The end of the financial year",
+          "The date of the next Board meeting only"
+        ],
+        answer: 1
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS34_Q05",
+        difficulty: "Medium",
+        question: "Waiting until September 2026 merely because the AGM is scheduled then would be:",
+        options: [
+          "Automatically compliant",
+          "Potentially contrary to Section 203(4), if the six-month period is exceeded",
+          "Mandatory",
+          "Required by Schedule V"
+        ],
+        answer: 1
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 35
+     DIFFICULTY: MEDIUM
+     TOPIC: SECRETARIAL AUDIT
+  ========================================================= */
+
+  {
+    case_id: "CEL_CH2_MEDIUM_CS35",
+    difficulty: "Medium",
+    case_chapter: [
+      "Section 204",
+      "Secretarial Audit",
+      "Rule 9",
+      "Applicability"
+    ],
+
+    caseText: `
+      <p>
+        Green Pharma Limited is a public company. As per its latest audited
+        financial statements, its paid-up share capital is ₹42 crore, annual
+        turnover is ₹210 crore and outstanding loans from banks and public
+        financial institutions amount to ₹105 crore.
+      </p>
+
+      <p>
+        The management argues that secretarial audit is not applicable because
+        the company's paid-up share capital is below ₹50 crore and its turnover
+        is below ₹250 crore.
+      </p>
+
+      <p>
+        The Company Secretary points out that the rules prescribe separate
+        thresholds and that crossing any one of the prescribed thresholds may
+        make the company subject to secretarial audit.
+      </p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS35_Q01",
+        difficulty: "Medium",
+        question: "Secretarial audit is applicable to every listed company.",
+        options: [
+          "True",
+          "False",
+          "Only if turnover exceeds ₹250 crore",
+          "Only if loans exceed ₹200 crore"
+        ],
+        answer: 0
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS35_Q02",
+        difficulty: "Medium",
+        question: "A prescribed public company threshold for secretarial audit based on paid-up share capital is:",
+        options: [
+          "₹10 crore or more",
+          "₹25 crore or more",
+          "₹50 crore or more",
+          "₹100 crore or more"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS35_Q03",
+        difficulty: "Medium",
+        question: "The prescribed turnover threshold is:",
+        options: [
+          "₹100 crore or more",
+          "₹150 crore or more",
+          "₹200 crore or more",
+          "₹250 crore or more"
+        ],
+        answer: 3
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS35_Q04",
+        difficulty: "Medium",
+        question: "Green Pharma Limited has outstanding loans of ₹105 crore. Does this threshold trigger secretarial audit?",
+        options: [
+          "No, because the company has less than ₹50 crore capital",
+          "No, because turnover is below ₹250 crore",
+          "Yes, because outstanding loans/borrowings are ₹100 crore or more",
+          "Only if shareholders pass a special resolution"
+        ],
+        answer: 2
+      },
+
+      {
+        question_id: "CEL_CH2_MEDIUM_CS35_Q05",
+        difficulty: "Medium",
+        question: "The Secretarial Audit Report is issued by:",
+        options: [
+          "Statutory auditor",
+          "Company Secretary in Practice",
+          "Chief Financial Officer",
+          "Registrar of Companies"
+        ],
+        answer: 1
+      }
+
+    ]
+  },
+
+  /* =========================================================
+   CASE SCENARIO 36
+   DIFFICULTY: MEDIUM
+   TOPIC: OVERALL MANAGERIAL REMUNERATION - SECTION 197
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS36",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 197",
+    "Overall Managerial Remuneration",
+    "Net Profits",
+    "Special Resolution"
+  ],
+
+  caseText: `
+    <p>
+      Bright Industries Limited is a public company having sufficient profits
+      during the financial year. The company has appointed one Managing Director,
+      Mr. Aman, and two Whole-time Directors, Mr. Bharat and Mr. Chetan.
+    </p>
+
+    <p>
+      The Board proposes to pay remuneration to all three managerial persons
+      aggregating to 10% of the net profits of the company for the financial year.
+      The Board also proposes to pay remuneration to the other non-executive
+      directors at 1% of the net profits.
+    </p>
+
+    <p>
+      One director suggests that since the company has adequate profits, there is
+      no restriction on managerial remuneration. The Company Secretary explains
+      that Section 197 prescribes an overall ceiling as well as separate ceilings
+      for managerial and other directors.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS36_Q01",
+      difficulty: "Medium",
+      question: "What is the overall maximum managerial remuneration generally payable by a public company to its directors, including MD, WTD and Manager?",
+      options: [
+        "5% of net profits",
+        "10% of net profits",
+        "11% of net profits",
+        "15% of net profits"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS36_Q02",
+      difficulty: "Medium",
+      question: "Where there is more than one MD/WTD/Manager, the remuneration payable to all such persons taken together is generally limited to:",
+      options: [
+        "5% of net profits",
+        "10% of net profits",
+        "11% of net profits",
+        "15% of net profits"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS36_Q03",
+      difficulty: "Medium",
+      question: "The remuneration of directors who are neither MD nor WTD, where a managerial person exists, is generally limited to:",
+      options: [
+        "0.5% of net profits",
+        "1% of net profits",
+        "3% of net profits",
+        "5% of net profits"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS36_Q04",
+      difficulty: "Medium",
+      question: "Can the 10% limit applicable to multiple MDs/WTDs/Managers be exceeded?",
+      options: [
+        "Never",
+        "Yes, with approval by special resolution in general meeting",
+        "Yes, by Board resolution alone",
+        "Yes, automatically if profits are high"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS36_Q05",
+      difficulty: "Medium",
+      question: "The percentages prescribed under Section 197(1) are:",
+      options: [
+        "Inclusive of sitting fees",
+        "Exclusive of sitting fees",
+        "Applicable only to sitting fees",
+        "Applicable only to independent directors"
+      ],
+      answer: 1
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 37
+   DIFFICULTY: MEDIUM
+   TOPIC: REMUNERATION IN ABSENCE/INADEQUACY OF PROFITS
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS37",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 197(3)",
+    "Schedule V",
+    "No Profit/Inadequate Profit",
+    "Effective Capital"
+  ],
+
+  caseText: `
+    <p>
+      Sunrise Manufacturing Limited has suffered inadequate profits during the
+      financial year. The company has an effective capital of ₹7 crore. Its
+      Managing Director, Mr. Raj, is proposed to be paid remuneration of
+      ₹75 lakh for the year.
+    </p>
+
+    <p>
+      The Board examines Schedule V and notes that where the effective capital is
+      ₹5 crore and above but less than ₹100 crore, the prescribed annual limit for
+      managerial remuneration in case of no profit or inadequate profit is
+      ₹84 lakh.
+    </p>
+
+    <p>
+      The company has also complied with the applicable approval requirements
+      under Schedule V.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS37_Q01",
+      difficulty: "Medium",
+      question: "Where a company has no profits or inadequate profits, managerial remuneration is primarily governed by:",
+      options: [
+        "Schedule V",
+        "Schedule I",
+        "Section 92 only",
+        "CARO"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS37_Q02",
+      difficulty: "Medium",
+      question: "The effective capital of Sunrise Manufacturing Limited falls in which category?",
+      options: [
+        "Negative or less than ₹5 crore",
+        "₹5 crore and above but less than ₹100 crore",
+        "₹100 crore and above but less than ₹250 crore",
+        "₹250 crore and above"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS37_Q03",
+      difficulty: "Medium",
+      question: "The prescribed annual managerial remuneration limit for the relevant effective-capital category is:",
+      options: [
+        "₹60 lakh",
+        "₹84 lakh",
+        "₹120 lakh",
+        "₹24 lakh"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS37_Q04",
+      difficulty: "Medium",
+      question: "The proposed remuneration of ₹75 lakh is:",
+      options: [
+        "Within the prescribed ₹84 lakh limit",
+        "Above the prescribed limit",
+        "Automatically prohibited because there are inadequate profits",
+        "Payable only after Central Government approval"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS37_Q05",
+      difficulty: "Medium",
+      question: "If remuneration is proposed in excess of the prescribed limit, it may be paid subject to:",
+      options: [
+        "A special resolution by shareholders, subject to applicable conditions",
+        "Approval of the statutory auditor only",
+        "Approval of the CFO only",
+        "No approval"
+      ],
+      answer: 0
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 38
+   DIFFICULTY: MEDIUM
+   TOPIC: EFFECTIVE CAPITAL
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS38",
+  difficulty: "Medium",
+  case_chapter: [
+    "Schedule V",
+    "Effective Capital",
+    "Managerial Remuneration"
+  ],
+
+  caseText: `
+    <p>
+      Nova Technologies Limited has no profits for the financial year. For the
+      purpose of determining managerial remuneration under Schedule V, the
+      following figures are available:
+    </p>
+
+    <table>
+      <tr>
+        <th>Particulars</th>
+        <th>Amount</th>
+      </tr>
+      <tr>
+        <td>Paid-up share capital</td>
+        <td>₹6 crore</td>
+      </tr>
+      <tr>
+        <td>Share premium</td>
+        <td>₹50 lakh</td>
+      </tr>
+      <tr>
+        <td>Reserves excluding revaluation reserve</td>
+        <td>₹40 lakh</td>
+      </tr>
+      <tr>
+        <td>Long-term loan repayable after one year</td>
+        <td>₹2 crore</td>
+      </tr>
+      <tr>
+        <td>Working capital loan</td>
+        <td>₹1 crore</td>
+      </tr>
+      <tr>
+        <td>Investments</td>
+        <td>₹50 lakh</td>
+      </tr>
+      <tr>
+        <td>Accumulated losses</td>
+        <td>₹20 lakh</td>
+      </tr>
+    </table>
+
+    <p>
+      The finance team is required to determine the effective capital for
+      applying the appropriate Schedule V remuneration limit.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS38_Q01",
+      difficulty: "Medium",
+      question: "Which of the following is included in effective capital?",
+      options: [
+        "Working capital loan",
+        "Share premium",
+        "Revaluation reserve",
+        "Accumulated losses"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS38_Q02",
+      difficulty: "Medium",
+      question: "The working capital loan of ₹1 crore should generally be:",
+      options: [
+        "Added to effective capital",
+        "Excluded from the long-term loan component",
+        "Deducted from share capital",
+        "Added twice"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS38_Q03",
+      difficulty: "Medium",
+      question: "Revaluation reserve is:",
+      options: [
+        "Included in reserves for effective capital",
+        "Excluded from reserves for effective capital",
+        "Added as a long-term loan",
+        "Deducted as investment"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS38_Q04",
+      difficulty: "Medium",
+      question: "Accumulated losses are:",
+      options: [
+        "Added to effective capital",
+        "Ignored completely",
+        "Deducted while computing effective capital",
+        "Treated as share premium"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS38_Q05",
+      difficulty: "Medium",
+      question: "Based on the figures given, the effective capital is:",
+      options: [
+        "₹7.00 crore",
+        "₹7.20 crore",
+        "₹7.50 crore",
+        "₹8.20 crore"
+      ],
+      answer: 1
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 39
+   DIFFICULTY: MEDIUM
+   TOPIC: REFUND OF EXCESS REMUNERATION
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS39",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 197(9)",
+    "Section 197(10)",
+    "Refund of Excess Remuneration",
+    "Special Resolution"
+  ],
+
+  caseText: `
+    <p>
+      Metro Infrastructure Limited paid remuneration of ₹18 lakh to its Managing
+      Director, Mr. Dev, during the financial year. Subsequently, it was determined
+      that only ₹12 lakh was permissible under the applicable provisions of the
+      Companies Act, 2013.
+    </p>
+
+    <p>
+      The excess remuneration of ₹6 lakh therefore became refundable to the
+      company. Mr. Dev argues that since the payment had already been made and
+      he had spent the money, he should not be required to refund it.
+    </p>
+
+    <p>
+      The Company Secretary informs him that excess remuneration has to be
+      refunded within the prescribed period and, until refunded, the amount is
+      held by the director in trust for the company.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS39_Q01",
+      difficulty: "Medium",
+      question: "What amount is excess remuneration in the case?",
+      options: [
+        "₹4 lakh",
+        "₹5 lakh",
+        "₹6 lakh",
+        "₹8 lakh"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS39_Q02",
+      difficulty: "Medium",
+      question: "The director is required to:",
+      options: [
+        "Retain the excess amount permanently",
+        "Refund the excess remuneration to the company",
+        "Pay it to the Registrar",
+        "Donate it to the Investor Education Fund"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS39_Q03",
+      difficulty: "Medium",
+      question: "The excess remuneration is required to be refunded within:",
+      options: [
+        "Six months",
+        "One year",
+        "Two years or such lesser period as may be allowed by the company",
+        "Five years"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS39_Q04",
+      difficulty: "Medium",
+      question: "Until the excess remuneration is refunded, the director holds the amount:",
+      options: [
+        "As absolute owner",
+        "As trustee for the company",
+        "On behalf of the Registrar",
+        "As a secured creditor"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS39_Q05",
+      difficulty: "Medium",
+      question: "Can the company waive recovery of excess remuneration?",
+      options: [
+        "Never under any circumstances",
+        "Yes, with approval by special resolution within the prescribed period and subject to applicable conditions",
+        "Yes, by oral approval of the Board",
+        "Yes, automatically after one year"
+      ],
+      answer: 1
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 40
+   DIFFICULTY: MEDIUM
+   TOPIC: COMPENSATION FOR LOSS OF OFFICE
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS40",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 202",
+    "Compensation for Loss of Office",
+    "MD/WTD/Manager",
+    "Prohibition on Compensation"
+  ],
+
+  caseText: `
+    <p>
+      Pioneer Electronics Limited appointed Mr. Sameer as its Managing Director
+      for a five-year term. After three years, the company decides to terminate
+      his office.
+    </p>
+
+    <p>
+      Mr. Sameer claims compensation for loss of office. At the time of his
+      removal, he has two years remaining in his term. His average remuneration
+      during the immediately preceding three years was ₹20 lakh per year.
+    </p>
+
+    <p>
+      During discussions, it is also discovered that Mr. Sameer had been guilty
+      of gross negligence in the conduct of the company's affairs. The Board is
+      therefore examining whether compensation is payable and, if payable, how
+      much can be paid.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS40_Q01",
+      difficulty: "Medium",
+      question: "Compensation for loss of office under Section 202 may be paid to:",
+      options: [
+        "Any shareholder",
+        "Any employee",
+        "MD, WTD or Manager",
+        "Only an independent director"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS40_Q02",
+      difficulty: "Medium",
+      question: "The maximum compensation is generally restricted to remuneration for:",
+      options: [
+        "One year or remaining term, whichever is shorter",
+        "Two years or remaining term, whichever is shorter",
+        "Three years or remaining term, whichever is shorter",
+        "Five years in every case"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS40_Q03",
+      difficulty: "Medium",
+      question: "Mr. Sameer has two years remaining in his term. His average remuneration is ₹20 lakh per year. Subject to eligibility, the maximum compensation based on the remaining term would be:",
+      options: [
+        "₹20 lakh",
+        "₹30 lakh",
+        "₹40 lakh",
+        "₹60 lakh"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS40_Q04",
+      difficulty: "Medium",
+      question: "If Mr. Sameer has been guilty of gross negligence in relation to the conduct of the company's affairs, compensation for loss of office:",
+      options: [
+        "Must always be paid",
+        "Cannot be paid under Section 202",
+        "Can be doubled",
+        "Can be paid only by the auditor"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS40_Q05",
+      difficulty: "Medium",
+      question: "Which of the following is also a ground for prohibition of compensation under Section 202?",
+      options: [
+        "The director receives sitting fees",
+        "The director has been guilty of fraud or breach of trust",
+        "The director has served for five years",
+        "The company has adequate profits"
+      ],
+      answer: 1
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 41
+   DIFFICULTY: MEDIUM
+   TOPIC: SITTING FEES - SECTION 197(5)
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS41",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 197(5)",
+    "Sitting Fees",
+    "Independent Directors",
+    "Women Directors"
+  ],
+
+  caseText: `
+    <p>
+      Vertex Machines Limited is a public company. The Board of Directors is
+      reviewing the sitting fees payable to directors for attending meetings of
+      the Board and its committees.
+    </p>
+
+    <p>
+      At present, the company pays ₹60,000 per meeting to its executive and
+      non-executive directors. Considering the additional responsibilities of
+      certain directors, the Board proposes to pay ₹90,000 per meeting to its
+      independent directors and ₹75,000 per meeting to its woman director.
+    </p>
+
+    <p>
+      Another proposal is placed before the Board to pay ₹1,20,000 per meeting
+      to the Chairman of the Board because of his extensive experience and
+      responsibilities.
+    </p>
+
+    <p>
+      The Company Secretary advises the Board to examine Section 197(5) read
+      with Rule 4 of the Companies (Appointment and Remuneration of Managerial
+      Personnel) Rules, 2014 before approving the proposals.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS41_Q01",
+      difficulty: "Medium",
+      question: "The maximum sitting fee that may be paid to a director for each meeting of the Board or committee thereof is:",
+      options: [
+        "₹50,000",
+        "₹75,000",
+        "₹1,00,000",
+        "₹2,00,000"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS41_Q02",
+      difficulty: "Medium",
+      question: "The proposed sitting fee of ₹90,000 per meeting to independent directors is:",
+      options: [
+        "Invalid because independent directors cannot receive sitting fees",
+        "Valid since it does not exceed ₹1,00,000 per meeting",
+        "Invalid because all directors must receive exactly equal sitting fees",
+        "Valid only with Central Government approval"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS41_Q03",
+      difficulty: "Medium",
+      question: "The sitting fee payable to independent directors and women directors shall:",
+      options: [
+        "Always be exactly twice that of other directors",
+        "Not be less than the sitting fee payable to other directors",
+        "Not exceed 50% of that payable to executive directors",
+        "Always be ₹1,00,000"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS41_Q04",
+      difficulty: "Medium",
+      question: "The proposal to pay ₹1,20,000 per meeting to the Chairman is:",
+      options: [
+        "Valid because he is Chairman",
+        "Valid if approved unanimously by the Board",
+        "Invalid because the prescribed ceiling is ₹1,00,000 per meeting",
+        "Valid if disclosed in the Board's Report"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS41_Q05",
+      difficulty: "Medium",
+      question: "For computing the percentage limits of managerial remuneration under Section 197(1), sitting fees are:",
+      options: [
+        "Included within those percentage limits",
+        "Exclusive of those percentage limits",
+        "Treated as capital expenditure",
+        "Prohibited for all directors receiving remuneration"
+      ],
+      answer: 1
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 42
+   DIFFICULTY: MEDIUM
+   TOPIC: PROFESSIONAL SERVICES BY DIRECTOR - SECTION 197(4)
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS42",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 197(4)",
+    "Professional Services",
+    "Director Remuneration",
+    "Nomination and Remuneration Committee"
+  ],
+
+  caseText: `
+    <p>
+      MediCare Hospitals Limited operates a chain of specialised hospitals.
+      Dr. Aryan, a renowned cardiac surgeon, is also a director of the company.
+      Apart from performing his duties as a director, Dr. Aryan regularly
+      performs complicated cardiac surgeries for patients of the hospitals.
+    </p>
+
+    <p>
+      The company pays him remuneration for his services as director. It now
+      proposes to pay him a separate professional fee of ₹3,00,000 for each
+      complicated cardiac surgery performed by him.
+    </p>
+
+    <p>
+      The finance department argues that every payment made to a director must
+      necessarily be included while computing his managerial remuneration.
+      However, the Company Secretary points out that Section 197(4) contains
+      an exception where services rendered in another capacity are of a
+      professional nature and the director possesses the requisite professional
+      qualification.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS42_Q01",
+      difficulty: "Medium",
+      question: "As a general rule, remuneration payable to a director includes remuneration for services rendered by him:",
+      options: [
+        "Only as director",
+        "In any other capacity also",
+        "Only as an employee",
+        "Only as a consultant"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS42_Q02",
+      difficulty: "Medium",
+      question: "Professional fees paid to Dr. Aryan may be excluded from managerial remuneration if:",
+      options: [
+        "The services are professional in nature and he possesses the requisite qualification",
+        "He owns at least 10% shares",
+        "The company has inadequate profits",
+        "He is also the Managing Director"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS42_Q03",
+      difficulty: "Medium",
+      question: "Where the company is covered under Section 178(1), who should form the opinion that the director possesses the requisite qualification for practice of the profession?",
+      options: [
+        "Statutory Auditor",
+        "Nomination and Remuneration Committee",
+        "Registrar of Companies",
+        "Central Government"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS42_Q04",
+      difficulty: "Medium",
+      question: "If the company is not covered under Section 178(1), the requisite opinion regarding professional qualification may be formed by:",
+      options: [
+        "The Board of Directors",
+        "Any shareholder",
+        "The CFO alone",
+        "The Registrar"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS42_Q05",
+      difficulty: "Medium",
+      question: "Assuming all statutory conditions are fulfilled, the ₹3,00,000 professional fee per surgery:",
+      options: [
+        "Must necessarily form part of managerial remuneration",
+        "Need not be included in managerial remuneration",
+        "Is prohibited because Dr. Aryan is a director",
+        "Can be paid only after Central Government approval"
+      ],
+      answer: 1
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 43
+   DIFFICULTY: MEDIUM
+   TOPIC: D&O INSURANCE PREMIUM - SECTION 197(13)
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS43",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 197(13)",
+    "Insurance",
+    "Managerial Personnel",
+    "Remuneration"
+  ],
+
+  caseText: `
+    <p>
+      Secure Finance Limited has taken an insurance policy on behalf of its
+      Managing Director, Chief Executive Officer, Chief Financial Officer and
+      Company Secretary. The policy indemnifies them against liabilities arising
+      from negligence, default, misfeasance, breach of duty or breach of trust
+      in relation to the company.
+    </p>
+
+    <p>
+      The company pays the entire insurance premium. At the time the policy is
+      taken, the accounts department does not treat the premium as part of the
+      remuneration of the concerned managerial personnel.
+    </p>
+
+    <p>
+      Subsequently, proceedings are initiated against the CFO, and he is
+      ultimately proved guilty of breach of duty in relation to the company.
+      The Board wants to determine the treatment of the insurance premium under
+      Section 197(13).
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS43_Q01",
+      difficulty: "Medium",
+      question: "At the time the insurance is taken, the premium paid for indemnification against specified liabilities is generally:",
+      options: [
+        "Treated as remuneration immediately",
+        "Not treated as part of remuneration",
+        "Treated as dividend",
+        "Treated as sitting fees"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS43_Q02",
+      difficulty: "Medium",
+      question: "Section 197(13) specifically covers insurance taken on behalf of persons including:",
+      options: [
+        "MD, WTD, Manager, CEO, CFO or CS",
+        "Only shareholders",
+        "Only independent directors",
+        "Only auditors"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS43_Q03",
+      difficulty: "Medium",
+      question: "If the CFO is subsequently proved guilty, the premium paid on the insurance relating to him shall be:",
+      options: [
+        "Ignored permanently",
+        "Treated as part of his remuneration",
+        "Treated as dividend",
+        "Recovered only from shareholders"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS43_Q04",
+      difficulty: "Medium",
+      question: "If the insured managerial personnel is not proved guilty, the insurance premium:",
+      options: [
+        "Must always be treated as remuneration",
+        "Shall not be treated as part of remuneration",
+        "Must be treated as commission",
+        "Must be refunded to the insurer"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS43_Q05",
+      difficulty: "Medium",
+      question: "Which of the following liabilities is specifically contemplated under Section 197(13)?",
+      options: [
+        "Negligence or breach of duty",
+        "Personal home loan liability",
+        "Personal income-tax liability unrelated to the company",
+        "Personal credit-card liability"
+      ],
+      answer: 0
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 44
+   DIFFICULTY: MEDIUM
+   TOPIC: RECOVERY OF MANAGERIAL REMUNERATION - SECTION 199
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS44",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 199",
+    "Restatement of Financial Statements",
+    "Recovery of Remuneration",
+    "Past Managerial Personnel"
+  ],
+
+  caseText: `
+    <p>
+      Alpha Retail Limited discovered a material non-compliance with the
+      requirements of the Companies Act, 2013 relating to its financial
+      statements for the financial year 2023-24. The company is consequently
+      required to restate those financial statements.
+    </p>
+
+    <p>
+      After restatement, it is found that the remuneration that should have been
+      payable to the then Managing Director, Mr. Rohan, was ₹45 lakh. However,
+      based on the original financial statements, he had actually received
+      ₹58 lakh, including benefits covered by the relevant provisions.
+    </p>
+
+    <p>
+      Mr. Rohan retired from the company before the restatement. He argues that
+      since he is no longer associated with Alpha Retail Limited and no fraud
+      has personally been established against him, the company cannot recover
+      anything from him.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS44_Q01",
+      difficulty: "Medium",
+      question: "Section 199 may apply where financial statements are required to be restated due to:",
+      options: [
+        "Fraud only",
+        "Fraud or non-compliance with requirements under the Companies Act, 2013 and rules thereunder",
+        "Change of auditor only",
+        "Change in registered office"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS44_Q02",
+      difficulty: "Medium",
+      question: "The amount recoverable from Mr. Rohan is:",
+      options: [
+        "₹45 lakh",
+        "₹58 lakh",
+        "₹13 lakh",
+        "Nil because he has retired"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS44_Q03",
+      difficulty: "Medium",
+      question: "Does Mr. Rohan's retirement by itself prevent recovery under Section 199?",
+      options: [
+        "Yes, because Section 199 applies only to existing officers",
+        "No, because recovery can be made from specified past or present managerial personnel",
+        "Yes, unless shareholders unanimously approve recovery",
+        "Yes, if retirement occurred before restatement"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS44_Q04",
+      difficulty: "Medium",
+      question: "The excess remuneration recoverable under Section 199 is generally:",
+      options: [
+        "The entire remuneration originally received",
+        "50% of remuneration received",
+        "The difference between remuneration actually received and remuneration payable on the basis of restated financial statements",
+        "An amount determined solely by the auditor"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS44_Q05",
+      difficulty: "Medium",
+      question: "Recovery of excess remuneration under Section 199:",
+      options: [
+        "Automatically removes every other liability of the defaulting person",
+        "Does not prejudice any other liability under the Companies Act or other applicable law",
+        "Prevents prosecution under every other law",
+        "Can be made only when the person admits fraud"
+      ],
+      answer: 1
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 45
+   DIFFICULTY: MEDIUM
+   TOPIC: FUNCTIONS OF COMPANY SECRETARY - SECTION 205
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS45",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 205",
+    "Functions of Company Secretary",
+    "Secretarial Standards",
+    "Corporate Governance"
+  ],
+
+  caseText: `
+    <p>
+      Horizon Industries Limited has appointed Ms. Nisha as its whole-time
+      Company Secretary. The Managing Director tells her that her role is
+      restricted to maintaining statutory registers and filing forms with the
+      Registrar of Companies.
+    </p>
+
+    <p>
+      Ms. Nisha explains that the Companies Act, 2013 assigns wider functions
+      to a Company Secretary. These include reporting to the Board regarding
+      compliance, ensuring compliance with applicable secretarial standards,
+      providing guidance to directors regarding their duties and powers,
+      facilitating meetings and maintaining minutes.
+    </p>
+
+    <p>
+      She further states that she may assist and advise the Board on corporate
+      governance matters and represent the company before regulators and other
+      authorities in connection with discharge of duties under the Act.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS45_Q01",
+      difficulty: "Medium",
+      question: "A Company Secretary is required to report to the Board about compliance with:",
+      options: [
+        "Only the Income-tax Act",
+        "The Companies Act, rules made thereunder and other laws applicable to the company",
+        "Only Secretarial Standard-1",
+        "Only directions issued by shareholders"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS45_Q02",
+      difficulty: "Medium",
+      question: "Which of the following is a function of the Company Secretary?",
+      options: [
+        "Ensuring compliance with applicable secretarial standards",
+        "Determining the company's income tax independently",
+        "Replacing the Board of Directors",
+        "Acting as statutory auditor"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS45_Q03",
+      difficulty: "Medium",
+      question: "The Company Secretary may provide directors with guidance regarding:",
+      options: [
+        "Only their remuneration",
+        "Their duties, responsibilities and powers",
+        "Their personal investments",
+        "Their personal tax returns"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS45_Q04",
+      difficulty: "Medium",
+      question: "Which Secretarial Standards are specifically stated in the chapter as approved by the Central Government under Section 118(10)?",
+      options: [
+        "SS-1 and SS-2",
+        "SS-2 and SS-3",
+        "SS-3 and SS-4",
+        "Only SS-5"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS45_Q05",
+      difficulty: "Medium",
+      question: "Assignment of functions to the Company Secretary under Section 205:",
+      options: [
+        "Completely absolves the Board and MD from their statutory duties",
+        "Reduces the Board's responsibility by 50%",
+        "Does not affect the duties and functions of the Board, Chairperson, MD or WTD under applicable law",
+        "Transfers all statutory responsibility to the Company Secretary"
+      ],
+      answer: 2
+    }
+
+  ]
+},
+/* =========================================================
+   CASE SCENARIO 41
+   DIFFICULTY: MEDIUM
+   TOPIC: MANAGING DIRECTOR VS MANAGER - SECTIONS 2(53), 2(54), 196
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS41",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 2(53)",
+    "Section 2(54)",
+    "Section 196(1)",
+    "Managing Director",
+    "Manager"
+  ],
+
+  caseText: `
+    <p>
+      Royal Consumer Products Limited has appointed Mr. Karan as its Managing
+      Director and entrusted him with substantial powers of management of the
+      affairs of the company. He continues to function under the overall
+      supervision and control of the Board of Directors.
+    </p>
+
+    <p>
+      The company now proposes to appoint Mr. Raghav as "Manager – Operations".
+      Under the proposed arrangement, Mr. Raghav will be responsible only for
+      the company's manufacturing and logistics division. He will have no
+      authority over the finance, marketing, human resources or other major
+      functions of the company.
+    </p>
+
+    <p>
+      One director objects to the proposal on the ground that Section 196(1)
+      prohibits a company from appointing a Managing Director and a Manager at
+      the same time. The Company Secretary states that it is first necessary to
+      determine whether Mr. Raghav is a "manager" within the statutory meaning
+      of Section 2(53).
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS41_Q01",
+      difficulty: "Medium",
+      question: "A 'manager' under Section 2(53) must have management of:",
+      options: [
+        "Any one department of the company",
+        "The whole or substantially the whole of the affairs of the company",
+        "Only the finance department",
+        "Only the day-to-day administrative functions"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS41_Q02",
+      difficulty: "Medium",
+      question: "Mr. Raghav, who is proposed to manage only manufacturing and logistics, would:",
+      options: [
+        "Necessarily be a statutory manager under Section 2(53)",
+        "Not be a manager under Section 2(53) merely because his designation contains the word 'Manager'",
+        "Automatically become a Managing Director",
+        "Become a statutory manager only because an MD already exists"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS41_Q03",
+      difficulty: "Medium",
+      question: "Can Royal Consumer Products Limited simultaneously have Mr. Karan as MD and Mr. Raghav as departmental Manager – Operations in the circumstances given?",
+      options: [
+        "No, because the word 'Manager' can never be used when an MD exists",
+        "Yes, because Mr. Raghav does not manage the whole or substantially the whole of the company's affairs",
+        "No, unless Central Government approval is obtained",
+        "Yes, but only if Mr. Raghav is also made a director"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS41_Q04",
+      difficulty: "Medium",
+      question: "If instead Mr. Raghav were entrusted with management of substantially the whole of the company's affairs, while Mr. Karan continued as MD, the arrangement would:",
+      options: [
+        "Be permitted under Section 196(1)",
+        "Contravene Section 196(1)",
+        "Be permitted if both are directors",
+        "Be permitted if the company is public"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS41_Q05",
+      difficulty: "Medium",
+      question: "Which combination is permissible under Section 196(1)?",
+      options: [
+        "Managing Director and statutory Manager",
+        "Managing Director and Whole-time Director",
+        "Two statutory Managers but no MD",
+        "Managing Director and statutory Manager with Board approval"
+      ],
+      answer: 1
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 42
+   DIFFICULTY: MEDIUM
+   TOPIC: SITTING FEES - SECTION 197(5)
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS42",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 197(5)",
+    "Rule 4",
+    "Sitting Fees",
+    "Independent Directors",
+    "Women Directors"
+  ],
+
+  caseText: `
+    <p>
+      Stellar Motors Limited proposes to revise the sitting fees payable to its
+      directors for attending meetings of the Board and its committees. The Board
+      proposes ₹90,000 per meeting for ordinary non-executive directors and
+      ₹75,000 per meeting for independent directors.
+    </p>
+
+    <p>
+      The company also has Ms. Kavya as its Woman Director. The Board proposes
+      to pay her ₹70,000 per meeting on the ground that she recently joined the
+      company and has less experience than the other directors.
+    </p>
+
+    <p>
+      The Company Secretary advises the Board to examine Section 197(5) read with
+      Rule 4 of the Companies (Appointment and Remuneration of Managerial
+      Personnel) Rules, 2014 before implementing the proposed fee structure.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS42_Q01",
+      difficulty: "Medium",
+      question: "The maximum sitting fee that may be paid to a director for each meeting of the Board or committee thereof is:",
+      options: [
+        "₹50,000",
+        "₹75,000",
+        "₹1,00,000",
+        "₹2,00,000"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS42_Q02",
+      difficulty: "Medium",
+      question: "The proposed sitting fee of ₹90,000 per meeting for ordinary non-executive directors is:",
+      options: [
+        "Within the prescribed ceiling",
+        "Invalid because sitting fees cannot exceed ₹50,000",
+        "Invalid unless Central Government approval is obtained",
+        "Valid only for private companies"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS42_Q03",
+      difficulty: "Medium",
+      question: "Can independent directors be paid ₹75,000 when other directors are paid ₹90,000 per meeting?",
+      options: [
+        "Yes, because independent directors need not receive equal sitting fees",
+        "No, because sitting fees payable to independent directors cannot be less than those payable to other directors",
+        "Yes, if approved by the Managing Director",
+        "Yes, if the difference does not exceed ₹25,000"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS42_Q04",
+      difficulty: "Medium",
+      question: "Can Ms. Kavya, the Woman Director, be paid ₹70,000 when other directors receive ₹90,000 per meeting?",
+      options: [
+        "Yes, because experience can determine sitting fees",
+        "No, because sitting fees payable to Women Directors shall not be less than those payable to other directors",
+        "Yes, if she consents",
+        "Yes, because the restriction applies only to independent directors"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS42_Q05",
+      difficulty: "Medium",
+      question: "For the purpose of the percentage ceilings under Section 197(1), sitting fees payable under Section 197(5) are:",
+      options: [
+        "Included in the prescribed percentage limits",
+        "Exclusive of the prescribed percentage limits",
+        "Treated as dividends",
+        "Treated as loans to directors"
+      ],
+      answer: 1
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 43
+   DIFFICULTY: MEDIUM
+   TOPIC: PROFESSIONAL REMUNERATION TO DIRECTOR - SECTION 197(4)
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS43",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 197(4)",
+    "Professional Services",
+    "Additional Remuneration",
+    "Nomination and Remuneration Committee"
+  ],
+
+  caseText: `
+    <p>
+      Medistar Hospitals Limited operates a chain of multi-speciality hospitals.
+      Dr. Aryan, a renowned cardiac surgeon, has recently been appointed as a
+      non-executive director of the company.
+    </p>
+
+    <p>
+      Apart from attending Board meetings, Dr. Aryan continues to perform complex
+      cardiac surgeries at hospitals operated by the company. The company proposes
+      to pay him professional fees of ₹3 lakh for each surgery in addition to the
+      remuneration payable to him as a director.
+    </p>
+
+    <p>
+      Medistar Hospitals Limited is required to constitute a Nomination and
+      Remuneration Committee under Section 178(1). The committee is satisfied
+      that Dr. Aryan possesses the requisite professional qualifications for
+      practising as a cardiac surgeon.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS43_Q01",
+      difficulty: "Medium",
+      question: "As a general rule, remuneration payable to a director for services rendered in another capacity is:",
+      options: [
+        "Always ignored",
+        "Included in the remuneration payable to him as director",
+        "Always treated as sitting fees",
+        "Always prohibited"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS43_Q02",
+      difficulty: "Medium",
+      question: "Professional fees paid to Dr. Aryan may be excluded from managerial remuneration if:",
+      options: [
+        "The services are professional in nature and he possesses the requisite qualification",
+        "He is a shareholder of the company",
+        "He attends every Board meeting",
+        "The fees are below ₹5 lakh"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS43_Q03",
+      difficulty: "Medium",
+      question: "Since Medistar Hospitals Limited is covered under Section 178(1), who should form the opinion regarding Dr. Aryan's requisite professional qualification?",
+      options: [
+        "Statutory Auditor",
+        "Managing Director",
+        "Nomination and Remuneration Committee",
+        "Registrar of Companies"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS43_Q04",
+      difficulty: "Medium",
+      question: "If the professional-services exception is satisfied, the ₹3 lakh fee per surgery:",
+      options: [
+        "Must necessarily be included in the managerial remuneration ceiling",
+        "Need not be included in managerial remuneration",
+        "Cannot legally be paid",
+        "Must be treated as sitting fees"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS43_Q05",
+      difficulty: "Medium",
+      question: "If the company were not covered under Section 178(1), the opinion regarding requisite professional qualification would be formed by:",
+      options: [
+        "Board of Directors",
+        "Registrar of Companies",
+        "Central Government",
+        "Debenture holders"
+      ],
+      answer: 0
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 44
+   DIFFICULTY: MEDIUM
+   TOPIC: D&O INSURANCE PREMIUM - SECTION 197(13)
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS44",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 197(13)",
+    "Insurance Premium",
+    "Indemnification",
+    "Managerial Remuneration"
+  ],
+
+  caseText: `
+    <p>
+      Quantum Energy Limited takes an insurance policy on behalf of its Managing
+      Director, Whole-time Director, Chief Financial Officer and Company Secretary.
+      The policy indemnifies them against liabilities arising from negligence,
+      default, misfeasance, breach of duty or breach of trust in relation to the
+      company.
+    </p>
+
+    <p>
+      The company pays the entire insurance premium. At the time the policy is
+      taken, none of the covered managerial personnel has been proved guilty of
+      any misconduct.
+    </p>
+
+    <p>
+      Two years later, proceedings against the Chief Financial Officer conclude,
+      and he is proved guilty of breach of duty. The finance department seeks
+      advice on the treatment of the premium paid by the company.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS44_Q01",
+      difficulty: "Medium",
+      question: "When insurance is initially taken for indemnifying managerial personnel and they have not been proved guilty, the premium paid is:",
+      options: [
+        "Treated as remuneration in every case",
+        "Not treated as part of remuneration",
+        "Treated as sitting fees",
+        "Treated as dividend"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS44_Q02",
+      difficulty: "Medium",
+      question: "Section 197(13) specifically covers insurance taken on behalf of persons including:",
+      options: [
+        "Only shareholders",
+        "MD, WTD, Manager, CEO, CFO or CS",
+        "Only independent directors",
+        "Only auditors"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS44_Q03",
+      difficulty: "Medium",
+      question: "After the CFO is proved guilty of breach of duty, the premium paid on such insurance in relation to him shall be:",
+      options: [
+        "Ignored permanently",
+        "Treated as part of his remuneration",
+        "Treated as a dividend",
+        "Recovered from shareholders"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS44_Q04",
+      difficulty: "Medium",
+      question: "Which of the following liabilities is contemplated by Section 197(13)?",
+      options: [
+        "Negligence",
+        "Breach of trust",
+        "Misfeasance",
+        "All of the above"
+      ],
+      answer: 3
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS44_Q05",
+      difficulty: "Medium",
+      question: "The decisive event which changes the treatment of the insurance premium into remuneration is:",
+      options: [
+        "Taking the insurance policy",
+        "Payment of the premium",
+        "The personnel being proved guilty",
+        "Appointment of the personnel"
+      ],
+      answer: 2
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 45
+   DIFFICULTY: MEDIUM
+   TOPIC: RECOVERY OF REMUNERATION - SECTION 199
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS45",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 199",
+    "Restatement of Financial Statements",
+    "Recovery of Managerial Remuneration",
+    "Past and Present Managerial Personnel"
+  ],
+
+  caseText: `
+    <p>
+      Galaxy Retail Limited discovers material non-compliance with requirements
+      of the Companies Act, 2013 in its financial statements for the financial
+      year 2024-25. Consequently, the company is required to restate those
+      financial statements.
+    </p>
+
+    <p>
+      Mr. Vishal was the Managing Director during 2024-25 but retired from the
+      company in 2026. Based on the original financial statements, he had received
+      remuneration of ₹72 lakh, including benefits covered by the relevant
+      provisions.
+    </p>
+
+    <p>
+      After restatement, it is determined that the remuneration which would
+      actually have been payable to him was only ₹60 lakh. Mr. Vishal argues that
+      the company cannot recover anything because he has already retired and the
+      restatement arose from non-compliance rather than fraud.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS45_Q01",
+      difficulty: "Medium",
+      question: "Section 199 may apply where financial statements are required to be restated because of:",
+      options: [
+        "Fraud only",
+        "Non-compliance only",
+        "Fraud or non-compliance with requirements under the Act and Rules",
+        "A change in directors only"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS45_Q02",
+      difficulty: "Medium",
+      question: "Can recovery under Section 199 be made from a past Managing Director?",
+      options: [
+        "No, only present managerial personnel are covered",
+        "Yes, past as well as present specified managerial personnel may be covered",
+        "Only if he remains a shareholder",
+        "Only with his consent"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS45_Q03",
+      difficulty: "Medium",
+      question: "Based on the figures given, the excess remuneration recoverable from Mr. Vishal is:",
+      options: [
+        "₹6 lakh",
+        "₹10 lakh",
+        "₹12 lakh",
+        "₹72 lakh"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS45_Q04",
+      difficulty: "Medium",
+      question: "The amount recoverable under Section 199 is essentially:",
+      options: [
+        "The entire remuneration originally paid",
+        "50% of remuneration originally paid",
+        "The difference between remuneration actually received and remuneration payable based on the restated financial statements",
+        "An amount determined solely by the Board"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS45_Q05",
+      difficulty: "Medium",
+      question: "Recovery of excess remuneration under Section 199:",
+      options: [
+        "Automatically eliminates every other liability under law",
+        "Does not prejudice any other liability under the Companies Act, 2013 or any other law",
+        "Prevents criminal proceedings in every case",
+        "Makes the restated financial statements unnecessary"
+      ],
+      answer: 1
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 46
+   DIFFICULTY: MEDIUM
+   TOPIC: SECTION 203 - KMP APPOINTMENT
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS46",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 203",
+    "Key Managerial Personnel",
+    "Rule 8",
+    "Whole-time KMP"
+  ],
+
+  caseText: `
+    <p>
+      Prime Infrastructure Limited is a listed public company. The company has
+      a Managing Director but has not appointed a whole-time Company Secretary
+      or Chief Financial Officer. The Board argues that since the company already
+      has a Managing Director, appointment of other whole-time KMPs is optional.
+    </p>
+
+    <p>
+      The Company Secretary in practice advising the company points out that
+      every company belonging to the prescribed class is required to have the
+      prescribed whole-time Key Managerial Personnel.
+    </p>
+
+    <p>
+      The Board also proposes to appoint a whole-time CFO through an informal
+      understanding with the Managing Director instead of passing a formal
+      Board resolution.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS46_Q01",
+      difficulty: "Medium",
+      question: "Which of the following companies is specifically required to have whole-time KMP under Rule 8?",
+      options: [
+        "Every private company irrespective of capital",
+        "Every listed company",
+        "Every partnership firm",
+        "Every small company"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS46_Q02",
+      difficulty: "Medium",
+      question: "A prescribed company is required to have which combination of whole-time KMP?",
+      options: [
+        "MD/CEO/Manager or, in their absence, WTD, along with CS and CFO",
+        "Only MD",
+        "Only CFO",
+        "Only Company Secretary"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS46_Q03",
+      difficulty: "Medium",
+      question: "The appointment of whole-time KMP should be made by:",
+      options: [
+        "An informal understanding between directors",
+        "A resolution of the Board",
+        "The statutory auditor",
+        "The Registrar of Companies"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS46_Q04",
+      difficulty: "Medium",
+      question: "The Board resolution appointing a whole-time KMP should contain:",
+      options: [
+        "Only the name of the appointee",
+        "Terms and conditions of appointment including remuneration",
+        "Only the employee's qualification",
+        "Only the tenure"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS46_Q05",
+      difficulty: "Medium",
+      question: "The Board's argument that appointment of CFO and CS is optional merely because an MD exists is:",
+      options: [
+        "Correct",
+        "Incorrect because prescribed companies must comply with the KMP requirements",
+        "Correct only for listed companies",
+        "Correct only where profits are inadequate"
+      ],
+      answer: 1
+    }
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 47
+   DIFFICULTY: MEDIUM
+   TOPIC: CHAIRPERSON + MD/CEO
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS47",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 203(1)",
+    "Chairperson",
+    "Managing Director",
+    "CEO",
+    "Multiple Businesses"
+  ],
+
+  caseText: `
+    <p>
+      Diversified Industries Limited is a public company engaged in several
+      independent businesses. Its Articles provide that the Chairperson may also
+      hold the office of Managing Director.
+    </p>
+
+    <p>
+      The Board proposes to appoint Mr. Karan as Chairperson as well as Managing
+      Director. One shareholder objects to the proposal on the ground that an
+      individual cannot simultaneously be Chairperson and Managing Director.
+    </p>
+
+    <p>
+      The Company Secretary explains that Section 203 contains a restriction on
+      such simultaneous appointment, but also provides exceptions. The Articles
+      may permit such combination. Further, certain prescribed companies engaged
+      in multiple businesses and having CEOs for each business are covered by a
+      specific exemption.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS47_Q01",
+      difficulty: "Medium",
+      question: "As a general rule, an individual cannot be appointed as Chairperson and:",
+      options: [
+        "Director",
+        "Managing Director or CEO",
+        "Company Secretary",
+        "CFO"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS47_Q02",
+      difficulty: "Medium",
+      question: "One exception to the prohibition exists where:",
+      options: [
+        "The Articles of the company provide otherwise",
+        "The statutory auditor agrees",
+        "The CFO approves",
+        "The Registrar permits it orally"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS47_Q03",
+      difficulty: "Medium",
+      question: "The special class of companies covered by the second proviso relates to companies which:",
+      options: [
+        "Have only one business",
+        "Are engaged in multiple businesses and have appointed one or more CEOs for each business",
+        "Have no CEO",
+        "Have only private shareholders"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS47_Q04",
+      difficulty: "Medium",
+      question: "For the notified class referred to in the chapter, the paid-up share capital threshold is:",
+      options: [
+        "₹50 crore or more",
+        "₹75 crore or more",
+        "₹100 crore or more",
+        "₹500 crore or more"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS47_Q05",
+      difficulty: "Medium",
+      question: "For the same notified class, the annual turnover threshold is:",
+      options: [
+        "₹100 crore or more",
+        "₹500 crore or more",
+        "₹1,000 crore or more",
+        "₹5,000 crore or more"
+      ],
+      answer: 2
+    }
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 48
+   DIFFICULTY: MEDIUM
+   TOPIC: MD IN MORE THAN ONE COMPANY
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS48",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 203(3)",
+    "MD/Manager in More Than One Company",
+    "Board Resolution",
+    "Consent of Directors"
+  ],
+
+  caseText: `
+    <p>
+      Stellar Holdings Limited proposes to appoint Mr. Vikram as its Managing
+      Director. Mr. Vikram is already the Managing Director of another company.
+      He is therefore potentially holding the position of MD in two companies.
+    </p>
+
+    <p>
+      The Board of Stellar Holdings Limited gives a specific notice of the Board
+      meeting to all directors in India. At the meeting, eight directors are
+      present. Six directors vote in favour of Mr. Vikram's appointment while two
+      directors abstain.
+    </p>
+
+    <p>
+      The Company Secretary advises that merely obtaining a majority of votes is
+      insufficient in this particular situation because the law requires the
+      resolution to be passed with the consent of all directors present at the
+      meeting.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS48_Q01",
+      difficulty: "Medium",
+      question: "A person may, subject to the prescribed conditions, be MD/Manager in:",
+      options: [
+        "Unlimited companies simultaneously",
+        "One company and not more than one other company",
+        "Only one company in all circumstances",
+        "Three unrelated companies automatically"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS48_Q02",
+      difficulty: "Medium",
+      question: "For appointment of Mr. Vikram in the second company, the resolution should be passed with:",
+      options: [
+        "Simple majority of directors present",
+        "Consent of all directors present at the meeting",
+        "Consent of shareholders only",
+        "Consent of the statutory auditor"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS48_Q03",
+      difficulty: "Medium",
+      question: "In the given case, eight directors are present and only six consent. The appointment is:",
+      options: [
+        "Valid because six is a majority",
+        "Valid because two directors abstained",
+        "Not valid because consent of all directors present is required",
+        "Valid after AGM approval automatically"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS48_Q04",
+      difficulty: "Medium",
+      question: "Specific notice of the Board meeting and proposed resolution should be given to:",
+      options: [
+        "Only the Managing Director",
+        "All directors then in India",
+        "Only independent directors",
+        "Only shareholders"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS48_Q05",
+      difficulty: "Medium",
+      question: "The special requirement in this situation primarily concerns:",
+      options: [
+        "Payment of sitting fees",
+        "Appointment of a person as MD/Manager in another company",
+        "Secretarial audit",
+        "Calculation of effective capital"
+      ],
+      answer: 1
+    }
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 49
+   DIFFICULTY: MEDIUM
+   TOPIC: SECTION 196(4) - APPROVAL & FILING
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS49",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 196(4)",
+    "Appointment Procedure",
+    "MR-1",
+    "Central Government Approval",
+    "Registrar Filing"
+  ],
+
+  caseText: `
+    <p>
+      Eastern Motors Limited appoints Mr. Sameer as its Whole-time Director.
+      The Board approves the appointment and its terms and conditions at a Board
+      meeting. The shareholders subsequently approve the appointment at the next
+      general meeting.
+    </p>
+
+    <p>
+      The terms of appointment are at variance with the conditions specified in
+      Part I of Schedule V. The Company Secretary therefore informs the Board
+      that an application for approval of the Central Government is required.
+    </p>
+
+    <p>
+      The Board also wants to ensure that all statutory filings are completed
+      within the prescribed time. The Company Secretary prepares the relevant
+      form and plans to file the return with the Registrar.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS49_Q01",
+      difficulty: "Medium",
+      question: "The appointment and terms of a Managing Director/WTD/Manager must first be approved by:",
+      options: [
+        "The Board at a meeting",
+        "The statutory auditor",
+        "The Registrar",
+        "Only the Central Government"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS49_Q02",
+      difficulty: "Medium",
+      question: "The appointment and terms are also required to be approved by shareholders:",
+      options: [
+        "At the next general meeting",
+        "Only after five years",
+        "Only through postal ballot in every case",
+        "Never"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS49_Q03",
+      difficulty: "Medium",
+      question: "Where the appointment is at variance with Part I of Schedule V, approval is required from:",
+      options: [
+        "Central Government",
+        "Registrar of Companies",
+        "Stock Exchange only",
+        "Statutory Auditor"
+      ],
+      answer: 0
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS49_Q04",
+      difficulty: "Medium",
+      question: "The application to the Central Government for such approval is made in:",
+      options: [
+        "Form AOC-4",
+        "Form MGT-7",
+        "Form MR-2",
+        "Form DIR-3"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS49_Q05",
+      difficulty: "Medium",
+      question: "The prescribed return relating to appointment is required to be filed with the Registrar within:",
+      options: [
+        "30 days",
+        "60 days",
+        "90 days",
+        "180 days"
+      ],
+      answer: 1
+    }
+  ]
+},
+
+
+/* =========================================================
+   CASE SCENARIO 50
+   DIFFICULTY: MEDIUM
+   TOPIC: SECRETARIAL AUDIT - APPLICABILITY & REPORT
+========================================================= */
+
+{
+  case_id: "CEL_CH2_MEDIUM_CS50",
+  difficulty: "Medium",
+  case_chapter: [
+    "Section 204",
+    "Secretarial Audit",
+    "Rule 9",
+    "MR-3",
+    "Board's Report"
+  ],
+
+  caseText: `
+    <p>
+      National Chemicals Limited is a public company. Based on its latest
+      audited financial statements, its paid-up share capital is ₹55 crore,
+      turnover is ₹180 crore and outstanding borrowings from banks and public
+      financial institutions are ₹80 crore.
+    </p>
+
+    <p>
+      The management initially believes that secretarial audit is not necessary
+      because the turnover is below ₹250 crore and outstanding borrowings are
+      below ₹100 crore.
+    </p>
+
+    <p>
+      The Company Secretary points out that the company crosses the prescribed
+      paid-up share capital threshold of ₹50 crore. Accordingly, secretarial
+      audit is applicable.
+    </p>
+
+    <p>
+      The company appoints a Company Secretary in Practice to conduct the
+      secretarial audit. The auditor makes certain observations in the report.
+      The Board is required to consider how those observations should be dealt
+      with in its Board's Report.
+    </p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS50_Q01",
+      difficulty: "Medium",
+      question: "Is secretarial audit applicable to National Chemicals Limited?",
+      options: [
+        "No, because turnover is below ₹250 crore",
+        "No, because borrowings are below ₹100 crore",
+        "Yes, because paid-up share capital is ₹50 crore or more",
+        "Only if shareholders pass a special resolution"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS50_Q02",
+      difficulty: "Medium",
+      question: "Who is authorised to conduct/give the Secretarial Audit Report?",
+      options: [
+        "Statutory auditor",
+        "Company Secretary in Practice",
+        "CFO",
+        "Internal auditor"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS50_Q03",
+      difficulty: "Medium",
+      question: "The Secretarial Audit Report is required to be given in:",
+      options: [
+        "Form MR-1",
+        "Form MR-2",
+        "Form MR-3",
+        "Form AOC-4"
+      ],
+      answer: 2
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS50_Q04",
+      difficulty: "Medium",
+      question: "The company is required to annex the Secretarial Audit Report with:",
+      options: [
+        "Notice of AGM",
+        "Board's Report",
+        "Auditor's Report only",
+        "Annual Return only"
+      ],
+      answer: 1
+    },
+
+    {
+      question_id: "CEL_CH2_MEDIUM_CS50_Q05",
+      difficulty: "Medium",
+      question: "If the Company Secretary in Practice makes a qualification or observation in the Secretarial Audit Report, the Board should:",
+      options: [
+        "Ignore it",
+        "Explain it in full in the Board's Report",
+        "Remove the Company Secretary",
+        "Seek approval from shareholders before mentioning it"
+      ],
+      answer: 1
+    }
+  ]
+},
+
+// ============================================================
+// CASE SCENARIO 51
+// DIFFICULTY: HARD
+// CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
+// ============================================================
+
+{
+    case_id: "CEL_CH2_CS51",
+    difficulty: "Hard",
+    case_chapter: [
+        "Appointment of Managing Director",
+        "Whole-time Director",
+        "Manager",
+        "Section 196"
+    ],
+
+    caseText: `
+        <p>
+            <strong>Pragati Engineering Limited</strong> is a public company engaged in
+            the manufacture of industrial machinery. The company presently has a
+            Managing Director, Mr. Arjun Mehta, whose five-year tenure is due to expire
+            on 30 June 2027.
+        </p>
+
+        <p>
+            The Board is considering the future managerial structure of the company.
+            One proposal is to re-appoint Mr. Arjun Mehta for another five-year term.
+            The Board proposes to approve his re-appointment in its meeting scheduled
+            for 15 August 2026 and place the matter before the shareholders at the next
+            general meeting.
+        </p>
+
+        <p>
+            Another proposal is to appoint Mr. Bharat Rao as Manager for a period of
+            five years from 1 July 2027. Some directors believe that since Mr. Arjun
+            Mehta's tenure as Managing Director would have expired before Mr. Bharat
+            Rao's appointment takes effect, both appointments can coexist during the
+            transition period.
+        </p>
+
+        <p>
+            During its discussion, the Board also identifies Ms. Charu Sharma, aged
+            72 years, as a possible candidate for Managing Director. The Board is
+            informed that a person who has attained the age of 70 years may be
+            appointed if the required special resolution is passed by the company in
+            general meeting and the explanatory statement contains the justification
+            for such appointment.
+        </p>
+
+        <p>
+            The company also considers appointing Mr. Dev as Manager of its Finance
+            Department. Mr. Dev would be responsible only for the finance department
+            and would work under the overall supervision of the Managing Director and
+            the Board. Some directors argue that appointing Mr. Dev as Manager would
+            violate the prohibition against appointing a Managing Director and Manager
+            simultaneously.
+        </p>
+
+        <p>
+            The Board seeks advice on the correct application of the provisions relating
+            to appointment and re-appointment of managerial personnel.
+        </p>
+    `,
+
+    questions: [
+
+        {
+            question_id: "CEL_CH2_CS51_Q1",
+            difficulty: "Hard",
+            question: `
+                Mr. Arjun Mehta's existing tenure as Managing Director expires on
+                30 June 2027. The Board proposes to re-appoint him on 15 August
+                2026. Is the proposed re-appointment permissible under Section 196?
+            `,
+            options: [
+                "Yes, because re-appointment may be made at any time before expiry of the existing term.",
+                "Yes, because re-appointment can be made more than one year before expiry if approved by the Board.",
+                "No, because re-appointment cannot be made earlier than one year before expiry of the existing term.",
+                "No, because re-appointment is possible only after expiry of the existing term."
+            ],
+            answer: 2,
+            reason: `
+                Section 196(2) provides that no re-appointment shall be made earlier
+                than one year before the expiry of the existing term. Since the existing
+                term expires on 30 June 2027, re-appointment cannot be made before
+                1 July 2026. Therefore, the proposed re-appointment on 15 August 2026
+                is permissible.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS51_Q2",
+            difficulty: "Hard",
+            question: `
+                The Board proposes to appoint Mr. Bharat Rao as Manager for five years
+                commencing from 1 July 2027. Assuming Mr. Arjun Mehta continues as
+                Managing Director up to 30 June 2027 and Mr. Bharat's appointment
+                starts only thereafter, which statement is correct?
+            `,
+            options: [
+                "The appointment is prohibited because a company can never appoint a Manager after having appointed an MD.",
+                "The appointment is permissible provided Mr. Arjun's tenure as MD has actually ended before Mr. Bharat's appointment as Manager begins.",
+                "The appointment is prohibited because an MD and Manager can never exist in the same company under any circumstances.",
+                "The appointment is automatically valid even if Mr. Arjun continues as MD."
+            ],
+            answer: 1,
+            reason: `
+                Section 196(1) prohibits a company from appointing or employing a
+                Managing Director and a Manager at the same time. If Mr. Arjun ceases
+                to be MD before Mr. Bharat's appointment as Manager takes effect,
+                the simultaneous holding of the two offices does not arise.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS51_Q3",
+            difficulty: "Hard",
+            question: `
+                Ms. Charu Sharma is aged 72 years. Which of the following would
+                ordinarily permit her appointment as Managing Director?
+            `,
+            options: [
+                "Approval by the Board alone.",
+                "Recommendation by an existing Whole-time Director.",
+                "Special resolution passed by the company in general meeting, with justification stated in the explanatory statement.",
+                "Ordinary resolution passed by the shareholders without any further requirement."
+            ],
+            answer: 2,
+            reason: `
+                Section 196(3)(a) prohibits appointment of a person who has attained
+                70 years, but permits such appointment where a special resolution is
+                passed by the company in general meeting. The explanatory statement
+                annexed to the notice must indicate the justification for appointing
+                such person.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS51_Q4",
+            difficulty: "Medium",
+            question: `
+                Mr. Dev is proposed to be appointed as "Manager" only for the Finance
+                Department. He will not have management of the whole or substantially
+                the whole affairs of Pragati Engineering Limited. Does Section 196(1)
+                prohibit his appointment merely because the company already has an MD?
+            `,
+            options: [
+                "Yes, because every departmental head is treated as a Manager under Section 2(53).",
+                "Yes, because no employee can be appointed as Manager when an MD exists.",
+                "No, because a departmental head who does not manage the whole or substantially the whole affairs of the company is not a Manager within Section 2(53).",
+                "No, but only if Mr. Dev is appointed as an independent director."
+            ],
+            answer: 2,
+            reason: `
+                Section 2(53) defines Manager as an individual having management of
+                the whole, or substantially the whole, of the affairs of the company.
+                A person heading only a particular department does not fall within
+                this definition. Therefore, Section 196(1)'s prohibition against
+                simultaneous appointment of MD and Manager does not apply merely
+                because the designation used is "Manager".
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS51_Q5",
+            difficulty: "Hard",
+            question: `
+                Suppose Pragati Engineering Limited appoints Ms. Charu Sharma,
+                aged 72 years, as Managing Director without passing the required
+                special resolution. However, at the general meeting, the votes in
+                favour of the appointment exceed the votes against it. Which is the
+                most appropriate course available under the provisions discussed?
+            `,
+            options: [
+                "The appointment is permanently void and cannot be regularised.",
+                "The Board may itself regularise the appointment without shareholder involvement.",
+                "The company may apply to the Central Government, which may approve the appointment if satisfied that it is most beneficial to the company.",
+                "The company must approach the NCLT for approval in every such case."
+            ],
+            answer: 2,
+            reason: `
+                Where the special resolution is not passed but the votes cast in
+                favour exceed the votes cast against, the Central Government may,
+                on an application made by the Board, approve the appointment if it
+                is satisfied that such appointment is most beneficial to the company.
+            `
+        }
+
+    ]
+},
+
+// ============================================================
+// CASE SCENARIO 52
+// DIFFICULTY: HARD
+// CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
+// ============================================================
+
+{
+    case_id: "CEL_CH2_CS52",
+    difficulty: "Hard",
+    case_chapter: [
+        "Key Managerial Personnel",
+        "Section 203",
+        "Multiple Company Appointments",
+        "Vacancy of KMP"
+    ],
+
+    caseText: `
+        <p>
+            <strong>Vertex Consumer Products Limited</strong> is a listed public
+            company. The company has a Managing Director, a Company Secretary and
+            a Chief Financial Officer as its whole-time Key Managerial Personnel.
+        </p>
+
+        <p>
+            Mr. Rohan Kapoor, who is the Chief Financial Officer of Vertex Consumer
+            Products Limited, has been approached by its wholly-owned subsidiary,
+            Vertex Consumer Products Manufacturing Private Limited, to become a
+            whole-time director. Mr. Rohan wishes to continue as CFO of the holding
+            company while accepting the proposed office in the subsidiary.
+        </p>
+
+        <p>
+            At the same time, the company proposes to appoint Ms. Neha as Company
+            Secretary. The Board plans to pass the resolution through circulation
+            because the directors consider the appointment routine and do not wish
+            to convene a Board meeting.
+        </p>
+
+        <p>
+            Shortly afterwards, the existing CFO resigns from Vertex Consumer Products
+            Limited. The Board decides to appoint a replacement after eight months,
+            stating that the company needs sufficient time to identify a suitable
+            candidate.
+        </p>
+
+        <p>
+            The Board also considers appointing Mr. Sameer, who is already the
+            Managing Director of another company, as the Managing Director of Vertex.
+            The directors intend to pass the resolution by a simple majority of the
+            directors present at the meeting.
+        </p>
+
+        <p>
+            The company seeks advice regarding the restrictions and procedural
+            requirements applicable to whole-time KMPs and managerial personnel.
+        </p>
+    `,
+
+    questions: [
+
+        {
+            question_id: "CEL_CH2_CS52_Q1",
+            difficulty: "Hard",
+            question: `
+                Can Mr. Rohan Kapoor continue as CFO of Vertex Consumer Products
+                Limited while becoming a whole-time director of its subsidiary?
+            `,
+            options: [
+                "No, because a whole-time KMP can never hold office in another company.",
+                "Yes, because a whole-time KMP may hold office in more than one company where the other company is its subsidiary.",
+                "Yes, but only if the Central Government gives approval.",
+                "No, unless the shareholders of both companies pass special resolutions."
+            ],
+            answer: 1,
+            reason: `
+                Section 203(3) provides that a whole-time KMP shall not hold office
+                in more than one company at the same time except in its subsidiary
+                company. Therefore, the appointment in the subsidiary is permitted.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS52_Q2",
+            difficulty: "Medium",
+            question: `
+                The Board proposes to appoint Ms. Neha as Company Secretary through
+                a resolution by circulation. Which is the correct position?
+            `,
+            options: [
+                "The appointment can be made by circulation because KMP appointments are routine matters.",
+                "The appointment must be made by means of a Board resolution passed at a Board meeting.",
+                "The appointment requires only an ordinary resolution of shareholders.",
+                "The appointment requires approval of the Central Government."
+            ],
+            answer: 1,
+            reason: `
+                Under Section 203(2), every whole-time KMP shall be appointed by
+                means of a resolution of the Board containing the terms and
+                conditions of appointment, including remuneration. Rule 8 of the
+                Companies (Meetings of Board and its Powers) Rules requires the
+                appointment or removal of KMP to be made through a Board resolution
+                at a meeting of the Board.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS52_Q3",
+            difficulty: "Hard",
+            question: `
+                The existing CFO resigns and the Board plans to fill the vacancy
+                after eight months. Is this permissible?
+            `,
+            options: [
+                "Yes, because there is no statutory time limit for filling a KMP vacancy.",
+                "Yes, provided shareholders approve the delay.",
+                "No, the resulting vacancy of whole-time KMP must be filled by the Board at a meeting within six months from the date of vacancy.",
+                "No, the vacancy must be filled within thirty days."
+            ],
+            answer: 2,
+            reason: `
+                Section 203(4) requires that if the office of any whole-time KMP is
+                vacated, the resulting vacancy shall be filled by the Board at a
+                meeting within six months from the date of such vacancy.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS52_Q4",
+            difficulty: "Hard",
+            question: `
+                Mr. Sameer is already Managing Director of another company. Vertex
+                proposes to appoint him as its Managing Director. Which additional
+                requirement is relevant for such appointment?
+            `,
+            options: [
+                "The appointment is prohibited in all circumstances.",
+                "The appointment can be made only if Mr. Sameer resigns from the other company.",
+                "He may be MD/Manager in one company and another company, subject to a Board resolution passed with the consent of all directors present and specific notice being given to all directors then in India.",
+                "The appointment can be made by ordinary majority of directors without any special notice."
+            ],
+            answer: 2,
+            reason: `
+                Section 203(3) permits a person to be MD/Manager in one company and
+                another company subject to the prescribed conditions. The relevant
+                Board resolution must be passed with the consent of all directors
+                present at the meeting, and specific notice of the meeting and the
+                proposed resolution must be given to all directors then in India.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS52_Q5",
+            difficulty: "Hard",
+            question: `
+                In the Board meeting for Mr. Sameer's appointment, 8 directors are
+                present. Six vote in favour and two abstain. Specific notice had been
+                properly given. Is the resolution valid?
+            `,
+            options: [
+                "Yes, because six out of eight directors voted in favour.",
+                "Yes, because abstention is treated as consent.",
+                "No, because the resolution requires the consent of all directors present at the meeting.",
+                "No, because unanimous approval of all shareholders is required."
+            ],
+            answer: 2,
+            reason: `
+                Where a person is already MD/Manager in another company and is
+                proposed to be appointed as MD/Manager in another company, the
+                relevant Board resolution must be passed with the consent of all
+                directors present at the meeting. Since two directors did not give
+                consent, the requirement is not satisfied.
+            `
+        }
+
+    ]
+},
+
+// ============================================================
+// CASE SCENARIO 53
+// DIFFICULTY: HARD
+// CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
+// ============================================================
+
+{
+    case_id: "CEL_CH2_CS53",
+    difficulty: "Hard",
+    case_chapter: [
+        "Functions of Company Secretary",
+        "Section 205",
+        "Secretarial Standards",
+        "Board Responsibilities"
+    ],
+
+    caseText: `
+        <p>
+            <strong>Zenith Infrastructure Limited</strong> is a listed company
+            having a whole-time Company Secretary, Ms. Priya Menon. During the
+            financial year, the Board of Directors assigns her several responsibilities
+            relating to corporate compliance and governance.
+        </p>
+
+        <p>
+            Ms. Priya is required to report to the Board regarding compliance with
+            the Companies Act, 2013, the rules made thereunder and other applicable
+            laws. She is also asked to ensure compliance with applicable secretarial
+            standards and to provide guidance to directors regarding their duties,
+            responsibilities and powers.
+        </p>
+
+        <p>
+            The company is preparing for its forthcoming Board and general meetings.
+            Ms. Priya is responsible for facilitating the convening of the meetings,
+            attending them and maintaining the minutes. She is also asked to obtain
+            necessary approvals from the Board, general meeting, Government and
+            other authorities wherever required.
+        </p>
+
+        <p>
+            During an internal review, some directors argue that since the Company
+            Secretary is responsible for compliance, the Board and Managing Director
+            should no longer be personally responsible for compliance failures.
+            Another director suggests that the Company Secretary should represent
+            the company before regulators and assist the Board in maintaining good
+            corporate governance.
+        </p>
+
+        <p>
+            The Board seeks advice regarding the precise scope of the Company
+            Secretary's statutory functions and whether assigning these duties
+            reduces the responsibilities of other key functionaries.
+        </p>
+    `,
+
+    questions: [
+
+        {
+            question_id: "CEL_CH2_CS53_Q1",
+            difficulty: "Medium",
+            question: `
+                Which of the following is a statutory function of the Company
+                Secretary under Section 205?
+            `,
+            options: [
+                "To determine the company's annual profit.",
+                "To report to the Board about compliance with applicable laws.",
+                "To approve the company's financial statements independently.",
+                "To appoint all directors without Board approval."
+            ],
+            answer: 1,
+            reason: `
+                Section 205 requires the Company Secretary to report to the Board
+                about compliance with the Companies Act, rules made thereunder and
+                other applicable laws.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS53_Q2",
+            difficulty: "Medium",
+            question: `
+                Ms. Priya is required to ensure compliance with applicable
+                secretarial standards. Which statement correctly describes
+                "secretarial standards" for this purpose?
+            `,
+            options: [
+                "Standards issued by the Ministry of Finance without approval.",
+                "Standards issued by ICAI and approved by the Central Government.",
+                "Standards issued by the Institute of Company Secretaries of India and approved by the Central Government.",
+                "Internal standards framed by the company's Board."
+            ],
+            answer: 2,
+            reason: `
+                Secretarial standards refer to standards issued by the Institute of
+                Company Secretaries of India under the Company Secretaries Act,
+                1980 and approved by the Central Government.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS53_Q3",
+            difficulty: "Hard",
+            question: `
+                Ms. Priya is asked to facilitate meetings, attend Board, committee
+                and general meetings and maintain their minutes. Which statement
+                is correct?
+            `,
+            options: [
+                "These functions fall within the statutory functions of the Company Secretary.",
+                "Only the Managing Director can perform these functions.",
+                "The Company Secretary may facilitate meetings but cannot maintain minutes.",
+                "These functions can be performed only by an independent director."
+            ],
+            answer: 0,
+            reason: `
+                Section 205 and Rule 10 specifically include facilitating the
+                convening of meetings, attending Board, committee and general
+                meetings and maintaining the minutes of such meetings among the
+                functions of the Company Secretary.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS53_Q4",
+            difficulty: "Hard",
+            question: `
+                The Company Secretary obtains approvals from the Board, general
+                meeting, Government and other authorities wherever required.
+                Is this within her statutory functions?
+            `,
+            options: [
+                "No, a Company Secretary can obtain only Board approvals.",
+                "No, Government approvals can be obtained only by the Managing Director.",
+                "Yes, obtaining required approvals from the Board, general meeting, Government and other authorities is a statutory function.",
+                "Yes, but only when specifically authorised by shareholders through a special resolution."
+            ],
+            answer: 2,
+            reason: `
+                One of the functions prescribed under Section 205 read with
+                Rule 10 is to obtain approvals from the Board, general meeting,
+                Government and such other authorities as required under the
+                Companies Act, 2013.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS53_Q5",
+            difficulty: "Hard",
+            question: `
+                The Board argues that because Ms. Priya is responsible for
+                compliance and corporate governance, the Board and Managing
+                Director are relieved of their statutory duties. Which is correct?
+            `,
+            options: [
+                "Correct, because Section 205 transfers the Board's responsibilities to the CS.",
+                "Correct, but only in relation to secretarial matters.",
+                "Incorrect, because Section 205 does not affect the duties and functions of the Board, Chairperson, MD or WTD.",
+                "Incorrect only where the company is listed."
+            ],
+            answer: 2,
+            reason: `
+                Section 205(2) specifically provides that the provisions relating
+                to secretarial audit and functions of the Company Secretary do not
+                affect the duties and functions of the Board of Directors,
+                Chairperson, Managing Director or Whole-time Director. Their
+                statutory responsibilities continue notwithstanding the functions
+                performed by the Company Secretary.
+            `
+        }
+
+    ]
+},
+
+// ============================================================
+// CASE SCENARIO 54
+// DIFFICULTY: HARD
+// CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
+// ============================================================
+
+{
+    case_id: "CEL_CH2_CS54",
+    difficulty: "Hard",
+    case_chapter: [
+        "Overall Maximum Managerial Remuneration",
+        "Section 197",
+        "Managerial Remuneration Limits",
+        "Special Resolution"
+    ],
+
+    caseText: `
+        <p>
+            <strong>Alpha Technologies Limited</strong> is a public company having
+            adequate profits during the financial year 2026-27. The company has
+            one Managing Director, Mr. Karan, and two Whole-time Directors,
+            Ms. Riya and Mr. Sameer. It also has four directors who are neither
+            Managing Directors nor Whole-time Directors.
+        </p>
+
+        <p>
+            The Board proposes to determine the remuneration payable to its
+            managerial personnel and other directors by reference to the net
+            profits of the company computed in accordance with Section 198.
+            The Board is aware that the overall managerial remuneration payable
+            to directors, including the Managing Director, Whole-time Directors
+            and Manager, is subject to a statutory ceiling.
+        </p>
+
+        <p>
+            The company proposes to pay Mr. Karan, the Managing Director, 5% of
+            the net profits. The two Whole-time Directors together are proposed
+            to receive another 5% of the net profits. The four other directors
+            are proposed to receive remuneration aggregating to 2% of the net
+            profits.
+        </p>
+
+        <p>
+            Some directors argue that each category can be considered separately
+            and therefore the company can pay all the proposed amounts without
+            any further approval. Others believe that the aggregate remuneration
+            has to be examined against the overall ceiling and that certain
+            individual limits can be exceeded only through shareholder approval.
+        </p>
+
+        <p>
+            The company has also defaulted in repayment of certain dues to a
+            public financial institution. The Board therefore wants to understand
+            whether the approval of the financial institution is relevant before
+            seeking shareholder approval for remuneration exceeding the prescribed
+            limits.
+        </p>
+    `,
+
+    questions: [
+
+        {
+            question_id: "CEL_CH2_CS54_Q1",
+            difficulty: "Medium",
+            question: `
+                What is the overall maximum managerial remuneration payable by a
+                public company to its directors, including MD, WTD and Manager,
+                in respect of a financial year, subject to the statutory provisions?
+            `,
+            options: [
+                "5% of net profits",
+                "10% of net profits",
+                "11% of net profits",
+                "15% of net profits"
+            ],
+            answer: 2,
+            reason: `
+                Under Section 197(1), the overall managerial remuneration payable
+                by a public company to its directors, including managing director,
+                whole-time director and manager, shall not exceed 11% of the net
+                profits of the company for that financial year, subject to the
+                provisions of the Act and Schedule V.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS54_Q2",
+            difficulty: "Hard",
+            question: `
+                Since Alpha Technologies Limited has one Managing Director,
+                what is the normal maximum remuneration payable to Mr. Karan
+                as Managing Director without approval by special resolution?
+            `,
+            options: [
+                "1% of net profits",
+                "3% of net profits",
+                "5% of net profits",
+                "10% of net profits"
+            ],
+            answer: 2,
+            reason: `
+                Where there is one Managing Director, Whole-time Director or
+                Manager, the remuneration payable to that individual is ordinarily
+                limited to 5% of the net profits. The limit may be exceeded with
+                approval of the company in general meeting by special resolution.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS54_Q3",
+            difficulty: "Hard",
+            question: `
+                The company has more than one Managing Director/Whole-time
+                Director/Manager. What is the prescribed combined limit for all
+                such managerial personnel before special resolution approval?
+            `,
+            options: [
+                "5% of net profits",
+                "8% of net profits",
+                "10% of net profits",
+                "11% of net profits"
+            ],
+            answer: 2,
+            reason: `
+                Where there is more than one Managing Director, Whole-time
+                Director or Manager, the remuneration payable to all such
+                managerial personnel taken together shall not exceed 10% of the
+                net profits, subject to the provisions of Section 197.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS54_Q4",
+            difficulty: "Hard",
+            question: `
+                The four directors who are neither Managing Directors nor
+                Whole-time Directors are proposed to receive remuneration
+                aggregating to 2% of net profits. Since the company has a
+                Managing Director, what approval is ordinarily required to
+                exceed the prescribed 1% limit?
+            `,
+            options: [
+                "No approval is required because the overall 11% limit is not relevant.",
+                "Approval of the Board alone is sufficient.",
+                "Approval of the company in general meeting by passing a special resolution is required.",
+                "Approval of the Central Government is mandatory."
+            ],
+            answer: 2,
+            reason: `
+                Where there is a Managing Director, Whole-time Director or Manager,
+                remuneration payable to directors who are neither MD nor WTD is
+                ordinarily limited to 1% of net profits. The limit may be exceeded
+                with approval of the company in general meeting by special
+                resolution.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS54_Q5",
+            difficulty: "Hard",
+            question: `
+                Alpha Technologies Limited has defaulted in payment of dues to a
+                public financial institution. It proposes to seek shareholder
+                approval for remuneration exceeding the prescribed limit. What
+                additional requirement applies before obtaining such approval?
+            `,
+            options: [
+                "Prior approval of the public financial institution must be obtained.",
+                "Only approval of the Central Government is required.",
+                "No additional approval is necessary once the shareholders approve.",
+                "Prior approval of the Registrar of Companies must be obtained."
+            ],
+            answer: 0,
+            reason: `
+                Where the company has defaulted in payment of dues to a bank,
+                public financial institution, non-convertible debenture holders or
+                other secured creditors, the company must obtain the prior approval
+                of the relevant creditor before obtaining approval in the general
+                meeting for remuneration where such prior approval is prescribed.
+            `
+        }
+
+    ]
+},
+
+// ============================================================
+// CASE SCENARIO 55
+// DIFFICULTY: HARD
+// CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
+// ============================================================
+
+{
+    case_id: "CEL_CH2_CS55",
+    difficulty: "Hard",
+    case_chapter: [
+        "Managerial Remuneration",
+        "Absence or Inadequacy of Profits",
+        "Schedule V",
+        "Effective Capital"
+    ],
+
+    caseText: `
+        <p>
+            <strong>Nova Industrial Systems Limited</strong> is a public company
+            which has suffered inadequate profits during the financial year
+            2026-27. The company has a Managing Director, Mr. Aditya, and a
+            Whole-time Director, Ms. Kavya. Their appointment terms provide that
+            where the company has no profits or inadequate profits, remuneration
+            shall be governed by Schedule V to the Companies Act, 2013.
+        </p>
+
+        <p>
+            The company's effective capital, determined in accordance with
+            Schedule V, is <strong>₹80 crore</strong>. The Board proposes to pay
+            Mr. Aditya managerial remuneration of ₹84 lakh for the year and
+            Ms. Kavya remuneration of ₹84 lakh for the year.
+        </p>
+
+        <p>
+            The finance team points out that the company has also incurred certain
+            accumulated losses and holds investments which have to be considered
+            while determining effective capital. The Board therefore decides to
+            verify the calculation before approving the remuneration.
+        </p>
+
+        <p>
+            The Board further proposes to pay remuneration above the prescribed
+            Schedule V limit if the shareholders approve it. One director argues
+            that an ordinary resolution is sufficient for any excess remuneration,
+            while another director believes that a special resolution is required.
+        </p>
+
+        <p>
+            The company also considers appointing a managerial person for only
+            six months during the financial year and seeks clarification on whether
+            the annual remuneration ceiling should be applied in full or adjusted
+            for the shorter period.
+        </p>
+    `,
+
+    questions: [
+
+        {
+            question_id: "CEL_CH2_CS55_Q1",
+            difficulty: "Medium",
+            question: `
+                Nova Industrial Systems Limited has effective capital of ₹80 crore
+                and inadequate profits. What is the maximum yearly remuneration
+                ordinarily payable to a managerial person under Section II of
+                Part II of Schedule V?
+            `,
+            options: [
+                "₹60 lakh",
+                "₹84 lakh",
+                "₹120 lakh",
+                "₹17 lakh"
+            ],
+            answer: 1,
+            reason: `
+                Where effective capital is ₹5 crore and above but less than
+                ₹100 crore, the prescribed annual remuneration limit for a
+                managerial person is ₹84 lakh.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS55_Q2",
+            difficulty: "Hard",
+            question: `
+                Nova proposes to pay both Mr. Aditya and Ms. Kavya ₹84 lakh each.
+                Assuming both are managerial persons and all other Schedule V
+                conditions are satisfied, what is the maximum aggregate amount
+                ordinarily payable to them under the individual Schedule V limits?
+            `,
+            options: [
+                "₹84 lakh",
+                "₹1.20 crore",
+                "₹1.68 crore",
+                "₹2.40 crore"
+            ],
+            answer: 2,
+            reason: `
+                The Schedule V ceiling of ₹84 lakh applies to each managerial
+                person separately. Therefore, for two managerial persons, the
+                aggregate amount within their respective individual limits would
+                be ₹84 lakh + ₹84 lakh = ₹1.68 crore, assuming all applicable
+                conditions are satisfied.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS55_Q3",
+            difficulty: "Hard",
+            question: `
+                The company wishes to pay remuneration exceeding the prescribed
+                Schedule V limits applicable to the managerial persons. What type
+                of shareholder approval is generally required for such excess?
+            `,
+            options: [
+                "No shareholder approval is required.",
+                "Ordinary resolution.",
+                "Special resolution.",
+                "Approval of the Central Government alone."
+            ],
+            answer: 2,
+            reason: `
+                Under Section II of Part II of Schedule V, remuneration in excess
+                of the prescribed limits may be paid if the resolution passed by
+                the shareholders is a special resolution, subject to the other
+                applicable conditions of Schedule V.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS55_Q4",
+            difficulty: "Hard",
+            question: `
+                Suppose Mr. Aditya is appointed only for six months during the
+                financial year. How should the annual Schedule V remuneration
+                limit generally be applied?
+            `,
+            options: [
+                "The full annual limit is always available regardless of tenure.",
+                "The limit must be reduced by exactly 50% in every case.",
+                "The applicable limit is to be pro-rated for the period of appointment.",
+                "No remuneration can be paid for a period shorter than one year."
+            ],
+            answer: 2,
+            reason: `
+                Explanation 3 to Section II of Part II of Schedule V clarifies that
+                where the period is less than one year, the prescribed limits are
+                to be pro-rated. Therefore, remuneration for a six-month period
+                would ordinarily be calculated proportionately.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS55_Q5",
+            difficulty: "Very Hard",
+            question: `
+                During verification of effective capital, the company discovers that
+                it had included revaluation reserve in "Reserves and Surplus".
+                It also included a working capital cash-credit facility as a
+                long-term loan. How should these items be treated while computing
+                effective capital?
+            `,
+            options: [
+                "Both items are included in effective capital.",
+                "Revaluation reserve is included, but working capital loans are excluded.",
+                "Both revaluation reserve and working capital loans are excluded from the calculation of effective capital.",
+                "Revaluation reserve is excluded, but working capital loans are included as long-term capital."
+            ],
+            answer: 2,
+            reason: `
+                Effective capital includes reserves and surplus excluding
+                revaluation reserve. It also includes long-term loans and deposits
+                repayable after one year, but specifically excludes working capital
+                loans and similar short-term arrangements. Therefore, both the
+                revaluation reserve and working-capital borrowing are excluded.
+            `
+        }
+
+    ]
+},
+
+// ============================================================
+// CASE SCENARIO 56
+// DIFFICULTY: HARD
+// CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
+// ============================================================
+
+{
+    case_id: "CEL_CH2_CS56",
+    difficulty: "Hard",
+    case_chapter: [
+        "Effective Capital",
+        "Schedule V",
+        "No Profit or Inadequate Profit",
+        "Managerial Remuneration"
+    ],
+
+    caseText: `
+        <p>
+            <strong>Orion Manufacturing Limited</strong> is a public company engaged
+            in the manufacture of electrical equipment. During the financial year
+            2026-27, the company has inadequate profits and therefore proposes to
+            determine the remuneration payable to its Managing Director, Mr. Arvind,
+            under Section II of Part II of Schedule V.
+        </p>
+
+        <p>
+            The finance department has prepared the following information as at
+            31 March 2027:
+        </p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Particulars</th>
+                    <th>Amount (₹ lakh)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Paid-up share capital</td>
+                    <td>600</td>
+                </tr>
+                <tr>
+                    <td>Share premium</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>Reserves and surplus</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>Revaluation reserve included in reserves</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Long-term loan repayable after one year</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Working capital cash-credit facility</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>Investments</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Accumulated losses</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Preliminary expenses not written off</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>
+            The company proposes to treat the entire reserves and surplus of
+            ₹120 lakh as part of effective capital. It also proposes to include
+            the working capital cash-credit facility on the ground that it is
+            secured against the company's assets.
+        </p>
+
+        <p>
+            Mr. Arvind argues that because the company has inadequate profits,
+            the remuneration ceiling should be determined on the basis of the
+            paid-up capital alone. The finance director, however, states that
+            Schedule V requires a specific computation of effective capital.
+        </p>
+
+        <p>
+            The Board asks its legal adviser to determine the correct effective
+            capital and identify the applicable annual remuneration ceiling.
+        </p>
+    `,
+
+    questions: [
+
+        {
+            question_id: "CEL_CH2_CS56_Q1",
+            difficulty: "Medium",
+            question: `
+                While computing effective capital under Schedule V, which amount
+                of reserves and surplus should be considered from the given data?
+            `,
+            options: [
+                "₹120 lakh",
+                "₹90 lakh",
+                "₹30 lakh",
+                "Nil"
+            ],
+            answer: 1,
+            reason: `
+                Revaluation reserve is specifically excluded from reserves and
+                surplus for the purpose of effective capital. Therefore:
+                ₹120 lakh - ₹30 lakh = ₹90 lakh.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS56_Q2",
+            difficulty: "Hard",
+            question: `
+                Should the working capital cash-credit facility of ₹60 lakh be
+                included while computing effective capital?
+            `,
+            options: [
+                "Yes, because it is secured against assets.",
+                "Yes, because every bank borrowing is treated as long-term capital.",
+                "No, because working capital loans are specifically excluded.",
+                "No, but only if the loan is unsecured."
+            ],
+            answer: 2,
+            reason: `
+                Effective capital includes long-term loans and deposits repayable
+                after one year, but excludes working capital loans, overdrafts and
+                other short-term arrangements. Hence the ₹60 lakh cash-credit
+                facility is excluded.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS56_Q3",
+            difficulty: "Hard",
+            question: `
+                Based on the information given, what is the effective capital of
+                Orion Manufacturing Limited?
+            `,
+            options: [
+                "₹770 lakh",
+                "₹770 lakh after including working capital borrowing",
+                "₹770 lakh after excluding investments and losses",
+                "₹770 lakh is incorrect; the effective capital is ₹770 lakh only if preliminary expenses are ignored."
+            ],
+            answer: 0,
+            reason: `
+                Effective capital is calculated as follows:
+
+                Paid-up share capital = ₹600 lakh
+                Add: Share premium = ₹80 lakh
+                Add: Reserves excluding revaluation reserve = ₹90 lakh
+                Add: Long-term loan = ₹100 lakh
+                Less: Investments = ₹50 lakh
+                Less: Accumulated losses = ₹40 lakh
+                Less: Preliminary expenses = ₹10 lakh
+
+                Effective capital = ₹600 + ₹80 + ₹90 + ₹100
+                - ₹50 - ₹40 - ₹10 = ₹770 lakh.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS56_Q4",
+            difficulty: "Hard",
+            question: `
+                Mr. Arvind argues that the remuneration ceiling should be based
+                only on paid-up share capital. Which statement is correct?
+            `,
+            options: [
+                "He is correct because Schedule V considers only paid-up capital.",
+                "He is correct only where the company has inadequate profits.",
+                "He is incorrect because Schedule V determines the applicable remuneration limit with reference to effective capital.",
+                "He is incorrect because remuneration is always based on turnover."
+            ],
+            answer: 2,
+            reason: `
+                In cases of no profit or inadequate profit, Section II of Part II
+                of Schedule V links the permissible remuneration to the effective
+                capital of the company. Effective capital includes specified
+                capital, reserves, long-term loans and specified deductions.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS56_Q5",
+            difficulty: "Very Hard",
+            question: `
+                If the effective capital is ₹7.70 crore, which Schedule V slab
+                applies for determining the annual remuneration limit of the
+                managerial person?
+            `,
+            options: [
+                "Negative or less than ₹5 crore",
+                "₹5 crore and above but less than ₹100 crore",
+                "₹100 crore and above but less than ₹250 crore",
+                "₹250 crore and above"
+            ],
+            answer: 1,
+            reason: `
+                The effective capital of ₹7.70 crore falls within the slab of
+                ₹5 crore and above but less than ₹100 crore. Accordingly, the
+                prescribed annual remuneration ceiling for a managerial person
+                under this slab is ₹84 lakh, subject to the other conditions
+                specified in Schedule V.
+            `
+        }
+
+    ]
+},
+
+// ============================================================
+// CASE SCENARIO 57
+// DIFFICULTY: HARD
+// CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
+// ============================================================
+
+{
+    case_id: "CEL_CH2_CS57",
+    difficulty: "Hard",
+    case_chapter: [
+        "Section 197",
+        "Professional Services by Directors",
+        "Sitting Fees",
+        "Mode of Payment of Remuneration"
+    ],
+
+    caseText: `
+        <p>
+            <strong>Meditech Hospitals Limited</strong> is a listed public company
+            operating a chain of specialised hospitals. Dr. Nikhil Rao is a director
+            of the company and is also a highly qualified practising cardiac surgeon.
+            The company proposes to pay him a fixed monthly remuneration for his
+            services as a director.
+        </p>
+
+        <p>
+            In addition, whenever Dr. Nikhil performs specialised cardiac surgeries
+            for patients of the hospital, the company proposes to pay him professional
+            fees separately on a case-to-case basis. The Nomination and Remuneration
+            Committee is satisfied that Dr. Nikhil possesses the requisite professional
+            qualifications for rendering such services.
+        </p>
+
+        <p>
+            The Board also proposes to pay all directors a sitting fee of ₹1,20,000
+            for every Board meeting. The independent directors object to the proposal,
+            stating that the statutory ceiling on sitting fees is lower.
+        </p>
+
+        <p>
+            One director suggests that sitting fees should be included while calculating
+            the overall 11% ceiling on managerial remuneration. Another director
+            argues that sitting fees are outside that percentage limit.
+        </p>
+
+        <p>
+            The company is also considering whether Dr. Nikhil's remuneration may be
+            paid partly through a monthly payment and partly as a percentage of the
+            company's net profits.
+    `,
+
+    questions: [
+
+        {
+            question_id: "CEL_CH2_CS57_Q1",
+            difficulty: "Medium",
+            question: `
+                Can Meditech Hospitals Limited pay Dr. Nikhil separate professional
+                fees for surgeries performed by him if he possesses the requisite
+                professional qualifications?
+            `,
+            options: [
+                "No, because every payment to a director is automatically managerial remuneration.",
+                "Yes, where the services are of a professional nature and the requisite qualification is established.",
+                "Yes, but only after Central Government approval.",
+                "No, unless the services are performed outside the hospital."
+            ],
+            answer: 1,
+            reason: `
+                Under Section 197(4), remuneration for services rendered by a director
+                in another capacity is not included where the services are of a
+                professional nature and the director possesses the requisite
+                qualification for practising that profession, as determined by the
+                Nomination and Remuneration Committee where applicable or the Board
+                in other cases.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS57_Q2",
+            difficulty: "Hard",
+            question: `
+                The company proposes to pay ₹1,20,000 as sitting fee for each Board
+                meeting. Is the proposed amount permissible under Rule 4?
+            `,
+            options: [
+                "Yes, because the Board may freely determine any sitting fee.",
+                "Yes, because listed companies are exempt from the sitting fee ceiling.",
+                "No, because the sitting fee shall not exceed ₹1 lakh per meeting.",
+                "No, because directors cannot receive sitting fees."
+            ],
+            answer: 2,
+            reason: `
+                Rule 4 of the Companies (Appointment and Remuneration of Managerial
+                Personnel) Rules, 2014 provides that sitting fees shall not exceed
+                ₹1 lakh per meeting of the Board or committee thereof.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS57_Q3",
+            difficulty: "Hard",
+            question: `
+                If the company pays sitting fees to its directors, should such fees
+                be included within the percentage limits prescribed under Section 197(1)?
+            `,
+            options: [
+                "Yes, sitting fees form part of the 11% ceiling.",
+                "Yes, but only for independent directors.",
+                "No, sitting fees are excluded from the percentage limits.",
+                "Yes, but only where the company has inadequate profits."
+            ],
+            answer: 2,
+            reason: `
+                Section 197(2) specifically provides that the percentage limits
+                prescribed under Section 197(1) are exclusive of fees payable to
+                directors for attending Board or committee meetings or for other
+                purposes as decided by the Board.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS57_Q4",
+            difficulty: "Hard",
+            question: `
+                The company proposes to pay independent directors a sitting fee
+                lower than that payable to other directors. Is this permissible?
+            `,
+            options: [
+                "Yes, because independent directors can always receive a lower fee.",
+                "Yes, if approved by the Nomination and Remuneration Committee.",
+                "No, the sitting fee payable to independent directors and women directors shall not be less than that payable to other directors.",
+                "No, because independent directors cannot receive sitting fees at all."
+            ],
+            answer: 2,
+            reason: `
+                The proviso to Rule 4 states that the sitting fee payable to
+                independent directors and women directors shall not be less than
+                the sitting fee payable to other directors.
+            `
+        },
+
+        {
+            question_id: "CEL_CH2_CS57_Q5",
+            difficulty: "Hard",
+            question: `
+                Meditech proposes to pay Dr. Nikhil remuneration partly by monthly
+                payment and partly by reference to a specified percentage of net
+                profits. Is this mode of payment permitted?
+            `,
+            options: [
+                "No, remuneration must always be paid entirely as a monthly salary.",
+                "No, remuneration can only be paid as a percentage of net profits.",
+                "Yes, remuneration may be paid by monthly payment, at a specified percentage of net profits, or partly by one method and partly by the other.",
+                "Yes, but only if the Central Government approves the arrangement."
+            ],
+            answer: 2,
+            reason: `
+                Section 197(6) permits remuneration to a director or manager to be
+                paid by way of monthly payment, at a specified percentage of the
+                net profits, or partly by one method and partly by the other.
+            `
+        }
+
+    ]
+},
 ];
