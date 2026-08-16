@@ -1,11 +1,8 @@
 const AICaseStudies = [
-
-// Chapter 1
-
+  // Chapter 1
   // =========================================================
   // CASE SCENARIO 001 — EASY
   // =========================================================
-
   {
     case_id: "seta_AI_cs_001",
     difficulty: "Easy",
@@ -31,7 +28,6 @@ const AICaseStudies = [
       furnished.</p>
     `,
     questions: [
-
       {
         question_id: "seta_AI_cs_001_1",
         question: "Since the Articles of Sunrise Engineering Limited are silent regarding the first directors, who among the subscribers to the Memorandum can be deemed to be the first directors?",
@@ -39,38 +35,25 @@ const AICaseStudies = [
           "All subscribers including the private limited company",
           "Only the individual subscribers",
           "Only the private limited company",
-          "The Chartered Accountant who signed the Memorandum"
+          "The Chartered Accountant who signed the Memorandum",
         ],
         answer: 2,
         reason: "Where no provision is made in the Articles for appointment of first directors, the individual subscribers to the Memorandum are deemed to be the first directors. A body corporate cannot become a director."
       },
-
       {
         question_id: "seta_AI_cs_001_2",
         question: "What is the minimum number of directors required for Sunrise Engineering Limited as a public company?",
-        options: [
-          "1",
-          "2",
-          "3",
-          "5"
-        ],
+        options: ["1", "2", "3", "5"],
         answer: 3,
         reason: "Under Section 149(1), a public company must have a minimum of 3 directors."
       },
-
       {
         question_id: "seta_AI_cs_001_3",
         question: "What is the general maximum number of directors that Sunrise Engineering Limited may have without passing a special resolution?",
-        options: [
-          "10",
-          "12",
-          "15",
-          "20"
-        ],
+        options: ["10", "12", "15", "20"],
         answer: 3,
         reason: "The maximum number of directors is 15. A company may appoint more than 15 directors only after passing a special resolution."
       },
-
       {
         question_id: "seta_AI_cs_001_4",
         question: "If Sunrise Engineering Limited wishes to appoint 16 directors, which of the following is required under Section 149(1)?",
@@ -78,12 +61,11 @@ const AICaseStudies = [
           "Only approval of the Board of Directors",
           "Only approval of the Registrar",
           "Passing of a special resolution",
-          "Approval of the Central Government in every case"
+          "Approval of the Central Government in every case",
         ],
         answer: 3,
         reason: "A company can appoint more than 15 directors after passing a special resolution."
       },
-
       {
         question_id: "seta_AI_cs_001_5",
         question: "Which statement correctly describes the requirement relating to a person proposed to be appointed as a director?",
@@ -91,20 +73,16 @@ const AICaseStudies = [
           "DIN is required only after appointment",
           "A person may act as director even without giving written consent",
           "A person cannot be appointed as director unless the required DIN has been allotted",
-          "Written consent is required only from an independent director"
+          "Written consent is required only from an independent director",
         ],
         answer: 3,
         reason: "Section 152(3) requires the person to have a DIN before appointment. Further, under Section 152(5), a person appointed as director cannot act unless written consent to hold office has been furnished."
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 002 — MEDIUM
   // =========================================================
-
   {
     case_id: "seta_AI_cs_002",
     difficulty: "Medium",
@@ -128,59 +106,34 @@ const AICaseStudies = [
       this purpose.</p>
     `,
     questions: [
-
       {
         question_id: "seta_AI_cs_002_1",
         question: "For determining the number of directors liable to retire by rotation, which directors are excluded from the total number of directors in the above case?",
-        options: [
-          "Only nominee directors",
-          "Only independent directors",
-          "Both independent directors and nominee directors",
-          "All non-executive directors"
-        ],
+        options: ["Only nominee directors", "Only independent directors", "Both independent directors and nominee directors", "All non-executive directors"],
         answer: 3,
         reason: "Independent directors are excluded from the total number of directors for retirement by rotation. A nominee director nominated by an institution in pursuance of law or agreement is also not considered liable to retire by rotation."
       },
-
       {
         question_id: "seta_AI_cs_002_2",
         question: "What is the number of directors to be considered for calculating the rotational directors in Alpha Manufacturing Limited?",
-        options: [
-          "12",
-          "11",
-          "10",
-          "9"
-        ],
+        options: ["12", "11", "10", "9"],
         answer: 4,
         reason: "There are 12 directors in total. The 2 independent directors and 1 nominee director are excluded. Therefore, 12 − 3 = 9 directors are considered."
       },
-
       {
         question_id: "seta_AI_cs_002_3",
         question: "What is the minimum number of directors liable to retire by rotation out of the 9 directors considered for this purpose?",
-        options: [
-          "3",
-          "5",
-          "6",
-          "9"
-        ],
+        options: ["3", "5", "6", "9"],
         answer: 3,
         reason: "Not less than two-thirds of the relevant total number of directors must be liable to retire by rotation. Two-thirds of 9 is 6."
       },
-
       {
         question_id: "seta_AI_cs_002_4",
         question: "How many of the rotational directors will actually retire at the forthcoming AGM?",
-        options: [
-          "1",
-          "2",
-          "3",
-          "4"
-        ],
+        options: ["1", "2", "3", "4"],
         answer: 2,
         reason: "Once 6 directors are identified as liable to retire by rotation, one-third of those directors retire at the AGM. One-third of 6 is 2."
       },
-
       {
         question_id: "seta_AI_cs_002_5",
         question: "Assuming no two directors were appointed on the same day, which directors should ordinarily be selected for retirement at the AGM?",
@@ -188,20 +141,16 @@ const AICaseStudies = [
           "Those most recently appointed",
           "Those selected by the Board",
           "Those who have been longest in office since their last appointment",
-          "The independent directors"
+          "The independent directors",
         ],
         answer: 3,
         reason: "Among directors liable to retire by rotation, those who have been longest in office since their last appointment retire first. Independent directors are not liable to retire by rotation."
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 003 — MEDIUM
   // =========================================================
-
   {
     case_id: "seta_AI_cs_003",
     difficulty: "Medium",
@@ -224,20 +173,13 @@ const AICaseStudies = [
       The Board is considering filling the resulting vacancy.</p>
     `,
     questions: [
-
       {
         question_id: "seta_AI_cs_003_1",
         question: "Who has the power to appoint an additional director where the Articles confer such power?",
-        options: [
-          "The shareholders only",
-          "The Board of Directors",
-          "The Registrar",
-          "The Central Government"
-        ],
+        options: ["The shareholders only", "The Board of Directors", "The Registrar", "The Central Government"],
         answer: 2,
         reason: "Under Section 161(1), where the Articles confer the power, the Board may appoint an additional director."
       },
-
       {
         question_id: "seta_AI_cs_003_2",
         question: "Up to what point can Mr. Arjun ordinarily continue as an additional director?",
@@ -245,12 +187,11 @@ const AICaseStudies = [
           "For five years",
           "Until he resigns",
           "Until the next AGM or the last date on which the AGM should have been held, whichever is earlier",
-          "Until the next Board meeting"
+          "Until the next Board meeting",
         ],
         answer: 3,
         reason: "An additional director holds office up to the date of the next AGM or the last date on which the AGM should have been held, whichever is earlier."
       },
-
       {
         question_id: "seta_AI_cs_003_3",
         question: "Can Mr. Ravi himself appoint his preferred person as an alternate director merely because he is going to be absent from India for four months?",
@@ -258,12 +199,11 @@ const AICaseStudies = [
           "Yes, because the absence exceeds three months",
           "Yes, because the Articles give the original director the power",
           "No, because the power of appointment rests with the Board, subject to the required authorisation",
-          "No, because an alternate director can only be appointed for six months' absence"
+          "No, because an alternate director can only be appointed for six months' absence",
         ],
         answer: 3,
         reason: "The Board has the authority to appoint an alternate director, provided the Articles or a general meeting resolution authorises it. The original director cannot appoint his own alternate."
       },
-
       {
         question_id: "seta_AI_cs_003_4",
         question: "Is the four-month absence of Mr. Ravi sufficient to permit appointment of an alternate director?",
@@ -271,12 +211,11 @@ const AICaseStudies = [
           "No, because the minimum period is six months",
           "No, because only foreign residence qualifies",
           "Yes, because the absence from India is for not less than three months",
-          "Yes, but only if the absence is for one year"
+          "Yes, but only if the absence is for one year",
         ],
         answer: 3,
         reason: "An alternate director may be appointed where the original director is absent from India for a period of not less than three months."
       },
-
       {
         question_id: "seta_AI_cs_003_5",
         question: "The director appointed in the general meeting dies before completion of his term. Subject to the Articles, what is the normal mechanism for filling the resulting casual vacancy?",
@@ -284,20 +223,16 @@ const AICaseStudies = [
           "The Board may fill it at a Board meeting, subject to approval by members at the immediate next general meeting",
           "The original director's legal representative automatically becomes director",
           "The vacancy must remain unfilled until the next AGM",
-          "The Registrar must appoint the replacement"
+          "The Registrar must appoint the replacement",
         ],
         answer: 1,
         reason: "Under Section 161(4), a casual vacancy arising from the premature vacation of office by a director appointed in general meeting may be filled by the Board at a Board meeting, subject to approval by members at the immediate next general meeting."
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 004 — HARD
   // =========================================================
-
   {
     case_id: "seta_AI_cs_004",
     difficulty: "Hard",
@@ -326,33 +261,20 @@ const AICaseStudies = [
       relevant independence conditions.</p>
     `,
     questions: [
-
       {
         question_id: "seta_AI_cs_004_1",
         question: "Based on the company's paid-up share capital and turnover, what is the minimum number of independent directors required for Orion Infrastructure Limited?",
-        options: [
-          "One",
-          "Two",
-          "Three",
-          "Four"
-        ],
+        options: ["One", "Two", "Three", "Four"],
         answer: 2,
         reason: "An unlisted public company having paid-up share capital of ₹10 crore or more, or turnover of ₹100 crore or more, is required to have at least two independent directors."
       },
-
       {
         question_id: "seta_AI_cs_004_2",
         question: "If Orion Infrastructure Limited were a listed public company with 13 directors, what would be the minimum number of independent directors required?",
-        options: [
-          "3",
-          "4",
-          "5",
-          "6"
-        ],
+        options: ["3", "4", "5", "6"],
         answer: 3,
         reason: "A listed public company must have at least one-third of its total number of directors as independent directors. One-third of 13 is 4.33, and any fraction is rounded off as one. Therefore, 5 independent directors are required."
       },
-
       {
         question_id: "seta_AI_cs_004_3",
         question: "Mr. Sameer's relative is indebted to Orion Infrastructure Limited for ₹48 lakh during the relevant period. Based solely on this fact, which statement is most appropriate?",
@@ -360,12 +282,11 @@ const AICaseStudies = [
           "Mr. Sameer automatically fails the independence condition because any indebtedness of a relative is prohibited",
           "Mr. Sameer fails because the threshold is ₹25 lakh",
           "The indebtedness does not cross the ₹50 lakh threshold specified under the relevant rule",
-          "The threshold applies only to indebtedness of the proposed independent director himself"
+          "The threshold applies only to indebtedness of the proposed independent director himself",
         ],
         answer: 3,
         reason: "For the relevant independence condition, a relative's indebtedness to the company, its holding, subsidiary or associate company, or their promoters/directors, exceeding ₹50 lakh during the specified period is restricted. ₹48 lakh does not cross that stated threshold."
       },
-
       {
         question_id: "seta_AI_cs_004_4",
         question: "Ms. Kavya was an employee of the company's subsidiary two financial years immediately preceding the financial year in which her appointment is proposed. Which provision is most directly relevant to her eligibility?",
@@ -373,33 +294,23 @@ const AICaseStudies = [
           "An independent director cannot have been an employee of the company or its holding, subsidiary or associate company during any of the three financial years immediately preceding the relevant financial year",
           "Only employment in the immediately preceding financial year is prohibited",
           "Employment in a subsidiary is irrelevant if the person has sufficient professional experience",
-          "Only employment of a relative creates a disqualification"
+          "Only employment of a relative creates a disqualification",
         ],
         answer: 1,
         reason: "Section 149(6) provides that neither the proposed independent director nor, subject to the stated exception, the relevant persons covered by the provision should have held employment/KMP positions in the company or its holding, subsidiary or associate company during the three financial years immediately preceding the financial year of proposed appointment."
       },
-
       {
         question_id: "seta_AI_cs_004_5",
         question: "Orion Infrastructure Limited ceases to satisfy all three prescribed thresholds relating to paid-up share capital, turnover and aggregate outstanding loans, debentures and deposits. For how long must the company cease to satisfy the relevant conditions before the mandatory appointment requirement under Rule 4 ceases to apply?",
-        options: [
-          "One consecutive year",
-          "Two consecutive years",
-          "Three consecutive years",
-          "Five consecutive years"
-        ],
+        options: ["One consecutive year", "Two consecutive years", "Three consecutive years", "Five consecutive years"],
         answer: 3,
         reason: "A company that was required to appoint independent directors is not required to make such appointment if it ceases to fulfill any of the prescribed conditions for three consecutive years. It becomes required again if it starts meeting any such condition."
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 005 — HARD
   // =========================================================
-
   {
     case_id: "seta_AI_cs_005",
     difficulty: "Hard",
@@ -430,20 +341,13 @@ const AICaseStudies = [
       directorships.</p>
     `,
     questions: [
-
       {
         question_id: "seta_AI_cs_005_1",
         question: "Delta has failed to file financial statements for three continuous financial years. Which provision is primarily attracted against Mr. Vikram?",
-        options: [
-          "Section 149(1)",
-          "Section 152(5)",
-          "Section 164(2)",
-          "Section 171"
-        ],
+        options: ["Section 149(1)", "Section 152(5)", "Section 164(2)", "Section 171"],
         answer: 3,
         reason: "Section 164(2) provides disqualification where a company has not filed financial statements or annual returns for any continuous period of three financial years."
       },
-
       {
         question_id: "seta_AI_cs_005_2",
         question: "The default in repayment of deposits and interest has continued for more than one year. What is the consequence under Section 164(2)?",
@@ -451,12 +355,11 @@ const AICaseStudies = [
           "There is no disqualification because only filing defaults are covered",
           "The director becomes disqualified for appointment or reappointment for the prescribed five-year period from the date of default",
           "The director is disqualified permanently",
-          "Only the company becomes disqualified from appointing directors"
+          "Only the company becomes disqualified from appointing directors",
         ],
         answer: 2,
         reason: "Section 164(2)(b) covers failure to repay deposits or interest, among other specified defaults, where the failure continues for one year or more. The director becomes ineligible for appointment or reappointment for five years from the date on which the company committed the default."
       },
-
       {
         question_id: "seta_AI_cs_005_3",
         question: "Mr. Vikram incurs disqualification under Section 164(2) because of Delta's defaults. Which statement correctly describes the effect on his existing offices?",
@@ -464,12 +367,11 @@ const AICaseStudies = [
           "He must vacate his office in every company, including Delta",
           "He may continue as director in Delta, but his office becomes vacant in other companies",
           "He must vacate Delta immediately but can continue in all other companies",
-          "The disqualification has no effect on his existing directorships"
+          "The disqualification has no effect on his existing directorships",
         ],
         answer: 2,
         reason: "Under the proviso to Section 167(1)(a), where a director incurs disqualification under Section 164(2), his office becomes vacant in all companies other than the company which is in default."
       },
-
       {
         question_id: "seta_AI_cs_005_4",
         question: "After incurring the Section 164(2) disqualification, can Mr. Vikram be appointed as an additional director of Zenith Industries Limited during the disqualification period?",
@@ -477,12 +379,11 @@ const AICaseStudies = [
           "Yes, because an additional director is appointed by the Board rather than the members",
           "Yes, because Section 164(2) applies only to ordinary directors",
           "No, because he is not eligible to be appointed as a director in another company during the prescribed period",
-          "Yes, provided Zenith passes an ordinary resolution"
+          "Yes, provided Zenith passes an ordinary resolution",
         ],
         answer: 3,
         reason: "Section 164(2) makes the person ineligible for appointment as a director of another company for five years from the date of the relevant default. The fact that the proposed appointment is as an additional director does not override the disqualification."
       },
-
       {
         question_id: "seta_AI_cs_005_5",
         question: "Before the private company becomes a subsidiary of a public company, Mr. Vikram holds 10 public companies, 9 ordinary private companies, one dormant company and one Section 8 company. Assuming the Section 8 company satisfies the applicable exemption conditions, which statement is correct for the 20-company limit?",
@@ -490,15 +391,13 @@ const AICaseStudies = [
           "All 21 companies are counted",
           "The dormant company and Section 8 company are excluded, resulting in 19 counted companies",
           "Only the 10 public companies are counted",
-          "Only private companies are counted"
+          "Only private companies are counted",
         ],
         answer: 2,
         reason: "For the 20-company limit, directorship in a dormant company is excluded. A directorship in a Section 8 company is also excluded where the applicable exemption conditions are satisfied. Thus, 10 public + 9 ordinary private = 19 counted companies."
       }
-
     ]
   },
-
   /* =========================================================
      CASE SCENARIO 1
      APPOINTMENT OF FIRST DIRECTORS / CONSENT / DIN
@@ -527,17 +426,11 @@ const AICaseStudies = [
       meeting.</p>
     `,
     questions: [
-
       {
         question_id: "dir_mcq_cs1_1",
         chapter_name: ["Appointment of Directors", "Section 152"],
         question: "In the absence of a provision in the Articles regarding first directors, who would be deemed to be the first directors of Zenith Innovations?",
-        options: [
-          "Only Mr. Arjun",
-          "All three individual subscribers",
-          "The person nominated by the promoters",
-          "The directors appointed by the Registrar"
-        ],
+        options: ["Only Mr. Arjun", "All three individual subscribers", "The person nominated by the promoters", "The directors appointed by the Registrar"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: All three individual subscribers.</strong></p>
@@ -546,7 +439,6 @@ const AICaseStudies = [
           first directors until directors are duly appointed.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs1_2",
         chapter_name: ["Section 152", "DIN"],
@@ -555,7 +447,7 @@ const AICaseStudies = [
           "He can act as director without DIN because he is a first director",
           "DIN is required only for directors appointed at an AGM",
           "A person cannot be appointed as director unless he has been allotted DIN or such other prescribed number",
-          "DIN is required only for public companies"
+          "DIN is required only for public companies",
         ],
         answer: 2,
         solution_html: `
@@ -564,7 +456,6 @@ const AICaseStudies = [
           identification number before being appointed as a director.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs1_3",
         chapter_name: ["Section 152"],
@@ -573,7 +464,7 @@ const AICaseStudies = [
           "Consent can be furnished at any time within 30 days",
           "Consent must be furnished to the company on or before appointment",
           "Consent is required only after filing DIR-12",
-          "Consent is not required if DIN is furnished"
+          "Consent is not required if DIN is furnished",
         ],
         answer: 1,
         solution_html: `
@@ -583,17 +474,11 @@ const AICaseStudies = [
           before the appointment.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs1_4",
         chapter_name: ["Section 152"],
         question: "The company is required to file the consent of Ms. Kavya with the Registrar within:",
-        options: [
-          "7 days",
-          "15 days",
-          "30 days",
-          "60 days"
-        ],
+        options: ["7 days", "15 days", "30 days", "60 days"],
         answer: 2,
         solution_html: `
           <p><strong>Correct Answer: 30 days.</strong></p>
@@ -601,7 +486,6 @@ const AICaseStudies = [
           Registrar within 30 days of appointment in Form DIR-12.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs1_5",
         chapter_name: ["Section 152"],
@@ -610,7 +494,7 @@ const AICaseStudies = [
           "Requirement of DIN",
           "Requirement of written consent under Section 152(5)",
           "Requirement of declaration of non-disqualification",
-          "Requirement relating to the minimum number of directors"
+          "Requirement relating to the minimum number of directors",
         ],
         answer: 1,
         solution_html: `
@@ -622,8 +506,6 @@ const AICaseStudies = [
       }
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 2
      RETIREMENT BY ROTATION
@@ -648,17 +530,11 @@ const AICaseStudies = [
       dates, while two directors were appointed on the same date.</p>
     `,
     questions: [
-
       {
         question_id: "dir_mcq_cs2_1",
         chapter_name: ["Section 152", "Retirement by Rotation"],
         question: "For determining the total number of directors for retirement by rotation, how many directors will be considered?",
-        options: [
-          "12",
-          "11",
-          "10",
-          "9"
-        ],
+        options: ["12", "11", "10", "9"],
         answer: 3,
         solution_html: `
           <p><strong>Correct Answer: 9.</strong></p>
@@ -666,17 +542,11 @@ const AICaseStudies = [
           <p>12 − 2 independent directors − 1 nominee director = <strong>9 directors</strong>.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs2_2",
         chapter_name: ["Section 152"],
         question: "What is the minimum number of directors liable to retirement by rotation?",
-        options: [
-          "5",
-          "6",
-          "7",
-          "9"
-        ],
+        options: ["5", "6", "7", "9"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: 6.</strong></p>
@@ -684,17 +554,11 @@ const AICaseStudies = [
           <p>Therefore, 6 directors shall be liable to retire by rotation.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs2_3",
         chapter_name: ["Section 152"],
         question: "How many of the rotational directors will actually retire at the AGM?",
-        options: [
-          "1",
-          "2",
-          "3",
-          "6"
-        ],
+        options: ["1", "2", "3", "6"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: 2.</strong></p>
@@ -702,17 +566,11 @@ const AICaseStudies = [
           = 2 directors.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs2_4",
         chapter_name: ["Section 152"],
         question: "Which directors should ordinarily retire first at the AGM?",
-        options: [
-          "Directors appointed most recently",
-          "Independent directors",
-          "Directors who have been longest in office since their last appointment",
-          "Nominee directors"
-        ],
+        options: ["Directors appointed most recently", "Independent directors", "Directors who have been longest in office since their last appointment", "Nominee directors"],
         answer: 2,
         solution_html: `
           <p><strong>Correct Answer: Directors who have been longest in office since their last appointment.</strong></p>
@@ -720,17 +578,11 @@ const AICaseStudies = [
           appointment shall retire first.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs2_5",
         chapter_name: ["Section 152"],
         question: "Two rotational directors were appointed on the same day. There is no mutual agreement between them regarding retirement. How should the director retiring at the AGM be determined?",
-        options: [
-          "By the Chairman",
-          "By the Board of Directors",
-          "By the Registrar",
-          "By lot"
-        ],
+        options: ["By the Chairman", "By the Board of Directors", "By the Registrar", "By lot"],
         answer: 3,
         solution_html: `
           <p><strong>Correct Answer: By lot.</strong></p>
@@ -741,8 +593,6 @@ const AICaseStudies = [
       }
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 3
      DEEMED RE-APPOINTMENT
@@ -766,7 +616,6 @@ const AICaseStudies = [
       expressed any unwillingness to continue.</p>
     `,
     questions: [
-
       {
         question_id: "dir_mcq_cs3_1",
         chapter_name: ["Section 152"],
@@ -775,7 +624,7 @@ const AICaseStudies = [
           "It automatically stands dissolved",
           "It stands adjourned to the same day in the next week",
           "The Board takes over the meeting",
-          "The Registrar appoints a director"
+          "The Registrar appoints a director",
         ],
         answer: 1,
         solution_html: `
@@ -785,17 +634,11 @@ const AICaseStudies = [
           adjourned as prescribed under Section 152(7).</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs3_2",
         chapter_name: ["Section 152"],
         question: "At the adjourned meeting, the vacancy is again not filled and no resolution is passed not to fill it. What is the normal consequence?",
-        options: [
-          "Mr. Rohan is deemed to be re-appointed",
-          "Mr. Rohan is permanently disqualified",
-          "The Registrar appoints Mr. Rohan",
-          "The Board must appoint another director"
-        ],
+        options: ["Mr. Rohan is deemed to be re-appointed", "Mr. Rohan is permanently disqualified", "The Registrar appoints Mr. Rohan", "The Board must appoint another director"],
         answer: 0,
         solution_html: `
           <p><strong>Correct Answer: Mr. Rohan is deemed to be re-appointed.</strong></p>
@@ -804,7 +647,6 @@ const AICaseStudies = [
           the retiring director is deemed to have been re-appointed.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs3_3",
         chapter_name: ["Section 152"],
@@ -813,7 +655,7 @@ const AICaseStudies = [
           "Yes, because he was willing to continue",
           "Yes, because he was a retiring director",
           "No, because his re-appointment resolution had already been put and lost",
-          "No, because every retiring director must vacate office permanently"
+          "No, because every retiring director must vacate office permanently",
         ],
         answer: 2,
         solution_html: `
@@ -823,7 +665,6 @@ const AICaseStudies = [
           put to the meeting and lost.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs3_4",
         chapter_name: ["Section 152"],
@@ -832,7 +673,7 @@ const AICaseStudies = [
           "The director is willing to continue",
           "The director has submitted written unwillingness to be re-appointed",
           "The company has sufficient directors",
-          "The director attended the AGM"
+          "The director attended the AGM",
         ],
         answer: 1,
         solution_html: `
@@ -841,7 +682,6 @@ const AICaseStudies = [
           to be re-appointed is excluded from deemed re-appointment.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs3_5",
         chapter_name: ["Section 152", "Section 162"],
@@ -850,7 +690,7 @@ const AICaseStudies = [
           "The director is an independent director",
           "Two or more persons were improperly appointed through a single resolution",
           "The director has a DIN",
-          "The director attended the previous Board meeting"
+          "The director attended the previous Board meeting",
         ],
         answer: 1,
         solution_html: `
@@ -862,8 +702,6 @@ const AICaseStudies = [
       }
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 4
      DIN ALLOTMENT AND DUPLICATE DIN
@@ -887,17 +725,11 @@ const AICaseStudies = [
       director in a second company.</p>
     `,
     questions: [
-
       {
         question_id: "dir_mcq_cs4_1",
         chapter_name: ["Section 153", "DIN"],
         question: "For appointment as director in an existing company, an individual who does not possess DIN generally applies through:",
-        options: [
-          "DIR-2",
-          "DIR-3",
-          "DIR-5",
-          "DIR-12"
-        ],
+        options: ["DIR-2", "DIR-3", "DIR-5", "DIR-12"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: DIR-3.</strong></p>
@@ -905,17 +737,11 @@ const AICaseStudies = [
           company applies electronically in Form DIR-3 for allotment of DIN.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs4_2",
         chapter_name: ["Section 154"],
         question: "Within what period is the Central Government required to allot DIN from receipt of the application, subject to the prescribed procedure?",
-        options: [
-          "7 days",
-          "15 days",
-          "One month",
-          "Three months"
-        ],
+        options: ["7 days", "15 days", "One month", "Three months"],
         answer: 2,
         solution_html: `
           <p><strong>Correct Answer: One month.</strong></p>
@@ -923,17 +749,11 @@ const AICaseStudies = [
           from receipt of the application.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs4_3",
         chapter_name: ["DIN"],
         question: "Where an application is found defective or incomplete, the applicant is generally directed to rectify and resubmit it within:",
-        options: [
-          "7 days",
-          "15 days",
-          "30 days",
-          "45 days"
-        ],
+        options: ["7 days", "15 days", "30 days", "45 days"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: 15 days.</strong></p>
@@ -941,17 +761,11 @@ const AICaseStudies = [
           and resubmit the application within 15 days of the intimation.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs4_4",
         chapter_name: ["Section 155", "DIN"],
         question: "What is the position where Mr. Ajay already possesses a valid DIN and wants to become director in another company?",
-        options: [
-          "He must obtain a new DIN",
-          "He may obtain one DIN for each company",
-          "He must use his existing DIN",
-          "He can choose whether to use the old or new DIN"
-        ],
+        options: ["He must obtain a new DIN", "He may obtain one DIN for each company", "He must use his existing DIN", "He can choose whether to use the old or new DIN"],
         answer: 2,
         solution_html: `
           <p><strong>Correct Answer: He must use his existing DIN.</strong></p>
@@ -959,17 +773,11 @@ const AICaseStudies = [
           a DIN from applying for, obtaining or possessing another DIN.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs4_5",
         chapter_name: ["DIN"],
         question: "If a defective DIN application is not rectified within the prescribed period, the application may be:",
-        options: [
-          "Automatically approved",
-          "Treated and labelled as invalid in the electronic record",
-          "Transferred to the Registrar",
-          "Converted into DIR-2"
-        ],
+        options: ["Automatically approved", "Treated and labelled as invalid in the electronic record", "Transferred to the Registrar", "Converted into DIR-2"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: Treated and labelled as invalid in the electronic record.</strong></p>
@@ -980,8 +788,6 @@ const AICaseStudies = [
       }
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 5
      DIN INTIMATION / CHANGES / DEACTIVATION
@@ -1003,17 +809,11 @@ const AICaseStudies = [
       no liability can arise against the company.</p>
     `,
     questions: [
-
       {
         question_id: "dir_mcq_cs5_1",
         chapter_name: ["Section 156"],
         question: "Within what period must an existing director intimate his DIN to the company or companies in which he is a director?",
-        options: [
-          "7 days",
-          "15 days",
-          "One month",
-          "Three months"
-        ],
+        options: ["7 days", "15 days", "One month", "Three months"],
         answer: 2,
         solution_html: `
           <p><strong>Correct Answer: One month.</strong></p>
@@ -1021,17 +821,11 @@ const AICaseStudies = [
           companies within one month of receipt of DIN from the Central Government.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs5_2",
         chapter_name: ["Section 157"],
         question: "Within what period must the company furnish the DIN of its directors to the Registrar after receiving the intimation from the director?",
-        options: [
-          "7 days",
-          "15 days",
-          "30 days",
-          "60 days"
-        ],
+        options: ["7 days", "15 days", "30 days", "60 days"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: 15 days.</strong></p>
@@ -1039,17 +833,11 @@ const AICaseStudies = [
           Registrar within 15 days of receiving the intimation from the director.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs5_3",
         chapter_name: ["DIN", "Rule 12"],
         question: "A change in particulars stated in the DIN application is required to be intimated to the Central Government within:",
-        options: [
-          "7 days",
-          "15 days",
-          "30 days",
-          "90 days"
-        ],
+        options: ["7 days", "15 days", "30 days", "90 days"],
         answer: 2,
         solution_html: `
           <p><strong>Correct Answer: 30 days.</strong></p>
@@ -1057,17 +845,11 @@ const AICaseStudies = [
           Central Government within 30 days of such change in Form DIR-6.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs5_4",
         chapter_name: ["DIN", "Rule 12"],
         question: "After the change in particulars, within what period should the individual intimate the change to the company or companies in which he is a director?",
-        options: [
-          "7 days",
-          "15 days",
-          "30 days",
-          "45 days"
-        ],
+        options: ["7 days", "15 days", "30 days", "45 days"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: 15 days.</strong></p>
@@ -1075,7 +857,6 @@ const AICaseStudies = [
           to the company or companies within 15 days of such change.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs5_5",
         chapter_name: ["Section 157"],
@@ -1084,7 +865,7 @@ const AICaseStudies = [
           "Only the director is liable",
           "Only the company secretary is liable",
           "The company and every defaulting officer may be liable to penalty",
-          "There is no penalty"
+          "There is no penalty",
         ],
         answer: 2,
         solution_html: `
@@ -1096,8 +877,6 @@ const AICaseStudies = [
       }
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 6
      SECTION 160 - RIGHT TO STAND FOR DIRECTORSHIP
@@ -1121,17 +900,11 @@ const AICaseStudies = [
       valid votes.</p>
     `,
     questions: [
-
       {
         question_id: "dir_mcq_cs6_1",
         chapter_name: ["Section 160"],
         question: "How many days before the general meeting should the written notice of candidature generally be given?",
-        options: [
-          "7 days",
-          "10 days",
-          "14 days",
-          "21 days"
-        ],
+        options: ["7 days", "10 days", "14 days", "21 days"],
         answer: 2,
         solution_html: `
           <p><strong>Correct Answer: 14 days.</strong></p>
@@ -1139,17 +912,11 @@ const AICaseStudies = [
           written notice at least 14 days before the meeting.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs6_2",
         chapter_name: ["Section 160"],
         question: "What is the prescribed deposit mentioned in the case for candidature under Section 160?",
-        options: [
-          "₹10,000",
-          "₹50,000",
-          "₹1,00,000",
-          "₹2,00,000"
-        ],
+        options: ["₹10,000", "₹50,000", "₹1,00,000", "₹2,00,000"],
         answer: 2,
         solution_html: `
           <p><strong>Correct Answer: ₹1,00,000.</strong></p>
@@ -1157,7 +924,6 @@ const AICaseStudies = [
           a deposit of ₹1,00,000 or such higher amount as prescribed.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs6_3",
         chapter_name: ["Section 160"],
@@ -1166,7 +932,7 @@ const AICaseStudies = [
           "It is automatically forfeited",
           "It is refunded because he obtained more than 25% of valid votes",
           "It is transferred to the Registrar",
-          "It is retained for the next AGM"
+          "It is retained for the next AGM",
         ],
         answer: 1,
         solution_html: `
@@ -1175,17 +941,11 @@ const AICaseStudies = [
           director or gets more than 25% of the total valid votes cast.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs6_4",
         chapter_name: ["Section 160"],
         question: "Which of the following is an exception to the requirement of deposit under Section 160?",
-        options: [
-          "Any shareholder nominee",
-          "Independent Director",
-          "Every additional director",
-          "Every nominee director"
-        ],
+        options: ["Any shareholder nominee", "Independent Director", "Every additional director", "Every nominee director"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: Independent Director.</strong></p>
@@ -1193,17 +953,11 @@ const AICaseStudies = [
           independent director, among the specified exceptions.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs6_5",
         chapter_name: ["Section 160"],
         question: "If the person proposed as a director is not appointed and receives only 18% of the total valid votes, what is the general consequence regarding the deposit?",
-        options: [
-          "Deposit must be refunded",
-          "Deposit is not refunded",
-          "Deposit is doubled",
-          "Deposit is transferred to the proposed director"
-        ],
+        options: ["Deposit must be refunded", "Deposit is not refunded", "Deposit is doubled", "Deposit is transferred to the proposed director"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: Deposit is not refunded.</strong></p>
@@ -1213,8 +967,6 @@ const AICaseStudies = [
       }
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 7
      SMALL SHAREHOLDERS' DIRECTOR
@@ -1240,17 +992,11 @@ const AICaseStudies = [
       in a third company.</p>
     `,
     questions: [
-
       {
         question_id: "dir_mcq_cs7_1",
         chapter_name: ["Section 151"],
         question: "The small shareholders' director provision is applicable to:",
-        options: [
-          "Every private company",
-          "Every partnership firm",
-          "A listed company",
-          "Only Government companies"
-        ],
+        options: ["Every private company", "Every partnership firm", "A listed company", "Only Government companies"],
         answer: 2,
         solution_html: `
           <p><strong>Correct Answer: A listed company.</strong></p>
@@ -1258,17 +1004,11 @@ const AICaseStudies = [
           elected by small shareholders.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs7_2",
         chapter_name: ["Section 151"],
         question: "Where there are 8,000 small shareholders, what is the lower threshold based on the number of shareholders?",
-        options: [
-          "800",
-          "1,000",
-          "1,500",
-          "2,000"
-        ],
+        options: ["800", "1,000", "1,500", "2,000"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: 1,000.</strong></p>
@@ -1279,17 +1019,11 @@ const AICaseStudies = [
           <p>Therefore, the lower threshold is actually <strong>800</strong>.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs7_3",
         chapter_name: ["Section 151"],
         question: "For how long can a small shareholders' director hold office under the stated provision?",
-        options: [
-          "One consecutive year",
-          "Two consecutive years",
-          "Three consecutive years",
-          "Five consecutive years"
-        ],
+        options: ["One consecutive year", "Two consecutive years", "Three consecutive years", "Five consecutive years"],
         answer: 2,
         solution_html: `
           <p><strong>Correct Answer: Three consecutive years.</strong></p>
@@ -1297,17 +1031,11 @@ const AICaseStudies = [
           three consecutive years.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs7_4",
         chapter_name: ["Section 151"],
         question: "After expiry of the tenure, can Ms. Meera be re-appointed as small shareholders' director?",
-        options: [
-          "Yes, indefinitely",
-          "Yes, for one additional year",
-          "Yes, if shareholders approve by special resolution",
-          "No, she is not eligible for re-appointment"
-        ],
+        options: ["Yes, indefinitely", "Yes, for one additional year", "Yes, if shareholders approve by special resolution", "No, she is not eligible for re-appointment"],
         answer: 3,
         solution_html: `
           <p><strong>Correct Answer: No, she is not eligible for re-appointment.</strong></p>
@@ -1315,17 +1043,11 @@ const AICaseStudies = [
           director shall not be eligible for re-appointment.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs7_5",
         chapter_name: ["Section 151"],
         question: "What is the maximum number of companies in which one person may simultaneously hold the position of small shareholders' director?",
-        options: [
-          "One",
-          "Two",
-          "Three",
-          "Four"
-        ],
+        options: ["One", "Two", "Three", "Four"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: Two.</strong></p>
@@ -1336,8 +1058,6 @@ const AICaseStudies = [
       }
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 8
      ADDITIONAL DIRECTOR / ALTERNATE DIRECTOR
@@ -1361,17 +1081,11 @@ const AICaseStudies = [
       directors.</p>
     `,
     questions: [
-
       {
         question_id: "dir_mcq_cs8_1",
         chapter_name: ["Section 161"],
         question: "The power of the Board to appoint an additional director must be conferred by:",
-        options: [
-          "The Registrar",
-          "The Articles of Association",
-          "The auditor",
-          "The Central Government in every case"
-        ],
+        options: ["The Registrar", "The Articles of Association", "The auditor", "The Central Government in every case"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: The Articles of Association.</strong></p>
@@ -1379,17 +1093,11 @@ const AICaseStudies = [
           an additional director.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs8_2",
         chapter_name: ["Section 161"],
         question: "Can Mr. Raj, who failed to get appointed as a director in a general meeting, be appointed as an additional director?",
-        options: [
-          "Yes, automatically",
-          "Yes, with Registrar approval",
-          "No",
-          "Yes, if he has DIN"
-        ],
+        options: ["Yes, automatically", "Yes, with Registrar approval", "No", "Yes, if he has DIN"],
         answer: 2,
         solution_html: `
           <p><strong>Correct Answer: No.</strong></p>
@@ -1397,17 +1105,11 @@ const AICaseStudies = [
           meeting cannot be appointed as an additional director.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs8_3",
         chapter_name: ["Section 161"],
         question: "Mr. Suresh will be absent from India for four months. Is the minimum period of absence required for appointment of an alternate director satisfied?",
-        options: [
-          "Yes",
-          "No, absence must be six months",
-          "No, absence must be one year",
-          "No, alternate directors are prohibited"
-        ],
+        options: ["Yes", "No, absence must be six months", "No, absence must be one year", "No, alternate directors are prohibited"],
         answer: 0,
         solution_html: `
           <p><strong>Correct Answer: Yes.</strong></p>
@@ -1415,17 +1117,11 @@ const AICaseStudies = [
           is absent from India for a period of not less than three months.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs8_4",
         chapter_name: ["Section 161"],
         question: "Who has the authority to appoint an alternate director where the Articles or general meeting has authorised such appointment?",
-        options: [
-          "The original director",
-          "The Board of Directors",
-          "Any shareholder",
-          "The Registrar"
-        ],
+        options: ["The original director", "The Board of Directors", "Any shareholder", "The Registrar"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: The Board of Directors.</strong></p>
@@ -1434,17 +1130,11 @@ const AICaseStudies = [
           the company in general meeting.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs8_5",
         chapter_name: ["Section 161"],
         question: "If Mr. Suresh returns to India before the end of his permissible term, what happens to Mr. Amit as alternate director?",
-        options: [
-          "He automatically becomes a permanent director",
-          "He continues until the next AGM",
-          "He vacates office",
-          "He becomes an additional director"
-        ],
+        options: ["He automatically becomes a permanent director", "He continues until the next AGM", "He vacates office", "He becomes an additional director"],
         answer: 2,
         solution_html: `
           <p><strong>Correct Answer: He vacates office.</strong></p>
@@ -1454,8 +1144,6 @@ const AICaseStudies = [
       }
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 9
      NOMINEE DIRECTOR / CASUAL VACANCY
@@ -1481,7 +1169,6 @@ const AICaseStudies = [
       term for which the original director would have continued.</p>
     `,
     questions: [
-
       {
         question_id: "dir_mcq_cs9_1",
         chapter_name: ["Section 161"],
@@ -1490,7 +1177,7 @@ const AICaseStudies = [
           "Only ordinary shareholders",
           "An institution pursuant to law or agreement, or Central/State Government by virtue of shareholding in a Government company",
           "Only the statutory auditor",
-          "Only the Registrar"
+          "Only the Registrar",
         ],
         answer: 1,
         solution_html: `
@@ -1499,17 +1186,11 @@ const AICaseStudies = [
           specified circumstances.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs9_2",
         chapter_name: ["Section 161"],
         question: "The director nominated by the financial institution primarily represents:",
-        options: [
-          "The statutory auditor",
-          "The Registrar",
-          "The nominating institution",
-          "The minority shareholders only"
-        ],
+        options: ["The statutory auditor", "The Registrar", "The nominating institution", "The minority shareholders only"],
         answer: 2,
         solution_html: `
           <p><strong>Correct Answer: The nominating institution.</strong></p>
@@ -1517,17 +1198,11 @@ const AICaseStudies = [
           nominates the person, subject to the applicable law or agreement.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs9_3",
         chapter_name: ["Section 161"],
         question: "The resignation of a director appointed by shareholders before expiry of his normal term results in:",
-        options: [
-          "Retirement by rotation",
-          "Casual vacancy",
-          "Automatic dissolution of the Board",
-          "Additional directorship"
-        ],
+        options: ["Retirement by rotation", "Casual vacancy", "Automatic dissolution of the Board", "Additional directorship"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: Casual vacancy.</strong></p>
@@ -1536,17 +1211,11 @@ const AICaseStudies = [
           term in the normal course.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs9_4",
         chapter_name: ["Section 161"],
         question: "Who may fill the casual vacancy, subject to the Articles?",
-        options: [
-          "Board of Directors at a Board meeting",
-          "Only the Registrar",
-          "Only the statutory auditor",
-          "Only the Central Government"
-        ],
+        options: ["Board of Directors at a Board meeting", "Only the Registrar", "Only the statutory auditor", "Only the Central Government"],
         answer: 0,
         solution_html: `
           <p><strong>Correct Answer: Board of Directors at a Board meeting.</strong></p>
@@ -1555,7 +1224,6 @@ const AICaseStudies = [
           immediate next general meeting.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs9_5",
         chapter_name: ["Section 161"],
@@ -1564,7 +1232,7 @@ const AICaseStudies = [
           "For a fresh full term",
           "Until the next AGM irrespective of the original term",
           "Only up to the date up to which the original director would have held office",
-          "For three years compulsorily"
+          "For three years compulsorily",
         ],
         answer: 2,
         solution_html: `
@@ -1575,8 +1243,6 @@ const AICaseStudies = [
       }
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 10
      SECTION 162 - INDIVIDUAL VOTING
@@ -1600,7 +1266,6 @@ const AICaseStudies = [
       the members for such procedure.</p>
     `,
     questions: [
-
       {
         question_id: "dir_mcq_cs10_1",
         chapter_name: ["Section 162"],
@@ -1609,7 +1274,7 @@ const AICaseStudies = [
           "They may always be appointed through a single resolution",
           "They must generally be voted upon individually",
           "They must always be appointed through a special resolution",
-          "The Board must appoint all directors"
+          "The Board must appoint all directors",
         ],
         answer: 1,
         solution_html: `
@@ -1618,7 +1283,6 @@ const AICaseStudies = [
           separately for appointment as director, subject to the specified exception.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs10_2",
         chapter_name: ["Section 162"],
@@ -1627,7 +1291,7 @@ const AICaseStudies = [
           "Yes, because no member voted against the preliminary proposal",
           "No, because all appointments must always be separate",
           "No, because five members abstained",
-          "Only with Registrar approval"
+          "Only with Registrar approval",
         ],
         answer: 0,
         solution_html: `
@@ -1638,17 +1302,11 @@ const AICaseStudies = [
           against it.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs10_3",
         chapter_name: ["Section 162"],
         question: "What is the nature of the resolution appointing the three directors after the preliminary proposal has been validly approved?",
-        options: [
-          "Ordinary resolution",
-          "Special resolution",
-          "Board resolution only",
-          "Resolution of the Registrar"
-        ],
+        options: ["Ordinary resolution", "Special resolution", "Board resolution only", "Resolution of the Registrar"],
         answer: 0,
         solution_html: `
           <p><strong>Correct Answer: Ordinary resolution.</strong></p>
@@ -1657,17 +1315,11 @@ const AICaseStudies = [
           without any vote being cast against it.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs10_4",
         chapter_name: ["Section 162"],
         question: "In the second company, two directors were appointed through a single resolution without first obtaining approval for the proposal. What is the consequence?",
-        options: [
-          "The appointment is automatically valid",
-          "The resolution is void",
-          "The appointment becomes valid after 30 days",
-          "Only the Chairman is penalised"
-        ],
+        options: ["The appointment is automatically valid", "The resolution is void", "The appointment becomes valid after 30 days", "Only the Chairman is penalised"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: The resolution is void.</strong></p>
@@ -1676,7 +1328,6 @@ const AICaseStudies = [
           time when it was moved.</p>
         `
       },
-
       {
         question_id: "dir_mcq_cs10_5",
         chapter_name: ["Section 162"],
@@ -1685,7 +1336,7 @@ const AICaseStudies = [
           "Increase the remuneration of directors",
           "Prevent shareholders from rejecting a particular candidate",
           "Enable shareholders to exercise their choice regarding each candidate",
-          "Reduce the number of Board meetings"
+          "Reduce the number of Board meetings",
         ],
         answer: 2,
         solution_html: `
@@ -1697,12 +1348,10 @@ const AICaseStudies = [
       }
     ]
   },
-
   /* =========================================================
      CASE SCENARIO 1 - SECTION 163
      PROPORTIONAL REPRESENTATION
   ========================================================= */
-
   {
     case_id: "seta_AI_cs_001",
     difficulty: "Easy",
@@ -1731,9 +1380,7 @@ const AICaseStudies = [
       Articles of the company do not contain any special procedure for filling
       such casual vacancy.</p>
     `,
-
     questions: [
-
       {
         question_id: "seta_AI_cs_1_16",
         question: "What is the minimum proportion of the total number of directors that the Articles of Zenith Engineering Limited must provide for appointment by proportional representation?",
@@ -1741,38 +1388,25 @@ const AICaseStudies = [
           "One-third of the total number of directors",
           "One-half of the total number of directors",
           "Two-thirds of the total number of directors",
-          "Three-fourths of the total number of directors"
+          "Three-fourths of the total number of directors",
         ],
         answer: 2,
         reason: "Section 163 requires the Articles to provide for appointment of not less than two-thirds of the total number of directors according to the principle of proportional representation."
       },
-
       {
         question_id: "seta_AI_cs_1_17",
         question: "Which of the following voting methods may be adopted for appointment of directors under the principle of proportional representation?",
-        options: [
-          "Only ordinary voting",
-          "Single transferable vote",
-          "Only postal ballot",
-          "Only secret ballot"
-        ],
+        options: ["Only ordinary voting", "Single transferable vote", "Only postal ballot", "Only secret ballot"],
         answer: 1,
         reason: "Section 163 permits proportional representation through methods such as single transferable vote, cumulative voting or another transparent and effective method."
       },
-
       {
         question_id: "seta_AI_cs_1_18",
         question: "How frequently may appointments under Section 163 be made?",
-        options: [
-          "Once every year",
-          "Once every two years",
-          "Once every three years",
-          "Once every five years"
-        ],
+        options: ["Once every year", "Once every two years", "Once every three years", "Once every five years"],
         answer: 2,
         reason: "Appointments under the principle of proportional representation may be made once in every three years."
       },
-
       {
         question_id: "seta_AI_cs_1_19",
         question: "What is the appropriate method for filling the casual vacancy where a director appointed under proportional representation vacates office and the Articles contain no specific provision?",
@@ -1780,12 +1414,11 @@ const AICaseStudies = [
           "The Central Government must appoint the director",
           "The shareholders must immediately elect the director",
           "The Board may fill the vacancy by a Board resolution, subject to subsequent regularisation",
-          "The vacancy must remain unfilled until the next three-year cycle"
+          "The vacancy must remain unfilled until the next three-year cycle",
         ],
         answer: 2,
         reason: "Casual vacancies of directors appointed under Section 163 are dealt with under Section 161(4). If the Articles contain no provision, the Board may fill the vacancy by Board resolution, subject to regularisation by shareholders at the immediately held general meeting."
       },
-
       {
         question_id: "seta_AI_cs_1_20",
         question: "What is the principal objective behind Section 163?",
@@ -1793,20 +1426,17 @@ const AICaseStudies = [
           "To ensure that only majority shareholders appoint directors",
           "To provide proportionate representation to minority shareholders",
           "To eliminate voting rights of shareholders",
-          "To increase the number of independent directors"
+          "To increase the number of independent directors",
         ],
         answer: 1,
         reason: "Section 163 provides a mechanism for proportional representation so that shareholders holding substantial minority voting rights can obtain fair representation on the Board."
       }
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 2 - SECTION 164
      DISQUALIFICATION OF DIRECTORS
   ========================================================= */
-
   {
     case_id: "seta_AI_cs_002",
     difficulty: "Medium",
@@ -1832,9 +1462,7 @@ const AICaseStudies = [
       than one year. The Board is considering appointing a person as director
       despite the company's continuing defaults.</p>
     `,
-
     questions: [
-
       {
         question_id: "seta_AI_cs_2_21",
         question: "Can Mr. Rahul, who has been declared of unsound mind by a competent court, be appointed as a director?",
@@ -1842,12 +1470,11 @@ const AICaseStudies = [
           "Yes, if shareholders approve by special resolution",
           "Yes, if he possesses a DIN",
           "No, he is disqualified under Section 164(1)",
-          "Yes, if he is appointed as an independent director"
+          "Yes, if he is appointed as an independent director",
         ],
         answer: 2,
         reason: "A person who is of unsound mind and stands so declared by a competent court is disqualified from appointment as a director under Section 164(1)."
       },
-
       {
         question_id: "seta_AI_cs_2_22",
         question: "Mr. Sameer was sentenced to imprisonment for eight months and completed his sentence three years ago. Which statement is correct?",
@@ -1855,12 +1482,11 @@ const AICaseStudies = [
           "He is eligible because the imprisonment was less than one year",
           "He is disqualified because five years have not elapsed from expiry of the sentence",
           "He is eligible because only offences involving moral turpitude result in disqualification",
-          "He is permanently disqualified from every company"
+          "He is permanently disqualified from every company",
         ],
         answer: 1,
         reason: "A person convicted of an offence and sentenced to imprisonment for not less than six months is disqualified where five years have not elapsed from the date of expiry of the sentence."
       },
-
       {
         question_id: "seta_AI_cs_2_23",
         question: "What is the position of Mr. Vikram whose application for adjudication as an insolvent is pending?",
@@ -1868,12 +1494,11 @@ const AICaseStudies = [
           "He is eligible until he is actually declared insolvent",
           "He is disqualified because his application for adjudication as an insolvent is pending",
           "He is eligible only as an independent director",
-          "He is eligible if the Board approves his appointment"
+          "He is eligible if the Board approves his appointment",
         ],
         answer: 1,
         reason: "A person who has applied to be adjudicated as an insolvent and whose application is pending is disqualified under Section 164(1)."
       },
-
       {
         question_id: "seta_AI_cs_2_24",
         question: "What disqualification may arise for Mr. Arjun because Prime Consumer Products Limited has not filed its financial statements or annual returns for a continuous period of three financial years?",
@@ -1881,12 +1506,11 @@ const AICaseStudies = [
           "He may be disqualified for five years",
           "He is permanently disqualified",
           "He is disqualified only for one year",
-          "He is disqualified only from being an independent director"
+          "He is disqualified only from being an independent director",
         ],
         answer: 0,
         reason: "Under Section 164(2), where a company has not filed financial statements or annual returns for any continuous period of three financial years, the concerned director is disqualified for a period of five years."
       },
-
       {
         question_id: "seta_AI_cs_2_25",
         question: "The company has failed to repay deposits and interest thereon for more than one year. What consequence may arise for its directors under Section 164(2)?",
@@ -1894,20 +1518,17 @@ const AICaseStudies = [
           "No consequence arises because deposits are not covered",
           "The concerned directors may be disqualified for five years",
           "The directors are disqualified permanently",
-          "Only the company secretary is disqualified"
+          "Only the company secretary is disqualified",
         ],
         answer: 1,
         reason: "Failure to repay deposits accepted by the company or interest thereon, or to redeem debentures or pay interest thereon, or to pay dividend declared, where the failure continues for one year or more, attracts disqualification under Section 164(2) for five years."
       }
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 3 - SECTION 165
      MAXIMUM NUMBER OF DIRECTORSHIPS
   ========================================================= */
-
   {
     case_id: "seta_AI_cs_003",
     difficulty: "Medium",
@@ -1934,61 +1555,35 @@ const AICaseStudies = [
       <p>The Board is concerned about the consequences if Mr. Karan accepts
       appointments beyond the statutory limits.</p>
     `,
-
     questions: [
-
       {
         question_id: "seta_AI_cs_3_26",
         question: "What is the maximum number of companies in which a person may generally hold office as director at the same time under Section 165?",
-        options: [
-          "10 companies",
-          "15 companies",
-          "20 companies",
-          "25 companies"
-        ],
+        options: ["10 companies", "15 companies", "20 companies", "25 companies"],
         answer: 2,
         reason: "Section 165(1) provides that a person shall not hold office as director, including alternate directorship, in more than 20 companies at the same time."
       },
-
       {
         question_id: "seta_AI_cs_3_27",
         question: "Out of the maximum limit of 20 companies, what is the maximum number of public companies in which a person can generally be a director?",
-        options: [
-          "5",
-          "10",
-          "15",
-          "20"
-        ],
+        options: ["5", "10", "15", "20"],
         answer: 1,
         reason: "The maximum number of public companies in which a person can be appointed as director is 10."
       },
-
       {
         question_id: "seta_AI_cs_3_28",
         question: "For calculating the limit of 10 public companies, which of the following is also included?",
-        options: [
-          "Every dormant company",
-          "Every Section 8 company",
-          "Private companies that are holding or subsidiary companies of a public company",
-          "Only foreign companies"
-        ],
+        options: ["Every dormant company", "Every Section 8 company", "Private companies that are holding or subsidiary companies of a public company", "Only foreign companies"],
         answer: 2,
         reason: "The limit of 10 public companies includes directorship in private companies that are either holding or subsidiary companies of a public company."
       },
-
       {
         question_id: "seta_AI_cs_3_29",
         question: "Which directorship is excluded while calculating the maximum limit of 20 companies, subject to the applicable conditions?",
-        options: [
-          "Directorship in a dormant company",
-          "Directorship in every listed company",
-          "Directorship in every public company",
-          "Directorship in every private company"
-        ],
+        options: ["Directorship in a dormant company", "Directorship in every listed company", "Directorship in every public company", "Directorship in every private company"],
         answer: 0,
         reason: "Directorship in a dormant company is not included in determining the maximum permissible limit of 20 directorships."
       },
-
       {
         question_id: "seta_AI_cs_3_30",
         question: "Can the members of a company prescribe a number lower than the statutory maximum number of directorships?",
@@ -1996,20 +1591,17 @@ const AICaseStudies = [
           "No, the statutory limit can never be reduced",
           "Yes, by passing a special resolution",
           "Yes, only by an ordinary resolution",
-          "Yes, only with approval of the Central Government"
+          "Yes, only with approval of the Central Government",
         ],
         answer: 1,
         reason: "Under Section 165(2), members of a company may, by special resolution, specify a lesser number of companies in which a director of that company may act as director."
       }
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 4 - INDEPENDENT DIRECTOR
      SECTIONS 149 AND 150
   ========================================================= */
-
   {
     case_id: "seta_AI_cs_004",
     difficulty: "Hard",
@@ -2038,22 +1630,14 @@ const AICaseStudies = [
       Ms. Neha objects to the proposal and states that an independent director cannot
       receive stock options under Section 149.</p>
     `,
-
     questions: [
-
       {
         question_id: "seta_AI_cs_4_31",
         question: "Galaxy Financial Services Limited has 9 directors. What is the minimum number of independent directors required for a listed public company?",
-        options: [
-          "1",
-          "2",
-          "3",
-          "4"
-        ],
+        options: ["1", "2", "3", "4"],
         answer: 2,
         reason: "A listed public company must have at least one-third of the total number of directors as independent directors. One-third of 9 is 3."
       },
-
       {
         question_id: "seta_AI_cs_4_32",
         question: "Is Ms. Neha's relative holding securities having a face value of ₹45 lakh by itself within the prescribed limit mentioned in the case material?",
@@ -2061,12 +1645,11 @@ const AICaseStudies = [
           "No, because any holding by a relative is prohibited",
           "Yes, because the prescribed threshold is ₹50 lakh or 2% of paid-up capital, as applicable",
           "No, because the threshold is ₹25 lakh",
-          "Yes, but only if she is a nominee director"
+          "Yes, but only if she is a nominee director",
         ],
         answer: 1,
         reason: "The relative may hold security or interest of face value not exceeding ₹50 lakh or 2% of the paid-up capital of the company, its holding, subsidiary or associate company, subject to the prescribed provisions."
       },
-
       {
         question_id: "seta_AI_cs_4_33",
         question: "When must Ms. Neha give her declaration that she meets the criteria of independence?",
@@ -2074,12 +1657,11 @@ const AICaseStudies = [
           "Only at the time of appointment",
           "At the first Board meeting in which she participates and thereafter at the first Board meeting of every financial year and whenever circumstances change",
           "Only once every five years",
-          "Only when demanded by shareholders"
+          "Only when demanded by shareholders",
         ],
         answer: 1,
         reason: "Section 149(7) requires an independent director to give the declaration at the first Board meeting in which he or she participates, thereafter at the first Board meeting in every financial year, and whenever circumstances change affecting independence."
       },
-
       {
         question_id: "seta_AI_cs_4_34",
         question: "Which statement is correct regarding stock options for Ms. Neha as an independent director?",
@@ -2087,33 +1669,24 @@ const AICaseStudies = [
           "She may receive unlimited stock options",
           "She may receive stock options if approved by the Board",
           "She is not entitled to any stock option",
-          "She may receive stock options only with Central Government approval"
+          "She may receive stock options only with Central Government approval",
         ],
         answer: 2,
         reason: "Section 149(9) specifically provides that an independent director shall not be entitled to any stock option."
       },
-
       {
         question_id: "seta_AI_cs_4_35",
         question: "Who is responsible for exercising due diligence before selecting an independent director from the databank?",
-        options: [
-          "The Central Government",
-          "The institute maintaining the databank",
-          "The company making the appointment",
-          "The Registrar of Companies"
-        ],
+        options: ["The Central Government", "The institute maintaining the databank", "The company making the appointment", "The Registrar of Companies"],
         answer: 2,
         reason: "The responsibility for exercising due diligence before selecting a person as an independent director from the databank lies with the company making the appointment."
       }
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 5 - SECTIONS 166 AND 167
      DUTIES AND VACATION OF OFFICE
   ========================================================= */
-
   {
     case_id: "seta_AI_cs_005",
     difficulty: "Hard",
@@ -2143,9 +1716,7 @@ const AICaseStudies = [
       <p>The company is also considering what should happen if all its directors
       simultaneously vacate office due to disqualification.</p>
     `,
-
     questions: [
-
       {
         question_id: "seta_AI_cs_5_36",
         question: "Which duty of a director is violated when Mr. Dev personally exploits a business opportunity falling within the company's objects for his own benefit?",
@@ -2153,12 +1724,11 @@ const AICaseStudies = [
           "Duty to assign his office",
           "Duty to avoid situations involving conflict of interest and undue gain",
           "Duty to appoint the auditor",
-          "Duty to hold general meetings"
+          "Duty to hold general meetings",
         ],
         answer: 1,
         reason: "Section 166 requires directors to avoid situations where their direct or indirect interest conflicts with the company's interest and prohibits them from achieving undue gain or advantage for themselves or their relatives, partners or associates."
       },
-
       {
         question_id: "seta_AI_cs_5_37",
         question: "What is the consequence of Mr. Dev being found guilty of making an undue gain?",
@@ -2166,12 +1736,11 @@ const AICaseStudies = [
           "He may retain the gain if shareholders approve it",
           "He is required to pay an amount equal to the undue gain to the company",
           "The gain is divided among the directors",
-          "The gain is transferred to the Registrar"
+          "The gain is transferred to the Registrar",
         ],
         answer: 1,
         reason: "Under Section 166, where a director is found guilty of making an undue gain, he is liable to pay an amount equal to that gain to the company."
       },
-
       {
         question_id: "seta_AI_cs_5_38",
         question: "Mr. Rishi has remained absent from all Board meetings during a period of twelve months. What is the consequence under Section 167?",
@@ -2179,12 +1748,11 @@ const AICaseStudies = [
           "His office becomes vacant",
           "He automatically becomes an independent director",
           "He is suspended for one month only",
-          "No consequence arises if he had not taken leave"
+          "No consequence arises if he had not taken leave",
         ],
         answer: 0,
         reason: "The office of a director becomes vacant if he absents himself from all meetings of the Board held during a period of twelve months, whether or not he has sought leave of absence."
       },
-
       {
         question_id: "seta_AI_cs_5_39",
         question: "Ms. Tanya incurs disqualification under Section 164(2). In which company does her office generally become vacant under the special rule?",
@@ -2192,12 +1760,11 @@ const AICaseStudies = [
           "In every company in which she is a director",
           "Only in the company which committed the default",
           "Only in companies having independent directors",
-          "Only in private companies"
+          "Only in private companies",
         ],
         answer: 1,
         reason: "Where a director incurs disqualification under Section 164(2), the office becomes vacant in all companies other than the company which is in default under that sub-section."
       },
-
       {
         question_id: "seta_AI_cs_5_40",
         question: "Mr. Sameer is convicted and sentenced to imprisonment for six months. He files an appeal within 30 days. What is the effect on vacation of his office?",
@@ -2205,32 +1772,24 @@ const AICaseStudies = [
           "His office immediately becomes vacant and cannot be restored",
           "His office is not vacated during the period specified while the appeal is pending, subject to the statutory conditions",
           "He automatically becomes an independent director",
-          "The Board must immediately appoint a replacement"
+          "The Board must immediately appoint a replacement",
         ],
         answer: 1,
         reason: "For vacation arising from conviction or an order of disqualification, Section 167 provides statutory periods during which the office is not vacated, including where an appeal or petition is preferred within the prescribed period."
       },
-
       {
         question_id: "seta_AI_cs_5_41",
         question: "If all the directors of a company vacate their offices under Section 167(1), who shall appoint the required number of directors until directors are appointed by the company in general meeting?",
-        options: [
-          "Only the Registrar",
-          "The promoter or, in his absence, the Central Government",
-          "Only the statutory auditor",
-          "The shareholders individually"
-        ],
+        options: ["Only the Registrar", "The promoter or, in his absence, the Central Government", "Only the statutory auditor", "The shareholders individually"],
         answer: 1,
         reason: "Under Section 167(3), where all directors vacate their offices, the promoter or, in his absence, the Central Government shall appoint the required number of directors who hold office until directors are appointed by the company in general meeting."
       }
     ]
   },
-
   /* =========================================================
      HARD CASE SCENARIO 6
      SECTION 163 + GOVERNMENT COMPANY EXEMPTION
   ========================================================= */
-
   {
     case_id: "seta_AI_cs_006",
     difficulty: "Hard",
@@ -2262,22 +1821,14 @@ const AICaseStudies = [
       considering the statutory exemption and the minimum proportion applicable
       in cases where Section 163 does apply.</p>
     `,
-
     questions: [
-
       {
         question_id: "seta_AI_cs_6_42",
         question: "If Section 163 were applicable to NIPL, what is the minimum number of directors out of 15 whose appointment would have to be provided for by proportional representation?",
-        options: [
-          "5 directors",
-          "8 directors",
-          "10 directors",
-          "12 directors"
-        ],
+        options: ["5 directors", "8 directors", "10 directors", "12 directors"],
         answer: 2,
         reason: "Section 163 requires the Articles to provide for appointment of not less than two-thirds of the total number of directors through proportional representation. Two-thirds of 15 is 10 directors."
       },
-
       {
         question_id: "seta_AI_cs_6_43",
         question: "Which of the following is the most appropriate conclusion regarding the applicability of Section 163 to NIPL?",
@@ -2285,12 +1836,11 @@ const AICaseStudies = [
           "Section 163 necessarily applies because NIPL is a public company",
           "Section 163 does not apply because NIPL is a Government company wholly owned by the Central Government and has not committed the specified filing defaults",
           "Section 163 applies because minority shareholders have demanded proportional representation",
-          "Section 163 applies unless the Articles specifically exclude it"
+          "Section 163 applies unless the Articles specifically exclude it",
         ],
         answer: 1,
         reason: "Section 163 does not apply to a Government company in which the entire paid-up share capital is held by the Central Government, State Government(s), or combination of Central and State Governments, subject to the condition that the Government company has not committed the specified filing defaults."
       },
-
       {
         question_id: "seta_AI_cs_6_44",
         question: "NIPL's subsidiary is wholly owned by NIPL. Assuming NIPL satisfies the conditions of the exemption, which statement is correct regarding the subsidiary?",
@@ -2298,12 +1848,11 @@ const AICaseStudies = [
           "The subsidiary is automatically subject to Section 163 because it is not itself a Government company",
           "The subsidiary may also fall within the exemption where its entire paid-up share capital is held by the qualifying Government company",
           "The subsidiary is exempt only if it has more than 20 directors",
-          "The subsidiary can claim exemption only with approval of the Registrar"
+          "The subsidiary can claim exemption only with approval of the Registrar",
         ],
         answer: 1,
         reason: "The exemption also extends to a subsidiary of the qualifying Government company where the entire paid-up share capital of the subsidiary is held by that Government company, subject to the prescribed condition regarding filing defaults."
       },
-
       {
         question_id: "seta_AI_cs_6_45",
         question: "NIPL proposes to use the single transferable vote system for proportional representation. Which statement correctly describes the permitted voting methods under Section 163?",
@@ -2311,12 +1860,11 @@ const AICaseStudies = [
           "Only single transferable vote is permitted",
           "Only cumulative voting is permitted",
           "Single transferable vote, cumulative voting or another transparent and effective method ensuring fair minority representation may be used",
-          "Only ordinary majority voting may be used"
+          "Only ordinary majority voting may be used",
         ],
         answer: 2,
         reason: "Section 163 permits single transferable vote, cumulative voting, or otherwise another transparent and effective method of voting that ensures fair representation of minority interests."
       },
-
       {
         question_id: "seta_AI_cs_6_46",
         question: "A director appointed through proportional representation subsequently vacates office. The Articles are silent regarding the casual vacancy. Which procedure is applicable?",
@@ -2324,20 +1872,17 @@ const AICaseStudies = [
           "The vacancy must be filled only by proportional representation at the next general meeting",
           "The Central Government must appoint the replacement",
           "The Board may fill the vacancy by Board resolution, subject to subsequent regularisation by shareholders at the immediately held general meeting",
-          "The vacancy cannot be filled until the next three-year cycle"
+          "The vacancy cannot be filled until the next three-year cycle",
         ],
         answer: 2,
         reason: "Section 163 provides that casual vacancies of such directors are filled in accordance with Section 161(4). Where the Articles contain no provision, the Board may fill the vacancy by Board resolution, subject to regularisation by shareholders at the immediately held general meeting."
       }
     ]
   },
-
-
   /* =========================================================
      HARD CASE SCENARIO 7
      SECTION 164 - MULTIPLE DISQUALIFICATIONS
   ========================================================= */
-
   {
     case_id: "seta_AI_cs_007",
     difficulty: "Hard",
@@ -2368,9 +1913,7 @@ const AICaseStudies = [
       with another shareholder, with more than six months having elapsed from the
       last date fixed for payment.</p>
     `,
-
     questions: [
-
       {
         question_id: "seta_AI_cs_7_47",
         question: "Mr. A was sentenced to imprisonment for eight months and only three years have elapsed from expiry of his sentence. Is he disqualified despite filing an appeal?",
@@ -2378,12 +1921,11 @@ const AICaseStudies = [
           "No, because an appeal automatically removes the disqualification",
           "Yes, because imprisonment was not less than six months and five years have not elapsed; the specified disqualification continues despite an appeal or petition",
           "No, because only imprisonment of seven years or more causes disqualification",
-          "Yes, but only if the shareholders pass a resolution"
+          "Yes, but only if the shareholders pass a resolution",
         ],
         answer: 1,
         reason: "A person convicted and sentenced to imprisonment for not less than six months is disqualified if five years have not elapsed from expiry of the sentence. Under the proviso to Section 164(3), the disqualifications under clauses (d), (e) and (g) continue even where an appeal or petition has been filed."
       },
-
       {
         question_id: "seta_AI_cs_7_48",
         question: "Mr. B was sentenced to imprisonment for seven years. More than five years have elapsed since completion of his sentence. Can he be appointed as a director?",
@@ -2391,38 +1933,25 @@ const AICaseStudies = [
           "Yes, because the five-year period has expired",
           "Yes, if the Board approves his appointment",
           "No, because a person sentenced to imprisonment for seven years or more is not eligible to be appointed as a director in any company",
-          "Yes, but only in a private company"
+          "Yes, but only in a private company",
         ],
         answer: 2,
         reason: "Where a person has been convicted and sentenced to imprisonment for seven years or more, he shall not be eligible to be appointed as a director in any company. The general five-year rule does not make him eligible."
       },
-
       {
         question_id: "seta_AI_cs_7_49",
         question: "Mr. C was appointed as a director of a company that had already committed a Section 164(2) default. For how long from the date of his appointment does the special six-month provision operate?",
-        options: [
-          "Three months",
-          "Six months",
-          "One year",
-          "Five years"
-        ],
+        options: ["Three months", "Six months", "One year", "Five years"],
         answer: 1,
         reason: "Where a person is appointed as a director of a company which has committed a default under Section 164(2), he shall not incur the disqualification for a period of six months from the date of his appointment."
       },
-
       {
         question_id: "seta_AI_cs_7_50",
         question: "A proposed director has failed to obtain a Director Identification Number. Which provision makes this a disqualification?",
-        options: [
-          "Section 149(6)",
-          "Section 152(3)",
-          "Section 164(1)(h)",
-          "Section 165(6)"
-        ],
+        options: ["Section 149(6)", "Section 152(3)", "Section 164(1)(h)", "Section 165(6)"],
         answer: 2,
         reason: "Section 164(1)(h) provides disqualification where the person has not complied with Section 152(3), which requires a director to have a DIN."
       },
-
       {
         question_id: "seta_AI_cs_7_51",
         question: "A person has failed to pay calls on shares held jointly with another person, and six months have elapsed from the last day fixed for payment. Which statement is correct?",
@@ -2430,20 +1959,17 @@ const AICaseStudies = [
           "The disqualification does not apply because the shares are jointly held",
           "The disqualification applies because Section 164(1)(f) covers shares held individually or jointly",
           "The disqualification applies only if the shares are listed",
-          "The disqualification applies only after one year"
+          "The disqualification applies only after one year",
         ],
         answer: 1,
         reason: "Section 164(1)(f) applies where calls in respect of shares held by the person have not been paid and six months have elapsed from the last day fixed for payment. It is immaterial whether the shares are held individually or jointly."
       }
     ]
   },
-
-
   /* =========================================================
      HARD CASE SCENARIO 8
      SECTION 165 - COMPUTATION OF DIRECTORSHIPS
   ========================================================= */
-
   {
     case_id: "seta_AI_cs_008",
     difficulty: "Hard",
@@ -2467,9 +1993,7 @@ const AICaseStudies = [
       discovers that his appointment may have resulted in contravention of both the
       overall limit and the public-company limit.</p>
     `,
-
     questions: [
-
       {
         question_id: "seta_AI_cs_8_52",
         question: "For determining the statutory limit of 20 companies, which of Arvind's existing directorships is excluded?",
@@ -2477,25 +2001,18 @@ const AICaseStudies = [
           "The directorship in the private subsidiary of a public company",
           "The directorship in the dormant company",
           "One of the ordinary private companies",
-          "One of the public companies"
+          "One of the public companies",
         ],
         answer: 1,
         reason: "Directorship in a dormant company is excluded from the calculation of the maximum limit of 20 companies."
       },
-
       {
         question_id: "seta_AI_cs_8_53",
         question: "Ignoring the dormant company, how many counted companies is Arvind already a director of?",
-        options: [
-          "18",
-          "19",
-          "20",
-          "21"
-        ],
+        options: ["18", "19", "20", "21"],
         answer: 0,
         reason: "Arvind has 19 stated directorships, including one dormant company. Since the dormant company is excluded, 18 directorships are counted."
       },
-
       {
         question_id: "seta_AI_cs_8_54",
         question: "For the purpose of the 10-public-company limit, which of the following must be considered?",
@@ -2503,25 +2020,18 @@ const AICaseStudies = [
           "Only the 9 companies legally classified as public companies",
           "The 9 public companies plus the private company that is a subsidiary of a public company",
           "Only private companies",
-          "The dormant company and the ordinary private companies"
+          "The dormant company and the ordinary private companies",
         ],
         answer: 1,
         reason: "The 10-company public-company limit includes directorships in private companies that are holding or subsidiary companies of a public company."
       },
-
       {
         question_id: "seta_AI_cs_8_55",
         question: "If Arvind accepts the additional public-company directorship, what is the number of counted public-company directorships for the purpose of the statutory limit?",
-        options: [
-          "9",
-          "10",
-          "11",
-          "12"
-        ],
+        options: ["9", "10", "11", "12"],
         answer: 2,
         reason: "Arvind already has 9 public companies plus 1 private company that is a subsidiary of a public company, making 10 for the public-company limit. The additional public company takes the total to 11."
       },
-
       {
         question_id: "seta_AI_cs_8_56",
         question: "What is the effect of the special resolution passed by the members restricting a director to not more than 12 companies?",
@@ -2529,20 +2039,17 @@ const AICaseStudies = [
           "It is invalid because only the Central Government can reduce the limit",
           "It is valid because members may specify a lesser number by special resolution",
           "It is valid only if approved by the Registrar",
-          "It automatically changes the statutory maximum for every company"
+          "It automatically changes the statutory maximum for every company",
         ],
         answer: 1,
         reason: "Section 165(2) permits members of a company, by special resolution, to specify a lesser number of companies in which a director of that company may act as director."
       }
     ]
   },
-
-
   /* =========================================================
      HARD CASE SCENARIO 9
      INDEPENDENT DIRECTOR - SECTION 149
   ========================================================= */
-
   {
     case_id: "seta_AI_cs_009",
     difficulty: "Hard",
@@ -2571,22 +2078,14 @@ const AICaseStudies = [
       and, after completion, the company proposes another three-year term followed
       immediately by a fresh appointment in a different capacity.</p>
     `,
-
     questions: [
-
       {
         question_id: "seta_AI_cs_9_57",
         question: "Vertex Healthcare Limited has 11 directors. What is the minimum number of independent directors required?",
-        options: [
-          "2",
-          "3",
-          "4",
-          "5"
-        ],
+        options: ["2", "3", "4", "5"],
         answer: 2,
         reason: "A listed public company must have at least one-third of its total number of directors as independent directors. One-third of 11 is 3.67, and any fraction is rounded off as one, resulting in 4 independent directors."
       },
-
       {
         question_id: "seta_AI_cs_9_58",
         question: "Does Rohit's relative being indebted to the company for ₹48 lakh necessarily violate the prescribed ₹50 lakh threshold stated in the case material?",
@@ -2594,12 +2093,11 @@ const AICaseStudies = [
           "Yes, because any indebtedness of a relative is prohibited",
           "No, because the amount is below ₹50 lakh",
           "Yes, because the threshold is ₹25 lakh",
-          "No, because relatives are completely ignored"
+          "No, because relatives are completely ignored",
         ],
         answer: 1,
         reason: "The prescribed amount referred to in Rule 5 is ₹50 lakh. Indebtedness exceeding that amount creates the specified restriction. ₹48 lakh is below the stated threshold."
       },
-
       {
         question_id: "seta_AI_cs_9_59",
         question: "Does Rohit's previous employment with the associate company two financial years immediately preceding the proposed appointment affect his eligibility?",
@@ -2607,12 +2105,11 @@ const AICaseStudies = [
           "Yes, because the restriction covers employment in the company, its holding, subsidiary or associate company during any of the three immediately preceding financial years",
           "No, because only employment with the company itself matters",
           "No, because the employment ended before appointment",
-          "Yes, but only if he was a promoter"
+          "Yes, but only if he was a promoter",
         ],
         answer: 0,
         reason: "Section 149(6) restricts a person who is or has been an employee of the company or its holding, subsidiary or associate company during any of the three financial years immediately preceding the financial year in which he is proposed to be appointed."
       },
-
       {
         question_id: "seta_AI_cs_9_60",
         question: "Rohit's professional firm had transactions with the company amounting to 12% of the firm's gross turnover. What is the consequence?",
@@ -2620,12 +2117,11 @@ const AICaseStudies = [
           "There is no restriction because the transaction is below 25%",
           "It may disqualify Rohit because the prescribed threshold for such legal or consulting firm transactions is 10% or more of the firm's gross turnover",
           "It is permissible because only transactions exceeding 50% are prohibited",
-          "It is permissible if the Board approves the appointment"
+          "It is permissible if the Board approves the appointment",
         ],
         answer: 1,
         reason: "Section 149(6) restricts a person who has been an employee, proprietor or partner of a legal or consulting firm which has or had transactions with the company or specified group companies amounting to 10% or more of the gross turnover of that firm during the relevant three-year period."
       },
-
       {
         question_id: "seta_AI_cs_9_61",
         question: "If Rohit completes two consecutive three-year terms as an independent director, can he immediately be appointed by the same company in another capacity?",
@@ -2633,20 +2129,17 @@ const AICaseStudies = [
           "Yes, because his total tenure is only six years",
           "Yes, provided shareholders pass an ordinary resolution",
           "No, he must observe a cooling period of three years and during that period cannot be appointed or associated with the company in any other capacity, directly or indirectly",
-          "Yes, because the cooling period applies only after two five-year terms"
+          "Yes, because the cooling period applies only after two five-year terms",
         ],
         answer: 2,
         reason: "An independent director cannot hold office for more than two consecutive terms. After ceasing to be an independent director, he may be appointed only after a cooling period of three years, and during that period he cannot be appointed or associated with the company in any other capacity, directly or indirectly."
       }
     ]
   },
-
-
   /* =========================================================
      HARD CASE SCENARIO 10
      SECTIONS 150, 166 AND 167
   ========================================================= */
-
   {
     case_id: "seta_AI_cs_010",
     difficulty: "Hard",
@@ -2676,9 +2169,7 @@ const AICaseStudies = [
       in office. The promoters are available and are considering the appropriate
       statutory course.</p>
     `,
-
     questions: [
-
       {
         question_id: "seta_AI_cs_10_62",
         question: "What happens when an individual's name is not renewed in the databank within 30 days from expiry of the period for which it was included?",
@@ -2686,12 +2177,11 @@ const AICaseStudies = [
           "The name remains permanently active",
           "The name stands removed from the databank",
           "The name is automatically converted into lifetime registration",
-          "The Central Government renews it automatically"
+          "The Central Government renews it automatically",
         ],
         answer: 1,
         reason: "Under Rule 6, an individual must apply for renewal within 30 days from expiry of the inclusion period. Failing this, the individual's name stands removed from the databank."
       },
-
       {
         question_id: "seta_AI_cs_10_63",
         question: "After restoration, what must Kavya generally do within the one-year restored category to have her name included in the databank again?",
@@ -2699,12 +2189,11 @@ const AICaseStudies = [
           "Obtain approval from the Registrar",
           "Pass the online proficiency self-assessment test",
           "Obtain approval from the Central Government",
-          "Serve as a director for one year"
+          "Serve as a director for one year",
         ],
         answer: 1,
         reason: "After restoration on payment of the prescribed fee, the individual's name is placed in a separate restored category for one year, during which she is required to pass the online proficiency self-assessment test for restoration to the databank."
       },
-
       {
         question_id: "seta_AI_cs_10_64",
         question: "The independent director of Summit Renewable Energy Limited resigns. By when should the intermittent vacancy generally be filled by the Board?",
@@ -2712,45 +2201,31 @@ const AICaseStudies = [
           "Only at the next AGM",
           "Within six months",
           "At the earliest but not later than the immediate next Board meeting or three months from the date of vacancy, whichever is later",
-          "Within thirty days in every case"
+          "Within thirty days in every case",
         ],
         answer: 2,
         reason: "An intermittent vacancy of an independent director is to be filled by the Board at the earliest but not later than the immediate next Board meeting or three months from the date of vacancy, whichever is later."
       },
-
       {
         question_id: "seta_AI_cs_10_65",
         question: "Mr. Varun knowingly continues to act as a director after his office has become vacant under Section 167(1). What is the maximum fine prescribed under Section 167(2)?",
-        options: [
-          "₹50,000",
-          "₹1,00,000",
-          "₹5,00,000",
-          "₹10,00,000"
-        ],
+        options: ["₹50,000", "₹1,00,000", "₹5,00,000", "₹10,00,000"],
         answer: 2,
         reason: "A person who functions as a director knowing that his office has become vacant under Section 167(1) is punishable with fine of not less than ₹1,00,000, which may extend to ₹5,00,000."
       },
-
       {
         question_id: "seta_AI_cs_10_66",
         question: "Where all directors of a company have vacated their offices under Section 167(1), who is responsible for appointing the required number of directors until the company appoints directors in general meeting?",
-        options: [
-          "The Registrar alone",
-          "The promoter, or in his absence, the Central Government",
-          "The statutory auditor",
-          "The independent directors of the group company"
-        ],
+        options: ["The Registrar alone", "The promoter, or in his absence, the Central Government", "The statutory auditor", "The independent directors of the group company"],
         answer: 1,
         reason: "Section 167(3) provides that where all directors vacate their offices, the promoter or, in his absence, the Central Government shall appoint the required number of directors, who hold office until directors are appointed by the company in general meeting."
       }
     ]
   },
-
   /* =========================================================
      MEDIUM CASE SCENARIO 11
      SECTION 168 - RESIGNATION OF DIRECTOR
   ========================================================= */
-
   {
     case_id: "seta_AI_cs_011",
     difficulty: "Medium",
@@ -2774,22 +2249,14 @@ const AICaseStudies = [
       the Registrar. David is unable to personally complete the filing
       requirements in India.</p>
     `,
-
     questions: [
-
       {
         question_id: "seta_AI_cs_11_67",
         question: "From which date will Raj's resignation take effect?",
-        options: [
-          "10th August",
-          "12th August",
-          "14th August",
-          "20th August"
-        ],
+        options: ["10th August", "12th August", "14th August", "20th August"],
         answer: 3,
         reason: "A director's resignation takes effect from the date on which the notice is received by the company or from the date specified by the director in the notice, whichever is later. Here, receipt is on 12th August and the specified date is 20th August. Therefore, resignation takes effect from 20th August."
       },
-
       {
         question_id: "seta_AI_cs_11_68",
         question: "By when should Alpha Manufacturing Limited intimate the Registrar about Raj's resignation?",
@@ -2797,12 +2264,11 @@ const AICaseStudies = [
           "Within 7 days from the resignation",
           "Within 15 days from the resignation",
           "Within 30 days from receipt of the resignation notice",
-          "Within 60 days from the resignation"
+          "Within 60 days from the resignation",
         ],
         answer: 2,
         reason: "The company is required to intimate the Registrar regarding the resignation of a director within 30 days of receipt of the notice of resignation, through Form DIR-12."
       },
-
       {
         question_id: "seta_AI_cs_11_69",
         question: "Does Raj cease to be liable for offences committed by the company during his tenure merely because he has resigned?",
@@ -2810,12 +2276,11 @@ const AICaseStudies = [
           "Yes, resignation completely removes his liability",
           "Yes, once the Board takes note of the resignation",
           "No, he remains liable for offences which occurred during his tenure",
-          "No, but only for offences committed after resignation"
+          "No, but only for offences committed after resignation",
         ],
         answer: 2,
         reason: "Section 168 specifically provides that a director who has resigned shall remain liable for offences which occurred during his tenure."
       },
-
       {
         question_id: "seta_AI_cs_11_70",
         question: "David, the foreign director, may authorise which of the following persons to sign and file Form DIR-11 on his behalf, where the company has already filed Form DIR-12?",
@@ -2823,33 +2288,24 @@ const AICaseStudies = [
           "Only the Registrar",
           "A practising CA, practising Cost Accountant, practising Company Secretary or another resident director of the company",
           "Only the Managing Director",
-          "Any shareholder of the company"
+          "Any shareholder of the company",
         ],
         answer: 1,
         reason: "In the specified situation, a foreign director may authorise in writing a practising Chartered Accountant, Cost Accountant in practice, Company Secretary in practice or any other resident director of the company to sign and file Form DIR-11 on his behalf."
       },
-
       {
         question_id: "seta_AI_cs_11_71",
         question: "If all directors of Alpha Manufacturing Limited resign simultaneously, who shall appoint the required number of directors until directors are appointed by the company in general meeting?",
-        options: [
-          "The Registrar of Companies",
-          "The statutory auditor",
-          "The promoter, or in his absence, the Central Government",
-          "The outgoing directors"
-        ],
+        options: ["The Registrar of Companies", "The statutory auditor", "The promoter, or in his absence, the Central Government", "The outgoing directors"],
         answer: 2,
         reason: "Where all directors resign or vacate their offices, the promoter, or in his absence the Central Government, shall appoint the required number of directors until directors are appointed by the company in general meeting."
       }
     ]
   },
-
-
   /* =========================================================
      MEDIUM CASE SCENARIO 12
      SECTION 169 - REMOVAL OF DIRECTOR
   ========================================================= */
-
   {
     case_id: "seta_AI_cs_012",
     difficulty: "Medium",
@@ -2873,9 +2329,7 @@ const AICaseStudies = [
       independent director who has been re-appointed for her second consecutive
       term.</p>
     `,
-
     questions: [
-
       {
         question_id: "seta_AI_cs_12_72",
         question: "Is the special notice submitted by members holding 1.5% of total voting power sufficient for proposing removal of Karan?",
@@ -2883,12 +2337,11 @@ const AICaseStudies = [
           "No, members must hold at least 5% voting power",
           "Yes, because members holding not less than 1% of total voting power can give special notice",
           "No, members must hold at least 10% voting power",
-          "Yes, but only if all members consent"
+          "Yes, but only if all members consent",
         ],
         answer: 1,
         reason: "Special notice under Section 115 may be given by members holding not less than 1% of the total voting power or holding shares on which an aggregate sum of at least ₹5 lakh has been paid."
       },
-
       {
         question_id: "seta_AI_cs_12_73",
         question: "Karan has submitted a written representation and requested circulation to members. The company has sufficient time. What should the company generally do?",
@@ -2896,38 +2349,25 @@ const AICaseStudies = [
           "Ignore the representation",
           "Circulate the representation to members along with the notice",
           "Send it only to the Registrar",
-          "Send it only to the Board members"
+          "Send it only to the Board members",
         ],
         answer: 1,
         reason: "Where the director makes a written representation and requests its notification to members, and time permits, the company shall state the fact of the representation in the notice and send the representation to every member to whom the meeting notice is sent."
       },
-
       {
         question_id: "seta_AI_cs_12_74",
         question: "Which resolution is ordinarily required for removal of Karan, assuming he is not covered by an exception under Section 169?",
-        options: [
-          "Board resolution",
-          "Ordinary resolution",
-          "Special resolution in every case",
-          "Resolution of the Tribunal"
-        ],
+        options: ["Board resolution", "Ordinary resolution", "Special resolution in every case", "Resolution of the Tribunal"],
         answer: 1,
         reason: "A company may remove a director before expiry of his term by passing an ordinary resolution, subject to the exceptions and procedural requirements under Section 169."
       },
-
       {
         question_id: "seta_AI_cs_12_75",
         question: "Priya is an independent director re-appointed for her second term. What type of resolution is required for her removal?",
-        options: [
-          "Board resolution",
-          "Ordinary resolution",
-          "Special resolution",
-          "No resolution is required"
-        ],
+        options: ["Board resolution", "Ordinary resolution", "Special resolution", "No resolution is required"],
         answer: 2,
         reason: "An independent director re-appointed for a second term under Section 149(10) can be removed only by passing a special resolution."
       },
-
       {
         question_id: "seta_AI_cs_12_76",
         question: "If Karan is removed and the vacancy is filled at the same meeting, what condition applies regarding the proposed replacement?",
@@ -2935,20 +2375,17 @@ const AICaseStudies = [
           "No prior notice is required",
           "Special notice of the proposed appointment must have been given",
           "Only Board approval is required",
-          "The Registrar must nominate the replacement"
+          "The Registrar must nominate the replacement",
         ],
         answer: 1,
         reason: "Where the vacancy resulting from removal is filled at the same meeting, the appointment of another director can be made provided special notice of the proposed appointment has been given."
       }
     ]
   },
-
-
   /* =========================================================
      MEDIUM CASE SCENARIO 13
      SECTION 169 - PROPORTIONAL REPRESENTATION + TRIBUNAL
   ========================================================= */
-
   {
     case_id: "seta_AI_cs_013",
     difficulty: "Medium",
@@ -2971,22 +2408,14 @@ const AICaseStudies = [
       for the premature termination of his office and should be free to become
       a director in another company immediately.</p>
     `,
-
     questions: [
-
       {
         question_id: "seta_AI_cs_13_77",
         question: "How many of Unity Infrastructure Limited's directors were appointed through proportional representation?",
-        options: [
-          "4",
-          "6",
-          "8",
-          "10"
-        ],
+        options: ["4", "6", "8", "10"],
         answer: 2,
         reason: "The case specifically states that 8 of the 12 directors were appointed according to proportional representation."
       },
-
       {
         question_id: "seta_AI_cs_13_78",
         question: "Which of the following directors can ordinarily be removed by shareholders under Section 169?",
@@ -2994,12 +2423,11 @@ const AICaseStudies = [
           "All eight proportional representation directors",
           "Only the four directors not appointed through proportional representation",
           "Only directors appointed for less than three years",
-          "None of the directors"
+          "None of the directors",
         ],
         answer: 1,
         reason: "Where two-thirds or more of the total number of directors are appointed according to proportional representation, such directors cannot be removed under Section 169. Here, 8 out of 12 equals two-thirds, so the four directors not appointed through proportional representation can ordinarily be removed."
       },
-
       {
         question_id: "seta_AI_cs_13_79",
         question: "Can the Tribunal remove a director under Section 242 where an application has been made under Section 241 for prevention of oppression and mismanagement?",
@@ -3007,12 +2435,11 @@ const AICaseStudies = [
           "No, only shareholders can remove directors",
           "Yes, the Tribunal has such power",
           "Only the Registrar can remove the director",
-          "Only the auditor can recommend removal"
+          "Only the auditor can recommend removal",
         ],
         answer: 1,
         reason: "Under Section 242, the Tribunal may remove a director where an application has been made under Section 241 for prevention of oppression and mismanagement."
       },
-
       {
         question_id: "seta_AI_cs_13_80",
         question: "If the Tribunal removes the director, is he entitled to compensation for loss of office under Section 243?",
@@ -3020,33 +2447,24 @@ const AICaseStudies = [
           "Yes, automatically",
           "Yes, if he has completed more than half his term",
           "No, he shall not be entitled to claim compensation for loss of office",
-          "Yes, but only from the Tribunal"
+          "Yes, but only from the Tribunal",
         ],
         answer: 2,
         reason: "Section 243 provides that a director removed pursuant to an order of the Tribunal shall not be entitled to claim compensation for loss of office."
       },
-
       {
         question_id: "seta_AI_cs_13_81",
         question: "For how long is a director removed by the Tribunal generally restricted from being offered appointment as a director without leave of the Tribunal?",
-        options: [
-          "One year",
-          "Three years",
-          "Five years",
-          "Ten years"
-        ],
+        options: ["One year", "Three years", "Five years", "Ten years"],
         answer: 2,
         reason: "A director removed by an order of the Tribunal shall not be appointed or offered appointment as a director for five years from the date of the Tribunal's order without first obtaining the leave of the Tribunal."
       }
     ]
   },
-
-
   /* =========================================================
      MEDIUM CASE SCENARIO 14
      SECTION 170 + SECTION 171
      ========================================================= */
-
   {
     case_id: "seta_AI_cs_014",
     difficulty: "Medium",
@@ -3069,9 +2487,7 @@ const AICaseStudies = [
 
       <p>The compliance officer is asked to determine the statutory position.</p>
     `,
-
     questions: [
-
       {
         question_id: "seta_AI_cs_14_82",
         question: "Can a member inspect the register of directors and KMP during business hours?",
@@ -3079,25 +2495,18 @@ const AICaseStudies = [
           "No, only directors can inspect it",
           "No, only the Registrar can inspect it",
           "Yes, members have a right to inspect it during business hours",
-          "Yes, but only with Tribunal permission"
+          "Yes, but only with Tribunal permission",
         ],
         answer: 2,
         reason: "Section 171 gives members the right to inspect the register of directors and key managerial personnel during business hours."
       },
-
       {
         question_id: "seta_AI_cs_14_83",
         question: "Within what period should copies requested by a member generally be provided?",
-        options: [
-          "7 days",
-          "15 days",
-          "30 days",
-          "60 days"
-        ],
+        options: ["7 days", "15 days", "30 days", "60 days"],
         answer: 2,
         reason: "Copies/extracts requested by members are to be provided within 30 days from the date of the request, free of cost."
       },
-
       {
         question_id: "seta_AI_cs_14_84",
         question: "Since the company has failed to provide the requested copies within 30 days, what remedy is available to Arjun?",
@@ -3105,25 +2514,18 @@ const AICaseStudies = [
           "He can apply to the Registrar, who may order immediate inspection and supply of copies",
           "He can only approach the statutory auditor",
           "He has no remedy",
-          "He must wait until the next AGM"
+          "He must wait until the next AGM",
         ],
         answer: 0,
         reason: "Where inspection is refused or copies are not supplied within 30 days, the Registrar may, on an application, order immediate inspection and supply of copies."
       },
-
       {
         question_id: "seta_AI_cs_14_85",
         question: "Within what period should Greenfield file Form DIR-12 regarding the appointment of the new director?",
-        options: [
-          "Within 7 days",
-          "Within 15 days",
-          "Within 30 days",
-          "Within 90 days"
-        ],
+        options: ["Within 7 days", "Within 15 days", "Within 30 days", "Within 90 days"],
         answer: 2,
         reason: "Under Section 170(2) read with Rule 18, Form DIR-12 is required to be filed with the Registrar within 30 days from the appointment of a director or KMP."
       },
-
       {
         question_id: "seta_AI_cs_14_86",
         question: "Which of the following is included among the prescribed particulars relating to a director in the register?",
@@ -3131,20 +2533,17 @@ const AICaseStudies = [
           "Only the director's name",
           "Only the director's DIN",
           "Date of appointment, date of cessation and reasons for cessation, among other prescribed particulars",
-          "Only the director's remuneration"
+          "Only the director's remuneration",
         ],
         answer: 2,
         reason: "The register contains several prescribed particulars, including DIN, name, address, date of appointment/reappointment, date of cessation and reasons for cessation, offices held elsewhere and other specified details."
       }
     ]
   },
-
-
   /* =========================================================
      MEDIUM CASE SCENARIO 15
      SECTION 172 + MIXED PROVISIONS
   ========================================================= */
-
   {
     case_id: "seta_AI_cs_015",
     difficulty: "Medium",
@@ -3166,83 +2565,49 @@ const AICaseStudies = [
       punishment for contraventions of Sections 149 to 171 where no specific
       penalty or punishment is prescribed.</p>
     `,
-
     questions: [
-
       {
         question_id: "seta_AI_cs_15_87",
         question: "Section 172 applies generally to contraventions of which range of provisions?",
-        options: [
-          "Sections 1 to 50",
-          "Sections 100 to 120",
-          "Sections 149 to 171",
-          "Sections 200 to 250"
-        ],
+        options: ["Sections 1 to 50", "Sections 100 to 120", "Sections 149 to 171", "Sections 200 to 250"],
         answer: 2,
         reason: "Section 172 provides punishment for contravention of provisions contained in Chapter XI, namely Sections 149 to 171, where no specific penalty or punishment is provided."
       },
-
       {
         question_id: "seta_AI_cs_15_88",
         question: "What is the initial penalty prescribed under Section 172 for the company and every officer in default?",
-        options: [
-          "₹10,000",
-          "₹25,000",
-          "₹50,000",
-          "₹1,00,000"
-        ],
+        options: ["₹10,000", "₹25,000", "₹50,000", "₹1,00,000"],
         answer: 2,
         reason: "The company and every officer of the company who is in default are liable to a penalty of ₹50,000 where Section 172 applies."
       },
-
       {
         question_id: "seta_AI_cs_15_89",
         question: "If the default continues, what further penalty is prescribed for each day during which the failure continues?",
-        options: [
-          "₹100 per day",
-          "₹500 per day",
-          "₹1,000 per day",
-          "₹5,000 per day"
-        ],
+        options: ["₹100 per day", "₹500 per day", "₹1,000 per day", "₹5,000 per day"],
         answer: 1,
         reason: "In case of continuing failure, Section 172 provides a further penalty of ₹500 for each day during which the failure continues."
       },
-
       {
         question_id: "seta_AI_cs_15_90",
         question: "What is the maximum aggregate penalty that may be imposed on the company under Section 172?",
-        options: [
-          "₹1 lakh",
-          "₹2 lakh",
-          "₹3 lakh",
-          "₹5 lakh"
-        ],
+        options: ["₹1 lakh", "₹2 lakh", "₹3 lakh", "₹5 lakh"],
         answer: 2,
         reason: "The maximum penalty under Section 172 is ₹3 lakh in the case of the company."
       },
-
       {
         question_id: "seta_AI_cs_15_91",
         question: "What is the maximum aggregate penalty that may be imposed on an officer in default under Section 172?",
-        options: [
-          "₹50,000",
-          "₹1 lakh",
-          "₹2 lakh",
-          "₹3 lakh"
-        ],
+        options: ["₹50,000", "₹1 lakh", "₹2 lakh", "₹3 lakh"],
         answer: 1,
         reason: "For an officer in default, the maximum aggregate penalty under Section 172 is ₹1 lakh."
       }
     ]
   },
-
-  // Chapter 2
-
+// Chapter 2
   /* =========================================================
      CASE SCENARIO 1
      TOPIC: APPOINTMENT OF MD / WTD / MANAGER - SECTION 196
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS01",
     case_chapter: [
@@ -3251,7 +2616,6 @@ const AICaseStudies = [
       "Manager",
       "Section 196"
     ],
-
     caseText: `
       <p>
         Bright Star Limited is a public company engaged in the manufacturing
@@ -3272,21 +2636,13 @@ const AICaseStudies = [
         2013.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS01_Q01",
         question: "What is the maximum period for which a Managing Director can be appointed at one time?",
-        options: [
-          "3 years",
-          "5 years",
-          "7 years",
-          "10 years"
-        ],
+        options: ["3 years", "5 years", "7 years", "10 years"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS01_Q02",
         question: "Can Bright Star Limited appoint Mr. Arjun as Managing Director for six years at one time?",
@@ -3294,35 +2650,22 @@ const AICaseStudies = [
           "Yes, because he is a director",
           "Yes, if approved by the Board",
           "No, the term cannot exceed five years at a time",
-          "Yes, if approved by the Central Government"
+          "Yes, if approved by the Central Government",
         ],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS01_Q03",
         question: "Under Section 196, re-appointment of a Managing Director cannot be made earlier than:",
-        options: [
-          "Six months before expiry of the term",
-          "One year before expiry of the term",
-          "Two years before expiry of the term",
-          "Three years before expiry of the term"
-        ],
+        options: ["Six months before expiry of the term", "One year before expiry of the term", "Two years before expiry of the term", "Three years before expiry of the term"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS01_Q04",
         question: "A Managing Director must first be:",
-        options: [
-          "A shareholder of the company",
-          "An employee of another company",
-          "A director of the company",
-          "A member of the Nomination and Remuneration Committee"
-        ],
+        options: ["A shareholder of the company", "An employee of another company", "A director of the company", "A member of the Nomination and Remuneration Committee"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS01_Q05",
         question: "Which statement is correct regarding appointment of a Managing Director and Manager at the same time?",
@@ -3330,20 +2673,16 @@ const AICaseStudies = [
           "Both can always be appointed together",
           "Both can be appointed only with Central Government approval",
           "A company cannot appoint a Managing Director and Manager at the same time",
-          "Both can be appointed if approved by the Board"
+          "Both can be appointed if approved by the Board",
         ],
         answer: 2
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 2
      TOPIC: AGE ELIGIBILITY OF MD / WTD / MANAGER
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS02",
     case_chapter: [
@@ -3353,7 +2692,6 @@ const AICaseStudies = [
       "Whole-time Director",
       "Manager"
     ],
-
     caseText: `
       <p>
         Sunrise Industries Limited wants to appoint managerial personnel for
@@ -3374,78 +2712,43 @@ const AICaseStudies = [
         70 years can still be appointed.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS02_Q01",
         question: "What is the minimum age prescribed for appointment as Managing Director, Whole-time Director or Manager?",
-        options: [
-          "18 years",
-          "21 years",
-          "25 years",
-          "30 years"
-        ],
+        options: ["18 years", "21 years", "25 years", "30 years"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS02_Q02",
         question: "What is the normal maximum age for appointment as Managing Director, Whole-time Director or Manager?",
-        options: [
-          "65 years",
-          "68 years",
-          "70 years",
-          "75 years"
-        ],
+        options: ["65 years", "68 years", "70 years", "75 years"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS02_Q03",
         question: "Can a person who has attained 70 years be appointed as Managing Director?",
-        options: [
-          "Never",
-          "Yes, subject to passing a special resolution",
-          "Yes, automatically by Board resolution",
-          "Only if he is a shareholder"
-        ],
+        options: ["Never", "Yes, subject to passing a special resolution", "Yes, automatically by Board resolution", "Only if he is a shareholder"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS02_Q04",
         question: "Where a person above 70 years is proposed to be appointed through a special resolution, the explanatory statement should indicate:",
-        options: [
-          "His family details",
-          "His educational marks",
-          "The justification for appointing such person",
-          "His bank account details"
-        ],
+        options: ["His family details", "His educational marks", "The justification for appointing such person", "His bank account details"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS02_Q05",
         question: "Which of the following candidates satisfies the normal age requirement without requiring the special resolution applicable to persons above 70 years?",
-        options: [
-          "Mr. Suresh aged 72 years",
-          "Mr. Ravi aged 25 years",
-          "A person aged 75 years",
-          "A person aged 80 years"
-        ],
+        options: ["Mr. Suresh aged 72 years", "Mr. Ravi aged 25 years", "A person aged 75 years", "A person aged 80 years"],
         answer: 1
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 3
      TOPIC: KEY MANAGERIAL PERSONNEL - SECTION 203
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS03",
     case_chapter: [
@@ -3455,7 +2758,6 @@ const AICaseStudies = [
       "Company Secretary",
       "Chief Financial Officer"
     ],
-
     caseText: `
       <p>
         Apex Technologies Limited is a listed company having substantial
@@ -3475,78 +2777,43 @@ const AICaseStudies = [
         whole-time KMP under Section 203 of the Companies Act, 2013.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS03_Q01",
         question: "Which of the following is a Key Managerial Personnel?",
-        options: [
-          "Office attendant",
-          "Chief Financial Officer",
-          "Security guard",
-          "Sales executive"
-        ],
+        options: ["Office attendant", "Chief Financial Officer", "Security guard", "Sales executive"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS03_Q02",
         question: "Which company is required to have whole-time KMP under Rule 8?",
-        options: [
-          "Every small private company",
-          "Every listed company",
-          "Every partnership firm",
-          "Every sole proprietorship"
-        ],
+        options: ["Every small private company", "Every listed company", "Every partnership firm", "Every sole proprietorship"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS03_Q03",
         question: "Every other public company having paid-up share capital of ₹10 crore or more is required to have:",
-        options: [
-          "Only an auditor",
-          "Whole-time KMP",
-          "Only an independent director",
-          "Only a legal advisor"
-        ],
+        options: ["Only an auditor", "Whole-time KMP", "Only an independent director", "Only a legal advisor"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS03_Q04",
         question: "Who appoints whole-time KMP under Section 203?",
-        options: [
-          "Only the shareholders",
-          "Only the Central Government",
-          "The Board of Directors by resolution",
-          "The statutory auditor"
-        ],
+        options: ["Only the shareholders", "Only the Central Government", "The Board of Directors by resolution", "The statutory auditor"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS03_Q05",
         question: "As a general rule, a whole-time KMP shall not hold office in more than one company at the same time except:",
-        options: [
-          "Any unrelated company",
-          "Its subsidiary company",
-          "Any partnership firm",
-          "Any foreign company"
-        ],
+        options: ["Any unrelated company", "Its subsidiary company", "Any partnership firm", "Any foreign company"],
         answer: 1
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 4
      TOPIC: MAXIMUM MANAGERIAL REMUNERATION - SECTION 197
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS04",
     case_chapter: [
@@ -3556,7 +2823,6 @@ const AICaseStudies = [
       "Managing Director",
       "Whole-time Director"
     ],
-
     caseText: `
       <p>
         Greenfield Limited is a public company having sufficient profits during
@@ -3577,57 +2843,31 @@ const AICaseStudies = [
         by obtaining approval from the shareholders.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS04_Q01",
         question: "What is the overall maximum managerial remuneration payable by a public company to its directors, including MD, WTD and Manager?",
-        options: [
-          "5% of net profits",
-          "10% of net profits",
-          "11% of net profits",
-          "15% of net profits"
-        ],
+        options: ["5% of net profits", "10% of net profits", "11% of net profits", "15% of net profits"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS04_Q02",
         question: "Where there is more than one Managing Director/Whole-time Director/Manager, the remuneration payable to all such persons taken together is normally limited to:",
-        options: [
-          "5% of net profits",
-          "10% of net profits",
-          "11% of net profits",
-          "3% of net profits"
-        ],
+        options: ["5% of net profits", "10% of net profits", "11% of net profits", "3% of net profits"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS04_Q03",
         question: "Where there is one Managing Director, Whole-time Director or Manager, the normal maximum remuneration payable to such person is:",
-        options: [
-          "1% of net profits",
-          "3% of net profits",
-          "5% of net profits",
-          "10% of net profits"
-        ],
+        options: ["1% of net profits", "3% of net profits", "5% of net profits", "10% of net profits"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS04_Q04",
         question: "Where a company has a Managing Director, the normal maximum remuneration payable to directors who are neither MD nor WTD is:",
-        options: [
-          "1% of net profits",
-          "3% of net profits",
-          "5% of net profits",
-          "10% of net profits"
-        ],
+        options: ["1% of net profits", "3% of net profits", "5% of net profits", "10% of net profits"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS04_Q05",
         question: "The overall 11% limit can be exceeded with:",
@@ -3635,20 +2875,16 @@ const AICaseStudies = [
           "Approval of the statutory auditor",
           "Approval of the Central Government in every case",
           "Approval of the company in general meeting by special resolution",
-          "Approval of the Company Secretary"
+          "Approval of the Company Secretary",
         ],
         answer: 2
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 5
      TOPIC: SECRETARIAL AUDIT - SECTION 204
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS05",
     case_chapter: [
@@ -3658,7 +2894,6 @@ const AICaseStudies = [
       "Company Secretary in Practice",
       "MR-3"
     ],
-
     caseText: `
       <p>
         National Manufacturing Limited is a public company. Its paid-up share
@@ -3678,33 +2913,19 @@ const AICaseStudies = [
         manner in which the report is dealt with in the Board's Report.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS05_Q01",
         question: "Which of the following companies is mandatorily required to conduct secretarial audit?",
-        options: [
-          "Every sole proprietorship",
-          "Every listed company",
-          "Every partnership firm",
-          "Every small private company"
-        ],
+        options: ["Every sole proprietorship", "Every listed company", "Every partnership firm", "Every small private company"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS05_Q02",
         question: "A public company having paid-up share capital of ₹50 crore or more is covered under the prescribed class for secretarial audit.",
-        options: [
-          "True",
-          "False",
-          "Only if turnover exceeds ₹500 crore",
-          "Only if it is a private company"
-        ],
+        options: ["True", "False", "Only if turnover exceeds ₹500 crore", "Only if it is a private company"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS05_Q03",
         question: "In the given case, National Manufacturing Limited has paid-up share capital of ₹55 crore. Therefore, it is:",
@@ -3712,43 +2933,28 @@ const AICaseStudies = [
           "Required to conduct secretarial audit",
           "Not required to conduct secretarial audit",
           "Required only if shareholders approve",
-          "Required only if turnover exceeds ₹1,000 crore"
+          "Required only if turnover exceeds ₹1,000 crore",
         ],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS05_Q04",
         question: "Who is authorised to give the Secretarial Audit Report?",
-        options: [
-          "Statutory auditor",
-          "Company Secretary in practice",
-          "Chief Financial Officer",
-          "Managing Director"
-        ],
+        options: ["Statutory auditor", "Company Secretary in practice", "Chief Financial Officer", "Managing Director"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS05_Q05",
         question: "The Secretarial Audit Report is prepared in:",
-        options: [
-          "Form MR-1",
-          "Form MR-2",
-          "Form MR-3",
-          "Form DIR-12"
-        ],
+        options: ["Form MR-1", "Form MR-2", "Form MR-3", "Form DIR-12"],
         answer: 2
       }
-
     ]
   },
-
   /* =========================================================
      CASE SCENARIO 6
      TOPIC: FUNCTIONS OF COMPANY SECRETARY - SECTION 205
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS06",
     case_chapter: [
@@ -3757,7 +2963,6 @@ const AICaseStudies = [
       "Secretarial Standards",
       "Corporate Governance"
     ],
-
     caseText: `
       <p>
         Horizon Limited has recently appointed Ms. Neha as its Company Secretary.
@@ -3778,78 +2983,43 @@ const AICaseStudies = [
         corporate governance are also among her functions.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS06_Q01",
         question: "Under Section 205, the Company Secretary is required to report to the Board about compliance with:",
-        options: [
-          "Only tax laws",
-          "Only labour laws",
-          "The Companies Act, rules and other applicable laws",
-          "Only securities laws"
-        ],
+        options: ["Only tax laws", "Only labour laws", "The Companies Act, rules and other applicable laws", "Only securities laws"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS06_Q02",
         question: "The Company Secretary should provide guidance to directors regarding their:",
-        options: [
-          "Personal investments only",
-          "Duties, responsibilities and powers",
-          "Personal tax returns",
-          "Family businesses"
-        ],
+        options: ["Personal investments only", "Duties, responsibilities and powers", "Personal tax returns", "Family businesses"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS06_Q03",
         question: "Which of the following is a function of the Company Secretary?",
-        options: [
-          "Conducting statutory audit",
-          "Maintaining minutes of meetings",
-          "Determining income tax rates",
-          "Appointing all employees"
-        ],
+        options: ["Conducting statutory audit", "Maintaining minutes of meetings", "Determining income tax rates", "Appointing all employees"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS06_Q04",
         question: "The Company Secretary assists the Board in ensuring:",
-        options: [
-          "Good corporate governance",
-          "Higher share prices",
-          "Minimum taxation in every case",
-          "Personal benefits to directors"
-        ],
+        options: ["Good corporate governance", "Higher share prices", "Minimum taxation in every case", "Personal benefits to directors"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS06_Q05",
         question: "Which of the following Secretarial Standards has been approved by the Central Government?",
-        options: [
-          "SS-1 and SS-2",
-          "SS-3 and SS-4",
-          "SS-5 and SS-6",
-          "SS-7 and SS-8"
-        ],
+        options: ["SS-1 and SS-2", "SS-3 and SS-4", "SS-5 and SS-6", "SS-7 and SS-8"],
         answer: 0
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 7
      TOPIC: SITTING FEES AND MODE OF REMUNERATION
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS07",
     case_chapter: [
@@ -3858,7 +3028,6 @@ const AICaseStudies = [
       "Mode of Remuneration",
       "Rule 4"
     ],
-
     caseText: `
       <p>
         Sunrise Healthcare Limited is a public company. Its Board of Directors
@@ -3878,45 +3047,25 @@ const AICaseStudies = [
         combining both methods.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS07_Q01",
         question: "What is the maximum sitting fee prescribed per meeting of the Board or committee thereof?",
-        options: [
-          "₹25,000",
-          "₹50,000",
-          "₹1,00,000",
-          "₹2,00,000"
-        ],
+        options: ["₹25,000", "₹50,000", "₹1,00,000", "₹2,00,000"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS07_Q02",
         question: "The proposed sitting fee of ₹80,000 per meeting is:",
-        options: [
-          "Within the prescribed limit",
-          "Above the prescribed limit",
-          "Valid only with Central Government approval",
-          "Valid only with Tribunal approval"
-        ],
+        options: ["Within the prescribed limit", "Above the prescribed limit", "Valid only with Central Government approval", "Valid only with Tribunal approval"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS07_Q03",
         question: "The sitting fee payable to an Independent Director shall:",
-        options: [
-          "Always be zero",
-          "Be less than that payable to other directors",
-          "Not be less than that payable to other directors",
-          "Be fixed only by the Central Government"
-        ],
+        options: ["Always be zero", "Be less than that payable to other directors", "Not be less than that payable to other directors", "Be fixed only by the Central Government"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS07_Q04",
         question: "Remuneration to a director or manager may be paid:",
@@ -3924,32 +3073,22 @@ const AICaseStudies = [
           "Only as monthly payment",
           "Only as a percentage of net profits",
           "Only through stock options",
-          "By monthly payment, percentage of net profits, or partly by both"
+          "By monthly payment, percentage of net profits, or partly by both",
         ],
         answer: 3
       },
-
       {
         question_id: "CEL_CH2_EASY_CS07_Q05",
         question: "The percentages specified under Section 197(1) are:",
-        options: [
-          "Inclusive of sitting fees",
-          "Exclusive of sitting fees",
-          "Applicable only to sitting fees",
-          "Applicable only to independent directors"
-        ],
+        options: ["Inclusive of sitting fees", "Exclusive of sitting fees", "Applicable only to sitting fees", "Applicable only to independent directors"],
         answer: 1
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 8
      TOPIC: RECOVERY OF EXCESS REMUNERATION - SECTION 197
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS08",
     case_chapter: [
@@ -3958,7 +3097,6 @@ const AICaseStudies = [
       "Refund of Remuneration",
       "Waiver"
     ],
-
     caseText: `
       <p>
         Zenith Limited discovered that its Managing Director, Mr. Karan, had
@@ -3978,45 +3116,25 @@ const AICaseStudies = [
         of the excess remuneration.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS08_Q01",
         question: "Where a director receives excess remuneration under Section 197, he is required to:",
-        options: [
-          "Retain the amount permanently",
-          "Refund the excess amount to the company",
-          "Pay the amount to the Central Government",
-          "Transfer the amount to shareholders"
-        ],
+        options: ["Retain the amount permanently", "Refund the excess amount to the company", "Pay the amount to the Central Government", "Transfer the amount to shareholders"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS08_Q02",
         question: "The excess remuneration should generally be refunded within:",
-        options: [
-          "Six months",
-          "One year",
-          "Two years",
-          "Five years"
-        ],
+        options: ["Six months", "One year", "Two years", "Five years"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS08_Q03",
         question: "Until the excess remuneration is refunded, the director shall hold the amount:",
-        options: [
-          "As his personal property",
-          "In trust for the company",
-          "On behalf of the shareholders personally",
-          "With the statutory auditor"
-        ],
+        options: ["As his personal property", "In trust for the company", "On behalf of the shareholders personally", "With the statutory auditor"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS08_Q04",
         question: "Can the company waive recovery of excess remuneration?",
@@ -4024,32 +3142,22 @@ const AICaseStudies = [
           "Never under any circumstances",
           "Yes, through a special resolution subject to the prescribed conditions",
           "Yes, automatically by Board resolution",
-          "Only through an NCLT order"
+          "Only through an NCLT order",
         ],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS08_Q05",
         question: "The special resolution for waiver of recovery should generally be passed within:",
-        options: [
-          "Three months from payment",
-          "One year from payment",
-          "Two years from the date the sum becomes refundable",
-          "Five years from payment"
-        ],
+        options: ["Three months from payment", "One year from payment", "Two years from the date the sum becomes refundable", "Five years from payment"],
         answer: 2
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 9
      TOPIC: INSURANCE PREMIUM AND HOLDING/SUBSIDIARY
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS09",
     case_chapter: [
@@ -4059,7 +3167,6 @@ const AICaseStudies = [
       "Holding Company",
       "Subsidiary Company"
     ],
-
     caseText: `
       <p>
         Reliable Industries Limited has taken an insurance policy for its
@@ -4080,78 +3187,43 @@ const AICaseStudies = [
         from the subsidiary company is prohibited.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS09_Q01",
         question: "If a company takes insurance for its MD against specified liabilities, the premium is generally:",
-        options: [
-          "Always treated as remuneration",
-          "Not treated as remuneration",
-          "Always treated as dividend",
-          "Always treated as sitting fees"
-        ],
+        options: ["Always treated as remuneration", "Not treated as remuneration", "Always treated as dividend", "Always treated as sitting fees"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS09_Q02",
         question: "If the managerial personnel is proved guilty in relation to the liability covered by such insurance, the premium paid shall be:",
-        options: [
-          "Ignored completely",
-          "Treated as part of remuneration",
-          "Treated as share capital",
-          "Refunded to shareholders"
-        ],
+        options: ["Ignored completely", "Treated as part of remuneration", "Treated as share capital", "Refunded to shareholders"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS09_Q03",
         question: "A Managing Director may receive remuneration or commission from a holding or subsidiary company subject to:",
-        options: [
-          "Section 197",
-          "Section 123 only",
-          "Section 92 only",
-          "Section 135 only"
-        ],
+        options: ["Section 197", "Section 123 only", "Section 92 only", "Section 135 only"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS09_Q04",
         question: "Receipt of commission by the MD from a holding or subsidiary company is:",
-        options: [
-          "Absolutely prohibited",
-          "Permitted subject to the provisions of Section 197",
-          "Permitted without any conditions",
-          "Permitted only if he resigns as MD"
-        ],
+        options: ["Absolutely prohibited", "Permitted subject to the provisions of Section 197", "Permitted without any conditions", "Permitted only if he resigns as MD"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS09_Q05",
         question: "The fact of receiving such remuneration or commission from the holding or subsidiary company must be disclosed in:",
-        options: [
-          "The Board's Report",
-          "The attendance register",
-          "The share certificate",
-          "The prospectus in every case"
-        ],
+        options: ["The Board's Report", "The attendance register", "The share certificate", "The prospectus in every case"],
         answer: 0
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 10
      TOPIC: COMPENSATION FOR LOSS OF OFFICE - SECTION 202
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS10",
     case_chapter: [
@@ -4161,7 +3233,6 @@ const AICaseStudies = [
       "Whole-time Director",
       "Manager"
     ],
-
     caseText: `
       <p>
         Metro Engineering Limited has a Managing Director, Mr. Raj, whose term
@@ -4182,79 +3253,43 @@ const AICaseStudies = [
         two years.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS10_Q01",
         question: "Compensation for loss of office under Section 202 may be paid to:",
-        options: [
-          "Any shareholder",
-          "Any employee",
-          "Managing Director, Whole-time Director or Manager",
-          "Only an independent director"
-        ],
+        options: ["Any shareholder", "Any employee", "Managing Director, Whole-time Director or Manager", "Only an independent director"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS10_Q02",
         question: "The maximum compensation is generally limited to remuneration for:",
-        options: [
-          "One year or remaining term, whichever is longer",
-          "Three years or remaining term, whichever is shorter",
-          "Five years in every case",
-          "Ten years in every case"
-        ],
+        options: ["One year or remaining term, whichever is longer", "Three years or remaining term, whichever is shorter", "Five years in every case", "Ten years in every case"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS10_Q03",
         question: "If the remaining term of Mr. Raj is two years, the maximum period for calculating compensation would generally be:",
-        options: [
-          "One year",
-          "Two years",
-          "Three years",
-          "Five years"
-        ],
+        options: ["One year", "Two years", "Three years", "Five years"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS10_Q04",
         question: "Compensation cannot be paid where the director has been guilty of:",
-        options: [
-          "Good performance",
-          "Fraud or breach of trust",
-          "Completing his term",
-          "Attending Board meetings"
-        ],
+        options: ["Good performance", "Fraud or breach of trust", "Completing his term", "Attending Board meetings"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS10_Q05",
         question: "Compensation under Section 202 is calculated based on the average remuneration earned during:",
-        options: [
-          "The immediately preceding three years",
-          "The immediately preceding ten years",
-          "Only the last month",
-          "Only the first year of appointment"
-        ],
+        options: ["The immediately preceding three years", "The immediately preceding ten years", "Only the last month", "Only the first year of appointment"],
         answer: 0
       }
-
     ]
   },
-
-
-
   /* =========================================================
      CASE SCENARIO 11
      TOPIC: CALCULATION OF PROFITS - SECTION 198
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS11",
     case_chapter: [
@@ -4262,7 +3297,6 @@ const AICaseStudies = [
       "Calculation of Profits",
       "Managerial Remuneration"
     ],
-
     caseText: `
       <p>
         Bright Industries Limited is calculating its net profits for determining
@@ -4277,78 +3311,43 @@ const AICaseStudies = [
         be considered while calculating profits under Section 198.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS11_Q01",
         question: "For calculating net profits under Section 198, credit shall be given for:",
-        options: [
-          "All capital profits",
-          "Government bounties and subsidies, subject to the provisions of Section 198",
-          "Profits on sale of forfeited shares",
-          "Unrealised gains"
-        ],
+        options: ["All capital profits", "Government bounties and subsidies, subject to the provisions of Section 198", "Profits on sale of forfeited shares", "Unrealised gains"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS11_Q02",
         question: "Profit from sale of fixed assets of a capital nature is generally:",
-        options: [
-          "Included without any condition",
-          "Not given credit, subject to the specified exception",
-          "Always treated as revenue profit",
-          "Added twice"
-        ],
+        options: ["Included without any condition", "Not given credit, subject to the specified exception", "Always treated as revenue profit", "Added twice"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS11_Q03",
         question: "Which of the following is generally not given credit under Section 198?",
-        options: [
-          "Government subsidy",
-          "Usual business income",
-          "Profit on sale of forfeited shares",
-          "Eligible operating profit"
-        ],
+        options: ["Government subsidy", "Usual business income", "Profit on sale of forfeited shares", "Eligible operating profit"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS11_Q04",
         question: "Unrealised or notional gains are:",
-        options: [
-          "Added while calculating profits",
-          "Included as managerial profit automatically",
-          "Not given credit under Section 198",
-          "Always treated as cash profits"
-        ],
+        options: ["Added while calculating profits", "Included as managerial profit automatically", "Not given credit under Section 198", "Always treated as cash profits"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS11_Q05",
         question: "The net profits for managerial remuneration are calculated primarily in accordance with:",
-        options: [
-          "Section 123",
-          "Section 148",
-          "Section 198",
-          "Section 204"
-        ],
+        options: ["Section 123", "Section 148", "Section 198", "Section 204"],
         answer: 2
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 12
      TOPIC: EFFECTIVE CAPITAL - SCHEDULE V
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS12",
     case_chapter: [
@@ -4357,7 +3356,6 @@ const AICaseStudies = [
       "Inadequate Profits",
       "Managerial Remuneration"
     ],
-
     caseText: `
       <p>
         ABC Manufacturing Limited has no profits during the current financial
@@ -4378,78 +3376,43 @@ const AICaseStudies = [
         prescribed under Schedule V.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS12_Q01",
         question: "Effective capital is relevant for determining managerial remuneration particularly when:",
-        options: [
-          "The company has no profits or inadequate profits",
-          "The company has unlimited profits",
-          "The company is being incorporated only",
-          "The company pays dividend"
-        ],
+        options: ["The company has no profits or inadequate profits", "The company has unlimited profits", "The company is being incorporated only", "The company pays dividend"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS12_Q02",
         question: "Which of the following is included in effective capital?",
-        options: [
-          "Share premium account",
-          "Revaluation reserve",
-          "Accumulated losses",
-          "Preliminary expenses not written off as a deduction"
-        ],
+        options: ["Share premium account", "Revaluation reserve", "Accumulated losses", "Preliminary expenses not written off as a deduction"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS12_Q03",
         question: "Revaluation reserve is:",
-        options: [
-          "Added to effective capital",
-          "Excluded from reserves and surplus for effective capital",
-          "Always treated as a long-term loan",
-          "Deducted twice"
-        ],
+        options: ["Added to effective capital", "Excluded from reserves and surplus for effective capital", "Always treated as a long-term loan", "Deducted twice"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS12_Q04",
         question: "Accumulated losses are:",
-        options: [
-          "Added to effective capital",
-          "Ignored completely",
-          "Deducted while calculating effective capital",
-          "Treated as share premium"
-        ],
+        options: ["Added to effective capital", "Ignored completely", "Deducted while calculating effective capital", "Treated as share premium"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS12_Q05",
         question: "Working capital loans are generally:",
-        options: [
-          "Included as long-term loans in effective capital",
-          "Excluded from the long-term loan component",
-          "Added to share capital",
-          "Treated as reserves"
-        ],
+        options: ["Included as long-term loans in effective capital", "Excluded from the long-term loan component", "Added to share capital", "Treated as reserves"],
         answer: 1
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 13
      TOPIC: KMP - SECTION 203
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS13",
     case_chapter: [
@@ -4458,7 +3421,6 @@ const AICaseStudies = [
       "Appointment of KMP",
       "Whole-time KMP"
     ],
-
     caseText: `
       <p>
         Sunrise Public Limited is a listed company. The Board is reviewing the
@@ -4479,78 +3441,43 @@ const AICaseStudies = [
         permitted case involving its subsidiary company.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS13_Q01",
         question: "Which of the following is included within Key Managerial Personnel?",
-        options: [
-          "Chief Financial Officer",
-          "External auditor",
-          "Tax consultant only",
-          "Bank manager"
-        ],
+        options: ["Chief Financial Officer", "External auditor", "Tax consultant only", "Bank manager"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS13_Q02",
         question: "A whole-time KMP is appointed by:",
-        options: [
-          "The external auditor",
-          "A resolution of the Board",
-          "The Registrar of Companies",
-          "The Central Government in every case"
-        ],
+        options: ["The external auditor", "A resolution of the Board", "The Registrar of Companies", "The Central Government in every case"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS13_Q03",
         question: "The Board resolution appointing whole-time KMP should contain:",
-        options: [
-          "Only the name of the KMP",
-          "Only the date of joining",
-          "Terms and conditions including remuneration",
-          "Only educational qualifications"
-        ],
+        options: ["Only the name of the KMP", "Only the date of joining", "Terms and conditions including remuneration", "Only educational qualifications"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS13_Q04",
         question: "A whole-time KMP shall generally not hold office in more than:",
-        options: [
-          "One company at the same time",
-          "Two companies without restriction",
-          "Five companies",
-          "Ten companies"
-        ],
+        options: ["One company at the same time", "Two companies without restriction", "Five companies", "Ten companies"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS13_Q05",
         question: "A whole-time KMP may hold office in another company at the same time in the permitted case of:",
-        options: [
-          "Any unrelated company",
-          "Its subsidiary company",
-          "Any competitor",
-          "Any foreign company without restriction"
-        ],
+        options: ["Any unrelated company", "Its subsidiary company", "Any competitor", "Any foreign company without restriction"],
         answer: 1
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 14
      TOPIC: VACANCY AND PENALTY OF KMP
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS14",
     case_chapter: [
@@ -4559,7 +3486,6 @@ const AICaseStudies = [
       "Penalty",
       "Key Managerial Personnel"
     ],
-
     caseText: `
       <p>
         Global Technologies Limited is required to have whole-time Key
@@ -4578,78 +3504,43 @@ const AICaseStudies = [
         203 and the penalties applicable to the company and defaulting officers.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS14_Q01",
         question: "A vacancy in the office of a whole-time KMP must be filled by:",
-        options: [
-          "The shareholders alone",
-          "The Board at a Board meeting",
-          "The statutory auditor",
-          "The Registrar"
-        ],
+        options: ["The shareholders alone", "The Board at a Board meeting", "The statutory auditor", "The Registrar"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS14_Q02",
         question: "The vacancy of whole-time KMP should be filled within:",
-        options: [
-          "30 days",
-          "3 months",
-          "6 months",
-          "2 years"
-        ],
+        options: ["30 days", "3 months", "6 months", "2 years"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS14_Q03",
         question: "The penalty on the company for default under Section 203 is:",
-        options: [
-          "₹50,000",
-          "₹1 lakh",
-          "₹5 lakh",
-          "₹10 lakh"
-        ],
+        options: ["₹50,000", "₹1 lakh", "₹5 lakh", "₹10 lakh"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS14_Q04",
         question: "The defaulting director or KMP is liable to an initial penalty of:",
-        options: [
-          "₹10,000",
-          "₹25,000",
-          "₹50,000",
-          "₹5 lakh"
-        ],
+        options: ["₹10,000", "₹25,000", "₹50,000", "₹5 lakh"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS14_Q05",
         question: "For a continuing default, the additional penalty on the defaulting director or KMP is:",
-        options: [
-          "₹100 per day",
-          "₹500 per day",
-          "₹1,000 per day, subject to the prescribed maximum",
-          "₹10,000 per day without any maximum"
-        ],
+        options: ["₹100 per day", "₹500 per day", "₹1,000 per day, subject to the prescribed maximum", "₹10,000 per day without any maximum"],
         answer: 2
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 15
      TOPIC: SECRETARIAL AUDIT - SECTION 204
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS15",
     case_chapter: [
@@ -4658,7 +3549,6 @@ const AICaseStudies = [
       "Secretarial Audit Report",
       "Form MR-3"
     ],
-
     caseText: `
       <p>
         Prime Infrastructure Limited is a public company. Its paid-up share
@@ -4678,77 +3568,43 @@ const AICaseStudies = [
         whether the report has to be attached to the Board's Report.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS15_Q01",
         question: "Secretarial audit under Section 204 is mandatory for:",
-        options: [
-          "Every small private company",
-          "Every listed company",
-          "Every partnership firm",
-          "Every sole proprietorship"
-        ],
+        options: ["Every small private company", "Every listed company", "Every partnership firm", "Every sole proprietorship"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS15_Q02",
         question: "A public company having paid-up share capital of ₹50 crore or more is covered for secretarial audit.",
-        options: [
-          "True",
-          "False",
-          "Only if turnover exceeds ₹1,000 crore",
-          "Only if it is a private company"
-        ],
+        options: ["True", "False", "Only if turnover exceeds ₹1,000 crore", "Only if it is a private company"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS15_Q03",
         question: "Secretarial Audit Report is issued by:",
-        options: [
-          "Chartered Accountant in practice",
-          "Cost Accountant in practice",
-          "Company Secretary in practice",
-          "Statutory auditor only"
-        ],
+        options: ["Chartered Accountant in practice", "Cost Accountant in practice", "Company Secretary in practice", "Statutory auditor only"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS15_Q04",
         question: "The Secretarial Audit Report is prepared in:",
-        options: [
-          "Form MR-1",
-          "Form MR-2",
-          "Form MR-3",
-          "Form AOC-4"
-        ],
+        options: ["Form MR-1", "Form MR-2", "Form MR-3", "Form AOC-4"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS15_Q05",
         question: "The Secretarial Audit Report obtained by the company is annexed with:",
-        options: [
-          "The Board's Report",
-          "The auditor's appointment letter",
-          "The share certificate",
-          "The memorandum of association"
-        ],
+        options: ["The Board's Report", "The auditor's appointment letter", "The share certificate", "The memorandum of association"],
         answer: 0
       }
-
     ]
   },
-
   /* =========================================================
      CASE SCENARIO 16
      TOPIC: APPOINTMENT OF MD / WTD / MANAGER - SECTION 196
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS16",
     case_chapter: [
@@ -4757,7 +3613,6 @@ const AICaseStudies = [
       "Appointment of WTD",
       "Appointment of Manager"
     ],
-
     caseText: `
       <p>
         Zenith Industries Limited is considering the appointment of Mr. Arjun
@@ -4773,57 +3628,31 @@ const AICaseStudies = [
         Manager may be appointed or re-appointed at a time.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS16_Q01",
         question: "A company can appoint a Managing Director for a term not exceeding:",
-        options: [
-          "2 years",
-          "3 years",
-          "5 years",
-          "10 years"
-        ],
+        options: ["2 years", "3 years", "5 years", "10 years"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS16_Q02",
         question: "The maximum term of five years under Section 196 applies to:",
-        options: [
-          "Only Managing Director",
-          "Only Whole-time Director",
-          "Only Manager",
-          "Managing Director, Whole-time Director or Manager"
-        ],
+        options: ["Only Managing Director", "Only Whole-time Director", "Only Manager", "Managing Director, Whole-time Director or Manager"],
         answer: 3
       },
-
       {
         question_id: "CEL_CH2_EASY_CS16_Q03",
         question: "Can a company appoint a Managing Director and a Manager at the same time?",
-        options: [
-          "Yes, always",
-          "Yes, if approved by the auditor",
-          "No",
-          "Yes, if both are relatives"
-        ],
+        options: ["Yes, always", "Yes, if approved by the auditor", "No", "Yes, if both are relatives"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS16_Q04",
         question: "Re-appointment of a Managing Director cannot be made earlier than:",
-        options: [
-          "One month before expiry of the term",
-          "Six months before expiry of the term",
-          "One year before expiry of the term",
-          "Two years before expiry of the term"
-        ],
+        options: ["One month before expiry of the term", "Six months before expiry of the term", "One year before expiry of the term", "Two years before expiry of the term"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS16_Q05",
         question: "Mr. Arjun proposed to be appointed as Managing Director for six years would be:",
@@ -4831,20 +3660,16 @@ const AICaseStudies = [
           "Valid because the Board can decide any tenure",
           "Valid if approved by the auditor",
           "Invalid because the term cannot exceed five years at a time",
-          "Valid only for a private company"
+          "Valid only for a private company",
         ],
         answer: 2
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 17
      TOPIC: AGE AND ELIGIBILITY OF MANAGERIAL PERSONNEL
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS17",
     case_chapter: [
@@ -4853,7 +3678,6 @@ const AICaseStudies = [
       "Age of MD/WTD/Manager",
       "Schedule V"
     ],
-
     caseText: `
       <p>
         Sunrise Textiles Limited proposes to appoint Mr. Dev as its Managing
@@ -4869,78 +3693,43 @@ const AICaseStudies = [
         passed by the company.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS17_Q01",
         question: "A person appointed as Managing Director should ordinarily have completed at least:",
-        options: [
-          "18 years",
-          "21 years",
-          "25 years",
-          "30 years"
-        ],
+        options: ["18 years", "21 years", "25 years", "30 years"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS17_Q02",
         question: "The normal upper age limit for appointment as MD, WTD or Manager is:",
-        options: [
-          "60 years",
-          "65 years",
-          "70 years",
-          "75 years"
-        ],
+        options: ["60 years", "65 years", "70 years", "75 years"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS17_Q03",
         question: "A person who has attained 70 years may be appointed as MD if:",
-        options: [
-          "The auditor approves the appointment",
-          "A special resolution is passed",
-          "Only the Company Secretary approves it",
-          "The Registrar gives automatic approval"
-        ],
+        options: ["The auditor approves the appointment", "A special resolution is passed", "Only the Company Secretary approves it", "The Registrar gives automatic approval"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS17_Q04",
         question: "For appointment of a person above 70 years, the explanatory statement should indicate:",
-        options: [
-          "His personal assets",
-          "The justification for appointing such person",
-          "His income-tax return",
-          "The company's dividend history"
-        ],
+        options: ["His personal assets", "The justification for appointing such person", "His income-tax return", "The company's dividend history"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS17_Q05",
         question: "Mr. Dev, aged 72, can be appointed as Managing Director if the company:",
-        options: [
-          "Passes the required special resolution",
-          "Gets approval from its statutory auditor",
-          "Obtains approval from every employee",
-          "Appoints him only as a Manager"
-        ],
+        options: ["Passes the required special resolution", "Gets approval from its statutory auditor", "Obtains approval from every employee", "Appoints him only as a Manager"],
         answer: 0
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 18
      TOPIC: FUNCTIONS OF COMPANY SECRETARY - SECTION 205
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS18",
     case_chapter: [
@@ -4949,7 +3738,6 @@ const AICaseStudies = [
       "Secretarial Standards",
       "Corporate Governance"
     ],
-
     caseText: `
       <p>
         Reliable Motors Limited has appointed Ms. Neha as its Company Secretary.
@@ -4964,78 +3752,43 @@ const AICaseStudies = [
         governance matters.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS18_Q01",
         question: "The Company Secretary has a duty to report to the Board regarding:",
-        options: [
-          "Compliance with applicable laws",
-          "Personal matters of shareholders",
-          "Competitors' salaries",
-          "Bank interest rates only"
-        ],
+        options: ["Compliance with applicable laws", "Personal matters of shareholders", "Competitors' salaries", "Bank interest rates only"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS18_Q02",
         question: "The Company Secretary should ensure compliance with applicable:",
-        options: [
-          "Secretarial standards",
-          "Foreign laws only",
-          "Accounting standards only",
-          "Banking regulations only"
-        ],
+        options: ["Secretarial standards", "Foreign laws only", "Accounting standards only", "Banking regulations only"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS18_Q03",
         question: "The Company Secretary facilitates the convening of:",
-        options: [
-          "Only shareholder meetings",
-          "Only Board meetings",
-          "Board, committee and general meetings",
-          "Only meetings of employees"
-        ],
+        options: ["Only shareholder meetings", "Only Board meetings", "Board, committee and general meetings", "Only meetings of employees"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS18_Q04",
         question: "The Company Secretary may assist the Board in ensuring:",
-        options: [
-          "Good corporate governance",
-          "Higher tax liability",
-          "Reduction of share capital in every case",
-          "Personal investments of directors"
-        ],
+        options: ["Good corporate governance", "Higher tax liability", "Reduction of share capital in every case", "Personal investments of directors"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS18_Q05",
         question: "The Company Secretary may represent the company before:",
-        options: [
-          "Various regulators and authorities under the Companies Act",
-          "Only private banks",
-          "Only employees",
-          "Only shareholders"
-        ],
+        options: ["Various regulators and authorities under the Companies Act", "Only private banks", "Only employees", "Only shareholders"],
         answer: 0
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 19
      TOPIC: SITTING FEES - SECTION 197(5)
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS19",
     case_chapter: [
@@ -5044,7 +3797,6 @@ const AICaseStudies = [
       "Directors",
       "Rule 4"
     ],
-
     caseText: `
       <p>
         Apex Pharma Limited wants to revise the sitting fees payable to its
@@ -5059,78 +3811,43 @@ const AICaseStudies = [
         also considers the position of Independent Directors and Women Directors.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS19_Q01",
         question: "Sitting fees may be paid to directors for attending:",
-        options: [
-          "Board or committee meetings",
-          "Only annual general meetings",
-          "Only employee meetings",
-          "Only meetings with auditors"
-        ],
+        options: ["Board or committee meetings", "Only annual general meetings", "Only employee meetings", "Only meetings with auditors"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS19_Q02",
         question: "The maximum sitting fee prescribed per Board or committee meeting is:",
-        options: [
-          "₹25,000",
-          "₹50,000",
-          "₹1 lakh",
-          "₹2 lakh"
-        ],
+        options: ["₹25,000", "₹50,000", "₹1 lakh", "₹2 lakh"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS19_Q03",
         question: "A sitting fee of ₹75,000 per meeting would be:",
-        options: [
-          "Within the prescribed ceiling",
-          "Above the prescribed ceiling",
-          "Invalid in every case",
-          "Payable only to the Managing Director"
-        ],
+        options: ["Within the prescribed ceiling", "Above the prescribed ceiling", "Invalid in every case", "Payable only to the Managing Director"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS19_Q04",
         question: "The sitting fee payable to an Independent Director shall:",
-        options: [
-          "Always be zero",
-          "Not be less than that payable to other directors",
-          "Always be double that payable to other directors",
-          "Be decided by the statutory auditor"
-        ],
+        options: ["Always be zero", "Not be less than that payable to other directors", "Always be double that payable to other directors", "Be decided by the statutory auditor"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS19_Q05",
         question: "The sitting fee payable to Women Directors shall:",
-        options: [
-          "Not be less than that payable to other directors",
-          "Always be less than other directors",
-          "Not be paid",
-          "Be fixed only by the Central Government"
-        ],
+        options: ["Not be less than that payable to other directors", "Always be less than other directors", "Not be paid", "Be fixed only by the Central Government"],
         answer: 0
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 20
      TOPIC: REFUND OF EXCESS REMUNERATION - SECTION 197(9)
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS20",
     case_chapter: [
@@ -5139,7 +3856,6 @@ const AICaseStudies = [
       "Refund",
       "Managerial Remuneration"
     ],
-
     caseText: `
       <p>
         Pioneer Limited discovers that its Managing Director, Mr. Karan, has
@@ -5159,45 +3875,25 @@ const AICaseStudies = [
         for waiver subject to prescribed conditions.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS20_Q01",
         question: "Excess remuneration received by a director in violation of Section 197 is required to be:",
-        options: [
-          "Retained permanently",
-          "Refunded to the company",
-          "Paid to the shareholders",
-          "Transferred to the Central Government"
-        ],
+        options: ["Retained permanently", "Refunded to the company", "Paid to the shareholders", "Transferred to the Central Government"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS20_Q02",
         question: "The excess remuneration should generally be refunded within:",
-        options: [
-          "Six months",
-          "One year",
-          "Two years",
-          "Five years"
-        ],
+        options: ["Six months", "One year", "Two years", "Five years"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS20_Q03",
         question: "Until the excess remuneration is refunded, the director holds the amount:",
-        options: [
-          "As his personal property",
-          "As trustee for employees",
-          "In trust for the company",
-          "On behalf of the auditor"
-        ],
+        options: ["As his personal property", "As trustee for employees", "In trust for the company", "On behalf of the auditor"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS20_Q04",
         question: "Can the company waive recovery of excess remuneration?",
@@ -5205,31 +3901,22 @@ const AICaseStudies = [
           "Yes, automatically",
           "Yes, subject to approval by special resolution within the prescribed period",
           "No, under any circumstances",
-          "Yes, only through an ordinary Board circular"
+          "Yes, only through an ordinary Board circular",
         ],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS20_Q05",
         question: "Where the company has defaulted in payment of specified secured dues, before obtaining approval for waiver it may need prior approval of:",
-        options: [
-          "The concerned creditor",
-          "Every employee",
-          "The Registrar only",
-          "The statutory auditor only"
-        ],
+        options: ["The concerned creditor", "Every employee", "The Registrar only", "The statutory auditor only"],
         answer: 0
       }
-
     ]
   },
-
   /* =========================================================
      CASE SCENARIO 26
      TOPIC: MANAGER - SECTION 2(53)
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS26",
     case_chapter: [
@@ -5237,7 +3924,6 @@ const AICaseStudies = [
       "Manager",
       "Managerial Personnel"
     ],
-
     caseText: `
       <p>
         Excellent Foods Limited has appointed Mr. Rahul to supervise and control
@@ -5258,78 +3944,43 @@ const AICaseStudies = [
         subject to the superintendence, control and direction of the Board.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS26_Q01",
         question: "A Manager under Section 2(53) must have management of:",
-        options: [
-          "Only one department",
-          "The whole or substantially the whole affairs of the company",
-          "Only the finance department",
-          "Only the marketing department"
-        ],
+        options: ["Only one department", "The whole or substantially the whole affairs of the company", "Only the finance department", "Only the marketing department"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS26_Q02",
         question: "A person heading only the marketing department is generally:",
-        options: [
-          "A Manager under Section 2(53)",
-          "Not a Manager under Section 2(53)",
-          "Automatically a Managing Director",
-          "Automatically a Whole-time Director"
-        ],
+        options: ["A Manager under Section 2(53)", "Not a Manager under Section 2(53)", "Automatically a Managing Director", "Automatically a Whole-time Director"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS26_Q03",
         question: "A Manager functions subject to the:",
-        options: [
-          "Control of shareholders alone",
-          "Superintendence, control and direction of the Board",
-          "Directions of the statutory auditor",
-          "Directions of the Registrar"
-        ],
+        options: ["Control of shareholders alone", "Superintendence, control and direction of the Board", "Directions of the statutory auditor", "Directions of the Registrar"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS26_Q04",
         question: "A Manager under Section 2(53) is:",
-        options: [
-          "Always required to be a director",
-          "An individual",
-          "Always a company",
-          "Always a shareholder"
-        ],
+        options: ["Always required to be a director", "An individual", "Always a company", "Always a shareholder"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS26_Q05",
         question: "Mr. Rahul, who manages only the marketing department, would generally be:",
-        options: [
-          "A Manager under Section 2(53)",
-          "Not a Manager under Section 2(53)",
-          "A KMP automatically",
-          "A Managing Director automatically"
-        ],
+        options: ["A Manager under Section 2(53)", "Not a Manager under Section 2(53)", "A KMP automatically", "A Managing Director automatically"],
         answer: 1
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 27
      TOPIC: MANAGING DIRECTOR - SECTION 2(54)
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS27",
     case_chapter: [
@@ -5337,7 +3988,6 @@ const AICaseStudies = [
       "Managing Director",
       "Substantial Powers of Management"
     ],
-
     caseText: `
       <p>
         Horizon Industries Limited has appointed Mr. Sameer as a director.
@@ -5358,45 +4008,25 @@ const AICaseStudies = [
         purpose of the definition of Managing Director.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS27_Q01",
         question: "A Managing Director must first be:",
-        options: [
-          "A shareholder",
-          "A director",
-          "A statutory auditor",
-          "A Company Secretary"
-        ],
+        options: ["A shareholder", "A director", "A statutory auditor", "A Company Secretary"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS27_Q02",
         question: "A Managing Director is entrusted with:",
-        options: [
-          "Substantial powers of management",
-          "Only clerical duties",
-          "Only accounting duties",
-          "Only secretarial duties"
-        ],
+        options: ["Substantial powers of management", "Only clerical duties", "Only accounting duties", "Only secretarial duties"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS27_Q03",
         question: "Substantial powers of management may be entrusted through:",
-        options: [
-          "An agreement with the company",
-          "Only an oral statement by an employee",
-          "Only an auditor's report",
-          "Only a bank letter"
-        ],
+        options: ["An agreement with the company", "Only an oral statement by an employee", "Only an auditor's report", "Only a bank letter"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS27_Q04",
         question: "Routine administrative acts authorised by the Board are:",
@@ -5404,32 +4034,22 @@ const AICaseStudies = [
           "Automatically substantial powers of management",
           "Not treated as substantial powers merely because they are authorised",
           "Always prohibited for an MD",
-          "Allowed only to shareholders"
+          "Allowed only to shareholders",
         ],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS27_Q05",
         question: "If Mr. Sameer ceases to be a director, he would:",
-        options: [
-          "Continue automatically as Managing Director",
-          "Cease to be Managing Director",
-          "Become Company Secretary",
-          "Become an Independent Director automatically"
-        ],
+        options: ["Continue automatically as Managing Director", "Cease to be Managing Director", "Become Company Secretary", "Become an Independent Director automatically"],
         answer: 1
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 28
      TOPIC: WHOLE-TIME DIRECTOR - SECTION 2(94)
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS28",
     case_chapter: [
@@ -5437,7 +4057,6 @@ const AICaseStudies = [
       "Whole-time Director",
       "WTD"
     ],
-
     caseText: `
       <p>
         Silverline Limited wants to appoint Mr. Karan as its Whole-time
@@ -5456,78 +4075,43 @@ const AICaseStudies = [
         of the company.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS28_Q01",
         question: "A Whole-time Director is a:",
-        options: [
-          "Director in the whole-time employment of the company",
-          "Part-time employee only",
-          "Shareholder only",
-          "Statutory auditor"
-        ],
+        options: ["Director in the whole-time employment of the company", "Part-time employee only", "Shareholder only", "Statutory auditor"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS28_Q02",
         question: "A person who is not a director can be appointed as Whole-time Director.",
-        options: [
-          "True",
-          "False",
-          "Only with auditor approval",
-          "Only in a private company"
-        ],
+        options: ["True", "False", "Only with auditor approval", "Only in a private company"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS28_Q03",
         question: "A Whole-time Director is expected to devote:",
-        options: [
-          "Only one hour a week",
-          "His time in totality for the management of the company",
-          "No time to the company",
-          "Only time during AGM"
-        ],
+        options: ["Only one hour a week", "His time in totality for the management of the company", "No time to the company", "Only time during AGM"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS28_Q04",
         question: "Mr. Karan, being only a full-time employee and not a director, can be designated as WTD immediately.",
-        options: [
-          "Yes",
-          "No",
-          "Yes, if employees approve",
-          "Yes, if the auditor agrees"
-        ],
+        options: ["Yes", "No", "Yes, if employees approve", "Yes, if the auditor agrees"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS28_Q05",
         question: "The key requirement distinguishing a WTD is that he is:",
-        options: [
-          "A director in whole-time employment",
-          "Only a shareholder",
-          "Only an executive employee",
-          "Only a consultant"
-        ],
+        options: ["A director in whole-time employment", "Only a shareholder", "Only an executive employee", "Only a consultant"],
         answer: 0
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 29
      TOPIC: REMUNERATION - SECTION 197
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS29",
     case_chapter: [
@@ -5535,7 +4119,6 @@ const AICaseStudies = [
       "Maximum Managerial Remuneration",
       "Public Company"
     ],
-
     caseText: `
       <p>
         Prosperity Limited is a public company having profits for the financial
@@ -5550,78 +4133,43 @@ const AICaseStudies = [
         ceiling based on the net profits calculated under Section 198.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS29_Q01",
         question: "The overall maximum managerial remuneration under Section 197 for a public company is generally:",
-        options: [
-          "5% of net profits",
-          "10% of net profits",
-          "11% of net profits",
-          "20% of net profits"
-        ],
+        options: ["5% of net profits", "10% of net profits", "11% of net profits", "20% of net profits"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS29_Q02",
         question: "The 11% overall limit is calculated with reference to:",
-        options: [
-          "Gross turnover",
-          "Net profits calculated under Section 198",
-          "Paid-up capital",
-          "Share premium"
-        ],
+        options: ["Gross turnover", "Net profits calculated under Section 198", "Paid-up capital", "Share premium"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS29_Q03",
         question: "The overall 11% limit may be exceeded with approval by:",
-        options: [
-          "The company's general meeting through special resolution",
-          "The statutory auditor alone",
-          "The Registrar alone",
-          "Any employee"
-        ],
+        options: ["The company's general meeting through special resolution", "The statutory auditor alone", "The Registrar alone", "Any employee"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS29_Q04",
         question: "The 11% overall limit relates to remuneration payable to:",
-        options: [
-          "Only the Managing Director",
-          "Only independent directors",
-          "Directors including MD, WTD and Manager",
-          "Only the Company Secretary"
-        ],
+        options: ["Only the Managing Director", "Only independent directors", "Directors including MD, WTD and Manager", "Only the Company Secretary"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_EASY_CS29_Q05",
         question: "Section 197's provisions regarding overall managerial remuneration apply to:",
-        options: [
-          "Public companies",
-          "Only sole proprietorships",
-          "Only partnership firms",
-          "Every private company without exception"
-        ],
+        options: ["Public companies", "Only sole proprietorships", "Only partnership firms", "Every private company without exception"],
         answer: 0
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 30
      TOPIC: MD / WTD / MANAGER - AGE DISQUALIFICATION
   ========================================================= */
-
   {
     case_id: "CEL_CH2_EASY_CS30",
     case_chapter: [
@@ -5630,7 +4178,6 @@ const AICaseStudies = [
       "Disqualification",
       "Managerial Personnel"
     ],
-
     caseText: `
       <p>
         Blue Star Limited is considering the appointment of Mr. Mohan as its
@@ -5650,33 +4197,19 @@ const AICaseStudies = [
         appointment.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_EASY_CS30_Q01",
         question: "An undischarged insolvent can ordinarily be appointed as MD, WTD or Manager.",
-        options: [
-          "True",
-          "False",
-          "Only with shareholder approval",
-          "Only in a public company"
-        ],
+        options: ["True", "False", "Only with shareholder approval", "Only in a public company"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS30_Q02",
         question: "Being an undischarged insolvent is relevant to the eligibility conditions under:",
-        options: [
-          "Section 196",
-          "Section 123",
-          "Section 205 only",
-          "Section 204 only"
-        ],
+        options: ["Section 196", "Section 123", "Section 205 only", "Section 204 only"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS30_Q03",
         question: "A person who has been adjudged an insolvent and remains undischarged is:",
@@ -5684,44 +4217,29 @@ const AICaseStudies = [
           "Eligible automatically",
           "Disqualified from appointment under the specified provision",
           "Automatically appointed as Manager",
-          "Eligible only if he is a shareholder"
+          "Eligible only if he is a shareholder",
         ],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_EASY_CS30_Q04",
         question: "Which of the following is another specified disqualification under Section 196?",
-        options: [
-          "Suspending payment to creditors or making composition with them",
-          "Attending Board meetings",
-          "Holding a professional qualification",
-          "Receiving sitting fees"
-        ],
+        options: ["Suspending payment to creditors or making composition with them", "Attending Board meetings", "Holding a professional qualification", "Receiving sitting fees"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_EASY_CS30_Q05",
         question: "The eligibility conditions under Section 196 apply to appointment as:",
-        options: [
-          "Only Managing Director",
-          "Only Whole-time Director",
-          "Only Manager",
-          "Managing Director, Whole-time Director or Manager"
-        ],
+        options: ["Only Managing Director", "Only Whole-time Director", "Only Manager", "Managing Director, Whole-time Director or Manager"],
         answer: 3
       }
-
     ]
   },
-
   /* =========================================================
      CASE SCENARIO 31
      DIFFICULTY: MEDIUM
      TOPIC: APPOINTMENT OF MD/WTD/MANAGER - SECTION 196
   ========================================================= */
-
   {
     case_id: "CEL_CH2_MEDIUM_CS31",
     difficulty: "Medium",
@@ -5731,7 +4249,6 @@ const AICaseStudies = [
       "Tenure",
       "Re-appointment"
     ],
-
     caseText: `
       <p>
         Apex Engineering Limited appointed Mr. Arvind as its Managing Director
@@ -5752,9 +4269,7 @@ const AICaseStudies = [
         before expiry, but restricts how early such re-appointment can be made.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_MEDIUM_CS31_Q01",
         difficulty: "Medium",
@@ -5763,24 +4278,17 @@ const AICaseStudies = [
           "Only after expiry of the existing term",
           "At any time during the existing term",
           "Not earlier than one year before expiry of the existing term",
-          "Only during the last one month of the existing term"
+          "Only during the last one month of the existing term",
         ],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS31_Q02",
         difficulty: "Medium",
         question: "The maximum term for which Mr. Arvind can be re-appointed at one time is:",
-        options: [
-          "Three years",
-          "Five years",
-          "Seven years",
-          "Ten years"
-        ],
+        options: ["Three years", "Five years", "Seven years", "Ten years"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS31_Q03",
         difficulty: "Medium",
@@ -5789,11 +4297,10 @@ const AICaseStudies = [
           "Valid because it is within one year before expiry",
           "Invalid because re-appointment can only occur after expiry",
           "Invalid because the existing term has not expired",
-          "Valid only if approved by the Central Government"
+          "Valid only if approved by the Central Government",
         ],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS31_Q04",
         difficulty: "Medium",
@@ -5802,11 +4309,10 @@ const AICaseStudies = [
           "Appointment can be for any period if shareholders agree",
           "Appointment or re-appointment cannot exceed five years at a time",
           "Appointment can be for life in a private company",
-          "Appointment can exceed five years with Board approval alone"
+          "Appointment can exceed five years with Board approval alone",
         ],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS31_Q05",
         difficulty: "Medium",
@@ -5815,21 +4321,17 @@ const AICaseStudies = [
           "Valid because Articles override Section 196",
           "Valid if approved by the Board",
           "Invalid because the statutory maximum tenure is five years",
-          "Valid only for private companies"
+          "Valid only for private companies",
         ],
         answer: 2
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 32
      DIFFICULTY: MEDIUM
      TOPIC: AGE OF MD/WTD/MANAGER
   ========================================================= */
-
   {
     case_id: "CEL_CH2_MEDIUM_CS32",
     difficulty: "Medium",
@@ -5839,7 +4341,6 @@ const AICaseStudies = [
       "Special Resolution",
       "Central Government Approval"
     ],
-
     caseText: `
       <p>
         Zenith Textiles Limited proposes to appoint Mr. Ramesh as its Managing
@@ -5860,22 +4361,14 @@ const AICaseStudies = [
         statement must also contain justification for appointing such person.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_MEDIUM_CS32_Q01",
         difficulty: "Medium",
         question: "The normal maximum age for appointment as MD, WTD or Manager is:",
-        options: [
-          "60 years",
-          "65 years",
-          "70 years",
-          "75 years"
-        ],
+        options: ["60 years", "65 years", "70 years", "75 years"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS32_Q02",
         difficulty: "Medium",
@@ -5884,24 +4377,17 @@ const AICaseStudies = [
           "The Board alone approves the appointment",
           "A special resolution is passed by the company",
           "The auditor approves the appointment",
-          "All shareholders individually consent"
+          "All shareholders individually consent",
         ],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS32_Q03",
         difficulty: "Medium",
         question: "The explanatory statement accompanying the notice for appointment of a person above 70 years should indicate:",
-        options: [
-          "His personal wealth",
-          "The justification for appointing such person",
-          "His shareholding only",
-          "The auditor's opinion"
-        ],
+        options: ["His personal wealth", "The justification for appointing such person", "His shareholding only", "The auditor's opinion"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS32_Q04",
         difficulty: "Medium",
@@ -5910,34 +4396,24 @@ const AICaseStudies = [
           "The Board requests the Central Government and it is satisfied that the appointment is most beneficial to the company",
           "The auditor approves it",
           "The Registrar automatically approves it",
-          "The Company Secretary approves it"
+          "The Company Secretary approves it",
         ],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS32_Q05",
         difficulty: "Medium",
         question: "Who is required to be satisfied regarding the benefit of appointing the person above 70 years when the special resolution is not passed?",
-        options: [
-          "Board of Directors",
-          "Central Government",
-          "Statutory Auditor",
-          "Nomination and Remuneration Committee"
-        ],
+        options: ["Board of Directors", "Central Government", "Statutory Auditor", "Nomination and Remuneration Committee"],
         answer: 1
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 33
      DIFFICULTY: MEDIUM
      TOPIC: KMP - MULTIPLE APPOINTMENTS
   ========================================================= */
-
   {
     case_id: "CEL_CH2_MEDIUM_CS33",
     difficulty: "Medium",
@@ -5947,7 +4423,6 @@ const AICaseStudies = [
       "Multiple Appointments",
       "Subsidiary Company"
     ],
-
     caseText: `
       <p>
         Global Finance Limited is a listed company. Ms. Priya is its whole-time
@@ -5969,84 +4444,49 @@ const AICaseStudies = [
         company with the permission of the Board.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_MEDIUM_CS33_Q01",
         difficulty: "Medium",
         question: "As a general rule, a whole-time KMP cannot hold office in:",
-        options: [
-          "More than one company at the same time",
-          "Any company",
-          "A subsidiary company only",
-          "The company appointing him"
-        ],
+        options: ["More than one company at the same time", "Any company", "A subsidiary company only", "The company appointing him"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS33_Q02",
         difficulty: "Medium",
         question: "The restriction contains an exception for:",
-        options: [
-          "Any unrelated company",
-          "Its subsidiary company",
-          "Any partnership firm",
-          "Any foreign company"
-        ],
+        options: ["Any unrelated company", "Its subsidiary company", "Any partnership firm", "Any foreign company"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS33_Q03",
         difficulty: "Medium",
         question: "Ms. Priya can hold the office of whole-time KMP in Global Finance Limited and its subsidiary:",
-        options: [
-          "Never",
-          "Yes, subject to the applicable provisions",
-          "Only if the auditor permits",
-          "Only if the Registrar permits"
-        ],
+        options: ["Never", "Yes, subject to the applicable provisions", "Only if the auditor permits", "Only if the Registrar permits"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS33_Q04",
         difficulty: "Medium",
         question: "A whole-time KMP may also be a director in another company:",
-        options: [
-          "Only without Board permission",
-          "With the permission of the Board",
-          "Only with Central Government approval",
-          "Never"
-        ],
+        options: ["Only without Board permission", "With the permission of the Board", "Only with Central Government approval", "Never"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS33_Q05",
         difficulty: "Medium",
         question: "If Ms. Priya is appointed as whole-time CFO of an unrelated company simultaneously, the appointment would generally:",
-        options: [
-          "Be permitted automatically",
-          "Be prohibited under the multiple-office restriction",
-          "Require only auditor approval",
-          "Require only shareholder approval"
-        ],
+        options: ["Be permitted automatically", "Be prohibited under the multiple-office restriction", "Require only auditor approval", "Require only shareholder approval"],
         answer: 1
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 34
      DIFFICULTY: MEDIUM
      TOPIC: KMP VACANCY
   ========================================================= */
-
   {
     case_id: "CEL_CH2_MEDIUM_CS34",
     difficulty: "Medium",
@@ -6055,7 +4495,6 @@ const AICaseStudies = [
       "KMP Vacancy",
       "Board Meeting"
     ],
-
     caseText: `
       <p>
         Sunrise Industries Limited is a listed company. Its whole-time Company
@@ -6071,84 +4510,49 @@ const AICaseStudies = [
         period.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_MEDIUM_CS34_Q01",
         difficulty: "Medium",
         question: "A vacancy in the office of a whole-time KMP must be filled by:",
-        options: [
-          "The shareholders only",
-          "The Board of Directors",
-          "The statutory auditor",
-          "The Registrar"
-        ],
+        options: ["The shareholders only", "The Board of Directors", "The statutory auditor", "The Registrar"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS34_Q02",
         difficulty: "Medium",
         question: "The vacancy must be filled within:",
-        options: [
-          "30 days",
-          "90 days",
-          "Six months",
-          "One year"
-        ],
+        options: ["30 days", "90 days", "Six months", "One year"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS34_Q03",
         difficulty: "Medium",
         question: "The Board should fill the vacancy:",
-        options: [
-          "At a meeting of the Board",
-          "Only at the AGM",
-          "Only through postal ballot",
-          "Only through a court order"
-        ],
+        options: ["At a meeting of the Board", "Only at the AGM", "Only through postal ballot", "Only through a court order"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS34_Q04",
         difficulty: "Medium",
         question: "If the vacancy occurred on 10 January 2026, the statutory six-month period would generally run from:",
-        options: [
-          "The next AGM",
-          "10 January 2026",
-          "The end of the financial year",
-          "The date of the next Board meeting only"
-        ],
+        options: ["The next AGM", "10 January 2026", "The end of the financial year", "The date of the next Board meeting only"],
         answer: 1
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS34_Q05",
         difficulty: "Medium",
         question: "Waiting until September 2026 merely because the AGM is scheduled then would be:",
-        options: [
-          "Automatically compliant",
-          "Potentially contrary to Section 203(4), if the six-month period is exceeded",
-          "Mandatory",
-          "Required by Schedule V"
-        ],
+        options: ["Automatically compliant", "Potentially contrary to Section 203(4), if the six-month period is exceeded", "Mandatory", "Required by Schedule V"],
         answer: 1
       }
-
     ]
   },
-
-
   /* =========================================================
      CASE SCENARIO 35
      DIFFICULTY: MEDIUM
      TOPIC: SECRETARIAL AUDIT
   ========================================================= */
-
   {
     case_id: "CEL_CH2_MEDIUM_CS35",
     difficulty: "Medium",
@@ -6158,7 +4562,6 @@ const AICaseStudies = [
       "Rule 9",
       "Applicability"
     ],
-
     caseText: `
       <p>
         Green Pharma Limited is a public company. As per its latest audited
@@ -6179,48 +4582,28 @@ const AICaseStudies = [
         make the company subject to secretarial audit.
       </p>
     `,
-
     questions: [
-
       {
         question_id: "CEL_CH2_MEDIUM_CS35_Q01",
         difficulty: "Medium",
         question: "Secretarial audit is applicable to every listed company.",
-        options: [
-          "True",
-          "False",
-          "Only if turnover exceeds ₹250 crore",
-          "Only if loans exceed ₹200 crore"
-        ],
+        options: ["True", "False", "Only if turnover exceeds ₹250 crore", "Only if loans exceed ₹200 crore"],
         answer: 0
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS35_Q02",
         difficulty: "Medium",
         question: "A prescribed public company threshold for secretarial audit based on paid-up share capital is:",
-        options: [
-          "₹10 crore or more",
-          "₹25 crore or more",
-          "₹50 crore or more",
-          "₹100 crore or more"
-        ],
+        options: ["₹10 crore or more", "₹25 crore or more", "₹50 crore or more", "₹100 crore or more"],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS35_Q03",
         difficulty: "Medium",
         question: "The prescribed turnover threshold is:",
-        options: [
-          "₹100 crore or more",
-          "₹150 crore or more",
-          "₹200 crore or more",
-          "₹250 crore or more"
-        ],
+        options: ["₹100 crore or more", "₹150 crore or more", "₹200 crore or more", "₹250 crore or more"],
         answer: 3
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS35_Q04",
         difficulty: "Medium",
@@ -6229,33 +4612,24 @@ const AICaseStudies = [
           "No, because the company has less than ₹50 crore capital",
           "No, because turnover is below ₹250 crore",
           "Yes, because outstanding loans/borrowings are ₹100 crore or more",
-          "Only if shareholders pass a special resolution"
+          "Only if shareholders pass a special resolution",
         ],
         answer: 2
       },
-
       {
         question_id: "CEL_CH2_MEDIUM_CS35_Q05",
         difficulty: "Medium",
         question: "The Secretarial Audit Report is issued by:",
-        options: [
-          "Statutory auditor",
-          "Company Secretary in Practice",
-          "Chief Financial Officer",
-          "Registrar of Companies"
-        ],
+        options: ["Statutory auditor", "Company Secretary in Practice", "Chief Financial Officer", "Registrar of Companies"],
         answer: 1
       }
-
     ]
   },
-
   /* =========================================================
    CASE SCENARIO 36
    DIFFICULTY: MEDIUM
    TOPIC: OVERALL MANAGERIAL REMUNERATION - SECTION 197
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS36",
   difficulty: "Medium",
@@ -6265,7 +4639,6 @@ const AICaseStudies = [
     "Net Profits",
     "Special Resolution"
   ],
-
   caseText: `
     <p>
       Bright Industries Limited is a public company having sufficient profits
@@ -6287,84 +4660,49 @@ const AICaseStudies = [
       for managerial and other directors.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS36_Q01",
       difficulty: "Medium",
       question: "What is the overall maximum managerial remuneration generally payable by a public company to its directors, including MD, WTD and Manager?",
-      options: [
-        "5% of net profits",
-        "10% of net profits",
-        "11% of net profits",
-        "15% of net profits"
-      ],
+      options: ["5% of net profits", "10% of net profits", "11% of net profits", "15% of net profits"],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS36_Q02",
       difficulty: "Medium",
       question: "Where there is more than one MD/WTD/Manager, the remuneration payable to all such persons taken together is generally limited to:",
-      options: [
-        "5% of net profits",
-        "10% of net profits",
-        "11% of net profits",
-        "15% of net profits"
-      ],
+      options: ["5% of net profits", "10% of net profits", "11% of net profits", "15% of net profits"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS36_Q03",
       difficulty: "Medium",
       question: "The remuneration of directors who are neither MD nor WTD, where a managerial person exists, is generally limited to:",
-      options: [
-        "0.5% of net profits",
-        "1% of net profits",
-        "3% of net profits",
-        "5% of net profits"
-      ],
+      options: ["0.5% of net profits", "1% of net profits", "3% of net profits", "5% of net profits"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS36_Q04",
       difficulty: "Medium",
       question: "Can the 10% limit applicable to multiple MDs/WTDs/Managers be exceeded?",
-      options: [
-        "Never",
-        "Yes, with approval by special resolution in general meeting",
-        "Yes, by Board resolution alone",
-        "Yes, automatically if profits are high"
-      ],
+      options: ["Never", "Yes, with approval by special resolution in general meeting", "Yes, by Board resolution alone", "Yes, automatically if profits are high"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS36_Q05",
       difficulty: "Medium",
       question: "The percentages prescribed under Section 197(1) are:",
-      options: [
-        "Inclusive of sitting fees",
-        "Exclusive of sitting fees",
-        "Applicable only to sitting fees",
-        "Applicable only to independent directors"
-      ],
+      options: ["Inclusive of sitting fees", "Exclusive of sitting fees", "Applicable only to sitting fees", "Applicable only to independent directors"],
       answer: 1
     }
-
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 37
    DIFFICULTY: MEDIUM
    TOPIC: REMUNERATION IN ABSENCE/INADEQUACY OF PROFITS
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS37",
   difficulty: "Medium",
@@ -6374,7 +4712,6 @@ const AICaseStudies = [
     "No Profit/Inadequate Profit",
     "Effective Capital"
   ],
-
   caseText: `
     <p>
       Sunrise Manufacturing Limited has suffered inadequate profits during the
@@ -6395,48 +4732,28 @@ const AICaseStudies = [
       under Schedule V.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS37_Q01",
       difficulty: "Medium",
       question: "Where a company has no profits or inadequate profits, managerial remuneration is primarily governed by:",
-      options: [
-        "Schedule V",
-        "Schedule I",
-        "Section 92 only",
-        "CARO"
-      ],
+      options: ["Schedule V", "Schedule I", "Section 92 only", "CARO"],
       answer: 0
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS37_Q02",
       difficulty: "Medium",
       question: "The effective capital of Sunrise Manufacturing Limited falls in which category?",
-      options: [
-        "Negative or less than ₹5 crore",
-        "₹5 crore and above but less than ₹100 crore",
-        "₹100 crore and above but less than ₹250 crore",
-        "₹250 crore and above"
-      ],
+      options: ["Negative or less than ₹5 crore", "₹5 crore and above but less than ₹100 crore", "₹100 crore and above but less than ₹250 crore", "₹250 crore and above"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS37_Q03",
       difficulty: "Medium",
       question: "The prescribed annual managerial remuneration limit for the relevant effective-capital category is:",
-      options: [
-        "₹60 lakh",
-        "₹84 lakh",
-        "₹120 lakh",
-        "₹24 lakh"
-      ],
+      options: ["₹60 lakh", "₹84 lakh", "₹120 lakh", "₹24 lakh"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS37_Q04",
       difficulty: "Medium",
@@ -6445,34 +4762,24 @@ const AICaseStudies = [
         "Within the prescribed ₹84 lakh limit",
         "Above the prescribed limit",
         "Automatically prohibited because there are inadequate profits",
-        "Payable only after Central Government approval"
+        "Payable only after Central Government approval",
       ],
       answer: 0
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS37_Q05",
       difficulty: "Medium",
       question: "If remuneration is proposed in excess of the prescribed limit, it may be paid subject to:",
-      options: [
-        "A special resolution by shareholders, subject to applicable conditions",
-        "Approval of the statutory auditor only",
-        "Approval of the CFO only",
-        "No approval"
-      ],
+      options: ["A special resolution by shareholders, subject to applicable conditions", "Approval of the statutory auditor only", "Approval of the CFO only", "No approval"],
       answer: 0
     }
-
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 38
    DIFFICULTY: MEDIUM
    TOPIC: EFFECTIVE CAPITAL
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS38",
   difficulty: "Medium",
@@ -6481,7 +4788,6 @@ const AICaseStudies = [
     "Effective Capital",
     "Managerial Remuneration"
   ],
-
   caseText: `
     <p>
       Nova Technologies Limited has no profits for the financial year. For the
@@ -6529,84 +4835,49 @@ const AICaseStudies = [
       applying the appropriate Schedule V remuneration limit.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS38_Q01",
       difficulty: "Medium",
       question: "Which of the following is included in effective capital?",
-      options: [
-        "Working capital loan",
-        "Share premium",
-        "Revaluation reserve",
-        "Accumulated losses"
-      ],
+      options: ["Working capital loan", "Share premium", "Revaluation reserve", "Accumulated losses"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS38_Q02",
       difficulty: "Medium",
       question: "The working capital loan of ₹1 crore should generally be:",
-      options: [
-        "Added to effective capital",
-        "Excluded from the long-term loan component",
-        "Deducted from share capital",
-        "Added twice"
-      ],
+      options: ["Added to effective capital", "Excluded from the long-term loan component", "Deducted from share capital", "Added twice"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS38_Q03",
       difficulty: "Medium",
       question: "Revaluation reserve is:",
-      options: [
-        "Included in reserves for effective capital",
-        "Excluded from reserves for effective capital",
-        "Added as a long-term loan",
-        "Deducted as investment"
-      ],
+      options: ["Included in reserves for effective capital", "Excluded from reserves for effective capital", "Added as a long-term loan", "Deducted as investment"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS38_Q04",
       difficulty: "Medium",
       question: "Accumulated losses are:",
-      options: [
-        "Added to effective capital",
-        "Ignored completely",
-        "Deducted while computing effective capital",
-        "Treated as share premium"
-      ],
+      options: ["Added to effective capital", "Ignored completely", "Deducted while computing effective capital", "Treated as share premium"],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS38_Q05",
       difficulty: "Medium",
       question: "Based on the figures given, the effective capital is:",
-      options: [
-        "₹7.00 crore",
-        "₹7.20 crore",
-        "₹7.50 crore",
-        "₹8.20 crore"
-      ],
+      options: ["₹7.00 crore", "₹7.20 crore", "₹7.50 crore", "₹8.20 crore"],
       answer: 1
     }
-
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 39
    DIFFICULTY: MEDIUM
    TOPIC: REFUND OF EXCESS REMUNERATION
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS39",
   difficulty: "Medium",
@@ -6616,7 +4887,6 @@ const AICaseStudies = [
     "Refund of Excess Remuneration",
     "Special Resolution"
   ],
-
   caseText: `
     <p>
       Metro Infrastructure Limited paid remuneration of ₹18 lakh to its Managing
@@ -6637,61 +4907,35 @@ const AICaseStudies = [
       held by the director in trust for the company.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS39_Q01",
       difficulty: "Medium",
       question: "What amount is excess remuneration in the case?",
-      options: [
-        "₹4 lakh",
-        "₹5 lakh",
-        "₹6 lakh",
-        "₹8 lakh"
-      ],
+      options: ["₹4 lakh", "₹5 lakh", "₹6 lakh", "₹8 lakh"],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS39_Q02",
       difficulty: "Medium",
       question: "The director is required to:",
-      options: [
-        "Retain the excess amount permanently",
-        "Refund the excess remuneration to the company",
-        "Pay it to the Registrar",
-        "Donate it to the Investor Education Fund"
-      ],
+      options: ["Retain the excess amount permanently", "Refund the excess remuneration to the company", "Pay it to the Registrar", "Donate it to the Investor Education Fund"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS39_Q03",
       difficulty: "Medium",
       question: "The excess remuneration is required to be refunded within:",
-      options: [
-        "Six months",
-        "One year",
-        "Two years or such lesser period as may be allowed by the company",
-        "Five years"
-      ],
+      options: ["Six months", "One year", "Two years or such lesser period as may be allowed by the company", "Five years"],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS39_Q04",
       difficulty: "Medium",
       question: "Until the excess remuneration is refunded, the director holds the amount:",
-      options: [
-        "As absolute owner",
-        "As trustee for the company",
-        "On behalf of the Registrar",
-        "As a secured creditor"
-      ],
+      options: ["As absolute owner", "As trustee for the company", "On behalf of the Registrar", "As a secured creditor"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS39_Q05",
       difficulty: "Medium",
@@ -6700,21 +4944,17 @@ const AICaseStudies = [
         "Never under any circumstances",
         "Yes, with approval by special resolution within the prescribed period and subject to applicable conditions",
         "Yes, by oral approval of the Board",
-        "Yes, automatically after one year"
+        "Yes, automatically after one year",
       ],
       answer: 1
     }
-
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 40
    DIFFICULTY: MEDIUM
    TOPIC: COMPENSATION FOR LOSS OF OFFICE
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS40",
   difficulty: "Medium",
@@ -6724,7 +4964,6 @@ const AICaseStudies = [
     "MD/WTD/Manager",
     "Prohibition on Compensation"
   ],
-
   caseText: `
     <p>
       Pioneer Electronics Limited appointed Mr. Sameer as its Managing Director
@@ -6745,22 +4984,14 @@ const AICaseStudies = [
       much can be paid.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS40_Q01",
       difficulty: "Medium",
       question: "Compensation for loss of office under Section 202 may be paid to:",
-      options: [
-        "Any shareholder",
-        "Any employee",
-        "MD, WTD or Manager",
-        "Only an independent director"
-      ],
+      options: ["Any shareholder", "Any employee", "MD, WTD or Manager", "Only an independent director"],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS40_Q02",
       difficulty: "Medium",
@@ -6769,37 +5000,24 @@ const AICaseStudies = [
         "One year or remaining term, whichever is shorter",
         "Two years or remaining term, whichever is shorter",
         "Three years or remaining term, whichever is shorter",
-        "Five years in every case"
+        "Five years in every case",
       ],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS40_Q03",
       difficulty: "Medium",
       question: "Mr. Sameer has two years remaining in his term. His average remuneration is ₹20 lakh per year. Subject to eligibility, the maximum compensation based on the remaining term would be:",
-      options: [
-        "₹20 lakh",
-        "₹30 lakh",
-        "₹40 lakh",
-        "₹60 lakh"
-      ],
+      options: ["₹20 lakh", "₹30 lakh", "₹40 lakh", "₹60 lakh"],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS40_Q04",
       difficulty: "Medium",
       question: "If Mr. Sameer has been guilty of gross negligence in relation to the conduct of the company's affairs, compensation for loss of office:",
-      options: [
-        "Must always be paid",
-        "Cannot be paid under Section 202",
-        "Can be doubled",
-        "Can be paid only by the auditor"
-      ],
+      options: ["Must always be paid", "Cannot be paid under Section 202", "Can be doubled", "Can be paid only by the auditor"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS40_Q05",
       difficulty: "Medium",
@@ -6808,20 +5026,17 @@ const AICaseStudies = [
         "The director receives sitting fees",
         "The director has been guilty of fraud or breach of trust",
         "The director has served for five years",
-        "The company has adequate profits"
+        "The company has adequate profits",
       ],
       answer: 1
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 41
    DIFFICULTY: MEDIUM
    TOPIC: SITTING FEES - SECTION 197(5)
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS41",
   difficulty: "Medium",
@@ -6831,7 +5046,6 @@ const AICaseStudies = [
     "Independent Directors",
     "Women Directors"
   ],
-
   caseText: `
     <p>
       Vertex Machines Limited is a public company. The Board of Directors is
@@ -6858,22 +5072,14 @@ const AICaseStudies = [
       Personnel) Rules, 2014 before approving the proposals.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS41_Q01",
       difficulty: "Medium",
       question: "The maximum sitting fee that may be paid to a director for each meeting of the Board or committee thereof is:",
-      options: [
-        "₹50,000",
-        "₹75,000",
-        "₹1,00,000",
-        "₹2,00,000"
-      ],
+      options: ["₹50,000", "₹75,000", "₹1,00,000", "₹2,00,000"],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS41_Q02",
       difficulty: "Medium",
@@ -6882,11 +5088,10 @@ const AICaseStudies = [
         "Invalid because independent directors cannot receive sitting fees",
         "Valid since it does not exceed ₹1,00,000 per meeting",
         "Invalid because all directors must receive exactly equal sitting fees",
-        "Valid only with Central Government approval"
+        "Valid only with Central Government approval",
       ],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS41_Q03",
       difficulty: "Medium",
@@ -6895,11 +5100,10 @@ const AICaseStudies = [
         "Always be exactly twice that of other directors",
         "Not be less than the sitting fee payable to other directors",
         "Not exceed 50% of that payable to executive directors",
-        "Always be ₹1,00,000"
+        "Always be ₹1,00,000",
       ],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS41_Q04",
       difficulty: "Medium",
@@ -6908,11 +5112,10 @@ const AICaseStudies = [
         "Valid because he is Chairman",
         "Valid if approved unanimously by the Board",
         "Invalid because the prescribed ceiling is ₹1,00,000 per meeting",
-        "Valid if disclosed in the Board's Report"
+        "Valid if disclosed in the Board's Report",
       ],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS41_Q05",
       difficulty: "Medium",
@@ -6921,21 +5124,17 @@ const AICaseStudies = [
         "Included within those percentage limits",
         "Exclusive of those percentage limits",
         "Treated as capital expenditure",
-        "Prohibited for all directors receiving remuneration"
+        "Prohibited for all directors receiving remuneration",
       ],
       answer: 1
     }
-
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 42
    DIFFICULTY: MEDIUM
    TOPIC: PROFESSIONAL SERVICES BY DIRECTOR - SECTION 197(4)
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS42",
   difficulty: "Medium",
@@ -6945,7 +5144,6 @@ const AICaseStudies = [
     "Director Remuneration",
     "Nomination and Remuneration Committee"
   ],
-
   caseText: `
     <p>
       MediCare Hospitals Limited operates a chain of specialised hospitals.
@@ -6969,22 +5167,14 @@ const AICaseStudies = [
       qualification.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS42_Q01",
       difficulty: "Medium",
       question: "As a general rule, remuneration payable to a director includes remuneration for services rendered by him:",
-      options: [
-        "Only as director",
-        "In any other capacity also",
-        "Only as an employee",
-        "Only as a consultant"
-      ],
+      options: ["Only as director", "In any other capacity also", "Only as an employee", "Only as a consultant"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS42_Q02",
       difficulty: "Medium",
@@ -6993,37 +5183,24 @@ const AICaseStudies = [
         "The services are professional in nature and he possesses the requisite qualification",
         "He owns at least 10% shares",
         "The company has inadequate profits",
-        "He is also the Managing Director"
+        "He is also the Managing Director",
       ],
       answer: 0
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS42_Q03",
       difficulty: "Medium",
       question: "Where the company is covered under Section 178(1), who should form the opinion that the director possesses the requisite qualification for practice of the profession?",
-      options: [
-        "Statutory Auditor",
-        "Nomination and Remuneration Committee",
-        "Registrar of Companies",
-        "Central Government"
-      ],
+      options: ["Statutory Auditor", "Nomination and Remuneration Committee", "Registrar of Companies", "Central Government"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS42_Q04",
       difficulty: "Medium",
       question: "If the company is not covered under Section 178(1), the requisite opinion regarding professional qualification may be formed by:",
-      options: [
-        "The Board of Directors",
-        "Any shareholder",
-        "The CFO alone",
-        "The Registrar"
-      ],
+      options: ["The Board of Directors", "Any shareholder", "The CFO alone", "The Registrar"],
       answer: 0
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS42_Q05",
       difficulty: "Medium",
@@ -7032,21 +5209,17 @@ const AICaseStudies = [
         "Must necessarily form part of managerial remuneration",
         "Need not be included in managerial remuneration",
         "Is prohibited because Dr. Aryan is a director",
-        "Can be paid only after Central Government approval"
+        "Can be paid only after Central Government approval",
       ],
       answer: 1
     }
-
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 43
    DIFFICULTY: MEDIUM
    TOPIC: D&O INSURANCE PREMIUM - SECTION 197(13)
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS43",
   difficulty: "Medium",
@@ -7056,7 +5229,6 @@ const AICaseStudies = [
     "Managerial Personnel",
     "Remuneration"
   ],
-
   caseText: `
     <p>
       Secure Finance Limited has taken an insurance policy on behalf of its
@@ -7079,84 +5251,49 @@ const AICaseStudies = [
       Section 197(13).
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS43_Q01",
       difficulty: "Medium",
       question: "At the time the insurance is taken, the premium paid for indemnification against specified liabilities is generally:",
-      options: [
-        "Treated as remuneration immediately",
-        "Not treated as part of remuneration",
-        "Treated as dividend",
-        "Treated as sitting fees"
-      ],
+      options: ["Treated as remuneration immediately", "Not treated as part of remuneration", "Treated as dividend", "Treated as sitting fees"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS43_Q02",
       difficulty: "Medium",
       question: "Section 197(13) specifically covers insurance taken on behalf of persons including:",
-      options: [
-        "MD, WTD, Manager, CEO, CFO or CS",
-        "Only shareholders",
-        "Only independent directors",
-        "Only auditors"
-      ],
+      options: ["MD, WTD, Manager, CEO, CFO or CS", "Only shareholders", "Only independent directors", "Only auditors"],
       answer: 0
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS43_Q03",
       difficulty: "Medium",
       question: "If the CFO is subsequently proved guilty, the premium paid on the insurance relating to him shall be:",
-      options: [
-        "Ignored permanently",
-        "Treated as part of his remuneration",
-        "Treated as dividend",
-        "Recovered only from shareholders"
-      ],
+      options: ["Ignored permanently", "Treated as part of his remuneration", "Treated as dividend", "Recovered only from shareholders"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS43_Q04",
       difficulty: "Medium",
       question: "If the insured managerial personnel is not proved guilty, the insurance premium:",
-      options: [
-        "Must always be treated as remuneration",
-        "Shall not be treated as part of remuneration",
-        "Must be treated as commission",
-        "Must be refunded to the insurer"
-      ],
+      options: ["Must always be treated as remuneration", "Shall not be treated as part of remuneration", "Must be treated as commission", "Must be refunded to the insurer"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS43_Q05",
       difficulty: "Medium",
       question: "Which of the following liabilities is specifically contemplated under Section 197(13)?",
-      options: [
-        "Negligence or breach of duty",
-        "Personal home loan liability",
-        "Personal income-tax liability unrelated to the company",
-        "Personal credit-card liability"
-      ],
+      options: ["Negligence or breach of duty", "Personal home loan liability", "Personal income-tax liability unrelated to the company", "Personal credit-card liability"],
       answer: 0
     }
-
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 44
    DIFFICULTY: MEDIUM
    TOPIC: RECOVERY OF MANAGERIAL REMUNERATION - SECTION 199
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS44",
   difficulty: "Medium",
@@ -7166,7 +5303,6 @@ const AICaseStudies = [
     "Recovery of Remuneration",
     "Past Managerial Personnel"
   ],
-
   caseText: `
     <p>
       Alpha Retail Limited discovered a material non-compliance with the
@@ -7189,9 +5325,7 @@ const AICaseStudies = [
       anything from him.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS44_Q01",
       difficulty: "Medium",
@@ -7200,24 +5334,17 @@ const AICaseStudies = [
         "Fraud only",
         "Fraud or non-compliance with requirements under the Companies Act, 2013 and rules thereunder",
         "Change of auditor only",
-        "Change in registered office"
+        "Change in registered office",
       ],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS44_Q02",
       difficulty: "Medium",
       question: "The amount recoverable from Mr. Rohan is:",
-      options: [
-        "₹45 lakh",
-        "₹58 lakh",
-        "₹13 lakh",
-        "Nil because he has retired"
-      ],
+      options: ["₹45 lakh", "₹58 lakh", "₹13 lakh", "Nil because he has retired"],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS44_Q03",
       difficulty: "Medium",
@@ -7226,11 +5353,10 @@ const AICaseStudies = [
         "Yes, because Section 199 applies only to existing officers",
         "No, because recovery can be made from specified past or present managerial personnel",
         "Yes, unless shareholders unanimously approve recovery",
-        "Yes, if retirement occurred before restatement"
+        "Yes, if retirement occurred before restatement",
       ],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS44_Q04",
       difficulty: "Medium",
@@ -7239,11 +5365,10 @@ const AICaseStudies = [
         "The entire remuneration originally received",
         "50% of remuneration received",
         "The difference between remuneration actually received and remuneration payable on the basis of restated financial statements",
-        "An amount determined solely by the auditor"
+        "An amount determined solely by the auditor",
       ],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS44_Q05",
       difficulty: "Medium",
@@ -7252,21 +5377,17 @@ const AICaseStudies = [
         "Automatically removes every other liability of the defaulting person",
         "Does not prejudice any other liability under the Companies Act or other applicable law",
         "Prevents prosecution under every other law",
-        "Can be made only when the person admits fraud"
+        "Can be made only when the person admits fraud",
       ],
       answer: 1
     }
-
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 45
    DIFFICULTY: MEDIUM
    TOPIC: FUNCTIONS OF COMPANY SECRETARY - SECTION 205
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS45",
   difficulty: "Medium",
@@ -7276,7 +5397,6 @@ const AICaseStudies = [
     "Secretarial Standards",
     "Corporate Governance"
   ],
-
   caseText: `
     <p>
       Horizon Industries Limited has appointed Ms. Nisha as its whole-time
@@ -7299,9 +5419,7 @@ const AICaseStudies = [
       authorities in connection with discharge of duties under the Act.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS45_Q01",
       difficulty: "Medium",
@@ -7310,11 +5428,10 @@ const AICaseStudies = [
         "Only the Income-tax Act",
         "The Companies Act, rules made thereunder and other laws applicable to the company",
         "Only Secretarial Standard-1",
-        "Only directions issued by shareholders"
+        "Only directions issued by shareholders",
       ],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS45_Q02",
       difficulty: "Medium",
@@ -7323,37 +5440,24 @@ const AICaseStudies = [
         "Ensuring compliance with applicable secretarial standards",
         "Determining the company's income tax independently",
         "Replacing the Board of Directors",
-        "Acting as statutory auditor"
+        "Acting as statutory auditor",
       ],
       answer: 0
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS45_Q03",
       difficulty: "Medium",
       question: "The Company Secretary may provide directors with guidance regarding:",
-      options: [
-        "Only their remuneration",
-        "Their duties, responsibilities and powers",
-        "Their personal investments",
-        "Their personal tax returns"
-      ],
+      options: ["Only their remuneration", "Their duties, responsibilities and powers", "Their personal investments", "Their personal tax returns"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS45_Q04",
       difficulty: "Medium",
       question: "Which Secretarial Standards are specifically stated in the chapter as approved by the Central Government under Section 118(10)?",
-      options: [
-        "SS-1 and SS-2",
-        "SS-2 and SS-3",
-        "SS-3 and SS-4",
-        "Only SS-5"
-      ],
+      options: ["SS-1 and SS-2", "SS-2 and SS-3", "SS-3 and SS-4", "Only SS-5"],
       answer: 0
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS45_Q05",
       difficulty: "Medium",
@@ -7362,11 +5466,10 @@ const AICaseStudies = [
         "Completely absolves the Board and MD from their statutory duties",
         "Reduces the Board's responsibility by 50%",
         "Does not affect the duties and functions of the Board, Chairperson, MD or WTD under applicable law",
-        "Transfers all statutory responsibility to the Company Secretary"
+        "Transfers all statutory responsibility to the Company Secretary",
       ],
       answer: 2
     }
-
   ]
 },
 /* =========================================================
@@ -7374,7 +5477,6 @@ const AICaseStudies = [
    DIFFICULTY: MEDIUM
    TOPIC: MANAGING DIRECTOR VS MANAGER - SECTIONS 2(53), 2(54), 196
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS41",
   difficulty: "Medium",
@@ -7385,7 +5487,6 @@ const AICaseStudies = [
     "Managing Director",
     "Manager"
   ],
-
   caseText: `
     <p>
       Royal Consumer Products Limited has appointed Mr. Karan as its Managing
@@ -7410,9 +5511,7 @@ const AICaseStudies = [
       of Section 2(53).
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS41_Q01",
       difficulty: "Medium",
@@ -7421,11 +5520,10 @@ const AICaseStudies = [
         "Any one department of the company",
         "The whole or substantially the whole of the affairs of the company",
         "Only the finance department",
-        "Only the day-to-day administrative functions"
+        "Only the day-to-day administrative functions",
       ],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS41_Q02",
       difficulty: "Medium",
@@ -7434,11 +5532,10 @@ const AICaseStudies = [
         "Necessarily be a statutory manager under Section 2(53)",
         "Not be a manager under Section 2(53) merely because his designation contains the word 'Manager'",
         "Automatically become a Managing Director",
-        "Become a statutory manager only because an MD already exists"
+        "Become a statutory manager only because an MD already exists",
       ],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS41_Q03",
       difficulty: "Medium",
@@ -7447,24 +5544,17 @@ const AICaseStudies = [
         "No, because the word 'Manager' can never be used when an MD exists",
         "Yes, because Mr. Raghav does not manage the whole or substantially the whole of the company's affairs",
         "No, unless Central Government approval is obtained",
-        "Yes, but only if Mr. Raghav is also made a director"
+        "Yes, but only if Mr. Raghav is also made a director",
       ],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS41_Q04",
       difficulty: "Medium",
       question: "If instead Mr. Raghav were entrusted with management of substantially the whole of the company's affairs, while Mr. Karan continued as MD, the arrangement would:",
-      options: [
-        "Be permitted under Section 196(1)",
-        "Contravene Section 196(1)",
-        "Be permitted if both are directors",
-        "Be permitted if the company is public"
-      ],
+      options: ["Be permitted under Section 196(1)", "Contravene Section 196(1)", "Be permitted if both are directors", "Be permitted if the company is public"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS41_Q05",
       difficulty: "Medium",
@@ -7473,21 +5563,17 @@ const AICaseStudies = [
         "Managing Director and statutory Manager",
         "Managing Director and Whole-time Director",
         "Two statutory Managers but no MD",
-        "Managing Director and statutory Manager with Board approval"
+        "Managing Director and statutory Manager with Board approval",
       ],
       answer: 1
     }
-
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 42
    DIFFICULTY: MEDIUM
    TOPIC: SITTING FEES - SECTION 197(5)
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS42",
   difficulty: "Medium",
@@ -7498,7 +5584,6 @@ const AICaseStudies = [
     "Independent Directors",
     "Women Directors"
   ],
-
   caseText: `
     <p>
       Stellar Motors Limited proposes to revise the sitting fees payable to its
@@ -7519,22 +5604,14 @@ const AICaseStudies = [
       Personnel) Rules, 2014 before implementing the proposed fee structure.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS42_Q01",
       difficulty: "Medium",
       question: "The maximum sitting fee that may be paid to a director for each meeting of the Board or committee thereof is:",
-      options: [
-        "₹50,000",
-        "₹75,000",
-        "₹1,00,000",
-        "₹2,00,000"
-      ],
+      options: ["₹50,000", "₹75,000", "₹1,00,000", "₹2,00,000"],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS42_Q02",
       difficulty: "Medium",
@@ -7543,11 +5620,10 @@ const AICaseStudies = [
         "Within the prescribed ceiling",
         "Invalid because sitting fees cannot exceed ₹50,000",
         "Invalid unless Central Government approval is obtained",
-        "Valid only for private companies"
+        "Valid only for private companies",
       ],
       answer: 0
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS42_Q03",
       difficulty: "Medium",
@@ -7556,11 +5632,10 @@ const AICaseStudies = [
         "Yes, because independent directors need not receive equal sitting fees",
         "No, because sitting fees payable to independent directors cannot be less than those payable to other directors",
         "Yes, if approved by the Managing Director",
-        "Yes, if the difference does not exceed ₹25,000"
+        "Yes, if the difference does not exceed ₹25,000",
       ],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS42_Q04",
       difficulty: "Medium",
@@ -7569,34 +5644,24 @@ const AICaseStudies = [
         "Yes, because experience can determine sitting fees",
         "No, because sitting fees payable to Women Directors shall not be less than those payable to other directors",
         "Yes, if she consents",
-        "Yes, because the restriction applies only to independent directors"
+        "Yes, because the restriction applies only to independent directors",
       ],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS42_Q05",
       difficulty: "Medium",
       question: "For the purpose of the percentage ceilings under Section 197(1), sitting fees payable under Section 197(5) are:",
-      options: [
-        "Included in the prescribed percentage limits",
-        "Exclusive of the prescribed percentage limits",
-        "Treated as dividends",
-        "Treated as loans to directors"
-      ],
+      options: ["Included in the prescribed percentage limits", "Exclusive of the prescribed percentage limits", "Treated as dividends", "Treated as loans to directors"],
       answer: 1
     }
-
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 43
    DIFFICULTY: MEDIUM
    TOPIC: PROFESSIONAL REMUNERATION TO DIRECTOR - SECTION 197(4)
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS43",
   difficulty: "Medium",
@@ -7606,7 +5671,6 @@ const AICaseStudies = [
     "Additional Remuneration",
     "Nomination and Remuneration Committee"
   ],
-
   caseText: `
     <p>
       Medistar Hospitals Limited operates a chain of multi-speciality hospitals.
@@ -7628,22 +5692,14 @@ const AICaseStudies = [
       practising as a cardiac surgeon.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS43_Q01",
       difficulty: "Medium",
       question: "As a general rule, remuneration payable to a director for services rendered in another capacity is:",
-      options: [
-        "Always ignored",
-        "Included in the remuneration payable to him as director",
-        "Always treated as sitting fees",
-        "Always prohibited"
-      ],
+      options: ["Always ignored", "Included in the remuneration payable to him as director", "Always treated as sitting fees", "Always prohibited"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS43_Q02",
       difficulty: "Medium",
@@ -7652,24 +5708,17 @@ const AICaseStudies = [
         "The services are professional in nature and he possesses the requisite qualification",
         "He is a shareholder of the company",
         "He attends every Board meeting",
-        "The fees are below ₹5 lakh"
+        "The fees are below ₹5 lakh",
       ],
       answer: 0
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS43_Q03",
       difficulty: "Medium",
       question: "Since Medistar Hospitals Limited is covered under Section 178(1), who should form the opinion regarding Dr. Aryan's requisite professional qualification?",
-      options: [
-        "Statutory Auditor",
-        "Managing Director",
-        "Nomination and Remuneration Committee",
-        "Registrar of Companies"
-      ],
+      options: ["Statutory Auditor", "Managing Director", "Nomination and Remuneration Committee", "Registrar of Companies"],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS43_Q04",
       difficulty: "Medium",
@@ -7678,34 +5727,24 @@ const AICaseStudies = [
         "Must necessarily be included in the managerial remuneration ceiling",
         "Need not be included in managerial remuneration",
         "Cannot legally be paid",
-        "Must be treated as sitting fees"
+        "Must be treated as sitting fees",
       ],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS43_Q05",
       difficulty: "Medium",
       question: "If the company were not covered under Section 178(1), the opinion regarding requisite professional qualification would be formed by:",
-      options: [
-        "Board of Directors",
-        "Registrar of Companies",
-        "Central Government",
-        "Debenture holders"
-      ],
+      options: ["Board of Directors", "Registrar of Companies", "Central Government", "Debenture holders"],
       answer: 0
     }
-
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 44
    DIFFICULTY: MEDIUM
    TOPIC: D&O INSURANCE PREMIUM - SECTION 197(13)
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS44",
   difficulty: "Medium",
@@ -7715,7 +5754,6 @@ const AICaseStudies = [
     "Indemnification",
     "Managerial Remuneration"
   ],
-
   caseText: `
     <p>
       Quantum Energy Limited takes an insurance policy on behalf of its Managing
@@ -7737,84 +5775,49 @@ const AICaseStudies = [
       advice on the treatment of the premium paid by the company.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS44_Q01",
       difficulty: "Medium",
       question: "When insurance is initially taken for indemnifying managerial personnel and they have not been proved guilty, the premium paid is:",
-      options: [
-        "Treated as remuneration in every case",
-        "Not treated as part of remuneration",
-        "Treated as sitting fees",
-        "Treated as dividend"
-      ],
+      options: ["Treated as remuneration in every case", "Not treated as part of remuneration", "Treated as sitting fees", "Treated as dividend"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS44_Q02",
       difficulty: "Medium",
       question: "Section 197(13) specifically covers insurance taken on behalf of persons including:",
-      options: [
-        "Only shareholders",
-        "MD, WTD, Manager, CEO, CFO or CS",
-        "Only independent directors",
-        "Only auditors"
-      ],
+      options: ["Only shareholders", "MD, WTD, Manager, CEO, CFO or CS", "Only independent directors", "Only auditors"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS44_Q03",
       difficulty: "Medium",
       question: "After the CFO is proved guilty of breach of duty, the premium paid on such insurance in relation to him shall be:",
-      options: [
-        "Ignored permanently",
-        "Treated as part of his remuneration",
-        "Treated as a dividend",
-        "Recovered from shareholders"
-      ],
+      options: ["Ignored permanently", "Treated as part of his remuneration", "Treated as a dividend", "Recovered from shareholders"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS44_Q04",
       difficulty: "Medium",
       question: "Which of the following liabilities is contemplated by Section 197(13)?",
-      options: [
-        "Negligence",
-        "Breach of trust",
-        "Misfeasance",
-        "All of the above"
-      ],
+      options: ["Negligence", "Breach of trust", "Misfeasance", "All of the above"],
       answer: 3
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS44_Q05",
       difficulty: "Medium",
       question: "The decisive event which changes the treatment of the insurance premium into remuneration is:",
-      options: [
-        "Taking the insurance policy",
-        "Payment of the premium",
-        "The personnel being proved guilty",
-        "Appointment of the personnel"
-      ],
+      options: ["Taking the insurance policy", "Payment of the premium", "The personnel being proved guilty", "Appointment of the personnel"],
       answer: 2
     }
-
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 45
    DIFFICULTY: MEDIUM
    TOPIC: RECOVERY OF REMUNERATION - SECTION 199
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS45",
   difficulty: "Medium",
@@ -7824,7 +5827,6 @@ const AICaseStudies = [
     "Recovery of Managerial Remuneration",
     "Past and Present Managerial Personnel"
   ],
-
   caseText: `
     <p>
       Galaxy Retail Limited discovers material non-compliance with requirements
@@ -7847,22 +5849,14 @@ const AICaseStudies = [
       restatement arose from non-compliance rather than fraud.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS45_Q01",
       difficulty: "Medium",
       question: "Section 199 may apply where financial statements are required to be restated because of:",
-      options: [
-        "Fraud only",
-        "Non-compliance only",
-        "Fraud or non-compliance with requirements under the Act and Rules",
-        "A change in directors only"
-      ],
+      options: ["Fraud only", "Non-compliance only", "Fraud or non-compliance with requirements under the Act and Rules", "A change in directors only"],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS45_Q02",
       difficulty: "Medium",
@@ -7871,24 +5865,17 @@ const AICaseStudies = [
         "No, only present managerial personnel are covered",
         "Yes, past as well as present specified managerial personnel may be covered",
         "Only if he remains a shareholder",
-        "Only with his consent"
+        "Only with his consent",
       ],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS45_Q03",
       difficulty: "Medium",
       question: "Based on the figures given, the excess remuneration recoverable from Mr. Vishal is:",
-      options: [
-        "₹6 lakh",
-        "₹10 lakh",
-        "₹12 lakh",
-        "₹72 lakh"
-      ],
+      options: ["₹6 lakh", "₹10 lakh", "₹12 lakh", "₹72 lakh"],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS45_Q04",
       difficulty: "Medium",
@@ -7897,11 +5884,10 @@ const AICaseStudies = [
         "The entire remuneration originally paid",
         "50% of remuneration originally paid",
         "The difference between remuneration actually received and remuneration payable based on the restated financial statements",
-        "An amount determined solely by the Board"
+        "An amount determined solely by the Board",
       ],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS45_Q05",
       difficulty: "Medium",
@@ -7910,20 +5896,17 @@ const AICaseStudies = [
         "Automatically eliminates every other liability under law",
         "Does not prejudice any other liability under the Companies Act, 2013 or any other law",
         "Prevents criminal proceedings in every case",
-        "Makes the restated financial statements unnecessary"
+        "Makes the restated financial statements unnecessary",
       ],
       answer: 1
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 46
    DIFFICULTY: MEDIUM
    TOPIC: SECTION 203 - KMP APPOINTMENT
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS46",
   difficulty: "Medium",
@@ -7933,7 +5916,6 @@ const AICaseStudies = [
     "Rule 8",
     "Whole-time KMP"
   ],
-
   caseText: `
     <p>
       Prime Infrastructure Limited is a listed public company. The company has
@@ -7954,61 +5936,35 @@ const AICaseStudies = [
       Board resolution.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS46_Q01",
       difficulty: "Medium",
       question: "Which of the following companies is specifically required to have whole-time KMP under Rule 8?",
-      options: [
-        "Every private company irrespective of capital",
-        "Every listed company",
-        "Every partnership firm",
-        "Every small company"
-      ],
+      options: ["Every private company irrespective of capital", "Every listed company", "Every partnership firm", "Every small company"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS46_Q02",
       difficulty: "Medium",
       question: "A prescribed company is required to have which combination of whole-time KMP?",
-      options: [
-        "MD/CEO/Manager or, in their absence, WTD, along with CS and CFO",
-        "Only MD",
-        "Only CFO",
-        "Only Company Secretary"
-      ],
+      options: ["MD/CEO/Manager or, in their absence, WTD, along with CS and CFO", "Only MD", "Only CFO", "Only Company Secretary"],
       answer: 0
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS46_Q03",
       difficulty: "Medium",
       question: "The appointment of whole-time KMP should be made by:",
-      options: [
-        "An informal understanding between directors",
-        "A resolution of the Board",
-        "The statutory auditor",
-        "The Registrar of Companies"
-      ],
+      options: ["An informal understanding between directors", "A resolution of the Board", "The statutory auditor", "The Registrar of Companies"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS46_Q04",
       difficulty: "Medium",
       question: "The Board resolution appointing a whole-time KMP should contain:",
-      options: [
-        "Only the name of the appointee",
-        "Terms and conditions of appointment including remuneration",
-        "Only the employee's qualification",
-        "Only the tenure"
-      ],
+      options: ["Only the name of the appointee", "Terms and conditions of appointment including remuneration", "Only the employee's qualification", "Only the tenure"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS46_Q05",
       difficulty: "Medium",
@@ -8017,20 +5973,17 @@ const AICaseStudies = [
         "Correct",
         "Incorrect because prescribed companies must comply with the KMP requirements",
         "Correct only for listed companies",
-        "Correct only where profits are inadequate"
+        "Correct only where profits are inadequate",
       ],
       answer: 1
     }
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 47
    DIFFICULTY: MEDIUM
    TOPIC: CHAIRPERSON + MD/CEO
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS47",
   difficulty: "Medium",
@@ -8041,7 +5994,6 @@ const AICaseStudies = [
     "CEO",
     "Multiple Businesses"
   ],
-
   caseText: `
     <p>
       Diversified Industries Limited is a public company engaged in several
@@ -8063,35 +6015,21 @@ const AICaseStudies = [
       specific exemption.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS47_Q01",
       difficulty: "Medium",
       question: "As a general rule, an individual cannot be appointed as Chairperson and:",
-      options: [
-        "Director",
-        "Managing Director or CEO",
-        "Company Secretary",
-        "CFO"
-      ],
+      options: ["Director", "Managing Director or CEO", "Company Secretary", "CFO"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS47_Q02",
       difficulty: "Medium",
       question: "One exception to the prohibition exists where:",
-      options: [
-        "The Articles of the company provide otherwise",
-        "The statutory auditor agrees",
-        "The CFO approves",
-        "The Registrar permits it orally"
-      ],
+      options: ["The Articles of the company provide otherwise", "The statutory auditor agrees", "The CFO approves", "The Registrar permits it orally"],
       answer: 0
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS47_Q03",
       difficulty: "Medium",
@@ -8100,46 +6038,31 @@ const AICaseStudies = [
         "Have only one business",
         "Are engaged in multiple businesses and have appointed one or more CEOs for each business",
         "Have no CEO",
-        "Have only private shareholders"
+        "Have only private shareholders",
       ],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS47_Q04",
       difficulty: "Medium",
       question: "For the notified class referred to in the chapter, the paid-up share capital threshold is:",
-      options: [
-        "₹50 crore or more",
-        "₹75 crore or more",
-        "₹100 crore or more",
-        "₹500 crore or more"
-      ],
+      options: ["₹50 crore or more", "₹75 crore or more", "₹100 crore or more", "₹500 crore or more"],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS47_Q05",
       difficulty: "Medium",
       question: "For the same notified class, the annual turnover threshold is:",
-      options: [
-        "₹100 crore or more",
-        "₹500 crore or more",
-        "₹1,000 crore or more",
-        "₹5,000 crore or more"
-      ],
+      options: ["₹100 crore or more", "₹500 crore or more", "₹1,000 crore or more", "₹5,000 crore or more"],
       answer: 2
     }
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 48
    DIFFICULTY: MEDIUM
    TOPIC: MD IN MORE THAN ONE COMPANY
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS48",
   difficulty: "Medium",
@@ -8149,7 +6072,6 @@ const AICaseStudies = [
     "Board Resolution",
     "Consent of Directors"
   ],
-
   caseText: `
     <p>
       Stellar Holdings Limited proposes to appoint Mr. Vikram as its Managing
@@ -8171,9 +6093,7 @@ const AICaseStudies = [
       meeting.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS48_Q01",
       difficulty: "Medium",
@@ -8182,24 +6102,17 @@ const AICaseStudies = [
         "Unlimited companies simultaneously",
         "One company and not more than one other company",
         "Only one company in all circumstances",
-        "Three unrelated companies automatically"
+        "Three unrelated companies automatically",
       ],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS48_Q02",
       difficulty: "Medium",
       question: "For appointment of Mr. Vikram in the second company, the resolution should be passed with:",
-      options: [
-        "Simple majority of directors present",
-        "Consent of all directors present at the meeting",
-        "Consent of shareholders only",
-        "Consent of the statutory auditor"
-      ],
+      options: ["Simple majority of directors present", "Consent of all directors present at the meeting", "Consent of shareholders only", "Consent of the statutory auditor"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS48_Q03",
       difficulty: "Medium",
@@ -8208,46 +6121,31 @@ const AICaseStudies = [
         "Valid because six is a majority",
         "Valid because two directors abstained",
         "Not valid because consent of all directors present is required",
-        "Valid after AGM approval automatically"
+        "Valid after AGM approval automatically",
       ],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS48_Q04",
       difficulty: "Medium",
       question: "Specific notice of the Board meeting and proposed resolution should be given to:",
-      options: [
-        "Only the Managing Director",
-        "All directors then in India",
-        "Only independent directors",
-        "Only shareholders"
-      ],
+      options: ["Only the Managing Director", "All directors then in India", "Only independent directors", "Only shareholders"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS48_Q05",
       difficulty: "Medium",
       question: "The special requirement in this situation primarily concerns:",
-      options: [
-        "Payment of sitting fees",
-        "Appointment of a person as MD/Manager in another company",
-        "Secretarial audit",
-        "Calculation of effective capital"
-      ],
+      options: ["Payment of sitting fees", "Appointment of a person as MD/Manager in another company", "Secretarial audit", "Calculation of effective capital"],
       answer: 1
     }
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 49
    DIFFICULTY: MEDIUM
    TOPIC: SECTION 196(4) - APPROVAL & FILING
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS49",
   difficulty: "Medium",
@@ -8258,7 +6156,6 @@ const AICaseStudies = [
     "Central Government Approval",
     "Registrar Filing"
   ],
-
   caseText: `
     <p>
       Eastern Motors Limited appoints Mr. Sameer as its Whole-time Director.
@@ -8279,83 +6176,49 @@ const AICaseStudies = [
       form and plans to file the return with the Registrar.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS49_Q01",
       difficulty: "Medium",
       question: "The appointment and terms of a Managing Director/WTD/Manager must first be approved by:",
-      options: [
-        "The Board at a meeting",
-        "The statutory auditor",
-        "The Registrar",
-        "Only the Central Government"
-      ],
+      options: ["The Board at a meeting", "The statutory auditor", "The Registrar", "Only the Central Government"],
       answer: 0
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS49_Q02",
       difficulty: "Medium",
       question: "The appointment and terms are also required to be approved by shareholders:",
-      options: [
-        "At the next general meeting",
-        "Only after five years",
-        "Only through postal ballot in every case",
-        "Never"
-      ],
+      options: ["At the next general meeting", "Only after five years", "Only through postal ballot in every case", "Never"],
       answer: 0
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS49_Q03",
       difficulty: "Medium",
       question: "Where the appointment is at variance with Part I of Schedule V, approval is required from:",
-      options: [
-        "Central Government",
-        "Registrar of Companies",
-        "Stock Exchange only",
-        "Statutory Auditor"
-      ],
+      options: ["Central Government", "Registrar of Companies", "Stock Exchange only", "Statutory Auditor"],
       answer: 0
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS49_Q04",
       difficulty: "Medium",
       question: "The application to the Central Government for such approval is made in:",
-      options: [
-        "Form AOC-4",
-        "Form MGT-7",
-        "Form MR-2",
-        "Form DIR-3"
-      ],
+      options: ["Form AOC-4", "Form MGT-7", "Form MR-2", "Form DIR-3"],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS49_Q05",
       difficulty: "Medium",
       question: "The prescribed return relating to appointment is required to be filed with the Registrar within:",
-      options: [
-        "30 days",
-        "60 days",
-        "90 days",
-        "180 days"
-      ],
+      options: ["30 days", "60 days", "90 days", "180 days"],
       answer: 1
     }
   ]
 },
-
-
 /* =========================================================
    CASE SCENARIO 50
    DIFFICULTY: MEDIUM
    TOPIC: SECRETARIAL AUDIT - APPLICABILITY & REPORT
 ========================================================= */
-
 {
   case_id: "CEL_CH2_MEDIUM_CS50",
   difficulty: "Medium",
@@ -8366,7 +6229,6 @@ const AICaseStudies = [
     "MR-3",
     "Board's Report"
   ],
-
   caseText: `
     <p>
       National Chemicals Limited is a public company. Based on its latest
@@ -8394,9 +6256,7 @@ const AICaseStudies = [
       with in its Board's Report.
     </p>
   `,
-
   questions: [
-
     {
       question_id: "CEL_CH2_MEDIUM_CS50_Q01",
       difficulty: "Medium",
@@ -8405,71 +6265,45 @@ const AICaseStudies = [
         "No, because turnover is below ₹250 crore",
         "No, because borrowings are below ₹100 crore",
         "Yes, because paid-up share capital is ₹50 crore or more",
-        "Only if shareholders pass a special resolution"
+        "Only if shareholders pass a special resolution",
       ],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS50_Q02",
       difficulty: "Medium",
       question: "Who is authorised to conduct/give the Secretarial Audit Report?",
-      options: [
-        "Statutory auditor",
-        "Company Secretary in Practice",
-        "CFO",
-        "Internal auditor"
-      ],
+      options: ["Statutory auditor", "Company Secretary in Practice", "CFO", "Internal auditor"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS50_Q03",
       difficulty: "Medium",
       question: "The Secretarial Audit Report is required to be given in:",
-      options: [
-        "Form MR-1",
-        "Form MR-2",
-        "Form MR-3",
-        "Form AOC-4"
-      ],
+      options: ["Form MR-1", "Form MR-2", "Form MR-3", "Form AOC-4"],
       answer: 2
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS50_Q04",
       difficulty: "Medium",
       question: "The company is required to annex the Secretarial Audit Report with:",
-      options: [
-        "Notice of AGM",
-        "Board's Report",
-        "Auditor's Report only",
-        "Annual Return only"
-      ],
+      options: ["Notice of AGM", "Board's Report", "Auditor's Report only", "Annual Return only"],
       answer: 1
     },
-
     {
       question_id: "CEL_CH2_MEDIUM_CS50_Q05",
       difficulty: "Medium",
       question: "If the Company Secretary in Practice makes a qualification or observation in the Secretarial Audit Report, the Board should:",
-      options: [
-        "Ignore it",
-        "Explain it in full in the Board's Report",
-        "Remove the Company Secretary",
-        "Seek approval from shareholders before mentioning it"
-      ],
+      options: ["Ignore it", "Explain it in full in the Board's Report", "Remove the Company Secretary", "Seek approval from shareholders before mentioning it"],
       answer: 1
     }
   ]
 },
-
-// ============================================================
-// CASE SCENARIO 51
-// DIFFICULTY: HARD
-// CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
-// ============================================================
-
+  // ============================================================
+  // CASE SCENARIO 51
+  // DIFFICULTY: HARD
+  // CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
+  // ============================================================
 {
     case_id: "CEL_CH2_CS51",
     difficulty: "Hard",
@@ -8479,7 +6313,6 @@ const AICaseStudies = [
         "Manager",
         "Section 196"
     ],
-
     caseText: `
         <p>
             <strong>Pragati Engineering Limited</strong> is a public company engaged in
@@ -8527,9 +6360,7 @@ const AICaseStudies = [
             to appointment and re-appointment of managerial personnel.
         </p>
     `,
-
     questions: [
-
         {
             question_id: "CEL_CH2_CS51_Q1",
             difficulty: "Hard",
@@ -8539,10 +6370,10 @@ const AICaseStudies = [
                 2026. Is the proposed re-appointment permissible under Section 196?
             `,
             options: [
-                "Yes, because re-appointment may be made at any time before expiry of the existing term.",
-                "Yes, because re-appointment can be made more than one year before expiry if approved by the Board.",
-                "No, because re-appointment cannot be made earlier than one year before expiry of the existing term.",
-                "No, because re-appointment is possible only after expiry of the existing term."
+              "Yes, because re-appointment may be made at any time before expiry of the existing term.",
+              "Yes, because re-appointment can be made more than one year before expiry if approved by the Board.",
+              "No, because re-appointment cannot be made earlier than one year before expiry of the existing term.",
+              "No, because re-appointment is possible only after expiry of the existing term.",
             ],
             answer: 2,
             reason: `
@@ -8553,7 +6384,6 @@ const AICaseStudies = [
                 is permissible.
             `
         },
-
         {
             question_id: "CEL_CH2_CS51_Q2",
             difficulty: "Hard",
@@ -8564,10 +6394,10 @@ const AICaseStudies = [
                 starts only thereafter, which statement is correct?
             `,
             options: [
-                "The appointment is prohibited because a company can never appoint a Manager after having appointed an MD.",
-                "The appointment is permissible provided Mr. Arjun's tenure as MD has actually ended before Mr. Bharat's appointment as Manager begins.",
-                "The appointment is prohibited because an MD and Manager can never exist in the same company under any circumstances.",
-                "The appointment is automatically valid even if Mr. Arjun continues as MD."
+              "The appointment is prohibited because a company can never appoint a Manager after having appointed an MD.",
+              "The appointment is permissible provided Mr. Arjun's tenure as MD has actually ended before Mr. Bharat's appointment as Manager begins.",
+              "The appointment is prohibited because an MD and Manager can never exist in the same company under any circumstances.",
+              "The appointment is automatically valid even if Mr. Arjun continues as MD.",
             ],
             answer: 1,
             reason: `
@@ -8577,7 +6407,6 @@ const AICaseStudies = [
                 the simultaneous holding of the two offices does not arise.
             `
         },
-
         {
             question_id: "CEL_CH2_CS51_Q3",
             difficulty: "Hard",
@@ -8586,10 +6415,10 @@ const AICaseStudies = [
                 ordinarily permit her appointment as Managing Director?
             `,
             options: [
-                "Approval by the Board alone.",
-                "Recommendation by an existing Whole-time Director.",
-                "Special resolution passed by the company in general meeting, with justification stated in the explanatory statement.",
-                "Ordinary resolution passed by the shareholders without any further requirement."
+              "Approval by the Board alone.",
+              "Recommendation by an existing Whole-time Director.",
+              "Special resolution passed by the company in general meeting, with justification stated in the explanatory statement.",
+              "Ordinary resolution passed by the shareholders without any further requirement.",
             ],
             answer: 2,
             reason: `
@@ -8600,7 +6429,6 @@ const AICaseStudies = [
                 such person.
             `
         },
-
         {
             question_id: "CEL_CH2_CS51_Q4",
             difficulty: "Medium",
@@ -8611,10 +6439,10 @@ const AICaseStudies = [
                 prohibit his appointment merely because the company already has an MD?
             `,
             options: [
-                "Yes, because every departmental head is treated as a Manager under Section 2(53).",
-                "Yes, because no employee can be appointed as Manager when an MD exists.",
-                "No, because a departmental head who does not manage the whole or substantially the whole affairs of the company is not a Manager within Section 2(53).",
-                "No, but only if Mr. Dev is appointed as an independent director."
+              "Yes, because every departmental head is treated as a Manager under Section 2(53).",
+              "Yes, because no employee can be appointed as Manager when an MD exists.",
+              "No, because a departmental head who does not manage the whole or substantially the whole affairs of the company is not a Manager within Section 2(53).",
+              "No, but only if Mr. Dev is appointed as an independent director.",
             ],
             answer: 2,
             reason: `
@@ -8626,7 +6454,6 @@ const AICaseStudies = [
                 because the designation used is "Manager".
             `
         },
-
         {
             question_id: "CEL_CH2_CS51_Q5",
             difficulty: "Hard",
@@ -8638,10 +6465,10 @@ const AICaseStudies = [
                 most appropriate course available under the provisions discussed?
             `,
             options: [
-                "The appointment is permanently void and cannot be regularised.",
-                "The Board may itself regularise the appointment without shareholder involvement.",
-                "The company may apply to the Central Government, which may approve the appointment if satisfied that it is most beneficial to the company.",
-                "The company must approach the NCLT for approval in every such case."
+              "The appointment is permanently void and cannot be regularised.",
+              "The Board may itself regularise the appointment without shareholder involvement.",
+              "The company may apply to the Central Government, which may approve the appointment if satisfied that it is most beneficial to the company.",
+              "The company must approach the NCLT for approval in every such case.",
             ],
             answer: 2,
             reason: `
@@ -8651,16 +6478,13 @@ const AICaseStudies = [
                 is satisfied that such appointment is most beneficial to the company.
             `
         }
-
     ]
 },
-
-// ============================================================
-// CASE SCENARIO 52
-// DIFFICULTY: HARD
-// CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
-// ============================================================
-
+  // ============================================================
+  // CASE SCENARIO 52
+  // DIFFICULTY: HARD
+  // CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
+  // ============================================================
 {
     case_id: "CEL_CH2_CS52",
     difficulty: "Hard",
@@ -8670,7 +6494,6 @@ const AICaseStudies = [
         "Multiple Company Appointments",
         "Vacancy of KMP"
     ],
-
     caseText: `
         <p>
             <strong>Vertex Consumer Products Limited</strong> is a listed public
@@ -8712,9 +6535,7 @@ const AICaseStudies = [
             requirements applicable to whole-time KMPs and managerial personnel.
         </p>
     `,
-
     questions: [
-
         {
             question_id: "CEL_CH2_CS52_Q1",
             difficulty: "Hard",
@@ -8723,10 +6544,10 @@ const AICaseStudies = [
                 Limited while becoming a whole-time director of its subsidiary?
             `,
             options: [
-                "No, because a whole-time KMP can never hold office in another company.",
-                "Yes, because a whole-time KMP may hold office in more than one company where the other company is its subsidiary.",
-                "Yes, but only if the Central Government gives approval.",
-                "No, unless the shareholders of both companies pass special resolutions."
+              "No, because a whole-time KMP can never hold office in another company.",
+              "Yes, because a whole-time KMP may hold office in more than one company where the other company is its subsidiary.",
+              "Yes, but only if the Central Government gives approval.",
+              "No, unless the shareholders of both companies pass special resolutions.",
             ],
             answer: 1,
             reason: `
@@ -8735,7 +6556,6 @@ const AICaseStudies = [
                 company. Therefore, the appointment in the subsidiary is permitted.
             `
         },
-
         {
             question_id: "CEL_CH2_CS52_Q2",
             difficulty: "Medium",
@@ -8744,10 +6564,10 @@ const AICaseStudies = [
                 a resolution by circulation. Which is the correct position?
             `,
             options: [
-                "The appointment can be made by circulation because KMP appointments are routine matters.",
-                "The appointment must be made by means of a Board resolution passed at a Board meeting.",
-                "The appointment requires only an ordinary resolution of shareholders.",
-                "The appointment requires approval of the Central Government."
+              "The appointment can be made by circulation because KMP appointments are routine matters.",
+              "The appointment must be made by means of a Board resolution passed at a Board meeting.",
+              "The appointment requires only an ordinary resolution of shareholders.",
+              "The appointment requires approval of the Central Government.",
             ],
             answer: 1,
             reason: `
@@ -8759,7 +6579,6 @@ const AICaseStudies = [
                 at a meeting of the Board.
             `
         },
-
         {
             question_id: "CEL_CH2_CS52_Q3",
             difficulty: "Hard",
@@ -8768,10 +6587,10 @@ const AICaseStudies = [
                 after eight months. Is this permissible?
             `,
             options: [
-                "Yes, because there is no statutory time limit for filling a KMP vacancy.",
-                "Yes, provided shareholders approve the delay.",
-                "No, the resulting vacancy of whole-time KMP must be filled by the Board at a meeting within six months from the date of vacancy.",
-                "No, the vacancy must be filled within thirty days."
+              "Yes, because there is no statutory time limit for filling a KMP vacancy.",
+              "Yes, provided shareholders approve the delay.",
+              "No, the resulting vacancy of whole-time KMP must be filled by the Board at a meeting within six months from the date of vacancy.",
+              "No, the vacancy must be filled within thirty days.",
             ],
             answer: 2,
             reason: `
@@ -8780,7 +6599,6 @@ const AICaseStudies = [
                 meeting within six months from the date of such vacancy.
             `
         },
-
         {
             question_id: "CEL_CH2_CS52_Q4",
             difficulty: "Hard",
@@ -8790,10 +6608,10 @@ const AICaseStudies = [
                 requirement is relevant for such appointment?
             `,
             options: [
-                "The appointment is prohibited in all circumstances.",
-                "The appointment can be made only if Mr. Sameer resigns from the other company.",
-                "He may be MD/Manager in one company and another company, subject to a Board resolution passed with the consent of all directors present and specific notice being given to all directors then in India.",
-                "The appointment can be made by ordinary majority of directors without any special notice."
+              "The appointment is prohibited in all circumstances.",
+              "The appointment can be made only if Mr. Sameer resigns from the other company.",
+              "He may be MD/Manager in one company and another company, subject to a Board resolution passed with the consent of all directors present and specific notice being given to all directors then in India.",
+              "The appointment can be made by ordinary majority of directors without any special notice.",
             ],
             answer: 2,
             reason: `
@@ -8804,7 +6622,6 @@ const AICaseStudies = [
                 proposed resolution must be given to all directors then in India.
             `
         },
-
         {
             question_id: "CEL_CH2_CS52_Q5",
             difficulty: "Hard",
@@ -8814,10 +6631,10 @@ const AICaseStudies = [
                 properly given. Is the resolution valid?
             `,
             options: [
-                "Yes, because six out of eight directors voted in favour.",
-                "Yes, because abstention is treated as consent.",
-                "No, because the resolution requires the consent of all directors present at the meeting.",
-                "No, because unanimous approval of all shareholders is required."
+              "Yes, because six out of eight directors voted in favour.",
+              "Yes, because abstention is treated as consent.",
+              "No, because the resolution requires the consent of all directors present at the meeting.",
+              "No, because unanimous approval of all shareholders is required.",
             ],
             answer: 2,
             reason: `
@@ -8828,16 +6645,13 @@ const AICaseStudies = [
                 consent, the requirement is not satisfied.
             `
         }
-
     ]
 },
-
-// ============================================================
-// CASE SCENARIO 53
-// DIFFICULTY: HARD
-// CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
-// ============================================================
-
+  // ============================================================
+  // CASE SCENARIO 53
+  // DIFFICULTY: HARD
+  // CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
+  // ============================================================
 {
     case_id: "CEL_CH2_CS53",
     difficulty: "Hard",
@@ -8847,7 +6661,6 @@ const AICaseStudies = [
         "Secretarial Standards",
         "Board Responsibilities"
     ],
-
     caseText: `
         <p>
             <strong>Zenith Infrastructure Limited</strong> is a listed company
@@ -8887,9 +6700,7 @@ const AICaseStudies = [
             reduces the responsibilities of other key functionaries.
         </p>
     `,
-
     questions: [
-
         {
             question_id: "CEL_CH2_CS53_Q1",
             difficulty: "Medium",
@@ -8898,10 +6709,10 @@ const AICaseStudies = [
                 Secretary under Section 205?
             `,
             options: [
-                "To determine the company's annual profit.",
-                "To report to the Board about compliance with applicable laws.",
-                "To approve the company's financial statements independently.",
-                "To appoint all directors without Board approval."
+              "To determine the company's annual profit.",
+              "To report to the Board about compliance with applicable laws.",
+              "To approve the company's financial statements independently.",
+              "To appoint all directors without Board approval.",
             ],
             answer: 1,
             reason: `
@@ -8910,7 +6721,6 @@ const AICaseStudies = [
                 other applicable laws.
             `
         },
-
         {
             question_id: "CEL_CH2_CS53_Q2",
             difficulty: "Medium",
@@ -8920,10 +6730,10 @@ const AICaseStudies = [
                 "secretarial standards" for this purpose?
             `,
             options: [
-                "Standards issued by the Ministry of Finance without approval.",
-                "Standards issued by ICAI and approved by the Central Government.",
-                "Standards issued by the Institute of Company Secretaries of India and approved by the Central Government.",
-                "Internal standards framed by the company's Board."
+              "Standards issued by the Ministry of Finance without approval.",
+              "Standards issued by ICAI and approved by the Central Government.",
+              "Standards issued by the Institute of Company Secretaries of India and approved by the Central Government.",
+              "Internal standards framed by the company's Board.",
             ],
             answer: 2,
             reason: `
@@ -8932,7 +6742,6 @@ const AICaseStudies = [
                 1980 and approved by the Central Government.
             `
         },
-
         {
             question_id: "CEL_CH2_CS53_Q3",
             difficulty: "Hard",
@@ -8942,10 +6751,10 @@ const AICaseStudies = [
                 is correct?
             `,
             options: [
-                "These functions fall within the statutory functions of the Company Secretary.",
-                "Only the Managing Director can perform these functions.",
-                "The Company Secretary may facilitate meetings but cannot maintain minutes.",
-                "These functions can be performed only by an independent director."
+              "These functions fall within the statutory functions of the Company Secretary.",
+              "Only the Managing Director can perform these functions.",
+              "The Company Secretary may facilitate meetings but cannot maintain minutes.",
+              "These functions can be performed only by an independent director.",
             ],
             answer: 0,
             reason: `
@@ -8955,7 +6764,6 @@ const AICaseStudies = [
                 functions of the Company Secretary.
             `
         },
-
         {
             question_id: "CEL_CH2_CS53_Q4",
             difficulty: "Hard",
@@ -8965,10 +6773,10 @@ const AICaseStudies = [
                 Is this within her statutory functions?
             `,
             options: [
-                "No, a Company Secretary can obtain only Board approvals.",
-                "No, Government approvals can be obtained only by the Managing Director.",
-                "Yes, obtaining required approvals from the Board, general meeting, Government and other authorities is a statutory function.",
-                "Yes, but only when specifically authorised by shareholders through a special resolution."
+              "No, a Company Secretary can obtain only Board approvals.",
+              "No, Government approvals can be obtained only by the Managing Director.",
+              "Yes, obtaining required approvals from the Board, general meeting, Government and other authorities is a statutory function.",
+              "Yes, but only when specifically authorised by shareholders through a special resolution.",
             ],
             answer: 2,
             reason: `
@@ -8978,7 +6786,6 @@ const AICaseStudies = [
                 Companies Act, 2013.
             `
         },
-
         {
             question_id: "CEL_CH2_CS53_Q5",
             difficulty: "Hard",
@@ -8988,10 +6795,10 @@ const AICaseStudies = [
                 Director are relieved of their statutory duties. Which is correct?
             `,
             options: [
-                "Correct, because Section 205 transfers the Board's responsibilities to the CS.",
-                "Correct, but only in relation to secretarial matters.",
-                "Incorrect, because Section 205 does not affect the duties and functions of the Board, Chairperson, MD or WTD.",
-                "Incorrect only where the company is listed."
+              "Correct, because Section 205 transfers the Board's responsibilities to the CS.",
+              "Correct, but only in relation to secretarial matters.",
+              "Incorrect, because Section 205 does not affect the duties and functions of the Board, Chairperson, MD or WTD.",
+              "Incorrect only where the company is listed.",
             ],
             answer: 2,
             reason: `
@@ -9003,16 +6810,13 @@ const AICaseStudies = [
                 performed by the Company Secretary.
             `
         }
-
     ]
 },
-
-// ============================================================
-// CASE SCENARIO 54
-// DIFFICULTY: HARD
-// CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
-// ============================================================
-
+  // ============================================================
+  // CASE SCENARIO 54
+  // DIFFICULTY: HARD
+  // CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
+  // ============================================================
 {
     case_id: "CEL_CH2_CS54",
     difficulty: "Hard",
@@ -9022,7 +6826,6 @@ const AICaseStudies = [
         "Managerial Remuneration Limits",
         "Special Resolution"
     ],
-
     caseText: `
         <p>
             <strong>Alpha Technologies Limited</strong> is a public company having
@@ -9065,9 +6868,7 @@ const AICaseStudies = [
             limits.
         </p>
     `,
-
     questions: [
-
         {
             question_id: "CEL_CH2_CS54_Q1",
             difficulty: "Medium",
@@ -9076,12 +6877,7 @@ const AICaseStudies = [
                 public company to its directors, including MD, WTD and Manager,
                 in respect of a financial year, subject to the statutory provisions?
             `,
-            options: [
-                "5% of net profits",
-                "10% of net profits",
-                "11% of net profits",
-                "15% of net profits"
-            ],
+            options: ["5% of net profits", "10% of net profits", "11% of net profits", "15% of net profits"],
             answer: 2,
             reason: `
                 Under Section 197(1), the overall managerial remuneration payable
@@ -9091,7 +6887,6 @@ const AICaseStudies = [
                 provisions of the Act and Schedule V.
             `
         },
-
         {
             question_id: "CEL_CH2_CS54_Q2",
             difficulty: "Hard",
@@ -9100,12 +6895,7 @@ const AICaseStudies = [
                 what is the normal maximum remuneration payable to Mr. Karan
                 as Managing Director without approval by special resolution?
             `,
-            options: [
-                "1% of net profits",
-                "3% of net profits",
-                "5% of net profits",
-                "10% of net profits"
-            ],
+            options: ["1% of net profits", "3% of net profits", "5% of net profits", "10% of net profits"],
             answer: 2,
             reason: `
                 Where there is one Managing Director, Whole-time Director or
@@ -9114,7 +6904,6 @@ const AICaseStudies = [
                 approval of the company in general meeting by special resolution.
             `
         },
-
         {
             question_id: "CEL_CH2_CS54_Q3",
             difficulty: "Hard",
@@ -9123,12 +6912,7 @@ const AICaseStudies = [
                 Director/Manager. What is the prescribed combined limit for all
                 such managerial personnel before special resolution approval?
             `,
-            options: [
-                "5% of net profits",
-                "8% of net profits",
-                "10% of net profits",
-                "11% of net profits"
-            ],
+            options: ["5% of net profits", "8% of net profits", "10% of net profits", "11% of net profits"],
             answer: 2,
             reason: `
                 Where there is more than one Managing Director, Whole-time
@@ -9137,7 +6921,6 @@ const AICaseStudies = [
                 net profits, subject to the provisions of Section 197.
             `
         },
-
         {
             question_id: "CEL_CH2_CS54_Q4",
             difficulty: "Hard",
@@ -9149,10 +6932,10 @@ const AICaseStudies = [
                 exceed the prescribed 1% limit?
             `,
             options: [
-                "No approval is required because the overall 11% limit is not relevant.",
-                "Approval of the Board alone is sufficient.",
-                "Approval of the company in general meeting by passing a special resolution is required.",
-                "Approval of the Central Government is mandatory."
+              "No approval is required because the overall 11% limit is not relevant.",
+              "Approval of the Board alone is sufficient.",
+              "Approval of the company in general meeting by passing a special resolution is required.",
+              "Approval of the Central Government is mandatory.",
             ],
             answer: 2,
             reason: `
@@ -9163,7 +6946,6 @@ const AICaseStudies = [
                 resolution.
             `
         },
-
         {
             question_id: "CEL_CH2_CS54_Q5",
             difficulty: "Hard",
@@ -9174,10 +6956,10 @@ const AICaseStudies = [
                 additional requirement applies before obtaining such approval?
             `,
             options: [
-                "Prior approval of the public financial institution must be obtained.",
-                "Only approval of the Central Government is required.",
-                "No additional approval is necessary once the shareholders approve.",
-                "Prior approval of the Registrar of Companies must be obtained."
+              "Prior approval of the public financial institution must be obtained.",
+              "Only approval of the Central Government is required.",
+              "No additional approval is necessary once the shareholders approve.",
+              "Prior approval of the Registrar of Companies must be obtained.",
             ],
             answer: 0,
             reason: `
@@ -9188,16 +6970,13 @@ const AICaseStudies = [
                 meeting for remuneration where such prior approval is prescribed.
             `
         }
-
     ]
 },
-
-// ============================================================
-// CASE SCENARIO 55
-// DIFFICULTY: HARD
-// CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
-// ============================================================
-
+  // ============================================================
+  // CASE SCENARIO 55
+  // DIFFICULTY: HARD
+  // CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
+  // ============================================================
 {
     case_id: "CEL_CH2_CS55",
     difficulty: "Hard",
@@ -9207,7 +6986,6 @@ const AICaseStudies = [
         "Schedule V",
         "Effective Capital"
     ],
-
     caseText: `
         <p>
             <strong>Nova Industrial Systems Limited</strong> is a public company
@@ -9246,9 +7024,7 @@ const AICaseStudies = [
             for the shorter period.
         </p>
     `,
-
     questions: [
-
         {
             question_id: "CEL_CH2_CS55_Q1",
             difficulty: "Medium",
@@ -9258,12 +7034,7 @@ const AICaseStudies = [
                 ordinarily payable to a managerial person under Section II of
                 Part II of Schedule V?
             `,
-            options: [
-                "₹60 lakh",
-                "₹84 lakh",
-                "₹120 lakh",
-                "₹17 lakh"
-            ],
+            options: ["₹60 lakh", "₹84 lakh", "₹120 lakh", "₹17 lakh"],
             answer: 1,
             reason: `
                 Where effective capital is ₹5 crore and above but less than
@@ -9271,7 +7042,6 @@ const AICaseStudies = [
                 managerial person is ₹84 lakh.
             `
         },
-
         {
             question_id: "CEL_CH2_CS55_Q2",
             difficulty: "Hard",
@@ -9281,12 +7051,7 @@ const AICaseStudies = [
                 conditions are satisfied, what is the maximum aggregate amount
                 ordinarily payable to them under the individual Schedule V limits?
             `,
-            options: [
-                "₹84 lakh",
-                "₹1.20 crore",
-                "₹1.68 crore",
-                "₹2.40 crore"
-            ],
+            options: ["₹84 lakh", "₹1.20 crore", "₹1.68 crore", "₹2.40 crore"],
             answer: 2,
             reason: `
                 The Schedule V ceiling of ₹84 lakh applies to each managerial
@@ -9296,7 +7061,6 @@ const AICaseStudies = [
                 conditions are satisfied.
             `
         },
-
         {
             question_id: "CEL_CH2_CS55_Q3",
             difficulty: "Hard",
@@ -9305,12 +7069,7 @@ const AICaseStudies = [
                 Schedule V limits applicable to the managerial persons. What type
                 of shareholder approval is generally required for such excess?
             `,
-            options: [
-                "No shareholder approval is required.",
-                "Ordinary resolution.",
-                "Special resolution.",
-                "Approval of the Central Government alone."
-            ],
+            options: ["No shareholder approval is required.", "Ordinary resolution.", "Special resolution.", "Approval of the Central Government alone."],
             answer: 2,
             reason: `
                 Under Section II of Part II of Schedule V, remuneration in excess
@@ -9319,7 +7078,6 @@ const AICaseStudies = [
                 applicable conditions of Schedule V.
             `
         },
-
         {
             question_id: "CEL_CH2_CS55_Q4",
             difficulty: "Hard",
@@ -9329,10 +7087,10 @@ const AICaseStudies = [
                 limit generally be applied?
             `,
             options: [
-                "The full annual limit is always available regardless of tenure.",
-                "The limit must be reduced by exactly 50% in every case.",
-                "The applicable limit is to be pro-rated for the period of appointment.",
-                "No remuneration can be paid for a period shorter than one year."
+              "The full annual limit is always available regardless of tenure.",
+              "The limit must be reduced by exactly 50% in every case.",
+              "The applicable limit is to be pro-rated for the period of appointment.",
+              "No remuneration can be paid for a period shorter than one year.",
             ],
             answer: 2,
             reason: `
@@ -9342,7 +7100,6 @@ const AICaseStudies = [
                 would ordinarily be calculated proportionately.
             `
         },
-
         {
             question_id: "CEL_CH2_CS55_Q5",
             difficulty: "Very Hard",
@@ -9354,10 +7111,10 @@ const AICaseStudies = [
                 effective capital?
             `,
             options: [
-                "Both items are included in effective capital.",
-                "Revaluation reserve is included, but working capital loans are excluded.",
-                "Both revaluation reserve and working capital loans are excluded from the calculation of effective capital.",
-                "Revaluation reserve is excluded, but working capital loans are included as long-term capital."
+              "Both items are included in effective capital.",
+              "Revaluation reserve is included, but working capital loans are excluded.",
+              "Both revaluation reserve and working capital loans are excluded from the calculation of effective capital.",
+              "Revaluation reserve is excluded, but working capital loans are included as long-term capital.",
             ],
             answer: 2,
             reason: `
@@ -9368,16 +7125,13 @@ const AICaseStudies = [
                 revaluation reserve and working-capital borrowing are excluded.
             `
         }
-
     ]
 },
-
-// ============================================================
-// CASE SCENARIO 56
-// DIFFICULTY: HARD
-// CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
-// ============================================================
-
+  // ============================================================
+  // CASE SCENARIO 56
+  // DIFFICULTY: HARD
+  // CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
+  // ============================================================
 {
     case_id: "CEL_CH2_CS56",
     difficulty: "Hard",
@@ -9387,7 +7141,6 @@ const AICaseStudies = [
         "No Profit or Inadequate Profit",
         "Managerial Remuneration"
     ],
-
     caseText: `
         <p>
             <strong>Orion Manufacturing Limited</strong> is a public company engaged
@@ -9468,9 +7221,7 @@ const AICaseStudies = [
             capital and identify the applicable annual remuneration ceiling.
         </p>
     `,
-
     questions: [
-
         {
             question_id: "CEL_CH2_CS56_Q1",
             difficulty: "Medium",
@@ -9478,12 +7229,7 @@ const AICaseStudies = [
                 While computing effective capital under Schedule V, which amount
                 of reserves and surplus should be considered from the given data?
             `,
-            options: [
-                "₹120 lakh",
-                "₹90 lakh",
-                "₹30 lakh",
-                "Nil"
-            ],
+            options: ["₹120 lakh", "₹90 lakh", "₹30 lakh", "Nil"],
             answer: 1,
             reason: `
                 Revaluation reserve is specifically excluded from reserves and
@@ -9491,7 +7237,6 @@ const AICaseStudies = [
                 ₹120 lakh - ₹30 lakh = ₹90 lakh.
             `
         },
-
         {
             question_id: "CEL_CH2_CS56_Q2",
             difficulty: "Hard",
@@ -9500,10 +7245,10 @@ const AICaseStudies = [
                 included while computing effective capital?
             `,
             options: [
-                "Yes, because it is secured against assets.",
-                "Yes, because every bank borrowing is treated as long-term capital.",
-                "No, because working capital loans are specifically excluded.",
-                "No, but only if the loan is unsecured."
+              "Yes, because it is secured against assets.",
+              "Yes, because every bank borrowing is treated as long-term capital.",
+              "No, because working capital loans are specifically excluded.",
+              "No, but only if the loan is unsecured.",
             ],
             answer: 2,
             reason: `
@@ -9513,7 +7258,6 @@ const AICaseStudies = [
                 facility is excluded.
             `
         },
-
         {
             question_id: "CEL_CH2_CS56_Q3",
             difficulty: "Hard",
@@ -9522,10 +7266,10 @@ const AICaseStudies = [
                 Orion Manufacturing Limited?
             `,
             options: [
-                "₹770 lakh",
-                "₹770 lakh after including working capital borrowing",
-                "₹770 lakh after excluding investments and losses",
-                "₹770 lakh is incorrect; the effective capital is ₹770 lakh only if preliminary expenses are ignored."
+              "₹770 lakh",
+              "₹770 lakh after including working capital borrowing",
+              "₹770 lakh after excluding investments and losses",
+              "₹770 lakh is incorrect; the effective capital is ₹770 lakh only if preliminary expenses are ignored.",
             ],
             answer: 0,
             reason: `
@@ -9543,7 +7287,6 @@ const AICaseStudies = [
                 - ₹50 - ₹40 - ₹10 = ₹770 lakh.
             `
         },
-
         {
             question_id: "CEL_CH2_CS56_Q4",
             difficulty: "Hard",
@@ -9552,10 +7295,10 @@ const AICaseStudies = [
                 only on paid-up share capital. Which statement is correct?
             `,
             options: [
-                "He is correct because Schedule V considers only paid-up capital.",
-                "He is correct only where the company has inadequate profits.",
-                "He is incorrect because Schedule V determines the applicable remuneration limit with reference to effective capital.",
-                "He is incorrect because remuneration is always based on turnover."
+              "He is correct because Schedule V considers only paid-up capital.",
+              "He is correct only where the company has inadequate profits.",
+              "He is incorrect because Schedule V determines the applicable remuneration limit with reference to effective capital.",
+              "He is incorrect because remuneration is always based on turnover.",
             ],
             answer: 2,
             reason: `
@@ -9565,7 +7308,6 @@ const AICaseStudies = [
                 capital, reserves, long-term loans and specified deductions.
             `
         },
-
         {
             question_id: "CEL_CH2_CS56_Q5",
             difficulty: "Very Hard",
@@ -9574,12 +7316,7 @@ const AICaseStudies = [
                 applies for determining the annual remuneration limit of the
                 managerial person?
             `,
-            options: [
-                "Negative or less than ₹5 crore",
-                "₹5 crore and above but less than ₹100 crore",
-                "₹100 crore and above but less than ₹250 crore",
-                "₹250 crore and above"
-            ],
+            options: ["Negative or less than ₹5 crore", "₹5 crore and above but less than ₹100 crore", "₹100 crore and above but less than ₹250 crore", "₹250 crore and above"],
             answer: 1,
             reason: `
                 The effective capital of ₹7.70 crore falls within the slab of
@@ -9589,16 +7326,13 @@ const AICaseStudies = [
                 specified in Schedule V.
             `
         }
-
     ]
 },
-
-// ============================================================
-// CASE SCENARIO 57
-// DIFFICULTY: HARD
-// CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
-// ============================================================
-
+  // ============================================================
+  // CASE SCENARIO 57
+  // DIFFICULTY: HARD
+  // CHAPTER 2 - APPOINTMENT AND REMUNERATION OF MANAGERIAL PERSONNEL
+  // ============================================================
 {
     case_id: "CEL_CH2_CS57",
     difficulty: "Hard",
@@ -9608,7 +7342,6 @@ const AICaseStudies = [
         "Sitting Fees",
         "Mode of Payment of Remuneration"
     ],
-
     caseText: `
         <p>
             <strong>Meditech Hospitals Limited</strong> is a listed public company
@@ -9643,9 +7376,7 @@ const AICaseStudies = [
             paid partly through a monthly payment and partly as a percentage of the
             company's net profits.
     `,
-
     questions: [
-
         {
             question_id: "CEL_CH2_CS57_Q1",
             difficulty: "Medium",
@@ -9655,10 +7386,10 @@ const AICaseStudies = [
                 professional qualifications?
             `,
             options: [
-                "No, because every payment to a director is automatically managerial remuneration.",
-                "Yes, where the services are of a professional nature and the requisite qualification is established.",
-                "Yes, but only after Central Government approval.",
-                "No, unless the services are performed outside the hospital."
+              "No, because every payment to a director is automatically managerial remuneration.",
+              "Yes, where the services are of a professional nature and the requisite qualification is established.",
+              "Yes, but only after Central Government approval.",
+              "No, unless the services are performed outside the hospital.",
             ],
             answer: 1,
             reason: `
@@ -9670,7 +7401,6 @@ const AICaseStudies = [
                 in other cases.
             `
         },
-
         {
             question_id: "CEL_CH2_CS57_Q2",
             difficulty: "Hard",
@@ -9679,10 +7409,10 @@ const AICaseStudies = [
                 meeting. Is the proposed amount permissible under Rule 4?
             `,
             options: [
-                "Yes, because the Board may freely determine any sitting fee.",
-                "Yes, because listed companies are exempt from the sitting fee ceiling.",
-                "No, because the sitting fee shall not exceed ₹1 lakh per meeting.",
-                "No, because directors cannot receive sitting fees."
+              "Yes, because the Board may freely determine any sitting fee.",
+              "Yes, because listed companies are exempt from the sitting fee ceiling.",
+              "No, because the sitting fee shall not exceed ₹1 lakh per meeting.",
+              "No, because directors cannot receive sitting fees.",
             ],
             answer: 2,
             reason: `
@@ -9691,7 +7421,6 @@ const AICaseStudies = [
                 ₹1 lakh per meeting of the Board or committee thereof.
             `
         },
-
         {
             question_id: "CEL_CH2_CS57_Q3",
             difficulty: "Hard",
@@ -9700,10 +7429,10 @@ const AICaseStudies = [
                 be included within the percentage limits prescribed under Section 197(1)?
             `,
             options: [
-                "Yes, sitting fees form part of the 11% ceiling.",
-                "Yes, but only for independent directors.",
-                "No, sitting fees are excluded from the percentage limits.",
-                "Yes, but only where the company has inadequate profits."
+              "Yes, sitting fees form part of the 11% ceiling.",
+              "Yes, but only for independent directors.",
+              "No, sitting fees are excluded from the percentage limits.",
+              "Yes, but only where the company has inadequate profits.",
             ],
             answer: 2,
             reason: `
@@ -9713,7 +7442,6 @@ const AICaseStudies = [
                 purposes as decided by the Board.
             `
         },
-
         {
             question_id: "CEL_CH2_CS57_Q4",
             difficulty: "Hard",
@@ -9722,10 +7450,10 @@ const AICaseStudies = [
                 lower than that payable to other directors. Is this permissible?
             `,
             options: [
-                "Yes, because independent directors can always receive a lower fee.",
-                "Yes, if approved by the Nomination and Remuneration Committee.",
-                "No, the sitting fee payable to independent directors and women directors shall not be less than that payable to other directors.",
-                "No, because independent directors cannot receive sitting fees at all."
+              "Yes, because independent directors can always receive a lower fee.",
+              "Yes, if approved by the Nomination and Remuneration Committee.",
+              "No, the sitting fee payable to independent directors and women directors shall not be less than that payable to other directors.",
+              "No, because independent directors cannot receive sitting fees at all.",
             ],
             answer: 2,
             reason: `
@@ -9734,7 +7462,6 @@ const AICaseStudies = [
                 the sitting fee payable to other directors.
             `
         },
-
         {
             question_id: "CEL_CH2_CS57_Q5",
             difficulty: "Hard",
@@ -9744,10 +7471,10 @@ const AICaseStudies = [
                 profits. Is this mode of payment permitted?
             `,
             options: [
-                "No, remuneration must always be paid entirely as a monthly salary.",
-                "No, remuneration can only be paid as a percentage of net profits.",
-                "Yes, remuneration may be paid by monthly payment, at a specified percentage of net profits, or partly by one method and partly by the other.",
-                "Yes, but only if the Central Government approves the arrangement."
+              "No, remuneration must always be paid entirely as a monthly salary.",
+              "No, remuneration can only be paid as a percentage of net profits.",
+              "Yes, remuneration may be paid by monthly payment, at a specified percentage of net profits, or partly by one method and partly by the other.",
+              "Yes, but only if the Central Government approves the arrangement.",
             ],
             answer: 2,
             reason: `
@@ -9756,17 +7483,13 @@ const AICaseStudies = [
                 net profits, or partly by one method and partly by the other.
             `
         }
-
     ]
 },
-
 // Chapter 3
-
   // ============================================================
   // CHAPTER 3 – MEETINGS OF BOARD AND ITS POWERS
   // Medium – CASE SCENARIOS 1 TO 10
   // ============================================================
-
   {
     case_id: "CEL_CH3_MT_CS01",
     difficulty: "Medium",
@@ -9791,36 +7514,21 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS01_Q01",
         question: "Within what period from the date of incorporation should Alpha Technologies Limited hold its first Board Meeting?",
-        options: [
-          "Within 15 days",
-          "Within 30 days",
-          "Within 60 days",
-          "Within 90 days"
-        ],
+        options: ["Within 15 days", "Within 30 days", "Within 60 days", "Within 90 days"],
         answer: 1,
         reason: "Section 173(1) requires every company to hold its first Board Meeting within 30 days of incorporation."
       },
       {
         question_id: "CEL_CH3_MT_CS01_Q02",
         question: "What is the minimum number of Board Meetings generally required to be held by a company in a year?",
-        options: [
-          "2",
-          "3",
-          "4",
-          "6"
-        ],
+        options: ["2", "3", "4", "6"],
         answer: 2,
         reason: "Every company is generally required to hold a minimum of four Board Meetings every year."
       },
       {
         question_id: "CEL_CH3_MT_CS01_Q03",
         question: "What is the maximum permissible gap between two consecutive Board Meetings?",
-        options: [
-          "90 days",
-          "100 days",
-          "120 days",
-          "180 days"
-        ],
+        options: ["90 days", "100 days", "120 days", "180 days"],
         answer: 2,
         reason: "The gap between two consecutive Board Meetings shall not exceed 120 days."
       },
@@ -9831,7 +7539,7 @@ const AICaseStudies = [
           "The company automatically complies because four meetings were held",
           "The company complies if shareholders approve the delay",
           "The company does not comply with the requirement regarding the maximum interval",
-          "The company complies if the Chairman permits the delay"
+          "The company complies if the Chairman permits the delay",
         ],
         answer: 2,
         reason: "Both requirements must be satisfied: at least four meetings and a maximum gap of 120 days between consecutive meetings."
@@ -9843,14 +7551,13 @@ const AICaseStudies = [
           "Only the number of meetings matters",
           "Only the interval between meetings matters",
           "Both the minimum number of meetings and maximum interval requirements must be considered",
-          "Only shareholder approval determines compliance"
+          "Only shareholder approval determines compliance",
         ],
         answer: 2,
         reason: "Section 173 requires a minimum of four meetings in a year and a maximum interval of 120 days between consecutive meetings."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS02",
     difficulty: "Medium",
@@ -9881,7 +7588,7 @@ const AICaseStudies = [
           "Four meetings every year with a 120-day maximum gap",
           "One meeting in each half of a calendar year, subject to the prescribed gap",
           "Only one meeting every two years",
-          "No Board Meeting is required"
+          "No Board Meeting is required",
         ],
         answer: 1,
         reason: "A small company is required to conduct at least one Board Meeting in each half of a calendar year, with the gap between the two meetings not being less than 90 days."
@@ -9889,12 +7596,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS02_Q02",
         question: "What is the minimum gap prescribed between the two Board Meetings of a small company under the stated exemption?",
-        options: [
-          "30 days",
-          "60 days",
-          "90 days",
-          "120 days"
-        ],
+        options: ["30 days", "60 days", "90 days", "120 days"],
         answer: 2,
         reason: "The gap between the two meetings must not be less than 90 days."
       },
@@ -9905,7 +7607,7 @@ const AICaseStudies = [
           "It must hold four Board Meetings",
           "It must hold two Board Meetings",
           "It must hold one Board Meeting in each half-year",
-          "Section 173 meeting requirements do not apply to it"
+          "Section 173 meeting requirements do not apply to it",
         ],
         answer: 3,
         reason: "An OPC having only one director is not required to hold even a single Board Meeting during the year."
@@ -9917,7 +7619,7 @@ const AICaseStudies = [
           "The meetings are too close to each other",
           "The gap may violate the minimum 90-day requirement only if it is less than 90 days",
           "The company must hold four meetings regardless of being a small company",
-          "Small companies cannot hold meetings in August"
+          "Small companies cannot hold meetings in August",
         ],
         answer: 1,
         reason: "For the specified exemption, the two meetings must be in each half of the calendar year and the gap between them must not be less than 90 days. The January and August meetings satisfy the 90-day minimum."
@@ -9929,14 +7631,13 @@ const AICaseStudies = [
           "Requirement of giving notice",
           "Requirement relating to the number and interval of Board Meetings",
           "Requirement relating to directors' disclosure of interest",
-          "Requirement relating to Board quorum"
+          "Requirement relating to Board quorum",
         ],
         answer: 1,
         reason: "Section 173(5) provides a modified meeting requirement for specified companies."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS03",
     difficulty: "Medium",
@@ -9959,66 +7660,40 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS03_Q01",
         question: "For a Board Meeting conducted through video conferencing, the facility should enable participants to:",
-        options: [
-          "Communicate only through recorded messages",
-          "Communicate concurrently and participate effectively",
-          "Vote only through email",
-          "Attend without identification"
-        ],
+        options: ["Communicate only through recorded messages", "Communicate concurrently and participate effectively", "Vote only through email", "Attend without identification"],
         answer: 1,
         reason: "The audio-visual facility must enable all participants to communicate concurrently with each other without an intermediary and participate effectively."
       },
       {
         question_id: "CEL_CH3_MT_CS03_Q02",
         question: "At the commencement of the meeting, what process is required?",
-        options: [
-          "Postal voting",
-          "Roll call",
-          "Shareholder polling",
-          "Audit confirmation"
-        ],
+        options: ["Postal voting", "Roll call", "Shareholder polling", "Audit confirmation"],
         answer: 1,
         reason: "A roll call is taken by the Chairperson at the commencement of the meeting."
       },
       {
         question_id: "CEL_CH3_MT_CS03_Q03",
         question: "If a director's statement becomes interrupted or garbled during the meeting, what should be done?",
-        options: [
-          "Ignore the statement",
-          "Terminate the meeting",
-          "Request the director to repeat or reiterate the statement",
-          "Refer the matter to shareholders"
-        ],
+        options: ["Ignore the statement", "Terminate the meeting", "Request the director to repeat or reiterate the statement", "Refer the matter to shareholders"],
         answer: 2,
         reason: "The Chairperson or Company Secretary should request a repeat or reiteration if a statement is interrupted or garbled."
       },
       {
         question_id: "CEL_CH3_MT_CS03_Q04",
         question: "When a motion is objected to and voting becomes necessary, how should the votes of directors participating electronically be recorded?",
-        options: [
-          "By anonymous poll only",
-          "By roll call with each director identifying himself",
-          "By postal ballot",
-          "Only the Chairperson's vote is recorded"
-        ],
+        options: ["By anonymous poll only", "By roll call with each director identifying himself", "By postal ballot", "Only the Chairperson's vote is recorded"],
         answer: 1,
         reason: "The Chairperson shall call the roll and note the vote of each director, who shall identify himself while casting the vote."
       },
       {
         question_id: "CEL_CH3_MT_CS03_Q05",
         question: "A director participating through video conferencing is generally:",
-        options: [
-          "Not counted for quorum",
-          "Counted for quorum",
-          "Counted only if independent",
-          "Counted only with shareholder approval"
-        ],
+        options: ["Not counted for quorum", "Counted for quorum", "Counted only if independent", "Counted only with shareholder approval"],
         answer: 1,
         reason: "A director participating through video conferencing or other audio-visual means is counted for quorum unless specifically excluded for an item."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS04",
     difficulty: "Medium",
@@ -10040,24 +7715,14 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS04_Q01",
         question: "What is the normal minimum notice period for a Board Meeting?",
-        options: [
-          "3 days",
-          "5 days",
-          "7 days",
-          "15 days"
-        ],
+        options: ["3 days", "5 days", "7 days", "15 days"],
         answer: 2,
         reason: "Section 173(3) generally requires at least seven days' notice in writing to every director."
       },
       {
         question_id: "CEL_CH3_MT_CS04_Q02",
         question: "A meeting at shorter notice may be called for:",
-        options: [
-          "Any ordinary business without conditions",
-          "Urgent business",
-          "Only annual business",
-          "Only matters approved by shareholders"
-        ],
+        options: ["Any ordinary business without conditions", "Urgent business", "Only annual business", "Only matters approved by shareholders"],
         answer: 1,
         reason: "A Board Meeting may be called at shorter notice to transact urgent business."
       },
@@ -10068,7 +7733,7 @@ const AICaseStudies = [
           "All independent directors must attend",
           "At least one independent director shall be present",
           "The independent director must chair the meeting",
-          "Shareholders must ratify the meeting"
+          "Shareholders must ratify the meeting",
         ],
         answer: 1,
         reason: "At least one independent director, if any, shall be present at a shorter-notice meeting."
@@ -10076,30 +7741,19 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS04_Q04",
         question: "If no independent director is present at such shorter-notice meeting, the decisions become final:",
-        options: [
-          "Immediately",
-          "Only after ratification by at least one independent director, if any",
-          "Only after approval by the auditor",
-          "Never"
-        ],
+        options: ["Immediately", "Only after ratification by at least one independent director, if any", "Only after approval by the auditor", "Never"],
         answer: 1,
         reason: "In the absence of an independent director, decisions are circulated to all directors and become final only upon ratification by at least one independent director, if any."
       },
       {
         question_id: "CEL_CH3_MT_CS04_Q05",
         question: "The normal notice to directors may be sent by:",
-        options: [
-          "Only registered post",
-          "Only hand delivery",
-          "Hand delivery, post or electronic means",
-          "Only email"
-        ],
+        options: ["Only registered post", "Only hand delivery", "Hand delivery, post or electronic means", "Only email"],
         answer: 2,
         reason: "Section 173(3) permits notice to be sent by hand delivery, post or electronic means."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS05",
     difficulty: "Medium",
@@ -10121,66 +7775,40 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS05_Q01",
         question: "What is the relevant total strength for determining quorum in this case?",
-        options: [
-          "12",
-          "10",
-          "8",
-          "2"
-        ],
+        options: ["12", "10", "8", "2"],
         answer: 1,
         reason: "Vacant positions are excluded while calculating total strength. Thus, 12 minus 2 vacancies equals 10."
       },
       {
         question_id: "CEL_CH3_MT_CS05_Q02",
         question: "One-third of the relevant total strength of 10 is:",
-        options: [
-          "2",
-          "3",
-          "3.33",
-          "4"
-        ],
+        options: ["2", "3", "3.33", "4"],
         answer: 2,
         reason: "One-third of 10 is 3.33. Any fraction is rounded off as one, resulting in a quorum requirement of 4 when compared with the minimum of 2."
       },
       {
         question_id: "CEL_CH3_MT_CS05_Q03",
         question: "What is the quorum requirement for Everest Limited?",
-        options: [
-          "2 directors",
-          "3 directors",
-          "4 directors",
-          "5 directors"
-        ],
+        options: ["2 directors", "3 directors", "4 directors", "5 directors"],
         answer: 2,
         reason: "One-third of 10 is 3.33, which is rounded off as 4. Since 4 is higher than 2, quorum is 4."
       },
       {
         question_id: "CEL_CH3_MT_CS05_Q04",
         question: "Are directors participating through video conferencing normally counted for quorum?",
-        options: [
-          "No",
-          "Yes",
-          "Only if they are independent directors",
-          "Only with shareholder approval"
-        ],
+        options: ["No", "Yes", "Only if they are independent directors", "Only with shareholder approval"],
         answer: 1,
         reason: "Directors participating through video conferencing or other audio-visual means are counted for quorum unless excluded under applicable provisions."
       },
       {
         question_id: "CEL_CH3_MT_CS05_Q05",
         question: "If only three directors were present in the above case, the Board Meeting would:",
-        options: [
-          "Have valid quorum",
-          "Have no quorum",
-          "Be valid if the Chairperson agrees",
-          "Be valid if the auditor attends"
-        ],
+        options: ["Have valid quorum", "Have no quorum", "Be valid if the Chairperson agrees", "Be valid if the auditor attends"],
         answer: 1,
         reason: "The required quorum is four directors. Three directors would therefore be insufficient."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS06",
     difficulty: "Medium",
@@ -10204,12 +7832,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS06_Q01",
         question: "What percentage of the Board is interested in the transaction?",
-        options: [
-          "60%",
-          "66.67%",
-          "80%",
-          "86.67%"
-        ],
+        options: ["60%", "66.67%", "80%", "86.67%"],
         answer: 3,
         reason: "13 out of 15 directors are interested, i.e. approximately 86.67%."
       },
@@ -10220,7 +7843,7 @@ const AICaseStudies = [
           "No, because exactly 15 directors exist",
           "Yes, because interested directors exceed two-thirds of total strength",
           "Only if shareholders approve",
-          "Only in a private company"
+          "Only in a private company",
         ],
         answer: 1,
         reason: "The special rule applies where interested directors exceed or are equal to two-thirds of the total strength."
@@ -10228,42 +7851,26 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS06_Q03",
         question: "What is the minimum number of non-interested directors required to constitute quorum in this situation?",
-        options: [
-          "1",
-          "2",
-          "3",
-          "5"
-        ],
+        options: ["1", "2", "3", "5"],
         answer: 1,
         reason: "The number of non-interested directors present constitutes the quorum, but their number cannot be less than two."
       },
       {
         question_id: "CEL_CH3_MT_CS06_Q04",
         question: "Can the 13 interested directors be used to satisfy the special quorum for this particular item?",
-        options: [
-          "Yes, all 13 are counted",
-          "Yes, but only half are counted",
-          "No, the special rule focuses on non-interested directors",
-          "Only the Chairperson is counted"
-        ],
+        options: ["Yes, all 13 are counted", "Yes, but only half are counted", "No, the special rule focuses on non-interested directors", "Only the Chairperson is counted"],
         answer: 2,
         reason: "Where the interested directors are at least two-thirds, the quorum is constituted by the non-interested directors present, subject to a minimum of two."
       },
       {
         question_id: "CEL_CH3_MT_CS06_Q05",
         question: "The meaning of an interested director for this purpose is primarily linked with:",
-        options: [
-          "Section 173",
-          "Section 174(3) read with Section 184(2)",
-          "Section 180",
-          "Section 182"
-        ],
+        options: ["Section 173", "Section 174(3) read with Section 184(2)", "Section 180", "Section 182"],
         answer: 1,
         reason: "Section 174(3) refers to interested directors within the meaning of Section 184(2)."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS07",
     difficulty: "Medium",
@@ -10285,12 +7892,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS07_Q01",
         question: "How many directors constitute one-third of Galaxy Limited's total strength?",
-        options: [
-          "1",
-          "2",
-          "3",
-          "4"
-        ],
+        options: ["1", "2", "3", "4"],
         answer: 1,
         reason: "One-third of six directors is two."
       },
@@ -10301,7 +7903,7 @@ const AICaseStudies = [
           "The resolution must continue by circulation",
           "The Chairperson shall put the resolution to be decided at a Board Meeting",
           "The resolution automatically fails",
-          "The shareholders must decide it"
+          "The shareholders must decide it",
         ],
         answer: 1,
         reason: "If at least one-third of the total number of directors require that a resolution under circulation be decided at a meeting, the Chairperson shall put it to the Board Meeting."
@@ -10309,24 +7911,14 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS07_Q03",
         question: "Which of the following can be used for circulating the draft resolution under the rules?",
-        options: [
-          "Only physical delivery",
-          "Electronic means including email or fax",
-          "Only newspaper publication",
-          "Only registered post"
-        ],
+        options: ["Only physical delivery", "Electronic means including email or fax", "Only newspaper publication", "Only registered post"],
         answer: 1,
         reason: "Rule 5 permits electronic means including email or fax."
       },
       {
         question_id: "CEL_CH3_MT_CS07_Q04",
         question: "If the resolution is validly passed by circulation, it must be noted in:",
-        options: [
-          "The annual return only",
-          "The next Board or committee meeting and minutes",
-          "The auditor's report",
-          "The shareholders' register"
-        ],
+        options: ["The annual return only", "The next Board or committee meeting and minutes", "The auditor's report", "The shareholders' register"],
         answer: 1,
         reason: "A resolution passed by circulation must be noted at the next meeting of the Board or committee and made part of its minutes."
       },
@@ -10337,14 +7929,13 @@ const AICaseStudies = [
           "It is irrelevant because majority always prevails",
           "It triggers the requirement for consideration at a Board Meeting",
           "It automatically makes the directors disqualified",
-          "It requires approval of the auditor"
+          "It requires approval of the auditor",
         ],
         answer: 1,
         reason: "Three directors exceed the one-third threshold and therefore require the resolution to be decided at a Board Meeting."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS08",
     difficulty: "Medium",
@@ -10371,7 +7962,7 @@ const AICaseStudies = [
           "Yes, all unlisted public companies are exempt",
           "No, prescribed thresholds may require constitution",
           "Yes, unless shareholders demand it",
-          "Yes, unless the company is a Section 8 company"
+          "Yes, unless the company is a Section 8 company",
         ],
         answer: 1,
         reason: "Certain unlisted public companies are required to constitute an Audit Committee if they satisfy prescribed thresholds."
@@ -10379,54 +7970,33 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS08_Q02",
         question: "Horizon has paid-up share capital of ₹12 crore. Does this exceed the prescribed ₹10 crore threshold?",
-        options: [
-          "No",
-          "Yes",
-          "Only if turnover also exceeds ₹100 crore",
-          "Only if listed"
-        ],
+        options: ["No", "Yes", "Only if turnover also exceeds ₹100 crore", "Only if listed"],
         answer: 1,
         reason: "Paid-up share capital of ₹12 crore exceeds the prescribed threshold of ₹10 crore."
       },
       {
         question_id: "CEL_CH3_MT_CS08_Q03",
         question: "Which single fact in the case is sufficient to bring Horizon within the prescribed threshold?",
-        options: [
-          "Turnover of ₹95 crore",
-          "Outstanding loans of ₹40 crore",
-          "Paid-up share capital of ₹12 crore",
-          "Being unlisted"
-        ],
+        options: ["Turnover of ₹95 crore", "Outstanding loans of ₹40 crore", "Paid-up share capital of ₹12 crore", "Being unlisted"],
         answer: 2,
         reason: "The paid-up share capital exceeds ₹10 crore, which is one of the prescribed criteria."
       },
       {
         question_id: "CEL_CH3_MT_CS08_Q04",
         question: "What is the minimum number of directors required in an Audit Committee?",
-        options: [
-          "2",
-          "3",
-          "4",
-          "5"
-        ],
+        options: ["2", "3", "4", "5"],
         answer: 1,
         reason: "The Audit Committee shall consist of a minimum of three directors."
       },
       {
         question_id: "CEL_CH3_MT_CS08_Q05",
         question: "In an Audit Committee, independent directors should:",
-        options: [
-          "Form a minority",
-          "Form a majority",
-          "Be absent",
-          "Always constitute the entire committee"
-        ],
+        options: ["Form a minority", "Form a majority", "Be absent", "Always constitute the entire committee"],
         answer: 1,
         reason: "Independent directors shall form a majority of the Audit Committee, subject to applicable modifications."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS09",
     difficulty: "Medium",
@@ -10448,66 +8018,40 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS09_Q01",
         question: "Is a listed public company required to constitute a Nomination and Remuneration Committee?",
-        options: [
-          "No",
-          "Yes",
-          "Only if turnover exceeds ₹100 crore",
-          "Only if shareholders pass a resolution"
-        ],
+        options: ["No", "Yes", "Only if turnover exceeds ₹100 crore", "Only if shareholders pass a resolution"],
         answer: 1,
         reason: "Every listed public company is required to constitute a Nomination and Remuneration Committee."
       },
       {
         question_id: "CEL_CH3_MT_CS09_Q02",
         question: "What is the minimum number of directors in the NRC under the stated provisions?",
-        options: [
-          "2",
-          "3",
-          "4",
-          "5"
-        ],
+        options: ["2", "3", "4", "5"],
         answer: 1,
         reason: "The NRC shall consist of three or more non-executive directors."
       },
       {
         question_id: "CEL_CH3_MT_CS09_Q03",
         question: "In the proposed three-member NRC, how many members should be independent directors under the Companies Act requirement?",
-        options: [
-          "At least 1",
-          "At least 2",
-          "All 3",
-          "None"
-        ],
+        options: ["At least 1", "At least 2", "All 3", "None"],
         answer: 0,
         reason: "Not less than one-half of the members should be independent directors. For three members, this means at least two when applying the numerical composition requirement; however, the supplied text states 'not less than one-half', which requires at least two members."
       },
       {
         question_id: "CEL_CH3_MT_CS09_Q04",
         question: "Can the Chairperson of the company chair the NRC under the Companies Act provision stated in the chapter?",
-        options: [
-          "Yes, compulsorily",
-          "Yes, if shareholders approve",
-          "No, the Chairperson of the company shall not chair the committee",
-          "Only if he is independent"
-        ],
+        options: ["Yes, compulsorily", "Yes, if shareholders approve", "No, the Chairperson of the company shall not chair the committee", "Only if he is independent"],
         answer: 2,
         reason: "The Chairperson of the company, whether executive or non-executive, shall not chair the NRC, although he may be a member."
       },
       {
         question_id: "CEL_CH3_MT_CS09_Q05",
         question: "Which of the following is a function of the NRC?",
-        options: [
-          "Conducting statutory audit",
-          "Recommending remuneration policy",
-          "Approving all bank transactions",
-          "Issuing shares directly"
-        ],
+        options: ["Conducting statutory audit", "Recommending remuneration policy", "Approving all bank transactions", "Issuing shares directly"],
         answer: 1,
         reason: "The NRC recommends to the Board a policy relating to remuneration for directors, KMP and other employees."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS10",
     difficulty: "Medium",
@@ -10531,48 +8075,28 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS10_Q01",
         question: "Under Section 179, borrowing money is generally a power of:",
-        options: [
-          "Only shareholders",
-          "The Board of Directors",
-          "Only the auditor",
-          "Only the Company Secretary"
-        ],
+        options: ["Only shareholders", "The Board of Directors", "Only the auditor", "Only the Company Secretary"],
         answer: 1,
         reason: "The Board is empowered to exercise the company's powers, including borrowing monies, subject to statutory restrictions."
       },
       {
         question_id: "CEL_CH3_MT_CS10_Q02",
         question: "When the borrowing together with existing borrowings exceeds the prescribed aggregate, what is generally required for a public company under Section 180?",
-        options: [
-          "Only an ordinary Board resolution",
-          "Special resolution of the company",
-          "Only auditor approval",
-          "No approval"
-        ],
+        options: ["Only an ordinary Board resolution", "Special resolution of the company", "Only auditor approval", "No approval"],
         answer: 1,
         reason: "Borrowing beyond the aggregate of paid-up share capital, free reserves and securities premium generally requires consent through a special resolution."
       },
       {
         question_id: "CEL_CH3_MT_CS10_Q03",
         question: "Which of the following is excluded while calculating the borrowing limit under Section 180(1)(c)?",
-        options: [
-          "Long-term loans",
-          "Debentures",
-          "Temporary loans obtained from bankers in the ordinary course of business",
-          "Unsecured borrowings"
-        ],
+        options: ["Long-term loans", "Debentures", "Temporary loans obtained from bankers in the ordinary course of business", "Unsecured borrowings"],
         answer: 2,
         reason: "Temporary loans obtained from the company's bankers in the ordinary course of business are excluded."
       },
       {
         question_id: "CEL_CH3_MT_CS10_Q04",
         question: "A special resolution relating to borrowing under Section 180 must specify:",
-        options: [
-          "Only the name of the lender",
-          "The total amount up to which monies may be borrowed",
-          "Only the interest rate",
-          "Only the repayment date"
-        ],
+        options: ["Only the name of the lender", "The total amount up to which monies may be borrowed", "Only the interest rate", "Only the repayment date"],
         answer: 1,
         reason: "Section 180(2) requires the special resolution to specify the total amount up to which monies may be borrowed by the Board."
       },
@@ -10583,7 +8107,7 @@ const AICaseStudies = [
           "Section 179 gives the Board power and Section 180 imposes specified restrictions on that power",
           "Both sections completely prohibit borrowing",
           "Section 180 gives unlimited borrowing power",
-          "Section 179 applies only to shareholders"
+          "Section 179 applies only to shareholders",
         ],
         answer: 0,
         reason: "Section 179 recognises the Board's power to borrow, while Section 180 imposes restrictions requiring shareholder approval in specified circumstances."
@@ -10594,7 +8118,6 @@ const AICaseStudies = [
   // CHAPTER 3 – MEETINGS OF BOARD AND ITS POWERS
   // Medium – CASE SCENARIOS 11 TO 20
   // ============================================================
-
   {
     case_id: "CEL_CH3_MT_CS11",
     difficulty: "Medium",
@@ -10617,36 +8140,21 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS11_Q01",
         question: "What happens to a Board Meeting which cannot be held for want of quorum, unless the Articles provide otherwise?",
-        options: [
-          "It is automatically cancelled",
-          "It automatically stands adjourned",
-          "It becomes a general meeting",
-          "It is deemed valid"
-        ],
+        options: ["It is automatically cancelled", "It automatically stands adjourned", "It becomes a general meeting", "It is deemed valid"],
         answer: 1,
         reason: "Where a Board Meeting cannot be held for want of quorum, it shall automatically stand adjourned unless the Articles provide otherwise."
       },
       {
         question_id: "CEL_CH3_MT_CS11_Q02",
         question: "Ordinarily, the adjourned meeting is held:",
-        options: [
-          "On the next succeeding day",
-          "On the same day, same time and place in the next week",
-          "After one month",
-          "Only after shareholder approval"
-        ],
+        options: ["On the next succeeding day", "On the same day, same time and place in the next week", "After one month", "Only after shareholder approval"],
         answer: 1,
         reason: "The meeting automatically stands adjourned to the same day, same time and place in the next week."
       },
       {
         question_id: "CEL_CH3_MT_CS11_Q03",
         question: "If the scheduled adjourned day is a national holiday, when is the adjourned meeting held?",
-        options: [
-          "The previous day",
-          "The next succeeding day which is not a national holiday",
-          "The next Sunday",
-          "After seven additional days"
-        ],
+        options: ["The previous day", "The next succeeding day which is not a national holiday", "The next Sunday", "After seven additional days"],
         answer: 1,
         reason: "If the scheduled day is a national holiday, the meeting is held on the next succeeding day which is not a national holiday."
       },
@@ -10657,7 +8165,7 @@ const AICaseStudies = [
           "No, all Board Meetings are prohibited on Sundays",
           "Yes, because the provision excludes a national holiday, not every holiday",
           "Only with shareholder approval",
-          "Only if the auditor attends"
+          "Only if the auditor attends",
         ],
         answer: 1,
         reason: "The statutory provision specifically refers to a national holiday. Therefore, a Sunday can be the day of the adjourned meeting if it is not a national holiday."
@@ -10665,18 +8173,12 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS11_Q05",
         question: "Which factor could alter the statutory default rule regarding adjournment?",
-        options: [
-          "The Articles of Association",
-          "The auditor's report",
-          "The annual return",
-          "The company's website"
-        ],
+        options: ["The Articles of Association", "The auditor's report", "The annual return", "The company's website"],
         answer: 0,
         reason: "The statutory rule applies unless the Articles of Association provide otherwise."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS12",
     difficulty: "Medium",
@@ -10699,24 +8201,14 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS12_Q01",
         question: "How many directors constitute one-third of Orion Limited's total number of directors?",
-        options: [
-          "2",
-          "2.67, treated as 3",
-          "4",
-          "5"
-        ],
+        options: ["2", "2.67, treated as 3", "4", "5"],
         answer: 1,
         reason: "One-third of eight is 2.67. For determining the one-third threshold, the requirement is at least one-third; in practical whole-number terms, three directors would satisfy or exceed that threshold."
       },
       {
         question_id: "CEL_CH3_MT_CS12_Q02",
         question: "How many directors approved the resolution?",
-        options: [
-          "5",
-          "6",
-          "7",
-          "8"
-        ],
+        options: ["5", "6", "7", "8"],
         answer: 0,
         reason: "Five directors approved the resolution."
       },
@@ -10727,7 +8219,7 @@ const AICaseStudies = [
           "Yes, because it has been approved by a majority of directors entitled to vote",
           "No, because every director must approve",
           "No, because one director did not respond",
-          "Yes, but only after shareholder approval"
+          "Yes, but only after shareholder approval",
         ],
         answer: 0,
         reason: "A resolution by circulation is duly passed when approved by a majority of directors entitled to vote, provided the required one-third threshold does not require it to be decided at a meeting."
@@ -10735,12 +8227,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS12_Q04",
         question: "What must happen to a resolution validly passed by circulation at the next Board Meeting?",
-        options: [
-          "It must be cancelled",
-          "It must be noted and made part of the minutes",
-          "It must be approved again unanimously",
-          "It must be sent to the Registrar"
-        ],
+        options: ["It must be cancelled", "It must be noted and made part of the minutes", "It must be approved again unanimously", "It must be sent to the Registrar"],
         answer: 1,
         reason: "A resolution passed by circulation must be noted at the next meeting of the Board or committee and made part of the minutes."
       },
@@ -10751,14 +8238,13 @@ const AICaseStudies = [
           "One director votes against it",
           "At least one-third of the total number of directors require it to be decided at a meeting",
           "One director does not respond",
-          "The Company Secretary objects"
+          "The Company Secretary objects",
         ],
         answer: 1,
         reason: "If at least one-third of the total number of directors require the resolution to be decided at a meeting, the Chairperson must place it before a Board Meeting."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS13",
     difficulty: "Medium",
@@ -10780,36 +8266,21 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS13_Q01",
         question: "Which body recommends the appointment, remuneration and terms of appointment of auditors under the stated provisions?",
-        options: [
-          "Nomination and Remuneration Committee",
-          "Audit Committee",
-          "Stakeholders Relationship Committee",
-          "Shareholders alone"
-        ],
+        options: ["Nomination and Remuneration Committee", "Audit Committee", "Stakeholders Relationship Committee", "Shareholders alone"],
         answer: 1,
         reason: "The Audit Committee recommends appointment, remuneration and terms of appointment of auditors."
       },
       {
         question_id: "CEL_CH3_MT_CS13_Q02",
         question: "Can the Audit Committee review and monitor the auditor's independence and performance?",
-        options: [
-          "Yes",
-          "No",
-          "Only with court permission",
-          "Only after the audit is completed"
-        ],
+        options: ["Yes", "No", "Only with court permission", "Only after the audit is completed"],
         answer: 0,
         reason: "Reviewing and monitoring auditor independence and performance is an Audit Committee responsibility."
       },
       {
         question_id: "CEL_CH3_MT_CS13_Q03",
         question: "Can the Audit Committee review financial statements before their submission to the Board?",
-        options: [
-          "Yes",
-          "No",
-          "Only after shareholder approval",
-          "Only if the auditor agrees"
-        ],
+        options: ["Yes", "No", "Only after shareholder approval", "Only if the auditor agrees"],
         answer: 0,
         reason: "The Audit Committee has the right to review financial statements before submission to the Board."
       },
@@ -10820,7 +8291,7 @@ const AICaseStudies = [
           "Obtain professional advice from external sources and access company records",
           "Only question shareholders",
           "Only rely on the statutory auditor",
-          "Issue shares to experts"
+          "Issue shares to experts",
         ],
         answer: 0,
         reason: "Section 177(6) gives the Audit Committee power to investigate and obtain professional advice from external sources and access company information."
@@ -10828,18 +8299,12 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS13_Q05",
         question: "When the Audit Committee considers the auditor's report, the auditor has:",
-        options: [
-          "A right to vote",
-          "A right to be heard but no right to vote",
-          "No right to attend",
-          "A right to veto the Committee"
-        ],
+        options: ["A right to vote", "A right to be heard but no right to vote", "No right to attend", "A right to veto the Committee"],
         answer: 1,
         reason: "The auditors and KMP have a right to be heard when the Audit Committee considers the auditor's report, but they do not have the right to vote."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS14",
     difficulty: "Medium",
@@ -10861,66 +8326,40 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS14_Q01",
         question: "Who may use the vigil mechanism to report genuine concerns?",
-        options: [
-          "Only shareholders",
-          "Directors and employees",
-          "Only auditors",
-          "Only independent directors"
-        ],
+        options: ["Only shareholders", "Directors and employees", "Only auditors", "Only independent directors"],
         answer: 1,
         reason: "The vigil mechanism is intended for directors and employees to report genuine concerns."
       },
       {
         question_id: "CEL_CH3_MT_CS14_Q02",
         question: "Which of the following is a key safeguard required under the vigil mechanism?",
-        options: [
-          "Protection against victimisation",
-          "Guaranteed promotion",
-          "Guaranteed financial reward",
-          "Automatic dismissal of the accused"
-        ],
+        options: ["Protection against victimisation", "Guaranteed promotion", "Guaranteed financial reward", "Automatic dismissal of the accused"],
         answer: 0,
         reason: "The vigil mechanism must provide adequate safeguards against victimisation of persons who use it."
       },
       {
         question_id: "CEL_CH3_MT_CS14_Q03",
         question: "In exceptional or appropriate cases, the mechanism should provide direct access to:",
-        options: [
-          "The statutory auditor",
-          "The Chairperson of the Audit Committee",
-          "Any shareholder",
-          "The Registrar only"
-        ],
+        options: ["The statutory auditor", "The Chairperson of the Audit Committee", "Any shareholder", "The Registrar only"],
         answer: 1,
         reason: "Section 177(10) provides for direct access to the Chairperson of the Audit Committee in appropriate or exceptional cases."
       },
       {
         question_id: "CEL_CH3_MT_CS14_Q04",
         question: "If a member of the Audit Committee has a conflict of interest in a particular complaint, that member should:",
-        options: [
-          "Decide the complaint alone",
-          "Recuse himself or herself from the matter",
-          "Automatically reject the complaint",
-          "Vote twice"
-        ],
+        options: ["Decide the complaint alone", "Recuse himself or herself from the matter", "Automatically reject the complaint", "Vote twice"],
         answer: 1,
         reason: "A member having a conflict of interest should recuse himself or herself and the other committee members should deal with the matter."
       },
       {
         question_id: "CEL_CH3_MT_CS14_Q05",
         question: "What action may be taken in case of repeated frivolous complaints?",
-        options: [
-          "No action is possible",
-          "Suitable action including reprimand may be taken",
-          "The complaint must automatically be accepted",
-          "The Audit Committee must resign"
-        ],
+        options: ["No action is possible", "Suitable action including reprimand may be taken", "The complaint must automatically be accepted", "The Audit Committee must resign"],
         answer: 1,
         reason: "In case of repeated frivolous complaints, suitable action including reprimand may be taken."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS15",
     difficulty: "Medium",
@@ -10946,7 +8385,7 @@ const AICaseStudies = [
           "When it has more than 500 shareholders only",
           "When it consists of more than 1,000 specified security holders at any time during a financial year",
           "Only when it is listed",
-          "Only when shareholders demand it"
+          "Only when shareholders demand it",
         ],
         answer: 1,
         reason: "A company having more than 1,000 shareholders, debenture-holders, deposit-holders and other security holders at any time during a financial year must constitute the Committee."
@@ -10954,24 +8393,14 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS15_Q02",
         question: "Does Sunrise Limited satisfy the numerical threshold based on the facts given?",
-        options: [
-          "No",
-          "Yes",
-          "Only if its turnover exceeds ₹100 crore",
-          "Only if it has more than 2,000 shareholders"
-        ],
+        options: ["No", "Yes", "Only if its turnover exceeds ₹100 crore", "Only if it has more than 2,000 shareholders"],
         answer: 1,
         reason: "The company has more than 1,000 specified security holders during the financial year."
       },
       {
         question_id: "CEL_CH3_MT_CS15_Q03",
         question: "Who shall head the Stakeholders Relationship Committee?",
-        options: [
-          "Managing Director",
-          "Executive Director",
-          "Non-executive Director",
-          "Company Secretary"
-        ],
+        options: ["Managing Director", "Executive Director", "Non-executive Director", "Company Secretary"],
         answer: 2,
         reason: "The SRC shall be headed by a Chairperson who shall be a non-executive director."
       },
@@ -10982,7 +8411,7 @@ const AICaseStudies = [
           "Approve financial statements",
           "Resolve grievances of security holders and protect their interests",
           "Appoint statutory auditors",
-          "Approve political contributions"
+          "Approve political contributions",
         ],
         answer: 1,
         reason: "The SRC considers and resolves grievances of security holders and protects the interests of all security holders."
@@ -10990,18 +8419,12 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS15_Q05",
         question: "The SRC is concerned with:",
-        options: [
-          "Only equity shareholders",
-          "Only debenture-holders",
-          "All security holders",
-          "Only employees"
-        ],
+        options: ["Only equity shareholders", "Only debenture-holders", "All security holders", "Only employees"],
         answer: 2,
         reason: "The Committee is intended to protect the interests of all security holders, not merely equity investors."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS16",
     difficulty: "Medium",
@@ -11026,7 +8449,7 @@ const AICaseStudies = [
           "No power can ever be delegated",
           "Yes, specified powers may be delegated by Board resolution",
           "Only shareholders can delegate them",
-          "Only the auditor can delegate them"
+          "Only the auditor can delegate them",
         ],
         answer: 1,
         reason: "The Board may delegate specified powers by a resolution passed at a Board Meeting."
@@ -11034,12 +8457,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS16_Q02",
         question: "Which of the following is a power that may be delegated under the stated provision?",
-        options: [
-          "Approval of financial statements",
-          "Borrowing monies",
-          "Appointment of shareholders",
-          "Alteration of the Memorandum by shareholders"
-        ],
+        options: ["Approval of financial statements", "Borrowing monies", "Appointment of shareholders", "Alteration of the Memorandum by shareholders"],
         answer: 1,
         reason: "Borrowing monies is one of the specified powers that may be delegated."
       },
@@ -11050,7 +8468,7 @@ const AICaseStudies = [
           "Only any shareholder",
           "Committee of directors, Managing Director, Manager or principal officer, among others specified",
           "Only statutory auditor",
-          "Only Registrar of Companies"
+          "Only Registrar of Companies",
         ],
         answer: 1,
         reason: "The specified powers may be delegated to a committee of directors, Managing Director, Manager or other principal officers as provided by law."
@@ -11058,12 +8476,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS16_Q04",
         question: "The delegation of powers should be made:",
-        options: [
-          "Without any conditions",
-          "Subject to conditions specified by the Board",
-          "Only through newspaper notice",
-          "Only through shareholder postal ballot"
-        ],
+        options: ["Without any conditions", "Subject to conditions specified by the Board", "Only through newspaper notice", "Only through shareholder postal ballot"],
         answer: 1,
         reason: "The Board may delegate these powers on such conditions as may be specified."
       },
@@ -11074,14 +8487,13 @@ const AICaseStudies = [
           "Borrowing, investment of funds, and granting loans/guarantees/security",
           "Appointment of auditors, merger approval, and alteration of articles",
           "Issue of dividends, appointment of shareholders, and alteration of capital",
-          "Only political contributions"
+          "Only political contributions",
         ],
         answer: 0,
         reason: "The specified delegable powers include borrowing monies, investing company funds, and granting loans or giving guarantees/providing security."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS17",
     difficulty: "Medium",
@@ -11103,48 +8515,28 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS17_Q01",
         question: "Does Section 180 apply when a company has more than one undertaking and proposes to dispose of substantially the whole of one undertaking?",
-        options: [
-          "No",
-          "Yes",
-          "Only if all undertakings are sold",
-          "Only if the company is private"
-        ],
+        options: ["No", "Yes", "Only if all undertakings are sold", "Only if the company is private"],
         answer: 1,
         reason: "Section 180 applies to disposal of the whole or substantially the whole of any of the company's undertakings."
       },
       {
         question_id: "CEL_CH3_MT_CS17_Q02",
         question: "What shareholder approval is generally required for such disposal under Section 180?",
-        options: [
-          "Ordinary resolution",
-          "Special resolution",
-          "Board resolution only",
-          "No resolution"
-        ],
+        options: ["Ordinary resolution", "Special resolution", "Board resolution only", "No resolution"],
         answer: 1,
         reason: "The Board requires the consent of the company by special resolution for the specified disposal."
       },
       {
         question_id: "CEL_CH3_MT_CS17_Q03",
         question: "For Section 180 purposes, 'substantially the whole of the undertaking' means:",
-        options: [
-          "10% or more of the value",
-          "15% or more",
-          "20% or more of the value of the undertaking",
-          "50% or more"
-        ],
+        options: ["10% or more of the value", "15% or more", "20% or more of the value of the undertaking", "50% or more"],
         answer: 2,
         reason: "Substantially the whole of the undertaking means 20% or more of its value as per the audited balance sheet of the preceding financial year."
       },
       {
         question_id: "CEL_CH3_MT_CS17_Q04",
         question: "The special resolution may stipulate conditions regarding:",
-        options: [
-          "Use, disposal or investment of sale proceeds",
-          "Only appointment of directors",
-          "Only employee salaries",
-          "Only audit fees"
-        ],
+        options: ["Use, disposal or investment of sale proceeds", "Only appointment of directors", "Only employee salaries", "Only audit fees"],
         answer: 0,
         reason: "The special resolution may stipulate conditions regarding the use, disposal or investment of sale proceeds."
       },
@@ -11155,14 +8547,13 @@ const AICaseStudies = [
           "Yes, without exception",
           "No, Section 180 is not applicable to a private company, subject to the stated legal framework",
           "Only if turnover exceeds ₹100 crore",
-          "Only if listed"
+          "Only if listed",
         ],
         answer: 1,
         reason: "The chapter states that Section 180 is not applicable to private companies, subject to the relevant exemption framework."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS18",
     difficulty: "Medium",
@@ -11184,36 +8575,21 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS18_Q01",
         question: "What is the maximum contribution the Board can make without prior general meeting approval, based on the given average net profits?",
-        options: [
-          "₹1 lakh",
-          "₹2 lakh",
-          "₹2.5 lakh",
-          "₹4 lakh"
-        ],
+        options: ["₹1 lakh", "₹2 lakh", "₹2.5 lakh", "₹4 lakh"],
         answer: 1,
         reason: "5% of ₹40 lakh is ₹2 lakh. The Board's contribution without prior general meeting approval is therefore limited to ₹2 lakh."
       },
       {
         question_id: "CEL_CH3_MT_CS18_Q02",
         question: "If Unity Limited wants to contribute ₹2.5 lakh, what is required?",
-        options: [
-          "No approval",
-          "Prior permission of the company in general meeting",
-          "Only auditor approval",
-          "Only approval of the Company Secretary"
-        ],
+        options: ["No approval", "Prior permission of the company in general meeting", "Only auditor approval", "Only approval of the Company Secretary"],
         answer: 1,
         reason: "The proposed contribution exceeds 5% of the average net profits of the preceding three financial years and therefore requires prior permission of the company in general meeting."
       },
       {
         question_id: "CEL_CH3_MT_CS18_Q03",
         question: "The relevant percentage limit under Section 181 is:",
-        options: [
-          "2%",
-          "5%",
-          "10%",
-          "20%"
-        ],
+        options: ["2%", "5%", "10%", "20%"],
         answer: 1,
         reason: "The Board may contribute up to 5% of the average net profits of the three immediately preceding financial years without prior general meeting approval."
       },
@@ -11224,7 +8600,7 @@ const AICaseStudies = [
           "Yes, always",
           "No, the relevant limit is based on the prescribed average net profits of the preceding three financial years",
           "Yes, unless the company is listed",
-          "Only a private company can contribute"
+          "Only a private company can contribute",
         ],
         answer: 1,
         reason: "A current-year loss does not by itself prohibit the contribution. The prescribed limit is linked to the average net profits of the three immediately preceding financial years."
@@ -11232,18 +8608,12 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS18_Q05",
         question: "Section 181 applies to:",
-        options: [
-          "Only public companies",
-          "Only private companies",
-          "Both public and private companies",
-          "Only listed companies"
-        ],
+        options: ["Only public companies", "Only private companies", "Both public and private companies", "Only listed companies"],
         answer: 2,
         reason: "Section 181 applies to both public and private companies."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS19",
     difficulty: "Medium",
@@ -11265,24 +8635,14 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS19_Q01",
         question: "Is a company that has existed for more than three financial years generally permitted to make a political contribution, subject to the Act?",
-        options: [
-          "Yes",
-          "No",
-          "Only if it is a Government company",
-          "Only if it is a dormant company"
-        ],
+        options: ["Yes", "No", "Only if it is a Government company", "Only if it is a dormant company"],
         answer: 0,
         reason: "A company other than a Government company and a company existing for less than three financial years may contribute to a political party, subject to Section 182."
       },
       {
         question_id: "CEL_CH3_MT_CS19_Q02",
         question: "What is required before Zenith Limited makes the political contribution?",
-        options: [
-          "A Board resolution passed at a Board Meeting",
-          "Only approval of the auditor",
-          "Only approval of one director",
-          "Only approval of employees"
-        ],
+        options: ["A Board resolution passed at a Board Meeting", "Only approval of the auditor", "Only approval of one director", "Only approval of employees"],
         answer: 0,
         reason: "The contribution must be made only after a resolution authorising it is passed at a meeting of the Board of Directors."
       },
@@ -11293,7 +8653,7 @@ const AICaseStudies = [
           "Free to contribute any amount",
           "Not permitted to contribute to a political party",
           "Required to contribute at least 5% of profits",
-          "Permitted only with auditor approval"
+          "Permitted only with auditor approval",
         ],
         answer: 1,
         reason: "A company which has been in existence for less than three financial years cannot contribute to a political party."
@@ -11301,30 +8661,19 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS19_Q04",
         question: "Which of the following is a permitted mode of making a political contribution?",
-        options: [
-          "Account payee cheque",
-          "Cash payment without record",
-          "Personal payment by a director",
-          "Unrecorded credit entry"
-        ],
+        options: ["Account payee cheque", "Cash payment without record", "Personal payment by a director", "Unrecorded credit entry"],
         answer: 0,
         reason: "The contribution may be made through an account payee cheque, account payee bank draft, electronic clearing system or a notified instrument."
       },
       {
         question_id: "CEL_CH3_MT_CS19_Q05",
         question: "The company is required to disclose the total amount contributed under Section 182 in its:",
-        options: [
-          "Profit and loss account",
-          "Minutes of shareholders only",
-          "Director's personal tax return",
-          "Auditor's appointment letter"
-        ],
+        options: ["Profit and loss account", "Minutes of shareholders only", "Director's personal tax return", "Auditor's appointment letter"],
         answer: 0,
         reason: "Every company must disclose the total amount contributed under Section 182 in its profit and loss account."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_MT_CS20",
     difficulty: "Medium",
@@ -11345,12 +8694,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS20_Q01",
         question: "Does Director R's 3% shareholding in Beta Private Limited fall within the specified more-than-2% threshold?",
-        options: [
-          "No",
-          "Yes",
-          "Only if his holding exceeds 10%",
-          "Only if Beta is listed"
-        ],
+        options: ["No", "Yes", "Only if his holding exceeds 10%", "Only if Beta is listed"],
         answer: 1,
         reason: "A director holding more than 2% shareholding in the other body corporate falls within the specified interest provision."
       },
@@ -11361,7 +8705,7 @@ const AICaseStudies = [
           "Only after the contract is executed",
           "At the Board Meeting in which the contract is discussed for the first time",
           "At the next AGM",
-          "Only when the auditor asks"
+          "Only when the auditor asks",
         ],
         answer: 1,
         reason: "The interested director must disclose the nature of his concern or interest at the Board Meeting in which the contract or arrangement is discussed for the first time."
@@ -11369,24 +8713,14 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS20_Q03",
         question: "After making the specific disclosure, can Director R participate in the discussion on the contract under the general rule?",
-        options: [
-          "Yes, without restriction",
-          "No",
-          "Only if the Chairperson permits",
-          "Only if the auditor attends"
-        ],
+        options: ["Yes, without restriction", "No", "Only if the Chairperson permits", "Only if the auditor attends"],
         answer: 1,
         reason: "The interested director shall not participate in the meeting in relation to the concerned contract or arrangement."
       },
       {
         question_id: "CEL_CH3_MT_CS20_Q04",
         question: "If the interested director participates in the meeting where the contract is discussed, the contract may become:",
-        options: [
-          "Automatically void in every case",
-          "Voidable at the option of the company",
-          "Automatically approved",
-          "Voidable only by the director"
-        ],
+        options: ["Automatically void in every case", "Voidable at the option of the company", "Automatically approved", "Voidable only by the director"],
         answer: 1,
         reason: "A contract or arrangement is voidable at the option of the company where the interested director fails to disclose or participates in the meeting contrary to Section 184(2)."
       },
@@ -11397,19 +8731,17 @@ const AICaseStudies = [
           "Still necessarily apply solely because a contract exists",
           "Not apply under the stated exemption for contracts between two companies",
           "Apply only if he is the Chairman",
-          "Apply only if Beta is a Government company"
+          "Apply only if Beta is a Government company",
         ],
         answer: 1,
         reason: "Section 184 provides an exemption where the director or directors together hold not more than 2% of the paid-up share capital in the other company, subject to the statutory conditions."
       }
     ]
   },
-
   // ============================================================
   // CHAPTER 3 – MEETINGS OF BOARD AND ITS POWERS
   // Hard – CASE SCENARIOS 1 TO 10
   // ============================================================
-
   {
     case_id: "CEL_CH3_T_CS01",
     difficulty: "Hard",
@@ -11436,12 +8768,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS01_Q01",
         question: "What is the ordinary quorum for the Board of Alpha Manufacturing Limited?",
-        options: [
-          "2 directors",
-          "5 directors",
-          "6 directors",
-          "9 directors"
-        ],
+        options: ["2 directors", "5 directors", "6 directors", "9 directors"],
         answer: 2,
         reason: "One-third of 18 directors is 6, which is higher than two. Therefore, the ordinary quorum is 6 directors."
       },
@@ -11452,7 +8779,7 @@ const AICaseStudies = [
           "No, because two-thirds is 10",
           "No, because two-thirds is 12",
           "Yes, because 13 is more than two-thirds of 18",
-          "Yes, but only if all 18 are physically present"
+          "Yes, but only if all 18 are physically present",
         ],
         answer: 2,
         reason: "Two-thirds of 18 is 12. Since 13 directors are interested, the threshold is exceeded."
@@ -11460,12 +8787,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS01_Q03",
         question: "For the particular transaction, what number of non-interested directors can constitute the quorum, subject to their presence?",
-        options: [
-          "1",
-          "2",
-          "5",
-          "6"
-        ],
+        options: ["1", "2", "5", "6"],
         answer: 2,
         reason: "Where interested directors are equal to or exceed two-thirds of total strength, the quorum is the number of non-interested directors present, subject to a minimum of two. Here, five non-interested directors are present."
       },
@@ -11476,7 +8798,7 @@ const AICaseStudies = [
           "All interested directors must be counted for quorum",
           "The ordinary one-third rule always applies",
           "The number of non-interested directors present, subject to minimum two, constitutes the quorum",
-          "The meeting automatically becomes invalid"
+          "The meeting automatically becomes invalid",
         ],
         answer: 2,
         reason: "Where interested directors equal or exceed two-thirds of total strength, the non-interested directors present, not being less than two, constitute the quorum."
@@ -11484,18 +8806,12 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS01_Q05",
         question: "If only one non-interested director were present for this item, could that director alone constitute the quorum?",
-        options: [
-          "Yes",
-          "Yes, because interested directors are excluded",
-          "No, because the minimum quorum under Section 174(3) is two",
-          "Yes, if the Chairman agrees"
-        ],
+        options: ["Yes", "Yes, because interested directors are excluded", "No, because the minimum quorum under Section 174(3) is two", "Yes, if the Chairman agrees"],
         answer: 2,
         reason: "Even under the special rule for interested directors, the number of non-interested directors constituting quorum cannot be less than two."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS02",
     difficulty: "Hard",
@@ -11525,7 +8841,7 @@ const AICaseStudies = [
           "No",
           "Yes, unless excluded for a particular item under the Act or Rules",
           "Only if they are independent directors",
-          "Only if all directors participate electronically"
+          "Only if all directors participate electronically",
         ],
         answer: 1,
         reason: "Directors participating through video conferencing or other audio-visual means are counted for quorum unless they are excluded for particular business under the Act or Rules."
@@ -11537,7 +8853,7 @@ const AICaseStudies = [
           "Only his name",
           "Name, location, confirmation of receipt of agenda/material and confirmation regarding access by others",
           "Only his shareholding",
-          "His income-tax details"
+          "His income-tax details",
         ],
         answer: 1,
         reason: "The roll call requires the director to state his name, location, confirmation of receipt of agenda/material and that no unauthorised person is attending or accessing the proceedings at that location."
@@ -11545,42 +8861,26 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS02_Q03",
         question: "If the statement of a director becomes garbled during the meeting, what should the Chairperson or Company Secretary do?",
-        options: [
-          "Ignore the statement",
-          "Immediately adjourn the meeting",
-          "Request the director to repeat or reiterate the statement",
-          "Treat the statement as dissent"
-        ],
+        options: ["Ignore the statement", "Immediately adjourn the meeting", "Request the director to repeat or reiterate the statement", "Treat the statement as dissent"],
         answer: 2,
         reason: "If a statement is interrupted or garbled, the Chairperson or Company Secretary should request a repeat or reiteration."
       },
       {
         question_id: "CEL_CH3_T_CS02_Q04",
         question: "Within what period should the draft minutes generally be circulated to all directors?",
-        options: [
-          "7 days",
-          "10 days",
-          "15 days",
-          "30 days"
-        ],
+        options: ["7 days", "10 days", "15 days", "30 days"],
         answer: 2,
         reason: "The draft minutes should be circulated among all directors within 15 days of the meeting."
       },
       {
         question_id: "CEL_CH3_T_CS02_Q05",
         question: "A director who attended through video conferencing receives the draft minutes but gives no comments within the prescribed period. Subject to the applicable Board decision regarding reasonable time, what is the consequence stated in the Rules?",
-        options: [
-          "His approval is presumed",
-          "His vote is automatically cancelled",
-          "The minutes become void",
-          "The meeting has to be reconvened"
-        ],
+        options: ["His approval is presumed", "His vote is automatically cancelled", "The minutes become void", "The meeting has to be reconvened"],
         answer: 0,
         reason: "If the director fails to confirm or provide comments within seven days or such reasonable time as decided by the Board, his approval is presumed."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS03",
     difficulty: "Hard",
@@ -11601,36 +8901,21 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS03_Q01",
         question: "Which of the following powers may be delegated by the Board under Section 179(3) and its proviso?",
-        options: [
-          "Approval of financial statements",
-          "Borrowing monies",
-          "Approval of amalgamation",
-          "Diversification of business"
-        ],
+        options: ["Approval of financial statements", "Borrowing monies", "Approval of amalgamation", "Diversification of business"],
         answer: 1,
         reason: "Borrowing monies is one of the specified powers which may be delegated by the Board subject to the statutory conditions."
       },
       {
         question_id: "CEL_CH3_T_CS03_Q02",
         question: "Can the Board delegate the power to approve the company's financial statements to the Managing Director under the stated provision?",
-        options: [
-          "Yes",
-          "No",
-          "Yes, if the auditor agrees",
-          "Yes, if shareholders are informed"
-        ],
+        options: ["Yes", "No", "Yes, if the auditor agrees", "Yes, if shareholders are informed"],
         answer: 1,
         reason: "Approval of financial statements and the Board's report is a power required to be exercised by the Board by resolution at a duly convened Board Meeting and is not among the specified delegable powers."
       },
       {
         question_id: "CEL_CH3_T_CS03_Q03",
         question: "Which of the following is also a matter required to be decided by the Board by resolution at a duly convened meeting?",
-        options: [
-          "Appointment of internal auditor",
-          "Routine purchase of stationery",
-          "Appointment of ordinary employees",
-          "Payment of utility bills"
-        ],
+        options: ["Appointment of internal auditor", "Routine purchase of stationery", "Appointment of ordinary employees", "Payment of utility bills"],
         answer: 0,
         reason: "Appointment or removal of key managerial personnel and appointment of internal auditors and secretarial auditor are among the prescribed matters requiring Board resolution at a meeting."
       },
@@ -11641,7 +8926,7 @@ const AICaseStudies = [
           "Borrowing, investment of funds, granting loans/guarantees/security",
           "Amalgamation, merger, financial statements",
           "Political contributions, amalgamation, takeover",
-          "Financial statements, diversification, borrowing"
+          "Financial statements, diversification, borrowing",
         ],
         answer: 0,
         reason: "The specified delegable powers are borrowing monies, investing company funds and granting loans or giving guarantees/providing security."
@@ -11649,18 +8934,12 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS03_Q05",
         question: "To whom may such specified powers be delegated?",
-        options: [
-          "Only shareholders",
-          "Committee of directors, Managing Director, Manager or specified principal officers",
-          "Only statutory auditor",
-          "Only Company Secretary"
-        ],
+        options: ["Only shareholders", "Committee of directors, Managing Director, Manager or specified principal officers", "Only statutory auditor", "Only Company Secretary"],
         answer: 1,
         reason: "The Board may delegate specified powers to a committee of directors, Managing Director, Manager or other principal officers as permitted by Section 179."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS04",
     difficulty: "Hard",
@@ -11682,66 +8961,40 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS04_Q01",
         question: "What is the aggregate of paid-up share capital, free reserves and securities premium in the case?",
-        options: [
-          "₹45 crore",
-          "₹50 crore",
-          "₹55 crore",
-          "₹75 crore"
-        ],
+        options: ["₹45 crore", "₹50 crore", "₹55 crore", "₹75 crore"],
         answer: 2,
         reason: "₹30 crore + ₹20 crore + ₹5 crore = ₹55 crore."
       },
       {
         question_id: "CEL_CH3_T_CS04_Q02",
         question: "Before the proposed borrowing, the company's relevant borrowings are:",
-        options: [
-          "₹20 crore",
-          "₹30 crore",
-          "₹45 crore",
-          "₹55 crore"
-        ],
+        options: ["₹20 crore", "₹30 crore", "₹45 crore", "₹55 crore"],
         answer: 2,
         reason: "The company already has ₹45 crore of relevant borrowings."
       },
       {
         question_id: "CEL_CH3_T_CS04_Q03",
         question: "If another ₹20 crore is borrowed, total relevant borrowings become:",
-        options: [
-          "₹55 crore",
-          "₹60 crore",
-          "₹65 crore",
-          "₹75 crore"
-        ],
+        options: ["₹55 crore", "₹60 crore", "₹65 crore", "₹75 crore"],
         answer: 2,
         reason: "Existing ₹45 crore + proposed ₹20 crore = ₹65 crore."
       },
       {
         question_id: "CEL_CH3_T_CS04_Q04",
         question: "Since ₹65 crore exceeds ₹55 crore, what is generally required under Section 180(1)(c)?",
-        options: [
-          "Only an ordinary Board resolution",
-          "Consent of the company by special resolution",
-          "Only auditor approval",
-          "No approval because assets are sufficient"
-        ],
+        options: ["Only an ordinary Board resolution", "Consent of the company by special resolution", "Only auditor approval", "No approval because assets are sufficient"],
         answer: 1,
         reason: "Borrowings together with existing borrowings exceeding the aggregate of paid-up share capital, free reserves and securities premium require shareholder consent by special resolution, subject to statutory exclusions."
       },
       {
         question_id: "CEL_CH3_T_CS04_Q05",
         question: "A special resolution concerning borrowing under Section 180(2) must:",
-        options: [
-          "Authorise unlimited borrowing",
-          "Specify the total amount up to which money may be borrowed",
-          "Specify only the interest rate",
-          "Be approved by the auditor"
-        ],
+        options: ["Authorise unlimited borrowing", "Specify the total amount up to which money may be borrowed", "Specify only the interest rate", "Be approved by the auditor"],
         answer: 1,
         reason: "The special resolution must specify the total amount up to which monies may be borrowed by the Board."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS05",
     difficulty: "Hard",
@@ -11763,48 +9016,28 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS05_Q01",
         question: "Does the general disclosure made at the beginning of the financial year eliminate the need for specific disclosure regarding the proposed contract?",
-        options: [
-          "Yes",
-          "No",
-          "Only if the director is independent",
-          "Only if the contract is below ₹1 crore"
-        ],
+        options: ["Yes", "No", "Only if the director is independent", "Only if the contract is below ₹1 crore"],
         answer: 1,
         reason: "General disclosure under Section 184(1) does not replace the specific disclosure required under Section 184(2) for a particular contract or arrangement."
       },
       {
         question_id: "CEL_CH3_T_CS05_Q02",
         question: "When must Director A make the specific disclosure?",
-        options: [
-          "At the AGM",
-          "At the Board Meeting where the contract is discussed for the first time",
-          "After execution of the contract",
-          "At the end of the financial year"
-        ],
+        options: ["At the AGM", "At the Board Meeting where the contract is discussed for the first time", "After execution of the contract", "At the end of the financial year"],
         answer: 1,
         reason: "The specific disclosure must be made at the Board Meeting in which the contract or arrangement is discussed for the first time."
       },
       {
         question_id: "CEL_CH3_T_CS05_Q03",
         question: "Can Director A participate in the discussion on the concerned contract under the general rule?",
-        options: [
-          "Yes",
-          "No",
-          "Only with the auditor's consent",
-          "Only if other directors agree"
-        ],
+        options: ["Yes", "No", "Only with the auditor's consent", "Only if other directors agree"],
         answer: 1,
         reason: "An interested director is required to disclose the interest and shall not participate in the meeting in relation to the concerned contract."
       },
       {
         question_id: "CEL_CH3_T_CS05_Q04",
         question: "If Director A participates in the meeting despite the prohibition, the contract is:",
-        options: [
-          "Automatically void",
-          "Voidable at the option of Meridian Limited",
-          "Voidable only by Delta Limited",
-          "Automatically ratified"
-        ],
+        options: ["Automatically void", "Voidable at the option of Meridian Limited", "Voidable only by Delta Limited", "Automatically ratified"],
         answer: 1,
         reason: "Under Section 184(3), the contract or arrangement is voidable at the option of the company."
       },
@@ -11815,14 +9048,13 @@ const AICaseStudies = [
           "Wait until the next financial year",
           "Disclose forthwith when he becomes interested or at the first Board Meeting thereafter",
           "Cancel the contract personally",
-          "Seek approval from the Registrar"
+          "Seek approval from the Registrar",
         ],
         answer: 1,
         reason: "Where a director becomes interested after the contract is entered into, he must disclose his concern or interest forthwith or at the first Board Meeting held after becoming interested."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS06",
     difficulty: "Hard",
@@ -11847,7 +9079,7 @@ const AICaseStudies = [
           "Yes, in every case",
           "No, it may fall under Section 185(2), subject to specified conditions",
           "Yes, unless the auditor approves",
-          "No, because Section 185 applies only to individuals"
+          "No, because Section 185 applies only to individuals",
         ],
         answer: 1,
         reason: "A company in which a director is a director or member is covered within the expression 'person in whom any of the director is interested' and may receive a loan subject to Section 185(2) conditions."
@@ -11855,12 +9087,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS06_Q02",
         question: "What shareholder approval is required under Section 185(2)?",
-        options: [
-          "Ordinary resolution",
-          "Special resolution",
-          "Board circular resolution",
-          "No resolution"
-        ],
+        options: ["Ordinary resolution", "Special resolution", "Board circular resolution", "No resolution"],
         answer: 1,
         reason: "A special resolution must be passed by the company in general meeting."
       },
@@ -11871,7 +9098,7 @@ const AICaseStudies = [
           "Only the name of the director",
           "Full particulars of the loan/guarantee/security, purpose of utilisation and other relevant facts",
           "Only the interest rate",
-          "Only the company's turnover"
+          "Only the company's turnover",
         ],
         answer: 1,
         reason: "Section 185(2) requires disclosure of full particulars, purpose of utilisation and other relevant facts in the explanatory statement."
@@ -11879,12 +9106,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS06_Q04",
         question: "The borrowing company must utilise the loan for:",
-        options: [
-          "Any personal investment of its directors",
-          "Its principal business activities",
-          "Political contributions",
-          "Dividend distribution only"
-        ],
+        options: ["Any personal investment of its directors", "Its principal business activities", "Political contributions", "Dividend distribution only"],
         answer: 1,
         reason: "A condition of the relaxation is that the loan must be utilised by the borrowing company for its principal business activities."
       },
@@ -11895,14 +9117,13 @@ const AICaseStudies = [
           "The director merely knows the shareholders of Beta",
           "The director is a director or member of Beta Private Limited",
           "The director once purchased goods from Beta",
-          "The director's relative is employed by Beta"
+          "The director's relative is employed by Beta",
         ],
         answer: 1,
         reason: "A private company of which such director is a director or member is expressly covered by the definition."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS07",
     difficulty: "Hard",
@@ -11923,24 +9144,14 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS07_Q01",
         question: "What is the normal statutory notice period for a Board Meeting?",
-        options: [
-          "3 days",
-          "5 days",
-          "7 days",
-          "15 days"
-        ],
+        options: ["3 days", "5 days", "7 days", "15 days"],
         answer: 2,
         reason: "At least seven days' notice in writing must ordinarily be given to every director."
       },
       {
         question_id: "CEL_CH3_T_CS07_Q02",
         question: "Can a Board Meeting be called at shorter notice for urgent business?",
-        options: [
-          "No",
-          "Yes",
-          "Only for private companies",
-          "Only with court approval"
-        ],
+        options: ["No", "Yes", "Only for private companies", "Only with court approval"],
         answer: 1,
         reason: "A Board Meeting may be called at shorter notice to transact urgent business subject to the statutory condition regarding an independent director."
       },
@@ -11951,7 +9162,7 @@ const AICaseStudies = [
           "At least one independent director should be present",
           "All independent directors must be present",
           "No independent director can attend",
-          "Only the Chairman can attend"
+          "Only the Chairman can attend",
         ],
         answer: 0,
         reason: "For a shorter-notice meeting to transact urgent business, at least one independent director, if any, shall be present."
@@ -11959,12 +9170,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS07_Q04",
         question: "If no independent director is present, decisions taken at such shorter-notice meeting become final:",
-        options: [
-          "Immediately",
-          "Only after ratification by at least one independent director, if any",
-          "Only after auditor approval",
-          "Only after approval of all shareholders"
-        ],
+        options: ["Immediately", "Only after ratification by at least one independent director, if any", "Only after auditor approval", "Only after approval of all shareholders"],
         answer: 1,
         reason: "Where no independent director is present, the decisions are to be circulated to all directors and become final only upon ratification by at least one independent director, if any."
       },
@@ -11975,14 +9181,13 @@ const AICaseStudies = [
           "It can only be delivered physically",
           "It may be sent by hand delivery, post or electronic means",
           "It must be sent only by registered post",
-          "It must be published in a newspaper"
+          "It must be published in a newspaper",
         ],
         answer: 1,
         reason: "Notice may be sent by hand delivery, post or electronic means to the registered address of every director."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS08",
     difficulty: "Hard",
@@ -12004,66 +9209,40 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS08_Q01",
         question: "Before specifying criteria for omnibus approval, the Audit Committee should obtain approval from:",
-        options: [
-          "The Board of Directors",
-          "The Registrar",
-          "The statutory auditor",
-          "Any shareholder"
-        ],
+        options: ["The Board of Directors", "The Registrar", "The statutory auditor", "Any shareholder"],
         answer: 0,
         reason: "The Audit Committee shall specify the criteria for omnibus approval after obtaining approval of the Board of Directors."
       },
       {
         question_id: "CEL_CH3_T_CS08_Q02",
         question: "Which of the following should be included in the criteria for omnibus approval?",
-        options: [
-          "Maximum aggregate value and maximum value per transaction",
-          "Only employee salaries",
-          "Only auditor remuneration",
-          "Only dividend rate"
-        ],
+        options: ["Maximum aggregate value and maximum value per transaction", "Only employee salaries", "Only auditor remuneration", "Only dividend rate"],
         answer: 0,
         reason: "The criteria should include the maximum aggregate value and maximum value per transaction, among other matters."
       },
       {
         question_id: "CEL_CH3_T_CS08_Q03",
         question: "The Audit Committee should consider which factors while specifying the criteria?",
-        options: [
-          "Repetitiveness of transactions and justification for omnibus approval",
-          "Only share price",
-          "Only employee strength",
-          "Only tax rate"
-        ],
+        options: ["Repetitiveness of transactions and justification for omnibus approval", "Only share price", "Only employee strength", "Only tax rate"],
         answer: 0,
         reason: "The Committee should consider the repetitiveness of transactions and justification for the need for omnibus approval."
       },
       {
         question_id: "CEL_CH3_T_CS08_Q04",
         question: "Can omnibus approval be granted for selling or disposing of the undertaking of the company?",
-        options: [
-          "Yes, without restriction",
-          "No",
-          "Only if the transaction is below ₹1 crore",
-          "Only if the auditor approves"
-        ],
+        options: ["Yes, without restriction", "No", "Only if the transaction is below ₹1 crore", "Only if the auditor approves"],
         answer: 1,
         reason: "Omnibus approval shall not be made for transactions relating to selling or disposing of the undertaking of the company."
       },
       {
         question_id: "CEL_CH3_T_CS08_Q05",
         question: "For how long is an omnibus approval valid under the stated Rule?",
-        options: [
-          "Three months",
-          "Six months",
-          "One financial year at most",
-          "Five years"
-        ],
+        options: ["Three months", "Six months", "One financial year at most", "Five years"],
         answer: 2,
         reason: "Omnibus approval is valid for a period not exceeding one financial year and fresh approval is required thereafter."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS09",
     difficulty: "Hard",
@@ -12093,12 +9272,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS09_Q01",
         question: "Is Company A required to hold even a single Board Meeting during the year under Section 173?",
-        options: [
-          "Yes, at least four",
-          "Yes, at least two",
-          "No, where the OPC has only one director",
-          "Only one meeting is mandatory"
-        ],
+        options: ["Yes, at least four", "Yes, at least two", "No, where the OPC has only one director", "Only one meeting is mandatory"],
         answer: 2,
         reason: "An OPC having only one director on its Board is exempt from the requirement of holding Board Meetings."
       },
@@ -12109,7 +9283,7 @@ const AICaseStudies = [
           "Four meetings every year with 120-day maximum gap",
           "One meeting in each half of a calendar year with at least 90 days' gap",
           "One meeting every month",
-          "Only one meeting every year"
+          "Only one meeting every year",
         ],
         answer: 1,
         reason: "A small company is deemed to comply by conducting at least one Board Meeting in each half of a calendar year with the gap between the two meetings not being less than 90 days."
@@ -12117,12 +9291,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS09_Q03",
         question: "Company B holds meetings in April and November. Is the 90-day minimum gap requirement satisfied?",
-        options: [
-          "No",
-          "Yes",
-          "Only if the company is listed",
-          "Only if shareholders approve"
-        ],
+        options: ["No", "Yes", "Only if the company is listed", "Only if shareholders approve"],
         answer: 1,
         reason: "The gap between April and November is more than 90 days, and the meetings fall in different halves of the calendar year."
       },
@@ -12133,7 +9302,7 @@ const AICaseStudies = [
           "No, because four meetings are compulsory",
           "Yes, because there is at least one meeting in each half of the calendar year",
           "No, because meetings must be monthly",
-          "Only if both meetings are held on the same date"
+          "Only if both meetings are held on the same date",
         ],
         answer: 1,
         reason: "A qualifying private start-up company may avail the specified relaxation requiring at least one meeting in each half of a calendar year with the prescribed minimum gap."
@@ -12141,18 +9310,12 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS09_Q05",
         question: "Which company is completely exempt from holding Board Meetings under the stated special rule?",
-        options: [
-          "Every small company",
-          "Every dormant company",
-          "An OPC having only one director",
-          "Every private company"
-        ],
+        options: ["Every small company", "Every dormant company", "An OPC having only one director", "Every private company"],
         answer: 2,
         reason: "The special exemption from holding even a single Board Meeting applies to an OPC having only one director."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS10",
     difficulty: "Hard",
@@ -12179,7 +9342,7 @@ const AICaseStudies = [
           "No",
           "Yes, because its paid-up share capital and turnover meet the prescribed thresholds",
           "Only because its loans exceed ₹50 crore",
-          "Only if it is a listed company"
+          "Only if it is a listed company",
         ],
         answer: 1,
         reason: "A public company having paid-up share capital of ₹10 crore or more or turnover of ₹100 crore or more falls within the prescribed class requiring an Audit Committee, subject to the applicable framework."
@@ -12191,7 +9354,7 @@ const AICaseStudies = [
           "No, because all members must be independent",
           "Yes, because independent directors form a majority",
           "No, because at least three independent directors are mandatory",
-          "Yes, only because it has four members"
+          "Yes, only because it has four members",
         ],
         answer: 1,
         reason: "The Audit Committee must have at least three directors with independent directors forming a majority. Two independent directors out of four do not technically constitute a majority, so the correct conclusion is that the proposed composition does NOT satisfy the requirement."
@@ -12199,24 +9362,14 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS10_Q03",
         question: "In the proposed Audit Committee of four members, how many independent directors would be required to form a majority?",
-        options: [
-          "1",
-          "2",
-          "3",
-          "4"
-        ],
+        options: ["1", "2", "3", "4"],
         answer: 2,
         reason: "For a four-member committee, at least three members must be independent directors to constitute a majority."
       },
       {
         question_id: "CEL_CH3_T_CS10_Q04",
         question: "The proposed NRC has three non-executive directors, of whom two are independent. Does this satisfy the composition requirement stated in the chapter?",
-        options: [
-          "Yes",
-          "No, because all three must be independent",
-          "No, because NRC must have five members",
-          "Only if the company is private"
-        ],
+        options: ["Yes", "No, because all three must be independent", "No, because NRC must have five members", "Only if the company is private"],
         answer: 0,
         reason: "The NRC must consist of three or more non-executive directors, of whom not less than one-half shall be independent directors. Two out of three are independent."
       },
@@ -12227,19 +9380,17 @@ const AICaseStudies = [
           "Yes, automatically",
           "No, the Chairperson of the company shall not chair the NRC, though he may be a member",
           "Yes, if two independent directors agree",
-          "Only if the company is listed"
+          "Only if the company is listed",
         ],
         answer: 1,
         reason: "The Chairperson of the company, whether executive or non-executive, shall not chair the NRC, although he may be appointed as a member."
       }
     ]
   },
-
   // ============================================================
   // CHAPTER 3 – MEETINGS OF BOARD AND ITS POWERS
   // Hard – CASE SCENARIOS 11 TO 20
   // ============================================================
-
   {
     case_id: "CEL_CH3_T_CS11",
     difficulty: "Hard",
@@ -12264,48 +9415,28 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS11_Q01",
         question: "For determining quorum, the relevant strength of the Board is generally:",
-        options: [
-          "The original sanctioned strength including vacancies",
-          "The actual strength of the Board",
-          "The number of shareholders",
-          "The paid-up capital"
-        ],
+        options: ["The original sanctioned strength including vacancies", "The actual strength of the Board", "The number of shareholders", "The paid-up capital"],
         answer: 1,
         reason: "Quorum is determined with reference to the total strength of the Board, and vacancies are not counted as directors forming part of the actual strength."
       },
       {
         question_id: "CEL_CH3_T_CS11_Q02",
         question: "If the actual strength is nine directors, what is one-third of the total strength?",
-        options: [
-          "2",
-          "3",
-          "4",
-          "5"
-        ],
+        options: ["2", "3", "4", "5"],
         answer: 1,
         reason: "One-third of nine is three. Since the statutory minimum is two, the higher figure applies."
       },
       {
         question_id: "CEL_CH3_T_CS11_Q03",
         question: "If five directors are present and the ordinary quorum is three, is the meeting ordinarily quorate?",
-        options: [
-          "Yes",
-          "No",
-          "Only if all directors vote",
-          "Only if the Chairman is present"
-        ],
+        options: ["Yes", "No", "Only if all directors vote", "Only if the Chairman is present"],
         answer: 0,
         reason: "Five directors are present, which is more than the required quorum of three."
       },
       {
         question_id: "CEL_CH3_T_CS11_Q04",
         question: "If two of the five directors are interested in the particular contract, how many non-interested directors are present?",
-        options: [
-          "2",
-          "3",
-          "4",
-          "5"
-        ],
+        options: ["2", "3", "4", "5"],
         answer: 1,
         reason: "Five directors are present and two are interested, leaving three non-interested directors."
       },
@@ -12316,14 +9447,13 @@ const AICaseStudies = [
           "Only non-interested directors are counted",
           "The ordinary quorum rule applies",
           "The meeting automatically stands dissolved",
-          "Only independent directors are counted"
+          "Only independent directors are counted",
         ],
         answer: 1,
         reason: "The special rule applies where the number of interested directors is equal to or exceeds two-thirds of the total strength. Otherwise, the ordinary quorum provision applies."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS12",
     difficulty: "Hard",
@@ -12349,36 +9479,21 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS12_Q01",
         question: "Can a Board resolution generally be passed by circulation?",
-        options: [
-          "No",
-          "Yes, subject to Section 175 and applicable conditions",
-          "Only by listed companies",
-          "Only with shareholder approval"
-        ],
+        options: ["No", "Yes, subject to Section 175 and applicable conditions", "Only by listed companies", "Only with shareholder approval"],
         answer: 1,
         reason: "Section 175 permits certain resolutions to be passed by circulation, subject to prescribed requirements."
       },
       {
         question_id: "CEL_CH3_T_CS12_Q02",
         question: "What must accompany the draft resolution circulated to directors?",
-        options: [
-          "Only the title of the resolution",
-          "The necessary papers explaining the proposed resolution",
-          "Only the auditor's report",
-          "Only the company's annual report"
-        ],
+        options: ["Only the title of the resolution", "The necessary papers explaining the proposed resolution", "Only the auditor's report", "Only the company's annual report"],
         answer: 1,
         reason: "The draft resolution must be circulated together with the necessary papers to all directors or members of the committee entitled to receive notice."
       },
       {
         question_id: "CEL_CH3_T_CS12_Q03",
         question: "If five out of eight directors approve and two reject, has the resolution received the required majority?",
-        options: [
-          "Yes",
-          "No",
-          "Only if the Chairman approves",
-          "Only if the auditor approves"
-        ],
+        options: ["Yes", "No", "Only if the Chairman approves", "Only if the auditor approves"],
         answer: 0,
         reason: "The resolution is passed by a majority of directors entitled to vote who have signified assent, subject to the statutory requirements."
       },
@@ -12389,7 +9504,7 @@ const AICaseStudies = [
           "It must be treated as a circular resolution",
           "The Chairman alone decides",
           "The resolution should be placed before a subsequent Board Meeting",
-          "It becomes automatically approved"
+          "It becomes automatically approved",
         ],
         answer: 2,
         reason: "If not less than one-third of the total number of directors require that a resolution under circulation be decided at a meeting, the Chairman is required to put it before a Board Meeting."
@@ -12397,18 +9512,12 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS12_Q05",
         question: "The fact that a resolution was passed by circulation should be:",
-        options: [
-          "Ignored in the minutes",
-          "Noted at a subsequent Board Meeting and made part of the minutes",
-          "Reported only to shareholders",
-          "Reported only to the auditor"
-        ],
+        options: ["Ignored in the minutes", "Noted at a subsequent Board Meeting and made part of the minutes", "Reported only to shareholders", "Reported only to the auditor"],
         answer: 1,
         reason: "Every resolution passed by circulation must be noted at a subsequent Board Meeting and made part of the minutes of that meeting."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS13",
     difficulty: "Hard",
@@ -12430,48 +9539,28 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS13_Q01",
         question: "Which provision primarily deals with the power of the Board to invest company funds?",
-        options: [
-          "Section 173",
-          "Section 174",
-          "Section 179",
-          "Section 185"
-        ],
+        options: ["Section 173", "Section 174", "Section 179", "Section 185"],
         answer: 2,
         reason: "Section 179 deals with powers of the Board, including investment of company funds."
       },
       {
         question_id: "CEL_CH3_T_CS13_Q02",
         question: "Can the Board delegate the power to invest company funds subject to prescribed conditions?",
-        options: [
-          "Yes",
-          "No",
-          "Only to shareholders",
-          "Only to statutory auditors"
-        ],
+        options: ["Yes", "No", "Only to shareholders", "Only to statutory auditors"],
         answer: 0,
         reason: "Investment of company funds is among the specified powers that may be delegated subject to the conditions of Section 179."
       },
       {
         question_id: "CEL_CH3_T_CS13_Q03",
         question: "Sale or disposal of the whole or substantially the whole of an undertaking is primarily governed by:",
-        options: [
-          "Section 180",
-          "Section 177",
-          "Section 184",
-          "Section 173"
-        ],
+        options: ["Section 180", "Section 177", "Section 184", "Section 173"],
         answer: 0,
         reason: "Section 180 contains restrictions on powers of the Board, including disposal of the whole or substantially the whole of an undertaking."
       },
       {
         question_id: "CEL_CH3_T_CS13_Q04",
         question: "For a transaction covered by Section 180(1)(a), what is generally required?",
-        options: [
-          "Only Board approval",
-          "Consent of the company by special resolution",
-          "Only auditor approval",
-          "Only approval of the Managing Director"
-        ],
+        options: ["Only Board approval", "Consent of the company by special resolution", "Only auditor approval", "Only approval of the Managing Director"],
         answer: 1,
         reason: "The Board cannot sell, lease or otherwise dispose of the whole or substantially the whole of the undertaking without the consent of the company by special resolution."
       },
@@ -12482,14 +9571,13 @@ const AICaseStudies = [
           "It automatically satisfies every statutory requirement",
           "It cannot substitute shareholder special resolution wherever Section 180 requires one",
           "It eliminates the need for Section 180",
-          "It is valid only if the auditor signs it"
+          "It is valid only if the auditor signs it",
         ],
         answer: 1,
         reason: "A Board resolution cannot substitute for shareholder approval where Section 180 expressly requires a special resolution."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS14",
     difficulty: "Hard",
@@ -12510,12 +9598,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS14_Q01",
         question: "Does discovery of a defect in appointment automatically invalidate every act previously done by the director?",
-        options: [
-          "Yes",
-          "No",
-          "Only if the company is public",
-          "Only if the director voted"
-        ],
+        options: ["Yes", "No", "Only if the company is public", "Only if the director voted"],
         answer: 1,
         reason: "Section 176 provides that acts done by a person as a director are not invalid merely because it is afterwards discovered that the appointment was invalid by reason of a disqualification or defect."
       },
@@ -12526,7 +9609,7 @@ const AICaseStudies = [
           "All acts are void",
           "Acts are protected from invalidity merely due to later discovery of appointment defect",
           "Only shareholder decisions are protected",
-          "Only acts involving money are protected"
+          "Only acts involving money are protected",
         ],
         answer: 1,
         reason: "The provision protects acts done by a director despite subsequent discovery of invalidity of the appointment, subject to the statutory exceptions."
@@ -12538,7 +9621,7 @@ const AICaseStudies = [
           "Yes, automatically",
           "No, Section 176 provides a statutory protection subject to its terms",
           "Yes, if the director received remuneration",
-          "Only if shareholders object"
+          "Only if shareholders object",
         ],
         answer: 1,
         reason: "Section 176 specifically addresses the effect of defects or invalidity in appointment and prevents automatic invalidation merely because of such defect, subject to its terms."
@@ -12550,7 +9633,7 @@ const AICaseStudies = [
           "Later discovery always rewinds every Board action",
           "Appointment defect and validity of acts are separate legal questions under Section 176",
           "Every director's act requires shareholder ratification",
-          "The auditor determines validity"
+          "The auditor determines validity",
         ],
         answer: 1,
         reason: "Section 176 separates the validity of the appointment from the validity of acts already done in the capacity of director."
@@ -12562,14 +9645,13 @@ const AICaseStudies = [
           "Protect shareholders from directors",
           "Prevent commercial acts from automatically becoming invalid merely because of a subsequent discovery concerning appointment",
           "Increase director remuneration",
-          "Replace the Board Meeting requirement"
+          "Replace the Board Meeting requirement",
         ],
         answer: 1,
         reason: "The provision provides continuity and protects acts already undertaken in the company's affairs despite a later-discovered defect in appointment."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS15",
     difficulty: "Hard",
@@ -12589,36 +9671,21 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS15_Q01",
         question: "Which provision deals with political contributions by companies?",
-        options: [
-          "Section 180",
-          "Section 182",
-          "Section 185",
-          "Section 188"
-        ],
+        options: ["Section 180", "Section 182", "Section 185", "Section 188"],
         answer: 1,
         reason: "Section 182 deals with prohibition and restrictions regarding political contributions by companies."
       },
       {
         question_id: "CEL_CH3_T_CS15_Q02",
         question: "A political contribution by a company generally requires:",
-        options: [
-          "Authorisation by a resolution passed at a Board Meeting",
-          "Only approval of the statutory auditor",
-          "Only approval of one director",
-          "No approval"
-        ],
+        options: ["Authorisation by a resolution passed at a Board Meeting", "Only approval of the statutory auditor", "Only approval of one director", "No approval"],
         answer: 0,
         reason: "A company may contribute to political parties subject to the statutory conditions, including authorisation by a resolution of the Board."
       },
       {
         question_id: "CEL_CH3_T_CS15_Q03",
         question: "The amount of political contribution should be disclosed in:",
-        options: [
-          "The company's financial statements in the prescribed manner",
-          "Only the director's personal tax return",
-          "Only the Board attendance register",
-          "No document"
-        ],
+        options: ["The company's financial statements in the prescribed manner", "Only the director's personal tax return", "Only the Board attendance register", "No document"],
         answer: 0,
         reason: "Political contributions are subject to prescribed disclosure requirements in the company's accounts."
       },
@@ -12629,7 +9696,7 @@ const AICaseStudies = [
           "A personal instruction of the Managing Director",
           "A Board resolution satisfying Section 182",
           "Proper corporate authorisation",
-          "Compliance with statutory conditions"
+          "Compliance with statutory conditions",
         ],
         answer: 0,
         reason: "A personal instruction of the Managing Director cannot substitute for the statutory corporate authorisation required under Section 182."
@@ -12641,14 +9708,13 @@ const AICaseStudies = [
           "It permits unrestricted political donations",
           "It regulates political contributions and prescribes conditions for lawful contributions",
           "It deals exclusively with employee donations",
-          "It applies only to directors personally"
+          "It applies only to directors personally",
         ],
         answer: 1,
         reason: "Section 182 regulates political contributions by companies and lays down conditions and disclosure requirements."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS16",
     difficulty: "Hard",
@@ -12668,36 +9734,21 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS16_Q01",
         question: "Which provision deals with contributions to the National Defence Fund and other prescribed funds?",
-        options: [
-          "Section 181",
-          "Section 182",
-          "Section 183",
-          "Section 185"
-        ],
+        options: ["Section 181", "Section 182", "Section 183", "Section 185"],
         answer: 2,
         reason: "Section 183 specifically deals with the power of the Board to contribute to the National Defence Fund and other prescribed funds."
       },
       {
         question_id: "CEL_CH3_T_CS16_Q02",
         question: "Who exercises the power under Section 183?",
-        options: [
-          "Only shareholders",
-          "The Board of Directors",
-          "Only the statutory auditor",
-          "Only the Registrar"
-        ],
+        options: ["Only shareholders", "The Board of Directors", "Only the statutory auditor", "Only the Registrar"],
         answer: 1,
         reason: "Section 183 confers the power to contribute on the Board of Directors."
       },
       {
         question_id: "CEL_CH3_T_CS16_Q03",
         question: "Can the Managing Director make the contribution solely on his personal authority without Board authorisation?",
-        options: [
-          "Yes",
-          "No",
-          "Yes, if the amount is below ₹1 crore",
-          "Yes, if shareholders are informed later"
-        ],
+        options: ["Yes", "No", "Yes, if the amount is below ₹1 crore", "Yes, if shareholders are informed later"],
         answer: 1,
         reason: "The statutory power belongs to the Board and cannot simply be exercised by the Managing Director without proper authority."
       },
@@ -12708,7 +9759,7 @@ const AICaseStudies = [
           "It completely prohibits national defence contributions",
           "It enables the Board to make specified contributions",
           "It applies only to individuals",
-          "It requires a special resolution for every contribution"
+          "It requires a special resolution for every contribution",
         ],
         answer: 1,
         reason: "Section 183 provides the Board with the statutory power to contribute to the National Defence Fund and other prescribed funds."
@@ -12716,18 +9767,12 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS16_Q05",
         question: "The contribution in the case should be treated as:",
-        options: [
-          "A personal contribution of the Managing Director",
-          "A corporate contribution subject to the Companies Act requirements",
-          "An employee benefit",
-          "A dividend"
-        ],
+        options: ["A personal contribution of the Managing Director", "A corporate contribution subject to the Companies Act requirements", "An employee benefit", "A dividend"],
         answer: 1,
         reason: "Since the contribution is made by the company, it is a corporate contribution and must comply with the applicable statutory requirements."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS17",
     difficulty: "Hard",
@@ -12748,48 +9793,28 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS17_Q01",
         question: "Which provision deals with the power of the Board to contribute to bona fide charitable and other funds?",
-        options: [
-          "Section 179",
-          "Section 180",
-          "Section 181",
-          "Section 183"
-        ],
+        options: ["Section 179", "Section 180", "Section 181", "Section 183"],
         answer: 2,
         reason: "Section 181 deals with the Board's power to contribute to bona fide charitable and other funds."
       },
       {
         question_id: "CEL_CH3_T_CS17_Q02",
         question: "If the proposed contribution exceeds the prescribed percentage of the average net profits of the preceding three financial years, what is generally required?",
-        options: [
-          "Only approval of the Finance Director",
-          "Prior permission of the company in general meeting",
-          "Only auditor certification",
-          "No additional approval"
-        ],
+        options: ["Only approval of the Finance Director", "Prior permission of the company in general meeting", "Only auditor certification", "No additional approval"],
         answer: 1,
         reason: "Where the aggregate contributions exceed the prescribed threshold, prior permission of the company in general meeting is required."
       },
       {
         question_id: "CEL_CH3_T_CS17_Q03",
         question: "The relevant average net profits are generally calculated with reference to:",
-        options: [
-          "One preceding financial year",
-          "Two preceding financial years",
-          "Three immediately preceding financial years",
-          "Five preceding financial years"
-        ],
+        options: ["One preceding financial year", "Two preceding financial years", "Three immediately preceding financial years", "Five preceding financial years"],
         answer: 2,
         reason: "The statutory threshold under Section 181 refers to the average net profits of the three immediately preceding financial years."
       },
       {
         question_id: "CEL_CH3_T_CS17_Q04",
         question: "Is every charitable contribution automatically governed only by CSR provisions?",
-        options: [
-          "Yes",
-          "No",
-          "Only for listed companies",
-          "Only for private companies"
-        ],
+        options: ["Yes", "No", "Only for listed companies", "Only for private companies"],
         answer: 1,
         reason: "Section 181 separately governs contributions to bona fide charitable and other funds, while CSR is governed by its own statutory framework."
       },
@@ -12800,14 +9825,13 @@ const AICaseStudies = [
           "Whether the contribution exceeds the statutory threshold requiring general meeting approval",
           "Whether the auditor likes the charity",
           "Whether employees approve",
-          "Whether the fund has shares in the company"
+          "Whether the fund has shares in the company",
         ],
         answer: 0,
         reason: "The crucial issue is whether the contribution exceeds the prescribed threshold under Section 181."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS18",
     difficulty: "Hard",
@@ -12827,48 +9851,28 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS18_Q01",
         question: "What is the minimum number of directors generally required on the NRC?",
-        options: [
-          "2",
-          "3",
-          "4",
-          "5"
-        ],
+        options: ["2", "3", "4", "5"],
         answer: 1,
         reason: "The NRC shall consist of three or more non-executive directors."
       },
       {
         question_id: "CEL_CH3_T_CS18_Q02",
         question: "What proportion of NRC members should be independent directors?",
-        options: [
-          "At least one-third",
-          "At least one-half",
-          "All members",
-          "None"
-        ],
+        options: ["At least one-third", "At least one-half", "All members", "None"],
         answer: 1,
         reason: "Not less than one-half of the members of the NRC should be independent directors."
       },
       {
         question_id: "CEL_CH3_T_CS18_Q03",
         question: "Does a three-member NRC with only one independent director satisfy the independence requirement?",
-        options: [
-          "Yes",
-          "No",
-          "Yes, because one-third is sufficient",
-          "Only if the Chairperson is independent"
-        ],
+        options: ["Yes", "No", "Yes, because one-third is sufficient", "Only if the Chairperson is independent"],
         answer: 1,
         reason: "For three members, at least two should be independent because not less than one-half must be independent."
       },
       {
         question_id: "CEL_CH3_T_CS18_Q04",
         question: "Can the Chairperson of the company chair the NRC?",
-        options: [
-          "Yes",
-          "No, although the Chairperson may be a member",
-          "Yes, if he is non-executive",
-          "Yes, if shareholders approve"
-        ],
+        options: ["Yes", "No, although the Chairperson may be a member", "Yes, if he is non-executive", "Yes, if shareholders approve"],
         answer: 1,
         reason: "The Chairperson of the company shall not chair the NRC, although he may be appointed as a member."
       },
@@ -12879,14 +9883,13 @@ const AICaseStudies = [
           "Recommend persons for appointment as directors and senior management",
           "Conduct statutory audit",
           "Issue shares without Board approval",
-          "Maintain the cash book"
+          "Maintain the cash book",
         ],
         answer: 0,
         reason: "The NRC identifies suitable persons for directorship and senior management positions and recommends their appointment/removal in accordance with Section 178."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS19",
     difficulty: "Hard",
@@ -12911,7 +9914,7 @@ const AICaseStudies = [
           "When the company has more than 100 shareholders",
           "When the company has more than 500 shareholders, debenture-holders, deposit-holders and other security holders in aggregate",
           "Only when the company is listed",
-          "Only when complaints exceed 1,000"
+          "Only when complaints exceed 1,000",
         ],
         answer: 1,
         reason: "Where the company has more than 1,000 shareholders, debenture-holders, deposit-holders and other security holders at any time during a financial year, the Board shall constitute a Stakeholders Relationship Committee."
@@ -12919,54 +9922,33 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS19_Q02",
         question: "With 1,200 shareholders, does Prime Limited cross the stated threshold?",
-        options: [
-          "No",
-          "Yes",
-          "Only if listed",
-          "Only if it has debentures"
-        ],
+        options: ["No", "Yes", "Only if listed", "Only if it has debentures"],
         answer: 1,
         reason: "1,200 shareholders exceed the threshold of more than 1,000 security holders."
       },
       {
         question_id: "CEL_CH3_T_CS19_Q03",
         question: "Who shall chair the Stakeholders Relationship Committee?",
-        options: [
-          "The Managing Director compulsorily",
-          "A non-executive director nominated by the Board",
-          "The statutory auditor",
-          "The Company Secretary compulsorily"
-        ],
+        options: ["The Managing Director compulsorily", "A non-executive director nominated by the Board", "The statutory auditor", "The Company Secretary compulsorily"],
         answer: 1,
         reason: "The Stakeholders Relationship Committee shall be chaired by a non-executive director and such other members as prescribed."
       },
       {
         question_id: "CEL_CH3_T_CS19_Q04",
         question: "Which matter falls directly within the committee's role?",
-        options: [
-          "Resolving grievances of security holders",
-          "Preparing the statutory audit report",
-          "Determining corporate tax liability",
-          "Approving all loans to directors"
-        ],
+        options: ["Resolving grievances of security holders", "Preparing the statutory audit report", "Determining corporate tax liability", "Approving all loans to directors"],
         answer: 0,
         reason: "The committee considers and resolves grievances of security holders of the company."
       },
       {
         question_id: "CEL_CH3_T_CS19_Q05",
         question: "Which complaint is most clearly within the committee's stakeholder-grievance role?",
-        options: [
-          "Non-receipt of dividend",
-          "Employee attendance",
-          "Factory maintenance",
-          "Raw material wastage"
-        ],
+        options: ["Non-receipt of dividend", "Employee attendance", "Factory maintenance", "Raw material wastage"],
         answer: 0,
         reason: "Non-receipt of dividend is a grievance of a security holder and falls within the committee's responsibilities."
       }
     ]
   },
-
   {
     case_id: "CEL_CH3_T_CS20",
     difficulty: "Hard",
@@ -12993,70 +9975,43 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS20_Q01",
         question: "What is the general maximum gap permitted between two consecutive Board Meetings?",
-        options: [
-          "60 days",
-          "90 days",
-          "120 days",
-          "180 days"
-        ],
+        options: ["60 days", "90 days", "120 days", "180 days"],
         answer: 2,
         reason: "The gap between two consecutive Board Meetings should not exceed 120 days, subject to the applicable provisions."
       },
       {
         question_id: "CEL_CH3_T_CS20_Q02",
         question: "Does holding four meetings automatically establish compliance with all Board Meeting requirements?",
-        options: [
-          "Yes",
-          "No",
-          "Only for listed companies",
-          "Only if all meetings were physical"
-        ],
+        options: ["Yes", "No", "Only for listed companies", "Only if all meetings were physical"],
         answer: 1,
         reason: "Frequency of meetings is only one requirement. Notice, quorum, participation and other statutory conditions must independently be complied with."
       },
       {
         question_id: "CEL_CH3_T_CS20_Q03",
         question: "If the September meeting notice was sent only five days in advance, what is the normal statutory notice requirement?",
-        options: [
-          "3 days",
-          "5 days",
-          "7 days",
-          "15 days"
-        ],
+        options: ["3 days", "5 days", "7 days", "15 days"],
         answer: 2,
         reason: "The normal requirement is at least seven days' written notice to every director, subject to the shorter-notice provisions for urgent business."
       },
       {
         question_id: "CEL_CH3_T_CS20_Q04",
         question: "For a Board of 15 directors, what is the ordinary quorum?",
-        options: [
-          "3",
-          "5",
-          "6",
-          "8"
-        ],
+        options: ["3", "5", "6", "8"],
         answer: 1,
         reason: "One-third of 15 is 5, which is higher than the statutory minimum of two."
       },
       {
         question_id: "CEL_CH3_T_CS20_Q05",
         question: "At the December meeting, four directors are physically present and three participate through permitted audio-visual means. Assuming none is excluded from quorum, what is the total number counted for quorum?",
-        options: [
-          "4",
-          "5",
-          "7",
-          "15"
-        ],
+        options: ["4", "5", "7", "15"],
         answer: 2,
         reason: "Directors participating through permitted video conferencing/audio-visual means are counted for quorum. Therefore, 4 physical + 3 electronic participants = 7 directors."
       }
     ]
   },
-
 /* =========================================================
    CASE SCENARIO 1 — SECTION 186: LIMIT ON LOANS & INVESTMENTS
 ========================================================= */
-
 {
   case_id: "CEL_186_MED_01",
   difficulty: "Medium",
@@ -13075,79 +10030,46 @@ const AICaseStudies = [
     interest thereon.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_186_MED_01_1",
       question: "What is the maximum aggregate limit under Section 186(2) applicable to Arnav Technologies Limited?",
-      options: [
-        "₹13 crore",
-        "₹15 crore",
-        "₹10 crore",
-        "₹8 crore"
-      ],
+      options: ["₹13 crore", "₹15 crore", "₹10 crore", "₹8 crore"],
       answer: 1,
       explanation: "The limit is 60% of paid-up share capital, free reserves and securities premium or 100% of free reserves and securities premium, whichever is higher. 60% of ₹15 crore = ₹9 crore, while 100% of ₹7 crore = ₹7 crore. Hence the higher limit is ₹9 crore."
     },
-
     {
       question_id: "CEL_186_MED_01_2",
       question: "After considering the existing ₹6 crore exposure, how much additional exposure can be undertaken without a special resolution?",
-      options: [
-        "₹2 crore",
-        "₹3 crore",
-        "₹4 crore",
-        "₹5 crore"
-      ],
+      options: ["₹2 crore", "₹3 crore", "₹4 crore", "₹5 crore"],
       answer: 0,
       explanation: "The overall Section 186(2) limit is ₹9 crore. Existing exposure is ₹6 crore, leaving ₹3 crore. However, the option structure requires careful application; the correct additional amount is ₹3 crore."
     },
-
     {
       question_id: "CEL_186_MED_01_3",
       question: "If the proposed ₹5 crore investment causes the prescribed limit to be exceeded, what approval is generally required?",
-      options: [
-        "Board approval only",
-        "Ordinary resolution",
-        "Special resolution",
-        "Approval of the Registrar"
-      ],
+      options: ["Board approval only", "Ordinary resolution", "Special resolution", "Approval of the Registrar"],
       answer: 2,
       explanation: "Where the aggregate transactions exceed the Section 186(2) limit, prior authorization through a special resolution is required under Section 186(3)."
     },
-
     {
       question_id: "CEL_186_MED_01_4",
       question: "For Section 186(2), an individual employee of the company is:",
-      options: [
-        "Always included within the meaning of person",
-        "Excluded from the meaning of person",
-        "Included only if he is a director",
-        "Included only if he is a KMP"
-      ],
+      options: ["Always included within the meaning of person", "Excluded from the meaning of person", "Included only if he is a director", "Included only if he is a KMP"],
       answer: 1,
       explanation: "The Explanation to Section 186(2) provides that the word 'person' does not include an individual who is in the employment of the company."
     },
-
     {
       question_id: "CEL_186_MED_01_5",
       question: "Which of the following transactions is covered by the aggregate limit under Section 186(2)?",
-      options: [
-        "Only loans",
-        "Only investments",
-        "Loans, guarantees/securities and acquisition of securities",
-        "Only guarantees"
-      ],
+      options: ["Only loans", "Only investments", "Loans, guarantees/securities and acquisition of securities", "Only guarantees"],
       answer: 2,
       explanation: "Section 186(2) covers loans, guarantees/security in connection with loans and acquisition of securities."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 2 — SECTION 186: WHOLLY OWNED SUBSIDIARY
 ========================================================= */
-
 {
   case_id: "CEL_186_MED_02",
   difficulty: "Medium",
@@ -13165,7 +10087,6 @@ const AICaseStudies = [
     <p>The company intends to disclose the transactions in its financial statements.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_186_MED_02_1",
       question: "Is a special resolution required merely because the loan to the wholly owned subsidiary exceeds the Section 186(2) limit?",
@@ -13173,25 +10094,18 @@ const AICaseStudies = [
         "Yes, in every case",
         "No, the special resolution requirement is exempted for specified wholly owned subsidiary transactions",
         "Yes, but only for private companies",
-        "Yes, if the loan exceeds ₹10 crore"
+        "Yes, if the loan exceeds ₹10 crore",
       ],
       answer: 1,
       explanation: "The first proviso to Section 186(3) provides exemption from the special resolution requirement for loans/guarantees/security to a wholly owned subsidiary, subject to the statutory conditions."
     },
-
     {
       question_id: "CEL_186_MED_02_2",
       question: "Even where the special resolution is not required, the company should:",
-      options: [
-        "Make no disclosure",
-        "Disclose the relevant details in its financial statements",
-        "Obtain approval of every creditor",
-        "Obtain approval of the Registrar"
-      ],
+      options: ["Make no disclosure", "Disclose the relevant details in its financial statements", "Obtain approval of every creditor", "Obtain approval of the Registrar"],
       answer: 1,
       explanation: "The exemption from special resolution is accompanied by disclosure requirements in the financial statements."
     },
-
     {
       question_id: "CEL_186_MED_02_3",
       question: "A loan or guarantee under Section 186(5) should generally be sanctioned by:",
@@ -13199,12 +10113,11 @@ const AICaseStudies = [
         "The Managing Director alone",
         "A resolution passed by circulation only",
         "A Board resolution at a Board meeting with consent of all directors present",
-        "The Company Secretary"
+        "The Company Secretary",
       ],
       answer: 2,
       explanation: "Section 186(5) requires the sanctioning resolution to be passed at a Board meeting with the consent of all directors present."
     },
-
     {
       question_id: "CEL_186_MED_02_4",
       question: "Which statement regarding delegation of the power under Section 186 is most appropriate?",
@@ -13212,12 +10125,11 @@ const AICaseStudies = [
         "The Board can freely delegate the power to invest under Section 186",
         "Section 186 specifically permits delegation to the Managing Director",
         "Section 186 does not provide for delegation of the Section 186(5) requirement",
-        "The Company Secretary may independently approve investments"
+        "The Company Secretary may independently approve investments",
       ],
       answer: 2,
       explanation: "Section 186 requires the relevant transaction to be sanctioned by the Board in the prescribed manner and does not provide the delegation contemplated under Section 179 for this purpose."
     },
-
     {
       question_id: "CEL_186_MED_02_5",
       question: "If a public financial institution term loan is subsisting, prior approval is generally required unless:",
@@ -13225,19 +10137,16 @@ const AICaseStudies = [
         "The company has no employees",
         "The Section 186(2) limit is not exceeded and there is no default in repayment/payment of interest",
         "The transaction is below ₹1 crore",
-        "The subsidiary is foreign"
+        "The subsidiary is foreign",
       ],
       answer: 1,
       explanation: "The proviso to Section 186(5) dispenses with prior PFI approval where the aggregate exposure does not exceed the Section 186(2) limit and there is no default in repayment or interest payment to the PFI."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 3 — SECTION 186: RATE OF INTEREST
 ========================================================= */
-
 {
   case_id: "CEL_186_MED_03",
   difficulty: "Medium",
@@ -13252,20 +10161,13 @@ const AICaseStudies = [
     transaction has been approved by the Board.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_186_MED_03_1",
       question: "What is the minimum rate at which the loan should generally be given under Section 186(7)?",
-      options: [
-        "5%",
-        "6.5%",
-        "7.5%",
-        "10%"
-      ],
+      options: ["5%", "6.5%", "7.5%", "10%"],
       answer: 2,
       explanation: "A loan under Section 186 should be given at a rate not lower than the prevailing yield of the Government Security closest to the tenor of the loan."
     },
-
     {
       question_id: "CEL_186_MED_03_2",
       question: "Can Board approval alone permit Nova Engineering to charge 6.5%?",
@@ -13273,38 +10175,25 @@ const AICaseStudies = [
         "Yes",
         "Yes, if the borrower is a related party",
         "No, the statutory minimum rate requirement must also be complied with",
-        "Yes, if shareholders are informed later"
+        "Yes, if shareholders are informed later",
       ],
       answer: 2,
       explanation: "Board approval does not override the statutory minimum interest requirement under Section 186(7)."
     },
-
     {
       question_id: "CEL_186_MED_03_3",
       question: "The Government Security yield relevant under Section 186(7) is selected based on:",
-      options: [
-        "The age of the borrower",
-        "The closest tenor of the loan",
-        "The paid-up capital of the lender",
-        "The credit rating of the borrower alone"
-      ],
+      options: ["The age of the borrower", "The closest tenor of the loan", "The paid-up capital of the lender", "The credit rating of the borrower alone"],
       answer: 1,
       explanation: "The rate is linked to the prevailing yield of the 1-year, 3-year, 5-year or 10-year Government Security closest to the tenor of the loan."
     },
-
     {
       question_id: "CEL_186_MED_03_4",
       question: "Which of the following is relevant to determining the rate under Section 186(7)?",
-      options: [
-        "Government Security yield",
-        "Company's dividend rate",
-        "Bank rate alone",
-        "Cost of equity"
-      ],
+      options: ["Government Security yield", "Company's dividend rate", "Bank rate alone", "Cost of equity"],
       answer: 0,
       explanation: "Section 186(7) specifically refers to the prevailing yield on specified Government Securities."
     },
-
     {
       question_id: "CEL_186_MED_03_5",
       question: "If a company is in default in repayment of deposits, Section 186(8) generally restricts it from:",
@@ -13312,19 +10201,16 @@ const AICaseStudies = [
         "Only making investments",
         "Only giving guarantees",
         "Giving loans, guarantees, securities or making acquisitions covered by Section 186",
-        "Holding shares in subsidiaries"
+        "Holding shares in subsidiaries",
       ],
       answer: 2,
       explanation: "A company in default in repayment of deposits or interest cannot undertake the specified transactions under Section 186 while the default subsists."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 4 — SECTION 187: INVESTMENTS IN OWN NAME
 ========================================================= */
-
 {
   case_id: "CEL_187_MED_04",
   difficulty: "Medium",
@@ -13342,7 +10228,6 @@ const AICaseStudies = [
     investments must always be held in the company's own name.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_187_MED_04_1",
       question: "What is the general rule under Section 187(1)?",
@@ -13350,38 +10235,25 @@ const AICaseStudies = [
         "Investments must be held in the name of the Managing Director",
         "Investments must be made and held in the company's own name",
         "Investments must be held in the name of the banker",
-        "Investments must be held in the name of the Company Secretary"
+        "Investments must be held in the name of the Company Secretary",
       ],
       answer: 1,
       explanation: "Section 187(1) requires investments made or held by a company to be made and held in its own name, subject to specified exceptions."
     },
-
     {
       question_id: "CEL_187_MED_04_2",
       question: "Can securities be deposited with a banker for collection of dividend or interest?",
-      options: [
-        "No",
-        "Yes",
-        "Only with approval of shareholders",
-        "Only with approval of the Registrar"
-      ],
+      options: ["No", "Yes", "Only with approval of shareholders", "Only with approval of the Registrar"],
       answer: 1,
       explanation: "Section 187(2) permits securities to be deposited with bankers for collection of dividend or interest."
     },
-
     {
       question_id: "CEL_187_MED_04_3",
       question: "Where securities are held in the name of a banker to facilitate transfer and no transfer occurs within the prescribed period, they should generally be:",
-      options: [
-        "Sold by the banker",
-        "Cancelled",
-        "Re-transferred to the company / held again in the company's own name",
-        "Transferred to the directors"
-      ],
+      options: ["Sold by the banker", "Cancelled", "Re-transferred to the company / held again in the company's own name", "Transferred to the directors"],
       answer: 2,
       explanation: "If no transfer takes place within six months, the securities should be re-transferred to the company or again held in its own name."
     },
-
     {
       question_id: "CEL_187_MED_04_4",
       question: "Which of the following is a permitted exception to holding investments in the company's own name?",
@@ -13389,32 +10261,23 @@ const AICaseStudies = [
         "Holding securities in the name of a depository where the company is beneficial owner",
         "Holding shares in the name of any employee",
         "Holding investments in the name of a director",
-        "Holding investments in the name of a promoter"
+        "Holding investments in the name of a promoter",
       ],
       answer: 0,
       explanation: "Section 187 permits securities held in the name of a depository where the company is the beneficial owner."
     },
-
     {
       question_id: "CEL_187_MED_04_5",
       question: "Where securities are held in the name of a depository and the company is beneficial owner, the company is required to maintain:",
-      options: [
-        "Form MBP-1",
-        "Form MBP-2",
-        "Form MBP-3",
-        "Form MBP-4"
-      ],
+      options: ["Form MBP-1", "Form MBP-2", "Form MBP-3", "Form MBP-4"],
       answer: 2,
       explanation: "The register relating to investments beneficially held but not held in the company's own name is maintained in Form MBP-3."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 5 — SECTION 188: RELATED PARTY TRANSACTION
 ========================================================= */
-
 {
   case_id: "CEL_188_MED_05",
   difficulty: "Medium",
@@ -13432,79 +10295,46 @@ const AICaseStudies = [
     has received the notice of the meeting.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_188_MED_05_1",
       question: "The private company in which the director or his relative is a member can be a:",
-      options: [
-        "Related party",
-        "Government company only",
-        "Public financial institution only",
-        "Depository"
-      ],
+      options: ["Related party", "Government company only", "Public financial institution only", "Depository"],
       answer: 0,
       explanation: "Under Section 2(76), a private company in which a director, manager or his relative is a member or director is a related party."
     },
-
     {
       question_id: "CEL_188_MED_05_2",
       question: "Since the transaction is not at arm's length, Section 188 may be attracted even though:",
-      options: [
-        "It is with a related party",
-        "It is below the threshold requiring shareholder approval",
-        "It involves goods",
-        "It is approved by management"
-      ],
+      options: ["It is with a related party", "It is below the threshold requiring shareholder approval", "It involves goods", "It is approved by management"],
       answer: 1,
       explanation: "An ordinary-course-and-arm's-length transaction is outside Section 188(1). Since the transaction is not at arm's length, the applicable approval requirements must be considered."
     },
-
     {
       question_id: "CEL_188_MED_05_3",
       question: "Where shareholder approval is not required, the related party transaction should generally be entered into after:",
-      options: [
-        "Consent of the Board by resolution at a Board meeting",
-        "Approval of the Registrar",
-        "Approval of the statutory auditor",
-        "Approval of the bank"
-      ],
+      options: ["Consent of the Board by resolution at a Board meeting", "Approval of the Registrar", "Approval of the statutory auditor", "Approval of the bank"],
       answer: 0,
       explanation: "Where Section 188 applies but the transaction does not cross the prescribed threshold requiring shareholder approval, Board approval is required."
     },
-
     {
       question_id: "CEL_188_MED_05_4",
       question: "Should the interested director receive notice of the Board meeting?",
-      options: [
-        "No, because he is interested",
-        "Yes, notice must still be given",
-        "Only if the transaction exceeds the threshold",
-        "Only if shareholders approve"
-      ],
+      options: ["No, because he is interested", "Yes, notice must still be given", "Only if the transaction exceeds the threshold", "Only if shareholders approve"],
       answer: 1,
       explanation: "Notice of Board meetings must be given to every director. The interested director may be restricted from participating in the relevant discussion/voting, but notice is still required."
     },
-
     {
       question_id: "CEL_188_MED_05_5",
       question: "Which of the following is included among transactions covered by Section 188(1)?",
-      options: [
-        "Sale, purchase or supply of goods or materials",
-        "Issue of shares to the public",
-        "Payment of statutory taxes",
-        "Holding an AGM"
-      ],
+      options: ["Sale, purchase or supply of goods or materials", "Issue of shares to the public", "Payment of statutory taxes", "Holding an AGM"],
       answer: 0,
       explanation: "Sale, purchase or supply of goods or materials is one of the specified related party transactions under Section 188(1)."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 6 — SECTION 188: THRESHOLDS
 ========================================================= */
-
 {
   case_id: "CEL_188_MED_06",
   difficulty: "Medium",
@@ -13526,59 +10356,34 @@ const AICaseStudies = [
     <p>The transactions are with related parties and are not at arm's length.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_188_MED_06_1",
       question: "For purchase of goods, the prescribed threshold for ordinary resolution is generally:",
-      options: [
-        "10% or more of turnover",
-        "10% or more of net worth",
-        "5% of paid-up capital",
-        "₹1 crore in every case"
-      ],
+      options: ["10% or more of turnover", "10% or more of net worth", "5% of paid-up capital", "₹1 crore in every case"],
       answer: 0,
       explanation: "For sale, purchase or supply of goods/materials, the prescribed threshold is 10% or more of turnover."
     },
-
     {
       question_id: "CEL_188_MED_06_2",
       question: "For acquisition or disposal of property, the relevant threshold is:",
-      options: [
-        "10% or more of turnover",
-        "10% or more of net worth",
-        "5% of turnover",
-        "2.5% of net worth"
-      ],
+      options: ["10% or more of turnover", "10% or more of net worth", "5% of turnover", "2.5% of net worth"],
       answer: 1,
       explanation: "For selling, disposing of or buying property, the prescribed threshold is 10% or more of net worth."
     },
-
     {
       question_id: "CEL_188_MED_06_3",
       question: "₹5 crore property transaction is equal to what percentage of Orbit's net worth?",
-      options: [
-        "5%",
-        "8%",
-        "10%",
-        "12.5%"
-      ],
+      options: ["5%", "8%", "10%", "12.5%"],
       answer: 3,
       explanation: "₹5 crore ÷ ₹50 crore × 100 = 10%. Therefore, it reaches the 10% threshold."
     },
-
     {
       question_id: "CEL_188_MED_06_4",
       question: "The ₹8 crore leasing transaction represents what percentage of turnover?",
-      options: [
-        "5%",
-        "8%",
-        "10%",
-        "12.5%"
-      ],
+      options: ["5%", "8%", "10%", "12.5%"],
       answer: 3,
       explanation: "₹8 crore ÷ ₹80 crore × 100 = 10%. Therefore, the prescribed threshold is reached."
     },
-
     {
       question_id: "CEL_188_MED_06_5",
       question: "The turnover/net worth used for determining the prescribed thresholds is based on:",
@@ -13586,19 +10391,16 @@ const AICaseStudies = [
         "Estimated current-year figures",
         "Audited financial statements of the preceding financial year",
         "Unaudited quarterly statements",
-        "Projected financial statements"
+        "Projected financial statements",
       ],
       answer: 1,
       explanation: "Rule 15 provides that turnover or net worth is computed on the basis of the audited financial statement of the preceding financial year."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 7 — SECTION 188: VOTING AND WOS
 ========================================================= */
-
 {
   case_id: "CEL_188_MED_07",
   difficulty: "Medium",
@@ -13613,20 +10415,13 @@ const AICaseStudies = [
     Holdings Limited and placed before the shareholders at the general meeting.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_188_MED_07_1",
       question: "Can Mr. R, being a related party, generally vote on the ordinary resolution concerning the related party transaction?",
-      options: [
-        "Yes, always",
-        "No, a related party member cannot vote, subject to statutory exceptions",
-        "Yes, because he holds more than 10%",
-        "Yes, if he is a director"
-      ],
+      options: ["Yes, always", "No, a related party member cannot vote, subject to statutory exceptions", "Yes, because he holds more than 10%", "Yes, if he is a director"],
       answer: 1,
       explanation: "The second proviso to Section 188(1) generally prohibits a related party member from voting on the resolution approving the relevant transaction, subject to exceptions."
     },
-
     {
       question_id: "CEL_188_MED_07_2",
       question: "The prohibition on voting is to be construed with reference to:",
@@ -13634,12 +10429,11 @@ const AICaseStudies = [
         "Every transaction ever entered into by the company",
         "The particular contract or arrangement for which the resolution is being passed",
         "Only transactions exceeding ₹10 crore",
-        "Only transactions involving directors"
+        "Only transactions involving directors",
       ],
       answer: 1,
       explanation: "MCA clarification states that 'related party' for this voting restriction is considered with reference to the particular contract or arrangement for which the resolution is being passed."
     },
-
     {
       question_id: "CEL_188_MED_07_3",
       question: "For a transaction between a holding company and its wholly owned subsidiary whose accounts are consolidated and placed before shareholders:",
@@ -13647,12 +10441,11 @@ const AICaseStudies = [
         "Ordinary resolution is always required",
         "No ordinary resolution is required under the specified exemption",
         "Special resolution is required",
-        "Board approval is prohibited"
+        "Board approval is prohibited",
       ],
       answer: 1,
       explanation: "The fifth proviso to Section 188(1) provides an exemption from the ordinary resolution requirement in the specified wholly owned subsidiary situation."
     },
-
     {
       question_id: "CEL_188_MED_07_4",
       question: "The resolution passed by the holding company in the specified WOS situation is:",
@@ -13660,32 +10453,23 @@ const AICaseStudies = [
         "Insufficient in every case",
         "Sufficient for the purpose of entering into the transaction",
         "Required to be approved by the Registrar",
-        "Required to be approved by creditors"
+        "Required to be approved by creditors",
       ],
       answer: 1,
       explanation: "Rule 15 provides that the resolution passed by the holding company is sufficient for the specified transaction with its wholly owned subsidiary."
     },
-
     {
       question_id: "CEL_188_MED_07_07",
       question: "The ordinary resolution contemplated under Section 188 is passed by:",
-      options: [
-        "Ordinary majority",
-        "Three-fourths majority",
-        "Unanimous vote",
-        "Special majority only"
-      ],
+      options: ["Ordinary majority", "Three-fourths majority", "Unanimous vote", "Special majority only"],
       answer: 0,
       explanation: "Where the prescribed threshold is crossed, prior approval of the company by an ordinary resolution is required."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 8 — SECTION 189: REGISTER
 ========================================================= */
-
 {
   case_id: "CEL_189_MED_08",
   difficulty: "Medium",
@@ -13704,59 +10488,34 @@ const AICaseStudies = [
     the ordinary course of its business.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_189_MED_08_1",
       question: "The register under Section 189 is maintained in:",
-      options: [
-        "Form MBP-1",
-        "Form MBP-2",
-        "Form MBP-3",
-        "Form MBP-4"
-      ],
+      options: ["Form MBP-1", "Form MBP-2", "Form MBP-3", "Form MBP-4"],
       answer: 3,
       explanation: "The register of contracts or arrangements in which directors are interested is maintained in Form MBP-4."
     },
-
     {
       question_id: "CEL_189_MED_08_2",
       question: "Entries in the register should be made:",
-      options: [
-        "Annually",
-        "At once and chronologically",
-        "Only after AGM approval",
-        "Only when requested by shareholders"
-      ],
+      options: ["Annually", "At once and chronologically", "Only after AGM approval", "Only when requested by shareholders"],
       answer: 1,
       explanation: "Rule 16 requires entries to be made at once and in chronological order."
     },
-
     {
       question_id: "CEL_189_MED_08_3",
       question: "A shareholder requesting an extract from the register should generally receive it within:",
-      options: [
-        "3 days",
-        "7 days",
-        "15 days",
-        "30 days"
-      ],
+      options: ["3 days", "7 days", "15 days", "30 days"],
       answer: 1,
       explanation: "The company shall provide extracts to a member within seven days of the request, subject to the prescribed fee."
     },
-
     {
       question_id: "CEL_189_MED_08_4",
       question: "The maximum fee for an extract is:",
-      options: [
-        "₹5 per page",
-        "₹10 per page",
-        "₹25 per page",
-        "₹100 per page"
-      ],
+      options: ["₹5 per page", "₹10 per page", "₹25 per page", "₹100 per page"],
       answer: 1,
       explanation: "The fee prescribed in the Articles cannot exceed ₹10 per page."
     },
-
     {
       question_id: "CEL_189_MED_08_5",
       question: "A contract for sale, purchase or supply of goods/materials not exceeding ₹5 lakh in aggregate in a year is:",
@@ -13764,19 +10523,16 @@ const AICaseStudies = [
         "Always required to be entered in the register",
         "Excluded from the requirement under Section 189(1)",
         "Required to be approved by the Registrar",
-        "Automatically void"
+        "Automatically void",
       ],
       answer: 1,
       explanation: "Section 189(5) provides an exception where the value of goods/materials or cost of services does not exceed ₹5 lakh in aggregate in any year."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 9 — SECTION 191: LOSS OF OFFICE
 ========================================================= */
-
 {
   case_id: "CEL_191_MED_09",
   difficulty: "Medium",
@@ -13794,7 +10550,6 @@ const AICaseStudies = [
     interest thereon.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_191_MED_09_1",
       question: "Before payment of compensation in the circumstances covered by Section 191, the proposal should generally be:",
@@ -13802,25 +10557,18 @@ const AICaseStudies = [
         "Approved only by the Managing Director",
         "Disclosed to members and approved in general meeting",
         "Approved only by the auditor",
-        "Approved only by the Company Secretary"
+        "Approved only by the Company Secretary",
       ],
       answer: 1,
       explanation: "Section 191 requires disclosure of prescribed particulars to members and approval of the payment proposal in general meeting."
     },
-
     {
       question_id: "CEL_191_MED_09_2",
       question: "Which of the following is required to be disclosed to members?",
-      options: [
-        "Name of director",
-        "Amount proposed",
-        "Reason/justification for payment",
-        "All of the above"
-      ],
+      options: ["Name of director", "Amount proposed", "Reason/justification for payment", "All of the above"],
       answer: 3,
       explanation: "Rule 17 specifies various particulars including the name, amount, event causing compensation, basis, justification and manner/source of payment."
     },
-
     {
       question_id: "CEL_191_MED_09_3",
       question: "Can the payment generally be made while the company is in default in repayment of public deposits or interest?",
@@ -13828,45 +10576,30 @@ const AICaseStudies = [
         "Yes, without restriction",
         "No, subject to the statutory exceptions such as notice pay/statutory payments",
         "Yes, if the MD agrees",
-        "Yes, if the auditor approves"
+        "Yes, if the auditor approves",
       ],
       answer: 1,
       explanation: "Rule 17(3) restricts compensation for loss of office in specified default situations, subject to exceptions such as notice pay and statutory payments according to the terms of appointment."
     },
-
     {
       question_id: "CEL_191_MED_09_4",
       question: "If the proposal fails to obtain approval because of want of quorum, it is:",
-      options: [
-        "Automatically deemed approved",
-        "Deemed approved after 30 days",
-        "Not deemed to have been approved",
-        "Approved by the Board automatically"
-      ],
+      options: ["Automatically deemed approved", "Deemed approved after 30 days", "Not deemed to have been approved", "Approved by the Board automatically"],
       answer: 2,
       explanation: "Section 191(3) states that if the payment is not approved for want of quorum, the proposal is not deemed to have been approved."
     },
-
     {
       question_id: "CEL_191_MED_09_5",
       question: "If a director receives payment in contravention of Section 191(1), the amount is deemed to have been received:",
-      options: [
-        "As his personal property",
-        "In trust for the company",
-        "On behalf of the shareholders",
-        "As dividend"
-      ],
+      options: ["As his personal property", "In trust for the company", "On behalf of the shareholders", "As dividend"],
       answer: 1,
       explanation: "Any amount received in contravention of Section 191(1) is deemed to have been received by the director in trust for the company."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 10 — SECTIONS 192 & 193: NON-CASH / OPC
 ========================================================= */
-
 {
   case_id: "CEL_192_193_MED_10",
   difficulty: "Medium",
@@ -13885,20 +10618,13 @@ const AICaseStudies = [
     and is not in the ordinary course of business.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_192_193_MED_10_1",
       question: "A company acquiring assets from its director for consideration other than cash is generally governed by:",
-      options: [
-        "Section 186",
-        "Section 188 only",
-        "Section 192",
-        "Section 190"
-      ],
+      options: ["Section 186", "Section 188 only", "Section 192", "Section 190"],
       answer: 2,
       explanation: "Section 192 regulates specified non-cash transactions involving directors and the company."
     },
-
     {
       question_id: "CEL_192_193_MED_10_2",
       question: "A non-cash arrangement covered by Section 192 may be entered into if:",
@@ -13906,25 +10632,18 @@ const AICaseStudies = [
         "Only the Managing Director approves it",
         "Prior approval is obtained by a resolution of the company in general meeting",
         "Only the auditor approves it",
-        "No approval is ever required"
+        "No approval is ever required",
       ],
       answer: 1,
       explanation: "Section 192(2) permits the arrangement where prior approval is accorded by a resolution of the company in general meeting."
     },
-
     {
       question_id: "CEL_192_193_MED_10_3",
       question: "Where the director concerned is a director of the holding company, approval is also required from:",
-      options: [
-        "The subsidiary's auditor",
-        "The holding company's general meeting",
-        "The Registrar",
-        "The bank"
-      ],
+      options: ["The subsidiary's auditor", "The holding company's general meeting", "The Registrar", "The bank"],
       answer: 1,
       explanation: "Where the director is a director of the holding company, approval of the holding company's general meeting is also required."
     },
-
     {
       question_id: "CEL_192_193_MED_10_4",
       question: "For an OPC contract with its sole member/director which is not in writing and is not in the ordinary course of business, the terms should be:",
@@ -13932,33 +10651,24 @@ const AICaseStudies = [
         "Ignored",
         "Recorded in the memorandum or minutes of the first Board meeting held after entering into the contract",
         "Sent only to the auditor",
-        "Approved by the Registrar before execution"
+        "Approved by the Registrar before execution",
       ],
       answer: 1,
       explanation: "Section 193 requires the terms to be recorded in a memorandum or in the minutes of the first Board meeting held after entering into the contract when the contract is not in writing."
     },
-
     {
       question_id: "CEL_192_193_MED_10_5",
       question: "An OPC must inform the Registrar about such contract recorded in the Board minutes within:",
-      options: [
-        "7 days of the contract",
-        "15 days of Board approval",
-        "30 days of the contract",
-        "60 days of Board approval"
-      ],
+      options: ["7 days of the contract", "15 days of Board approval", "30 days of the contract", "60 days of Board approval"],
       answer: 1,
       explanation: "Section 193 requires the OPC to inform the Registrar within 15 days of the date of approval by the Board."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE 1 — SECTION 186
    LIMIT + SPECIAL RESOLUTION + PFI APPROVAL
 ========================================================= */
-
 {
   case_id: "CEL_HARD_186_01",
   difficulty: "hard",
@@ -13984,59 +10694,34 @@ const AICaseStudies = [
     is sufficient because it constitutes a clear majority.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_186_01_1",
       question: "What is the monetary limit applicable to Trident Engineering Limited under Section 186(2)?",
-      options: [
-        "₹10 crore",
-        "₹12 crore",
-        "₹18 crore",
-        "₹30 crore"
-      ],
+      options: ["₹10 crore", "₹12 crore", "₹18 crore", "₹30 crore"],
       answer: 2,
       explanation: "60% of paid-up capital + free reserves + securities premium = 60% of ₹30 crore = ₹18 crore. 100% of free reserves + securities premium = ₹10 crore. The higher amount, ₹18 crore, is the applicable limit."
     },
-
     {
       question_id: "CEL_HARD_186_01_2",
       question: "Before the newly proposed transactions, what is the aggregate amount already utilised for the purposes of Section 186(2)?",
-      options: [
-        "₹5 crore",
-        "₹9 crore",
-        "₹12 crore",
-        "₹15 crore"
-      ],
+      options: ["₹5 crore", "₹9 crore", "₹12 crore", "₹15 crore"],
       answer: 2,
       explanation: "Existing loans ₹5 crore + guarantees ₹4 crore + acquisition of securities ₹3 crore = ₹12 crore."
     },
-
     {
       question_id: "CEL_HARD_186_01_3",
       question: "What is the aggregate exposure if both newly proposed transactions are undertaken?",
-      options: [
-        "₹18 crore",
-        "₹19 crore",
-        "₹20 crore",
-        "₹21 crore"
-      ],
+      options: ["₹18 crore", "₹19 crore", "₹20 crore", "₹21 crore"],
       answer: 3,
       explanation: "Existing exposure ₹12 crore + proposed loan ₹7 crore + proposed acquisition ₹2 crore = ₹21 crore."
     },
-
     {
       question_id: "CEL_HARD_186_01_4",
       question: "Which approval becomes necessary because the proposed aggregate exposure is ₹21 crore?",
-      options: [
-        "Ordinary resolution in general meeting",
-        "Prior special resolution in general meeting",
-        "Approval of the Registrar only",
-        "Approval of the statutory auditor"
-      ],
+      options: ["Ordinary resolution in general meeting", "Prior special resolution in general meeting", "Approval of the Registrar only", "Approval of the statutory auditor"],
       answer: 1,
       explanation: "₹21 crore exceeds the ₹18 crore limit under Section 186(2). Therefore, prior authorisation by special resolution under Section 186(3) is required."
     },
-
     {
       question_id: "CEL_HARD_186_01_5",
       question: "Is the approval by five of the six directors present sufficient for sanctioning the transactions under Section 186(5)?",
@@ -14044,20 +10729,17 @@ const AICaseStudies = [
         "Yes, because an ordinary majority of directors present is sufficient",
         "Yes, because more than three-fourths of the directors present approved",
         "No, consent of all directors present at the Board meeting is required",
-        "No, consent of all eight directors of the company is required"
+        "No, consent of all eight directors of the company is required",
       ],
       answer: 2,
       explanation: "Section 186(5) requires the resolution sanctioning the transaction to be passed at a Board meeting with the consent of all directors present. Since one of the six directors present dissented, the requirement is not satisfied."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE 2 — SECTION 186
    WOS + JV + SPECIAL RESOLUTION EXEMPTION
 ========================================================= */
-
 {
   case_id: "CEL_HARD_186_02",
   difficulty: "hard",
@@ -14080,20 +10762,13 @@ const AICaseStudies = [
     <p>The company proposes to make appropriate disclosures in its financial statements.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_186_02_1",
       question: "What is Apex Mobility Limited's Section 186(2) limit?",
-      options: [
-        "₹8 crore",
-        "₹10 crore",
-        "₹12 crore",
-        "₹20 crore"
-      ],
+      options: ["₹8 crore", "₹10 crore", "₹12 crore", "₹20 crore"],
       answer: 2,
       explanation: "60% of ₹20 crore (₹12 + ₹6 + ₹2) = ₹12 crore. 100% of free reserves plus securities premium = ₹8 crore. Therefore, ₹12 crore is the higher limit."
     },
-
     {
       question_id: "CEL_HARD_186_02_2",
       question: "Which of the following correctly describes the special-resolution exemption?",
@@ -14101,12 +10776,11 @@ const AICaseStudies = [
         "Loan to WOS and guarantee for JV are covered by the exemption",
         "Every transaction with every subsidiary is exempt",
         "Only acquisition of securities of an unrelated company is exempt",
-        "Once one transaction is exempt, the entire Section 186 limit becomes irrelevant"
+        "Once one transaction is exempt, the entire Section 186 limit becomes irrelevant",
       ],
       answer: 0,
       explanation: "The first proviso to Section 186(3) provides specified exemptions for loans/guarantees/security to a wholly owned subsidiary or joint venture and acquisition by a holding company of securities of its wholly owned subsidiary."
     },
-
     {
       question_id: "CEL_HARD_186_02_3",
       question: "Is the director correct that the unrelated ₹5 crore acquisition also automatically enjoys the exemption?",
@@ -14114,12 +10788,11 @@ const AICaseStudies = [
         "Yes, because another proposed transaction involves a WOS",
         "Yes, because the company makes disclosure",
         "No, the exemption does not automatically extend to an unrelated body corporate",
-        "Yes, because investments are never subject to Section 186(3)"
+        "Yes, because investments are never subject to Section 186(3)",
       ],
       answer: 2,
       explanation: "The exemption is transaction-specific. Acquisition of securities of an unrelated body corporate does not become exempt merely because other transactions involve a WOS or JV."
     },
-
     {
       question_id: "CEL_HARD_186_02_4",
       question: "Where the special-resolution exemption for the WOS/JV transaction is availed, the company is nevertheless required to:",
@@ -14127,12 +10800,11 @@ const AICaseStudies = [
         "Obtain Central Government approval",
         "Disclose prescribed details in its financial statements",
         "Convert the subsidiary into a public company",
-        "Obtain approval from every creditor"
+        "Obtain approval from every creditor",
       ],
       answer: 1,
       explanation: "The exempted loans, guarantees, securities or acquisitions must be appropriately disclosed in the financial statements as contemplated by Section 186."
     },
-
     {
       question_id: "CEL_HARD_186_02_5",
       question: "Which statement is most accurate regarding the ₹5 crore acquisition of securities of the unrelated company?",
@@ -14140,20 +10812,17 @@ const AICaseStudies = [
         "It is outside Section 186(2)",
         "It is covered by Section 186(2) and the special-resolution requirement must be examined",
         "Only loans are counted for Section 186(2)",
-        "It requires only approval of the Company Secretary"
+        "It requires only approval of the Company Secretary",
       ],
       answer: 1,
       explanation: "Acquisition by subscription, purchase or otherwise of securities of another body corporate is expressly covered by Section 186(2)."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE 3 — SECTION 186
    DEPOSIT DEFAULT + INTEREST + REGISTER
 ========================================================= */
-
 {
   case_id: "CEL_HARD_186_03",
   difficulty: "hard",
@@ -14176,7 +10845,6 @@ const AICaseStudies = [
     the transaction in its statutory register after completion of the quarterly accounts.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_186_03_1",
       question: "What is the principal effect of the subsisting deposit default on the proposed loan?",
@@ -14184,51 +10852,32 @@ const AICaseStudies = [
         "There is no effect if Board approval is obtained",
         "The company cannot give the loan while the default subsists",
         "Only shareholder approval is additionally required",
-        "The loan can be made if interest exceeds 7%"
+        "The loan can be made if interest exceeds 7%",
       ],
       answer: 1,
       explanation: "Section 186(8) prohibits a company in default in repayment of deposits or interest thereon from giving loans, guarantees, securities or making acquisitions while such default is subsisting."
     },
-
     {
       question_id: "CEL_HARD_186_03_2",
       question: "Would an assurance that the deposit default will be cured shortly permit immediate disbursement?",
-      options: [
-        "Yes",
-        "Yes, if recorded in Board minutes",
-        "No, the restriction operates while the default is actually subsisting",
-        "Yes, if depositors consent"
-      ],
+      options: ["Yes", "Yes, if recorded in Board minutes", "No, the restriction operates while the default is actually subsisting", "Yes, if depositors consent"],
       answer: 2,
       explanation: "The statutory restriction continues until the default ceases to subsist. An intention or assurance to cure the default does not remove the restriction."
     },
-
     {
       question_id: "CEL_HARD_186_03_3",
       question: "Under Section 186(9) read with Rule 12, the relevant statutory register is:",
-      options: [
-        "MBP-1",
-        "MBP-2",
-        "MBP-3",
-        "MBP-4"
-      ],
+      options: ["MBP-1", "MBP-2", "MBP-3", "MBP-4"],
       answer: 1,
       explanation: "Loans, guarantees, securities and acquisitions under Section 186 are recorded in Form MBP-2."
     },
-
     {
       question_id: "CEL_HARD_186_03_4",
       question: "Once a permitted transaction is made, particulars should ordinarily be entered in the register:",
-      options: [
-        "Within 7 days",
-        "Within 15 days",
-        "Within 30 days",
-        "Before the next AGM"
-      ],
+      options: ["Within 7 days", "Within 15 days", "Within 30 days", "Before the next AGM"],
       answer: 0,
       explanation: "Rule 12 requires entries to be made chronologically within seven days of making the loan, giving the guarantee, providing security or making the acquisition."
     },
-
     {
       question_id: "CEL_HARD_186_03_5",
       question: "Which statement about the statutory register is correct?",
@@ -14236,20 +10885,17 @@ const AICaseStudies = [
         "It may be destroyed after eight years",
         "It must be kept only until repayment of the loan",
         "It is preserved permanently",
-        "It is maintained only by listed companies"
+        "It is maintained only by listed companies",
       ],
       answer: 2,
       explanation: "The MBP-2 register is kept at the registered office and preserved permanently."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE 4 — SECTION 187
    BANKER + DEPOSITORY + NOMINEE
 ========================================================= */
-
 {
   case_id: "CEL_HARD_187_04",
   difficulty: "hard",
@@ -14270,7 +10916,6 @@ const AICaseStudies = [
     is required because Orion remains the beneficial owner.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_187_04_1",
       question: "Are the shares of the subsidiary permitted to be held in the names of Orion's nominees in the circumstances stated?",
@@ -14278,12 +10923,11 @@ const AICaseStudies = [
         "No, Section 187 contains no exception",
         "Yes, where necessary to ensure that the number of members of the subsidiary does not fall below the statutory limit",
         "Only after a special resolution",
-        "Only for a foreign subsidiary"
+        "Only for a foreign subsidiary",
       ],
       answer: 1,
       explanation: "The proviso to Section 187(1) permits shares in a subsidiary to be held in the names of nominees where necessary to maintain the statutory minimum number of members."
     },
-
     {
       question_id: "CEL_HARD_187_04_2",
       question: "What should Orion do regarding the securities held in the banker's name for seven months without any transfer taking place?",
@@ -14291,38 +10935,25 @@ const AICaseStudies = [
         "Nothing; they may remain indefinitely with the banker",
         "Transfer them to a director",
         "As soon as practicable, have them re-transferred to Orion or again held in Orion's own name",
-        "Cancel the securities"
+        "Cancel the securities",
       ],
       answer: 2,
       explanation: "Where securities are held in a banker's name to facilitate transfer and no transfer occurs within six months, they should as soon as practicable be re-transferred or again held in the company's own name."
     },
-
     {
       question_id: "CEL_HARD_187_04_3",
       question: "Can securities be held in the name of a depository where Orion is the beneficial owner?",
-      options: [
-        "No",
-        "Yes, this is a statutory exception",
-        "Only for six months",
-        "Only if Orion is an investment company"
-      ],
+      options: ["No", "Yes, this is a statutory exception", "Only for six months", "Only if Orion is an investment company"],
       answer: 1,
       explanation: "Section 187(2)(d) permits investments in securities to be held in the name of a depository where the company is the beneficial owner."
     },
-
     {
       question_id: "CEL_HARD_187_04_4",
       question: "Which register becomes relevant where investments are beneficially held by Orion but are not held in its own name?",
-      options: [
-        "MBP-1",
-        "MBP-2",
-        "MBP-3",
-        "MBP-4"
-      ],
+      options: ["MBP-1", "MBP-2", "MBP-3", "MBP-4"],
       answer: 2,
       explanation: "Rule 14 requires maintenance of Form MBP-3 for investments beneficially held by the company but not held in its own name."
     },
-
     {
       question_id: "CEL_HARD_187_04_5",
       question: "Which statement regarding the MBP-3 register is correct?",
@@ -14330,20 +10961,17 @@ const AICaseStudies = [
         "It is preserved for eight years",
         "It is maintained at the registered office and preserved permanently",
         "It is confidential and cannot be inspected by members",
-        "It is required only when investments exceed ₹5 crore"
+        "It is required only when investments exceed ₹5 crore",
       ],
       answer: 1,
       explanation: "The MBP-3 register is maintained at the registered office and preserved permanently."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE 5 — SECTION 188
    RELATED PARTY IDENTIFICATION
 ========================================================= */
-
 {
   case_id: "CEL_HARD_188_05",
   difficulty: "hard",
@@ -14367,7 +10995,6 @@ const AICaseStudies = [
     definition of 'related party' before applying Section 188.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_188_05_1",
       question: "What is the status of Alpha Private Limited?",
@@ -14375,12 +11002,11 @@ const AICaseStudies = [
         "Not a related party because Arjun himself is not a member",
         "Related party because a relative of the director is a member of the private company",
         "Related only if Arjun's wife holds more than 2%",
-        "Related only if Alpha is a subsidiary"
+        "Related only if Alpha is a subsidiary",
       ],
       answer: 1,
       explanation: "A private company in which a director, manager or his relative is a member or director falls within Section 2(76)."
     },
-
     {
       question_id: "CEL_HARD_188_05_2",
       question: "What is the status of Beta Limited?",
@@ -14388,12 +11014,11 @@ const AICaseStudies = [
         "Not related because it is a public company",
         "Related because Arjun is a director and, together with relatives, holds more than 2% of its paid-up share capital",
         "Related only if the holding exceeds 10%",
-        "Not related unless Quantum itself owns shares in Beta"
+        "Not related unless Quantum itself owns shares in Beta",
       ],
       answer: 1,
       explanation: "A public company is a related party where a director or manager is a director and holds, along with relatives, more than 2% of its paid-up share capital."
     },
-
     {
       question_id: "CEL_HARD_188_05_3",
       question: "What is the status of Gamma & Associates?",
@@ -14401,12 +11026,11 @@ const AICaseStudies = [
         "Not related because only Arjun himself can create the relationship",
         "Related because the director's relative is a partner in the firm",
         "Related only if Arjun's brother owns 51% of the firm",
-        "Not related because firms are excluded"
+        "Not related because firms are excluded",
       ],
       answer: 1,
       explanation: "A firm in which a director, manager or his relative is a partner is a related party."
     },
-
     {
       question_id: "CEL_HARD_188_05_4",
       question: "Would Delta Limited become a related party merely because its Board follows Arjun's professional legal advice?",
@@ -14414,33 +11038,24 @@ const AICaseStudies = [
         "Yes, in every circumstance",
         "No, advice, directions or instructions given in a professional capacity are excluded",
         "Yes, because Arjun is a director",
-        "Yes, if legal fees are paid"
+        "Yes, if legal fees are paid",
       ],
       answer: 1,
       explanation: "The provisions relating to persons or bodies accustomed to act on advice do not apply where the advice, directions or instructions are given in a professional capacity."
     },
-
     {
       question_id: "CEL_HARD_188_05_5",
       question: "Which of the following is expressly included within 'relative' for this purpose?",
-      options: [
-        "Brother, including step-brother",
-        "Cousin",
-        "Brother-in-law in every case",
-        "Uncle"
-      ],
+      options: ["Brother, including step-brother", "Cousin", "Brother-in-law in every case", "Uncle"],
       answer: 0,
       explanation: "The prescribed relatives include brother, including step-brother."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE 6 — SECTION 188
    MULTIPLE THRESHOLDS + ORDINARY RESOLUTION
 ========================================================= */
-
 {
   case_id: "CEL_HARD_188_06",
   difficulty: "hard",
@@ -14465,33 +11080,20 @@ const AICaseStudies = [
     Rule 15.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_188_06_1",
       question: "For sale, purchase or supply of goods, what is 10% of Prism's turnover?",
-      options: [
-        "₹9 crore",
-        "₹16 crore",
-        "₹24 crore",
-        "₹33 crore"
-      ],
+      options: ["₹9 crore", "₹16 crore", "₹24 crore", "₹33 crore"],
       answer: 2,
       explanation: "10% of ₹240 crore turnover is ₹24 crore."
     },
-
     {
       question_id: "CEL_HARD_188_06_2",
       question: "Considering both the earlier and proposed purchase from the related party, what is the relevant aggregate value?",
-      options: [
-        "₹9 crore",
-        "₹16 crore",
-        "₹24 crore",
-        "₹25 crore"
-      ],
+      options: ["₹9 crore", "₹16 crore", "₹24 crore", "₹25 crore"],
       answer: 3,
       explanation: "₹16 crore already transacted + ₹9 crore proposed = ₹25 crore. Transactions are considered individually or together with previous transactions during the financial year."
     },
-
     {
       question_id: "CEL_HARD_188_06_3",
       question: "What is the result for the ₹25 crore aggregate purchase transaction?",
@@ -14499,12 +11101,11 @@ const AICaseStudies = [
         "It remains below the threshold",
         "It crosses the 10% turnover threshold and requires prior approval by ordinary resolution",
         "It requires a special resolution",
-        "No approval is required because each individual transaction is below ₹24 crore"
+        "No approval is required because each individual transaction is below ₹24 crore",
       ],
       answer: 1,
       explanation: "The aggregate is ₹25 crore, exceeding 10% of turnover, i.e. ₹24 crore. Prior approval by ordinary resolution is therefore required."
     },
-
     {
       question_id: "CEL_HARD_188_06_4",
       question: "Does the proposed office of profit at monthly remuneration of ₹2.80 lakh cross the prescribed threshold?",
@@ -14512,33 +11113,24 @@ const AICaseStudies = [
         "No, because the threshold is ₹5 lakh per month",
         "Yes, because the prescribed threshold is monthly remuneration exceeding ₹2.5 lakh",
         "No, because annual remuneration is below ₹50 lakh",
-        "Only if the daughter is also a director"
+        "Only if the daughter is also a director",
       ],
       answer: 1,
       explanation: "Appointment to an office or place of profit at monthly remuneration exceeding ₹2.5 lakh falls within the prescribed threshold."
     },
-
     {
       question_id: "CEL_HARD_188_06_5",
       question: "For underwriting remuneration, the prescribed threshold is measured with reference to:",
-      options: [
-        "1% of turnover",
-        "1% of net worth",
-        "10% of turnover",
-        "10% of paid-up capital"
-      ],
+      options: ["1% of turnover", "1% of net worth", "10% of turnover", "10% of paid-up capital"],
       answer: 1,
       explanation: "Under Rule 15, remuneration for underwriting exceeding 1% of net worth attracts the ordinary-resolution requirement."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE 7 — SECTION 188
    UNAUTHORISED RPT + RATIFICATION + CONSEQUENCES
 ========================================================= */
-
 {
   case_id: "CEL_HARD_188_07",
   difficulty: "hard",
@@ -14561,20 +11153,13 @@ const AICaseStudies = [
     financial loss because of the transaction.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_188_07_1",
       question: "Within what period should an unauthorised contract covered by Section 188(3) be ratified?",
-      options: [
-        "30 days",
-        "60 days",
-        "3 months",
-        "6 months"
-      ],
+      options: ["30 days", "60 days", "3 months", "6 months"],
       answer: 2,
       explanation: "Section 188(3) contemplates ratification by the Board or shareholders, as the case may be, within three months from the date on which the contract or arrangement was entered into."
     },
-
     {
       question_id: "CEL_HARD_188_07_2",
       difficulty: "hard",
@@ -14583,12 +11168,11 @@ const AICaseStudies = [
         "Automatically valid",
         "Voidable at the option of the Board or shareholders, as the case may be",
         "Automatically void ab initio in every case",
-        "Valid because ratification can occur at any time"
+        "Valid because ratification can occur at any time",
       ],
       answer: 1,
       explanation: "If the required approval was not obtained and the contract is not ratified within three months, it becomes voidable at the option of the Board or shareholders, as applicable."
     },
-
     {
       question_id: "CEL_HARD_188_07_3",
       question: "Because the contract is with a related party of Mr. Karan, what additional consequence may arise?",
@@ -14596,46 +11180,31 @@ const AICaseStudies = [
         "The directors concerned must indemnify the company against loss",
         "The shareholders must indemnify Mr. Karan",
         "The auditor automatically becomes liable",
-        "The contract automatically becomes a government contract"
+        "The contract automatically becomes a government contract",
       ],
       answer: 0,
       explanation: "Where the contract is with a related party to a director or is authorised by another director, the directors concerned shall indemnify the company against loss incurred."
     },
-
     {
       question_id: "CEL_HARD_188_07_4",
       question: "Can Horizon proceed against the director or employee responsible for recovery of loss caused by the contravention?",
-      options: [
-        "No",
-        "Yes, Section 188 permits the company to proceed for recovery of loss",
-        "Only with approval of the Central Government",
-        "Only if Horizon is listed"
-      ],
+      options: ["No", "Yes, Section 188 permits the company to proceed for recovery of loss", "Only with approval of the Central Government", "Only if Horizon is listed"],
       answer: 1,
       explanation: "Section 188(4) permits the company to proceed against the director or employee responsible for recovery of loss sustained as a result of the contravening transaction."
     },
-
     {
       question_id: "CEL_HARD_188_07_5",
       question: "Since Horizon is an unlisted public company, a director or employee who entered into or authorised the transaction in violation of Section 188 is liable to a penalty of:",
-      options: [
-        "₹25,000",
-        "₹1 lakh",
-        "₹5 lakh",
-        "₹25 lakh"
-      ],
+      options: ["₹25,000", "₹1 lakh", "₹5 lakh", "₹25 lakh"],
       answer: 2,
       explanation: "For a company other than a listed company, the director or employee concerned is liable to a penalty of ₹5 lakh under Section 188(5)."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE 8 — SECTION 189
    REGISTER + DISCLOSURE + AGM + EXCEPTIONS
 ========================================================= */
-
 {
   case_id: "CEL_HARD_189_08",
   difficulty: "hard",
@@ -14658,7 +11227,6 @@ const AICaseStudies = [
     chairman refused on the ground that only registered members can inspect it.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_189_08_1",
       question: "Was Mr. Dev's disclosure on 5 August made within the statutory period following his appointment on 1 July?",
@@ -14666,12 +11234,11 @@ const AICaseStudies = [
         "Yes, because disclosure can be made within 60 days",
         "Yes, because it was before the next AGM",
         "No, disclosure is required within 30 days of appointment",
-        "No, disclosure must be made on the same day"
+        "No, disclosure must be made on the same day",
       ],
       answer: 2,
       explanation: "Section 189(2) requires every director or KMP to make the relevant disclosure within 30 days of appointment or relinquishment of office. 5 August is beyond 30 days from 1 July."
     },
-
     {
       question_id: "CEL_HARD_189_08_2",
       question: "Is the ₹4.80 lakh supply contract necessarily required to be entered in the register under Section 189(1)?",
@@ -14679,12 +11246,11 @@ const AICaseStudies = [
         "Yes, every interested contract must be entered irrespective of value",
         "No, the exception applies where goods/materials/services do not exceed ₹5 lakh in aggregate in a year",
         "Yes, because the threshold is ₹1 lakh",
-        "No, because supply contracts are never recorded"
+        "No, because supply contracts are never recorded",
       ],
       answer: 1,
       explanation: "Section 189(5) provides an exception for sale, purchase or supply of goods, materials or services where the value/cost does not exceed ₹5 lakh in aggregate in any year."
     },
-
     {
       question_id: "CEL_HARD_189_08_3",
       question: "After the register is duly filled and updated, it should be:",
@@ -14692,12 +11258,11 @@ const AICaseStudies = [
         "Filed with the Registrar every month",
         "Placed before the next Board meeting and signed by all directors present",
         "Signed only by the Managing Director",
-        "Approved by shareholders"
+        "Approved by shareholders",
       ],
       answer: 1,
       explanation: "Section 189(1) requires the duly filled and updated register to be placed before the next Board meeting and signed by all directors present."
     },
-
     {
       question_id: "CEL_HARD_189_08_4",
       question: "Was the chairman correct in refusing inspection to the proxy during the AGM?",
@@ -14705,33 +11270,24 @@ const AICaseStudies = [
         "Yes, only members may inspect",
         "Yes, unless the proxy pays ₹10 per page",
         "No, the register must remain accessible during the AGM to persons having the right to attend, including a proxy",
-        "No, but only if the proxy is also a director"
+        "No, but only if the proxy is also a director",
       ],
       answer: 2,
       explanation: "The register must be produced at the commencement of every AGM and remain open and accessible during the meeting to persons having the right to attend. Thus, a proxy may inspect it."
     },
-
     {
       question_id: "CEL_HARD_189_08_5",
       question: "The penalty under Section 189(6) for a director failing to comply with the section is:",
-      options: [
-        "₹5,000",
-        "₹10,000",
-        "₹25,000",
-        "₹50,000"
-      ],
+      options: ["₹5,000", "₹10,000", "₹25,000", "₹50,000"],
       answer: 2,
       explanation: "Every director who fails to comply with Section 189 is liable to a penalty of ₹25,000."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE 9 — SECTIONS 190 & 191
    EMPLOYMENT CONTRACT + LOSS OF OFFICE
 ========================================================= */
-
 {
   case_id: "CEL_HARD_190_191_09",
   difficulty: "hard",
@@ -14757,7 +11313,6 @@ const AICaseStudies = [
     the transferee.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_190_191_09_1",
       question: "Has Regal complied with Section 190 regarding the oral employment arrangement?",
@@ -14765,25 +11320,18 @@ const AICaseStudies = [
         "No, every contract must necessarily be written",
         "Yes, where the contract is not in writing, a written memorandum setting out its terms may be kept",
         "No, oral arrangements with WTDs are prohibited",
-        "Yes, but only if approved by the Registrar"
+        "Yes, but only if approved by the Registrar",
       ],
       answer: 1,
       explanation: "Where the service contract with an MD or WTD is not in writing, Section 190 permits a written memorandum setting out its terms to be maintained at the registered office."
     },
-
     {
       question_id: "CEL_HARD_190_191_09_2",
       question: "Who is entitled to inspect the copy of the contract or memorandum maintained under Section 190?",
-      options: [
-        "Only directors",
-        "Any member, without payment of fee",
-        "Only auditors",
-        "Only members holding at least 10%"
-      ],
+      options: ["Only directors", "Any member, without payment of fee", "Only auditors", "Only members holding at least 10%"],
       answer: 1,
       explanation: "The copy of the contract or memorandum is open to inspection by any member without payment of fee."
     },
-
     {
       question_id: "CEL_HARD_190_191_09_3",
       question: "Can the compensation proposal be treated as approved despite absence of quorum?",
@@ -14791,12 +11339,11 @@ const AICaseStudies = [
         "Yes, because all members present supported it",
         "Yes, if the Board subsequently confirms it",
         "No, failure for want of quorum does not amount to approval",
-        "Yes, after 30 days"
+        "Yes, after 30 days",
       ],
       answer: 2,
       explanation: "Section 191 specifically provides that where the payment is not approved for want of quorum, either at the meeting or adjourned meeting, the proposal shall not be deemed approved."
     },
-
     {
       question_id: "CEL_HARD_190_191_09_4",
       question: "What is the legal character of the compensation received by Mr. Varun before valid approval?",
@@ -14804,12 +11351,11 @@ const AICaseStudies = [
         "It becomes his property immediately",
         "It is deemed to have been received in trust for the company",
         "It becomes a loan from the transferee",
-        "It becomes dividend income"
+        "It becomes dividend income",
       ],
       answer: 1,
       explanation: "Where payment is received in contravention of Section 191(1), including before the required approval, the amount is deemed to have been received by the director in trust for the company."
     },
-
     {
       question_id: "CEL_HARD_190_191_09_5",
       question: "If Regal were a private company, which statement regarding Section 190 would be correct?",
@@ -14817,20 +11363,17 @@ const AICaseStudies = [
         "Section 190 would continue to apply fully",
         "Section 190 would not apply",
         "Only Section 190(1) would apply",
-        "Section 190 would apply only if turnover exceeded ₹100 crore"
+        "Section 190 would apply only if turnover exceeded ₹100 crore",
       ],
       answer: 1,
       explanation: "Section 190(4) provides that Section 190 does not apply to a private company."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE 10 — SECTIONS 192 & 193
    NON-CASH TRANSACTION + HOLDING COMPANY + OPC
 ========================================================= */
-
 {
   case_id: "CEL_HARD_192_193_10",
   difficulty: "hard",
@@ -14855,7 +11398,6 @@ const AICaseStudies = [
     was approved by the Board.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_192_193_10_1",
       question: "Does Section 192 potentially apply to the arrangement involving Mr. Aman even though he is not a director of Vertex itself?",
@@ -14863,12 +11405,11 @@ const AICaseStudies = [
         "No, Section 192 applies only to directors of the company itself",
         "Yes, it also covers directors of the company's holding, subsidiary or associate company and connected persons",
         "Only if Mr. Aman owns more than 50% of Vertex",
-        "Only if Vertex is listed"
+        "Only if Vertex is listed",
       ],
       answer: 1,
       explanation: "Section 192 extends to non-cash arrangements involving directors of the company or its holding, subsidiary or associate company, as well as persons connected with such directors."
     },
-
     {
       question_id: "CEL_HARD_192_193_10_2",
       question: "Since Mr. Aman is a director of Vertex's holding company, which approvals are required for the covered non-cash arrangement?",
@@ -14876,12 +11417,11 @@ const AICaseStudies = [
         "Board approval of Vertex only",
         "General meeting approval of Vertex only",
         "General meeting approval of Vertex and also of the holding company",
-        "Approval of the Registrar only"
+        "Approval of the Registrar only",
       ],
       answer: 2,
       explanation: "Prior approval by resolution in the company's general meeting is required, and where the relevant director is a director of the holding company, approval of the holding company in general meeting is also required."
     },
-
     {
       question_id: "CEL_HARD_192_193_10_3",
       question: "What is deficient in the general meeting notice described in the case?",
@@ -14889,12 +11429,11 @@ const AICaseStudies = [
         "Nothing, description of assets is sufficient",
         "It should include the value of the assets duly calculated by a registered valuer",
         "It must contain approval of the statutory auditor",
-        "It must contain consent of every creditor"
+        "It must contain consent of every creditor",
       ],
       answer: 1,
       explanation: "The notice for approval under Section 192 must contain particulars of the arrangement and the value of the assets involved, duly calculated by a registered valuer."
     },
-
     {
       question_id: "CEL_HARD_192_193_10_4",
       question: "Has Solo Innovations correctly dealt with the fact that its contract with its sole member/director was not in writing?",
@@ -14902,33 +11441,29 @@ const AICaseStudies = [
         "No, every such contract must necessarily be in writing",
         "Yes, its terms may be contained in a memorandum or recorded in the minutes of the first Board meeting held after entering into the contract",
         "No, approval of the Tribunal is required",
-        "Yes, but only if the contract is in ordinary course of business"
+        "Yes, but only if the contract is in ordinary course of business",
       ],
       answer: 1,
       explanation: "Under Section 193, where such a contract is not in writing, the OPC must ensure that its terms are contained in a memorandum or recorded in the minutes of the first Board meeting held next after entering into the contract."
     },
-
     {
       question_id: "CEL_HARD_192_193_10_5",
-      
       question: "Is informing the Registrar 18 days after Board approval compliant with Section 193?",
       options: [
         "Yes, the period is 30 days",
         "Yes, the period is 21 days",
         "No, the information should be submitted within 15 days of Board approval",
-        "No filing with the Registrar is required"
+        "No filing with the Registrar is required",
       ],
       answer: 2,
       explanation: "Section 193 requires the OPC to inform the Registrar about every such contract recorded in the Board minutes within 15 days of the date of approval by the Board. Filing after 18 days is therefore late."
     }
-
   ]
 },
 /* =========================================================
    HARD CASE SCENARIO 1
    SECTION 186 — LIMIT + WOS + PFI + BOARD APPROVAL
 ========================================================= */
-
 {
   case_id: "CEL_HARD_186_01",
   difficulty: "hard",
@@ -14953,33 +11488,20 @@ const AICaseStudies = [
     necessary.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_186_01_1",
       question: "What is the monetary limit applicable to Trident Engineering Limited under Section 186(2)?",
-      options: [
-        "₹20 crore",
-        "₹30 crore",
-        "₹24 crore",
-        "₹50 crore"
-      ],
+      options: ["₹20 crore", "₹30 crore", "₹24 crore", "₹50 crore"],
       answer: 1,
       explanation: "60% of paid-up share capital + free reserves + securities premium = 60% of ₹50 crore = ₹30 crore. 100% of free reserves + securities premium = ₹20 crore. The higher amount, ₹30 crore, is the Section 186(2) limit."
     },
-
     {
       question_id: "CEL_HARD_186_01_2",
       question: "Before the new proposals, how much of the Section 186(2) limit has already been utilised?",
-      options: [
-        "₹16 crore",
-        "₹20 crore",
-        "₹24 crore",
-        "₹30 crore"
-      ],
+      options: ["₹16 crore", "₹20 crore", "₹24 crore", "₹30 crore"],
       answer: 2,
       explanation: "Existing investments of ₹16 crore plus guarantees of ₹8 crore aggregate to ₹24 crore."
     },
-
     {
       question_id: "CEL_HARD_186_01_3",
       question: "Which statement regarding the proposed ₹10 crore loan to the wholly owned subsidiary is most appropriate?",
@@ -14987,12 +11509,11 @@ const AICaseStudies = [
         "It can never be made after the Section 186(2) limit is crossed",
         "It necessarily requires an ordinary resolution",
         "The special resolution requirement under Section 186(3) is exempted for the specified loan to a wholly owned subsidiary, though other applicable requirements continue",
-        "Neither Board approval nor disclosure is required"
+        "Neither Board approval nor disclosure is required",
       ],
       answer: 2,
       explanation: "The first proviso to Section 186(3) provides exemption from the special resolution requirement where a loan or guarantee is given or security provided to a wholly owned subsidiary or joint venture. Applicable Board and disclosure requirements continue."
     },
-
     {
       question_id: "CEL_HARD_186_01_4",
       question: "Is the vote of five out of six directors present sufficient to sanction the transactions under Section 186(5)?",
@@ -15000,12 +11521,11 @@ const AICaseStudies = [
         "Yes, because it constitutes a simple majority",
         "Yes, because more than three-fourths of directors present supported it",
         "No, consent of all directors present at the Board meeting is required",
-        "No, consent of all eight directors of the company is required"
+        "No, consent of all eight directors of the company is required",
       ],
       answer: 2,
       explanation: "Section 186(5) requires the resolution sanctioning the transaction to be passed at a Board meeting with the consent of all directors present. One director voting against means the statutory requirement is not satisfied."
     },
-
     {
       question_id: "CEL_HARD_186_01_5",
       question: "Which circumstance would permit Trident to dispense with prior approval of the public financial institution under the proviso to Section 186(5)?",
@@ -15013,20 +11533,17 @@ const AICaseStudies = [
         "Only absence of default is sufficient",
         "The aggregate exposure must remain within Section 186(2) limits and there must be no default in repayment of instalments or interest to the PFI",
         "A special resolution automatically eliminates the PFI approval requirement",
-        "PFI approval is never required where a WOS is involved"
+        "PFI approval is never required where a WOS is involved",
       ],
       answer: 1,
       explanation: "Both conditions must be satisfied: the aggregate must not exceed the Section 186(2) limit and there must be no default in repayment of instalments or payment of interest to the PFI."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE SCENARIO 2
    SECTION 186 — INVESTMENT LAYERS + FOREIGN COMPANY
 ========================================================= */
-
 {
   case_id: "CEL_HARD_186_02",
   difficulty: "hard",
@@ -15049,20 +11566,13 @@ const AICaseStudies = [
     requirement.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_186_02_1",
       question: "Under the general rule contained in Section 186(1), Orion may make investments through a maximum of:",
-      options: [
-        "One layer of investment companies",
-        "Two layers of investment companies",
-        "Three layers of investment companies",
-        "Unlimited layers with Board approval"
-      ],
+      options: ["One layer of investment companies", "Two layers of investment companies", "Three layers of investment companies", "Unlimited layers with Board approval"],
       answer: 1,
       explanation: "Section 186(1) generally prohibits investment through more than two layers of investment companies."
     },
-
     {
       question_id: "CEL_HARD_186_02_2",
       question: "On the stated facts, A, B and C can fall within the meaning of 'investment company' because:",
@@ -15070,12 +11580,11 @@ const AICaseStudies = [
         "Every company holding even one share is an investment company",
         "At least 50% of their total assets are in the form of investments in shares, debentures or other securities",
         "They are subsidiaries of Orion",
-        "They have more than two directors"
+        "They have more than two directors",
       ],
       answer: 1,
       explanation: "A company is deemed principally engaged in acquisition of securities where investments constitute not less than 50% of total assets or investment income constitutes not less than 50% of gross income."
     },
-
     {
       question_id: "CEL_HARD_186_02_3",
       question: "Can Orion acquire the foreign company merely because it already has investment subsidiaries beyond two layers?",
@@ -15083,12 +11592,11 @@ const AICaseStudies = [
         "No, the acquisition is absolutely prohibited",
         "Yes, where such layers are permitted under the laws of the foreign country",
         "Yes, but only after approval of NCLT",
-        "Yes, but only if Orion is a Government company"
+        "Yes, but only if Orion is a Government company",
       ],
       answer: 1,
       explanation: "Section 186(1) contains an exception permitting acquisition of a company incorporated outside India having investment subsidiaries beyond two layers as permitted under the law of that country."
     },
-
     {
       question_id: "CEL_HARD_186_02_4",
       question: "What is the position regarding Orion's Indian subsidiary establishing an investment subsidiary to comply with a sector-specific law?",
@@ -15096,12 +11604,11 @@ const AICaseStudies = [
         "It is prohibited because every third layer is absolutely barred",
         "It falls within a statutory exception to the two-layer rule",
         "It is permitted only with unanimous shareholder approval",
-        "It is permitted only for banking companies"
+        "It is permitted only for banking companies",
       ],
       answer: 1,
       explanation: "The two-layer restriction does not prevent a subsidiary from having an investment subsidiary for meeting requirements under any law, rule or regulation."
     },
-
     {
       question_id: "CEL_HARD_186_02_5",
       question: "Which is the most accurate conclusion regarding Orion → A → B → C under the ordinary rule, assuming no exception applies?",
@@ -15109,20 +11616,17 @@ const AICaseStudies = [
         "The structure is permissible because there are only three companies",
         "The structure may violate Section 186(1) because the investment travels through more than two layers of investment companies",
         "It is automatically permissible if all directors consent",
-        "Section 186(1) applies only to listed companies"
+        "Section 186(1) applies only to listed companies",
       ],
       answer: 1,
       explanation: "The restriction concerns the number of layers of investment companies through which investments are made, not merely the number of entities involved."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE SCENARIO 3
    SECTION 186 — DEFAULT + INTEREST + REGISTER
 ========================================================= */
-
 {
   case_id: "CEL_HARD_186_03",
   difficulty: "hard",
@@ -15143,7 +11647,6 @@ const AICaseStudies = [
     at any time before the next Board meeting.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_186_03_1",
       question: "While the deposit default continues, can Apex grant the proposed loan?",
@@ -15151,25 +11654,18 @@ const AICaseStudies = [
         "Yes, if shareholders approve by special resolution",
         "Yes, if the rate of interest is commercially reasonable",
         "No, Section 186(8) prohibits the specified transaction while such default subsists",
-        "Yes, because Section 186(8) applies only to investments"
+        "Yes, because Section 186(8) applies only to investments",
       ],
       answer: 2,
       explanation: "A company in default in repayment of deposits or payment of interest thereon cannot give any loan, guarantee, security or make an acquisition while the default subsists."
     },
-
     {
       question_id: "CEL_HARD_186_03_2",
       question: "Would obtaining a special resolution by itself cure the restriction arising from the continuing deposit default?",
-      options: [
-        "Yes",
-        "No",
-        "Yes, if unanimous",
-        "Yes, if approved by creditors"
-      ],
+      options: ["Yes", "No", "Yes, if unanimous", "Yes, if approved by creditors"],
       answer: 1,
       explanation: "Section 186(8) imposes an independent restriction during the subsistence of deposit default. A special resolution does not override it."
     },
-
     {
       question_id: "CEL_HARD_186_03_3",
       question: "For purposes of Section 186(7), the minimum interest rate should be linked to:",
@@ -15177,25 +11673,18 @@ const AICaseStudies = [
         "Any Government Security selected by the Board",
         "The Government Security closest to the tenor of the loan",
         "The company's average borrowing cost",
-        "The RBI repo rate alone"
+        "The RBI repo rate alone",
       ],
       answer: 1,
       explanation: "Section 186(7) uses the prevailing yield of the 1-year, 3-year, 5-year or 10-year Government Security closest to the tenor of the loan."
     },
-
     {
       question_id: "CEL_HARD_186_03_4",
       question: "The register required under Section 186 is maintained in:",
-      options: [
-        "MBP-1",
-        "MBP-2",
-        "MBP-3",
-        "MBP-4"
-      ],
+      options: ["MBP-1", "MBP-2", "MBP-3", "MBP-4"],
       answer: 1,
       explanation: "Rule 12 requires the register of loans, guarantees, securities and acquisitions under Section 186 to be maintained in Form MBP-2."
     },
-
     {
       question_id: "CEL_HARD_186_03_5",
       question: "Was entering the transaction in MBP-2 nine days after the investment compliant with the prescribed timeline?",
@@ -15203,20 +11692,17 @@ const AICaseStudies = [
         "Yes, because entry before the next Board meeting is sufficient",
         "Yes, because the limit is 15 days",
         "No, the particulars should be entered within seven days of the transaction",
-        "No, entries must be made on the same day"
+        "No, entries must be made on the same day",
       ],
       answer: 2,
       explanation: "Rule 12 requires chronological entry of each transaction within seven days of making the loan, giving guarantee/providing security or making the acquisition."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE SCENARIO 4
    SECTION 187 — OWN NAME + BANKER + DEPOSITORY
 ========================================================= */
-
 {
   case_id: "CEL_HARD_187_04",
   difficulty: "hard",
@@ -15238,7 +11724,6 @@ const AICaseStudies = [
     such securities.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_187_04_1",
       question: "Which of the following holdings is clearly permitted as an exception under Section 187?",
@@ -15246,12 +11731,11 @@ const AICaseStudies = [
         "Shares deposited with bankers for collection of dividend",
         "Shares permanently held in a director's personal name for convenience",
         "Investments held secretly by an employee",
-        "Shares held indefinitely in the name of an unrelated consultant"
+        "Shares held indefinitely in the name of an unrelated consultant",
       ],
       answer: 0,
       explanation: "Section 187(2) specifically permits shares or securities to be deposited with bankers for collection of dividend or interest."
     },
-
     {
       question_id: "CEL_HARD_187_04_2",
       question: "What should Mercury generally do with the securities remaining in the bank's name after seven months without any transfer taking place?",
@@ -15259,38 +11743,25 @@ const AICaseStudies = [
         "Nothing; they can remain indefinitely",
         "Transfer them to the Managing Director",
         "As soon as practicable, have them re-transferred or again held in Mercury's own name",
-        "Cancel the securities"
+        "Cancel the securities",
       ],
       answer: 2,
       explanation: "Where securities are placed in the banker's name to facilitate transfer and no transfer occurs within six months, they should as soon as practicable be re-transferred to the company or again held in its own name."
     },
-
     {
       question_id: "CEL_HARD_187_04_3",
       question: "Holding dematerialised securities in the name of a depository while Mercury remains beneficial owner is:",
-      options: [
-        "Prohibited",
-        "Permitted under Section 187(2)",
-        "Permitted only for Government companies",
-        "Permitted only for foreign companies"
-      ],
+      options: ["Prohibited", "Permitted under Section 187(2)", "Permitted only for Government companies", "Permitted only for foreign companies"],
       answer: 1,
       explanation: "Section 187(2)(d) permits investments in the name of a depository where the securities are held by the company as beneficial owner."
     },
-
     {
       question_id: "CEL_HARD_187_04_4",
       question: "The register for investments beneficially held by the company but not held in its own name is:",
-      options: [
-        "MBP-1",
-        "MBP-2",
-        "MBP-3",
-        "MBP-4"
-      ],
+      options: ["MBP-1", "MBP-2", "MBP-3", "MBP-4"],
       answer: 2,
       explanation: "Rule 14 requires maintenance of Form MBP-3."
     },
-
     {
       question_id: "CEL_HARD_187_04_5",
       question: "What is the position regarding shares of the subsidiary held through nominees solely to maintain the statutory minimum number of members?",
@@ -15298,20 +11769,17 @@ const AICaseStudies = [
         "It necessarily violates Section 187",
         "It is expressly recognised as an exception to the own-name requirement",
         "It requires approval of NCLT in every case",
-        "It is allowed only for listed subsidiaries"
+        "It is allowed only for listed subsidiaries",
       ],
       answer: 1,
       explanation: "The proviso to Section 187(1) permits shares in a subsidiary to be held in the name of nominees where necessary to ensure that the number of members does not fall below the statutory limit."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE SCENARIO 5
    SECTION 188 — RELATED PARTY + ARM'S LENGTH + THRESHOLDS
 ========================================================= */
-
 {
   case_id: "CEL_HARD_188_05",
   difficulty: "hard",
@@ -15333,7 +11801,6 @@ const AICaseStudies = [
     both transactions are in the ordinary course of Vertex's business.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_188_05_1",
       question: "Prime Distribution Private Limited is a related party because:",
@@ -15341,38 +11808,25 @@ const AICaseStudies = [
         "Every supplier is automatically a related party",
         "A private company in which a director or manager or his relative is a member or director falls within Section 2(76)",
         "Only because the transaction exceeds ₹30 crore",
-        "Only listed companies can have related parties"
+        "Only listed companies can have related parties",
       ],
       answer: 1,
       explanation: "Section 2(76) covers a private company in which a director or manager or his relative is a member or director."
     },
-
     {
       question_id: "CEL_HARD_188_05_2",
       question: "Does the fact that purchase of goods is in the ordinary course of business by itself take the transaction outside Section 188(1)?",
-      options: [
-        "Yes",
-        "No, it must also be on an arm's length basis to obtain the stated exemption",
-        "Yes, provided the Board approves",
-        "Yes, if the company is listed"
-      ],
+      options: ["Yes", "No, it must also be on an arm's length basis to obtain the stated exemption", "Yes, provided the Board approves", "Yes, if the company is listed"],
       answer: 1,
       explanation: "The exemption applies where the transaction is both in the ordinary course of business and on an arm's length basis."
     },
-
     {
       question_id: "CEL_HARD_188_05_3",
       question: "What is 10% of Vertex's turnover for purposes of the goods transaction threshold?",
-      options: [
-        "₹12 crore",
-        "₹20 crore",
-        "₹30 crore",
-        "₹32 crore"
-      ],
+      options: ["₹12 crore", "₹20 crore", "₹30 crore", "₹32 crore"],
       answer: 2,
       explanation: "10% of ₹300 crore is ₹30 crore."
     },
-
     {
       question_id: "CEL_HARD_188_05_4",
       question: "The ₹32 crore purchase transaction, being not at arm's length, would:",
@@ -15380,12 +11834,11 @@ const AICaseStudies = [
         "Remain below the prescribed threshold",
         "Cross the 10% turnover threshold and therefore require prior approval by ordinary resolution under the stated Rule 15 criteria",
         "Require a special resolution",
-        "Require no approval because it involves goods"
+        "Require no approval because it involves goods",
       ],
       answer: 1,
       explanation: "₹32 crore exceeds 10% of ₹300 crore, i.e. ₹30 crore. The prescribed shareholder approval is an ordinary resolution."
     },
-
     {
       question_id: "CEL_HARD_188_05_5",
       question: "What is the correct position regarding the ₹20 crore lease transaction?",
@@ -15393,20 +11846,17 @@ const AICaseStudies = [
         "It crosses the 10% turnover threshold",
         "It does not cross the 10% turnover threshold of ₹30 crore on the stated figures",
         "The relevant threshold is 10% of net worth",
-        "The relevant threshold is 1% of net worth"
+        "The relevant threshold is 1% of net worth",
       ],
       answer: 1,
       explanation: "For leasing of property, the material provided specifies 10% or more of turnover. Here, 10% of turnover is ₹30 crore, while the lease is ₹20 crore."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE SCENARIO 6
    SECTION 188 — OFFICE OF PROFIT + UNDERWRITING + VOTING
 ========================================================= */
-
 {
   case_id: "CEL_HARD_188_06",
   difficulty: "hard",
@@ -15427,7 +11877,6 @@ const AICaseStudies = [
     members in number are relatives of promoters or related parties does not apply.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_188_06_1",
       question: "The appointment of the director's son at ₹3,20,000 per month:",
@@ -15435,25 +11884,18 @@ const AICaseStudies = [
         "Does not require shareholder approval because remuneration is below ₹5 lakh",
         "Crosses the prescribed ₹2.5 lakh monthly remuneration threshold for office or place of profit",
         "Requires approval only if annual remuneration exceeds ₹1 crore",
-        "Is completely outside Section 188"
+        "Is completely outside Section 188",
       ],
       answer: 1,
       explanation: "Appointment to an office or place of profit at monthly remuneration exceeding ₹2.5 lakh attracts the prescribed shareholder approval requirement."
     },
-
     {
       question_id: "CEL_HARD_188_06_2",
       question: "What is 1% of Emerald's net worth for purposes of underwriting remuneration?",
-      options: [
-        "₹1 crore",
-        "₹1.5 crore",
-        "₹1.8 crore",
-        "₹15 crore"
-      ],
+      options: ["₹1 crore", "₹1.5 crore", "₹1.8 crore", "₹15 crore"],
       answer: 1,
       explanation: "1% of ₹150 crore is ₹1.5 crore."
     },
-
     {
       question_id: "CEL_HARD_188_06_3",
       question: "The proposed underwriting remuneration of ₹1.8 crore:",
@@ -15461,25 +11903,18 @@ const AICaseStudies = [
         "Does not cross the threshold",
         "Crosses the 1% net worth threshold",
         "Must be compared with turnover rather than net worth",
-        "Requires no approval because underwriting is not covered by Section 188"
+        "Requires no approval because underwriting is not covered by Section 188",
       ],
       answer: 1,
       explanation: "₹1.8 crore exceeds 1% of net worth, which is ₹1.5 crore. Underwriting subscription of securities or derivatives is expressly covered by Section 188."
     },
-
     {
       question_id: "CEL_HARD_188_06_4",
       question: "What type of shareholder resolution is prescribed for the transactions crossing the Rule 15(3) limits?",
-      options: [
-        "Special resolution",
-        "Ordinary resolution",
-        "Unanimous resolution",
-        "Resolution by circulation"
-      ],
+      options: ["Special resolution", "Ordinary resolution", "Unanimous resolution", "Resolution by circulation"],
       answer: 1,
       explanation: "The prescribed shareholder approval under the first proviso to Section 188(1) read with Rule 15(3) is an ordinary resolution."
     },
-
     {
       question_id: "CEL_HARD_188_06_5",
       question: "Can the shareholder who is a related party in the context of the first transaction vote on the resolution approving that transaction?",
@@ -15487,20 +11922,17 @@ const AICaseStudies = [
         "Yes, because every shareholder has an absolute right to vote",
         "No, subject to the statutory exceptions, a related party member cannot vote on the relevant resolution",
         "Yes, if his holding is below 10%",
-        "Yes, if the Board permits him"
+        "Yes, if the Board permits him",
       ],
       answer: 1,
       explanation: "The second proviso to Section 188(1) generally prohibits a member who is a related party in relation to the relevant contract or arrangement from voting, subject to statutory exceptions."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE SCENARIO 7
    SECTION 188 — UNAUTHORISED RPT + RATIFICATION
 ========================================================= */
-
 {
   case_id: "CEL_HARD_188_07",
   difficulty: "hard",
@@ -15523,33 +11955,20 @@ const AICaseStudies = [
     exposure.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_188_07_1",
       question: "Under Section 188(3), an unauthorised related party contract should generally be ratified within:",
-      options: [
-        "30 days",
-        "60 days",
-        "3 months from the date of the contract or arrangement",
-        "6 months"
-      ],
+      options: ["30 days", "60 days", "3 months from the date of the contract or arrangement", "6 months"],
       answer: 2,
       explanation: "Section 188(3) provides a three-month period for ratification by the Board or shareholders, as the case may be."
     },
-
     {
       question_id: "CEL_HARD_188_07_2",
       question: "On the facts given, was the approval obtained on 15 August within three months of the contract entered on 1 April?",
-      options: [
-        "Yes",
-        "No",
-        "Yes, because the Board started considering it on 20 June",
-        "Yes, because there is no time limit"
-      ],
+      options: ["Yes", "No", "Yes, because the Board started considering it on 20 June", "Yes, because there is no time limit"],
       answer: 1,
       explanation: "Three months from 1 April expires before 15 August. Merely beginning consideration within the period does not amount to ratification."
     },
-
     {
       question_id: "CEL_HARD_188_07_3",
       question: "Where the required ratification is not obtained within the statutory period, the contract is:",
@@ -15557,12 +11976,11 @@ const AICaseStudies = [
         "Automatically criminally void",
         "Voidable at the option of the Board or shareholders, as the case may be",
         "Always valid",
-        "Automatically converted into an arm's length transaction"
+        "Automatically converted into an arm's length transaction",
       ],
       answer: 1,
       explanation: "Section 188(3) makes such a contract or arrangement voidable at the option of the Board or shareholders, as the case may be."
     },
-
     {
       question_id: "CEL_HARD_188_07_4",
       question: "Since the contract is with a related party to the director who authorised it, what additional consequence may arise?",
@@ -15570,33 +11988,24 @@ const AICaseStudies = [
         "The director concerned must indemnify the company against loss incurred",
         "The shareholders must bear the loss",
         "The statutory auditor automatically becomes liable",
-        "There can be no recovery after execution"
+        "There can be no recovery after execution",
       ],
       answer: 0,
       explanation: "Where the contract is with a related party to any director or is authorised by any other director, the directors concerned shall indemnify the company against loss incurred."
     },
-
     {
       question_id: "CEL_HARD_188_07_5",
       question: "Can Pioneer independently proceed against the director or employee responsible for the contravention to recover loss?",
-      options: [
-        "No",
-        "Yes, Section 188(4) permits the company to proceed for recovery of loss sustained",
-        "Only after permission from NCLT",
-        "Only if the company is listed"
-      ],
+      options: ["No", "Yes, Section 188(4) permits the company to proceed for recovery of loss sustained", "Only after permission from NCLT", "Only if the company is listed"],
       answer: 1,
       explanation: "Section 188(4) expressly preserves the company's right to proceed against a director or employee responsible for the contravention to recover resulting loss."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE SCENARIO 8
    SECTION 189 — REGISTER + DISCLOSURE + AGM
 ========================================================= */
-
 {
   case_id: "CEL_HARD_189_08",
   difficulty: "hard",
@@ -15616,7 +12025,6 @@ const AICaseStudies = [
     registered members, and not proxies, can inspect the register during the AGM.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_189_08_1",
       question: "Did Mr. K comply with the time limit for disclosure after his appointment?",
@@ -15624,12 +12032,11 @@ const AICaseStudies = [
         "Yes, because disclosure before the next AGM is sufficient",
         "Yes, because the period is 60 days",
         "No, the disclosure should be made within 30 days of appointment",
-        "No, disclosure must be made on the same day"
+        "No, disclosure must be made on the same day",
       ],
       answer: 2,
       explanation: "Section 189(2) requires every director or KMP to make the specified disclosure within 30 days of appointment or relinquishment of office."
     },
-
     {
       question_id: "CEL_HARD_189_08_2",
       question: "What is the correct position regarding the ₹4.80 lakh service contract for purposes of Section 189(1)?",
@@ -15637,25 +12044,18 @@ const AICaseStudies = [
         "It must necessarily be entered because every interested transaction must be recorded",
         "It can fall within the exception where cost of services does not exceed ₹5 lakh in aggregate in any year",
         "The exception applies only to goods, not services",
-        "The exemption threshold is ₹10 lakh"
+        "The exemption threshold is ₹10 lakh",
       ],
       answer: 1,
       explanation: "Section 189(5) excludes specified contracts for goods, materials or services where the relevant value/cost does not exceed ₹5 lakh in aggregate in any year."
     },
-
     {
       question_id: "CEL_HARD_189_08_3",
       question: "Is the proposal to enter all transactions in MBP-4 at year-end compliant?",
-      options: [
-        "Yes",
-        "Yes, if the Board subsequently signs it",
-        "No, entries are required to be made at once and chronologically",
-        "Yes, if the statutory auditor agrees"
-      ],
+      options: ["Yes", "Yes, if the Board subsequently signs it", "No, entries are required to be made at once and chronologically", "Yes, if the statutory auditor agrees"],
       answer: 2,
       explanation: "Rule 16 requires entries in MBP-4 to be made at once and in chronological order."
     },
-
     {
       question_id: "CEL_HARD_189_08_4",
       question: "After the register has been duly filled and updated, it should be:",
@@ -15663,12 +12063,11 @@ const AICaseStudies = [
         "Placed before the next Board meeting and signed by all directors present",
         "Filed with NCLT every month",
         "Signed only by the Managing Director",
-        "Destroyed after the AGM"
+        "Destroyed after the AGM",
       ],
       answer: 0,
       explanation: "Section 189(1) requires the register to be placed before the next Board meeting and signed by all directors present."
     },
-
     {
       question_id: "CEL_HARD_189_08_5",
       question: "Can a proxy inspect the register when it is produced at the AGM?",
@@ -15676,20 +12075,17 @@ const AICaseStudies = [
         "No, only shareholders whose names appear in the register of members can inspect it",
         "Yes, it must remain accessible during the AGM to any person having the right to attend the meeting",
         "Only with permission of the Chairman",
-        "Only after payment of ₹10 per page"
+        "Only after payment of ₹10 per page",
       ],
       answer: 1,
       explanation: "The register must remain open and accessible during the AGM to any person having the right to attend. Therefore, even a proxy can inspect it."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE SCENARIO 9
    SECTION 191 — COMPENSATION FOR LOSS OF OFFICE
 ========================================================= */
-
 {
   case_id: "CEL_HARD_191_09",
   difficulty: "hard",
@@ -15712,7 +12108,6 @@ const AICaseStudies = [
     by the transferee.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_191_09_1",
       question: "Is Mr. Z correct that Section 191 does not apply to compensation paid by the transferee?",
@@ -15720,12 +12115,11 @@ const AICaseStudies = [
         "Yes",
         "No, Section 191 also covers specified payments from the transferee of the undertaking/property or shares and certain other persons",
         "Yes, unless Regal reimburses the transferee",
-        "Yes, because only salary paid by the company is regulated"
+        "Yes, because only salary paid by the company is regulated",
       ],
       answer: 1,
       explanation: "Section 191 expressly contemplates specified payments from the transferee of an undertaking/property, transferees of shares or other persons, not merely payment by the company."
     },
-
     {
       question_id: "CEL_HARD_191_09_2",
       question: "Were the disclosures made to members sufficient?",
@@ -15733,38 +12127,25 @@ const AICaseStudies = [
         "Yes, name and amount are sufficient",
         "No, prescribed particulars also include matters such as basis, justification, manner and sources of payment",
         "Yes, because the transferee is paying",
-        "Yes, if Mr. Z consents"
+        "Yes, if Mr. Z consents",
       ],
       answer: 1,
       explanation: "Rule 17 requires disclosure of several specified particulars, including basis for amount, reasons/justification, manner of payment and sources of payment."
     },
-
     {
       question_id: "CEL_HARD_191_09_3",
       question: "What is the effect of failure to approve the payment because quorum is absent both at the meeting and adjourned meeting?",
-      options: [
-        "The proposal is deemed approved",
-        "The Board may deem it approved",
-        "The proposal is not deemed to have been approved",
-        "Approval becomes unnecessary"
-      ],
+      options: ["The proposal is deemed approved", "The Board may deem it approved", "The proposal is not deemed to have been approved", "Approval becomes unnecessary"],
       answer: 2,
       explanation: "Section 191 provides that where payment is not approved for want of quorum at the meeting or adjourned meeting, it shall not be deemed approved."
     },
-
     {
       question_id: "CEL_HARD_191_09_4",
       question: "The ₹20 lakh accepted by Mr. Z before valid approval is deemed to be held:",
-      options: [
-        "Absolutely by Mr. Z",
-        "In trust for the company",
-        "For the transferee",
-        "As advance salary"
-      ],
+      options: ["Absolutely by Mr. Z", "In trust for the company", "For the transferee", "As advance salary"],
       answer: 1,
       explanation: "Payment received in contravention of Section 191(1), including payment made before approval, is deemed to be received by the director in trust for the company."
     },
-
     {
       question_id: "CEL_HARD_191_09_5",
       question: "How does Regal's default in redemption of debentures affect the proposed compensation?",
@@ -15772,20 +12153,17 @@ const AICaseStudies = [
         "It has no relevance",
         "It is one of the circumstances in which compensation to MD/WTD/manager is restricted under Rule 17(3), subject to specified exceptions",
         "It increases the compensation limit",
-        "It converts the required approval into a Board resolution"
+        "It converts the required approval into a Board resolution",
       ],
       answer: 1,
       explanation: "Default in redemption of debentures or payment of interest thereon is one of the specified circumstances restricting compensation for loss of office, except specified notice pay/statutory payments."
     }
-
   ]
 },
-
 /* =========================================================
    HARD CASE SCENARIO 10
    SECTIONS 192 & 193 — NON-CASH TRANSACTION + OPC
 ========================================================= */
-
 {
   case_id: "CEL_HARD_192_193_10",
   difficulty: "hard",
@@ -15809,7 +12187,6 @@ const AICaseStudies = [
     company informs the Registrar 25 days after the date of Board approval.</p>
   `,
   questions: [
-
     {
       question_id: "CEL_HARD_192_193_10_1",
       question: "Does Section 192 potentially apply merely because Mr. D is a director of Silverline's holding company rather than Silverline itself?",
@@ -15817,12 +12194,11 @@ const AICaseStudies = [
         "No",
         "Yes, Section 192 extends to specified directors of the company's holding, subsidiary or associate company and connected persons",
         "Only if Mr. D owns more than 50% of Silverline",
-        "Only if Silverline is listed"
+        "Only if Silverline is listed",
       ],
       answer: 1,
       explanation: "Section 192 expressly extends to a director of the company or its holding, subsidiary or associate company and persons connected with such director."
     },
-
     {
       question_id: "CEL_HARD_192_193_10_2",
       question: "Which approvals are relevant because Mr. D is a director of Silverline's holding company?",
@@ -15830,12 +12206,11 @@ const AICaseStudies = [
         "Only Silverline Board approval",
         "Prior approval by resolution in Silverline's general meeting and approval by resolution in the holding company's general meeting",
         "Only holding company Board approval",
-        "Only approval of the registered valuer"
+        "Only approval of the registered valuer",
       ],
       answer: 1,
       explanation: "The company must obtain prior approval in general meeting. Where the director/connected person is a director of its holding company, approval of the holding company in general meeting is also required."
     },
-
     {
       question_id: "CEL_HARD_192_193_10_3",
       question: "What defect exists in Silverline's notice to shareholders?",
@@ -15843,12 +12218,11 @@ const AICaseStudies = [
         "No defect exists",
         "It should contain particulars of the arrangement and value of assets duly calculated by a registered valuer",
         "It requires only the director's name",
-        "The valuation must necessarily be performed by the statutory auditor"
+        "The valuation must necessarily be performed by the statutory auditor",
       ],
       answer: 1,
       explanation: "The notice seeking approval under Section 192 must contain particulars of the arrangement and the value of assets involved, duly calculated by a registered valuer."
     },
-
     {
       question_id: "CEL_HARD_192_193_10_4",
       question: "What is the normal consequence of an arrangement entered into in contravention of Section 192?",
@@ -15856,12 +12230,11 @@ const AICaseStudies = [
         "It is automatically void in every circumstance",
         "It is voidable at the instance of the company, subject to the statutory exceptions",
         "It is always valid after Board approval",
-        "Only a monetary penalty can arise and the transaction can never be challenged"
+        "Only a monetary penalty can arise and the transaction can never be challenged",
       ],
       answer: 1,
       explanation: "An arrangement entered into in contravention of Section 192 is voidable at the instance of the company, subject to exceptions such as impossibility of restitution with indemnification or bona fide rights acquired for value without notice."
     },
-
     {
       question_id: "CEL_HARD_192_193_10_5",
       question: "Has Alpha One Private Limited complied with Section 193 regarding intimation to the Registrar?",
@@ -15869,12 +12242,11 @@ const AICaseStudies = [
         "Yes, because the period is 30 days",
         "Yes, because recording in Board minutes removes the need to inform the Registrar",
         "No, the Registrar should be informed within 15 days of the date of approval by the Board",
-        "No, the Registrar must be informed before entering into the contract"
+        "No, the Registrar must be informed before entering into the contract",
       ],
       answer: 2,
       explanation: "Section 193 requires the OPC to inform the Registrar about such contract within 15 days of the date of approval by the Board. Intimation after 25 days is therefore delayed."
     }
-
   ]
 }
 ];
