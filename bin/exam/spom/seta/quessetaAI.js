@@ -9759,4 +9759,3297 @@ const AICaseStudies = [
 
     ]
 },
+
+// Chapter 3
+
+  // ============================================================
+  // CHAPTER 3 – MEETINGS OF BOARD AND ITS POWERS
+  // Medium – CASE SCENARIOS 1 TO 10
+  // ============================================================
+
+  {
+    case_id: "CEL_CH3_MT_CS01",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 173"],
+    caseText: `
+      <p>
+        Alpha Technologies Limited was incorporated on 10th April 2026. The company
+        held its first Board Meeting on 5th May 2026. Thereafter, the Board proposed
+        to hold meetings on 10th August, 15th November and 20th December 2026.
+        One of the directors suggested that since four meetings would be completed
+        during the calendar year, the company would automatically comply with
+        Section 173. Another director pointed out that the interval between two
+        consecutive meetings is also relevant.
+      </p>
+      <p>
+        The Company Secretary was asked to examine whether the proposed schedule
+        satisfies the requirements relating to the first Board meeting, minimum number
+        of meetings and maximum interval between consecutive meetings.
+      </p>
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS01_Q01",
+        question: "Within what period from the date of incorporation should Alpha Technologies Limited hold its first Board Meeting?",
+        options: [
+          "Within 15 days",
+          "Within 30 days",
+          "Within 60 days",
+          "Within 90 days"
+        ],
+        answer: 1,
+        reason: "Section 173(1) requires every company to hold its first Board Meeting within 30 days of incorporation."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS01_Q02",
+        question: "What is the minimum number of Board Meetings generally required to be held by a company in a year?",
+        options: [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        answer: 2,
+        reason: "Every company is generally required to hold a minimum of four Board Meetings every year."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS01_Q03",
+        question: "What is the maximum permissible gap between two consecutive Board Meetings?",
+        options: [
+          "90 days",
+          "100 days",
+          "120 days",
+          "180 days"
+        ],
+        answer: 2,
+        reason: "The gap between two consecutive Board Meetings shall not exceed 120 days."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS01_Q04",
+        question: "If the company conducts four Board Meetings in a year but one interval between consecutive meetings exceeds 120 days, which statement is correct?",
+        options: [
+          "The company automatically complies because four meetings were held",
+          "The company complies if shareholders approve the delay",
+          "The company does not comply with the requirement regarding the maximum interval",
+          "The company complies if the Chairman permits the delay"
+        ],
+        answer: 2,
+        reason: "Both requirements must be satisfied: at least four meetings and a maximum gap of 120 days between consecutive meetings."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS01_Q05",
+        question: "Which statement best describes the requirement under Section 173?",
+        options: [
+          "Only the number of meetings matters",
+          "Only the interval between meetings matters",
+          "Both the minimum number of meetings and maximum interval requirements must be considered",
+          "Only shareholder approval determines compliance"
+        ],
+        answer: 2,
+        reason: "Section 173 requires a minimum of four meetings in a year and a maximum interval of 120 days between consecutive meetings."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS02",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 173", "OPC"],
+    caseText: `
+      <p>
+        Bright Solutions Private Limited is a small company having four directors.
+        During the financial year, the management decided to hold only two Board
+        Meetings. The first meeting was held on 15th January and the second on
+        20th August of the same calendar year.
+      </p>
+      <p>
+        The directors believed that because the company is a small company, there
+        is no requirement to hold four meetings. However, the Company Secretary
+        informed the Board that the interval between the two meetings is also relevant.
+      </p>
+      <p>
+        Separately, the promoters were considering conversion of the company into an
+        OPC having only one director and wanted to understand the consequences for
+        Board Meeting requirements.
+      </p>
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS02_Q01",
+        question: "For a small company, which requirement applies under Section 173(5)?",
+        options: [
+          "Four meetings every year with a 120-day maximum gap",
+          "One meeting in each half of a calendar year, subject to the prescribed gap",
+          "Only one meeting every two years",
+          "No Board Meeting is required"
+        ],
+        answer: 1,
+        reason: "A small company is required to conduct at least one Board Meeting in each half of a calendar year, with the gap between the two meetings not being less than 90 days."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS02_Q02",
+        question: "What is the minimum gap prescribed between the two Board Meetings of a small company under the stated exemption?",
+        options: [
+          "30 days",
+          "60 days",
+          "90 days",
+          "120 days"
+        ],
+        answer: 2,
+        reason: "The gap between the two meetings must not be less than 90 days."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS02_Q03",
+        question: "If an OPC has only one director on its Board, which statement is correct?",
+        options: [
+          "It must hold four Board Meetings",
+          "It must hold two Board Meetings",
+          "It must hold one Board Meeting in each half-year",
+          "Section 173 meeting requirements do not apply to it"
+        ],
+        answer: 3,
+        reason: "An OPC having only one director is not required to hold even a single Board Meeting during the year."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS02_Q04",
+        question: "Why is the 15 January to 20 August schedule potentially problematic for Bright Solutions?",
+        options: [
+          "The meetings are too close to each other",
+          "The gap may violate the minimum 90-day requirement only if it is less than 90 days",
+          "The company must hold four meetings regardless of being a small company",
+          "Small companies cannot hold meetings in August"
+        ],
+        answer: 1,
+        reason: "For the specified exemption, the two meetings must be in each half of the calendar year and the gap between them must not be less than 90 days. The January and August meetings satisfy the 90-day minimum."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS02_Q05",
+        question: "The exemption for a small company primarily modifies which general requirement?",
+        options: [
+          "Requirement of giving notice",
+          "Requirement relating to the number and interval of Board Meetings",
+          "Requirement relating to directors' disclosure of interest",
+          "Requirement relating to Board quorum"
+        ],
+        answer: 1,
+        reason: "Section 173(5) provides a modified meeting requirement for specified companies."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS03",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 173", "Video Conferencing"],
+    caseText: `
+      <p>
+        Crest Industries Limited convened a Board Meeting through video conferencing.
+        All directors were provided with the agenda and relevant papers. Director A
+        joined from Delhi, Director B from Mumbai and Director C from Bengaluru.
+        At the beginning of the meeting, the Chairperson asked each director to state
+        his name and location and confirm that he had received the agenda.
+      </p>
+      <p>
+        During one agenda item, Director B's audio became unclear. The Company
+        Secretary immediately requested him to repeat his statement. Later, Director C
+        objected to a motion and voting became necessary.
+      </p>
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS03_Q01",
+        question: "For a Board Meeting conducted through video conferencing, the facility should enable participants to:",
+        options: [
+          "Communicate only through recorded messages",
+          "Communicate concurrently and participate effectively",
+          "Vote only through email",
+          "Attend without identification"
+        ],
+        answer: 1,
+        reason: "The audio-visual facility must enable all participants to communicate concurrently with each other without an intermediary and participate effectively."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS03_Q02",
+        question: "At the commencement of the meeting, what process is required?",
+        options: [
+          "Postal voting",
+          "Roll call",
+          "Shareholder polling",
+          "Audit confirmation"
+        ],
+        answer: 1,
+        reason: "A roll call is taken by the Chairperson at the commencement of the meeting."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS03_Q03",
+        question: "If a director's statement becomes interrupted or garbled during the meeting, what should be done?",
+        options: [
+          "Ignore the statement",
+          "Terminate the meeting",
+          "Request the director to repeat or reiterate the statement",
+          "Refer the matter to shareholders"
+        ],
+        answer: 2,
+        reason: "The Chairperson or Company Secretary should request a repeat or reiteration if a statement is interrupted or garbled."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS03_Q04",
+        question: "When a motion is objected to and voting becomes necessary, how should the votes of directors participating electronically be recorded?",
+        options: [
+          "By anonymous poll only",
+          "By roll call with each director identifying himself",
+          "By postal ballot",
+          "Only the Chairperson's vote is recorded"
+        ],
+        answer: 1,
+        reason: "The Chairperson shall call the roll and note the vote of each director, who shall identify himself while casting the vote."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS03_Q05",
+        question: "A director participating through video conferencing is generally:",
+        options: [
+          "Not counted for quorum",
+          "Counted for quorum",
+          "Counted only if independent",
+          "Counted only with shareholder approval"
+        ],
+        answer: 1,
+        reason: "A director participating through video conferencing or other audio-visual means is counted for quorum unless specifically excluded for an item."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS04",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 173", "Notice"],
+    caseText: `
+      <p>
+        Delta Manufacturing Limited normally gives seven days' written notice to all
+        directors for Board Meetings. Due to an urgent business opportunity, the
+        company proposes to convene a Board Meeting at shorter notice.
+      </p>
+      <p>
+        The Company Secretary informs the Chairperson that shorter notice can be used
+        for urgent business. However, one independent director is travelling abroad
+        and cannot attend the meeting. The Board proposes to proceed without him and
+        circulate the decisions later for his information.
+      </p>
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS04_Q01",
+        question: "What is the normal minimum notice period for a Board Meeting?",
+        options: [
+          "3 days",
+          "5 days",
+          "7 days",
+          "15 days"
+        ],
+        answer: 2,
+        reason: "Section 173(3) generally requires at least seven days' notice in writing to every director."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS04_Q02",
+        question: "A meeting at shorter notice may be called for:",
+        options: [
+          "Any ordinary business without conditions",
+          "Urgent business",
+          "Only annual business",
+          "Only matters approved by shareholders"
+        ],
+        answer: 1,
+        reason: "A Board Meeting may be called at shorter notice to transact urgent business."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS04_Q03",
+        question: "Where a shorter-notice meeting is held, what special condition applies where an independent director exists?",
+        options: [
+          "All independent directors must attend",
+          "At least one independent director shall be present",
+          "The independent director must chair the meeting",
+          "Shareholders must ratify the meeting"
+        ],
+        answer: 1,
+        reason: "At least one independent director, if any, shall be present at a shorter-notice meeting."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS04_Q04",
+        question: "If no independent director is present at such shorter-notice meeting, the decisions become final:",
+        options: [
+          "Immediately",
+          "Only after ratification by at least one independent director, if any",
+          "Only after approval by the auditor",
+          "Never"
+        ],
+        answer: 1,
+        reason: "In the absence of an independent director, decisions are circulated to all directors and become final only upon ratification by at least one independent director, if any."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS04_Q05",
+        question: "The normal notice to directors may be sent by:",
+        options: [
+          "Only registered post",
+          "Only hand delivery",
+          "Hand delivery, post or electronic means",
+          "Only email"
+        ],
+        answer: 2,
+        reason: "Section 173(3) permits notice to be sent by hand delivery, post or electronic means."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS05",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 174", "Quorum"],
+    caseText: `
+      <p>
+        Everest Limited has 12 directors according to its Board structure. However,
+        two positions are vacant. At a scheduled Board Meeting, eight directors are
+        physically present and two directors participate through video conferencing.
+        The Chairperson wants to determine whether the quorum requirement is satisfied.
+      </p>
+      <p>
+        The Company Secretary explains that vacant positions are not included while
+        determining total strength and directors participating electronically are normally
+        counted for quorum.
+      </p>
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS05_Q01",
+        question: "What is the relevant total strength for determining quorum in this case?",
+        options: [
+          "12",
+          "10",
+          "8",
+          "2"
+        ],
+        answer: 1,
+        reason: "Vacant positions are excluded while calculating total strength. Thus, 12 minus 2 vacancies equals 10."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS05_Q02",
+        question: "One-third of the relevant total strength of 10 is:",
+        options: [
+          "2",
+          "3",
+          "3.33",
+          "4"
+        ],
+        answer: 2,
+        reason: "One-third of 10 is 3.33. Any fraction is rounded off as one, resulting in a quorum requirement of 4 when compared with the minimum of 2."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS05_Q03",
+        question: "What is the quorum requirement for Everest Limited?",
+        options: [
+          "2 directors",
+          "3 directors",
+          "4 directors",
+          "5 directors"
+        ],
+        answer: 2,
+        reason: "One-third of 10 is 3.33, which is rounded off as 4. Since 4 is higher than 2, quorum is 4."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS05_Q04",
+        question: "Are directors participating through video conferencing normally counted for quorum?",
+        options: [
+          "No",
+          "Yes",
+          "Only if they are independent directors",
+          "Only with shareholder approval"
+        ],
+        answer: 1,
+        reason: "Directors participating through video conferencing or other audio-visual means are counted for quorum unless excluded under applicable provisions."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS05_Q05",
+        question: "If only three directors were present in the above case, the Board Meeting would:",
+        options: [
+          "Have valid quorum",
+          "Have no quorum",
+          "Be valid if the Chairperson agrees",
+          "Be valid if the auditor attends"
+        ],
+        answer: 1,
+        reason: "The required quorum is four directors. Three directors would therefore be insufficient."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS06",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 174", "Interested Directors"],
+    caseText: `
+      <p>
+        Falcon Limited has 15 directors. During a Board Meeting, an agenda item
+        concerning a contract with another company is taken up. Thirteen directors
+        are interested in the transaction within the meaning of Section 184(2).
+        Two directors have no interest in the transaction and remain eligible to
+        participate.
+      </p>
+      <p>
+        The Chairperson initially believes that the normal one-third quorum should
+        apply. The Company Secretary points out that Section 174 contains a special
+        rule where interested directors constitute at least two-thirds of the total
+        strength.
+      </p>
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS06_Q01",
+        question: "What percentage of the Board is interested in the transaction?",
+        options: [
+          "60%",
+          "66.67%",
+          "80%",
+          "86.67%"
+        ],
+        answer: 3,
+        reason: "13 out of 15 directors are interested, i.e. approximately 86.67%."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS06_Q02",
+        question: "Does the special quorum provision for interested directors apply?",
+        options: [
+          "No, because exactly 15 directors exist",
+          "Yes, because interested directors exceed two-thirds of total strength",
+          "Only if shareholders approve",
+          "Only in a private company"
+        ],
+        answer: 1,
+        reason: "The special rule applies where interested directors exceed or are equal to two-thirds of the total strength."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS06_Q03",
+        question: "What is the minimum number of non-interested directors required to constitute quorum in this situation?",
+        options: [
+          "1",
+          "2",
+          "3",
+          "5"
+        ],
+        answer: 1,
+        reason: "The number of non-interested directors present constitutes the quorum, but their number cannot be less than two."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS06_Q04",
+        question: "Can the 13 interested directors be used to satisfy the special quorum for this particular item?",
+        options: [
+          "Yes, all 13 are counted",
+          "Yes, but only half are counted",
+          "No, the special rule focuses on non-interested directors",
+          "Only the Chairperson is counted"
+        ],
+        answer: 2,
+        reason: "Where the interested directors are at least two-thirds, the quorum is constituted by the non-interested directors present, subject to a minimum of two."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS06_Q05",
+        question: "The meaning of an interested director for this purpose is primarily linked with:",
+        options: [
+          "Section 173",
+          "Section 174(3) read with Section 184(2)",
+          "Section 180",
+          "Section 182"
+        ],
+        answer: 1,
+        reason: "Section 174(3) refers to interested directors within the meaning of Section 184(2)."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS07",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 175", "Resolution by Circulation"],
+    caseText: `
+      <p>
+        Galaxy Limited has six directors. The Chairperson proposes to pass a routine
+        Board resolution by circulation. The draft resolution along with necessary
+        papers is circulated electronically to all directors at their registered
+        addresses.
+      </p>
+      <p>
+        Three directors respond that the matter should instead be decided at a
+        properly convened Board Meeting. The Chairperson argues that since the
+        remaining directors support circulation, the resolution can still be passed.
+      </p>
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS07_Q01",
+        question: "How many directors constitute one-third of Galaxy Limited's total strength?",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        answer: 1,
+        reason: "One-third of six directors is two."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS07_Q02",
+        question: "Since three directors require the matter to be decided at a meeting, what is the consequence?",
+        options: [
+          "The resolution must continue by circulation",
+          "The Chairperson shall put the resolution to be decided at a Board Meeting",
+          "The resolution automatically fails",
+          "The shareholders must decide it"
+        ],
+        answer: 1,
+        reason: "If at least one-third of the total number of directors require that a resolution under circulation be decided at a meeting, the Chairperson shall put it to the Board Meeting."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS07_Q03",
+        question: "Which of the following can be used for circulating the draft resolution under the rules?",
+        options: [
+          "Only physical delivery",
+          "Electronic means including email or fax",
+          "Only newspaper publication",
+          "Only registered post"
+        ],
+        answer: 1,
+        reason: "Rule 5 permits electronic means including email or fax."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS07_Q04",
+        question: "If the resolution is validly passed by circulation, it must be noted in:",
+        options: [
+          "The annual return only",
+          "The next Board or committee meeting and minutes",
+          "The auditor's report",
+          "The shareholders' register"
+        ],
+        answer: 1,
+        reason: "A resolution passed by circulation must be noted at the next meeting of the Board or committee and made part of its minutes."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS07_Q05",
+        question: "Which statement is correct regarding the objection by three directors?",
+        options: [
+          "It is irrelevant because majority always prevails",
+          "It triggers the requirement for consideration at a Board Meeting",
+          "It automatically makes the directors disqualified",
+          "It requires approval of the auditor"
+        ],
+        answer: 1,
+        reason: "Three directors exceed the one-third threshold and therefore require the resolution to be decided at a Board Meeting."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS08",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 177", "Audit Committee"],
+    caseText: `
+      <p>
+        Horizon Public Limited Company is an unlisted public company. Its latest
+        audited financial statements show paid-up share capital of ₹12 crore,
+        turnover of ₹95 crore and aggregate outstanding loans, debentures and
+        deposits of ₹40 crore.
+      </p>
+      <p>
+        The Board argues that since the company is not listed and its turnover and
+        outstanding liabilities are below the prescribed thresholds, an Audit Committee
+        is unnecessary. The Company Secretary examines each prescribed threshold
+        separately.
+      </p>
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS08_Q01",
+        question: "Is an unlisted public company automatically exempt from constituting an Audit Committee?",
+        options: [
+          "Yes, all unlisted public companies are exempt",
+          "No, prescribed thresholds may require constitution",
+          "Yes, unless shareholders demand it",
+          "Yes, unless the company is a Section 8 company"
+        ],
+        answer: 1,
+        reason: "Certain unlisted public companies are required to constitute an Audit Committee if they satisfy prescribed thresholds."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS08_Q02",
+        question: "Horizon has paid-up share capital of ₹12 crore. Does this exceed the prescribed ₹10 crore threshold?",
+        options: [
+          "No",
+          "Yes",
+          "Only if turnover also exceeds ₹100 crore",
+          "Only if listed"
+        ],
+        answer: 1,
+        reason: "Paid-up share capital of ₹12 crore exceeds the prescribed threshold of ₹10 crore."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS08_Q03",
+        question: "Which single fact in the case is sufficient to bring Horizon within the prescribed threshold?",
+        options: [
+          "Turnover of ₹95 crore",
+          "Outstanding loans of ₹40 crore",
+          "Paid-up share capital of ₹12 crore",
+          "Being unlisted"
+        ],
+        answer: 2,
+        reason: "The paid-up share capital exceeds ₹10 crore, which is one of the prescribed criteria."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS08_Q04",
+        question: "What is the minimum number of directors required in an Audit Committee?",
+        options: [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        answer: 1,
+        reason: "The Audit Committee shall consist of a minimum of three directors."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS08_Q05",
+        question: "In an Audit Committee, independent directors should:",
+        options: [
+          "Form a minority",
+          "Form a majority",
+          "Be absent",
+          "Always constitute the entire committee"
+        ],
+        answer: 1,
+        reason: "Independent directors shall form a majority of the Audit Committee, subject to applicable modifications."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS09",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 178", "NRC"],
+    caseText: `
+      <p>
+        Innovate Public Limited is a listed public company. Its Board is considering
+        the constitution of the Nomination and Remuneration Committee. The proposed
+        committee consists of three directors, all of whom are non-executive directors.
+        One of them is an independent director.
+      </p>
+      <p>
+        The Chairperson of the company wants to chair the committee because of his
+        experience in human resources. The Company Secretary advises that the
+        composition and chairmanship requirements must be examined separately.
+      </p>
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS09_Q01",
+        question: "Is a listed public company required to constitute a Nomination and Remuneration Committee?",
+        options: [
+          "No",
+          "Yes",
+          "Only if turnover exceeds ₹100 crore",
+          "Only if shareholders pass a resolution"
+        ],
+        answer: 1,
+        reason: "Every listed public company is required to constitute a Nomination and Remuneration Committee."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS09_Q02",
+        question: "What is the minimum number of directors in the NRC under the stated provisions?",
+        options: [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        answer: 1,
+        reason: "The NRC shall consist of three or more non-executive directors."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS09_Q03",
+        question: "In the proposed three-member NRC, how many members should be independent directors under the Companies Act requirement?",
+        options: [
+          "At least 1",
+          "At least 2",
+          "All 3",
+          "None"
+        ],
+        answer: 0,
+        reason: "Not less than one-half of the members should be independent directors. For three members, this means at least two when applying the numerical composition requirement; however, the supplied text states 'not less than one-half', which requires at least two members."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS09_Q04",
+        question: "Can the Chairperson of the company chair the NRC under the Companies Act provision stated in the chapter?",
+        options: [
+          "Yes, compulsorily",
+          "Yes, if shareholders approve",
+          "No, the Chairperson of the company shall not chair the committee",
+          "Only if he is independent"
+        ],
+        answer: 2,
+        reason: "The Chairperson of the company, whether executive or non-executive, shall not chair the NRC, although he may be a member."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS09_Q05",
+        question: "Which of the following is a function of the NRC?",
+        options: [
+          "Conducting statutory audit",
+          "Recommending remuneration policy",
+          "Approving all bank transactions",
+          "Issuing shares directly"
+        ],
+        answer: 1,
+        reason: "The NRC recommends to the Board a policy relating to remuneration for directors, KMP and other employees."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS10",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 179", "Section 180"],
+    caseText: `
+      <p>
+        Jupiter Limited proposes to borrow a substantial amount for expansion of its
+        manufacturing facility. The Board considers borrowing as one of its powers.
+        However, the proposed borrowing, together with existing borrowings, would
+        exceed the aggregate of the company's paid-up share capital, free reserves
+        and securities premium, excluding temporary loans obtained from bankers in
+        the ordinary course of business.
+      </p>
+      <p>
+        The directors propose to approve the borrowing solely through a Board
+        resolution. The shareholders are advised that Section 180 may impose an
+        additional requirement where the prescribed borrowing limit is exceeded.
+      </p>
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS10_Q01",
+        question: "Under Section 179, borrowing money is generally a power of:",
+        options: [
+          "Only shareholders",
+          "The Board of Directors",
+          "Only the auditor",
+          "Only the Company Secretary"
+        ],
+        answer: 1,
+        reason: "The Board is empowered to exercise the company's powers, including borrowing monies, subject to statutory restrictions."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS10_Q02",
+        question: "When the borrowing together with existing borrowings exceeds the prescribed aggregate, what is generally required for a public company under Section 180?",
+        options: [
+          "Only an ordinary Board resolution",
+          "Special resolution of the company",
+          "Only auditor approval",
+          "No approval"
+        ],
+        answer: 1,
+        reason: "Borrowing beyond the aggregate of paid-up share capital, free reserves and securities premium generally requires consent through a special resolution."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS10_Q03",
+        question: "Which of the following is excluded while calculating the borrowing limit under Section 180(1)(c)?",
+        options: [
+          "Long-term loans",
+          "Debentures",
+          "Temporary loans obtained from bankers in the ordinary course of business",
+          "Unsecured borrowings"
+        ],
+        answer: 2,
+        reason: "Temporary loans obtained from the company's bankers in the ordinary course of business are excluded."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS10_Q04",
+        question: "A special resolution relating to borrowing under Section 180 must specify:",
+        options: [
+          "Only the name of the lender",
+          "The total amount up to which monies may be borrowed",
+          "Only the interest rate",
+          "Only the repayment date"
+        ],
+        answer: 1,
+        reason: "Section 180(2) requires the special resolution to specify the total amount up to which monies may be borrowed by the Board."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS10_Q05",
+        question: "Which statement best describes the relationship between Sections 179 and 180?",
+        options: [
+          "Section 179 gives the Board power and Section 180 imposes specified restrictions on that power",
+          "Both sections completely prohibit borrowing",
+          "Section 180 gives unlimited borrowing power",
+          "Section 179 applies only to shareholders"
+        ],
+        answer: 0,
+        reason: "Section 179 recognises the Board's power to borrow, while Section 180 imposes restrictions requiring shareholder approval in specified circumstances."
+      }
+    ]
+  },
+  // ============================================================
+  // CHAPTER 3 – MEETINGS OF BOARD AND ITS POWERS
+  // Medium – CASE SCENARIOS 11 TO 20
+  // ============================================================
+
+  {
+    case_id: "CEL_CH3_MT_CS11",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 174", "Adjournment"],
+    caseText: `
+      <p>
+        Nova Infrastructure Limited convened a Board Meeting on Monday at 11:00 a.m.
+        However, only one director was present and the company could not constitute
+        the required quorum. The Articles of Association of the company did not contain
+        any different provision regarding adjournment for want of quorum.
+      </p>
+      <p>
+        The Chairman proposed that the meeting should automatically stand adjourned
+        to the same day and time in the following week. The following week, that day
+        happened to be a national holiday. One director argued that the meeting should
+        nevertheless be held on the same day because it had already been scheduled.
+      </p>
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS11_Q01",
+        question: "What happens to a Board Meeting which cannot be held for want of quorum, unless the Articles provide otherwise?",
+        options: [
+          "It is automatically cancelled",
+          "It automatically stands adjourned",
+          "It becomes a general meeting",
+          "It is deemed valid"
+        ],
+        answer: 1,
+        reason: "Where a Board Meeting cannot be held for want of quorum, it shall automatically stand adjourned unless the Articles provide otherwise."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS11_Q02",
+        question: "Ordinarily, the adjourned meeting is held:",
+        options: [
+          "On the next succeeding day",
+          "On the same day, same time and place in the next week",
+          "After one month",
+          "Only after shareholder approval"
+        ],
+        answer: 1,
+        reason: "The meeting automatically stands adjourned to the same day, same time and place in the next week."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS11_Q03",
+        question: "If the scheduled adjourned day is a national holiday, when is the adjourned meeting held?",
+        options: [
+          "The previous day",
+          "The next succeeding day which is not a national holiday",
+          "The next Sunday",
+          "After seven additional days"
+        ],
+        answer: 1,
+        reason: "If the scheduled day is a national holiday, the meeting is held on the next succeeding day which is not a national holiday."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS11_Q04",
+        question: "If the adjourned day happens to be Sunday but is not a national holiday, can the meeting be held on Sunday?",
+        options: [
+          "No, all Board Meetings are prohibited on Sundays",
+          "Yes, because the provision excludes a national holiday, not every holiday",
+          "Only with shareholder approval",
+          "Only if the auditor attends"
+        ],
+        answer: 1,
+        reason: "The statutory provision specifically refers to a national holiday. Therefore, a Sunday can be the day of the adjourned meeting if it is not a national holiday."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS11_Q05",
+        question: "Which factor could alter the statutory default rule regarding adjournment?",
+        options: [
+          "The Articles of Association",
+          "The auditor's report",
+          "The annual return",
+          "The company's website"
+        ],
+        answer: 0,
+        reason: "The statutory rule applies unless the Articles of Association provide otherwise."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS12",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 175", "Resolution by Circulation"],
+    caseText: `
+      <p>
+        Orion Limited has eight directors. A matter that does not require consideration
+        at a duly convened Board Meeting is proposed to be decided by circulation.
+        The draft resolution, together with necessary papers, is circulated to all
+        directors through electronic means.
+      </p>
+      <p>
+        Five directors approve the resolution, while two directors vote against it and
+        one director does not respond. None of the directors representing one-third
+        of the total number of directors requires the matter to be placed before a
+        Board Meeting.
+      </p>
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS12_Q01",
+        question: "How many directors constitute one-third of Orion Limited's total number of directors?",
+        options: [
+          "2",
+          "2.67, treated as 3",
+          "4",
+          "5"
+        ],
+        answer: 1,
+        reason: "One-third of eight is 2.67. For determining the one-third threshold, the requirement is at least one-third; in practical whole-number terms, three directors would satisfy or exceed that threshold."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS12_Q02",
+        question: "How many directors approved the resolution?",
+        options: [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        answer: 0,
+        reason: "Five directors approved the resolution."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS12_Q03",
+        question: "Subject to the stated facts, can the resolution be passed by circulation?",
+        options: [
+          "Yes, because it has been approved by a majority of directors entitled to vote",
+          "No, because every director must approve",
+          "No, because one director did not respond",
+          "Yes, but only after shareholder approval"
+        ],
+        answer: 0,
+        reason: "A resolution by circulation is duly passed when approved by a majority of directors entitled to vote, provided the required one-third threshold does not require it to be decided at a meeting."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS12_Q04",
+        question: "What must happen to a resolution validly passed by circulation at the next Board Meeting?",
+        options: [
+          "It must be cancelled",
+          "It must be noted and made part of the minutes",
+          "It must be approved again unanimously",
+          "It must be sent to the Registrar"
+        ],
+        answer: 1,
+        reason: "A resolution passed by circulation must be noted at the next meeting of the Board or committee and made part of the minutes."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS12_Q05",
+        question: "Which situation would require the resolution to be considered at a Board Meeting instead of by circulation?",
+        options: [
+          "One director votes against it",
+          "At least one-third of the total number of directors require it to be decided at a meeting",
+          "One director does not respond",
+          "The Company Secretary objects"
+        ],
+        answer: 1,
+        reason: "If at least one-third of the total number of directors require the resolution to be decided at a meeting, the Chairperson must place it before a Board Meeting."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS13",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 177", "Audit Committee"],
+    caseText: `
+      <p>
+        Prime Consumer Products Limited has a properly constituted Audit Committee.
+        During its meeting, the Committee considers the appointment and remuneration
+        of the statutory auditor, reviews the auditor's independence and examines the
+        financial statements before they are submitted to the Board.
+      </p>
+      <p>
+        The Committee also decides to investigate concerns regarding the company's
+        internal financial controls. It proposes to obtain professional advice from an
+        external expert and requests access to relevant company records.
+      </p>
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS13_Q01",
+        question: "Which body recommends the appointment, remuneration and terms of appointment of auditors under the stated provisions?",
+        options: [
+          "Nomination and Remuneration Committee",
+          "Audit Committee",
+          "Stakeholders Relationship Committee",
+          "Shareholders alone"
+        ],
+        answer: 1,
+        reason: "The Audit Committee recommends appointment, remuneration and terms of appointment of auditors."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS13_Q02",
+        question: "Can the Audit Committee review and monitor the auditor's independence and performance?",
+        options: [
+          "Yes",
+          "No",
+          "Only with court permission",
+          "Only after the audit is completed"
+        ],
+        answer: 0,
+        reason: "Reviewing and monitoring auditor independence and performance is an Audit Committee responsibility."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS13_Q03",
+        question: "Can the Audit Committee review financial statements before their submission to the Board?",
+        options: [
+          "Yes",
+          "No",
+          "Only after shareholder approval",
+          "Only if the auditor agrees"
+        ],
+        answer: 0,
+        reason: "The Audit Committee has the right to review financial statements before submission to the Board."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS13_Q04",
+        question: "For an investigation into matters within its functions, the Audit Committee may:",
+        options: [
+          "Obtain professional advice from external sources and access company records",
+          "Only question shareholders",
+          "Only rely on the statutory auditor",
+          "Issue shares to experts"
+        ],
+        answer: 0,
+        reason: "Section 177(6) gives the Audit Committee power to investigate and obtain professional advice from external sources and access company information."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS13_Q05",
+        question: "When the Audit Committee considers the auditor's report, the auditor has:",
+        options: [
+          "A right to vote",
+          "A right to be heard but no right to vote",
+          "No right to attend",
+          "A right to veto the Committee"
+        ],
+        answer: 1,
+        reason: "The auditors and KMP have a right to be heard when the Audit Committee considers the auditor's report, but they do not have the right to vote."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS14",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 177", "Vigil Mechanism"],
+    caseText: `
+      <p>
+        Quantum Limited is a listed company. Several employees have raised genuine
+        concerns regarding possible financial irregularities. The company has an Audit
+        Committee and has established a vigil mechanism.
+      </p>
+      <p>
+        One employee fears retaliation from a senior executive. Another employee wants
+        to approach the Chairperson of the Audit Committee directly because the matter
+        involves a member of the management who may otherwise influence the normal
+        reporting process. The Board also notices that one employee has repeatedly filed
+        frivolous complaints without any genuine basis.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS14_Q01",
+        question: "Who may use the vigil mechanism to report genuine concerns?",
+        options: [
+          "Only shareholders",
+          "Directors and employees",
+          "Only auditors",
+          "Only independent directors"
+        ],
+        answer: 1,
+        reason: "The vigil mechanism is intended for directors and employees to report genuine concerns."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS14_Q02",
+        question: "Which of the following is a key safeguard required under the vigil mechanism?",
+        options: [
+          "Protection against victimisation",
+          "Guaranteed promotion",
+          "Guaranteed financial reward",
+          "Automatic dismissal of the accused"
+        ],
+        answer: 0,
+        reason: "The vigil mechanism must provide adequate safeguards against victimisation of persons who use it."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS14_Q03",
+        question: "In exceptional or appropriate cases, the mechanism should provide direct access to:",
+        options: [
+          "The statutory auditor",
+          "The Chairperson of the Audit Committee",
+          "Any shareholder",
+          "The Registrar only"
+        ],
+        answer: 1,
+        reason: "Section 177(10) provides for direct access to the Chairperson of the Audit Committee in appropriate or exceptional cases."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS14_Q04",
+        question: "If a member of the Audit Committee has a conflict of interest in a particular complaint, that member should:",
+        options: [
+          "Decide the complaint alone",
+          "Recuse himself or herself from the matter",
+          "Automatically reject the complaint",
+          "Vote twice"
+        ],
+        answer: 1,
+        reason: "A member having a conflict of interest should recuse himself or herself and the other committee members should deal with the matter."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS14_Q05",
+        question: "What action may be taken in case of repeated frivolous complaints?",
+        options: [
+          "No action is possible",
+          "Suitable action including reprimand may be taken",
+          "The complaint must automatically be accepted",
+          "The Audit Committee must resign"
+        ],
+        answer: 1,
+        reason: "In case of repeated frivolous complaints, suitable action including reprimand may be taken."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS15",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 178", "Stakeholders Relationship Committee"],
+    caseText: `
+      <p>
+        Sunrise Limited has 1,250 shareholders, 40 debenture-holders and several
+        deposit-holders during the financial year. A number of security holders have
+        submitted complaints concerning delays in transmission of securities and
+        other grievances.
+      </p>
+      <p>
+        The Board is considering whether a Stakeholders Relationship Committee is
+        required and, if so, who should head the Committee. One director suggests
+        appointing an executive director as Chairperson because he handles investor
+        relations.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS15_Q01",
+        question: "When is a company required to constitute a Stakeholders Relationship Committee under the stated provision?",
+        options: [
+          "When it has more than 500 shareholders only",
+          "When it consists of more than 1,000 specified security holders at any time during a financial year",
+          "Only when it is listed",
+          "Only when shareholders demand it"
+        ],
+        answer: 1,
+        reason: "A company having more than 1,000 shareholders, debenture-holders, deposit-holders and other security holders at any time during a financial year must constitute the Committee."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS15_Q02",
+        question: "Does Sunrise Limited satisfy the numerical threshold based on the facts given?",
+        options: [
+          "No",
+          "Yes",
+          "Only if its turnover exceeds ₹100 crore",
+          "Only if it has more than 2,000 shareholders"
+        ],
+        answer: 1,
+        reason: "The company has more than 1,000 specified security holders during the financial year."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS15_Q03",
+        question: "Who shall head the Stakeholders Relationship Committee?",
+        options: [
+          "Managing Director",
+          "Executive Director",
+          "Non-executive Director",
+          "Company Secretary"
+        ],
+        answer: 2,
+        reason: "The SRC shall be headed by a Chairperson who shall be a non-executive director."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS15_Q04",
+        question: "What is the principal objective of the SRC?",
+        options: [
+          "Approve financial statements",
+          "Resolve grievances of security holders and protect their interests",
+          "Appoint statutory auditors",
+          "Approve political contributions"
+        ],
+        answer: 1,
+        reason: "The SRC considers and resolves grievances of security holders and protects the interests of all security holders."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS15_Q05",
+        question: "The SRC is concerned with:",
+        options: [
+          "Only equity shareholders",
+          "Only debenture-holders",
+          "All security holders",
+          "Only employees"
+        ],
+        answer: 2,
+        reason: "The Committee is intended to protect the interests of all security holders, not merely equity investors."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS16",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 179", "Delegation of Powers"],
+    caseText: `
+      <p>
+        Terra Limited wants to streamline its financial operations. The Board proposes
+        to delegate certain powers concerning borrowing, investment of funds and
+        granting loans or guarantees to its Managing Director.
+      </p>
+      <p>
+        One director argues that because these are Board powers, delegation is never
+        permitted. Another director states that delegation is possible if the Board
+        passes an appropriate resolution at a duly convened meeting and specifies
+        suitable conditions.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS16_Q01",
+        question: "Can the Board delegate certain powers under Section 179?",
+        options: [
+          "No power can ever be delegated",
+          "Yes, specified powers may be delegated by Board resolution",
+          "Only shareholders can delegate them",
+          "Only the auditor can delegate them"
+        ],
+        answer: 1,
+        reason: "The Board may delegate specified powers by a resolution passed at a Board Meeting."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS16_Q02",
+        question: "Which of the following is a power that may be delegated under the stated provision?",
+        options: [
+          "Approval of financial statements",
+          "Borrowing monies",
+          "Appointment of shareholders",
+          "Alteration of the Memorandum by shareholders"
+        ],
+        answer: 1,
+        reason: "Borrowing monies is one of the specified powers that may be delegated."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS16_Q03",
+        question: "To whom may the Board delegate the specified powers?",
+        options: [
+          "Only any shareholder",
+          "Committee of directors, Managing Director, Manager or principal officer, among others specified",
+          "Only statutory auditor",
+          "Only Registrar of Companies"
+        ],
+        answer: 1,
+        reason: "The specified powers may be delegated to a committee of directors, Managing Director, Manager or other principal officers as provided by law."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS16_Q04",
+        question: "The delegation of powers should be made:",
+        options: [
+          "Without any conditions",
+          "Subject to conditions specified by the Board",
+          "Only through newspaper notice",
+          "Only through shareholder postal ballot"
+        ],
+        answer: 1,
+        reason: "The Board may delegate these powers on such conditions as may be specified."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS16_Q05",
+        question: "Which combination correctly identifies the powers referred to in the delegation provision?",
+        options: [
+          "Borrowing, investment of funds, and granting loans/guarantees/security",
+          "Appointment of auditors, merger approval, and alteration of articles",
+          "Issue of dividends, appointment of shareholders, and alteration of capital",
+          "Only political contributions"
+        ],
+        answer: 0,
+        reason: "The specified delegable powers include borrowing monies, investing company funds, and granting loans or giving guarantees/providing security."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS17",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 180", "Restrictions on Board Powers"],
+    caseText: `
+      <p>
+        Vertex Limited owns two separate undertakings, Undertaking A and Undertaking B.
+        The Board proposes to sell substantially the whole of Undertaking A to another
+        company. The directors argue that because Undertaking B will continue to operate,
+        the company is not disposing of its entire business and therefore no shareholder
+        approval is required.
+      </p>
+      <p>
+        The legal adviser points out that Section 180 applies even where a company having
+        more than one undertaking proposes to sell, lease or otherwise dispose of the
+        whole or substantially the whole of any one undertaking.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS17_Q01",
+        question: "Does Section 180 apply when a company has more than one undertaking and proposes to dispose of substantially the whole of one undertaking?",
+        options: [
+          "No",
+          "Yes",
+          "Only if all undertakings are sold",
+          "Only if the company is private"
+        ],
+        answer: 1,
+        reason: "Section 180 applies to disposal of the whole or substantially the whole of any of the company's undertakings."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS17_Q02",
+        question: "What shareholder approval is generally required for such disposal under Section 180?",
+        options: [
+          "Ordinary resolution",
+          "Special resolution",
+          "Board resolution only",
+          "No resolution"
+        ],
+        answer: 1,
+        reason: "The Board requires the consent of the company by special resolution for the specified disposal."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS17_Q03",
+        question: "For Section 180 purposes, 'substantially the whole of the undertaking' means:",
+        options: [
+          "10% or more of the value",
+          "15% or more",
+          "20% or more of the value of the undertaking",
+          "50% or more"
+        ],
+        answer: 2,
+        reason: "Substantially the whole of the undertaking means 20% or more of its value as per the audited balance sheet of the preceding financial year."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS17_Q04",
+        question: "The special resolution may stipulate conditions regarding:",
+        options: [
+          "Use, disposal or investment of sale proceeds",
+          "Only appointment of directors",
+          "Only employee salaries",
+          "Only audit fees"
+        ],
+        answer: 0,
+        reason: "The special resolution may stipulate conditions regarding the use, disposal or investment of sale proceeds."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS17_Q05",
+        question: "Is Section 180 applicable to a private company under the general rule stated in the chapter?",
+        options: [
+          "Yes, without exception",
+          "No, Section 180 is not applicable to a private company, subject to the stated legal framework",
+          "Only if turnover exceeds ₹100 crore",
+          "Only if listed"
+        ],
+        answer: 1,
+        reason: "The chapter states that Section 180 is not applicable to private companies, subject to the relevant exemption framework."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS18",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 181", "Charitable Contributions"],
+    caseText: `
+      <p>
+        Unity Limited proposes to make a contribution to a bona fide charitable fund.
+        The average net profits of the company for the three immediately preceding
+        financial years are ₹40 lakh. The Board proposes to contribute ₹2.5 lakh during
+        the current financial year.
+      </p>
+      <p>
+        One director argues that the company cannot make the contribution because the
+        company has incurred a loss during the current year. Another director calculates
+        the statutory limit based on the average net profits of the preceding three
+        financial years.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS18_Q01",
+        question: "What is the maximum contribution the Board can make without prior general meeting approval, based on the given average net profits?",
+        options: [
+          "₹1 lakh",
+          "₹2 lakh",
+          "₹2.5 lakh",
+          "₹4 lakh"
+        ],
+        answer: 1,
+        reason: "5% of ₹40 lakh is ₹2 lakh. The Board's contribution without prior general meeting approval is therefore limited to ₹2 lakh."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS18_Q02",
+        question: "If Unity Limited wants to contribute ₹2.5 lakh, what is required?",
+        options: [
+          "No approval",
+          "Prior permission of the company in general meeting",
+          "Only auditor approval",
+          "Only approval of the Company Secretary"
+        ],
+        answer: 1,
+        reason: "The proposed contribution exceeds 5% of the average net profits of the preceding three financial years and therefore requires prior permission of the company in general meeting."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS18_Q03",
+        question: "The relevant percentage limit under Section 181 is:",
+        options: [
+          "2%",
+          "5%",
+          "10%",
+          "20%"
+        ],
+        answer: 1,
+        reason: "The Board may contribute up to 5% of the average net profits of the three immediately preceding financial years without prior general meeting approval."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS18_Q04",
+        question: "Does a current-year loss automatically prevent a company from making a contribution under Section 181?",
+        options: [
+          "Yes, always",
+          "No, the relevant limit is based on the prescribed average net profits of the preceding three financial years",
+          "Yes, unless the company is listed",
+          "Only a private company can contribute"
+        ],
+        answer: 1,
+        reason: "A current-year loss does not by itself prohibit the contribution. The prescribed limit is linked to the average net profits of the three immediately preceding financial years."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS18_Q05",
+        question: "Section 181 applies to:",
+        options: [
+          "Only public companies",
+          "Only private companies",
+          "Both public and private companies",
+          "Only listed companies"
+        ],
+        answer: 2,
+        reason: "Section 181 applies to both public and private companies."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS19",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 182", "Political Contributions"],
+    caseText: `
+      <p>
+        Zenith Limited was incorporated more than three financial years ago and is
+        not a Government company. Its Board proposes to make a contribution directly
+        to a political party registered under Section 29A of the Representation of the
+        People Act, 1951.
+      </p>
+      <p>
+        The finance team suggests making the contribution through an ordinary
+        management decision without a formal Board resolution. The Company Secretary
+        points out that Section 182 contains a specific requirement regarding the manner
+        in which the contribution must be authorised and made.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS19_Q01",
+        question: "Is a company that has existed for more than three financial years generally permitted to make a political contribution, subject to the Act?",
+        options: [
+          "Yes",
+          "No",
+          "Only if it is a Government company",
+          "Only if it is a dormant company"
+        ],
+        answer: 0,
+        reason: "A company other than a Government company and a company existing for less than three financial years may contribute to a political party, subject to Section 182."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS19_Q02",
+        question: "What is required before Zenith Limited makes the political contribution?",
+        options: [
+          "A Board resolution passed at a Board Meeting",
+          "Only approval of the auditor",
+          "Only approval of one director",
+          "Only approval of employees"
+        ],
+        answer: 0,
+        reason: "The contribution must be made only after a resolution authorising it is passed at a meeting of the Board of Directors."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS19_Q03",
+        question: "A company existing for less than three financial years is:",
+        options: [
+          "Free to contribute any amount",
+          "Not permitted to contribute to a political party",
+          "Required to contribute at least 5% of profits",
+          "Permitted only with auditor approval"
+        ],
+        answer: 1,
+        reason: "A company which has been in existence for less than three financial years cannot contribute to a political party."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS19_Q04",
+        question: "Which of the following is a permitted mode of making a political contribution?",
+        options: [
+          "Account payee cheque",
+          "Cash payment without record",
+          "Personal payment by a director",
+          "Unrecorded credit entry"
+        ],
+        answer: 0,
+        reason: "The contribution may be made through an account payee cheque, account payee bank draft, electronic clearing system or a notified instrument."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS19_Q05",
+        question: "The company is required to disclose the total amount contributed under Section 182 in its:",
+        options: [
+          "Profit and loss account",
+          "Minutes of shareholders only",
+          "Director's personal tax return",
+          "Auditor's appointment letter"
+        ],
+        answer: 0,
+        reason: "Every company must disclose the total amount contributed under Section 182 in its profit and loss account."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_MT_CS20",
+    difficulty: "Medium",
+    case_chapter: ["Meetings of Board and its Powers", "Section 184", "Disclosure of Interest"],
+    caseText: `
+      <p>
+        Apex Limited has three directors. Director R holds 3% of the paid-up share
+        capital of Beta Private Limited. Apex Limited proposes to enter into a contract
+        with Beta Private Limited. The contract is placed before the Board for discussion.
+      </p>
+      <p>
+        Director R informs the Company Secretary that he disclosed his general interest
+        in Beta Private Limited at the first Board Meeting of the financial year. He now
+        wants to know whether a specific disclosure is required when the contract is
+        discussed and whether he can participate in the discussion and vote.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_MT_CS20_Q01",
+        question: "Does Director R's 3% shareholding in Beta Private Limited fall within the specified more-than-2% threshold?",
+        options: [
+          "No",
+          "Yes",
+          "Only if his holding exceeds 10%",
+          "Only if Beta is listed"
+        ],
+        answer: 1,
+        reason: "A director holding more than 2% shareholding in the other body corporate falls within the specified interest provision."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS20_Q02",
+        question: "When should Director R make the specific disclosure of his interest?",
+        options: [
+          "Only after the contract is executed",
+          "At the Board Meeting in which the contract is discussed for the first time",
+          "At the next AGM",
+          "Only when the auditor asks"
+        ],
+        answer: 1,
+        reason: "The interested director must disclose the nature of his concern or interest at the Board Meeting in which the contract or arrangement is discussed for the first time."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS20_Q03",
+        question: "After making the specific disclosure, can Director R participate in the discussion on the contract under the general rule?",
+        options: [
+          "Yes, without restriction",
+          "No",
+          "Only if the Chairperson permits",
+          "Only if the auditor attends"
+        ],
+        answer: 1,
+        reason: "The interested director shall not participate in the meeting in relation to the concerned contract or arrangement."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS20_Q04",
+        question: "If the interested director participates in the meeting where the contract is discussed, the contract may become:",
+        options: [
+          "Automatically void in every case",
+          "Voidable at the option of the company",
+          "Automatically approved",
+          "Voidable only by the director"
+        ],
+        answer: 1,
+        reason: "A contract or arrangement is voidable at the option of the company where the interested director fails to disclose or participates in the meeting contrary to Section 184(2)."
+      },
+      {
+        question_id: "CEL_CH3_MT_CS20_Q05",
+        question: "If Director R had held not more than 2% of the paid-up share capital in Beta, the specific disclosure provision would generally:",
+        options: [
+          "Still necessarily apply solely because a contract exists",
+          "Not apply under the stated exemption for contracts between two companies",
+          "Apply only if he is the Chairman",
+          "Apply only if Beta is a Government company"
+        ],
+        answer: 1,
+        reason: "Section 184 provides an exemption where the director or directors together hold not more than 2% of the paid-up share capital in the other company, subject to the statutory conditions."
+      }
+    ]
+  },
+
+  // ============================================================
+  // CHAPTER 3 – MEETINGS OF BOARD AND ITS POWERS
+  // Hard – CASE SCENARIOS 1 TO 10
+  // ============================================================
+
+  {
+    case_id: "CEL_CH3_T_CS01",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 174", "Quorum", "Interested Directors"],
+    caseText: `
+      <p>
+        Alpha Manufacturing Limited has a Board consisting of 18 directors. A Board
+        Meeting is convened to consider a proposed transaction with Beta Industries
+        Limited. At the beginning of the meeting, 16 directors are present.
+      </p>
+      <p>
+        During consideration of the particular transaction, it is determined that
+        13 directors are interested in the transaction within the meaning of Section
+        184(2). The remaining 5 directors are not interested in the transaction.
+        All 18 directors were originally present when the meeting commenced.
+      </p>
+      <p>
+        The Company Secretary argues that the ordinary quorum of one-third of the
+        total strength should continue to apply. Another director contends that the
+        special rule concerning interested directors must be applied for this item.
+      </p>
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS01_Q01",
+        question: "What is the ordinary quorum for the Board of Alpha Manufacturing Limited?",
+        options: [
+          "2 directors",
+          "5 directors",
+          "6 directors",
+          "9 directors"
+        ],
+        answer: 2,
+        reason: "One-third of 18 directors is 6, which is higher than two. Therefore, the ordinary quorum is 6 directors."
+      },
+      {
+        question_id: "CEL_CH3_T_CS01_Q02",
+        question: "Do the 13 interested directors constitute at least two-thirds of the total strength of 18 directors?",
+        options: [
+          "No, because two-thirds is 10",
+          "No, because two-thirds is 12",
+          "Yes, because 13 is more than two-thirds of 18",
+          "Yes, but only if all 18 are physically present"
+        ],
+        answer: 2,
+        reason: "Two-thirds of 18 is 12. Since 13 directors are interested, the threshold is exceeded."
+      },
+      {
+        question_id: "CEL_CH3_T_CS01_Q03",
+        question: "For the particular transaction, what number of non-interested directors can constitute the quorum, subject to their presence?",
+        options: [
+          "1",
+          "2",
+          "5",
+          "6"
+        ],
+        answer: 2,
+        reason: "Where interested directors are equal to or exceed two-thirds of total strength, the quorum is the number of non-interested directors present, subject to a minimum of two. Here, five non-interested directors are present."
+      },
+      {
+        question_id: "CEL_CH3_T_CS01_Q04",
+        question: "Which of the following correctly describes the effect of Section 174(3)?",
+        options: [
+          "All interested directors must be counted for quorum",
+          "The ordinary one-third rule always applies",
+          "The number of non-interested directors present, subject to minimum two, constitutes the quorum",
+          "The meeting automatically becomes invalid"
+        ],
+        answer: 2,
+        reason: "Where interested directors equal or exceed two-thirds of total strength, the non-interested directors present, not being less than two, constitute the quorum."
+      },
+      {
+        question_id: "CEL_CH3_T_CS01_Q05",
+        question: "If only one non-interested director were present for this item, could that director alone constitute the quorum?",
+        options: [
+          "Yes",
+          "Yes, because interested directors are excluded",
+          "No, because the minimum quorum under Section 174(3) is two",
+          "Yes, if the Chairman agrees"
+        ],
+        answer: 2,
+        reason: "Even under the special rule for interested directors, the number of non-interested directors constituting quorum cannot be less than two."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS02",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 173", "Video Conferencing"],
+    caseText: `
+      <p>
+        Global Tech Limited convenes a Board Meeting at its registered office.
+        Four directors attend physically and three directors participate through
+        video conferencing. The company has made arrangements to record and store
+        the proceedings along with the date and time.
+      </p>
+      <p>
+        During roll call, each director participating electronically identifies his
+        name and location and confirms receipt of the agenda and relevant papers.
+        One director's connection becomes unclear while discussing an important
+        resolution. The Company Secretary immediately asks him to repeat his statement.
+      </p>
+      <p>
+        At the end of the meeting, the draft minutes are prepared and circulated
+        electronically to all directors within 15 days.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS02_Q01",
+        question: "Are directors participating through video conferencing generally counted for quorum?",
+        options: [
+          "No",
+          "Yes, unless excluded for a particular item under the Act or Rules",
+          "Only if they are independent directors",
+          "Only if all directors participate electronically"
+        ],
+        answer: 1,
+        reason: "Directors participating through video conferencing or other audio-visual means are counted for quorum unless they are excluded for particular business under the Act or Rules."
+      },
+      {
+        question_id: "CEL_CH3_T_CS02_Q02",
+        question: "During roll call, which information is specifically required from a director participating electronically?",
+        options: [
+          "Only his name",
+          "Name, location, confirmation of receipt of agenda/material and confirmation regarding access by others",
+          "Only his shareholding",
+          "His income-tax details"
+        ],
+        answer: 1,
+        reason: "The roll call requires the director to state his name, location, confirmation of receipt of agenda/material and that no unauthorised person is attending or accessing the proceedings at that location."
+      },
+      {
+        question_id: "CEL_CH3_T_CS02_Q03",
+        question: "If the statement of a director becomes garbled during the meeting, what should the Chairperson or Company Secretary do?",
+        options: [
+          "Ignore the statement",
+          "Immediately adjourn the meeting",
+          "Request the director to repeat or reiterate the statement",
+          "Treat the statement as dissent"
+        ],
+        answer: 2,
+        reason: "If a statement is interrupted or garbled, the Chairperson or Company Secretary should request a repeat or reiteration."
+      },
+      {
+        question_id: "CEL_CH3_T_CS02_Q04",
+        question: "Within what period should the draft minutes generally be circulated to all directors?",
+        options: [
+          "7 days",
+          "10 days",
+          "15 days",
+          "30 days"
+        ],
+        answer: 2,
+        reason: "The draft minutes should be circulated among all directors within 15 days of the meeting."
+      },
+      {
+        question_id: "CEL_CH3_T_CS02_Q05",
+        question: "A director who attended through video conferencing receives the draft minutes but gives no comments within the prescribed period. Subject to the applicable Board decision regarding reasonable time, what is the consequence stated in the Rules?",
+        options: [
+          "His approval is presumed",
+          "His vote is automatically cancelled",
+          "The minutes become void",
+          "The meeting has to be reconvened"
+        ],
+        answer: 0,
+        reason: "If the director fails to confirm or provide comments within seven days or such reasonable time as decided by the Board, his approval is presumed."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS03",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 179", "Board Powers", "Delegation"],
+    caseText: `
+      <p>
+        Horizon Limited is considering several financial decisions. The Board proposes
+        to borrow ₹40 crore, invest surplus funds in another company, approve the annual
+        financial statements, appoint a new internal auditor and approve an amalgamation.
+      </p>
+      <p>
+        The Managing Director suggests passing one general resolution authorising him
+        to undertake all these activities on behalf of the Board. The Company Secretary
+        objects, stating that certain powers must be exercised through resolutions at a
+        duly convened Board Meeting and only specified powers can be delegated.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS03_Q01",
+        question: "Which of the following powers may be delegated by the Board under Section 179(3) and its proviso?",
+        options: [
+          "Approval of financial statements",
+          "Borrowing monies",
+          "Approval of amalgamation",
+          "Diversification of business"
+        ],
+        answer: 1,
+        reason: "Borrowing monies is one of the specified powers which may be delegated by the Board subject to the statutory conditions."
+      },
+      {
+        question_id: "CEL_CH3_T_CS03_Q02",
+        question: "Can the Board delegate the power to approve the company's financial statements to the Managing Director under the stated provision?",
+        options: [
+          "Yes",
+          "No",
+          "Yes, if the auditor agrees",
+          "Yes, if shareholders are informed"
+        ],
+        answer: 1,
+        reason: "Approval of financial statements and the Board's report is a power required to be exercised by the Board by resolution at a duly convened Board Meeting and is not among the specified delegable powers."
+      },
+      {
+        question_id: "CEL_CH3_T_CS03_Q03",
+        question: "Which of the following is also a matter required to be decided by the Board by resolution at a duly convened meeting?",
+        options: [
+          "Appointment of internal auditor",
+          "Routine purchase of stationery",
+          "Appointment of ordinary employees",
+          "Payment of utility bills"
+        ],
+        answer: 0,
+        reason: "Appointment or removal of key managerial personnel and appointment of internal auditors and secretarial auditor are among the prescribed matters requiring Board resolution at a meeting."
+      },
+      {
+        question_id: "CEL_CH3_T_CS03_Q04",
+        question: "Which combination consists entirely of powers that may be delegated under the specified proviso?",
+        options: [
+          "Borrowing, investment of funds, granting loans/guarantees/security",
+          "Amalgamation, merger, financial statements",
+          "Political contributions, amalgamation, takeover",
+          "Financial statements, diversification, borrowing"
+        ],
+        answer: 0,
+        reason: "The specified delegable powers are borrowing monies, investing company funds and granting loans or giving guarantees/providing security."
+      },
+      {
+        question_id: "CEL_CH3_T_CS03_Q05",
+        question: "To whom may such specified powers be delegated?",
+        options: [
+          "Only shareholders",
+          "Committee of directors, Managing Director, Manager or specified principal officers",
+          "Only statutory auditor",
+          "Only Company Secretary"
+        ],
+        answer: 1,
+        reason: "The Board may delegate specified powers to a committee of directors, Managing Director, Manager or other principal officers as permitted by Section 179."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS04",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 180", "Borrowing Powers"],
+    caseText: `
+      <p>
+        Sterling Limited has paid-up share capital of ₹30 crore, free reserves of
+        ₹20 crore and securities premium of ₹5 crore. It already has borrowings of
+        ₹45 crore, excluding temporary loans obtained from its bankers in the
+        ordinary course of business.
+      </p>
+      <p>
+        The Board proposes to borrow another ₹20 crore. The Articles contain no
+        special provision authorising borrowing beyond the statutory threshold.
+        The directors argue that because the company has substantial assets, a
+        Board resolution should be sufficient.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS04_Q01",
+        question: "What is the aggregate of paid-up share capital, free reserves and securities premium in the case?",
+        options: [
+          "₹45 crore",
+          "₹50 crore",
+          "₹55 crore",
+          "₹75 crore"
+        ],
+        answer: 2,
+        reason: "₹30 crore + ₹20 crore + ₹5 crore = ₹55 crore."
+      },
+      {
+        question_id: "CEL_CH3_T_CS04_Q02",
+        question: "Before the proposed borrowing, the company's relevant borrowings are:",
+        options: [
+          "₹20 crore",
+          "₹30 crore",
+          "₹45 crore",
+          "₹55 crore"
+        ],
+        answer: 2,
+        reason: "The company already has ₹45 crore of relevant borrowings."
+      },
+      {
+        question_id: "CEL_CH3_T_CS04_Q03",
+        question: "If another ₹20 crore is borrowed, total relevant borrowings become:",
+        options: [
+          "₹55 crore",
+          "₹60 crore",
+          "₹65 crore",
+          "₹75 crore"
+        ],
+        answer: 2,
+        reason: "Existing ₹45 crore + proposed ₹20 crore = ₹65 crore."
+      },
+      {
+        question_id: "CEL_CH3_T_CS04_Q04",
+        question: "Since ₹65 crore exceeds ₹55 crore, what is generally required under Section 180(1)(c)?",
+        options: [
+          "Only an ordinary Board resolution",
+          "Consent of the company by special resolution",
+          "Only auditor approval",
+          "No approval because assets are sufficient"
+        ],
+        answer: 1,
+        reason: "Borrowings together with existing borrowings exceeding the aggregate of paid-up share capital, free reserves and securities premium require shareholder consent by special resolution, subject to statutory exclusions."
+      },
+      {
+        question_id: "CEL_CH3_T_CS04_Q05",
+        question: "A special resolution concerning borrowing under Section 180(2) must:",
+        options: [
+          "Authorise unlimited borrowing",
+          "Specify the total amount up to which money may be borrowed",
+          "Specify only the interest rate",
+          "Be approved by the auditor"
+        ],
+        answer: 1,
+        reason: "The special resolution must specify the total amount up to which monies may be borrowed by the Board."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS05",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 184", "Disclosure of Interest"],
+    caseText: `
+      <p>
+        Director A of Meridian Limited holds 4% of the paid-up share capital of
+        Delta Limited and is also a director of Delta Limited. At the beginning of
+        the financial year, A makes his general disclosure of interest in the prescribed
+        manner.
+      </p>
+      <p>
+        Three months later, Meridian Limited proposes to enter into a contract with
+        Delta Limited. The matter is included in the agenda of the Board Meeting.
+        A argues that his earlier general disclosure is sufficient and therefore he
+        can participate in the discussion and vote.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS05_Q01",
+        question: "Does the general disclosure made at the beginning of the financial year eliminate the need for specific disclosure regarding the proposed contract?",
+        options: [
+          "Yes",
+          "No",
+          "Only if the director is independent",
+          "Only if the contract is below ₹1 crore"
+        ],
+        answer: 1,
+        reason: "General disclosure under Section 184(1) does not replace the specific disclosure required under Section 184(2) for a particular contract or arrangement."
+      },
+      {
+        question_id: "CEL_CH3_T_CS05_Q02",
+        question: "When must Director A make the specific disclosure?",
+        options: [
+          "At the AGM",
+          "At the Board Meeting where the contract is discussed for the first time",
+          "After execution of the contract",
+          "At the end of the financial year"
+        ],
+        answer: 1,
+        reason: "The specific disclosure must be made at the Board Meeting in which the contract or arrangement is discussed for the first time."
+      },
+      {
+        question_id: "CEL_CH3_T_CS05_Q03",
+        question: "Can Director A participate in the discussion on the concerned contract under the general rule?",
+        options: [
+          "Yes",
+          "No",
+          "Only with the auditor's consent",
+          "Only if other directors agree"
+        ],
+        answer: 1,
+        reason: "An interested director is required to disclose the interest and shall not participate in the meeting in relation to the concerned contract."
+      },
+      {
+        question_id: "CEL_CH3_T_CS05_Q04",
+        question: "If Director A participates in the meeting despite the prohibition, the contract is:",
+        options: [
+          "Automatically void",
+          "Voidable at the option of Meridian Limited",
+          "Voidable only by Delta Limited",
+          "Automatically ratified"
+        ],
+        answer: 1,
+        reason: "Under Section 184(3), the contract or arrangement is voidable at the option of the company."
+      },
+      {
+        question_id: "CEL_CH3_T_CS05_Q05",
+        question: "If A became interested only after the contract had already been entered into, he should:",
+        options: [
+          "Wait until the next financial year",
+          "Disclose forthwith when he becomes interested or at the first Board Meeting thereafter",
+          "Cancel the contract personally",
+          "Seek approval from the Registrar"
+        ],
+        answer: 1,
+        reason: "Where a director becomes interested after the contract is entered into, he must disclose his concern or interest forthwith or at the first Board Meeting held after becoming interested."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS06",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 185", "Loans to Directors"],
+    caseText: `
+      <p>
+        Apex Finance Limited proposes to provide a loan of ₹8 crore to Beta Private
+        Limited. One of Apex's directors is a director and member of Beta Private
+        Limited. The Board believes that the transaction can proceed because the
+        loan is not being given directly to the director.
+      </p>
+      <p>
+        The legal adviser explains that Section 185 distinguishes between prohibited
+        loans to specified persons and loans to a person in whom a director is interested.
+        The latter may be permitted subject to prescribed conditions.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS06_Q01",
+        question: "Is a loan to a private company in which a director is a director or member automatically prohibited under Section 185(1)?",
+        options: [
+          "Yes, in every case",
+          "No, it may fall under Section 185(2), subject to specified conditions",
+          "Yes, unless the auditor approves",
+          "No, because Section 185 applies only to individuals"
+        ],
+        answer: 1,
+        reason: "A company in which a director is a director or member is covered within the expression 'person in whom any of the director is interested' and may receive a loan subject to Section 185(2) conditions."
+      },
+      {
+        question_id: "CEL_CH3_T_CS06_Q02",
+        question: "What shareholder approval is required under Section 185(2)?",
+        options: [
+          "Ordinary resolution",
+          "Special resolution",
+          "Board circular resolution",
+          "No resolution"
+        ],
+        answer: 1,
+        reason: "A special resolution must be passed by the company in general meeting."
+      },
+      {
+        question_id: "CEL_CH3_T_CS06_Q03",
+        question: "The explanatory statement accompanying the notice should disclose:",
+        options: [
+          "Only the name of the director",
+          "Full particulars of the loan/guarantee/security, purpose of utilisation and other relevant facts",
+          "Only the interest rate",
+          "Only the company's turnover"
+        ],
+        answer: 1,
+        reason: "Section 185(2) requires disclosure of full particulars, purpose of utilisation and other relevant facts in the explanatory statement."
+      },
+      {
+        question_id: "CEL_CH3_T_CS06_Q04",
+        question: "The borrowing company must utilise the loan for:",
+        options: [
+          "Any personal investment of its directors",
+          "Its principal business activities",
+          "Political contributions",
+          "Dividend distribution only"
+        ],
+        answer: 1,
+        reason: "A condition of the relaxation is that the loan must be utilised by the borrowing company for its principal business activities."
+      },
+      {
+        question_id: "CEL_CH3_T_CS06_Q05",
+        question: "Which fact would place Beta within the express definition of a person in whom a director is interested?",
+        options: [
+          "The director merely knows the shareholders of Beta",
+          "The director is a director or member of Beta Private Limited",
+          "The director once purchased goods from Beta",
+          "The director's relative is employed by Beta"
+        ],
+        answer: 1,
+        reason: "A private company of which such director is a director or member is expressly covered by the definition."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS07",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 173", "Notice", "Shorter Notice"],
+    caseText: `
+      <p>
+        Zenith Technologies Limited needs to urgently consider a time-sensitive
+        acquisition. The Company Secretary sends notice of the Board Meeting only
+        four days before the proposed meeting because waiting seven days could
+        result in the loss of the opportunity.
+      </p>
+      <p>
+        The company has two independent directors. Only one independent director
+        attends the meeting. The other independent director receives the notice but
+        does not attend. The Board passes the acquisition resolution.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS07_Q01",
+        question: "What is the normal statutory notice period for a Board Meeting?",
+        options: [
+          "3 days",
+          "5 days",
+          "7 days",
+          "15 days"
+        ],
+        answer: 2,
+        reason: "At least seven days' notice in writing must ordinarily be given to every director."
+      },
+      {
+        question_id: "CEL_CH3_T_CS07_Q02",
+        question: "Can a Board Meeting be called at shorter notice for urgent business?",
+        options: [
+          "No",
+          "Yes",
+          "Only for private companies",
+          "Only with court approval"
+        ],
+        answer: 1,
+        reason: "A Board Meeting may be called at shorter notice to transact urgent business subject to the statutory condition regarding an independent director."
+      },
+      {
+        question_id: "CEL_CH3_T_CS07_Q03",
+        question: "Given that Zenith has independent directors, what condition is relevant for the shorter-notice meeting?",
+        options: [
+          "At least one independent director should be present",
+          "All independent directors must be present",
+          "No independent director can attend",
+          "Only the Chairman can attend"
+        ],
+        answer: 0,
+        reason: "For a shorter-notice meeting to transact urgent business, at least one independent director, if any, shall be present."
+      },
+      {
+        question_id: "CEL_CH3_T_CS07_Q04",
+        question: "If no independent director is present, decisions taken at such shorter-notice meeting become final:",
+        options: [
+          "Immediately",
+          "Only after ratification by at least one independent director, if any",
+          "Only after auditor approval",
+          "Only after approval of all shareholders"
+        ],
+        answer: 1,
+        reason: "Where no independent director is present, the decisions are to be circulated to all directors and become final only upon ratification by at least one independent director, if any."
+      },
+      {
+        question_id: "CEL_CH3_T_CS07_Q05",
+        question: "Which statement is correct regarding the mode of sending Board Meeting notice?",
+        options: [
+          "It can only be delivered physically",
+          "It may be sent by hand delivery, post or electronic means",
+          "It must be sent only by registered post",
+          "It must be published in a newspaper"
+        ],
+        answer: 1,
+        reason: "Notice may be sent by hand delivery, post or electronic means to the registered address of every director."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS08",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 177", "Audit Committee", "Omnibus Approval"],
+    caseText: `
+      <p>
+        The Audit Committee of Nova Limited is considering recurring transactions
+        with several related parties. The transactions are repetitive and occur
+        throughout the financial year. The Committee proposes to grant omnibus
+        approval for the entire year.
+      </p>
+      <p>
+        The Committee proposes to specify the maximum aggregate amount, maximum
+        amount per transaction and the nature of disclosures. One member suggests
+        granting a blanket omnibus approval for the disposal of the company's
+        undertaking because that transaction may also occur during the year.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS08_Q01",
+        question: "Before specifying criteria for omnibus approval, the Audit Committee should obtain approval from:",
+        options: [
+          "The Board of Directors",
+          "The Registrar",
+          "The statutory auditor",
+          "Any shareholder"
+        ],
+        answer: 0,
+        reason: "The Audit Committee shall specify the criteria for omnibus approval after obtaining approval of the Board of Directors."
+      },
+      {
+        question_id: "CEL_CH3_T_CS08_Q02",
+        question: "Which of the following should be included in the criteria for omnibus approval?",
+        options: [
+          "Maximum aggregate value and maximum value per transaction",
+          "Only employee salaries",
+          "Only auditor remuneration",
+          "Only dividend rate"
+        ],
+        answer: 0,
+        reason: "The criteria should include the maximum aggregate value and maximum value per transaction, among other matters."
+      },
+      {
+        question_id: "CEL_CH3_T_CS08_Q03",
+        question: "The Audit Committee should consider which factors while specifying the criteria?",
+        options: [
+          "Repetitiveness of transactions and justification for omnibus approval",
+          "Only share price",
+          "Only employee strength",
+          "Only tax rate"
+        ],
+        answer: 0,
+        reason: "The Committee should consider the repetitiveness of transactions and justification for the need for omnibus approval."
+      },
+      {
+        question_id: "CEL_CH3_T_CS08_Q04",
+        question: "Can omnibus approval be granted for selling or disposing of the undertaking of the company?",
+        options: [
+          "Yes, without restriction",
+          "No",
+          "Only if the transaction is below ₹1 crore",
+          "Only if the auditor approves"
+        ],
+        answer: 1,
+        reason: "Omnibus approval shall not be made for transactions relating to selling or disposing of the undertaking of the company."
+      },
+      {
+        question_id: "CEL_CH3_T_CS08_Q05",
+        question: "For how long is an omnibus approval valid under the stated Rule?",
+        options: [
+          "Three months",
+          "Six months",
+          "One financial year at most",
+          "Five years"
+        ],
+        answer: 2,
+        reason: "Omnibus approval is valid for a period not exceeding one financial year and fresh approval is required thereafter."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS09",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 173", "OPC", "Small Company", "Dormant Company"],
+    caseText: `
+      <p>
+        Three entities are being examined for compliance with Board Meeting
+        requirements:
+      </p>
+      <p>
+        <strong>Company A:</strong> A One Person Company having only one director.
+      </p>
+      <p>
+        <strong>Company B:</strong> A small company having three directors. It conducts
+        one Board Meeting in April and another in November of the same calendar year.
+      </p>
+      <p>
+        <strong>Company C:</strong> A private company qualifying as a start-up and
+        covered by the applicable exemption. It conducts one Board Meeting in January
+        and another in July.
+      </p>
+      <p>
+        The directors are debating whether all three companies must conduct four
+        Board Meetings every year.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS09_Q01",
+        question: "Is Company A required to hold even a single Board Meeting during the year under Section 173?",
+        options: [
+          "Yes, at least four",
+          "Yes, at least two",
+          "No, where the OPC has only one director",
+          "Only one meeting is mandatory"
+        ],
+        answer: 2,
+        reason: "An OPC having only one director on its Board is exempt from the requirement of holding Board Meetings."
+      },
+      {
+        question_id: "CEL_CH3_T_CS09_Q02",
+        question: "For Company B, what is the minimum requirement stated for a small company?",
+        options: [
+          "Four meetings every year with 120-day maximum gap",
+          "One meeting in each half of a calendar year with at least 90 days' gap",
+          "One meeting every month",
+          "Only one meeting every year"
+        ],
+        answer: 1,
+        reason: "A small company is deemed to comply by conducting at least one Board Meeting in each half of a calendar year with the gap between the two meetings not being less than 90 days."
+      },
+      {
+        question_id: "CEL_CH3_T_CS09_Q03",
+        question: "Company B holds meetings in April and November. Is the 90-day minimum gap requirement satisfied?",
+        options: [
+          "No",
+          "Yes",
+          "Only if the company is listed",
+          "Only if shareholders approve"
+        ],
+        answer: 1,
+        reason: "The gap between April and November is more than 90 days, and the meetings fall in different halves of the calendar year."
+      },
+      {
+        question_id: "CEL_CH3_T_CS09_Q04",
+        question: "Company C conducts meetings in January and July. Subject to the stated exemption conditions, does this satisfy the prescribed frequency?",
+        options: [
+          "No, because four meetings are compulsory",
+          "Yes, because there is at least one meeting in each half of the calendar year",
+          "No, because meetings must be monthly",
+          "Only if both meetings are held on the same date"
+        ],
+        answer: 1,
+        reason: "A qualifying private start-up company may avail the specified relaxation requiring at least one meeting in each half of a calendar year with the prescribed minimum gap."
+      },
+      {
+        question_id: "CEL_CH3_T_CS09_Q05",
+        question: "Which company is completely exempt from holding Board Meetings under the stated special rule?",
+        options: [
+          "Every small company",
+          "Every dormant company",
+          "An OPC having only one director",
+          "Every private company"
+        ],
+        answer: 2,
+        reason: "The special exemption from holding even a single Board Meeting applies to an OPC having only one director."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS10",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 177", "Section 178", "Audit Committee", "NRC"],
+    caseText: `
+      <p>
+        Apex Public Limited Company has paid-up share capital of ₹14 crore,
+        turnover of ₹120 crore and outstanding loans, debentures and deposits
+        aggregating ₹40 crore. The company is not a joint venture, wholly owned
+        subsidiary or dormant company.
+      </p>
+      <p>
+        The Board proposes to constitute both an Audit Committee and a Nomination
+        and Remuneration Committee. The proposed Audit Committee has four directors,
+        of whom two are independent. The proposed NRC has three non-executive
+        directors, of whom two are independent. The Chairperson of the company,
+        who is an executive director, is proposed to chair the NRC.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS10_Q01",
+        question: "Is Apex Public Limited Company required to constitute an Audit Committee based on the stated thresholds?",
+        options: [
+          "No",
+          "Yes, because its paid-up share capital and turnover meet the prescribed thresholds",
+          "Only because its loans exceed ₹50 crore",
+          "Only if it is a listed company"
+        ],
+        answer: 1,
+        reason: "A public company having paid-up share capital of ₹10 crore or more or turnover of ₹100 crore or more falls within the prescribed class requiring an Audit Committee, subject to the applicable framework."
+      },
+      {
+        question_id: "CEL_CH3_T_CS10_Q02",
+        question: "Does the proposed Audit Committee satisfy the minimum requirement regarding independent directors?",
+        options: [
+          "No, because all members must be independent",
+          "Yes, because independent directors form a majority",
+          "No, because at least three independent directors are mandatory",
+          "Yes, only because it has four members"
+        ],
+        answer: 1,
+        reason: "The Audit Committee must have at least three directors with independent directors forming a majority. Two independent directors out of four do not technically constitute a majority, so the correct conclusion is that the proposed composition does NOT satisfy the requirement."
+      },
+      {
+        question_id: "CEL_CH3_T_CS10_Q03",
+        question: "In the proposed Audit Committee of four members, how many independent directors would be required to form a majority?",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        answer: 2,
+        reason: "For a four-member committee, at least three members must be independent directors to constitute a majority."
+      },
+      {
+        question_id: "CEL_CH3_T_CS10_Q04",
+        question: "The proposed NRC has three non-executive directors, of whom two are independent. Does this satisfy the composition requirement stated in the chapter?",
+        options: [
+          "Yes",
+          "No, because all three must be independent",
+          "No, because NRC must have five members",
+          "Only if the company is private"
+        ],
+        answer: 0,
+        reason: "The NRC must consist of three or more non-executive directors, of whom not less than one-half shall be independent directors. Two out of three are independent."
+      },
+      {
+        question_id: "CEL_CH3_T_CS10_Q05",
+        question: "Can the executive Chairperson of the company chair the Nomination and Remuneration Committee under the stated Section 178 rule?",
+        options: [
+          "Yes, automatically",
+          "No, the Chairperson of the company shall not chair the NRC, though he may be a member",
+          "Yes, if two independent directors agree",
+          "Only if the company is listed"
+        ],
+        answer: 1,
+        reason: "The Chairperson of the company, whether executive or non-executive, shall not chair the NRC, although he may be appointed as a member."
+      }
+    ]
+  },
+
+  // ============================================================
+  // CHAPTER 3 – MEETINGS OF BOARD AND ITS POWERS
+  // Hard – CASE SCENARIOS 11 TO 20
+  // ============================================================
+
+  {
+    case_id: "CEL_CH3_T_CS11",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 174", "Quorum"],
+    caseText: `
+      <p>
+        Orion Limited has a Board consisting of 12 directors. Three positions on the
+        Board are vacant. Therefore, nine directors are currently holding office.
+        A Board Meeting is convened and five directors attend.
+      </p>
+      <p>
+        One director argues that quorum should be calculated with reference to the
+        original sanctioned strength of 12 directors. Another argues that vacancies
+        should be ignored and quorum should be calculated with reference to the
+        actual strength of the Board.
+      </p>
+      <p>
+        During the meeting, two of the five directors are found to be interested in
+        a particular contract being considered by the company.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS11_Q01",
+        question: "For determining quorum, the relevant strength of the Board is generally:",
+        options: [
+          "The original sanctioned strength including vacancies",
+          "The actual strength of the Board",
+          "The number of shareholders",
+          "The paid-up capital"
+        ],
+        answer: 1,
+        reason: "Quorum is determined with reference to the total strength of the Board, and vacancies are not counted as directors forming part of the actual strength."
+      },
+      {
+        question_id: "CEL_CH3_T_CS11_Q02",
+        question: "If the actual strength is nine directors, what is one-third of the total strength?",
+        options: [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        answer: 1,
+        reason: "One-third of nine is three. Since the statutory minimum is two, the higher figure applies."
+      },
+      {
+        question_id: "CEL_CH3_T_CS11_Q03",
+        question: "If five directors are present and the ordinary quorum is three, is the meeting ordinarily quorate?",
+        options: [
+          "Yes",
+          "No",
+          "Only if all directors vote",
+          "Only if the Chairman is present"
+        ],
+        answer: 0,
+        reason: "Five directors are present, which is more than the required quorum of three."
+      },
+      {
+        question_id: "CEL_CH3_T_CS11_Q04",
+        question: "If two of the five directors are interested in the particular contract, how many non-interested directors are present?",
+        options: [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        answer: 1,
+        reason: "Five directors are present and two are interested, leaving three non-interested directors."
+      },
+      {
+        question_id: "CEL_CH3_T_CS11_Q05",
+        question: "If interested directors are not equal to or more than two-thirds of the total strength, which quorum rule generally applies?",
+        options: [
+          "Only non-interested directors are counted",
+          "The ordinary quorum rule applies",
+          "The meeting automatically stands dissolved",
+          "Only independent directors are counted"
+        ],
+        answer: 1,
+        reason: "The special rule applies where the number of interested directors is equal to or exceeds two-thirds of the total strength. Otherwise, the ordinary quorum provision applies."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS12",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 175", "Passing of Resolution by Circulation"],
+    caseText: `
+      <p>
+        Sunrise Limited needs to approve an urgent routine matter. Instead of
+        convening a physical Board Meeting, the Managing Director proposes to
+        circulate a draft resolution together with the necessary papers to all
+        directors entitled to receive notice.
+      </p>
+      <p>
+        Eight directors are entitled to vote. Five directors approve the resolution,
+        two directors reject it and one director does not respond. The Company
+        Secretary records the resolution as passed by circulation.
+      </p>
+      <p>
+        However, one director subsequently argues that the matter should have been
+        placed before a Board Meeting because he requested that it be considered
+        at a meeting.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS12_Q01",
+        question: "Can a Board resolution generally be passed by circulation?",
+        options: [
+          "No",
+          "Yes, subject to Section 175 and applicable conditions",
+          "Only by listed companies",
+          "Only with shareholder approval"
+        ],
+        answer: 1,
+        reason: "Section 175 permits certain resolutions to be passed by circulation, subject to prescribed requirements."
+      },
+      {
+        question_id: "CEL_CH3_T_CS12_Q02",
+        question: "What must accompany the draft resolution circulated to directors?",
+        options: [
+          "Only the title of the resolution",
+          "The necessary papers explaining the proposed resolution",
+          "Only the auditor's report",
+          "Only the company's annual report"
+        ],
+        answer: 1,
+        reason: "The draft resolution must be circulated together with the necessary papers to all directors or members of the committee entitled to receive notice."
+      },
+      {
+        question_id: "CEL_CH3_T_CS12_Q03",
+        question: "If five out of eight directors approve and two reject, has the resolution received the required majority?",
+        options: [
+          "Yes",
+          "No",
+          "Only if the Chairman approves",
+          "Only if the auditor approves"
+        ],
+        answer: 0,
+        reason: "The resolution is passed by a majority of directors entitled to vote who have signified assent, subject to the statutory requirements."
+      },
+      {
+        question_id: "CEL_CH3_T_CS12_Q04",
+        question: "What happens if the requisite number of directors require that the resolution be decided at a Board Meeting?",
+        options: [
+          "It must be treated as a circular resolution",
+          "The Chairman alone decides",
+          "The resolution should be placed before a subsequent Board Meeting",
+          "It becomes automatically approved"
+        ],
+        answer: 2,
+        reason: "If not less than one-third of the total number of directors require that a resolution under circulation be decided at a meeting, the Chairman is required to put it before a Board Meeting."
+      },
+      {
+        question_id: "CEL_CH3_T_CS12_Q05",
+        question: "The fact that a resolution was passed by circulation should be:",
+        options: [
+          "Ignored in the minutes",
+          "Noted at a subsequent Board Meeting and made part of the minutes",
+          "Reported only to shareholders",
+          "Reported only to the auditor"
+        ],
+        answer: 1,
+        reason: "Every resolution passed by circulation must be noted at a subsequent Board Meeting and made part of the minutes of that meeting."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS13",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 179", "Section 180"],
+    caseText: `
+      <p>
+        Vertex Limited plans to invest ₹25 crore in securities of another body
+        corporate. At the same time, the Board proposes to sell one of its major
+        undertakings for ₹80 crore. The directors believe that both transactions
+        can be authorised through a single Board resolution because both relate to
+        deployment of company resources.
+      </p>
+      <p>
+        The Company Secretary points out that investment of funds and disposal of
+        an undertaking are governed by different provisions and may require different
+        levels of approval.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS13_Q01",
+        question: "Which provision primarily deals with the power of the Board to invest company funds?",
+        options: [
+          "Section 173",
+          "Section 174",
+          "Section 179",
+          "Section 185"
+        ],
+        answer: 2,
+        reason: "Section 179 deals with powers of the Board, including investment of company funds."
+      },
+      {
+        question_id: "CEL_CH3_T_CS13_Q02",
+        question: "Can the Board delegate the power to invest company funds subject to prescribed conditions?",
+        options: [
+          "Yes",
+          "No",
+          "Only to shareholders",
+          "Only to statutory auditors"
+        ],
+        answer: 0,
+        reason: "Investment of company funds is among the specified powers that may be delegated subject to the conditions of Section 179."
+      },
+      {
+        question_id: "CEL_CH3_T_CS13_Q03",
+        question: "Sale or disposal of the whole or substantially the whole of an undertaking is primarily governed by:",
+        options: [
+          "Section 180",
+          "Section 177",
+          "Section 184",
+          "Section 173"
+        ],
+        answer: 0,
+        reason: "Section 180 contains restrictions on powers of the Board, including disposal of the whole or substantially the whole of an undertaking."
+      },
+      {
+        question_id: "CEL_CH3_T_CS13_Q04",
+        question: "For a transaction covered by Section 180(1)(a), what is generally required?",
+        options: [
+          "Only Board approval",
+          "Consent of the company by special resolution",
+          "Only auditor approval",
+          "Only approval of the Managing Director"
+        ],
+        answer: 1,
+        reason: "The Board cannot sell, lease or otherwise dispose of the whole or substantially the whole of the undertaking without the consent of the company by special resolution."
+      },
+      {
+        question_id: "CEL_CH3_T_CS13_Q05",
+        question: "Which statement best describes the proposed single Board resolution?",
+        options: [
+          "It automatically satisfies every statutory requirement",
+          "It cannot substitute shareholder special resolution wherever Section 180 requires one",
+          "It eliminates the need for Section 180",
+          "It is valid only if the auditor signs it"
+        ],
+        answer: 1,
+        reason: "A Board resolution cannot substitute for shareholder approval where Section 180 expressly requires a special resolution."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS14",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 176", "Defects in Appointment"],
+    caseText: `
+      <p>
+        Crystal Limited appoints Mr. R as a director. Later, it is discovered that
+        a technical defect existed in the appointment procedure. During the period
+        before the defect was discovered, Mr. R attended Board Meetings and voted
+        on several routine business matters.
+      </p>
+      <p>
+        Certain shareholders argue that every decision in which Mr. R participated
+        is automatically invalid merely because his appointment was subsequently
+        found defective.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS14_Q01",
+        question: "Does discovery of a defect in appointment automatically invalidate every act previously done by the director?",
+        options: [
+          "Yes",
+          "No",
+          "Only if the company is public",
+          "Only if the director voted"
+        ],
+        answer: 1,
+        reason: "Section 176 provides that acts done by a person as a director are not invalid merely because it is afterwards discovered that the appointment was invalid by reason of a disqualification or defect."
+      },
+      {
+        question_id: "CEL_CH3_T_CS14_Q02",
+        question: "What is the key principle under Section 176?",
+        options: [
+          "All acts are void",
+          "Acts are protected from invalidity merely due to later discovery of appointment defect",
+          "Only shareholder decisions are protected",
+          "Only acts involving money are protected"
+        ],
+        answer: 1,
+        reason: "The provision protects acts done by a director despite subsequent discovery of invalidity of the appointment, subject to the statutory exceptions."
+      },
+      {
+        question_id: "CEL_CH3_T_CS14_Q03",
+        question: "If the defect relates to a known disqualification existing at the time of appointment, does Section 176 necessarily make all acts void?",
+        options: [
+          "Yes, automatically",
+          "No, Section 176 provides a statutory protection subject to its terms",
+          "Yes, if the director received remuneration",
+          "Only if shareholders object"
+        ],
+        answer: 1,
+        reason: "Section 176 specifically addresses the effect of defects or invalidity in appointment and prevents automatic invalidation merely because of such defect, subject to its terms."
+      },
+      {
+        question_id: "CEL_CH3_T_CS14_Q04",
+        question: "Which statement is most accurate?",
+        options: [
+          "Later discovery always rewinds every Board action",
+          "Appointment defect and validity of acts are separate legal questions under Section 176",
+          "Every director's act requires shareholder ratification",
+          "The auditor determines validity"
+        ],
+        answer: 1,
+        reason: "Section 176 separates the validity of the appointment from the validity of acts already done in the capacity of director."
+      },
+      {
+        question_id: "CEL_CH3_T_CS14_Q05",
+        question: "The protection under Section 176 is primarily intended to:",
+        options: [
+          "Protect shareholders from directors",
+          "Prevent commercial acts from automatically becoming invalid merely because of a subsequent discovery concerning appointment",
+          "Increase director remuneration",
+          "Replace the Board Meeting requirement"
+        ],
+        answer: 1,
+        reason: "The provision provides continuity and protects acts already undertaken in the company's affairs despite a later-discovered defect in appointment."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS15",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 182", "Political Contributions"],
+    caseText: `
+      <p>
+        Pioneer Limited proposes to contribute ₹12 lakh to a political party during
+        the financial year. The Managing Director suggests making the contribution
+        directly from company funds without passing a Board resolution.
+      </p>
+      <p>
+        The Company Secretary points out that the Companies Act imposes specific
+        requirements concerning political contributions and that the contribution
+        must be authorised in the prescribed manner.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS15_Q01",
+        question: "Which provision deals with political contributions by companies?",
+        options: [
+          "Section 180",
+          "Section 182",
+          "Section 185",
+          "Section 188"
+        ],
+        answer: 1,
+        reason: "Section 182 deals with prohibition and restrictions regarding political contributions by companies."
+      },
+      {
+        question_id: "CEL_CH3_T_CS15_Q02",
+        question: "A political contribution by a company generally requires:",
+        options: [
+          "Authorisation by a resolution passed at a Board Meeting",
+          "Only approval of the statutory auditor",
+          "Only approval of one director",
+          "No approval"
+        ],
+        answer: 0,
+        reason: "A company may contribute to political parties subject to the statutory conditions, including authorisation by a resolution of the Board."
+      },
+      {
+        question_id: "CEL_CH3_T_CS15_Q03",
+        question: "The amount of political contribution should be disclosed in:",
+        options: [
+          "The company's financial statements in the prescribed manner",
+          "Only the director's personal tax return",
+          "Only the Board attendance register",
+          "No document"
+        ],
+        answer: 0,
+        reason: "Political contributions are subject to prescribed disclosure requirements in the company's accounts."
+      },
+      {
+        question_id: "CEL_CH3_T_CS15_Q04",
+        question: "Which of the following is NOT sufficient by itself to authorise the company's political contribution?",
+        options: [
+          "A personal instruction of the Managing Director",
+          "A Board resolution satisfying Section 182",
+          "Proper corporate authorisation",
+          "Compliance with statutory conditions"
+        ],
+        answer: 0,
+        reason: "A personal instruction of the Managing Director cannot substitute for the statutory corporate authorisation required under Section 182."
+      },
+      {
+        question_id: "CEL_CH3_T_CS15_Q05",
+        question: "Which statement best reflects the nature of Section 182?",
+        options: [
+          "It permits unrestricted political donations",
+          "It regulates political contributions and prescribes conditions for lawful contributions",
+          "It deals exclusively with employee donations",
+          "It applies only to directors personally"
+        ],
+        answer: 1,
+        reason: "Section 182 regulates political contributions by companies and lays down conditions and disclosure requirements."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS16",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 183", "National Defence Fund"],
+    caseText: `
+      <p>
+        National Infrastructure Limited wants to contribute ₹50 lakh towards a fund
+        connected with national defence. The Managing Director believes that because
+        the contribution is charitable and connected with national interest, no Board
+        approval is necessary.
+      </p>
+      <p>
+        The Company Secretary states that the Companies Act specifically recognises
+        contributions for national defence and requires corporate authorisation.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS16_Q01",
+        question: "Which provision deals with contributions to the National Defence Fund and other prescribed funds?",
+        options: [
+          "Section 181",
+          "Section 182",
+          "Section 183",
+          "Section 185"
+        ],
+        answer: 2,
+        reason: "Section 183 specifically deals with the power of the Board to contribute to the National Defence Fund and other prescribed funds."
+      },
+      {
+        question_id: "CEL_CH3_T_CS16_Q02",
+        question: "Who exercises the power under Section 183?",
+        options: [
+          "Only shareholders",
+          "The Board of Directors",
+          "Only the statutory auditor",
+          "Only the Registrar"
+        ],
+        answer: 1,
+        reason: "Section 183 confers the power to contribute on the Board of Directors."
+      },
+      {
+        question_id: "CEL_CH3_T_CS16_Q03",
+        question: "Can the Managing Director make the contribution solely on his personal authority without Board authorisation?",
+        options: [
+          "Yes",
+          "No",
+          "Yes, if the amount is below ₹1 crore",
+          "Yes, if shareholders are informed later"
+        ],
+        answer: 1,
+        reason: "The statutory power belongs to the Board and cannot simply be exercised by the Managing Director without proper authority."
+      },
+      {
+        question_id: "CEL_CH3_T_CS16_Q04",
+        question: "Which statement is most accurate about Section 183?",
+        options: [
+          "It completely prohibits national defence contributions",
+          "It enables the Board to make specified contributions",
+          "It applies only to individuals",
+          "It requires a special resolution for every contribution"
+        ],
+        answer: 1,
+        reason: "Section 183 provides the Board with the statutory power to contribute to the National Defence Fund and other prescribed funds."
+      },
+      {
+        question_id: "CEL_CH3_T_CS16_Q05",
+        question: "The contribution in the case should be treated as:",
+        options: [
+          "A personal contribution of the Managing Director",
+          "A corporate contribution subject to the Companies Act requirements",
+          "An employee benefit",
+          "A dividend"
+        ],
+        answer: 1,
+        reason: "Since the contribution is made by the company, it is a corporate contribution and must comply with the applicable statutory requirements."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS17",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 181", "Charitable Contributions"],
+    caseText: `
+      <p>
+        Emerald Limited proposes to contribute ₹18 lakh to a charitable fund.
+        The contribution is expected to exceed five per cent of the average net
+        profits of the company for the three immediately preceding financial years.
+      </p>
+      <p>
+        The Board proposes to approve the contribution without obtaining any further
+        corporate approval. The Finance Director argues that charitable expenditure
+        is part of normal corporate social responsibility and therefore Section 181
+        is irrelevant.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS17_Q01",
+        question: "Which provision deals with the power of the Board to contribute to bona fide charitable and other funds?",
+        options: [
+          "Section 179",
+          "Section 180",
+          "Section 181",
+          "Section 183"
+        ],
+        answer: 2,
+        reason: "Section 181 deals with the Board's power to contribute to bona fide charitable and other funds."
+      },
+      {
+        question_id: "CEL_CH3_T_CS17_Q02",
+        question: "If the proposed contribution exceeds the prescribed percentage of the average net profits of the preceding three financial years, what is generally required?",
+        options: [
+          "Only approval of the Finance Director",
+          "Prior permission of the company in general meeting",
+          "Only auditor certification",
+          "No additional approval"
+        ],
+        answer: 1,
+        reason: "Where the aggregate contributions exceed the prescribed threshold, prior permission of the company in general meeting is required."
+      },
+      {
+        question_id: "CEL_CH3_T_CS17_Q03",
+        question: "The relevant average net profits are generally calculated with reference to:",
+        options: [
+          "One preceding financial year",
+          "Two preceding financial years",
+          "Three immediately preceding financial years",
+          "Five preceding financial years"
+        ],
+        answer: 2,
+        reason: "The statutory threshold under Section 181 refers to the average net profits of the three immediately preceding financial years."
+      },
+      {
+        question_id: "CEL_CH3_T_CS17_Q04",
+        question: "Is every charitable contribution automatically governed only by CSR provisions?",
+        options: [
+          "Yes",
+          "No",
+          "Only for listed companies",
+          "Only for private companies"
+        ],
+        answer: 1,
+        reason: "Section 181 separately governs contributions to bona fide charitable and other funds, while CSR is governed by its own statutory framework."
+      },
+      {
+        question_id: "CEL_CH3_T_CS17_Q05",
+        question: "The key issue in the case is:",
+        options: [
+          "Whether the contribution exceeds the statutory threshold requiring general meeting approval",
+          "Whether the auditor likes the charity",
+          "Whether employees approve",
+          "Whether the fund has shares in the company"
+        ],
+        answer: 0,
+        reason: "The crucial issue is whether the contribution exceeds the prescribed threshold under Section 181."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS18",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 178", "Nomination and Remuneration Committee"],
+    caseText: `
+      <p>
+        Summit Limited constitutes a Nomination and Remuneration Committee with
+        three non-executive directors. Only one of the three directors is independent.
+        The Board argues that because the committee has three non-executive directors,
+        the composition is valid.
+      </p>
+      <p>
+        The Chairperson of the company is also proposed to chair the NRC. Two
+        independent directors of the company object to the arrangement.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS18_Q01",
+        question: "What is the minimum number of directors generally required on the NRC?",
+        options: [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        answer: 1,
+        reason: "The NRC shall consist of three or more non-executive directors."
+      },
+      {
+        question_id: "CEL_CH3_T_CS18_Q02",
+        question: "What proportion of NRC members should be independent directors?",
+        options: [
+          "At least one-third",
+          "At least one-half",
+          "All members",
+          "None"
+        ],
+        answer: 1,
+        reason: "Not less than one-half of the members of the NRC should be independent directors."
+      },
+      {
+        question_id: "CEL_CH3_T_CS18_Q03",
+        question: "Does a three-member NRC with only one independent director satisfy the independence requirement?",
+        options: [
+          "Yes",
+          "No",
+          "Yes, because one-third is sufficient",
+          "Only if the Chairperson is independent"
+        ],
+        answer: 1,
+        reason: "For three members, at least two should be independent because not less than one-half must be independent."
+      },
+      {
+        question_id: "CEL_CH3_T_CS18_Q04",
+        question: "Can the Chairperson of the company chair the NRC?",
+        options: [
+          "Yes",
+          "No, although the Chairperson may be a member",
+          "Yes, if he is non-executive",
+          "Yes, if shareholders approve"
+        ],
+        answer: 1,
+        reason: "The Chairperson of the company shall not chair the NRC, although he may be appointed as a member."
+      },
+      {
+        question_id: "CEL_CH3_T_CS18_Q05",
+        question: "Which of the following is a core function of the NRC?",
+        options: [
+          "Recommend persons for appointment as directors and senior management",
+          "Conduct statutory audit",
+          "Issue shares without Board approval",
+          "Maintain the cash book"
+        ],
+        answer: 0,
+        reason: "The NRC identifies suitable persons for directorship and senior management positions and recommends their appointment/removal in accordance with Section 178."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS19",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 178", "Stakeholders Relationship Committee"],
+    caseText: `
+      <p>
+        Prime Limited has 1,200 shareholders. A large number of complaints have
+        been received regarding non-receipt of dividend, transfer of shares and
+        delayed transmission of securities.
+      </p>
+      <p>
+        The Board proposes to constitute a Stakeholders Relationship Committee.
+        The proposed committee consists of three directors, including one independent
+        director. The Chairperson of the committee is proposed to be a non-executive
+        director nominated by the Board.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS19_Q01",
+        question: "When is a Stakeholders Relationship Committee required to be constituted under Section 178?",
+        options: [
+          "When the company has more than 100 shareholders",
+          "When the company has more than 500 shareholders, debenture-holders, deposit-holders and other security holders in aggregate",
+          "Only when the company is listed",
+          "Only when complaints exceed 1,000"
+        ],
+        answer: 1,
+        reason: "Where the company has more than 1,000 shareholders, debenture-holders, deposit-holders and other security holders at any time during a financial year, the Board shall constitute a Stakeholders Relationship Committee."
+      },
+      {
+        question_id: "CEL_CH3_T_CS19_Q02",
+        question: "With 1,200 shareholders, does Prime Limited cross the stated threshold?",
+        options: [
+          "No",
+          "Yes",
+          "Only if listed",
+          "Only if it has debentures"
+        ],
+        answer: 1,
+        reason: "1,200 shareholders exceed the threshold of more than 1,000 security holders."
+      },
+      {
+        question_id: "CEL_CH3_T_CS19_Q03",
+        question: "Who shall chair the Stakeholders Relationship Committee?",
+        options: [
+          "The Managing Director compulsorily",
+          "A non-executive director nominated by the Board",
+          "The statutory auditor",
+          "The Company Secretary compulsorily"
+        ],
+        answer: 1,
+        reason: "The Stakeholders Relationship Committee shall be chaired by a non-executive director and such other members as prescribed."
+      },
+      {
+        question_id: "CEL_CH3_T_CS19_Q04",
+        question: "Which matter falls directly within the committee's role?",
+        options: [
+          "Resolving grievances of security holders",
+          "Preparing the statutory audit report",
+          "Determining corporate tax liability",
+          "Approving all loans to directors"
+        ],
+        answer: 0,
+        reason: "The committee considers and resolves grievances of security holders of the company."
+      },
+      {
+        question_id: "CEL_CH3_T_CS19_Q05",
+        question: "Which complaint is most clearly within the committee's stakeholder-grievance role?",
+        options: [
+          "Non-receipt of dividend",
+          "Employee attendance",
+          "Factory maintenance",
+          "Raw material wastage"
+        ],
+        answer: 0,
+        reason: "Non-receipt of dividend is a grievance of a security holder and falls within the committee's responsibilities."
+      }
+    ]
+  },
+
+  {
+    case_id: "CEL_CH3_T_CS20",
+    difficulty: "Hard",
+    case_chapter: ["Meetings of Board and its Powers", "Section 173", "Section 174", "Board Meeting Compliance"],
+    caseText: `
+      <p>
+        Zenith Industries Limited has 15 directors. During the financial year,
+        the company holds its first Board Meeting on 10 April, the second on
+        20 June, the third on 25 September and the fourth on 15 December.
+      </p>
+      <p>
+        The notice for the September meeting is sent only five days in advance.
+        Two directors participate through video conferencing. At the December
+        meeting, only four directors are physically present, while three participate
+        through permitted audio-visual means.
+      </p>
+      <p>
+        The Company Secretary states that all four meetings are automatically valid
+        because the company held four meetings during the year. A director disputes
+        this and argues that frequency, notice and quorum are separate compliance
+        requirements.
+    `,
+    questions: [
+      {
+        question_id: "CEL_CH3_T_CS20_Q01",
+        question: "What is the general maximum gap permitted between two consecutive Board Meetings?",
+        options: [
+          "60 days",
+          "90 days",
+          "120 days",
+          "180 days"
+        ],
+        answer: 2,
+        reason: "The gap between two consecutive Board Meetings should not exceed 120 days, subject to the applicable provisions."
+      },
+      {
+        question_id: "CEL_CH3_T_CS20_Q02",
+        question: "Does holding four meetings automatically establish compliance with all Board Meeting requirements?",
+        options: [
+          "Yes",
+          "No",
+          "Only for listed companies",
+          "Only if all meetings were physical"
+        ],
+        answer: 1,
+        reason: "Frequency of meetings is only one requirement. Notice, quorum, participation and other statutory conditions must independently be complied with."
+      },
+      {
+        question_id: "CEL_CH3_T_CS20_Q03",
+        question: "If the September meeting notice was sent only five days in advance, what is the normal statutory notice requirement?",
+        options: [
+          "3 days",
+          "5 days",
+          "7 days",
+          "15 days"
+        ],
+        answer: 2,
+        reason: "The normal requirement is at least seven days' written notice to every director, subject to the shorter-notice provisions for urgent business."
+      },
+      {
+        question_id: "CEL_CH3_T_CS20_Q04",
+        question: "For a Board of 15 directors, what is the ordinary quorum?",
+        options: [
+          "3",
+          "5",
+          "6",
+          "8"
+        ],
+        answer: 1,
+        reason: "One-third of 15 is 5, which is higher than the statutory minimum of two."
+      },
+      {
+        question_id: "CEL_CH3_T_CS20_Q05",
+        question: "At the December meeting, four directors are physically present and three participate through permitted audio-visual means. Assuming none is excluded from quorum, what is the total number counted for quorum?",
+        options: [
+          "4",
+          "5",
+          "7",
+          "15"
+        ],
+        answer: 2,
+        reason: "Directors participating through permitted video conferencing/audio-visual means are counted for quorum. Therefore, 4 physical + 3 electronic participants = 7 directors."
+      }
+    ]
+  }
 ];

@@ -35,32 +35,99 @@ function shuffleArray(array) {
 // ==========================
 function initExam() {
 
-    let shuffledCases = [...caseStudies];
-    shuffleArray(shuffledCases);
+    // Read aiPercent from URL query parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const aiPercentParam = urlParams.get('aiPercent');
+    let aiPercent = aiPercentParam !== null ? parseInt(aiPercentParam, 10) : 50;
+    if (isNaN(aiPercent) || aiPercent < 0) aiPercent = 0;
+    if (aiPercent > 100) aiPercent = 100;
+
+    const targetAI = Math.round(TOTAL_QUESTIONS * (aiPercent / 100));
+    const targetStandard = TOTAL_QUESTIONS - targetAI;
+
+    // Helper to extract questions from case studies array up to maxCount
+    function extractQuestionsFromCases(casesArray, maxCount) {
+        if (!casesArray || !Array.isArray(casesArray) || maxCount <= 0) return [];
+
+        let shuffled = [...casesArray];
+        shuffleArray(shuffled);
+
+        let extracted = [];
+        for (let cs of shuffled) {
+            if (!cs || !cs.questions) continue;
+
+            for (let q of cs.questions) {
+                if (extracted.length >= maxCount) break;
+                if (!q.question || !q.options || q.answer === undefined) continue;
+
+                extracted.push({
+                    caseContent: cs.caseText || "",
+                    question: q.question,
+                    options: q.options,
+                    correct: q.answer,
+                    solution: q.reason || q.solution || "No reason provided"
+                });
+            }
+            if (extracted.length >= maxCount) break;
+        }
+        return extracted;
+    }
+
+    // Extract AI questions
+    const aiCases = (typeof AICaseStudies !== 'undefined' && Array.isArray(AICaseStudies)) ? AICaseStudies : [];
+    let aiQuestions = extractQuestionsFromCases(aiCases, targetAI);
+
+    // Extract Standard questions (needed = TOTAL_QUESTIONS - aiQuestions.length)
+    const stdCases = (typeof caseStudies !== 'undefined' && Array.isArray(caseStudies)) ? caseStudies : [];
+    const neededStandard = TOTAL_QUESTIONS - aiQuestions.length;
+    let stdQuestions = extractQuestionsFromCases(stdCases, neededStandard);
+
+    // Combine picked questions
+    let combinedQuestions = [...aiQuestions, ...stdQuestions];
+
+    // If still less than TOTAL_QUESTIONS, top up from standard case studies
+    if (combinedQuestions.length < TOTAL_QUESTIONS) {
+        const topUpNeeded = TOTAL_QUESTIONS - combinedQuestions.length;
+        let existingQuestionsSet = new Set(combinedQuestions.map(q => q.question));
+        let extraQuestions = [];
+        let shuffledStd = [...stdCases];
+        shuffleArray(shuffledStd);
+
+        for (let cs of shuffledStd) {
+            if (!cs || !cs.questions) continue;
+            for (let q of cs.questions) {
+                if (extraQuestions.length >= topUpNeeded) break;
+                if (!q.question || !q.options || q.answer === undefined) continue;
+                if (!existingQuestionsSet.has(q.question)) {
+                    extraQuestions.push({
+                        caseContent: cs.caseText || "",
+                        question: q.question,
+                        options: q.options,
+                        correct: q.answer,
+                        solution: q.reason || q.solution || "No reason provided"
+                    });
+                }
+            }
+            if (extraQuestions.length >= topUpNeeded) break;
+        }
+        combinedQuestions = [...combinedQuestions, ...extraQuestions];
+    }
+
+    // Group questions by caseContent so questions sharing a case stay together
+    let caseMap = new Map();
+    for (let q of combinedQuestions) {
+        if (!caseMap.has(q.caseContent)) {
+            caseMap.set(q.caseContent, []);
+        }
+        caseMap.get(q.caseContent).push(q);
+    }
+
+    let caseGroups = Array.from(caseMap.values());
+    shuffleArray(caseGroups); // Shuffle order of case blocks
 
     selectedQuestions = [];
-
-    for (let cs of shuffledCases) {
-
-        if (!cs.questions) continue;
-
-        for (let q of cs.questions) {
-
-            if (selectedQuestions.length >= TOTAL_QUESTIONS) break;
-
-            if (!q.question || !q.options || q.answer === undefined) continue;
-
-            selectedQuestions.push({
-                caseContent: cs.caseText || "",
-                question: q.question,
-                options: q.options,
-                correct: q.answer,
-                solution: q.reason || q.solution || "No reason provided" // Now checks for 'reason'
-            });
-
-        }
-
-        if (selectedQuestions.length >= TOTAL_QUESTIONS) break;
+    for (let group of caseGroups) {
+        selectedQuestions.push(...group);
     }
 
     const total = selectedQuestions.length;
@@ -286,7 +353,6 @@ function showResult(score, percentage, grade, correctCount, wrongCount, unanswer
         <h3>Detailed Solution Review</h3>
     `;
 
-    // Leave the remaining selectedQuestions.forEach loop exactly as it is below this line...
     selectedQuestions.forEach((q, index) => {
         html += `
             <div class="reviewBox">
