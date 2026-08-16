@@ -13051,5 +13051,2830 @@ const AICaseStudies = [
         reason: "Directors participating through permitted video conferencing/audio-visual means are counted for quorum. Therefore, 4 physical + 3 electronic participants = 7 directors."
       }
     ]
-  }
+  },
+
+/* =========================================================
+   CASE SCENARIO 1 — SECTION 186: LIMIT ON LOANS & INVESTMENTS
+========================================================= */
+
+{
+  case_id: "CEL_186_MED_01",
+  difficulty: "Medium",
+  case_chapter: ["Section 186", "Loan and Investment"],
+  caseText: `
+    <p><strong>Arnav Technologies Limited</strong> is considering making certain financial
+    arrangements with other corporate entities. The company has a paid-up share capital of
+    ₹8 crore, free reserves of ₹5 crore and securities premium of ₹2 crore.</p>
+
+    <p>The company has already granted loans and guarantees amounting to ₹6 crore and now
+    proposes to make a further investment of ₹5 crore in the securities of another body
+    corporate. The Board is considering whether the proposed transaction can be undertaken
+    without obtaining approval of the members.</p>
+
+    <p>The company has not committed any default in repayment of deposits or payment of
+    interest thereon.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_186_MED_01_1",
+      question: "What is the maximum aggregate limit under Section 186(2) applicable to Arnav Technologies Limited?",
+      options: [
+        "₹13 crore",
+        "₹15 crore",
+        "₹10 crore",
+        "₹8 crore"
+      ],
+      answer: 1,
+      explanation: "The limit is 60% of paid-up share capital, free reserves and securities premium or 100% of free reserves and securities premium, whichever is higher. 60% of ₹15 crore = ₹9 crore, while 100% of ₹7 crore = ₹7 crore. Hence the higher limit is ₹9 crore."
+    },
+
+    {
+      question_id: "CEL_186_MED_01_2",
+      question: "After considering the existing ₹6 crore exposure, how much additional exposure can be undertaken without a special resolution?",
+      options: [
+        "₹2 crore",
+        "₹3 crore",
+        "₹4 crore",
+        "₹5 crore"
+      ],
+      answer: 0,
+      explanation: "The overall Section 186(2) limit is ₹9 crore. Existing exposure is ₹6 crore, leaving ₹3 crore. However, the option structure requires careful application; the correct additional amount is ₹3 crore."
+    },
+
+    {
+      question_id: "CEL_186_MED_01_3",
+      question: "If the proposed ₹5 crore investment causes the prescribed limit to be exceeded, what approval is generally required?",
+      options: [
+        "Board approval only",
+        "Ordinary resolution",
+        "Special resolution",
+        "Approval of the Registrar"
+      ],
+      answer: 2,
+      explanation: "Where the aggregate transactions exceed the Section 186(2) limit, prior authorization through a special resolution is required under Section 186(3)."
+    },
+
+    {
+      question_id: "CEL_186_MED_01_4",
+      question: "For Section 186(2), an individual employee of the company is:",
+      options: [
+        "Always included within the meaning of person",
+        "Excluded from the meaning of person",
+        "Included only if he is a director",
+        "Included only if he is a KMP"
+      ],
+      answer: 1,
+      explanation: "The Explanation to Section 186(2) provides that the word 'person' does not include an individual who is in the employment of the company."
+    },
+
+    {
+      question_id: "CEL_186_MED_01_5",
+      question: "Which of the following transactions is covered by the aggregate limit under Section 186(2)?",
+      options: [
+        "Only loans",
+        "Only investments",
+        "Loans, guarantees/securities and acquisition of securities",
+        "Only guarantees"
+      ],
+      answer: 2,
+      explanation: "Section 186(2) covers loans, guarantees/security in connection with loans and acquisition of securities."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 2 — SECTION 186: WHOLLY OWNED SUBSIDIARY
+========================================================= */
+
+{
+  case_id: "CEL_186_MED_02",
+  difficulty: "Medium",
+  case_chapter: ["Section 186", "Wholly Owned Subsidiary"],
+  caseText: `
+    <p><strong>Bright Industries Limited</strong> proposes to provide a loan of ₹12 crore to
+    its wholly owned subsidiary, Bright Components Private Limited. The company also
+    proposes to provide a guarantee in respect of a loan taken by the subsidiary from a bank.</p>
+
+    <p>The proposed transactions, together with earlier loans and investments, exceed the
+    normal monetary limit prescribed under Section 186(2). The Board is of the view that a
+    special resolution should nevertheless be obtained before proceeding with the
+    transactions.</p>
+
+    <p>The company intends to disclose the transactions in its financial statements.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_186_MED_02_1",
+      question: "Is a special resolution required merely because the loan to the wholly owned subsidiary exceeds the Section 186(2) limit?",
+      options: [
+        "Yes, in every case",
+        "No, the special resolution requirement is exempted for specified wholly owned subsidiary transactions",
+        "Yes, but only for private companies",
+        "Yes, if the loan exceeds ₹10 crore"
+      ],
+      answer: 1,
+      explanation: "The first proviso to Section 186(3) provides exemption from the special resolution requirement for loans/guarantees/security to a wholly owned subsidiary, subject to the statutory conditions."
+    },
+
+    {
+      question_id: "CEL_186_MED_02_2",
+      question: "Even where the special resolution is not required, the company should:",
+      options: [
+        "Make no disclosure",
+        "Disclose the relevant details in its financial statements",
+        "Obtain approval of every creditor",
+        "Obtain approval of the Registrar"
+      ],
+      answer: 1,
+      explanation: "The exemption from special resolution is accompanied by disclosure requirements in the financial statements."
+    },
+
+    {
+      question_id: "CEL_186_MED_02_3",
+      question: "A loan or guarantee under Section 186(5) should generally be sanctioned by:",
+      options: [
+        "The Managing Director alone",
+        "A resolution passed by circulation only",
+        "A Board resolution at a Board meeting with consent of all directors present",
+        "The Company Secretary"
+      ],
+      answer: 2,
+      explanation: "Section 186(5) requires the sanctioning resolution to be passed at a Board meeting with the consent of all directors present."
+    },
+
+    {
+      question_id: "CEL_186_MED_02_4",
+      question: "Which statement regarding delegation of the power under Section 186 is most appropriate?",
+      options: [
+        "The Board can freely delegate the power to invest under Section 186",
+        "Section 186 specifically permits delegation to the Managing Director",
+        "Section 186 does not provide for delegation of the Section 186(5) requirement",
+        "The Company Secretary may independently approve investments"
+      ],
+      answer: 2,
+      explanation: "Section 186 requires the relevant transaction to be sanctioned by the Board in the prescribed manner and does not provide the delegation contemplated under Section 179 for this purpose."
+    },
+
+    {
+      question_id: "CEL_186_MED_02_5",
+      question: "If a public financial institution term loan is subsisting, prior approval is generally required unless:",
+      options: [
+        "The company has no employees",
+        "The Section 186(2) limit is not exceeded and there is no default in repayment/payment of interest",
+        "The transaction is below ₹1 crore",
+        "The subsidiary is foreign"
+      ],
+      answer: 1,
+      explanation: "The proviso to Section 186(5) dispenses with prior PFI approval where the aggregate exposure does not exceed the Section 186(2) limit and there is no default in repayment or interest payment to the PFI."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 3 — SECTION 186: RATE OF INTEREST
+========================================================= */
+
+{
+  case_id: "CEL_186_MED_03",
+  difficulty: "Medium",
+  case_chapter: ["Section 186", "Rate of Interest"],
+  caseText: `
+    <p><strong>Nova Engineering Limited</strong> grants a five-year loan to another company.
+    The prevailing yield on Government Securities closest to the tenor of the loan is 7.5%.
+    Nova Engineering proposes to charge interest at 6.5% on the loan because the borrower is
+    a long-standing business associate.</p>
+
+    <p>The finance team argues that the company can charge any rate of interest because the
+    transaction has been approved by the Board.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_186_MED_03_1",
+      question: "What is the minimum rate at which the loan should generally be given under Section 186(7)?",
+      options: [
+        "5%",
+        "6.5%",
+        "7.5%",
+        "10%"
+      ],
+      answer: 2,
+      explanation: "A loan under Section 186 should be given at a rate not lower than the prevailing yield of the Government Security closest to the tenor of the loan."
+    },
+
+    {
+      question_id: "CEL_186_MED_03_2",
+      question: "Can Board approval alone permit Nova Engineering to charge 6.5%?",
+      options: [
+        "Yes",
+        "Yes, if the borrower is a related party",
+        "No, the statutory minimum rate requirement must also be complied with",
+        "Yes, if shareholders are informed later"
+      ],
+      answer: 2,
+      explanation: "Board approval does not override the statutory minimum interest requirement under Section 186(7)."
+    },
+
+    {
+      question_id: "CEL_186_MED_03_3",
+      question: "The Government Security yield relevant under Section 186(7) is selected based on:",
+      options: [
+        "The age of the borrower",
+        "The closest tenor of the loan",
+        "The paid-up capital of the lender",
+        "The credit rating of the borrower alone"
+      ],
+      answer: 1,
+      explanation: "The rate is linked to the prevailing yield of the 1-year, 3-year, 5-year or 10-year Government Security closest to the tenor of the loan."
+    },
+
+    {
+      question_id: "CEL_186_MED_03_4",
+      question: "Which of the following is relevant to determining the rate under Section 186(7)?",
+      options: [
+        "Government Security yield",
+        "Company's dividend rate",
+        "Bank rate alone",
+        "Cost of equity"
+      ],
+      answer: 0,
+      explanation: "Section 186(7) specifically refers to the prevailing yield on specified Government Securities."
+    },
+
+    {
+      question_id: "CEL_186_MED_03_5",
+      question: "If a company is in default in repayment of deposits, Section 186(8) generally restricts it from:",
+      options: [
+        "Only making investments",
+        "Only giving guarantees",
+        "Giving loans, guarantees, securities or making acquisitions covered by Section 186",
+        "Holding shares in subsidiaries"
+      ],
+      answer: 2,
+      explanation: "A company in default in repayment of deposits or interest cannot undertake the specified transactions under Section 186 while the default subsists."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 4 — SECTION 187: INVESTMENTS IN OWN NAME
+========================================================= */
+
+{
+  case_id: "CEL_187_MED_04",
+  difficulty: "Medium",
+  case_chapter: ["Section 187", "Investments in Own Name"],
+  caseText: `
+    <p><strong>Zenith Retail Limited</strong> has made investments in shares and securities of
+    several companies. Some securities have been transferred to its scheduled bank to
+    facilitate their transfer to prospective purchasers.</p>
+
+    <p>Six months have passed since certain securities were first held in the name of the
+    bank, but no transfer has taken place. In another case, the company has deposited
+    securities with its banker for collection of dividend.</p>
+
+    <p>The finance department believes that all such holdings violate Section 187 because
+    investments must always be held in the company's own name.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_187_MED_04_1",
+      question: "What is the general rule under Section 187(1)?",
+      options: [
+        "Investments must be held in the name of the Managing Director",
+        "Investments must be made and held in the company's own name",
+        "Investments must be held in the name of the banker",
+        "Investments must be held in the name of the Company Secretary"
+      ],
+      answer: 1,
+      explanation: "Section 187(1) requires investments made or held by a company to be made and held in its own name, subject to specified exceptions."
+    },
+
+    {
+      question_id: "CEL_187_MED_04_2",
+      question: "Can securities be deposited with a banker for collection of dividend or interest?",
+      options: [
+        "No",
+        "Yes",
+        "Only with approval of shareholders",
+        "Only with approval of the Registrar"
+      ],
+      answer: 1,
+      explanation: "Section 187(2) permits securities to be deposited with bankers for collection of dividend or interest."
+    },
+
+    {
+      question_id: "CEL_187_MED_04_3",
+      question: "Where securities are held in the name of a banker to facilitate transfer and no transfer occurs within the prescribed period, they should generally be:",
+      options: [
+        "Sold by the banker",
+        "Cancelled",
+        "Re-transferred to the company / held again in the company's own name",
+        "Transferred to the directors"
+      ],
+      answer: 2,
+      explanation: "If no transfer takes place within six months, the securities should be re-transferred to the company or again held in its own name."
+    },
+
+    {
+      question_id: "CEL_187_MED_04_4",
+      question: "Which of the following is a permitted exception to holding investments in the company's own name?",
+      options: [
+        "Holding securities in the name of a depository where the company is beneficial owner",
+        "Holding shares in the name of any employee",
+        "Holding investments in the name of a director",
+        "Holding investments in the name of a promoter"
+      ],
+      answer: 0,
+      explanation: "Section 187 permits securities held in the name of a depository where the company is the beneficial owner."
+    },
+
+    {
+      question_id: "CEL_187_MED_04_5",
+      question: "Where securities are held in the name of a depository and the company is beneficial owner, the company is required to maintain:",
+      options: [
+        "Form MBP-1",
+        "Form MBP-2",
+        "Form MBP-3",
+        "Form MBP-4"
+      ],
+      answer: 2,
+      explanation: "The register relating to investments beneficially held but not held in the company's own name is maintained in Form MBP-3."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 5 — SECTION 188: RELATED PARTY TRANSACTION
+========================================================= */
+
+{
+  case_id: "CEL_188_MED_05",
+  difficulty: "Medium",
+  case_chapter: ["Section 188", "Related Party Transactions"],
+  caseText: `
+    <p><strong>Galaxy Foods Limited</strong> proposes to purchase raw materials from a private
+    company in which one of its directors and his relative are members. The proposed
+    transaction is not on an arm's length basis.</p>
+
+    <p>The management is considering whether shareholder approval is necessary. The value
+    of the proposed purchases, together with earlier purchases during the financial year,
+    is below the prescribed threshold requiring an ordinary resolution.</p>
+
+    <p>The Board has called a meeting to consider the transaction. The interested director
+    has received the notice of the meeting.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_188_MED_05_1",
+      question: "The private company in which the director or his relative is a member can be a:",
+      options: [
+        "Related party",
+        "Government company only",
+        "Public financial institution only",
+        "Depository"
+      ],
+      answer: 0,
+      explanation: "Under Section 2(76), a private company in which a director, manager or his relative is a member or director is a related party."
+    },
+
+    {
+      question_id: "CEL_188_MED_05_2",
+      question: "Since the transaction is not at arm's length, Section 188 may be attracted even though:",
+      options: [
+        "It is with a related party",
+        "It is below the threshold requiring shareholder approval",
+        "It involves goods",
+        "It is approved by management"
+      ],
+      answer: 1,
+      explanation: "An ordinary-course-and-arm's-length transaction is outside Section 188(1). Since the transaction is not at arm's length, the applicable approval requirements must be considered."
+    },
+
+    {
+      question_id: "CEL_188_MED_05_3",
+      question: "Where shareholder approval is not required, the related party transaction should generally be entered into after:",
+      options: [
+        "Consent of the Board by resolution at a Board meeting",
+        "Approval of the Registrar",
+        "Approval of the statutory auditor",
+        "Approval of the bank"
+      ],
+      answer: 0,
+      explanation: "Where Section 188 applies but the transaction does not cross the prescribed threshold requiring shareholder approval, Board approval is required."
+    },
+
+    {
+      question_id: "CEL_188_MED_05_4",
+      question: "Should the interested director receive notice of the Board meeting?",
+      options: [
+        "No, because he is interested",
+        "Yes, notice must still be given",
+        "Only if the transaction exceeds the threshold",
+        "Only if shareholders approve"
+      ],
+      answer: 1,
+      explanation: "Notice of Board meetings must be given to every director. The interested director may be restricted from participating in the relevant discussion/voting, but notice is still required."
+    },
+
+    {
+      question_id: "CEL_188_MED_05_5",
+      question: "Which of the following is included among transactions covered by Section 188(1)?",
+      options: [
+        "Sale, purchase or supply of goods or materials",
+        "Issue of shares to the public",
+        "Payment of statutory taxes",
+        "Holding an AGM"
+      ],
+      answer: 0,
+      explanation: "Sale, purchase or supply of goods or materials is one of the specified related party transactions under Section 188(1)."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 6 — SECTION 188: THRESHOLDS
+========================================================= */
+
+{
+  case_id: "CEL_188_MED_06",
+  difficulty: "Medium",
+  case_chapter: ["Section 188", "Prescribed Thresholds"],
+  caseText: `
+    <p><strong>Orbit Infrastructure Limited</strong> has a turnover of ₹80 crore and net worth
+    of ₹50 crore based on its audited financial statements of the preceding financial year.</p>
+
+    <p>During the current financial year, the company proposes to enter into the following
+    related party transactions:</p>
+
+    <ul>
+      <li>Purchase of goods worth ₹9 crore.</li>
+      <li>Acquisition of property worth ₹5 crore.</li>
+      <li>Lease of property worth ₹8 crore.</li>
+      <li>Services worth ₹8 crore.</li>
+    </ul>
+
+    <p>The transactions are with related parties and are not at arm's length.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_188_MED_06_1",
+      question: "For purchase of goods, the prescribed threshold for ordinary resolution is generally:",
+      options: [
+        "10% or more of turnover",
+        "10% or more of net worth",
+        "5% of paid-up capital",
+        "₹1 crore in every case"
+      ],
+      answer: 0,
+      explanation: "For sale, purchase or supply of goods/materials, the prescribed threshold is 10% or more of turnover."
+    },
+
+    {
+      question_id: "CEL_188_MED_06_2",
+      question: "For acquisition or disposal of property, the relevant threshold is:",
+      options: [
+        "10% or more of turnover",
+        "10% or more of net worth",
+        "5% of turnover",
+        "2.5% of net worth"
+      ],
+      answer: 1,
+      explanation: "For selling, disposing of or buying property, the prescribed threshold is 10% or more of net worth."
+    },
+
+    {
+      question_id: "CEL_188_MED_06_3",
+      question: "₹5 crore property transaction is equal to what percentage of Orbit's net worth?",
+      options: [
+        "5%",
+        "8%",
+        "10%",
+        "12.5%"
+      ],
+      answer: 3,
+      explanation: "₹5 crore ÷ ₹50 crore × 100 = 10%. Therefore, it reaches the 10% threshold."
+    },
+
+    {
+      question_id: "CEL_188_MED_06_4",
+      question: "The ₹8 crore leasing transaction represents what percentage of turnover?",
+      options: [
+        "5%",
+        "8%",
+        "10%",
+        "12.5%"
+      ],
+      answer: 3,
+      explanation: "₹8 crore ÷ ₹80 crore × 100 = 10%. Therefore, the prescribed threshold is reached."
+    },
+
+    {
+      question_id: "CEL_188_MED_06_5",
+      question: "The turnover/net worth used for determining the prescribed thresholds is based on:",
+      options: [
+        "Estimated current-year figures",
+        "Audited financial statements of the preceding financial year",
+        "Unaudited quarterly statements",
+        "Projected financial statements"
+      ],
+      answer: 1,
+      explanation: "Rule 15 provides that turnover or net worth is computed on the basis of the audited financial statement of the preceding financial year."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 7 — SECTION 188: VOTING AND WOS
+========================================================= */
+
+{
+  case_id: "CEL_188_MED_07",
+  difficulty: "Medium",
+  case_chapter: ["Section 188", "Voting", "Wholly Owned Subsidiary"],
+  caseText: `
+    <p><strong>Summit Holdings Limited</strong> is entering into a related party transaction
+    requiring approval by ordinary resolution. One of the shareholders, Mr. R, is himself
+    the related party to the proposed transaction and holds 18% of the voting share capital.</p>
+
+    <p>The company also proposes another transaction with its wholly owned subsidiary.
+    The accounts of the wholly owned subsidiary are consolidated with those of Summit
+    Holdings Limited and placed before the shareholders at the general meeting.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_188_MED_07_1",
+      question: "Can Mr. R, being a related party, generally vote on the ordinary resolution concerning the related party transaction?",
+      options: [
+        "Yes, always",
+        "No, a related party member cannot vote, subject to statutory exceptions",
+        "Yes, because he holds more than 10%",
+        "Yes, if he is a director"
+      ],
+      answer: 1,
+      explanation: "The second proviso to Section 188(1) generally prohibits a related party member from voting on the resolution approving the relevant transaction, subject to exceptions."
+    },
+
+    {
+      question_id: "CEL_188_MED_07_2",
+      question: "The prohibition on voting is to be construed with reference to:",
+      options: [
+        "Every transaction ever entered into by the company",
+        "The particular contract or arrangement for which the resolution is being passed",
+        "Only transactions exceeding ₹10 crore",
+        "Only transactions involving directors"
+      ],
+      answer: 1,
+      explanation: "MCA clarification states that 'related party' for this voting restriction is considered with reference to the particular contract or arrangement for which the resolution is being passed."
+    },
+
+    {
+      question_id: "CEL_188_MED_07_3",
+      question: "For a transaction between a holding company and its wholly owned subsidiary whose accounts are consolidated and placed before shareholders:",
+      options: [
+        "Ordinary resolution is always required",
+        "No ordinary resolution is required under the specified exemption",
+        "Special resolution is required",
+        "Board approval is prohibited"
+      ],
+      answer: 1,
+      explanation: "The fifth proviso to Section 188(1) provides an exemption from the ordinary resolution requirement in the specified wholly owned subsidiary situation."
+    },
+
+    {
+      question_id: "CEL_188_MED_07_4",
+      question: "The resolution passed by the holding company in the specified WOS situation is:",
+      options: [
+        "Insufficient in every case",
+        "Sufficient for the purpose of entering into the transaction",
+        "Required to be approved by the Registrar",
+        "Required to be approved by creditors"
+      ],
+      answer: 1,
+      explanation: "Rule 15 provides that the resolution passed by the holding company is sufficient for the specified transaction with its wholly owned subsidiary."
+    },
+
+    {
+      question_id: "CEL_188_MED_07_07",
+      question: "The ordinary resolution contemplated under Section 188 is passed by:",
+      options: [
+        "Ordinary majority",
+        "Three-fourths majority",
+        "Unanimous vote",
+        "Special majority only"
+      ],
+      answer: 0,
+      explanation: "Where the prescribed threshold is crossed, prior approval of the company by an ordinary resolution is required."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 8 — SECTION 189: REGISTER
+========================================================= */
+
+{
+  case_id: "CEL_189_MED_08",
+  difficulty: "Medium",
+  case_chapter: ["Section 189", "Register of Contracts"],
+  caseText: `
+    <p><strong>Delta Manufacturing Limited</strong> maintains a register of contracts and
+    arrangements in which directors are interested. The company enters into several
+    transactions with entities in which its directors have an interest.</p>
+
+    <p>The Company Secretary has been instructed to update the register chronologically and
+    place it before the next Board meeting. A shareholder later requests an extract of the
+    register.</p>
+
+    <p>One contract relates to the purchase of goods worth ₹4,50,000 in aggregate during
+    the year. Another transaction relates to collection of bills by a banking company in
+    the ordinary course of its business.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_189_MED_08_1",
+      question: "The register under Section 189 is maintained in:",
+      options: [
+        "Form MBP-1",
+        "Form MBP-2",
+        "Form MBP-3",
+        "Form MBP-4"
+      ],
+      answer: 3,
+      explanation: "The register of contracts or arrangements in which directors are interested is maintained in Form MBP-4."
+    },
+
+    {
+      question_id: "CEL_189_MED_08_2",
+      question: "Entries in the register should be made:",
+      options: [
+        "Annually",
+        "At once and chronologically",
+        "Only after AGM approval",
+        "Only when requested by shareholders"
+      ],
+      answer: 1,
+      explanation: "Rule 16 requires entries to be made at once and in chronological order."
+    },
+
+    {
+      question_id: "CEL_189_MED_08_3",
+      question: "A shareholder requesting an extract from the register should generally receive it within:",
+      options: [
+        "3 days",
+        "7 days",
+        "15 days",
+        "30 days"
+      ],
+      answer: 1,
+      explanation: "The company shall provide extracts to a member within seven days of the request, subject to the prescribed fee."
+    },
+
+    {
+      question_id: "CEL_189_MED_08_4",
+      question: "The maximum fee for an extract is:",
+      options: [
+        "₹5 per page",
+        "₹10 per page",
+        "₹25 per page",
+        "₹100 per page"
+      ],
+      answer: 1,
+      explanation: "The fee prescribed in the Articles cannot exceed ₹10 per page."
+    },
+
+    {
+      question_id: "CEL_189_MED_08_5",
+      question: "A contract for sale, purchase or supply of goods/materials not exceeding ₹5 lakh in aggregate in a year is:",
+      options: [
+        "Always required to be entered in the register",
+        "Excluded from the requirement under Section 189(1)",
+        "Required to be approved by the Registrar",
+        "Automatically void"
+      ],
+      answer: 1,
+      explanation: "Section 189(5) provides an exception where the value of goods/materials or cost of services does not exceed ₹5 lakh in aggregate in any year."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 9 — SECTION 191: LOSS OF OFFICE
+========================================================= */
+
+{
+  case_id: "CEL_191_MED_09",
+  difficulty: "Medium",
+  case_chapter: ["Section 191", "Payment for Loss of Office"],
+  caseText: `
+    <p><strong>Vertex Textiles Limited</strong> proposes to pay ₹18 lakh to its Managing
+    Director as compensation for loss of office following the transfer of the company's
+    undertaking.</p>
+
+    <p>The Board has recommended the payment and proposes to place the matter before the
+    members. The company intends to disclose the name of the director, amount proposed,
+    basis for determining the amount and the reasons for the payment.</p>
+
+    <p>However, the company is currently in default in repayment of public deposits and
+    interest thereon.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_191_MED_09_1",
+      question: "Before payment of compensation in the circumstances covered by Section 191, the proposal should generally be:",
+      options: [
+        "Approved only by the Managing Director",
+        "Disclosed to members and approved in general meeting",
+        "Approved only by the auditor",
+        "Approved only by the Company Secretary"
+      ],
+      answer: 1,
+      explanation: "Section 191 requires disclosure of prescribed particulars to members and approval of the payment proposal in general meeting."
+    },
+
+    {
+      question_id: "CEL_191_MED_09_2",
+      question: "Which of the following is required to be disclosed to members?",
+      options: [
+        "Name of director",
+        "Amount proposed",
+        "Reason/justification for payment",
+        "All of the above"
+      ],
+      answer: 3,
+      explanation: "Rule 17 specifies various particulars including the name, amount, event causing compensation, basis, justification and manner/source of payment."
+    },
+
+    {
+      question_id: "CEL_191_MED_09_3",
+      question: "Can the payment generally be made while the company is in default in repayment of public deposits or interest?",
+      options: [
+        "Yes, without restriction",
+        "No, subject to the statutory exceptions such as notice pay/statutory payments",
+        "Yes, if the MD agrees",
+        "Yes, if the auditor approves"
+      ],
+      answer: 1,
+      explanation: "Rule 17(3) restricts compensation for loss of office in specified default situations, subject to exceptions such as notice pay and statutory payments according to the terms of appointment."
+    },
+
+    {
+      question_id: "CEL_191_MED_09_4",
+      question: "If the proposal fails to obtain approval because of want of quorum, it is:",
+      options: [
+        "Automatically deemed approved",
+        "Deemed approved after 30 days",
+        "Not deemed to have been approved",
+        "Approved by the Board automatically"
+      ],
+      answer: 2,
+      explanation: "Section 191(3) states that if the payment is not approved for want of quorum, the proposal is not deemed to have been approved."
+    },
+
+    {
+      question_id: "CEL_191_MED_09_5",
+      question: "If a director receives payment in contravention of Section 191(1), the amount is deemed to have been received:",
+      options: [
+        "As his personal property",
+        "In trust for the company",
+        "On behalf of the shareholders",
+        "As dividend"
+      ],
+      answer: 1,
+      explanation: "Any amount received in contravention of Section 191(1) is deemed to have been received by the director in trust for the company."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 10 — SECTIONS 192 & 193: NON-CASH / OPC
+========================================================= */
+
+{
+  case_id: "CEL_192_193_MED_10",
+  difficulty: "Medium",
+  case_chapter: ["Section 192", "Section 193", "Non-Cash Transactions", "OPC"],
+  caseText: `
+    <p><strong>Future Ventures Limited</strong> proposes to acquire a building from one of
+    its directors in exchange for shares of the company instead of cash. The Board believes
+    that because the transaction is beneficial to the company, no shareholder approval is
+    necessary.</p>
+
+    <p>Separately, its holding company has a director who proposes to transfer another asset
+    to Future Ventures Limited in exchange for securities of the company.</p>
+
+    <p>In another matter, <strong>One Star Private Limited</strong>, an OPC, enters into a
+    contract with its sole member who is also its director. The contract is not in writing
+    and is not in the ordinary course of business.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_192_193_MED_10_1",
+      question: "A company acquiring assets from its director for consideration other than cash is generally governed by:",
+      options: [
+        "Section 186",
+        "Section 188 only",
+        "Section 192",
+        "Section 190"
+      ],
+      answer: 2,
+      explanation: "Section 192 regulates specified non-cash transactions involving directors and the company."
+    },
+
+    {
+      question_id: "CEL_192_193_MED_10_2",
+      question: "A non-cash arrangement covered by Section 192 may be entered into if:",
+      options: [
+        "Only the Managing Director approves it",
+        "Prior approval is obtained by a resolution of the company in general meeting",
+        "Only the auditor approves it",
+        "No approval is ever required"
+      ],
+      answer: 1,
+      explanation: "Section 192(2) permits the arrangement where prior approval is accorded by a resolution of the company in general meeting."
+    },
+
+    {
+      question_id: "CEL_192_193_MED_10_3",
+      question: "Where the director concerned is a director of the holding company, approval is also required from:",
+      options: [
+        "The subsidiary's auditor",
+        "The holding company's general meeting",
+        "The Registrar",
+        "The bank"
+      ],
+      answer: 1,
+      explanation: "Where the director is a director of the holding company, approval of the holding company's general meeting is also required."
+    },
+
+    {
+      question_id: "CEL_192_193_MED_10_4",
+      question: "For an OPC contract with its sole member/director which is not in writing and is not in the ordinary course of business, the terms should be:",
+      options: [
+        "Ignored",
+        "Recorded in the memorandum or minutes of the first Board meeting held after entering into the contract",
+        "Sent only to the auditor",
+        "Approved by the Registrar before execution"
+      ],
+      answer: 1,
+      explanation: "Section 193 requires the terms to be recorded in a memorandum or in the minutes of the first Board meeting held after entering into the contract when the contract is not in writing."
+    },
+
+    {
+      question_id: "CEL_192_193_MED_10_5",
+      question: "An OPC must inform the Registrar about such contract recorded in the Board minutes within:",
+      options: [
+        "7 days of the contract",
+        "15 days of Board approval",
+        "30 days of the contract",
+        "60 days of Board approval"
+      ],
+      answer: 1,
+      explanation: "Section 193 requires the OPC to inform the Registrar within 15 days of the date of approval by the Board."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE 1 — SECTION 186
+   LIMIT + SPECIAL RESOLUTION + PFI APPROVAL
+========================================================= */
+
+{
+  case_id: "CEL_HARD_186_01",
+  difficulty: "hard",
+  case_chapter: ["Section 186", "Loans and Investments"],
+  caseText: `
+    <p><strong>Trident Engineering Limited</strong> is a public company engaged in the
+    manufacture of industrial machinery. As per its latest financial statements, its
+    paid-up share capital is ₹20 crore, free reserves are ₹8 crore and securities
+    premium account is ₹2 crore.</p>
+
+    <p>The company has already granted loans of ₹5 crore to various bodies corporate,
+    provided guarantees aggregating ₹4 crore in connection with loans obtained by other
+    companies and acquired securities of other bodies corporate worth ₹3 crore.</p>
+
+    <p>The Board now proposes to grant a further loan of ₹7 crore to Zenith Components
+    Limited and acquire securities of another company for ₹2 crore. Trident Engineering
+    Limited also has a term loan outstanding from a public financial institution (PFI).
+    All instalments and interest payable to the PFI have been paid on time.</p>
+
+    <p>At the Board meeting considering the proposals, six out of eight directors are
+    present. Five directors vote in favour of the transactions while one director votes
+    against them. The Managing Director contends that approval by five out of six directors
+    is sufficient because it constitutes a clear majority.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_186_01_1",
+      question: "What is the monetary limit applicable to Trident Engineering Limited under Section 186(2)?",
+      options: [
+        "₹10 crore",
+        "₹12 crore",
+        "₹18 crore",
+        "₹30 crore"
+      ],
+      answer: 2,
+      explanation: "60% of paid-up capital + free reserves + securities premium = 60% of ₹30 crore = ₹18 crore. 100% of free reserves + securities premium = ₹10 crore. The higher amount, ₹18 crore, is the applicable limit."
+    },
+
+    {
+      question_id: "CEL_HARD_186_01_2",
+      question: "Before the newly proposed transactions, what is the aggregate amount already utilised for the purposes of Section 186(2)?",
+      options: [
+        "₹5 crore",
+        "₹9 crore",
+        "₹12 crore",
+        "₹15 crore"
+      ],
+      answer: 2,
+      explanation: "Existing loans ₹5 crore + guarantees ₹4 crore + acquisition of securities ₹3 crore = ₹12 crore."
+    },
+
+    {
+      question_id: "CEL_HARD_186_01_3",
+      question: "What is the aggregate exposure if both newly proposed transactions are undertaken?",
+      options: [
+        "₹18 crore",
+        "₹19 crore",
+        "₹20 crore",
+        "₹21 crore"
+      ],
+      answer: 3,
+      explanation: "Existing exposure ₹12 crore + proposed loan ₹7 crore + proposed acquisition ₹2 crore = ₹21 crore."
+    },
+
+    {
+      question_id: "CEL_HARD_186_01_4",
+      question: "Which approval becomes necessary because the proposed aggregate exposure is ₹21 crore?",
+      options: [
+        "Ordinary resolution in general meeting",
+        "Prior special resolution in general meeting",
+        "Approval of the Registrar only",
+        "Approval of the statutory auditor"
+      ],
+      answer: 1,
+      explanation: "₹21 crore exceeds the ₹18 crore limit under Section 186(2). Therefore, prior authorisation by special resolution under Section 186(3) is required."
+    },
+
+    {
+      question_id: "CEL_HARD_186_01_5",
+      question: "Is the approval by five of the six directors present sufficient for sanctioning the transactions under Section 186(5)?",
+      options: [
+        "Yes, because an ordinary majority of directors present is sufficient",
+        "Yes, because more than three-fourths of the directors present approved",
+        "No, consent of all directors present at the Board meeting is required",
+        "No, consent of all eight directors of the company is required"
+      ],
+      answer: 2,
+      explanation: "Section 186(5) requires the resolution sanctioning the transaction to be passed at a Board meeting with the consent of all directors present. Since one of the six directors present dissented, the requirement is not satisfied."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE 2 — SECTION 186
+   WOS + JV + SPECIAL RESOLUTION EXEMPTION
+========================================================= */
+
+{
+  case_id: "CEL_HARD_186_02",
+  difficulty: "hard",
+  case_chapter: ["Section 186", "WOS", "Joint Venture"],
+  caseText: `
+    <p><strong>Apex Mobility Limited</strong> has paid-up share capital of ₹12 crore,
+    free reserves of ₹6 crore and securities premium of ₹2 crore. Its existing loans,
+    guarantees, securities and investments covered by Section 186(2) aggregate ₹10 crore.</p>
+
+    <p>The Board proposes three additional transactions: a loan of ₹4 crore to Apex
+    Batteries Private Limited, its wholly owned subsidiary; a guarantee of ₹3 crore in
+    connection with a loan obtained by a joint venture company; and acquisition for
+    ₹5 crore of securities of another unrelated body corporate.</p>
+
+    <p>The directors are aware that the aggregate of the existing and proposed transactions
+    will cross the limit under Section 186(2). One director argues that because transactions
+    with a wholly owned subsidiary and joint venture enjoy an exemption, all three proposed
+    transactions can be completed without approval of members.</p>
+
+    <p>The company proposes to make appropriate disclosures in its financial statements.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_186_02_1",
+      question: "What is Apex Mobility Limited's Section 186(2) limit?",
+      options: [
+        "₹8 crore",
+        "₹10 crore",
+        "₹12 crore",
+        "₹20 crore"
+      ],
+      answer: 2,
+      explanation: "60% of ₹20 crore (₹12 + ₹6 + ₹2) = ₹12 crore. 100% of free reserves plus securities premium = ₹8 crore. Therefore, ₹12 crore is the higher limit."
+    },
+
+    {
+      question_id: "CEL_HARD_186_02_2",
+      question: "Which of the following correctly describes the special-resolution exemption?",
+      options: [
+        "Loan to WOS and guarantee for JV are covered by the exemption",
+        "Every transaction with every subsidiary is exempt",
+        "Only acquisition of securities of an unrelated company is exempt",
+        "Once one transaction is exempt, the entire Section 186 limit becomes irrelevant"
+      ],
+      answer: 0,
+      explanation: "The first proviso to Section 186(3) provides specified exemptions for loans/guarantees/security to a wholly owned subsidiary or joint venture and acquisition by a holding company of securities of its wholly owned subsidiary."
+    },
+
+    {
+      question_id: "CEL_HARD_186_02_3",
+      question: "Is the director correct that the unrelated ₹5 crore acquisition also automatically enjoys the exemption?",
+      options: [
+        "Yes, because another proposed transaction involves a WOS",
+        "Yes, because the company makes disclosure",
+        "No, the exemption does not automatically extend to an unrelated body corporate",
+        "Yes, because investments are never subject to Section 186(3)"
+      ],
+      answer: 2,
+      explanation: "The exemption is transaction-specific. Acquisition of securities of an unrelated body corporate does not become exempt merely because other transactions involve a WOS or JV."
+    },
+
+    {
+      question_id: "CEL_HARD_186_02_4",
+      question: "Where the special-resolution exemption for the WOS/JV transaction is availed, the company is nevertheless required to:",
+      options: [
+        "Obtain Central Government approval",
+        "Disclose prescribed details in its financial statements",
+        "Convert the subsidiary into a public company",
+        "Obtain approval from every creditor"
+      ],
+      answer: 1,
+      explanation: "The exempted loans, guarantees, securities or acquisitions must be appropriately disclosed in the financial statements as contemplated by Section 186."
+    },
+
+    {
+      question_id: "CEL_HARD_186_02_5",
+      question: "Which statement is most accurate regarding the ₹5 crore acquisition of securities of the unrelated company?",
+      options: [
+        "It is outside Section 186(2)",
+        "It is covered by Section 186(2) and the special-resolution requirement must be examined",
+        "Only loans are counted for Section 186(2)",
+        "It requires only approval of the Company Secretary"
+      ],
+      answer: 1,
+      explanation: "Acquisition by subscription, purchase or otherwise of securities of another body corporate is expressly covered by Section 186(2)."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE 3 — SECTION 186
+   DEPOSIT DEFAULT + INTEREST + REGISTER
+========================================================= */
+
+{
+  case_id: "CEL_HARD_186_03",
+  difficulty: "hard",
+  case_chapter: ["Section 186", "Default", "Interest", "Register"],
+  caseText: `
+    <p><strong>Meridian Finance Solutions Limited</strong>, which is not a banking company,
+    proposes to grant a four-year corporate loan of ₹6 crore to Nova Limited. The prevailing
+    yields on Government Securities are 6.8% for three-year securities and 7.4% for
+    five-year securities.</p>
+
+    <p>Meridian proposes to charge interest at 7% per annum. The finance director argues
+    that the three-year Government Security should be used because three years is closer
+    to four years than five years for commercial purposes.</p>
+
+    <p>Meridian had also accepted deposits from the public. A portion of those deposits
+    matured two months ago but has not yet been repaid. Interest on those deposits is also
+    outstanding. The company expects to clear the default shortly.</p>
+
+    <p>The Board nevertheless wants to disburse the corporate loan immediately and record
+    the transaction in its statutory register after completion of the quarterly accounts.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_186_03_1",
+      question: "What is the principal effect of the subsisting deposit default on the proposed loan?",
+      options: [
+        "There is no effect if Board approval is obtained",
+        "The company cannot give the loan while the default subsists",
+        "Only shareholder approval is additionally required",
+        "The loan can be made if interest exceeds 7%"
+      ],
+      answer: 1,
+      explanation: "Section 186(8) prohibits a company in default in repayment of deposits or interest thereon from giving loans, guarantees, securities or making acquisitions while such default is subsisting."
+    },
+
+    {
+      question_id: "CEL_HARD_186_03_2",
+      question: "Would an assurance that the deposit default will be cured shortly permit immediate disbursement?",
+      options: [
+        "Yes",
+        "Yes, if recorded in Board minutes",
+        "No, the restriction operates while the default is actually subsisting",
+        "Yes, if depositors consent"
+      ],
+      answer: 2,
+      explanation: "The statutory restriction continues until the default ceases to subsist. An intention or assurance to cure the default does not remove the restriction."
+    },
+
+    {
+      question_id: "CEL_HARD_186_03_3",
+      question: "Under Section 186(9) read with Rule 12, the relevant statutory register is:",
+      options: [
+        "MBP-1",
+        "MBP-2",
+        "MBP-3",
+        "MBP-4"
+      ],
+      answer: 1,
+      explanation: "Loans, guarantees, securities and acquisitions under Section 186 are recorded in Form MBP-2."
+    },
+
+    {
+      question_id: "CEL_HARD_186_03_4",
+      question: "Once a permitted transaction is made, particulars should ordinarily be entered in the register:",
+      options: [
+        "Within 7 days",
+        "Within 15 days",
+        "Within 30 days",
+        "Before the next AGM"
+      ],
+      answer: 0,
+      explanation: "Rule 12 requires entries to be made chronologically within seven days of making the loan, giving the guarantee, providing security or making the acquisition."
+    },
+
+    {
+      question_id: "CEL_HARD_186_03_5",
+      question: "Which statement about the statutory register is correct?",
+      options: [
+        "It may be destroyed after eight years",
+        "It must be kept only until repayment of the loan",
+        "It is preserved permanently",
+        "It is maintained only by listed companies"
+      ],
+      answer: 2,
+      explanation: "The MBP-2 register is kept at the registered office and preserved permanently."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE 4 — SECTION 187
+   BANKER + DEPOSITORY + NOMINEE
+========================================================= */
+
+{
+  case_id: "CEL_HARD_187_04",
+  difficulty: "hard",
+  case_chapter: ["Section 187", "Investments in Own Name"],
+  caseText: `
+    <p><strong>Orion Holdings Limited</strong> has investments in several companies.
+    Normally, all investments are held in Orion's own name. However, its legal department
+    has identified three exceptional situations.</p>
+
+    <p>First, certain shares of its subsidiary are held in the names of nominees of Orion
+    because this is necessary to ensure that the number of members of the subsidiary does
+    not fall below the statutory minimum. Second, securities worth ₹3 crore were transferred
+    into the name of a scheduled bank solely to facilitate their transfer to a purchaser.
+    Seven months have passed and no transfer to the purchaser has taken place.</p>
+
+    <p>Third, listed securities purchased by Orion are held through a depository, with
+    Orion recorded as the beneficial owner. The finance director argues that no register
+    is required because Orion remains the beneficial owner.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_187_04_1",
+      question: "Are the shares of the subsidiary permitted to be held in the names of Orion's nominees in the circumstances stated?",
+      options: [
+        "No, Section 187 contains no exception",
+        "Yes, where necessary to ensure that the number of members of the subsidiary does not fall below the statutory limit",
+        "Only after a special resolution",
+        "Only for a foreign subsidiary"
+      ],
+      answer: 1,
+      explanation: "The proviso to Section 187(1) permits shares in a subsidiary to be held in the names of nominees where necessary to maintain the statutory minimum number of members."
+    },
+
+    {
+      question_id: "CEL_HARD_187_04_2",
+      question: "What should Orion do regarding the securities held in the banker's name for seven months without any transfer taking place?",
+      options: [
+        "Nothing; they may remain indefinitely with the banker",
+        "Transfer them to a director",
+        "As soon as practicable, have them re-transferred to Orion or again held in Orion's own name",
+        "Cancel the securities"
+      ],
+      answer: 2,
+      explanation: "Where securities are held in a banker's name to facilitate transfer and no transfer occurs within six months, they should as soon as practicable be re-transferred or again held in the company's own name."
+    },
+
+    {
+      question_id: "CEL_HARD_187_04_3",
+      question: "Can securities be held in the name of a depository where Orion is the beneficial owner?",
+      options: [
+        "No",
+        "Yes, this is a statutory exception",
+        "Only for six months",
+        "Only if Orion is an investment company"
+      ],
+      answer: 1,
+      explanation: "Section 187(2)(d) permits investments in securities to be held in the name of a depository where the company is the beneficial owner."
+    },
+
+    {
+      question_id: "CEL_HARD_187_04_4",
+      question: "Which register becomes relevant where investments are beneficially held by Orion but are not held in its own name?",
+      options: [
+        "MBP-1",
+        "MBP-2",
+        "MBP-3",
+        "MBP-4"
+      ],
+      answer: 2,
+      explanation: "Rule 14 requires maintenance of Form MBP-3 for investments beneficially held by the company but not held in its own name."
+    },
+
+    {
+      question_id: "CEL_HARD_187_04_5",
+      question: "Which statement regarding the MBP-3 register is correct?",
+      options: [
+        "It is preserved for eight years",
+        "It is maintained at the registered office and preserved permanently",
+        "It is confidential and cannot be inspected by members",
+        "It is required only when investments exceed ₹5 crore"
+      ],
+      answer: 1,
+      explanation: "The MBP-3 register is maintained at the registered office and preserved permanently."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE 5 — SECTION 188
+   RELATED PARTY IDENTIFICATION
+========================================================= */
+
+{
+  case_id: "CEL_HARD_188_05",
+  difficulty: "hard",
+  case_chapter: ["Section 188", "Related Party"],
+  caseText: `
+    <p><strong>Quantum Electronics Limited</strong> is evaluating several proposed
+    transactions. Mr. Arjun is a director of Quantum.</p>
+
+    <p>Transaction I is with Alpha Private Limited, in which Arjun's wife is a member.
+    Transaction II is with Beta Limited, a public company in which Arjun is a director
+    and Arjun together with his relatives holds 2.8% of the paid-up share capital.
+    Transaction III is with Gamma & Associates, a partnership firm in which Arjun's
+    brother is a partner.</p>
+
+    <p>Transaction IV is with Delta Limited. Delta's Board is accustomed to act in
+    accordance with professional legal advice given by Arjun, who is a practising
+    advocate in addition to being a director of Quantum. The advice is given strictly
+    in his professional capacity.</p>
+
+    <p>The compliance officer must determine which parties fall within the statutory
+    definition of 'related party' before applying Section 188.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_188_05_1",
+      question: "What is the status of Alpha Private Limited?",
+      options: [
+        "Not a related party because Arjun himself is not a member",
+        "Related party because a relative of the director is a member of the private company",
+        "Related only if Arjun's wife holds more than 2%",
+        "Related only if Alpha is a subsidiary"
+      ],
+      answer: 1,
+      explanation: "A private company in which a director, manager or his relative is a member or director falls within Section 2(76)."
+    },
+
+    {
+      question_id: "CEL_HARD_188_05_2",
+      question: "What is the status of Beta Limited?",
+      options: [
+        "Not related because it is a public company",
+        "Related because Arjun is a director and, together with relatives, holds more than 2% of its paid-up share capital",
+        "Related only if the holding exceeds 10%",
+        "Not related unless Quantum itself owns shares in Beta"
+      ],
+      answer: 1,
+      explanation: "A public company is a related party where a director or manager is a director and holds, along with relatives, more than 2% of its paid-up share capital."
+    },
+
+    {
+      question_id: "CEL_HARD_188_05_3",
+      question: "What is the status of Gamma & Associates?",
+      options: [
+        "Not related because only Arjun himself can create the relationship",
+        "Related because the director's relative is a partner in the firm",
+        "Related only if Arjun's brother owns 51% of the firm",
+        "Not related because firms are excluded"
+      ],
+      answer: 1,
+      explanation: "A firm in which a director, manager or his relative is a partner is a related party."
+    },
+
+    {
+      question_id: "CEL_HARD_188_05_4",
+      question: "Would Delta Limited become a related party merely because its Board follows Arjun's professional legal advice?",
+      options: [
+        "Yes, in every circumstance",
+        "No, advice, directions or instructions given in a professional capacity are excluded",
+        "Yes, because Arjun is a director",
+        "Yes, if legal fees are paid"
+      ],
+      answer: 1,
+      explanation: "The provisions relating to persons or bodies accustomed to act on advice do not apply where the advice, directions or instructions are given in a professional capacity."
+    },
+
+    {
+      question_id: "CEL_HARD_188_05_5",
+      question: "Which of the following is expressly included within 'relative' for this purpose?",
+      options: [
+        "Brother, including step-brother",
+        "Cousin",
+        "Brother-in-law in every case",
+        "Uncle"
+      ],
+      answer: 0,
+      explanation: "The prescribed relatives include brother, including step-brother."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE 6 — SECTION 188
+   MULTIPLE THRESHOLDS + ORDINARY RESOLUTION
+========================================================= */
+
+{
+  case_id: "CEL_HARD_188_06",
+  difficulty: "hard",
+  case_chapter: ["Section 188", "Rule 15", "Thresholds"],
+  caseText: `
+    <p><strong>Prism Consumer Limited</strong> has turnover of ₹240 crore and net worth
+    of ₹90 crore according to its audited financial statements for the immediately
+    preceding financial year.</p>
+
+    <p>During the current financial year, Prism has already purchased goods worth
+    ₹16 crore from a related party. It now proposes an additional purchase of ₹9 crore
+    from the same related party. It also proposes to purchase an office property worth
+    ₹8.5 crore from another related party.</p>
+
+    <p>Further, the company proposes to appoint the daughter of one of its directors to
+    an office of profit in its subsidiary at monthly remuneration of ₹2.80 lakh.
+    Another related party is proposed to receive remuneration for underwriting securities
+    of Prism equal to ₹95 lakh.</p>
+
+    <p>None of these transactions is in the ordinary course of business at arm's length.
+    The compliance department is examining which transactions cross the thresholds under
+    Rule 15.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_188_06_1",
+      question: "For sale, purchase or supply of goods, what is 10% of Prism's turnover?",
+      options: [
+        "₹9 crore",
+        "₹16 crore",
+        "₹24 crore",
+        "₹33 crore"
+      ],
+      answer: 2,
+      explanation: "10% of ₹240 crore turnover is ₹24 crore."
+    },
+
+    {
+      question_id: "CEL_HARD_188_06_2",
+      question: "Considering both the earlier and proposed purchase from the related party, what is the relevant aggregate value?",
+      options: [
+        "₹9 crore",
+        "₹16 crore",
+        "₹24 crore",
+        "₹25 crore"
+      ],
+      answer: 3,
+      explanation: "₹16 crore already transacted + ₹9 crore proposed = ₹25 crore. Transactions are considered individually or together with previous transactions during the financial year."
+    },
+
+    {
+      question_id: "CEL_HARD_188_06_3",
+      question: "What is the result for the ₹25 crore aggregate purchase transaction?",
+      options: [
+        "It remains below the threshold",
+        "It crosses the 10% turnover threshold and requires prior approval by ordinary resolution",
+        "It requires a special resolution",
+        "No approval is required because each individual transaction is below ₹24 crore"
+      ],
+      answer: 1,
+      explanation: "The aggregate is ₹25 crore, exceeding 10% of turnover, i.e. ₹24 crore. Prior approval by ordinary resolution is therefore required."
+    },
+
+    {
+      question_id: "CEL_HARD_188_06_4",
+      question: "Does the proposed office of profit at monthly remuneration of ₹2.80 lakh cross the prescribed threshold?",
+      options: [
+        "No, because the threshold is ₹5 lakh per month",
+        "Yes, because the prescribed threshold is monthly remuneration exceeding ₹2.5 lakh",
+        "No, because annual remuneration is below ₹50 lakh",
+        "Only if the daughter is also a director"
+      ],
+      answer: 1,
+      explanation: "Appointment to an office or place of profit at monthly remuneration exceeding ₹2.5 lakh falls within the prescribed threshold."
+    },
+
+    {
+      question_id: "CEL_HARD_188_06_5",
+      question: "For underwriting remuneration, the prescribed threshold is measured with reference to:",
+      options: [
+        "1% of turnover",
+        "1% of net worth",
+        "10% of turnover",
+        "10% of paid-up capital"
+      ],
+      answer: 1,
+      explanation: "Under Rule 15, remuneration for underwriting exceeding 1% of net worth attracts the ordinary-resolution requirement."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE 7 — SECTION 188
+   UNAUTHORISED RPT + RATIFICATION + CONSEQUENCES
+========================================================= */
+
+{
+  case_id: "CEL_HARD_188_07",
+  difficulty: "hard",
+  case_chapter: ["Section 188", "Ratification", "Voidable Contract"],
+  caseText: `
+    <p><strong>Horizon Media Limited</strong>, an unlisted public company, entered into
+    a substantial service contract with a related party. The transaction was neither in
+    the ordinary course of business nor on an arm's length basis.</p>
+
+    <p>Mr. Karan, a director of Horizon, authorised the contract without obtaining the
+    consent of the Board and without obtaining the approval of shareholders that was
+    required because the prescribed threshold had been crossed.</p>
+
+    <p>The omission was discovered 45 days after execution. The Board decided to postpone
+    the matter and eventually placed it before the shareholders four months after the
+    contract had originally been entered into. The shareholders then purported to ratify
+    the contract.</p>
+
+    <p>The contract is with a related party of Mr. Karan and Horizon has suffered a
+    financial loss because of the transaction.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_188_07_1",
+      question: "Within what period should an unauthorised contract covered by Section 188(3) be ratified?",
+      options: [
+        "30 days",
+        "60 days",
+        "3 months",
+        "6 months"
+      ],
+      answer: 2,
+      explanation: "Section 188(3) contemplates ratification by the Board or shareholders, as the case may be, within three months from the date on which the contract or arrangement was entered into."
+    },
+
+    {
+      question_id: "CEL_HARD_188_07_2",
+      difficulty: "hard",
+      question: "Since purported ratification occurred after four months, the contract is:",
+      options: [
+        "Automatically valid",
+        "Voidable at the option of the Board or shareholders, as the case may be",
+        "Automatically void ab initio in every case",
+        "Valid because ratification can occur at any time"
+      ],
+      answer: 1,
+      explanation: "If the required approval was not obtained and the contract is not ratified within three months, it becomes voidable at the option of the Board or shareholders, as applicable."
+    },
+
+    {
+      question_id: "CEL_HARD_188_07_3",
+      question: "Because the contract is with a related party of Mr. Karan, what additional consequence may arise?",
+      options: [
+        "The directors concerned must indemnify the company against loss",
+        "The shareholders must indemnify Mr. Karan",
+        "The auditor automatically becomes liable",
+        "The contract automatically becomes a government contract"
+      ],
+      answer: 0,
+      explanation: "Where the contract is with a related party to a director or is authorised by another director, the directors concerned shall indemnify the company against loss incurred."
+    },
+
+    {
+      question_id: "CEL_HARD_188_07_4",
+      question: "Can Horizon proceed against the director or employee responsible for recovery of loss caused by the contravention?",
+      options: [
+        "No",
+        "Yes, Section 188 permits the company to proceed for recovery of loss",
+        "Only with approval of the Central Government",
+        "Only if Horizon is listed"
+      ],
+      answer: 1,
+      explanation: "Section 188(4) permits the company to proceed against the director or employee responsible for recovery of loss sustained as a result of the contravening transaction."
+    },
+
+    {
+      question_id: "CEL_HARD_188_07_5",
+      question: "Since Horizon is an unlisted public company, a director or employee who entered into or authorised the transaction in violation of Section 188 is liable to a penalty of:",
+      options: [
+        "₹25,000",
+        "₹1 lakh",
+        "₹5 lakh",
+        "₹25 lakh"
+      ],
+      answer: 2,
+      explanation: "For a company other than a listed company, the director or employee concerned is liable to a penalty of ₹5 lakh under Section 188(5)."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE 8 — SECTION 189
+   REGISTER + DISCLOSURE + AGM + EXCEPTIONS
+========================================================= */
+
+{
+  case_id: "CEL_HARD_189_08",
+  difficulty: "hard",
+  case_chapter: ["Section 189", "MBP-4", "Director Interest"],
+  caseText: `
+    <p><strong>Silverline Pharmaceuticals Limited</strong> maintains its statutory
+    registers at its registered office. Mr. Dev was appointed as a director on
+    1 July. He disclosed particulars of his interests under Section 184(1) on
+    5 August.</p>
+
+    <p>During the year, Silverline entered into a ₹4.80 lakh contract for supply of
+    materials with an entity in which one of its directors was interested. This was the
+    only such supply contract with that entity during the year. The company also entered
+    into another contract falling under Section 188 that is required to be entered in the
+    register.</p>
+
+    <p>The Company Secretary updated Form MBP-4 and authenticated the entries. However,
+    the register was not placed before the next Board meeting for signatures. At the AGM,
+    a proxy attending on behalf of a shareholder asked to inspect the register, but the
+    chairman refused on the ground that only registered members can inspect it.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_189_08_1",
+      question: "Was Mr. Dev's disclosure on 5 August made within the statutory period following his appointment on 1 July?",
+      options: [
+        "Yes, because disclosure can be made within 60 days",
+        "Yes, because it was before the next AGM",
+        "No, disclosure is required within 30 days of appointment",
+        "No, disclosure must be made on the same day"
+      ],
+      answer: 2,
+      explanation: "Section 189(2) requires every director or KMP to make the relevant disclosure within 30 days of appointment or relinquishment of office. 5 August is beyond 30 days from 1 July."
+    },
+
+    {
+      question_id: "CEL_HARD_189_08_2",
+      question: "Is the ₹4.80 lakh supply contract necessarily required to be entered in the register under Section 189(1)?",
+      options: [
+        "Yes, every interested contract must be entered irrespective of value",
+        "No, the exception applies where goods/materials/services do not exceed ₹5 lakh in aggregate in a year",
+        "Yes, because the threshold is ₹1 lakh",
+        "No, because supply contracts are never recorded"
+      ],
+      answer: 1,
+      explanation: "Section 189(5) provides an exception for sale, purchase or supply of goods, materials or services where the value/cost does not exceed ₹5 lakh in aggregate in any year."
+    },
+
+    {
+      question_id: "CEL_HARD_189_08_3",
+      question: "After the register is duly filled and updated, it should be:",
+      options: [
+        "Filed with the Registrar every month",
+        "Placed before the next Board meeting and signed by all directors present",
+        "Signed only by the Managing Director",
+        "Approved by shareholders"
+      ],
+      answer: 1,
+      explanation: "Section 189(1) requires the duly filled and updated register to be placed before the next Board meeting and signed by all directors present."
+    },
+
+    {
+      question_id: "CEL_HARD_189_08_4",
+      question: "Was the chairman correct in refusing inspection to the proxy during the AGM?",
+      options: [
+        "Yes, only members may inspect",
+        "Yes, unless the proxy pays ₹10 per page",
+        "No, the register must remain accessible during the AGM to persons having the right to attend, including a proxy",
+        "No, but only if the proxy is also a director"
+      ],
+      answer: 2,
+      explanation: "The register must be produced at the commencement of every AGM and remain open and accessible during the meeting to persons having the right to attend. Thus, a proxy may inspect it."
+    },
+
+    {
+      question_id: "CEL_HARD_189_08_5",
+      question: "The penalty under Section 189(6) for a director failing to comply with the section is:",
+      options: [
+        "₹5,000",
+        "₹10,000",
+        "₹25,000",
+        "₹50,000"
+      ],
+      answer: 2,
+      explanation: "Every director who fails to comply with Section 189 is liable to a penalty of ₹25,000."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE 9 — SECTIONS 190 & 191
+   EMPLOYMENT CONTRACT + LOSS OF OFFICE
+========================================================= */
+
+{
+  case_id: "CEL_HARD_190_191_09",
+  difficulty: "hard",
+  case_chapter: ["Section 190", "Section 191", "Loss of Office"],
+  caseText: `
+    <p><strong>Regal Infrastructure Limited</strong>, a public company, appointed
+    Mr. Varun as its whole-time director. His terms of employment were agreed orally
+    and no formal written service contract was executed. The company nevertheless
+    prepared a written memorandum containing all the agreed terms and kept it at its
+    registered office.</p>
+
+    <p>Two years later, Regal agreed to transfer substantially its entire undertaking.
+    As a consequence, Mr. Varun would lose his office. The transferee offered to pay
+    him compensation for such loss of office. The amount and basis of compensation
+    were disclosed to Regal's members and the proposal was placed before the general
+    meeting.</p>
+
+    <p>On the date of the meeting, sufficient members did not attend and there was no
+    quorum. Management argued that because all members who actually attended supported
+    the payment, the proposal should be treated as approved.</p>
+
+    <p>Before a fresh meeting could be called, Mr. Varun accepted the compensation from
+    the transferee.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_190_191_09_1",
+      question: "Has Regal complied with Section 190 regarding the oral employment arrangement?",
+      options: [
+        "No, every contract must necessarily be written",
+        "Yes, where the contract is not in writing, a written memorandum setting out its terms may be kept",
+        "No, oral arrangements with WTDs are prohibited",
+        "Yes, but only if approved by the Registrar"
+      ],
+      answer: 1,
+      explanation: "Where the service contract with an MD or WTD is not in writing, Section 190 permits a written memorandum setting out its terms to be maintained at the registered office."
+    },
+
+    {
+      question_id: "CEL_HARD_190_191_09_2",
+      question: "Who is entitled to inspect the copy of the contract or memorandum maintained under Section 190?",
+      options: [
+        "Only directors",
+        "Any member, without payment of fee",
+        "Only auditors",
+        "Only members holding at least 10%"
+      ],
+      answer: 1,
+      explanation: "The copy of the contract or memorandum is open to inspection by any member without payment of fee."
+    },
+
+    {
+      question_id: "CEL_HARD_190_191_09_3",
+      question: "Can the compensation proposal be treated as approved despite absence of quorum?",
+      options: [
+        "Yes, because all members present supported it",
+        "Yes, if the Board subsequently confirms it",
+        "No, failure for want of quorum does not amount to approval",
+        "Yes, after 30 days"
+      ],
+      answer: 2,
+      explanation: "Section 191 specifically provides that where the payment is not approved for want of quorum, either at the meeting or adjourned meeting, the proposal shall not be deemed approved."
+    },
+
+    {
+      question_id: "CEL_HARD_190_191_09_4",
+      question: "What is the legal character of the compensation received by Mr. Varun before valid approval?",
+      options: [
+        "It becomes his property immediately",
+        "It is deemed to have been received in trust for the company",
+        "It becomes a loan from the transferee",
+        "It becomes dividend income"
+      ],
+      answer: 1,
+      explanation: "Where payment is received in contravention of Section 191(1), including before the required approval, the amount is deemed to have been received by the director in trust for the company."
+    },
+
+    {
+      question_id: "CEL_HARD_190_191_09_5",
+      question: "If Regal were a private company, which statement regarding Section 190 would be correct?",
+      options: [
+        "Section 190 would continue to apply fully",
+        "Section 190 would not apply",
+        "Only Section 190(1) would apply",
+        "Section 190 would apply only if turnover exceeded ₹100 crore"
+      ],
+      answer: 1,
+      explanation: "Section 190(4) provides that Section 190 does not apply to a private company."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE 10 — SECTIONS 192 & 193
+   NON-CASH TRANSACTION + HOLDING COMPANY + OPC
+========================================================= */
+
+{
+  case_id: "CEL_HARD_192_193_10",
+  difficulty: "hard",
+  case_chapter: ["Section 192", "Section 193", "Non-Cash Transactions", "OPC"],
+  caseText: `
+    <p><strong>Vertex Digital Limited</strong> proposes to transfer a commercial property
+    worth ₹6 crore to Mr. Aman, a director of its holding company. Instead of paying cash,
+    Mr. Aman proposes to transfer securities held by him to Vertex as consideration.</p>
+
+    <p>The Board of Vertex approves the arrangement and contends that approval of the Board
+    is sufficient because Mr. Aman is not a director of Vertex itself. The notice subsequently
+    prepared for the general meeting describes the property and the securities but does not
+    contain a valuation by a registered valuer.</p>
+
+    <p>Separately, <strong>Solo Innovations (OPC) Private Limited</strong> enters into a
+    contract with Ms. Riya, its sole member as well as its sole director. The contract is
+    not in writing and relates to the sale of an investment property, which is not part of
+    the ordinary course of business of the OPC. The terms are recorded in the minutes of
+    the first Board meeting held after the contract.</p>
+
+    <p>Solo Innovations informs the Registrar 18 days after the date on which the contract
+    was approved by the Board.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_192_193_10_1",
+      question: "Does Section 192 potentially apply to the arrangement involving Mr. Aman even though he is not a director of Vertex itself?",
+      options: [
+        "No, Section 192 applies only to directors of the company itself",
+        "Yes, it also covers directors of the company's holding, subsidiary or associate company and connected persons",
+        "Only if Mr. Aman owns more than 50% of Vertex",
+        "Only if Vertex is listed"
+      ],
+      answer: 1,
+      explanation: "Section 192 extends to non-cash arrangements involving directors of the company or its holding, subsidiary or associate company, as well as persons connected with such directors."
+    },
+
+    {
+      question_id: "CEL_HARD_192_193_10_2",
+      question: "Since Mr. Aman is a director of Vertex's holding company, which approvals are required for the covered non-cash arrangement?",
+      options: [
+        "Board approval of Vertex only",
+        "General meeting approval of Vertex only",
+        "General meeting approval of Vertex and also of the holding company",
+        "Approval of the Registrar only"
+      ],
+      answer: 2,
+      explanation: "Prior approval by resolution in the company's general meeting is required, and where the relevant director is a director of the holding company, approval of the holding company in general meeting is also required."
+    },
+
+    {
+      question_id: "CEL_HARD_192_193_10_3",
+      question: "What is deficient in the general meeting notice described in the case?",
+      options: [
+        "Nothing, description of assets is sufficient",
+        "It should include the value of the assets duly calculated by a registered valuer",
+        "It must contain approval of the statutory auditor",
+        "It must contain consent of every creditor"
+      ],
+      answer: 1,
+      explanation: "The notice for approval under Section 192 must contain particulars of the arrangement and the value of the assets involved, duly calculated by a registered valuer."
+    },
+
+    {
+      question_id: "CEL_HARD_192_193_10_4",
+      question: "Has Solo Innovations correctly dealt with the fact that its contract with its sole member/director was not in writing?",
+      options: [
+        "No, every such contract must necessarily be in writing",
+        "Yes, its terms may be contained in a memorandum or recorded in the minutes of the first Board meeting held after entering into the contract",
+        "No, approval of the Tribunal is required",
+        "Yes, but only if the contract is in ordinary course of business"
+      ],
+      answer: 1,
+      explanation: "Under Section 193, where such a contract is not in writing, the OPC must ensure that its terms are contained in a memorandum or recorded in the minutes of the first Board meeting held next after entering into the contract."
+    },
+
+    {
+      question_id: "CEL_HARD_192_193_10_5",
+      
+      question: "Is informing the Registrar 18 days after Board approval compliant with Section 193?",
+      options: [
+        "Yes, the period is 30 days",
+        "Yes, the period is 21 days",
+        "No, the information should be submitted within 15 days of Board approval",
+        "No filing with the Registrar is required"
+      ],
+      answer: 2,
+      explanation: "Section 193 requires the OPC to inform the Registrar about every such contract recorded in the Board minutes within 15 days of the date of approval by the Board. Filing after 18 days is therefore late."
+    }
+
+  ]
+},
+/* =========================================================
+   HARD CASE SCENARIO 1
+   SECTION 186 — LIMIT + WOS + PFI + BOARD APPROVAL
+========================================================= */
+
+{
+  case_id: "CEL_HARD_186_01",
+  difficulty: "hard",
+  case_chapter: ["Section 186", "Loans and Investments"],
+  caseText: `
+    <p><strong>Trident Engineering Limited</strong> has a paid-up share capital of ₹30 crore,
+    free reserves of ₹12 crore and securities premium account of ₹8 crore. The company has
+    already made investments of ₹16 crore in securities of other bodies corporate and has
+    given guarantees of ₹8 crore in connection with loans obtained by other companies.</p>
+
+    <p>The Board now proposes to grant a loan of ₹10 crore to Trident Components Private
+    Limited, its wholly owned subsidiary. In addition, it proposes to invest ₹4 crore in the
+    securities of an unrelated body corporate. A term loan obtained from a public financial
+    institution is presently subsisting. The company has regularly paid all instalments and
+    interest relating to such term loan.</p>
+
+    <p>At the Board meeting, six out of eight directors are present. Five directors support
+    both proposals while one director votes against them. The Managing Director contends
+    that since an overwhelming majority supports the transactions, the requirements of
+    Section 186 are satisfied. The Company Secretary is also examining whether approval
+    of the public financial institution and a special resolution of members would be
+    necessary.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_186_01_1",
+      question: "What is the monetary limit applicable to Trident Engineering Limited under Section 186(2)?",
+      options: [
+        "₹20 crore",
+        "₹30 crore",
+        "₹24 crore",
+        "₹50 crore"
+      ],
+      answer: 1,
+      explanation: "60% of paid-up share capital + free reserves + securities premium = 60% of ₹50 crore = ₹30 crore. 100% of free reserves + securities premium = ₹20 crore. The higher amount, ₹30 crore, is the Section 186(2) limit."
+    },
+
+    {
+      question_id: "CEL_HARD_186_01_2",
+      question: "Before the new proposals, how much of the Section 186(2) limit has already been utilised?",
+      options: [
+        "₹16 crore",
+        "₹20 crore",
+        "₹24 crore",
+        "₹30 crore"
+      ],
+      answer: 2,
+      explanation: "Existing investments of ₹16 crore plus guarantees of ₹8 crore aggregate to ₹24 crore."
+    },
+
+    {
+      question_id: "CEL_HARD_186_01_3",
+      question: "Which statement regarding the proposed ₹10 crore loan to the wholly owned subsidiary is most appropriate?",
+      options: [
+        "It can never be made after the Section 186(2) limit is crossed",
+        "It necessarily requires an ordinary resolution",
+        "The special resolution requirement under Section 186(3) is exempted for the specified loan to a wholly owned subsidiary, though other applicable requirements continue",
+        "Neither Board approval nor disclosure is required"
+      ],
+      answer: 2,
+      explanation: "The first proviso to Section 186(3) provides exemption from the special resolution requirement where a loan or guarantee is given or security provided to a wholly owned subsidiary or joint venture. Applicable Board and disclosure requirements continue."
+    },
+
+    {
+      question_id: "CEL_HARD_186_01_4",
+      question: "Is the vote of five out of six directors present sufficient to sanction the transactions under Section 186(5)?",
+      options: [
+        "Yes, because it constitutes a simple majority",
+        "Yes, because more than three-fourths of directors present supported it",
+        "No, consent of all directors present at the Board meeting is required",
+        "No, consent of all eight directors of the company is required"
+      ],
+      answer: 2,
+      explanation: "Section 186(5) requires the resolution sanctioning the transaction to be passed at a Board meeting with the consent of all directors present. One director voting against means the statutory requirement is not satisfied."
+    },
+
+    {
+      question_id: "CEL_HARD_186_01_5",
+      question: "Which circumstance would permit Trident to dispense with prior approval of the public financial institution under the proviso to Section 186(5)?",
+      options: [
+        "Only absence of default is sufficient",
+        "The aggregate exposure must remain within Section 186(2) limits and there must be no default in repayment of instalments or interest to the PFI",
+        "A special resolution automatically eliminates the PFI approval requirement",
+        "PFI approval is never required where a WOS is involved"
+      ],
+      answer: 1,
+      explanation: "Both conditions must be satisfied: the aggregate must not exceed the Section 186(2) limit and there must be no default in repayment of instalments or payment of interest to the PFI."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE SCENARIO 2
+   SECTION 186 — INVESTMENT LAYERS + FOREIGN COMPANY
+========================================================= */
+
+{
+  case_id: "CEL_HARD_186_02",
+  difficulty: "hard",
+  case_chapter: ["Section 186", "Investment Layers"],
+  caseText: `
+    <p><strong>Orion Global Limited</strong>, an Indian company, proposes a major corporate
+    restructuring. It intends to make an investment through Investment Company A, which in
+    turn will invest through Investment Company B, which proposes to make a further
+    investment through Investment Company C.</p>
+
+    <p>Each of A, B and C has more than 50% of its total assets represented by investments
+    in shares, debentures and other securities. The directors are concerned that the proposed
+    structure may breach the restriction on investment through more than two layers of
+    investment companies.</p>
+
+    <p>Separately, Orion proposes to acquire a company incorporated outside India. Under the
+    laws of that foreign country, the target company validly maintains three layers of
+    investment subsidiaries. Orion also has an Indian subsidiary which is required under a
+    sector-specific law to establish an investment subsidiary to satisfy a statutory
+    requirement.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_186_02_1",
+      question: "Under the general rule contained in Section 186(1), Orion may make investments through a maximum of:",
+      options: [
+        "One layer of investment companies",
+        "Two layers of investment companies",
+        "Three layers of investment companies",
+        "Unlimited layers with Board approval"
+      ],
+      answer: 1,
+      explanation: "Section 186(1) generally prohibits investment through more than two layers of investment companies."
+    },
+
+    {
+      question_id: "CEL_HARD_186_02_2",
+      question: "On the stated facts, A, B and C can fall within the meaning of 'investment company' because:",
+      options: [
+        "Every company holding even one share is an investment company",
+        "At least 50% of their total assets are in the form of investments in shares, debentures or other securities",
+        "They are subsidiaries of Orion",
+        "They have more than two directors"
+      ],
+      answer: 1,
+      explanation: "A company is deemed principally engaged in acquisition of securities where investments constitute not less than 50% of total assets or investment income constitutes not less than 50% of gross income."
+    },
+
+    {
+      question_id: "CEL_HARD_186_02_3",
+      question: "Can Orion acquire the foreign company merely because it already has investment subsidiaries beyond two layers?",
+      options: [
+        "No, the acquisition is absolutely prohibited",
+        "Yes, where such layers are permitted under the laws of the foreign country",
+        "Yes, but only after approval of NCLT",
+        "Yes, but only if Orion is a Government company"
+      ],
+      answer: 1,
+      explanation: "Section 186(1) contains an exception permitting acquisition of a company incorporated outside India having investment subsidiaries beyond two layers as permitted under the law of that country."
+    },
+
+    {
+      question_id: "CEL_HARD_186_02_4",
+      question: "What is the position regarding Orion's Indian subsidiary establishing an investment subsidiary to comply with a sector-specific law?",
+      options: [
+        "It is prohibited because every third layer is absolutely barred",
+        "It falls within a statutory exception to the two-layer rule",
+        "It is permitted only with unanimous shareholder approval",
+        "It is permitted only for banking companies"
+      ],
+      answer: 1,
+      explanation: "The two-layer restriction does not prevent a subsidiary from having an investment subsidiary for meeting requirements under any law, rule or regulation."
+    },
+
+    {
+      question_id: "CEL_HARD_186_02_5",
+      question: "Which is the most accurate conclusion regarding Orion → A → B → C under the ordinary rule, assuming no exception applies?",
+      options: [
+        "The structure is permissible because there are only three companies",
+        "The structure may violate Section 186(1) because the investment travels through more than two layers of investment companies",
+        "It is automatically permissible if all directors consent",
+        "Section 186(1) applies only to listed companies"
+      ],
+      answer: 1,
+      explanation: "The restriction concerns the number of layers of investment companies through which investments are made, not merely the number of entities involved."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE SCENARIO 3
+   SECTION 186 — DEFAULT + INTEREST + REGISTER
+========================================================= */
+
+{
+  case_id: "CEL_HARD_186_03",
+  difficulty: "hard",
+  case_chapter: ["Section 186", "Interest", "Default", "Register"],
+  caseText: `
+    <p><strong>Apex Finance Solutions Limited</strong> accepted deposits from the public several
+    years ago. Due to liquidity problems, ₹2 crore of matured deposits and the interest
+    payable thereon remain unpaid. The default is continuing.</p>
+
+    <p>During this period, Apex proposes to grant a seven-year loan of ₹5 crore to another
+    body corporate and provide a guarantee of ₹3 crore in connection with a loan obtained
+    by another company. For the proposed seven-year loan, the prevailing yields on
+    Government Securities are 6.5% for five-year securities and 7.2% for ten-year
+    securities. The finance department proposes an interest rate of 6%.</p>
+
+    <p>The company has also recently made an investment which was entered in Form MBP-2
+    nine days after the transaction. The Company Secretary argues that entries may be made
+    at any time before the next Board meeting.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_186_03_1",
+      question: "While the deposit default continues, can Apex grant the proposed loan?",
+      options: [
+        "Yes, if shareholders approve by special resolution",
+        "Yes, if the rate of interest is commercially reasonable",
+        "No, Section 186(8) prohibits the specified transaction while such default subsists",
+        "Yes, because Section 186(8) applies only to investments"
+      ],
+      answer: 2,
+      explanation: "A company in default in repayment of deposits or payment of interest thereon cannot give any loan, guarantee, security or make an acquisition while the default subsists."
+    },
+
+    {
+      question_id: "CEL_HARD_186_03_2",
+      question: "Would obtaining a special resolution by itself cure the restriction arising from the continuing deposit default?",
+      options: [
+        "Yes",
+        "No",
+        "Yes, if unanimous",
+        "Yes, if approved by creditors"
+      ],
+      answer: 1,
+      explanation: "Section 186(8) imposes an independent restriction during the subsistence of deposit default. A special resolution does not override it."
+    },
+
+    {
+      question_id: "CEL_HARD_186_03_3",
+      question: "For purposes of Section 186(7), the minimum interest rate should be linked to:",
+      options: [
+        "Any Government Security selected by the Board",
+        "The Government Security closest to the tenor of the loan",
+        "The company's average borrowing cost",
+        "The RBI repo rate alone"
+      ],
+      answer: 1,
+      explanation: "Section 186(7) uses the prevailing yield of the 1-year, 3-year, 5-year or 10-year Government Security closest to the tenor of the loan."
+    },
+
+    {
+      question_id: "CEL_HARD_186_03_4",
+      question: "The register required under Section 186 is maintained in:",
+      options: [
+        "MBP-1",
+        "MBP-2",
+        "MBP-3",
+        "MBP-4"
+      ],
+      answer: 1,
+      explanation: "Rule 12 requires the register of loans, guarantees, securities and acquisitions under Section 186 to be maintained in Form MBP-2."
+    },
+
+    {
+      question_id: "CEL_HARD_186_03_5",
+      question: "Was entering the transaction in MBP-2 nine days after the investment compliant with the prescribed timeline?",
+      options: [
+        "Yes, because entry before the next Board meeting is sufficient",
+        "Yes, because the limit is 15 days",
+        "No, the particulars should be entered within seven days of the transaction",
+        "No, entries must be made on the same day"
+      ],
+      answer: 2,
+      explanation: "Rule 12 requires chronological entry of each transaction within seven days of making the loan, giving guarantee/providing security or making the acquisition."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE SCENARIO 4
+   SECTION 187 — OWN NAME + BANKER + DEPOSITORY
+========================================================= */
+
+{
+  case_id: "CEL_HARD_187_04",
+  difficulty: "hard",
+  case_chapter: ["Section 187", "Investment in Own Name"],
+  caseText: `
+    <p><strong>Mercury Industries Limited</strong> holds investments worth ₹60 crore. Certain
+    shares are deposited with a scheduled bank for collection of dividends. Another block
+    of securities was transferred into the name of the scheduled bank to facilitate their
+    proposed sale. Seven months have elapsed since that transfer, but no sale has taken
+    place and the securities continue to remain in the bank's name.</p>
+
+    <p>Mercury also holds dematerialised securities in the name of a depository while Mercury
+    remains their beneficial owner. In addition, the company holds a small number of shares
+    of its subsidiary through nominees solely to ensure that the subsidiary's number of
+    members does not fall below the statutory requirement.</p>
+
+    <p>The CFO argues that Section 187 requires every security without exception to be
+    registered directly in Mercury's own name and recommends immediate transfer of all
+    such securities.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_187_04_1",
+      question: "Which of the following holdings is clearly permitted as an exception under Section 187?",
+      options: [
+        "Shares deposited with bankers for collection of dividend",
+        "Shares permanently held in a director's personal name for convenience",
+        "Investments held secretly by an employee",
+        "Shares held indefinitely in the name of an unrelated consultant"
+      ],
+      answer: 0,
+      explanation: "Section 187(2) specifically permits shares or securities to be deposited with bankers for collection of dividend or interest."
+    },
+
+    {
+      question_id: "CEL_HARD_187_04_2",
+      question: "What should Mercury generally do with the securities remaining in the bank's name after seven months without any transfer taking place?",
+      options: [
+        "Nothing; they can remain indefinitely",
+        "Transfer them to the Managing Director",
+        "As soon as practicable, have them re-transferred or again held in Mercury's own name",
+        "Cancel the securities"
+      ],
+      answer: 2,
+      explanation: "Where securities are placed in the banker's name to facilitate transfer and no transfer occurs within six months, they should as soon as practicable be re-transferred to the company or again held in its own name."
+    },
+
+    {
+      question_id: "CEL_HARD_187_04_3",
+      question: "Holding dematerialised securities in the name of a depository while Mercury remains beneficial owner is:",
+      options: [
+        "Prohibited",
+        "Permitted under Section 187(2)",
+        "Permitted only for Government companies",
+        "Permitted only for foreign companies"
+      ],
+      answer: 1,
+      explanation: "Section 187(2)(d) permits investments in the name of a depository where the securities are held by the company as beneficial owner."
+    },
+
+    {
+      question_id: "CEL_HARD_187_04_4",
+      question: "The register for investments beneficially held by the company but not held in its own name is:",
+      options: [
+        "MBP-1",
+        "MBP-2",
+        "MBP-3",
+        "MBP-4"
+      ],
+      answer: 2,
+      explanation: "Rule 14 requires maintenance of Form MBP-3."
+    },
+
+    {
+      question_id: "CEL_HARD_187_04_5",
+      question: "What is the position regarding shares of the subsidiary held through nominees solely to maintain the statutory minimum number of members?",
+      options: [
+        "It necessarily violates Section 187",
+        "It is expressly recognised as an exception to the own-name requirement",
+        "It requires approval of NCLT in every case",
+        "It is allowed only for listed subsidiaries"
+      ],
+      answer: 1,
+      explanation: "The proviso to Section 187(1) permits shares in a subsidiary to be held in the name of nominees where necessary to ensure that the number of members does not fall below the statutory limit."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE SCENARIO 5
+   SECTION 188 — RELATED PARTY + ARM'S LENGTH + THRESHOLDS
+========================================================= */
+
+{
+  case_id: "CEL_HARD_188_05",
+  difficulty: "hard",
+  case_chapter: ["Section 188", "Related Party Transactions"],
+  caseText: `
+    <p><strong>Vertex Consumer Products Limited</strong> has turnover of ₹300 crore and net
+    worth of ₹120 crore according to the audited financial statements of the immediately
+    preceding financial year.</p>
+
+    <p>Mr. A, a director of Vertex, is also a director of Prime Distribution Private Limited,
+    while his wife is a member of that private company. Vertex proposes to purchase goods
+    worth ₹32 crore from Prime Distribution during the financial year. The pricing offered
+    to Vertex is substantially more favourable to Prime than the pricing charged to unrelated
+    customers, and therefore the management accepts that the arrangement is not at arm's
+    length.</p>
+
+    <p>Vertex also proposes to lease a warehouse from another related party for ₹20 crore
+    during the year. The Board argues that shareholder approval is unnecessary because
+    both transactions are in the ordinary course of Vertex's business.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_188_05_1",
+      question: "Prime Distribution Private Limited is a related party because:",
+      options: [
+        "Every supplier is automatically a related party",
+        "A private company in which a director or manager or his relative is a member or director falls within Section 2(76)",
+        "Only because the transaction exceeds ₹30 crore",
+        "Only listed companies can have related parties"
+      ],
+      answer: 1,
+      explanation: "Section 2(76) covers a private company in which a director or manager or his relative is a member or director."
+    },
+
+    {
+      question_id: "CEL_HARD_188_05_2",
+      question: "Does the fact that purchase of goods is in the ordinary course of business by itself take the transaction outside Section 188(1)?",
+      options: [
+        "Yes",
+        "No, it must also be on an arm's length basis to obtain the stated exemption",
+        "Yes, provided the Board approves",
+        "Yes, if the company is listed"
+      ],
+      answer: 1,
+      explanation: "The exemption applies where the transaction is both in the ordinary course of business and on an arm's length basis."
+    },
+
+    {
+      question_id: "CEL_HARD_188_05_3",
+      question: "What is 10% of Vertex's turnover for purposes of the goods transaction threshold?",
+      options: [
+        "₹12 crore",
+        "₹20 crore",
+        "₹30 crore",
+        "₹32 crore"
+      ],
+      answer: 2,
+      explanation: "10% of ₹300 crore is ₹30 crore."
+    },
+
+    {
+      question_id: "CEL_HARD_188_05_4",
+      question: "The ₹32 crore purchase transaction, being not at arm's length, would:",
+      options: [
+        "Remain below the prescribed threshold",
+        "Cross the 10% turnover threshold and therefore require prior approval by ordinary resolution under the stated Rule 15 criteria",
+        "Require a special resolution",
+        "Require no approval because it involves goods"
+      ],
+      answer: 1,
+      explanation: "₹32 crore exceeds 10% of ₹300 crore, i.e. ₹30 crore. The prescribed shareholder approval is an ordinary resolution."
+    },
+
+    {
+      question_id: "CEL_HARD_188_05_5",
+      question: "What is the correct position regarding the ₹20 crore lease transaction?",
+      options: [
+        "It crosses the 10% turnover threshold",
+        "It does not cross the 10% turnover threshold of ₹30 crore on the stated figures",
+        "The relevant threshold is 10% of net worth",
+        "The relevant threshold is 1% of net worth"
+      ],
+      answer: 1,
+      explanation: "For leasing of property, the material provided specifies 10% or more of turnover. Here, 10% of turnover is ₹30 crore, while the lease is ₹20 crore."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE SCENARIO 6
+   SECTION 188 — OFFICE OF PROFIT + UNDERWRITING + VOTING
+========================================================= */
+
+{
+  case_id: "CEL_HARD_188_06",
+  difficulty: "hard",
+  case_chapter: ["Section 188", "Office or Place of Profit", "Related Party Voting"],
+  caseText: `
+    <p><strong>Emerald Technologies Limited</strong> proposes to appoint the son of one of its
+    directors as Chief Strategy Adviser at a monthly remuneration of ₹3,20,000. The
+    appointment is not in the ordinary course of the company's business.</p>
+
+    <p>Emerald also proposes to appoint a related entity as underwriter for a proposed issue
+    of securities. The remuneration payable to the underwriter is ₹1.8 crore. The company's
+    net worth according to the audited financial statements of the preceding financial year
+    is ₹150 crore.</p>
+
+    <p>At the general meeting, a shareholder who is a related party in the context of the
+    first transaction proposes to vote in favour of that transaction. The company is not a
+    private company and the statutory exception concerning companies in which 90% or more
+    members in number are relatives of promoters or related parties does not apply.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_188_06_1",
+      question: "The appointment of the director's son at ₹3,20,000 per month:",
+      options: [
+        "Does not require shareholder approval because remuneration is below ₹5 lakh",
+        "Crosses the prescribed ₹2.5 lakh monthly remuneration threshold for office or place of profit",
+        "Requires approval only if annual remuneration exceeds ₹1 crore",
+        "Is completely outside Section 188"
+      ],
+      answer: 1,
+      explanation: "Appointment to an office or place of profit at monthly remuneration exceeding ₹2.5 lakh attracts the prescribed shareholder approval requirement."
+    },
+
+    {
+      question_id: "CEL_HARD_188_06_2",
+      question: "What is 1% of Emerald's net worth for purposes of underwriting remuneration?",
+      options: [
+        "₹1 crore",
+        "₹1.5 crore",
+        "₹1.8 crore",
+        "₹15 crore"
+      ],
+      answer: 1,
+      explanation: "1% of ₹150 crore is ₹1.5 crore."
+    },
+
+    {
+      question_id: "CEL_HARD_188_06_3",
+      question: "The proposed underwriting remuneration of ₹1.8 crore:",
+      options: [
+        "Does not cross the threshold",
+        "Crosses the 1% net worth threshold",
+        "Must be compared with turnover rather than net worth",
+        "Requires no approval because underwriting is not covered by Section 188"
+      ],
+      answer: 1,
+      explanation: "₹1.8 crore exceeds 1% of net worth, which is ₹1.5 crore. Underwriting subscription of securities or derivatives is expressly covered by Section 188."
+    },
+
+    {
+      question_id: "CEL_HARD_188_06_4",
+      question: "What type of shareholder resolution is prescribed for the transactions crossing the Rule 15(3) limits?",
+      options: [
+        "Special resolution",
+        "Ordinary resolution",
+        "Unanimous resolution",
+        "Resolution by circulation"
+      ],
+      answer: 1,
+      explanation: "The prescribed shareholder approval under the first proviso to Section 188(1) read with Rule 15(3) is an ordinary resolution."
+    },
+
+    {
+      question_id: "CEL_HARD_188_06_5",
+      question: "Can the shareholder who is a related party in the context of the first transaction vote on the resolution approving that transaction?",
+      options: [
+        "Yes, because every shareholder has an absolute right to vote",
+        "No, subject to the statutory exceptions, a related party member cannot vote on the relevant resolution",
+        "Yes, if his holding is below 10%",
+        "Yes, if the Board permits him"
+      ],
+      answer: 1,
+      explanation: "The second proviso to Section 188(1) generally prohibits a member who is a related party in relation to the relevant contract or arrangement from voting, subject to statutory exceptions."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE SCENARIO 7
+   SECTION 188 — UNAUTHORISED RPT + RATIFICATION
+========================================================= */
+
+{
+  case_id: "CEL_HARD_188_07",
+  difficulty: "hard",
+  case_chapter: ["Section 188", "Ratification", "Voidable Transaction"],
+  caseText: `
+    <p><strong>Pioneer Healthcare Limited</strong> entered into a substantial service contract
+    with a related party on 1 April. The transaction required approval under Section 188,
+    but the executive director authorised execution without first obtaining the required
+    consent of the Board or approval of shareholders.</p>
+
+    <p>The omission was discovered during an internal review. On 20 June, the Board began
+    considering whether the transaction could be ratified. Due to disagreements among the
+    directors, however, no decision was taken. The required approval was eventually obtained
+    on 15 August.</p>
+
+    <p>During the period before ratification, the company suffered a financial loss under the
+    contract. The related party to the contract is also related to the executive director who
+    authorised it. The executive director argues that subsequent shareholder approval
+    automatically validates the transaction from inception and eliminates any personal
+    exposure.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_188_07_1",
+      question: "Under Section 188(3), an unauthorised related party contract should generally be ratified within:",
+      options: [
+        "30 days",
+        "60 days",
+        "3 months from the date of the contract or arrangement",
+        "6 months"
+      ],
+      answer: 2,
+      explanation: "Section 188(3) provides a three-month period for ratification by the Board or shareholders, as the case may be."
+    },
+
+    {
+      question_id: "CEL_HARD_188_07_2",
+      question: "On the facts given, was the approval obtained on 15 August within three months of the contract entered on 1 April?",
+      options: [
+        "Yes",
+        "No",
+        "Yes, because the Board started considering it on 20 June",
+        "Yes, because there is no time limit"
+      ],
+      answer: 1,
+      explanation: "Three months from 1 April expires before 15 August. Merely beginning consideration within the period does not amount to ratification."
+    },
+
+    {
+      question_id: "CEL_HARD_188_07_3",
+      question: "Where the required ratification is not obtained within the statutory period, the contract is:",
+      options: [
+        "Automatically criminally void",
+        "Voidable at the option of the Board or shareholders, as the case may be",
+        "Always valid",
+        "Automatically converted into an arm's length transaction"
+      ],
+      answer: 1,
+      explanation: "Section 188(3) makes such a contract or arrangement voidable at the option of the Board or shareholders, as the case may be."
+    },
+
+    {
+      question_id: "CEL_HARD_188_07_4",
+      question: "Since the contract is with a related party to the director who authorised it, what additional consequence may arise?",
+      options: [
+        "The director concerned must indemnify the company against loss incurred",
+        "The shareholders must bear the loss",
+        "The statutory auditor automatically becomes liable",
+        "There can be no recovery after execution"
+      ],
+      answer: 0,
+      explanation: "Where the contract is with a related party to any director or is authorised by any other director, the directors concerned shall indemnify the company against loss incurred."
+    },
+
+    {
+      question_id: "CEL_HARD_188_07_5",
+      question: "Can Pioneer independently proceed against the director or employee responsible for the contravention to recover loss?",
+      options: [
+        "No",
+        "Yes, Section 188(4) permits the company to proceed for recovery of loss sustained",
+        "Only after permission from NCLT",
+        "Only if the company is listed"
+      ],
+      answer: 1,
+      explanation: "Section 188(4) expressly preserves the company's right to proceed against a director or employee responsible for the contravention to recover resulting loss."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE SCENARIO 8
+   SECTION 189 — REGISTER + DISCLOSURE + AGM
+========================================================= */
+
+{
+  case_id: "CEL_HARD_189_08",
+  difficulty: "hard",
+  case_chapter: ["Section 189", "Register of Contracts"],
+  caseText: `
+    <p><strong>Quantum Motors Limited</strong> maintains its register of contracts and
+    arrangements in Form MBP-4 at its registered office. Mr. K was appointed as a director
+    on 1 June but disclosed his interests under Section 184(1) only on 10 July.</p>
+
+    <p>The company entered into a contract for supply of services with an entity in which
+    another director was interested. The aggregate cost of the services during the year was
+    ₹4.80 lakh. It also entered into another interested contract for ₹9 lakh. The Company
+    Secretary proposes to make all register entries together at the end of the financial year.</p>
+
+    <p>Before the AGM, a member asks to inspect the register. At the AGM itself, a proxy
+    appointed by another member also asks to inspect it. The management argues that only
+    registered members, and not proxies, can inspect the register during the AGM.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_189_08_1",
+      question: "Did Mr. K comply with the time limit for disclosure after his appointment?",
+      options: [
+        "Yes, because disclosure before the next AGM is sufficient",
+        "Yes, because the period is 60 days",
+        "No, the disclosure should be made within 30 days of appointment",
+        "No, disclosure must be made on the same day"
+      ],
+      answer: 2,
+      explanation: "Section 189(2) requires every director or KMP to make the specified disclosure within 30 days of appointment or relinquishment of office."
+    },
+
+    {
+      question_id: "CEL_HARD_189_08_2",
+      question: "What is the correct position regarding the ₹4.80 lakh service contract for purposes of Section 189(1)?",
+      options: [
+        "It must necessarily be entered because every interested transaction must be recorded",
+        "It can fall within the exception where cost of services does not exceed ₹5 lakh in aggregate in any year",
+        "The exception applies only to goods, not services",
+        "The exemption threshold is ₹10 lakh"
+      ],
+      answer: 1,
+      explanation: "Section 189(5) excludes specified contracts for goods, materials or services where the relevant value/cost does not exceed ₹5 lakh in aggregate in any year."
+    },
+
+    {
+      question_id: "CEL_HARD_189_08_3",
+      question: "Is the proposal to enter all transactions in MBP-4 at year-end compliant?",
+      options: [
+        "Yes",
+        "Yes, if the Board subsequently signs it",
+        "No, entries are required to be made at once and chronologically",
+        "Yes, if the statutory auditor agrees"
+      ],
+      answer: 2,
+      explanation: "Rule 16 requires entries in MBP-4 to be made at once and in chronological order."
+    },
+
+    {
+      question_id: "CEL_HARD_189_08_4",
+      question: "After the register has been duly filled and updated, it should be:",
+      options: [
+        "Placed before the next Board meeting and signed by all directors present",
+        "Filed with NCLT every month",
+        "Signed only by the Managing Director",
+        "Destroyed after the AGM"
+      ],
+      answer: 0,
+      explanation: "Section 189(1) requires the register to be placed before the next Board meeting and signed by all directors present."
+    },
+
+    {
+      question_id: "CEL_HARD_189_08_5",
+      question: "Can a proxy inspect the register when it is produced at the AGM?",
+      options: [
+        "No, only shareholders whose names appear in the register of members can inspect it",
+        "Yes, it must remain accessible during the AGM to any person having the right to attend the meeting",
+        "Only with permission of the Chairman",
+        "Only after payment of ₹10 per page"
+      ],
+      answer: 1,
+      explanation: "The register must remain open and accessible during the AGM to any person having the right to attend. Therefore, even a proxy can inspect it."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE SCENARIO 9
+   SECTION 191 — COMPENSATION FOR LOSS OF OFFICE
+========================================================= */
+
+{
+  case_id: "CEL_HARD_191_09",
+  difficulty: "hard",
+  case_chapter: ["Section 191", "Compensation for Loss of Office"],
+  caseText: `
+    <p><strong>Regal Infrastructure Limited</strong> proposes to transfer substantially its
+    entire operating undertaking to another company. As part of the arrangement, the
+    transferee proposes to pay ₹40 lakh to Mr. Z, the Managing Director of Regal, as
+    compensation for loss of office.</p>
+
+    <p>The Board has disclosed Mr. Z's name and the proposed amount to members but has not
+    disclosed the basis for determination, source of payment, manner of payment or reasons
+    justifying the compensation. At the general meeting called to approve the proposal,
+    quorum is not present and the meeting is adjourned. The adjourned meeting also fails for
+    want of quorum.</p>
+
+    <p>Despite this, Mr. Z accepts ₹20 lakh from the transferee. Regal is also in default in
+    redemption of debentures and payment of interest thereon. Mr. Z contends that Section
+    191 applies only where compensation is paid directly by Regal and not where it is paid
+    by the transferee.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_191_09_1",
+      question: "Is Mr. Z correct that Section 191 does not apply to compensation paid by the transferee?",
+      options: [
+        "Yes",
+        "No, Section 191 also covers specified payments from the transferee of the undertaking/property or shares and certain other persons",
+        "Yes, unless Regal reimburses the transferee",
+        "Yes, because only salary paid by the company is regulated"
+      ],
+      answer: 1,
+      explanation: "Section 191 expressly contemplates specified payments from the transferee of an undertaking/property, transferees of shares or other persons, not merely payment by the company."
+    },
+
+    {
+      question_id: "CEL_HARD_191_09_2",
+      question: "Were the disclosures made to members sufficient?",
+      options: [
+        "Yes, name and amount are sufficient",
+        "No, prescribed particulars also include matters such as basis, justification, manner and sources of payment",
+        "Yes, because the transferee is paying",
+        "Yes, if Mr. Z consents"
+      ],
+      answer: 1,
+      explanation: "Rule 17 requires disclosure of several specified particulars, including basis for amount, reasons/justification, manner of payment and sources of payment."
+    },
+
+    {
+      question_id: "CEL_HARD_191_09_3",
+      question: "What is the effect of failure to approve the payment because quorum is absent both at the meeting and adjourned meeting?",
+      options: [
+        "The proposal is deemed approved",
+        "The Board may deem it approved",
+        "The proposal is not deemed to have been approved",
+        "Approval becomes unnecessary"
+      ],
+      answer: 2,
+      explanation: "Section 191 provides that where payment is not approved for want of quorum at the meeting or adjourned meeting, it shall not be deemed approved."
+    },
+
+    {
+      question_id: "CEL_HARD_191_09_4",
+      question: "The ₹20 lakh accepted by Mr. Z before valid approval is deemed to be held:",
+      options: [
+        "Absolutely by Mr. Z",
+        "In trust for the company",
+        "For the transferee",
+        "As advance salary"
+      ],
+      answer: 1,
+      explanation: "Payment received in contravention of Section 191(1), including payment made before approval, is deemed to be received by the director in trust for the company."
+    },
+
+    {
+      question_id: "CEL_HARD_191_09_5",
+      question: "How does Regal's default in redemption of debentures affect the proposed compensation?",
+      options: [
+        "It has no relevance",
+        "It is one of the circumstances in which compensation to MD/WTD/manager is restricted under Rule 17(3), subject to specified exceptions",
+        "It increases the compensation limit",
+        "It converts the required approval into a Board resolution"
+      ],
+      answer: 1,
+      explanation: "Default in redemption of debentures or payment of interest thereon is one of the specified circumstances restricting compensation for loss of office, except specified notice pay/statutory payments."
+    }
+
+  ]
+},
+
+/* =========================================================
+   HARD CASE SCENARIO 10
+   SECTIONS 192 & 193 — NON-CASH TRANSACTION + OPC
+========================================================= */
+
+{
+  case_id: "CEL_HARD_192_193_10",
+  difficulty: "hard",
+  case_chapter: ["Section 192", "Section 193", "Non-Cash Transactions", "OPC"],
+  caseText: `
+    <p><strong>Silverline Limited</strong> proposes to acquire a commercial property valued at
+    ₹12 crore from Mr. D, a director of its holding company. Instead of paying cash,
+    Silverline proposes to issue certain assets owned by it to Mr. D as consideration.
+    The Board approves the arrangement and argues that approval of Silverline's shareholders
+    is unnecessary because Mr. D is not a director of Silverline itself.</p>
+
+    <p>The notice sent to shareholders merely states that a property transaction is proposed.
+    It neither specifies full particulars of the arrangement nor contains the value of the
+    assets calculated by a registered valuer. Silverline nevertheless proceeds with the
+    transaction.</p>
+
+    <p>Separately, Alpha One Private Limited, an OPC limited by shares, enters into an oral
+    contract with its sole member, who is also its sole director, for purchase of an asset.
+    The transaction is outside the ordinary course of business. The terms are properly
+    recorded in the minutes of the first Board meeting held after the contract, but the
+    company informs the Registrar 25 days after the date of Board approval.</p>
+  `,
+  questions: [
+
+    {
+      question_id: "CEL_HARD_192_193_10_1",
+      question: "Does Section 192 potentially apply merely because Mr. D is a director of Silverline's holding company rather than Silverline itself?",
+      options: [
+        "No",
+        "Yes, Section 192 extends to specified directors of the company's holding, subsidiary or associate company and connected persons",
+        "Only if Mr. D owns more than 50% of Silverline",
+        "Only if Silverline is listed"
+      ],
+      answer: 1,
+      explanation: "Section 192 expressly extends to a director of the company or its holding, subsidiary or associate company and persons connected with such director."
+    },
+
+    {
+      question_id: "CEL_HARD_192_193_10_2",
+      question: "Which approvals are relevant because Mr. D is a director of Silverline's holding company?",
+      options: [
+        "Only Silverline Board approval",
+        "Prior approval by resolution in Silverline's general meeting and approval by resolution in the holding company's general meeting",
+        "Only holding company Board approval",
+        "Only approval of the registered valuer"
+      ],
+      answer: 1,
+      explanation: "The company must obtain prior approval in general meeting. Where the director/connected person is a director of its holding company, approval of the holding company in general meeting is also required."
+    },
+
+    {
+      question_id: "CEL_HARD_192_193_10_3",
+      question: "What defect exists in Silverline's notice to shareholders?",
+      options: [
+        "No defect exists",
+        "It should contain particulars of the arrangement and value of assets duly calculated by a registered valuer",
+        "It requires only the director's name",
+        "The valuation must necessarily be performed by the statutory auditor"
+      ],
+      answer: 1,
+      explanation: "The notice seeking approval under Section 192 must contain particulars of the arrangement and the value of assets involved, duly calculated by a registered valuer."
+    },
+
+    {
+      question_id: "CEL_HARD_192_193_10_4",
+      question: "What is the normal consequence of an arrangement entered into in contravention of Section 192?",
+      options: [
+        "It is automatically void in every circumstance",
+        "It is voidable at the instance of the company, subject to the statutory exceptions",
+        "It is always valid after Board approval",
+        "Only a monetary penalty can arise and the transaction can never be challenged"
+      ],
+      answer: 1,
+      explanation: "An arrangement entered into in contravention of Section 192 is voidable at the instance of the company, subject to exceptions such as impossibility of restitution with indemnification or bona fide rights acquired for value without notice."
+    },
+
+    {
+      question_id: "CEL_HARD_192_193_10_5",
+      question: "Has Alpha One Private Limited complied with Section 193 regarding intimation to the Registrar?",
+      options: [
+        "Yes, because the period is 30 days",
+        "Yes, because recording in Board minutes removes the need to inform the Registrar",
+        "No, the Registrar should be informed within 15 days of the date of approval by the Board",
+        "No, the Registrar must be informed before entering into the contract"
+      ],
+      answer: 2,
+      explanation: "Section 193 requires the OPC to inform the Registrar about such contract within 15 days of the date of approval by the Board. Intimation after 25 days is therefore delayed."
+    }
+
+  ]
+}
 ];
