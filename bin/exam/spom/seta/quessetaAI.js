@@ -12248,5 +12248,5406 @@ const AICaseStudies = [
       explanation: "Section 193 requires the OPC to inform the Registrar about such contract within 15 days of the date of approval by the Board. Intimation after 25 days is therefore delayed."
     }
   ]
-}
+},
+
+  // =========================================================
+  // CASE SCENARIO 1
+  // =========================================================
+  {
+    case_id: "C4_EASY_01",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 206"],
+    difficulty: "Easy",
+
+    caseText: `
+      <p><strong>Brightstar Technologies Limited</strong> is a company engaged in
+      the business of software development. During scrutiny of the documents filed
+      by the company, the Registrar of Companies noticed that certain figures
+      appearing in the company's annual filings required further clarification.</p>
+
+      <p>The Registrar was of the opinion that additional information and certain
+      documents relating to the company's financial transactions were necessary.
+      Accordingly, the Registrar issued a written notice requiring the company to
+      furnish the required information and explanations and to produce specified
+      documents within the time mentioned in the notice.</p>
+
+      <p>The company received the notice and instructed its Chief Financial Officer
+      and other concerned officers to collect the relevant records and submit the
+      information within the specified period.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_EASY_01_Q1",
+        difficulty: "Easy",
+        question: "Under Section 206(1) of the Companies Act, 2013, what may the Registrar require Brightstar Technologies Limited to furnish?",
+        options: [
+          "Only audited financial statements",
+          "Information, explanation or documents relating to the company",
+          "Only information relating to shareholders",
+          "Only tax records"
+        ],
+        answer: 1,
+        solution_html: "<p>Under Section 206(1), the Registrar may require the company to furnish information or explanation in writing or produce documents relating to the company.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_01_Q2",
+        difficulty: "Easy",
+        question: "What is the nature of the notice issued by the Registrar under Section 206(1)?",
+        options: [
+          "Oral notice",
+          "Written notice",
+          "Notice through shareholders only",
+          "Notice issued only by the Tribunal"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 206(1) specifically provides that the Registrar may require the company by a <strong>written notice</strong> to furnish information, explanation or documents.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_01_Q3",
+        difficulty: "Easy",
+        question: "Who is primarily required to comply with the notice received by Brightstar Technologies Limited?",
+        options: [
+          "Only the shareholders",
+          "Only the statutory auditor",
+          "The company and its concerned officers",
+          "Only the Registrar"
+        ],
+        answer: 2,
+        solution_html: "<p>Under Section 206(2), it is the duty of the company and its officers concerned to furnish the information or explanation and produce the documents required.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_01_Q4",
+        difficulty: "Easy",
+        question: "The Registrar specifies a reasonable time for furnishing the information. What should the company do?",
+        options: [
+          "Ignore the notice",
+          "Furnish the information within the specified or extended time",
+          "Wait for a Tribunal order",
+          "Ask the shareholders to furnish it"
+        ],
+        answer: 1,
+        solution_html: "<p>The company must furnish the required information and documents within the time specified by the Registrar or within such extended time as may be allowed.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_01_Q5",
+        difficulty: "Easy",
+        question: "The power being exercised by the Registrar in this case primarily relates to:",
+        options: [
+          "Calling for information and explanation",
+          "Winding up the company",
+          "Freezing company assets",
+          "Imposing restrictions on securities"
+        ],
+        answer: 0,
+        solution_html: "<p>The facts relate to Section 206, which deals with the power to call for information, inspect books and conduct inquiries.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 2
+  // =========================================================
+  {
+    case_id: "C4_EASY_02",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 206(3)"],
+    difficulty: "Easy",
+
+    caseText: `
+      <p><strong>Greenfield Manufacturing Limited</strong> received a notice from
+      the Registrar of Companies asking the company to furnish certain information
+      regarding its transactions with suppliers. The company submitted a reply,
+      but the Registrar found that the explanation was incomplete and did not
+      adequately answer the questions raised.</p>
+
+      <p>After examining the documents supplied by the company, the Registrar
+      concluded that further books of account, papers and explanations were
+      necessary to understand the transactions properly. Before issuing another
+      notice, the Registrar recorded his reasons in writing.</p>
+
+      <p>The Registrar subsequently required the company to produce additional
+      books and papers at a specified place and time for inspection.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_EASY_02_Q1",
+        difficulty: "Easy",
+        question: "Why could the Registrar issue another written notice under Section 206(3)?",
+        options: [
+          "Because the company changed its registered office",
+          "Because the information furnished was inadequate",
+          "Because the company declared dividend",
+          "Because the company appointed a new director"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 206(3) permits the Registrar to issue another written notice where the information or explanation furnished is inadequate.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_02_Q2",
+        difficulty: "Easy",
+        question: "Before issuing the additional notice under Section 206(3), the Registrar must:",
+        options: [
+          "Obtain approval from all shareholders",
+          "Obtain approval from the statutory auditor",
+          "Record the reasons in writing",
+          "Obtain approval from the company"
+        ],
+        answer: 2,
+        solution_html: "<p>The Registrar must record his reasons in writing before serving a notice under Section 206(3).</p>"
+      },
+
+      {
+        question_id: "C4_EASY_02_Q3",
+        difficulty: "Easy",
+        question: "The Registrar may require the company to produce:",
+        options: [
+          "Only its Memorandum of Association",
+          "Further books of account, books, papers and explanations",
+          "Only minutes of Board meetings",
+          "Only tax returns"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 206(3) permits the Registrar to call for further books of account, books, papers and explanations.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_02_Q4",
+        difficulty: "Easy",
+        question: "The additional documents may be required to be produced:",
+        options: [
+          "At any place and time without notice",
+          "At the place and time specified by the Registrar",
+          "Only before the Tribunal",
+          "Only at the company's registered office"
+        ],
+        answer: 1,
+        solution_html: "<p>The Registrar may specify the place and time at which the books, papers and explanations are to be produced.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_02_Q5",
+        difficulty: "Easy",
+        question: "Which section is directly relevant to the additional notice described in the case?",
+        options: [
+          "Section 206(3)",
+          "Section 211",
+          "Section 221",
+          "Section 228"
+        ],
+        answer: 0,
+        solution_html: "<p>The facts directly relate to Section 206(3), concerning an additional written notice for production of books and papers.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 3
+  // =========================================================
+  {
+    case_id: "C4_EASY_03",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 207"],
+    difficulty: "Easy",
+
+    caseText: `
+      <p><strong>Sunrise Foods Limited</strong> received a notice from an Inspector
+      requiring production of certain books of account and other papers for
+      inspection. The company's directors informed the finance department that
+      all relevant records should be made available to the Inspector.</p>
+
+      <p>The finance manager initially believed that only the documents specifically
+      mentioned in the notice needed to be produced. However, the Inspector also
+      requested assistance in examining related books and asked the employees to
+      provide explanations concerning certain entries.</p>
+
+      <p>The directors were advised that the employees of the company were required
+      to cooperate with the inspection and provide reasonable assistance.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_EASY_03_Q1",
+        difficulty: "Easy",
+        question: "Under Section 207, what is the duty of directors, officers and employees?",
+        options: [
+          "To refuse inspection",
+          "To produce documents and furnish required information and explanations",
+          "To provide information only after shareholder approval",
+          "To provide information only to the auditor"
+        ],
+        answer: 1,
+        solution_html: "<p>Directors, officers and employees must produce documents, furnish statements, information or explanations and render assistance in connection with the inspection.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_03_Q2",
+        difficulty: "Easy",
+        question: "Can the Registrar or Inspector make copies of books and papers during inspection?",
+        options: [
+          "Yes",
+          "No",
+          "Only with shareholder approval",
+          "Only with auditor approval"
+        ],
+        answer: 0,
+        solution_html: "<p>Under Section 207, the Registrar or Inspector may make or cause to be made copies of books of account and other books and papers.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_03_Q3",
+        difficulty: "Easy",
+        question: "The Registrar or Inspector may place identification marks on books to indicate:",
+        options: [
+          "Payment of tax",
+          "Completion of inspection",
+          "Appointment of directors",
+          "Payment of dividend"
+        ],
+        answer: 1,
+        solution_html: "<p>Identification marks may be placed on books and papers as a token that inspection has been made.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_03_Q4",
+        difficulty: "Easy",
+        question: "During inspection, the Registrar or Inspector has certain powers similar to those of:",
+        options: [
+          "A shareholder",
+          "A civil court",
+          "A statutory auditor",
+          "A creditor"
+        ],
+        answer: 1,
+        solution_html: "<p>Under Section 207, the Registrar or Inspector has certain powers vested in a civil court under the Code of Civil Procedure, 1908.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_03_Q5",
+        difficulty: "Easy",
+        question: "Which of the following is NOT a duty of employees during inspection?",
+        options: [
+          "Producing documents",
+          "Furnishing explanations",
+          "Rendering assistance",
+          "Destroying irrelevant records"
+        ],
+        answer: 3,
+        solution_html: "<p>Employees are required to cooperate with the inspection. Destroying records is contrary to their duties.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 4
+  // =========================================================
+  {
+    case_id: "C4_EASY_04",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 208"],
+    difficulty: "Easy",
+
+    caseText: `
+      <p><strong>Metro Infrastructure Limited</strong> was subjected to an
+      inspection by the Registrar. During the inspection, the Registrar examined
+      the books of account, statutory records and other papers of the company.</p>
+
+      <p>After completing the inspection, the Registrar identified certain matters
+      that appeared to require further investigation. The Registrar prepared a
+      written report setting out the findings and the reasons supporting his
+      recommendation for further investigation.</p>
+
+      <p>The report was submitted to the Central Government for consideration and
+      further action.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_EASY_04_Q1",
+        difficulty: "Easy",
+        question: "After inspection under Section 206, the Registrar or Inspector is required to submit:",
+        options: [
+          "An oral statement",
+          "A written report",
+          "A shareholder resolution",
+          "A tax return"
+        ],
+        answer: 1,
+        solution_html: "<p>Under Section 208, the Registrar or Inspector submits a report in writing to the Central Government.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_04_Q2",
+        difficulty: "Easy",
+        question: "To whom is the inspection report submitted?",
+        options: [
+          "Shareholders",
+          "Statutory auditor",
+          "Central Government",
+          "Creditors"
+        ],
+        answer: 2,
+        solution_html: "<p>The report under Section 208 is submitted to the Central Government.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_04_Q3",
+        difficulty: "Easy",
+        question: "Can the report recommend further investigation?",
+        options: [
+          "Yes",
+          "No",
+          "Only if shareholders approve",
+          "Only if the auditor approves"
+        ],
+        answer: 0,
+        solution_html: "<p>The Registrar or Inspector may recommend further investigation in the report, along with reasons supporting the recommendation.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_04_Q4",
+        difficulty: "Easy",
+        question: "A recommendation for further investigation should be:",
+        options: [
+          "Without any reason",
+          "Supported by reasons",
+          "Approved by all employees",
+          "Made only orally"
+        ],
+        answer: 1,
+        solution_html: "<p>The recommendation for further investigation must be supported by reasons.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_04_Q5",
+        difficulty: "Easy",
+        question: "Section 208 primarily deals with:",
+        options: [
+          "Freezing assets",
+          "Submission of inspection report",
+          "Appointment of SFIO Director",
+          "Protection of employees"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 208 deals with submission of the report on inspection made.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 5
+  // =========================================================
+  {
+    case_id: "C4_EASY_05",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 209"],
+    difficulty: "Easy",
+
+    caseText: `
+      <p><strong>Alpha Trading Limited</strong> came under scrutiny after certain
+      creditors alleged that the company's management was attempting to alter and
+      destroy important accounting records. The Registrar examined the information
+      available and formed a reasonable belief that certain books and papers might
+      be destroyed or falsified.</p>
+
+      <p>The Registrar wanted to enter the premises of the company and seize the
+      relevant records. However, the Registrar was advised that the statutory
+      procedure required an order of the Special Court before exercising the
+      search and seizure power under Section 209.</p>
+
+      <p>The company was also required to be allowed to take copies or extracts
+      of the books and papers at its own cost.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_EASY_05_Q1",
+        difficulty: "Easy",
+        question: "Before search and seizure under Section 209, the Registrar or Inspector must obtain an order from:",
+        options: [
+          "NCLAT",
+          "Special Court",
+          "Statutory auditor",
+          "Shareholders"
+        ],
+        answer: 1,
+        solution_html: "<p>Under Section 209, search and seizure requires an order of the Special Court.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_05_Q2",
+        difficulty: "Easy",
+        question: "Search and seizure may be undertaken where books and papers are likely to be:",
+        options: [
+          "Updated",
+          "Destroyed, mutilated, altered, falsified or secreted",
+          "Audited",
+          "Published"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 209 applies where there are reasonable grounds to believe that books and papers may be destroyed, mutilated, altered, falsified or secreted.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_05_Q3",
+        difficulty: "Easy",
+        question: "Before seizure, the company should be allowed to:",
+        options: [
+          "Destroy the records",
+          "Take copies or extracts at its cost",
+          "Remove all records permanently",
+          "Transfer the records to another company"
+        ],
+        answer: 1,
+        solution_html: "<p>The company must be allowed to take copies of or extracts from the books and papers at its own cost.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_05_Q4",
+        difficulty: "Easy",
+        question: "The search and seizure under Section 209 is subject to the provisions relating to searches and seizures under:",
+        options: [
+          "Income-tax Act only",
+          "Code of Criminal Procedure, 1973",
+          "Indian Contract Act",
+          "SEBI Act only"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 209 provides that the provisions of the Code of Criminal Procedure, 1973 relating to searches and seizures apply mutatis mutandis.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_05_Q5",
+        difficulty: "Easy",
+        question: "The original period for which books seized under Section 209 should be returned is generally not later than:",
+        options: [
+          "30 days",
+          "90 days",
+          "180 days",
+          "365 days"
+        ],
+        answer: 2,
+        solution_html: "<p>Books and papers seized under Section 209 should ordinarily be returned as soon as possible and in any case not later than the 180th day after seizure.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 6
+  // =========================================================
+  {
+    case_id: "C4_EASY_06",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 210"],
+    difficulty: "Easy",
+
+    caseText: `
+      <p><strong>Nova Energy Limited</strong> passed a special resolution stating
+      that the affairs of the company ought to be investigated. The company
+      communicated the resolution to the Central Government.</p>
+
+      <p>The Central Government considered the circumstances and concluded that
+      an investigation into the affairs of the company was necessary. Accordingly,
+      it decided to order an investigation and appoint inspectors for the purpose.</p>
+
+      <p>The investigation was intended to determine whether the affairs of the
+      company had been properly conducted and whether any wrongdoing had occurred.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_EASY_06_Q1",
+        difficulty: "Easy",
+        question: "Under Section 210, who may order an investigation into the affairs of a company?",
+        options: [
+          "Central Government",
+          "Statutory auditor",
+          "Company secretary",
+          "Any shareholder individually"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 210 empowers the Central Government to order an investigation into the affairs of a company in specified circumstances.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_06_Q2",
+        difficulty: "Easy",
+        question: "One circumstance enabling investigation under Section 210 is:",
+        options: [
+          "A special resolution passed by the company",
+          "Appointment of a new auditor",
+          "Declaration of dividend",
+          "Increase in share capital"
+        ],
+        answer: 0,
+        solution_html: "<p>The Central Government may order investigation upon intimation of a special resolution passed by the company that its affairs ought to be investigated.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_06_Q3",
+        difficulty: "Easy",
+        question: "For investigation under Section 210, the Central Government may appoint:",
+        options: [
+          "One or more inspectors",
+          "Only the statutory auditor",
+          "Only directors",
+          "Only shareholders"
+        ],
+        answer: 0,
+        solution_html: "<p>The Central Government may appoint one or more persons as inspectors to investigate into the affairs of the company.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_06_Q4",
+        difficulty: "Easy",
+        question: "If a court or Tribunal orders that the affairs of a company ought to be investigated, the Central Government:",
+        options: [
+          "May ignore the order",
+          "Shall order an investigation",
+          "Must wind up the company",
+          "Must appoint the statutory auditor"
+        ],
+        answer: 1,
+        solution_html: "<p>Where a court or Tribunal passes an order that the affairs of a company ought to be investigated, the Central Government shall order an investigation.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_06_Q5",
+        difficulty: "Easy",
+        question: "The purpose of appointing inspectors is to:",
+        options: [
+          "Conduct the investigation and report thereon",
+          "Declare dividends",
+          "Appoint directors",
+          "Prepare tax returns"
+        ],
+        answer: 0,
+        solution_html: "<p>Inspectors are appointed to investigate the affairs of the company and report thereon in the manner directed by the Central Government.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 7
+  // =========================================================
+  {
+    case_id: "C4_EASY_07",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 211"],
+    difficulty: "Easy",
+
+    caseText: `
+      <p><strong>Vertex Industries Limited</strong> was suspected of being
+      involved in complex financial transactions involving several entities.
+      The Central Government considered that specialised investigation would be
+      useful because the matter involved financial accounting, taxation,
+      forensic audit and information technology.</p>
+
+      <p>The investigation was considered suitable for the Serious Fraud
+      Investigation Office (SFIO), an office established by the Central Government
+      to investigate frauds relating to companies.</p>
+
+      <p>The SFIO functions under a Director and may include experts from several
+      specialised fields.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_EASY_07_Q1",
+        difficulty: "Easy",
+        question: "SFIO primarily deals with investigation of:",
+        options: [
+          "Frauds relating to companies",
+          "Income tax returns of individuals only",
+          "Land disputes",
+          "Family disputes"
+        ],
+        answer: 0,
+        solution_html: "<p>The Serious Fraud Investigation Office is established to investigate frauds relating to companies.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_07_Q2",
+        difficulty: "Easy",
+        question: "SFIO is headed by:",
+        options: [
+          "A Director",
+          "The Registrar of Companies",
+          "The statutory auditor",
+          "The Chairperson of NCLT"
+        ],
+        answer: 0,
+        solution_html: "<p>Under Section 211, SFIO is headed by a Director.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_07_Q3",
+        difficulty: "Easy",
+        question: "The SFIO may include experts from which field?",
+        options: [
+          "Forensic audit",
+          "Only civil engineering",
+          "Only medicine",
+          "Only agriculture"
+        ],
+        answer: 0,
+        solution_html: "<p>Forensic audit is one of the specialised fields from which experts may be appointed to SFIO.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_07_Q4",
+        difficulty: "Easy",
+        question: "Which of the following is another field from which SFIO may have experts?",
+        options: [
+          "Information technology",
+          "Only sports",
+          "Only literature",
+          "Only geography"
+        ],
+        answer: 0,
+        solution_html: "<p>Information technology is specifically included among the fields from which SFIO experts may be appointed.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_07_Q5",
+        difficulty: "Easy",
+        question: "The Director of SFIO is appointed by:",
+        options: [
+          "Central Government",
+          "Company shareholders",
+          "Statutory auditor",
+          "NCLT alone"
+        ],
+        answer: 0,
+        solution_html: "<p>The Central Government appoints the Director of SFIO by notification.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 8
+  // =========================================================
+  {
+    case_id: "C4_EASY_08",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 212"],
+    difficulty: "Easy",
+
+    caseText: `
+      <p><strong>Global Ventures Limited</strong> was facing allegations of
+      serious financial irregularities. The Registrar conducted an inspection
+      and submitted a report recommending further investigation.</p>
+
+      <p>The Central Government examined the report and was of the opinion that
+      the matter required investigation by the Serious Fraud Investigation Office.
+      Accordingly, the Central Government assigned the investigation to SFIO.</p>
+
+      <p>Another investigating agency had already started examining certain
+      offences under the Companies Act. After the matter was assigned to SFIO,
+      the relevant records were required to be transferred to SFIO.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_EASY_08_Q1",
+        difficulty: "Easy",
+        question: "Under Section 212, who may assign an investigation to SFIO?",
+        options: [
+          "Central Government",
+          "Company secretary",
+          "Any shareholder",
+          "Statutory auditor"
+        ],
+        answer: 0,
+        solution_html: "<p>The Central Government may assign the investigation into the affairs of a company to SFIO under Section 212.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_08_Q2",
+        difficulty: "Easy",
+        question: "One basis for assigning investigation to SFIO is receipt of:",
+        options: [
+          "A report of the Registrar or Inspector under Section 208",
+          "A dividend declaration",
+          "An auditor's resignation alone",
+          "A director's appointment"
+        ],
+        answer: 0,
+        solution_html: "<p>Under Section 212(1), the Central Government may assign an investigation to SFIO on receipt of a report of the Registrar or Inspector under Section 208.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_08_Q3",
+        difficulty: "Easy",
+        question: "Once a case is assigned to SFIO, another investigating agency of the Central or State Government should:",
+        options: [
+          "Continue independently",
+          "Proceed further simultaneously",
+          "Not proceed further in respect of offences under the Companies Act",
+          "Destroy its records"
+        ],
+        answer: 2,
+        solution_html: "<p>Once the case is assigned to SFIO, no other investigating agency of the Central or State Government shall proceed with investigation in respect of offences under the Companies Act.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_08_Q4",
+        difficulty: "Easy",
+        question: "Relevant documents held by another investigating agency should be:",
+        options: [
+          "Destroyed",
+          "Transferred to SFIO",
+          "Returned to shareholders",
+          "Sent to the statutory auditor"
+        ],
+        answer: 1,
+        solution_html: "<p>Where an investigation has already been initiated, the concerned agency must transfer the relevant documents and records to SFIO.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_08_Q5",
+        difficulty: "Easy",
+        question: "SFIO submits its investigation report to:",
+        options: [
+          "Central Government",
+          "Shareholders directly",
+          "Statutory auditor",
+          "Company secretary"
+        ],
+        answer: 0,
+        solution_html: "<p>SFIO conducts the investigation and submits its report to the Central Government.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 9
+  // =========================================================
+  {
+    case_id: "C4_EASY_09",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 216"],
+    difficulty: "Easy",
+
+    caseText: `
+      <p><strong>Eastern Capital Limited</strong> had a complicated ownership
+      structure. Several individuals appeared to exercise control over the
+      company's policy even though their names did not appear prominently in
+      the company's membership records.</p>
+
+      <p>The Central Government wanted to determine who was financially interested
+      in the success or failure of the company and who was able to control or
+      materially influence its policies. It therefore considered appointing
+      inspectors to investigate the ownership and membership structure of the
+      company.</p>
+
+      <p>The investigation was intended to identify the true persons having
+      financial or controlling interests in the company.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_EASY_09_Q1",
+        difficulty: "Easy",
+        question: "Which section deals with investigation of ownership of a company?",
+        options: [
+          "Section 206",
+          "Section 209",
+          "Section 216",
+          "Section 225"
+        ],
+        answer: 2,
+        solution_html: "<p>Section 216 deals with investigation into ownership of a company.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_09_Q2",
+        difficulty: "Easy",
+        question: "The Central Government may appoint inspectors to determine persons who are:",
+        options: [
+          "Financially interested in the success or failure of the company",
+          "Only employees",
+          "Only auditors",
+          "Only creditors"
+        ],
+        answer: 0,
+        solution_html: "<p>Inspectors may be appointed to determine persons who are or have been financially interested in the success or failure of the company.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_09_Q3",
+        difficulty: "Easy",
+        question: "Section 216 may also be used to identify persons able to:",
+        options: [
+          "Control or materially influence company policy",
+          "Prepare tax returns",
+          "Conduct statutory audit",
+          "Appoint government officers"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 216 includes persons who are or have been able to control or materially influence the policy of the company.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_09_Q4",
+        difficulty: "Easy",
+        question: "Who may appoint inspectors under Section 216 when the Central Government considers there is reason to do so?",
+        options: [
+          "Central Government",
+          "Statutory auditor",
+          "Company secretary",
+          "Any employee"
+        ],
+        answer: 0,
+        solution_html: "<p>The Central Government may appoint one or more inspectors under Section 216.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_09_Q5",
+        difficulty: "Easy",
+        question: "The investigation under Section 216 primarily concerns:",
+        options: [
+          "Ownership and membership-related matters",
+          "Employee salaries",
+          "Tax assessment",
+          "Dividend calculation only"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 216 concerns investigation into the ownership and membership of a company to determine the true persons financially interested or exercising control or influence.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 10
+  // =========================================================
+  {
+    case_id: "C4_EASY_10",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 218"],
+    difficulty: "Easy",
+
+    caseText: `
+      <p><strong>Reliable Finance Limited</strong> was undergoing an investigation
+      into its affairs. During the investigation, one of its employees provided
+      important information and documents to the investigating authorities.</p>
+
+      <p>After the employee provided the information, the management proposed to
+      terminate his employment. The company also considered changing the terms
+      of his employment to his disadvantage.</p>
+
+      <p>The employee objected to the proposed action and pointed out that the
+      Companies Act provides protection to employees during an investigation.
+      The company therefore considered whether approval of the Tribunal was
+      required before taking action against the employee.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_EASY_10_Q1",
+        difficulty: "Easy",
+        question: "Which section deals with protection of employees during investigation?",
+        options: [
+          "Section 209",
+          "Section 212",
+          "Section 218",
+          "Section 229"
+        ],
+        answer: 2,
+        solution_html: "<p>Section 218 deals with protection of employees during investigation.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_10_Q2",
+        difficulty: "Easy",
+        question: "Before discharging or suspending an employee during the relevant investigation, the company generally requires:",
+        options: [
+          "Approval of the Tribunal",
+          "Approval of shareholders only",
+          "Approval of the statutory auditor",
+          "Approval of creditors only"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 218 requires the company to obtain approval of the Tribunal before taking specified adverse action against an employee during the relevant investigation or proceedings.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_10_Q3",
+        difficulty: "Easy",
+        question: "Which of the following may require Tribunal approval under Section 218?",
+        options: [
+          "Changing the employee's terms of employment to his disadvantage",
+          "Giving the employee a promotion",
+          "Giving a bonus",
+          "Increasing the employee's salary"
+        ],
+        answer: 0,
+        solution_html: "<p>Changing the terms of employment to the employee's disadvantage is one of the actions covered by Section 218.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_10_Q4",
+        difficulty: "Easy",
+        question: "If the Tribunal raises an objection to the proposed action, the company may:",
+        options: [
+          "Ignore the objection",
+          "Appeal to the Appellate Tribunal within the prescribed period",
+          "Automatically terminate the employee",
+          "Destroy the investigation records"
+        ],
+        answer: 1,
+        solution_html: "<p>If dissatisfied with the objection raised by the Tribunal, the company may prefer an appeal to the Appellate Tribunal within 30 days of receiving the notice of objection.</p>"
+      },
+
+      {
+        question_id: "C4_EASY_10_Q5",
+        difficulty: "Easy",
+        question: "The protection under Section 218 is primarily intended to prevent:",
+        options: [
+          "Retaliatory adverse action against employees during investigation",
+          "Payment of salaries",
+          "Appointment of auditors",
+          "Declaration of dividends"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 218 protects employees from specified adverse employment actions during the relevant investigation or proceedings without the required Tribunal approval.</p>"
+      }
+
+    ]
+  },
+
+  // =========================================================
+  // CASE SCENARIO 1
+  // =========================================================
+  {
+    case_id: "C4_MEDIUM_01",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 206 & 207"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p><strong>Orion Electronics Limited</strong> received a written notice
+      from the Registrar of Companies after scrutiny of certain documents filed
+      by the company. The Registrar required the company to furnish explanations
+      regarding unusually large payments made to certain suppliers and to produce
+      supporting books and papers.</p>
+
+      <p>The company submitted a reply within the specified period. However, after
+      examining the documents, the Registrar concluded that the explanation was
+      incomplete and that the documents did not provide a full and fair picture
+      of the transactions.</p>
+
+      <p>The Registrar therefore issued another written notice requiring production
+      of additional books and papers at a specified place and time. During the
+      inspection, the company's finance director refused to produce certain
+      documents, stating that the documents were confidential and that the
+      Registrar could not inspect them without an order of the Tribunal.</p>
+
+      <p>The Registrar informed the director that the inspection provisions confer
+      specified powers upon the Registrar and that the company and its officers
+      are required to cooperate with the inspection.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_MEDIUM_01_Q1",
+        difficulty: "Medium",
+        question: "The Registrar was justified in issuing the second notice because:",
+        options: [
+          "The company had changed its auditor",
+          "The information furnished was inadequate and did not disclose a full and fair statement",
+          "The company had declared dividend",
+          "The Registrar wanted to inspect the personal assets of shareholders"
+        ],
+        answer: 1,
+        solution_html: "<p>Under Section 206(3), an additional notice may be issued where the information or explanation furnished is inadequate or the documents do not disclose a full and fair statement of the information required.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_01_Q2",
+        difficulty: "Medium",
+        question: "Before serving the additional notice under Section 206(3), the Registrar must:",
+        options: [
+          "Obtain approval of the Tribunal",
+          "Record his reasons in writing",
+          "Obtain approval of shareholders",
+          "Obtain approval of the statutory auditor"
+        ],
+        answer: 1,
+        solution_html: "<p>Before serving a notice under Section 206(3), the Registrar is required to record his reasons in writing.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_01_Q3",
+        difficulty: "Medium",
+        question: "During inspection, the finance director's refusal to produce documents is:",
+        options: [
+          "Valid because all company documents are confidential",
+          "Valid unless shareholders consent",
+          "Contrary to the duty imposed on officers under Section 207",
+          "Valid because only the auditor can inspect documents"
+        ],
+        answer: 2,
+        solution_html: "<p>Under Section 207, every director, officer or employee has a duty to produce the documents required and furnish statements, information or explanations and render assistance in connection with inspection.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_01_Q4",
+        difficulty: "Medium",
+        question: "Which power may the Registrar exercise during inspection under Section 207?",
+        options: [
+          "Make copies of books and papers",
+          "Remove directors from office without procedure",
+          "Freeze all shareholder accounts",
+          "Cancel the company's incorporation"
+        ],
+        answer: 0,
+        solution_html: "<p>The Registrar or Inspector may make or cause to be made copies of books of account and other books and papers and may place identification marks on them.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_01_Q5",
+        difficulty: "Medium",
+        question: "The Registrar's powers under Section 207 include powers similar to those of a civil court in relation to:",
+        options: [
+          "Discovery and production of documents and summoning persons",
+          "Winding up the company",
+          "Appointment of directors",
+          "Declaration of dividend"
+        ],
+        answer: 0,
+        solution_html: "<p>The Registrar or Inspector has civil-court-like powers regarding discovery and production of documents, summoning and enforcing attendance and examination on oath, and inspection of books and documents.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 2
+  // =========================================================
+  {
+    case_id: "C4_MEDIUM_02",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 206 & 210"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p><strong>Vertex Retail Limited</strong> came under scrutiny after several
+      investors complained that their grievances relating to redemption of certain
+      securities had not been addressed by the company.</p>
+
+      <p>The Registrar examined the information available and formed the view that
+      the grievances raised by investors required examination. He issued a written
+      order informing the company of the allegations and called upon it to furnish
+      explanations. The company was also given a reasonable opportunity of being
+      heard.</p>
+
+      <p>During the inquiry, the Registrar noticed transactions suggesting that
+      certain company funds had been diverted for purposes unrelated to the
+      company's business. The Registrar subsequently prepared an inspection report
+      recommending further investigation and gave reasons for his recommendation.</p>
+
+      <p>The Central Government received the report and considered whether a formal
+      investigation into the affairs of the company was necessary.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_MEDIUM_02_Q1",
+        difficulty: "Medium",
+        question: "The Registrar may conduct an inquiry under Section 206(4) where:",
+        options: [
+          "Investor grievances are not being addressed",
+          "The company declares dividend",
+          "A director retires",
+          "The company changes its auditor"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 206(4) specifically permits inquiry where the Registrar is satisfied that grievances of investors are not being addressed.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_02_Q2",
+        difficulty: "Medium",
+        question: "Before conducting the inquiry under Section 206(4), the Registrar should:",
+        options: [
+          "Inform the company of the allegations and provide a reasonable opportunity of being heard",
+          "Obtain approval from every shareholder",
+          "Obtain approval from the statutory auditor",
+          "Immediately seize all books"
+        ],
+        answer: 0,
+        solution_html: "<p>The Registrar must inform the company of the allegations through a written order and provide a reasonable opportunity of being heard before conducting the inquiry.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_02_Q3",
+        difficulty: "Medium",
+        question: "The Registrar's report recommending further investigation should:",
+        options: [
+          "Contain no reasons",
+          "Be supported by reasons",
+          "Be approved by shareholders",
+          "Be prepared only orally"
+        ],
+        answer: 1,
+        solution_html: "<p>Under Section 208, a recommendation for further investigation must be accompanied by reasons supporting the recommendation.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_02_Q4",
+        difficulty: "Medium",
+        question: "On receipt of the report, the Central Government may:",
+        options: [
+          "Order an investigation if it considers it necessary",
+          "Only close the company",
+          "Only remove the directors",
+          "Only appoint a new auditor"
+        ],
+        answer: 0,
+        solution_html: "<p>Under Section 210, the Central Government may order an investigation into the affairs of a company where it considers investigation necessary.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_02_Q5",
+        difficulty: "Medium",
+        question: "The inquiry conducted by the Registrar under Section 206(4) is primarily:",
+        options: [
+          "A fact-finding administrative process",
+          "A winding-up proceeding",
+          "A criminal trial",
+          "A statutory audit"
+        ],
+        answer: 0,
+        solution_html: "<p>The inquiry under Section 206(4) is fact-finding and administrative in nature.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 3
+  // =========================================================
+  {
+    case_id: "C4_MEDIUM_03",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 209 & 220"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p><strong>Prime Steel Limited</strong> was suspected of falsifying its
+      accounting records. The Inspector received information indicating that
+      certain original invoices and accounting registers were being altered and
+      that some records might be secretly removed from the company's premises.</p>
+
+      <p>During an investigation under Chapter XIV, the Inspector concluded that
+      immediate seizure of certain books and papers was necessary to preserve
+      evidence. The company was permitted to take copies of the records before
+      they were taken into custody.</p>
+
+      <p>The management argued that the Inspector could retain the documents for
+      an unlimited period. The Inspector explained that the rules applicable to
+      seizure under Section 220 differ from the period applicable to seizure under
+      Section 209.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_MEDIUM_03_Q1",
+        difficulty: "Medium",
+        question: "If the Registrar is exercising seizure powers under Section 209, an order of which authority is required?",
+        options: [
+          "Special Court",
+          "Statutory auditor",
+          "Company Secretary",
+          "Shareholders"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 209 requires an order from the Special Court before the Registrar or Inspector exercises the search and seizure power under that section.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_03_Q2",
+        difficulty: "Medium",
+        question: "During an investigation under Chapter XIV, the Inspector's seizure power under Section 220 arises when there are reasonable grounds to believe that books may be:",
+        options: [
+          "Destroyed, mutilated, altered, falsified or secreted",
+          "Audited",
+          "Published",
+          "Properly maintained"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 220 permits seizure where the Inspector has reasonable grounds to believe that books and papers are likely to be destroyed, mutilated, altered, falsified or secreted.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_03_Q3",
+        difficulty: "Medium",
+        question: "Under Section 220, the Inspector may seize documents:",
+        options: [
+          "Without allowing the company to take copies",
+          "After allowing the company to take copies or extracts at its cost",
+          "Only after shareholders approve",
+          "Only after the auditor certifies them"
+        ],
+        answer: 1,
+        solution_html: "<p>The Inspector may seize necessary books and papers after allowing the company to take copies of or extracts from them at its cost.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_03_Q4",
+        difficulty: "Medium",
+        question: "Under Section 220, the Inspector may generally retain seized books until:",
+        options: [
+          "The conclusion of the investigation, as considered necessary",
+          "Only 30 days",
+          "Only 60 days",
+          "Permanently"
+        ],
+        answer: 0,
+        solution_html: "<p>Under Section 220, the Inspector may retain the books and papers for a period not later than the conclusion of the investigation, as considered necessary.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_03_Q5",
+        difficulty: "Medium",
+        question: "Which statement correctly distinguishes Sections 209 and 220?",
+        options: [
+          "Both provisions always require a Special Court order",
+          "Section 209 concerns seizure by Registrar/Inspector after Special Court order, whereas Section 220 concerns seizure by Inspector during investigation",
+          "Section 220 applies only to auditors",
+          "Section 209 applies only to shareholders"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 209 specifically requires a Special Court order for the Registrar or Inspector to search and seize. Section 220 provides seizure powers to an Inspector during an investigation under Chapter XIV.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 4
+  // =========================================================
+  {
+    case_id: "C4_MEDIUM_04",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 210"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p><strong>Blue Horizon Infrastructure Limited</strong> was accused of
+      entering into transactions that benefited certain directors at the expense
+      of the company. A report of the Registrar recommended further investigation.</p>
+
+      <p>The Central Government examined the report and concluded that an
+      investigation was necessary. Around the same time, a Tribunal proceeding
+      concerning the company resulted in an order stating that the affairs of the
+      company ought to be investigated.</p>
+
+      <p>The Central Government decided to appoint inspectors to investigate the
+      affairs of the company and report their findings in the manner directed by
+      the Government.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_MEDIUM_04_Q1",
+        difficulty: "Medium",
+        question: "Which of the following may independently provide a basis for investigation under Section 210?",
+        options: [
+          "A report of the Registrar or Inspector under Section 208",
+          "Appointment of a new employee",
+          "Payment of dividend",
+          "Change in registered office"
+        ],
+        answer: 0,
+        solution_html: "<p>A report of the Registrar or Inspector under Section 208 is one of the specified bases under Section 210.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_04_Q2",
+        difficulty: "Medium",
+        question: "Where a Tribunal orders that the affairs of the company ought to be investigated, the Central Government:",
+        options: [
+          "May ignore the order",
+          "Shall order an investigation",
+          "Must dissolve the company",
+          "Must appoint the company's auditor as inspector"
+        ],
+        answer: 1,
+        solution_html: "<p>Under Section 210(2), where a court or Tribunal passes an order that the affairs of a company ought to be investigated, the Central Government shall order an investigation.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_04_Q3",
+        difficulty: "Medium",
+        question: "For purposes of investigation, the Central Government may appoint:",
+        options: [
+          "One or more inspectors",
+          "Only one shareholder",
+          "Only the statutory auditor",
+          "Only the managing director"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 210(3) permits the Central Government to appoint one or more persons as inspectors.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_04_Q4",
+        difficulty: "Medium",
+        question: "The inspectors are appointed to:",
+        options: [
+          "Investigate and report on the affairs of the company",
+          "Approve annual accounts",
+          "Declare dividend",
+          "Conduct the company's AGM"
+        ],
+        answer: 0,
+        solution_html: "<p>The function of inspectors under Section 210 is to investigate into the affairs of the company and report thereon in the manner directed.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_04_Q5",
+        difficulty: "Medium",
+        question: "Which of the following is NOT a stated basis under Section 210(1) for the Central Government to order investigation?",
+        options: [
+          "Special resolution of the company",
+          "Report of Registrar or Inspector under Section 208",
+          "Public interest",
+          "Appointment of a new statutory auditor"
+        ],
+        answer: 3,
+        solution_html: "<p>Appointment of a new statutory auditor is not a specified basis under Section 210.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 5
+  // =========================================================
+  {
+    case_id: "C4_MEDIUM_05",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 211 & 212"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p><strong>Quantum Healthcare Limited</strong> was suspected of carrying out
+      complex transactions involving multiple group companies. The transactions
+      involved issues relating to financial accounting, taxation, information
+      technology and forensic audit.</p>
+
+      <p>The Central Government considered that the matter required specialised
+      investigation and decided to assign the investigation to the Serious Fraud
+      Investigation Office (SFIO).</p>
+
+      <p>After receiving the order, the Director of SFIO designated inspectors for
+      the investigation. Another government investigating agency had already
+      commenced investigation into certain offences under the Companies Act.
+      Since the case had now been assigned to SFIO, the concerned agency was
+      required to transfer the relevant records to SFIO.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_MEDIUM_05_Q1",
+        difficulty: "Medium",
+        question: "Why is SFIO particularly suitable for the investigation described?",
+        options: [
+          "It can include experts from specialised fields",
+          "It is controlled by the company's directors",
+          "It consists only of shareholders",
+          "It conducts only statutory audits"
+        ],
+        answer: 0,
+        solution_html: "<p>SFIO may consist of experts from fields such as financial accounting, taxation, forensic audit, information technology, cyber forensics, law and others.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_05_Q2",
+        difficulty: "Medium",
+        question: "Who designates the inspectors after an investigation is assigned to SFIO?",
+        options: [
+          "Director, SFIO",
+          "Statutory auditor",
+          "Company Secretary",
+          "NCLT Registrar"
+        ],
+        answer: 0,
+        solution_html: "<p>On receipt of the Central Government's order, the Director, SFIO may designate such number of inspectors as considered necessary.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_05_Q3",
+        difficulty: "Medium",
+        question: "After assignment to SFIO, another Central or State Government investigating agency:",
+        options: [
+          "Can continue independently under the Companies Act",
+          "Cannot proceed further with investigation in respect of the relevant Companies Act offences",
+          "Must investigate the matter again",
+          "Must close all unrelated investigations"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 212(2) provides that once a case is assigned to SFIO, no other investigating agency of the Central or State Government shall proceed with investigation in respect of an offence under the Companies Act covered by the assignment.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_05_Q4",
+        difficulty: "Medium",
+        question: "The existing investigating agency should transfer to SFIO:",
+        options: [
+          "Relevant documents and records",
+          "Only its employees",
+          "Only its office premises",
+          "Only the company's directors"
+        ],
+        answer: 0,
+        solution_html: "<p>Where investigation has already been initiated, the concerned agency must transfer the relevant documents and records to SFIO.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_05_Q5",
+        difficulty: "Medium",
+        question: "SFIO submits its investigation report to:",
+        options: [
+          "Central Government",
+          "Company's shareholders",
+          "Registrar of Companies only",
+          "Statutory auditor"
+        ],
+        answer: 0,
+        solution_html: "<p>SFIO conducts the investigation and submits its report to the Central Government within the period specified in the order.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 6
+  // =========================================================
+  {
+    case_id: "C4_MEDIUM_06",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 213"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p><strong>Silverline Textiles Limited</strong> has a share capital and
+      has 1,000 members. A group of 120 members became concerned that the business
+      of the company was being conducted in a manner intended to defraud
+      creditors and members.</p>
+
+      <p>The members collected documents showing certain suspicious transactions
+      and approached the National Company Law Tribunal seeking an investigation
+      into the affairs of the company.</p>
+
+      <p>The company opposed the application and argued that the members had no
+      right to seek investigation merely because they were dissatisfied with
+      management decisions. The Tribunal considered the number of applicants and
+      the evidence produced by them before deciding whether investigation should
+      be ordered.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_MEDIUM_06_Q1",
+        difficulty: "Medium",
+        question: "For a company having share capital, an application under Section 213 may be made by at least:",
+        options: [
+          "10 members",
+          "50 members",
+          "100 members or one-tenth of the members, whichever is less",
+          "All members"
+        ],
+        answer: 2,
+        solution_html: "<p>For a company having share capital, Section 213 permits an application by 100 or more members or by members holding not less than one-tenth of the total voting power, subject to the statutory conditions.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_06_Q2",
+        difficulty: "Medium",
+        question: "In the case, 120 members of a company having 1,000 members have applied. Numerically, the applicants satisfy:",
+        options: [
+          "The 100-member threshold",
+          "Only a 50-member threshold",
+          "No statutory threshold",
+          "The requirement that every member must apply"
+        ],
+        answer: 0,
+        solution_html: "<p>Since the company has 1,000 members, the group of 120 members exceeds the 100-member threshold specified for a company having share capital.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_06_Q3",
+        difficulty: "Medium",
+        question: "Apart from the required number of members, the applicants should support the application with:",
+        options: [
+          "Evidence showing good reasons for seeking investigation",
+          "Only a newspaper advertisement",
+          "Only an auditor's resignation",
+          "No evidence at all"
+        ],
+        answer: 0,
+        solution_html: "<p>The application must be supported by evidence necessary to show that the applicants have good reasons for seeking an investigation.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_06_Q4",
+        difficulty: "Medium",
+        question: "Before ordering investigation under Section 213, the Tribunal must provide:",
+        options: [
+          "A reasonable opportunity of being heard to the concerned parties",
+          "Only 24 hours' notice",
+          "No hearing",
+          "Only an auditor's opinion"
+        ],
+        answer: 0,
+        solution_html: "<p>The Tribunal may pass an order under Section 213 only after giving the concerned parties a reasonable opportunity of being heard.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_06_Q5",
+        difficulty: "Medium",
+        question: "If investigation establishes that the company's business was conducted with intent to defraud creditors, the persons covered by Section 213 may be punished:",
+        options: [
+          "Under Section 447",
+          "Only by a civil warning",
+          "Only by removal from office",
+          "Under Section 211"
+        ],
+        answer: 0,
+        solution_html: "<p>Where the specified fraudulent conduct is established, the officers in default and persons concerned in formation or management may be punishable for fraud under Section 447.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 7
+  // =========================================================
+  {
+    case_id: "C4_MEDIUM_07",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 216 & 222"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p><strong>Summit Capital Limited</strong> noticed that a group of persons
+      appeared to exercise significant influence over the company's policies.
+      Their beneficial interest in certain shares was not immediately apparent
+      from the company's ordinary membership records.</p>
+
+      <p>The Central Government considered appointing inspectors to determine the
+      true persons who were financially interested in the company and those who
+      were able to control or materially influence its policy.</p>
+
+      <p>During the investigation, concerns arose regarding certain securities
+      issued by the company. The Tribunal considered whether restrictions should
+      be imposed on those securities so that the relevant facts could be properly
+      determined.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_MEDIUM_07_Q1",
+        difficulty: "Medium",
+        question: "The investigation into the true beneficial and controlling interests is primarily covered by:",
+        options: [
+          "Section 206",
+          "Section 216",
+          "Section 225",
+          "Section 229"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 216 deals with investigation into ownership and related membership matters to determine the true persons financially interested or exercising control or influence.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_07_Q2",
+        difficulty: "Medium",
+        question: "Under Section 216, inspectors may investigate persons who:",
+        options: [
+          "Have beneficial interest in shares",
+          "Are only employees",
+          "Are only statutory auditors",
+          "Are only creditors"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 216 covers persons who have or had beneficial interest in shares or are beneficial or significant beneficial owners.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_07_Q3",
+        difficulty: "Medium",
+        question: "Who may impose restrictions upon securities under Section 222?",
+        options: [
+          "Tribunal",
+          "Statutory auditor",
+          "Company secretary",
+          "Registrar alone"
+        ],
+        answer: 0,
+        solution_html: "<p>The Tribunal may impose restrictions upon securities under Section 222 in the circumstances specified.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_07_Q4",
+        difficulty: "Medium",
+        question: "Restrictions under Section 222 may be imposed for a period not exceeding:",
+        options: [
+          "Six months",
+          "One year",
+          "Three years",
+          "Ten years"
+        ],
+        answer: 2,
+        solution_html: "<p>The Tribunal may impose restrictions upon securities for a period not exceeding three years.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_07_Q5",
+        difficulty: "Medium",
+        question: "The purpose of restrictions under Section 222 is primarily to:",
+        options: [
+          "Assist in finding relevant facts concerning securities",
+          "Increase dividend",
+          "Remove the statutory auditor",
+          "Close the company"
+        ],
+        answer: 0,
+        solution_html: "<p>Restrictions may be imposed where the Tribunal considers that relevant facts concerning securities cannot be found out unless such restrictions are imposed.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 8
+  // =========================================================
+  {
+    case_id: "C4_MEDIUM_08",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 217"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p><strong>Evergreen Motors Limited</strong> was undergoing an investigation
+      into certain transactions involving its former Managing Director. The
+      Inspector required the present directors, employees and former employees
+      to preserve and produce books and papers relating to the company.</p>
+
+      <p>The former Managing Director claimed that since he had already left the
+      company, he was no longer required to cooperate. The Inspector also wished
+      to examine an external person who had knowledge of the transactions and
+      requested the necessary approval before examining that person on oath.</p>
+
+      <p>The Inspector explained that certain investigation powers extend to
+      former officers and employees and that persons may be required to appear
+      personally for examination.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_MEDIUM_08_Q1",
+        difficulty: "Medium",
+        question: "Under Section 217, the duty to preserve and produce books extends to:",
+        options: [
+          "Only current directors",
+          "Current and former officers, employees and agents covered by the section",
+          "Only shareholders",
+          "Only statutory auditors"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 217 imposes duties on officers, employees and agents, including former officers, employees and agents, to preserve and produce relevant books and papers.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_08_Q2",
+        difficulty: "Medium",
+        question: "The Inspector may require a person to appear before him for:",
+        options: [
+          "Examination on oath",
+          "Election as director",
+          "Payment of dividend",
+          "Approval of accounts"
+        ],
+        answer: 0,
+        solution_html: "<p>Under Section 217, the Inspector may examine persons on oath and may require them to appear personally for that purpose.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_08_Q3",
+        difficulty: "Medium",
+        question: "For examination of a person other than those specifically covered under Section 217(1), the Inspector generally requires prior approval of:",
+        options: [
+          "Central Government",
+          "Shareholders",
+          "Statutory auditor",
+          "Company secretary"
+        ],
+        answer: 0,
+        solution_html: "<p>For examination of any other person, prior approval of the Central Government is required. In a Section 212 investigation, prior approval of the Director, SFIO is sufficient.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_08_Q4",
+        difficulty: "Medium",
+        question: "The Inspector has powers similar to a civil court regarding:",
+        options: [
+          "Summoning persons and examining them on oath",
+          "Appointing directors",
+          "Declaring dividends",
+          "Approving mergers"
+        ],
+        answer: 0,
+        solution_html: "<p>The Inspector has civil-court-like powers regarding discovery and production of documents, summoning and enforcing attendance, and examination on oath.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_08_Q5",
+        difficulty: "Medium",
+        question: "Notes of examination under Section 217 are:",
+        options: [
+          "Taken down in writing and signed by the person examined",
+          "Always destroyed after examination",
+          "Kept only orally",
+          "Valid only if signed by shareholders"
+        ],
+        answer: 0,
+        solution_html: "<p>The notes of examination must be taken down in writing, read over to or by the person examined and signed by that person. They may thereafter be used in evidence.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 9
+  // =========================================================
+  {
+    case_id: "C4_MEDIUM_09",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 218"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p><strong>National Logistics Limited</strong> was undergoing an
+      investigation into its affairs. One employee, Meera, provided information
+      to the Inspector concerning suspicious transactions involving senior
+      management.</p>
+
+      <p>Shortly thereafter, the company proposed to remove Meera from her
+      position and reduce her rank. The company submitted an application to the
+      Tribunal seeking approval for the proposed action.</p>
+
+      <p>The Tribunal sent an objection to the company. The company was
+      dissatisfied with the objection and considered challenging the Tribunal's
+      decision before the Appellate Tribunal.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_MEDIUM_09_Q1",
+        difficulty: "Medium",
+        question: "The company's proposal to reduce Meera's rank during investigation is covered by:",
+        options: [
+          "Section 218",
+          "Section 211",
+          "Section 223",
+          "Section 229"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 218 protects employees during investigation against specified adverse actions, including reduction in rank.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_09_Q2",
+        difficulty: "Medium",
+        question: "Before taking the proposed adverse action, the company should:",
+        options: [
+          "Obtain Tribunal approval",
+          "Obtain approval from all employees",
+          "Obtain approval from the statutory auditor",
+          "Obtain approval from creditors"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 218 requires Tribunal approval before specified adverse employment actions are taken during the relevant investigation or proceedings.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_09_Q3",
+        difficulty: "Medium",
+        question: "If the Tribunal raises an objection to the proposed action, the company may:",
+        options: [
+          "Prefer an appeal to the Appellate Tribunal",
+          "Ignore the Tribunal",
+          "Immediately terminate the employee",
+          "Close the investigation"
+        ],
+        answer: 0,
+        solution_html: "<p>If dissatisfied with the objection raised by the Tribunal, the concerned company may prefer an appeal to the Appellate Tribunal within 30 days of receipt of the notice.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_09_Q4",
+        difficulty: "Medium",
+        question: "The appeal against the Tribunal's objection must generally be made within:",
+        options: [
+          "7 days",
+          "15 days",
+          "30 days",
+          "180 days"
+        ],
+        answer: 2,
+        solution_html: "<p>Section 218 provides a period of 30 days from receipt of the notice of objection for preferring an appeal to the Appellate Tribunal.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_09_Q5",
+        difficulty: "Medium",
+        question: "The protection under Section 218 covers:",
+        options: [
+          "Only dismissal",
+          "Only suspension",
+          "Specified adverse employment actions including dismissal, removal, reduction in rank and disadvantageous changes in employment terms",
+          "Only salary reduction"
+        ],
+        answer: 2,
+        solution_html: "<p>Section 218 covers discharge, suspension, punishment by dismissal or removal, reduction in rank and changes in terms of employment to the employee's disadvantage.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 10
+  // =========================================================
+  {
+    case_id: "C4_MEDIUM_10",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 219"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p><strong>Meridian Consumer Products Limited</strong> was being
+      investigated by an Inspector. During the investigation, the Inspector
+      discovered that several suspicious payments had been routed through the
+      company's wholly owned subsidiary.</p>
+
+      <p>The Inspector considered that examining the subsidiary's records was
+      necessary to understand the affairs of Meridian Consumer Products Limited.
+      The subsidiary was managed by the same person who was the Managing Director
+      of the main company.</p>
+
+      <p>The Inspector proposed to investigate the subsidiary and also wanted to
+      examine a former employee of the main company who had handled the relevant
+      transactions.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_MEDIUM_10_Q1",
+        difficulty: "Medium",
+        question: "Can an Inspector investigating a company also investigate its subsidiary where necessary for the investigation?",
+        options: [
+          "Yes, subject to the statutory requirements",
+          "No, under any circumstances",
+          "Only if shareholders unanimously agree",
+          "Only if the statutory auditor agrees"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 219 permits an Inspector, subject to the statutory requirements and prior approval of the Central Government, to investigate specified related companies where necessary for the main investigation.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_10_Q2",
+        difficulty: "Medium",
+        question: "A subsidiary of the company is one of the bodies corporate covered under Section 219 because it is:",
+        options: [
+          "A related company specified under the section",
+          "Always an unrelated third party",
+          "A government department",
+          "A statutory auditor"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 219 specifically covers a company's subsidiary, holding company and subsidiary of its holding company, subject to the statutory conditions.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_10_Q3",
+        difficulty: "Medium",
+        question: "The Inspector's investigation of the related body corporate requires:",
+        options: [
+          "Prior approval of the Central Government",
+          "Approval of the company's shareholders only",
+          "Approval of the subsidiary's auditor",
+          "No statutory approval"
+        ],
+        answer: 0,
+        solution_html: "<p>Under Section 219, the Inspector may investigate the affairs of the related body corporate subject to prior approval of the Central Government.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_10_Q4",
+        difficulty: "Medium",
+        question: "Section 219 may also cover a person who:",
+        options: [
+          "Is or has been the company's Managing Director, manager or employee",
+          "Has never had any connection with the company",
+          "Is only a customer",
+          "Is only a competitor"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 219 permits investigation into a person who is or has been the company's Managing Director, manager or employee, where the statutory conditions are satisfied.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_10_Q5",
+        difficulty: "Medium",
+        question: "The additional investigation should be undertaken only so far as:",
+        options: [
+          "Its results are relevant to the investigation of the original company",
+          "The related company requests it",
+          "The employee requests it",
+          "The auditor wants it"
+        ],
+        answer: 0,
+        solution_html: "<p>The Inspector investigates the related body corporate or person to the extent that the results are relevant to the investigation of the affairs of the company for which the Inspector was appointed.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 11
+  // =========================================================
+  {
+    case_id: "C4_MEDIUM_11",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 221"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p><strong>Harbor Exports Limited</strong> was undergoing an investigation
+      into its affairs. During the proceedings, evidence emerged that the
+      company's directors might transfer substantial company assets to related
+      entities before the investigation was completed.</p>
+
+      <p>A creditor having an outstanding amount exceeding the statutory threshold
+      approached the Tribunal, stating that the proposed transfer would prejudice
+      the interests of creditors.</p>
+
+      <p>The Tribunal considered whether restrictions should be imposed on the
+      removal, transfer or disposal of the company's funds, assets and properties.
+      The management argued that the Tribunal could not impose such restrictions
+      for a long period.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_MEDIUM_11_Q1",
+        difficulty: "Medium",
+        question: "The provision concerning freezing of assets during inquiry and investigation is:",
+        options: [
+          "Section 221",
+          "Section 216",
+          "Section 208",
+          "Section 229"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 221 deals with freezing of assets of a company on inquiry and investigation.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_11_Q2",
+        difficulty: "Medium",
+        question: "A creditor having the prescribed outstanding amount may approach the Tribunal where there is reasonable ground to believe that assets may be:",
+        options: [
+          "Removed, transferred or disposed of prejudicially",
+          "Properly audited",
+          "Used in ordinary business",
+          "Insured"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 221 permits action where there are reasonable grounds to believe that removal, transfer or disposal of company assets is likely to prejudice the interests of the company, shareholders or creditors or is against public interest.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_11_Q3",
+        difficulty: "Medium",
+        question: "The Tribunal may restrict removal, transfer or disposal of assets for a period not exceeding:",
+        options: [
+          "One year",
+          "Two years",
+          "Three years",
+          "Five years"
+        ],
+        answer: 2,
+        solution_html: "<p>Section 221 permits the Tribunal to impose restrictions for a period not exceeding three years.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_11_Q4",
+        difficulty: "Medium",
+        question: "The Tribunal may also permit transfer of assets subject to:",
+        options: [
+          "Conditions and restrictions it considers fit",
+          "No conditions whatsoever",
+          "Approval of employees only",
+          "Approval of the statutory auditor only"
+        ],
+        answer: 0,
+        solution_html: "<p>The Tribunal may direct that transfer, removal or disposal shall take place subject to such conditions and restrictions as it considers fit.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_11_Q5",
+        difficulty: "Medium",
+        question: "Contravention of a Tribunal order under Section 221 can result in:",
+        options: [
+          "Fine for the company and imprisonment/fine for the officer in default",
+          "Only a warning",
+          "Only removal of the auditor",
+          "No consequence"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 221 provides specified fines for the company and imprisonment and/or fine for the officer in default where the Tribunal's order is contravened.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 12
+  // =========================================================
+  {
+    case_id: "C4_MEDIUM_12",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 223 & 224"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p><strong>Everest Pharmaceuticals Limited</strong> was investigated by
+      inspectors appointed under Chapter XIV. During the investigation, the
+      Inspector submitted an interim report to the Central Government and later
+      completed the investigation and submitted the final report.</p>
+
+      <p>The final report indicated that certain directors had committed offences
+      in connection with the affairs of the company. It also stated that certain
+      company property had been wrongfully diverted for the personal benefit of
+      one of the directors.</p>
+
+      <p>The Central Government examined the report and considered prosecution
+      against the persons responsible. It also considered whether proceedings
+      should be initiated for recovery of the wrongfully diverted property.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_MEDIUM_12_Q1",
+        difficulty: "Medium",
+        question: "An Inspector may submit an interim report:",
+        options: [
+          "And shall submit a final report on conclusion of investigation",
+          "But can never submit a final report",
+          "Only after company approval",
+          "Only after shareholder approval"
+        ],
+        answer: 0,
+        solution_html: "<p>Under Section 223, an Inspector may submit interim reports and shall submit a final report to the Central Government on completion of the investigation.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_12_Q2",
+        difficulty: "Medium",
+        question: "If the Inspector's report indicates that a person committed a criminal offence, the Central Government may:",
+        options: [
+          "Prosecute the person",
+          "Only issue a warning",
+          "Only remove the person as director",
+          "Ignore the report"
+        ],
+        answer: 0,
+        solution_html: "<p>Under Section 224, if the report indicates that a person is guilty of an offence for which he is criminally liable, the Central Government may prosecute that person.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_12_Q3",
+        difficulty: "Medium",
+        question: "Where a report indicates that company property has been wrongfully retained, proceedings may be initiated for:",
+        options: [
+          "Recovery of the property",
+          "Increasing share capital",
+          "Appointment of auditors",
+          "Declaration of dividend"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 224 permits proceedings for recovery of property that has been misapplied or wrongfully retained.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_12_Q4",
+        difficulty: "Medium",
+        question: "Where fraud has resulted in undue benefit to a director, the Central Government may seek:",
+        options: [
+          "Disgorgement of the asset, property or cash",
+          "Automatic promotion of the director",
+          "Cancellation of all company debts",
+          "Increase in director remuneration"
+        ],
+        answer: 0,
+        solution_html: "<p>Where fraud has resulted in undue advantage or benefit, the Central Government may apply to the Tribunal for appropriate orders regarding disgorgement of the asset, property or cash.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_12_Q5",
+        difficulty: "Medium",
+        question: "The final report under Section 223 is submitted to:",
+        options: [
+          "Central Government",
+          "Only shareholders",
+          "Only creditors",
+          "Statutory auditor"
+        ],
+        answer: 0,
+        solution_html: "<p>The Inspector submits the final report to the Central Government on completion of the investigation.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 13
+  // =========================================================
+  {
+    case_id: "C4_MEDIUM_13",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 225"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p><strong>Crystal Engineering Limited</strong> was investigated by an
+      Inspector appointed by the Central Government. The investigation resulted
+      in prosecution against certain officers of the company and proceedings
+      relating to recovery of company property.</p>
+
+      <p>The Central Government had initially defrayed the expenses of the
+      investigation. Following the proceedings, the court considered the extent
+      to which the persons convicted or ordered to restore property should
+      reimburse the investigation expenses.</p>
+
+      <p>The company also recovered certain property as a result of the
+      proceedings. The authorities considered whether the company could be
+      required to bear investigation expenses to the extent provided under the
+      Act.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_MEDIUM_13_Q1",
+        difficulty: "Medium",
+        question: "Investigation expenses are initially defrayed by:",
+        options: [
+          "Central Government",
+          "Only the company's shareholders",
+          "Only the statutory auditor",
+          "Only the directors"
+        ],
+        answer: 0,
+        solution_html: "<p>Under Section 225, expenses of and incidental to an investigation by an Inspector appointed by the Central Government are initially defrayed by the Central Government.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_13_Q2",
+        difficulty: "Medium",
+        question: "A person convicted following prosecution may be required to reimburse investigation expenses:",
+        options: [
+          "To the extent ordered in the proceedings",
+          "Always for unlimited amount",
+          "Never",
+          "Only if shareholders approve"
+        ],
+        answer: 0,
+        solution_html: "<p>A person convicted may be required to reimburse expenses to the extent that the court specifies in the same proceedings.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_13_Q3",
+        difficulty: "Medium",
+        question: "A person ordered to restore property may also be liable for:",
+        options: [
+          "Investigation expenses to the extent specified",
+          "No expenses under any circumstances",
+          "Only future audit fees",
+          "Only employee salaries"
+        ],
+        answer: 0,
+        solution_html: "<p>Persons ordered to pay damages or restore property may be required to reimburse investigation expenses to the extent specified in the proceedings.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_13_Q4",
+        difficulty: "Medium",
+        question: "Where the company recovers property as a result of proceedings, it may be required to reimburse expenses:",
+        options: [
+          "To the extent of the amount or value recovered, as applicable",
+          "Without any limit",
+          "Only if the auditor agrees",
+          "Never"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 225 provides for reimbursement by the company or body corporate to the extent of the amount or value of sums or property recovered as a result of the proceedings.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_13_Q5",
+        difficulty: "Medium",
+        question: "The provisions relating to investigation expenses are contained in:",
+        options: [
+          "Section 225",
+          "Section 206",
+          "Section 216",
+          "Section 229"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 225 deals with expenses of investigation.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 14
+  // =========================================================
+  {
+    case_id: "C4_MEDIUM_14",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 226 & 227"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p><strong>Suncrest Holdings Limited</strong> was under investigation into
+      certain transactions involving related parties. During the investigation,
+      the company passed a special resolution for voluntary winding up.</p>
+
+      <p>The directors argued that since the company was now being voluntarily
+      wound up, the investigation should immediately stop. The Inspector,
+      however, continued the investigation and explained that voluntary winding
+      up does not by itself stop an investigation under Chapter XIV.</p>
+
+      <p>During the investigation, the Inspector also requested certain information
+      from the company's legal adviser concerning communications between the
+      adviser and the company. The legal adviser claimed that the communication
+      was privileged.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_MEDIUM_14_Q1",
+        difficulty: "Medium",
+        question: "Does passing a special resolution for voluntary winding up automatically stop an investigation under Chapter XIV?",
+        options: [
+          "Yes",
+          "No",
+          "Only if the auditor agrees",
+          "Only if shareholders unanimously agree"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 226 expressly provides that an investigation is not stopped or suspended merely because the company has passed a special resolution for voluntary winding up.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_14_Q2",
+        difficulty: "Medium",
+        question: "An investigation may continue notwithstanding:",
+        options: [
+          "A winding-up proceeding pending before the Tribunal",
+          "Only a change in auditor",
+          "Only a change in registered office",
+          "Only payment of dividend"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 226 provides that investigation may continue notwithstanding winding-up proceedings pending before the Tribunal.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_14_Q3",
+        difficulty: "Medium",
+        question: "A legal adviser is generally not required to disclose:",
+        options: [
+          "Privileged communication made to him in his capacity as legal adviser",
+          "The client's name and address",
+          "All public information",
+          "Company's published annual report"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 227 protects privileged communications made to a legal adviser in that capacity, although the name and address of the client are not protected by this provision.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_14_Q4",
+        difficulty: "Medium",
+        question: "Section 227 also provides protection concerning information held by:",
+        options: [
+          "Bankers about the affairs of customers other than the company/body corporate/person concerned",
+          "Employees about company salaries",
+          "Shareholders about dividends",
+          "Directors about meetings"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 227 states that bankers are not required to disclose information about the affairs of customers other than the company, body corporate or person concerned.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_14_Q5",
+        difficulty: "Medium",
+        question: "The legal adviser's privilege under Section 227 protects:",
+        options: [
+          "Privileged communication made to him in that capacity",
+          "All information of every kind",
+          "Only financial statements",
+          "Only information filed with ROC"
+        ],
+        answer: 0,
+        solution_html: "<p>The protection specifically concerns privileged communication made to the legal adviser in that capacity.</p>"
+      }
+
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 15
+  // =========================================================
+  {
+    case_id: "C4_MEDIUM_15",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 229"],
+    difficulty: "Medium",
+
+    caseText: `
+      <p><strong>Delta Manufacturing Limited</strong> was undergoing an
+      investigation into its affairs. During the investigation, the Inspector
+      discovered that certain employees had altered accounting documents after
+      receiving notice of the investigation.</p>
+
+      <p>One employee had deliberately removed several original invoices from
+      the company's records. Another employee had entered false figures into
+      certain documents. A senior officer, when questioned by the Inspector,
+      provided an explanation that he knew to be false.</p>
+
+      <p>The company argued that the employees should be dealt with only under
+      ordinary employment rules. The Inspector explained that the Companies Act
+      specifically provides consequences for destruction, mutilation,
+      falsification, concealment, tampering, unauthorized removal and false
+      statements during inspection, inquiry or investigation.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "C4_MEDIUM_15_Q1",
+        difficulty: "Medium",
+        question: "The conduct described in the case is primarily covered by:",
+        options: [
+          "Section 229",
+          "Section 211",
+          "Section 214",
+          "Section 226"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 deals with penalties for furnishing false statements and destruction, mutilation, falsification and other improper handling of documents during inspection, inquiry or investigation.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_15_Q2",
+        difficulty: "Medium",
+        question: "Unauthorized removal of documents relating to the affairs of the company may attract punishment:",
+        options: [
+          "For fraud under Section 447",
+          "Only by a warning",
+          "Only by suspension from employment",
+          "Only under the Income-tax Act"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 provides that a person engaging in specified acts including unauthorized removal of documents may be punished for fraud in the manner provided under Section 447.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_15_Q3",
+        difficulty: "Medium",
+        question: "Making a false entry in a document concerning the company may result in:",
+        options: [
+          "Punishment under Section 447",
+          "No consequence if the entry is later corrected",
+          "Only a civil warning",
+          "Automatic discharge from employment"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 covers making, or being a party to making, a false entry in any document concerning the company or body corporate and provides punishment for fraud under Section 447.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_15_Q4",
+        difficulty: "Medium",
+        question: "An explanation given during investigation that a person knows to be false is:",
+        options: [
+          "Covered under Section 229",
+          "Always legally protected",
+          "Only an employment issue",
+          "Outside the Companies Act"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 specifically covers providing an explanation which is false or which the person knows to be false.</p>"
+      },
+
+      {
+        question_id: "C4_MEDIUM_15_Q5",
+        difficulty: "Medium",
+        question: "Which of the following is NOT among the acts covered by Section 229?",
+        options: [
+          "Destruction of documents",
+          "Falsification of documents",
+          "Concealment of documents",
+          "Proper preservation of documents"
+        ],
+        answer: 3,
+        solution_html: "<p>Proper preservation of documents is not an offence under Section 229. The section addresses improper acts such as destruction, mutilation, falsification, concealment, tampering and unauthorized removal.</p>"
+      }
+
+    ]
+  },
+
+  // =========================================================
+  // HARD CASE SCENARIO 1
+  // =========================================================
+  {
+    case_id: "C4_HARD_01",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 206"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Apex Renewable Energy Limited</strong> filed its annual financial
+      statements and several other documents with the Registrar of Companies.
+      During scrutiny, the Registrar noticed that the company had reported a
+      substantial increase in revenue while its trade receivables had increased
+      disproportionately.</p>
+
+      <p>The Registrar issued a written notice under Section 206(1), requiring the
+      company to furnish explanations and supporting documents within 15 days.
+      The company submitted a reply, but the Registrar considered the explanation
+      inadequate and noticed that several supporting documents did not reconcile
+      with the figures disclosed in the financial statements.</p>
+
+      <p>The Registrar therefore decided to issue a further written notice under
+      Section 206(3). Before issuing the notice, he recorded his reasons in
+      writing. The company argued that since it had already furnished an
+      explanation, the Registrar had no authority to seek further documents.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_01_Q1",
+        difficulty: "Hard",
+        question: "Which circumstance most directly permits the Registrar to issue the further notice under Section 206(3)?",
+        options: [
+          "The company has appointed a new director",
+          "The information furnished is inadequate",
+          "The company has increased its share capital",
+          "The company has changed its registered office"
+        ],
+        answer: 1,
+        solution_html: "<p>Under Section 206(3), the Registrar may issue a further written notice where the information or explanation furnished is inadequate, among other specified circumstances.</p>"
+      },
+      {
+        question_id: "C4_HARD_01_Q2",
+        difficulty: "Hard",
+        question: "Which procedural safeguard applies before issuing the Section 206(3) notice?",
+        options: [
+          "Approval of NCLT",
+          "Approval of shareholders",
+          "Recording of reasons in writing by the Registrar",
+          "Approval of the statutory auditor"
+        ],
+        answer: 2,
+        solution_html: "<p>Before serving a notice under Section 206(3), the Registrar must record his reasons in writing.</p>"
+      },
+      {
+        question_id: "C4_HARD_01_Q3",
+        difficulty: "Hard",
+        question: "The company's contention that furnishing the first reply prevents any further notice is:",
+        options: [
+          "Correct in all cases",
+          "Correct only where the reply is signed by the auditor",
+          "Incorrect where the Registrar finds the explanation inadequate",
+          "Correct because Section 206 permits only one notice"
+        ],
+        answer: 2,
+        solution_html: "<p>Section 206(3) specifically contemplates a further notice where the earlier information or explanation is inadequate.</p>"
+      },
+      {
+        question_id: "C4_HARD_01_Q4",
+        difficulty: "Hard",
+        question: "If the company fails to comply with the requirement to furnish information under Section 206, liability may extend to:",
+        options: [
+          "Only the auditor",
+          "The company and every officer in default",
+          "Only shareholders",
+          "Only the Registrar"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 206(7) provides punishment for the company and every officer who is in default for failure to furnish information, explanation or documents.</p>"
+      },
+      {
+        question_id: "C4_HARD_01_Q5",
+        difficulty: "Hard",
+        question: "The additional fine for continuing failure under Section 206(7) may extend to:",
+        options: [
+          "₹500 per day after the first day",
+          "₹1,000 per day",
+          "₹2,000 per day",
+          "₹5,000 per day"
+        ],
+        answer: 0,
+        solution_html: "<p>For continuing failure, an additional fine may extend to ₹500 for every day after the first during which the failure continues.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 2
+  // =========================================================
+  {
+    case_id: "C4_HARD_02",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 206 & 207"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Zenith Infrastructure Limited</strong> received a notice from
+      the Registrar alleging that its business might be conducted for an
+      unlawful purpose. The allegations were based partly on information received
+      from an investor and partly on information already available with the
+      Registrar.</p>
+
+      <p>The Registrar informed the company of the allegations through a written
+      order and called upon it to furnish explanations. He also provided a
+      reasonable opportunity of being heard. During the inquiry, the Registrar
+      summoned the former Chief Financial Officer because some transactions
+      related to a period during which he was employed by the company.</p>
+
+      <p>The company argued that the Registrar could not proceed because the
+      investor subsequently withdrew the complaint. The former CFO also claimed
+      that he had no duty because he was no longer employed.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_02_Q1",
+        difficulty: "Hard",
+        question: "The Registrar can initiate inquiry under Section 206(4) based on:",
+        options: [
+          "Only a court order",
+          "Information available with him or a representation by any person, among specified grounds",
+          "Only a shareholder resolution",
+          "Only an auditor's report"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 206(4) permits inquiry where the Registrar is satisfied on information available/furnished or a representation by any person regarding fraudulent or unlawful conduct, non-compliance or unaddressed investor grievances.</p>"
+      },
+      {
+        question_id: "C4_HARD_02_Q2",
+        difficulty: "Hard",
+        question: "Withdrawal of the investor's representation after the inquiry has been ordered:",
+        options: [
+          "Automatically terminates the inquiry",
+          "Does not necessarily prevent continuation of the inquiry",
+          "Makes the Registrar personally liable",
+          "Requires shareholder approval"
+        ],
+        answer: 1,
+        solution_html: "<p>The Registrar's power under Section 206(4) is not dependent on the continued existence of the particular representation once the statutory conditions for inquiry are satisfied.</p>"
+      },
+      {
+        question_id: "C4_HARD_02_Q3",
+        difficulty: "Hard",
+        question: "The former CFO may be required to furnish information concerning the period during which he was employed because:",
+        options: [
+          "Past officers may be called upon where the information relates to their period of employment",
+          "Former officers are automatically directors",
+          "Only shareholders can provide historical information",
+          "The Registrar can question anyone without statutory authority"
+        ],
+        answer: 0,
+        solution_html: "<p>The proviso to Section 206(2) permits the Registrar to call upon past officers, through written notice, to furnish information or explanation relating to the period when they were employed.</p>"
+      },
+      {
+        question_id: "C4_HARD_02_Q4",
+        difficulty: "Hard",
+        question: "Before conducting inquiry under Section 206(4), the Registrar must:",
+        options: [
+          "Inform the company of the allegations and provide a reasonable opportunity of being heard",
+          "Obtain an SFIO order",
+          "Obtain a Special Court seizure order",
+          "Obtain approval of the auditor"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 206(4) requires the Registrar to inform the company of the allegations by written order and provide a reasonable opportunity of being heard.</p>"
+      },
+      {
+        question_id: "C4_HARD_02_Q5",
+        difficulty: "Hard",
+        question: "The Central Government may, where circumstances warrant, direct:",
+        options: [
+          "The Registrar or an inspector appointed by it to carry out the inquiry",
+          "Only the company's auditor to investigate",
+          "Only shareholders to conduct inquiry",
+          "Only the Tribunal to audit the accounts"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 206 permits the Central Government, where circumstances warrant, to direct the Registrar or an inspector appointed for the purpose to carry out the inquiry.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 3
+  // =========================================================
+  {
+    case_id: "C4_HARD_03",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 207 & 229"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Nova Chemicals Limited</strong> was subject to an inspection.
+      The Registrar directed the Finance Director to produce certain ledgers,
+      contracts and supporting documents and to provide explanations concerning
+      payments to related entities.</p>
+
+      <p>The Finance Director deliberately withheld several documents and later
+      altered entries in certain ledgers. When questioned, he provided an
+      explanation which he knew was false. The Registrar also required him to
+      assist in the inspection, but he refused to cooperate.</p>
+
+      <p>The company later argued that the conduct should be treated only as
+      non-compliance with an administrative inspection and should not have
+      criminal consequences.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_03_Q1",
+        difficulty: "Hard",
+        question: "The Finance Director's duty to produce documents and assist arises primarily under:",
+        options: [
+          "Section 207",
+          "Section 211",
+          "Section 221",
+          "Section 225"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 207 imposes duties upon directors, officers and employees to produce documents, furnish information and render assistance during inspection or inquiry.</p>"
+      },
+      {
+        question_id: "C4_HARD_03_Q2",
+        difficulty: "Hard",
+        question: "Deliberate falsification of documents during inspection may additionally attract:",
+        options: [
+          "Section 229 and punishment for fraud under Section 447",
+          "Only Section 206(1)",
+          "Only Section 214",
+          "No provision under Chapter XIV"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 covers destruction, mutilation, falsification, concealment, tampering and unauthorized removal of documents and provides punishment for fraud under Section 447.</p>"
+      },
+      {
+        question_id: "C4_HARD_03_Q3",
+        difficulty: "Hard",
+        question: "If a director or officer disobeys a direction issued by the Registrar under Section 207, the punishment may include:",
+        options: [
+          "Imprisonment up to one year and specified fine",
+          "Only ₹500 fine",
+          "Only civil damages",
+          "Automatic winding up"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 207(4) provides imprisonment which may extend to one year and fine of not less than ₹25,000 but which may extend to ₹1 lakh.</p>"
+      },
+      {
+        question_id: "C4_HARD_03_Q4",
+        difficulty: "Hard",
+        question: "Upon conviction for the offence under Section 207, the director/officer is:",
+        options: [
+          "Deemed to have vacated office and disqualified from holding office in any company",
+          "Automatically appointed as inspector",
+          "Permitted to continue without consequence",
+          "Only liable for audit fees"
+        ],
+        answer: 0,
+        solution_html: "<p>Upon conviction under Section 207, the director/officer is deemed to have vacated office and is disqualified from holding office in any company.</p>"
+      },
+      {
+        question_id: "C4_HARD_03_Q5",
+        difficulty: "Hard",
+        question: "Which conduct most directly falls under Section 229?",
+        options: [
+          "Properly producing requested documents",
+          "Knowingly providing a false explanation",
+          "Attending an inspection",
+          "Taking copies of documents"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 229 specifically covers providing an explanation which is false or which the person knows to be false.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 4
+  // =========================================================
+  {
+    case_id: "C4_HARD_04",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 208, 210 & 224"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Orchid Finance Limited</strong> was inspected by an Inspector
+      following irregularities discovered in its books. The Inspector completed
+      the inspection and submitted a written report to the Central Government.
+      The report recommended further investigation and gave detailed reasons.</p>
+
+      <p>The Central Government considered the report but initially decided that
+      further investigation was unnecessary. Several months later, additional
+      information came to its notice suggesting that certain directors had
+      committed offences.</p>
+
+      <p>The Government then reconsidered the matter and decided to order an
+      investigation. Following completion of the investigation, the Inspector's
+      report indicated criminal liability and wrongful retention of company
+      property.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_04_Q1",
+        difficulty: "Hard",
+        question: "The Inspector's recommendation for further investigation under Section 208:",
+        options: [
+          "Is binding on the Central Government",
+          "Must contain reasons but does not itself constitute the investigation order",
+          "Automatically starts prosecution",
+          "Automatically dissolves the company"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 208 permits the Inspector to recommend further investigation with reasons. The Central Government subsequently decides whether investigation should be ordered under Section 210.</p>"
+      },
+      {
+        question_id: "C4_HARD_04_Q2",
+        difficulty: "Hard",
+        question: "Can the Central Government subsequently order investigation after initially deciding not to do so?",
+        options: [
+          "Yes, if it forms the necessary opinion based on relevant circumstances",
+          "No, its first decision is permanently binding",
+          "Only with unanimous shareholder approval",
+          "Only after winding up"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 210 permits the Central Government to order investigation where it is of the opinion that investigation is necessary. An earlier decision does not permanently prevent subsequent action when circumstances warrant it.</p>"
+      },
+      {
+        question_id: "C4_HARD_04_Q3",
+        difficulty: "Hard",
+        question: "If the final Inspector's report indicates criminal liability, the Central Government may:",
+        options: [
+          "Prosecute the guilty person",
+          "Only issue an inspection notice",
+          "Only appoint another auditor",
+          "Only freeze securities under Section 222"
+        ],
+        answer: 0,
+        solution_html: "<p>Under Section 224, where the Inspector's report indicates that a person has committed an offence for which he is criminally liable, the Central Government may prosecute that person.</p>"
+      },
+      {
+        question_id: "C4_HARD_04_Q4",
+        difficulty: "Hard",
+        question: "If the report shows that company property was wrongfully retained, the Government may initiate proceedings for:",
+        options: [
+          "Recovery of such property",
+          "Automatic cancellation of all shares",
+          "Appointment of a new auditor",
+          "Increase of authorised capital"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 224 permits proceedings for recovery of property of the company that has been misapplied or wrongfully retained.</p>"
+      },
+      {
+        question_id: "C4_HARD_04_Q5",
+        difficulty: "Hard",
+        question: "Which sequence best reflects the statutory process?",
+        options: [
+          "Inspection/inquiry → report under Section 208 → possible investigation under Section 210 → report/action under Section 224",
+          "Section 224 → Section 208 → Section 206",
+          "Section 222 → Section 206 → Section 211 only",
+          "Prosecution → inspection → inquiry"
+        ],
+        answer: 0,
+        solution_html: "<p>The statutory framework permits inspection/inquiry, reporting under Section 208, investigation under Section 210 where necessary, and subsequent action based on the Inspector's report under Section 224.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 5
+  // =========================================================
+  {
+    case_id: "C4_HARD_05",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 210, 211 & 212"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Global Infra Holdings Limited</strong> passed a special
+      resolution stating that its affairs ought to be investigated. Separately,
+      the State Government informed the Central Government about suspected
+      financial irregularities. The Registrar also submitted a report recommending
+      further investigation.</p>
+
+      <p>The Central Government considered all these circumstances and concluded
+      that the complexity and seriousness of the suspected fraud justified an
+      investigation by SFIO. An investigation by a State agency had already
+      commenced in relation to certain offences under the Companies Act.</p>
+
+      <p>After the Central Government assigned the case to SFIO, the State agency
+      questioned whether it could continue its investigation independently.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_05_Q1",
+        difficulty: "Hard",
+        question: "Which of the following is NOT a specified ground under Section 212(1) for assigning investigation to SFIO?",
+        options: [
+          "Report of Registrar or Inspector under Section 208",
+          "Special resolution of the company",
+          "Public interest",
+          "Ordinary resolution of employees"
+        ],
+        answer: 3,
+        solution_html: "<p>Section 212(1) recognises a report under Section 208, special resolution, public interest and request from a Central or State Government department as specified grounds.</p>"
+      },
+      {
+        question_id: "C4_HARD_05_Q2",
+        difficulty: "Hard",
+        question: "Once the case is assigned to SFIO, the State investigating agency:",
+        options: [
+          "May continue the Companies Act investigation independently",
+          "Cannot proceed further with that investigation concerning the Companies Act offences covered by the assignment",
+          "Must appoint a new SFIO director",
+          "Must prosecute immediately"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 212(2) prevents another Central or State Government investigating agency from proceeding further with the investigation under the Companies Act once the case is assigned to SFIO.</p>"
+      },
+      {
+        question_id: "C4_HARD_05_Q3",
+        difficulty: "Hard",
+        question: "The State agency should:",
+        options: [
+          "Transfer relevant documents and records to SFIO",
+          "Destroy its records",
+          "Transfer only its employees",
+          "Transfer the company's assets"
+        ],
+        answer: 0,
+        solution_html: "<p>Where investigation has already been initiated, the concerned agency must transfer relevant documents and records to SFIO.</p>"
+      },
+      {
+        question_id: "C4_HARD_05_Q4",
+        difficulty: "Hard",
+        question: "The Central Government's assignment to SFIO is:",
+        options: [
+          "Made by order where it is of the opinion that SFIO investigation is necessary",
+          "Automatically triggered by every complaint",
+          "Made by the company's auditor",
+          "Made by the Registrar alone"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 212 provides that the Central Government may, by order, assign investigation to SFIO when it is of the opinion that investigation by SFIO is necessary.</p>"
+      },
+      {
+        question_id: "C4_HARD_05_Q5",
+        difficulty: "Hard",
+        question: "After receiving the assignment, the Director, SFIO may:",
+        options: [
+          "Designate such number of inspectors as considered necessary",
+          "Dissolve the company",
+          "Appoint all directors",
+          "Declare dividend"
+        ],
+        answer: 0,
+        solution_html: "<p>The Director, SFIO may designate such number of inspectors as he considers necessary for the investigation.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 6
+  // =========================================================
+  {
+    case_id: "C4_HARD_06",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 212"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Trident Technologies Limited</strong> was investigated by SFIO.
+      During the investigation, an Assistant Director authorised by the Central
+      Government obtained material giving him reason to believe that a senior
+      officer had committed an offence covered by Section 212(6).</p>
+
+      <p>The officer was arrested after the authorised officer recorded the
+      reasons for his belief in writing and informed the accused of the grounds
+      of arrest.</p>
+
+      <p>The company argued that the arrest was invalid because only the Director
+      of SFIO could make an arrest and that the arrested person could be kept at
+      the SFIO office until the investigation was complete.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_06_Q1",
+        difficulty: "Hard",
+        question: "Who may exercise the arrest power under Section 212(8), subject to statutory conditions?",
+        options: [
+          "Any employee of SFIO",
+          "An officer not below the rank of Assistant Director authorised by the Central Government",
+          "Only the statutory auditor",
+          "Only the Registrar"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 212(8) permits an officer not below the rank of Assistant Director of SFIO, authorised by the Central Government, to arrest a person where the statutory conditions are satisfied.</p>"
+      },
+      {
+        question_id: "C4_HARD_06_Q2",
+        difficulty: "Hard",
+        question: "Before making the arrest, the authorised officer must have:",
+        options: [
+          "Reason to believe based on material in possession, with reasons recorded in writing",
+          "Only an oral complaint",
+          "Approval from every shareholder",
+          "Approval from the accused"
+        ],
+        answer: 0,
+        solution_html: "<p>The officer must have reason to believe, based on material in his possession, that the person is guilty of the specified offence, and the reasons must be recorded in writing.</p>"
+      },
+      {
+        question_id: "C4_HARD_06_Q3",
+        difficulty: "Hard",
+        question: "The arrested person must be informed of:",
+        options: [
+          "The grounds for arrest",
+          "Only the company's financial position",
+          "Only the name of the complainant",
+          "The Inspector's salary"
+        ],
+        answer: 0,
+        solution_html: "<p>The authorised officer must inform the arrested person of the grounds for such arrest.</p>"
+      },
+      {
+        question_id: "C4_HARD_06_Q4",
+        difficulty: "Hard",
+        question: "After arrest, the person must be taken within 24 hours to:",
+        options: [
+          "Special Court or Judicial/Metropolitan Magistrate having jurisdiction",
+          "Registrar of Companies",
+          "Company's registered office",
+          "Statutory auditor"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 212(10) requires every person arrested to be taken within 24 hours to the Special Court or Judicial Magistrate/Metropolitan Magistrate having jurisdiction, excluding necessary journey time.</p>"
+      },
+      {
+        question_id: "C4_HARD_06_Q5",
+        difficulty: "Hard",
+        question: "Which statement regarding bail under Section 212(6) is correct?",
+        options: [
+          "There are statutory restrictions, subject to specified exceptions",
+          "Bail is always automatic",
+          "Bail is completely prohibited in every circumstance",
+          "Only the company can grant bail"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 212(6) imposes restrictions on bail for specified offences, while also providing statutory exceptions such as for persons under 16 years, women, or sick/infirm persons where the Special Court so directs.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 7
+  // =========================================================
+  {
+    case_id: "C4_HARD_07",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 213 & 214"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Metro Consumer Goods Limited</strong> has 2,400 registered
+      members. A group of 110 members alleges that the company's affairs are
+      being conducted in a manner oppressive to members and that the company was
+      formed partly for an unlawful purpose.</p>
+
+      <p>The applicants approach the Tribunal with documentary evidence supporting
+      their allegations. The company challenges the application, stating that the
+      applicants do not represent a sufficiently large group of members.</p>
+
+      <p>The Tribunal considers the statutory threshold, the evidence and the
+      company's submissions. The Central Government also considers whether
+      security for investigation expenses should be required before appointing
+      inspectors.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_07_Q1",
+        difficulty: "Hard",
+        question: "For a company having share capital, 110 members can satisfy the numerical requirement under Section 213 where:",
+        options: [
+          "The statutory threshold of 100 members is satisfied",
+          "Every shareholder applies",
+          "Only 10 members apply",
+          "The auditor certifies the application"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 213 permits an application by 100 or more members or members holding not less than one-tenth of the total voting power, subject to the section's conditions.</p>"
+      },
+      {
+        question_id: "C4_HARD_07_Q2",
+        difficulty: "Hard",
+        question: "If the applicants satisfy the numerical threshold but provide no supporting evidence of good reasons, the Tribunal:",
+        options: [
+          "Must automatically order investigation",
+          "Need not automatically order investigation merely because the numerical threshold is met",
+          "Must wind up the company",
+          "Must appoint the auditor as inspector"
+        ],
+        answer: 1,
+        solution_html: "<p>The application must also be supported by evidence necessary to show that the applicants have good reasons for seeking investigation.</p>"
+      },
+      {
+        question_id: "C4_HARD_07_Q3",
+        difficulty: "Hard",
+        question: "Before ordering investigation, the Tribunal must:",
+        options: [
+          "Give the concerned parties a reasonable opportunity of being heard",
+          "Obtain shareholder approval",
+          "Obtain auditor approval",
+          "Obtain SFIO approval"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 213 requires a reasonable opportunity of being heard before the Tribunal passes the investigation order.</p>"
+      },
+      {
+        question_id: "C4_HARD_07_Q4",
+        difficulty: "Hard",
+        question: "Where investigation is made by the Tribunal under Section 213, the Central Government may require the applicant to provide:",
+        options: [
+          "Security for costs and expenses of investigation",
+          "Share capital",
+          "A bank guarantee of unlimited amount",
+          "A statutory audit report"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 214 permits the Central Government to require security, not exceeding the prescribed limit, for investigation costs and expenses.</p>"
+      },
+      {
+        question_id: "C4_HARD_07_Q5",
+        difficulty: "Hard",
+        question: "The security is refundable to the applicant if:",
+        options: [
+          "The investigation results in prosecution",
+          "The company declares dividend",
+          "The applicant withdraws the application",
+          "The auditor resigns"
+        ],
+        answer: 0,
+        solution_html: "<p>The prescribed security is to be refunded to the applicant if the investigation results in prosecution.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 8
+  // =========================================================
+  {
+    case_id: "C4_HARD_08",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 216"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Eastern Capital Limited</strong> has a widely dispersed
+      shareholding pattern. The Central Government receives information suggesting
+      that several individuals are acting through nominee shareholders and
+      informal arrangements to exercise effective control over the company's
+      policy.</p>
+
+      <p>The registered members do not appear to reveal the true persons
+      financially interested in the company. The Government appoints inspectors
+      and specifies that the investigation should focus on particular shares and
+      transactions during a specified period.</p>
+
+      <p>During the investigation, the inspectors discover an informal arrangement
+      which is not legally binding but is consistently followed in practice by
+      several shareholders.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_08_Q1",
+        difficulty: "Hard",
+        question: "The primary purpose of the investigation is to determine:",
+        options: [
+          "True persons financially interested or able to control/materially influence the company",
+          "Only the company's tax liability",
+          "Only the auditor's remuneration",
+          "Only employee salaries"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 216 enables investigation into membership and ownership matters to determine true persons financially interested or able to control or materially influence company policy.</p>"
+      },
+      {
+        question_id: "C4_HARD_08_Q2",
+        difficulty: "Hard",
+        question: "Can the Central Government limit the scope of investigation to particular shares?",
+        options: [
+          "Yes",
+          "No",
+          "Only with auditor approval",
+          "Only with shareholder approval"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 216(3) permits the Central Government to define the scope of investigation and particularly limit it to matters connected with particular shares or debentures.</p>"
+      },
+      {
+        question_id: "C4_HARD_08_Q3",
+        difficulty: "Hard",
+        question: "An informal arrangement that is not legally binding but is actually observed in practice may be investigated:",
+        options: [
+          "Yes, where relevant to the investigation",
+          "No, because it is not legally binding",
+          "Only if registered with ROC",
+          "Only if approved by shareholders"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 216(4) extends the Inspector's powers to circumstances suggesting arrangements or understandings that may not be legally binding but are observed or likely to be observed in practice and are relevant to the investigation.</p>"
+      },
+      {
+        question_id: "C4_HARD_08_Q4",
+        difficulty: "Hard",
+        question: "Which person falls within the ownership investigation contemplated by Section 216?",
+        options: [
+          "A person having beneficial interest in shares",
+          "Only the statutory auditor",
+          "Only employees",
+          "Only creditors"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 216 specifically covers persons who have or had beneficial interest in shares or are beneficial/significant beneficial owners.</p>"
+      },
+      {
+        question_id: "C4_HARD_08_Q5",
+        difficulty: "Hard",
+        question: "If the Tribunal directs an investigation into membership and ownership, the Central Government:",
+        options: [
+          "Shall appoint one or more inspectors",
+          "May ignore the direction",
+          "Must dissolve the company",
+          "Must appoint the auditor as inspector"
+        ],
+        answer: 0,
+        solution_html: "<p>Where the Tribunal directs investigation into membership and related matters, Section 216(2) requires the Central Government to appoint one or more inspectors.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 9
+  // =========================================================
+  {
+    case_id: "C4_HARD_09",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 217"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Falcon Industries Limited</strong> is under investigation. The
+      Inspector requests the company and its former employees to preserve and
+      produce certain documents. A former employee refuses, claiming that his
+      employment ended two years earlier.</p>
+
+      <p>The Inspector also requires a third-party consultant to produce records
+      relevant to the investigation and proposes to examine the consultant on
+      oath. The consultant refuses to appear and also refuses to sign the notes
+      of an earlier examination.</p>
+
+      <p>The Inspector considers initiating action for failure to comply with the
+      statutory requirements.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_09_Q1",
+        difficulty: "Hard",
+        question: "The former employee's claim that leaving employment completely removes his duty is:",
+        options: [
+          "Correct",
+          "Incorrect because Section 217 expressly includes former officers, employees and agents",
+          "Correct if he has no shares",
+          "Correct if the company agrees"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 217 expressly includes former officers, employees and agents in the duty to preserve and produce relevant books and provide assistance.</p>"
+      },
+      {
+        question_id: "C4_HARD_09_Q2",
+        difficulty: "Hard",
+        question: "The Inspector may require another body corporate to produce information if:",
+        options: [
+          "It is relevant or necessary for the investigation",
+          "The body corporate is a shareholder",
+          "Its auditor agrees",
+          "It voluntarily offers information only"
+        ],
+        answer: 0,
+        solution_html: "<p>Under Section 217(2), the Inspector may require another body corporate to furnish information or produce books and papers where relevant or necessary for the investigation.</p>"
+      },
+      {
+        question_id: "C4_HARD_09_Q3",
+        difficulty: "Hard",
+        question: "Failure without reasonable cause to appear before the Inspector when required may attract:",
+        options: [
+          "Imprisonment up to six months and specified fine, plus continuing fine",
+          "Only ₹500 fine",
+          "No penalty",
+          "Automatic winding up"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 217(8) provides imprisonment up to six months, fine of ₹25,000 to ₹1 lakh and a further fine up to ₹2,000 per day for continuing failure/refusal.</p>"
+      },
+      {
+        question_id: "C4_HARD_09_Q4",
+        difficulty: "Hard",
+        question: "Refusal to sign the notes of examination is:",
+        options: [
+          "Covered by Section 217(8)",
+          "Never punishable",
+          "Only a civil matter",
+          "Covered only by Section 211"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 217(8) specifically covers failure or refusal without reasonable cause to sign the notes of examination.</p>"
+      },
+      {
+        question_id: "C4_HARD_09_Q5",
+        difficulty: "Hard",
+        question: "Books produced to the Inspector may generally be kept for:",
+        options: [
+          "Not more than 180 days, with a further period of 180 days if called for by written order",
+          "Unlimited time",
+          "Only 7 days",
+          "Only 30 days"
+        ],
+        answer: 0,
+        solution_html: "<p>Under Section 217(3), the Inspector cannot keep the books for more than 180 days, but they may be called for again for a further period of 180 days by written order.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 10
+  // =========================================================
+  {
+    case_id: "C4_HARD_10",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 218"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Bluewave Shipping Limited</strong> is undergoing an investigation.
+      An employee, Arjun, has supplied documents to the Inspector concerning
+      suspected diversion of company funds.</p>
+
+      <p>The management proposes to suspend Arjun and subsequently reduce his
+      rank. It applies to the Tribunal for approval. The Tribunal sends an
+      objection to the proposed action within the statutory period.</p>
+
+      <p>The company believes the Tribunal's objection is unjustified and wants
+      to challenge it. Arjun argues that the company cannot take the proposed
+      action while the objection remains effective.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_10_Q1",
+        difficulty: "Hard",
+        question: "Suspension and reduction in rank during the relevant investigation are:",
+        options: [
+          "Actions covered by Section 218",
+          "Outside Section 218",
+          "Automatically permitted",
+          "Matters only for the auditor"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 218 covers suspension and reduction in rank among specified adverse employment actions during investigation.</p>"
+      },
+      {
+        question_id: "C4_HARD_10_Q2",
+        difficulty: "Hard",
+        question: "Once the Tribunal has raised an objection, the company should:",
+        options: [
+          "Comply with the statutory process or pursue the available appeal",
+          "Ignore the objection",
+          "Immediately dismiss the employee",
+          "Close the investigation"
+        ],
+        answer: 0,
+        solution_html: "<p>The company cannot simply disregard the Tribunal's objection. Section 218 provides an appellate remedy to the Appellate Tribunal.</p>"
+      },
+      {
+        question_id: "C4_HARD_10_Q3",
+        difficulty: "Hard",
+        question: "The appeal may be preferred within:",
+        options: [
+          "30 days of receipt of the notice of objection",
+          "7 days",
+          "60 days",
+          "180 days"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 218(3) provides a period of 30 days from receipt of the Tribunal's objection notice.</p>"
+      },
+      {
+        question_id: "C4_HARD_10_Q4",
+        difficulty: "Hard",
+        question: "The decision of the Appellate Tribunal on the appeal is:",
+        options: [
+          "Final and binding",
+          "Only advisory",
+          "Automatically subject to shareholder approval",
+          "Binding only on the employee"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 218(4) provides that the Appellate Tribunal's decision shall be final and binding on the Tribunal and the concerned company/body corporate/person.</p>"
+      },
+      {
+        question_id: "C4_HARD_10_Q5",
+        difficulty: "Hard",
+        question: "The protection under Section 218 is primarily intended to prevent:",
+        options: [
+          "Adverse employment action during specified investigations/proceedings without following the statutory safeguard",
+          "Payment of salary",
+          "Appointment of directors",
+          "Preparation of financial statements"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 218 protects employees against specified adverse employment actions during investigation or relevant proceedings unless the statutory Tribunal process is followed.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 11
+  // =========================================================
+  {
+    case_id: "C4_HARD_11",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 219"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Prime Holdings Limited</strong> is being investigated into
+      suspected diversion of funds. During the investigation, the Inspector
+      discovers that a second company is managed by the same person who is the
+      Managing Director of Prime Holdings.</p>
+
+      <p>The second company's Board also includes nominees of Prime Holdings and
+      generally acts according to directions issued by Prime Holdings. The
+      Inspector believes that investigating the second company is necessary to
+      understand the transactions under investigation.</p>
+
+      <p>The Inspector proposes to extend the investigation but is unsure whether
+      prior approval is necessary and whether he can investigate the second company
+      without establishing that every transaction is independently fraudulent.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_11_Q1",
+        difficulty: "Hard",
+        question: "The second company may fall within Section 219 because:",
+        options: [
+          "Its Board comprises nominees of the company or acts according to its directions",
+          "It has a different registered office",
+          "It has a different auditor",
+          "It has unrelated shareholders"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 219 covers a body corporate whose Board comprises nominees of the investigated company or is accustomed to act in accordance with its directions or instructions.</p>"
+      },
+      {
+        question_id: "C4_HARD_11_Q2",
+        difficulty: "Hard",
+        question: "The Inspector's extension of investigation into the related body corporate requires:",
+        options: [
+          "Prior approval of the Central Government",
+          "Only the related company's approval",
+          "Only shareholder approval",
+          "No approval"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 219 requires prior approval of the Central Government for the Inspector to investigate the affairs of the specified related body corporate or person.</p>"
+      },
+      {
+        question_id: "C4_HARD_11_Q3",
+        difficulty: "Hard",
+        question: "The additional investigation should be relevant to:",
+        options: [
+          "The investigation of the affairs of the company for which the Inspector was appointed",
+          "Any unrelated matter",
+          "Only tax matters",
+          "Only shareholder disputes"
+        ],
+        answer: 0,
+        solution_html: "<p>The Inspector may investigate the related body corporate or person insofar as the results are relevant to the investigation of the original company.</p>"
+      },
+      {
+        question_id: "C4_HARD_11_Q4",
+        difficulty: "Hard",
+        question: "Which is NOT specifically listed as a category under Section 219?",
+        options: [
+          "Subsidiary company",
+          "Holding company",
+          "Certain companies controlled through directions/nominees",
+          "Any random unrelated competitor"
+        ],
+        answer: 3,
+        solution_html: "<p>Section 219 covers specified related companies and persons, not an unrelated competitor merely because the Inspector wishes to investigate it.</p>"
+      },
+      {
+        question_id: "C4_HARD_11_Q5",
+        difficulty: "Hard",
+        question: "A former Managing Director may fall within Section 219:",
+        options: [
+          "Yes",
+          "No, former persons are always excluded",
+          "Only if he is a shareholder",
+          "Only if he is currently employed"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 219 includes a person who is or has at any relevant time been the company's Managing Director, manager or employee.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 12
+  // =========================================================
+  {
+    case_id: "C4_HARD_12",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 220 & 221"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Vertex Mining Limited</strong> is under investigation. The
+      Inspector receives credible information that certain original contracts
+      and registers are likely to be destroyed. The Inspector enters the premises
+      and seizes the necessary documents after allowing the company to make copies.</p>
+
+      <p>At the same time, evidence suggests that the directors intend to transfer
+      substantial assets to another group company. The Central Government
+      approaches the Tribunal for an order preventing removal or transfer of the
+      assets.</p>
+
+      <p>The directors nevertheless transfer part of the property after the
+      Tribunal's order.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_12_Q1",
+        difficulty: "Hard",
+        question: "The Inspector's seizure under Section 220 is based on:",
+        options: [
+          "Reasonable grounds to believe that books/papers are likely to be destroyed, mutilated, altered, falsified or secreted",
+          "A mere desire to inspect",
+          "Shareholder dissatisfaction",
+          "An auditor's resignation"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 220 requires reasonable grounds to believe that relevant books and papers are likely to be destroyed, mutilated, altered, falsified or secreted.</p>"
+      },
+      {
+        question_id: "C4_HARD_12_Q2",
+        difficulty: "Hard",
+        question: "Before seizure under Section 220, the company should be allowed to:",
+        options: [
+          "Take copies or extracts at its cost",
+          "Approve the Inspector's appointment",
+          "Dismiss the Inspector",
+          "Prevent the investigation"
+        ],
+        answer: 0,
+        solution_html: "<p>The Inspector may seize necessary books after allowing the company to take copies or extracts at its cost.</p>"
+      },
+      {
+        question_id: "C4_HARD_12_Q3",
+        difficulty: "Hard",
+        question: "The Tribunal's order under Section 221 may restrict transfer/removal/disposal for a period not exceeding:",
+        options: [
+          "Three years",
+          "Six months",
+          "Ten years",
+          "Unlimited period"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 221 permits the Tribunal to impose restrictions for a period not exceeding three years.</p>"
+      },
+      {
+        question_id: "C4_HARD_12_Q4",
+        difficulty: "Hard",
+        question: "Contravention of the Tribunal's order can make the officer in default liable to:",
+        options: [
+          "Imprisonment up to three years and/or specified fine",
+          "Only ₹500 fine",
+          "No punishment",
+          "Only disqualification for one month"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 221(2) provides imprisonment up to three years or fine between ₹50,000 and ₹5 lakh, or both, for the officer in default.</p>"
+      },
+      {
+        question_id: "C4_HARD_12_Q5",
+        difficulty: "Hard",
+        question: "The company itself, for contravention of the Tribunal's order, may be punished with:",
+        options: [
+          "Fine of ₹1 lakh to ₹25 lakh",
+          "Only ₹500",
+          "Imprisonment only",
+          "No penalty"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 221(2) provides a fine of not less than ₹1 lakh and up to ₹25 lakh for the company.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 13
+  // =========================================================
+  {
+    case_id: "C4_HARD_13",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 222"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Sunrise Securities Limited</strong> is under an ownership
+      investigation under Section 216. The Tribunal believes that relevant facts
+      regarding certain securities cannot be determined unless restrictions are
+      placed on their transfer and issue.</p>
+
+      <p>The Tribunal passes an order imposing restrictions for two years.
+      Despite the order, the company transfers certain securities to nominees of
+      an existing shareholder.</p>
+
+      <p>The company argues that the transfer was merely an internal arrangement
+      and therefore should not be treated as a contravention.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_13_Q1",
+        difficulty: "Hard",
+        question: "Section 222 permits restrictions where:",
+        options: [
+          "The relevant facts concerning securities cannot be found out unless restrictions are imposed",
+          "The company wants to increase dividend",
+          "The auditor resigns",
+          "The company wants to change its registered office"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 222 permits restrictions where the Tribunal is of the opinion that relevant facts concerning securities cannot be found out unless restrictions are imposed.</p>"
+      },
+      {
+        question_id: "C4_HARD_13_Q2",
+        difficulty: "Hard",
+        question: "The maximum period for restrictions under Section 222 is:",
+        options: [
+          "Three years",
+          "One year",
+          "Five years",
+          "Ten years"
+        ],
+        answer: 0,
+        solution_html: "<p>The Tribunal may impose restrictions for a period not exceeding three years.</p>"
+      },
+      {
+        question_id: "C4_HARD_13_Q3",
+        difficulty: "Hard",
+        question: "A transfer in contravention of the Tribunal's order may attract:",
+        options: [
+          "Penalty under Section 222(2)",
+          "No consequence because it is an internal arrangement",
+          "Only audit qualification",
+          "Only shareholder approval"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 222(2) specifically provides punishment where securities are issued, transferred or acted upon in contravention of the Tribunal's order.</p>"
+      },
+      {
+        question_id: "C4_HARD_13_Q4",
+        difficulty: "Hard",
+        question: "The company may face:",
+        options: [
+          "Fine between ₹1 lakh and ₹25 lakh",
+          "Only ₹500 fine",
+          "Imprisonment of the company alone",
+          "No penalty"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 222(2) provides a fine of not less than ₹1 lakh and up to ₹25 lakh for the company.</p>"
+      },
+      {
+        question_id: "C4_HARD_13_Q5",
+        difficulty: "Hard",
+        question: "The officer in default may face:",
+        options: [
+          "Imprisonment up to six months or specified fine or both",
+          "Imprisonment up to five years only",
+          "No consequence",
+          "Only civil damages"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 222(2) provides imprisonment up to six months or fine of ₹25,000 to ₹5 lakh, or both, for the officer in default.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 14
+  // =========================================================
+  {
+    case_id: "C4_HARD_14",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 223 & 224"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Everest Retail Limited</strong> was investigated and the
+      Inspector submitted a final report to the Central Government. The report
+      concluded that certain directors had committed fraud and that a property
+      belonging to the company had been wrongfully retained by a related person.</p>
+
+      <p>A creditor whose interests were affected wanted a copy of the Inspector's
+      report. Separately, the Central Government considered whether the company's
+      circumstances justified winding-up proceedings or an application under
+      Section 241.</p>
+
+      <p>The company argued that an Inspector's report was merely administrative
+      and could not be used as evidence in legal proceedings.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_14_Q1",
+        difficulty: "Hard",
+        question: "A person whose interests are likely to be affected may obtain a copy of the Inspector's report by:",
+        options: [
+          "Making an application to the Central Government",
+          "Approaching the company's auditor",
+          "Passing a board resolution",
+          "Obtaining permission from every shareholder"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 223(3) permits members, creditors or other persons whose interests are likely to be affected to obtain a copy by making an application to the Central Government.</p>"
+      },
+      {
+        question_id: "C4_HARD_14_Q2",
+        difficulty: "Hard",
+        question: "An authenticated Inspector's report may be:",
+        options: [
+          "Admissible in legal proceedings as evidence regarding matters contained in it",
+          "Used only internally by the company",
+          "Never used as evidence",
+          "Used only for audit purposes"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 223(4) provides for authentication of the report and its admissibility in legal proceedings as evidence regarding matters contained in it.</p>"
+      },
+      {
+        question_id: "C4_HARD_14_Q3",
+        difficulty: "Hard",
+        question: "Where the report indicates criminal liability, the Central Government may:",
+        options: [
+          "Prosecute the person",
+          "Only issue a warning",
+          "Only order a new audit",
+          "Only freeze securities"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 224 permits the Central Government to prosecute persons appearing from the report to be guilty of criminal offences.</p>"
+      },
+      {
+        question_id: "C4_HARD_14_Q4",
+        difficulty: "Hard",
+        question: "If circumstances referred to in Section 213 exist and the company is liable to be wound up, the Central Government may cause to be presented:",
+        options: [
+          "A winding-up petition and/or an application under Section 241",
+          "Only an application for dividend",
+          "Only an auditor's report",
+          "Only an application for increase in capital"
+        ],
+        answer: 0,
+        solution_html: "<p>Under Section 224(2), the Central Government may cause a winding-up petition, an application under Section 241, or both, to be presented in appropriate circumstances.</p>"
+      },
+      {
+        question_id: "C4_HARD_14_Q5",
+        difficulty: "Hard",
+        question: "Where fraud resulted in undue benefit, the Government may seek:",
+        options: [
+          "Disgorgement and personal liability without limitation",
+          "Only cancellation of shares",
+          "Only reduction of capital",
+          "No recovery"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 224 provides for an application to the Tribunal for disgorgement and for holding the relevant person personally liable without limitation where the statutory conditions are satisfied.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 15
+  // =========================================================
+  {
+    case_id: "C4_HARD_15",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 225"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>National Textiles Limited</strong> was investigated by an
+      Inspector appointed by the Central Government. The investigation resulted
+      in prosecution of certain officers and recovery of company property.</p>
+
+      <p>The Central Government had initially borne the investigation expenses.
+      The court convicted one officer and ordered another person to restore
+      property wrongfully retained by him. The company itself recovered a
+      substantial amount through proceedings.</p>
+
+      <p>The company questioned whether investigation expenses could be recovered
+      from different persons and whether the company's liability could become a
+      first charge on recovered sums or property.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_15_Q1",
+        difficulty: "Hard",
+        question: "The Central Government initially bears investigation expenses under:",
+        options: [
+          "Section 225",
+          "Section 206",
+          "Section 216",
+          "Section 229"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 225 provides that investigation expenses are defrayed in the first instance by the Central Government, subject to reimbursement provisions.</p>"
+      },
+      {
+        question_id: "C4_HARD_15_Q2",
+        difficulty: "Hard",
+        question: "A person convicted may be ordered to reimburse investigation expenses:",
+        options: [
+          "To the extent specified by the court in the same proceedings",
+          "Always without limit",
+          "Never",
+          "Only after shareholder approval"
+        ],
+        answer: 0,
+        solution_html: "<p>The extent of reimbursement by a convicted person is determined by the court in the same proceedings.</p>"
+      },
+      {
+        question_id: "C4_HARD_15_Q3",
+        difficulty: "Hard",
+        question: "A person ordered to restore property may also be liable to reimburse:",
+        options: [
+          "Investigation expenses to the extent specified",
+          "Only future audit expenses",
+          "No investigation expenses",
+          "Only employee salaries"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 225 permits reimbursement by a person ordered to pay damages or restore property to the extent specified in the proceedings.</p>"
+      },
+      {
+        question_id: "C4_HARD_15_Q4",
+        difficulty: "Hard",
+        question: "Where the company recovers sums or property as a result of proceedings, reimbursement may be:",
+        options: [
+          "To the extent of the amount or value recovered",
+          "Unlimited irrespective of recovery",
+          "Only ₹1 lakh",
+          "Zero in every case"
+        ],
+        answer: 0,
+        solution_html: "<p>The company/body corporate may reimburse investigation expenses to the extent of sums or property recovered as a result of proceedings.</p>"
+      },
+      {
+        question_id: "C4_HARD_15_Q5",
+        difficulty: "Hard",
+        question: "An amount for which the company is liable under Section 225 may constitute:",
+        options: [
+          "A first charge on the relevant sums or property",
+          "A charge only on directors' personal property",
+          "No charge",
+          "A charge only on future profits"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 225 provides that an amount for which the company or body corporate is liable shall be a first charge on the sums or property mentioned in the relevant provision.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 16
+  // =========================================================
+  {
+    case_id: "C4_HARD_16",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 226 & 227"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Silver Crest Limited</strong> was undergoing an investigation
+      when the company passed a special resolution for voluntary winding up.
+      A winding-up proceeding was also pending before the Tribunal.</p>
+
+      <p>The directors argued that the Inspector should stop investigating because
+      the company's existence was in the process of being brought to an end.
+      The Inspector continued the investigation.</p>
+
+      <p>During the investigation, the Inspector requested privileged legal
+      communications from the company's legal adviser and also sought information
+      from a bank concerning the affairs of another customer unrelated to the
+      company.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_16_Q1",
+        difficulty: "Hard",
+        question: "The investigation is:",
+        options: [
+          "Not automatically stopped by voluntary winding up",
+          "Automatically terminated",
+          "Valid only if shareholders approve",
+          "Stopped immediately by the auditor"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 226 provides that an investigation is not stopped merely because a special resolution for voluntary winding up has been passed.</p>"
+      },
+      {
+        question_id: "C4_HARD_16_Q2",
+        difficulty: "Hard",
+        question: "Pending winding-up proceedings before the Tribunal:",
+        options: [
+          "Do not by themselves stop the investigation",
+          "Automatically terminate it",
+          "Require the Inspector to destroy evidence",
+          "Make the investigation void"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 226 states that an investigation shall not be stopped or suspended merely because winding-up proceedings are pending before the Tribunal.</p>"
+      },
+      {
+        question_id: "C4_HARD_16_Q3",
+        difficulty: "Hard",
+        question: "The legal adviser may generally refuse disclosure of:",
+        options: [
+          "Privileged communication made to him in that capacity",
+          "The client's name and address",
+          "Publicly filed documents",
+          "Published financial statements"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 227 protects privileged communications made to a legal adviser in that capacity, while the name and address of the client are not protected by this provision.</p>"
+      },
+      {
+        question_id: "C4_HARD_16_Q4",
+        difficulty: "Hard",
+        question: "A bank is not required under Section 227 to disclose information regarding:",
+        options: [
+          "The affairs of customers other than the company/body corporate/person concerned",
+          "The company itself in every circumstance",
+          "Its own publicly available information",
+          "Its statutory filings"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 227 protects bankers from being required to disclose information about the affairs of customers other than the company, body corporate or person concerned.</p>"
+      },
+      {
+        question_id: "C4_HARD_16_Q5",
+        difficulty: "Hard",
+        question: "Which statement best describes Sections 226 and 227 together?",
+        options: [
+          "Investigation continues despite specified winding-up events, while specified privileged/legal and banking information receives protection",
+          "Investigation always stops and all information must be disclosed",
+          "Both sections concern only auditor appointment",
+          "Both sections concern only securities"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 226 deals with continuation of investigation despite specified winding-up events, while Section 227 provides limited protection for privileged legal communications and certain banking information.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 17
+  // =========================================================
+  {
+    case_id: "C4_HARD_17",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 217 & 228"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Global Exports India Limited</strong> is a foreign company
+      operating in India and is subject to investigation under Chapter XIV.
+      Several records relevant to the investigation are maintained outside India
+      in the office of its overseas parent.</p>
+
+      <p>The Inspector believes that evidence available abroad is necessary and
+      approaches the competent Indian court for a letter of request. The company
+      argues that Chapter XIV applies only to Indian companies and therefore the
+      Inspector cannot seek foreign evidence.</p>
+
+      <p>The Inspector also considers reciprocal arrangements between India and
+      the foreign State concerned.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_17_Q1",
+        difficulty: "Hard",
+        question: "Do the Chapter XIV provisions apply to foreign companies?",
+        options: [
+          "Yes, mutatis mutandis",
+          "No",
+          "Only if the company is listed in India",
+          "Only if the auditor approves"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 228 provides that Chapter XIV applies mutatis mutandis to inspection, inquiry or investigation in relation to foreign companies.</p>"
+      },
+      {
+        question_id: "C4_HARD_17_Q2",
+        difficulty: "Hard",
+        question: "Where evidence may be available outside India, the competent Indian court may:",
+        options: [
+          "Issue a letter of request to the competent foreign court/authority",
+          "Automatically seize the foreign records",
+          "Close the investigation",
+          "Appoint the foreign company's directors"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 217(11) permits the competent court in India to issue a letter of request to a competent court or authority in another country.</p>"
+      },
+      {
+        question_id: "C4_HARD_17_Q3",
+        difficulty: "Hard",
+        question: "Evidence obtained under the letter of request is deemed to be:",
+        options: [
+          "Evidence collected during the investigation",
+          "Only informal information",
+          "Only audit evidence",
+          "Invalid evidence"
+        ],
+        answer: 0,
+        solution_html: "<p>Statements, documents or things received under the statutory procedure are deemed to be evidence collected during the investigation.</p>"
+      },
+      {
+        question_id: "C4_HARD_17_Q4",
+        difficulty: "Hard",
+        question: "The Central Government may enter into:",
+        options: [
+          "Reciprocal arrangements with foreign governments",
+          "Only shareholder agreements",
+          "Only auditor agreements",
+          "Only employee agreements"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 217(10) permits the Central Government to enter into reciprocal arrangements with foreign States for assistance in inspection, inquiry or investigation.</p>"
+      },
+      {
+        question_id: "C4_HARD_17_Q5",
+        difficulty: "Hard",
+        question: "The company's argument that Chapter XIV applies only to Indian companies is:",
+        options: [
+          "Incorrect",
+          "Correct",
+          "Correct only for investigation",
+          "Correct only for inspection"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 228 expressly extends Chapter XIV mutatis mutandis to foreign companies.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 18
+  // =========================================================
+  {
+    case_id: "C4_HARD_18",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Section 229"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>Delta Finserv Limited</strong> is under a detailed investigation.
+      Before the Inspector examines the company's records, the Compliance Head
+      instructs an employee to remove certain original contracts from the
+      company's premises.</p>
+
+      <p>Another employee modifies several entries in a register and later states
+      during examination that the entries were never altered. A third employee
+      knowingly gives a false explanation concerning the location of certain
+      documents.</p>
+
+      <p>The Inspector identifies the persons involved and considers whether the
+      fact that some of the acts were carried out on the instructions of a senior
+      officer changes the statutory consequences.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_18_Q1",
+        difficulty: "Hard",
+        question: "Unauthorized removal of company documents during investigation is:",
+        options: [
+          "An act covered by Section 229",
+          "Always permissible if ordered by a superior",
+          "Only an employment matter",
+          "Outside Chapter XIV"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 covers unauthorized removal of documents relating to the property, assets or affairs of the company/body corporate.</p>"
+      },
+      {
+        question_id: "C4_HARD_18_Q2",
+        difficulty: "Hard",
+        question: "A person who is a party to the falsification of documents may:",
+        options: [
+          "Be punished for fraud under Section 447",
+          "Escape liability automatically because another person made the entry",
+          "Only receive a warning",
+          "Be protected as an employee"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 applies not only to the person directly performing the act but also to a person who is a party to destruction, mutilation, falsification, concealment, tampering or unauthorized removal.</p>"
+      },
+      {
+        question_id: "C4_HARD_18_Q3",
+        difficulty: "Hard",
+        question: "Knowingly providing a false explanation during investigation is:",
+        options: [
+          "Covered by Section 229",
+          "Protected automatically",
+          "Only a contractual breach",
+          "Not relevant"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 specifically covers providing an explanation which is false or which the person knows to be false.</p>"
+      },
+      {
+        question_id: "C4_HARD_18_Q4",
+        difficulty: "Hard",
+        question: "An employee cannot ordinarily avoid Section 229 liability merely by saying:",
+        options: [
+          "I acted on my superior's instructions",
+          "I was an employee",
+          "The documents belonged to the company",
+          "The investigation was ongoing"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 expressly covers a person who is a party to the prohibited conduct. Merely acting on another person's instruction does not by itself eliminate the statutory consequences.</p>"
+      },
+      {
+        question_id: "C4_HARD_18_Q5",
+        difficulty: "Hard",
+        question: "The punishment under Section 229 is linked to:",
+        options: [
+          "Section 447",
+          "Section 206(7)",
+          "Section 214",
+          "Section 222 only"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 provides that the person shall be punishable for fraud in the manner provided in Section 447.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 19
+  // =========================================================
+  {
+    case_id: "C4_HARD_19",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Integrated Provisions"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>National Industrial Systems Limited</strong> first came under
+      scrutiny after the Registrar found discrepancies in documents filed by the
+      company. The Registrar issued notices under Section 206 and subsequently
+      conducted an inquiry after receiving information suggesting fraudulent
+      conduct.</p>
+
+      <p>The Inspector's report recommended further investigation. The Central
+      Government assigned the investigation to SFIO. During the SFIO investigation,
+      the investigators discovered evidence involving a subsidiary and a former
+      Managing Director.</p>
+
+      <p>The SFIO investigation also revealed that the directors intended to
+      transfer assets and that one officer had altered documents. The Tribunal
+      was approached regarding the assets, while the Inspector dealt with the
+      altered documents and the related company.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_19_Q1",
+        difficulty: "Hard",
+        question: "The initial Registrar process described in the case most appropriately follows:",
+        options: [
+          "Section 206 → inquiry → Section 208 report",
+          "Section 224 → Section 206 → Section 211",
+          "Section 222 → Section 209 only",
+          "Section 225 → Section 226"
+        ],
+        answer: 0,
+        solution_html: "<p>The Registrar may first call for information under Section 206, conduct inquiry where the statutory conditions are satisfied, and submit a report under Section 208.</p>"
+      },
+      {
+        question_id: "C4_HARD_19_Q2",
+        difficulty: "Hard",
+        question: "Once the investigation is assigned to SFIO, investigation into the same Companies Act offences by another Central/State investigating agency:",
+        options: [
+          "Cannot proceed further",
+          "Must continue simultaneously",
+          "Must be restarted by the Registrar",
+          "Can continue without restriction"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 212(2) prevents another Central or State Government investigating agency from proceeding with investigation concerning the Companies Act offences covered by the SFIO assignment.</p>"
+      },
+      {
+        question_id: "C4_HARD_19_Q3",
+        question: "Investigation into the subsidiary by the Inspector is possible under:",
+        options: [
+          "Section 219, subject to its requirements",
+          "Section 206(1) only",
+          "Section 225 only",
+          "Section 227 only"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 219 permits investigation into specified related companies, including subsidiaries, where necessary for the main investigation and subject to prior approval of the Central Government.</p>"
+      },
+      {
+        question_id: "C4_HARD_19_Q4",
+        difficulty: "Hard",
+        question: "The Tribunal's role concerning threatened transfer of company assets is primarily connected with:",
+        options: [
+          "Section 221",
+          "Section 211",
+          "Section 229",
+          "Section 215"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 221 empowers the Tribunal to restrict removal, transfer or disposal of company funds, assets or properties where the statutory conditions are satisfied.</p>"
+      },
+      {
+        question_id: "C4_HARD_19_Q5",
+        difficulty: "Hard",
+        question: "The officer who altered documents may face:",
+        options: [
+          "Fraud punishment under Section 447 through Section 229",
+          "Only a warning under Section 206",
+          "Only civil liability",
+          "No liability because the investigation was ongoing"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 covers falsification and related conduct concerning documents during inspection, inquiry or investigation and links punishment to Section 447.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // HARD CASE SCENARIO 20
+  // =========================================================
+  {
+    case_id: "C4_HARD_20",
+    case_chapter: ["Inspection, Inquiry and Investigation", "Integrated Provisions"],
+    difficulty: "Hard",
+
+    caseText: `
+      <p><strong>United Commercial Ventures Limited</strong> has been the subject
+      of complaints from investors, creditors and certain members. The Registrar
+      initially called for information and explanations. Several documents were
+      found inadequate and an inquiry was subsequently conducted.</p>
+
+      <p>The Registrar's report recommended further investigation. The Central
+      Government ordered an investigation and eventually assigned it to SFIO.
+      During the investigation, SFIO discovered that the company's beneficial
+      ownership was concealed through nominees, assets were being transferred,
+      employees were being threatened with dismissal, and documents had been
+      falsified.</p>
+
+      <p>The company challenged almost every action, arguing that the Registrar
+      lacked inquiry powers, the SFIO had no jurisdiction after another agency
+      had begun investigating, the Tribunal could not restrict assets, and
+      employees could be dismissed during investigation without approval.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_HARD_20_Q1",
+        difficulty: "Hard",
+        question: "The Registrar's power to inquire into allegations of fraudulent or unlawful conduct is derived from:",
+        options: [
+          "Section 206(4)",
+          "Section 211",
+          "Section 222",
+          "Section 225"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 206(4) empowers the Registrar to conduct inquiry where the statutory conditions relating to fraudulent/unlawful conduct, non-compliance or unaddressed investor grievances are satisfied.</p>"
+      },
+      {
+        question_id: "C4_HARD_20_Q2",
+        difficulty: "Hard",
+        question: "The concealed beneficial ownership issue is primarily connected with:",
+        options: [
+          "Section 216",
+          "Section 207",
+          "Section 225",
+          "Section 226"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 216 permits investigation into membership and ownership to determine true persons financially interested, controlling or materially influencing the company and beneficial ownership.</p>"
+      },
+      {
+        question_id: "C4_HARD_20_Q3",
+        difficulty: "Hard",
+        question: "Once the case is assigned to SFIO, the earlier Central/State investigating agency:",
+        options: [
+          "Cannot proceed further with the Companies Act investigation covered by the assignment and must transfer relevant records",
+          "Must continue simultaneously",
+          "Can ignore SFIO",
+          "Can take over SFIO"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 212(2) requires the concerned agency to stop proceeding with the relevant Companies Act investigation and transfer the relevant documents and records to SFIO.</p>"
+      },
+      {
+        question_id: "C4_HARD_20_Q4",
+        difficulty: "Hard",
+        question: "If company assets are likely to be transferred prejudicially, the Tribunal may act under:",
+        options: [
+          "Section 221",
+          "Section 206",
+          "Section 211",
+          "Section 227"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 221 empowers the Tribunal to restrict removal, transfer or disposal of company funds, assets or properties for a period not exceeding three years, subject to statutory conditions.</p>"
+      },
+      {
+        question_id: "C4_HARD_20_Q5",
+        difficulty: "Hard",
+        question: "If employees are proposed to be dismissed during the relevant investigation, the company generally:",
+        options: [
+          "Must follow Section 218 and obtain Tribunal approval",
+          "Can always dismiss without approval",
+          "Needs only auditor approval",
+          "Needs only shareholder approval"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 218 protects employees during specified investigations and proceedings and requires Tribunal approval before specified adverse employment actions are taken.</p>"
+      }
+    ]
+  },
+
+  // =========================================================
+  // VERY HARD CASE SCENARIO 1
+  // =========================================================
+  {
+    case_id: "C4_VH_01",
+    case_chapter: [
+      "Inspection, Inquiry and Investigation",
+      "Sections 206, 208, 210 and 212"
+    ],
+    difficulty: "Very Hard",
+
+    caseText: `
+      <p><strong>Orion Infrastructure Limited</strong> had reported rapid growth
+      in revenue during the previous three financial years. However, the Registrar
+      noticed that trade receivables, related-party balances and advances had also
+      increased substantially.</p>
+
+      <p>The Registrar initially issued a written notice requiring information and
+      supporting documents. The company furnished documents, but several
+      explanations were inconsistent with the records already filed with the
+      Registrar. The Registrar therefore conducted an inquiry and submitted a
+      report recommending further investigation.</p>
+
+      <p>Before the Central Government passed any investigation order, 18 members
+      holding 12% of the voting power passed a special resolution requesting
+      investigation. Separately, a State Government department forwarded
+      information suggesting that the company had been used for fraudulent
+      transactions.</p>
+
+      <p>The Central Government ultimately concluded that the case involved
+      substantial public interest and assigned the investigation to SFIO. A State
+      investigating agency had already commenced an investigation into certain
+      offences under the Companies Act.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_VH_01_Q1",
+        difficulty: "Very Hard",
+        question: "Which combination most accurately explains why the Central Government could consider assigning the investigation to SFIO?",
+        options: [
+          "Only because the Registrar requested it",
+          "Only because the members passed a special resolution",
+          "The Registrar's report, special resolution, State Government information and public interest could constitute separate statutory grounds",
+          "Only because the State investigating agency had already started investigation"
+        ],
+        answer: 2,
+        solution_html: "<p>Section 212 recognises multiple circumstances for SFIO assignment, including a report under Section 208, a special resolution, a request from a Central/State Government department, and public interest.</p>"
+      },
+
+      {
+        question_id: "C4_VH_01_Q2",
+        difficulty: "Very Hard",
+        question: "The 18 members' special resolution is relevant because:",
+        options: [
+          "The number of members alone is sufficient to automatically appoint SFIO",
+          "A special resolution of the company is one of the specified circumstances under Section 212",
+          "Any ordinary resolution automatically triggers SFIO",
+          "Only members holding 51% voting power can request SFIO"
+        ],
+        answer: 1,
+        solution_html: "<p>A special resolution passed by the company is expressly recognised as a circumstance under Section 212(1) for assignment of investigation to SFIO.</p>"
+      },
+
+      {
+        question_id: "C4_VH_01_Q3",
+        difficulty: "Very Hard",
+        question: "After assignment of the case to SFIO, the State investigating agency should generally:",
+        options: [
+          "Continue independently because it commenced first",
+          "Continue simultaneously with SFIO",
+          "Cease proceeding with the Companies Act investigation covered by the assignment and transfer relevant records/documents",
+          "Transfer only its final report"
+        ],
+        answer: 2,
+        solution_html: "<p>Once the Central Government assigns the investigation to SFIO, another Central or State Government investigating agency cannot proceed further with the Companies Act investigation covered by the assignment and must transfer relevant records and documents.</p>"
+      },
+
+      {
+        question_id: "C4_VH_01_Q4",
+        difficulty: "Very Hard",
+        question: "Which statement best distinguishes the Registrar's earlier action from the SFIO investigation?",
+        options: [
+          "The Registrar's inquiry under Section 206 automatically becomes an SFIO investigation",
+          "The Registrar's inquiry/report may form the basis for further investigation, but SFIO investigation requires the statutory Central Government assignment",
+          "The Registrar has no power to conduct any inquiry",
+          "SFIO can begin only after shareholder approval"
+        ],
+        answer: 1,
+        solution_html: "<p>The Registrar's inquiry and Section 208 report form part of the preliminary statutory framework. SFIO investigation is separately assigned by the Central Government under Section 212.</p>"
+      },
+
+      {
+        question_id: "C4_VH_01_Q5",
+        difficulty: "Very Hard",
+        question: "If the Registrar had found the company's explanation inadequate after the initial notice, the next statutory step could include:",
+        options: [
+          "A further written notice requiring additional information/documents",
+          "Automatic winding up",
+          "Automatic arrest of directors",
+          "Automatic seizure of every company asset"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 206 permits the Registrar to issue a further notice where the information or explanation furnished is inadequate, subject to the statutory requirements.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // VERY HARD CASE SCENARIO 2
+  // =========================================================
+  {
+    case_id: "C4_VH_02",
+    case_chapter: [
+      "Inspection, Inquiry and Investigation",
+      "Sections 210, 213, 214 and 216"
+    ],
+    difficulty: "Very Hard",
+
+    caseText: `
+      <p><strong>Meridian Consumer Products Limited</strong> has 3,500 members.
+      A group of 360 members claims that the company's affairs are being conducted
+      in a manner prejudicial to the interests of members and that certain
+      directors have concealed the real beneficial ownership of shares.</p>
+
+      <p>The applicants approach the Tribunal and produce documents showing that
+      shares registered in the names of several individuals appear to be controlled
+      by one undisclosed person.</p>
+
+      <p>The company argues that the applicants have approached the Tribunal only
+      because they are dissatisfied with the management and that the Tribunal
+      cannot investigate ownership merely because registered shareholders are
+      different from the suspected beneficial owner.</p>
+
+      <p>The Central Government separately considers whether security for the
+      investigation expenses should be required.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_VH_02_Q1",
+        difficulty: "Very Hard",
+        question: "The applicants' numerical strength is relevant because:",
+        options: [
+          "Section 213 recognises 100 or more members as one possible threshold in a company having share capital",
+          "Only 500 members can apply",
+          "Every member must apply",
+          "Only directors can initiate Section 213"
+        ],
+        answer: 0,
+        solution_html: "<p>For a company having share capital, Section 213 recognises an application by 100 or more members or members holding not less than one-tenth of the total voting power, subject to the statutory conditions.</p>"
+      },
+
+      {
+        question_id: "C4_VH_02_Q2",
+        difficulty: "Very Hard",
+        question: "The applicants' documentary evidence is important because:",
+        options: [
+          "Numerical threshold alone automatically establishes the case",
+          "Section 213 also requires evidence showing good reasons for seeking investigation",
+          "Evidence is relevant only after prosecution",
+          "The Tribunal cannot consider documentary evidence"
+        ],
+        answer: 1,
+        solution_html: "<p>Section 213 requires evidence necessary to show that the applicants have good reasons for seeking an investigation.</p>"
+      },
+
+      {
+        question_id: "C4_VH_02_Q3",
+        difficulty: "Very Hard",
+        question: "The suspected concealed beneficial ownership is most directly connected with:",
+        options: [
+          "Section 216",
+          "Section 206(1) only",
+          "Section 225",
+          "Section 227 only"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 216 specifically deals with investigation into membership and ownership, including determining persons who are financially interested or able to control or materially influence company policy.</p>"
+      },
+
+      {
+        question_id: "C4_VH_02_Q4",
+        difficulty: "Very Hard",
+        question: "If the Tribunal directs investigation under Section 213, the Central Government may require:",
+        options: [
+          "Security for the costs and expenses of investigation",
+          "Transfer of all shares to the Government",
+          "Automatic resignation of directors",
+          "Cancellation of the company's registration"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 214 permits the Central Government to require security for payment of the costs and expenses of investigation in cases covered by Section 213.</p>"
+      },
+
+      {
+        question_id: "C4_VH_02_Q5",
+        difficulty: "Very Hard",
+        question: "The company's argument that ownership cannot be investigated merely because registered shareholders differ from the beneficial owner is:",
+        options: [
+          "Incorrect, because Section 216 is specifically designed to investigate such ownership arrangements",
+          "Correct in every circumstance",
+          "Correct unless the auditor agrees",
+          "Correct because beneficial ownership is irrelevant under Chapter XIV"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 216 specifically enables investigation into true ownership and persons financially interested in or controlling shares, including beneficial interests.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // VERY HARD CASE SCENARIO 3
+  // =========================================================
+  {
+    case_id: "C4_VH_03",
+    case_chapter: [
+      "Inspection, Inquiry and Investigation",
+      "Sections 217, 218, 220 and 229"
+    ],
+    difficulty: "Very Hard",
+
+    caseText: `
+      <p><strong>Vertex Digital Limited</strong> is under an investigation into
+      suspected diversion of funds. The Inspector issues written directions to
+      several officers to produce original contracts and accounting records.</p>
+
+      <p>The Chief Financial Officer instructs an employee to secretly remove
+      certain contracts before the Inspector arrives. Another officer alters
+      several entries in a register and later provides an explanation that he
+      knows to be false.</p>
+
+      <p>Meanwhile, an employee who supplied information to the Inspector is
+      threatened with suspension and reduction in rank by the management.</p>
+
+      <p>The company argues that all three matters are internal employment or
+      administrative issues and should not attract consequences under Chapter XIV.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_VH_03_Q1",
+        difficulty: "Very Hard",
+        question: "The employee who removes documents may attract liability primarily because:",
+        options: [
+          "Section 229 covers unauthorized removal of relevant documents",
+          "Employees can never be liable",
+          "Only directors can commit document offences",
+          "Removal is permissible if the employee acts on instructions"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 covers unauthorized removal of books and papers relating to the property, assets or affairs of the company/body corporate/person under inspection, inquiry or investigation.</p>"
+      },
+
+      {
+        question_id: "C4_VH_03_Q2",
+        difficulty: "Very Hard",
+        question: "The officer who knowingly provides a false explanation is exposed to:",
+        options: [
+          "Section 229 and punishment linked to fraud under Section 447",
+          "Only Section 206",
+          "Only civil liability",
+          "No liability if he is an employee"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 expressly covers furnishing an explanation that is false or known to be false and links the offence to punishment for fraud under Section 447.</p>"
+      },
+
+      {
+        question_id: "C4_VH_03_Q3",
+        difficulty: "Very Hard",
+        question: "The Inspector's direction to officers to produce documents is primarily supported by:",
+        options: [
+          "Section 217",
+          "Section 221",
+          "Section 225",
+          "Section 227"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 217 lays down the procedure and powers of inspectors and imposes duties upon officers, employees and other relevant persons to produce books and furnish information.</p>"
+      },
+
+      {
+        question_id: "C4_VH_03_Q4",
+        difficulty: "Very Hard",
+        question: "The threatened suspension/reduction in rank of the cooperating employee is primarily governed by:",
+        options: [
+          "Section 218",
+          "Section 206",
+          "Section 220",
+          "Section 229"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 218 provides protection to employees during investigation and relevant proceedings against specified adverse employment actions without following the prescribed Tribunal process.</p>"
+      },
+
+      {
+        question_id: "C4_VH_03_Q5",
+        difficulty: "Very Hard",
+        question: "Which combination is most appropriate?",
+        options: [
+          "Document removal – Section 229; false explanation – Section 229; adverse employment action – Section 218",
+          "All three – Section 206 only",
+          "All three – Section 225 only",
+          "Document removal – Section 218; false explanation – Section 221"
+        ],
+        answer: 0,
+        solution_html: "<p>The three events trigger different statutory provisions: Section 229 deals with prohibited document-related conduct and false explanations, while Section 218 provides employee protection during investigation.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // VERY HARD CASE SCENARIO 4
+  // =========================================================
+  {
+    case_id: "C4_VH_04",
+    case_chapter: [
+      "Inspection, Inquiry and Investigation",
+      "Sections 219, 220, 221 and 222"
+    ],
+    difficulty: "Very Hard",
+
+    caseText: `
+      <p><strong>Atlas Manufacturing Limited</strong> is being investigated into
+      suspected diversion of company funds. The Inspector discovers that the
+      transactions cannot be properly understood without examining its wholly
+      controlled subsidiary.</p>
+
+      <p>The Inspector proposes to investigate the subsidiary. At the same time,
+      evidence indicates that the directors are planning to transfer valuable
+      machinery to another group entity and that certain securities are about to
+      be transferred through nominee shareholders.</p>
+
+      <p>The Central Government and Tribunal consider separate protective measures
+      concerning the subsidiary, company assets and securities.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_VH_04_Q1",
+        difficulty: "Very Hard",
+        question: "Before the Inspector investigates the subsidiary under Section 219, he must generally obtain:",
+        options: [
+          "Prior approval of the Central Government",
+          "Approval of the subsidiary's auditor",
+          "Approval of all subsidiary shareholders",
+          "No approval under any circumstances"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 219 requires prior approval of the Central Government before the Inspector extends the investigation to specified related companies/persons.</p>"
+      },
+
+      {
+        question_id: "C4_VH_04_Q2",
+        difficulty: "Very Hard",
+        question: "The threatened transfer of machinery is most directly addressed by:",
+        options: [
+          "Section 221",
+          "Section 216",
+          "Section 227",
+          "Section 229"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 221 empowers the Tribunal to restrict removal, transfer or disposal of company funds, assets or properties during inquiry/investigation.</p>"
+      },
+
+      {
+        question_id: "C4_VH_04_Q3",
+        difficulty: "Very Hard",
+        question: "The proposed restriction on securities is conceptually distinct because Section 222 deals specifically with:",
+        options: [
+          "Restrictions upon securities",
+          "Inspection of books",
+          "Investigation expenses",
+          "Protection of legal privilege"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 222 specifically empowers the Tribunal to impose restrictions upon securities where the statutory conditions are satisfied.</p>"
+      },
+
+      {
+        question_id: "C4_VH_04_Q4",
+        difficulty: "Very Hard",
+        question: "Which statement is most accurate regarding Sections 221 and 222?",
+        options: [
+          "Section 221 concerns company funds/assets/property, while Section 222 specifically concerns securities",
+          "Both provisions deal exclusively with employees",
+          "Section 221 concerns legal privilege and Section 222 concerns bankers",
+          "Both provisions concern only investigation expenses"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 221 focuses on freezing/restricting company funds, assets and property, whereas Section 222 specifically addresses restrictions upon securities.</p>"
+      },
+
+      {
+        question_id: "C4_VH_04_Q5",
+        difficulty: "Very Hard",
+        question: "The subsidiary's relevance must be established because Section 219 permits investigation of related entities:",
+        options: [
+          "Where necessary/relevant to the investigation of the original company and subject to statutory conditions",
+          "For any unrelated matter",
+          "Only because it shares the same auditor",
+          "Automatically in every investigation"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 219 permits investigation into specified related entities where the investigation is relevant to the affairs of the company under investigation and the statutory conditions are met.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // VERY HARD CASE SCENARIO 5
+  // =========================================================
+  {
+    case_id: "C4_VH_05",
+    case_chapter: [
+      "Inspection, Inquiry and Investigation",
+      "Sections 212, 217, 223 and 224"
+    ],
+    difficulty: "Very Hard",
+
+    caseText: `
+      <p><strong>National Healthcare Limited</strong> was assigned to SFIO after
+      the Central Government formed the opinion that a detailed investigation was
+      necessary. The investigation involved numerous transactions spread across
+      several years.</p>
+
+      <p>The investigators required former directors, current employees and a
+      related body corporate to furnish documents and information. A former
+      director refused to appear, arguing that his tenure had ended before the
+      investigation began.</p>
+
+      <p>After completion, the SFIO report indicated that two directors had
+      committed offences and that a third person had wrongfully retained company
+      property. The report was authenticated and submitted to the Central
+      Government.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_VH_05_Q1",
+        difficulty: "Very Hard",
+        question: "The former director's refusal to cooperate is:",
+        options: [
+          "Not automatically justified merely because his tenure ended",
+          "Always valid",
+          "Valid unless shareholders object",
+          "Valid because only current employees can be examined"
+        ],
+        answer: 0,
+        solution_html: "<p>The investigation powers and duties under Section 217 extend to relevant former officers/employees/agents and persons connected with the affairs under investigation.</p>"
+      },
+
+      {
+        question_id: "C4_VH_05_Q2",
+        difficulty: "Very Hard",
+        question: "The authenticated Inspector/SFIO report may be:",
+        options: [
+          "Admissible in legal proceedings as evidence concerning matters contained in it",
+          "Used only internally",
+          "Used only for audit purposes",
+          "Automatically inadmissible"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 223 provides for authentication of the Inspector's report and its admissibility in legal proceedings as evidence regarding matters contained in it.</p>"
+      },
+
+      {
+        question_id: "C4_VH_05_Q3",
+        difficulty: "Very Hard",
+        question: "Where the report indicates that a person committed an offence, the Central Government may:",
+        options: [
+          "Institute prosecution in accordance with Section 224",
+          "Only issue a warning",
+          "Only amend the company's articles",
+          "Only order an audit"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 224 enables the Central Government to take prosecution and other statutory actions based on the Inspector's report.</p>"
+      },
+
+      {
+        question_id: "C4_VH_05_Q4",
+        difficulty: "Very Hard",
+        question: "Where the report establishes wrongful retention of company property, the Government may seek:",
+        options: [
+          "Recovery of the property and other relief permitted by Section 224",
+          "Only cancellation of the person's DIN",
+          "Only removal of the auditor",
+          "No recovery"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 224 provides mechanisms for recovery of property of the company that has been misapplied or wrongfully retained.</p>"
+      },
+
+      {
+        question_id: "C4_VH_05_Q5",
+        difficulty: "Very Hard",
+        question: "Which sequence is most legally coherent?",
+        options: [
+          "SFIO assignment → investigation → examination/production of records → authenticated report → action under Section 224",
+          "Prosecution → SFIO assignment → inspection",
+          "Section 224 → Section 206 → Section 217",
+          "Recovery → appointment of SFIO → investigation"
+        ],
+        answer: 0,
+        solution_html: "<p>The statutory process proceeds from investigation through exercise of investigative powers and submission/authentication of the report, followed by action based upon the report.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // VERY HARD CASE SCENARIO 6
+  // =========================================================
+  {
+    case_id: "C4_VH_06",
+    case_chapter: [
+      "Inspection, Inquiry and Investigation",
+      "Sections 217, 220, 227 and 228"
+    ],
+    difficulty: "Very Hard",
+
+    caseText: `
+      <p><strong>Global Maritime Services Limited</strong>, a foreign company
+      having business operations in India, becomes subject to investigation under
+      Chapter XIV.</p>
+
+      <p>Important accounting records are maintained outside India. The Inspector
+      believes that evidence from the foreign jurisdiction is necessary and seeks
+      assistance through the statutory mechanism.</p>
+
+      <p>During the investigation in India, the Inspector also requests the
+      company's Indian banker to disclose information concerning the accounts of
+      an unrelated customer. The banker refuses. Separately, the company's legal
+      adviser refuses to disclose privileged communications but provides the
+      client's name and address.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_VH_06_Q1",
+        difficulty: "Very Hard",
+        question: "Chapter XIV applies to a foreign company:",
+        options: [
+          "Mutatis mutandis",
+          "Not at all",
+          "Only if it is listed in India",
+          "Only with shareholder approval"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 228 provides that Chapter XIV applies mutatis mutandis to inspection, inquiry or investigation of foreign companies.</p>"
+      },
+
+      {
+        question_id: "C4_VH_06_Q2",
+        difficulty: "Very Hard",
+        question: "Where relevant evidence is outside India, the statutory mechanism may involve:",
+        options: [
+          "A letter of request to the competent foreign court/authority",
+          "Automatic seizure by an Indian Inspector abroad",
+          "Automatic prosecution in the foreign country",
+          "Cancellation of the foreign company's registration"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 217 provides for a letter of request to a competent court or authority outside India where evidence necessary for the investigation is available there.</p>"
+      },
+
+      {
+        question_id: "C4_VH_06_Q3",
+        difficulty: "Very Hard",
+        question: "The banker's refusal concerning an unrelated customer's affairs is:",
+        options: [
+          "Consistent with the statutory protection under Section 227",
+          "Invalid because every bank must disclose all customer information",
+          "Valid only if the auditor agrees",
+          "Always punishable"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 227 protects bankers from being compelled to disclose information concerning the affairs of customers other than the company/body corporate/person concerned.</p>"
+      },
+
+      {
+        question_id: "C4_VH_06_Q4",
+        difficulty: "Very Hard",
+        question: "The legal adviser providing the client's name and address but refusing privileged communications is:",
+        options: [
+          "Generally consistent with Section 227",
+          "Incorrect because even the client's identity is privileged under Section 227",
+          "Incorrect because no legal privilege exists",
+          "Valid only if the client is a director"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 227 protects privileged communications made to a legal adviser in that capacity, but specifically does not protect the client's name and address from disclosure.</p>"
+      },
+
+      {
+        question_id: "C4_VH_06_Q5",
+        difficulty: "Very Hard",
+        question: "Which statement best combines Sections 217, 227 and 228?",
+        options: [
+          "Investigation powers can extend to obtaining foreign evidence, while specified legal and banking information receives statutory protection and Chapter XIV applies to foreign companies",
+          "All information must always be disclosed",
+          "Foreign companies are completely outside Chapter XIV",
+          "Bankers and legal advisers have no statutory protections"
+        ],
+        answer: 0,
+        solution_html: "<p>The provisions operate together: Section 217 facilitates evidence gathering, Section 227 protects specified legal/banking information, and Section 228 extends Chapter XIV to foreign companies.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // VERY HARD CASE SCENARIO 7
+  // =========================================================
+  {
+    case_id: "C4_VH_07",
+    case_chapter: [
+      "Inspection, Inquiry and Investigation",
+      "Sections 218, 221, 222 and 229"
+    ],
+    difficulty: "Very Hard",
+
+    caseText: `
+      <p><strong>Summit Energy Limited</strong> is under investigation after
+      evidence emerges that its directors have diverted assets and manipulated
+      securities transactions.</p>
+
+      <p>The Tribunal passes an order restricting transfer of specified company
+      assets and another order restricting dealings in specified securities.
+      Despite the orders, one director instructs an employee to transfer machinery
+      and another officer causes securities to be transferred to nominee holders.</p>
+
+      <p>At the same time, the company proposes to dismiss an employee who supplied
+      information to the Inspector. The employee challenges the proposed dismissal
+      before the Tribunal.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_VH_07_Q1",
+        difficulty: "Very Hard",
+        question: "The restriction concerning company machinery is primarily under:",
+        options: [
+          "Section 221",
+          "Section 222",
+          "Section 218",
+          "Section 227"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 221 concerns restrictions on removal, transfer or disposal of company funds, assets or properties during inquiry or investigation.</p>"
+      },
+
+      {
+        question_id: "C4_VH_07_Q2",
+        difficulty: "Very Hard",
+        question: "The restriction concerning specified securities is primarily under:",
+        options: [
+          "Section 222",
+          "Section 221",
+          "Section 206",
+          "Section 217"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 222 specifically deals with restrictions upon securities.</p>"
+      },
+
+      {
+        question_id: "C4_VH_07_Q3",
+        question: "The employee's proposed dismissal raises an issue under:",
+        options: [
+          "Section 218",
+          "Section 229 only",
+          "Section 225",
+          "Section 216"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 218 protects employees from specified adverse employment actions during investigation without following the statutory Tribunal process.</p>"
+      },
+
+      {
+        question_id: "C4_VH_07_Q4",
+        question: "If the employee's dismissal is challenged and the Tribunal objects, the company may:",
+        options: [
+          "Use the statutory appellate remedy against the Tribunal's objection",
+          "Ignore the Tribunal",
+          "Dismiss immediately regardless of the objection",
+          "Ask the statutory auditor to overrule the Tribunal"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 218 provides an appeal mechanism against the Tribunal's objection to the proposed employment action.</p>"
+      },
+
+      {
+        question_id: "C4_VH_07_Q5",
+        difficulty: "Very Hard",
+        question: "The employee who transferred documents/assets on instructions may also face consequences where the conduct falls within:",
+        options: [
+          "Section 229 if it involves prohibited destruction, falsification, concealment, tampering or unauthorized removal of documents",
+          "Section 214 only",
+          "Section 227 only",
+          "No provision because he acted on instructions"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 covers persons who are parties to prohibited conduct involving documents. Acting under instructions does not automatically remove statutory liability.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // VERY HARD CASE SCENARIO 8
+  // =========================================================
+  {
+    case_id: "C4_VH_08",
+    case_chapter: [
+      "Inspection, Inquiry and Investigation",
+      "Sections 206, 207, 208, 217 and 229"
+    ],
+    difficulty: "Very Hard",
+
+    caseText: `
+      <p><strong>Precision Auto Components Limited</strong> receives a notice
+      from the Registrar seeking explanations regarding transactions recorded
+      five years earlier.</p>
+
+      <p>The current Finance Director states that he joined the company only last
+      year and therefore cannot answer questions concerning the earlier period.
+      The Registrar then serves a written notice on the former Finance Director
+      who was employed during the relevant period.</p>
+
+      <p>During the subsequent inquiry, certain documents are found to have been
+      falsified. The current Finance Director claims that he cannot be liable
+      because the falsification occurred before his appointment, while the former
+      Finance Director claims that he cannot be questioned because he is no longer
+      an employee.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_VH_08_Q1",
+        difficulty: "Very Hard",
+        question: "The current Finance Director's inability to explain historical matters:",
+        options: [
+          "Does not automatically eliminate the Registrar's ability to call the former officer concerned",
+          "Automatically ends the inquiry",
+          "Makes the Registrar's notice invalid",
+          "Requires SFIO investigation"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 206 specifically contemplates calling past officers where the information relates to the period during which they were employed.</p>"
+      },
+
+      {
+        question_id: "C4_VH_08_Q2",
+        question: "The former Finance Director's argument that he cannot be questioned because he has left the company is:",
+        options: [
+          "Incorrect where the statutory conditions for calling a past officer are satisfied",
+          "Always correct",
+          "Correct if he owns no shares",
+          "Correct if the company objects"
+        ],
+        answer: 0,
+        solution_html: "<p>The proviso to Section 206(2) permits the Registrar to call past officers through written notice regarding information relating to their period of employment.</p>"
+      },
+
+      {
+        question_id: "C4_VH_08_Q3",
+        question: "If the falsification occurred before the current Finance Director's appointment, his liability under Section 229:",
+        options: [
+          "Depends on whether he himself participated in, was a party to, or otherwise committed conduct covered by the section",
+          "Automatically arises merely because he is currently Finance Director",
+          "Automatically does not arise because he is a director",
+          "Is determined only by the auditor"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 attaches to the prohibited conduct of the person concerned; mere subsequent appointment does not automatically establish liability for an earlier act.</p>"
+      },
+
+      {
+        question_id: "C4_VH_08_Q4",
+        question: "If the former Finance Director deliberately falsified documents during the relevant period, the strongest applicable provision is:",
+        options: [
+          "Section 229",
+          "Section 214",
+          "Section 218",
+          "Section 227"
+        ],
+        answer: 0,
+        solution_html: "<p>Falsification of documents relating to the affairs of the company during inspection, inquiry or investigation is specifically covered by Section 229.</p>"
+      },
+
+      {
+        question_id: "C4_VH_08_Q5",
+        question: "Which sequence is most appropriate?",
+        options: [
+          "Section 206 information request → possible inquiry → Section 208 report → possible further investigation",
+          "Section 229 → Section 206 → Section 208 automatically",
+          "Section 225 → Section 206 → Section 217",
+          "Section 218 → Section 208 → Section 206"
+        ],
+        answer: 0,
+        solution_html: "<p>The statutory scheme generally permits the Registrar to begin by calling for information/documents, conduct inquiry where warranted, report under Section 208 and, where circumstances justify, proceed to further investigation.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // VERY HARD CASE SCENARIO 9
+  // =========================================================
+  {
+    case_id: "C4_VH_09",
+    case_chapter: [
+      "Inspection, Inquiry and Investigation",
+      "Sections 212, 220, 223, 224 and 225"
+    ],
+    difficulty: "Very Hard",
+
+    caseText: `
+      <p><strong>Royal Finance Limited</strong> was investigated by SFIO after
+      serious allegations of fraud. During the investigation, the Inspector
+      believed that several original records were likely to be destroyed and
+      therefore exercised the statutory power to seize them.</p>
+
+      <p>The final report stated that two directors had committed offences and
+      that another person had wrongfully retained company property worth
+      ₹4 crore. The Central Government initiated prosecution and recovery
+      proceedings.</p>
+
+      <p>The investigation had cost ₹75 lakh. The court convicted one director
+      and ordered the wrongdoer to restore the property. The company subsequently
+      recovered the property.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_VH_09_Q1",
+        difficulty: "Very Hard",
+        question: "The seizure of documents was justified only where the Inspector had:",
+        options: [
+          "Reasonable grounds to believe that the documents were likely to be destroyed, mutilated, altered, falsified or secreted",
+          "A general desire to possess all records",
+          "A shareholder resolution",
+          "Approval of the statutory auditor"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 220 requires reasonable grounds to believe that relevant books and papers are likely to be destroyed, mutilated, altered, falsified or secreted before seizure.</p>"
+      },
+
+      {
+        question_id: "C4_VH_09_Q2",
+        question: "The authenticated report can support legal proceedings because:",
+        options: [
+          "Section 223 provides for its admissibility as evidence regarding matters contained in it",
+          "All internal reports are automatically evidence",
+          "SFIO reports have no evidentiary value",
+          "Only auditors' reports can be evidence"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 223 provides for authentication of the Inspector's report and its admissibility in legal proceedings as evidence concerning matters contained in it.</p>"
+      },
+
+      {
+        question_id: "C4_VH_09_Q3",
+        question: "The Central Government's prosecution following the report is primarily supported by:",
+        options: [
+          "Section 224",
+          "Section 214",
+          "Section 218",
+          "Section 227"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 224 deals with actions to be taken in pursuance of the Inspector's report, including prosecution where criminal liability is indicated.</p>"
+      },
+
+      {
+        question_id: "C4_VH_09_Q4",
+        question: "The ₹75 lakh investigation expense is initially:",
+        options: [
+          "Defrayed by the Central Government, subject to statutory reimbursement mechanisms",
+          "Always paid personally by the Registrar",
+          "Always paid by shareholders",
+          "Automatically paid by the convicted person in full"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 225 provides that investigation expenses are initially defrayed by the Central Government, subject to recovery/reimbursement under the section.</p>"
+      },
+
+      {
+        question_id: "C4_VH_09_Q5",
+        question: "If ₹4 crore worth of property is recovered as a result of the proceedings, the company's liability toward investigation expenses may be:",
+        options: [
+          "Reimbursed to the extent permitted by Section 225 and the value recovered",
+          "Automatically equal to unlimited damages",
+          "Completely extinguished in every case",
+          "Converted into share capital"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 225 provides mechanisms for recovery of investigation expenses from relevant persons and from the company/body corporate to the extent of sums or property recovered through proceedings.</p>"
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // VERY HARD CASE SCENARIO 10
+  // =========================================================
+  {
+    case_id: "C4_VH_10",
+    case_chapter: [
+      "Inspection, Inquiry and Investigation",
+      "Integrated Sections 206–229"
+    ],
+    difficulty: "Very Hard",
+
+    caseText: `
+      <p><strong>National Strategic Ventures Limited</strong> presents an
+      unusually complex investigation. The Registrar initially notices
+      inconsistencies in documents filed by the company and calls for further
+      information. The company provides explanations, but the Registrar considers
+      them inadequate and conducts an inquiry.</p>
+
+      <p>The resulting report recommends further investigation. A special
+      resolution is also passed by the company, while a Government department
+      separately provides information suggesting fraudulent conduct. The Central
+      Government therefore assigns the investigation to SFIO.</p>
+
+      <p>During the SFIO investigation, investigators discover that a subsidiary
+      is being used to route transactions, the true beneficial owners of certain
+      shares are concealed, assets are about to be transferred, securities are
+      being shifted to nominees, an employee is threatened with dismissal for
+      cooperating with the investigation, and certain records have been
+      deliberately falsified.</p>
+
+      <p>The company argues that all these matters should be handled through a
+      single provision and that once the SFIO investigation begins, the Tribunal
+      and Registrar have no further role.</p>
+    `,
+
+    questions: [
+      {
+        question_id: "C4_VH_10_Q1",
+        difficulty: "Very Hard",
+        question: "Which combination most accurately maps the principal issues in the case?",
+        options: [
+          "Inadequate information – Section 206; SFIO assignment – Section 212; related company – Section 219; ownership – Section 216",
+          "All issues – Section 206 only",
+          "All issues – Section 225 only",
+          "Ownership – Section 229; employee protection – Section 227"
+        ],
+        answer: 0,
+        solution_html: "<p>The case deliberately involves different statutory mechanisms: Section 206 for Registrar information/inquiry, Section 212 for SFIO assignment, Section 219 for related companies and Section 216 for ownership investigation.</p>"
+      },
+
+      {
+        question_id: "C4_VH_10_Q2",
+        difficulty: "Very Hard",
+        question: "The threatened transfer of company assets and the transfer of securities require distinction because:",
+        options: [
+          "Assets are primarily addressed under Section 221, while securities are specifically addressed under Section 222",
+          "Both are governed only by Section 206",
+          "Both are governed only by Section 229",
+          "Neither can be restricted by the Tribunal"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 221 concerns restrictions on company funds, assets and property, while Section 222 specifically deals with restrictions upon securities.</p>"
+      },
+
+      {
+        question_id: "C4_VH_10_Q3",
+        question: "The threatened dismissal of the cooperating employee is primarily relevant to:",
+        options: [
+          "Section 218",
+          "Section 219",
+          "Section 220",
+          "Section 225"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 218 provides protection to employees during investigation against specified adverse employment actions without following the statutory process.</p>"
+      },
+
+      {
+        question_id: "C4_VH_10_Q4",
+        question: "The deliberate falsification of investigation-related records is primarily dealt with under:",
+        options: [
+          "Section 229",
+          "Section 216",
+          "Section 221",
+          "Section 227"
+        ],
+        answer: 0,
+        solution_html: "<p>Section 229 deals with destruction, mutilation, falsification, concealment, tampering and unauthorized removal of documents and false explanations in the context of inspection, inquiry or investigation.</p>"
+      },
+
+      {
+        question_id: "C4_VH_10_Q5",
+        difficulty: "Very Hard",
+        question: "Which statement best identifies the company's fundamental error?",
+        options: [
+          "The investigation framework contains multiple complementary powers, and assignment to SFIO does not erase the separate statutory roles of the Tribunal and other authorities",
+          "All investigation powers must always be exercised under Section 206",
+          "SFIO automatically replaces every Tribunal function",
+          "Once investigation begins, all protective orders become impossible"
+        ],
+        answer: 0,
+        solution_html: "<p>The Companies Act creates an interconnected framework. SFIO investigation under Section 212 does not eliminate the statutory powers of the Tribunal or other authorities where provisions such as Sections 216, 218, 219, 221, 222 and 229 become relevant.</p>"
+      }
+    ]
+  },
 ];
+
