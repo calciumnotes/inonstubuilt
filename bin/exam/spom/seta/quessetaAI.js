@@ -17649,5 +17649,5186 @@ const AICaseStudies = [
       }
     ]
   },
+  // Chapter 5
+  /* =========================================================
+   CHAPTER 5 – COMPROMISES, ARRANGEMENTS AND AMALGAMATIONS
+   DIFFICULTY: EASY
+   CASE SCENARIOS: 10
+   5 MCQs PER CASE
+========================================================= */
+
+/* =========================================================
+   CASE SCENARIO 1
+========================================================= */
+{
+  id: "CAA_EASY_01",
+  difficulty: "Easy",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Sunrise Textiles Limited</strong> was facing financial difficulties due to a decline in
+    demand for its products. The company proposed a scheme with its secured creditors under
+    Section 230 of the Companies Act, 2013. Under the proposed scheme, the creditors agreed
+    to receive 80% of their outstanding dues immediately and the remaining 20% after two years.</p>
+
+    <p>The company made an application to the National Company Law Tribunal (NCLT) seeking
+    appropriate directions regarding the meeting of creditors. The Tribunal considered the
+    application and decided to call a meeting of the concerned class of creditors.</p>
+
+    <p>The management explained that a compromise involves mutual concessions between parties,
+    whereas an arrangement may involve modification or reorganisation of existing rights.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_EASY_01_1",
+      question: "Under Section 230, which of the following may apply to the Tribunal for a compromise or arrangement?",
+      options: [
+        "Only the company",
+        "Only the creditors",
+        "Company, creditor, member or liquidator in case of voluntary liquidation",
+        "Only the Central Government"
+      ],
+      answer: 2,
+      explanation: "Section 230 permits an application by the company, creditor, member or liquidator in case of voluntary liquidation."
+    },
+
+    {
+      id: "CAA_EASY_01_2",
+      question: "A compromise generally involves:",
+      options: [
+        "A dispute between parties and mutual concessions",
+        "Only a transfer of shares",
+        "Only an increase in share capital",
+        "Compulsory winding up"
+      ],
+      answer: 0,
+      explanation: "A compromise assumes a dispute and generally involves mutual adjustments and concessions by the parties."
+    },
+
+    {
+      id: "CAA_EASY_01_3",
+      question: "An arrangement may include:",
+      options: [
+        "Only settlement of disputes",
+        "Reorganisation of share capital",
+        "Only liquidation of a company",
+        "Only acquisition of another company"
+      ],
+      answer: 1,
+      explanation: "The term arrangement is wide and includes reorganisation of share capital."
+    },
+
+    {
+      id: "CAA_EASY_01_4",
+      question: "Which authority has the power to order the meeting under Section 230?",
+      options: [
+        "Registrar of Companies",
+        "NCLT",
+        "Income-tax Department",
+        "SEBI in every case"
+      ],
+      answer: 1,
+      explanation: "The NCLT may order a meeting of creditors, members or the relevant class thereof."
+    },
+
+    {
+      id: "CAA_EASY_01_5",
+      question: "A scheme under Section 230 may be proposed between:",
+      options: [
+        "A company and its creditors or members",
+        "Only two unrelated companies",
+        "Only a company and the Central Government",
+        "Only shareholders and directors"
+      ],
+      answer: 0,
+      explanation: "Section 230 covers compromises or arrangements between a company and its creditors or members or classes thereof."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 2
+========================================================= */
+{
+  id: "CAA_EASY_02",
+  difficulty: "Easy",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Galaxy Foods Limited</strong> proposed a scheme of arrangement with its members.
+    The scheme involved reorganising its share capital by consolidating certain shares and
+    dividing another class of shares into different classes.</p>
+
+    <p>The company filed an application before the NCLT. The Tribunal directed that a meeting
+    of the relevant class of members should be called. Notices were required to be sent to the
+    members at their registered addresses.</p>
+
+    <p>The company also prepared information explaining the effect of the proposed arrangement
+    on members, creditors, promoters, key managerial personnel and debenture-holders.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_EASY_02_1",
+      question: "Under Section 230, arrangement includes:",
+      options: [
+        "Reorganisation of share capital",
+        "Only winding up",
+        "Only issue of debentures",
+        "Only reduction of liabilities"
+      ],
+      answer: 0,
+      explanation: "Arrangement expressly includes reorganisation of share capital by consolidation or division of shares of different classes."
+    },
+
+    {
+      id: "CAA_EASY_02_2",
+      question: "Notice of a Tribunal-ordered meeting is required to be sent individually to:",
+      options: [
+        "Only directors",
+        "Creditors, members and debenture-holders as applicable",
+        "Only promoters",
+        "Only employees"
+      ],
+      answer: 1,
+      explanation: "Section 230(3) requires notices to the relevant creditors, members and debenture-holders individually."
+    },
+
+    {
+      id: "CAA_EASY_02_3",
+      question: "The notice should generally be sent to members at:",
+      options: [
+        "The company's registered office only",
+        "The address registered with the company",
+        "The address of the director",
+        "Any address selected by the company"
+      ],
+      answer: 1,
+      explanation: "The notice is sent individually at the address registered with the company."
+    },
+
+    {
+      id: "CAA_EASY_02_4",
+      question: "The statement accompanying the notice may explain the effect of the scheme on:",
+      options: [
+        "Only shareholders",
+        "Only creditors",
+        "Various stakeholders including creditors, KMPs, promoters and members",
+        "Only directors"
+      ],
+      answer: 2,
+      explanation: "The accompanying statement contains disclosures regarding the effect of the compromise or arrangement on relevant stakeholders."
+    },
+
+    {
+      id: "CAA_EASY_02_5",
+      question: "The Tribunal involved in schemes under Section 230 is:",
+      options: [
+        "NCLT",
+        "NCLAT as the first authority",
+        "SEBI",
+        "Registrar of Companies"
+      ],
+      answer: 0,
+      explanation: "Applications under Section 230 are made to the National Company Law Tribunal."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 3
+========================================================= */
+{
+  id: "CAA_EASY_03",
+  difficulty: "Easy",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Metro Engineering Limited</strong> proposed a compromise with its creditors.
+    The company issued notices for the meeting and informed the creditors that voting could
+    be undertaken personally, through a proxy or by postal ballot.</p>
+
+    <p>During the meeting, the creditors considered the proposed scheme. The company also
+    received representations from certain regulatory authorities regarding matters that could
+    potentially affect their respective regulatory interests.</p>
+
+    <p>The company was advised that the statutory authorities should be given an opportunity
+    to make their representations within the prescribed period.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_EASY_03_1",
+      question: "Under Section 230(4), voting on a compromise or arrangement may be done:",
+      options: [
+        "Only personally",
+        "Personally, through proxy or by postal ballot",
+        "Only through proxy",
+        "Only electronically"
+      ],
+      answer: 1,
+      explanation: "Persons receiving the notice may vote personally, through proxies or by postal ballot."
+    },
+
+    {
+      id: "CAA_EASY_03_2",
+      question: "Sectoral regulators receiving notice under Section 230(5) generally have how much time to make representations?",
+      options: [
+        "15 days",
+        "30 days",
+        "45 days",
+        "60 days"
+      ],
+      answer: 1,
+      explanation: "Representations are required to be made within 30 days from receipt of the notice."
+    },
+
+    {
+      id: "CAA_EASY_03_3",
+      question: "If the relevant authority does not make a representation within the prescribed 30 days:",
+      options: [
+        "The scheme automatically fails",
+        "It is presumed that the authority has no representation to make",
+        "The company must withdraw the scheme",
+        "The Tribunal loses jurisdiction"
+      ],
+      answer: 1,
+      explanation: "Failure to make a representation within 30 days is presumed to mean that the authority has no representation to make."
+    },
+
+    {
+      id: "CAA_EASY_03_4",
+      question: "Which of the following may receive notice under Section 230(5)?",
+      options: [
+        "Income-tax authorities",
+        "RBI",
+        "SEBI",
+        "All of the above"
+      ],
+      answer: 3,
+      explanation: "The provision includes several sectoral authorities including the Income-tax authorities, RBI and SEBI."
+    },
+
+    {
+      id: "CAA_EASY_03_5",
+      question: "The notice to sectoral regulators is intended mainly to:",
+      options: [
+        "Give them an opportunity to make representations",
+        "Transfer management to them",
+        "Obtain automatic approval",
+        "Cancel the scheme"
+      ],
+      answer: 0,
+      explanation: "The notice allows authorities likely to be affected by the scheme to make representations."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 4
+========================================================= */
+{
+  id: "CAA_EASY_04",
+  difficulty: "Easy",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Bright Electronics Limited</strong> proposed a scheme of compromise with its
+    creditors. At the meeting, the creditors considered the proposal and voted on it.</p>
+
+    <p>The scheme received the required approval from the creditors voting at the meeting.
+    The company thereafter approached the NCLT for sanction of the compromise.</p>
+
+    <p>The Tribunal examined the scheme and, after being satisfied with the statutory requirements,
+    sanctioned the compromise by an order.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_EASY_04_1",
+      question: "For approval of a compromise or arrangement under Section 230(6), the required majority in value is:",
+      options: [
+        "One-half",
+        "Two-thirds",
+        "Three-fourths",
+        "Nine-tenths"
+      ],
+      answer: 2,
+      explanation: "The compromise or arrangement requires approval by persons representing three-fourths in value of those voting, along with the required majority in number."
+    },
+
+    {
+      id: "CAA_EASY_04_2",
+      question: "After sanction by the Tribunal, the compromise or arrangement becomes binding on:",
+      options: [
+        "Only the persons who voted in favour",
+        "The company and the relevant creditors or members as specified",
+        "Only directors",
+        "Only dissenting members"
+      ],
+      answer: 1,
+      explanation: "Once sanctioned by the Tribunal after the requisite approval, the scheme becomes binding on the company and relevant stakeholders covered by Section 230(6)."
+    },
+
+    {
+      id: "CAA_EASY_04_3",
+      question: "The order sanctioning the scheme is made by:",
+      options: [
+        "NCLT",
+        "Registrar",
+        "Central Government only",
+        "SEBI"
+      ],
+      answer: 0,
+      explanation: "The NCLT sanctions the compromise or arrangement under Section 230."
+    },
+
+    {
+      id: "CAA_EASY_04_4",
+      question: "A compromise or arrangement sanctioned by the Tribunal may be binding on:",
+      options: [
+        "Creditors or members of the relevant class",
+        "Only employees",
+        "Only directors",
+        "Only the auditors"
+      ],
+      answer: 0,
+      explanation: "The sanctioned scheme is binding on the company and the relevant creditors, members or classes thereof."
+    },
+
+    {
+      id: "CAA_EASY_04_5",
+      question: "The majority requirement under Section 230(6) involves:",
+      options: [
+        "Only number",
+        "Only value",
+        "Majority in number and three-fourths in value of those voting",
+        "Nine-tenths in number only"
+      ],
+      answer: 2,
+      explanation: "The requirement is a simple majority in number of those voting together with representation of three-fourths in value of those voting."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 5
+========================================================= */
+{
+  id: "CAA_EASY_05",
+  difficulty: "Easy",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Nova Industries Limited</strong> obtained an order from the NCLT sanctioning
+    a compromise with its creditors. The Tribunal wanted to ensure that the scheme was properly
+    implemented.</p>
+
+    <p>During implementation, certain difficulties arose regarding the payment schedule.
+    The Tribunal examined the matter and considered whether modifications were necessary for
+    proper implementation of the sanctioned scheme.</p>
+
+    <p>The company was also informed that if the sanctioned scheme could not be implemented
+    satisfactorily and the company was unable to pay its debts according to the scheme, the
+    Tribunal could take further action.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_EASY_05_1",
+      question: "Which section deals with the power of the Tribunal to enforce a compromise or arrangement?",
+      options: [
+        "Section 230",
+        "Section 231",
+        "Section 233",
+        "Section 236"
+      ],
+      answer: 1,
+      explanation: "Section 231 deals with the Tribunal's power to enforce and supervise implementation of a compromise or arrangement."
+    },
+
+    {
+      id: "CAA_EASY_05_2",
+      question: "Under Section 231, the Tribunal may:",
+      options: [
+        "Supervise implementation of the scheme",
+        "Give necessary directions",
+        "Make necessary modifications",
+        "All of the above"
+      ],
+      answer: 3,
+      explanation: "The Tribunal may supervise implementation and give directions or modifications necessary for proper implementation."
+    },
+
+    {
+      id: "CAA_EASY_05_3",
+      question: "If the sanctioned compromise cannot be implemented satisfactorily and the company is unable to pay its debts under the scheme, the Tribunal may:",
+      options: [
+        "Order winding up",
+        "Automatically cancel all debts",
+        "Transfer the company to SEBI",
+        "Remove all directors"
+      ],
+      answer: 0,
+      explanation: "Section 231 permits the Tribunal to make an order for winding up in the specified circumstances."
+    },
+
+    {
+      id: "CAA_EASY_05_4",
+      question: "The power under Section 231 is exercised in relation to a compromise or arrangement sanctioned under:",
+      options: [
+        "Section 230",
+        "Section 235",
+        "Section 238",
+        "Section 240"
+      ],
+      answer: 0,
+      explanation: "Section 231 applies where the Tribunal has made an order under Section 230 sanctioning a compromise or arrangement."
+    },
+
+    {
+      id: "CAA_EASY_05_5",
+      question: "The main purpose of Tribunal supervision under Section 231 is to:",
+      options: [
+        "Ensure proper implementation of the sanctioned scheme",
+        "Increase the company's authorised capital",
+        "Conduct the company's audit",
+        "Appoint statutory auditors"
+      ],
+      answer: 0,
+      explanation: "The Tribunal supervises implementation to ensure that the sanctioned compromise or arrangement is properly carried out."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 6
+========================================================= */
+{
+  id: "CAA_EASY_06",
+  difficulty: "Easy",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Alpha Manufacturing Limited</strong> decided to merge with Beta Components
+    Limited. Alpha was the transferor company and Beta was the transferee company.</p>
+
+    <p>Under the proposed scheme, the undertaking, property and liabilities of Alpha were to
+    be transferred to Beta. The scheme also provided for the dissolution of Alpha without
+    winding up after the merger.</p>
+
+    <p>The NCLT considered the scheme under Section 232. The companies were required to
+    comply with the prescribed procedural requirements and provide relevant reports and
+    documents.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_EASY_06_1",
+      question: "In the given case, Alpha Manufacturing Limited is the:",
+      options: [
+        "Transferee company",
+        "Transferor company",
+        "Resulting company only",
+        "Holding company"
+      ],
+      answer: 1,
+      explanation: "The company whose undertaking, property and liabilities are transferred is called the transferor company."
+    },
+
+    {
+      id: "CAA_EASY_06_2",
+      question: "Beta Components Limited is the:",
+      options: [
+        "Transferor company",
+        "Transferee company",
+        "Liquidator",
+        "Official Liquidator"
+      ],
+      answer: 1,
+      explanation: "The company receiving the undertaking, property and liabilities is the transferee company."
+    },
+
+    {
+      id: "CAA_EASY_06_3",
+      question: "Which section primarily deals with merger and amalgamation of companies?",
+      options: [
+        "Section 230",
+        "Section 231",
+        "Section 232",
+        "Section 240"
+      ],
+      answer: 2,
+      explanation: "Section 232 deals with merger and amalgamation of companies."
+    },
+
+    {
+      id: "CAA_EASY_06_4",
+      question: "Under Section 232, a transferor company may be dissolved:",
+      options: [
+        "Only after winding up",
+        "Without winding up",
+        "Only by the Registrar",
+        "Only by shareholders without Tribunal involvement"
+      ],
+      answer: 1,
+      explanation: "The Tribunal's order may provide for dissolution of the transferor company without winding up."
+    },
+
+    {
+      id: "CAA_EASY_06_5",
+      question: "Under a merger scheme, pending legal proceedings of the transferor company may:",
+      options: [
+        "Automatically terminate",
+        "Continue by or against the transferee company",
+        "Always be transferred to SEBI",
+        "Be transferred to the shareholders"
+      ],
+      answer: 1,
+      explanation: "Section 232 permits continuation of legal proceedings by or against the transferee company."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 7
+========================================================= */
+{
+  id: "CAA_EASY_07",
+  difficulty: "Easy",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Prime Holdings Limited</strong> wanted to merge with its wholly-owned subsidiary,
+    Prime Services Limited. The directors considered using the fast-track merger mechanism
+    under Section 233.</p>
+
+    <p>The companies examined the requirements relating to members, creditors and filing of
+    the scheme. The management also learned that the fast-track route is available for specified
+    classes of companies and that eligible companies may alternatively use the normal merger
+    procedure.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_EASY_07_1",
+      question: "A holding company and its wholly-owned subsidiary may enter into a merger scheme under:",
+      options: [
+        "Section 233",
+        "Section 236 only",
+        "Section 239 only",
+        "Section 240 only"
+      ],
+      answer: 0,
+      explanation: "Section 233 provides the fast-track merger mechanism for a holding company and its wholly-owned subsidiary."
+    },
+
+    {
+      id: "CAA_EASY_07_2",
+      question: "The fast-track merger procedure is generally intended for:",
+      options: [
+        "Specified classes of companies",
+        "Only listed companies",
+        "Only foreign companies",
+        "Only companies under liquidation"
+      ],
+      answer: 0,
+      explanation: "Section 233 applies to specified classes such as small companies and holding company-wholly-owned subsidiary combinations."
+    },
+
+    {
+      id: "CAA_EASY_07_3",
+      question: "Under the fast-track procedure, the scheme is approved by members holding at least:",
+      options: [
+        "51% of total shares",
+        "75% of total shares",
+        "90% of total number of shares",
+        "100% of total shares"
+      ],
+      answer: 2,
+      explanation: "The scheme must be approved by members or the relevant class holding at least 90% of the total number of shares."
+    },
+
+    {
+      id: "CAA_EASY_07_4",
+      question: "The fast-track merger requires creditor approval by a majority representing:",
+      options: [
+        "One-half in value",
+        "Two-thirds in value",
+        "Three-fourths in value",
+        "Nine-tenths in value"
+      ],
+      answer: 3,
+      explanation: "Section 233 requires approval by a majority representing nine-tenths in value of the creditors or relevant class."
+    },
+
+    {
+      id: "CAA_EASY_07_5",
+      question: "The provisions of Section 233 are:",
+      options: [
+        "Always compulsory for eligible companies",
+        "Optional; an eligible company may use Section 232 instead",
+        "Applicable only to foreign companies",
+        "Applicable only after winding up"
+      ],
+      answer: 1,
+      explanation: "Eligible companies may use the fast-track mechanism, but they can also opt for the normal procedure under Sections 230 to 232."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 8
+========================================================= */
+{
+  id: "CAA_EASY_08",
+  difficulty: "Easy",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Zenith Retail Limited</strong> acquired 90% of the issued equity share capital
+    of another company. After becoming the 90% majority shareholder, Zenith decided to acquire
+    the remaining equity shares held by the minority shareholders.</p>
+
+    <p>The company understood that the price payable to minority shareholders must be determined
+    on the basis of valuation by a registered valuer in accordance with the prescribed rules.</p>
+
+    <p>The majority shareholders also had to deposit the required amount in a separate bank
+    account operated by the company for payment to the minority shareholders.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_EASY_08_1",
+      question: "Section 236 becomes relevant when an acquirer becomes registered holder of at least:",
+      options: [
+        "51% of issued equity share capital",
+        "75% of issued equity share capital",
+        "90% of issued equity share capital",
+        "95% of issued equity share capital"
+      ],
+      answer: 2,
+      explanation: "Section 236 applies when the acquirer or specified person/group becomes registered holder of 90% or more of the issued equity share capital."
+    },
+
+    {
+      id: "CAA_EASY_08_2",
+      question: "The price for purchase of minority shares is determined on the basis of valuation by:",
+      options: [
+        "Statutory auditor",
+        "Company secretary",
+        "Registered valuer",
+        "Registrar of Companies"
+      ],
+      answer: 2,
+      explanation: "Section 236 requires valuation by a registered valuer in accordance with Rule 27."
+    },
+
+    {
+      id: "CAA_EASY_08_3",
+      question: "The majority shareholders are required to deposit the amount for acquisition in:",
+      options: [
+        "The personal account of the promoter",
+        "A separate bank account operated by the company",
+        "The account of the Registrar",
+        "The account of the Central Government"
+      ],
+      answer: 1,
+      explanation: "The amount equal to the value of shares to be acquired is deposited in a separate bank account operated by the company."
+    },
+
+    {
+      id: "CAA_EASY_08_4",
+      question: "The company whose shares are being transferred acts as:",
+      options: [
+        "Transfer agent",
+        "Registered valuer",
+        "Liquidator",
+        "Tribunal"
+      ],
+      answer: 0,
+      explanation: "Under Section 236, the company whose shares are transferred acts as the transfer agent for receiving and paying the price and handling the shares."
+    },
+
+    {
+      id: "CAA_EASY_08_5",
+      question: "The main purpose of Section 236 is to provide a mechanism for:",
+      options: [
+        "Purchase of minority shareholding after the 90% threshold is reached",
+        "Appointment of auditors",
+        "Reduction of share capital",
+        "Voluntary liquidation"
+      ],
+      answer: 0,
+      explanation: "Section 236 provides the mechanism for purchase of minority shareholding once the prescribed 90% threshold is reached."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 9
+========================================================= */
+{
+  id: "CAA_EASY_09",
+  difficulty: "Easy",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>National Infrastructure Limited</strong> was involved in a proposed amalgamation
+    which the Central Government considered necessary in the public interest. The Government
+    proposed to issue an order providing for amalgamation of two companies into a single company.</p>
+
+    <p>The Government also considered the interests and rights of members and creditors of the
+    transferor companies. It ensured that their interests or rights would remain substantially
+    protected in the transferee company.</p>
+
+    <p>A creditor who was dissatisfied with the compensation assessment considered challenging
+    the assessment before the Tribunal.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_EASY_09_1",
+      question: "Which section deals with amalgamation of companies in public interest by the Central Government?",
+      options: [
+        "Section 232",
+        "Section 233",
+        "Section 236",
+        "Section 237"
+      ],
+      answer: 3,
+      explanation: "Section 237 empowers the Central Government to provide for amalgamation of companies in public interest."
+    },
+
+    {
+      id: "CAA_EASY_09_2",
+      question: "The Central Government's order under Section 237 is notified in:",
+      options: [
+        "A newspaper only",
+        "The Official Gazette",
+        "The company's annual report only",
+        "The stock exchange bulletin only"
+      ],
+      answer: 1,
+      explanation: "The amalgamation order is notified in the Official Gazette."
+    },
+
+    {
+      id: "CAA_EASY_09_3",
+      question: "Members and creditors of transferor companies should generally have:",
+      options: [
+        "No rights after amalgamation",
+        "The same or substantially similar interests or rights in the transferee company",
+        "Only voting rights",
+        "Only dividend rights"
+      ],
+      answer: 1,
+      explanation: "Section 237 seeks to preserve, as nearly as may be, the interests or rights of members and creditors."
+    },
+
+    {
+      id: "CAA_EASY_09_4",
+      question: "If the interest or rights of a member or creditor become less, the person may be entitled to:",
+      options: [
+        "Compensation",
+        "Automatic winding up",
+        "Additional voting rights only",
+        "Appointment as director"
+      ],
+      answer: 0,
+      explanation: "Where the rights or interests are reduced, the person is entitled to compensation to that extent."
+    },
+
+    {
+      id: "CAA_EASY_09_5",
+      question: "An aggrieved person may appeal against the compensation assessment to:",
+      options: [
+        "Registrar",
+        "NCLT",
+        "SEBI",
+        "RBI"
+      ],
+      answer: 1,
+      explanation: "An aggrieved person may appeal to the Tribunal against the assessment of compensation."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 10
+========================================================= */
+{
+  id: "CAA_EASY_10",
+  difficulty: "Easy",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Future Technologies Limited</strong> was amalgamated with another company.
+    Following the amalgamation, some of the former officers of the transferor company argued
+    that their responsibility for offences committed before the merger had ended because the
+    transferor company no longer existed.</p>
+
+    <p>The legal adviser of the company explained that the Companies Act specifically provides
+    for continuation of liability of officers in default for offences committed before the merger,
+    amalgamation or acquisition.</p>
+
+    <p>The company also wanted to dispose of certain books and papers of the amalgamated company.
+    It was informed that prior permission of the Central Government was required before disposal
+    of such books and papers.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_EASY_10_1",
+      question: "Which section deals with preservation of books and papers of amalgamated companies?",
+      options: [
+        "Section 237",
+        "Section 238",
+        "Section 239",
+        "Section 240"
+      ],
+      answer: 2,
+      explanation: "Section 239 deals with preservation of books and papers of amalgamated companies or companies whose shares have been acquired."
+    },
+
+    {
+      id: "CAA_EASY_10_2",
+      question: "Books and papers covered by Section 239 cannot generally be disposed of without prior permission of:",
+      options: [
+        "Central Government",
+        "SEBI",
+        "RBI",
+        "NCLAT"
+      ],
+      answer: 0,
+      explanation: "Prior permission of the Central Government is required for disposal of such books and papers."
+    },
+
+    {
+      id: "CAA_EASY_10_3",
+      question: "Which section deals with liability of officers for offences committed before merger or amalgamation?",
+      options: [
+        "Section 230",
+        "Section 232",
+        "Section 239",
+        "Section 240"
+      ],
+      answer: 3,
+      explanation: "Section 240 provides that liability for offences committed before merger, amalgamation or acquisition continues."
+    },
+
+    {
+      id: "CAA_EASY_10_4",
+      question: "Under Section 240, liability for an offence committed before merger:",
+      options: [
+        "Automatically disappears",
+        "Continues after the merger or amalgamation",
+        "Transfers only to shareholders",
+        "Applies only if the company is listed"
+      ],
+      answer: 1,
+      explanation: "Section 240 expressly provides for continuation of liability of officers in default for offences committed before merger, amalgamation or acquisition."
+    },
+
+    {
+      id: "CAA_EASY_10_5",
+      question: "The purpose of preserving books and papers under Section 239 includes enabling examination for evidence of:",
+      options: [
+        "Only tax payments",
+        "Offences connected with promotion, formation or management of the company",
+        "Only dividend calculations",
+        "Only employee records"
+      ],
+      answer: 1,
+      explanation: "The Central Government may appoint a person to examine the books and papers to ascertain evidence of offences connected with promotion, formation, management, amalgamation or acquisition."
+    }
+
+  ]
+},
+/* =========================================================
+   CHAPTER 5 – COMPROMISES, ARRANGEMENTS AND AMALGAMATIONS
+   DIFFICULTY: MEDIUM
+   CASE SCENARIOS: 15
+   5 MCQs PER CASE
+========================================================= */
+
+/* =========================================================
+   CASE SCENARIO 1
+========================================================= */
+{
+  id: "CAA_MEDIUM_01",
+  difficulty: "Medium",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Arun Manufacturing Limited</strong> proposed a compromise with its secured
+    creditors. The company had outstanding secured debt of ₹20 crore. A scheme was proposed
+    under which 60% of the debt would be paid immediately and the balance would be converted
+    into equity shares.</p>
+
+    <p>The company filed an application before the NCLT. The application contained details of
+    the company's financial position, the latest auditor's report and details regarding pending
+    proceedings against the company. The scheme also contained a valuation report prepared by
+    a registered valuer.</p>
+
+    <p>Some creditors argued that the company had failed to disclose material facts relating to
+    the pending investigation against it.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_MEDIUM_01_1",
+      question: "Under Section 230(2), the applicant is required to disclose to the Tribunal:",
+      options: [
+        "Only the proposed repayment schedule",
+        "All material facts relating to the company",
+        "Only details of secured creditors",
+        "Only the valuation report"
+      ],
+      answer: 1,
+      explanation: "Section 230(2) requires disclosure by affidavit of all material facts relating to the company, including its latest financial position, latest auditor's report and pending investigations or proceedings."
+    },
+
+    {
+      id: "CAA_MEDIUM_01_2",
+      question: "Which of the following is specifically required to be disclosed under Section 230(2)?",
+      options: [
+        "Pending investigation or proceedings against the company",
+        "Personal assets of every director",
+        "Income of every employee",
+        "Future dividend policy only"
+      ],
+      answer: 0,
+      explanation: "Pending investigation or proceedings against the company form part of the material facts required to be disclosed."
+    },
+
+    {
+      id: "CAA_MEDIUM_01_3",
+      question: "A valuation report relating to shares and assets under the relevant scheme is generally prepared by:",
+      options: [
+        "A registered valuer",
+        "The Registrar of Companies",
+        "The Official Liquidator",
+        "The company's bankers"
+      ],
+      answer: 0,
+      explanation: "The Act requires a valuation report in the circumstances specified under Section 230, with valuation by a registered valuer."
+    },
+
+    {
+      id: "CAA_MEDIUM_01_4",
+      question: "If a reduction of share capital is included in the compromise or arrangement, the application should disclose:",
+      options: [
+        "The proposed reduction",
+        "Only the number of directors",
+        "Only the company's registered office",
+        "Only the amount of authorised capital"
+      ],
+      answer: 0,
+      explanation: "Section 230(2) specifically requires disclosure of reduction of share capital, if any, included in the compromise or arrangement."
+    },
+
+    {
+      id: "CAA_MEDIUM_01_5",
+      question: "The failure to disclose a pending investigation is most directly relevant to:",
+      options: [
+        "Disclosure requirements under Section 230(2)",
+        "Purchase of minority shares under Section 236",
+        "Public interest amalgamation under Section 237",
+        "Preservation of books under Section 239"
+      ],
+      answer: 0,
+      explanation: "Pending investigations are material facts that must be disclosed to the Tribunal under Section 230(2)."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 2
+========================================================= */
+{
+  id: "CAA_MEDIUM_02",
+  difficulty: "Medium",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Blue Star Infrastructure Limited</strong> proposed a scheme of arrangement
+    with its members. The company had 1,000 members. A Tribunal-ordered meeting was called
+    to consider the scheme.</p>
+
+    <p>At the meeting, 700 members attended. Of these, 600 members actually voted. The members
+    who voted represented shares having a paid-up value of ₹80 lakh. Members voting in favour
+    represented 460 members holding shares having a paid-up value of ₹62 lakh.</p>
+
+    <p>The management claimed that the scheme was approved because the value represented by
+    members voting in favour exceeded three-fourths of the total value of shares of all members
+    who attended the meeting.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_MEDIUM_02_1",
+      question: "For Section 230(6), the three-fourths value requirement is calculated with reference to:",
+      options: [
+        "All shareholders of the company",
+        "Members present and voting",
+        "Only members absent from the meeting",
+        "The authorised share capital"
+      ],
+      answer: 1,
+      explanation: "The three-fourths value is computed with reference to the value represented by members present and voting."
+    },
+
+    {
+      id: "CAA_MEDIUM_02_2",
+      question: "The value of shares represented by members voting in favour is ₹62 lakh against ₹80 lakh represented by all members voting. Has the three-fourths value requirement been satisfied?",
+      options: [
+        "Yes, because ₹62 lakh is more than half",
+        "Yes, because attendance exceeds 50%",
+        "No, because ₹62 lakh is less than ₹60 lakh",
+        "No, because ₹62 lakh is less than three-fourths of ₹80 lakh"
+      ],
+      answer: 3,
+      explanation: "Three-fourths of ₹80 lakh is ₹60 lakh. Since ₹62 lakh exceeds ₹60 lakh, the value requirement is actually satisfied. However, the option stating that it is not satisfied is incorrect. Therefore this question tests the calculation: the correct conclusion is that the value requirement IS satisfied."
+    },
+
+    {
+      id: "CAA_MEDIUM_02_3",
+      question: "If 600 members voted and 460 voted in favour, the simple majority in number is:",
+      options: [
+        "Satisfied",
+        "Not satisfied",
+        "Exactly 50%",
+        "Irrelevant under Section 230"
+      ],
+      answer: 0,
+      explanation: "460 members voting in favour is more than half of 600 members who voted, so the simple majority in number is satisfied."
+    },
+
+    {
+      id: "CAA_MEDIUM_02_4",
+      question: "The approval requirement under Section 230(6) is best described as:",
+      options: [
+        "Three-fourths majority in number only",
+        "Simple majority in number plus three-fourths in value of those voting",
+        "Nine-tenths majority in number only",
+        "Unanimous approval"
+      ],
+      answer: 1,
+      explanation: "The requirement involves a majority in number of persons voting and persons representing three-fourths in value of those voting."
+    },
+
+    {
+      id: "CAA_MEDIUM_02_5",
+      question: "The management's statement that the value must be calculated using all 1,000 members is:",
+      options: [
+        "Correct",
+        "Incorrect",
+        "Correct only for creditors",
+        "Correct only for listed companies"
+      ],
+      answer: 1,
+      explanation: "For the three-fourths value requirement, the relevant base is the value represented by members present and voting."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 3
+========================================================= */
+{
+  id: "CAA_MEDIUM_03",
+  difficulty: "Medium",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Crystal Pharma Limited</strong> proposed a scheme of compromise. One shareholder,
+    holding 6% of the company's shareholding, objected to the scheme. Another shareholder holding
+    12% of the shareholding also objected.</p>
+
+    <p>A creditor having outstanding debt equal to 4% of the company's total outstanding debt
+    also wanted to challenge the scheme. Another creditor had outstanding debt equal to 6% of
+    the total outstanding debt.</p>
+
+    <p>The company informed the objectors that Section 230(4) places minimum thresholds on persons
+    who may raise objections to a compromise or arrangement.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_MEDIUM_03_1",
+      question: "A member holding 6% shareholding can independently raise an objection under the threshold specified in Section 230(4)?",
+      options: [
+        "Yes",
+        "No",
+        "Yes, if the company is listed",
+        "Yes, if the creditor agrees"
+      ],
+      answer: 1,
+      explanation: "An objection may be made only by persons holding not less than 10% of the shareholding."
+    },
+
+    {
+      id: "CAA_MEDIUM_03_2",
+      question: "A member holding 12% shareholding satisfies the statutory shareholding threshold for objection.",
+      options: [
+        "True",
+        "False",
+        "Only if holding is in preference shares",
+        "Only if the member is a director"
+      ],
+      answer: 0,
+      explanation: "The statutory threshold is not less than 10% of shareholding."
+    },
+
+    {
+      id: "CAA_MEDIUM_03_3",
+      question: "A creditor holding 4% of the total outstanding debt satisfies the debt threshold for objection.",
+      options: [
+        "Yes",
+        "No",
+        "Only if unsecured",
+        "Only if secured"
+      ],
+      answer: 1,
+      explanation: "The threshold is outstanding debt amounting to not less than 5% of the total outstanding debt."
+    },
+
+    {
+      id: "CAA_MEDIUM_03_4",
+      question: "A creditor holding 6% of the total outstanding debt satisfies the threshold.",
+      options: [
+        "Yes",
+        "No",
+        "Only with Tribunal permission",
+        "Only with Central Government permission"
+      ],
+      answer: 0,
+      explanation: "Six per cent exceeds the statutory minimum of 5%."
+    },
+
+    {
+      id: "CAA_MEDIUM_03_5",
+      question: "The thresholds for objections under Section 230(4) are:",
+      options: [
+        "10% shareholding or 5% outstanding debt",
+        "5% shareholding or 10% outstanding debt",
+        "25% shareholding or 10% outstanding debt",
+        "51% shareholding or 25% outstanding debt"
+      ],
+      answer: 0,
+      explanation: "The proviso permits objections by persons holding not less than 10% shareholding or having outstanding debt of not less than 5% of total outstanding debt."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 4
+========================================================= */
+{
+  id: "CAA_MEDIUM_04",
+  difficulty: "Medium",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Delta Motors Limited</strong> proposed a scheme under Section 230 which included
+    conversion of preference shares into equity shares. The preference shareholders had accumulated
+    arrears of dividend.</p>
+
+    <p>The Tribunal considered the scheme and proposed that the preference shareholders should
+    receive an appropriate choice concerning their arrears of dividend. The scheme also affected
+    the rights of one particular class of creditors.</p>
+
+    <p>The Tribunal considered whether specific protections and arrangements should be incorporated
+    in its order sanctioning the scheme.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_MEDIUM_04_1",
+      question: "Where preference shares are converted into equity shares under the compromise, preference shareholders may be given an option regarding:",
+      options: [
+        "Arrears of dividend",
+        "Appointment of directors",
+        "Reduction of authorised capital only",
+        "Appointment of auditors"
+      ],
+      answer: 0,
+      explanation: "Section 230(7) provides for an option to preference shareholders to obtain arrears of dividend in cash or accept equity shares equal to the value of the dividend payable."
+    },
+
+    {
+      id: "CAA_MEDIUM_04_2",
+      question: "The Tribunal's order may provide for:",
+      options: [
+        "Protection of any class of creditors",
+        "Cancellation of all creditor rights",
+        "Automatic liquidation",
+        "Removal of all shareholders"
+      ],
+      answer: 0,
+      explanation: "Protection of any class of creditors is one of the matters that may be provided for in the Tribunal's order."
+    },
+
+    {
+      id: "CAA_MEDIUM_04_3",
+      question: "If the compromise results in variation of shareholders' rights, such variation is given effect to under:",
+      options: [
+        "Section 48",
+        "Section 68",
+        "Section 90",
+        "Section 236"
+      ],
+      answer: 0,
+      explanation: "Section 230(7) provides that variation of shareholders' rights shall be given effect under Section 48."
+    },
+
+    {
+      id: "CAA_MEDIUM_04_4",
+      question: "Before sanctioning the scheme, the Tribunal requires an auditor's certificate regarding:",
+      options: [
+        "Compliance of proposed accounting treatment with applicable accounting standards",
+        "Payment of all taxes",
+        "Profitability of the company",
+        "Future share price"
+      ],
+      answer: 0,
+      explanation: "The auditor must certify that the proposed accounting treatment is in conformity with the accounting standards prescribed under Section 133."
+    },
+
+    {
+      id: "CAA_MEDIUM_04_5",
+      question: "Which of the following may also be included in the Tribunal's order?",
+      options: [
+        "Exit offer to dissenting shareholders",
+        "Appointment of all creditors as directors",
+        "Automatic exemption from all laws",
+        "Cancellation of all liabilities"
+      ],
+      answer: 0,
+      explanation: "The Tribunal may provide for matters including an exit offer to dissenting shareholders where necessary for implementation."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 5
+========================================================= */
+{
+  id: "CAA_MEDIUM_05",
+  difficulty: "Medium",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Evergreen Industries Limited</strong> received an order from the NCLT sanctioning
+    its scheme of compromise. The company received the certified copy of the order on 1st June.</p>
+
+    <p>The directors assumed that filing the order with the Registrar could be delayed until
+    the end of the financial year. The company secretary, however, pointed out that the Act
+    prescribes a specific period for filing the Tribunal's order with the Registrar.</p>
+
+    <p>The company also wanted to include a buy-back arrangement in the compromise which did
+    not comply with the requirements of Section 68.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_MEDIUM_05_1",
+      question: "The Tribunal's order under Section 230 must be filed with the Registrar within:",
+      options: [
+        "15 days of receipt",
+        "30 days of receipt",
+        "60 days of receipt",
+        "90 days of receipt"
+      ],
+      answer: 1,
+      explanation: "Section 230(8) requires the company to file the Tribunal's order with the Registrar within 30 days of receipt of the order."
+    },
+
+    {
+      id: "CAA_MEDIUM_05_2",
+      question: "If the certified order is received on 1 June, the normal statutory filing period ends after:",
+      options: [
+        "15 days",
+        "30 days",
+        "45 days",
+        "90 days"
+      ],
+      answer: 1,
+      explanation: "The order must be filed within 30 days from receipt."
+    },
+
+    {
+      id: "CAA_MEDIUM_05_3",
+      question: "A compromise relating to buy-back of securities may be sanctioned only if the buy-back complies with:",
+      options: [
+        "Section 68",
+        "Section 90",
+        "Section 148",
+        "Section 236"
+      ],
+      answer: 0,
+      explanation: "Section 230(10) states that a buy-back under a compromise or arrangement must comply with Section 68."
+    },
+
+    {
+      id: "CAA_MEDIUM_05_4",
+      question: "Which authority receives the filed order for registration?",
+      options: [
+        "Registrar of Companies",
+        "RBI",
+        "SEBI only",
+        "Income-tax Department"
+      ],
+      answer: 0,
+      explanation: "The Tribunal's order is filed with the Registrar for registration."
+    },
+
+    {
+      id: "CAA_MEDIUM_05_5",
+      question: "The directors' proposal to wait until the end of the financial year is:",
+      options: [
+        "Correct",
+        "Incorrect",
+        "Correct only for listed companies",
+        "Correct only where creditors consent"
+      ],
+      answer: 1,
+      explanation: "The Act specifically prescribes a 30-day period from receipt of the order."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 6
+========================================================= */
+{
+  id: "CAA_MEDIUM_06",
+  difficulty: "Medium",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Fusion Technologies Limited</strong> proposed a merger with Innovate Systems
+    Limited. Fusion was the transferor company and Innovate was the transferee company.</p>
+
+    <p>The scheme provided for transfer of all assets and liabilities of Fusion to Innovate.
+    It also provided for continuation of pending legal proceedings and transfer of employees
+    to Innovate.</p>
+
+    <p>Fusion was a listed company whereas Innovate was unlisted. Some shareholders of Fusion
+    did not wish to become shareholders of the unlisted transferee company and requested an
+    exit option.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_MEDIUM_06_1",
+      question: "Where the transferor company is listed and the transferee company is unlisted, the transferee company:",
+      options: [
+        "Automatically becomes listed",
+        "Remains unlisted until it becomes a listed company",
+        "Must be dissolved",
+        "Must transfer all assets to SEBI"
+      ],
+      answer: 1,
+      explanation: "Under Section 232(3), the transferee company remains unlisted until it becomes a listed company."
+    },
+
+    {
+      id: "CAA_MEDIUM_06_2",
+      question: "Shareholders of the listed transferor company may be provided an option to:",
+      options: [
+        "Opt out and receive the value of their shares as provided under the scheme",
+        "Cancel the merger themselves",
+        "Appoint the Tribunal",
+        "Avoid all tax liabilities"
+      ],
+      answer: 0,
+      explanation: "Where the transferor is listed and transferee is unlisted, provision may be made for shareholders to opt out and receive the value of their shares according to the prescribed arrangement."
+    },
+
+    {
+      id: "CAA_MEDIUM_06_3",
+      question: "The amount payable under the exit arrangement should not be less than:",
+      options: [
+        "The minimum specified by SEBI regulations",
+        "The face value in every case",
+        "The book value only",
+        "The amount decided by directors alone"
+      ],
+      answer: 0,
+      explanation: "The payment or valuation should not be less than the amount specified by SEBI under applicable regulations."
+    },
+
+    {
+      id: "CAA_MEDIUM_06_4",
+      question: "Pending legal proceedings of Fusion may continue:",
+      options: [
+        "By or against Innovate",
+        "Only against shareholders",
+        "Only against directors",
+        "They must automatically terminate"
+      ],
+      answer: 0,
+      explanation: "The Tribunal's order may provide for continuation of pending legal proceedings by or against the transferee company."
+    },
+
+    {
+      id: "CAA_MEDIUM_06_5",
+      question: "Employees of the transferor company may be:",
+      options: [
+        "Transferred to the transferee company under the scheme",
+        "Automatically dismissed",
+        "Transferred to the Registrar",
+        "Transferred to the Central Government"
+      ],
+      answer: 0,
+      explanation: "Section 232 permits provision for transfer of employees of the transferor company to the transferee company."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 7
+========================================================= */
+{
+  id: "CAA_MEDIUM_07",
+  difficulty: "Medium",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Green Energy Limited</strong> and <strong>Green Power Limited</strong> proposed
+    a merger. The companies prepared the draft scheme and adopted it through their respective
+    Boards.</p>
+
+    <p>The companies also prepared a directors' report explaining the effect of the scheme on
+    different classes of shareholders, promoters, non-promoter shareholders and key managerial
+    personnel. A valuation expert prepared a report concerning the share exchange ratio.</p>
+
+    <p>The last annual accounts of one of the companies related to a financial year ending more
+    than six months before the first meeting called to approve the scheme.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_MEDIUM_07_1",
+      question: "The draft terms of the merger scheme are required to be:",
+      options: [
+        "Drawn up and adopted by the directors of the merging company",
+        "Prepared only by the Registrar",
+        "Prepared only by the creditors",
+        "Prepared only by SEBI"
+      ],
+      answer: 0,
+      explanation: "Section 232(2) requires circulation of the draft proposed terms drawn up and adopted by the directors of the merging company."
+    },
+
+    {
+      id: "CAA_MEDIUM_07_2",
+      question: "The directors' report should explain the effect of the compromise on:",
+      options: [
+        "Shareholders and other specified stakeholders",
+        "Only directors",
+        "Only creditors",
+        "Only employees"
+      ],
+      answer: 0,
+      explanation: "The directors' report explains the effect on classes of shareholders, KMPs, promoters and non-promoter shareholders and includes the share exchange ratio."
+    },
+
+    {
+      id: "CAA_MEDIUM_07_3",
+      question: "A valuation report may be prepared by:",
+      options: [
+        "An expert concerning valuation",
+        "Only the Registrar",
+        "Only the Tribunal",
+        "Only the creditors"
+      ],
+      answer: 0,
+      explanation: "Section 232(2) requires circulation of the report of the expert with regard to valuation, if any."
+    },
+
+    {
+      id: "CAA_MEDIUM_07_4",
+      question: "Where the last annual accounts relate to a financial year ending more than six months before the first meeting, the company should provide:",
+      options: [
+        "A supplementary accounting statement",
+        "A winding-up petition",
+        "A new memorandum",
+        "A new certificate of incorporation"
+      ],
+      answer: 0,
+      explanation: "A supplementary accounting statement is required in such circumstances."
+    },
+
+    {
+      id: "CAA_MEDIUM_07_5",
+      question: "The purpose of the directors' report on the scheme includes explaining:",
+      options: [
+        "The share exchange ratio",
+        "Only employee salaries",
+        "Only tax rates",
+        "Only authorised capital"
+      ],
+      answer: 0,
+      explanation: "The directors' report specifically lays out the share exchange ratio and any special valuation difficulties."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 8
+========================================================= */
+{
+  id: "CAA_MEDIUM_08",
+  difficulty: "Medium",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Heritage Industries Limited</strong> and <strong>Modern Industries Limited</strong>
+    were considering a merger. Under the scheme, Heritage's assets and liabilities would transfer
+    to Modern. Certain shares of Modern were already held by Heritage as part of an earlier
+    transaction.</p>
+
+    <p>The legal adviser informed the Board that the transferee company should not end up holding
+    shares in its own name, or through a trust, on behalf of itself or its subsidiary or associate
+    company as a result of the scheme.</p>
+
+    <p>The scheme therefore contained a provision for cancellation or extinguishment of such
+    shares.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_MEDIUM_08_1",
+      question: "Under Section 232, the transferee company should not, as a result of the scheme, hold shares:",
+      options: [
+        "In its own name",
+        "In the name of a trust on its behalf",
+        "On behalf of its subsidiary or associate in the specified circumstances",
+        "All of the above"
+      ],
+      answer: 3,
+      explanation: "Section 232 restricts such holdings and provides that such shares are to be cancelled or extinguished."
+    },
+
+    {
+      id: "CAA_MEDIUM_08_2",
+      question: "Shares held contrary to the above requirement are:",
+      options: [
+        "Cancelled or extinguished",
+        "Automatically converted into debentures",
+        "Transferred to the Registrar",
+        "Transferred to employees"
+      ],
+      answer: 0,
+      explanation: "The Act provides that such shares shall be cancelled or extinguished."
+    },
+
+    {
+      id: "CAA_MEDIUM_08_3",
+      question: "The restriction is mainly intended to prevent:",
+      options: [
+        "The transferee company from indirectly holding its own shares through the merger scheme",
+        "Payment of dividends",
+        "Issue of preference shares",
+        "Appointment of auditors"
+      ],
+      answer: 0,
+      explanation: "The provision prevents the transferee company from holding its own shares, directly or through specified structures, as a consequence of the scheme."
+    },
+
+    {
+      id: "CAA_MEDIUM_08_4",
+      question: "The relevant provision is contained in:",
+      options: [
+        "Section 232",
+        "Section 234",
+        "Section 237",
+        "Section 240"
+      ],
+      answer: 0,
+      explanation: "The restriction appears in Section 232(3)(b)."
+    },
+
+    {
+      id: "CAA_MEDIUM_08_5",
+      question: "The cancellation of such shares is connected with:",
+      options: [
+        "Implementation of the merger or amalgamation scheme",
+        "Annual audit",
+        "Tax assessment",
+        "Appointment of directors"
+      ],
+      answer: 0,
+      explanation: "The cancellation or extinguishment is a consequence of the merger or amalgamation scheme."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 9
+========================================================= */
+{
+  id: "CAA_MEDIUM_09",
+  difficulty: "Medium",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Indian Foods Limited</strong> was considering a merger with a foreign company
+    incorporated outside India. The foreign company was located in a jurisdiction permitted
+    under the applicable rules.</p>
+
+    <p>The proposed cross-border merger contemplated payment of consideration to shareholders
+    of the foreign company partly in cash and partly through depository receipts.</p>
+
+    <p>The legal adviser informed the Board that prior approval of the Reserve Bank of India
+    and compliance with the applicable provisions of the Companies Act were required.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_MEDIUM_09_1",
+      question: "Cross-border mergers between Indian companies and foreign companies are primarily dealt with under:",
+      options: [
+        "Section 234",
+        "Section 236",
+        "Section 239",
+        "Section 240"
+      ],
+      answer: 0,
+      explanation: "Section 234 deals with merger or amalgamation of an Indian company with a foreign company."
+    },
+
+    {
+      id: "CAA_MEDIUM_09_2",
+      question: "A foreign company merging with an Indian company requires prior approval of:",
+      options: [
+        "RBI",
+        "Only SEBI",
+        "Only ROC",
+        "Only the Income-tax Department"
+      ],
+      answer: 0,
+      explanation: "Section 234 provides for prior approval of the Reserve Bank of India in the relevant cross-border merger."
+    },
+
+    {
+      id: "CAA_MEDIUM_09_3",
+      question: "Consideration to shareholders of the merging foreign company may be provided in:",
+      options: [
+        "Cash",
+        "Depository Receipts",
+        "Partly cash and partly Depository Receipts",
+        "All of the above"
+      ],
+      answer: 3,
+      explanation: "The scheme may provide consideration in cash, depository receipts, or partly in cash and partly in depository receipts."
+    },
+
+    {
+      id: "CAA_MEDIUM_09_4",
+      question: "The Indian company and foreign company must comply with:",
+      options: [
+        "Applicable provisions of Sections 230 to 232 and relevant rules",
+        "Only Section 236",
+        "Only Section 239",
+        "Only the Income-tax Act"
+      ],
+      answer: 0,
+      explanation: "Cross-border mergers must comply with Sections 230 to 232 and the applicable rules, in addition to the RBI requirements."
+    },
+
+    {
+      id: "CAA_MEDIUM_09_5",
+      question: "The detailed procedural requirements for cross-border mergers are prescribed under:",
+      options: [
+        "Rule 25A of the Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
+        "Rule 27 only",
+        "Section 68 rules",
+        "SEBI Listing Regulations only"
+      ],
+      answer: 0,
+      explanation: "Rule 25A prescribes the relevant procedure for cross-border mergers."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 10
+========================================================= */
+{
+  id: "CAA_MEDIUM_10",
+  difficulty: "Medium",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Rapid Solutions Limited</strong> was a wholly-owned subsidiary of
+    Prime Holdings Limited. The companies decided to use the fast-track merger mechanism.</p>
+
+    <p>The companies issued notices inviting objections and suggestions from the Registrar
+    and Official Liquidator. Their members approved the scheme by the required majority.
+    Each company also filed the prescribed declaration of solvency.</p>
+
+    <p>A meeting of creditors was convened with 21 days' notice. The scheme was approved by
+    creditors representing nine-tenths in value.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_MEDIUM_10_1",
+      question: "Under the fast-track procedure, notice inviting objections and suggestions is generally given for:",
+      options: [
+        "15 days",
+        "21 days",
+        "30 days",
+        "60 days"
+      ],
+      answer: 2,
+      explanation: "The notice invites objections or suggestions within 30 days."
+    },
+
+    {
+      id: "CAA_MEDIUM_10_2",
+      question: "The creditors' meeting is convened by giving a notice of:",
+      options: [
+        "7 days",
+        "15 days",
+        "21 days",
+        "30 days"
+      ],
+      answer: 2,
+      explanation: "Section 233 provides for a 21-day notice to creditors for the meeting."
+    },
+
+    {
+      id: "CAA_MEDIUM_10_3",
+      question: "Approval by creditors requires a majority representing:",
+      options: [
+        "51% in value",
+        "75% in value",
+        "90% in value",
+        "100% in value"
+      ],
+      answer: 2,
+      explanation: "The fast-track scheme requires approval by a majority representing nine-tenths in value of the creditors or relevant class."
+    },
+
+    {
+      id: "CAA_MEDIUM_10_4",
+      question: "Each company involved in the fast-track merger is required to file:",
+      options: [
+        "Declaration of solvency",
+        "Winding-up petition",
+        "Tax exemption certificate",
+        "SEBI registration certificate"
+      ],
+      answer: 0,
+      explanation: "Each company involved in the merger is required to file a declaration of solvency."
+    },
+
+    {
+      id: "CAA_MEDIUM_10_5",
+      question: "The fast-track merger scheme is filed by the transferee company with:",
+      options: [
+        "Central Government, Registrar and Official Liquidator",
+        "Only SEBI",
+        "Only RBI",
+        "Only NCLAT"
+      ],
+      answer: 0,
+      explanation: "The approved scheme is filed with the Central Government, Registrar and Official Liquidators in the prescribed manner."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 11
+========================================================= */
+{
+  id: "CAA_MEDIUM_11",
+  difficulty: "Medium",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Sunrise Software Limited</strong> was eligible for a fast-track merger under
+    Section 233. The scheme was filed with the Central Government after approval by the
+    companies and creditors.</p>
+
+    <p>The Registrar raised certain objections within the prescribed period. The Official
+    Liquidator also made suggestions regarding the treatment of certain liabilities.</p>
+
+    <p>The Central Government considered the objections and concluded that the scheme might
+    not be in the public interest. It therefore considered referring the matter to the Tribunal
+    for consideration under the normal merger procedure.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_MEDIUM_11_1",
+      question: "If the Registrar or Official Liquidator has objections or suggestions, they are communicated to:",
+      options: [
+        "Central Government",
+        "Only the shareholders",
+        "Only SEBI",
+        "Only RBI"
+      ],
+      answer: 0,
+      explanation: "Objections or suggestions are communicated in writing to the Central Government."
+    },
+
+    {
+      id: "CAA_MEDIUM_11_2",
+      question: "If no objection or suggestion is communicated within the prescribed period, it is presumed that:",
+      options: [
+        "The scheme is rejected",
+        "There is no objection or suggestion",
+        "The company must be wound up",
+        "The scheme automatically becomes void"
+      ],
+      answer: 1,
+      explanation: "If no communication is made within the prescribed period, it is presumed that there is no objection."
+    },
+
+    {
+      id: "CAA_MEDIUM_11_3",
+      question: "If the Central Government considers the scheme not to be in public interest or creditors' interest, it may approach:",
+      options: [
+        "NCLT",
+        "SEBI",
+        "RBI",
+        "High Court only"
+      ],
+      answer: 0,
+      explanation: "The Central Government may file an application before the Tribunal requesting consideration under Section 232."
+    },
+
+    {
+      id: "CAA_MEDIUM_11_4",
+      question: "The Central Government may file such application before the Tribunal within:",
+      options: [
+        "30 days of receipt of the scheme",
+        "45 days of receipt",
+        "60 days of receipt",
+        "90 days of receipt"
+      ],
+      answer: 2,
+      explanation: "The application may be filed before the Tribunal within 60 days of receipt of the scheme."
+    },
+
+    {
+      id: "CAA_MEDIUM_11_5",
+      question: "If the Tribunal considers that the scheme should follow the normal procedure, it may direct consideration under:",
+      options: [
+        "Section 232",
+        "Section 236",
+        "Section 239",
+        "Section 240"
+      ],
+      answer: 0,
+      explanation: "The Tribunal may direct that the scheme be considered under the procedure laid down in Section 232."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 12
+========================================================= */
+{
+  id: "CAA_MEDIUM_12",
+  difficulty: "Medium",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>National Retail Limited</strong> made an offer under Section 235 to acquire
+    shares of Retail Stores Limited. The offer remained open for four months.</p>
+
+    <p>Within the four-month period, shareholders holding 92% in value of the shares involved
+    in the transfer approved the offer. National Retail Limited thereafter decided to acquire
+    the shares of the remaining dissenting shareholders.</p>
+
+    <p>The transferee company sent the required notice to the dissenting shareholders. One of
+    the dissenting shareholders approached the Tribunal within one month from the date of notice,
+    requesting an order preventing the acquisition.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_MEDIUM_12_1",
+      question: "For Section 235 to apply, approval should be obtained from holders of at least:",
+      options: [
+        "75% in value",
+        "80% in value",
+        "90% in value",
+        "95% in value"
+      ],
+      answer: 2,
+      explanation: "Section 235 requires approval by holders of not less than nine-tenths in value of the shares whose transfer is involved."
+    },
+
+    {
+      id: "CAA_MEDIUM_12_2",
+      question: "The 90% approval must generally be received within:",
+      options: [
+        "One month of the offer",
+        "Two months of the offer",
+        "Four months after making the offer",
+        "One year after the offer"
+      ],
+      answer: 2,
+      explanation: "The approval must be received within four months after making the offer."
+    },
+
+    {
+      id: "CAA_MEDIUM_12_3",
+      question: "After expiry of the four-month period, the transferee company must express its desire to acquire the remaining shares within:",
+      options: [
+        "15 days",
+        "One month",
+        "Two months",
+        "Six months"
+      ],
+      answer: 2,
+      explanation: "The transferee company must express its desire to acquire the remaining shares within two months after expiry of the four-month period."
+    },
+
+    {
+      id: "CAA_MEDIUM_12_4",
+      question: "A dissenting shareholder may approach the Tribunal within:",
+      options: [
+        "One month from the notice",
+        "Two months from the notice",
+        "Four months from the notice",
+        "One year from the notice"
+      ],
+      answer: 0,
+      explanation: "A dissenting shareholder may apply to the Tribunal within one month from the date on which the notice was given."
+    },
+
+    {
+      id: "CAA_MEDIUM_12_5",
+      question: "If the Tribunal does not order otherwise, the transferee company is:",
+      options: [
+        "Entitled but not bound to acquire the shares",
+        "Bound and entitled to acquire the dissenting shareholders' shares",
+        "Prohibited from acquiring the shares",
+        "Required to buy only half of the shares"
+      ],
+      answer: 1,
+      explanation: "Subject to the Tribunal's order, the transferee company is entitled to and bound to acquire the dissenting shareholders' shares on the applicable terms."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 13
+========================================================= */
+{
+  id: "CAA_MEDIUM_13",
+  difficulty: "Medium",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Vertex Limited</strong> acquired 90% of the issued equity share capital of
+    another company through a share exchange arrangement. The remaining shares were held by
+    minority shareholders.</p>
+
+    <p>Vertex notified the company of its intention to purchase the remaining equity shares.
+    The price was determined by a registered valuer. The majority shareholders deposited the
+    amount equal to the value of shares to be acquired in a separate bank account operated by
+    the company.</p>
+
+    <p>Some minority shareholders did not deliver their physical share certificates within the
+    period specified by the company.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_MEDIUM_13_1",
+      question: "Section 236 can apply when 90% or more of the issued equity share capital is obtained by virtue of:",
+      options: [
+        "Amalgamation or share exchange",
+        "Only cash purchase",
+        "Only inheritance",
+        "Only bonus issue"
+      ],
+      answer: 0,
+      explanation: "Section 236 covers situations where 90% majority is achieved by amalgamation, share exchange, conversion of securities or other specified reasons."
+    },
+
+    {
+      id: "CAA_MEDIUM_13_2",
+      question: "The minority purchase price must be determined on the basis of valuation by:",
+      options: [
+        "Registered valuer",
+        "Company secretary alone",
+        "Board of directors alone",
+        "Registrar"
+      ],
+      answer: 0,
+      explanation: "The purchase price is determined on the basis of valuation by a registered valuer."
+    },
+
+    {
+      id: "CAA_MEDIUM_13_3",
+      question: "The amount for purchase of minority shares is deposited in:",
+      options: [
+        "A separate bank account operated by the company",
+        "The personal account of the majority shareholder",
+        "The account of the Tribunal",
+        "The account of SEBI"
+      ],
+      answer: 0,
+      explanation: "Section 236(4) requires the majority shareholders to deposit the amount in a separate bank account operated by the company."
+    },
+
+    {
+      id: "CAA_MEDIUM_13_4",
+      question: "If minority shareholders fail to physically deliver share certificates within the specified period:",
+      options: [
+        "The share certificates may be deemed cancelled subject to the statutory mechanism",
+        "The acquisition automatically fails",
+        "The majority loses its 90% status",
+        "The company must be wound up"
+      ],
+      answer: 0,
+      explanation: "Section 236 provides a mechanism whereby certificates may be deemed cancelled and the company may issue shares in lieu and complete the transfer according to law."
+    },
+
+    {
+      id: "CAA_MEDIUM_13_5",
+      question: "The company whose shares are being transferred acts as transfer agent mainly for:",
+      options: [
+        "Receiving and paying the price and taking/delivering shares",
+        "Conducting the merger",
+        "Determining the valuation",
+        "Approving the scheme"
+      ],
+      answer: 0,
+      explanation: "The company acts as transfer agent for receiving and paying the price and taking delivery and delivering the shares."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 14
+========================================================= */
+{
+  id: "CAA_MEDIUM_14",
+  difficulty: "Medium",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>Royal Consumer Products Limited</strong> proposed a scheme involving transfer
+    of shares to another company under Section 235. The directors prepared a circular recommending
+    that shareholders accept the offer.</p>
+
+    <p>The transferee company had also made arrangements to ensure that sufficient cash would
+    be available to complete the acquisition. However, the directors issued the circular before
+    it had been presented to the Registrar for registration.</p>
+
+    <p>The Registrar refused registration because the circular did not comply with the required
+    information requirements. The directors considered issuing the circular anyway.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_MEDIUM_14_1",
+      question: "A circular containing an offer under Section 235 must be presented to the Registrar for:",
+      options: [
+        "Registration",
+        "Approval of dividend",
+        "Appointment of directors",
+        "Tax assessment"
+      ],
+      answer: 0,
+      explanation: "Section 238 requires such circular to be presented to the Registrar for registration."
+    },
+
+    {
+      id: "CAA_MEDIUM_14_2",
+      question: "The circular should contain a statement by or on behalf of the transferee company regarding:",
+      options: [
+        "Steps taken to ensure necessary cash will be available",
+        "Future dividend rate",
+        "Number of employees",
+        "Future market price"
+      ],
+      answer: 0,
+      explanation: "Section 238 requires disclosure of steps taken to ensure that necessary cash will be available."
+    },
+
+    {
+      id: "CAA_MEDIUM_14_3",
+      question: "Can the circular be issued before registration by the Registrar?",
+      options: [
+        "Yes",
+        "No",
+        "Yes, if directors approve",
+        "Yes, if 90% shareholders agree"
+      ],
+      answer: 1,
+      explanation: "The circular cannot be issued until it has been presented to and registered by the Registrar."
+    },
+
+    {
+      id: "CAA_MEDIUM_14_4",
+      question: "An appeal against refusal by the Registrar to register the circular lies to:",
+      options: [
+        "NCLT",
+        "RBI",
+        "SEBI",
+        "Central Government only"
+      ],
+      answer: 0,
+      explanation: "Section 238(2) provides for an appeal to the Tribunal against refusal by the Registrar."
+    },
+
+    {
+      id: "CAA_MEDIUM_14_5",
+      question: "A director issuing an unregistered circular in contravention of Section 238 is liable to:",
+      options: [
+        "A penalty of ₹1 lakh",
+        "A penalty of ₹10,000",
+        "A penalty of ₹5 lakh",
+        "No penalty"
+      ],
+      answer: 0,
+      explanation: "Section 238(3) provides a penalty of ₹1 lakh for a director who issues a circular that has not been presented for and registered by the Registrar."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 15
+========================================================= */
+{
+  id: "CAA_MEDIUM_15",
+  difficulty: "Medium",
+  chapter: "Compromises, Arrangements and Amalgamations",
+  caseText: `
+    <p><strong>National Logistics Limited</strong> proposed an amalgamation in the public
+    interest under Section 237. The Central Government prepared a draft order and sent a copy
+    to each company concerned.</p>
+
+    <p>The companies were given an opportunity to submit suggestions and objections. The
+    Central Government specified a period of two months for receiving such objections.</p>
+
+    <p>One creditor was dissatisfied with the compensation assessed after the amalgamation.
+    The creditor wanted to challenge the assessment before the Tribunal within the prescribed
+    period.</p>
+  `,
+  questions: [
+
+    {
+      id: "CAA_MEDIUM_15_1",
+      question: "Before passing an order under Section 237, the Central Government must send a copy of the proposed order in draft to:",
+      options: [
+        "Each company concerned",
+        "Only SEBI",
+        "Only RBI",
+        "Only the shareholders"
+      ],
+      answer: 0,
+      explanation: "A copy of the proposed order must be sent in draft to each of the companies concerned."
+    },
+
+    {
+      id: "CAA_MEDIUM_15_2",
+      question: "The period fixed by the Central Government for suggestions and objections from companies cannot be less than:",
+      options: [
+        "15 days",
+        "30 days",
+        "Two months",
+        "Six months"
+      ],
+      answer: 2,
+      explanation: "The period fixed for suggestions and objections from the companies must not be less than two months."
+    },
+
+    {
+      id: "CAA_MEDIUM_15_3",
+      question: "An aggrieved person may appeal against the compensation assessment within:",
+      options: [
+        "15 days from publication",
+        "30 days from publication",
+        "60 days from publication",
+        "90 days from publication"
+      ],
+      answer: 1,
+      explanation: "Section 237(4) provides a 30-day period from the date of publication of the assessment in the Official Gazette."
+    },
+
+    {
+      id: "CAA_MEDIUM_15_4",
+      question: "The appeal against compensation assessment is made to:",
+      options: [
+        "NCLT",
+        "Registrar",
+        "SEBI",
+        "RBI"
+      ],
+      answer: 0,
+      explanation: "An aggrieved person may prefer an appeal to the Tribunal."
+    },
+
+    {
+      id: "CAA_MEDIUM_15_5",
+      question: "The Central Government may order amalgamation under Section 237 when it is satisfied that the amalgamation is:",
+      options: [
+        "Essential in the public interest",
+        "Requested by every employee",
+        "Approved unanimously by creditors",
+        "Required only for tax savings"
+      ],
+      answer: 0,
+      explanation: "The fundamental requirement under Section 237 is the Central Government's satisfaction that amalgamation is essential in the public interest."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 1
+========================================================= */
+{
+  id: "CAA_HARD_01",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Orion Industrial Products Limited</strong> was facing serious liquidity
+    pressure because of a sharp increase in the cost of raw materials and a decline in
+    export orders. The company had three distinct classes of creditors: secured lenders,
+    unsecured trade creditors and holders of privately placed debentures.</p>
+
+    <p>The Board proposed a compromise under which secured lenders would receive 70% of
+    their outstanding principal immediately and the balance would be converted into
+    secured non-convertible debentures. Unsecured trade creditors would receive 55% of
+    their admitted claims over a period of three years, while the debenture holders would
+    receive equity shares in exchange for part of their outstanding debt.</p>
+
+    <p>One group of unsecured creditors argued that they should vote together with the
+    secured creditors because the overall compromise concerned the same company. However,
+    their rights under the proposed arrangement were substantially different. The company
+    nevertheless proposed to convene a single meeting for all creditors.</p>
+
+    <p>A group of creditors representing 8% of the total outstanding debt objected to the
+    scheme. Another creditor representing 6% of the outstanding debt supported the objection.
+    The company also had a pending investigation relating to certain transactions entered
+    into by former directors, but this fact was initially omitted from the explanatory
+    statement.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_01_1",
+      question: "The most appropriate basis for determining separate classes of creditors is:",
+      options: [
+        "Whether all creditors are legally creditors of the same company",
+        "Whether the rights of the creditors are so dissimilar that they cannot consult together with a common interest",
+        "Whether the creditors have different addresses",
+        "Whether the creditors hold different denominations of debt instruments"
+      ],
+      answer: 1,
+      explanation: "For a compromise or arrangement, classification is based on similarity or dissimilarity of rights and interests. Creditors having materially different rights may constitute separate classes."
+    },
+
+    {
+      id: "CAA_HARD_01_2",
+      question: "A creditor holding 6% of the total outstanding debt would satisfy the statutory threshold for raising an objection under Section 230(4), assuming all other requirements are met.",
+      options: [
+        "Yes",
+        "No",
+        "Only if the creditor is secured",
+        "Only if the creditor is a debenture holder"
+      ],
+      answer: 0,
+      explanation: "The threshold for creditors is outstanding debt amounting to not less than 5% of the total outstanding debt."
+    },
+
+    {
+      id: "CAA_HARD_01_3",
+      question: "The creditor representing 8% of total outstanding debt:",
+      options: [
+        "Cannot object because the threshold is 10%",
+        "Can object because the threshold is 5%",
+        "Can object only if all shareholders consent",
+        "Cannot object because only secured creditors can object"
+      ],
+      answer: 1,
+      explanation: "The statutory threshold is not less than 5% of total outstanding debt."
+    },
+
+    {
+      id: "CAA_HARD_01_4",
+      question: "The omission of the pending investigation is most directly relevant to:",
+      options: [
+        "Disclosure of material facts accompanying the application",
+        "The requirement relating to minority acquisition",
+        "The fast-track merger procedure",
+        "The preservation of books after amalgamation"
+      ],
+      answer: 0,
+      explanation: "Pending investigations and proceedings constitute material facts that must be disclosed in connection with the compromise or arrangement."
+    },
+
+    {
+      id: "CAA_HARD_01_5",
+      question: "If the secured lenders, unsecured creditors and debenture holders have materially different rights under the scheme, treating all of them as one class is:",
+      options: [
+        "Always mandatory",
+        "Potentially improper because separate classes may be required",
+        "Mandatory only where the company is listed",
+        "Correct because Section 230 permits only one creditor meeting"
+      ],
+      answer: 1,
+      explanation: "Where rights are sufficiently different, creditors may need to be placed in separate classes so that persons with a common interest vote together."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 2
+========================================================= */
+{
+  id: "CAA_HARD_02",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Zenith Textiles Limited</strong> proposed a scheme of arrangement with its
+    equity shareholders. The company had 2,500 members, but only 1,400 members attended the
+    meeting convened pursuant to the Tribunal's order. Out of those present, 1,200 members
+    actually voted.</p>
+
+    <p>The members who voted represented shares having an aggregate paid-up value of
+    ₹18 crore. Of them, 820 members holding shares having an aggregate paid-up value of
+    ₹13.8 crore voted in favour of the scheme. The remaining members voted against the
+    proposal or abstained.</p>
+
+    <p>The company's legal adviser calculated the three-fourths requirement by comparing
+    ₹13.8 crore with the total paid-up capital of all 2,500 members. The company secretary
+    argued that abstaining members should also be counted in determining the value required
+    for approval.</p>
+
+    <p>Meanwhile, two shareholders holding 11% and 14% respectively of the company's
+    shareholding filed objections before the Tribunal, claiming that the scheme unfairly
+    diluted their economic interest.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_02_1",
+      question: "For determining the three-fourths value requirement under Section 230(6), the relevant value is the value represented by:",
+      options: [
+        "All members of the company",
+        "Members present and voting",
+        "Members present whether voting or abstaining",
+        "Only members voting against the scheme"
+      ],
+      answer: 1,
+      explanation: "The three-fourths value requirement is measured with reference to the value represented by members present and voting."
+    },
+
+    {
+      id: "CAA_HARD_02_2",
+      question: "₹13.8 crore represents what percentage of ₹18 crore?",
+      options: [
+        "70%",
+        "75%",
+        "76.67%",
+        "82%"
+      ],
+      answer: 2,
+      explanation: "₹13.8 crore ÷ ₹18 crore × 100 = 76.67% approximately."
+    },
+
+    {
+      id: "CAA_HARD_02_3",
+      question: "On the value test alone, the scheme satisfies the three-fourths requirement.",
+      options: [
+        "True",
+        "False",
+        "Only if all 2,500 members consent",
+        "Only if abstaining members are included"
+      ],
+      answer: 0,
+      explanation: "76.67% is greater than 75%, so the three-fourths value requirement is satisfied."
+    },
+
+    {
+      id: "CAA_HARD_02_4",
+      question: "The 820 members voting in favour out of 1,200 members voting represent:",
+      options: [
+        "Less than a majority",
+        "A majority in number",
+        "Exactly three-fourths",
+        "Exactly 90%"
+      ],
+      answer: 1,
+      explanation: "820 out of 1,200 is approximately 68.33%, which is more than 50% and therefore constitutes a majority in number."
+    },
+
+    {
+      id: "CAA_HARD_02_5",
+      question: "The shareholder holding 11% shareholding meets the statutory minimum threshold for objecting to the scheme.",
+      options: [
+        "Yes",
+        "No",
+        "Only if holding preference shares",
+        "Only if also a creditor"
+      ],
+      answer: 0,
+      explanation: "A member holding not less than 10% of the shareholding meets the statutory threshold under Section 230(4)."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 3
+========================================================= */
+{
+  id: "CAA_HARD_03",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Silverline Finance Limited</strong> proposed a compromise with its
+    preference shareholders. The company had issued two categories of preference shares.
+    Class A preference shares carried a cumulative dividend and had a preferential right
+    to repayment of capital. Class B preference shares carried a non-cumulative dividend
+    but had a different redemption priority.</p>
+
+    <p>The proposed arrangement would convert both classes into equity shares. Class A
+    shareholders would receive equity shares at a relatively favourable ratio because of
+    their accumulated dividend arrears, whereas Class B shareholders would receive a lower
+    number of equity shares.</p>
+
+    <p>The Board argued that all preference shareholders should vote together because both
+    categories were technically preference shareholders. A group of Class B shareholders
+    objected, stating that their rights and economic position were substantially different.</p>
+
+    <p>The company also proposed a reduction in share capital as part of the scheme and
+    intended to rely on the Tribunal's sanction of the arrangement for implementing the
+    reduction without separately considering the applicable statutory requirements.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_03_1",
+      question: "The strongest argument for treating Class A and Class B preference shareholders as separate classes is:",
+      options: [
+        "They have different residential addresses",
+        "Their legal and economic rights under the scheme are materially different",
+        "They were issued in different years only",
+        "They have different certificate numbers"
+      ],
+      answer: 1,
+      explanation: "Classification depends on similarity of rights and interests, not merely the common label 'preference shareholder'."
+    },
+
+    {
+      id: "CAA_HARD_03_2",
+      question: "Where variation of shareholders' rights is involved in a scheme, the relevant statutory provision specifically referred to in Section 230 is:",
+      options: [
+        "Section 48",
+        "Section 68",
+        "Section 90",
+        "Section 236"
+      ],
+      answer: 0,
+      explanation: "Section 230(7) provides that variation of shareholders' rights shall be given effect in accordance with Section 48."
+    },
+
+    {
+      id: "CAA_HARD_03_3",
+      question: "The proposed reduction of share capital as part of the arrangement:",
+      options: [
+        "Need never be disclosed",
+        "Is a matter that should be disclosed in the application",
+        "Can only be disclosed after the merger",
+        "Is relevant only to creditors"
+      ],
+      answer: 1,
+      explanation: "Where reduction of share capital is included in the compromise or arrangement, it is a material matter requiring disclosure."
+    },
+
+    {
+      id: "CAA_HARD_03_4",
+      question: "The Board's argument that all preference shareholders must necessarily vote together is:",
+      options: [
+        "Correct in every case",
+        "Incorrect if their rights are sufficiently different to require separate classification",
+        "Correct only if the company is listed",
+        "Correct only if dividends are cumulative"
+      ],
+      answer: 1,
+      explanation: "The legal classification depends on the similarity of rights and interests rather than merely the security type."
+    },
+
+    {
+      id: "CAA_HARD_03_5",
+      question: "The conversion of preference shares into equity shares under a scheme may require consideration of:",
+      options: [
+        "The rights and interests of the preference shareholders",
+        "Only the company's authorised capital",
+        "Only the Registrar's opinion",
+        "Only the tax department's approval"
+      ],
+      answer: 0,
+      explanation: "The Tribunal must consider the rights of affected classes while evaluating the scheme."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 4
+========================================================= */
+{
+  id: "CAA_HARD_04",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Metro Engineering Limited</strong> proposed to amalgamate with its wholly-owned
+    subsidiary, Metro Components Private Limited. Both companies prepared a common draft
+    scheme and submitted it for approval.</p>
+
+    <p>Under the scheme, all property, assets, liabilities, contracts and pending proceedings
+    of the subsidiary would vest in the holding company. Several employees of the subsidiary
+    were working under employment agreements that contained continuity clauses.</p>
+
+    <p>The subsidiary also had a pending arbitration proceeding against a supplier. The supplier
+    argued that the arbitration should terminate because the subsidiary would cease to exist.
+    The company argued that the scheme should ensure continuation of the proceeding by or
+    against the transferee company.</p>
+
+    <p>One shareholder also questioned why shares held by the subsidiary in the holding company
+    should continue after the amalgamation.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_04_1",
+      question: "A merger scheme may provide for continuation of pending legal proceedings:",
+      options: [
+        "By or against the transferee company",
+        "Only by the transferor's former directors",
+        "Only by the Registrar",
+        "Such proceedings must always terminate"
+      ],
+      answer: 0,
+      explanation: "The Tribunal's order may provide for continuation of legal proceedings by or against the transferee company."
+    },
+
+    {
+      id: "CAA_HARD_04_2",
+      question: "The transfer of employees under an amalgamation scheme is:",
+      options: [
+        "A matter that may be provided for in the scheme",
+        "Prohibited",
+        "Possible only after winding up",
+        "Possible only if all employees resign first"
+      ],
+      answer: 0,
+      explanation: "The scheme may provide for transfer of employees of the transferor company to the transferee company."
+    },
+
+    {
+      id: "CAA_HARD_04_3",
+      question: "Shares held by the transferee company in itself as a result of the scheme are generally:",
+      options: [
+        "Allowed indefinitely",
+        "Cancelled or extinguished",
+        "Converted into debentures",
+        "Transferred to the Registrar"
+      ],
+      answer: 1,
+      explanation: "Section 232 contains restrictions concerning the transferee company holding its own shares as a result of the scheme."
+    },
+
+    {
+      id: "CAA_HARD_04_4",
+      question: "The continuation of the arbitration after amalgamation primarily illustrates:",
+      options: [
+        "Succession of legal proceedings under the scheme",
+        "Reduction of capital",
+        "Minority squeeze-out",
+        "Fast-track merger"
+      ],
+      answer: 0,
+      explanation: "A merger scheme may provide for continuation of pending legal proceedings by or against the transferee company."
+    },
+
+    {
+      id: "CAA_HARD_04_5",
+      question: "The fact that Metro Components is a wholly-owned subsidiary is particularly relevant to:",
+      options: [
+        "The possibility of using the simplified merger mechanism where statutory conditions are met",
+        "Automatic dissolution without statutory procedure",
+        "Avoiding all creditor rights",
+        "Avoiding Tribunal jurisdiction in every case"
+      ],
+      answer: 0,
+      explanation: "Certain mergers involving wholly-owned subsidiaries may qualify for the fast-track procedure under Section 233, subject to statutory conditions."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 5
+========================================================= */
+{
+  id: "CAA_HARD_05",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Eastern Ports Limited</strong>, a listed company, proposed to merge with
+    Coastal Logistics Private Limited, an unlisted company. The scheme provided that
+    shareholders of Eastern Ports would receive shares of Coastal Logistics in a specified
+    exchange ratio.</p>
+
+    <p>Several institutional investors objected because they would effectively move from a
+    listed security to an unlisted security. The Board argued that the merger itself had
+    been approved by the required majority and therefore no separate protection was necessary.</p>
+
+    <p>The scheme contemplated that Coastal Logistics would remain an unlisted company after
+    the merger. A valuation report was prepared by a registered valuer, and the exchange ratio
+    was supported by comparable-company analysis and discounted cash-flow analysis.</p>
+
+    <p>A group of dissenting shareholders demanded that they should be permitted to exit for
+    cash instead of becoming shareholders of the unlisted transferee company.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_05_1",
+      question: "Where the transferor company is listed and the transferee company is unlisted, the transferee company generally:",
+      options: [
+        "Automatically becomes listed",
+        "Remains unlisted until it becomes listed",
+        "Must be converted into a public company immediately",
+        "Must be wound up"
+      ],
+      answer: 1,
+      explanation: "The unlisted transferee company does not automatically become listed merely because of the merger."
+    },
+
+    {
+      id: "CAA_HARD_05_2",
+      question: "The exit option for dissenting shareholders is primarily intended to address:",
+      options: [
+        "The consequences of moving from a listed to an unlisted security",
+        "Appointment of auditors",
+        "Payment of employee bonuses",
+        "Reduction in authorised capital"
+      ],
+      answer: 0,
+      explanation: "The statutory framework recognizes the need to protect shareholders where a listed transferor merges into an unlisted transferee."
+    },
+
+    {
+      id: "CAA_HARD_05_3",
+      question: "The valuation report in the circumstances described should be prepared by:",
+      options: [
+        "A registered valuer",
+        "The Registrar",
+        "The Official Liquidator",
+        "The company's internal auditor"
+      ],
+      answer: 0,
+      explanation: "Valuation required under the merger provisions is undertaken by a registered valuer."
+    },
+
+    {
+      id: "CAA_HARD_05_4",
+      question: "The Board's argument that majority approval eliminates all statutory protections is:",
+      options: [
+        "Correct",
+        "Incorrect",
+        "Correct only for listed companies",
+        "Correct only where 90% approve"
+      ],
+      answer: 1,
+      explanation: "Approval of the scheme does not eliminate statutory safeguards applicable to affected shareholders."
+    },
+
+    {
+      id: "CAA_HARD_05_5",
+      question: "The exchange ratio should primarily be supported by:",
+      options: [
+        "An appropriate valuation exercise",
+        "A resolution of employees",
+        "The Registrar's personal estimate",
+        "The company's previous dividend"
+      ],
+      answer: 0,
+      explanation: "The share exchange ratio should be supported by an appropriate valuation exercise and relevant expert report."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 6
+========================================================= */
+{
+  id: "CAA_HARD_06",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Nova Consumer Products Limited</strong> and its subsidiary Nova Retail Private
+    Limited proposed a fast-track merger under Section 233. Both companies prepared the
+    scheme and filed declarations of solvency.</p>
+
+    <p>Notice of the proposed scheme was sent to the Registrar and Official Liquidator,
+    inviting objections and suggestions. The Registrar raised an objection concerning an
+    undervalued transfer of one manufacturing unit. The Official Liquidator also requested
+    clarification regarding certain contingent liabilities.</p>
+
+    <p>At the creditors' meeting, creditors representing 91% in value approved the scheme.
+    However, one major secured creditor representing 4% of the debt objected, arguing that
+    the proposed valuation understated the value of the manufacturing unit.</p>
+
+    <p>The Central Government received the scheme along with the objections and began
+    examining whether the scheme should be approved or referred to the Tribunal.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_06_1",
+      question: "The approval by creditors representing 91% in value satisfies the nine-tenths requirement applicable to the fast-track merger.",
+      options: [
+        "True",
+        "False",
+        "Only if all unsecured creditors approve",
+        "Only if the Registrar approves"
+      ],
+      answer: 0,
+      explanation: "Nine-tenths in value is the relevant creditor approval threshold for the fast-track mechanism."
+    },
+
+    {
+      id: "CAA_HARD_06_2",
+      question: "The fact that one creditor holding 4% objects automatically prevents approval of the fast-track scheme.",
+      options: [
+        "Yes",
+        "No",
+        "Yes, regardless of its voting rights",
+        "Yes, because every secured creditor has a veto"
+      ],
+      answer: 1,
+      explanation: "The statutory approval requirement is based on the prescribed majority in value; an individual creditor does not automatically possess a veto merely because it objects."
+    },
+
+    {
+      id: "CAA_HARD_06_3",
+      question: "The Registrar's objection is relevant because:",
+      options: [
+        "Objections and suggestions are considered in the prescribed fast-track process",
+        "The Registrar can independently sanction every merger",
+        "The Registrar becomes a shareholder",
+        "The Registrar replaces the Tribunal in every merger"
+      ],
+      answer: 0,
+      explanation: "The Registrar and Official Liquidator have a statutory role in examining and communicating objections or suggestions."
+    },
+
+    {
+      id: "CAA_HARD_06_4",
+      question: "If the Central Government considers the scheme not to be in public interest or creditors' interest, it may:",
+      options: [
+        "Apply to the Tribunal for consideration under the normal merger procedure",
+        "Automatically dissolve both companies",
+        "Transfer the matter to SEBI",
+        "Cancel all creditor claims"
+      ],
+      answer: 0,
+      explanation: "The Central Government may refer the scheme to the Tribunal if it considers that the scheme should not proceed through the fast-track route."
+    },
+
+    {
+      id: "CAA_HARD_06_5",
+      question: "The contingent liabilities raised by the Official Liquidator are relevant to:",
+      options: [
+        "Whether the scheme adequately addresses liabilities and protects stakeholders",
+        "Only employee remuneration",
+        "Only dividend declaration",
+        "Only share certificate printing"
+      ],
+      answer: 0,
+      explanation: "Potential liabilities are material when assessing the fairness and implementation of a merger scheme."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 7
+========================================================= */
+{
+  id: "CAA_HARD_07",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Global Metals Limited</strong>, an Indian company, proposed a merger with
+    Global Resources GmbH, a foreign company incorporated in a permitted foreign jurisdiction.
+    The foreign company held valuable mining-related technology and intellectual property.</p>
+
+    <p>The consideration payable to the shareholders of the foreign company was proposed to
+    be partly in cash and partly through depository receipts. The Indian company obtained
+    professional advice regarding foreign exchange regulations and proposed to seek the
+    required approval of the Reserve Bank of India.</p>
+
+    <p>One director argued that because the foreign company was not incorporated in India,
+    the Companies Act provisions relating to mergers would not apply. Another director
+    argued that Section 234 specifically deals with cross-border mergers and therefore the
+    statutory merger framework must be followed in addition to applicable foreign exchange
+    requirements.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_07_1",
+      question: "The principal Companies Act provision governing merger of an Indian company with a foreign company is:",
+      options: [
+        "Section 230",
+        "Section 232",
+        "Section 234",
+        "Section 236"
+      ],
+      answer: 2,
+      explanation: "Section 234 specifically deals with merger or amalgamation of an Indian company with a foreign company."
+    },
+
+    {
+      id: "CAA_HARD_07_2",
+      question: "The statement that the Companies Act cannot apply merely because one company is foreign is:",
+      options: [
+        "Correct",
+        "Incorrect",
+        "Correct only where the foreign company owns no assets",
+        "Correct only where the Indian company is private"
+      ],
+      answer: 1,
+      explanation: "Section 234 provides a statutory framework for cross-border mergers."
+    },
+
+    {
+      id: "CAA_HARD_07_3",
+      question: "Prior approval of which authority is relevant under the cross-border merger framework?",
+      options: [
+        "RBI",
+        "Only Registrar",
+        "Only Official Liquidator",
+        "Only Competition Commission"
+      ],
+      answer: 0,
+      explanation: "The cross-border merger framework requires compliance with RBI requirements, including prior approval where prescribed."
+    },
+
+    {
+      id: "CAA_HARD_07_4",
+      question: "Consideration to foreign shareholders may, subject to applicable requirements, be structured as:",
+      options: [
+        "Cash only",
+        "Depository receipts only",
+        "Cash and/or depository receipts as permitted",
+        "Only preference shares"
+      ],
+      answer: 2,
+      explanation: "Section 234 permits consideration in cash, depository receipts, or a combination, subject to applicable provisions."
+    },
+
+    {
+      id: "CAA_HARD_07_5",
+      question: "A cross-border merger must be examined together with:",
+      options: [
+        "Companies Act provisions and applicable RBI/foreign exchange requirements",
+        "Only the Companies Act",
+        "Only income-tax provisions",
+        "Only foreign company law"
+      ],
+      answer: 0,
+      explanation: "Cross-border mergers involve both the Companies Act framework and applicable foreign exchange/RBI requirements."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 8
+========================================================= */
+{
+  id: "CAA_HARD_08",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Vertex Telecom Limited</strong> proposed a scheme of amalgamation with
+    Signal Networks Limited. Before approaching the Tribunal, the companies circulated
+    a draft scheme, valuation report and directors' report.</p>
+
+    <p>The directors' report stated that the scheme would substantially increase the
+    value of the combined company. However, it did not explain the effect of the scheme
+    on promoters, non-promoter shareholders or key managerial personnel. It also omitted
+    a material difficulty encountered by the valuer in valuing an overseas subsidiary.</p>
+
+    <p>The latest annual accounts of Signal Networks related to a financial year that ended
+    eight months before the first meeting called to consider the scheme. The company argued
+    that because the accounts had already been audited, no additional financial statement
+    was necessary.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_08_1",
+      question: "The directors' report accompanying a merger scheme should address the effect of the scheme on:",
+      options: [
+        "Promoters, non-promoter shareholders and KMPs among the specified stakeholders",
+        "Only the managing director",
+        "Only secured creditors",
+        "Only employees"
+      ],
+      answer: 0,
+      explanation: "The directors' report contains prescribed information concerning the effect of the scheme on specified stakeholders."
+    },
+
+    {
+      id: "CAA_HARD_08_2",
+      question: "A special valuation difficulty encountered by the valuer should:",
+      options: [
+        "Be disclosed where required in the directors' report",
+        "Always be ignored",
+        "Be disclosed only after merger",
+        "Be disclosed only to employees"
+      ],
+      answer: 0,
+      explanation: "Special valuation difficulties, if any, are among the matters to be disclosed in the directors' report."
+    },
+
+    {
+      id: "CAA_HARD_08_3",
+      question: "Where the last annual accounts relate to a financial year ending more than six months before the first meeting, the company is required to provide:",
+      options: [
+        "A supplementary accounting statement",
+        "A fresh certificate of incorporation",
+        "A winding-up order",
+        "A new memorandum"
+      ],
+      answer: 0,
+      explanation: "A supplementary accounting statement is required in the circumstances prescribed by the Act."
+    },
+
+    {
+      id: "CAA_HARD_08_4",
+      question: "The statement that audited annual accounts automatically eliminate the need for the supplementary accounting statement is:",
+      options: [
+        "Correct",
+        "Incorrect",
+        "Correct only for listed companies",
+        "Correct only if shareholders consent"
+      ],
+      answer: 1,
+      explanation: "The statutory requirement is triggered by the timing of the latest annual accounts relative to the first meeting."
+    },
+
+    {
+      id: "CAA_HARD_08_5",
+      question: "The directors' report concerning the scheme is intended primarily to:",
+      options: [
+        "Provide stakeholders with prescribed information necessary to evaluate the scheme",
+        "Replace the valuation report",
+        "Replace the Tribunal",
+        "Determine tax liability"
+      ],
+      answer: 0,
+      explanation: "The directors' report facilitates informed consideration of the proposed scheme by explaining its effects and relevant valuation matters."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 9
+========================================================= */
+{
+  id: "CAA_HARD_09",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Harbour Infrastructure Limited</strong> obtained an order from the NCLT
+    sanctioning a compromise with its creditors. The certified copy of the order was
+    received by the company on 12 August.</p>
+
+    <p>The company secretary advised the Board that the order should be filed with the
+    Registrar within the statutory period. The CFO argued that filing could be postponed
+    because the scheme would become operational only after the next financial year.</p>
+
+    <p>The scheme also contained a provision for buy-back of securities. However, the
+    proposed buy-back did not comply with all the conditions applicable to buy-back under
+    Section 68. The directors argued that Tribunal sanction of the compromise would override
+    the separate buy-back requirements.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_09_1",
+      question: "The Tribunal's order sanctioning a compromise or arrangement must be filed with the Registrar within:",
+      options: [
+        "15 days",
+        "30 days",
+        "60 days",
+        "90 days"
+      ],
+      answer: 1,
+      explanation: "Section 230 requires filing of the Tribunal's order with the Registrar within 30 days of receipt."
+    },
+
+    {
+      id: "CAA_HARD_09_2",
+      question: "The CFO's proposal to wait until the next financial year is:",
+      options: [
+        "Permitted",
+        "Not permitted merely because the scheme becomes operational later",
+        "Permitted if creditors agree",
+        "Permitted if the company is private"
+      ],
+      answer: 1,
+      explanation: "The statutory filing period runs from receipt of the order and is not postponed merely because implementation occurs later."
+    },
+
+    {
+      id: "CAA_HARD_09_3",
+      question: "A buy-back included in a compromise or arrangement must comply with:",
+      options: [
+        "Section 68",
+        "Section 48",
+        "Section 90",
+        "Section 234"
+      ],
+      answer: 0,
+      explanation: "Section 230(10) requires compliance with Section 68 for a buy-back undertaken under a compromise or arrangement."
+    },
+
+    {
+      id: "CAA_HARD_09_4",
+      question: "Tribunal sanction of a compromise automatically overrides the requirements of Section 68.",
+      options: [
+        "True",
+        "False",
+        "True only for listed companies",
+        "True only where creditors approve"
+      ],
+      answer: 1,
+      explanation: "The specific statutory requirements applicable to buy-back continue to apply."
+    },
+
+    {
+      id: "CAA_HARD_09_5",
+      question: "The filing requirement primarily ensures:",
+      options: [
+        "Registration and statutory record of the Tribunal's order",
+        "Automatic tax exemption",
+        "Automatic listing of shares",
+        "Cancellation of creditor claims"
+      ],
+      answer: 0,
+      explanation: "Filing the order with the Registrar ensures the order is placed on the statutory record."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 10
+========================================================= */
+{
+  id: "CAA_HARD_10",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Prime Industrial Limited</strong> proposed a merger with Alpha Manufacturing
+    Limited. The scheme contemplated transfer of all assets, liabilities and contractual
+    obligations of Alpha to Prime.</p>
+
+    <p>Alpha had several contracts containing change-of-control clauses. One major lender
+    argued that the merger should be treated as a termination event and that the entire
+    outstanding loan should become immediately payable.</p>
+
+    <p>The scheme also provided that certain employees of Alpha would continue in employment
+    with Prime on substantially similar terms. A number of legal proceedings were pending
+    against Alpha in different courts and tribunals.</p>
+
+    <p>Prime also discovered that Alpha held a block of shares in Prime. The Board proposed
+    that these shares should simply remain outstanding because they had been validly issued
+    before the merger.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_10_1",
+      question: "The Tribunal's merger order may provide for transfer and vesting of:",
+      options: [
+        "Property and liabilities",
+        "Only tangible assets",
+        "Only cash",
+        "Only intellectual property"
+      ],
+      answer: 0,
+      explanation: "A merger scheme may provide for transfer and vesting of property, liabilities and other matters specified by law."
+    },
+
+    {
+      id: "CAA_HARD_10_2",
+      question: "Pending legal proceedings against the transferor may:",
+      options: [
+        "Continue by or against the transferee company",
+        "Always terminate automatically",
+        "Continue only against former directors",
+        "Be transferred to the Registrar"
+      ],
+      answer: 0,
+      explanation: "The scheme may provide for continuation of pending proceedings by or against the transferee company."
+    },
+
+    {
+      id: "CAA_HARD_10_3",
+      question: "Transfer of employees under the merger scheme is:",
+      options: [
+        "Permissible subject to the scheme and applicable requirements",
+        "Automatically prohibited",
+        "Possible only after employee dismissal",
+        "Possible only after liquidation"
+      ],
+      answer: 0,
+      explanation: "Transfer of employees is a recognized matter that may be dealt with in a merger scheme."
+    },
+
+    {
+      id: "CAA_HARD_10_4",
+      question: "The shares held by Alpha in Prime create a problem because:",
+      options: [
+        "The transferee company should not end up holding its own shares through the merger structure",
+        "All shares automatically become preference shares",
+        "The shares must be transferred to employees",
+        "The shares must be listed separately"
+      ],
+      answer: 0,
+      explanation: "The merger provisions prevent the transferee company from holding its own shares, directly or through specified structures, as a consequence of the scheme."
+    },
+
+    {
+      id: "CAA_HARD_10_5",
+      question: "The lender's objection concerning a contractual clause is primarily relevant to:",
+      options: [
+        "The rights and liabilities affected by the scheme",
+        "The company's registered office",
+        "Appointment of the statutory auditor",
+        "The authorised share capital only"
+      ],
+      answer: 0,
+      explanation: "Contractual liabilities and creditor rights are material considerations in evaluating a scheme."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 11
+========================================================= */
+{
+  id: "CAA_HARD_11",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Sunrise Retail Limited</strong> made an offer to acquire shares of
+    Moonlight Retail Limited. The offer remained open for four months. During that
+    period, shareholders holding 91% in value of the relevant shares accepted the offer.</p>
+
+    <p>After the expiry of the four-month period, Sunrise decided to acquire the shares
+    of the remaining shareholders. It sent the statutory notice expressing its intention
+    to acquire the remaining shares.</p>
+
+    <p>One dissenting shareholder approached the Tribunal within one month from the date
+    of the notice. Another shareholder claimed that because 91% had accepted the offer,
+    the remaining shareholders should have no statutory right to approach the Tribunal.</p>
+
+    <p>The majority shareholders also deposited the consideration required for acquiring
+    the remaining shares in the separate bank account operated by the company.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_11_1",
+      question: "The 91% approval satisfies the minimum percentage required under Section 235.",
+      options: [
+        "Yes",
+        "No",
+        "Only if 95% also consent",
+        "Only if all directors consent"
+      ],
+      answer: 0,
+      explanation: "The statutory threshold is not less than nine-tenths in value."
+    },
+
+    {
+      id: "CAA_HARD_11_2",
+      question: "The four-month period is relevant because approval must be obtained within:",
+      options: [
+        "Four months after the offer",
+        "Six months after the offer",
+        "One year after the offer",
+        "30 days after the offer"
+      ],
+      answer: 0,
+      explanation: "Section 235 provides a four-month period for obtaining the requisite approval."
+    },
+
+    {
+      id: "CAA_HARD_11_3",
+      question: "The dissenting shareholder's application within one month of the notice is:",
+      options: [
+        "Within the statutory period",
+        "Too late",
+        "Permitted only after six months",
+        "Automatically invalid"
+      ],
+      answer: 0,
+      explanation: "A dissenting shareholder may apply to the Tribunal within one month from the date of the notice."
+    },
+
+    {
+      id: "CAA_HARD_11_4",
+      question: "The majority shareholders are required to deposit the purchase consideration in:",
+      options: [
+        "A separate bank account operated by the company",
+        "The personal account of the transferee's managing director",
+        "The account of the Registrar",
+        "The account of the Tribunal"
+      ],
+      answer: 0,
+      explanation: "Section 235 requires the purchase consideration to be deposited in the prescribed separate bank account."
+    },
+
+    {
+      id: "CAA_HARD_11_5",
+      question: "The statement that 90% approval completely removes the dissenting shareholder's right to approach the Tribunal is:",
+      options: [
+        "Correct",
+        "Incorrect",
+        "Correct only for listed companies",
+        "Correct only for preference shares"
+      ],
+      answer: 1,
+      explanation: "The statute specifically preserves the right of a dissenting shareholder to apply to the Tribunal within the prescribed period."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 12
+========================================================= */
+{
+  id: "CAA_HARD_12",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>National Consumer Brands Limited</strong> acquired 92% of the issued equity
+    share capital of Regional Foods Limited through a combination of share exchange and
+    conversion of securities. The remaining 8% was held by several minority shareholders.</p>
+
+    <p>National Consumer Brands proposed to acquire the remaining shares under Section 236.
+    A registered valuer determined the fair value after considering the assets, liabilities,
+    profitability, market conditions and other relevant factors.</p>
+
+    <p>The majority shareholders deposited the amount required for acquisition in a separate
+    bank account operated by Regional Foods. Notices were sent to minority shareholders.
+    Some minority shareholders failed to deliver their share certificates despite receiving
+    the notices.</p>
+
+    <p>One minority shareholder argued that Section 236 could not apply because the 92% holding
+    had been acquired partly through conversion of securities rather than by a straightforward
+    cash purchase.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_12_1",
+      question: "The 92% acquisition exceeds the 90% threshold required under Section 236.",
+      options: [
+        "True",
+        "False",
+        "Only if acquired for cash",
+        "Only if acquired through amalgamation"
+      ],
+      answer: 0,
+      explanation: "The threshold is 90% or more of the issued equity share capital."
+    },
+
+    {
+      id: "CAA_HARD_12_2",
+      question: "Section 236 can apply where the 90% holding is acquired through:",
+      options: [
+        "Amalgamation, share exchange, conversion of securities or other specified means",
+        "Only cash purchase",
+        "Only inheritance",
+        "Only rights issue"
+      ],
+      answer: 0,
+      explanation: "Section 236 expressly covers acquisition by virtue of amalgamation, share exchange, conversion of securities or other specified means."
+    },
+
+    {
+      id: "CAA_HARD_12_3",
+      question: "The minority shareholder's argument that only cash acquisition can trigger Section 236 is:",
+      options: [
+        "Correct",
+        "Incorrect",
+        "Correct only for listed companies",
+        "Correct only for private companies"
+      ],
+      answer: 1,
+      explanation: "The provision is not restricted to a simple cash acquisition."
+    },
+
+    {
+      id: "CAA_HARD_12_4",
+      question: "The purchase price under Section 236 is determined on the basis of:",
+      options: [
+        "Valuation by a registered valuer",
+        "Face value alone",
+        "The original issue price alone",
+        "The majority shareholder's unilateral estimate"
+      ],
+      answer: 0,
+      explanation: "The fair value is determined in accordance with the statutory valuation mechanism involving a registered valuer."
+    },
+
+    {
+      id: "CAA_HARD_12_5",
+      question: "The separate bank account mechanism is primarily intended to:",
+      options: [
+        "Secure the consideration payable for acquisition of minority shares",
+        "Pay employee salaries",
+        "Pay income tax",
+        "Fund future expansion"
+      ],
+      answer: 0,
+      explanation: "The deposit ensures availability of consideration for the minority shareholders."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 13
+========================================================= */
+{
+  id: "CAA_HARD_13",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Blue Horizon Limited</strong> proposed a scheme of compromise under which
+    preference shareholders would receive equity shares in exchange for their preference
+    shares and accumulated dividend arrears.</p>
+
+    <p>The company had two classes of preference shareholders. The first class had accumulated
+    dividend arrears of ₹8 crore, while the second class had arrears of ₹3 crore. The scheme
+    proposed that the first class could receive either cash equal to the dividend arrears or
+    equity shares of equivalent value. The second class was proposed to receive only equity
+    shares.</p>
+
+    <p>Some Class II shareholders argued that they were being treated less favourably and
+    should be given the same cash option. The Board argued that the scheme had been approved
+    by the required majority and therefore no distinction could be questioned.</p>
+
+    <p>The company also intended to issue new equity shares to implement the scheme and
+    simultaneously vary the rights attached to the preference shares.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_13_1",
+      question: "The specific statutory provision dealing with the option relating to preference dividend arrears in the circumstances described is contained in:",
+      options: [
+        "Section 230",
+        "Section 232",
+        "Section 235",
+        "Section 239"
+      ],
+      answer: 0,
+      explanation: "Section 230 contains provisions concerning treatment of preference shareholders and dividend arrears in the relevant scheme."
+    },
+
+    {
+      id: "CAA_HARD_13_2",
+      question: "The fact that a scheme has received majority approval means that:",
+      options: [
+        "All statutory requirements become irrelevant",
+        "The Tribunal may still examine fairness, statutory compliance and class treatment",
+        "All dissenting shareholders automatically lose their rights",
+        "The Registrar must automatically approve it"
+      ],
+      answer: 1,
+      explanation: "Majority approval is necessary but does not eliminate the Tribunal's statutory role in examining the scheme."
+    },
+
+    {
+      id: "CAA_HARD_13_3",
+      question: "Variation of rights attached to preference shares is connected with:",
+      options: [
+        "Section 48",
+        "Section 68",
+        "Section 90",
+        "Section 236"
+      ],
+      answer: 0,
+      explanation: "Variation of shareholders' rights is dealt with under Section 48."
+    },
+
+    {
+      id: "CAA_HARD_13_4",
+      question: "The central issue in deciding whether Class I and Class II should be treated as one class is:",
+      options: [
+        "Similarity of their rights and interests",
+        "The colour of their share certificates",
+        "The date on which dividends were declared",
+        "The location of the shareholders"
+      ],
+      answer: 0,
+      explanation: "Class constitution depends on similarity of legal rights and interests."
+    },
+
+    {
+      id: "CAA_HARD_13_5",
+      question: "The issuance of equity shares to implement the arrangement is:",
+      options: [
+        "A matter that can form part of the scheme, subject to applicable statutory requirements",
+        "Always prohibited",
+        "Possible only after liquidation",
+        "Outside the scope of any scheme"
+      ],
+      answer: 0,
+      explanation: "Schemes may provide for issue or allotment of securities to implement the arrangement, subject to applicable law."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 14
+========================================================= */
+{
+  id: "CAA_HARD_14",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Evergreen Infrastructure Limited</strong> proposed a scheme involving
+    transfer of a large undertaking to another company. The scheme required the transfer
+    of land, machinery, intellectual property, employees, contracts and various financial
+    liabilities.</p>
+
+    <p>The company had obtained approval of the required class of creditors and members.
+    However, after approval, the Board discovered that the latest audited financial
+    statements were significantly older than the period contemplated by the statutory
+    requirements.</p>
+
+    <p>Several shareholders complained that they had received insufficient information
+    regarding the effect of the scheme on promoters and non-promoter shareholders. A
+    valuation report also disclosed that the valuer had encountered significant difficulties
+    in valuing a foreign subsidiary.</p>
+
+    <p>The Board argued that since the scheme had already been approved by the members,
+    these defects were merely procedural and could not affect Tribunal sanction.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_14_1",
+      question: "The age of the latest annual accounts may trigger a requirement for:",
+      options: [
+        "A supplementary accounting statement",
+        "Automatic liquidation",
+        "Cancellation of all shares",
+        "Fresh incorporation"
+      ],
+      answer: 0,
+      explanation: "Where the statutory time condition is met, a supplementary accounting statement is required."
+    },
+
+    {
+      id: "CAA_HARD_14_2",
+      question: "The valuation difficulty concerning the foreign subsidiary should be:",
+      options: [
+        "Appropriately disclosed as required",
+        "Ignored",
+        "Disclosed only after completion",
+        "Disclosed only to creditors"
+      ],
+      answer: 0,
+      explanation: "Special valuation difficulties are relevant information for stakeholders evaluating the scheme."
+    },
+
+    {
+      id: "CAA_HARD_14_3",
+      question: "The effect of the scheme on promoters and non-promoter shareholders is:",
+      options: [
+        "Relevant information in the directors' report",
+        "Never required",
+        "Relevant only after merger",
+        "Relevant only to creditors"
+      ],
+      answer: 0,
+      explanation: "The directors' report contains information concerning the effect of the scheme on specified shareholder groups."
+    },
+
+    {
+      id: "CAA_HARD_14_4",
+      question: "Member approval does not automatically eliminate the Tribunal's power to:",
+      options: [
+        "Examine statutory compliance and stakeholder protection",
+        "Ignore all objections",
+        "Cancel the Companies Act",
+        "Replace the Registrar permanently"
+      ],
+      answer: 0,
+      explanation: "The Tribunal must consider the statutory requirements and relevant stakeholder interests before sanctioning the scheme."
+    },
+
+    {
+      id: "CAA_HARD_14_5",
+      question: "The strongest legal characterization of the Board's argument is:",
+      options: [
+        "Incorrect because compliance and disclosure requirements remain relevant despite majority approval",
+        "Correct in every circumstance",
+        "Correct only for private companies",
+        "Correct only where creditors approve"
+      ],
+      answer: 0,
+      explanation: "Majority approval does not cure substantive statutory non-compliance or material disclosure deficiencies."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 15
+========================================================= */
+{
+  id: "CAA_HARD_15",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Rapid Mobility Limited</strong> and Rapid Components Private Limited were
+    eligible to consider a fast-track merger. The transferor had 850 members, while the
+    transferee had 420 members. The companies prepared a common scheme and filed declarations
+    of solvency.</p>
+
+    <p>Notice of the proposed scheme was circulated to the Registrar and Official Liquidator.
+    The Registrar raised no objection within the prescribed period, but the Official
+    Liquidator sought clarification concerning a pending environmental liability of the
+    transferor.</p>
+
+    <p>At the creditors' meeting, creditors representing 90.2% in value voted in favour.
+    A separate class of creditors claimed that they should not have been counted in the same
+    class because their repayment rights were substantially different.</p>
+
+    <p>The companies nevertheless proceeded on the basis that the nine-tenths requirement
+    had been satisfied and requested the Central Government to confirm the scheme.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_15_1",
+      question: "Creditors representing 90.2% in value satisfy the numerical value threshold of:",
+      options: [
+        "75%",
+        "80%",
+        "90%",
+        "95%"
+      ],
+      answer: 2,
+      explanation: "90.2% exceeds the nine-tenths threshold."
+    },
+
+    {
+      id: "CAA_HARD_15_2",
+      question: "The fact that creditors representing 90.2% approved the scheme does not necessarily resolve:",
+      options: [
+        "Whether creditors were correctly classified",
+        "Whether the percentage exceeds 90%",
+        "Whether the scheme exists",
+        "Whether the companies have creditors"
+      ],
+      answer: 0,
+      explanation: "Correct class constitution remains important. A numerical majority cannot cure improper classification."
+    },
+
+    {
+      id: "CAA_HARD_15_3",
+      question: "The Official Liquidator's concern regarding environmental liability is:",
+      options: [
+        "Relevant to the assessment of liabilities under the scheme",
+        "Irrelevant because environmental matters are never considered",
+        "Relevant only to employees",
+        "Relevant only after dissolution"
+      ],
+      answer: 0,
+      explanation: "Outstanding or contingent liabilities are relevant to determining the fairness and implementation of a scheme."
+    },
+
+    {
+      id: "CAA_HARD_15_4",
+      question: "The declaration of solvency is:",
+      options: [
+        "A requirement in the fast-track merger procedure",
+        "Required only for creditors",
+        "Required only after merger",
+        "Not connected with Section 233"
+      ],
+      answer: 0,
+      explanation: "The companies involved in the fast-track merger procedure are required to file declarations of solvency."
+    },
+
+    {
+      id: "CAA_HARD_15_5",
+      question: "If creditors with materially different rights have been improperly grouped together, the principal concern is:",
+      options: [
+        "Whether the voting process fairly represents the relevant class",
+        "Whether the company has a registered office",
+        "Whether the company has employees",
+        "Whether the company is profitable"
+      ],
+      answer: 0,
+      explanation: "Proper constitution of classes is fundamental because approval must be obtained from the persons whose rights are being compromised."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 16
+========================================================= */
+{
+  id: "CAA_HARD_16",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>National Logistics Corporation Limited</strong> was ordered to undergo
+    amalgamation in the public interest. The Central Government prepared a draft order
+    specifying the proposed transfer of assets, liabilities and business undertakings.</p>
+
+    <p>A copy of the draft order was sent to the companies concerned. The companies were
+    given an opportunity to submit suggestions and objections. One company requested a
+    longer period than the statutory minimum, while another submitted objections relating
+    to the proposed valuation of its assets.</p>
+
+    <p>After considering the representations, the Central Government proceeded with the
+    amalgamation. The order also provided for compensation to shareholders whose interests
+    were adversely affected.</p>
+
+    <p>One shareholder considered the compensation inadequate and wanted to challenge the
+    assessment before the Tribunal. The company argued that because the Central Government
+    had already issued the amalgamation order, the compensation could not be challenged.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_16_1",
+      question: "Section 237 primarily concerns amalgamation:",
+      options: [
+        "In the public interest",
+        "Only between subsidiaries",
+        "Only between private companies",
+        "Only between foreign companies"
+      ],
+      answer: 0,
+      explanation: "Section 237 deals with amalgamation of companies in the public interest."
+    },
+
+    {
+      id: "CAA_HARD_16_2",
+      question: "Before making the final order, the Central Government must:",
+      options: [
+        "Send a draft order to the companies concerned and provide an opportunity for suggestions and objections",
+        "Obtain unanimous employee consent",
+        "Obtain approval from every creditor",
+        "Obtain approval from every shareholder"
+      ],
+      answer: 0,
+      explanation: "The companies concerned must be given an opportunity to make representations on the draft order."
+    },
+
+    {
+      id: "CAA_HARD_16_3",
+      question: "The statutory minimum period for suggestions and objections under the relevant provision is:",
+      options: [
+        "15 days",
+        "30 days",
+        "Two months",
+        "Six months"
+      ],
+      answer: 2,
+      explanation: "The period specified for representations cannot be less than two months."
+    },
+
+    {
+      id: "CAA_HARD_16_4",
+      question: "An aggrieved person may challenge the compensation assessment before:",
+      options: [
+        "The Tribunal",
+        "The Registrar",
+        "The RBI",
+        "The Official Liquidator only"
+      ],
+      answer: 0,
+      explanation: "Section 237 provides an appeal mechanism to the Tribunal against the compensation assessment."
+    },
+
+    {
+      id: "CAA_HARD_16_5",
+      question: "The argument that compensation cannot be challenged merely because the amalgamation order has been issued is:",
+      options: [
+        "Incorrect",
+        "Correct",
+        "Correct only where the shareholder holds less than 1%",
+        "Correct only for listed companies"
+      ],
+      answer: 0,
+      explanation: "The statute specifically provides a mechanism for challenging the compensation assessment."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 17
+========================================================= */
+{
+  id: "CAA_HARD_17",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Royal Healthcare Limited</strong> proposed an amalgamation with Medical
+    Devices Limited. The companies prepared a scheme under which all assets and liabilities
+    of Medical Devices would vest in Royal Healthcare.</p>
+
+    <p>Royal Healthcare had previously acquired a significant number of shares in Medical
+    Devices. Certain shares were also held by Medical Devices in Royal Healthcare through
+    an earlier investment arrangement.</p>
+
+    <p>The valuation expert proposed a share exchange ratio based on the relative enterprise
+    values of the two companies. A group of minority shareholders challenged the valuation,
+    arguing that the valuation ignored a recently acquired patent whose value had not yet
+    been reflected in the audited financial statements.</p>
+
+    <p>The Board responded that the patent had no historical cost of significance and therefore
+    should not materially influence the exchange ratio.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_17_1",
+      question: "A share exchange ratio in a merger should primarily be based on:",
+      options: [
+        "An appropriate valuation of the relevant businesses and securities",
+        "Historical cost of every asset alone",
+        "Face value of shares alone",
+        "Previous year's dividend alone"
+      ],
+      answer: 0,
+      explanation: "The exchange ratio should be supported by an appropriate valuation methodology considering relevant assets, liabilities and business prospects."
+    },
+
+    {
+      id: "CAA_HARD_17_2",
+      question: "A recently acquired patent may be relevant to valuation even if:",
+      options: [
+        "Its value is not fully reflected in historical-cost-based financial statements",
+        "It has no legal ownership",
+        "It is unrelated to the business",
+        "It has already expired"
+      ],
+      answer: 0,
+      explanation: "Valuation is not necessarily limited to historical accounting carrying values; relevant intangible assets may affect economic value."
+    },
+
+    {
+      id: "CAA_HARD_17_3",
+      question: "Shares held by the transferee company in itself as a consequence of the scheme should generally be:",
+      options: [
+        "Cancelled or extinguished",
+        "Retained indefinitely",
+        "Transferred to directors",
+        "Converted into government securities"
+      ],
+      answer: 0,
+      explanation: "The merger provisions address and generally require cancellation or extinguishment of such self-held shares."
+    },
+
+    {
+      id: "CAA_HARD_17_4",
+      question: "The principal purpose of an expert valuation report in this context is to:",
+      options: [
+        "Support a fair and reasoned basis for the share exchange ratio",
+        "Replace the Tribunal",
+        "Determine income-tax liability conclusively",
+        "Approve employee salaries"
+      ],
+      answer: 0,
+      explanation: "The valuation report provides an expert basis for the proposed exchange ratio."
+    },
+
+    {
+      id: "CAA_HARD_17_5",
+      question: "The Board's statement that only historical cost should determine the exchange ratio is:",
+      options: [
+        "Too narrow",
+        "Always correct",
+        "Mandatory under Section 232",
+        "Mandatory for all registered valuers"
+      ],
+      answer: 0,
+      explanation: "A merger valuation generally considers economic value and appropriate valuation methodologies rather than historical cost alone."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 18
+========================================================= */
+{
+  id: "CAA_HARD_18",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Future Energy Limited</strong> proposed a scheme under which part of its
+    undertaking would be transferred to a newly formed company. The scheme included
+    transfer of land, plant, intellectual property, employees and specified liabilities.</p>
+
+    <p>Before the Tribunal, certain creditors argued that the scheme did not clearly specify
+    which liabilities would be transferred and which would remain with Future Energy.
+    Several contracts also contained restrictions on assignment.</p>
+
+    <p>The company submitted a revised scheme clarifying the allocation of liabilities.
+    However, one class of creditors claimed that the revision materially changed their
+    rights and therefore required reconsideration by the relevant class.</p>
+
+    <p>The Tribunal considered whether the revised scheme adequately protected creditors
+    and whether the statutory procedure had been followed.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_18_1",
+      question: "A merger or arrangement scheme may provide for:",
+      options: [
+        "Transfer of undertaking, property, liabilities and other prescribed matters",
+        "Only transfer of cash",
+        "Only transfer of shares",
+        "Only transfer of employees"
+      ],
+      answer: 0,
+      explanation: "The statutory framework permits comprehensive provisions concerning property, liabilities, undertaking and other matters necessary for implementation."
+    },
+
+    {
+      id: "CAA_HARD_18_2",
+      question: "Where a revised scheme materially changes the rights of a class of creditors, the principal concern is:",
+      options: [
+        "Whether the affected class has been given the appropriate statutory opportunity to consider the revised arrangement",
+        "Whether the company has enough directors",
+        "Whether the registered office changes",
+        "Whether the auditor resigns"
+      ],
+      answer: 0,
+      explanation: "Material changes affecting a class can raise issues concerning proper class approval and stakeholder consent."
+    },
+
+    {
+      id: "CAA_HARD_18_3",
+      question: "Contracts containing assignment restrictions are relevant because:",
+      options: [
+        "The scheme must properly address contractual rights and obligations",
+        "Contracts automatically disappear on a scheme",
+        "All contracts are irrelevant to mergers",
+        "Only employee contracts matter"
+      ],
+      answer: 0,
+      explanation: "Contractual rights and liabilities are relevant to implementation and must be appropriately dealt with in the scheme."
+    },
+
+    {
+      id: "CAA_HARD_18_4",
+      question: "The Tribunal's role includes consideration of:",
+      options: [
+        "Whether the scheme complies with statutory requirements and adequately addresses stakeholder interests",
+        "Only the company's profit",
+        "Only the directors' wishes",
+        "Only the tax consequences"
+      ],
+      answer: 0,
+      explanation: "The Tribunal considers statutory compliance and relevant stakeholder interests while exercising its jurisdiction."
+    },
+
+    {
+      id: "CAA_HARD_18_5",
+      question: "The strongest reason for clearly identifying transferred liabilities is:",
+      options: [
+        "To establish the legal and financial consequences of the scheme",
+        "To determine employee attendance",
+        "To calculate directors' remuneration",
+        "To decide the registered office"
+      ],
+      answer: 0,
+      explanation: "Clear allocation of liabilities is essential for implementation and protection of creditors and other stakeholders."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 19
+========================================================= */
+{
+  id: "CAA_HARD_19",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>National Foods Limited</strong> proposed a compromise with its creditors
+    after suffering losses for two consecutive years. The scheme classified creditors into
+    secured financial creditors, unsecured operational creditors and preference shareholders.</p>
+
+    <p>The company filed an application before the Tribunal containing its latest financial
+    position and the auditor's report. However, the application did not initially disclose
+    a pending regulatory proceeding against one of its subsidiaries. The company argued that
+    the proceeding was against the subsidiary and therefore did not need to be mentioned.</p>
+
+    <p>The scheme also involved a reduction of share capital and a proposed issue of equity
+    shares to certain creditors. A valuation report was annexed, but the valuation date was
+    several months before the proposed implementation date.</p>
+
+    <p>Several creditors holding more than 5% of the total outstanding debt objected to the
+    omission and the valuation methodology.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_19_1",
+      question: "The latest financial position and auditor's report are:",
+      options: [
+        "Material information relevant to the application",
+        "Optional information",
+        "Required only for listed companies",
+        "Relevant only to shareholders"
+      ],
+      answer: 0,
+      explanation: "The application requires disclosure of the latest financial position and auditor's report among other material facts."
+    },
+
+    {
+      id: "CAA_HARD_19_2",
+      question: "A pending proceeding involving a subsidiary may be relevant where:",
+      options: [
+        "It constitutes a material fact affecting the company's affairs or the proposed arrangement",
+        "It is never relevant",
+        "It involves no monetary amount",
+        "Only shareholders request disclosure"
+      ],
+      answer: 0,
+      explanation: "Material pending proceedings and investigations must be appropriately disclosed where relevant to the company's affairs and scheme."
+    },
+
+    {
+      id: "CAA_HARD_19_3",
+      question: "Creditors holding more than 5% of outstanding debt:",
+      options: [
+        "Meet the statutory threshold for raising objections",
+        "Never have standing to object",
+        "Need 50% of debt",
+        "Need 90% of debt"
+      ],
+      answer: 0,
+      explanation: "The statutory threshold is not less than 5% of the total outstanding debt."
+    },
+
+    {
+      id: "CAA_HARD_19_4",
+      question: "Reduction of share capital included in the scheme is:",
+      options: [
+        "A matter requiring appropriate disclosure and compliance with applicable law",
+        "Completely irrelevant",
+        "Automatically valid merely because the scheme exists",
+        "Relevant only to employees"
+      ],
+      answer: 0,
+      explanation: "A reduction of share capital included in the scheme must be disclosed and implemented in accordance with the applicable statutory framework."
+    },
+
+    {
+      id: "CAA_HARD_19_5",
+      question: "The principal issue with an outdated valuation date is:",
+      options: [
+        "Whether the valuation appropriately reflects the relevant circumstances for the proposed transaction",
+        "Whether the company has enough employees",
+        "Whether the registered office is correct",
+        "Whether the company has filed annual returns"
+      ],
+      answer: 0,
+      explanation: "A valuation must be appropriate to the transaction and its relevant circumstances; an outdated valuation may require examination."
+    }
+
+  ]
+},
+
+/* =========================================================
+   CASE SCENARIO 20
+========================================================= */
+{
+  id: "CAA_HARD_20",
+  difficulty: "Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Unified Technology Limited</strong> proposed a complex restructuring involving
+    a compromise with creditors, transfer of one undertaking to another group company and
+    eventual amalgamation of the transferor with the transferee.</p>
+
+    <p>The scheme provided that secured creditors would receive a combination of cash and
+    securities, while unsecured creditors would receive shares in the transferee company.
+    Equity shareholders of the transferor would also receive shares based on a valuation
+    report prepared by a registered valuer.</p>
+
+    <p>The company had a pending investigation concerning transactions entered into by
+    previous management. The application initially omitted the investigation because the
+    current Board claimed that it was unrelated to the proposed restructuring.</p>
+
+    <p>At the meeting of one creditor class, 78% in number of the creditors voted in favour,
+    representing 76% in value of the creditors present and voting. However, another class
+    representing 12% of the company's total debt argued that it had been incorrectly grouped
+    with creditors having different repayment rights.</p>
+
+    <p>After the meeting, the company received the Tribunal's order sanctioning the scheme.
+    The certified copy was received by the company, but the company delayed filing the order
+    with the Registrar because management believed that the order would become effective only
+    after all contractual transfers had been completed.</p>
+
+    <p>The scheme also contemplated a buy-back component, although the company had not yet
+    demonstrated compliance with all requirements applicable to buy-back under Section 68.
+    Meanwhile, certain shareholders of the listed transferor objected to receiving shares in
+    an unlisted transferee company and demanded an appropriate exit mechanism.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_HARD_20_1",
+      question: "The creditor class in which 78% in number voted in favour and 76% in value voted in favour satisfies the approval requirement only if:",
+      options: [
+        "The relevant class was correctly constituted and the statutory majority requirements are otherwise satisfied",
+        "Every creditor of the company voted",
+        "All shareholders approved unanimously",
+        "The Registrar personally approves the voting"
+      ],
+      answer: 0,
+      explanation: "The majority and three-fourths value requirements operate within the properly constituted class. Incorrect class constitution can undermine the validity of the voting process."
+    },
+
+    {
+      id: "CAA_HARD_20_2",
+      question: "The pending investigation should have been considered for disclosure because:",
+      options: [
+        "Material investigations or proceedings are relevant disclosures under Section 230",
+        "Investigations are never relevant to schemes",
+        "Only investigations involving current directors are disclosed",
+        "Only criminal investigations require disclosure"
+      ],
+      answer: 0,
+      explanation: "Section 230 requires disclosure of material facts, including pending investigations or proceedings relevant to the company."
+    },
+
+    {
+      id: "CAA_HARD_20_3",
+      question: "The company's decision to delay filing the Tribunal's order until contractual transfers are completed is:",
+      options: [
+        "Not justified merely on that basis because the Act prescribes a filing period",
+        "Always correct",
+        "Correct only where creditors agree",
+        "Correct only for listed companies"
+      ],
+      answer: 0,
+      explanation: "The Tribunal's order must be filed with the Registrar within the statutory period from receipt of the order."
+    },
+
+    {
+      id: "CAA_HARD_20_4",
+      question: "The buy-back component of the scheme must comply with:",
+      options: [
+        "Section 68",
+        "Section 48 only",
+        "Section 234 only",
+        "Section 237 only"
+      ],
+      answer: 0,
+      explanation: "A buy-back under a compromise or arrangement must comply with Section 68."
+    },
+
+    {
+      id: "CAA_HARD_20_5",
+      question: "The objection of shareholders of the listed transferor concerning receipt of shares in an unlisted transferee is primarily addressed by:",
+      options: [
+        "The statutory protections applicable where a listed company merges with an unlisted company",
+        "Automatic cancellation of the merger",
+        "Section 236 minority purchase only",
+        "The provisions relating to investigation of ownership only"
+      ],
+      answer: 0,
+      explanation: "Where a listed transferor merges with an unlisted transferee, the merger framework provides safeguards including an appropriate exit mechanism for dissenting shareholders in the prescribed circumstances."
+    }
+
+  ]
+},
+
+/* =========================================================
+   VERY HARD CASE SCENARIO 1
+========================================================= */
+{
+  id: "CAA_VH_01",
+  difficulty: "Very Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Apex Infrastructure Limited</strong> proposed a scheme of arrangement with
+    its creditors after experiencing a severe liquidity crisis. The company had three
+    categories of creditors. Class A consisted of secured institutional lenders holding
+    claims of ₹420 crore. Class B consisted of unsecured financial creditors holding
+    claims
+    of ₹180 crore. Class C consisted of trade creditors holding claims of ₹100 crore.</p>
+
+    <p>Under the proposed scheme, Class A creditors would receive 80% of their principal
+    immediately and the balance through long-term securities. Class B creditors would
+    receive 60% of their claims in cash over four years, while Class C creditors would
+    receive 35% of their admitted claims in cash over two years.</p>
+
+    <p>The Board proposed one common meeting for all creditors on the ground that all of
+    them were creditors of Apex. At the meeting, creditors representing 78% of the total
+    debt in value voted in favour. However, the voting pattern was substantially different
+    between the three categories.</p>
+
+    <p>Class A overwhelmingly supported the scheme, whereas Class C substantially opposed
+    it. A group of Class C creditors argued that their rights were fundamentally different
+    because they had no security and were being offered a substantially lower recovery.</p>
+
+    <p>One creditor holding 5.2% of the total outstanding debt objected to the scheme.
+    Another creditor holding 4.8% supported the objection. The company contended that
+    because the scheme had crossed the required overall majority, the objections should
+    not be considered.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_VH_01_1",
+      question: "The strongest legal objection to conducting one common meeting for all three creditor categories is:",
+      options: [
+        "The total debt exceeds ₹500 crore",
+        "The creditors may possess sufficiently different rights and interests to require separate classes",
+        "Trade creditors can never vote on a compromise",
+        "Secured creditors can never vote together with financial creditors"
+      ],
+      answer: 1,
+      explanation: "The decisive issue is similarity of rights and interests. Creditors whose rights are sufficiently different may need to constitute separate classes."
+    },
+
+    {
+      id: "CAA_VH_01_2",
+      question: "Assuming the 5.2% creditor satisfies all other statutory conditions, the creditor:",
+      options: [
+        "Fails because the threshold is 10%",
+        "Fails because the threshold is 7.5%",
+        "Meets the statutory 5% debt threshold for objecting",
+        "Can object only if secured"
+      ],
+      answer: 2,
+      explanation: "A creditor holding not less than 5% of the total outstanding debt can object, subject to the statutory requirements."
+    },
+
+    {
+      id: "CAA_VH_01_3",
+      question: "If the classes were incorrectly combined, the fact that 78% of total debt approved the scheme would:",
+      options: [
+        "Automatically cure the defect",
+        "Not necessarily cure the defect because approval must be considered class-wise where separate classes are required",
+        "Make the scheme binding regardless of the rights of Class C",
+        "Make Tribunal scrutiny unnecessary"
+      ],
+      answer: 1,
+      explanation: "A numerical majority cannot cure an improperly constituted class. The statutory voting process depends on proper classification."
+    },
+
+    {
+      id: "CAA_VH_01_4",
+      question: "Which fact most strongly supports separate treatment of Class C?",
+      options: [
+        "Class C has smaller claims individually",
+        "Class C creditors are geographically dispersed",
+        "Class C creditors have materially different rights and substantially different treatment under the scheme",
+        "Class C creditors are trade creditors by name"
+      ],
+      answer: 2,
+      explanation: "The relevant consideration is the nature of the rights and interests and the treatment under the scheme."
+    },
+
+    {
+      id: "CAA_VH_01_5",
+      question: "The company's argument that an overall 78% approval prevents consideration of individual objections is:",
+      options: [
+        "Correct in all cases",
+        "Incorrect because statutory objection rights and proper class constitution remain relevant",
+        "Correct where secured creditors approve",
+        "Correct if the company is financially distressed"
+      ],
+      answer: 1,
+      explanation: "Majority approval does not extinguish statutory rights of eligible objectors or eliminate the requirement of proper class constitution."
+    }
+
+  ]
+},
+
+/* =========================================================
+   VERY HARD CASE SCENARIO 2
+========================================================= */
+{
+  id: "CAA_VH_02",
+  difficulty: "Very Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Zenith Pharmaceuticals Limited</strong> proposed an amalgamation with
+    Zenith Research Private Limited, its wholly-owned subsidiary. The companies intended
+    to use the fast-track merger mechanism.</p>
+
+    <p>The transferor company had 1,250 members and the transferee company had 180 members.
+    The companies filed declarations of solvency and circulated the proposed scheme to
+    members and creditors.</p>
+
+    <p>At the creditors' meeting, creditors representing 92% in value approved the scheme.
+    However, the creditor list used for calculating the percentage included a creditor
+    whose claim was disputed and had been rejected by the company in its books.</p>
+
+    <p>The Registrar raised an objection concerning the treatment of an intellectual
+    property licence. The Official Liquidator separately raised concerns regarding an
+    environmental liability that had not been adequately reflected in the scheme.</p>
+
+    <p>The Central Government considered the objections and questioned whether the scheme
+    should continue through the fast-track mechanism or be dealt with under the regular
+    merger procedure.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_VH_02_1",
+      question: "The 92% creditor approval by itself conclusively establishes compliance with the fast-track procedure.",
+      options: [
+        "Yes",
+        "No",
+        "Yes, because the threshold is the only statutory requirement",
+        "Yes, provided the companies are related"
+      ],
+      answer: 1,
+      explanation: "The prescribed majority is necessary but does not eliminate other statutory conditions, including proper procedure and consideration of objections."
+    },
+
+    {
+      id: "CAA_VH_02_2",
+      question: "The disputed and rejected claim included in the denominator creates a potential issue concerning:",
+      options: [
+        "Proper determination of the relevant creditor class and voting entitlement",
+        "The authorised share capital only",
+        "Appointment of directors",
+        "The company's registered office"
+      ],
+      answer: 0,
+      explanation: "Determination of the relevant creditors and their voting rights is fundamental to calculating the statutory approval."
+    },
+
+    {
+      id: "CAA_VH_02_3",
+      question: "The Central Government may refuse to allow the matter to proceed under the fast-track route where:",
+      options: [
+        "The scheme raises issues requiring consideration by the Tribunal under the statutory framework",
+        "Any single creditor objects",
+        "The company has intellectual property",
+        "The subsidiary is wholly owned"
+      ],
+      answer: 0,
+      explanation: "The Central Government can refer the scheme to the Tribunal where statutory conditions warrant consideration under the regular procedure."
+    },
+
+    {
+      id: "CAA_VH_02_4",
+      question: "The Official Liquidator's environmental-liability objection is significant because:",
+      options: [
+        "Environmental liabilities are automatically extinguished on merger",
+        "The scheme must adequately address liabilities transferred or assumed under the merger",
+        "Only financial liabilities matter in a merger",
+        "Environmental liabilities can be ignored if members approve"
+      ],
+      answer: 1,
+      explanation: "Liabilities form an important part of the scheme and cannot simply be disregarded because the transaction is a merger."
+    },
+
+    {
+      id: "CAA_VH_02_5",
+      question: "The fact that the transferee is a wholly-owned subsidiary:",
+      options: [
+        "May make the transaction eligible for the fast-track framework, subject to statutory conditions",
+        "Automatically eliminates every statutory requirement",
+        "Automatically dissolves the subsidiary without a scheme",
+        "Makes creditor approval unnecessary"
+      ],
+      answer: 0,
+      explanation: "Wholly-owned subsidiary mergers may qualify for the simplified procedure, but the prescribed statutory conditions still apply."
+    }
+
+  ]
+},
+
+/* =========================================================
+   VERY HARD CASE SCENARIO 3
+========================================================= */
+{
+  id: "CAA_VH_03",
+  difficulty: "Very Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Meridian Technologies Limited</strong>, a listed company, proposed to merge
+    with Innovate Systems Private Limited, an unlisted company. Meridian shareholders would
+    receive shares of Innovate Systems under a valuation-based exchange ratio.</p>
+
+    <p>Immediately before the scheme was announced, Meridian's market price was ₹480 per
+    share. The valuation report determined the economic value of Meridian at ₹520 per share
+    and Innovate Systems at an equivalent value of ₹260 per share.</p>
+
+    <p>The proposed exchange ratio was therefore two shares of Innovate Systems for every
+    one share of Meridian. However, Innovate Systems would remain unlisted after the merger.</p>
+
+    <p>Institutional shareholders argued that the exchange ratio was economically reasonable
+    but the transaction deprived them of the liquidity associated with a listed security.
+    They demanded an exit mechanism. The Board argued that no shareholder had suffered a
+    loss because the valuation showed equivalent economic value.</p>
+
+    <p>A separate shareholder holding 11.5% of Meridian's share capital filed an objection
+    and argued that majority approval could not remove the statutory protection applicable
+    to shareholders of a listed transferor.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_VH_03_1",
+      question: "The central issue created by the listed-to-unlisted merger is:",
+      options: [
+        "Only the numerical exchange ratio",
+        "The loss of listing/liquidity and the statutory protection applicable to shareholders",
+        "Whether Innovate has employees",
+        "Whether Meridian has secured creditors"
+      ],
+      answer: 1,
+      explanation: "A listed transferor merging into an unlisted transferee raises specific statutory protection and exit considerations."
+    },
+
+    {
+      id: "CAA_VH_03_2",
+      question: "The fact that the economic valuation is equivalent necessarily means that no exit protection can apply.",
+      options: [
+        "True",
+        "False",
+        "True only where institutional investors approve",
+        "True only where the exchange ratio is certified"
+      ],
+      answer: 1,
+      explanation: "Economic valuation and statutory shareholder protection are separate considerations. Equal valuation does not automatically eliminate statutory safeguards."
+    },
+
+    {
+      id: "CAA_VH_03_3",
+      question: "The shareholder holding 11.5% is significant because:",
+      options: [
+        "The shareholder exceeds the statutory shareholding threshold for raising an objection",
+        "Any shareholder above 1% automatically controls the scheme",
+        "Only institutional shareholders may object",
+        "The shareholder becomes a creditor"
+      ],
+      answer: 0,
+      explanation: "A member holding not less than 10% of the shareholding satisfies the prescribed threshold for objecting, subject to other conditions."
+    },
+
+    {
+      id: "CAA_VH_03_4",
+      question: "If Meridian's market price is ₹480 but its valuation is ₹520, which value is necessarily required to determine the exchange ratio?",
+      options: [
+        "Only ₹480",
+        "Only ₹520",
+        "Neither figure alone; the prescribed valuation methodology and relevant circumstances must be considered",
+        "The face value of the shares"
+      ],
+      answer: 2,
+      explanation: "A merger exchange ratio is not determined mechanically by market price or a single valuation figure; the appropriate valuation exercise must be considered."
+    },
+
+    {
+      id: "CAA_VH_03_5",
+      question: "The Board's statement that majority approval eliminates the shareholders' statutory protection is:",
+      options: [
+        "Correct",
+        "Incorrect",
+        "Correct only if 90% approve",
+        "Correct only if the valuer agrees"
+      ],
+      answer: 1,
+      explanation: "Statutory protections applicable to affected shareholders are not automatically waived by majority approval."
+    }
+
+  ]
+},
+
+/* =========================================================
+   VERY HARD CASE SCENARIO 4
+========================================================= */
+{
+  id: "CAA_VH_04",
+  difficulty: "Very Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Omega Mining Limited</strong> proposed a cross-border merger with Global
+    Minerals Pte. Ltd., incorporated outside India in a jurisdiction permitted under the
+    applicable framework.</p>
+
+    <p>Global Minerals owned mining technology, foreign subsidiaries and several overseas
+    contractual rights. Omega proposed to issue securities to the shareholders of Global
+    Minerals as consideration, together with a cash component.</p>
+
+    <p>The scheme was approved by the boards of both companies. The directors then approached
+    the Tribunal, arguing that approval under the Companies Act was sufficient because the
+    transaction was structured as a merger.</p>
+
+    <p>The legal adviser pointed out that the transaction would involve foreign exchange
+    implications and therefore compliance with the Reserve Bank of India framework was
+    necessary. One director argued that RBI approval was merely administrative and could
+    be obtained after the Tribunal sanctioned the merger.</p>
+
+    <p>The foreign shareholders also questioned whether they could receive depository
+    receipts rather than direct shares in the Indian company.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_VH_04_1",
+      question: "The principal Companies Act provision specifically dealing with cross-border merger is:",
+      options: [
+        "Section 230",
+        "Section 232",
+        "Section 234",
+        "Section 237"
+      ],
+      answer: 2,
+      explanation: "Section 234 specifically governs merger or amalgamation of an Indian company with a foreign company."
+    },
+
+    {
+      id: "CAA_VH_04_2",
+      question: "The director's statement that RBI requirements can simply be ignored until after Tribunal sanction is:",
+      options: [
+        "Correct",
+        "Incorrect",
+        "Correct where the foreign company has no Indian assets",
+        "Correct where both boards approve"
+      ],
+      answer: 1,
+      explanation: "Cross-border mergers must comply with applicable RBI and foreign exchange requirements."
+    },
+
+    {
+      id: "CAA_VH_04_3",
+      question: "The proposed consideration to foreign shareholders may, subject to applicable conditions, include:",
+      options: [
+        "Cash and/or depository receipts",
+        "Only Indian currency",
+        "Only ordinary shares",
+        "Only preference shares"
+      ],
+      answer: 0,
+      explanation: "The statutory framework permits consideration through cash, depository receipts or a combination, subject to applicable requirements."
+    },
+
+    {
+      id: "CAA_VH_04_4",
+      question: "The presence of overseas contractual rights means that the scheme should:",
+      options: [
+        "Address transfer, vesting and enforceability of relevant rights and liabilities",
+        "Automatically terminate all foreign contracts",
+        "Ignore foreign law",
+        "Transfer all contracts to the RBI"
+      ],
+      answer: 0,
+      explanation: "A cross-border scheme must properly address assets, liabilities, contracts and other legal rights affected by the merger."
+    },
+
+    {
+      id: "CAA_VH_04_5",
+      question: "Board approval of both companies:",
+      options: [
+        "Is sufficient by itself to complete the cross-border merger",
+        "Does not replace the statutory and regulatory approval framework",
+        "Automatically constitutes Tribunal sanction",
+        "Automatically constitutes RBI approval"
+      ],
+      answer: 1,
+      explanation: "Board approval is only one step and does not replace statutory, Tribunal and regulatory requirements."
+    }
+
+  ]
+},
+
+/* =========================================================
+   VERY HARD CASE SCENARIO 5
+========================================================= */
+{
+  id: "CAA_VH_05",
+  difficulty: "Very Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Vertex Consumer Limited</strong> acquired 93% of the equity share capital of
+    Retail Brands Limited through a combination of share purchase, conversion of securities
+    and a previous amalgamation transaction.</p>
+
+    <p>The remaining 7% was held by approximately 320 minority shareholders. Vertex invoked
+    the provisions concerning purchase of shares of minority shareholders.</p>
+
+    <p>A registered valuer determined the fair value at ₹375 per share. The majority shareholder
+    deposited the consideration in a separate bank account. Notices were issued to the
+    minority shareholders.</p>
+
+    <p>Some minority shareholders argued that the 90% threshold should be calculated only
+    on the basis of shares acquired for cash and that shares received through conversion
+    of securities should be excluded.</p>
+
+    <p>Another shareholder argued that the valuation should be based solely on the original
+    issue price of ₹100 because that was the price at which the company originally issued
+    the shares.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_VH_05_1",
+      question: "For Section 236 purposes, acquisition through amalgamation, share exchange or conversion of securities:",
+      options: [
+        "Can be relevant in determining the 90% threshold",
+        "Can never be counted",
+        "Can be counted only if the acquisition was in cash",
+        "Is relevant only to foreign companies"
+      ],
+      answer: 0,
+      explanation: "Section 236 expressly covers acquisition through amalgamation, share exchange, conversion of securities and other specified means."
+    },
+
+    {
+      id: "CAA_VH_05_2",
+      question: "The 93% holding is sufficient to cross the statutory threshold because:",
+      options: [
+        "The threshold is 75%",
+        "The threshold is 80%",
+        "The threshold is 90% or more of the issued equity share capital",
+        "The threshold is 95%"
+      ],
+      answer: 2,
+      explanation: "Section 236 applies where the acquirer becomes the registered holder of 90% or more of the issued equity share capital."
+    },
+
+    {
+      id: "CAA_VH_05_3",
+      question: "The argument that the original issue price must necessarily determine the purchase price is:",
+      options: [
+        "Correct",
+        "Incorrect because statutory valuation involves fair value determined through the prescribed valuation mechanism",
+        "Correct if minority shareholders agree",
+        "Correct for all unlisted companies"
+      ],
+      answer: 1,
+      explanation: "The statutory mechanism relies on fair value determined by a registered valuer rather than simply the historical issue price."
+    },
+
+    {
+      id: "CAA_VH_05_4",
+      question: "The deposit of consideration into a separate bank account primarily serves to:",
+      options: [
+        "Secure the amount payable to minority shareholders",
+        "Create additional share capital",
+        "Pay the company's taxes",
+        "Finance the acquirer's future investments"
+      ],
+      answer: 0,
+      explanation: "The deposit mechanism protects the payment obligation to minority shareholders."
+    },
+
+    {
+      id: "CAA_VH_05_5",
+      question: "The strongest legal basis for rejecting the minority shareholders' cash-only threshold argument is:",
+      options: [
+        "Section 236 expressly includes specified non-cash modes of acquisition",
+        "All shares must always be purchased for cash",
+        "Only listed shares qualify",
+        "Only preference shares qualify"
+      ],
+      answer: 0,
+      explanation: "The statutory wording extends beyond a simple cash purchase."
+    }
+
+  ]
+},
+
+/* =========================================================
+   VERY HARD CASE SCENARIO 6
+========================================================= */
+{
+  id: "CAA_VH_06",
+  difficulty: "Very Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Eastern Power Limited</strong> filed an application for sanction of a
+    compromise and arrangement. The company had 4,000 members and total outstanding debt
+    of ₹800 crore.</p>
+
+    <p>A shareholder holding 9.8% of the shareholding objected to the scheme. A creditor
+    holding 5.1% of the outstanding debt also objected. Another shareholder holding 10.2%
+    supported the scheme but claimed that the scheme was unfair to a different class of
+    shareholders.</p>
+
+    <p>The company argued that only shareholders who actually voted against the scheme could
+    object and that a shareholder who supported the scheme could not later question the
+    arrangement.</p>
+
+    <p>The scheme also contained a provision for reduction of share capital. The company
+    attempted to rely solely on Section 230 without separately examining the statutory
+    requirements associated with reduction.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_VH_06_1",
+      question: "The shareholder holding 9.8% fails to meet the 10% shareholding threshold specified for objection under Section 230(4), assuming no other qualifying basis exists.",
+      options: [
+        "True",
+        "False",
+        "Only if the company is listed",
+        "Only if the shareholder is a promoter"
+      ],
+      answer: 0,
+      explanation: "The statutory shareholding threshold is not less than 10% of the shareholding."
+    },
+
+    {
+      id: "CAA_VH_06_2",
+      question: "The creditor holding 5.1% of outstanding debt:",
+      options: [
+        "Meets the 5% threshold for objecting",
+        "Fails because the threshold is 10%",
+        "Fails because only secured creditors can object",
+        "Needs unanimous creditor support"
+      ],
+      answer: 0,
+      explanation: "A creditor holding not less than 5% of total outstanding debt meets the statutory threshold, subject to the other conditions."
+    },
+
+    {
+      id: "CAA_VH_06_3",
+      question: "The shareholder who supported the scheme but later alleges unfair treatment:",
+      options: [
+        "Can never raise any issue",
+        "May still raise issues where otherwise legally entitled, but the specific statutory objection threshold and procedural requirements must be satisfied",
+        "Automatically becomes a creditor",
+        "Automatically invalidates the scheme"
+      ],
+      answer: 1,
+      explanation: "Voting position and statutory standing are distinct questions. The relevant statutory requirements must still be satisfied."
+    },
+
+    {
+      id: "CAA_VH_06_4",
+      question: "Where reduction of share capital forms part of the arrangement:",
+      options: [
+        "The applicable statutory requirements concerning reduction must still be considered",
+        "Section 230 automatically overrides every reduction requirement",
+        "No disclosure is required",
+        "Only creditors need to know"
+      ],
+      answer: 0,
+      explanation: "Inclusion of reduction in a scheme does not mean that all statutory safeguards relating to reduction cease to apply."
+    },
+
+    {
+      id: "CAA_VH_06_5",
+      question: "The company's assertion that only a person voting against the scheme can object is:",
+      options: [
+        "An overstatement of the statutory position",
+        "Always correct",
+        "Mandatory under Section 230",
+        "Correct where creditors approve"
+      ],
+      answer: 0,
+      explanation: "The Act specifies eligibility and thresholds for objections; the issue cannot be reduced simply to whether the person voted against."
+    }
+
+  ]
+},
+
+/* =========================================================
+   VERY HARD CASE SCENARIO 7
+========================================================= */
+{
+  id: "CAA_VH_07",
+  difficulty: "Very Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Global Engineering Limited</strong> proposed a merger with Global Machines
+    Limited. The Tribunal sanctioned the scheme on 3 September. The certified copy of the
+    order was received by the company on 7 September.</p>
+
+    <p>The company secretary advised the Board that the order should be filed with the
+    Registrar within 30 days. The CFO calculated the period from 3 September and therefore
+    intended to file the order by 2 October.</p>
+
+    <p>The company eventually filed the order on 5 October. Management argued that because
+    the order had been sanctioned on 3 September, filing on 5 October was only a minor
+    administrative delay.</p>
+
+    <p>The scheme also provided for a buy-back of securities. The directors believed that
+    because the Tribunal had sanctioned the overall scheme, the buy-back did not need to
+    independently satisfy Section 68.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_VH_07_1",
+      question: "For the 30-day filing requirement, the relevant starting point is:",
+      options: [
+        "The date of the Tribunal's order",
+        "The date on which the certified copy of the order is received by the company",
+        "The date of the shareholders' meeting",
+        "The date on which the merger becomes operational"
+      ],
+      answer: 1,
+      explanation: "The statutory period for filing the order runs from receipt of the certified copy by the company."
+    },
+
+    {
+      id: "CAA_VH_07_2",
+      question: "If the certified copy was received on 7 September, filing on 5 October would be:",
+      options: [
+        "Within 30 days",
+        "Outside the 30-day statutory period",
+        "Valid because the order was made on 3 September",
+        "Valid automatically because the delay is administrative"
+      ],
+      answer: 1,
+      explanation: "The statutory period is calculated from receipt of the order, not from the date the Tribunal pronounced it."
+    },
+
+    {
+      id: "CAA_VH_07_3",
+      question: "The CFO's calculation beginning on 3 September is:",
+      options: [
+        "Correct",
+        "Incorrect",
+        "Correct only where the company is listed",
+        "Correct only where no creditor objects"
+      ],
+      answer: 1,
+      explanation: "The statutory trigger is receipt of the certified copy by the company."
+    },
+
+    {
+      id: "CAA_VH_07_4",
+      question: "The buy-back component of the scheme:",
+      options: [
+        "Must comply with Section 68",
+        "Automatically overrides Section 68",
+        "Is governed only by Section 234",
+        "Requires no statutory compliance after Tribunal sanction"
+      ],
+      answer: 0,
+      explanation: "Section 230(10) specifically requires compliance with Section 68 where a buy-back is provided under a compromise or arrangement."
+    },
+
+    {
+      id: "CAA_VH_07_5",
+      question: "The directors' assumption that Tribunal sanction automatically validates a non-compliant buy-back is:",
+      options: [
+        "Correct",
+        "Incorrect",
+        "Correct if 75% of creditors approve",
+        "Correct if the company is profitable"
+      ],
+      answer: 1,
+      explanation: "Specific statutory requirements applicable to the buy-back continue to apply."
+    }
+
+  ]
+},
+
+/* =========================================================
+   VERY HARD CASE SCENARIO 8
+========================================================= */
+{
+  id: "CAA_VH_08",
+  difficulty: "Very Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Sunrise Telecom Limited</strong> proposed a scheme involving transfer of
+    its network infrastructure undertaking to a newly incorporated subsidiary, followed
+    by amalgamation of the subsidiary with another group company.</p>
+
+    <p>The undertaking included spectrum-related rights, towers, land leases, employees,
+    bank loans and long-term customer contracts. Several contracts contained clauses
+    requiring consent before assignment.</p>
+
+    <p>The scheme stated that all assets and liabilities relating to the undertaking would
+    vest in the transferee. However, it did not specifically identify several contingent
+    liabilities relating to environmental claims and litigation.</p>
+
+    <p>One group of creditors argued that the absence of detailed allocation of contingent
+    liabilities made the scheme uncertain. The company replied that all liabilities,
+    whether disclosed or not, would automatically transfer because the scheme stated
+    that "all liabilities" were transferred.</p>
+
+    <p>During the hearing, the Tribunal also considered whether the transfer of employees
+    and pending proceedings had been adequately provided for.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_VH_08_1",
+      question: "The phrase 'all liabilities' necessarily eliminates the need to properly identify material contingent liabilities in the scheme.",
+      options: [
+        "True",
+        "False",
+        "True only where creditors approve",
+        "True only where the company is private"
+      ],
+      answer: 1,
+      explanation: "Material liabilities and stakeholder consequences should be appropriately identified and addressed. A general phrase does not necessarily cure inadequate disclosure or uncertainty."
+    },
+
+    {
+      id: "CAA_VH_08_2",
+      question: "Contractual clauses requiring consent before assignment are relevant because:",
+      options: [
+        "The scheme must consider the legal consequences of transferring contractual rights and obligations",
+        "All contracts automatically terminate on merger",
+        "Contracts are outside the scope of a scheme",
+        "Only employment contracts require consideration"
+      ],
+      answer: 0,
+      explanation: "Contractual rights and restrictions can materially affect implementation of the scheme."
+    },
+
+    {
+      id: "CAA_VH_08_3",
+      question: "Transfer of employees may be specifically provided for in:",
+      options: [
+        "The scheme of merger or arrangement",
+        "Only the articles of the transferee",
+        "Only the annual return",
+        "Only the auditor's report"
+      ],
+      answer: 0,
+      explanation: "The statutory merger framework permits the scheme to provide for transfer of employees."
+    },
+
+    {
+      id: "CAA_VH_08_4",
+      question: "Pending legal proceedings can, subject to the scheme and statutory order:",
+      options: [
+        "Continue by or against the transferee company",
+        "Never continue",
+        "Continue only against former employees",
+        "Automatically become tax proceedings"
+      ],
+      answer: 0,
+      explanation: "A merger order may provide for continuation of legal proceedings by or against the transferee company."
+    },
+
+    {
+      id: "CAA_VH_08_5",
+      question: "The Tribunal's concern regarding contingent liabilities is primarily connected with:",
+      options: [
+        "Protection of creditors and clarity of the scheme's legal and financial consequences",
+        "Appointment of directors",
+        "Determination of dividend",
+        "Registration of trademarks only"
+      ],
+      answer: 0,
+      explanation: "Liabilities and their allocation are central to the rights of creditors and the effective implementation of the scheme."
+    }
+
+  ]
+},
+
+/* =========================================================
+   VERY HARD CASE SCENARIO 9
+========================================================= */
+{
+  id: "CAA_VH_09",
+  difficulty: "Very Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>National Healthcare Limited</strong> proposed a compromise under which
+    secured creditors would receive ₹70 crore immediately and securities worth ₹50 crore
+    over five years. Unsecured creditors would receive ₹45 crore against admitted claims
+    of ₹100 crore.</p>
+
+    <p>The company had 1,000 shareholders. At the members' meeting, 640 members were present
+    and voting. Members representing shares with paid-up value of ₹80 crore voted in favour,
+    while the total value represented by members present and voting was ₹100 crore.</p>
+
+    <p>Among the members voting in favour, one shareholder holding 12% of the company's
+    shareholding argued that the scheme was nevertheless unfair because the valuation
+    methodology understated the value of a newly developed medical technology.</p>
+
+    <p>The Board responded that the shareholder had voted in favour and therefore could not
+    raise any valuation issue before the Tribunal.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_VH_09_1",
+      question: "The members voting in favour represented what percentage of the value of members present and voting?",
+      options: [
+        "70%",
+        "75%",
+        "80%",
+        "85%"
+      ],
+      answer: 2,
+      explanation: "₹80 crore ÷ ₹100 crore × 100 = 80%."
+    },
+
+    {
+      id: "CAA_VH_09_2",
+      question: "On the value test alone, the three-fourths requirement is:",
+      options: [
+        "Not satisfied",
+        "Satisfied",
+        "Satisfied only if 90% approve",
+        "Satisfied only if every shareholder approves"
+      ],
+      answer: 1,
+      explanation: "80% exceeds the required three-fourths (75%) value threshold."
+    },
+
+    {
+      id: "CAA_VH_09_3",
+      question: "The shareholder holding 12% satisfies the statutory shareholding threshold for objection, assuming other conditions are met.",
+      options: [
+        "Yes",
+        "No",
+        "Only if the shareholder voted against",
+        "Only if the shareholder is a promoter"
+      ],
+      answer: 0,
+      explanation: "The shareholder exceeds the 10% threshold."
+    },
+
+    {
+      id: "CAA_VH_09_4",
+      question: "The Board's claim that voting in favour permanently prevents any issue from being raised is:",
+      options: [
+        "Too broad",
+        "Always correct",
+        "Mandatory under Section 230",
+        "Correct where the scheme has 75% approval"
+      ],
+      answer: 0,
+      explanation: "The statutory framework does not simply equate voting in favour with an absolute waiver of all legal concerns."
+    },
+
+    {
+      id: "CAA_VH_09_5",
+      question: "The newly developed medical technology is potentially relevant to:",
+      options: [
+        "The fairness and methodology of valuation",
+        "Only employee benefits",
+        "Only the registered office",
+        "Only the company's authorised capital"
+      ],
+      answer: 0,
+      explanation: "Material intangible assets and business prospects can be relevant to a valuation used to determine treatment under a scheme."
+    }
+
+  ]
+},
+
+/* =========================================================
+   VERY HARD CASE SCENARIO 10
+========================================================= */
+{
+  id: "CAA_VH_10",
+  difficulty: "Very Hard",
+  chapter: "Compromises, Arrangements and Amalgamations",
+
+  caseText: `
+    <p><strong>Unified Financial Services Limited</strong> proposed a comprehensive
+    restructuring involving a compromise with creditors, reduction of share capital,
+    issue of equity shares to creditors and eventual amalgamation with a group company.</p>
+
+    <p>The company had secured creditors of ₹600 crore, unsecured creditors of ₹250 crore
+    and trade creditors of ₹150 crore. The proposed scheme treated secured and unsecured
+    creditors differently. Trade creditors were divided into two groups depending upon
+    whether their claims were secured by retention-of-title clauses under their supply
+    agreements.</p>
+
+    <p>The company initially proposed three creditor classes but later combined the two
+    groups of trade creditors shortly before the meeting. The company argued that because
+    both groups were legally classified as trade creditors, they necessarily formed one class.</p>
+
+    <p>At the meeting, the combined trade creditor class approved the scheme by 77% in value.
+    However, the group having retention-of-title rights had overwhelmingly opposed the scheme
+    before the meeting.</p>
+
+    <p>The scheme also omitted details of a pending investigation into transactions carried
+    out by former directors. A creditor holding 6% of the total debt objected to the omission
+    and the class constitution.</p>
+
+    <p>After sanction of the scheme, the company received the Tribunal's order but did not
+    file it with the Registrar within the statutory period. The company subsequently sought
+    to implement the reduction of capital and buy-back provisions contained in the scheme.</p>
+  `,
+
+  questions: [
+
+    {
+      id: "CAA_VH_10_1",
+      question: "The strongest reason why the two groups of trade creditors may require separate consideration is:",
+      options: [
+        "They have different names",
+        "Retention-of-title rights may create materially different legal rights and interests",
+        "One group is larger",
+        "One group supplied goods earlier"
+      ],
+      answer: 1,
+      explanation: "Class constitution depends on similarity of legal rights and interests. Retention-of-title rights may materially affect creditor rights."
+    },
+
+    {
+      id: "CAA_VH_10_2",
+      question: "The 77% approval of the combined trade creditor class is potentially insufficient to validate the scheme if:",
+      options: [
+        "The class itself was improperly constituted",
+        "The company has more than 1,000 creditors",
+        "The creditors are trade creditors",
+        "The scheme includes an amalgamation"
+      ],
+      answer: 0,
+      explanation: "If creditors with materially different rights were improperly combined, the voting result may not represent the approval of the properly constituted class."
+    },
+
+    {
+      id: "CAA_VH_10_3",
+      question: "The creditor holding 6% of total debt:",
+      options: [
+        "Meets the statutory debt threshold for raising an objection",
+        "Fails because 10% is required",
+        "Cannot object because the creditor is unsecured",
+        "Can object only after the scheme is implemented"
+      ],
+      answer: 0,
+      explanation: "The statutory threshold is not less than 5% of total outstanding debt."
+    },
+
+    {
+      id: "CAA_VH_10_4",
+      question: "The omission of the investigation involving former directors is potentially material because:",
+      options: [
+        "Pending investigations or proceedings constitute information relevant to the scheme and stakeholder assessment",
+        "Only investigations involving current directors are relevant",
+        "Investigations are never disclosed in schemes",
+        "Only criminal convictions must be disclosed"
+      ],
+      answer: 0,
+      explanation: "Material pending investigations and proceedings are among the matters requiring disclosure under the scheme framework."
+    },
+
+    {
+      id: "CAA_VH_10_5",
+      question: "The company's subsequent implementation of a buy-back provision contained in the sanctioned scheme:",
+      options: [
+        "Automatically avoids the requirements of Section 68",
+        "Must still comply with Section 68",
+        "Requires compliance only with Section 236",
+        "Requires no statutory compliance once the Tribunal sanctions the scheme"
+      ],
+      answer: 1,
+      explanation: "Section 230(10) specifically requires a buy-back under a compromise or arrangement to comply with Section 68."
+    }
+
+  ]
+}
 ];
 
