@@ -7,36 +7,15 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_001",
     difficulty: "Easy",
     caseText: `
-      <p>Sunrise Engineering Limited is a newly incorporated public company.
-      Its Articles of Association do not contain any provision regarding the
-      appointment of its first directors. The Memorandum of Association has
-      been subscribed to by six individuals and one private limited company.
-      The company proposes to constitute its Board and commence business
-      operations.</p>
-
-      <p>During the initial compliance review, the Company Secretary explains
-      that the Companies Act, 2013 prescribes a minimum number of directors
-      for different types of companies and also specifies the maximum number
-      of directors. The Board is considering appointing 16 directors immediately
-      because the promoters believe that a larger Board would provide better
-      representation.</p>
-
-      <p>The Company Secretary also points out that a person cannot be appointed
-      as a director unless the applicable Director Identification Number
-      requirements are satisfied. Further, a person appointed as a director
-      cannot act in that capacity unless the required written consent has been
-      furnished.</p>
+      <p>Sunrise Engineering Limited is a newly incorporated public company. Its Articles of Association do not contain any provision regarding the appointment of its first directors. The Memorandum of Association has been subscribed to by six individuals and one private limited company. The company proposes to constitute its Board and commence business operations.</p>
+      <p>During the initial compliance review, the Company Secretary explains that the Companies Act, 2013 prescribes a minimum number of directors for different types of companies and also specifies the maximum number of directors. The Board is considering appointing 16 directors immediately because the promoters believe that a larger Board would provide better representation.</p>
+      <p>The Company Secretary also points out that a person cannot be appointed as a director unless the applicable Director Identification Number requirements are satisfied. Further, a person appointed as a director cannot act in that capacity unless the required written consent has been furnished.</p>
     `,
     questions: [
       {
         question_id: "seta_AI_cs_001_1",
         question: "Since the Articles of Sunrise Engineering Limited are silent regarding the first directors, who among the subscribers to the Memorandum can be deemed to be the first directors?",
-        options: [
-          "All subscribers including the private limited company",
-          "Only the individual subscribers",
-          "Only the private limited company",
-          "The Chartered Accountant who signed the Memorandum",
-        ],
+        options: ["All subscribers including the private limited company", "Only the individual subscribers", "Only the private limited company", "The Chartered Accountant who signed the Memorandum"],
         answer: 2,
         reason: "Where no provision is made in the Articles for appointment of first directors, the individual subscribers to the Memorandum are deemed to be the first directors. A body corporate cannot become a director."
       },
@@ -57,12 +36,7 @@ const AICaseStudies = [
       {
         question_id: "seta_AI_cs_001_4",
         question: "If Sunrise Engineering Limited wishes to appoint 16 directors, which of the following is required under Section 149(1)?",
-        options: [
-          "Only approval of the Board of Directors",
-          "Only approval of the Registrar",
-          "Passing of a special resolution",
-          "Approval of the Central Government in every case",
-        ],
+        options: ["Only approval of the Board of Directors", "Only approval of the Registrar", "Passing of a special resolution", "Approval of the Central Government in every case"],
         answer: 3,
         reason: "A company can appoint more than 15 directors after passing a special resolution."
       },
@@ -87,23 +61,9 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_002",
     difficulty: "Medium",
     caseText: `
-      <p>Alpha Manufacturing Limited is a public company having 12 directors.
-      Out of these, 2 are independent directors and 1 is a nominee director
-      appointed pursuant to an agreement with a financial institution. The
-      remaining directors are ordinary directors who are subject to retirement
-      by rotation.</p>
-
-      <p>The company is preparing for its forthcoming Annual General Meeting.
-      The Company Secretary is required to determine the number of directors
-      liable to retire by rotation and the number of directors who must actually
-      retire at the AGM.</p>
-
-      <p>Two of the directors liable to retire by rotation were appointed on
-      different dates. One of them has held office continuously since an earlier
-      appointment, whereas the other was appointed more recently. The Board
-      also wants to know whether the independent directors and nominee director
-      should be included while calculating the total number of directors for
-      this purpose.</p>
+      <p>Alpha Manufacturing Limited is a public company having 12 directors. Out of these, 2 are independent directors and 1 is a nominee director appointed pursuant to an agreement with a financial institution. The remaining directors are ordinary directors who are subject to retirement by rotation.</p>
+      <p>The company is preparing for its forthcoming Annual General Meeting. The Company Secretary is required to determine the number of directors liable to retire by rotation and the number of directors who must actually retire at the AGM.</p>
+      <p>Two of the directors liable to retire by rotation were appointed on different dates. One of them has held office continuously since an earlier appointment, whereas the other was appointed more recently. The Board also wants to know whether the independent directors and nominee director should be included while calculating the total number of directors for this purpose.</p>
     `,
     questions: [
       {
@@ -137,12 +97,7 @@ const AICaseStudies = [
       {
         question_id: "seta_AI_cs_002_5",
         question: "Assuming no two directors were appointed on the same day, which directors should ordinarily be selected for retirement at the AGM?",
-        options: [
-          "Those most recently appointed",
-          "Those selected by the Board",
-          "Those who have been longest in office since their last appointment",
-          "The independent directors",
-        ],
+        options: ["Those most recently appointed", "Those selected by the Board", "Those who have been longest in office since their last appointment", "The independent directors"],
         answer: 3,
         reason: "Among directors liable to retire by rotation, those who have been longest in office since their last appointment retire first. Independent directors are not liable to retire by rotation."
       }
@@ -155,22 +110,9 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_003",
     difficulty: "Medium",
     caseText: `
-      <p>Vertex Technologies Limited has authorised its Board under its
-      Articles of Association to appoint additional directors. During the
-      financial year, the Board decides that an additional director is
-      urgently required because of expansion of the company's operations.
-      It proposes the appointment of Mr. Arjun, who possesses the required
-      DIN and has not previously been rejected by the shareholders.</p>
-
-      <p>Separately, one of the company's directors, Mr. Ravi, leaves India
-      for a business assignment expected to last four months. The Articles
-      of the company authorise the Board to appoint alternate directors.
-      Mr. Ravi suggests that his personal nominee should automatically
-      become his alternate director.</p>
-
-      <p>At the same time, a director who had originally been appointed by
-      the company in general meeting dies before completion of his term.
-      The Board is considering filling the resulting vacancy.</p>
+      <p>Vertex Technologies Limited has authorised its Board under its Articles of Association to appoint additional directors. During the financial year, the Board decides that an additional director is urgently required because of expansion of the company's operations. It proposes the appointment of Mr. Arjun, who possesses the required DIN and has not previously been rejected by the shareholders.</p>
+      <p>Separately, one of the company's directors, Mr. Ravi, leaves India for a business assignment expected to last four months. The Articles of the company authorise the Board to appoint alternate directors. Mr. Ravi suggests that his personal nominee should automatically become his alternate director.</p>
+      <p>At the same time, a director who had originally been appointed by the company in general meeting dies before completion of his term. The Board is considering filling the resulting vacancy.</p>
     `,
     questions: [
       {
@@ -183,12 +125,7 @@ const AICaseStudies = [
       {
         question_id: "seta_AI_cs_003_2",
         question: "Up to what point can Mr. Arjun ordinarily continue as an additional director?",
-        options: [
-          "For five years",
-          "Until he resigns",
-          "Until the next AGM or the last date on which the AGM should have been held, whichever is earlier",
-          "Until the next Board meeting",
-        ],
+        options: ["For five years", "Until he resigns", "Until the next AGM or the last date on which the AGM should have been held, whichever is earlier", "Until the next Board meeting"],
         answer: 3,
         reason: "An additional director holds office up to the date of the next AGM or the last date on which the AGM should have been held, whichever is earlier."
       },
@@ -237,28 +174,10 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_004",
     difficulty: "Hard",
     caseText: `
-      <p>Orion Infrastructure Limited is an unlisted public company. As on
-      the last date of its latest audited financial statements, its paid-up
-      share capital is ₹18 crore and its turnover is ₹140 crore. It has
-      13 directors on its Board.</p>
-
-      <p>The company is reviewing its independent director requirements.
-      One of the proposed candidates, Mr. Sameer, has significant professional
-      experience but is also being examined against the statutory independence
-      conditions. His relative has outstanding indebtedness to the company
-      of ₹48 lakh. Mr. Sameer himself has never been an employee of the
-      company or its holding, subsidiary or associate company during the
-      relevant period.</p>
-
-      <p>The company is also considering the appointment of another candidate,
-      Ms. Kavya. She was employed by the company's subsidiary two financial
-      years immediately preceding the financial year in which her appointment
-      is proposed. The Board believes that her extensive industry experience
-      should override any technical restriction.</p>
-
-      <p>The Company Secretary must determine both the number of independent
-      directors required and whether the proposed candidates satisfy the
-      relevant independence conditions.</p>
+      <p>Orion Infrastructure Limited is an unlisted public company. As on the last date of its latest audited financial statements, its paid-up share capital is ₹18 crore and its turnover is ₹140 crore. It has 13 directors on its Board.</p>
+      <p>The company is reviewing its independent director requirements. One of the proposed candidates, Mr. Sameer, has significant professional experience but is also being examined against the statutory independence conditions. His relative has outstanding indebtedness to the company of ₹48 lakh. Mr. Sameer himself has never been an employee of the company or its holding, subsidiary or associate company during the relevant period.</p>
+      <p>The company is also considering the appointment of another candidate, Ms. Kavya. She was employed by the company's subsidiary two financial years immediately preceding the financial year in which her appointment is proposed. The Board believes that her extensive industry experience should override any technical restriction.</p>
+      <p>The Company Secretary must determine both the number of independent directors required and whether the proposed candidates satisfy the relevant independence conditions.</p>
     `,
     questions: [
       {
@@ -315,30 +234,10 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_005",
     difficulty: "Hard",
     caseText: `
-      <p>Delta Consumer Products Limited has been facing several compliance
-      issues relating to its directors. Mr. Vikram is a director of Delta
-      Consumer Products Limited and another company, Nova Retail Limited.
-      Delta has failed to file its financial statements for three continuous
-      financial years. In addition, Delta failed to repay certain deposits
-      and the related interest, and the default has continued for more than
-      one year.</p>
-
-      <p>Mr. Vikram is due to retire by rotation from Nova Retail Limited.
-      The company is considering reappointing him. At the same time, another
-      company, Zenith Industries Limited, proposes to appoint Mr. Vikram as
-      an additional director.</p>
-
-      <p>Mr. Vikram also holds directorships in several other companies.
-      His existing positions include 10 public companies, 9 ordinary private
-      companies, one dormant company and one Section 8 company. One of the
-      private companies subsequently becomes a subsidiary of a public company.</p>
-
-      <p>The Board of Zenith Industries Limited argues that because some of
-      the defaults occurred in Delta, the resulting disqualification should
-      not affect Mr. Vikram's appointment in another company. The Company
-      Secretary has been asked to determine the legality of the proposed
-      appointments and the effect of the changing nature of his existing
-      directorships.</p>
+      <p>Delta Consumer Products Limited has been facing several compliance issues relating to its directors. Mr. Vikram is a director of Delta Consumer Products Limited and another company, Nova Retail Limited. Delta has failed to file its financial statements for three continuous financial years. In addition, Delta failed to repay certain deposits and the related interest, and the default has continued for more than one year.</p>
+      <p>Mr. Vikram is due to retire by rotation from Nova Retail Limited. The company is considering reappointing him. At the same time, another company, Zenith Industries Limited, proposes to appoint Mr. Vikram as an additional director.</p>
+      <p>Mr. Vikram also holds directorships in several other companies. His existing positions include 10 public companies, 9 ordinary private companies, one dormant company and one Section 8 company. One of the private companies subsequently becomes a subsidiary of a public company.</p>
+      <p>The Board of Zenith Industries Limited argues that because some of the defaults occurred in Delta, the resulting disqualification should not affect Mr. Vikram's appointment in another company. The Company Secretary has been asked to determine the legality of the proposed appointments and the effect of the changing nature of his existing directorships.</p>
     `,
     questions: [
       {
@@ -406,24 +305,10 @@ const AICaseStudies = [
     case_id: "dir_mcq_cs1",
     case_chapter: ["Appointment of Directors", "Section 152", "DIN"],
     caseText: `
-      <p>Zenith Innovations Private Limited was incorporated by three individual
-      subscribers, namely Mr. Arjun, Mr. Bharat and Mr. Chetan. The Articles of
-      Association of the company did not contain any provision regarding the
-      appointment of first directors.</p>
-
-      <p>At the time of incorporation, the subscribers assumed that the Board would
-      subsequently appoint the first directors. Mr. Arjun was allotted a DIN before
-      incorporation, whereas Mr. Bharat and Mr. Chetan did not possess DINs.</p>
-
-      <p>After incorporation, the promoters decided that Mr. Arjun and Mr. Bharat
-      would continue as directors. Mr. Bharat argued that since he was already
-      deemed to be a first director, he could continue without obtaining a DIN or
-      giving written consent.</p>
-
-      <p>The company also appointed Ms. Kavya as another director at a general
-      meeting. She furnished her DIN and declaration that she was not disqualified,
-      but she submitted her written consent in Form DIR-2 two days after the general
-      meeting.</p>
+      <p>Zenith Innovations Private Limited was incorporated by three individual subscribers, namely Mr. Arjun, Mr. Bharat and Mr. Chetan. The Articles of Association of the company did not contain any provision regarding the appointment of first directors.</p>
+      <p>At the time of incorporation, the subscribers assumed that the Board would subsequently appoint the first directors. Mr. Arjun was allotted a DIN before incorporation, whereas Mr. Bharat and Mr. Chetan did not possess DINs.</p>
+      <p>After incorporation, the promoters decided that Mr. Arjun and Mr. Bharat would continue as directors. Mr. Bharat argued that since he was already deemed to be a first director, he could continue without obtaining a DIN or giving written consent.</p>
+      <p>The company also appointed Ms. Kavya as another director at a general meeting. She furnished her DIN and declaration that she was not disqualified, but she submitted her written consent in Form DIR-2 two days after the general meeting.</p>
     `,
     questions: [
       {
@@ -514,20 +399,10 @@ const AICaseStudies = [
     case_id: "dir_mcq_cs2",
     case_chapter: ["Appointment of Directors", "Section 152", "Retirement by Rotation"],
     caseText: `
-      <p>Orion Manufacturing Limited is a public company having 12 directors.
-      Out of these, 2 are independent directors and 1 is a nominee director
-      appointed pursuant to an agreement with a financial institution.</p>
-
-      <p>The Articles of the company do not provide that all directors shall retire
-      at every AGM. The remaining directors have been appointed by the shareholders
-      at different general meetings.</p>
-
-      <p>The Company Secretary informed the Board that independent directors and
-      nominee directors should not be included while determining the total number
-      of directors for the purpose of retirement by rotation.</p>
-
-      <p>Among the rotational directors, some directors were appointed on different
-      dates, while two directors were appointed on the same date.</p>
+      <p>Orion Manufacturing Limited is a public company having 12 directors. Out of these, 2 are independent directors and 1 is a nominee director appointed pursuant to an agreement with a financial institution.</p>
+      <p>The Articles of the company do not provide that all directors shall retire at every AGM. The remaining directors have been appointed by the shareholders at different general meetings.</p>
+      <p>The Company Secretary informed the Board that independent directors and nominee directors should not be included while determining the total number of directors for the purpose of retirement by rotation.</p>
+      <p>Among the rotational directors, some directors were appointed on different dates, while two directors were appointed on the same date.</p>
     `,
     questions: [
       {
@@ -601,31 +476,16 @@ const AICaseStudies = [
     case_id: "dir_mcq_cs3",
     case_chapter: ["Section 152", "Retirement of Directors", "Deemed Re-appointment"],
     caseText: `
-      <p>Nova Textiles Limited held its AGM at which Mr. Rohan, a director liable
-      to retire by rotation, retired from office. The company did not fill the vacancy
-      and the meeting did not expressly resolve that the vacancy should remain
-      unfilled.</p>
-
-      <p>The meeting was therefore adjourned to the same day in the following week.
-      At the adjourned meeting also, no person was appointed in place of Mr. Rohan
-      and the members did not pass any resolution stating that the vacancy should
-      not be filled.</p>
-
-      <p>However, during the original AGM, a resolution for the re-appointment of
-      Mr. Rohan had been put to vote and was defeated. Mr. Rohan had also not
-      expressed any unwillingness to continue.</p>
+      <p>Nova Textiles Limited held its AGM at which Mr. Rohan, a director liable to retire by rotation, retired from office. The company did not fill the vacancy and the meeting did not expressly resolve that the vacancy should remain unfilled.</p>
+      <p>The meeting was therefore adjourned to the same day in the following week. At the adjourned meeting also, no person was appointed in place of Mr. Rohan and the members did not pass any resolution stating that the vacancy should not be filled.</p>
+      <p>However, during the original AGM, a resolution for the re-appointment of Mr. Rohan had been put to vote and was defeated. Mr. Rohan had also not expressed any unwillingness to continue.</p>
     `,
     questions: [
       {
         question_id: "dir_mcq_cs3_1",
         chapter_name: ["Section 152"],
         question: "Since the vacancy was not filled and the meeting did not expressly resolve not to fill it, what happens to the meeting?",
-        options: [
-          "It automatically stands dissolved",
-          "It stands adjourned to the same day in the next week",
-          "The Board takes over the meeting",
-          "The Registrar appoints a director",
-        ],
+        options: ["It automatically stands dissolved", "It stands adjourned to the same day in the next week", "The Board takes over the meeting", "The Registrar appoints a director"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: It stands adjourned to the same day in the next week.</strong></p>
@@ -710,19 +570,9 @@ const AICaseStudies = [
     case_id: "dir_mcq_cs4",
     case_chapter: ["DIN", "Sections 153 to 159"],
     caseText: `
-      <p>Mr. Sameer intends to become a director in an existing company. He does
-      not possess a DIN and therefore submits Form DIR-3 electronically along with
-      the prescribed fee and required documents.</p>
-
-      <p>The application is processed and the system generates an application
-      number. Subsequently, the Central Government identifies certain defects in
-      the application and places an intimation on the website and sends an email
-      to Mr. Sameer directing him to rectify the defects.</p>
-
-      <p>Mr. Sameer partially rectifies the defects but some information continues
-      to be incorrect. In another case, Mr. Ajay already possesses a DIN but
-      inadvertently applies for another DIN because he is being appointed as a
-      director in a second company.</p>
+      <p>Mr. Sameer intends to become a director in an existing company. He does not possess a DIN and therefore submits Form DIR-3 electronically along with the prescribed fee and required documents.</p>
+      <p>The application is processed and the system generates an application number. Subsequently, the Central Government identifies certain defects in the application and places an intimation on the website and sends an email to Mr. Sameer directing him to rectify the defects.</p>
+      <p>Mr. Sameer partially rectifies the defects but some information continues to be incorrect. In another case, Mr. Ajay already possesses a DIN but inadvertently applies for another DIN because he is being appointed as a director in a second company.</p>
     `,
     questions: [
       {
@@ -796,17 +646,9 @@ const AICaseStudies = [
     case_id: "dir_mcq_cs5",
     case_chapter: ["DIN", "Sections 156 to 159"],
     caseText: `
-      <p>Mr. Vikram is an existing director of three companies. He recently received
-      his DIN from the Central Government. He is required to intimate the DIN to
-      each company in which he is a director.</p>
-
-      <p>After some time, Mr. Vikram changes his residential address. He submits
-      the prescribed form for change in DIN particulars after the stipulated period.
-      One of the companies receives his updated DIN information but fails to furnish
-      the DIN of its directors to the Registrar within the prescribed time.</p>
-
-      <p>The company argues that since the director himself is responsible for his DIN,
-      no liability can arise against the company.</p>
+      <p>Mr. Vikram is an existing director of three companies. He recently received his DIN from the Central Government. He is required to intimate the DIN to each company in which he is a director.</p>
+      <p>After some time, Mr. Vikram changes his residential address. He submits the prescribed form for change in DIN particulars after the stipulated period. One of the companies receives his updated DIN information but fails to furnish the DIN of its directors to the Registrar within the prescribed time.</p>
+      <p>The company argues that since the director himself is responsible for his DIN, no liability can arise against the company.</p>
     `,
     questions: [
       {
@@ -861,12 +703,7 @@ const AICaseStudies = [
         question_id: "dir_mcq_cs5_5",
         chapter_name: ["Section 157"],
         question: "Which statement is correct regarding failure by the company to furnish DIN to the Registrar?",
-        options: [
-          "Only the director is liable",
-          "Only the company secretary is liable",
-          "The company and every defaulting officer may be liable to penalty",
-          "There is no penalty",
-        ],
+        options: ["Only the director is liable", "Only the company secretary is liable", "The company and every defaulting officer may be liable to penalty", "There is no penalty"],
         answer: 2,
         solution_html: `
           <p><strong>Correct Answer: The company and every defaulting officer may be liable to penalty.</strong></p>
@@ -885,19 +722,10 @@ const AICaseStudies = [
     case_id: "dir_mcq_cs6",
     case_chapter: ["Section 160", "Appointment of Directors"],
     caseText: `
-      <p>Alpha Infrastructure Limited is preparing for an Extraordinary General
-      Meeting. Mr. Nitin, who is not a retiring director, wishes to stand for
-      appointment as a director.</p>
-
-      <p>He submits a written notice of his candidature at the registered office
-      14 days before the meeting and deposits the prescribed amount of ₹1,00,000.</p>
-
-      <p>The company publishes information regarding his candidature on its website
-      and sends notices to members in the prescribed manner.</p>
-
-      <p>At the meeting, Mr. Nitin is not appointed. However, he receives 28% of the
-      total valid votes cast. Another proposed candidate receives only 18% of the
-      valid votes.</p>
+      <p>Alpha Infrastructure Limited is preparing for an Extraordinary General Meeting. Mr. Nitin, who is not a retiring director, wishes to stand for appointment as a director.</p>
+      <p>He submits a written notice of his candidature at the registered office 14 days before the meeting and deposits the prescribed amount of ₹1,00,000.</p>
+      <p>The company publishes information regarding his candidature on its website and sends notices to members in the prescribed manner.</p>
+      <p>At the meeting, Mr. Nitin is not appointed. However, he receives 28% of the total valid votes cast. Another proposed candidate receives only 18% of the valid votes.</p>
     `,
     questions: [
       {
@@ -928,12 +756,7 @@ const AICaseStudies = [
         question_id: "dir_mcq_cs6_3",
         chapter_name: ["Section 160"],
         question: "Mr. Nitin was not appointed but received 28% of the total valid votes. What happens to his deposit?",
-        options: [
-          "It is automatically forfeited",
-          "It is refunded because he obtained more than 25% of valid votes",
-          "It is transferred to the Registrar",
-          "It is retained for the next AGM",
-        ],
+        options: ["It is automatically forfeited", "It is refunded because he obtained more than 25% of valid votes", "It is transferred to the Registrar", "It is retained for the next AGM"],
         answer: 1,
         solution_html: `
           <p><strong>Correct Answer: It is refunded because he obtained more than 25% of valid votes.</strong></p>
@@ -975,21 +798,10 @@ const AICaseStudies = [
     case_id: "dir_mcq_cs7",
     case_chapter: ["Section 151", "Small Shareholders' Director"],
     caseText: `
-      <p>Beta Technologies Limited is a listed company having a large number of
-      small shareholders. The small shareholders want to exercise their right to
-      have a representative on the Board.</p>
-
-      <p>The company has 8,000 small shareholders. A group of small shareholders
-      proposes Ms. Meera as a candidate for small shareholders' director and submits
-      the required notice before the general meeting.</p>
-
-      <p>Ms. Meera provides her DIN, declaration of non-disqualification and consent
-      to act as director. She satisfies the independence requirements applicable to
-      such director.</p>
-
-      <p>After appointment, Ms. Meera wants to continue as small shareholders'
-      director beyond three consecutive years and also wishes to become a director
-      in a third company.</p>
+      <p>Beta Technologies Limited is a listed company having a large number of small shareholders. The small shareholders want to exercise their right to have a representative on the Board.</p>
+      <p>The company has 8,000 small shareholders. A group of small shareholders proposes Ms. Meera as a candidate for small shareholders' director and submits the required notice before the general meeting.</p>
+      <p>Ms. Meera provides her DIN, declaration of non-disqualification and consent to act as director. She satisfies the independence requirements applicable to such director.</p>
+      <p>After appointment, Ms. Meera wants to continue as small shareholders' director beyond three consecutive years and also wishes to become a director in a third company.</p>
     `,
     questions: [
       {
@@ -1066,19 +878,9 @@ const AICaseStudies = [
     case_id: "dir_mcq_cs8",
     case_chapter: ["Section 161", "Additional Director", "Alternate Director"],
     caseText: `
-      <p>Gamma Finance Limited has an Article authorising its Board to appoint
-      additional directors. The Board appoints Mr. Raj as an additional director.
-      Mr. Raj had earlier failed to obtain appointment as a director at a general
-      meeting of the company.</p>
-
-      <p>Separately, Mr. Suresh, a director of the company, leaves India for a period
-      of four months. The Articles authorise the Board to appoint an alternate
-      director. The Board proposes Mr. Amit, who is not a director of the company,
-      as an alternate director.</p>
-
-      <p>Mr. Suresh argues that he himself has the authority to nominate Mr. Amit
-      as his alternate because the Articles contain a provision relating to alternate
-      directors.</p>
+      <p>Gamma Finance Limited has an Article authorising its Board to appoint additional directors. The Board appoints Mr. Raj as an additional director. Mr. Raj had earlier failed to obtain appointment as a director at a general meeting of the company.</p>
+      <p>Separately, Mr. Suresh, a director of the company, leaves India for a period of four months. The Articles authorise the Board to appoint an alternate director. The Board proposes Mr. Amit, who is not a director of the company, as an alternate director.</p>
+      <p>Mr. Suresh argues that he himself has the authority to nominate Mr. Amit as his alternate because the Articles contain a provision relating to alternate directors.</p>
     `,
     questions: [
       {
@@ -1152,21 +954,10 @@ const AICaseStudies = [
     case_id: "dir_mcq_cs9",
     case_chapter: ["Section 161", "Nominee Director", "Casual Vacancy"],
     caseText: `
-      <p>Delta Engineering Limited obtained substantial financial assistance from
-      a financial institution. Under the financing agreement, the institution was
-      entitled to nominate a director on the Board of Delta Engineering Limited.</p>
-
-      <p>The financial institution nominated Mr. Karan. The Articles of the company
-      permit appointment of nominee directors by the Board in accordance with the
-      financing agreement.</p>
-
-      <p>Separately, one of the directors appointed by the shareholders in the general
-      meeting resigned before completion of his normal term. The Board decided to
-      fill the resulting vacancy at a Board meeting. The company proposed to place
-      the appointment before members at the immediate next general meeting.</p>
-
-      <p>Later, the newly appointed director also vacated office before the end of the
-      term for which the original director would have continued.</p>
+      <p>Delta Engineering Limited obtained substantial financial assistance from a financial institution. Under the financing agreement, the institution was entitled to nominate a director on the Board of Delta Engineering Limited.</p>
+      <p>The financial institution nominated Mr. Karan. The Articles of the company permit appointment of nominee directors by the Board in accordance with the financing agreement.</p>
+      <p>Separately, one of the directors appointed by the shareholders in the general meeting resigned before completion of his normal term. The Board decided to fill the resulting vacancy at a Board meeting. The company proposed to place the appointment before members at the immediate next general meeting.</p>
+      <p>Later, the newly appointed director also vacated office before the end of the term for which the original director would have continued.</p>
     `,
     questions: [
       {
@@ -1251,19 +1042,9 @@ const AICaseStudies = [
     case_id: "dir_mcq_cs10",
     case_chapter: ["Section 162", "Appointment of Directors"],
     caseText: `
-      <p>Omega Retail Limited convened a general meeting for appointment of three
-      directors, namely Mr. A, Mr. B and Mr. C. The Chairman proposed a single
-      resolution for appointment of all three persons.</p>
-
-      <p>Before moving the final resolution, a separate proposal was placed before
-      the meeting asking whether the members agreed to appoint the three persons
-      through a single resolution. Twenty members voted in favour of this proposal,
-      while five members abstained and none voted against it.</p>
-
-      <p>The Chairman then proceeded with the single resolution appointing Mr. A,
-      Mr. B and Mr. C. In a separate situation, another company attempted to appoint
-      two directors through a single resolution without first obtaining approval of
-      the members for such procedure.</p>
+      <p>Omega Retail Limited convened a general meeting for appointment of three directors, namely Mr. A, Mr. B and Mr. C. The Chairman proposed a single resolution for appointment of all three persons.</p>
+      <p>Before moving the final resolution, a separate proposal was placed before the meeting asking whether the members agreed to appoint the three persons through a single resolution. Twenty members voted in favour of this proposal, while five members abstained and none voted against it.</p>
+      <p>The Chairman then proceeded with the single resolution appointing Mr. A, Mr. B and Mr. C. In a separate situation, another company attempted to appoint two directors through a single resolution without first obtaining approval of the members for such procedure.</p>
     `,
     questions: [
       {
@@ -1356,29 +1137,10 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_001",
     difficulty: "Easy",
     caseText: `
-      <p><strong>Zenith Engineering Limited</strong> is a public company having
-      12 directors on its Board. The shareholders of the company are divided into
-      two broad groups. A group holding approximately 60% of the voting rights
-      regularly succeeds in appointing most of the directors through the ordinary
-      voting mechanism. The remaining shareholders, despite holding about 40% of
-      the voting rights, have repeatedly failed to get even one of their nominees
-      appointed to the Board.</p>
-
-      <p>To provide a fair opportunity to the minority shareholders, the company
-      proposes to amend its Articles of Association. The proposed Articles contain
-      a provision that directors may be appointed according to the principle of
-      proportional representation. The company proposes to use the system of
-      single transferable vote for such appointments.</p>
-
-      <p>The Articles further provide that at least two-thirds of the total number
-      of directors shall be appointed according to the principle of proportional
-      representation. The company also proposes that such appointments may be
-      made once every three years.</p>
-
-      <p>During the same period, one director appointed under the proportional
-      representation system vacates office before completion of his term. The
-      Articles of the company do not contain any special procedure for filling
-      such casual vacancy.</p>
+      <p><strong>Zenith Engineering Limited</strong> is a public company having 12 directors on its Board. The shareholders of the company are divided into two broad groups. A group holding approximately 60% of the voting rights regularly succeeds in appointing most of the directors through the ordinary voting mechanism. The remaining shareholders, despite holding about 40% of the voting rights, have repeatedly failed to get even one of their nominees appointed to the Board.</p>
+      <p>To provide a fair opportunity to the minority shareholders, the company proposes to amend its Articles of Association. The proposed Articles contain a provision that directors may be appointed according to the principle of proportional representation. The company proposes to use the system of single transferable vote for such appointments.</p>
+      <p>The Articles further provide that at least two-thirds of the total number of directors shall be appointed according to the principle of proportional representation. The company also proposes that such appointments may be made once every three years.</p>
+      <p>During the same period, one director appointed under the proportional representation system vacates office before completion of his term. The Articles of the company do not contain any special procedure for filling such casual vacancy.</p>
     `,
     questions: [
       {
@@ -1441,26 +1203,10 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_002",
     difficulty: "Medium",
     caseText: `
-      <p><strong>Prime Consumer Products Limited</strong> has been facing several
-      compliance difficulties. Mr. Rahul, one of its proposed directors, has been
-      declared to be of unsound mind by a competent court. He has nevertheless
-      expressed his intention to become a director of the company.</p>
-
-      <p>Another proposed candidate, Mr. Sameer, has been convicted by a court for
-      an offence and sentenced to imprisonment for eight months. He completed his
-      sentence only three years ago. A third candidate, Mr. Vikram, has applied to
-      be adjudicated as an insolvent and his application is still pending before
-      the competent authority.</p>
-
-      <p>Separately, Prime Consumer Products Limited has failed to file its financial
-      statements and annual returns continuously for three financial years. One of
-      its directors, Mr. Arjun, was a director during the period of default and now
-      wants to accept a directorship in another company.</p>
-
-      <p>The company has also failed to repay certain deposits accepted from the
-      public and the interest payable thereon. The default has continued for more
-      than one year. The Board is considering appointing a person as director
-      despite the company's continuing defaults.</p>
+      <p><strong>Prime Consumer Products Limited</strong> has been facing several compliance difficulties. Mr. Rahul, one of its proposed directors, has been declared to be of unsound mind by a competent court. He has nevertheless expressed his intention to become a director of the company.</p>
+      <p>Another proposed candidate, Mr. Sameer, has been convicted by a court for an offence and sentenced to imprisonment for eight months. He completed his sentence only three years ago. A third candidate, Mr. Vikram, has applied to be adjudicated as an insolvent and his application is still pending before the competent authority.</p>
+      <p>Separately, Prime Consumer Products Limited has failed to file its financial statements and annual returns continuously for three financial years. One of its directors, Mr. Arjun, was a director during the period of default and now wants to accept a directorship in another company.</p>
+      <p>The company has also failed to repay certain deposits accepted from the public and the interest payable thereon. The default has continued for more than one year. The Board is considering appointing a person as director despite the company's continuing defaults.</p>
     `,
     questions: [
       {
@@ -1502,12 +1248,7 @@ const AICaseStudies = [
       {
         question_id: "seta_AI_cs_2_24",
         question: "What disqualification may arise for Mr. Arjun because Prime Consumer Products Limited has not filed its financial statements or annual returns for a continuous period of three financial years?",
-        options: [
-          "He may be disqualified for five years",
-          "He is permanently disqualified",
-          "He is disqualified only for one year",
-          "He is disqualified only from being an independent director",
-        ],
+        options: ["He may be disqualified for five years", "He is permanently disqualified", "He is disqualified only for one year", "He is disqualified only from being an independent director"],
         answer: 0,
         reason: "Under Section 164(2), where a company has not filed financial statements or annual returns for any continuous period of three financial years, the concerned director is disqualified for a period of five years."
       },
@@ -1533,27 +1274,11 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_003",
     difficulty: "Medium",
     caseText: `
-      <p><strong>Mr. Karan</strong> is a professional director who sits on the
-      Boards of several companies. As on the current date, he is a director in
-      18 companies, including 8 public companies. He is now approached by three
-      additional companies for appointment as a director.</p>
-
-      <p>Two of the companies are public companies and one is a private company.
-      One of the private companies is a subsidiary of a public company. Mr. Karan
-      also serves as a director of a dormant company and a Section 8 company.</p>
-
-      <p>While considering the appointments, Mr. Karan argues that the 20-company
-      ceiling does not apply to his directorship in a dormant company and that his
-      directorship in the Section 8 company should also be ignored, provided the
-      conditions applicable to the exemption are satisfied.</p>
-
-      <p>The shareholders of one of the companies in which Mr. Karan is already a
-      director have also passed a special resolution restricting directors of that
-      company from holding directorship in more than a specified lower number of
-      companies.</p>
-
-      <p>The Board is concerned about the consequences if Mr. Karan accepts
-      appointments beyond the statutory limits.</p>
+      <p><strong>Mr. Karan</strong> is a professional director who sits on the Boards of several companies. As on the current date, he is a director in 18 companies, including 8 public companies. He is now approached by three additional companies for appointment as a director.</p>
+      <p>Two of the companies are public companies and one is a private company. One of the private companies is a subsidiary of a public company. Mr. Karan also serves as a director of a dormant company and a Section 8 company.</p>
+      <p>While considering the appointments, Mr. Karan argues that the 20-company ceiling does not apply to his directorship in a dormant company and that his directorship in the Section 8 company should also be ignored, provided the conditions applicable to the exemption are satisfied.</p>
+      <p>The shareholders of one of the companies in which Mr. Karan is already a director have also passed a special resolution restricting directors of that company from holding directorship in more than a specified lower number of companies.</p>
+      <p>The Board is concerned about the consequences if Mr. Karan accepts appointments beyond the statutory limits.</p>
     `,
     questions: [
       {
@@ -1587,12 +1312,7 @@ const AICaseStudies = [
       {
         question_id: "seta_AI_cs_3_30",
         question: "Can the members of a company prescribe a number lower than the statutory maximum number of directorships?",
-        options: [
-          "No, the statutory limit can never be reduced",
-          "Yes, by passing a special resolution",
-          "Yes, only by an ordinary resolution",
-          "Yes, only with approval of the Central Government",
-        ],
+        options: ["No, the statutory limit can never be reduced", "Yes, by passing a special resolution", "Yes, only by an ordinary resolution", "Yes, only with approval of the Central Government"],
         answer: 1,
         reason: "Under Section 165(2), members of a company may, by special resolution, specify a lesser number of companies in which a director of that company may act as director."
       }
@@ -1606,29 +1326,11 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_004",
     difficulty: "Hard",
     caseText: `
-      <p><strong>Galaxy Financial Services Limited</strong> is a listed public
-      company having 9 directors. The company is required to maintain the prescribed
-      number of independent directors. The Board proposes to appoint Ms. Neha as an
-      independent director.</p>
-
-      <p>Ms. Neha is not a promoter of the company or its holding, subsidiary or
-      associate company. She is also not related to any promoter or director of the
-      company. However, her relative holds securities in the company having a face
-      value of ₹45 lakh. The relative does not hold any other significant interest
-      in the company.</p>
-
-      <p>Ms. Neha has not been an employee or key managerial personnel of the company
-      during the prescribed preceding period. She has also not been a partner or
-      employee of the company's statutory auditor during the relevant period.</p>
-
-      <p>The Board intends to select Ms. Neha from the databank of persons willing
-      to act as independent directors. The company plans to approve her appointment
-      in the general meeting. After appointment, Ms. Neha will give her declaration
-      of independence at the first Board meeting in which she participates.</p>
-
-      <p>The Board also proposes to grant her stock options as part of her remuneration.
-      Ms. Neha objects to the proposal and states that an independent director cannot
-      receive stock options under Section 149.</p>
+      <p><strong>Galaxy Financial Services Limited</strong> is a listed public company having 9 directors. The company is required to maintain the prescribed number of independent directors. The Board proposes to appoint Ms. Neha as an independent director.</p>
+      <p>Ms. Neha is not a promoter of the company or its holding, subsidiary or associate company. She is also not related to any promoter or director of the company. However, her relative holds securities in the company having a face value of ₹45 lakh. The relative does not hold any other significant interest in the company.</p>
+      <p>Ms. Neha has not been an employee or key managerial personnel of the company during the prescribed preceding period. She has also not been a partner or employee of the company's statutory auditor during the relevant period.</p>
+      <p>The Board intends to select Ms. Neha from the databank of persons willing to act as independent directors. The company plans to approve her appointment in the general meeting. After appointment, Ms. Neha will give her declaration of independence at the first Board meeting in which she participates.</p>
+      <p>The Board also proposes to grant her stock options as part of her remuneration. Ms. Neha objects to the proposal and states that an independent director cannot receive stock options under Section 149.</p>
     `,
     questions: [
       {
@@ -1691,41 +1393,17 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_005",
     difficulty: "Hard",
     caseText: `
-      <p><strong>Nova Infrastructure Limited</strong> has been facing a number of
-      governance issues. Mr. Dev, one of its directors, identifies a profitable
-      business opportunity that falls within the objects and business activities
-      of Nova Infrastructure Limited. Instead of presenting the opportunity to the
-      company, he uses his position to undertake the transaction personally and
-      earns an undue gain.</p>
-
-      <p>Another director, Mr. Rishi, has a direct interest in a contract proposed
-      to be entered into by the company. However, he fails to disclose his interest
-      as required. He also remains absent from every Board meeting held during a
-      continuous period of twelve months.</p>
-
-      <p>Meanwhile, Ms. Tanya, another director, incurs a disqualification under
-      Section 164(2) because of the company's statutory defaults. She argues that
-      because she continues to be a director of the defaulting company, her office
-      should also automatically become vacant in every other company in which she
-      is a director.</p>
-
-      <p>In another matter, Mr. Sameer, a director of the company, is convicted by
-      a court and sentenced to imprisonment for six months. He intends to challenge
-      the conviction by filing an appeal within the prescribed period.</p>
-
-      <p>The company is also considering what should happen if all its directors
-      simultaneously vacate office due to disqualification.</p>
+      <p><strong>Nova Infrastructure Limited</strong> has been facing a number of governance issues. Mr. Dev, one of its directors, identifies a profitable business opportunity that falls within the objects and business activities of Nova Infrastructure Limited. Instead of presenting the opportunity to the company, he uses his position to undertake the transaction personally and earns an undue gain.</p>
+      <p>Another director, Mr. Rishi, has a direct interest in a contract proposed to be entered into by the company. However, he fails to disclose his interest as required. He also remains absent from every Board meeting held during a continuous period of twelve months.</p>
+      <p>Meanwhile, Ms. Tanya, another director, incurs a disqualification under Section 164(2) because of the company's statutory defaults. She argues that because she continues to be a director of the defaulting company, her office should also automatically become vacant in every other company in which she is a director.</p>
+      <p>In another matter, Mr. Sameer, a director of the company, is convicted by a court and sentenced to imprisonment for six months. He intends to challenge the conviction by filing an appeal within the prescribed period.</p>
+      <p>The company is also considering what should happen if all its directors simultaneously vacate office due to disqualification.</p>
     `,
     questions: [
       {
         question_id: "seta_AI_cs_5_36",
         question: "Which duty of a director is violated when Mr. Dev personally exploits a business opportunity falling within the company's objects for his own benefit?",
-        options: [
-          "Duty to assign his office",
-          "Duty to avoid situations involving conflict of interest and undue gain",
-          "Duty to appoint the auditor",
-          "Duty to hold general meetings",
-        ],
+        options: ["Duty to assign his office", "Duty to avoid situations involving conflict of interest and undue gain", "Duty to appoint the auditor", "Duty to hold general meetings"],
         answer: 1,
         reason: "Section 166 requires directors to avoid situations where their direct or indirect interest conflicts with the company's interest and prohibits them from achieving undue gain or advantage for themselves or their relatives, partners or associates."
       },
@@ -1744,24 +1422,14 @@ const AICaseStudies = [
       {
         question_id: "seta_AI_cs_5_38",
         question: "Mr. Rishi has remained absent from all Board meetings during a period of twelve months. What is the consequence under Section 167?",
-        options: [
-          "His office becomes vacant",
-          "He automatically becomes an independent director",
-          "He is suspended for one month only",
-          "No consequence arises if he had not taken leave",
-        ],
+        options: ["His office becomes vacant", "He automatically becomes an independent director", "He is suspended for one month only", "No consequence arises if he had not taken leave"],
         answer: 0,
         reason: "The office of a director becomes vacant if he absents himself from all meetings of the Board held during a period of twelve months, whether or not he has sought leave of absence."
       },
       {
         question_id: "seta_AI_cs_5_39",
         question: "Ms. Tanya incurs disqualification under Section 164(2). In which company does her office generally become vacant under the special rule?",
-        options: [
-          "In every company in which she is a director",
-          "Only in the company which committed the default",
-          "Only in companies having independent directors",
-          "Only in private companies",
-        ],
+        options: ["In every company in which she is a director", "Only in the company which committed the default", "Only in companies having independent directors", "Only in private companies"],
         answer: 1,
         reason: "Where a director incurs disqualification under Section 164(2), the office becomes vacant in all companies other than the company which is in default under that sub-section."
       },
@@ -1794,32 +1462,10 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_006",
     difficulty: "Hard",
     caseText: `
-      <p><strong>National Industrial Projects Limited (NIPL)</strong> is a
-      Government company whose entire paid-up share capital is held by the
-      Central Government. The company has 15 directors on its Board. A group of
-      minority institutional shareholders has requested that the Articles of the
-      company contain provisions for appointment of directors through proportional
-      representation so that minority interests can receive representation on the
-      Board.</p>
-
-      <p>The legal department of NIPL examines Section 163 and observes that,
-      ordinarily, the Articles should provide for appointment of not less than
-      two-thirds of the total number of directors through proportional
-      representation. The proposed Articles contemplate appointment of 10
-      directors through proportional representation using the single transferable
-      vote system.</p>
-
-      <p>However, NIPL has not committed any default in filing its financial
-      statements under Section 137 or its annual return under Section 92 with the
-      Registrar. The company therefore claims the exemption applicable to a
-      Government company.</p>
-
-      <p>Separately, NIPL has a wholly-owned subsidiary, <strong>National
-      Infrastructure Services Limited</strong>, whose entire paid-up share capital
-      is held by NIPL. The subsidiary also wishes to know whether Section 163
-      applies to it. The legal adviser is required to determine the position by
-      considering the statutory exemption and the minimum proportion applicable
-      in cases where Section 163 does apply.</p>
+      <p><strong>National Industrial Projects Limited (NIPL)</strong> is a Government company whose entire paid-up share capital is held by the Central Government. The company has 15 directors on its Board. A group of minority institutional shareholders has requested that the Articles of the company contain provisions for appointment of directors through proportional representation so that minority interests can receive representation on the Board.</p>
+      <p>The legal department of NIPL examines Section 163 and observes that, ordinarily, the Articles should provide for appointment of not less than two-thirds of the total number of directors through proportional representation. The proposed Articles contemplate appointment of 10 directors through proportional representation using the single transferable vote system.</p>
+      <p>However, NIPL has not committed any default in filing its financial statements under Section 137 or its annual return under Section 92 with the Registrar. The company therefore claims the exemption applicable to a Government company.</p>
+      <p>Separately, NIPL has a wholly-owned subsidiary, <strong>National Infrastructure Services Limited</strong>, whose entire paid-up share capital is held by NIPL. The subsidiary also wishes to know whether Section 163 applies to it. The legal adviser is required to determine the position by considering the statutory exemption and the minimum proportion applicable in cases where Section 163 does apply.</p>
     `,
     questions: [
       {
@@ -1887,31 +1533,11 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_007",
     difficulty: "Hard",
     caseText: `
-      <p><strong>Orion Technologies Limited</strong> is evaluating three
-      candidates for appointment as directors.</p>
-
-      <p><strong>Mr. A</strong> was convicted of an offence and sentenced to
-      imprisonment for eight months. His sentence expired three years ago. He has
-      filed an appeal against the conviction, arguing that the conviction should
-      not operate as a disqualification while the appeal is pending.</p>
-
-      <p><strong>Mr. B</strong> was convicted of an offence and sentenced to
-      imprisonment for seven years. He completed his sentence several years ago.
-      He contends that since more than five years have elapsed from the expiry of
-      his sentence, he is now eligible for appointment.</p>
-
-      <p><strong>Mr. C</strong> was a director of another company which failed to
-      file its financial statements and annual returns for a continuous period of
-      three financial years. He was appointed as a director of the defaulting
-      company only one month before the disqualification consequences were being
-      considered. The Board argues that he should immediately suffer the same
-      disqualification as directors who had been associated with the company for
-      the entire period.</p>
-
-      <p>The company also discovers that another proposed director has failed to
-      obtain a DIN and that one candidate has not paid calls on shares held jointly
-      with another shareholder, with more than six months having elapsed from the
-      last date fixed for payment.</p>
+      <p><strong>Orion Technologies Limited</strong> is evaluating three candidates for appointment as directors.</p>
+      <p><strong>Mr. A</strong> was convicted of an offence and sentenced to imprisonment for eight months. His sentence expired three years ago. He has filed an appeal against the conviction, arguing that the conviction should not operate as a disqualification while the appeal is pending.</p>
+      <p><strong>Mr. B</strong> was convicted of an offence and sentenced to imprisonment for seven years. He completed his sentence several years ago. He contends that since more than five years have elapsed from the expiry of his sentence, he is now eligible for appointment.</p>
+      <p><strong>Mr. C</strong> was a director of another company which failed to file its financial statements and annual returns for a continuous period of three financial years. He was appointed as a director of the defaulting company only one month before the disqualification consequences were being considered. The Board argues that he should immediately suffer the same disqualification as directors who had been associated with the company for the entire period.</p>
+      <p>The company also discovers that another proposed director has failed to obtain a DIN and that one candidate has not paid calls on shares held jointly with another shareholder, with more than six months having elapsed from the last date fixed for payment.</p>
     `,
     questions: [
       {
@@ -1974,35 +1600,16 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_008",
     difficulty: "Hard",
     caseText: `
-      <p><strong>Mr. Arvind</strong> is currently a director in 19 companies.
-      His portfolio consists of 9 public companies, 8 ordinary private companies,
-      1 private company which is a subsidiary of a public company, and 1 dormant
-      company.</p>
-
-      <p>He has now received an offer to become a director of one additional
-      public company. He argues that his dormant company directorship should not
-      be counted while determining the ceiling of 20 companies. He also argues
-      that because the new company is public, the only question is whether his
-      total public-company directorships exceed 10.</p>
-
-      <p>During the same period, the members of one of the companies in which
-      Arvind is a director have passed a special resolution stating that a director
-      of that company shall not act as a director in more than 12 companies.</p>
-
-      <p>Arvind nevertheless accepts the new appointment. The company later
-      discovers that his appointment may have resulted in contravention of both the
-      overall limit and the public-company limit.</p>
+      <p><strong>Mr. Arvind</strong> is currently a director in 19 companies. His portfolio consists of 9 public companies, 8 ordinary private companies, 1 private company which is a subsidiary of a public company, and 1 dormant company.</p>
+      <p>He has now received an offer to become a director of one additional public company. He argues that his dormant company directorship should not be counted while determining the ceiling of 20 companies. He also argues that because the new company is public, the only question is whether his total public-company directorships exceed 10.</p>
+      <p>During the same period, the members of one of the companies in which Arvind is a director have passed a special resolution stating that a director of that company shall not act as a director in more than 12 companies.</p>
+      <p>Arvind nevertheless accepts the new appointment. The company later discovers that his appointment may have resulted in contravention of both the overall limit and the public-company limit.</p>
     `,
     questions: [
       {
         question_id: "seta_AI_cs_8_52",
         question: "For determining the statutory limit of 20 companies, which of Arvind's existing directorships is excluded?",
-        options: [
-          "The directorship in the private subsidiary of a public company",
-          "The directorship in the dormant company",
-          "One of the ordinary private companies",
-          "One of the public companies",
-        ],
+        options: ["The directorship in the private subsidiary of a public company", "The directorship in the dormant company", "One of the ordinary private companies", "One of the public companies"],
         answer: 1,
         reason: "Directorship in a dormant company is excluded from the calculation of the maximum limit of 20 companies."
       },
@@ -2054,29 +1661,11 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_009",
     difficulty: "Hard",
     caseText: `
-      <p><strong>Vertex Healthcare Limited</strong> is a listed public company
-      having 11 directors. The Board proposes to appoint Mr. Rohit as an
-      independent director.</p>
-
-      <p>Rohit is not a promoter and is not related to any promoter or director.
-      However, his relative has outstanding indebtedness to the company of
-      ₹48 lakh. The relative has also provided a guarantee in connection with the
-      indebtedness of another person to the company for ₹49 lakh.</p>
-
-      <p>Rohit himself was an employee of the company's associate company two
-      financial years immediately preceding the financial year in which he is
-      proposed to be appointed. He resigned from that employment before the
-      proposed appointment.</p>
-
-      <p>His professional firm had also provided consulting services to the company
-      during the preceding three financial years. The transactions constituted
-      12% of the gross turnover of that professional firm.</p>
-
-      <p>Rohit has together with his relatives 1.8% of the total voting power of the
-      company. The Board nevertheless believes that he satisfies the independence
-      requirements. Rohit is also proposed to be appointed for a three-year term
-      and, after completion, the company proposes another three-year term followed
-      immediately by a fresh appointment in a different capacity.</p>
+      <p><strong>Vertex Healthcare Limited</strong> is a listed public company having 11 directors. The Board proposes to appoint Mr. Rohit as an independent director.</p>
+      <p>Rohit is not a promoter and is not related to any promoter or director. However, his relative has outstanding indebtedness to the company of ₹48 lakh. The relative has also provided a guarantee in connection with the indebtedness of another person to the company for ₹49 lakh.</p>
+      <p>Rohit himself was an employee of the company's associate company two financial years immediately preceding the financial year in which he is proposed to be appointed. He resigned from that employment before the proposed appointment.</p>
+      <p>His professional firm had also provided consulting services to the company during the preceding three financial years. The transactions constituted 12% of the gross turnover of that professional firm.</p>
+      <p>Rohit has together with his relatives 1.8% of the total voting power of the company. The Board nevertheless believes that he satisfies the independence requirements. Rohit is also proposed to be appointed for a three-year term and, after completion, the company proposes another three-year term followed immediately by a fresh appointment in a different capacity.</p>
     `,
     questions: [
       {
@@ -2144,30 +1733,11 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_010",
     difficulty: "Hard",
     caseText: `
-      <p><strong>Summit Renewable Energy Limited</strong> proposes to appoint
-      Ms. Kavya as an independent director. Kavya's name is included in the
-      databank maintained by the Indian Institute of Corporate Affairs. Her
-      inclusion was initially for one year, but she failed to apply for renewal
-      within thirty days from expiry of the period. Consequently, her name was
-      removed from the databank.</p>
-
-      <p>Kavya subsequently applies for restoration and pays the prescribed
-      restoration fee. Her name is placed in the restored category for one year.
-      During this period, she does not pass the online proficiency self-assessment
-      test.</p>
-
-      <p>Separately, one existing independent director of Summit Renewable Energy
-      Limited resigns. The Board postpones filling the vacancy indefinitely,
-      arguing that the company can wait until the next annual general meeting.</p>
-
-      <p>Another director, Mr. Varun, knowingly continues to act as director even
-      after his office has become vacant due to a statutory disqualification.
-      The Board ignores the issue.</p>
-
-      <p>Finally, all directors of a different company in the same group vacate
-      their offices. The company has no functioning Board and no director remains
-      in office. The promoters are available and are considering the appropriate
-      statutory course.</p>
+      <p><strong>Summit Renewable Energy Limited</strong> proposes to appoint Ms. Kavya as an independent director. Kavya's name is included in the databank maintained by the Indian Institute of Corporate Affairs. Her inclusion was initially for one year, but she failed to apply for renewal within thirty days from expiry of the period. Consequently, her name was removed from the databank.</p>
+      <p>Kavya subsequently applies for restoration and pays the prescribed restoration fee. Her name is placed in the restored category for one year. During this period, she does not pass the online proficiency self-assessment test.</p>
+      <p>Separately, one existing independent director of Summit Renewable Energy Limited resigns. The Board postpones filling the vacancy indefinitely, arguing that the company can wait until the next annual general meeting.</p>
+      <p>Another director, Mr. Varun, knowingly continues to act as director even after his office has become vacant due to a statutory disqualification. The Board ignores the issue.</p>
+      <p>Finally, all directors of a different company in the same group vacate their offices. The company has no functioning Board and no director remains in office. The promoters are available and are considering the appropriate statutory course.</p>
     `,
     questions: [
       {
@@ -2185,12 +1755,7 @@ const AICaseStudies = [
       {
         question_id: "seta_AI_cs_10_63",
         question: "After restoration, what must Kavya generally do within the one-year restored category to have her name included in the databank again?",
-        options: [
-          "Obtain approval from the Registrar",
-          "Pass the online proficiency self-assessment test",
-          "Obtain approval from the Central Government",
-          "Serve as a director for one year",
-        ],
+        options: ["Obtain approval from the Registrar", "Pass the online proficiency self-assessment test", "Obtain approval from the Central Government", "Serve as a director for one year"],
         answer: 1,
         reason: "After restoration on payment of the prescribed fee, the individual's name is placed in a separate restored category for one year, during which she is required to pass the online proficiency self-assessment test for restoration to the databank."
       },
@@ -2230,24 +1795,10 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_011",
     difficulty: "Medium",
     caseText: `
-      <p><strong>Alpha Manufacturing Limited</strong> has five directors on its
-      Board. Mr. Raj, one of the directors, decides to resign from office.
-      He sends a written resignation notice to the company on 10th August,
-      stating that his resignation shall take effect from 20th August.</p>
-
-      <p>The company actually receives the resignation notice on 12th August.
-      The Board takes note of the resignation on 14th August.</p>
-
-      <p>Raj is concerned about the statutory filings and asks the Company
-      Secretary whether the company is required to intimate the Registrar about
-      his resignation. He also wants to know whether he remains responsible for
-      offences committed by the company during the period in which he was a
-      director.</p>
-
-      <p>Separately, another director, Mr. David, who is a foreign national,
-      resigns from the company. The company has already filed Form DIR-12 with
-      the Registrar. David is unable to personally complete the filing
-      requirements in India.</p>
+      <p><strong>Alpha Manufacturing Limited</strong> has five directors on its Board. Mr. Raj, one of the directors, decides to resign from office. He sends a written resignation notice to the company on 10th August, stating that his resignation shall take effect from 20th August.</p>
+      <p>The company actually receives the resignation notice on 12th August. The Board takes note of the resignation on 14th August.</p>
+      <p>Raj is concerned about the statutory filings and asks the Company Secretary whether the company is required to intimate the Registrar about his resignation. He also wants to know whether he remains responsible for offences committed by the company during the period in which he was a director.</p>
+      <p>Separately, another director, Mr. David, who is a foreign national, resigns from the company. The company has already filed Form DIR-12 with the Registrar. David is unable to personally complete the filing requirements in India.</p>
     `,
     questions: [
       {
@@ -2260,12 +1811,7 @@ const AICaseStudies = [
       {
         question_id: "seta_AI_cs_11_68",
         question: "By when should Alpha Manufacturing Limited intimate the Registrar about Raj's resignation?",
-        options: [
-          "Within 7 days from the resignation",
-          "Within 15 days from the resignation",
-          "Within 30 days from receipt of the resignation notice",
-          "Within 60 days from the resignation",
-        ],
+        options: ["Within 7 days from the resignation", "Within 15 days from the resignation", "Within 30 days from receipt of the resignation notice", "Within 60 days from the resignation"],
         answer: 2,
         reason: "The company is required to intimate the Registrar regarding the resignation of a director within 30 days of receipt of the notice of resignation, through Form DIR-12."
       },
@@ -2310,24 +1856,10 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_012",
     difficulty: "Medium",
     caseText: `
-      <p><strong>Bright Star Limited</strong> has nine directors. The shareholders
-      propose to remove Mr. Karan, a director appointed in the general meeting,
-      before completion of his term.</p>
-
-      <p>A group of members holding 1.5% of the total voting power submits a
-      special notice proposing the removal. The company sends a copy of the
-      notice to Karan. Karan submits a written representation explaining why he
-      should not be removed and requests that the representation be circulated
-      to the members.</p>
-
-      <p>The company has sufficient time before sending the meeting notice.
-      However, the Board proposes not to circulate Karan's representation,
-      arguing that shareholders should decide the matter without being influenced
-      by his explanation.</p>
-
-      <p>At the same time, the company is considering removal of Ms. Priya, an
-      independent director who has been re-appointed for her second consecutive
-      term.</p>
+      <p><strong>Bright Star Limited</strong> has nine directors. The shareholders propose to remove Mr. Karan, a director appointed in the general meeting, before completion of his term.</p>
+      <p>A group of members holding 1.5% of the total voting power submits a special notice proposing the removal. The company sends a copy of the notice to Karan. Karan submits a written representation explaining why he should not be removed and requests that the representation be circulated to the members.</p>
+      <p>The company has sufficient time before sending the meeting notice. However, the Board proposes not to circulate Karan's representation, arguing that shareholders should decide the matter without being influenced by his explanation.</p>
+      <p>At the same time, the company is considering removal of Ms. Priya, an independent director who has been re-appointed for her second consecutive term.</p>
     `,
     questions: [
       {
@@ -2345,12 +1877,7 @@ const AICaseStudies = [
       {
         question_id: "seta_AI_cs_12_73",
         question: "Karan has submitted a written representation and requested circulation to members. The company has sufficient time. What should the company generally do?",
-        options: [
-          "Ignore the representation",
-          "Circulate the representation to members along with the notice",
-          "Send it only to the Registrar",
-          "Send it only to the Board members",
-        ],
+        options: ["Ignore the representation", "Circulate the representation to members along with the notice", "Send it only to the Registrar", "Send it only to the Board members"],
         answer: 1,
         reason: "Where the director makes a written representation and requests its notification to members, and time permits, the company shall state the fact of the representation in the notice and send the representation to every member to whom the meeting notice is sent."
       },
@@ -2371,12 +1898,7 @@ const AICaseStudies = [
       {
         question_id: "seta_AI_cs_12_76",
         question: "If Karan is removed and the vacancy is filled at the same meeting, what condition applies regarding the proposed replacement?",
-        options: [
-          "No prior notice is required",
-          "Special notice of the proposed appointment must have been given",
-          "Only Board approval is required",
-          "The Registrar must nominate the replacement",
-        ],
+        options: ["No prior notice is required", "Special notice of the proposed appointment must have been given", "Only Board approval is required", "The Registrar must nominate the replacement"],
         answer: 1,
         reason: "Where the vacancy resulting from removal is filled at the same meeting, the appointment of another director can be made provided special notice of the proposed appointment has been given."
       }
@@ -2390,23 +1912,10 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_013",
     difficulty: "Medium",
     caseText: `
-      <p><strong>Unity Infrastructure Limited</strong> has twelve directors.
-      Eight of them were appointed according to the principle of proportional
-      representation under Section 163, while four directors were appointed
-      through the ordinary procedure.</p>
-
-      <p>A group of shareholders wants to remove three directors. Two of the
-      proposed directors for removal were appointed through proportional
-      representation, while one was appointed through the ordinary procedure.</p>
-
-      <p>The shareholders also initiate proceedings before the Tribunal under
-      Section 241 alleging oppression and mismanagement and seek removal of
-      another director.</p>
-
-      <p>The director who is the subject of the Tribunal proceedings argues that
-      even if the Tribunal removes him, he should be entitled to compensation
-      for the premature termination of his office and should be free to become
-      a director in another company immediately.</p>
+      <p><strong>Unity Infrastructure Limited</strong> has twelve directors. Eight of them were appointed according to the principle of proportional representation under Section 163, while four directors were appointed through the ordinary procedure.</p>
+      <p>A group of shareholders wants to remove three directors. Two of the proposed directors for removal were appointed through proportional representation, while one was appointed through the ordinary procedure.</p>
+      <p>The shareholders also initiate proceedings before the Tribunal under Section 241 alleging oppression and mismanagement and seek removal of another director.</p>
+      <p>The director who is the subject of the Tribunal proceedings argues that even if the Tribunal removes him, he should be entitled to compensation for the premature termination of his office and should be free to become a director in another company immediately.</p>
     `,
     questions: [
       {
@@ -2431,24 +1940,14 @@ const AICaseStudies = [
       {
         question_id: "seta_AI_cs_13_79",
         question: "Can the Tribunal remove a director under Section 242 where an application has been made under Section 241 for prevention of oppression and mismanagement?",
-        options: [
-          "No, only shareholders can remove directors",
-          "Yes, the Tribunal has such power",
-          "Only the Registrar can remove the director",
-          "Only the auditor can recommend removal",
-        ],
+        options: ["No, only shareholders can remove directors", "Yes, the Tribunal has such power", "Only the Registrar can remove the director", "Only the auditor can recommend removal"],
         answer: 1,
         reason: "Under Section 242, the Tribunal may remove a director where an application has been made under Section 241 for prevention of oppression and mismanagement."
       },
       {
         question_id: "seta_AI_cs_13_80",
         question: "If the Tribunal removes the director, is he entitled to compensation for loss of office under Section 243?",
-        options: [
-          "Yes, automatically",
-          "Yes, if he has completed more than half his term",
-          "No, he shall not be entitled to claim compensation for loss of office",
-          "Yes, but only from the Tribunal",
-        ],
+        options: ["Yes, automatically", "Yes, if he has completed more than half his term", "No, he shall not be entitled to claim compensation for loss of office", "Yes, but only from the Tribunal"],
         answer: 2,
         reason: "Section 243 provides that a director removed pursuant to an order of the Tribunal shall not be entitled to claim compensation for loss of office."
       },
@@ -2469,22 +1968,10 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_014",
     difficulty: "Medium",
     caseText: `
-      <p><strong>Greenfield Industries Limited</strong> maintains a register
-      containing particulars of its directors and key managerial personnel at
-      its registered office.</p>
-
-      <p>Mr. Arjun, a shareholder of the company, wants to inspect the register
-      during business hours. He also requests copies of certain entries. The
-      company refuses to provide the copies, stating that only the Registrar is
-      entitled to inspect the register.</p>
-
-      <p>Arjun submits a written request for copies. Thirty-five days pass and
-      the company has still not provided the copies.</p>
-
-      <p>Separately, Greenfield appoints a new director. The Company Secretary
-      plans to file Form DIR-12 six weeks after the appointment because the
-      company is busy preparing for its annual general meeting.</p>
-
+      <p><strong>Greenfield Industries Limited</strong> maintains a register containing particulars of its directors and key managerial personnel at its registered office.</p>
+      <p>Mr. Arjun, a shareholder of the company, wants to inspect the register during business hours. He also requests copies of certain entries. The company refuses to provide the copies, stating that only the Registrar is entitled to inspect the register.</p>
+      <p>Arjun submits a written request for copies. Thirty-five days pass and the company has still not provided the copies.</p>
+      <p>Separately, Greenfield appoints a new director. The Company Secretary plans to file Form DIR-12 six weeks after the appointment because the company is busy preparing for its annual general meeting.</p>
       <p>The compliance officer is asked to determine the statutory position.</p>
     `,
     questions: [
@@ -2548,22 +2035,10 @@ const AICaseStudies = [
     case_id: "seta_AI_cs_015",
     difficulty: "Medium",
     caseText: `
-      <p><strong>Nova Consumer Products Limited</strong> has recently undergone
-      several changes in its Board. One director resigned, another director was
-      appointed, and certain statutory particulars relating to directors and
-      key managerial personnel were not updated within the prescribed period.</p>
-
-      <p>The company also failed to comply with a requirement under Chapter XI
-      of the Companies Act, 2013 for which no specific penalty or punishment is
-      provided in that particular provision.</p>
-
-      <p>The Registrar issues a notice to the company and the officers in default.
-      The company argues that the violation should not attract a continuing
-      penalty because the original contravention occurred only once.</p>
-
-      <p>The compliance officer explains that Section 172 provides a general
-      punishment for contraventions of Sections 149 to 171 where no specific
-      penalty or punishment is prescribed.</p>
+      <p><strong>Nova Consumer Products Limited</strong> has recently undergone several changes in its Board. One director resigned, another director was appointed, and certain statutory particulars relating to directors and key managerial personnel were not updated within the prescribed period.</p>
+      <p>The company also failed to comply with a requirement under Chapter XI of the Companies Act, 2013 for which no specific penalty or punishment is provided in that particular provision.</p>
+      <p>The Registrar issues a notice to the company and the officers in default. The company argues that the violation should not attract a continuing penalty because the original contravention occurred only once.</p>
+      <p>The compliance officer explains that Section 172 provides a general punishment for contraventions of Sections 149 to 171 where no specific penalty or punishment is prescribed.</p>
     `,
     questions: [
       {
@@ -2603,7 +2078,7 @@ const AICaseStudies = [
       }
     ]
   },
-// Chapter 2
+  // Chapter 2
   /* =========================================================
      CASE SCENARIO 1
      TOPIC: APPOINTMENT OF MD / WTD / MANAGER - SECTION 196
@@ -2617,24 +2092,9 @@ const AICaseStudies = [
       "Section 196"
     ],
     caseText: `
-      <p>
-        Bright Star Limited is a public company engaged in the manufacturing
-        business. The Board of Directors proposes to appoint Mr. Arjun as its
-        Managing Director. Mr. Arjun is already a director of the company and
-        possesses substantial experience in managing business affairs.
-      </p>
-
-      <p>
-        The company proposes to appoint him for a period of six years. The Board
-        also proposes that Mr. Arjun may be re-appointed immediately after the
-        expiry of his first term without waiting for any prescribed period.
-      </p>
-
-      <p>
-        The Board seeks advice regarding the maximum permissible tenure and the
-        timing of re-appointment of a Managing Director under the Companies Act,
-        2013.
-      </p>
+      <p>Bright Star Limited is a public company engaged in the manufacturing business. The Board of Directors proposes to appoint Mr. Arjun as its Managing Director. Mr. Arjun is already a director of the company and possesses substantial experience in managing business affairs.</p>
+      <p>The company proposes to appoint him for a period of six years. The Board also proposes that Mr. Arjun may be re-appointed immediately after the expiry of his first term without waiting for any prescribed period.</p>
+      <p>The Board seeks advice regarding the maximum permissible tenure and the timing of re-appointment of a Managing Director under the Companies Act, 2013.</p>
     `,
     questions: [
       {
@@ -2646,12 +2106,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH2_EASY_CS01_Q02",
         question: "Can Bright Star Limited appoint Mr. Arjun as Managing Director for six years at one time?",
-        options: [
-          "Yes, because he is a director",
-          "Yes, if approved by the Board",
-          "No, the term cannot exceed five years at a time",
-          "Yes, if approved by the Central Government",
-        ],
+        options: ["Yes, because he is a director", "Yes, if approved by the Board", "No, the term cannot exceed five years at a time", "Yes, if approved by the Central Government"],
         answer: 2
       },
       {
@@ -2693,24 +2148,9 @@ const AICaseStudies = [
       "Manager"
     ],
     caseText: `
-      <p>
-        Sunrise Industries Limited wants to appoint managerial personnel for
-        strengthening its management team. The company considers three
-        candidates.
-      </p>
-
-      <p>
-        Mr. Ravi is 25 years old, Mr. Mohan is 68 years old and Mr. Suresh is
-        72 years old. The Board is considering appointing one of them as
-        Managing Director.
-      </p>
-
-      <p>
-        The Board understands that the Companies Act, 2013 prescribes age-related
-        conditions for appointment of a Managing Director, Whole-time Director
-        or Manager. The Board wants to know whether a person who has attained
-        70 years can still be appointed.
-      </p>
+      <p>Sunrise Industries Limited wants to appoint managerial personnel for strengthening its management team. The company considers three candidates.</p>
+      <p>Mr. Ravi is 25 years old, Mr. Mohan is 68 years old and Mr. Suresh is 72 years old. The Board is considering appointing one of them as Managing Director.</p>
+      <p>The Board understands that the Companies Act, 2013 prescribes age-related conditions for appointment of a Managing Director, Whole-time Director or Manager. The Board wants to know whether a person who has attained 70 years can still be appointed.</p>
     `,
     questions: [
       {
@@ -2759,23 +2199,9 @@ const AICaseStudies = [
       "Chief Financial Officer"
     ],
     caseText: `
-      <p>
-        Apex Technologies Limited is a listed company having substantial
-        operations in India. The company is reviewing its organisational
-        structure and the appointment of Key Managerial Personnel (KMP).
-      </p>
-
-      <p>
-        The company currently has a Managing Director but has not appointed a
-        whole-time Company Secretary or Chief Financial Officer. The Board is
-        also considering appointing a person as CFO who is already serving as a
-        whole-time KMP in another company.
-      </p>
-
-      <p>
-        The Board wants to understand the basic requirements relating to
-        whole-time KMP under Section 203 of the Companies Act, 2013.
-      </p>
+      <p>Apex Technologies Limited is a listed company having substantial operations in India. The company is reviewing its organisational structure and the appointment of Key Managerial Personnel (KMP).</p>
+      <p>The company currently has a Managing Director but has not appointed a whole-time Company Secretary or Chief Financial Officer. The Board is also considering appointing a person as CFO who is already serving as a whole-time KMP in another company.</p>
+      <p>The Board wants to understand the basic requirements relating to whole-time KMP under Section 203 of the Companies Act, 2013.</p>
     `,
     questions: [
       {
@@ -2824,24 +2250,9 @@ const AICaseStudies = [
       "Whole-time Director"
     ],
     caseText: `
-      <p>
-        Greenfield Limited is a public company having sufficient profits during
-        the financial year. The company has one Managing Director and one
-        Whole-time Director. The Board is considering the remuneration payable
-        to its managerial personnel.
-      </p>
-
-      <p>
-        The company also has directors who are neither Managing Directors nor
-        Whole-time Directors. The Board wants to ensure that the proposed
-        remuneration remains within the limits prescribed under Section 197 of
-        the Companies Act, 2013.
-      </p>
-
-      <p>
-        The Board is also considering whether the overall limit can be exceeded
-        by obtaining approval from the shareholders.
-      </p>
+      <p>Greenfield Limited is a public company having sufficient profits during the financial year. The company has one Managing Director and one Whole-time Director. The Board is considering the remuneration payable to its managerial personnel.</p>
+      <p>The company also has directors who are neither Managing Directors nor Whole-time Directors. The Board wants to ensure that the proposed remuneration remains within the limits prescribed under Section 197 of the Companies Act, 2013.</p>
+      <p>The Board is also considering whether the overall limit can be exceeded by obtaining approval from the shareholders.</p>
     `,
     questions: [
       {
@@ -2895,23 +2306,9 @@ const AICaseStudies = [
       "MR-3"
     ],
     caseText: `
-      <p>
-        National Manufacturing Limited is a public company. Its paid-up share
-        capital is ₹55 crore, annual turnover is ₹220 crore and its outstanding
-        loans and borrowings from banks and public financial institutions are
-        ₹80 crore.
-      </p>
-
-      <p>
-        The Board wants to determine whether the company is required to conduct
-        a secretarial audit under Section 204 of the Companies Act, 2013.
-      </p>
-
-      <p>
-        The company also wants to know who is authorised to conduct the
-        secretarial audit, the form in which the report is prepared and the
-        manner in which the report is dealt with in the Board's Report.
-      </p>
+      <p>National Manufacturing Limited is a public company. Its paid-up share capital is ₹55 crore, annual turnover is ₹220 crore and its outstanding loans and borrowings from banks and public financial institutions are ₹80 crore.</p>
+      <p>The Board wants to determine whether the company is required to conduct a secretarial audit under Section 204 of the Companies Act, 2013.</p>
+      <p>The company also wants to know who is authorised to conduct the secretarial audit, the form in which the report is prepared and the manner in which the report is dealt with in the Board's Report.</p>
     `,
     questions: [
       {
@@ -2929,12 +2326,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH2_EASY_CS05_Q03",
         question: "In the given case, National Manufacturing Limited has paid-up share capital of ₹55 crore. Therefore, it is:",
-        options: [
-          "Required to conduct secretarial audit",
-          "Not required to conduct secretarial audit",
-          "Required only if shareholders approve",
-          "Required only if turnover exceeds ₹1,000 crore",
-        ],
+        options: ["Required to conduct secretarial audit", "Not required to conduct secretarial audit", "Required only if shareholders approve", "Required only if turnover exceeds ₹1,000 crore"],
         answer: 0
       },
       {
@@ -2964,24 +2356,9 @@ const AICaseStudies = [
       "Corporate Governance"
     ],
     caseText: `
-      <p>
-        Horizon Limited has recently appointed Ms. Neha as its Company Secretary.
-        The Board wants her to assist the company in complying with the Companies
-        Act, 2013 and other applicable laws.
-      </p>
-
-      <p>
-        The Board also expects Ms. Neha to guide the directors regarding their
-        duties, responsibilities and powers. She is also asked to facilitate
-        Board and general meetings, attend the meetings and maintain their
-        minutes.
-      </p>
-
-      <p>
-        Ms. Neha informs the Board that ensuring compliance with applicable
-        secretarial standards and assisting the Board in maintaining good
-        corporate governance are also among her functions.
-      </p>
+      <p>Horizon Limited has recently appointed Ms. Neha as its Company Secretary. The Board wants her to assist the company in complying with the Companies Act, 2013 and other applicable laws.</p>
+      <p>The Board also expects Ms. Neha to guide the directors regarding their duties, responsibilities and powers. She is also asked to facilitate Board and general meetings, attend the meetings and maintain their minutes.</p>
+      <p>Ms. Neha informs the Board that ensuring compliance with applicable secretarial standards and assisting the Board in maintaining good corporate governance are also among her functions.</p>
     `,
     questions: [
       {
@@ -3029,23 +2406,9 @@ const AICaseStudies = [
       "Rule 4"
     ],
     caseText: `
-      <p>
-        Sunrise Healthcare Limited is a public company. Its Board of Directors
-        is considering the remuneration payable to its directors. Apart from
-        their regular remuneration, the directors are paid sitting fees for
-        attending meetings of the Board and its committees.
-      </p>
-
-      <p>
-        The Board proposes to fix the sitting fee at ₹80,000 for every Board
-        meeting. The company also has independent directors and women directors.
-      </p>
-
-      <p>
-        The Board is also considering whether managerial remuneration can be
-        paid through a monthly payment, as a percentage of net profits, or by
-        combining both methods.
-      </p>
+      <p>Sunrise Healthcare Limited is a public company. Its Board of Directors is considering the remuneration payable to its directors. Apart from their regular remuneration, the directors are paid sitting fees for attending meetings of the Board and its committees.</p>
+      <p>The Board proposes to fix the sitting fee at ₹80,000 for every Board meeting. The company also has independent directors and women directors.</p>
+      <p>The Board is also considering whether managerial remuneration can be paid through a monthly payment, as a percentage of net profits, or by combining both methods.</p>
     `,
     questions: [
       {
@@ -3069,12 +2432,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH2_EASY_CS07_Q04",
         question: "Remuneration to a director or manager may be paid:",
-        options: [
-          "Only as monthly payment",
-          "Only as a percentage of net profits",
-          "Only through stock options",
-          "By monthly payment, percentage of net profits, or partly by both",
-        ],
+        options: ["Only as monthly payment", "Only as a percentage of net profits", "Only through stock options", "By monthly payment, percentage of net profits, or partly by both"],
         answer: 3
       },
       {
@@ -3098,23 +2456,9 @@ const AICaseStudies = [
       "Waiver"
     ],
     caseText: `
-      <p>
-        Zenith Limited discovered that its Managing Director, Mr. Karan, had
-        received remuneration in excess of the limit prescribed under Section
-        197. The excess amount received by Mr. Karan is ₹8 lakh.
-      </p>
-
-      <p>
-        The company asks Mr. Karan to refund the excess amount. Mr. Karan wants
-        to know the period within which the excess remuneration has to be
-        refunded and whether he can simply retain the amount until the matter
-        is resolved.
-      </p>
-
-      <p>
-        The Board also wants to know whether the company can waive the recovery
-        of the excess remuneration.
-      </p>
+      <p>Zenith Limited discovered that its Managing Director, Mr. Karan, had received remuneration in excess of the limit prescribed under Section 197. The excess amount received by Mr. Karan is ₹8 lakh.</p>
+      <p>The company asks Mr. Karan to refund the excess amount. Mr. Karan wants to know the period within which the excess remuneration has to be refunded and whether he can simply retain the amount until the matter is resolved.</p>
+      <p>The Board also wants to know whether the company can waive the recovery of the excess remuneration.</p>
     `,
     questions: [
       {
@@ -3138,12 +2482,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH2_EASY_CS08_Q04",
         question: "Can the company waive recovery of excess remuneration?",
-        options: [
-          "Never under any circumstances",
-          "Yes, through a special resolution subject to the prescribed conditions",
-          "Yes, automatically by Board resolution",
-          "Only through an NCLT order",
-        ],
+        options: ["Never under any circumstances", "Yes, through a special resolution subject to the prescribed conditions", "Yes, automatically by Board resolution", "Only through an NCLT order"],
         answer: 1
       },
       {
@@ -3168,24 +2507,9 @@ const AICaseStudies = [
       "Subsidiary Company"
     ],
     caseText: `
-      <p>
-        Reliable Industries Limited has taken an insurance policy for its
-        Managing Director, Mr. Amit, to indemnify him against liability arising
-        from negligence, default, misfeasance, breach of duty or breach of trust
-        in relation to the company.
-      </p>
-
-      <p>
-        The company also has a subsidiary company from which Mr. Amit receives
-        commission in addition to the remuneration received from Reliable
-        Industries Limited.
-      </p>
-
-      <p>
-        The Board wants to determine whether the insurance premium will always
-        form part of Mr. Amit's remuneration and whether receipt of commission
-        from the subsidiary company is prohibited.
-      </p>
+      <p>Reliable Industries Limited has taken an insurance policy for its Managing Director, Mr. Amit, to indemnify him against liability arising from negligence, default, misfeasance, breach of duty or breach of trust in relation to the company.</p>
+      <p>The company also has a subsidiary company from which Mr. Amit receives commission in addition to the remuneration received from Reliable Industries Limited.</p>
+      <p>The Board wants to determine whether the insurance premium will always form part of Mr. Amit's remuneration and whether receipt of commission from the subsidiary company is prohibited.</p>
     `,
     questions: [
       {
@@ -3234,24 +2558,9 @@ const AICaseStudies = [
       "Manager"
     ],
     caseText: `
-      <p>
-        Metro Engineering Limited has a Managing Director, Mr. Raj, whose term
-        of office is five years. Due to certain circumstances, the company is
-        considering termination of his office before the expiry of his term.
-      </p>
-
-      <p>
-        Mr. Raj claims compensation for loss of office. The company examines
-        the provisions of Section 202 relating to the maximum amount of
-        compensation and the circumstances in which compensation cannot be
-        paid.
-      </p>
-
-      <p>
-        Mr. Raj has not been found guilty of fraud, breach of trust, gross
-        negligence or gross mismanagement. The remaining period of his term is
-        two years.
-      </p>
+      <p>Metro Engineering Limited has a Managing Director, Mr. Raj, whose term of office is five years. Due to certain circumstances, the company is considering termination of his office before the expiry of his term.</p>
+      <p>Mr. Raj claims compensation for loss of office. The company examines the provisions of Section 202 relating to the maximum amount of compensation and the circumstances in which compensation cannot be paid.</p>
+      <p>Mr. Raj has not been found guilty of fraud, breach of trust, gross negligence or gross mismanagement. The remaining period of his term is two years.</p>
     `,
     questions: [
       {
@@ -3298,18 +2607,8 @@ const AICaseStudies = [
       "Managerial Remuneration"
     ],
     caseText: `
-      <p>
-        Bright Industries Limited is calculating its net profits for determining
-        the managerial remuneration payable under Section 197 of the Companies
-        Act, 2013. The company has earned a subsidy from the Government during
-        the financial year.
-      </p>
-
-      <p>
-        The company has also recorded certain profits arising from the sale of
-        its fixed assets. The management wants to determine which amounts should
-        be considered while calculating profits under Section 198.
-      </p>
+      <p>Bright Industries Limited is calculating its net profits for determining the managerial remuneration payable under Section 197 of the Companies Act, 2013. The company has earned a subsidy from the Government during the financial year.</p>
+      <p>The company has also recorded certain profits arising from the sale of its fixed assets. The management wants to determine which amounts should be considered while calculating profits under Section 198.</p>
     `,
     questions: [
       {
@@ -3357,24 +2656,9 @@ const AICaseStudies = [
       "Managerial Remuneration"
     ],
     caseText: `
-      <p>
-        ABC Manufacturing Limited has no profits during the current financial
-        year. The company therefore wants to determine the maximum managerial
-        remuneration payable under Section II of Part II of Schedule V.
-      </p>
-
-      <p>
-        The company has paid-up share capital of ₹4 crore, share premium of
-        ₹50 lakh, eligible reserves of ₹1 crore and a long-term loan of
-        ₹2 crore. It also has investments and accumulated losses which have to
-        be considered while calculating effective capital.
-      </p>
-
-      <p>
-        The Board explains that effective capital is not simply the amount of
-        paid-up share capital and must be calculated according to the formula
-        prescribed under Schedule V.
-      </p>
+      <p>ABC Manufacturing Limited has no profits during the current financial year. The company therefore wants to determine the maximum managerial remuneration payable under Section II of Part II of Schedule V.</p>
+      <p>The company has paid-up share capital of ₹4 crore, share premium of ₹50 lakh, eligible reserves of ₹1 crore and a long-term loan of ₹2 crore. It also has investments and accumulated losses which have to be considered while calculating effective capital.</p>
+      <p>The Board explains that effective capital is not simply the amount of paid-up share capital and must be calculated according to the formula prescribed under Schedule V.</p>
     `,
     questions: [
       {
@@ -3422,24 +2706,9 @@ const AICaseStudies = [
       "Whole-time KMP"
     ],
     caseText: `
-      <p>
-        Sunrise Public Limited is a listed company. The Board is reviewing the
-        appointment of its whole-time Key Managerial Personnel (KMP). The
-        company already has a Managing Director, a Company Secretary and a
-        Chief Financial Officer.
-      </p>
-
-      <p>
-        The Board is informed that whole-time KMP must be appointed through a
-        Board resolution containing the terms and conditions of appointment,
-        including remuneration.
-      </p>
-
-      <p>
-        The Company Secretary also explains that a whole-time KMP cannot normally
-        hold office in more than one company at the same time, except in the
-        permitted case involving its subsidiary company.
-      </p>
+      <p>Sunrise Public Limited is a listed company. The Board is reviewing the appointment of its whole-time Key Managerial Personnel (KMP). The company already has a Managing Director, a Company Secretary and a Chief Financial Officer.</p>
+      <p>The Board is informed that whole-time KMP must be appointed through a Board resolution containing the terms and conditions of appointment, including remuneration.</p>
+      <p>The Company Secretary also explains that a whole-time KMP cannot normally hold office in more than one company at the same time, except in the permitted case involving its subsidiary company.</p>
     `,
     questions: [
       {
@@ -3487,22 +2756,9 @@ const AICaseStudies = [
       "Key Managerial Personnel"
     ],
     caseText: `
-      <p>
-        Global Technologies Limited is required to have whole-time Key
-        Managerial Personnel. During the financial year, the office of its Chief
-        Financial Officer became vacant.
-      </p>
-
-      <p>
-        The Board discussed the vacancy and decided to appoint a new CFO. The
-        Company Secretary informed the Board that the resulting vacancy in the
-        office of a whole-time KMP must be filled within the prescribed period.
-      </p>
-
-      <p>
-        The Board also reviewed the consequences of non-compliance with Section
-        203 and the penalties applicable to the company and defaulting officers.
-      </p>
+      <p>Global Technologies Limited is required to have whole-time Key Managerial Personnel. During the financial year, the office of its Chief Financial Officer became vacant.</p>
+      <p>The Board discussed the vacancy and decided to appoint a new CFO. The Company Secretary informed the Board that the resulting vacancy in the office of a whole-time KMP must be filled within the prescribed period.</p>
+      <p>The Board also reviewed the consequences of non-compliance with Section 203 and the penalties applicable to the company and defaulting officers.</p>
     `,
     questions: [
       {
@@ -3550,23 +2806,9 @@ const AICaseStudies = [
       "Form MR-3"
     ],
     caseText: `
-      <p>
-        Prime Infrastructure Limited is a public company. Its paid-up share
-        capital is ₹55 crore and its turnover is ₹200 crore. The company also
-        has outstanding borrowings from banks of ₹80 crore.
-      </p>
-
-      <p>
-        The Board is examining whether the company is required to obtain a
-        Secretarial Audit Report under Section 204. The Company Secretary in
-        practice explains that certain prescribed classes of companies are
-        required to obtain a secretarial audit report.
-      </p>
-
-      <p>
-        The Board also wants to know who is authorised to issue the report and
-        whether the report has to be attached to the Board's Report.
-      </p>
+      <p>Prime Infrastructure Limited is a public company. Its paid-up share capital is ₹55 crore and its turnover is ₹200 crore. The company also has outstanding borrowings from banks of ₹80 crore.</p>
+      <p>The Board is examining whether the company is required to obtain a Secretarial Audit Report under Section 204. The Company Secretary in practice explains that certain prescribed classes of companies are required to obtain a secretarial audit report.</p>
+      <p>The Board also wants to know who is authorised to issue the report and whether the report has to be attached to the Board's Report.</p>
     `,
     questions: [
       {
@@ -3614,19 +2856,8 @@ const AICaseStudies = [
       "Appointment of Manager"
     ],
     caseText: `
-      <p>
-        Zenith Industries Limited is considering the appointment of Mr. Arjun
-        as its Managing Director. The Board is examining the statutory
-        requirements relating to the appointment and tenure of managerial
-        personnel under Section 196 of the Companies Act, 2013.
-      </p>
-
-      <p>
-        The Board proposes to appoint Mr. Arjun for a term of six years. The
-        Company Secretary points out that the Companies Act, 2013 prescribes a
-        maximum period for which a Managing Director, Whole-time Director or
-        Manager may be appointed or re-appointed at a time.
-      </p>
+      <p>Zenith Industries Limited is considering the appointment of Mr. Arjun as its Managing Director. The Board is examining the statutory requirements relating to the appointment and tenure of managerial personnel under Section 196 of the Companies Act, 2013.</p>
+      <p>The Board proposes to appoint Mr. Arjun for a term of six years. The Company Secretary points out that the Companies Act, 2013 prescribes a maximum period for which a Managing Director, Whole-time Director or Manager may be appointed or re-appointed at a time.</p>
     `,
     questions: [
       {
@@ -3679,19 +2910,8 @@ const AICaseStudies = [
       "Schedule V"
     ],
     caseText: `
-      <p>
-        Sunrise Textiles Limited proposes to appoint Mr. Dev as its Managing
-        Director. Mr. Dev is 72 years old and has extensive experience in the
-        textile industry.
-      </p>
-
-      <p>
-        The Board is aware that Section 196 prescribes an age limit for
-        appointment as Managing Director, Whole-time Director or Manager.
-        However, the Board also learns that a person who has attained the age
-        of 70 years may be appointed if the prescribed special resolution is
-        passed by the company.
-      </p>
+      <p>Sunrise Textiles Limited proposes to appoint Mr. Dev as its Managing Director. Mr. Dev is 72 years old and has extensive experience in the textile industry.</p>
+      <p>The Board is aware that Section 196 prescribes an age limit for appointment as Managing Director, Whole-time Director or Manager. However, the Board also learns that a person who has attained the age of 70 years may be appointed if the prescribed special resolution is passed by the company.</p>
     `,
     questions: [
       {
@@ -3739,18 +2959,8 @@ const AICaseStudies = [
       "Corporate Governance"
     ],
     caseText: `
-      <p>
-        Reliable Motors Limited has appointed Ms. Neha as its Company Secretary.
-        The Board asks her to assist the company in complying with the Companies
-        Act, applicable rules and secretarial standards.
-      </p>
-
-      <p>
-        Ms. Neha also assists the Board in convening meetings, maintaining
-        minutes and obtaining necessary approvals from the Board, shareholders
-        and government authorities. She also advises the Board on corporate
-        governance matters.
-      </p>
+      <p>Reliable Motors Limited has appointed Ms. Neha as its Company Secretary. The Board asks her to assist the company in complying with the Companies Act, applicable rules and secretarial standards.</p>
+      <p>Ms. Neha also assists the Board in convening meetings, maintaining minutes and obtaining necessary approvals from the Board, shareholders and government authorities. She also advises the Board on corporate governance matters.</p>
     `,
     questions: [
       {
@@ -3798,18 +3008,8 @@ const AICaseStudies = [
       "Rule 4"
     ],
     caseText: `
-      <p>
-        Apex Pharma Limited wants to revise the sitting fees payable to its
-        directors for attending meetings of the Board and its committees.
-        The Board proposes to pay ₹75,000 to each director for every meeting
-        attended.
-      </p>
-
-      <p>
-        The Company Secretary informs the Board that the Companies Act permits
-        payment of sitting fees subject to the prescribed ceiling. The Board
-        also considers the position of Independent Directors and Women Directors.
-      </p>
+      <p>Apex Pharma Limited wants to revise the sitting fees payable to its directors for attending meetings of the Board and its committees. The Board proposes to pay ₹75,000 to each director for every meeting attended.</p>
+      <p>The Company Secretary informs the Board that the Companies Act permits payment of sitting fees subject to the prescribed ceiling. The Board also considers the position of Independent Directors and Women Directors.</p>
     `,
     questions: [
       {
@@ -3857,23 +3057,9 @@ const AICaseStudies = [
       "Managerial Remuneration"
     ],
     caseText: `
-      <p>
-        Pioneer Limited discovers that its Managing Director, Mr. Karan, has
-        received remuneration in excess of the limit prescribed under Section
-        197 without obtaining the required approval.
-      </p>
-
-      <p>
-        The company asks Mr. Karan to refund the excess amount. Mr. Karan argues
-        that since the amount has already been paid to him, he should be allowed
-        to retain it.
-      </p>
-
-      <p>
-        The Board explains that the Companies Act contains specific provisions
-        requiring refund of excess remuneration and also provides a mechanism
-        for waiver subject to prescribed conditions.
-      </p>
+      <p>Pioneer Limited discovers that its Managing Director, Mr. Karan, has received remuneration in excess of the limit prescribed under Section 197 without obtaining the required approval.</p>
+      <p>The company asks Mr. Karan to refund the excess amount. Mr. Karan argues that since the amount has already been paid to him, he should be allowed to retain it.</p>
+      <p>The Board explains that the Companies Act contains specific provisions requiring refund of excess remuneration and also provides a mechanism for waiver subject to prescribed conditions.</p>
     `,
     questions: [
       {
@@ -3897,12 +3083,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH2_EASY_CS20_Q04",
         question: "Can the company waive recovery of excess remuneration?",
-        options: [
-          "Yes, automatically",
-          "Yes, subject to approval by special resolution within the prescribed period",
-          "No, under any circumstances",
-          "Yes, only through an ordinary Board circular",
-        ],
+        options: ["Yes, automatically", "Yes, subject to approval by special resolution within the prescribed period", "No, under any circumstances", "Yes, only through an ordinary Board circular"],
         answer: 1
       },
       {
@@ -3925,24 +3106,9 @@ const AICaseStudies = [
       "Managerial Personnel"
     ],
     caseText: `
-      <p>
-        Excellent Foods Limited has appointed Mr. Rahul to supervise and control
-        the marketing department of the company. Mr. Rahul is responsible only
-        for the marketing activities and does not have control over the whole or
-        substantially the whole affairs of the company.
-      </p>
-
-      <p>
-        The Board wants to determine whether Mr. Rahul can be regarded as a
-        "Manager" within the meaning of Section 2(53) of the Companies Act,
-        2013.
-      </p>
-
-      <p>
-        The Company Secretary explains that a manager must have the management
-        of the whole, or substantially the whole, of the affairs of the company,
-        subject to the superintendence, control and direction of the Board.
-      </p>
+      <p>Excellent Foods Limited has appointed Mr. Rahul to supervise and control the marketing department of the company. Mr. Rahul is responsible only for the marketing activities and does not have control over the whole or substantially the whole affairs of the company.</p>
+      <p>The Board wants to determine whether Mr. Rahul can be regarded as a "Manager" within the meaning of Section 2(53) of the Companies Act, 2013.</p>
+      <p>The Company Secretary explains that a manager must have the management of the whole, or substantially the whole, of the affairs of the company, subject to the superintendence, control and direction of the Board.</p>
     `,
     questions: [
       {
@@ -3989,24 +3155,9 @@ const AICaseStudies = [
       "Substantial Powers of Management"
     ],
     caseText: `
-      <p>
-        Horizon Industries Limited has appointed Mr. Sameer as a director.
-        Under an agreement with the company, he has been entrusted with
-        substantial powers of management of the affairs of the company.
-      </p>
-
-      <p>
-        The Board also authorises Mr. Sameer to perform certain routine
-        administrative functions, such as signing certificates and drawing
-        cheques. Mr. Sameer argues that these routine powers alone make him a
-        Managing Director.
-      </p>
-
-      <p>
-        The Company Secretary explains that routine administrative acts do not
-        by themselves constitute substantial powers of management for the
-        purpose of the definition of Managing Director.
-      </p>
+      <p>Horizon Industries Limited has appointed Mr. Sameer as a director. Under an agreement with the company, he has been entrusted with substantial powers of management of the affairs of the company.</p>
+      <p>The Board also authorises Mr. Sameer to perform certain routine administrative functions, such as signing certificates and drawing cheques. Mr. Sameer argues that these routine powers alone make him a Managing Director.</p>
+      <p>The Company Secretary explains that routine administrative acts do not by themselves constitute substantial powers of management for the purpose of the definition of Managing Director.</p>
     `,
     questions: [
       {
@@ -4058,22 +3209,9 @@ const AICaseStudies = [
       "WTD"
     ],
     caseText: `
-      <p>
-        Silverline Limited wants to appoint Mr. Karan as its Whole-time
-        Director. Mr. Karan is currently a full-time employee of the company
-        but is not a director.
-      </p>
-
-      <p>
-        The Board proposes to designate him as a Whole-time Director because he
-        spends all his working time managing the affairs of the company.
-      </p>
-
-      <p>
-        The Company Secretary explains that being in whole-time employment is
-        not sufficient by itself. A Whole-time Director must also be a director
-        of the company.
-      </p>
+      <p>Silverline Limited wants to appoint Mr. Karan as its Whole-time Director. Mr. Karan is currently a full-time employee of the company but is not a director.</p>
+      <p>The Board proposes to designate him as a Whole-time Director because he spends all his working time managing the affairs of the company.</p>
+      <p>The Company Secretary explains that being in whole-time employment is not sufficient by itself. A Whole-time Director must also be a director of the company.</p>
     `,
     questions: [
       {
@@ -4120,18 +3258,8 @@ const AICaseStudies = [
       "Public Company"
     ],
     caseText: `
-      <p>
-        Prosperity Limited is a public company having profits for the financial
-        year. The company is considering the remuneration payable to its
-        directors, including its Managing Director and other directors.
-      </p>
-
-      <p>
-        The Board is informed that the overall managerial remuneration payable
-        by a public company to its directors, including the Managing Director,
-        Whole-time Director and Manager, is subject to an overall statutory
-        ceiling based on the net profits calculated under Section 198.
-      </p>
+      <p>Prosperity Limited is a public company having profits for the financial year. The company is considering the remuneration payable to its directors, including its Managing Director and other directors.</p>
+      <p>The Board is informed that the overall managerial remuneration payable by a public company to its directors, including the Managing Director, Whole-time Director and Manager, is subject to an overall statutory ceiling based on the net profits calculated under Section 198.</p>
     `,
     questions: [
       {
@@ -4179,23 +3307,9 @@ const AICaseStudies = [
       "Managerial Personnel"
     ],
     caseText: `
-      <p>
-        Blue Star Limited is considering the appointment of Mr. Mohan as its
-        Whole-time Director. During the due diligence process, the company
-        discovers that Mr. Mohan has been adjudged an undischarged insolvent.
-      </p>
-
-      <p>
-        The Board also examines other statutory eligibility conditions applicable
-        to persons appointed as Managing Director, Whole-time Director or
-        Manager under Section 196.
-      </p>
-
-      <p>
-        The Company Secretary explains that certain circumstances, including
-        being an undischarged insolvent, can disqualify a person from such
-        appointment.
-      </p>
+      <p>Blue Star Limited is considering the appointment of Mr. Mohan as its Whole-time Director. During the due diligence process, the company discovers that Mr. Mohan has been adjudged an undischarged insolvent.</p>
+      <p>The Board also examines other statutory eligibility conditions applicable to persons appointed as Managing Director, Whole-time Director or Manager under Section 196.</p>
+      <p>The Company Secretary explains that certain circumstances, including being an undischarged insolvent, can disqualify a person from such appointment.</p>
     `,
     questions: [
       {
@@ -4213,12 +3327,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH2_EASY_CS30_Q03",
         question: "A person who has been adjudged an insolvent and remains undischarged is:",
-        options: [
-          "Eligible automatically",
-          "Disqualified from appointment under the specified provision",
-          "Automatically appointed as Manager",
-          "Eligible only if he is a shareholder",
-        ],
+        options: ["Eligible automatically", "Disqualified from appointment under the specified provision", "Automatically appointed as Manager", "Eligible only if he is a shareholder"],
         answer: 1
       },
       {
@@ -4250,24 +3359,9 @@ const AICaseStudies = [
       "Re-appointment"
     ],
     caseText: `
-      <p>
-        Apex Engineering Limited appointed Mr. Arvind as its Managing Director
-        for a period of five years commencing from 1 April 2024. His term is
-        therefore scheduled to expire on 31 March 2029.
-      </p>
-
-      <p>
-        The Board, being satisfied with his performance, proposes to re-appoint
-        him for another term of five years. The proposal is placed before the
-        shareholders on 15 March 2028.
-      </p>
-
-      <p>
-        One of the directors argues that the company cannot consider the
-        re-appointment before the expiry of the existing term. The Company
-        Secretary points out that the Companies Act, 2013 permits re-appointment
-        before expiry, but restricts how early such re-appointment can be made.
-      </p>
+      <p>Apex Engineering Limited appointed Mr. Arvind as its Managing Director for a period of five years commencing from 1 April 2024. His term is therefore scheduled to expire on 31 March 2029.</p>
+      <p>The Board, being satisfied with his performance, proposes to re-appoint him for another term of five years. The proposal is placed before the shareholders on 15 March 2028.</p>
+      <p>One of the directors argues that the company cannot consider the re-appointment before the expiry of the existing term. The Company Secretary points out that the Companies Act, 2013 permits re-appointment before expiry, but restricts how early such re-appointment can be made.</p>
     `,
     questions: [
       {
@@ -4317,12 +3411,7 @@ const AICaseStudies = [
         question_id: "CEL_CH2_MEDIUM_CS31_Q05",
         difficulty: "Medium",
         question: "If the Articles of Apex Engineering Limited provide that an MD may be appointed for life, the provision would be:",
-        options: [
-          "Valid because Articles override Section 196",
-          "Valid if approved by the Board",
-          "Invalid because the statutory maximum tenure is five years",
-          "Valid only for private companies",
-        ],
+        options: ["Valid because Articles override Section 196", "Valid if approved by the Board", "Invalid because the statutory maximum tenure is five years", "Valid only for private companies"],
         answer: 2
       }
     ]
@@ -4342,24 +3431,9 @@ const AICaseStudies = [
       "Central Government Approval"
     ],
     caseText: `
-      <p>
-        Zenith Textiles Limited proposes to appoint Mr. Ramesh as its Managing
-        Director. Mr. Ramesh is 72 years old and has considerable experience in
-        the textile industry.
-      </p>
-
-      <p>
-        The Board proposes to place the appointment before the members in general
-        meeting. Some shareholders are concerned that a person who has attained
-        the age of 70 years cannot be appointed as Managing Director.
-      </p>
-
-      <p>
-        The Company Secretary explains that although the normal age limit is
-        70 years, the Act permits appointment of a person who has attained
-        70 years if the required special resolution is passed. The explanatory
-        statement must also contain justification for appointing such person.
-      </p>
+      <p>Zenith Textiles Limited proposes to appoint Mr. Ramesh as its Managing Director. Mr. Ramesh is 72 years old and has considerable experience in the textile industry.</p>
+      <p>The Board proposes to place the appointment before the members in general meeting. Some shareholders are concerned that a person who has attained the age of 70 years cannot be appointed as Managing Director.</p>
+      <p>The Company Secretary explains that although the normal age limit is 70 years, the Act permits appointment of a person who has attained 70 years if the required special resolution is passed. The explanatory statement must also contain justification for appointing such person.</p>
     `,
     questions: [
       {
@@ -4373,12 +3447,7 @@ const AICaseStudies = [
         question_id: "CEL_CH2_MEDIUM_CS32_Q02",
         difficulty: "Medium",
         question: "Mr. Ramesh, aged 72 years, may be appointed as MD if:",
-        options: [
-          "The Board alone approves the appointment",
-          "A special resolution is passed by the company",
-          "The auditor approves the appointment",
-          "All shareholders individually consent",
-        ],
+        options: ["The Board alone approves the appointment", "A special resolution is passed by the company", "The auditor approves the appointment", "All shareholders individually consent"],
         answer: 1
       },
       {
@@ -4424,25 +3493,9 @@ const AICaseStudies = [
       "Subsidiary Company"
     ],
     caseText: `
-      <p>
-        Global Finance Limited is a listed company. Ms. Priya is its whole-time
-        Chief Financial Officer (CFO). A subsidiary company, Global Finance
-        Services Private Limited, proposes to appoint Ms. Priya as its whole-time
-        CFO as well.
-      </p>
-
-      <p>
-        The Board of the parent company is considering whether such appointment
-        would violate the restriction on holding office as whole-time KMP in more
-        than one company.
-      </p>
-
-      <p>
-        The Company Secretary explains that a whole-time KMP cannot ordinarily
-        hold office in more than one company at the same time, except in its
-        subsidiary company. A whole-time KMP may also become a director in any
-        company with the permission of the Board.
-      </p>
+      <p>Global Finance Limited is a listed company. Ms. Priya is its whole-time Chief Financial Officer (CFO). A subsidiary company, Global Finance Services Private Limited, proposes to appoint Ms. Priya as its whole-time CFO as well.</p>
+      <p>The Board of the parent company is considering whether such appointment would violate the restriction on holding office as whole-time KMP in more than one company.</p>
+      <p>The Company Secretary explains that a whole-time KMP cannot ordinarily hold office in more than one company at the same time, except in its subsidiary company. A whole-time KMP may also become a director in any company with the permission of the Board.</p>
     `,
     questions: [
       {
@@ -4496,19 +3549,8 @@ const AICaseStudies = [
       "Board Meeting"
     ],
     caseText: `
-      <p>
-        Sunrise Industries Limited is a listed company. Its whole-time Company
-        Secretary resigns from office on 10 January 2026. The Board acknowledges
-        the resignation but decides to wait until the next Annual General Meeting
-        in September 2026 before appointing a replacement.
-      </p>
-
-      <p>
-        The compliance officer informs the Board that the vacancy of whole-time
-        KMP cannot simply be left vacant until the next general meeting. The
-        resulting vacancy must be filled by the Board within the prescribed
-        period.
-      </p>
+      <p>Sunrise Industries Limited is a listed company. Its whole-time Company Secretary resigns from office on 10 January 2026. The Board acknowledges the resignation but decides to wait until the next Annual General Meeting in September 2026 before appointing a replacement.</p>
+      <p>The compliance officer informs the Board that the vacancy of whole-time KMP cannot simply be left vacant until the next general meeting. The resulting vacancy must be filled by the Board within the prescribed period.</p>
     `,
     questions: [
       {
@@ -4563,24 +3605,9 @@ const AICaseStudies = [
       "Applicability"
     ],
     caseText: `
-      <p>
-        Green Pharma Limited is a public company. As per its latest audited
-        financial statements, its paid-up share capital is ₹42 crore, annual
-        turnover is ₹210 crore and outstanding loans from banks and public
-        financial institutions amount to ₹105 crore.
-      </p>
-
-      <p>
-        The management argues that secretarial audit is not applicable because
-        the company's paid-up share capital is below ₹50 crore and its turnover
-        is below ₹250 crore.
-      </p>
-
-      <p>
-        The Company Secretary points out that the rules prescribe separate
-        thresholds and that crossing any one of the prescribed thresholds may
-        make the company subject to secretarial audit.
-      </p>
+      <p>Green Pharma Limited is a public company. As per its latest audited financial statements, its paid-up share capital is ₹42 crore, annual turnover is ₹210 crore and outstanding loans from banks and public financial institutions amount to ₹105 crore.</p>
+      <p>The management argues that secretarial audit is not applicable because the company's paid-up share capital is below ₹50 crore and its turnover is below ₹250 crore.</p>
+      <p>The Company Secretary points out that the rules prescribe separate thresholds and that crossing any one of the prescribed thresholds may make the company subject to secretarial audit.</p>
     `,
     questions: [
       {
@@ -4640,26 +3667,10 @@ const AICaseStudies = [
     "Special Resolution"
   ],
   caseText: `
-    <p>
-      Bright Industries Limited is a public company having sufficient profits
-      during the financial year. The company has appointed one Managing Director,
-      Mr. Aman, and two Whole-time Directors, Mr. Bharat and Mr. Chetan.
-    </p>
-
-    <p>
-      The Board proposes to pay remuneration to all three managerial persons
-      aggregating to 10% of the net profits of the company for the financial year.
-      The Board also proposes to pay remuneration to the other non-executive
-      directors at 1% of the net profits.
-    </p>
-
-    <p>
-      One director suggests that since the company has adequate profits, there is
-      no restriction on managerial remuneration. The Company Secretary explains
-      that Section 197 prescribes an overall ceiling as well as separate ceilings
-      for managerial and other directors.
-    </p>
-  `,
+      <p>Bright Industries Limited is a public company having sufficient profits during the financial year. The company has appointed one Managing Director, Mr. Aman, and two Whole-time Directors, Mr. Bharat and Mr. Chetan.</p>
+      <p>The Board proposes to pay remuneration to all three managerial persons aggregating to 10% of the net profits of the company for the financial year. The Board also proposes to pay remuneration to the other non-executive directors at 1% of the net profits.</p>
+      <p>One director suggests that since the company has adequate profits, there is no restriction on managerial remuneration. The Company Secretary explains that Section 197 prescribes an overall ceiling as well as separate ceilings for managerial and other directors.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS36_Q01",
@@ -4713,25 +3724,10 @@ const AICaseStudies = [
     "Effective Capital"
   ],
   caseText: `
-    <p>
-      Sunrise Manufacturing Limited has suffered inadequate profits during the
-      financial year. The company has an effective capital of ₹7 crore. Its
-      Managing Director, Mr. Raj, is proposed to be paid remuneration of
-      ₹75 lakh for the year.
-    </p>
-
-    <p>
-      The Board examines Schedule V and notes that where the effective capital is
-      ₹5 crore and above but less than ₹100 crore, the prescribed annual limit for
-      managerial remuneration in case of no profit or inadequate profit is
-      ₹84 lakh.
-    </p>
-
-    <p>
-      The company has also complied with the applicable approval requirements
-      under Schedule V.
-    </p>
-  `,
+      <p>Sunrise Manufacturing Limited has suffered inadequate profits during the financial year. The company has an effective capital of ₹7 crore. Its Managing Director, Mr. Raj, is proposed to be paid remuneration of ₹75 lakh for the year.</p>
+      <p>The Board examines Schedule V and notes that where the effective capital is ₹5 crore and above but less than ₹100 crore, the prescribed annual limit for managerial remuneration in case of no profit or inadequate profit is ₹84 lakh.</p>
+      <p>The company has also complied with the applicable approval requirements under Schedule V.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS37_Q01",
@@ -4789,52 +3785,9 @@ const AICaseStudies = [
     "Managerial Remuneration"
   ],
   caseText: `
-    <p>
-      Nova Technologies Limited has no profits for the financial year. For the
-      purpose of determining managerial remuneration under Schedule V, the
-      following figures are available:
-    </p>
-
-    <table>
-      <tr>
-        <th>Particulars</th>
-        <th>Amount</th>
-      </tr>
-      <tr>
-        <td>Paid-up share capital</td>
-        <td>₹6 crore</td>
-      </tr>
-      <tr>
-        <td>Share premium</td>
-        <td>₹50 lakh</td>
-      </tr>
-      <tr>
-        <td>Reserves excluding revaluation reserve</td>
-        <td>₹40 lakh</td>
-      </tr>
-      <tr>
-        <td>Long-term loan repayable after one year</td>
-        <td>₹2 crore</td>
-      </tr>
-      <tr>
-        <td>Working capital loan</td>
-        <td>₹1 crore</td>
-      </tr>
-      <tr>
-        <td>Investments</td>
-        <td>₹50 lakh</td>
-      </tr>
-      <tr>
-        <td>Accumulated losses</td>
-        <td>₹20 lakh</td>
-      </tr>
-    </table>
-
-    <p>
-      The finance team is required to determine the effective capital for
-      applying the appropriate Schedule V remuneration limit.
-    </p>
-  `,
+      <p>Nova Technologies Limited has no profits for the financial year. For the purpose of determining managerial remuneration under Schedule V, the following figures are available:</p>
+      <p>The finance team is required to determine the effective capital for applying the appropriate Schedule V remuneration limit.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS38_Q01",
@@ -4888,25 +3841,10 @@ const AICaseStudies = [
     "Special Resolution"
   ],
   caseText: `
-    <p>
-      Metro Infrastructure Limited paid remuneration of ₹18 lakh to its Managing
-      Director, Mr. Dev, during the financial year. Subsequently, it was determined
-      that only ₹12 lakh was permissible under the applicable provisions of the
-      Companies Act, 2013.
-    </p>
-
-    <p>
-      The excess remuneration of ₹6 lakh therefore became refundable to the
-      company. Mr. Dev argues that since the payment had already been made and
-      he had spent the money, he should not be required to refund it.
-    </p>
-
-    <p>
-      The Company Secretary informs him that excess remuneration has to be
-      refunded within the prescribed period and, until refunded, the amount is
-      held by the director in trust for the company.
-    </p>
-  `,
+      <p>Metro Infrastructure Limited paid remuneration of ₹18 lakh to its Managing Director, Mr. Dev, during the financial year. Subsequently, it was determined that only ₹12 lakh was permissible under the applicable provisions of the Companies Act, 2013.</p>
+      <p>The excess remuneration of ₹6 lakh therefore became refundable to the company. Mr. Dev argues that since the payment had already been made and he had spent the money, he should not be required to refund it.</p>
+      <p>The Company Secretary informs him that excess remuneration has to be refunded within the prescribed period and, until refunded, the amount is held by the director in trust for the company.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS39_Q01",
@@ -4965,25 +3903,10 @@ const AICaseStudies = [
     "Prohibition on Compensation"
   ],
   caseText: `
-    <p>
-      Pioneer Electronics Limited appointed Mr. Sameer as its Managing Director
-      for a five-year term. After three years, the company decides to terminate
-      his office.
-    </p>
-
-    <p>
-      Mr. Sameer claims compensation for loss of office. At the time of his
-      removal, he has two years remaining in his term. His average remuneration
-      during the immediately preceding three years was ₹20 lakh per year.
-    </p>
-
-    <p>
-      During discussions, it is also discovered that Mr. Sameer had been guilty
-      of gross negligence in the conduct of the company's affairs. The Board is
-      therefore examining whether compensation is payable and, if payable, how
-      much can be paid.
-    </p>
-  `,
+      <p>Pioneer Electronics Limited appointed Mr. Sameer as its Managing Director for a five-year term. After three years, the company decides to terminate his office.</p>
+      <p>Mr. Sameer claims compensation for loss of office. At the time of his removal, he has two years remaining in his term. His average remuneration during the immediately preceding three years was ₹20 lakh per year.</p>
+      <p>During discussions, it is also discovered that Mr. Sameer had been guilty of gross negligence in the conduct of the company's affairs. The Board is therefore examining whether compensation is payable and, if payable, how much can be paid.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS40_Q01",
@@ -5022,12 +3945,7 @@ const AICaseStudies = [
       question_id: "CEL_CH2_MEDIUM_CS40_Q05",
       difficulty: "Medium",
       question: "Which of the following is also a ground for prohibition of compensation under Section 202?",
-      options: [
-        "The director receives sitting fees",
-        "The director has been guilty of fraud or breach of trust",
-        "The director has served for five years",
-        "The company has adequate profits",
-      ],
+      options: ["The director receives sitting fees", "The director has been guilty of fraud or breach of trust", "The director has served for five years", "The company has adequate profits"],
       answer: 1
     }
   ]
@@ -5047,31 +3965,11 @@ const AICaseStudies = [
     "Women Directors"
   ],
   caseText: `
-    <p>
-      Vertex Machines Limited is a public company. The Board of Directors is
-      reviewing the sitting fees payable to directors for attending meetings of
-      the Board and its committees.
-    </p>
-
-    <p>
-      At present, the company pays ₹60,000 per meeting to its executive and
-      non-executive directors. Considering the additional responsibilities of
-      certain directors, the Board proposes to pay ₹90,000 per meeting to its
-      independent directors and ₹75,000 per meeting to its woman director.
-    </p>
-
-    <p>
-      Another proposal is placed before the Board to pay ₹1,20,000 per meeting
-      to the Chairman of the Board because of his extensive experience and
-      responsibilities.
-    </p>
-
-    <p>
-      The Company Secretary advises the Board to examine Section 197(5) read
-      with Rule 4 of the Companies (Appointment and Remuneration of Managerial
-      Personnel) Rules, 2014 before approving the proposals.
-    </p>
-  `,
+      <p>Vertex Machines Limited is a public company. The Board of Directors is reviewing the sitting fees payable to directors for attending meetings of the Board and its committees.</p>
+      <p>At present, the company pays ₹60,000 per meeting to its executive and non-executive directors. Considering the additional responsibilities of certain directors, the Board proposes to pay ₹90,000 per meeting to its independent directors and ₹75,000 per meeting to its woman director.</p>
+      <p>Another proposal is placed before the Board to pay ₹1,20,000 per meeting to the Chairman of the Board because of his extensive experience and responsibilities.</p>
+      <p>The Company Secretary advises the Board to examine Section 197(5) read with Rule 4 of the Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014 before approving the proposals.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS41_Q01",
@@ -5120,12 +4018,7 @@ const AICaseStudies = [
       question_id: "CEL_CH2_MEDIUM_CS41_Q05",
       difficulty: "Medium",
       question: "For computing the percentage limits of managerial remuneration under Section 197(1), sitting fees are:",
-      options: [
-        "Included within those percentage limits",
-        "Exclusive of those percentage limits",
-        "Treated as capital expenditure",
-        "Prohibited for all directors receiving remuneration",
-      ],
+      options: ["Included within those percentage limits", "Exclusive of those percentage limits", "Treated as capital expenditure", "Prohibited for all directors receiving remuneration"],
       answer: 1
     }
   ]
@@ -5145,28 +4038,10 @@ const AICaseStudies = [
     "Nomination and Remuneration Committee"
   ],
   caseText: `
-    <p>
-      MediCare Hospitals Limited operates a chain of specialised hospitals.
-      Dr. Aryan, a renowned cardiac surgeon, is also a director of the company.
-      Apart from performing his duties as a director, Dr. Aryan regularly
-      performs complicated cardiac surgeries for patients of the hospitals.
-    </p>
-
-    <p>
-      The company pays him remuneration for his services as director. It now
-      proposes to pay him a separate professional fee of ₹3,00,000 for each
-      complicated cardiac surgery performed by him.
-    </p>
-
-    <p>
-      The finance department argues that every payment made to a director must
-      necessarily be included while computing his managerial remuneration.
-      However, the Company Secretary points out that Section 197(4) contains
-      an exception where services rendered in another capacity are of a
-      professional nature and the director possesses the requisite professional
-      qualification.
-    </p>
-  `,
+      <p>MediCare Hospitals Limited operates a chain of specialised hospitals. Dr. Aryan, a renowned cardiac surgeon, is also a director of the company. Apart from performing his duties as a director, Dr. Aryan regularly performs complicated cardiac surgeries for patients of the hospitals.</p>
+      <p>The company pays him remuneration for his services as director. It now proposes to pay him a separate professional fee of ₹3,00,000 for each complicated cardiac surgery performed by him.</p>
+      <p>The finance department argues that every payment made to a director must necessarily be included while computing his managerial remuneration. However, the Company Secretary points out that Section 197(4) contains an exception where services rendered in another capacity are of a professional nature and the director possesses the requisite professional qualification.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS42_Q01",
@@ -5230,27 +4105,10 @@ const AICaseStudies = [
     "Remuneration"
   ],
   caseText: `
-    <p>
-      Secure Finance Limited has taken an insurance policy on behalf of its
-      Managing Director, Chief Executive Officer, Chief Financial Officer and
-      Company Secretary. The policy indemnifies them against liabilities arising
-      from negligence, default, misfeasance, breach of duty or breach of trust
-      in relation to the company.
-    </p>
-
-    <p>
-      The company pays the entire insurance premium. At the time the policy is
-      taken, the accounts department does not treat the premium as part of the
-      remuneration of the concerned managerial personnel.
-    </p>
-
-    <p>
-      Subsequently, proceedings are initiated against the CFO, and he is
-      ultimately proved guilty of breach of duty in relation to the company.
-      The Board wants to determine the treatment of the insurance premium under
-      Section 197(13).
-    </p>
-  `,
+      <p>Secure Finance Limited has taken an insurance policy on behalf of its Managing Director, Chief Executive Officer, Chief Financial Officer and Company Secretary. The policy indemnifies them against liabilities arising from negligence, default, misfeasance, breach of duty or breach of trust in relation to the company.</p>
+      <p>The company pays the entire insurance premium. At the time the policy is taken, the accounts department does not treat the premium as part of the remuneration of the concerned managerial personnel.</p>
+      <p>Subsequently, proceedings are initiated against the CFO, and he is ultimately proved guilty of breach of duty in relation to the company. The Board wants to determine the treatment of the insurance premium under Section 197(13).</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS43_Q01",
@@ -5304,38 +4162,16 @@ const AICaseStudies = [
     "Past Managerial Personnel"
   ],
   caseText: `
-    <p>
-      Alpha Retail Limited discovered a material non-compliance with the
-      requirements of the Companies Act, 2013 relating to its financial
-      statements for the financial year 2023-24. The company is consequently
-      required to restate those financial statements.
-    </p>
-
-    <p>
-      After restatement, it is found that the remuneration that should have been
-      payable to the then Managing Director, Mr. Rohan, was ₹45 lakh. However,
-      based on the original financial statements, he had actually received
-      ₹58 lakh, including benefits covered by the relevant provisions.
-    </p>
-
-    <p>
-      Mr. Rohan retired from the company before the restatement. He argues that
-      since he is no longer associated with Alpha Retail Limited and no fraud
-      has personally been established against him, the company cannot recover
-      anything from him.
-    </p>
-  `,
+      <p>Alpha Retail Limited discovered a material non-compliance with the requirements of the Companies Act, 2013 relating to its financial statements for the financial year 2023-24. The company is consequently required to restate those financial statements.</p>
+      <p>After restatement, it is found that the remuneration that should have been payable to the then Managing Director, Mr. Rohan, was ₹45 lakh. However, based on the original financial statements, he had actually received ₹58 lakh, including benefits covered by the relevant provisions.</p>
+      <p>Mr. Rohan retired from the company before the restatement. He argues that since he is no longer associated with Alpha Retail Limited and no fraud has personally been established against him, the company cannot recover anything from him.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS44_Q01",
       difficulty: "Medium",
       question: "Section 199 may apply where financial statements are required to be restated due to:",
-      options: [
-        "Fraud only",
-        "Fraud or non-compliance with requirements under the Companies Act, 2013 and rules thereunder",
-        "Change of auditor only",
-        "Change in registered office",
-      ],
+      options: ["Fraud only", "Fraud or non-compliance with requirements under the Companies Act, 2013 and rules thereunder", "Change of auditor only", "Change in registered office"],
       answer: 1
     },
     {
@@ -5398,27 +4234,10 @@ const AICaseStudies = [
     "Corporate Governance"
   ],
   caseText: `
-    <p>
-      Horizon Industries Limited has appointed Ms. Nisha as its whole-time
-      Company Secretary. The Managing Director tells her that her role is
-      restricted to maintaining statutory registers and filing forms with the
-      Registrar of Companies.
-    </p>
-
-    <p>
-      Ms. Nisha explains that the Companies Act, 2013 assigns wider functions
-      to a Company Secretary. These include reporting to the Board regarding
-      compliance, ensuring compliance with applicable secretarial standards,
-      providing guidance to directors regarding their duties and powers,
-      facilitating meetings and maintaining minutes.
-    </p>
-
-    <p>
-      She further states that she may assist and advise the Board on corporate
-      governance matters and represent the company before regulators and other
-      authorities in connection with discharge of duties under the Act.
-    </p>
-  `,
+      <p>Horizon Industries Limited has appointed Ms. Nisha as its whole-time Company Secretary. The Managing Director tells her that her role is restricted to maintaining statutory registers and filing forms with the Registrar of Companies.</p>
+      <p>Ms. Nisha explains that the Companies Act, 2013 assigns wider functions to a Company Secretary. These include reporting to the Board regarding compliance, ensuring compliance with applicable secretarial standards, providing guidance to directors regarding their duties and powers, facilitating meetings and maintaining minutes.</p>
+      <p>She further states that she may assist and advise the Board on corporate governance matters and represent the company before regulators and other authorities in connection with discharge of duties under the Act.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS45_Q01",
@@ -5436,12 +4255,7 @@ const AICaseStudies = [
       question_id: "CEL_CH2_MEDIUM_CS45_Q02",
       difficulty: "Medium",
       question: "Which of the following is a function of the Company Secretary?",
-      options: [
-        "Ensuring compliance with applicable secretarial standards",
-        "Determining the company's income tax independently",
-        "Replacing the Board of Directors",
-        "Acting as statutory auditor",
-      ],
+      options: ["Ensuring compliance with applicable secretarial standards", "Determining the company's income tax independently", "Replacing the Board of Directors", "Acting as statutory auditor"],
       answer: 0
     },
     {
@@ -5488,29 +4302,10 @@ const AICaseStudies = [
     "Manager"
   ],
   caseText: `
-    <p>
-      Royal Consumer Products Limited has appointed Mr. Karan as its Managing
-      Director and entrusted him with substantial powers of management of the
-      affairs of the company. He continues to function under the overall
-      supervision and control of the Board of Directors.
-    </p>
-
-    <p>
-      The company now proposes to appoint Mr. Raghav as "Manager – Operations".
-      Under the proposed arrangement, Mr. Raghav will be responsible only for
-      the company's manufacturing and logistics division. He will have no
-      authority over the finance, marketing, human resources or other major
-      functions of the company.
-    </p>
-
-    <p>
-      One director objects to the proposal on the ground that Section 196(1)
-      prohibits a company from appointing a Managing Director and a Manager at
-      the same time. The Company Secretary states that it is first necessary to
-      determine whether Mr. Raghav is a "manager" within the statutory meaning
-      of Section 2(53).
-    </p>
-  `,
+      <p>Royal Consumer Products Limited has appointed Mr. Karan as its Managing Director and entrusted him with substantial powers of management of the affairs of the company. He continues to function under the overall supervision and control of the Board of Directors.</p>
+      <p>The company now proposes to appoint Mr. Raghav as "Manager – Operations". Under the proposed arrangement, Mr. Raghav will be responsible only for the company's manufacturing and logistics division. He will have no authority over the finance, marketing, human resources or other major functions of the company.</p>
+      <p>One director objects to the proposal on the ground that Section 196(1) prohibits a company from appointing a Managing Director and a Manager at the same time. The Company Secretary states that it is first necessary to determine whether Mr. Raghav is a "manager" within the statutory meaning of Section 2(53).</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS41_Q01",
@@ -5585,25 +4380,10 @@ const AICaseStudies = [
     "Women Directors"
   ],
   caseText: `
-    <p>
-      Stellar Motors Limited proposes to revise the sitting fees payable to its
-      directors for attending meetings of the Board and its committees. The Board
-      proposes ₹90,000 per meeting for ordinary non-executive directors and
-      ₹75,000 per meeting for independent directors.
-    </p>
-
-    <p>
-      The company also has Ms. Kavya as its Woman Director. The Board proposes
-      to pay her ₹70,000 per meeting on the ground that she recently joined the
-      company and has less experience than the other directors.
-    </p>
-
-    <p>
-      The Company Secretary advises the Board to examine Section 197(5) read with
-      Rule 4 of the Companies (Appointment and Remuneration of Managerial
-      Personnel) Rules, 2014 before implementing the proposed fee structure.
-    </p>
-  `,
+      <p>Stellar Motors Limited proposes to revise the sitting fees payable to its directors for attending meetings of the Board and its committees. The Board proposes ₹90,000 per meeting for ordinary non-executive directors and ₹75,000 per meeting for independent directors.</p>
+      <p>The company also has Ms. Kavya as its Woman Director. The Board proposes to pay her ₹70,000 per meeting on the ground that she recently joined the company and has less experience than the other directors.</p>
+      <p>The Company Secretary advises the Board to examine Section 197(5) read with Rule 4 of the Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014 before implementing the proposed fee structure.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS42_Q01",
@@ -5616,12 +4396,7 @@ const AICaseStudies = [
       question_id: "CEL_CH2_MEDIUM_CS42_Q02",
       difficulty: "Medium",
       question: "The proposed sitting fee of ₹90,000 per meeting for ordinary non-executive directors is:",
-      options: [
-        "Within the prescribed ceiling",
-        "Invalid because sitting fees cannot exceed ₹50,000",
-        "Invalid unless Central Government approval is obtained",
-        "Valid only for private companies",
-      ],
+      options: ["Within the prescribed ceiling", "Invalid because sitting fees cannot exceed ₹50,000", "Invalid unless Central Government approval is obtained", "Valid only for private companies"],
       answer: 0
     },
     {
@@ -5672,26 +4447,10 @@ const AICaseStudies = [
     "Nomination and Remuneration Committee"
   ],
   caseText: `
-    <p>
-      Medistar Hospitals Limited operates a chain of multi-speciality hospitals.
-      Dr. Aryan, a renowned cardiac surgeon, has recently been appointed as a
-      non-executive director of the company.
-    </p>
-
-    <p>
-      Apart from attending Board meetings, Dr. Aryan continues to perform complex
-      cardiac surgeries at hospitals operated by the company. The company proposes
-      to pay him professional fees of ₹3 lakh for each surgery in addition to the
-      remuneration payable to him as a director.
-    </p>
-
-    <p>
-      Medistar Hospitals Limited is required to constitute a Nomination and
-      Remuneration Committee under Section 178(1). The committee is satisfied
-      that Dr. Aryan possesses the requisite professional qualifications for
-      practising as a cardiac surgeon.
-    </p>
-  `,
+      <p>Medistar Hospitals Limited operates a chain of multi-speciality hospitals. Dr. Aryan, a renowned cardiac surgeon, has recently been appointed as a non-executive director of the company.</p>
+      <p>Apart from attending Board meetings, Dr. Aryan continues to perform complex cardiac surgeries at hospitals operated by the company. The company proposes to pay him professional fees of ₹3 lakh for each surgery in addition to the remuneration payable to him as a director.</p>
+      <p>Medistar Hospitals Limited is required to constitute a Nomination and Remuneration Committee under Section 178(1). The committee is satisfied that Dr. Aryan possesses the requisite professional qualifications for practising as a cardiac surgeon.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS43_Q01",
@@ -5723,12 +4482,7 @@ const AICaseStudies = [
       question_id: "CEL_CH2_MEDIUM_CS43_Q04",
       difficulty: "Medium",
       question: "If the professional-services exception is satisfied, the ₹3 lakh fee per surgery:",
-      options: [
-        "Must necessarily be included in the managerial remuneration ceiling",
-        "Need not be included in managerial remuneration",
-        "Cannot legally be paid",
-        "Must be treated as sitting fees",
-      ],
+      options: ["Must necessarily be included in the managerial remuneration ceiling", "Need not be included in managerial remuneration", "Cannot legally be paid", "Must be treated as sitting fees"],
       answer: 1
     },
     {
@@ -5755,26 +4509,10 @@ const AICaseStudies = [
     "Managerial Remuneration"
   ],
   caseText: `
-    <p>
-      Quantum Energy Limited takes an insurance policy on behalf of its Managing
-      Director, Whole-time Director, Chief Financial Officer and Company Secretary.
-      The policy indemnifies them against liabilities arising from negligence,
-      default, misfeasance, breach of duty or breach of trust in relation to the
-      company.
-    </p>
-
-    <p>
-      The company pays the entire insurance premium. At the time the policy is
-      taken, none of the covered managerial personnel has been proved guilty of
-      any misconduct.
-    </p>
-
-    <p>
-      Two years later, proceedings against the Chief Financial Officer conclude,
-      and he is proved guilty of breach of duty. The finance department seeks
-      advice on the treatment of the premium paid by the company.
-    </p>
-  `,
+      <p>Quantum Energy Limited takes an insurance policy on behalf of its Managing Director, Whole-time Director, Chief Financial Officer and Company Secretary. The policy indemnifies them against liabilities arising from negligence, default, misfeasance, breach of duty or breach of trust in relation to the company.</p>
+      <p>The company pays the entire insurance premium. At the time the policy is taken, none of the covered managerial personnel has been proved guilty of any misconduct.</p>
+      <p>Two years later, proceedings against the Chief Financial Officer conclude, and he is proved guilty of breach of duty. The finance department seeks advice on the treatment of the premium paid by the company.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS44_Q01",
@@ -5828,27 +4566,10 @@ const AICaseStudies = [
     "Past and Present Managerial Personnel"
   ],
   caseText: `
-    <p>
-      Galaxy Retail Limited discovers material non-compliance with requirements
-      of the Companies Act, 2013 in its financial statements for the financial
-      year 2024-25. Consequently, the company is required to restate those
-      financial statements.
-    </p>
-
-    <p>
-      Mr. Vishal was the Managing Director during 2024-25 but retired from the
-      company in 2026. Based on the original financial statements, he had received
-      remuneration of ₹72 lakh, including benefits covered by the relevant
-      provisions.
-    </p>
-
-    <p>
-      After restatement, it is determined that the remuneration which would
-      actually have been payable to him was only ₹60 lakh. Mr. Vishal argues that
-      the company cannot recover anything because he has already retired and the
-      restatement arose from non-compliance rather than fraud.
-    </p>
-  `,
+      <p>Galaxy Retail Limited discovers material non-compliance with requirements of the Companies Act, 2013 in its financial statements for the financial year 2024-25. Consequently, the company is required to restate those financial statements.</p>
+      <p>Mr. Vishal was the Managing Director during 2024-25 but retired from the company in 2026. Based on the original financial statements, he had received remuneration of ₹72 lakh, including benefits covered by the relevant provisions.</p>
+      <p>After restatement, it is determined that the remuneration which would actually have been payable to him was only ₹60 lakh. Mr. Vishal argues that the company cannot recover anything because he has already retired and the restatement arose from non-compliance rather than fraud.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS45_Q01",
@@ -5917,25 +4638,10 @@ const AICaseStudies = [
     "Whole-time KMP"
   ],
   caseText: `
-    <p>
-      Prime Infrastructure Limited is a listed public company. The company has
-      a Managing Director but has not appointed a whole-time Company Secretary
-      or Chief Financial Officer. The Board argues that since the company already
-      has a Managing Director, appointment of other whole-time KMPs is optional.
-    </p>
-
-    <p>
-      The Company Secretary in practice advising the company points out that
-      every company belonging to the prescribed class is required to have the
-      prescribed whole-time Key Managerial Personnel.
-    </p>
-
-    <p>
-      The Board also proposes to appoint a whole-time CFO through an informal
-      understanding with the Managing Director instead of passing a formal
-      Board resolution.
-    </p>
-  `,
+      <p>Prime Infrastructure Limited is a listed public company. The company has a Managing Director but has not appointed a whole-time Company Secretary or Chief Financial Officer. The Board argues that since the company already has a Managing Director, appointment of other whole-time KMPs is optional.</p>
+      <p>The Company Secretary in practice advising the company points out that every company belonging to the prescribed class is required to have the prescribed whole-time Key Managerial Personnel.</p>
+      <p>The Board also proposes to appoint a whole-time CFO through an informal understanding with the Managing Director instead of passing a formal Board resolution.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS46_Q01",
@@ -5969,12 +4675,7 @@ const AICaseStudies = [
       question_id: "CEL_CH2_MEDIUM_CS46_Q05",
       difficulty: "Medium",
       question: "The Board's argument that appointment of CFO and CS is optional merely because an MD exists is:",
-      options: [
-        "Correct",
-        "Incorrect because prescribed companies must comply with the KMP requirements",
-        "Correct only for listed companies",
-        "Correct only where profits are inadequate",
-      ],
+      options: ["Correct", "Incorrect because prescribed companies must comply with the KMP requirements", "Correct only for listed companies", "Correct only where profits are inadequate"],
       answer: 1
     }
   ]
@@ -5995,26 +4696,10 @@ const AICaseStudies = [
     "Multiple Businesses"
   ],
   caseText: `
-    <p>
-      Diversified Industries Limited is a public company engaged in several
-      independent businesses. Its Articles provide that the Chairperson may also
-      hold the office of Managing Director.
-    </p>
-
-    <p>
-      The Board proposes to appoint Mr. Karan as Chairperson as well as Managing
-      Director. One shareholder objects to the proposal on the ground that an
-      individual cannot simultaneously be Chairperson and Managing Director.
-    </p>
-
-    <p>
-      The Company Secretary explains that Section 203 contains a restriction on
-      such simultaneous appointment, but also provides exceptions. The Articles
-      may permit such combination. Further, certain prescribed companies engaged
-      in multiple businesses and having CEOs for each business are covered by a
-      specific exemption.
-    </p>
-  `,
+      <p>Diversified Industries Limited is a public company engaged in several independent businesses. Its Articles provide that the Chairperson may also hold the office of Managing Director.</p>
+      <p>The Board proposes to appoint Mr. Karan as Chairperson as well as Managing Director. One shareholder objects to the proposal on the ground that an individual cannot simultaneously be Chairperson and Managing Director.</p>
+      <p>The Company Secretary explains that Section 203 contains a restriction on such simultaneous appointment, but also provides exceptions. The Articles may permit such combination. Further, certain prescribed companies engaged in multiple businesses and having CEOs for each business are covered by a specific exemption.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS47_Q01",
@@ -6034,12 +4719,7 @@ const AICaseStudies = [
       question_id: "CEL_CH2_MEDIUM_CS47_Q03",
       difficulty: "Medium",
       question: "The special class of companies covered by the second proviso relates to companies which:",
-      options: [
-        "Have only one business",
-        "Are engaged in multiple businesses and have appointed one or more CEOs for each business",
-        "Have no CEO",
-        "Have only private shareholders",
-      ],
+      options: ["Have only one business", "Are engaged in multiple businesses and have appointed one or more CEOs for each business", "Have no CEO", "Have only private shareholders"],
       answer: 1
     },
     {
@@ -6073,37 +4753,16 @@ const AICaseStudies = [
     "Consent of Directors"
   ],
   caseText: `
-    <p>
-      Stellar Holdings Limited proposes to appoint Mr. Vikram as its Managing
-      Director. Mr. Vikram is already the Managing Director of another company.
-      He is therefore potentially holding the position of MD in two companies.
-    </p>
-
-    <p>
-      The Board of Stellar Holdings Limited gives a specific notice of the Board
-      meeting to all directors in India. At the meeting, eight directors are
-      present. Six directors vote in favour of Mr. Vikram's appointment while two
-      directors abstain.
-    </p>
-
-    <p>
-      The Company Secretary advises that merely obtaining a majority of votes is
-      insufficient in this particular situation because the law requires the
-      resolution to be passed with the consent of all directors present at the
-      meeting.
-    </p>
-  `,
+      <p>Stellar Holdings Limited proposes to appoint Mr. Vikram as its Managing Director. Mr. Vikram is already the Managing Director of another company. He is therefore potentially holding the position of MD in two companies.</p>
+      <p>The Board of Stellar Holdings Limited gives a specific notice of the Board meeting to all directors in India. At the meeting, eight directors are present. Six directors vote in favour of Mr. Vikram's appointment while two directors abstain.</p>
+      <p>The Company Secretary advises that merely obtaining a majority of votes is insufficient in this particular situation because the law requires the resolution to be passed with the consent of all directors present at the meeting.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS48_Q01",
       difficulty: "Medium",
       question: "A person may, subject to the prescribed conditions, be MD/Manager in:",
-      options: [
-        "Unlimited companies simultaneously",
-        "One company and not more than one other company",
-        "Only one company in all circumstances",
-        "Three unrelated companies automatically",
-      ],
+      options: ["Unlimited companies simultaneously", "One company and not more than one other company", "Only one company in all circumstances", "Three unrelated companies automatically"],
       answer: 1
     },
     {
@@ -6117,12 +4776,7 @@ const AICaseStudies = [
       question_id: "CEL_CH2_MEDIUM_CS48_Q03",
       difficulty: "Medium",
       question: "In the given case, eight directors are present and only six consent. The appointment is:",
-      options: [
-        "Valid because six is a majority",
-        "Valid because two directors abstained",
-        "Not valid because consent of all directors present is required",
-        "Valid after AGM approval automatically",
-      ],
+      options: ["Valid because six is a majority", "Valid because two directors abstained", "Not valid because consent of all directors present is required", "Valid after AGM approval automatically"],
       answer: 2
     },
     {
@@ -6157,25 +4811,10 @@ const AICaseStudies = [
     "Registrar Filing"
   ],
   caseText: `
-    <p>
-      Eastern Motors Limited appoints Mr. Sameer as its Whole-time Director.
-      The Board approves the appointment and its terms and conditions at a Board
-      meeting. The shareholders subsequently approve the appointment at the next
-      general meeting.
-    </p>
-
-    <p>
-      The terms of appointment are at variance with the conditions specified in
-      Part I of Schedule V. The Company Secretary therefore informs the Board
-      that an application for approval of the Central Government is required.
-    </p>
-
-    <p>
-      The Board also wants to ensure that all statutory filings are completed
-      within the prescribed time. The Company Secretary prepares the relevant
-      form and plans to file the return with the Registrar.
-    </p>
-  `,
+      <p>Eastern Motors Limited appoints Mr. Sameer as its Whole-time Director. The Board approves the appointment and its terms and conditions at a Board meeting. The shareholders subsequently approve the appointment at the next general meeting.</p>
+      <p>The terms of appointment are at variance with the conditions specified in Part I of Schedule V. The Company Secretary therefore informs the Board that an application for approval of the Central Government is required.</p>
+      <p>The Board also wants to ensure that all statutory filings are completed within the prescribed time. The Company Secretary prepares the relevant form and plans to file the return with the Registrar.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS49_Q01",
@@ -6230,32 +4869,11 @@ const AICaseStudies = [
     "Board's Report"
   ],
   caseText: `
-    <p>
-      National Chemicals Limited is a public company. Based on its latest
-      audited financial statements, its paid-up share capital is ₹55 crore,
-      turnover is ₹180 crore and outstanding borrowings from banks and public
-      financial institutions are ₹80 crore.
-    </p>
-
-    <p>
-      The management initially believes that secretarial audit is not necessary
-      because the turnover is below ₹250 crore and outstanding borrowings are
-      below ₹100 crore.
-    </p>
-
-    <p>
-      The Company Secretary points out that the company crosses the prescribed
-      paid-up share capital threshold of ₹50 crore. Accordingly, secretarial
-      audit is applicable.
-    </p>
-
-    <p>
-      The company appoints a Company Secretary in Practice to conduct the
-      secretarial audit. The auditor makes certain observations in the report.
-      The Board is required to consider how those observations should be dealt
-      with in its Board's Report.
-    </p>
-  `,
+      <p>National Chemicals Limited is a public company. Based on its latest audited financial statements, its paid-up share capital is ₹55 crore, turnover is ₹180 crore and outstanding borrowings from banks and public financial institutions are ₹80 crore.</p>
+      <p>The management initially believes that secretarial audit is not necessary because the turnover is below ₹250 crore and outstanding borrowings are below ₹100 crore.</p>
+      <p>The Company Secretary points out that the company crosses the prescribed paid-up share capital threshold of ₹50 crore. Accordingly, secretarial audit is applicable.</p>
+      <p>The company appoints a Company Secretary in Practice to conduct the secretarial audit. The auditor makes certain observations in the report. The Board is required to consider how those observations should be dealt with in its Board's Report.</p>
+    `,
   questions: [
     {
       question_id: "CEL_CH2_MEDIUM_CS50_Q01",
@@ -6314,51 +4932,12 @@ const AICaseStudies = [
         "Section 196"
     ],
     caseText: `
-        <p>
-            <strong>Pragati Engineering Limited</strong> is a public company engaged in
-            the manufacture of industrial machinery. The company presently has a
-            Managing Director, Mr. Arjun Mehta, whose five-year tenure is due to expire
-            on 30 June 2027.
-        </p>
-
-        <p>
-            The Board is considering the future managerial structure of the company.
-            One proposal is to re-appoint Mr. Arjun Mehta for another five-year term.
-            The Board proposes to approve his re-appointment in its meeting scheduled
-            for 15 August 2026 and place the matter before the shareholders at the next
-            general meeting.
-        </p>
-
-        <p>
-            Another proposal is to appoint Mr. Bharat Rao as Manager for a period of
-            five years from 1 July 2027. Some directors believe that since Mr. Arjun
-            Mehta's tenure as Managing Director would have expired before Mr. Bharat
-            Rao's appointment takes effect, both appointments can coexist during the
-            transition period.
-        </p>
-
-        <p>
-            During its discussion, the Board also identifies Ms. Charu Sharma, aged
-            72 years, as a possible candidate for Managing Director. The Board is
-            informed that a person who has attained the age of 70 years may be
-            appointed if the required special resolution is passed by the company in
-            general meeting and the explanatory statement contains the justification
-            for such appointment.
-        </p>
-
-        <p>
-            The company also considers appointing Mr. Dev as Manager of its Finance
-            Department. Mr. Dev would be responsible only for the finance department
-            and would work under the overall supervision of the Managing Director and
-            the Board. Some directors argue that appointing Mr. Dev as Manager would
-            violate the prohibition against appointing a Managing Director and Manager
-            simultaneously.
-        </p>
-
-        <p>
-            The Board seeks advice on the correct application of the provisions relating
-            to appointment and re-appointment of managerial personnel.
-        </p>
+      <p><strong>Pragati Engineering Limited</strong> is a public company engaged in the manufacture of industrial machinery. The company presently has a Managing Director, Mr. Arjun Mehta, whose five-year tenure is due to expire on 30 June 2027.</p>
+      <p>The Board is considering the future managerial structure of the company. One proposal is to re-appoint Mr. Arjun Mehta for another five-year term. The Board proposes to approve his re-appointment in its meeting scheduled for 15 August 2026 and place the matter before the shareholders at the next general meeting.</p>
+      <p>Another proposal is to appoint Mr. Bharat Rao as Manager for a period of five years from 1 July 2027. Some directors believe that since Mr. Arjun Mehta's tenure as Managing Director would have expired before Mr. Bharat Rao's appointment takes effect, both appointments can coexist during the transition period.</p>
+      <p>During its discussion, the Board also identifies Ms. Charu Sharma, aged 72 years, as a possible candidate for Managing Director. The Board is informed that a person who has attained the age of 70 years may be appointed if the required special resolution is passed by the company in general meeting and the explanatory statement contains the justification for such appointment.</p>
+      <p>The company also considers appointing Mr. Dev as Manager of its Finance Department. Mr. Dev would be responsible only for the finance department and would work under the overall supervision of the Managing Director and the Board. Some directors argue that appointing Mr. Dev as Manager would violate the prohibition against appointing a Managing Director and Manager simultaneously.</p>
+      <p>The Board seeks advice on the correct application of the provisions relating to appointment and re-appointment of managerial personnel.</p>
     `,
     questions: [
         {
@@ -6495,45 +5074,12 @@ const AICaseStudies = [
         "Vacancy of KMP"
     ],
     caseText: `
-        <p>
-            <strong>Vertex Consumer Products Limited</strong> is a listed public
-            company. The company has a Managing Director, a Company Secretary and
-            a Chief Financial Officer as its whole-time Key Managerial Personnel.
-        </p>
-
-        <p>
-            Mr. Rohan Kapoor, who is the Chief Financial Officer of Vertex Consumer
-            Products Limited, has been approached by its wholly-owned subsidiary,
-            Vertex Consumer Products Manufacturing Private Limited, to become a
-            whole-time director. Mr. Rohan wishes to continue as CFO of the holding
-            company while accepting the proposed office in the subsidiary.
-        </p>
-
-        <p>
-            At the same time, the company proposes to appoint Ms. Neha as Company
-            Secretary. The Board plans to pass the resolution through circulation
-            because the directors consider the appointment routine and do not wish
-            to convene a Board meeting.
-        </p>
-
-        <p>
-            Shortly afterwards, the existing CFO resigns from Vertex Consumer Products
-            Limited. The Board decides to appoint a replacement after eight months,
-            stating that the company needs sufficient time to identify a suitable
-            candidate.
-        </p>
-
-        <p>
-            The Board also considers appointing Mr. Sameer, who is already the
-            Managing Director of another company, as the Managing Director of Vertex.
-            The directors intend to pass the resolution by a simple majority of the
-            directors present at the meeting.
-        </p>
-
-        <p>
-            The company seeks advice regarding the restrictions and procedural
-            requirements applicable to whole-time KMPs and managerial personnel.
-        </p>
+      <p><strong>Vertex Consumer Products Limited</strong> is a listed public company. The company has a Managing Director, a Company Secretary and a Chief Financial Officer as its whole-time Key Managerial Personnel.</p>
+      <p>Mr. Rohan Kapoor, who is the Chief Financial Officer of Vertex Consumer Products Limited, has been approached by its wholly-owned subsidiary, Vertex Consumer Products Manufacturing Private Limited, to become a whole-time director. Mr. Rohan wishes to continue as CFO of the holding company while accepting the proposed office in the subsidiary.</p>
+      <p>At the same time, the company proposes to appoint Ms. Neha as Company Secretary. The Board plans to pass the resolution through circulation because the directors consider the appointment routine and do not wish to convene a Board meeting.</p>
+      <p>Shortly afterwards, the existing CFO resigns from Vertex Consumer Products Limited. The Board decides to appoint a replacement after eight months, stating that the company needs sufficient time to identify a suitable candidate.</p>
+      <p>The Board also considers appointing Mr. Sameer, who is already the Managing Director of another company, as the Managing Director of Vertex. The directors intend to pass the resolution by a simple majority of the directors present at the meeting.</p>
+      <p>The company seeks advice regarding the restrictions and procedural requirements applicable to whole-time KMPs and managerial personnel.</p>
     `,
     questions: [
         {
@@ -6662,43 +5208,11 @@ const AICaseStudies = [
         "Board Responsibilities"
     ],
     caseText: `
-        <p>
-            <strong>Zenith Infrastructure Limited</strong> is a listed company
-            having a whole-time Company Secretary, Ms. Priya Menon. During the
-            financial year, the Board of Directors assigns her several responsibilities
-            relating to corporate compliance and governance.
-        </p>
-
-        <p>
-            Ms. Priya is required to report to the Board regarding compliance with
-            the Companies Act, 2013, the rules made thereunder and other applicable
-            laws. She is also asked to ensure compliance with applicable secretarial
-            standards and to provide guidance to directors regarding their duties,
-            responsibilities and powers.
-        </p>
-
-        <p>
-            The company is preparing for its forthcoming Board and general meetings.
-            Ms. Priya is responsible for facilitating the convening of the meetings,
-            attending them and maintaining the minutes. She is also asked to obtain
-            necessary approvals from the Board, general meeting, Government and
-            other authorities wherever required.
-        </p>
-
-        <p>
-            During an internal review, some directors argue that since the Company
-            Secretary is responsible for compliance, the Board and Managing Director
-            should no longer be personally responsible for compliance failures.
-            Another director suggests that the Company Secretary should represent
-            the company before regulators and assist the Board in maintaining good
-            corporate governance.
-        </p>
-
-        <p>
-            The Board seeks advice regarding the precise scope of the Company
-            Secretary's statutory functions and whether assigning these duties
-            reduces the responsibilities of other key functionaries.
-        </p>
+      <p><strong>Zenith Infrastructure Limited</strong> is a listed company having a whole-time Company Secretary, Ms. Priya Menon. During the financial year, the Board of Directors assigns her several responsibilities relating to corporate compliance and governance.</p>
+      <p>Ms. Priya is required to report to the Board regarding compliance with the Companies Act, 2013, the rules made thereunder and other applicable laws. She is also asked to ensure compliance with applicable secretarial standards and to provide guidance to directors regarding their duties, responsibilities and powers.</p>
+      <p>The company is preparing for its forthcoming Board and general meetings. Ms. Priya is responsible for facilitating the convening of the meetings, attending them and maintaining the minutes. She is also asked to obtain necessary approvals from the Board, general meeting, Government and other authorities wherever required.</p>
+      <p>During an internal review, some directors argue that since the Company Secretary is responsible for compliance, the Board and Managing Director should no longer be personally responsible for compliance failures. Another director suggests that the Company Secretary should represent the company before regulators and assist the Board in maintaining good corporate governance.</p>
+      <p>The Board seeks advice regarding the precise scope of the Company Secretary's statutory functions and whether assigning these duties reduces the responsibilities of other key functionaries.</p>
     `,
     questions: [
         {
@@ -6827,46 +5341,11 @@ const AICaseStudies = [
         "Special Resolution"
     ],
     caseText: `
-        <p>
-            <strong>Alpha Technologies Limited</strong> is a public company having
-            adequate profits during the financial year 2026-27. The company has
-            one Managing Director, Mr. Karan, and two Whole-time Directors,
-            Ms. Riya and Mr. Sameer. It also has four directors who are neither
-            Managing Directors nor Whole-time Directors.
-        </p>
-
-        <p>
-            The Board proposes to determine the remuneration payable to its
-            managerial personnel and other directors by reference to the net
-            profits of the company computed in accordance with Section 198.
-            The Board is aware that the overall managerial remuneration payable
-            to directors, including the Managing Director, Whole-time Directors
-            and Manager, is subject to a statutory ceiling.
-        </p>
-
-        <p>
-            The company proposes to pay Mr. Karan, the Managing Director, 5% of
-            the net profits. The two Whole-time Directors together are proposed
-            to receive another 5% of the net profits. The four other directors
-            are proposed to receive remuneration aggregating to 2% of the net
-            profits.
-        </p>
-
-        <p>
-            Some directors argue that each category can be considered separately
-            and therefore the company can pay all the proposed amounts without
-            any further approval. Others believe that the aggregate remuneration
-            has to be examined against the overall ceiling and that certain
-            individual limits can be exceeded only through shareholder approval.
-        </p>
-
-        <p>
-            The company has also defaulted in repayment of certain dues to a
-            public financial institution. The Board therefore wants to understand
-            whether the approval of the financial institution is relevant before
-            seeking shareholder approval for remuneration exceeding the prescribed
-            limits.
-        </p>
+      <p><strong>Alpha Technologies Limited</strong> is a public company having adequate profits during the financial year 2026-27. The company has one Managing Director, Mr. Karan, and two Whole-time Directors, Ms. Riya and Mr. Sameer. It also has four directors who are neither Managing Directors nor Whole-time Directors.</p>
+      <p>The Board proposes to determine the remuneration payable to its managerial personnel and other directors by reference to the net profits of the company computed in accordance with Section 198. The Board is aware that the overall managerial remuneration payable to directors, including the Managing Director, Whole-time Directors and Manager, is subject to a statutory ceiling.</p>
+      <p>The company proposes to pay Mr. Karan, the Managing Director, 5% of the net profits. The two Whole-time Directors together are proposed to receive another 5% of the net profits. The four other directors are proposed to receive remuneration aggregating to 2% of the net profits.</p>
+      <p>Some directors argue that each category can be considered separately and therefore the company can pay all the proposed amounts without any further approval. Others believe that the aggregate remuneration has to be examined against the overall ceiling and that certain individual limits can be exceeded only through shareholder approval.</p>
+      <p>The company has also defaulted in repayment of certain dues to a public financial institution. The Board therefore wants to understand whether the approval of the financial institution is relevant before seeking shareholder approval for remuneration exceeding the prescribed limits.</p>
     `,
     questions: [
         {
@@ -6987,42 +5466,11 @@ const AICaseStudies = [
         "Effective Capital"
     ],
     caseText: `
-        <p>
-            <strong>Nova Industrial Systems Limited</strong> is a public company
-            which has suffered inadequate profits during the financial year
-            2026-27. The company has a Managing Director, Mr. Aditya, and a
-            Whole-time Director, Ms. Kavya. Their appointment terms provide that
-            where the company has no profits or inadequate profits, remuneration
-            shall be governed by Schedule V to the Companies Act, 2013.
-        </p>
-
-        <p>
-            The company's effective capital, determined in accordance with
-            Schedule V, is <strong>₹80 crore</strong>. The Board proposes to pay
-            Mr. Aditya managerial remuneration of ₹84 lakh for the year and
-            Ms. Kavya remuneration of ₹84 lakh for the year.
-        </p>
-
-        <p>
-            The finance team points out that the company has also incurred certain
-            accumulated losses and holds investments which have to be considered
-            while determining effective capital. The Board therefore decides to
-            verify the calculation before approving the remuneration.
-        </p>
-
-        <p>
-            The Board further proposes to pay remuneration above the prescribed
-            Schedule V limit if the shareholders approve it. One director argues
-            that an ordinary resolution is sufficient for any excess remuneration,
-            while another director believes that a special resolution is required.
-        </p>
-
-        <p>
-            The company also considers appointing a managerial person for only
-            six months during the financial year and seeks clarification on whether
-            the annual remuneration ceiling should be applied in full or adjusted
-            for the shorter period.
-        </p>
+      <p><strong>Nova Industrial Systems Limited</strong> is a public company which has suffered inadequate profits during the financial year 2026-27. The company has a Managing Director, Mr. Aditya, and a Whole-time Director, Ms. Kavya. Their appointment terms provide that where the company has no profits or inadequate profits, remuneration shall be governed by Schedule V to the Companies Act, 2013.</p>
+      <p>The company's effective capital, determined in accordance with Schedule V, is <strong>₹80 crore</strong>. The Board proposes to pay Mr. Aditya managerial remuneration of ₹84 lakh for the year and Ms. Kavya remuneration of ₹84 lakh for the year.</p>
+      <p>The finance team points out that the company has also incurred certain accumulated losses and holds investments which have to be considered while determining effective capital. The Board therefore decides to verify the calculation before approving the remuneration.</p>
+      <p>The Board further proposes to pay remuneration above the prescribed Schedule V limit if the shareholders approve it. One director argues that an ordinary resolution is sufficient for any excess remuneration, while another director believes that a special resolution is required.</p>
+      <p>The company also considers appointing a managerial person for only six months during the financial year and seeks clarification on whether the annual remuneration ceiling should be applied in full or adjusted for the shorter period.</p>
     `,
     questions: [
         {
@@ -7142,84 +5590,11 @@ const AICaseStudies = [
         "Managerial Remuneration"
     ],
     caseText: `
-        <p>
-            <strong>Orion Manufacturing Limited</strong> is a public company engaged
-            in the manufacture of electrical equipment. During the financial year
-            2026-27, the company has inadequate profits and therefore proposes to
-            determine the remuneration payable to its Managing Director, Mr. Arvind,
-            under Section II of Part II of Schedule V.
-        </p>
-
-        <p>
-            The finance department has prepared the following information as at
-            31 March 2027:
-        </p>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Particulars</th>
-                    <th>Amount (₹ lakh)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Paid-up share capital</td>
-                    <td>600</td>
-                </tr>
-                <tr>
-                    <td>Share premium</td>
-                    <td>80</td>
-                </tr>
-                <tr>
-                    <td>Reserves and surplus</td>
-                    <td>120</td>
-                </tr>
-                <tr>
-                    <td>Revaluation reserve included in reserves</td>
-                    <td>30</td>
-                </tr>
-                <tr>
-                    <td>Long-term loan repayable after one year</td>
-                    <td>100</td>
-                </tr>
-                <tr>
-                    <td>Working capital cash-credit facility</td>
-                    <td>60</td>
-                </tr>
-                <tr>
-                    <td>Investments</td>
-                    <td>50</td>
-                </tr>
-                <tr>
-                    <td>Accumulated losses</td>
-                    <td>40</td>
-                </tr>
-                <tr>
-                    <td>Preliminary expenses not written off</td>
-                    <td>10</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <p>
-            The company proposes to treat the entire reserves and surplus of
-            ₹120 lakh as part of effective capital. It also proposes to include
-            the working capital cash-credit facility on the ground that it is
-            secured against the company's assets.
-        </p>
-
-        <p>
-            Mr. Arvind argues that because the company has inadequate profits,
-            the remuneration ceiling should be determined on the basis of the
-            paid-up capital alone. The finance director, however, states that
-            Schedule V requires a specific computation of effective capital.
-        </p>
-
-        <p>
-            The Board asks its legal adviser to determine the correct effective
-            capital and identify the applicable annual remuneration ceiling.
-        </p>
+      <p><strong>Orion Manufacturing Limited</strong> is a public company engaged in the manufacture of electrical equipment. During the financial year 2026-27, the company has inadequate profits and therefore proposes to determine the remuneration payable to its Managing Director, Mr. Arvind, under Section II of Part II of Schedule V.</p>
+      <p>The finance department has prepared the following information as at 31 March 2027:</p>
+      <p>The company proposes to treat the entire reserves and surplus of ₹120 lakh as part of effective capital. It also proposes to include the working capital cash-credit facility on the ground that it is secured against the company's assets.</p>
+      <p>Mr. Arvind argues that because the company has inadequate profits, the remuneration ceiling should be determined on the basis of the paid-up capital alone. The finance director, however, states that Schedule V requires a specific computation of effective capital.</p>
+      <p>The Board asks its legal adviser to determine the correct effective capital and identify the applicable annual remuneration ceiling.</p>
     `,
     questions: [
         {
@@ -7343,38 +5718,10 @@ const AICaseStudies = [
         "Mode of Payment of Remuneration"
     ],
     caseText: `
-        <p>
-            <strong>Meditech Hospitals Limited</strong> is a listed public company
-            operating a chain of specialised hospitals. Dr. Nikhil Rao is a director
-            of the company and is also a highly qualified practising cardiac surgeon.
-            The company proposes to pay him a fixed monthly remuneration for his
-            services as a director.
-        </p>
-
-        <p>
-            In addition, whenever Dr. Nikhil performs specialised cardiac surgeries
-            for patients of the hospital, the company proposes to pay him professional
-            fees separately on a case-to-case basis. The Nomination and Remuneration
-            Committee is satisfied that Dr. Nikhil possesses the requisite professional
-            qualifications for rendering such services.
-        </p>
-
-        <p>
-            The Board also proposes to pay all directors a sitting fee of ₹1,20,000
-            for every Board meeting. The independent directors object to the proposal,
-            stating that the statutory ceiling on sitting fees is lower.
-        </p>
-
-        <p>
-            One director suggests that sitting fees should be included while calculating
-            the overall 11% ceiling on managerial remuneration. Another director
-            argues that sitting fees are outside that percentage limit.
-        </p>
-
-        <p>
-            The company is also considering whether Dr. Nikhil's remuneration may be
-            paid partly through a monthly payment and partly as a percentage of the
-            company's net profits.
+      <p><strong>Meditech Hospitals Limited</strong> is a listed public company operating a chain of specialised hospitals. Dr. Nikhil Rao is a director of the company and is also a highly qualified practising cardiac surgeon. The company proposes to pay him a fixed monthly remuneration for his services as a director.</p>
+      <p>In addition, whenever Dr. Nikhil performs specialised cardiac surgeries for patients of the hospital, the company proposes to pay him professional fees separately on a case-to-case basis. The Nomination and Remuneration Committee is satisfied that Dr. Nikhil possesses the requisite professional qualifications for rendering such services.</p>
+      <p>The Board also proposes to pay all directors a sitting fee of ₹1,20,000 for every Board meeting. The independent directors object to the proposal, stating that the statutory ceiling on sitting fees is lower.</p>
+      <p>One director suggests that sitting fees should be included while calculating the overall 11% ceiling on managerial remuneration. Another director argues that sitting fees are outside that percentage limit.</p>
     `,
     questions: [
         {
@@ -7485,7 +5832,7 @@ const AICaseStudies = [
         }
     ]
 },
-// Chapter 3
+  // Chapter 3
   // ============================================================
   // CHAPTER 3 – MEETINGS OF BOARD AND ITS POWERS
   // Medium – CASE SCENARIOS 1 TO 10
@@ -7495,20 +5842,8 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 173"],
     caseText: `
-      <p>
-        Alpha Technologies Limited was incorporated on 10th April 2026. The company
-        held its first Board Meeting on 5th May 2026. Thereafter, the Board proposed
-        to hold meetings on 10th August, 15th November and 20th December 2026.
-        One of the directors suggested that since four meetings would be completed
-        during the calendar year, the company would automatically comply with
-        Section 173. Another director pointed out that the interval between two
-        consecutive meetings is also relevant.
-      </p>
-      <p>
-        The Company Secretary was asked to examine whether the proposed schedule
-        satisfies the requirements relating to the first Board meeting, minimum number
-        of meetings and maximum interval between consecutive meetings.
-      </p>
+      <p>Alpha Technologies Limited was incorporated on 10th April 2026. The company held its first Board Meeting on 5th May 2026. Thereafter, the Board proposed to hold meetings on 10th August, 15th November and 20th December 2026. One of the directors suggested that since four meetings would be completed during the calendar year, the company would automatically comply with Section 173. Another director pointed out that the interval between two consecutive meetings is also relevant.</p>
+      <p>The Company Secretary was asked to examine whether the proposed schedule satisfies the requirements relating to the first Board meeting, minimum number of meetings and maximum interval between consecutive meetings.</p>
     `,
     questions: [
       {
@@ -7563,22 +5898,9 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 173", "OPC"],
     caseText: `
-      <p>
-        Bright Solutions Private Limited is a small company having four directors.
-        During the financial year, the management decided to hold only two Board
-        Meetings. The first meeting was held on 15th January and the second on
-        20th August of the same calendar year.
-      </p>
-      <p>
-        The directors believed that because the company is a small company, there
-        is no requirement to hold four meetings. However, the Company Secretary
-        informed the Board that the interval between the two meetings is also relevant.
-      </p>
-      <p>
-        Separately, the promoters were considering conversion of the company into an
-        OPC having only one director and wanted to understand the consequences for
-        Board Meeting requirements.
-      </p>
+      <p>Bright Solutions Private Limited is a small company having four directors. During the financial year, the management decided to hold only two Board Meetings. The first meeting was held on 15th January and the second on 20th August of the same calendar year.</p>
+      <p>The directors believed that because the company is a small company, there is no requirement to hold four meetings. However, the Company Secretary informed the Board that the interval between the two meetings is also relevant.</p>
+      <p>Separately, the promoters were considering conversion of the company into an OPC having only one director and wanted to understand the consequences for Board Meeting requirements.</p>
     `,
     questions: [
       {
@@ -7603,12 +5925,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS02_Q03",
         question: "If an OPC has only one director on its Board, which statement is correct?",
-        options: [
-          "It must hold four Board Meetings",
-          "It must hold two Board Meetings",
-          "It must hold one Board Meeting in each half-year",
-          "Section 173 meeting requirements do not apply to it",
-        ],
+        options: ["It must hold four Board Meetings", "It must hold two Board Meetings", "It must hold one Board Meeting in each half-year", "Section 173 meeting requirements do not apply to it"],
         answer: 3,
         reason: "An OPC having only one director is not required to hold even a single Board Meeting during the year."
       },
@@ -7643,18 +5960,8 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 173", "Video Conferencing"],
     caseText: `
-      <p>
-        Crest Industries Limited convened a Board Meeting through video conferencing.
-        All directors were provided with the agenda and relevant papers. Director A
-        joined from Delhi, Director B from Mumbai and Director C from Bengaluru.
-        At the beginning of the meeting, the Chairperson asked each director to state
-        his name and location and confirm that he had received the agenda.
-      </p>
-      <p>
-        During one agenda item, Director B's audio became unclear. The Company
-        Secretary immediately requested him to repeat his statement. Later, Director C
-        objected to a motion and voting became necessary.
-      </p>
+      <p>Crest Industries Limited convened a Board Meeting through video conferencing. All directors were provided with the agenda and relevant papers. Director A joined from Delhi, Director B from Mumbai and Director C from Bengaluru. At the beginning of the meeting, the Chairperson asked each director to state his name and location and confirm that he had received the agenda.</p>
+      <p>During one agenda item, Director B's audio became unclear. The Company Secretary immediately requested him to repeat his statement. Later, Director C objected to a motion and voting became necessary.</p>
     `,
     questions: [
       {
@@ -7699,17 +6006,8 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 173", "Notice"],
     caseText: `
-      <p>
-        Delta Manufacturing Limited normally gives seven days' written notice to all
-        directors for Board Meetings. Due to an urgent business opportunity, the
-        company proposes to convene a Board Meeting at shorter notice.
-      </p>
-      <p>
-        The Company Secretary informs the Chairperson that shorter notice can be used
-        for urgent business. However, one independent director is travelling abroad
-        and cannot attend the meeting. The Board proposes to proceed without him and
-        circulate the decisions later for his information.
-      </p>
+      <p>Delta Manufacturing Limited normally gives seven days' written notice to all directors for Board Meetings. Due to an urgent business opportunity, the company proposes to convene a Board Meeting at shorter notice.</p>
+      <p>The Company Secretary informs the Chairperson that shorter notice can be used for urgent business. However, one independent director is travelling abroad and cannot attend the meeting. The Board proposes to proceed without him and circulate the decisions later for his information.</p>
     `,
     questions: [
       {
@@ -7759,17 +6057,8 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 174", "Quorum"],
     caseText: `
-      <p>
-        Everest Limited has 12 directors according to its Board structure. However,
-        two positions are vacant. At a scheduled Board Meeting, eight directors are
-        physically present and two directors participate through video conferencing.
-        The Chairperson wants to determine whether the quorum requirement is satisfied.
-      </p>
-      <p>
-        The Company Secretary explains that vacant positions are not included while
-        determining total strength and directors participating electronically are normally
-        counted for quorum.
-      </p>
+      <p>Everest Limited has 12 directors according to its Board structure. However, two positions are vacant. At a scheduled Board Meeting, eight directors are physically present and two directors participate through video conferencing. The Chairperson wants to determine whether the quorum requirement is satisfied.</p>
+      <p>The Company Secretary explains that vacant positions are not included while determining total strength and directors participating electronically are normally counted for quorum.</p>
     `,
     questions: [
       {
@@ -7814,19 +6103,8 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 174", "Interested Directors"],
     caseText: `
-      <p>
-        Falcon Limited has 15 directors. During a Board Meeting, an agenda item
-        concerning a contract with another company is taken up. Thirteen directors
-        are interested in the transaction within the meaning of Section 184(2).
-        Two directors have no interest in the transaction and remain eligible to
-        participate.
-      </p>
-      <p>
-        The Chairperson initially believes that the normal one-third quorum should
-        apply. The Company Secretary points out that Section 174 contains a special
-        rule where interested directors constitute at least two-thirds of the total
-        strength.
-      </p>
+      <p>Falcon Limited has 15 directors. During a Board Meeting, an agenda item concerning a contract with another company is taken up. Thirteen directors are interested in the transaction within the meaning of Section 184(2). Two directors have no interest in the transaction and remain eligible to participate.</p>
+      <p>The Chairperson initially believes that the normal one-third quorum should apply. The Company Secretary points out that Section 174 contains a special rule where interested directors constitute at least two-thirds of the total strength.</p>
     `,
     questions: [
       {
@@ -7839,12 +6117,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS06_Q02",
         question: "Does the special quorum provision for interested directors apply?",
-        options: [
-          "No, because exactly 15 directors exist",
-          "Yes, because interested directors exceed two-thirds of total strength",
-          "Only if shareholders approve",
-          "Only in a private company",
-        ],
+        options: ["No, because exactly 15 directors exist", "Yes, because interested directors exceed two-thirds of total strength", "Only if shareholders approve", "Only in a private company"],
         answer: 1,
         reason: "The special rule applies where interested directors exceed or are equal to two-thirds of the total strength."
       },
@@ -7876,17 +6149,8 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 175", "Resolution by Circulation"],
     caseText: `
-      <p>
-        Galaxy Limited has six directors. The Chairperson proposes to pass a routine
-        Board resolution by circulation. The draft resolution along with necessary
-        papers is circulated electronically to all directors at their registered
-        addresses.
-      </p>
-      <p>
-        Three directors respond that the matter should instead be decided at a
-        properly convened Board Meeting. The Chairperson argues that since the
-        remaining directors support circulation, the resolution can still be passed.
-      </p>
+      <p>Galaxy Limited has six directors. The Chairperson proposes to pass a routine Board resolution by circulation. The draft resolution along with necessary papers is circulated electronically to all directors at their registered addresses.</p>
+      <p>Three directors respond that the matter should instead be decided at a properly convened Board Meeting. The Chairperson argues that since the remaining directors support circulation, the resolution can still be passed.</p>
     `,
     questions: [
       {
@@ -7941,18 +6205,8 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 177", "Audit Committee"],
     caseText: `
-      <p>
-        Horizon Public Limited Company is an unlisted public company. Its latest
-        audited financial statements show paid-up share capital of ₹12 crore,
-        turnover of ₹95 crore and aggregate outstanding loans, debentures and
-        deposits of ₹40 crore.
-      </p>
-      <p>
-        The Board argues that since the company is not listed and its turnover and
-        outstanding liabilities are below the prescribed thresholds, an Audit Committee
-        is unnecessary. The Company Secretary examines each prescribed threshold
-        separately.
-      </p>
+      <p>Horizon Public Limited Company is an unlisted public company. Its latest audited financial statements show paid-up share capital of ₹12 crore, turnover of ₹95 crore and aggregate outstanding loans, debentures and deposits of ₹40 crore.</p>
+      <p>The Board argues that since the company is not listed and its turnover and outstanding liabilities are below the prescribed thresholds, an Audit Committee is unnecessary. The Company Secretary examines each prescribed threshold separately.</p>
     `,
     questions: [
       {
@@ -8002,17 +6256,8 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 178", "NRC"],
     caseText: `
-      <p>
-        Innovate Public Limited is a listed public company. Its Board is considering
-        the constitution of the Nomination and Remuneration Committee. The proposed
-        committee consists of three directors, all of whom are non-executive directors.
-        One of them is an independent director.
-      </p>
-      <p>
-        The Chairperson of the company wants to chair the committee because of his
-        experience in human resources. The Company Secretary advises that the
-        composition and chairmanship requirements must be examined separately.
-      </p>
+      <p>Innovate Public Limited is a listed public company. Its Board is considering the constitution of the Nomination and Remuneration Committee. The proposed committee consists of three directors, all of whom are non-executive directors. One of them is an independent director.</p>
+      <p>The Chairperson of the company wants to chair the committee because of his experience in human resources. The Company Secretary advises that the composition and chairmanship requirements must be examined separately.</p>
     `,
     questions: [
       {
@@ -8057,19 +6302,8 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 179", "Section 180"],
     caseText: `
-      <p>
-        Jupiter Limited proposes to borrow a substantial amount for expansion of its
-        manufacturing facility. The Board considers borrowing as one of its powers.
-        However, the proposed borrowing, together with existing borrowings, would
-        exceed the aggregate of the company's paid-up share capital, free reserves
-        and securities premium, excluding temporary loans obtained from bankers in
-        the ordinary course of business.
-      </p>
-      <p>
-        The directors propose to approve the borrowing solely through a Board
-        resolution. The shareholders are advised that Section 180 may impose an
-        additional requirement where the prescribed borrowing limit is exceeded.
-      </p>
+      <p>Jupiter Limited proposes to borrow a substantial amount for expansion of its manufacturing facility. The Board considers borrowing as one of its powers. However, the proposed borrowing, together with existing borrowings, would exceed the aggregate of the company's paid-up share capital, free reserves and securities premium, excluding temporary loans obtained from bankers in the ordinary course of business.</p>
+      <p>The directors propose to approve the borrowing solely through a Board resolution. The shareholders are advised that Section 180 may impose an additional requirement where the prescribed borrowing limit is exceeded.</p>
     `,
     questions: [
       {
@@ -8123,18 +6357,8 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 174", "Adjournment"],
     caseText: `
-      <p>
-        Nova Infrastructure Limited convened a Board Meeting on Monday at 11:00 a.m.
-        However, only one director was present and the company could not constitute
-        the required quorum. The Articles of Association of the company did not contain
-        any different provision regarding adjournment for want of quorum.
-      </p>
-      <p>
-        The Chairman proposed that the meeting should automatically stand adjourned
-        to the same day and time in the following week. The following week, that day
-        happened to be a national holiday. One director argued that the meeting should
-        nevertheless be held on the same day because it had already been scheduled.
-      </p>
+      <p>Nova Infrastructure Limited convened a Board Meeting on Monday at 11:00 a.m. However, only one director was present and the company could not constitute the required quorum. The Articles of Association of the company did not contain any different provision regarding adjournment for want of quorum.</p>
+      <p>The Chairman proposed that the meeting should automatically stand adjourned to the same day and time in the following week. The following week, that day happened to be a national holiday. One director argued that the meeting should nevertheless be held on the same day because it had already been scheduled.</p>
     `,
     questions: [
       {
@@ -8184,18 +6408,8 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 175", "Resolution by Circulation"],
     caseText: `
-      <p>
-        Orion Limited has eight directors. A matter that does not require consideration
-        at a duly convened Board Meeting is proposed to be decided by circulation.
-        The draft resolution, together with necessary papers, is circulated to all
-        directors through electronic means.
-      </p>
-      <p>
-        Five directors approve the resolution, while two directors vote against it and
-        one director does not respond. None of the directors representing one-third
-        of the total number of directors requires the matter to be placed before a
-        Board Meeting.
-      </p>
+      <p>Orion Limited has eight directors. A matter that does not require consideration at a duly convened Board Meeting is proposed to be decided by circulation. The draft resolution, together with necessary papers, is circulated to all directors through electronic means.</p>
+      <p>Five directors approve the resolution, while two directors vote against it and one director does not respond. None of the directors representing one-third of the total number of directors requires the matter to be placed before a Board Meeting.</p>
     `,
     questions: [
       {
@@ -8250,17 +6464,8 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 177", "Audit Committee"],
     caseText: `
-      <p>
-        Prime Consumer Products Limited has a properly constituted Audit Committee.
-        During its meeting, the Committee considers the appointment and remuneration
-        of the statutory auditor, reviews the auditor's independence and examines the
-        financial statements before they are submitted to the Board.
-      </p>
-      <p>
-        The Committee also decides to investigate concerns regarding the company's
-        internal financial controls. It proposes to obtain professional advice from an
-        external expert and requests access to relevant company records.
-      </p>
+      <p>Prime Consumer Products Limited has a properly constituted Audit Committee. During its meeting, the Committee considers the appointment and remuneration of the statutory auditor, reviews the auditor's independence and examines the financial statements before they are submitted to the Board.</p>
+      <p>The Committee also decides to investigate concerns regarding the company's internal financial controls. It proposes to obtain professional advice from an external expert and requests access to relevant company records.</p>
     `,
     questions: [
       {
@@ -8287,12 +6492,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS13_Q04",
         question: "For an investigation into matters within its functions, the Audit Committee may:",
-        options: [
-          "Obtain professional advice from external sources and access company records",
-          "Only question shareholders",
-          "Only rely on the statutory auditor",
-          "Issue shares to experts",
-        ],
+        options: ["Obtain professional advice from external sources and access company records", "Only question shareholders", "Only rely on the statutory auditor", "Issue shares to experts"],
         answer: 0,
         reason: "Section 177(6) gives the Audit Committee power to investigate and obtain professional advice from external sources and access company information."
       },
@@ -8310,17 +6510,7 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 177", "Vigil Mechanism"],
     caseText: `
-      <p>
-        Quantum Limited is a listed company. Several employees have raised genuine
-        concerns regarding possible financial irregularities. The company has an Audit
-        Committee and has established a vigil mechanism.
-      </p>
-      <p>
-        One employee fears retaliation from a senior executive. Another employee wants
-        to approach the Chairperson of the Audit Committee directly because the matter
-        involves a member of the management who may otherwise influence the normal
-        reporting process. The Board also notices that one employee has repeatedly filed
-        frivolous complaints without any genuine basis.
+      <p>Quantum Limited is a listed company. Several employees have raised genuine concerns regarding possible financial irregularities. The company has an Audit Committee and has established a vigil mechanism.</p>
     `,
     questions: [
       {
@@ -8365,17 +6555,7 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 178", "Stakeholders Relationship Committee"],
     caseText: `
-      <p>
-        Sunrise Limited has 1,250 shareholders, 40 debenture-holders and several
-        deposit-holders during the financial year. A number of security holders have
-        submitted complaints concerning delays in transmission of securities and
-        other grievances.
-      </p>
-      <p>
-        The Board is considering whether a Stakeholders Relationship Committee is
-        required and, if so, who should head the Committee. One director suggests
-        appointing an executive director as Chairperson because he handles investor
-        relations.
+      <p>Sunrise Limited has 1,250 shareholders, 40 debenture-holders and several deposit-holders during the financial year. A number of security holders have submitted complaints concerning delays in transmission of securities and other grievances.</p>
     `,
     questions: [
       {
@@ -8407,12 +6587,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS15_Q04",
         question: "What is the principal objective of the SRC?",
-        options: [
-          "Approve financial statements",
-          "Resolve grievances of security holders and protect their interests",
-          "Appoint statutory auditors",
-          "Approve political contributions",
-        ],
+        options: ["Approve financial statements", "Resolve grievances of security holders and protect their interests", "Appoint statutory auditors", "Approve political contributions"],
         answer: 1,
         reason: "The SRC considers and resolves grievances of security holders and protects the interests of all security holders."
       },
@@ -8430,27 +6605,13 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 179", "Delegation of Powers"],
     caseText: `
-      <p>
-        Terra Limited wants to streamline its financial operations. The Board proposes
-        to delegate certain powers concerning borrowing, investment of funds and
-        granting loans or guarantees to its Managing Director.
-      </p>
-      <p>
-        One director argues that because these are Board powers, delegation is never
-        permitted. Another director states that delegation is possible if the Board
-        passes an appropriate resolution at a duly convened meeting and specifies
-        suitable conditions.
+      <p>Terra Limited wants to streamline its financial operations. The Board proposes to delegate certain powers concerning borrowing, investment of funds and granting loans or guarantees to its Managing Director.</p>
     `,
     questions: [
       {
         question_id: "CEL_CH3_MT_CS16_Q01",
         question: "Can the Board delegate certain powers under Section 179?",
-        options: [
-          "No power can ever be delegated",
-          "Yes, specified powers may be delegated by Board resolution",
-          "Only shareholders can delegate them",
-          "Only the auditor can delegate them",
-        ],
+        options: ["No power can ever be delegated", "Yes, specified powers may be delegated by Board resolution", "Only shareholders can delegate them", "Only the auditor can delegate them"],
         answer: 1,
         reason: "The Board may delegate specified powers by a resolution passed at a Board Meeting."
       },
@@ -8464,12 +6625,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS16_Q03",
         question: "To whom may the Board delegate the specified powers?",
-        options: [
-          "Only any shareholder",
-          "Committee of directors, Managing Director, Manager or principal officer, among others specified",
-          "Only statutory auditor",
-          "Only Registrar of Companies",
-        ],
+        options: ["Only any shareholder", "Committee of directors, Managing Director, Manager or principal officer, among others specified", "Only statutory auditor", "Only Registrar of Companies"],
         answer: 1,
         reason: "The specified powers may be delegated to a committee of directors, Managing Director, Manager or other principal officers as provided by law."
       },
@@ -8499,17 +6655,7 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 180", "Restrictions on Board Powers"],
     caseText: `
-      <p>
-        Vertex Limited owns two separate undertakings, Undertaking A and Undertaking B.
-        The Board proposes to sell substantially the whole of Undertaking A to another
-        company. The directors argue that because Undertaking B will continue to operate,
-        the company is not disposing of its entire business and therefore no shareholder
-        approval is required.
-      </p>
-      <p>
-        The legal adviser points out that Section 180 applies even where a company having
-        more than one undertaking proposes to sell, lease or otherwise dispose of the
-        whole or substantially the whole of any one undertaking.
+      <p>Vertex Limited owns two separate undertakings, Undertaking A and Undertaking B. The Board proposes to sell substantially the whole of Undertaking A to another company. The directors argue that because Undertaking B will continue to operate, the company is not disposing of its entire business and therefore no shareholder approval is required.</p>
     `,
     questions: [
       {
@@ -8543,12 +6689,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS17_Q05",
         question: "Is Section 180 applicable to a private company under the general rule stated in the chapter?",
-        options: [
-          "Yes, without exception",
-          "No, Section 180 is not applicable to a private company, subject to the stated legal framework",
-          "Only if turnover exceeds ₹100 crore",
-          "Only if listed",
-        ],
+        options: ["Yes, without exception", "No, Section 180 is not applicable to a private company, subject to the stated legal framework", "Only if turnover exceeds ₹100 crore", "Only if listed"],
         answer: 1,
         reason: "The chapter states that Section 180 is not applicable to private companies, subject to the relevant exemption framework."
       }
@@ -8559,17 +6700,7 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 181", "Charitable Contributions"],
     caseText: `
-      <p>
-        Unity Limited proposes to make a contribution to a bona fide charitable fund.
-        The average net profits of the company for the three immediately preceding
-        financial years are ₹40 lakh. The Board proposes to contribute ₹2.5 lakh during
-        the current financial year.
-      </p>
-      <p>
-        One director argues that the company cannot make the contribution because the
-        company has incurred a loss during the current year. Another director calculates
-        the statutory limit based on the average net profits of the preceding three
-        financial years.
+      <p>Unity Limited proposes to make a contribution to a bona fide charitable fund. The average net profits of the company for the three immediately preceding financial years are ₹40 lakh. The Board proposes to contribute ₹2.5 lakh during the current financial year.</p>
     `,
     questions: [
       {
@@ -8619,17 +6750,7 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 182", "Political Contributions"],
     caseText: `
-      <p>
-        Zenith Limited was incorporated more than three financial years ago and is
-        not a Government company. Its Board proposes to make a contribution directly
-        to a political party registered under Section 29A of the Representation of the
-        People Act, 1951.
-      </p>
-      <p>
-        The finance team suggests making the contribution through an ordinary
-        management decision without a formal Board resolution. The Company Secretary
-        points out that Section 182 contains a specific requirement regarding the manner
-        in which the contribution must be authorised and made.
+      <p>Zenith Limited was incorporated more than three financial years ago and is not a Government company. Its Board proposes to make a contribution directly to a political party registered under Section 29A of the Representation of the People Act, 1951.</p>
     `,
     questions: [
       {
@@ -8649,12 +6770,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS19_Q03",
         question: "A company existing for less than three financial years is:",
-        options: [
-          "Free to contribute any amount",
-          "Not permitted to contribute to a political party",
-          "Required to contribute at least 5% of profits",
-          "Permitted only with auditor approval",
-        ],
+        options: ["Free to contribute any amount", "Not permitted to contribute to a political party", "Required to contribute at least 5% of profits", "Permitted only with auditor approval"],
         answer: 1,
         reason: "A company which has been in existence for less than three financial years cannot contribute to a political party."
       },
@@ -8679,16 +6795,7 @@ const AICaseStudies = [
     difficulty: "Medium",
     case_chapter: ["Meetings of Board and its Powers", "Section 184", "Disclosure of Interest"],
     caseText: `
-      <p>
-        Apex Limited has three directors. Director R holds 3% of the paid-up share
-        capital of Beta Private Limited. Apex Limited proposes to enter into a contract
-        with Beta Private Limited. The contract is placed before the Board for discussion.
-      </p>
-      <p>
-        Director R informs the Company Secretary that he disclosed his general interest
-        in Beta Private Limited at the first Board Meeting of the financial year. He now
-        wants to know whether a specific disclosure is required when the contract is
-        discussed and whether he can participate in the discussion and vote.
+      <p>Apex Limited has three directors. Director R holds 3% of the paid-up share capital of Beta Private Limited. Apex Limited proposes to enter into a contract with Beta Private Limited. The contract is placed before the Board for discussion.</p>
     `,
     questions: [
       {
@@ -8701,12 +6808,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_MT_CS20_Q02",
         question: "When should Director R make the specific disclosure of his interest?",
-        options: [
-          "Only after the contract is executed",
-          "At the Board Meeting in which the contract is discussed for the first time",
-          "At the next AGM",
-          "Only when the auditor asks",
-        ],
+        options: ["Only after the contract is executed", "At the Board Meeting in which the contract is discussed for the first time", "At the next AGM", "Only when the auditor asks"],
         answer: 1,
         reason: "The interested director must disclose the nature of his concern or interest at the Board Meeting in which the contract or arrangement is discussed for the first time."
       },
@@ -8747,22 +6849,9 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 174", "Quorum", "Interested Directors"],
     caseText: `
-      <p>
-        Alpha Manufacturing Limited has a Board consisting of 18 directors. A Board
-        Meeting is convened to consider a proposed transaction with Beta Industries
-        Limited. At the beginning of the meeting, 16 directors are present.
-      </p>
-      <p>
-        During consideration of the particular transaction, it is determined that
-        13 directors are interested in the transaction within the meaning of Section
-        184(2). The remaining 5 directors are not interested in the transaction.
-        All 18 directors were originally present when the meeting commenced.
-      </p>
-      <p>
-        The Company Secretary argues that the ordinary quorum of one-third of the
-        total strength should continue to apply. Another director contends that the
-        special rule concerning interested directors must be applied for this item.
-      </p>
+      <p>Alpha Manufacturing Limited has a Board consisting of 18 directors. A Board Meeting is convened to consider a proposed transaction with Beta Industries Limited. At the beginning of the meeting, 16 directors are present.</p>
+      <p>During consideration of the particular transaction, it is determined that 13 directors are interested in the transaction within the meaning of Section 184(2). The remaining 5 directors are not interested in the transaction. All 18 directors were originally present when the meeting commenced.</p>
+      <p>The Company Secretary argues that the ordinary quorum of one-third of the total strength should continue to apply. Another director contends that the special rule concerning interested directors must be applied for this item.</p>
     `,
     questions: [
       {
@@ -8775,12 +6864,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS01_Q02",
         question: "Do the 13 interested directors constitute at least two-thirds of the total strength of 18 directors?",
-        options: [
-          "No, because two-thirds is 10",
-          "No, because two-thirds is 12",
-          "Yes, because 13 is more than two-thirds of 18",
-          "Yes, but only if all 18 are physically present",
-        ],
+        options: ["No, because two-thirds is 10", "No, because two-thirds is 12", "Yes, because 13 is more than two-thirds of 18", "Yes, but only if all 18 are physically present"],
         answer: 2,
         reason: "Two-thirds of 18 is 12. Since 13 directors are interested, the threshold is exceeded."
       },
@@ -8817,44 +6901,21 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 173", "Video Conferencing"],
     caseText: `
-      <p>
-        Global Tech Limited convenes a Board Meeting at its registered office.
-        Four directors attend physically and three directors participate through
-        video conferencing. The company has made arrangements to record and store
-        the proceedings along with the date and time.
-      </p>
-      <p>
-        During roll call, each director participating electronically identifies his
-        name and location and confirms receipt of the agenda and relevant papers.
-        One director's connection becomes unclear while discussing an important
-        resolution. The Company Secretary immediately asks him to repeat his statement.
-      </p>
-      <p>
-        At the end of the meeting, the draft minutes are prepared and circulated
-        electronically to all directors within 15 days.
+      <p>Global Tech Limited convenes a Board Meeting at its registered office. Four directors attend physically and three directors participate through video conferencing. The company has made arrangements to record and store the proceedings along with the date and time.</p>
+      <p>During roll call, each director participating electronically identifies his name and location and confirms receipt of the agenda and relevant papers. One director's connection becomes unclear while discussing an important resolution. The Company Secretary immediately asks him to repeat his statement.</p>
     `,
     questions: [
       {
         question_id: "CEL_CH3_T_CS02_Q01",
         question: "Are directors participating through video conferencing generally counted for quorum?",
-        options: [
-          "No",
-          "Yes, unless excluded for a particular item under the Act or Rules",
-          "Only if they are independent directors",
-          "Only if all directors participate electronically",
-        ],
+        options: ["No", "Yes, unless excluded for a particular item under the Act or Rules", "Only if they are independent directors", "Only if all directors participate electronically"],
         answer: 1,
         reason: "Directors participating through video conferencing or other audio-visual means are counted for quorum unless they are excluded for particular business under the Act or Rules."
       },
       {
         question_id: "CEL_CH3_T_CS02_Q02",
         question: "During roll call, which information is specifically required from a director participating electronically?",
-        options: [
-          "Only his name",
-          "Name, location, confirmation of receipt of agenda/material and confirmation regarding access by others",
-          "Only his shareholding",
-          "His income-tax details",
-        ],
+        options: ["Only his name", "Name, location, confirmation of receipt of agenda/material and confirmation regarding access by others", "Only his shareholding", "His income-tax details"],
         answer: 1,
         reason: "The roll call requires the director to state his name, location, confirmation of receipt of agenda/material and that no unauthorised person is attending or accessing the proceedings at that location."
       },
@@ -8886,16 +6947,7 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 179", "Board Powers", "Delegation"],
     caseText: `
-      <p>
-        Horizon Limited is considering several financial decisions. The Board proposes
-        to borrow ₹40 crore, invest surplus funds in another company, approve the annual
-        financial statements, appoint a new internal auditor and approve an amalgamation.
-      </p>
-      <p>
-        The Managing Director suggests passing one general resolution authorising him
-        to undertake all these activities on behalf of the Board. The Company Secretary
-        objects, stating that certain powers must be exercised through resolutions at a
-        duly convened Board Meeting and only specified powers can be delegated.
+      <p>Horizon Limited is considering several financial decisions. The Board proposes to borrow ₹40 crore, invest surplus funds in another company, approve the annual financial statements, appoint a new internal auditor and approve an amalgamation.</p>
     `,
     questions: [
       {
@@ -8945,17 +6997,7 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 180", "Borrowing Powers"],
     caseText: `
-      <p>
-        Sterling Limited has paid-up share capital of ₹30 crore, free reserves of
-        ₹20 crore and securities premium of ₹5 crore. It already has borrowings of
-        ₹45 crore, excluding temporary loans obtained from its bankers in the
-        ordinary course of business.
-      </p>
-      <p>
-        The Board proposes to borrow another ₹20 crore. The Articles contain no
-        special provision authorising borrowing beyond the statutory threshold.
-        The directors argue that because the company has substantial assets, a
-        Board resolution should be sufficient.
+      <p>Sterling Limited has paid-up share capital of ₹30 crore, free reserves of ₹20 crore and securities premium of ₹5 crore. It already has borrowings of ₹45 crore, excluding temporary loans obtained from its bankers in the ordinary course of business.</p>
     `,
     questions: [
       {
@@ -9000,17 +7042,7 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 184", "Disclosure of Interest"],
     caseText: `
-      <p>
-        Director A of Meridian Limited holds 4% of the paid-up share capital of
-        Delta Limited and is also a director of Delta Limited. At the beginning of
-        the financial year, A makes his general disclosure of interest in the prescribed
-        manner.
-      </p>
-      <p>
-        Three months later, Meridian Limited proposes to enter into a contract with
-        Delta Limited. The matter is included in the agenda of the Board Meeting.
-        A argues that his earlier general disclosure is sufficient and therefore he
-        can participate in the discussion and vote.
+      <p>Director A of Meridian Limited holds 4% of the paid-up share capital of Delta Limited and is also a director of Delta Limited. At the beginning of the financial year, A makes his general disclosure of interest in the prescribed manner.</p>
     `,
     questions: [
       {
@@ -9060,16 +7092,7 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 185", "Loans to Directors"],
     caseText: `
-      <p>
-        Apex Finance Limited proposes to provide a loan of ₹8 crore to Beta Private
-        Limited. One of Apex's directors is a director and member of Beta Private
-        Limited. The Board believes that the transaction can proceed because the
-        loan is not being given directly to the director.
-      </p>
-      <p>
-        The legal adviser explains that Section 185 distinguishes between prohibited
-        loans to specified persons and loans to a person in whom a director is interested.
-        The latter may be permitted subject to prescribed conditions.
+      <p>Apex Finance Limited proposes to provide a loan of ₹8 crore to Beta Private Limited. One of Apex's directors is a director and member of Beta Private Limited. The Board believes that the transaction can proceed because the loan is not being given directly to the director.</p>
     `,
     questions: [
       {
@@ -9129,16 +7152,7 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 173", "Notice", "Shorter Notice"],
     caseText: `
-      <p>
-        Zenith Technologies Limited needs to urgently consider a time-sensitive
-        acquisition. The Company Secretary sends notice of the Board Meeting only
-        four days before the proposed meeting because waiting seven days could
-        result in the loss of the opportunity.
-      </p>
-      <p>
-        The company has two independent directors. Only one independent director
-        attends the meeting. The other independent director receives the notice but
-        does not attend. The Board passes the acquisition resolution.
+      <p>Zenith Technologies Limited needs to urgently consider a time-sensitive acquisition. The Company Secretary sends notice of the Board Meeting only four days before the proposed meeting because waiting seven days could result in the loss of the opportunity.</p>
     `,
     questions: [
       {
@@ -9158,12 +7172,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS07_Q03",
         question: "Given that Zenith has independent directors, what condition is relevant for the shorter-notice meeting?",
-        options: [
-          "At least one independent director should be present",
-          "All independent directors must be present",
-          "No independent director can attend",
-          "Only the Chairman can attend",
-        ],
+        options: ["At least one independent director should be present", "All independent directors must be present", "No independent director can attend", "Only the Chairman can attend"],
         answer: 0,
         reason: "For a shorter-notice meeting to transact urgent business, at least one independent director, if any, shall be present."
       },
@@ -9177,12 +7186,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS07_Q05",
         question: "Which statement is correct regarding the mode of sending Board Meeting notice?",
-        options: [
-          "It can only be delivered physically",
-          "It may be sent by hand delivery, post or electronic means",
-          "It must be sent only by registered post",
-          "It must be published in a newspaper",
-        ],
+        options: ["It can only be delivered physically", "It may be sent by hand delivery, post or electronic means", "It must be sent only by registered post", "It must be published in a newspaper"],
         answer: 1,
         reason: "Notice may be sent by hand delivery, post or electronic means to the registered address of every director."
       }
@@ -9193,17 +7197,7 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 177", "Audit Committee", "Omnibus Approval"],
     caseText: `
-      <p>
-        The Audit Committee of Nova Limited is considering recurring transactions
-        with several related parties. The transactions are repetitive and occur
-        throughout the financial year. The Committee proposes to grant omnibus
-        approval for the entire year.
-      </p>
-      <p>
-        The Committee proposes to specify the maximum aggregate amount, maximum
-        amount per transaction and the nature of disclosures. One member suggests
-        granting a blanket omnibus approval for the disposal of the company's
-        undertaking because that transaction may also occur during the year.
+      <p>The Audit Committee of Nova Limited is considering recurring transactions with several related parties. The transactions are repetitive and occur throughout the financial year. The Committee proposes to grant omnibus approval for the entire year.</p>
     `,
     questions: [
       {
@@ -9248,25 +7242,10 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 173", "OPC", "Small Company", "Dormant Company"],
     caseText: `
-      <p>
-        Three entities are being examined for compliance with Board Meeting
-        requirements:
-      </p>
-      <p>
-        <strong>Company A:</strong> A One Person Company having only one director.
-      </p>
-      <p>
-        <strong>Company B:</strong> A small company having three directors. It conducts
-        one Board Meeting in April and another in November of the same calendar year.
-      </p>
-      <p>
-        <strong>Company C:</strong> A private company qualifying as a start-up and
-        covered by the applicable exemption. It conducts one Board Meeting in January
-        and another in July.
-      </p>
-      <p>
-        The directors are debating whether all three companies must conduct four
-        Board Meetings every year.
+      <p>Three entities are being examined for compliance with Board Meeting requirements:</p>
+      <p><strong>Company A:</strong> A One Person Company having only one director.</p>
+      <p><strong>Company B:</strong> A small company having three directors. It conducts one Board Meeting in April and another in November of the same calendar year.</p>
+      <p><strong>Company C:</strong> A private company qualifying as a start-up and covered by the applicable exemption. It conducts one Board Meeting in January and another in July.</p>
     `,
     questions: [
       {
@@ -9321,29 +7300,13 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 177", "Section 178", "Audit Committee", "NRC"],
     caseText: `
-      <p>
-        Apex Public Limited Company has paid-up share capital of ₹14 crore,
-        turnover of ₹120 crore and outstanding loans, debentures and deposits
-        aggregating ₹40 crore. The company is not a joint venture, wholly owned
-        subsidiary or dormant company.
-      </p>
-      <p>
-        The Board proposes to constitute both an Audit Committee and a Nomination
-        and Remuneration Committee. The proposed Audit Committee has four directors,
-        of whom two are independent. The proposed NRC has three non-executive
-        directors, of whom two are independent. The Chairperson of the company,
-        who is an executive director, is proposed to chair the NRC.
+      <p>Apex Public Limited Company has paid-up share capital of ₹14 crore, turnover of ₹120 crore and outstanding loans, debentures and deposits aggregating ₹40 crore. The company is not a joint venture, wholly owned subsidiary or dormant company.</p>
     `,
     questions: [
       {
         question_id: "CEL_CH3_T_CS10_Q01",
         question: "Is Apex Public Limited Company required to constitute an Audit Committee based on the stated thresholds?",
-        options: [
-          "No",
-          "Yes, because its paid-up share capital and turnover meet the prescribed thresholds",
-          "Only because its loans exceed ₹50 crore",
-          "Only if it is a listed company",
-        ],
+        options: ["No", "Yes, because its paid-up share capital and turnover meet the prescribed thresholds", "Only because its loans exceed ₹50 crore", "Only if it is a listed company"],
         answer: 1,
         reason: "A public company having paid-up share capital of ₹10 crore or more or turnover of ₹100 crore or more falls within the prescribed class requiring an Audit Committee, subject to the applicable framework."
       },
@@ -9396,20 +7359,8 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 174", "Quorum"],
     caseText: `
-      <p>
-        Orion Limited has a Board consisting of 12 directors. Three positions on the
-        Board are vacant. Therefore, nine directors are currently holding office.
-        A Board Meeting is convened and five directors attend.
-      </p>
-      <p>
-        One director argues that quorum should be calculated with reference to the
-        original sanctioned strength of 12 directors. Another argues that vacancies
-        should be ignored and quorum should be calculated with reference to the
-        actual strength of the Board.
-      </p>
-      <p>
-        During the meeting, two of the five directors are found to be interested in
-        a particular contract being considered by the company.
+      <p>Orion Limited has a Board consisting of 12 directors. Three positions on the Board are vacant. Therefore, nine directors are currently holding office. A Board Meeting is convened and five directors attend.</p>
+      <p>One director argues that quorum should be calculated with reference to the original sanctioned strength of 12 directors. Another argues that vacancies should be ignored and quorum should be calculated with reference to the actual strength of the Board.</p>
     `,
     questions: [
       {
@@ -9443,12 +7394,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS11_Q05",
         question: "If interested directors are not equal to or more than two-thirds of the total strength, which quorum rule generally applies?",
-        options: [
-          "Only non-interested directors are counted",
-          "The ordinary quorum rule applies",
-          "The meeting automatically stands dissolved",
-          "Only independent directors are counted",
-        ],
+        options: ["Only non-interested directors are counted", "The ordinary quorum rule applies", "The meeting automatically stands dissolved", "Only independent directors are counted"],
         answer: 1,
         reason: "The special rule applies where the number of interested directors is equal to or exceeds two-thirds of the total strength. Otherwise, the ordinary quorum provision applies."
       }
@@ -9459,21 +7405,8 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 175", "Passing of Resolution by Circulation"],
     caseText: `
-      <p>
-        Sunrise Limited needs to approve an urgent routine matter. Instead of
-        convening a physical Board Meeting, the Managing Director proposes to
-        circulate a draft resolution together with the necessary papers to all
-        directors entitled to receive notice.
-      </p>
-      <p>
-        Eight directors are entitled to vote. Five directors approve the resolution,
-        two directors reject it and one director does not respond. The Company
-        Secretary records the resolution as passed by circulation.
-      </p>
-      <p>
-        However, one director subsequently argues that the matter should have been
-        placed before a Board Meeting because he requested that it be considered
-        at a meeting.
+      <p>Sunrise Limited needs to approve an urgent routine matter. Instead of convening a physical Board Meeting, the Managing Director proposes to circulate a draft resolution together with the necessary papers to all directors entitled to receive notice.</p>
+      <p>Eight directors are entitled to vote. Five directors approve the resolution, two directors reject it and one director does not respond. The Company Secretary records the resolution as passed by circulation.</p>
     `,
     questions: [
       {
@@ -9523,17 +7456,7 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 179", "Section 180"],
     caseText: `
-      <p>
-        Vertex Limited plans to invest ₹25 crore in securities of another body
-        corporate. At the same time, the Board proposes to sell one of its major
-        undertakings for ₹80 crore. The directors believe that both transactions
-        can be authorised through a single Board resolution because both relate to
-        deployment of company resources.
-      </p>
-      <p>
-        The Company Secretary points out that investment of funds and disposal of
-        an undertaking are governed by different provisions and may require different
-        levels of approval.
+      <p>Vertex Limited plans to invest ₹25 crore in securities of another body corporate. At the same time, the Board proposes to sell one of its major undertakings for ₹80 crore. The directors believe that both transactions can be authorised through a single Board resolution because both relate to deployment of company resources.</p>
     `,
     questions: [
       {
@@ -9583,16 +7506,7 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 176", "Defects in Appointment"],
     caseText: `
-      <p>
-        Crystal Limited appoints Mr. R as a director. Later, it is discovered that
-        a technical defect existed in the appointment procedure. During the period
-        before the defect was discovered, Mr. R attended Board Meetings and voted
-        on several routine business matters.
-      </p>
-      <p>
-        Certain shareholders argue that every decision in which Mr. R participated
-        is automatically invalid merely because his appointment was subsequently
-        found defective.
+      <p>Crystal Limited appoints Mr. R as a director. Later, it is discovered that a technical defect existed in the appointment procedure. During the period before the defect was discovered, Mr. R attended Board Meetings and voted on several routine business matters.</p>
     `,
     questions: [
       {
@@ -9617,12 +7531,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS14_Q03",
         question: "If the defect relates to a known disqualification existing at the time of appointment, does Section 176 necessarily make all acts void?",
-        options: [
-          "Yes, automatically",
-          "No, Section 176 provides a statutory protection subject to its terms",
-          "Yes, if the director received remuneration",
-          "Only if shareholders object",
-        ],
+        options: ["Yes, automatically", "No, Section 176 provides a statutory protection subject to its terms", "Yes, if the director received remuneration", "Only if shareholders object"],
         answer: 1,
         reason: "Section 176 specifically addresses the effect of defects or invalidity in appointment and prevents automatic invalidation merely because of such defect, subject to its terms."
       },
@@ -9657,15 +7566,7 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 182", "Political Contributions"],
     caseText: `
-      <p>
-        Pioneer Limited proposes to contribute ₹12 lakh to a political party during
-        the financial year. The Managing Director suggests making the contribution
-        directly from company funds without passing a Board resolution.
-      </p>
-      <p>
-        The Company Secretary points out that the Companies Act imposes specific
-        requirements concerning political contributions and that the contribution
-        must be authorised in the prescribed manner.
+      <p>Pioneer Limited proposes to contribute ₹12 lakh to a political party during the financial year. The Managing Director suggests making the contribution directly from company funds without passing a Board resolution.</p>
     `,
     questions: [
       {
@@ -9692,12 +7593,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS15_Q04",
         question: "Which of the following is NOT sufficient by itself to authorise the company's political contribution?",
-        options: [
-          "A personal instruction of the Managing Director",
-          "A Board resolution satisfying Section 182",
-          "Proper corporate authorisation",
-          "Compliance with statutory conditions",
-        ],
+        options: ["A personal instruction of the Managing Director", "A Board resolution satisfying Section 182", "Proper corporate authorisation", "Compliance with statutory conditions"],
         answer: 0,
         reason: "A personal instruction of the Managing Director cannot substitute for the statutory corporate authorisation required under Section 182."
       },
@@ -9720,15 +7616,7 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 183", "National Defence Fund"],
     caseText: `
-      <p>
-        National Infrastructure Limited wants to contribute ₹50 lakh towards a fund
-        connected with national defence. The Managing Director believes that because
-        the contribution is charitable and connected with national interest, no Board
-        approval is necessary.
-      </p>
-      <p>
-        The Company Secretary states that the Companies Act specifically recognises
-        contributions for national defence and requires corporate authorisation.
+      <p>National Infrastructure Limited wants to contribute ₹50 lakh towards a fund connected with national defence. The Managing Director believes that because the contribution is charitable and connected with national interest, no Board approval is necessary.</p>
     `,
     questions: [
       {
@@ -9778,16 +7666,7 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 181", "Charitable Contributions"],
     caseText: `
-      <p>
-        Emerald Limited proposes to contribute ₹18 lakh to a charitable fund.
-        The contribution is expected to exceed five per cent of the average net
-        profits of the company for the three immediately preceding financial years.
-      </p>
-      <p>
-        The Board proposes to approve the contribution without obtaining any further
-        corporate approval. The Finance Director argues that charitable expenditure
-        is part of normal corporate social responsibility and therefore Section 181
-        is irrelevant.
+      <p>Emerald Limited proposes to contribute ₹18 lakh to a charitable fund. The contribution is expected to exceed five per cent of the average net profits of the company for the three immediately preceding financial years.</p>
     `,
     questions: [
       {
@@ -9837,15 +7716,7 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 178", "Nomination and Remuneration Committee"],
     caseText: `
-      <p>
-        Summit Limited constitutes a Nomination and Remuneration Committee with
-        three non-executive directors. Only one of the three directors is independent.
-        The Board argues that because the committee has three non-executive directors,
-        the composition is valid.
-      </p>
-      <p>
-        The Chairperson of the company is also proposed to chair the NRC. Two
-        independent directors of the company object to the arrangement.
+      <p>Summit Limited constitutes a Nomination and Remuneration Committee with three non-executive directors. Only one of the three directors is independent. The Board argues that because the committee has three non-executive directors, the composition is valid.</p>
     `,
     questions: [
       {
@@ -9879,12 +7750,7 @@ const AICaseStudies = [
       {
         question_id: "CEL_CH3_T_CS18_Q05",
         question: "Which of the following is a core function of the NRC?",
-        options: [
-          "Recommend persons for appointment as directors and senior management",
-          "Conduct statutory audit",
-          "Issue shares without Board approval",
-          "Maintain the cash book",
-        ],
+        options: ["Recommend persons for appointment as directors and senior management", "Conduct statutory audit", "Issue shares without Board approval", "Maintain the cash book"],
         answer: 0,
         reason: "The NRC identifies suitable persons for directorship and senior management positions and recommends their appointment/removal in accordance with Section 178."
       }
@@ -9895,16 +7761,7 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 178", "Stakeholders Relationship Committee"],
     caseText: `
-      <p>
-        Prime Limited has 1,200 shareholders. A large number of complaints have
-        been received regarding non-receipt of dividend, transfer of shares and
-        delayed transmission of securities.
-      </p>
-      <p>
-        The Board proposes to constitute a Stakeholders Relationship Committee.
-        The proposed committee consists of three directors, including one independent
-        director. The Chairperson of the committee is proposed to be a non-executive
-        director nominated by the Board.
+      <p>Prime Limited has 1,200 shareholders. A large number of complaints have been received regarding non-receipt of dividend, transfer of shares and delayed transmission of securities.</p>
     `,
     questions: [
       {
@@ -9954,22 +7811,8 @@ const AICaseStudies = [
     difficulty: "Hard",
     case_chapter: ["Meetings of Board and its Powers", "Section 173", "Section 174", "Board Meeting Compliance"],
     caseText: `
-      <p>
-        Zenith Industries Limited has 15 directors. During the financial year,
-        the company holds its first Board Meeting on 10 April, the second on
-        20 June, the third on 25 September and the fourth on 15 December.
-      </p>
-      <p>
-        The notice for the September meeting is sent only five days in advance.
-        Two directors participate through video conferencing. At the December
-        meeting, only four directors are physically present, while three participate
-        through permitted audio-visual means.
-      </p>
-      <p>
-        The Company Secretary states that all four meetings are automatically valid
-        because the company held four meetings during the year. A director disputes
-        this and argues that frequency, notice and quorum are separate compliance
-        requirements.
+      <p>Zenith Industries Limited has 15 directors. During the financial year, the company holds its first Board Meeting on 10 April, the second on 20 June, the third on 25 September and the fourth on 15 December.</p>
+      <p>The notice for the September meeting is sent only five days in advance. Two directors participate through video conferencing. At the December meeting, only four directors are physically present, while three participate through permitted audio-visual means.</p>
     `,
     questions: [
       {
@@ -10017,18 +7860,10 @@ const AICaseStudies = [
   difficulty: "Medium",
   case_chapter: ["Section 186", "Loan and Investment"],
   caseText: `
-    <p><strong>Arnav Technologies Limited</strong> is considering making certain financial
-    arrangements with other corporate entities. The company has a paid-up share capital of
-    ₹8 crore, free reserves of ₹5 crore and securities premium of ₹2 crore.</p>
-
-    <p>The company has already granted loans and guarantees amounting to ₹6 crore and now
-    proposes to make a further investment of ₹5 crore in the securities of another body
-    corporate. The Board is considering whether the proposed transaction can be undertaken
-    without obtaining approval of the members.</p>
-
-    <p>The company has not committed any default in repayment of deposits or payment of
-    interest thereon.</p>
-  `,
+      <p><strong>Arnav Technologies Limited</strong> is considering making certain financial arrangements with other corporate entities. The company has a paid-up share capital of ₹8 crore, free reserves of ₹5 crore and securities premium of ₹2 crore.</p>
+      <p>The company has already granted loans and guarantees amounting to ₹6 crore and now proposes to make a further investment of ₹5 crore in the securities of another body corporate. The Board is considering whether the proposed transaction can be undertaken without obtaining approval of the members.</p>
+      <p>The company has not committed any default in repayment of deposits or payment of interest thereon.</p>
+    `,
   questions: [
     {
       question_id: "CEL_186_MED_01_1",
@@ -10075,17 +7910,10 @@ const AICaseStudies = [
   difficulty: "Medium",
   case_chapter: ["Section 186", "Wholly Owned Subsidiary"],
   caseText: `
-    <p><strong>Bright Industries Limited</strong> proposes to provide a loan of ₹12 crore to
-    its wholly owned subsidiary, Bright Components Private Limited. The company also
-    proposes to provide a guarantee in respect of a loan taken by the subsidiary from a bank.</p>
-
-    <p>The proposed transactions, together with earlier loans and investments, exceed the
-    normal monetary limit prescribed under Section 186(2). The Board is of the view that a
-    special resolution should nevertheless be obtained before proceeding with the
-    transactions.</p>
-
-    <p>The company intends to disclose the transactions in its financial statements.</p>
-  `,
+      <p><strong>Bright Industries Limited</strong> proposes to provide a loan of ₹12 crore to its wholly owned subsidiary, Bright Components Private Limited. The company also proposes to provide a guarantee in respect of a loan taken by the subsidiary from a bank.</p>
+      <p>The proposed transactions, together with earlier loans and investments, exceed the normal monetary limit prescribed under Section 186(2). The Board is of the view that a special resolution should nevertheless be obtained before proceeding with the transactions.</p>
+      <p>The company intends to disclose the transactions in its financial statements.</p>
+    `,
   questions: [
     {
       question_id: "CEL_186_MED_02_1",
@@ -10109,12 +7937,7 @@ const AICaseStudies = [
     {
       question_id: "CEL_186_MED_02_3",
       question: "A loan or guarantee under Section 186(5) should generally be sanctioned by:",
-      options: [
-        "The Managing Director alone",
-        "A resolution passed by circulation only",
-        "A Board resolution at a Board meeting with consent of all directors present",
-        "The Company Secretary",
-      ],
+      options: ["The Managing Director alone", "A resolution passed by circulation only", "A Board resolution at a Board meeting with consent of all directors present", "The Company Secretary"],
       answer: 2,
       explanation: "Section 186(5) requires the sanctioning resolution to be passed at a Board meeting with the consent of all directors present."
     },
@@ -10152,14 +7975,9 @@ const AICaseStudies = [
   difficulty: "Medium",
   case_chapter: ["Section 186", "Rate of Interest"],
   caseText: `
-    <p><strong>Nova Engineering Limited</strong> grants a five-year loan to another company.
-    The prevailing yield on Government Securities closest to the tenor of the loan is 7.5%.
-    Nova Engineering proposes to charge interest at 6.5% on the loan because the borrower is
-    a long-standing business associate.</p>
-
-    <p>The finance team argues that the company can charge any rate of interest because the
-    transaction has been approved by the Board.</p>
-  `,
+      <p><strong>Nova Engineering Limited</strong> grants a five-year loan to another company. The prevailing yield on Government Securities closest to the tenor of the loan is 7.5%. Nova Engineering proposes to charge interest at 6.5% on the loan because the borrower is a long-standing business associate.</p>
+      <p>The finance team argues that the company can charge any rate of interest because the transaction has been approved by the Board.</p>
+    `,
   questions: [
     {
       question_id: "CEL_186_MED_03_1",
@@ -10171,12 +7989,7 @@ const AICaseStudies = [
     {
       question_id: "CEL_186_MED_03_2",
       question: "Can Board approval alone permit Nova Engineering to charge 6.5%?",
-      options: [
-        "Yes",
-        "Yes, if the borrower is a related party",
-        "No, the statutory minimum rate requirement must also be complied with",
-        "Yes, if shareholders are informed later",
-      ],
+      options: ["Yes", "Yes, if the borrower is a related party", "No, the statutory minimum rate requirement must also be complied with", "Yes, if shareholders are informed later"],
       answer: 2,
       explanation: "Board approval does not override the statutory minimum interest requirement under Section 186(7)."
     },
@@ -10197,12 +8010,7 @@ const AICaseStudies = [
     {
       question_id: "CEL_186_MED_03_5",
       question: "If a company is in default in repayment of deposits, Section 186(8) generally restricts it from:",
-      options: [
-        "Only making investments",
-        "Only giving guarantees",
-        "Giving loans, guarantees, securities or making acquisitions covered by Section 186",
-        "Holding shares in subsidiaries",
-      ],
+      options: ["Only making investments", "Only giving guarantees", "Giving loans, guarantees, securities or making acquisitions covered by Section 186", "Holding shares in subsidiaries"],
       answer: 2,
       explanation: "A company in default in repayment of deposits or interest cannot undertake the specified transactions under Section 186 while the default subsists."
     }
@@ -10216,17 +8024,10 @@ const AICaseStudies = [
   difficulty: "Medium",
   case_chapter: ["Section 187", "Investments in Own Name"],
   caseText: `
-    <p><strong>Zenith Retail Limited</strong> has made investments in shares and securities of
-    several companies. Some securities have been transferred to its scheduled bank to
-    facilitate their transfer to prospective purchasers.</p>
-
-    <p>Six months have passed since certain securities were first held in the name of the
-    bank, but no transfer has taken place. In another case, the company has deposited
-    securities with its banker for collection of dividend.</p>
-
-    <p>The finance department believes that all such holdings violate Section 187 because
-    investments must always be held in the company's own name.</p>
-  `,
+      <p><strong>Zenith Retail Limited</strong> has made investments in shares and securities of several companies. Some securities have been transferred to its scheduled bank to facilitate their transfer to prospective purchasers.</p>
+      <p>Six months have passed since certain securities were first held in the name of the bank, but no transfer has taken place. In another case, the company has deposited securities with its banker for collection of dividend.</p>
+      <p>The finance department believes that all such holdings violate Section 187 because investments must always be held in the company's own name.</p>
+    `,
   questions: [
     {
       question_id: "CEL_187_MED_04_1",
@@ -10283,17 +8084,10 @@ const AICaseStudies = [
   difficulty: "Medium",
   case_chapter: ["Section 188", "Related Party Transactions"],
   caseText: `
-    <p><strong>Galaxy Foods Limited</strong> proposes to purchase raw materials from a private
-    company in which one of its directors and his relative are members. The proposed
-    transaction is not on an arm's length basis.</p>
-
-    <p>The management is considering whether shareholder approval is necessary. The value
-    of the proposed purchases, together with earlier purchases during the financial year,
-    is below the prescribed threshold requiring an ordinary resolution.</p>
-
-    <p>The Board has called a meeting to consider the transaction. The interested director
-    has received the notice of the meeting.</p>
-  `,
+      <p><strong>Galaxy Foods Limited</strong> proposes to purchase raw materials from a private company in which one of its directors and his relative are members. The proposed transaction is not on an arm's length basis.</p>
+      <p>The management is considering whether shareholder approval is necessary. The value of the proposed purchases, together with earlier purchases during the financial year, is below the prescribed threshold requiring an ordinary resolution.</p>
+      <p>The Board has called a meeting to consider the transaction. The interested director has received the notice of the meeting.</p>
+    `,
   questions: [
     {
       question_id: "CEL_188_MED_05_1",
@@ -10340,21 +8134,10 @@ const AICaseStudies = [
   difficulty: "Medium",
   case_chapter: ["Section 188", "Prescribed Thresholds"],
   caseText: `
-    <p><strong>Orbit Infrastructure Limited</strong> has a turnover of ₹80 crore and net worth
-    of ₹50 crore based on its audited financial statements of the preceding financial year.</p>
-
-    <p>During the current financial year, the company proposes to enter into the following
-    related party transactions:</p>
-
-    <ul>
-      <li>Purchase of goods worth ₹9 crore.</li>
-      <li>Acquisition of property worth ₹5 crore.</li>
-      <li>Lease of property worth ₹8 crore.</li>
-      <li>Services worth ₹8 crore.</li>
-    </ul>
-
-    <p>The transactions are with related parties and are not at arm's length.</p>
-  `,
+      <p><strong>Orbit Infrastructure Limited</strong> has a turnover of ₹80 crore and net worth of ₹50 crore based on its audited financial statements of the preceding financial year.</p>
+      <p>During the current financial year, the company proposes to enter into the following related party transactions:</p>
+      <p>The transactions are with related parties and are not at arm's length.</p>
+    `,
   questions: [
     {
       question_id: "CEL_188_MED_06_1",
@@ -10387,12 +8170,7 @@ const AICaseStudies = [
     {
       question_id: "CEL_188_MED_06_5",
       question: "The turnover/net worth used for determining the prescribed thresholds is based on:",
-      options: [
-        "Estimated current-year figures",
-        "Audited financial statements of the preceding financial year",
-        "Unaudited quarterly statements",
-        "Projected financial statements",
-      ],
+      options: ["Estimated current-year figures", "Audited financial statements of the preceding financial year", "Unaudited quarterly statements", "Projected financial statements"],
       answer: 1,
       explanation: "Rule 15 provides that turnover or net worth is computed on the basis of the audited financial statement of the preceding financial year."
     }
@@ -10406,14 +8184,9 @@ const AICaseStudies = [
   difficulty: "Medium",
   case_chapter: ["Section 188", "Voting", "Wholly Owned Subsidiary"],
   caseText: `
-    <p><strong>Summit Holdings Limited</strong> is entering into a related party transaction
-    requiring approval by ordinary resolution. One of the shareholders, Mr. R, is himself
-    the related party to the proposed transaction and holds 18% of the voting share capital.</p>
-
-    <p>The company also proposes another transaction with its wholly owned subsidiary.
-    The accounts of the wholly owned subsidiary are consolidated with those of Summit
-    Holdings Limited and placed before the shareholders at the general meeting.</p>
-  `,
+      <p><strong>Summit Holdings Limited</strong> is entering into a related party transaction requiring approval by ordinary resolution. One of the shareholders, Mr. R, is himself the related party to the proposed transaction and holds 18% of the voting share capital.</p>
+      <p>The company also proposes another transaction with its wholly owned subsidiary. The accounts of the wholly owned subsidiary are consolidated with those of Summit Holdings Limited and placed before the shareholders at the general meeting.</p>
+    `,
   questions: [
     {
       question_id: "CEL_188_MED_07_1",
@@ -10437,24 +8210,14 @@ const AICaseStudies = [
     {
       question_id: "CEL_188_MED_07_3",
       question: "For a transaction between a holding company and its wholly owned subsidiary whose accounts are consolidated and placed before shareholders:",
-      options: [
-        "Ordinary resolution is always required",
-        "No ordinary resolution is required under the specified exemption",
-        "Special resolution is required",
-        "Board approval is prohibited",
-      ],
+      options: ["Ordinary resolution is always required", "No ordinary resolution is required under the specified exemption", "Special resolution is required", "Board approval is prohibited"],
       answer: 1,
       explanation: "The fifth proviso to Section 188(1) provides an exemption from the ordinary resolution requirement in the specified wholly owned subsidiary situation."
     },
     {
       question_id: "CEL_188_MED_07_4",
       question: "The resolution passed by the holding company in the specified WOS situation is:",
-      options: [
-        "Insufficient in every case",
-        "Sufficient for the purpose of entering into the transaction",
-        "Required to be approved by the Registrar",
-        "Required to be approved by creditors",
-      ],
+      options: ["Insufficient in every case", "Sufficient for the purpose of entering into the transaction", "Required to be approved by the Registrar", "Required to be approved by creditors"],
       answer: 1,
       explanation: "Rule 15 provides that the resolution passed by the holding company is sufficient for the specified transaction with its wholly owned subsidiary."
     },
@@ -10475,18 +8238,10 @@ const AICaseStudies = [
   difficulty: "Medium",
   case_chapter: ["Section 189", "Register of Contracts"],
   caseText: `
-    <p><strong>Delta Manufacturing Limited</strong> maintains a register of contracts and
-    arrangements in which directors are interested. The company enters into several
-    transactions with entities in which its directors have an interest.</p>
-
-    <p>The Company Secretary has been instructed to update the register chronologically and
-    place it before the next Board meeting. A shareholder later requests an extract of the
-    register.</p>
-
-    <p>One contract relates to the purchase of goods worth ₹4,50,000 in aggregate during
-    the year. Another transaction relates to collection of bills by a banking company in
-    the ordinary course of its business.</p>
-  `,
+      <p><strong>Delta Manufacturing Limited</strong> maintains a register of contracts and arrangements in which directors are interested. The company enters into several transactions with entities in which its directors have an interest.</p>
+      <p>The Company Secretary has been instructed to update the register chronologically and place it before the next Board meeting. A shareholder later requests an extract of the register.</p>
+      <p>One contract relates to the purchase of goods worth ₹4,50,000 in aggregate during the year. Another transaction relates to collection of bills by a banking company in the ordinary course of its business.</p>
+    `,
   questions: [
     {
       question_id: "CEL_189_MED_08_1",
@@ -10519,12 +8274,7 @@ const AICaseStudies = [
     {
       question_id: "CEL_189_MED_08_5",
       question: "A contract for sale, purchase or supply of goods/materials not exceeding ₹5 lakh in aggregate in a year is:",
-      options: [
-        "Always required to be entered in the register",
-        "Excluded from the requirement under Section 189(1)",
-        "Required to be approved by the Registrar",
-        "Automatically void",
-      ],
+      options: ["Always required to be entered in the register", "Excluded from the requirement under Section 189(1)", "Required to be approved by the Registrar", "Automatically void"],
       answer: 1,
       explanation: "Section 189(5) provides an exception where the value of goods/materials or cost of services does not exceed ₹5 lakh in aggregate in any year."
     }
@@ -10538,27 +8288,15 @@ const AICaseStudies = [
   difficulty: "Medium",
   case_chapter: ["Section 191", "Payment for Loss of Office"],
   caseText: `
-    <p><strong>Vertex Textiles Limited</strong> proposes to pay ₹18 lakh to its Managing
-    Director as compensation for loss of office following the transfer of the company's
-    undertaking.</p>
-
-    <p>The Board has recommended the payment and proposes to place the matter before the
-    members. The company intends to disclose the name of the director, amount proposed,
-    basis for determining the amount and the reasons for the payment.</p>
-
-    <p>However, the company is currently in default in repayment of public deposits and
-    interest thereon.</p>
-  `,
+      <p><strong>Vertex Textiles Limited</strong> proposes to pay ₹18 lakh to its Managing Director as compensation for loss of office following the transfer of the company's undertaking.</p>
+      <p>The Board has recommended the payment and proposes to place the matter before the members. The company intends to disclose the name of the director, amount proposed, basis for determining the amount and the reasons for the payment.</p>
+      <p>However, the company is currently in default in repayment of public deposits and interest thereon.</p>
+    `,
   questions: [
     {
       question_id: "CEL_191_MED_09_1",
       question: "Before payment of compensation in the circumstances covered by Section 191, the proposal should generally be:",
-      options: [
-        "Approved only by the Managing Director",
-        "Disclosed to members and approved in general meeting",
-        "Approved only by the auditor",
-        "Approved only by the Company Secretary",
-      ],
+      options: ["Approved only by the Managing Director", "Disclosed to members and approved in general meeting", "Approved only by the auditor", "Approved only by the Company Secretary"],
       answer: 1,
       explanation: "Section 191 requires disclosure of prescribed particulars to members and approval of the payment proposal in general meeting."
     },
@@ -10572,12 +8310,7 @@ const AICaseStudies = [
     {
       question_id: "CEL_191_MED_09_3",
       question: "Can the payment generally be made while the company is in default in repayment of public deposits or interest?",
-      options: [
-        "Yes, without restriction",
-        "No, subject to the statutory exceptions such as notice pay/statutory payments",
-        "Yes, if the MD agrees",
-        "Yes, if the auditor approves",
-      ],
+      options: ["Yes, without restriction", "No, subject to the statutory exceptions such as notice pay/statutory payments", "Yes, if the MD agrees", "Yes, if the auditor approves"],
       answer: 1,
       explanation: "Rule 17(3) restricts compensation for loss of office in specified default situations, subject to exceptions such as notice pay and statutory payments according to the terms of appointment."
     },
@@ -10605,18 +8338,10 @@ const AICaseStudies = [
   difficulty: "Medium",
   case_chapter: ["Section 192", "Section 193", "Non-Cash Transactions", "OPC"],
   caseText: `
-    <p><strong>Future Ventures Limited</strong> proposes to acquire a building from one of
-    its directors in exchange for shares of the company instead of cash. The Board believes
-    that because the transaction is beneficial to the company, no shareholder approval is
-    necessary.</p>
-
-    <p>Separately, its holding company has a director who proposes to transfer another asset
-    to Future Ventures Limited in exchange for securities of the company.</p>
-
-    <p>In another matter, <strong>One Star Private Limited</strong>, an OPC, enters into a
-    contract with its sole member who is also its director. The contract is not in writing
-    and is not in the ordinary course of business.</p>
-  `,
+      <p><strong>Future Ventures Limited</strong> proposes to acquire a building from one of its directors in exchange for shares of the company instead of cash. The Board believes that because the transaction is beneficial to the company, no shareholder approval is necessary.</p>
+      <p>Separately, its holding company has a director who proposes to transfer another asset to Future Ventures Limited in exchange for securities of the company.</p>
+      <p>In another matter, <strong>One Star Private Limited</strong>, an OPC, enters into a contract with its sole member who is also its director. The contract is not in writing and is not in the ordinary course of business.</p>
+    `,
   questions: [
     {
       question_id: "CEL_192_193_MED_10_1",
@@ -10674,25 +8399,11 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 186", "Loans and Investments"],
   caseText: `
-    <p><strong>Trident Engineering Limited</strong> is a public company engaged in the
-    manufacture of industrial machinery. As per its latest financial statements, its
-    paid-up share capital is ₹20 crore, free reserves are ₹8 crore and securities
-    premium account is ₹2 crore.</p>
-
-    <p>The company has already granted loans of ₹5 crore to various bodies corporate,
-    provided guarantees aggregating ₹4 crore in connection with loans obtained by other
-    companies and acquired securities of other bodies corporate worth ₹3 crore.</p>
-
-    <p>The Board now proposes to grant a further loan of ₹7 crore to Zenith Components
-    Limited and acquire securities of another company for ₹2 crore. Trident Engineering
-    Limited also has a term loan outstanding from a public financial institution (PFI).
-    All instalments and interest payable to the PFI have been paid on time.</p>
-
-    <p>At the Board meeting considering the proposals, six out of eight directors are
-    present. Five directors vote in favour of the transactions while one director votes
-    against them. The Managing Director contends that approval by five out of six directors
-    is sufficient because it constitutes a clear majority.</p>
-  `,
+      <p><strong>Trident Engineering Limited</strong> is a public company engaged in the manufacture of industrial machinery. As per its latest financial statements, its paid-up share capital is ₹20 crore, free reserves are ₹8 crore and securities premium account is ₹2 crore.</p>
+      <p>The company has already granted loans of ₹5 crore to various bodies corporate, provided guarantees aggregating ₹4 crore in connection with loans obtained by other companies and acquired securities of other bodies corporate worth ₹3 crore.</p>
+      <p>The Board now proposes to grant a further loan of ₹7 crore to Zenith Components Limited and acquire securities of another company for ₹2 crore. Trident Engineering Limited also has a term loan outstanding from a public financial institution (PFI). All instalments and interest payable to the PFI have been paid on time.</p>
+      <p>At the Board meeting considering the proposals, six out of eight directors are present. Five directors vote in favour of the transactions while one director votes against them. The Managing Director contends that approval by five out of six directors is sufficient because it constitutes a clear majority.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_186_01_1",
@@ -10745,22 +8456,11 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 186", "WOS", "Joint Venture"],
   caseText: `
-    <p><strong>Apex Mobility Limited</strong> has paid-up share capital of ₹12 crore,
-    free reserves of ₹6 crore and securities premium of ₹2 crore. Its existing loans,
-    guarantees, securities and investments covered by Section 186(2) aggregate ₹10 crore.</p>
-
-    <p>The Board proposes three additional transactions: a loan of ₹4 crore to Apex
-    Batteries Private Limited, its wholly owned subsidiary; a guarantee of ₹3 crore in
-    connection with a loan obtained by a joint venture company; and acquisition for
-    ₹5 crore of securities of another unrelated body corporate.</p>
-
-    <p>The directors are aware that the aggregate of the existing and proposed transactions
-    will cross the limit under Section 186(2). One director argues that because transactions
-    with a wholly owned subsidiary and joint venture enjoy an exemption, all three proposed
-    transactions can be completed without approval of members.</p>
-
-    <p>The company proposes to make appropriate disclosures in its financial statements.</p>
-  `,
+      <p><strong>Apex Mobility Limited</strong> has paid-up share capital of ₹12 crore, free reserves of ₹6 crore and securities premium of ₹2 crore. Its existing loans, guarantees, securities and investments covered by Section 186(2) aggregate ₹10 crore.</p>
+      <p>The Board proposes three additional transactions: a loan of ₹4 crore to Apex Batteries Private Limited, its wholly owned subsidiary; a guarantee of ₹3 crore in connection with a loan obtained by a joint venture company; and acquisition for ₹5 crore of securities of another unrelated body corporate.</p>
+      <p>The directors are aware that the aggregate of the existing and proposed transactions will cross the limit under Section 186(2). One director argues that because transactions with a wholly owned subsidiary and joint venture enjoy an exemption, all three proposed transactions can be completed without approval of members.</p>
+      <p>The company proposes to make appropriate disclosures in its financial statements.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_186_02_1",
@@ -10796,12 +8496,7 @@ const AICaseStudies = [
     {
       question_id: "CEL_HARD_186_02_4",
       question: "Where the special-resolution exemption for the WOS/JV transaction is availed, the company is nevertheless required to:",
-      options: [
-        "Obtain Central Government approval",
-        "Disclose prescribed details in its financial statements",
-        "Convert the subsidiary into a public company",
-        "Obtain approval from every creditor",
-      ],
+      options: ["Obtain Central Government approval", "Disclose prescribed details in its financial statements", "Convert the subsidiary into a public company", "Obtain approval from every creditor"],
       answer: 1,
       explanation: "The exempted loans, guarantees, securities or acquisitions must be appropriately disclosed in the financial statements as contemplated by Section 186."
     },
@@ -10828,22 +8523,11 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 186", "Default", "Interest", "Register"],
   caseText: `
-    <p><strong>Meridian Finance Solutions Limited</strong>, which is not a banking company,
-    proposes to grant a four-year corporate loan of ₹6 crore to Nova Limited. The prevailing
-    yields on Government Securities are 6.8% for three-year securities and 7.4% for
-    five-year securities.</p>
-
-    <p>Meridian proposes to charge interest at 7% per annum. The finance director argues
-    that the three-year Government Security should be used because three years is closer
-    to four years than five years for commercial purposes.</p>
-
-    <p>Meridian had also accepted deposits from the public. A portion of those deposits
-    matured two months ago but has not yet been repaid. Interest on those deposits is also
-    outstanding. The company expects to clear the default shortly.</p>
-
-    <p>The Board nevertheless wants to disburse the corporate loan immediately and record
-    the transaction in its statutory register after completion of the quarterly accounts.</p>
-  `,
+      <p><strong>Meridian Finance Solutions Limited</strong>, which is not a banking company, proposes to grant a four-year corporate loan of ₹6 crore to Nova Limited. The prevailing yields on Government Securities are 6.8% for three-year securities and 7.4% for five-year securities.</p>
+      <p>Meridian proposes to charge interest at 7% per annum. The finance director argues that the three-year Government Security should be used because three years is closer to four years than five years for commercial purposes.</p>
+      <p>Meridian had also accepted deposits from the public. A portion of those deposits matured two months ago but has not yet been repaid. Interest on those deposits is also outstanding. The company expects to clear the default shortly.</p>
+      <p>The Board nevertheless wants to disburse the corporate loan immediately and record the transaction in its statutory register after completion of the quarterly accounts.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_186_03_1",
@@ -10881,12 +8565,7 @@ const AICaseStudies = [
     {
       question_id: "CEL_HARD_186_03_5",
       question: "Which statement about the statutory register is correct?",
-      options: [
-        "It may be destroyed after eight years",
-        "It must be kept only until repayment of the loan",
-        "It is preserved permanently",
-        "It is maintained only by listed companies",
-      ],
+      options: ["It may be destroyed after eight years", "It must be kept only until repayment of the loan", "It is preserved permanently", "It is maintained only by listed companies"],
       answer: 2,
       explanation: "The MBP-2 register is kept at the registered office and preserved permanently."
     }
@@ -10901,20 +8580,10 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 187", "Investments in Own Name"],
   caseText: `
-    <p><strong>Orion Holdings Limited</strong> has investments in several companies.
-    Normally, all investments are held in Orion's own name. However, its legal department
-    has identified three exceptional situations.</p>
-
-    <p>First, certain shares of its subsidiary are held in the names of nominees of Orion
-    because this is necessary to ensure that the number of members of the subsidiary does
-    not fall below the statutory minimum. Second, securities worth ₹3 crore were transferred
-    into the name of a scheduled bank solely to facilitate their transfer to a purchaser.
-    Seven months have passed and no transfer to the purchaser has taken place.</p>
-
-    <p>Third, listed securities purchased by Orion are held through a depository, with
-    Orion recorded as the beneficial owner. The finance director argues that no register
-    is required because Orion remains the beneficial owner.</p>
-  `,
+      <p><strong>Orion Holdings Limited</strong> has investments in several companies. Normally, all investments are held in Orion's own name. However, its legal department has identified three exceptional situations.</p>
+      <p>First, certain shares of its subsidiary are held in the names of nominees of Orion because this is necessary to ensure that the number of members of the subsidiary does not fall below the statutory minimum. Second, securities worth ₹3 crore were transferred into the name of a scheduled bank solely to facilitate their transfer to a purchaser. Seven months have passed and no transfer to the purchaser has taken place.</p>
+      <p>Third, listed securities purchased by Orion are held through a depository, with Orion recorded as the beneficial owner. The finance director argues that no register is required because Orion remains the beneficial owner.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_187_04_1",
@@ -10977,23 +8646,11 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 188", "Related Party"],
   caseText: `
-    <p><strong>Quantum Electronics Limited</strong> is evaluating several proposed
-    transactions. Mr. Arjun is a director of Quantum.</p>
-
-    <p>Transaction I is with Alpha Private Limited, in which Arjun's wife is a member.
-    Transaction II is with Beta Limited, a public company in which Arjun is a director
-    and Arjun together with his relatives holds 2.8% of the paid-up share capital.
-    Transaction III is with Gamma & Associates, a partnership firm in which Arjun's
-    brother is a partner.</p>
-
-    <p>Transaction IV is with Delta Limited. Delta's Board is accustomed to act in
-    accordance with professional legal advice given by Arjun, who is a practising
-    advocate in addition to being a director of Quantum. The advice is given strictly
-    in his professional capacity.</p>
-
-    <p>The compliance officer must determine which parties fall within the statutory
-    definition of 'related party' before applying Section 188.</p>
-  `,
+      <p><strong>Quantum Electronics Limited</strong> is evaluating several proposed transactions. Mr. Arjun is a director of Quantum.</p>
+      <p>Transaction I is with Alpha Private Limited, in which Arjun's wife is a member. Transaction II is with Beta Limited, a public company in which Arjun is a director and Arjun together with his relatives holds 2.8% of the paid-up share capital. Transaction III is with Gamma & Associates, a partnership firm in which Arjun's brother is a partner.</p>
+      <p>Transaction IV is with Delta Limited. Delta's Board is accustomed to act in accordance with professional legal advice given by Arjun, who is a practising advocate in addition to being a director of Quantum. The advice is given strictly in his professional capacity.</p>
+      <p>The compliance officer must determine which parties fall within the statutory definition of 'related party' before applying Section 188.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_188_05_1",
@@ -11061,24 +8718,11 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 188", "Rule 15", "Thresholds"],
   caseText: `
-    <p><strong>Prism Consumer Limited</strong> has turnover of ₹240 crore and net worth
-    of ₹90 crore according to its audited financial statements for the immediately
-    preceding financial year.</p>
-
-    <p>During the current financial year, Prism has already purchased goods worth
-    ₹16 crore from a related party. It now proposes an additional purchase of ₹9 crore
-    from the same related party. It also proposes to purchase an office property worth
-    ₹8.5 crore from another related party.</p>
-
-    <p>Further, the company proposes to appoint the daughter of one of its directors to
-    an office of profit in its subsidiary at monthly remuneration of ₹2.80 lakh.
-    Another related party is proposed to receive remuneration for underwriting securities
-    of Prism equal to ₹95 lakh.</p>
-
-    <p>None of these transactions is in the ordinary course of business at arm's length.
-    The compliance department is examining which transactions cross the thresholds under
-    Rule 15.</p>
-  `,
+      <p><strong>Prism Consumer Limited</strong> has turnover of ₹240 crore and net worth of ₹90 crore according to its audited financial statements for the immediately preceding financial year.</p>
+      <p>During the current financial year, Prism has already purchased goods worth ₹16 crore from a related party. It now proposes an additional purchase of ₹9 crore from the same related party. It also proposes to purchase an office property worth ₹8.5 crore from another related party.</p>
+      <p>Further, the company proposes to appoint the daughter of one of its directors to an office of profit in its subsidiary at monthly remuneration of ₹2.80 lakh. Another related party is proposed to receive remuneration for underwriting securities of Prism equal to ₹95 lakh.</p>
+      <p>None of these transactions is in the ordinary course of business at arm's length. The compliance department is examining which transactions cross the thresholds under Rule 15.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_188_06_1",
@@ -11136,22 +8780,11 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 188", "Ratification", "Voidable Contract"],
   caseText: `
-    <p><strong>Horizon Media Limited</strong>, an unlisted public company, entered into
-    a substantial service contract with a related party. The transaction was neither in
-    the ordinary course of business nor on an arm's length basis.</p>
-
-    <p>Mr. Karan, a director of Horizon, authorised the contract without obtaining the
-    consent of the Board and without obtaining the approval of shareholders that was
-    required because the prescribed threshold had been crossed.</p>
-
-    <p>The omission was discovered 45 days after execution. The Board decided to postpone
-    the matter and eventually placed it before the shareholders four months after the
-    contract had originally been entered into. The shareholders then purported to ratify
-    the contract.</p>
-
-    <p>The contract is with a related party of Mr. Karan and Horizon has suffered a
-    financial loss because of the transaction.</p>
-  `,
+      <p><strong>Horizon Media Limited</strong>, an unlisted public company, entered into a substantial service contract with a related party. The transaction was neither in the ordinary course of business nor on an arm's length basis.</p>
+      <p>Mr. Karan, a director of Horizon, authorised the contract without obtaining the consent of the Board and without obtaining the approval of shareholders that was required because the prescribed threshold had been crossed.</p>
+      <p>The omission was discovered 45 days after execution. The Board decided to postpone the matter and eventually placed it before the shareholders four months after the contract had originally been entered into. The shareholders then purported to ratify the contract.</p>
+      <p>The contract is with a related party of Mr. Karan and Horizon has suffered a financial loss because of the transaction.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_188_07_1",
@@ -11210,22 +8843,10 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 189", "MBP-4", "Director Interest"],
   caseText: `
-    <p><strong>Silverline Pharmaceuticals Limited</strong> maintains its statutory
-    registers at its registered office. Mr. Dev was appointed as a director on
-    1 July. He disclosed particulars of his interests under Section 184(1) on
-    5 August.</p>
-
-    <p>During the year, Silverline entered into a ₹4.80 lakh contract for supply of
-    materials with an entity in which one of its directors was interested. This was the
-    only such supply contract with that entity during the year. The company also entered
-    into another contract falling under Section 188 that is required to be entered in the
-    register.</p>
-
-    <p>The Company Secretary updated Form MBP-4 and authenticated the entries. However,
-    the register was not placed before the next Board meeting for signatures. At the AGM,
-    a proxy attending on behalf of a shareholder asked to inspect the register, but the
-    chairman refused on the ground that only registered members can inspect it.</p>
-  `,
+      <p><strong>Silverline Pharmaceuticals Limited</strong> maintains its statutory registers at its registered office. Mr. Dev was appointed as a director on 1 July. He disclosed particulars of his interests under Section 184(1) on 5 August.</p>
+      <p>During the year, Silverline entered into a ₹4.80 lakh contract for supply of materials with an entity in which one of its directors was interested. This was the only such supply contract with that entity during the year. The company also entered into another contract falling under Section 188 that is required to be entered in the register.</p>
+      <p>The Company Secretary updated Form MBP-4 and authenticated the entries. However, the register was not placed before the next Board meeting for signatures. At the AGM, a proxy attending on behalf of a shareholder asked to inspect the register, but the chairman refused on the ground that only registered members can inspect it.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_189_08_1",
@@ -11254,12 +8875,7 @@ const AICaseStudies = [
     {
       question_id: "CEL_HARD_189_08_3",
       question: "After the register is duly filled and updated, it should be:",
-      options: [
-        "Filed with the Registrar every month",
-        "Placed before the next Board meeting and signed by all directors present",
-        "Signed only by the Managing Director",
-        "Approved by shareholders",
-      ],
+      options: ["Filed with the Registrar every month", "Placed before the next Board meeting and signed by all directors present", "Signed only by the Managing Director", "Approved by shareholders"],
       answer: 1,
       explanation: "Section 189(1) requires the duly filled and updated register to be placed before the next Board meeting and signed by all directors present."
     },
@@ -11293,25 +8909,11 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 190", "Section 191", "Loss of Office"],
   caseText: `
-    <p><strong>Regal Infrastructure Limited</strong>, a public company, appointed
-    Mr. Varun as its whole-time director. His terms of employment were agreed orally
-    and no formal written service contract was executed. The company nevertheless
-    prepared a written memorandum containing all the agreed terms and kept it at its
-    registered office.</p>
-
-    <p>Two years later, Regal agreed to transfer substantially its entire undertaking.
-    As a consequence, Mr. Varun would lose his office. The transferee offered to pay
-    him compensation for such loss of office. The amount and basis of compensation
-    were disclosed to Regal's members and the proposal was placed before the general
-    meeting.</p>
-
-    <p>On the date of the meeting, sufficient members did not attend and there was no
-    quorum. Management argued that because all members who actually attended supported
-    the payment, the proposal should be treated as approved.</p>
-
-    <p>Before a fresh meeting could be called, Mr. Varun accepted the compensation from
-    the transferee.</p>
-  `,
+      <p><strong>Regal Infrastructure Limited</strong>, a public company, appointed Mr. Varun as its whole-time director. His terms of employment were agreed orally and no formal written service contract was executed. The company nevertheless prepared a written memorandum containing all the agreed terms and kept it at its registered office.</p>
+      <p>Two years later, Regal agreed to transfer substantially its entire undertaking. As a consequence, Mr. Varun would lose his office. The transferee offered to pay him compensation for such loss of office. The amount and basis of compensation were disclosed to Regal's members and the proposal was placed before the general meeting.</p>
+      <p>On the date of the meeting, sufficient members did not attend and there was no quorum. Management argued that because all members who actually attended supported the payment, the proposal should be treated as approved.</p>
+      <p>Before a fresh meeting could be called, Mr. Varun accepted the compensation from the transferee.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_190_191_09_1",
@@ -11335,36 +8937,21 @@ const AICaseStudies = [
     {
       question_id: "CEL_HARD_190_191_09_3",
       question: "Can the compensation proposal be treated as approved despite absence of quorum?",
-      options: [
-        "Yes, because all members present supported it",
-        "Yes, if the Board subsequently confirms it",
-        "No, failure for want of quorum does not amount to approval",
-        "Yes, after 30 days",
-      ],
+      options: ["Yes, because all members present supported it", "Yes, if the Board subsequently confirms it", "No, failure for want of quorum does not amount to approval", "Yes, after 30 days"],
       answer: 2,
       explanation: "Section 191 specifically provides that where the payment is not approved for want of quorum, either at the meeting or adjourned meeting, the proposal shall not be deemed approved."
     },
     {
       question_id: "CEL_HARD_190_191_09_4",
       question: "What is the legal character of the compensation received by Mr. Varun before valid approval?",
-      options: [
-        "It becomes his property immediately",
-        "It is deemed to have been received in trust for the company",
-        "It becomes a loan from the transferee",
-        "It becomes dividend income",
-      ],
+      options: ["It becomes his property immediately", "It is deemed to have been received in trust for the company", "It becomes a loan from the transferee", "It becomes dividend income"],
       answer: 1,
       explanation: "Where payment is received in contravention of Section 191(1), including before the required approval, the amount is deemed to have been received by the director in trust for the company."
     },
     {
       question_id: "CEL_HARD_190_191_09_5",
       question: "If Regal were a private company, which statement regarding Section 190 would be correct?",
-      options: [
-        "Section 190 would continue to apply fully",
-        "Section 190 would not apply",
-        "Only Section 190(1) would apply",
-        "Section 190 would apply only if turnover exceeded ₹100 crore",
-      ],
+      options: ["Section 190 would continue to apply fully", "Section 190 would not apply", "Only Section 190(1) would apply", "Section 190 would apply only if turnover exceeded ₹100 crore"],
       answer: 1,
       explanation: "Section 190(4) provides that Section 190 does not apply to a private company."
     }
@@ -11379,24 +8966,11 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 192", "Section 193", "Non-Cash Transactions", "OPC"],
   caseText: `
-    <p><strong>Vertex Digital Limited</strong> proposes to transfer a commercial property
-    worth ₹6 crore to Mr. Aman, a director of its holding company. Instead of paying cash,
-    Mr. Aman proposes to transfer securities held by him to Vertex as consideration.</p>
-
-    <p>The Board of Vertex approves the arrangement and contends that approval of the Board
-    is sufficient because Mr. Aman is not a director of Vertex itself. The notice subsequently
-    prepared for the general meeting describes the property and the securities but does not
-    contain a valuation by a registered valuer.</p>
-
-    <p>Separately, <strong>Solo Innovations (OPC) Private Limited</strong> enters into a
-    contract with Ms. Riya, its sole member as well as its sole director. The contract is
-    not in writing and relates to the sale of an investment property, which is not part of
-    the ordinary course of business of the OPC. The terms are recorded in the minutes of
-    the first Board meeting held after the contract.</p>
-
-    <p>Solo Innovations informs the Registrar 18 days after the date on which the contract
-    was approved by the Board.</p>
-  `,
+      <p><strong>Vertex Digital Limited</strong> proposes to transfer a commercial property worth ₹6 crore to Mr. Aman, a director of its holding company. Instead of paying cash, Mr. Aman proposes to transfer securities held by him to Vertex as consideration.</p>
+      <p>The Board of Vertex approves the arrangement and contends that approval of the Board is sufficient because Mr. Aman is not a director of Vertex itself. The notice subsequently prepared for the general meeting describes the property and the securities but does not contain a valuation by a registered valuer.</p>
+      <p>Separately, <strong>Solo Innovations (OPC) Private Limited</strong> enters into a contract with Ms. Riya, its sole member as well as its sole director. The contract is not in writing and relates to the sale of an investment property, which is not part of the ordinary course of business of the OPC. The terms are recorded in the minutes of the first Board meeting held after the contract.</p>
+      <p>Solo Innovations informs the Registrar 18 days after the date on which the contract was approved by the Board.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_192_193_10_1",
@@ -11413,12 +8987,7 @@ const AICaseStudies = [
     {
       question_id: "CEL_HARD_192_193_10_2",
       question: "Since Mr. Aman is a director of Vertex's holding company, which approvals are required for the covered non-cash arrangement?",
-      options: [
-        "Board approval of Vertex only",
-        "General meeting approval of Vertex only",
-        "General meeting approval of Vertex and also of the holding company",
-        "Approval of the Registrar only",
-      ],
+      options: ["Board approval of Vertex only", "General meeting approval of Vertex only", "General meeting approval of Vertex and also of the holding company", "Approval of the Registrar only"],
       answer: 2,
       explanation: "Prior approval by resolution in the company's general meeting is required, and where the relevant director is a director of the holding company, approval of the holding company in general meeting is also required."
     },
@@ -11449,12 +9018,7 @@ const AICaseStudies = [
     {
       question_id: "CEL_HARD_192_193_10_5",
       question: "Is informing the Registrar 18 days after Board approval compliant with Section 193?",
-      options: [
-        "Yes, the period is 30 days",
-        "Yes, the period is 21 days",
-        "No, the information should be submitted within 15 days of Board approval",
-        "No filing with the Registrar is required",
-      ],
+      options: ["Yes, the period is 30 days", "Yes, the period is 21 days", "No, the information should be submitted within 15 days of Board approval", "No filing with the Registrar is required"],
       answer: 2,
       explanation: "Section 193 requires the OPC to inform the Registrar about every such contract recorded in the Board minutes within 15 days of the date of approval by the Board. Filing after 18 days is therefore late."
     }
@@ -11469,24 +9033,10 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 186", "Loans and Investments"],
   caseText: `
-    <p><strong>Trident Engineering Limited</strong> has a paid-up share capital of ₹30 crore,
-    free reserves of ₹12 crore and securities premium account of ₹8 crore. The company has
-    already made investments of ₹16 crore in securities of other bodies corporate and has
-    given guarantees of ₹8 crore in connection with loans obtained by other companies.</p>
-
-    <p>The Board now proposes to grant a loan of ₹10 crore to Trident Components Private
-    Limited, its wholly owned subsidiary. In addition, it proposes to invest ₹4 crore in the
-    securities of an unrelated body corporate. A term loan obtained from a public financial
-    institution is presently subsisting. The company has regularly paid all instalments and
-    interest relating to such term loan.</p>
-
-    <p>At the Board meeting, six out of eight directors are present. Five directors support
-    both proposals while one director votes against them. The Managing Director contends
-    that since an overwhelming majority supports the transactions, the requirements of
-    Section 186 are satisfied. The Company Secretary is also examining whether approval
-    of the public financial institution and a special resolution of members would be
-    necessary.</p>
-  `,
+      <p><strong>Trident Engineering Limited</strong> has a paid-up share capital of ₹30 crore, free reserves of ₹12 crore and securities premium account of ₹8 crore. The company has already made investments of ₹16 crore in securities of other bodies corporate and has given guarantees of ₹8 crore in connection with loans obtained by other companies.</p>
+      <p>The Board now proposes to grant a loan of ₹10 crore to Trident Components Private Limited, its wholly owned subsidiary. In addition, it proposes to invest ₹4 crore in the securities of an unrelated body corporate. A term loan obtained from a public financial institution is presently subsisting. The company has regularly paid all instalments and interest relating to such term loan.</p>
+      <p>At the Board meeting, six out of eight directors are present. Five directors support both proposals while one director votes against them. The Managing Director contends that since an overwhelming majority supports the transactions, the requirements of Section 186 are satisfied. The Company Secretary is also examining whether approval of the public financial institution and a special resolution of members would be necessary.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_186_01_1",
@@ -11549,22 +9099,10 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 186", "Investment Layers"],
   caseText: `
-    <p><strong>Orion Global Limited</strong>, an Indian company, proposes a major corporate
-    restructuring. It intends to make an investment through Investment Company A, which in
-    turn will invest through Investment Company B, which proposes to make a further
-    investment through Investment Company C.</p>
-
-    <p>Each of A, B and C has more than 50% of its total assets represented by investments
-    in shares, debentures and other securities. The directors are concerned that the proposed
-    structure may breach the restriction on investment through more than two layers of
-    investment companies.</p>
-
-    <p>Separately, Orion proposes to acquire a company incorporated outside India. Under the
-    laws of that foreign country, the target company validly maintains three layers of
-    investment subsidiaries. Orion also has an Indian subsidiary which is required under a
-    sector-specific law to establish an investment subsidiary to satisfy a statutory
-    requirement.</p>
-  `,
+      <p><strong>Orion Global Limited</strong>, an Indian company, proposes a major corporate restructuring. It intends to make an investment through Investment Company A, which in turn will invest through Investment Company B, which proposes to make a further investment through Investment Company C.</p>
+      <p>Each of A, B and C has more than 50% of its total assets represented by investments in shares, debentures and other securities. The directors are concerned that the proposed structure may breach the restriction on investment through more than two layers of investment companies.</p>
+      <p>Separately, Orion proposes to acquire a company incorporated outside India. Under the laws of that foreign country, the target company validly maintains three layers of investment subsidiaries. Orion also has an Indian subsidiary which is required under a sector-specific law to establish an investment subsidiary to satisfy a statutory requirement.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_186_02_1",
@@ -11632,20 +9170,10 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 186", "Interest", "Default", "Register"],
   caseText: `
-    <p><strong>Apex Finance Solutions Limited</strong> accepted deposits from the public several
-    years ago. Due to liquidity problems, ₹2 crore of matured deposits and the interest
-    payable thereon remain unpaid. The default is continuing.</p>
-
-    <p>During this period, Apex proposes to grant a seven-year loan of ₹5 crore to another
-    body corporate and provide a guarantee of ₹3 crore in connection with a loan obtained
-    by another company. For the proposed seven-year loan, the prevailing yields on
-    Government Securities are 6.5% for five-year securities and 7.2% for ten-year
-    securities. The finance department proposes an interest rate of 6%.</p>
-
-    <p>The company has also recently made an investment which was entered in Form MBP-2
-    nine days after the transaction. The Company Secretary argues that entries may be made
-    at any time before the next Board meeting.</p>
-  `,
+      <p><strong>Apex Finance Solutions Limited</strong> accepted deposits from the public several years ago. Due to liquidity problems, ₹2 crore of matured deposits and the interest payable thereon remain unpaid. The default is continuing.</p>
+      <p>During this period, Apex proposes to grant a seven-year loan of ₹5 crore to another body corporate and provide a guarantee of ₹3 crore in connection with a loan obtained by another company. For the proposed seven-year loan, the prevailing yields on Government Securities are 6.5% for five-year securities and 7.2% for ten-year securities. The finance department proposes an interest rate of 6%.</p>
+      <p>The company has also recently made an investment which was entered in Form MBP-2 nine days after the transaction. The Company Secretary argues that entries may be made at any time before the next Board meeting.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_186_03_1",
@@ -11669,12 +9197,7 @@ const AICaseStudies = [
     {
       question_id: "CEL_HARD_186_03_3",
       question: "For purposes of Section 186(7), the minimum interest rate should be linked to:",
-      options: [
-        "Any Government Security selected by the Board",
-        "The Government Security closest to the tenor of the loan",
-        "The company's average borrowing cost",
-        "The RBI repo rate alone",
-      ],
+      options: ["Any Government Security selected by the Board", "The Government Security closest to the tenor of the loan", "The company's average borrowing cost", "The RBI repo rate alone"],
       answer: 1,
       explanation: "Section 186(7) uses the prevailing yield of the 1-year, 3-year, 5-year or 10-year Government Security closest to the tenor of the loan."
     },
@@ -11708,21 +9231,10 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 187", "Investment in Own Name"],
   caseText: `
-    <p><strong>Mercury Industries Limited</strong> holds investments worth ₹60 crore. Certain
-    shares are deposited with a scheduled bank for collection of dividends. Another block
-    of securities was transferred into the name of the scheduled bank to facilitate their
-    proposed sale. Seven months have elapsed since that transfer, but no sale has taken
-    place and the securities continue to remain in the bank's name.</p>
-
-    <p>Mercury also holds dematerialised securities in the name of a depository while Mercury
-    remains their beneficial owner. In addition, the company holds a small number of shares
-    of its subsidiary through nominees solely to ensure that the subsidiary's number of
-    members does not fall below the statutory requirement.</p>
-
-    <p>The CFO argues that Section 187 requires every security without exception to be
-    registered directly in Mercury's own name and recommends immediate transfer of all
-    such securities.</p>
-  `,
+      <p><strong>Mercury Industries Limited</strong> holds investments worth ₹60 crore. Certain shares are deposited with a scheduled bank for collection of dividends. Another block of securities was transferred into the name of the scheduled bank to facilitate their proposed sale. Seven months have elapsed since that transfer, but no sale has taken place and the securities continue to remain in the bank's name.</p>
+      <p>Mercury also holds dematerialised securities in the name of a depository while Mercury remains their beneficial owner. In addition, the company holds a small number of shares of its subsidiary through nominees solely to ensure that the subsidiary's number of members does not fall below the statutory requirement.</p>
+      <p>The CFO argues that Section 187 requires every security without exception to be registered directly in Mercury's own name and recommends immediate transfer of all such securities.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_187_04_1",
@@ -11785,21 +9297,10 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 188", "Related Party Transactions"],
   caseText: `
-    <p><strong>Vertex Consumer Products Limited</strong> has turnover of ₹300 crore and net
-    worth of ₹120 crore according to the audited financial statements of the immediately
-    preceding financial year.</p>
-
-    <p>Mr. A, a director of Vertex, is also a director of Prime Distribution Private Limited,
-    while his wife is a member of that private company. Vertex proposes to purchase goods
-    worth ₹32 crore from Prime Distribution during the financial year. The pricing offered
-    to Vertex is substantially more favourable to Prime than the pricing charged to unrelated
-    customers, and therefore the management accepts that the arrangement is not at arm's
-    length.</p>
-
-    <p>Vertex also proposes to lease a warehouse from another related party for ₹20 crore
-    during the year. The Board argues that shareholder approval is unnecessary because
-    both transactions are in the ordinary course of Vertex's business.</p>
-  `,
+      <p><strong>Vertex Consumer Products Limited</strong> has turnover of ₹300 crore and net worth of ₹120 crore according to the audited financial statements of the immediately preceding financial year.</p>
+      <p>Mr. A, a director of Vertex, is also a director of Prime Distribution Private Limited, while his wife is a member of that private company. Vertex proposes to purchase goods worth ₹32 crore from Prime Distribution during the financial year. The pricing offered to Vertex is substantially more favourable to Prime than the pricing charged to unrelated customers, and therefore the management accepts that the arrangement is not at arm's length.</p>
+      <p>Vertex also proposes to lease a warehouse from another related party for ₹20 crore during the year. The Board argues that shareholder approval is unnecessary because both transactions are in the ordinary course of Vertex's business.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_188_05_1",
@@ -11862,20 +9363,10 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 188", "Office or Place of Profit", "Related Party Voting"],
   caseText: `
-    <p><strong>Emerald Technologies Limited</strong> proposes to appoint the son of one of its
-    directors as Chief Strategy Adviser at a monthly remuneration of ₹3,20,000. The
-    appointment is not in the ordinary course of the company's business.</p>
-
-    <p>Emerald also proposes to appoint a related entity as underwriter for a proposed issue
-    of securities. The remuneration payable to the underwriter is ₹1.8 crore. The company's
-    net worth according to the audited financial statements of the preceding financial year
-    is ₹150 crore.</p>
-
-    <p>At the general meeting, a shareholder who is a related party in the context of the
-    first transaction proposes to vote in favour of that transaction. The company is not a
-    private company and the statutory exception concerning companies in which 90% or more
-    members in number are relatives of promoters or related parties does not apply.</p>
-  `,
+      <p><strong>Emerald Technologies Limited</strong> proposes to appoint the son of one of its directors as Chief Strategy Adviser at a monthly remuneration of ₹3,20,000. The appointment is not in the ordinary course of the company's business.</p>
+      <p>Emerald also proposes to appoint a related entity as underwriter for a proposed issue of securities. The remuneration payable to the underwriter is ₹1.8 crore. The company's net worth according to the audited financial statements of the preceding financial year is ₹150 crore.</p>
+      <p>At the general meeting, a shareholder who is a related party in the context of the first transaction proposes to vote in favour of that transaction. The company is not a private company and the statutory exception concerning companies in which 90% or more members in number are relatives of promoters or related parties does not apply.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_188_06_1",
@@ -11938,22 +9429,10 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 188", "Ratification", "Voidable Transaction"],
   caseText: `
-    <p><strong>Pioneer Healthcare Limited</strong> entered into a substantial service contract
-    with a related party on 1 April. The transaction required approval under Section 188,
-    but the executive director authorised execution without first obtaining the required
-    consent of the Board or approval of shareholders.</p>
-
-    <p>The omission was discovered during an internal review. On 20 June, the Board began
-    considering whether the transaction could be ratified. Due to disagreements among the
-    directors, however, no decision was taken. The required approval was eventually obtained
-    on 15 August.</p>
-
-    <p>During the period before ratification, the company suffered a financial loss under the
-    contract. The related party to the contract is also related to the executive director who
-    authorised it. The executive director argues that subsequent shareholder approval
-    automatically validates the transaction from inception and eliminates any personal
-    exposure.</p>
-  `,
+      <p><strong>Pioneer Healthcare Limited</strong> entered into a substantial service contract with a related party on 1 April. The transaction required approval under Section 188, but the executive director authorised execution without first obtaining the required consent of the Board or approval of shareholders.</p>
+      <p>The omission was discovered during an internal review. On 20 June, the Board began considering whether the transaction could be ratified. Due to disagreements among the directors, however, no decision was taken. The required approval was eventually obtained on 15 August.</p>
+      <p>During the period before ratification, the company suffered a financial loss under the contract. The related party to the contract is also related to the executive director who authorised it. The executive director argues that subsequent shareholder approval automatically validates the transaction from inception and eliminates any personal exposure.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_188_07_1",
@@ -11972,12 +9451,7 @@ const AICaseStudies = [
     {
       question_id: "CEL_HARD_188_07_3",
       question: "Where the required ratification is not obtained within the statutory period, the contract is:",
-      options: [
-        "Automatically criminally void",
-        "Voidable at the option of the Board or shareholders, as the case may be",
-        "Always valid",
-        "Automatically converted into an arm's length transaction",
-      ],
+      options: ["Automatically criminally void", "Voidable at the option of the Board or shareholders, as the case may be", "Always valid", "Automatically converted into an arm's length transaction"],
       answer: 1,
       explanation: "Section 188(3) makes such a contract or arrangement voidable at the option of the Board or shareholders, as the case may be."
     },
@@ -12011,19 +9485,10 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 189", "Register of Contracts"],
   caseText: `
-    <p><strong>Quantum Motors Limited</strong> maintains its register of contracts and
-    arrangements in Form MBP-4 at its registered office. Mr. K was appointed as a director
-    on 1 June but disclosed his interests under Section 184(1) only on 10 July.</p>
-
-    <p>The company entered into a contract for supply of services with an entity in which
-    another director was interested. The aggregate cost of the services during the year was
-    ₹4.80 lakh. It also entered into another interested contract for ₹9 lakh. The Company
-    Secretary proposes to make all register entries together at the end of the financial year.</p>
-
-    <p>Before the AGM, a member asks to inspect the register. At the AGM itself, a proxy
-    appointed by another member also asks to inspect it. The management argues that only
-    registered members, and not proxies, can inspect the register during the AGM.</p>
-  `,
+      <p><strong>Quantum Motors Limited</strong> maintains its register of contracts and arrangements in Form MBP-4 at its registered office. Mr. K was appointed as a director on 1 June but disclosed his interests under Section 184(1) only on 10 July.</p>
+      <p>The company entered into a contract for supply of services with an entity in which another director was interested. The aggregate cost of the services during the year was ₹4.80 lakh. It also entered into another interested contract for ₹9 lakh. The Company Secretary proposes to make all register entries together at the end of the financial year.</p>
+      <p>Before the AGM, a member asks to inspect the register. At the AGM itself, a proxy appointed by another member also asks to inspect it. The management argues that only registered members, and not proxies, can inspect the register during the AGM.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_189_08_1",
@@ -12059,12 +9524,7 @@ const AICaseStudies = [
     {
       question_id: "CEL_HARD_189_08_4",
       question: "After the register has been duly filled and updated, it should be:",
-      options: [
-        "Placed before the next Board meeting and signed by all directors present",
-        "Filed with NCLT every month",
-        "Signed only by the Managing Director",
-        "Destroyed after the AGM",
-      ],
+      options: ["Placed before the next Board meeting and signed by all directors present", "Filed with NCLT every month", "Signed only by the Managing Director", "Destroyed after the AGM"],
       answer: 0,
       explanation: "Section 189(1) requires the register to be placed before the next Board meeting and signed by all directors present."
     },
@@ -12091,22 +9551,10 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 191", "Compensation for Loss of Office"],
   caseText: `
-    <p><strong>Regal Infrastructure Limited</strong> proposes to transfer substantially its
-    entire operating undertaking to another company. As part of the arrangement, the
-    transferee proposes to pay ₹40 lakh to Mr. Z, the Managing Director of Regal, as
-    compensation for loss of office.</p>
-
-    <p>The Board has disclosed Mr. Z's name and the proposed amount to members but has not
-    disclosed the basis for determination, source of payment, manner of payment or reasons
-    justifying the compensation. At the general meeting called to approve the proposal,
-    quorum is not present and the meeting is adjourned. The adjourned meeting also fails for
-    want of quorum.</p>
-
-    <p>Despite this, Mr. Z accepts ₹20 lakh from the transferee. Regal is also in default in
-    redemption of debentures and payment of interest thereon. Mr. Z contends that Section
-    191 applies only where compensation is paid directly by Regal and not where it is paid
-    by the transferee.</p>
-  `,
+      <p><strong>Regal Infrastructure Limited</strong> proposes to transfer substantially its entire operating undertaking to another company. As part of the arrangement, the transferee proposes to pay ₹40 lakh to Mr. Z, the Managing Director of Regal, as compensation for loss of office.</p>
+      <p>The Board has disclosed Mr. Z's name and the proposed amount to members but has not disclosed the basis for determination, source of payment, manner of payment or reasons justifying the compensation. At the general meeting called to approve the proposal, quorum is not present and the meeting is adjourned. The adjourned meeting also fails for want of quorum.</p>
+      <p>Despite this, Mr. Z accepts ₹20 lakh from the transferee. Regal is also in default in redemption of debentures and payment of interest thereon. Mr. Z contends that Section 191 applies only where compensation is paid directly by Regal and not where it is paid by the transferee.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_191_09_1",
@@ -12169,23 +9617,10 @@ const AICaseStudies = [
   difficulty: "hard",
   case_chapter: ["Section 192", "Section 193", "Non-Cash Transactions", "OPC"],
   caseText: `
-    <p><strong>Silverline Limited</strong> proposes to acquire a commercial property valued at
-    ₹12 crore from Mr. D, a director of its holding company. Instead of paying cash,
-    Silverline proposes to issue certain assets owned by it to Mr. D as consideration.
-    The Board approves the arrangement and argues that approval of Silverline's shareholders
-    is unnecessary because Mr. D is not a director of Silverline itself.</p>
-
-    <p>The notice sent to shareholders merely states that a property transaction is proposed.
-    It neither specifies full particulars of the arrangement nor contains the value of the
-    assets calculated by a registered valuer. Silverline nevertheless proceeds with the
-    transaction.</p>
-
-    <p>Separately, Alpha One Private Limited, an OPC limited by shares, enters into an oral
-    contract with its sole member, who is also its sole director, for purchase of an asset.
-    The transaction is outside the ordinary course of business. The terms are properly
-    recorded in the minutes of the first Board meeting held after the contract, but the
-    company informs the Registrar 25 days after the date of Board approval.</p>
-  `,
+      <p><strong>Silverline Limited</strong> proposes to acquire a commercial property valued at ₹12 crore from Mr. D, a director of its holding company. Instead of paying cash, Silverline proposes to issue certain assets owned by it to Mr. D as consideration. The Board approves the arrangement and argues that approval of Silverline's shareholders is unnecessary because Mr. D is not a director of Silverline itself.</p>
+      <p>The notice sent to shareholders merely states that a property transaction is proposed. It neither specifies full particulars of the arrangement nor contains the value of the assets calculated by a registered valuer. Silverline nevertheless proceeds with the transaction.</p>
+      <p>Separately, Alpha One Private Limited, an OPC limited by shares, enters into an oral contract with its sole member, who is also its sole director, for purchase of an asset. The transaction is outside the ordinary course of business. The terms are properly recorded in the minutes of the first Board meeting held after the contract, but the company informs the Registrar 25 days after the date of Board approval.</p>
+    `,
   questions: [
     {
       question_id: "CEL_HARD_192_193_10_1",
@@ -12249,7 +9684,6 @@ const AICaseStudies = [
     }
   ]
 },
-
   // =========================================================
   // CASE SCENARIO 1
   // =========================================================
@@ -12257,100 +9691,54 @@ const AICaseStudies = [
     case_id: "C4_EASY_01",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 206"],
     difficulty: "Easy",
-
     caseText: `
-      <p><strong>Brightstar Technologies Limited</strong> is a company engaged in
-      the business of software development. During scrutiny of the documents filed
-      by the company, the Registrar of Companies noticed that certain figures
-      appearing in the company's annual filings required further clarification.</p>
-
-      <p>The Registrar was of the opinion that additional information and certain
-      documents relating to the company's financial transactions were necessary.
-      Accordingly, the Registrar issued a written notice requiring the company to
-      furnish the required information and explanations and to produce specified
-      documents within the time mentioned in the notice.</p>
-
-      <p>The company received the notice and instructed its Chief Financial Officer
-      and other concerned officers to collect the relevant records and submit the
-      information within the specified period.</p>
+      <p><strong>Brightstar Technologies Limited</strong> is a company engaged in the business of software development. During scrutiny of the documents filed by the company, the Registrar of Companies noticed that certain figures appearing in the company's annual filings required further clarification.</p>
+      <p>The Registrar was of the opinion that additional information and certain documents relating to the company's financial transactions were necessary. Accordingly, the Registrar issued a written notice requiring the company to furnish the required information and explanations and to produce specified documents within the time mentioned in the notice.</p>
+      <p>The company received the notice and instructed its Chief Financial Officer and other concerned officers to collect the relevant records and submit the information within the specified period.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_EASY_01_Q1",
         difficulty: "Easy",
         question: "Under Section 206(1) of the Companies Act, 2013, what may the Registrar require Brightstar Technologies Limited to furnish?",
-        options: [
-          "Only audited financial statements",
-          "Information, explanation or documents relating to the company",
-          "Only information relating to shareholders",
-          "Only tax records"
-        ],
+        options: ["Only audited financial statements", "Information, explanation or documents relating to the company", "Only information relating to shareholders", "Only tax records"],
         answer: 1,
         solution_html: "<p>Under Section 206(1), the Registrar may require the company to furnish information or explanation in writing or produce documents relating to the company.</p>"
       },
-
       {
         question_id: "C4_EASY_01_Q2",
         difficulty: "Easy",
         question: "What is the nature of the notice issued by the Registrar under Section 206(1)?",
-        options: [
-          "Oral notice",
-          "Written notice",
-          "Notice through shareholders only",
-          "Notice issued only by the Tribunal"
-        ],
+        options: ["Oral notice", "Written notice", "Notice through shareholders only", "Notice issued only by the Tribunal"],
         answer: 1,
         solution_html: "<p>Section 206(1) specifically provides that the Registrar may require the company by a <strong>written notice</strong> to furnish information, explanation or documents.</p>"
       },
-
       {
         question_id: "C4_EASY_01_Q3",
         difficulty: "Easy",
         question: "Who is primarily required to comply with the notice received by Brightstar Technologies Limited?",
-        options: [
-          "Only the shareholders",
-          "Only the statutory auditor",
-          "The company and its concerned officers",
-          "Only the Registrar"
-        ],
+        options: ["Only the shareholders", "Only the statutory auditor", "The company and its concerned officers", "Only the Registrar"],
         answer: 2,
         solution_html: "<p>Under Section 206(2), it is the duty of the company and its officers concerned to furnish the information or explanation and produce the documents required.</p>"
       },
-
       {
         question_id: "C4_EASY_01_Q4",
         difficulty: "Easy",
         question: "The Registrar specifies a reasonable time for furnishing the information. What should the company do?",
-        options: [
-          "Ignore the notice",
-          "Furnish the information within the specified or extended time",
-          "Wait for a Tribunal order",
-          "Ask the shareholders to furnish it"
-        ],
+        options: ["Ignore the notice", "Furnish the information within the specified or extended time", "Wait for a Tribunal order", "Ask the shareholders to furnish it"],
         answer: 1,
         solution_html: "<p>The company must furnish the required information and documents within the time specified by the Registrar or within such extended time as may be allowed.</p>"
       },
-
       {
         question_id: "C4_EASY_01_Q5",
         difficulty: "Easy",
         question: "The power being exercised by the Registrar in this case primarily relates to:",
-        options: [
-          "Calling for information and explanation",
-          "Winding up the company",
-          "Freezing company assets",
-          "Imposing restrictions on securities"
-        ],
+        options: ["Calling for information and explanation", "Winding up the company", "Freezing company assets", "Imposing restrictions on securities"],
         answer: 0,
         solution_html: "<p>The facts relate to Section 206, which deals with the power to call for information, inspect books and conduct inquiries.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 2
   // =========================================================
@@ -12358,25 +9746,12 @@ const AICaseStudies = [
     case_id: "C4_EASY_02",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 206(3)"],
     difficulty: "Easy",
-
     caseText: `
-      <p><strong>Greenfield Manufacturing Limited</strong> received a notice from
-      the Registrar of Companies asking the company to furnish certain information
-      regarding its transactions with suppliers. The company submitted a reply,
-      but the Registrar found that the explanation was incomplete and did not
-      adequately answer the questions raised.</p>
-
-      <p>After examining the documents supplied by the company, the Registrar
-      concluded that further books of account, papers and explanations were
-      necessary to understand the transactions properly. Before issuing another
-      notice, the Registrar recorded his reasons in writing.</p>
-
-      <p>The Registrar subsequently required the company to produce additional
-      books and papers at a specified place and time for inspection.</p>
+      <p><strong>Greenfield Manufacturing Limited</strong> received a notice from the Registrar of Companies asking the company to furnish certain information regarding its transactions with suppliers. The company submitted a reply, but the Registrar found that the explanation was incomplete and did not adequately answer the questions raised.</p>
+      <p>After examining the documents supplied by the company, the Registrar concluded that further books of account, papers and explanations were necessary to understand the transactions properly. Before issuing another notice, the Registrar recorded his reasons in writing.</p>
+      <p>The Registrar subsequently required the company to produce additional books and papers at a specified place and time for inspection.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_EASY_02_Q1",
         difficulty: "Easy",
@@ -12385,72 +9760,45 @@ const AICaseStudies = [
           "Because the company changed its registered office",
           "Because the information furnished was inadequate",
           "Because the company declared dividend",
-          "Because the company appointed a new director"
+          "Because the company appointed a new director",
         ],
         answer: 1,
         solution_html: "<p>Section 206(3) permits the Registrar to issue another written notice where the information or explanation furnished is inadequate.</p>"
       },
-
       {
         question_id: "C4_EASY_02_Q2",
         difficulty: "Easy",
         question: "Before issuing the additional notice under Section 206(3), the Registrar must:",
-        options: [
-          "Obtain approval from all shareholders",
-          "Obtain approval from the statutory auditor",
-          "Record the reasons in writing",
-          "Obtain approval from the company"
-        ],
+        options: ["Obtain approval from all shareholders", "Obtain approval from the statutory auditor", "Record the reasons in writing", "Obtain approval from the company"],
         answer: 2,
         solution_html: "<p>The Registrar must record his reasons in writing before serving a notice under Section 206(3).</p>"
       },
-
       {
         question_id: "C4_EASY_02_Q3",
         difficulty: "Easy",
         question: "The Registrar may require the company to produce:",
-        options: [
-          "Only its Memorandum of Association",
-          "Further books of account, books, papers and explanations",
-          "Only minutes of Board meetings",
-          "Only tax returns"
-        ],
+        options: ["Only its Memorandum of Association", "Further books of account, books, papers and explanations", "Only minutes of Board meetings", "Only tax returns"],
         answer: 1,
         solution_html: "<p>Section 206(3) permits the Registrar to call for further books of account, books, papers and explanations.</p>"
       },
-
       {
         question_id: "C4_EASY_02_Q4",
         difficulty: "Easy",
         question: "The additional documents may be required to be produced:",
-        options: [
-          "At any place and time without notice",
-          "At the place and time specified by the Registrar",
-          "Only before the Tribunal",
-          "Only at the company's registered office"
-        ],
+        options: ["At any place and time without notice", "At the place and time specified by the Registrar", "Only before the Tribunal", "Only at the company's registered office"],
         answer: 1,
         solution_html: "<p>The Registrar may specify the place and time at which the books, papers and explanations are to be produced.</p>"
       },
-
       {
         question_id: "C4_EASY_02_Q5",
         difficulty: "Easy",
         question: "Which section is directly relevant to the additional notice described in the case?",
-        options: [
-          "Section 206(3)",
-          "Section 211",
-          "Section 221",
-          "Section 228"
-        ],
+        options: ["Section 206(3)", "Section 211", "Section 221", "Section 228"],
         answer: 0,
         solution_html: "<p>The facts directly relate to Section 206(3), concerning an additional written notice for production of books and papers.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 3
   // =========================================================
@@ -12458,24 +9806,12 @@ const AICaseStudies = [
     case_id: "C4_EASY_03",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 207"],
     difficulty: "Easy",
-
     caseText: `
-      <p><strong>Sunrise Foods Limited</strong> received a notice from an Inspector
-      requiring production of certain books of account and other papers for
-      inspection. The company's directors informed the finance department that
-      all relevant records should be made available to the Inspector.</p>
-
-      <p>The finance manager initially believed that only the documents specifically
-      mentioned in the notice needed to be produced. However, the Inspector also
-      requested assistance in examining related books and asked the employees to
-      provide explanations concerning certain entries.</p>
-
-      <p>The directors were advised that the employees of the company were required
-      to cooperate with the inspection and provide reasonable assistance.</p>
+      <p><strong>Sunrise Foods Limited</strong> received a notice from an Inspector requiring production of certain books of account and other papers for inspection. The company's directors informed the finance department that all relevant records should be made available to the Inspector.</p>
+      <p>The finance manager initially believed that only the documents specifically mentioned in the notice needed to be produced. However, the Inspector also requested assistance in examining related books and asked the employees to provide explanations concerning certain entries.</p>
+      <p>The directors were advised that the employees of the company were required to cooperate with the inspection and provide reasonable assistance.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_EASY_03_Q1",
         difficulty: "Easy",
@@ -12484,72 +9820,45 @@ const AICaseStudies = [
           "To refuse inspection",
           "To produce documents and furnish required information and explanations",
           "To provide information only after shareholder approval",
-          "To provide information only to the auditor"
+          "To provide information only to the auditor",
         ],
         answer: 1,
         solution_html: "<p>Directors, officers and employees must produce documents, furnish statements, information or explanations and render assistance in connection with the inspection.</p>"
       },
-
       {
         question_id: "C4_EASY_03_Q2",
         difficulty: "Easy",
         question: "Can the Registrar or Inspector make copies of books and papers during inspection?",
-        options: [
-          "Yes",
-          "No",
-          "Only with shareholder approval",
-          "Only with auditor approval"
-        ],
+        options: ["Yes", "No", "Only with shareholder approval", "Only with auditor approval"],
         answer: 0,
         solution_html: "<p>Under Section 207, the Registrar or Inspector may make or cause to be made copies of books of account and other books and papers.</p>"
       },
-
       {
         question_id: "C4_EASY_03_Q3",
         difficulty: "Easy",
         question: "The Registrar or Inspector may place identification marks on books to indicate:",
-        options: [
-          "Payment of tax",
-          "Completion of inspection",
-          "Appointment of directors",
-          "Payment of dividend"
-        ],
+        options: ["Payment of tax", "Completion of inspection", "Appointment of directors", "Payment of dividend"],
         answer: 1,
         solution_html: "<p>Identification marks may be placed on books and papers as a token that inspection has been made.</p>"
       },
-
       {
         question_id: "C4_EASY_03_Q4",
         difficulty: "Easy",
         question: "During inspection, the Registrar or Inspector has certain powers similar to those of:",
-        options: [
-          "A shareholder",
-          "A civil court",
-          "A statutory auditor",
-          "A creditor"
-        ],
+        options: ["A shareholder", "A civil court", "A statutory auditor", "A creditor"],
         answer: 1,
         solution_html: "<p>Under Section 207, the Registrar or Inspector has certain powers vested in a civil court under the Code of Civil Procedure, 1908.</p>"
       },
-
       {
         question_id: "C4_EASY_03_Q5",
         difficulty: "Easy",
         question: "Which of the following is NOT a duty of employees during inspection?",
-        options: [
-          "Producing documents",
-          "Furnishing explanations",
-          "Rendering assistance",
-          "Destroying irrelevant records"
-        ],
+        options: ["Producing documents", "Furnishing explanations", "Rendering assistance", "Destroying irrelevant records"],
         answer: 3,
         solution_html: "<p>Employees are required to cooperate with the inspection. Destroying records is contrary to their duties.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 4
   // =========================================================
@@ -12557,97 +9866,54 @@ const AICaseStudies = [
     case_id: "C4_EASY_04",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 208"],
     difficulty: "Easy",
-
     caseText: `
-      <p><strong>Metro Infrastructure Limited</strong> was subjected to an
-      inspection by the Registrar. During the inspection, the Registrar examined
-      the books of account, statutory records and other papers of the company.</p>
-
-      <p>After completing the inspection, the Registrar identified certain matters
-      that appeared to require further investigation. The Registrar prepared a
-      written report setting out the findings and the reasons supporting his
-      recommendation for further investigation.</p>
-
-      <p>The report was submitted to the Central Government for consideration and
-      further action.</p>
+      <p><strong>Metro Infrastructure Limited</strong> was subjected to an inspection by the Registrar. During the inspection, the Registrar examined the books of account, statutory records and other papers of the company.</p>
+      <p>After completing the inspection, the Registrar identified certain matters that appeared to require further investigation. The Registrar prepared a written report setting out the findings and the reasons supporting his recommendation for further investigation.</p>
+      <p>The report was submitted to the Central Government for consideration and further action.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_EASY_04_Q1",
         difficulty: "Easy",
         question: "After inspection under Section 206, the Registrar or Inspector is required to submit:",
-        options: [
-          "An oral statement",
-          "A written report",
-          "A shareholder resolution",
-          "A tax return"
-        ],
+        options: ["An oral statement", "A written report", "A shareholder resolution", "A tax return"],
         answer: 1,
         solution_html: "<p>Under Section 208, the Registrar or Inspector submits a report in writing to the Central Government.</p>"
       },
-
       {
         question_id: "C4_EASY_04_Q2",
         difficulty: "Easy",
         question: "To whom is the inspection report submitted?",
-        options: [
-          "Shareholders",
-          "Statutory auditor",
-          "Central Government",
-          "Creditors"
-        ],
+        options: ["Shareholders", "Statutory auditor", "Central Government", "Creditors"],
         answer: 2,
         solution_html: "<p>The report under Section 208 is submitted to the Central Government.</p>"
       },
-
       {
         question_id: "C4_EASY_04_Q3",
         difficulty: "Easy",
         question: "Can the report recommend further investigation?",
-        options: [
-          "Yes",
-          "No",
-          "Only if shareholders approve",
-          "Only if the auditor approves"
-        ],
+        options: ["Yes", "No", "Only if shareholders approve", "Only if the auditor approves"],
         answer: 0,
         solution_html: "<p>The Registrar or Inspector may recommend further investigation in the report, along with reasons supporting the recommendation.</p>"
       },
-
       {
         question_id: "C4_EASY_04_Q4",
         difficulty: "Easy",
         question: "A recommendation for further investigation should be:",
-        options: [
-          "Without any reason",
-          "Supported by reasons",
-          "Approved by all employees",
-          "Made only orally"
-        ],
+        options: ["Without any reason", "Supported by reasons", "Approved by all employees", "Made only orally"],
         answer: 1,
         solution_html: "<p>The recommendation for further investigation must be supported by reasons.</p>"
       },
-
       {
         question_id: "C4_EASY_04_Q5",
         difficulty: "Easy",
         question: "Section 208 primarily deals with:",
-        options: [
-          "Freezing assets",
-          "Submission of inspection report",
-          "Appointment of SFIO Director",
-          "Protection of employees"
-        ],
+        options: ["Freezing assets", "Submission of inspection report", "Appointment of SFIO Director", "Protection of employees"],
         answer: 1,
         solution_html: "<p>Section 208 deals with submission of the report on inspection made.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 5
   // =========================================================
@@ -12655,99 +9921,54 @@ const AICaseStudies = [
     case_id: "C4_EASY_05",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 209"],
     difficulty: "Easy",
-
     caseText: `
-      <p><strong>Alpha Trading Limited</strong> came under scrutiny after certain
-      creditors alleged that the company's management was attempting to alter and
-      destroy important accounting records. The Registrar examined the information
-      available and formed a reasonable belief that certain books and papers might
-      be destroyed or falsified.</p>
-
-      <p>The Registrar wanted to enter the premises of the company and seize the
-      relevant records. However, the Registrar was advised that the statutory
-      procedure required an order of the Special Court before exercising the
-      search and seizure power under Section 209.</p>
-
-      <p>The company was also required to be allowed to take copies or extracts
-      of the books and papers at its own cost.</p>
+      <p><strong>Alpha Trading Limited</strong> came under scrutiny after certain creditors alleged that the company's management was attempting to alter and destroy important accounting records. The Registrar examined the information available and formed a reasonable belief that certain books and papers might be destroyed or falsified.</p>
+      <p>The Registrar wanted to enter the premises of the company and seize the relevant records. However, the Registrar was advised that the statutory procedure required an order of the Special Court before exercising the search and seizure power under Section 209.</p>
+      <p>The company was also required to be allowed to take copies or extracts of the books and papers at its own cost.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_EASY_05_Q1",
         difficulty: "Easy",
         question: "Before search and seizure under Section 209, the Registrar or Inspector must obtain an order from:",
-        options: [
-          "NCLAT",
-          "Special Court",
-          "Statutory auditor",
-          "Shareholders"
-        ],
+        options: ["NCLAT", "Special Court", "Statutory auditor", "Shareholders"],
         answer: 1,
         solution_html: "<p>Under Section 209, search and seizure requires an order of the Special Court.</p>"
       },
-
       {
         question_id: "C4_EASY_05_Q2",
         difficulty: "Easy",
         question: "Search and seizure may be undertaken where books and papers are likely to be:",
-        options: [
-          "Updated",
-          "Destroyed, mutilated, altered, falsified or secreted",
-          "Audited",
-          "Published"
-        ],
+        options: ["Updated", "Destroyed, mutilated, altered, falsified or secreted", "Audited", "Published"],
         answer: 1,
         solution_html: "<p>Section 209 applies where there are reasonable grounds to believe that books and papers may be destroyed, mutilated, altered, falsified or secreted.</p>"
       },
-
       {
         question_id: "C4_EASY_05_Q3",
         difficulty: "Easy",
         question: "Before seizure, the company should be allowed to:",
-        options: [
-          "Destroy the records",
-          "Take copies or extracts at its cost",
-          "Remove all records permanently",
-          "Transfer the records to another company"
-        ],
+        options: ["Destroy the records", "Take copies or extracts at its cost", "Remove all records permanently", "Transfer the records to another company"],
         answer: 1,
         solution_html: "<p>The company must be allowed to take copies of or extracts from the books and papers at its own cost.</p>"
       },
-
       {
         question_id: "C4_EASY_05_Q4",
         difficulty: "Easy",
         question: "The search and seizure under Section 209 is subject to the provisions relating to searches and seizures under:",
-        options: [
-          "Income-tax Act only",
-          "Code of Criminal Procedure, 1973",
-          "Indian Contract Act",
-          "SEBI Act only"
-        ],
+        options: ["Income-tax Act only", "Code of Criminal Procedure, 1973", "Indian Contract Act", "SEBI Act only"],
         answer: 1,
         solution_html: "<p>Section 209 provides that the provisions of the Code of Criminal Procedure, 1973 relating to searches and seizures apply mutatis mutandis.</p>"
       },
-
       {
         question_id: "C4_EASY_05_Q5",
         difficulty: "Easy",
         question: "The original period for which books seized under Section 209 should be returned is generally not later than:",
-        options: [
-          "30 days",
-          "90 days",
-          "180 days",
-          "365 days"
-        ],
+        options: ["30 days", "90 days", "180 days", "365 days"],
         answer: 2,
         solution_html: "<p>Books and papers seized under Section 209 should ordinarily be returned as soon as possible and in any case not later than the 180th day after seizure.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 6
   // =========================================================
@@ -12755,96 +9976,54 @@ const AICaseStudies = [
     case_id: "C4_EASY_06",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 210"],
     difficulty: "Easy",
-
     caseText: `
-      <p><strong>Nova Energy Limited</strong> passed a special resolution stating
-      that the affairs of the company ought to be investigated. The company
-      communicated the resolution to the Central Government.</p>
-
-      <p>The Central Government considered the circumstances and concluded that
-      an investigation into the affairs of the company was necessary. Accordingly,
-      it decided to order an investigation and appoint inspectors for the purpose.</p>
-
-      <p>The investigation was intended to determine whether the affairs of the
-      company had been properly conducted and whether any wrongdoing had occurred.</p>
+      <p><strong>Nova Energy Limited</strong> passed a special resolution stating that the affairs of the company ought to be investigated. The company communicated the resolution to the Central Government.</p>
+      <p>The Central Government considered the circumstances and concluded that an investigation into the affairs of the company was necessary. Accordingly, it decided to order an investigation and appoint inspectors for the purpose.</p>
+      <p>The investigation was intended to determine whether the affairs of the company had been properly conducted and whether any wrongdoing had occurred.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_EASY_06_Q1",
         difficulty: "Easy",
         question: "Under Section 210, who may order an investigation into the affairs of a company?",
-        options: [
-          "Central Government",
-          "Statutory auditor",
-          "Company secretary",
-          "Any shareholder individually"
-        ],
+        options: ["Central Government", "Statutory auditor", "Company secretary", "Any shareholder individually"],
         answer: 0,
         solution_html: "<p>Section 210 empowers the Central Government to order an investigation into the affairs of a company in specified circumstances.</p>"
       },
-
       {
         question_id: "C4_EASY_06_Q2",
         difficulty: "Easy",
         question: "One circumstance enabling investigation under Section 210 is:",
-        options: [
-          "A special resolution passed by the company",
-          "Appointment of a new auditor",
-          "Declaration of dividend",
-          "Increase in share capital"
-        ],
+        options: ["A special resolution passed by the company", "Appointment of a new auditor", "Declaration of dividend", "Increase in share capital"],
         answer: 0,
         solution_html: "<p>The Central Government may order investigation upon intimation of a special resolution passed by the company that its affairs ought to be investigated.</p>"
       },
-
       {
         question_id: "C4_EASY_06_Q3",
         difficulty: "Easy",
         question: "For investigation under Section 210, the Central Government may appoint:",
-        options: [
-          "One or more inspectors",
-          "Only the statutory auditor",
-          "Only directors",
-          "Only shareholders"
-        ],
+        options: ["One or more inspectors", "Only the statutory auditor", "Only directors", "Only shareholders"],
         answer: 0,
         solution_html: "<p>The Central Government may appoint one or more persons as inspectors to investigate into the affairs of the company.</p>"
       },
-
       {
         question_id: "C4_EASY_06_Q4",
         difficulty: "Easy",
         question: "If a court or Tribunal orders that the affairs of a company ought to be investigated, the Central Government:",
-        options: [
-          "May ignore the order",
-          "Shall order an investigation",
-          "Must wind up the company",
-          "Must appoint the statutory auditor"
-        ],
+        options: ["May ignore the order", "Shall order an investigation", "Must wind up the company", "Must appoint the statutory auditor"],
         answer: 1,
         solution_html: "<p>Where a court or Tribunal passes an order that the affairs of a company ought to be investigated, the Central Government shall order an investigation.</p>"
       },
-
       {
         question_id: "C4_EASY_06_Q5",
         difficulty: "Easy",
         question: "The purpose of appointing inspectors is to:",
-        options: [
-          "Conduct the investigation and report thereon",
-          "Declare dividends",
-          "Appoint directors",
-          "Prepare tax returns"
-        ],
+        options: ["Conduct the investigation and report thereon", "Declare dividends", "Appoint directors", "Prepare tax returns"],
         answer: 0,
         solution_html: "<p>Inspectors are appointed to investigate the affairs of the company and report thereon in the manner directed by the Central Government.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 7
   // =========================================================
@@ -12852,98 +10031,54 @@ const AICaseStudies = [
     case_id: "C4_EASY_07",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 211"],
     difficulty: "Easy",
-
     caseText: `
-      <p><strong>Vertex Industries Limited</strong> was suspected of being
-      involved in complex financial transactions involving several entities.
-      The Central Government considered that specialised investigation would be
-      useful because the matter involved financial accounting, taxation,
-      forensic audit and information technology.</p>
-
-      <p>The investigation was considered suitable for the Serious Fraud
-      Investigation Office (SFIO), an office established by the Central Government
-      to investigate frauds relating to companies.</p>
-
-      <p>The SFIO functions under a Director and may include experts from several
-      specialised fields.</p>
+      <p><strong>Vertex Industries Limited</strong> was suspected of being involved in complex financial transactions involving several entities. The Central Government considered that specialised investigation would be useful because the matter involved financial accounting, taxation, forensic audit and information technology.</p>
+      <p>The investigation was considered suitable for the Serious Fraud Investigation Office (SFIO), an office established by the Central Government to investigate frauds relating to companies.</p>
+      <p>The SFIO functions under a Director and may include experts from several specialised fields.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_EASY_07_Q1",
         difficulty: "Easy",
         question: "SFIO primarily deals with investigation of:",
-        options: [
-          "Frauds relating to companies",
-          "Income tax returns of individuals only",
-          "Land disputes",
-          "Family disputes"
-        ],
+        options: ["Frauds relating to companies", "Income tax returns of individuals only", "Land disputes", "Family disputes"],
         answer: 0,
         solution_html: "<p>The Serious Fraud Investigation Office is established to investigate frauds relating to companies.</p>"
       },
-
       {
         question_id: "C4_EASY_07_Q2",
         difficulty: "Easy",
         question: "SFIO is headed by:",
-        options: [
-          "A Director",
-          "The Registrar of Companies",
-          "The statutory auditor",
-          "The Chairperson of NCLT"
-        ],
+        options: ["A Director", "The Registrar of Companies", "The statutory auditor", "The Chairperson of NCLT"],
         answer: 0,
         solution_html: "<p>Under Section 211, SFIO is headed by a Director.</p>"
       },
-
       {
         question_id: "C4_EASY_07_Q3",
         difficulty: "Easy",
         question: "The SFIO may include experts from which field?",
-        options: [
-          "Forensic audit",
-          "Only civil engineering",
-          "Only medicine",
-          "Only agriculture"
-        ],
+        options: ["Forensic audit", "Only civil engineering", "Only medicine", "Only agriculture"],
         answer: 0,
         solution_html: "<p>Forensic audit is one of the specialised fields from which experts may be appointed to SFIO.</p>"
       },
-
       {
         question_id: "C4_EASY_07_Q4",
         difficulty: "Easy",
         question: "Which of the following is another field from which SFIO may have experts?",
-        options: [
-          "Information technology",
-          "Only sports",
-          "Only literature",
-          "Only geography"
-        ],
+        options: ["Information technology", "Only sports", "Only literature", "Only geography"],
         answer: 0,
         solution_html: "<p>Information technology is specifically included among the fields from which SFIO experts may be appointed.</p>"
       },
-
       {
         question_id: "C4_EASY_07_Q5",
         difficulty: "Easy",
         question: "The Director of SFIO is appointed by:",
-        options: [
-          "Central Government",
-          "Company shareholders",
-          "Statutory auditor",
-          "NCLT alone"
-        ],
+        options: ["Central Government", "Company shareholders", "Statutory auditor", "NCLT alone"],
         answer: 0,
         solution_html: "<p>The Central Government appoints the Director of SFIO by notification.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 8
   // =========================================================
@@ -12951,97 +10086,54 @@ const AICaseStudies = [
     case_id: "C4_EASY_08",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 212"],
     difficulty: "Easy",
-
     caseText: `
-      <p><strong>Global Ventures Limited</strong> was facing allegations of
-      serious financial irregularities. The Registrar conducted an inspection
-      and submitted a report recommending further investigation.</p>
-
-      <p>The Central Government examined the report and was of the opinion that
-      the matter required investigation by the Serious Fraud Investigation Office.
-      Accordingly, the Central Government assigned the investigation to SFIO.</p>
-
-      <p>Another investigating agency had already started examining certain
-      offences under the Companies Act. After the matter was assigned to SFIO,
-      the relevant records were required to be transferred to SFIO.</p>
+      <p><strong>Global Ventures Limited</strong> was facing allegations of serious financial irregularities. The Registrar conducted an inspection and submitted a report recommending further investigation.</p>
+      <p>The Central Government examined the report and was of the opinion that the matter required investigation by the Serious Fraud Investigation Office. Accordingly, the Central Government assigned the investigation to SFIO.</p>
+      <p>Another investigating agency had already started examining certain offences under the Companies Act. After the matter was assigned to SFIO, the relevant records were required to be transferred to SFIO.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_EASY_08_Q1",
         difficulty: "Easy",
         question: "Under Section 212, who may assign an investigation to SFIO?",
-        options: [
-          "Central Government",
-          "Company secretary",
-          "Any shareholder",
-          "Statutory auditor"
-        ],
+        options: ["Central Government", "Company secretary", "Any shareholder", "Statutory auditor"],
         answer: 0,
         solution_html: "<p>The Central Government may assign the investigation into the affairs of a company to SFIO under Section 212.</p>"
       },
-
       {
         question_id: "C4_EASY_08_Q2",
         difficulty: "Easy",
         question: "One basis for assigning investigation to SFIO is receipt of:",
-        options: [
-          "A report of the Registrar or Inspector under Section 208",
-          "A dividend declaration",
-          "An auditor's resignation alone",
-          "A director's appointment"
-        ],
+        options: ["A report of the Registrar or Inspector under Section 208", "A dividend declaration", "An auditor's resignation alone", "A director's appointment"],
         answer: 0,
         solution_html: "<p>Under Section 212(1), the Central Government may assign an investigation to SFIO on receipt of a report of the Registrar or Inspector under Section 208.</p>"
       },
-
       {
         question_id: "C4_EASY_08_Q3",
         difficulty: "Easy",
         question: "Once a case is assigned to SFIO, another investigating agency of the Central or State Government should:",
-        options: [
-          "Continue independently",
-          "Proceed further simultaneously",
-          "Not proceed further in respect of offences under the Companies Act",
-          "Destroy its records"
-        ],
+        options: ["Continue independently", "Proceed further simultaneously", "Not proceed further in respect of offences under the Companies Act", "Destroy its records"],
         answer: 2,
         solution_html: "<p>Once the case is assigned to SFIO, no other investigating agency of the Central or State Government shall proceed with investigation in respect of offences under the Companies Act.</p>"
       },
-
       {
         question_id: "C4_EASY_08_Q4",
         difficulty: "Easy",
         question: "Relevant documents held by another investigating agency should be:",
-        options: [
-          "Destroyed",
-          "Transferred to SFIO",
-          "Returned to shareholders",
-          "Sent to the statutory auditor"
-        ],
+        options: ["Destroyed", "Transferred to SFIO", "Returned to shareholders", "Sent to the statutory auditor"],
         answer: 1,
         solution_html: "<p>Where an investigation has already been initiated, the concerned agency must transfer the relevant documents and records to SFIO.</p>"
       },
-
       {
         question_id: "C4_EASY_08_Q5",
         difficulty: "Easy",
         question: "SFIO submits its investigation report to:",
-        options: [
-          "Central Government",
-          "Shareholders directly",
-          "Statutory auditor",
-          "Company secretary"
-        ],
+        options: ["Central Government", "Shareholders directly", "Statutory auditor", "Company secretary"],
         answer: 0,
         solution_html: "<p>SFIO conducts the investigation and submits its report to the Central Government.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 9
   // =========================================================
@@ -13049,99 +10141,54 @@ const AICaseStudies = [
     case_id: "C4_EASY_09",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 216"],
     difficulty: "Easy",
-
     caseText: `
-      <p><strong>Eastern Capital Limited</strong> had a complicated ownership
-      structure. Several individuals appeared to exercise control over the
-      company's policy even though their names did not appear prominently in
-      the company's membership records.</p>
-
-      <p>The Central Government wanted to determine who was financially interested
-      in the success or failure of the company and who was able to control or
-      materially influence its policies. It therefore considered appointing
-      inspectors to investigate the ownership and membership structure of the
-      company.</p>
-
-      <p>The investigation was intended to identify the true persons having
-      financial or controlling interests in the company.</p>
+      <p><strong>Eastern Capital Limited</strong> had a complicated ownership structure. Several individuals appeared to exercise control over the company's policy even though their names did not appear prominently in the company's membership records.</p>
+      <p>The Central Government wanted to determine who was financially interested in the success or failure of the company and who was able to control or materially influence its policies. It therefore considered appointing inspectors to investigate the ownership and membership structure of the company.</p>
+      <p>The investigation was intended to identify the true persons having financial or controlling interests in the company.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_EASY_09_Q1",
         difficulty: "Easy",
         question: "Which section deals with investigation of ownership of a company?",
-        options: [
-          "Section 206",
-          "Section 209",
-          "Section 216",
-          "Section 225"
-        ],
+        options: ["Section 206", "Section 209", "Section 216", "Section 225"],
         answer: 2,
         solution_html: "<p>Section 216 deals with investigation into ownership of a company.</p>"
       },
-
       {
         question_id: "C4_EASY_09_Q2",
         difficulty: "Easy",
         question: "The Central Government may appoint inspectors to determine persons who are:",
-        options: [
-          "Financially interested in the success or failure of the company",
-          "Only employees",
-          "Only auditors",
-          "Only creditors"
-        ],
+        options: ["Financially interested in the success or failure of the company", "Only employees", "Only auditors", "Only creditors"],
         answer: 0,
         solution_html: "<p>Inspectors may be appointed to determine persons who are or have been financially interested in the success or failure of the company.</p>"
       },
-
       {
         question_id: "C4_EASY_09_Q3",
         difficulty: "Easy",
         question: "Section 216 may also be used to identify persons able to:",
-        options: [
-          "Control or materially influence company policy",
-          "Prepare tax returns",
-          "Conduct statutory audit",
-          "Appoint government officers"
-        ],
+        options: ["Control or materially influence company policy", "Prepare tax returns", "Conduct statutory audit", "Appoint government officers"],
         answer: 0,
         solution_html: "<p>Section 216 includes persons who are or have been able to control or materially influence the policy of the company.</p>"
       },
-
       {
         question_id: "C4_EASY_09_Q4",
         difficulty: "Easy",
         question: "Who may appoint inspectors under Section 216 when the Central Government considers there is reason to do so?",
-        options: [
-          "Central Government",
-          "Statutory auditor",
-          "Company secretary",
-          "Any employee"
-        ],
+        options: ["Central Government", "Statutory auditor", "Company secretary", "Any employee"],
         answer: 0,
         solution_html: "<p>The Central Government may appoint one or more inspectors under Section 216.</p>"
       },
-
       {
         question_id: "C4_EASY_09_Q5",
         difficulty: "Easy",
         question: "The investigation under Section 216 primarily concerns:",
-        options: [
-          "Ownership and membership-related matters",
-          "Employee salaries",
-          "Tax assessment",
-          "Dividend calculation only"
-        ],
+        options: ["Ownership and membership-related matters", "Employee salaries", "Tax assessment", "Dividend calculation only"],
         answer: 0,
         solution_html: "<p>Section 216 concerns investigation into the ownership and membership of a company to determine the true persons financially interested or exercising control or influence.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 10
   // =========================================================
@@ -13149,97 +10196,54 @@ const AICaseStudies = [
     case_id: "C4_EASY_10",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 218"],
     difficulty: "Easy",
-
     caseText: `
-      <p><strong>Reliable Finance Limited</strong> was undergoing an investigation
-      into its affairs. During the investigation, one of its employees provided
-      important information and documents to the investigating authorities.</p>
-
-      <p>After the employee provided the information, the management proposed to
-      terminate his employment. The company also considered changing the terms
-      of his employment to his disadvantage.</p>
-
-      <p>The employee objected to the proposed action and pointed out that the
-      Companies Act provides protection to employees during an investigation.
-      The company therefore considered whether approval of the Tribunal was
-      required before taking action against the employee.</p>
+      <p><strong>Reliable Finance Limited</strong> was undergoing an investigation into its affairs. During the investigation, one of its employees provided important information and documents to the investigating authorities.</p>
+      <p>After the employee provided the information, the management proposed to terminate his employment. The company also considered changing the terms of his employment to his disadvantage.</p>
+      <p>The employee objected to the proposed action and pointed out that the Companies Act provides protection to employees during an investigation. The company therefore considered whether approval of the Tribunal was required before taking action against the employee.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_EASY_10_Q1",
         difficulty: "Easy",
         question: "Which section deals with protection of employees during investigation?",
-        options: [
-          "Section 209",
-          "Section 212",
-          "Section 218",
-          "Section 229"
-        ],
+        options: ["Section 209", "Section 212", "Section 218", "Section 229"],
         answer: 2,
         solution_html: "<p>Section 218 deals with protection of employees during investigation.</p>"
       },
-
       {
         question_id: "C4_EASY_10_Q2",
         difficulty: "Easy",
         question: "Before discharging or suspending an employee during the relevant investigation, the company generally requires:",
-        options: [
-          "Approval of the Tribunal",
-          "Approval of shareholders only",
-          "Approval of the statutory auditor",
-          "Approval of creditors only"
-        ],
+        options: ["Approval of the Tribunal", "Approval of shareholders only", "Approval of the statutory auditor", "Approval of creditors only"],
         answer: 0,
         solution_html: "<p>Section 218 requires the company to obtain approval of the Tribunal before taking specified adverse action against an employee during the relevant investigation or proceedings.</p>"
       },
-
       {
         question_id: "C4_EASY_10_Q3",
         difficulty: "Easy",
         question: "Which of the following may require Tribunal approval under Section 218?",
-        options: [
-          "Changing the employee's terms of employment to his disadvantage",
-          "Giving the employee a promotion",
-          "Giving a bonus",
-          "Increasing the employee's salary"
-        ],
+        options: ["Changing the employee's terms of employment to his disadvantage", "Giving the employee a promotion", "Giving a bonus", "Increasing the employee's salary"],
         answer: 0,
         solution_html: "<p>Changing the terms of employment to the employee's disadvantage is one of the actions covered by Section 218.</p>"
       },
-
       {
         question_id: "C4_EASY_10_Q4",
         difficulty: "Easy",
         question: "If the Tribunal raises an objection to the proposed action, the company may:",
-        options: [
-          "Ignore the objection",
-          "Appeal to the Appellate Tribunal within the prescribed period",
-          "Automatically terminate the employee",
-          "Destroy the investigation records"
-        ],
+        options: ["Ignore the objection", "Appeal to the Appellate Tribunal within the prescribed period", "Automatically terminate the employee", "Destroy the investigation records"],
         answer: 1,
         solution_html: "<p>If dissatisfied with the objection raised by the Tribunal, the company may prefer an appeal to the Appellate Tribunal within 30 days of receiving the notice of objection.</p>"
       },
-
       {
         question_id: "C4_EASY_10_Q5",
         difficulty: "Easy",
         question: "The protection under Section 218 is primarily intended to prevent:",
-        options: [
-          "Retaliatory adverse action against employees during investigation",
-          "Payment of salaries",
-          "Appointment of auditors",
-          "Declaration of dividends"
-        ],
+        options: ["Retaliatory adverse action against employees during investigation", "Payment of salaries", "Appointment of auditors", "Declaration of dividends"],
         answer: 0,
         solution_html: "<p>Section 218 protects employees from specified adverse employment actions during the relevant investigation or proceedings without the required Tribunal approval.</p>"
       }
-
     ]
   },
-
   // =========================================================
   // CASE SCENARIO 1
   // =========================================================
@@ -13247,32 +10251,13 @@ const AICaseStudies = [
     case_id: "C4_MEDIUM_01",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 206 & 207"],
     difficulty: "Medium",
-
     caseText: `
-      <p><strong>Orion Electronics Limited</strong> received a written notice
-      from the Registrar of Companies after scrutiny of certain documents filed
-      by the company. The Registrar required the company to furnish explanations
-      regarding unusually large payments made to certain suppliers and to produce
-      supporting books and papers.</p>
-
-      <p>The company submitted a reply within the specified period. However, after
-      examining the documents, the Registrar concluded that the explanation was
-      incomplete and that the documents did not provide a full and fair picture
-      of the transactions.</p>
-
-      <p>The Registrar therefore issued another written notice requiring production
-      of additional books and papers at a specified place and time. During the
-      inspection, the company's finance director refused to produce certain
-      documents, stating that the documents were confidential and that the
-      Registrar could not inspect them without an order of the Tribunal.</p>
-
-      <p>The Registrar informed the director that the inspection provisions confer
-      specified powers upon the Registrar and that the company and its officers
-      are required to cooperate with the inspection.</p>
+      <p><strong>Orion Electronics Limited</strong> received a written notice from the Registrar of Companies after scrutiny of certain documents filed by the company. The Registrar required the company to furnish explanations regarding unusually large payments made to certain suppliers and to produce supporting books and papers.</p>
+      <p>The company submitted a reply within the specified period. However, after examining the documents, the Registrar concluded that the explanation was incomplete and that the documents did not provide a full and fair picture of the transactions.</p>
+      <p>The Registrar therefore issued another written notice requiring production of additional books and papers at a specified place and time. During the inspection, the company's finance director refused to produce certain documents, stating that the documents were confidential and that the Registrar could not inspect them without an order of the Tribunal.</p>
+      <p>The Registrar informed the director that the inspection provisions confer specified powers upon the Registrar and that the company and its officers are required to cooperate with the inspection.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_MEDIUM_01_Q1",
         difficulty: "Medium",
@@ -13281,26 +10266,19 @@ const AICaseStudies = [
           "The company had changed its auditor",
           "The information furnished was inadequate and did not disclose a full and fair statement",
           "The company had declared dividend",
-          "The Registrar wanted to inspect the personal assets of shareholders"
+          "The Registrar wanted to inspect the personal assets of shareholders",
         ],
         answer: 1,
         solution_html: "<p>Under Section 206(3), an additional notice may be issued where the information or explanation furnished is inadequate or the documents do not disclose a full and fair statement of the information required.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_01_Q2",
         difficulty: "Medium",
         question: "Before serving the additional notice under Section 206(3), the Registrar must:",
-        options: [
-          "Obtain approval of the Tribunal",
-          "Record his reasons in writing",
-          "Obtain approval of shareholders",
-          "Obtain approval of the statutory auditor"
-        ],
+        options: ["Obtain approval of the Tribunal", "Record his reasons in writing", "Obtain approval of shareholders", "Obtain approval of the statutory auditor"],
         answer: 1,
         solution_html: "<p>Before serving a notice under Section 206(3), the Registrar is required to record his reasons in writing.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_01_Q3",
         difficulty: "Medium",
@@ -13309,44 +10287,29 @@ const AICaseStudies = [
           "Valid because all company documents are confidential",
           "Valid unless shareholders consent",
           "Contrary to the duty imposed on officers under Section 207",
-          "Valid because only the auditor can inspect documents"
+          "Valid because only the auditor can inspect documents",
         ],
         answer: 2,
         solution_html: "<p>Under Section 207, every director, officer or employee has a duty to produce the documents required and furnish statements, information or explanations and render assistance in connection with inspection.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_01_Q4",
         difficulty: "Medium",
         question: "Which power may the Registrar exercise during inspection under Section 207?",
-        options: [
-          "Make copies of books and papers",
-          "Remove directors from office without procedure",
-          "Freeze all shareholder accounts",
-          "Cancel the company's incorporation"
-        ],
+        options: ["Make copies of books and papers", "Remove directors from office without procedure", "Freeze all shareholder accounts", "Cancel the company's incorporation"],
         answer: 0,
         solution_html: "<p>The Registrar or Inspector may make or cause to be made copies of books of account and other books and papers and may place identification marks on them.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_01_Q5",
         difficulty: "Medium",
         question: "The Registrar's powers under Section 207 include powers similar to those of a civil court in relation to:",
-        options: [
-          "Discovery and production of documents and summoning persons",
-          "Winding up the company",
-          "Appointment of directors",
-          "Declaration of dividend"
-        ],
+        options: ["Discovery and production of documents and summoning persons", "Winding up the company", "Appointment of directors", "Declaration of dividend"],
         answer: 0,
         solution_html: "<p>The Registrar or Inspector has civil-court-like powers regarding discovery and production of documents, summoning and enforcing attendance and examination on oath, and inspection of books and documents.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 2
   // =========================================================
@@ -13354,43 +10317,21 @@ const AICaseStudies = [
     case_id: "C4_MEDIUM_02",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 206 & 210"],
     difficulty: "Medium",
-
     caseText: `
-      <p><strong>Vertex Retail Limited</strong> came under scrutiny after several
-      investors complained that their grievances relating to redemption of certain
-      securities had not been addressed by the company.</p>
-
-      <p>The Registrar examined the information available and formed the view that
-      the grievances raised by investors required examination. He issued a written
-      order informing the company of the allegations and called upon it to furnish
-      explanations. The company was also given a reasonable opportunity of being
-      heard.</p>
-
-      <p>During the inquiry, the Registrar noticed transactions suggesting that
-      certain company funds had been diverted for purposes unrelated to the
-      company's business. The Registrar subsequently prepared an inspection report
-      recommending further investigation and gave reasons for his recommendation.</p>
-
-      <p>The Central Government received the report and considered whether a formal
-      investigation into the affairs of the company was necessary.</p>
+      <p><strong>Vertex Retail Limited</strong> came under scrutiny after several investors complained that their grievances relating to redemption of certain securities had not been addressed by the company.</p>
+      <p>The Registrar examined the information available and formed the view that the grievances raised by investors required examination. He issued a written order informing the company of the allegations and called upon it to furnish explanations. The company was also given a reasonable opportunity of being heard.</p>
+      <p>During the inquiry, the Registrar noticed transactions suggesting that certain company funds had been diverted for purposes unrelated to the company's business. The Registrar subsequently prepared an inspection report recommending further investigation and gave reasons for his recommendation.</p>
+      <p>The Central Government received the report and considered whether a formal investigation into the affairs of the company was necessary.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_MEDIUM_02_Q1",
         difficulty: "Medium",
         question: "The Registrar may conduct an inquiry under Section 206(4) where:",
-        options: [
-          "Investor grievances are not being addressed",
-          "The company declares dividend",
-          "A director retires",
-          "The company changes its auditor"
-        ],
+        options: ["Investor grievances are not being addressed", "The company declares dividend", "A director retires", "The company changes its auditor"],
         answer: 0,
         solution_html: "<p>Section 206(4) specifically permits inquiry where the Registrar is satisfied that grievances of investors are not being addressed.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_02_Q2",
         difficulty: "Medium",
@@ -13399,58 +10340,37 @@ const AICaseStudies = [
           "Inform the company of the allegations and provide a reasonable opportunity of being heard",
           "Obtain approval from every shareholder",
           "Obtain approval from the statutory auditor",
-          "Immediately seize all books"
+          "Immediately seize all books",
         ],
         answer: 0,
         solution_html: "<p>The Registrar must inform the company of the allegations through a written order and provide a reasonable opportunity of being heard before conducting the inquiry.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_02_Q3",
         difficulty: "Medium",
         question: "The Registrar's report recommending further investigation should:",
-        options: [
-          "Contain no reasons",
-          "Be supported by reasons",
-          "Be approved by shareholders",
-          "Be prepared only orally"
-        ],
+        options: ["Contain no reasons", "Be supported by reasons", "Be approved by shareholders", "Be prepared only orally"],
         answer: 1,
         solution_html: "<p>Under Section 208, a recommendation for further investigation must be accompanied by reasons supporting the recommendation.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_02_Q4",
         difficulty: "Medium",
         question: "On receipt of the report, the Central Government may:",
-        options: [
-          "Order an investigation if it considers it necessary",
-          "Only close the company",
-          "Only remove the directors",
-          "Only appoint a new auditor"
-        ],
+        options: ["Order an investigation if it considers it necessary", "Only close the company", "Only remove the directors", "Only appoint a new auditor"],
         answer: 0,
         solution_html: "<p>Under Section 210, the Central Government may order an investigation into the affairs of a company where it considers investigation necessary.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_02_Q5",
         difficulty: "Medium",
         question: "The inquiry conducted by the Registrar under Section 206(4) is primarily:",
-        options: [
-          "A fact-finding administrative process",
-          "A winding-up proceeding",
-          "A criminal trial",
-          "A statutory audit"
-        ],
+        options: ["A fact-finding administrative process", "A winding-up proceeding", "A criminal trial", "A statutory audit"],
         answer: 0,
         solution_html: "<p>The inquiry under Section 206(4) is fact-finding and administrative in nature.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 3
   // =========================================================
@@ -13458,54 +10378,28 @@ const AICaseStudies = [
     case_id: "C4_MEDIUM_03",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 209 & 220"],
     difficulty: "Medium",
-
     caseText: `
-      <p><strong>Prime Steel Limited</strong> was suspected of falsifying its
-      accounting records. The Inspector received information indicating that
-      certain original invoices and accounting registers were being altered and
-      that some records might be secretly removed from the company's premises.</p>
-
-      <p>During an investigation under Chapter XIV, the Inspector concluded that
-      immediate seizure of certain books and papers was necessary to preserve
-      evidence. The company was permitted to take copies of the records before
-      they were taken into custody.</p>
-
-      <p>The management argued that the Inspector could retain the documents for
-      an unlimited period. The Inspector explained that the rules applicable to
-      seizure under Section 220 differ from the period applicable to seizure under
-      Section 209.</p>
+      <p><strong>Prime Steel Limited</strong> was suspected of falsifying its accounting records. The Inspector received information indicating that certain original invoices and accounting registers were being altered and that some records might be secretly removed from the company's premises.</p>
+      <p>During an investigation under Chapter XIV, the Inspector concluded that immediate seizure of certain books and papers was necessary to preserve evidence. The company was permitted to take copies of the records before they were taken into custody.</p>
+      <p>The management argued that the Inspector could retain the documents for an unlimited period. The Inspector explained that the rules applicable to seizure under Section 220 differ from the period applicable to seizure under Section 209.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_MEDIUM_03_Q1",
         difficulty: "Medium",
         question: "If the Registrar is exercising seizure powers under Section 209, an order of which authority is required?",
-        options: [
-          "Special Court",
-          "Statutory auditor",
-          "Company Secretary",
-          "Shareholders"
-        ],
+        options: ["Special Court", "Statutory auditor", "Company Secretary", "Shareholders"],
         answer: 0,
         solution_html: "<p>Section 209 requires an order from the Special Court before the Registrar or Inspector exercises the search and seizure power under that section.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_03_Q2",
         difficulty: "Medium",
         question: "During an investigation under Chapter XIV, the Inspector's seizure power under Section 220 arises when there are reasonable grounds to believe that books may be:",
-        options: [
-          "Destroyed, mutilated, altered, falsified or secreted",
-          "Audited",
-          "Published",
-          "Properly maintained"
-        ],
+        options: ["Destroyed, mutilated, altered, falsified or secreted", "Audited", "Published", "Properly maintained"],
         answer: 0,
         solution_html: "<p>Section 220 permits seizure where the Inspector has reasonable grounds to believe that books and papers are likely to be destroyed, mutilated, altered, falsified or secreted.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_03_Q3",
         difficulty: "Medium",
@@ -13514,26 +10408,19 @@ const AICaseStudies = [
           "Without allowing the company to take copies",
           "After allowing the company to take copies or extracts at its cost",
           "Only after shareholders approve",
-          "Only after the auditor certifies them"
+          "Only after the auditor certifies them",
         ],
         answer: 1,
         solution_html: "<p>The Inspector may seize necessary books and papers after allowing the company to take copies of or extracts from them at its cost.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_03_Q4",
         difficulty: "Medium",
         question: "Under Section 220, the Inspector may generally retain seized books until:",
-        options: [
-          "The conclusion of the investigation, as considered necessary",
-          "Only 30 days",
-          "Only 60 days",
-          "Permanently"
-        ],
+        options: ["The conclusion of the investigation, as considered necessary", "Only 30 days", "Only 60 days", "Permanently"],
         answer: 0,
         solution_html: "<p>Under Section 220, the Inspector may retain the books and papers for a period not later than the conclusion of the investigation, as considered necessary.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_03_Q5",
         difficulty: "Medium",
@@ -13542,16 +10429,13 @@ const AICaseStudies = [
           "Both provisions always require a Special Court order",
           "Section 209 concerns seizure by Registrar/Inspector after Special Court order, whereas Section 220 concerns seizure by Inspector during investigation",
           "Section 220 applies only to auditors",
-          "Section 209 applies only to shareholders"
+          "Section 209 applies only to shareholders",
         ],
         answer: 1,
         solution_html: "<p>Section 209 specifically requires a Special Court order for the Registrar or Inspector to search and seize. Section 220 provides seizure powers to an Inspector during an investigation under Chapter XIV.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 4
   // =========================================================
@@ -13559,98 +10443,54 @@ const AICaseStudies = [
     case_id: "C4_MEDIUM_04",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 210"],
     difficulty: "Medium",
-
     caseText: `
-      <p><strong>Blue Horizon Infrastructure Limited</strong> was accused of
-      entering into transactions that benefited certain directors at the expense
-      of the company. A report of the Registrar recommended further investigation.</p>
-
-      <p>The Central Government examined the report and concluded that an
-      investigation was necessary. Around the same time, a Tribunal proceeding
-      concerning the company resulted in an order stating that the affairs of the
-      company ought to be investigated.</p>
-
-      <p>The Central Government decided to appoint inspectors to investigate the
-      affairs of the company and report their findings in the manner directed by
-      the Government.</p>
+      <p><strong>Blue Horizon Infrastructure Limited</strong> was accused of entering into transactions that benefited certain directors at the expense of the company. A report of the Registrar recommended further investigation.</p>
+      <p>The Central Government examined the report and concluded that an investigation was necessary. Around the same time, a Tribunal proceeding concerning the company resulted in an order stating that the affairs of the company ought to be investigated.</p>
+      <p>The Central Government decided to appoint inspectors to investigate the affairs of the company and report their findings in the manner directed by the Government.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_MEDIUM_04_Q1",
         difficulty: "Medium",
         question: "Which of the following may independently provide a basis for investigation under Section 210?",
-        options: [
-          "A report of the Registrar or Inspector under Section 208",
-          "Appointment of a new employee",
-          "Payment of dividend",
-          "Change in registered office"
-        ],
+        options: ["A report of the Registrar or Inspector under Section 208", "Appointment of a new employee", "Payment of dividend", "Change in registered office"],
         answer: 0,
         solution_html: "<p>A report of the Registrar or Inspector under Section 208 is one of the specified bases under Section 210.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_04_Q2",
         difficulty: "Medium",
         question: "Where a Tribunal orders that the affairs of the company ought to be investigated, the Central Government:",
-        options: [
-          "May ignore the order",
-          "Shall order an investigation",
-          "Must dissolve the company",
-          "Must appoint the company's auditor as inspector"
-        ],
+        options: ["May ignore the order", "Shall order an investigation", "Must dissolve the company", "Must appoint the company's auditor as inspector"],
         answer: 1,
         solution_html: "<p>Under Section 210(2), where a court or Tribunal passes an order that the affairs of a company ought to be investigated, the Central Government shall order an investigation.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_04_Q3",
         difficulty: "Medium",
         question: "For purposes of investigation, the Central Government may appoint:",
-        options: [
-          "One or more inspectors",
-          "Only one shareholder",
-          "Only the statutory auditor",
-          "Only the managing director"
-        ],
+        options: ["One or more inspectors", "Only one shareholder", "Only the statutory auditor", "Only the managing director"],
         answer: 0,
         solution_html: "<p>Section 210(3) permits the Central Government to appoint one or more persons as inspectors.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_04_Q4",
         difficulty: "Medium",
         question: "The inspectors are appointed to:",
-        options: [
-          "Investigate and report on the affairs of the company",
-          "Approve annual accounts",
-          "Declare dividend",
-          "Conduct the company's AGM"
-        ],
+        options: ["Investigate and report on the affairs of the company", "Approve annual accounts", "Declare dividend", "Conduct the company's AGM"],
         answer: 0,
         solution_html: "<p>The function of inspectors under Section 210 is to investigate into the affairs of the company and report thereon in the manner directed.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_04_Q5",
         difficulty: "Medium",
         question: "Which of the following is NOT a stated basis under Section 210(1) for the Central Government to order investigation?",
-        options: [
-          "Special resolution of the company",
-          "Report of Registrar or Inspector under Section 208",
-          "Public interest",
-          "Appointment of a new statutory auditor"
-        ],
+        options: ["Special resolution of the company", "Report of Registrar or Inspector under Section 208", "Public interest", "Appointment of a new statutory auditor"],
         answer: 3,
         solution_html: "<p>Appointment of a new statutory auditor is not a specified basis under Section 210.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 5
   // =========================================================
@@ -13658,54 +10498,28 @@ const AICaseStudies = [
     case_id: "C4_MEDIUM_05",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 211 & 212"],
     difficulty: "Medium",
-
     caseText: `
-      <p><strong>Quantum Healthcare Limited</strong> was suspected of carrying out
-      complex transactions involving multiple group companies. The transactions
-      involved issues relating to financial accounting, taxation, information
-      technology and forensic audit.</p>
-
-      <p>The Central Government considered that the matter required specialised
-      investigation and decided to assign the investigation to the Serious Fraud
-      Investigation Office (SFIO).</p>
-
-      <p>After receiving the order, the Director of SFIO designated inspectors for
-      the investigation. Another government investigating agency had already
-      commenced investigation into certain offences under the Companies Act.
-      Since the case had now been assigned to SFIO, the concerned agency was
-      required to transfer the relevant records to SFIO.</p>
+      <p><strong>Quantum Healthcare Limited</strong> was suspected of carrying out complex transactions involving multiple group companies. The transactions involved issues relating to financial accounting, taxation, information technology and forensic audit.</p>
+      <p>The Central Government considered that the matter required specialised investigation and decided to assign the investigation to the Serious Fraud Investigation Office (SFIO).</p>
+      <p>After receiving the order, the Director of SFIO designated inspectors for the investigation. Another government investigating agency had already commenced investigation into certain offences under the Companies Act. Since the case had now been assigned to SFIO, the concerned agency was required to transfer the relevant records to SFIO.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_MEDIUM_05_Q1",
         difficulty: "Medium",
         question: "Why is SFIO particularly suitable for the investigation described?",
-        options: [
-          "It can include experts from specialised fields",
-          "It is controlled by the company's directors",
-          "It consists only of shareholders",
-          "It conducts only statutory audits"
-        ],
+        options: ["It can include experts from specialised fields", "It is controlled by the company's directors", "It consists only of shareholders", "It conducts only statutory audits"],
         answer: 0,
         solution_html: "<p>SFIO may consist of experts from fields such as financial accounting, taxation, forensic audit, information technology, cyber forensics, law and others.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_05_Q2",
         difficulty: "Medium",
         question: "Who designates the inspectors after an investigation is assigned to SFIO?",
-        options: [
-          "Director, SFIO",
-          "Statutory auditor",
-          "Company Secretary",
-          "NCLT Registrar"
-        ],
+        options: ["Director, SFIO", "Statutory auditor", "Company Secretary", "NCLT Registrar"],
         answer: 0,
         solution_html: "<p>On receipt of the Central Government's order, the Director, SFIO may designate such number of inspectors as considered necessary.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_05_Q3",
         difficulty: "Medium",
@@ -13714,44 +10528,29 @@ const AICaseStudies = [
           "Can continue independently under the Companies Act",
           "Cannot proceed further with investigation in respect of the relevant Companies Act offences",
           "Must investigate the matter again",
-          "Must close all unrelated investigations"
+          "Must close all unrelated investigations",
         ],
         answer: 1,
         solution_html: "<p>Section 212(2) provides that once a case is assigned to SFIO, no other investigating agency of the Central or State Government shall proceed with investigation in respect of an offence under the Companies Act covered by the assignment.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_05_Q4",
         difficulty: "Medium",
         question: "The existing investigating agency should transfer to SFIO:",
-        options: [
-          "Relevant documents and records",
-          "Only its employees",
-          "Only its office premises",
-          "Only the company's directors"
-        ],
+        options: ["Relevant documents and records", "Only its employees", "Only its office premises", "Only the company's directors"],
         answer: 0,
         solution_html: "<p>Where investigation has already been initiated, the concerned agency must transfer the relevant documents and records to SFIO.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_05_Q5",
         difficulty: "Medium",
         question: "SFIO submits its investigation report to:",
-        options: [
-          "Central Government",
-          "Company's shareholders",
-          "Registrar of Companies only",
-          "Statutory auditor"
-        ],
+        options: ["Central Government", "Company's shareholders", "Registrar of Companies only", "Statutory auditor"],
         answer: 0,
         solution_html: "<p>SFIO conducts the investigation and submits its report to the Central Government within the period specified in the order.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 6
   // =========================================================
@@ -13759,100 +10558,54 @@ const AICaseStudies = [
     case_id: "C4_MEDIUM_06",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 213"],
     difficulty: "Medium",
-
     caseText: `
-      <p><strong>Silverline Textiles Limited</strong> has a share capital and
-      has 1,000 members. A group of 120 members became concerned that the business
-      of the company was being conducted in a manner intended to defraud
-      creditors and members.</p>
-
-      <p>The members collected documents showing certain suspicious transactions
-      and approached the National Company Law Tribunal seeking an investigation
-      into the affairs of the company.</p>
-
-      <p>The company opposed the application and argued that the members had no
-      right to seek investigation merely because they were dissatisfied with
-      management decisions. The Tribunal considered the number of applicants and
-      the evidence produced by them before deciding whether investigation should
-      be ordered.</p>
+      <p><strong>Silverline Textiles Limited</strong> has a share capital and has 1,000 members. A group of 120 members became concerned that the business of the company was being conducted in a manner intended to defraud creditors and members.</p>
+      <p>The members collected documents showing certain suspicious transactions and approached the National Company Law Tribunal seeking an investigation into the affairs of the company.</p>
+      <p>The company opposed the application and argued that the members had no right to seek investigation merely because they were dissatisfied with management decisions. The Tribunal considered the number of applicants and the evidence produced by them before deciding whether investigation should be ordered.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_MEDIUM_06_Q1",
         difficulty: "Medium",
         question: "For a company having share capital, an application under Section 213 may be made by at least:",
-        options: [
-          "10 members",
-          "50 members",
-          "100 members or one-tenth of the members, whichever is less",
-          "All members"
-        ],
+        options: ["10 members", "50 members", "100 members or one-tenth of the members, whichever is less", "All members"],
         answer: 2,
         solution_html: "<p>For a company having share capital, Section 213 permits an application by 100 or more members or by members holding not less than one-tenth of the total voting power, subject to the statutory conditions.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_06_Q2",
         difficulty: "Medium",
         question: "In the case, 120 members of a company having 1,000 members have applied. Numerically, the applicants satisfy:",
-        options: [
-          "The 100-member threshold",
-          "Only a 50-member threshold",
-          "No statutory threshold",
-          "The requirement that every member must apply"
-        ],
+        options: ["The 100-member threshold", "Only a 50-member threshold", "No statutory threshold", "The requirement that every member must apply"],
         answer: 0,
         solution_html: "<p>Since the company has 1,000 members, the group of 120 members exceeds the 100-member threshold specified for a company having share capital.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_06_Q3",
         difficulty: "Medium",
         question: "Apart from the required number of members, the applicants should support the application with:",
-        options: [
-          "Evidence showing good reasons for seeking investigation",
-          "Only a newspaper advertisement",
-          "Only an auditor's resignation",
-          "No evidence at all"
-        ],
+        options: ["Evidence showing good reasons for seeking investigation", "Only a newspaper advertisement", "Only an auditor's resignation", "No evidence at all"],
         answer: 0,
         solution_html: "<p>The application must be supported by evidence necessary to show that the applicants have good reasons for seeking an investigation.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_06_Q4",
         difficulty: "Medium",
         question: "Before ordering investigation under Section 213, the Tribunal must provide:",
-        options: [
-          "A reasonable opportunity of being heard to the concerned parties",
-          "Only 24 hours' notice",
-          "No hearing",
-          "Only an auditor's opinion"
-        ],
+        options: ["A reasonable opportunity of being heard to the concerned parties", "Only 24 hours' notice", "No hearing", "Only an auditor's opinion"],
         answer: 0,
         solution_html: "<p>The Tribunal may pass an order under Section 213 only after giving the concerned parties a reasonable opportunity of being heard.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_06_Q5",
         difficulty: "Medium",
         question: "If investigation establishes that the company's business was conducted with intent to defraud creditors, the persons covered by Section 213 may be punished:",
-        options: [
-          "Under Section 447",
-          "Only by a civil warning",
-          "Only by removal from office",
-          "Under Section 211"
-        ],
+        options: ["Under Section 447", "Only by a civil warning", "Only by removal from office", "Under Section 211"],
         answer: 0,
         solution_html: "<p>Where the specified fraudulent conduct is established, the officers in default and persons concerned in formation or management may be punishable for fraud under Section 447.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 7
   // =========================================================
@@ -13860,99 +10613,54 @@ const AICaseStudies = [
     case_id: "C4_MEDIUM_07",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 216 & 222"],
     difficulty: "Medium",
-
     caseText: `
-      <p><strong>Summit Capital Limited</strong> noticed that a group of persons
-      appeared to exercise significant influence over the company's policies.
-      Their beneficial interest in certain shares was not immediately apparent
-      from the company's ordinary membership records.</p>
-
-      <p>The Central Government considered appointing inspectors to determine the
-      true persons who were financially interested in the company and those who
-      were able to control or materially influence its policy.</p>
-
-      <p>During the investigation, concerns arose regarding certain securities
-      issued by the company. The Tribunal considered whether restrictions should
-      be imposed on those securities so that the relevant facts could be properly
-      determined.</p>
+      <p><strong>Summit Capital Limited</strong> noticed that a group of persons appeared to exercise significant influence over the company's policies. Their beneficial interest in certain shares was not immediately apparent from the company's ordinary membership records.</p>
+      <p>The Central Government considered appointing inspectors to determine the true persons who were financially interested in the company and those who were able to control or materially influence its policy.</p>
+      <p>During the investigation, concerns arose regarding certain securities issued by the company. The Tribunal considered whether restrictions should be imposed on those securities so that the relevant facts could be properly determined.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_MEDIUM_07_Q1",
         difficulty: "Medium",
         question: "The investigation into the true beneficial and controlling interests is primarily covered by:",
-        options: [
-          "Section 206",
-          "Section 216",
-          "Section 225",
-          "Section 229"
-        ],
+        options: ["Section 206", "Section 216", "Section 225", "Section 229"],
         answer: 1,
         solution_html: "<p>Section 216 deals with investigation into ownership and related membership matters to determine the true persons financially interested or exercising control or influence.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_07_Q2",
         difficulty: "Medium",
         question: "Under Section 216, inspectors may investigate persons who:",
-        options: [
-          "Have beneficial interest in shares",
-          "Are only employees",
-          "Are only statutory auditors",
-          "Are only creditors"
-        ],
+        options: ["Have beneficial interest in shares", "Are only employees", "Are only statutory auditors", "Are only creditors"],
         answer: 0,
         solution_html: "<p>Section 216 covers persons who have or had beneficial interest in shares or are beneficial or significant beneficial owners.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_07_Q3",
         difficulty: "Medium",
         question: "Who may impose restrictions upon securities under Section 222?",
-        options: [
-          "Tribunal",
-          "Statutory auditor",
-          "Company secretary",
-          "Registrar alone"
-        ],
+        options: ["Tribunal", "Statutory auditor", "Company secretary", "Registrar alone"],
         answer: 0,
         solution_html: "<p>The Tribunal may impose restrictions upon securities under Section 222 in the circumstances specified.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_07_Q4",
         difficulty: "Medium",
         question: "Restrictions under Section 222 may be imposed for a period not exceeding:",
-        options: [
-          "Six months",
-          "One year",
-          "Three years",
-          "Ten years"
-        ],
+        options: ["Six months", "One year", "Three years", "Ten years"],
         answer: 2,
         solution_html: "<p>The Tribunal may impose restrictions upon securities for a period not exceeding three years.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_07_Q5",
         difficulty: "Medium",
         question: "The purpose of restrictions under Section 222 is primarily to:",
-        options: [
-          "Assist in finding relevant facts concerning securities",
-          "Increase dividend",
-          "Remove the statutory auditor",
-          "Close the company"
-        ],
+        options: ["Assist in finding relevant facts concerning securities", "Increase dividend", "Remove the statutory auditor", "Close the company"],
         answer: 0,
         solution_html: "<p>Restrictions may be imposed where the Tribunal considers that relevant facts concerning securities cannot be found out unless such restrictions are imposed.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 8
   // =========================================================
@@ -13960,99 +10668,54 @@ const AICaseStudies = [
     case_id: "C4_MEDIUM_08",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 217"],
     difficulty: "Medium",
-
     caseText: `
-      <p><strong>Evergreen Motors Limited</strong> was undergoing an investigation
-      into certain transactions involving its former Managing Director. The
-      Inspector required the present directors, employees and former employees
-      to preserve and produce books and papers relating to the company.</p>
-
-      <p>The former Managing Director claimed that since he had already left the
-      company, he was no longer required to cooperate. The Inspector also wished
-      to examine an external person who had knowledge of the transactions and
-      requested the necessary approval before examining that person on oath.</p>
-
-      <p>The Inspector explained that certain investigation powers extend to
-      former officers and employees and that persons may be required to appear
-      personally for examination.</p>
+      <p><strong>Evergreen Motors Limited</strong> was undergoing an investigation into certain transactions involving its former Managing Director. The Inspector required the present directors, employees and former employees to preserve and produce books and papers relating to the company.</p>
+      <p>The former Managing Director claimed that since he had already left the company, he was no longer required to cooperate. The Inspector also wished to examine an external person who had knowledge of the transactions and requested the necessary approval before examining that person on oath.</p>
+      <p>The Inspector explained that certain investigation powers extend to former officers and employees and that persons may be required to appear personally for examination.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_MEDIUM_08_Q1",
         difficulty: "Medium",
         question: "Under Section 217, the duty to preserve and produce books extends to:",
-        options: [
-          "Only current directors",
-          "Current and former officers, employees and agents covered by the section",
-          "Only shareholders",
-          "Only statutory auditors"
-        ],
+        options: ["Only current directors", "Current and former officers, employees and agents covered by the section", "Only shareholders", "Only statutory auditors"],
         answer: 1,
         solution_html: "<p>Section 217 imposes duties on officers, employees and agents, including former officers, employees and agents, to preserve and produce relevant books and papers.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_08_Q2",
         difficulty: "Medium",
         question: "The Inspector may require a person to appear before him for:",
-        options: [
-          "Examination on oath",
-          "Election as director",
-          "Payment of dividend",
-          "Approval of accounts"
-        ],
+        options: ["Examination on oath", "Election as director", "Payment of dividend", "Approval of accounts"],
         answer: 0,
         solution_html: "<p>Under Section 217, the Inspector may examine persons on oath and may require them to appear personally for that purpose.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_08_Q3",
         difficulty: "Medium",
         question: "For examination of a person other than those specifically covered under Section 217(1), the Inspector generally requires prior approval of:",
-        options: [
-          "Central Government",
-          "Shareholders",
-          "Statutory auditor",
-          "Company secretary"
-        ],
+        options: ["Central Government", "Shareholders", "Statutory auditor", "Company secretary"],
         answer: 0,
         solution_html: "<p>For examination of any other person, prior approval of the Central Government is required. In a Section 212 investigation, prior approval of the Director, SFIO is sufficient.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_08_Q4",
         difficulty: "Medium",
         question: "The Inspector has powers similar to a civil court regarding:",
-        options: [
-          "Summoning persons and examining them on oath",
-          "Appointing directors",
-          "Declaring dividends",
-          "Approving mergers"
-        ],
+        options: ["Summoning persons and examining them on oath", "Appointing directors", "Declaring dividends", "Approving mergers"],
         answer: 0,
         solution_html: "<p>The Inspector has civil-court-like powers regarding discovery and production of documents, summoning and enforcing attendance, and examination on oath.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_08_Q5",
         difficulty: "Medium",
         question: "Notes of examination under Section 217 are:",
-        options: [
-          "Taken down in writing and signed by the person examined",
-          "Always destroyed after examination",
-          "Kept only orally",
-          "Valid only if signed by shareholders"
-        ],
+        options: ["Taken down in writing and signed by the person examined", "Always destroyed after examination", "Kept only orally", "Valid only if signed by shareholders"],
         answer: 0,
         solution_html: "<p>The notes of examination must be taken down in writing, read over to or by the person examined and signed by that person. They may thereafter be used in evidence.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 9
   // =========================================================
@@ -14060,80 +10723,44 @@ const AICaseStudies = [
     case_id: "C4_MEDIUM_09",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 218"],
     difficulty: "Medium",
-
     caseText: `
-      <p><strong>National Logistics Limited</strong> was undergoing an
-      investigation into its affairs. One employee, Meera, provided information
-      to the Inspector concerning suspicious transactions involving senior
-      management.</p>
-
-      <p>Shortly thereafter, the company proposed to remove Meera from her
-      position and reduce her rank. The company submitted an application to the
-      Tribunal seeking approval for the proposed action.</p>
-
-      <p>The Tribunal sent an objection to the company. The company was
-      dissatisfied with the objection and considered challenging the Tribunal's
-      decision before the Appellate Tribunal.</p>
+      <p><strong>National Logistics Limited</strong> was undergoing an investigation into its affairs. One employee, Meera, provided information to the Inspector concerning suspicious transactions involving senior management.</p>
+      <p>Shortly thereafter, the company proposed to remove Meera from her position and reduce her rank. The company submitted an application to the Tribunal seeking approval for the proposed action.</p>
+      <p>The Tribunal sent an objection to the company. The company was dissatisfied with the objection and considered challenging the Tribunal's decision before the Appellate Tribunal.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_MEDIUM_09_Q1",
         difficulty: "Medium",
         question: "The company's proposal to reduce Meera's rank during investigation is covered by:",
-        options: [
-          "Section 218",
-          "Section 211",
-          "Section 223",
-          "Section 229"
-        ],
+        options: ["Section 218", "Section 211", "Section 223", "Section 229"],
         answer: 0,
         solution_html: "<p>Section 218 protects employees during investigation against specified adverse actions, including reduction in rank.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_09_Q2",
         difficulty: "Medium",
         question: "Before taking the proposed adverse action, the company should:",
-        options: [
-          "Obtain Tribunal approval",
-          "Obtain approval from all employees",
-          "Obtain approval from the statutory auditor",
-          "Obtain approval from creditors"
-        ],
+        options: ["Obtain Tribunal approval", "Obtain approval from all employees", "Obtain approval from the statutory auditor", "Obtain approval from creditors"],
         answer: 0,
         solution_html: "<p>Section 218 requires Tribunal approval before specified adverse employment actions are taken during the relevant investigation or proceedings.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_09_Q3",
         difficulty: "Medium",
         question: "If the Tribunal raises an objection to the proposed action, the company may:",
-        options: [
-          "Prefer an appeal to the Appellate Tribunal",
-          "Ignore the Tribunal",
-          "Immediately terminate the employee",
-          "Close the investigation"
-        ],
+        options: ["Prefer an appeal to the Appellate Tribunal", "Ignore the Tribunal", "Immediately terminate the employee", "Close the investigation"],
         answer: 0,
         solution_html: "<p>If dissatisfied with the objection raised by the Tribunal, the concerned company may prefer an appeal to the Appellate Tribunal within 30 days of receipt of the notice.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_09_Q4",
         difficulty: "Medium",
         question: "The appeal against the Tribunal's objection must generally be made within:",
-        options: [
-          "7 days",
-          "15 days",
-          "30 days",
-          "180 days"
-        ],
+        options: ["7 days", "15 days", "30 days", "180 days"],
         answer: 2,
         solution_html: "<p>Section 218 provides a period of 30 days from receipt of the notice of objection for preferring an appeal to the Appellate Tribunal.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_09_Q5",
         difficulty: "Medium",
@@ -14142,16 +10769,13 @@ const AICaseStudies = [
           "Only dismissal",
           "Only suspension",
           "Specified adverse employment actions including dismissal, removal, reduction in rank and disadvantageous changes in employment terms",
-          "Only salary reduction"
+          "Only salary reduction",
         ],
         answer: 2,
         solution_html: "<p>Section 218 covers discharge, suspension, punishment by dismissal or removal, reduction in rank and changes in terms of employment to the employee's disadvantage.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 10
   // =========================================================
@@ -14159,99 +10783,54 @@ const AICaseStudies = [
     case_id: "C4_MEDIUM_10",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 219"],
     difficulty: "Medium",
-
     caseText: `
-      <p><strong>Meridian Consumer Products Limited</strong> was being
-      investigated by an Inspector. During the investigation, the Inspector
-      discovered that several suspicious payments had been routed through the
-      company's wholly owned subsidiary.</p>
-
-      <p>The Inspector considered that examining the subsidiary's records was
-      necessary to understand the affairs of Meridian Consumer Products Limited.
-      The subsidiary was managed by the same person who was the Managing Director
-      of the main company.</p>
-
-      <p>The Inspector proposed to investigate the subsidiary and also wanted to
-      examine a former employee of the main company who had handled the relevant
-      transactions.</p>
+      <p><strong>Meridian Consumer Products Limited</strong> was being investigated by an Inspector. During the investigation, the Inspector discovered that several suspicious payments had been routed through the company's wholly owned subsidiary.</p>
+      <p>The Inspector considered that examining the subsidiary's records was necessary to understand the affairs of Meridian Consumer Products Limited. The subsidiary was managed by the same person who was the Managing Director of the main company.</p>
+      <p>The Inspector proposed to investigate the subsidiary and also wanted to examine a former employee of the main company who had handled the relevant transactions.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_MEDIUM_10_Q1",
         difficulty: "Medium",
         question: "Can an Inspector investigating a company also investigate its subsidiary where necessary for the investigation?",
-        options: [
-          "Yes, subject to the statutory requirements",
-          "No, under any circumstances",
-          "Only if shareholders unanimously agree",
-          "Only if the statutory auditor agrees"
-        ],
+        options: ["Yes, subject to the statutory requirements", "No, under any circumstances", "Only if shareholders unanimously agree", "Only if the statutory auditor agrees"],
         answer: 0,
         solution_html: "<p>Section 219 permits an Inspector, subject to the statutory requirements and prior approval of the Central Government, to investigate specified related companies where necessary for the main investigation.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_10_Q2",
         difficulty: "Medium",
         question: "A subsidiary of the company is one of the bodies corporate covered under Section 219 because it is:",
-        options: [
-          "A related company specified under the section",
-          "Always an unrelated third party",
-          "A government department",
-          "A statutory auditor"
-        ],
+        options: ["A related company specified under the section", "Always an unrelated third party", "A government department", "A statutory auditor"],
         answer: 0,
         solution_html: "<p>Section 219 specifically covers a company's subsidiary, holding company and subsidiary of its holding company, subject to the statutory conditions.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_10_Q3",
         difficulty: "Medium",
         question: "The Inspector's investigation of the related body corporate requires:",
-        options: [
-          "Prior approval of the Central Government",
-          "Approval of the company's shareholders only",
-          "Approval of the subsidiary's auditor",
-          "No statutory approval"
-        ],
+        options: ["Prior approval of the Central Government", "Approval of the company's shareholders only", "Approval of the subsidiary's auditor", "No statutory approval"],
         answer: 0,
         solution_html: "<p>Under Section 219, the Inspector may investigate the affairs of the related body corporate subject to prior approval of the Central Government.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_10_Q4",
         difficulty: "Medium",
         question: "Section 219 may also cover a person who:",
-        options: [
-          "Is or has been the company's Managing Director, manager or employee",
-          "Has never had any connection with the company",
-          "Is only a customer",
-          "Is only a competitor"
-        ],
+        options: ["Is or has been the company's Managing Director, manager or employee", "Has never had any connection with the company", "Is only a customer", "Is only a competitor"],
         answer: 0,
         solution_html: "<p>Section 219 permits investigation into a person who is or has been the company's Managing Director, manager or employee, where the statutory conditions are satisfied.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_10_Q5",
         difficulty: "Medium",
         question: "The additional investigation should be undertaken only so far as:",
-        options: [
-          "Its results are relevant to the investigation of the original company",
-          "The related company requests it",
-          "The employee requests it",
-          "The auditor wants it"
-        ],
+        options: ["Its results are relevant to the investigation of the original company", "The related company requests it", "The employee requests it", "The auditor wants it"],
         answer: 0,
         solution_html: "<p>The Inspector investigates the related body corporate or person to the extent that the results are relevant to the investigation of the affairs of the company for which the Inspector was appointed.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 11
   // =========================================================
@@ -14259,99 +10838,54 @@ const AICaseStudies = [
     case_id: "C4_MEDIUM_11",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 221"],
     difficulty: "Medium",
-
     caseText: `
-      <p><strong>Harbor Exports Limited</strong> was undergoing an investigation
-      into its affairs. During the proceedings, evidence emerged that the
-      company's directors might transfer substantial company assets to related
-      entities before the investigation was completed.</p>
-
-      <p>A creditor having an outstanding amount exceeding the statutory threshold
-      approached the Tribunal, stating that the proposed transfer would prejudice
-      the interests of creditors.</p>
-
-      <p>The Tribunal considered whether restrictions should be imposed on the
-      removal, transfer or disposal of the company's funds, assets and properties.
-      The management argued that the Tribunal could not impose such restrictions
-      for a long period.</p>
+      <p><strong>Harbor Exports Limited</strong> was undergoing an investigation into its affairs. During the proceedings, evidence emerged that the company's directors might transfer substantial company assets to related entities before the investigation was completed.</p>
+      <p>A creditor having an outstanding amount exceeding the statutory threshold approached the Tribunal, stating that the proposed transfer would prejudice the interests of creditors.</p>
+      <p>The Tribunal considered whether restrictions should be imposed on the removal, transfer or disposal of the company's funds, assets and properties. The management argued that the Tribunal could not impose such restrictions for a long period.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_MEDIUM_11_Q1",
         difficulty: "Medium",
         question: "The provision concerning freezing of assets during inquiry and investigation is:",
-        options: [
-          "Section 221",
-          "Section 216",
-          "Section 208",
-          "Section 229"
-        ],
+        options: ["Section 221", "Section 216", "Section 208", "Section 229"],
         answer: 0,
         solution_html: "<p>Section 221 deals with freezing of assets of a company on inquiry and investigation.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_11_Q2",
         difficulty: "Medium",
         question: "A creditor having the prescribed outstanding amount may approach the Tribunal where there is reasonable ground to believe that assets may be:",
-        options: [
-          "Removed, transferred or disposed of prejudicially",
-          "Properly audited",
-          "Used in ordinary business",
-          "Insured"
-        ],
+        options: ["Removed, transferred or disposed of prejudicially", "Properly audited", "Used in ordinary business", "Insured"],
         answer: 0,
         solution_html: "<p>Section 221 permits action where there are reasonable grounds to believe that removal, transfer or disposal of company assets is likely to prejudice the interests of the company, shareholders or creditors or is against public interest.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_11_Q3",
         difficulty: "Medium",
         question: "The Tribunal may restrict removal, transfer or disposal of assets for a period not exceeding:",
-        options: [
-          "One year",
-          "Two years",
-          "Three years",
-          "Five years"
-        ],
+        options: ["One year", "Two years", "Three years", "Five years"],
         answer: 2,
         solution_html: "<p>Section 221 permits the Tribunal to impose restrictions for a period not exceeding three years.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_11_Q4",
         difficulty: "Medium",
         question: "The Tribunal may also permit transfer of assets subject to:",
-        options: [
-          "Conditions and restrictions it considers fit",
-          "No conditions whatsoever",
-          "Approval of employees only",
-          "Approval of the statutory auditor only"
-        ],
+        options: ["Conditions and restrictions it considers fit", "No conditions whatsoever", "Approval of employees only", "Approval of the statutory auditor only"],
         answer: 0,
         solution_html: "<p>The Tribunal may direct that transfer, removal or disposal shall take place subject to such conditions and restrictions as it considers fit.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_11_Q5",
         difficulty: "Medium",
         question: "Contravention of a Tribunal order under Section 221 can result in:",
-        options: [
-          "Fine for the company and imprisonment/fine for the officer in default",
-          "Only a warning",
-          "Only removal of the auditor",
-          "No consequence"
-        ],
+        options: ["Fine for the company and imprisonment/fine for the officer in default", "Only a warning", "Only removal of the auditor", "No consequence"],
         answer: 0,
         solution_html: "<p>Section 221 provides specified fines for the company and imprisonment and/or fine for the officer in default where the Tribunal's order is contravened.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 12
   // =========================================================
@@ -14359,99 +10893,54 @@ const AICaseStudies = [
     case_id: "C4_MEDIUM_12",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 223 & 224"],
     difficulty: "Medium",
-
     caseText: `
-      <p><strong>Everest Pharmaceuticals Limited</strong> was investigated by
-      inspectors appointed under Chapter XIV. During the investigation, the
-      Inspector submitted an interim report to the Central Government and later
-      completed the investigation and submitted the final report.</p>
-
-      <p>The final report indicated that certain directors had committed offences
-      in connection with the affairs of the company. It also stated that certain
-      company property had been wrongfully diverted for the personal benefit of
-      one of the directors.</p>
-
-      <p>The Central Government examined the report and considered prosecution
-      against the persons responsible. It also considered whether proceedings
-      should be initiated for recovery of the wrongfully diverted property.</p>
+      <p><strong>Everest Pharmaceuticals Limited</strong> was investigated by inspectors appointed under Chapter XIV. During the investigation, the Inspector submitted an interim report to the Central Government and later completed the investigation and submitted the final report.</p>
+      <p>The final report indicated that certain directors had committed offences in connection with the affairs of the company. It also stated that certain company property had been wrongfully diverted for the personal benefit of one of the directors.</p>
+      <p>The Central Government examined the report and considered prosecution against the persons responsible. It also considered whether proceedings should be initiated for recovery of the wrongfully diverted property.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_MEDIUM_12_Q1",
         difficulty: "Medium",
         question: "An Inspector may submit an interim report:",
-        options: [
-          "And shall submit a final report on conclusion of investigation",
-          "But can never submit a final report",
-          "Only after company approval",
-          "Only after shareholder approval"
-        ],
+        options: ["And shall submit a final report on conclusion of investigation", "But can never submit a final report", "Only after company approval", "Only after shareholder approval"],
         answer: 0,
         solution_html: "<p>Under Section 223, an Inspector may submit interim reports and shall submit a final report to the Central Government on completion of the investigation.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_12_Q2",
         difficulty: "Medium",
         question: "If the Inspector's report indicates that a person committed a criminal offence, the Central Government may:",
-        options: [
-          "Prosecute the person",
-          "Only issue a warning",
-          "Only remove the person as director",
-          "Ignore the report"
-        ],
+        options: ["Prosecute the person", "Only issue a warning", "Only remove the person as director", "Ignore the report"],
         answer: 0,
         solution_html: "<p>Under Section 224, if the report indicates that a person is guilty of an offence for which he is criminally liable, the Central Government may prosecute that person.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_12_Q3",
         difficulty: "Medium",
         question: "Where a report indicates that company property has been wrongfully retained, proceedings may be initiated for:",
-        options: [
-          "Recovery of the property",
-          "Increasing share capital",
-          "Appointment of auditors",
-          "Declaration of dividend"
-        ],
+        options: ["Recovery of the property", "Increasing share capital", "Appointment of auditors", "Declaration of dividend"],
         answer: 0,
         solution_html: "<p>Section 224 permits proceedings for recovery of property that has been misapplied or wrongfully retained.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_12_Q4",
         difficulty: "Medium",
         question: "Where fraud has resulted in undue benefit to a director, the Central Government may seek:",
-        options: [
-          "Disgorgement of the asset, property or cash",
-          "Automatic promotion of the director",
-          "Cancellation of all company debts",
-          "Increase in director remuneration"
-        ],
+        options: ["Disgorgement of the asset, property or cash", "Automatic promotion of the director", "Cancellation of all company debts", "Increase in director remuneration"],
         answer: 0,
         solution_html: "<p>Where fraud has resulted in undue advantage or benefit, the Central Government may apply to the Tribunal for appropriate orders regarding disgorgement of the asset, property or cash.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_12_Q5",
         difficulty: "Medium",
         question: "The final report under Section 223 is submitted to:",
-        options: [
-          "Central Government",
-          "Only shareholders",
-          "Only creditors",
-          "Statutory auditor"
-        ],
+        options: ["Central Government", "Only shareholders", "Only creditors", "Statutory auditor"],
         answer: 0,
         solution_html: "<p>The Inspector submits the final report to the Central Government on completion of the investigation.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 13
   // =========================================================
@@ -14459,100 +10948,54 @@ const AICaseStudies = [
     case_id: "C4_MEDIUM_13",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 225"],
     difficulty: "Medium",
-
     caseText: `
-      <p><strong>Crystal Engineering Limited</strong> was investigated by an
-      Inspector appointed by the Central Government. The investigation resulted
-      in prosecution against certain officers of the company and proceedings
-      relating to recovery of company property.</p>
-
-      <p>The Central Government had initially defrayed the expenses of the
-      investigation. Following the proceedings, the court considered the extent
-      to which the persons convicted or ordered to restore property should
-      reimburse the investigation expenses.</p>
-
-      <p>The company also recovered certain property as a result of the
-      proceedings. The authorities considered whether the company could be
-      required to bear investigation expenses to the extent provided under the
-      Act.</p>
+      <p><strong>Crystal Engineering Limited</strong> was investigated by an Inspector appointed by the Central Government. The investigation resulted in prosecution against certain officers of the company and proceedings relating to recovery of company property.</p>
+      <p>The Central Government had initially defrayed the expenses of the investigation. Following the proceedings, the court considered the extent to which the persons convicted or ordered to restore property should reimburse the investigation expenses.</p>
+      <p>The company also recovered certain property as a result of the proceedings. The authorities considered whether the company could be required to bear investigation expenses to the extent provided under the Act.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_MEDIUM_13_Q1",
         difficulty: "Medium",
         question: "Investigation expenses are initially defrayed by:",
-        options: [
-          "Central Government",
-          "Only the company's shareholders",
-          "Only the statutory auditor",
-          "Only the directors"
-        ],
+        options: ["Central Government", "Only the company's shareholders", "Only the statutory auditor", "Only the directors"],
         answer: 0,
         solution_html: "<p>Under Section 225, expenses of and incidental to an investigation by an Inspector appointed by the Central Government are initially defrayed by the Central Government.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_13_Q2",
         difficulty: "Medium",
         question: "A person convicted following prosecution may be required to reimburse investigation expenses:",
-        options: [
-          "To the extent ordered in the proceedings",
-          "Always for unlimited amount",
-          "Never",
-          "Only if shareholders approve"
-        ],
+        options: ["To the extent ordered in the proceedings", "Always for unlimited amount", "Never", "Only if shareholders approve"],
         answer: 0,
         solution_html: "<p>A person convicted may be required to reimburse expenses to the extent that the court specifies in the same proceedings.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_13_Q3",
         difficulty: "Medium",
         question: "A person ordered to restore property may also be liable for:",
-        options: [
-          "Investigation expenses to the extent specified",
-          "No expenses under any circumstances",
-          "Only future audit fees",
-          "Only employee salaries"
-        ],
+        options: ["Investigation expenses to the extent specified", "No expenses under any circumstances", "Only future audit fees", "Only employee salaries"],
         answer: 0,
         solution_html: "<p>Persons ordered to pay damages or restore property may be required to reimburse investigation expenses to the extent specified in the proceedings.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_13_Q4",
         difficulty: "Medium",
         question: "Where the company recovers property as a result of proceedings, it may be required to reimburse expenses:",
-        options: [
-          "To the extent of the amount or value recovered, as applicable",
-          "Without any limit",
-          "Only if the auditor agrees",
-          "Never"
-        ],
+        options: ["To the extent of the amount or value recovered, as applicable", "Without any limit", "Only if the auditor agrees", "Never"],
         answer: 0,
         solution_html: "<p>Section 225 provides for reimbursement by the company or body corporate to the extent of the amount or value of sums or property recovered as a result of the proceedings.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_13_Q5",
         difficulty: "Medium",
         question: "The provisions relating to investigation expenses are contained in:",
-        options: [
-          "Section 225",
-          "Section 206",
-          "Section 216",
-          "Section 229"
-        ],
+        options: ["Section 225", "Section 206", "Section 216", "Section 229"],
         answer: 0,
         solution_html: "<p>Section 225 deals with expenses of investigation.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 14
   // =========================================================
@@ -14560,67 +11003,36 @@ const AICaseStudies = [
     case_id: "C4_MEDIUM_14",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 226 & 227"],
     difficulty: "Medium",
-
     caseText: `
-      <p><strong>Suncrest Holdings Limited</strong> was under investigation into
-      certain transactions involving related parties. During the investigation,
-      the company passed a special resolution for voluntary winding up.</p>
-
-      <p>The directors argued that since the company was now being voluntarily
-      wound up, the investigation should immediately stop. The Inspector,
-      however, continued the investigation and explained that voluntary winding
-      up does not by itself stop an investigation under Chapter XIV.</p>
-
-      <p>During the investigation, the Inspector also requested certain information
-      from the company's legal adviser concerning communications between the
-      adviser and the company. The legal adviser claimed that the communication
-      was privileged.</p>
+      <p><strong>Suncrest Holdings Limited</strong> was under investigation into certain transactions involving related parties. During the investigation, the company passed a special resolution for voluntary winding up.</p>
+      <p>The directors argued that since the company was now being voluntarily wound up, the investigation should immediately stop. The Inspector, however, continued the investigation and explained that voluntary winding up does not by itself stop an investigation under Chapter XIV.</p>
+      <p>During the investigation, the Inspector also requested certain information from the company's legal adviser concerning communications between the adviser and the company. The legal adviser claimed that the communication was privileged.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_MEDIUM_14_Q1",
         difficulty: "Medium",
         question: "Does passing a special resolution for voluntary winding up automatically stop an investigation under Chapter XIV?",
-        options: [
-          "Yes",
-          "No",
-          "Only if the auditor agrees",
-          "Only if shareholders unanimously agree"
-        ],
+        options: ["Yes", "No", "Only if the auditor agrees", "Only if shareholders unanimously agree"],
         answer: 1,
         solution_html: "<p>Section 226 expressly provides that an investigation is not stopped or suspended merely because the company has passed a special resolution for voluntary winding up.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_14_Q2",
         difficulty: "Medium",
         question: "An investigation may continue notwithstanding:",
-        options: [
-          "A winding-up proceeding pending before the Tribunal",
-          "Only a change in auditor",
-          "Only a change in registered office",
-          "Only payment of dividend"
-        ],
+        options: ["A winding-up proceeding pending before the Tribunal", "Only a change in auditor", "Only a change in registered office", "Only payment of dividend"],
         answer: 0,
         solution_html: "<p>Section 226 provides that investigation may continue notwithstanding winding-up proceedings pending before the Tribunal.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_14_Q3",
         difficulty: "Medium",
         question: "A legal adviser is generally not required to disclose:",
-        options: [
-          "Privileged communication made to him in his capacity as legal adviser",
-          "The client's name and address",
-          "All public information",
-          "Company's published annual report"
-        ],
+        options: ["Privileged communication made to him in his capacity as legal adviser", "The client's name and address", "All public information", "Company's published annual report"],
         answer: 0,
         solution_html: "<p>Section 227 protects privileged communications made to a legal adviser in that capacity, although the name and address of the client are not protected by this provision.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_14_Q4",
         difficulty: "Medium",
@@ -14629,30 +11041,21 @@ const AICaseStudies = [
           "Bankers about the affairs of customers other than the company/body corporate/person concerned",
           "Employees about company salaries",
           "Shareholders about dividends",
-          "Directors about meetings"
+          "Directors about meetings",
         ],
         answer: 0,
         solution_html: "<p>Section 227 states that bankers are not required to disclose information about the affairs of customers other than the company, body corporate or person concerned.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_14_Q5",
         difficulty: "Medium",
         question: "The legal adviser's privilege under Section 227 protects:",
-        options: [
-          "Privileged communication made to him in that capacity",
-          "All information of every kind",
-          "Only financial statements",
-          "Only information filed with ROC"
-        ],
+        options: ["Privileged communication made to him in that capacity", "All information of every kind", "Only financial statements", "Only information filed with ROC"],
         answer: 0,
         solution_html: "<p>The protection specifically concerns privileged communication made to the legal adviser in that capacity.</p>"
       }
-
     ]
   },
-
-
   // =========================================================
   // CASE SCENARIO 15
   // =========================================================
@@ -14660,100 +11063,54 @@ const AICaseStudies = [
     case_id: "C4_MEDIUM_15",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 229"],
     difficulty: "Medium",
-
     caseText: `
-      <p><strong>Delta Manufacturing Limited</strong> was undergoing an
-      investigation into its affairs. During the investigation, the Inspector
-      discovered that certain employees had altered accounting documents after
-      receiving notice of the investigation.</p>
-
-      <p>One employee had deliberately removed several original invoices from
-      the company's records. Another employee had entered false figures into
-      certain documents. A senior officer, when questioned by the Inspector,
-      provided an explanation that he knew to be false.</p>
-
-      <p>The company argued that the employees should be dealt with only under
-      ordinary employment rules. The Inspector explained that the Companies Act
-      specifically provides consequences for destruction, mutilation,
-      falsification, concealment, tampering, unauthorized removal and false
-      statements during inspection, inquiry or investigation.</p>
+      <p><strong>Delta Manufacturing Limited</strong> was undergoing an investigation into its affairs. During the investigation, the Inspector discovered that certain employees had altered accounting documents after receiving notice of the investigation.</p>
+      <p>One employee had deliberately removed several original invoices from the company's records. Another employee had entered false figures into certain documents. A senior officer, when questioned by the Inspector, provided an explanation that he knew to be false.</p>
+      <p>The company argued that the employees should be dealt with only under ordinary employment rules. The Inspector explained that the Companies Act specifically provides consequences for destruction, mutilation, falsification, concealment, tampering, unauthorized removal and false statements during inspection, inquiry or investigation.</p>
     `,
-
     questions: [
-
       {
         question_id: "C4_MEDIUM_15_Q1",
         difficulty: "Medium",
         question: "The conduct described in the case is primarily covered by:",
-        options: [
-          "Section 229",
-          "Section 211",
-          "Section 214",
-          "Section 226"
-        ],
+        options: ["Section 229", "Section 211", "Section 214", "Section 226"],
         answer: 0,
         solution_html: "<p>Section 229 deals with penalties for furnishing false statements and destruction, mutilation, falsification and other improper handling of documents during inspection, inquiry or investigation.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_15_Q2",
         difficulty: "Medium",
         question: "Unauthorized removal of documents relating to the affairs of the company may attract punishment:",
-        options: [
-          "For fraud under Section 447",
-          "Only by a warning",
-          "Only by suspension from employment",
-          "Only under the Income-tax Act"
-        ],
+        options: ["For fraud under Section 447", "Only by a warning", "Only by suspension from employment", "Only under the Income-tax Act"],
         answer: 0,
         solution_html: "<p>Section 229 provides that a person engaging in specified acts including unauthorized removal of documents may be punished for fraud in the manner provided under Section 447.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_15_Q3",
         difficulty: "Medium",
         question: "Making a false entry in a document concerning the company may result in:",
-        options: [
-          "Punishment under Section 447",
-          "No consequence if the entry is later corrected",
-          "Only a civil warning",
-          "Automatic discharge from employment"
-        ],
+        options: ["Punishment under Section 447", "No consequence if the entry is later corrected", "Only a civil warning", "Automatic discharge from employment"],
         answer: 0,
         solution_html: "<p>Section 229 covers making, or being a party to making, a false entry in any document concerning the company or body corporate and provides punishment for fraud under Section 447.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_15_Q4",
         difficulty: "Medium",
         question: "An explanation given during investigation that a person knows to be false is:",
-        options: [
-          "Covered under Section 229",
-          "Always legally protected",
-          "Only an employment issue",
-          "Outside the Companies Act"
-        ],
+        options: ["Covered under Section 229", "Always legally protected", "Only an employment issue", "Outside the Companies Act"],
         answer: 0,
         solution_html: "<p>Section 229 specifically covers providing an explanation which is false or which the person knows to be false.</p>"
       },
-
       {
         question_id: "C4_MEDIUM_15_Q5",
         difficulty: "Medium",
         question: "Which of the following is NOT among the acts covered by Section 229?",
-        options: [
-          "Destruction of documents",
-          "Falsification of documents",
-          "Concealment of documents",
-          "Proper preservation of documents"
-        ],
+        options: ["Destruction of documents", "Falsification of documents", "Concealment of documents", "Proper preservation of documents"],
         answer: 3,
         solution_html: "<p>Proper preservation of documents is not an offence under Section 229. The section addresses improper acts such as destruction, mutilation, falsification, concealment, tampering and unauthorized removal.</p>"
       }
-
     ]
   },
-
   // =========================================================
   // HARD CASE SCENARIO 1
   // =========================================================
@@ -14761,26 +11118,11 @@ const AICaseStudies = [
     case_id: "C4_HARD_01",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 206"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Apex Renewable Energy Limited</strong> filed its annual financial
-      statements and several other documents with the Registrar of Companies.
-      During scrutiny, the Registrar noticed that the company had reported a
-      substantial increase in revenue while its trade receivables had increased
-      disproportionately.</p>
-
-      <p>The Registrar issued a written notice under Section 206(1), requiring the
-      company to furnish explanations and supporting documents within 15 days.
-      The company submitted a reply, but the Registrar considered the explanation
-      inadequate and noticed that several supporting documents did not reconcile
-      with the figures disclosed in the financial statements.</p>
-
-      <p>The Registrar therefore decided to issue a further written notice under
-      Section 206(3). Before issuing the notice, he recorded his reasons in
-      writing. The company argued that since it had already furnished an
-      explanation, the Registrar had no authority to seek further documents.</p>
+      <p><strong>Apex Renewable Energy Limited</strong> filed its annual financial statements and several other documents with the Registrar of Companies. During scrutiny, the Registrar noticed that the company had reported a substantial increase in revenue while its trade receivables had increased disproportionately.</p>
+      <p>The Registrar issued a written notice under Section 206(1), requiring the company to furnish explanations and supporting documents within 15 days. The company submitted a reply, but the Registrar considered the explanation inadequate and noticed that several supporting documents did not reconcile with the figures disclosed in the financial statements.</p>
+      <p>The Registrar therefore decided to issue a further written notice under Section 206(3). Before issuing the notice, he recorded his reasons in writing. The company argued that since it had already furnished an explanation, the Registrar had no authority to seek further documents.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_01_Q1",
@@ -14790,7 +11132,7 @@ const AICaseStudies = [
           "The company has appointed a new director",
           "The information furnished is inadequate",
           "The company has increased its share capital",
-          "The company has changed its registered office"
+          "The company has changed its registered office",
         ],
         answer: 1,
         solution_html: "<p>Under Section 206(3), the Registrar may issue a further written notice where the information or explanation furnished is inadequate, among other specified circumstances.</p>"
@@ -14799,12 +11141,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_01_Q2",
         difficulty: "Hard",
         question: "Which procedural safeguard applies before issuing the Section 206(3) notice?",
-        options: [
-          "Approval of NCLT",
-          "Approval of shareholders",
-          "Recording of reasons in writing by the Registrar",
-          "Approval of the statutory auditor"
-        ],
+        options: ["Approval of NCLT", "Approval of shareholders", "Recording of reasons in writing by the Registrar", "Approval of the statutory auditor"],
         answer: 2,
         solution_html: "<p>Before serving a notice under Section 206(3), the Registrar must record his reasons in writing.</p>"
       },
@@ -14816,7 +11153,7 @@ const AICaseStudies = [
           "Correct in all cases",
           "Correct only where the reply is signed by the auditor",
           "Incorrect where the Registrar finds the explanation inadequate",
-          "Correct because Section 206 permits only one notice"
+          "Correct because Section 206 permits only one notice",
         ],
         answer: 2,
         solution_html: "<p>Section 206(3) specifically contemplates a further notice where the earlier information or explanation is inadequate.</p>"
@@ -14825,12 +11162,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_01_Q4",
         difficulty: "Hard",
         question: "If the company fails to comply with the requirement to furnish information under Section 206, liability may extend to:",
-        options: [
-          "Only the auditor",
-          "The company and every officer in default",
-          "Only shareholders",
-          "Only the Registrar"
-        ],
+        options: ["Only the auditor", "The company and every officer in default", "Only shareholders", "Only the Registrar"],
         answer: 1,
         solution_html: "<p>Section 206(7) provides punishment for the company and every officer who is in default for failure to furnish information, explanation or documents.</p>"
       },
@@ -14838,19 +11170,12 @@ const AICaseStudies = [
         question_id: "C4_HARD_01_Q5",
         difficulty: "Hard",
         question: "The additional fine for continuing failure under Section 206(7) may extend to:",
-        options: [
-          "₹500 per day after the first day",
-          "₹1,000 per day",
-          "₹2,000 per day",
-          "₹5,000 per day"
-        ],
+        options: ["₹500 per day after the first day", "₹1,000 per day", "₹2,000 per day", "₹5,000 per day"],
         answer: 0,
         solution_html: "<p>For continuing failure, an additional fine may extend to ₹500 for every day after the first during which the failure continues.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 2
   // =========================================================
@@ -14858,36 +11183,17 @@ const AICaseStudies = [
     case_id: "C4_HARD_02",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 206 & 207"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Zenith Infrastructure Limited</strong> received a notice from
-      the Registrar alleging that its business might be conducted for an
-      unlawful purpose. The allegations were based partly on information received
-      from an investor and partly on information already available with the
-      Registrar.</p>
-
-      <p>The Registrar informed the company of the allegations through a written
-      order and called upon it to furnish explanations. He also provided a
-      reasonable opportunity of being heard. During the inquiry, the Registrar
-      summoned the former Chief Financial Officer because some transactions
-      related to a period during which he was employed by the company.</p>
-
-      <p>The company argued that the Registrar could not proceed because the
-      investor subsequently withdrew the complaint. The former CFO also claimed
-      that he had no duty because he was no longer employed.</p>
+      <p><strong>Zenith Infrastructure Limited</strong> received a notice from the Registrar alleging that its business might be conducted for an unlawful purpose. The allegations were based partly on information received from an investor and partly on information already available with the Registrar.</p>
+      <p>The Registrar informed the company of the allegations through a written order and called upon it to furnish explanations. He also provided a reasonable opportunity of being heard. During the inquiry, the Registrar summoned the former Chief Financial Officer because some transactions related to a period during which he was employed by the company.</p>
+      <p>The company argued that the Registrar could not proceed because the investor subsequently withdrew the complaint. The former CFO also claimed that he had no duty because he was no longer employed.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_02_Q1",
         difficulty: "Hard",
         question: "The Registrar can initiate inquiry under Section 206(4) based on:",
-        options: [
-          "Only a court order",
-          "Information available with him or a representation by any person, among specified grounds",
-          "Only a shareholder resolution",
-          "Only an auditor's report"
-        ],
+        options: ["Only a court order", "Information available with him or a representation by any person, among specified grounds", "Only a shareholder resolution", "Only an auditor's report"],
         answer: 1,
         solution_html: "<p>Section 206(4) permits inquiry where the Registrar is satisfied on information available/furnished or a representation by any person regarding fraudulent or unlawful conduct, non-compliance or unaddressed investor grievances.</p>"
       },
@@ -14895,12 +11201,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_02_Q2",
         difficulty: "Hard",
         question: "Withdrawal of the investor's representation after the inquiry has been ordered:",
-        options: [
-          "Automatically terminates the inquiry",
-          "Does not necessarily prevent continuation of the inquiry",
-          "Makes the Registrar personally liable",
-          "Requires shareholder approval"
-        ],
+        options: ["Automatically terminates the inquiry", "Does not necessarily prevent continuation of the inquiry", "Makes the Registrar personally liable", "Requires shareholder approval"],
         answer: 1,
         solution_html: "<p>The Registrar's power under Section 206(4) is not dependent on the continued existence of the particular representation once the statutory conditions for inquiry are satisfied.</p>"
       },
@@ -14912,7 +11213,7 @@ const AICaseStudies = [
           "Past officers may be called upon where the information relates to their period of employment",
           "Former officers are automatically directors",
           "Only shareholders can provide historical information",
-          "The Registrar can question anyone without statutory authority"
+          "The Registrar can question anyone without statutory authority",
         ],
         answer: 0,
         solution_html: "<p>The proviso to Section 206(2) permits the Registrar to call upon past officers, through written notice, to furnish information or explanation relating to the period when they were employed.</p>"
@@ -14925,7 +11226,7 @@ const AICaseStudies = [
           "Inform the company of the allegations and provide a reasonable opportunity of being heard",
           "Obtain an SFIO order",
           "Obtain a Special Court seizure order",
-          "Obtain approval of the auditor"
+          "Obtain approval of the auditor",
         ],
         answer: 0,
         solution_html: "<p>Section 206(4) requires the Registrar to inform the company of the allegations by written order and provide a reasonable opportunity of being heard.</p>"
@@ -14938,15 +11239,13 @@ const AICaseStudies = [
           "The Registrar or an inspector appointed by it to carry out the inquiry",
           "Only the company's auditor to investigate",
           "Only shareholders to conduct inquiry",
-          "Only the Tribunal to audit the accounts"
+          "Only the Tribunal to audit the accounts",
         ],
         answer: 0,
         solution_html: "<p>Section 206 permits the Central Government, where circumstances warrant, to direct the Registrar or an inspector appointed for the purpose to carry out the inquiry.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 3
   // =========================================================
@@ -14954,34 +11253,17 @@ const AICaseStudies = [
     case_id: "C4_HARD_03",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 207 & 229"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Nova Chemicals Limited</strong> was subject to an inspection.
-      The Registrar directed the Finance Director to produce certain ledgers,
-      contracts and supporting documents and to provide explanations concerning
-      payments to related entities.</p>
-
-      <p>The Finance Director deliberately withheld several documents and later
-      altered entries in certain ledgers. When questioned, he provided an
-      explanation which he knew was false. The Registrar also required him to
-      assist in the inspection, but he refused to cooperate.</p>
-
-      <p>The company later argued that the conduct should be treated only as
-      non-compliance with an administrative inspection and should not have
-      criminal consequences.</p>
+      <p><strong>Nova Chemicals Limited</strong> was subject to an inspection. The Registrar directed the Finance Director to produce certain ledgers, contracts and supporting documents and to provide explanations concerning payments to related entities.</p>
+      <p>The Finance Director deliberately withheld several documents and later altered entries in certain ledgers. When questioned, he provided an explanation which he knew was false. The Registrar also required him to assist in the inspection, but he refused to cooperate.</p>
+      <p>The company later argued that the conduct should be treated only as non-compliance with an administrative inspection and should not have criminal consequences.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_03_Q1",
         difficulty: "Hard",
         question: "The Finance Director's duty to produce documents and assist arises primarily under:",
-        options: [
-          "Section 207",
-          "Section 211",
-          "Section 221",
-          "Section 225"
-        ],
+        options: ["Section 207", "Section 211", "Section 221", "Section 225"],
         answer: 0,
         solution_html: "<p>Section 207 imposes duties upon directors, officers and employees to produce documents, furnish information and render assistance during inspection or inquiry.</p>"
       },
@@ -14989,12 +11271,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_03_Q2",
         difficulty: "Hard",
         question: "Deliberate falsification of documents during inspection may additionally attract:",
-        options: [
-          "Section 229 and punishment for fraud under Section 447",
-          "Only Section 206(1)",
-          "Only Section 214",
-          "No provision under Chapter XIV"
-        ],
+        options: ["Section 229 and punishment for fraud under Section 447", "Only Section 206(1)", "Only Section 214", "No provision under Chapter XIV"],
         answer: 0,
         solution_html: "<p>Section 229 covers destruction, mutilation, falsification, concealment, tampering and unauthorized removal of documents and provides punishment for fraud under Section 447.</p>"
       },
@@ -15002,12 +11279,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_03_Q3",
         difficulty: "Hard",
         question: "If a director or officer disobeys a direction issued by the Registrar under Section 207, the punishment may include:",
-        options: [
-          "Imprisonment up to one year and specified fine",
-          "Only ₹500 fine",
-          "Only civil damages",
-          "Automatic winding up"
-        ],
+        options: ["Imprisonment up to one year and specified fine", "Only ₹500 fine", "Only civil damages", "Automatic winding up"],
         answer: 0,
         solution_html: "<p>Section 207(4) provides imprisonment which may extend to one year and fine of not less than ₹25,000 but which may extend to ₹1 lakh.</p>"
       },
@@ -15019,7 +11291,7 @@ const AICaseStudies = [
           "Deemed to have vacated office and disqualified from holding office in any company",
           "Automatically appointed as inspector",
           "Permitted to continue without consequence",
-          "Only liable for audit fees"
+          "Only liable for audit fees",
         ],
         answer: 0,
         solution_html: "<p>Upon conviction under Section 207, the director/officer is deemed to have vacated office and is disqualified from holding office in any company.</p>"
@@ -15028,19 +11300,12 @@ const AICaseStudies = [
         question_id: "C4_HARD_03_Q5",
         difficulty: "Hard",
         question: "Which conduct most directly falls under Section 229?",
-        options: [
-          "Properly producing requested documents",
-          "Knowingly providing a false explanation",
-          "Attending an inspection",
-          "Taking copies of documents"
-        ],
+        options: ["Properly producing requested documents", "Knowingly providing a false explanation", "Attending an inspection", "Taking copies of documents"],
         answer: 1,
         solution_html: "<p>Section 229 specifically covers providing an explanation which is false or which the person knows to be false.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 4
   // =========================================================
@@ -15048,24 +11313,11 @@ const AICaseStudies = [
     case_id: "C4_HARD_04",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 208, 210 & 224"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Orchid Finance Limited</strong> was inspected by an Inspector
-      following irregularities discovered in its books. The Inspector completed
-      the inspection and submitted a written report to the Central Government.
-      The report recommended further investigation and gave detailed reasons.</p>
-
-      <p>The Central Government considered the report but initially decided that
-      further investigation was unnecessary. Several months later, additional
-      information came to its notice suggesting that certain directors had
-      committed offences.</p>
-
-      <p>The Government then reconsidered the matter and decided to order an
-      investigation. Following completion of the investigation, the Inspector's
-      report indicated criminal liability and wrongful retention of company
-      property.</p>
+      <p><strong>Orchid Finance Limited</strong> was inspected by an Inspector following irregularities discovered in its books. The Inspector completed the inspection and submitted a written report to the Central Government. The report recommended further investigation and gave detailed reasons.</p>
+      <p>The Central Government considered the report but initially decided that further investigation was unnecessary. Several months later, additional information came to its notice suggesting that certain directors had committed offences.</p>
+      <p>The Government then reconsidered the matter and decided to order an investigation. Following completion of the investigation, the Inspector's report indicated criminal liability and wrongful retention of company property.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_04_Q1",
@@ -15075,7 +11327,7 @@ const AICaseStudies = [
           "Is binding on the Central Government",
           "Must contain reasons but does not itself constitute the investigation order",
           "Automatically starts prosecution",
-          "Automatically dissolves the company"
+          "Automatically dissolves the company",
         ],
         answer: 1,
         solution_html: "<p>Section 208 permits the Inspector to recommend further investigation with reasons. The Central Government subsequently decides whether investigation should be ordered under Section 210.</p>"
@@ -15088,7 +11340,7 @@ const AICaseStudies = [
           "Yes, if it forms the necessary opinion based on relevant circumstances",
           "No, its first decision is permanently binding",
           "Only with unanimous shareholder approval",
-          "Only after winding up"
+          "Only after winding up",
         ],
         answer: 0,
         solution_html: "<p>Section 210 permits the Central Government to order investigation where it is of the opinion that investigation is necessary. An earlier decision does not permanently prevent subsequent action when circumstances warrant it.</p>"
@@ -15097,12 +11349,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_04_Q3",
         difficulty: "Hard",
         question: "If the final Inspector's report indicates criminal liability, the Central Government may:",
-        options: [
-          "Prosecute the guilty person",
-          "Only issue an inspection notice",
-          "Only appoint another auditor",
-          "Only freeze securities under Section 222"
-        ],
+        options: ["Prosecute the guilty person", "Only issue an inspection notice", "Only appoint another auditor", "Only freeze securities under Section 222"],
         answer: 0,
         solution_html: "<p>Under Section 224, where the Inspector's report indicates that a person has committed an offence for which he is criminally liable, the Central Government may prosecute that person.</p>"
       },
@@ -15110,12 +11357,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_04_Q4",
         difficulty: "Hard",
         question: "If the report shows that company property was wrongfully retained, the Government may initiate proceedings for:",
-        options: [
-          "Recovery of such property",
-          "Automatic cancellation of all shares",
-          "Appointment of a new auditor",
-          "Increase of authorised capital"
-        ],
+        options: ["Recovery of such property", "Automatic cancellation of all shares", "Appointment of a new auditor", "Increase of authorised capital"],
         answer: 0,
         solution_html: "<p>Section 224 permits proceedings for recovery of property of the company that has been misapplied or wrongfully retained.</p>"
       },
@@ -15127,15 +11369,13 @@ const AICaseStudies = [
           "Inspection/inquiry → report under Section 208 → possible investigation under Section 210 → report/action under Section 224",
           "Section 224 → Section 208 → Section 206",
           "Section 222 → Section 206 → Section 211 only",
-          "Prosecution → inspection → inquiry"
+          "Prosecution → inspection → inquiry",
         ],
         answer: 0,
         solution_html: "<p>The statutory framework permits inspection/inquiry, reporting under Section 208, investigation under Section 210 where necessary, and subsequent action based on the Inspector's report under Section 224.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 5
   // =========================================================
@@ -15143,34 +11383,17 @@ const AICaseStudies = [
     case_id: "C4_HARD_05",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 210, 211 & 212"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Global Infra Holdings Limited</strong> passed a special
-      resolution stating that its affairs ought to be investigated. Separately,
-      the State Government informed the Central Government about suspected
-      financial irregularities. The Registrar also submitted a report recommending
-      further investigation.</p>
-
-      <p>The Central Government considered all these circumstances and concluded
-      that the complexity and seriousness of the suspected fraud justified an
-      investigation by SFIO. An investigation by a State agency had already
-      commenced in relation to certain offences under the Companies Act.</p>
-
-      <p>After the Central Government assigned the case to SFIO, the State agency
-      questioned whether it could continue its investigation independently.</p>
+      <p><strong>Global Infra Holdings Limited</strong> passed a special resolution stating that its affairs ought to be investigated. Separately, the State Government informed the Central Government about suspected financial irregularities. The Registrar also submitted a report recommending further investigation.</p>
+      <p>The Central Government considered all these circumstances and concluded that the complexity and seriousness of the suspected fraud justified an investigation by SFIO. An investigation by a State agency had already commenced in relation to certain offences under the Companies Act.</p>
+      <p>After the Central Government assigned the case to SFIO, the State agency questioned whether it could continue its investigation independently.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_05_Q1",
         difficulty: "Hard",
         question: "Which of the following is NOT a specified ground under Section 212(1) for assigning investigation to SFIO?",
-        options: [
-          "Report of Registrar or Inspector under Section 208",
-          "Special resolution of the company",
-          "Public interest",
-          "Ordinary resolution of employees"
-        ],
+        options: ["Report of Registrar or Inspector under Section 208", "Special resolution of the company", "Public interest", "Ordinary resolution of employees"],
         answer: 3,
         solution_html: "<p>Section 212(1) recognises a report under Section 208, special resolution, public interest and request from a Central or State Government department as specified grounds.</p>"
       },
@@ -15182,7 +11405,7 @@ const AICaseStudies = [
           "May continue the Companies Act investigation independently",
           "Cannot proceed further with that investigation concerning the Companies Act offences covered by the assignment",
           "Must appoint a new SFIO director",
-          "Must prosecute immediately"
+          "Must prosecute immediately",
         ],
         answer: 1,
         solution_html: "<p>Section 212(2) prevents another Central or State Government investigating agency from proceeding further with the investigation under the Companies Act once the case is assigned to SFIO.</p>"
@@ -15191,12 +11414,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_05_Q3",
         difficulty: "Hard",
         question: "The State agency should:",
-        options: [
-          "Transfer relevant documents and records to SFIO",
-          "Destroy its records",
-          "Transfer only its employees",
-          "Transfer the company's assets"
-        ],
+        options: ["Transfer relevant documents and records to SFIO", "Destroy its records", "Transfer only its employees", "Transfer the company's assets"],
         answer: 0,
         solution_html: "<p>Where investigation has already been initiated, the concerned agency must transfer relevant documents and records to SFIO.</p>"
       },
@@ -15208,7 +11426,7 @@ const AICaseStudies = [
           "Made by order where it is of the opinion that SFIO investigation is necessary",
           "Automatically triggered by every complaint",
           "Made by the company's auditor",
-          "Made by the Registrar alone"
+          "Made by the Registrar alone",
         ],
         answer: 0,
         solution_html: "<p>Section 212 provides that the Central Government may, by order, assign investigation to SFIO when it is of the opinion that investigation by SFIO is necessary.</p>"
@@ -15217,19 +11435,12 @@ const AICaseStudies = [
         question_id: "C4_HARD_05_Q5",
         difficulty: "Hard",
         question: "After receiving the assignment, the Director, SFIO may:",
-        options: [
-          "Designate such number of inspectors as considered necessary",
-          "Dissolve the company",
-          "Appoint all directors",
-          "Declare dividend"
-        ],
+        options: ["Designate such number of inspectors as considered necessary", "Dissolve the company", "Appoint all directors", "Declare dividend"],
         answer: 0,
         solution_html: "<p>The Director, SFIO may designate such number of inspectors as he considers necessary for the investigation.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 6
   // =========================================================
@@ -15237,33 +11448,17 @@ const AICaseStudies = [
     case_id: "C4_HARD_06",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 212"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Trident Technologies Limited</strong> was investigated by SFIO.
-      During the investigation, an Assistant Director authorised by the Central
-      Government obtained material giving him reason to believe that a senior
-      officer had committed an offence covered by Section 212(6).</p>
-
-      <p>The officer was arrested after the authorised officer recorded the
-      reasons for his belief in writing and informed the accused of the grounds
-      of arrest.</p>
-
-      <p>The company argued that the arrest was invalid because only the Director
-      of SFIO could make an arrest and that the arrested person could be kept at
-      the SFIO office until the investigation was complete.</p>
+      <p><strong>Trident Technologies Limited</strong> was investigated by SFIO. During the investigation, an Assistant Director authorised by the Central Government obtained material giving him reason to believe that a senior officer had committed an offence covered by Section 212(6).</p>
+      <p>The officer was arrested after the authorised officer recorded the reasons for his belief in writing and informed the accused of the grounds of arrest.</p>
+      <p>The company argued that the arrest was invalid because only the Director of SFIO could make an arrest and that the arrested person could be kept at the SFIO office until the investigation was complete.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_06_Q1",
         difficulty: "Hard",
         question: "Who may exercise the arrest power under Section 212(8), subject to statutory conditions?",
-        options: [
-          "Any employee of SFIO",
-          "An officer not below the rank of Assistant Director authorised by the Central Government",
-          "Only the statutory auditor",
-          "Only the Registrar"
-        ],
+        options: ["Any employee of SFIO", "An officer not below the rank of Assistant Director authorised by the Central Government", "Only the statutory auditor", "Only the Registrar"],
         answer: 1,
         solution_html: "<p>Section 212(8) permits an officer not below the rank of Assistant Director of SFIO, authorised by the Central Government, to arrest a person where the statutory conditions are satisfied.</p>"
       },
@@ -15271,12 +11466,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_06_Q2",
         difficulty: "Hard",
         question: "Before making the arrest, the authorised officer must have:",
-        options: [
-          "Reason to believe based on material in possession, with reasons recorded in writing",
-          "Only an oral complaint",
-          "Approval from every shareholder",
-          "Approval from the accused"
-        ],
+        options: ["Reason to believe based on material in possession, with reasons recorded in writing", "Only an oral complaint", "Approval from every shareholder", "Approval from the accused"],
         answer: 0,
         solution_html: "<p>The officer must have reason to believe, based on material in his possession, that the person is guilty of the specified offence, and the reasons must be recorded in writing.</p>"
       },
@@ -15284,12 +11474,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_06_Q3",
         difficulty: "Hard",
         question: "The arrested person must be informed of:",
-        options: [
-          "The grounds for arrest",
-          "Only the company's financial position",
-          "Only the name of the complainant",
-          "The Inspector's salary"
-        ],
+        options: ["The grounds for arrest", "Only the company's financial position", "Only the name of the complainant", "The Inspector's salary"],
         answer: 0,
         solution_html: "<p>The authorised officer must inform the arrested person of the grounds for such arrest.</p>"
       },
@@ -15297,12 +11482,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_06_Q4",
         difficulty: "Hard",
         question: "After arrest, the person must be taken within 24 hours to:",
-        options: [
-          "Special Court or Judicial/Metropolitan Magistrate having jurisdiction",
-          "Registrar of Companies",
-          "Company's registered office",
-          "Statutory auditor"
-        ],
+        options: ["Special Court or Judicial/Metropolitan Magistrate having jurisdiction", "Registrar of Companies", "Company's registered office", "Statutory auditor"],
         answer: 0,
         solution_html: "<p>Section 212(10) requires every person arrested to be taken within 24 hours to the Special Court or Judicial Magistrate/Metropolitan Magistrate having jurisdiction, excluding necessary journey time.</p>"
       },
@@ -15314,15 +11494,13 @@ const AICaseStudies = [
           "There are statutory restrictions, subject to specified exceptions",
           "Bail is always automatic",
           "Bail is completely prohibited in every circumstance",
-          "Only the company can grant bail"
+          "Only the company can grant bail",
         ],
         answer: 0,
         solution_html: "<p>Section 212(6) imposes restrictions on bail for specified offences, while also providing statutory exceptions such as for persons under 16 years, women, or sick/infirm persons where the Special Court so directs.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 7
   // =========================================================
@@ -15330,34 +11508,17 @@ const AICaseStudies = [
     case_id: "C4_HARD_07",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 213 & 214"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Metro Consumer Goods Limited</strong> has 2,400 registered
-      members. A group of 110 members alleges that the company's affairs are
-      being conducted in a manner oppressive to members and that the company was
-      formed partly for an unlawful purpose.</p>
-
-      <p>The applicants approach the Tribunal with documentary evidence supporting
-      their allegations. The company challenges the application, stating that the
-      applicants do not represent a sufficiently large group of members.</p>
-
-      <p>The Tribunal considers the statutory threshold, the evidence and the
-      company's submissions. The Central Government also considers whether
-      security for investigation expenses should be required before appointing
-      inspectors.</p>
+      <p><strong>Metro Consumer Goods Limited</strong> has 2,400 registered members. A group of 110 members alleges that the company's affairs are being conducted in a manner oppressive to members and that the company was formed partly for an unlawful purpose.</p>
+      <p>The applicants approach the Tribunal with documentary evidence supporting their allegations. The company challenges the application, stating that the applicants do not represent a sufficiently large group of members.</p>
+      <p>The Tribunal considers the statutory threshold, the evidence and the company's submissions. The Central Government also considers whether security for investigation expenses should be required before appointing inspectors.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_07_Q1",
         difficulty: "Hard",
         question: "For a company having share capital, 110 members can satisfy the numerical requirement under Section 213 where:",
-        options: [
-          "The statutory threshold of 100 members is satisfied",
-          "Every shareholder applies",
-          "Only 10 members apply",
-          "The auditor certifies the application"
-        ],
+        options: ["The statutory threshold of 100 members is satisfied", "Every shareholder applies", "Only 10 members apply", "The auditor certifies the application"],
         answer: 0,
         solution_html: "<p>Section 213 permits an application by 100 or more members or members holding not less than one-tenth of the total voting power, subject to the section's conditions.</p>"
       },
@@ -15369,7 +11530,7 @@ const AICaseStudies = [
           "Must automatically order investigation",
           "Need not automatically order investigation merely because the numerical threshold is met",
           "Must wind up the company",
-          "Must appoint the auditor as inspector"
+          "Must appoint the auditor as inspector",
         ],
         answer: 1,
         solution_html: "<p>The application must also be supported by evidence necessary to show that the applicants have good reasons for seeking investigation.</p>"
@@ -15378,12 +11539,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_07_Q3",
         difficulty: "Hard",
         question: "Before ordering investigation, the Tribunal must:",
-        options: [
-          "Give the concerned parties a reasonable opportunity of being heard",
-          "Obtain shareholder approval",
-          "Obtain auditor approval",
-          "Obtain SFIO approval"
-        ],
+        options: ["Give the concerned parties a reasonable opportunity of being heard", "Obtain shareholder approval", "Obtain auditor approval", "Obtain SFIO approval"],
         answer: 0,
         solution_html: "<p>Section 213 requires a reasonable opportunity of being heard before the Tribunal passes the investigation order.</p>"
       },
@@ -15391,12 +11547,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_07_Q4",
         difficulty: "Hard",
         question: "Where investigation is made by the Tribunal under Section 213, the Central Government may require the applicant to provide:",
-        options: [
-          "Security for costs and expenses of investigation",
-          "Share capital",
-          "A bank guarantee of unlimited amount",
-          "A statutory audit report"
-        ],
+        options: ["Security for costs and expenses of investigation", "Share capital", "A bank guarantee of unlimited amount", "A statutory audit report"],
         answer: 0,
         solution_html: "<p>Section 214 permits the Central Government to require security, not exceeding the prescribed limit, for investigation costs and expenses.</p>"
       },
@@ -15404,19 +11555,12 @@ const AICaseStudies = [
         question_id: "C4_HARD_07_Q5",
         difficulty: "Hard",
         question: "The security is refundable to the applicant if:",
-        options: [
-          "The investigation results in prosecution",
-          "The company declares dividend",
-          "The applicant withdraws the application",
-          "The auditor resigns"
-        ],
+        options: ["The investigation results in prosecution", "The company declares dividend", "The applicant withdraws the application", "The auditor resigns"],
         answer: 0,
         solution_html: "<p>The prescribed security is to be refunded to the applicant if the investigation results in prosecution.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 8
   // =========================================================
@@ -15424,24 +11568,11 @@ const AICaseStudies = [
     case_id: "C4_HARD_08",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 216"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Eastern Capital Limited</strong> has a widely dispersed
-      shareholding pattern. The Central Government receives information suggesting
-      that several individuals are acting through nominee shareholders and
-      informal arrangements to exercise effective control over the company's
-      policy.</p>
-
-      <p>The registered members do not appear to reveal the true persons
-      financially interested in the company. The Government appoints inspectors
-      and specifies that the investigation should focus on particular shares and
-      transactions during a specified period.</p>
-
-      <p>During the investigation, the inspectors discover an informal arrangement
-      which is not legally binding but is consistently followed in practice by
-      several shareholders.</p>
+      <p><strong>Eastern Capital Limited</strong> has a widely dispersed shareholding pattern. The Central Government receives information suggesting that several individuals are acting through nominee shareholders and informal arrangements to exercise effective control over the company's policy.</p>
+      <p>The registered members do not appear to reveal the true persons financially interested in the company. The Government appoints inspectors and specifies that the investigation should focus on particular shares and transactions during a specified period.</p>
+      <p>During the investigation, the inspectors discover an informal arrangement which is not legally binding but is consistently followed in practice by several shareholders.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_08_Q1",
@@ -15451,7 +11582,7 @@ const AICaseStudies = [
           "True persons financially interested or able to control/materially influence the company",
           "Only the company's tax liability",
           "Only the auditor's remuneration",
-          "Only employee salaries"
+          "Only employee salaries",
         ],
         answer: 0,
         solution_html: "<p>Section 216 enables investigation into membership and ownership matters to determine true persons financially interested or able to control or materially influence company policy.</p>"
@@ -15460,12 +11591,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_08_Q2",
         difficulty: "Hard",
         question: "Can the Central Government limit the scope of investigation to particular shares?",
-        options: [
-          "Yes",
-          "No",
-          "Only with auditor approval",
-          "Only with shareholder approval"
-        ],
+        options: ["Yes", "No", "Only with auditor approval", "Only with shareholder approval"],
         answer: 0,
         solution_html: "<p>Section 216(3) permits the Central Government to define the scope of investigation and particularly limit it to matters connected with particular shares or debentures.</p>"
       },
@@ -15473,12 +11599,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_08_Q3",
         difficulty: "Hard",
         question: "An informal arrangement that is not legally binding but is actually observed in practice may be investigated:",
-        options: [
-          "Yes, where relevant to the investigation",
-          "No, because it is not legally binding",
-          "Only if registered with ROC",
-          "Only if approved by shareholders"
-        ],
+        options: ["Yes, where relevant to the investigation", "No, because it is not legally binding", "Only if registered with ROC", "Only if approved by shareholders"],
         answer: 0,
         solution_html: "<p>Section 216(4) extends the Inspector's powers to circumstances suggesting arrangements or understandings that may not be legally binding but are observed or likely to be observed in practice and are relevant to the investigation.</p>"
       },
@@ -15486,12 +11607,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_08_Q4",
         difficulty: "Hard",
         question: "Which person falls within the ownership investigation contemplated by Section 216?",
-        options: [
-          "A person having beneficial interest in shares",
-          "Only the statutory auditor",
-          "Only employees",
-          "Only creditors"
-        ],
+        options: ["A person having beneficial interest in shares", "Only the statutory auditor", "Only employees", "Only creditors"],
         answer: 0,
         solution_html: "<p>Section 216 specifically covers persons who have or had beneficial interest in shares or are beneficial/significant beneficial owners.</p>"
       },
@@ -15499,19 +11615,12 @@ const AICaseStudies = [
         question_id: "C4_HARD_08_Q5",
         difficulty: "Hard",
         question: "If the Tribunal directs an investigation into membership and ownership, the Central Government:",
-        options: [
-          "Shall appoint one or more inspectors",
-          "May ignore the direction",
-          "Must dissolve the company",
-          "Must appoint the auditor as inspector"
-        ],
+        options: ["Shall appoint one or more inspectors", "May ignore the direction", "Must dissolve the company", "Must appoint the auditor as inspector"],
         answer: 0,
         solution_html: "<p>Where the Tribunal directs investigation into membership and related matters, Section 216(2) requires the Central Government to appoint one or more inspectors.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 9
   // =========================================================
@@ -15519,33 +11628,17 @@ const AICaseStudies = [
     case_id: "C4_HARD_09",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 217"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Falcon Industries Limited</strong> is under investigation. The
-      Inspector requests the company and its former employees to preserve and
-      produce certain documents. A former employee refuses, claiming that his
-      employment ended two years earlier.</p>
-
-      <p>The Inspector also requires a third-party consultant to produce records
-      relevant to the investigation and proposes to examine the consultant on
-      oath. The consultant refuses to appear and also refuses to sign the notes
-      of an earlier examination.</p>
-
-      <p>The Inspector considers initiating action for failure to comply with the
-      statutory requirements.</p>
+      <p><strong>Falcon Industries Limited</strong> is under investigation. The Inspector requests the company and its former employees to preserve and produce certain documents. A former employee refuses, claiming that his employment ended two years earlier.</p>
+      <p>The Inspector also requires a third-party consultant to produce records relevant to the investigation and proposes to examine the consultant on oath. The consultant refuses to appear and also refuses to sign the notes of an earlier examination.</p>
+      <p>The Inspector considers initiating action for failure to comply with the statutory requirements.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_09_Q1",
         difficulty: "Hard",
         question: "The former employee's claim that leaving employment completely removes his duty is:",
-        options: [
-          "Correct",
-          "Incorrect because Section 217 expressly includes former officers, employees and agents",
-          "Correct if he has no shares",
-          "Correct if the company agrees"
-        ],
+        options: ["Correct", "Incorrect because Section 217 expressly includes former officers, employees and agents", "Correct if he has no shares", "Correct if the company agrees"],
         answer: 1,
         solution_html: "<p>Section 217 expressly includes former officers, employees and agents in the duty to preserve and produce relevant books and provide assistance.</p>"
       },
@@ -15553,12 +11646,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_09_Q2",
         difficulty: "Hard",
         question: "The Inspector may require another body corporate to produce information if:",
-        options: [
-          "It is relevant or necessary for the investigation",
-          "The body corporate is a shareholder",
-          "Its auditor agrees",
-          "It voluntarily offers information only"
-        ],
+        options: ["It is relevant or necessary for the investigation", "The body corporate is a shareholder", "Its auditor agrees", "It voluntarily offers information only"],
         answer: 0,
         solution_html: "<p>Under Section 217(2), the Inspector may require another body corporate to furnish information or produce books and papers where relevant or necessary for the investigation.</p>"
       },
@@ -15566,12 +11654,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_09_Q3",
         difficulty: "Hard",
         question: "Failure without reasonable cause to appear before the Inspector when required may attract:",
-        options: [
-          "Imprisonment up to six months and specified fine, plus continuing fine",
-          "Only ₹500 fine",
-          "No penalty",
-          "Automatic winding up"
-        ],
+        options: ["Imprisonment up to six months and specified fine, plus continuing fine", "Only ₹500 fine", "No penalty", "Automatic winding up"],
         answer: 0,
         solution_html: "<p>Section 217(8) provides imprisonment up to six months, fine of ₹25,000 to ₹1 lakh and a further fine up to ₹2,000 per day for continuing failure/refusal.</p>"
       },
@@ -15579,12 +11662,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_09_Q4",
         difficulty: "Hard",
         question: "Refusal to sign the notes of examination is:",
-        options: [
-          "Covered by Section 217(8)",
-          "Never punishable",
-          "Only a civil matter",
-          "Covered only by Section 211"
-        ],
+        options: ["Covered by Section 217(8)", "Never punishable", "Only a civil matter", "Covered only by Section 211"],
         answer: 0,
         solution_html: "<p>Section 217(8) specifically covers failure or refusal without reasonable cause to sign the notes of examination.</p>"
       },
@@ -15592,19 +11670,12 @@ const AICaseStudies = [
         question_id: "C4_HARD_09_Q5",
         difficulty: "Hard",
         question: "Books produced to the Inspector may generally be kept for:",
-        options: [
-          "Not more than 180 days, with a further period of 180 days if called for by written order",
-          "Unlimited time",
-          "Only 7 days",
-          "Only 30 days"
-        ],
+        options: ["Not more than 180 days, with a further period of 180 days if called for by written order", "Unlimited time", "Only 7 days", "Only 30 days"],
         answer: 0,
         solution_html: "<p>Under Section 217(3), the Inspector cannot keep the books for more than 180 days, but they may be called for again for a further period of 180 days by written order.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 10
   // =========================================================
@@ -15612,32 +11683,17 @@ const AICaseStudies = [
     case_id: "C4_HARD_10",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 218"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Bluewave Shipping Limited</strong> is undergoing an investigation.
-      An employee, Arjun, has supplied documents to the Inspector concerning
-      suspected diversion of company funds.</p>
-
-      <p>The management proposes to suspend Arjun and subsequently reduce his
-      rank. It applies to the Tribunal for approval. The Tribunal sends an
-      objection to the proposed action within the statutory period.</p>
-
-      <p>The company believes the Tribunal's objection is unjustified and wants
-      to challenge it. Arjun argues that the company cannot take the proposed
-      action while the objection remains effective.</p>
+      <p><strong>Bluewave Shipping Limited</strong> is undergoing an investigation. An employee, Arjun, has supplied documents to the Inspector concerning suspected diversion of company funds.</p>
+      <p>The management proposes to suspend Arjun and subsequently reduce his rank. It applies to the Tribunal for approval. The Tribunal sends an objection to the proposed action within the statutory period.</p>
+      <p>The company believes the Tribunal's objection is unjustified and wants to challenge it. Arjun argues that the company cannot take the proposed action while the objection remains effective.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_10_Q1",
         difficulty: "Hard",
         question: "Suspension and reduction in rank during the relevant investigation are:",
-        options: [
-          "Actions covered by Section 218",
-          "Outside Section 218",
-          "Automatically permitted",
-          "Matters only for the auditor"
-        ],
+        options: ["Actions covered by Section 218", "Outside Section 218", "Automatically permitted", "Matters only for the auditor"],
         answer: 0,
         solution_html: "<p>Section 218 covers suspension and reduction in rank among specified adverse employment actions during investigation.</p>"
       },
@@ -15645,12 +11701,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_10_Q2",
         difficulty: "Hard",
         question: "Once the Tribunal has raised an objection, the company should:",
-        options: [
-          "Comply with the statutory process or pursue the available appeal",
-          "Ignore the objection",
-          "Immediately dismiss the employee",
-          "Close the investigation"
-        ],
+        options: ["Comply with the statutory process or pursue the available appeal", "Ignore the objection", "Immediately dismiss the employee", "Close the investigation"],
         answer: 0,
         solution_html: "<p>The company cannot simply disregard the Tribunal's objection. Section 218 provides an appellate remedy to the Appellate Tribunal.</p>"
       },
@@ -15658,12 +11709,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_10_Q3",
         difficulty: "Hard",
         question: "The appeal may be preferred within:",
-        options: [
-          "30 days of receipt of the notice of objection",
-          "7 days",
-          "60 days",
-          "180 days"
-        ],
+        options: ["30 days of receipt of the notice of objection", "7 days", "60 days", "180 days"],
         answer: 0,
         solution_html: "<p>Section 218(3) provides a period of 30 days from receipt of the Tribunal's objection notice.</p>"
       },
@@ -15671,12 +11717,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_10_Q4",
         difficulty: "Hard",
         question: "The decision of the Appellate Tribunal on the appeal is:",
-        options: [
-          "Final and binding",
-          "Only advisory",
-          "Automatically subject to shareholder approval",
-          "Binding only on the employee"
-        ],
+        options: ["Final and binding", "Only advisory", "Automatically subject to shareholder approval", "Binding only on the employee"],
         answer: 0,
         solution_html: "<p>Section 218(4) provides that the Appellate Tribunal's decision shall be final and binding on the Tribunal and the concerned company/body corporate/person.</p>"
       },
@@ -15688,15 +11729,13 @@ const AICaseStudies = [
           "Adverse employment action during specified investigations/proceedings without following the statutory safeguard",
           "Payment of salary",
           "Appointment of directors",
-          "Preparation of financial statements"
+          "Preparation of financial statements",
         ],
         answer: 0,
         solution_html: "<p>Section 218 protects employees against specified adverse employment actions during investigation or relevant proceedings unless the statutory Tribunal process is followed.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 11
   // =========================================================
@@ -15704,23 +11743,11 @@ const AICaseStudies = [
     case_id: "C4_HARD_11",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 219"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Prime Holdings Limited</strong> is being investigated into
-      suspected diversion of funds. During the investigation, the Inspector
-      discovers that a second company is managed by the same person who is the
-      Managing Director of Prime Holdings.</p>
-
-      <p>The second company's Board also includes nominees of Prime Holdings and
-      generally acts according to directions issued by Prime Holdings. The
-      Inspector believes that investigating the second company is necessary to
-      understand the transactions under investigation.</p>
-
-      <p>The Inspector proposes to extend the investigation but is unsure whether
-      prior approval is necessary and whether he can investigate the second company
-      without establishing that every transaction is independently fraudulent.</p>
+      <p><strong>Prime Holdings Limited</strong> is being investigated into suspected diversion of funds. During the investigation, the Inspector discovers that a second company is managed by the same person who is the Managing Director of Prime Holdings.</p>
+      <p>The second company's Board also includes nominees of Prime Holdings and generally acts according to directions issued by Prime Holdings. The Inspector believes that investigating the second company is necessary to understand the transactions under investigation.</p>
+      <p>The Inspector proposes to extend the investigation but is unsure whether prior approval is necessary and whether he can investigate the second company without establishing that every transaction is independently fraudulent.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_11_Q1",
@@ -15730,7 +11757,7 @@ const AICaseStudies = [
           "Its Board comprises nominees of the company or acts according to its directions",
           "It has a different registered office",
           "It has a different auditor",
-          "It has unrelated shareholders"
+          "It has unrelated shareholders",
         ],
         answer: 0,
         solution_html: "<p>Section 219 covers a body corporate whose Board comprises nominees of the investigated company or is accustomed to act in accordance with its directions or instructions.</p>"
@@ -15739,12 +11766,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_11_Q2",
         difficulty: "Hard",
         question: "The Inspector's extension of investigation into the related body corporate requires:",
-        options: [
-          "Prior approval of the Central Government",
-          "Only the related company's approval",
-          "Only shareholder approval",
-          "No approval"
-        ],
+        options: ["Prior approval of the Central Government", "Only the related company's approval", "Only shareholder approval", "No approval"],
         answer: 0,
         solution_html: "<p>Section 219 requires prior approval of the Central Government for the Inspector to investigate the affairs of the specified related body corporate or person.</p>"
       },
@@ -15752,12 +11774,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_11_Q3",
         difficulty: "Hard",
         question: "The additional investigation should be relevant to:",
-        options: [
-          "The investigation of the affairs of the company for which the Inspector was appointed",
-          "Any unrelated matter",
-          "Only tax matters",
-          "Only shareholder disputes"
-        ],
+        options: ["The investigation of the affairs of the company for which the Inspector was appointed", "Any unrelated matter", "Only tax matters", "Only shareholder disputes"],
         answer: 0,
         solution_html: "<p>The Inspector may investigate the related body corporate or person insofar as the results are relevant to the investigation of the original company.</p>"
       },
@@ -15765,12 +11782,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_11_Q4",
         difficulty: "Hard",
         question: "Which is NOT specifically listed as a category under Section 219?",
-        options: [
-          "Subsidiary company",
-          "Holding company",
-          "Certain companies controlled through directions/nominees",
-          "Any random unrelated competitor"
-        ],
+        options: ["Subsidiary company", "Holding company", "Certain companies controlled through directions/nominees", "Any random unrelated competitor"],
         answer: 3,
         solution_html: "<p>Section 219 covers specified related companies and persons, not an unrelated competitor merely because the Inspector wishes to investigate it.</p>"
       },
@@ -15778,19 +11790,12 @@ const AICaseStudies = [
         question_id: "C4_HARD_11_Q5",
         difficulty: "Hard",
         question: "A former Managing Director may fall within Section 219:",
-        options: [
-          "Yes",
-          "No, former persons are always excluded",
-          "Only if he is a shareholder",
-          "Only if he is currently employed"
-        ],
+        options: ["Yes", "No, former persons are always excluded", "Only if he is a shareholder", "Only if he is currently employed"],
         answer: 0,
         solution_html: "<p>Section 219 includes a person who is or has at any relevant time been the company's Managing Director, manager or employee.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 12
   // =========================================================
@@ -15798,22 +11803,11 @@ const AICaseStudies = [
     case_id: "C4_HARD_12",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 220 & 221"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Vertex Mining Limited</strong> is under investigation. The
-      Inspector receives credible information that certain original contracts
-      and registers are likely to be destroyed. The Inspector enters the premises
-      and seizes the necessary documents after allowing the company to make copies.</p>
-
-      <p>At the same time, evidence suggests that the directors intend to transfer
-      substantial assets to another group company. The Central Government
-      approaches the Tribunal for an order preventing removal or transfer of the
-      assets.</p>
-
-      <p>The directors nevertheless transfer part of the property after the
-      Tribunal's order.</p>
+      <p><strong>Vertex Mining Limited</strong> is under investigation. The Inspector receives credible information that certain original contracts and registers are likely to be destroyed. The Inspector enters the premises and seizes the necessary documents after allowing the company to make copies.</p>
+      <p>At the same time, evidence suggests that the directors intend to transfer substantial assets to another group company. The Central Government approaches the Tribunal for an order preventing removal or transfer of the assets.</p>
+      <p>The directors nevertheless transfer part of the property after the Tribunal's order.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_12_Q1",
@@ -15823,7 +11817,7 @@ const AICaseStudies = [
           "Reasonable grounds to believe that books/papers are likely to be destroyed, mutilated, altered, falsified or secreted",
           "A mere desire to inspect",
           "Shareholder dissatisfaction",
-          "An auditor's resignation"
+          "An auditor's resignation",
         ],
         answer: 0,
         solution_html: "<p>Section 220 requires reasonable grounds to believe that relevant books and papers are likely to be destroyed, mutilated, altered, falsified or secreted.</p>"
@@ -15832,12 +11826,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_12_Q2",
         difficulty: "Hard",
         question: "Before seizure under Section 220, the company should be allowed to:",
-        options: [
-          "Take copies or extracts at its cost",
-          "Approve the Inspector's appointment",
-          "Dismiss the Inspector",
-          "Prevent the investigation"
-        ],
+        options: ["Take copies or extracts at its cost", "Approve the Inspector's appointment", "Dismiss the Inspector", "Prevent the investigation"],
         answer: 0,
         solution_html: "<p>The Inspector may seize necessary books after allowing the company to take copies or extracts at its cost.</p>"
       },
@@ -15845,12 +11834,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_12_Q3",
         difficulty: "Hard",
         question: "The Tribunal's order under Section 221 may restrict transfer/removal/disposal for a period not exceeding:",
-        options: [
-          "Three years",
-          "Six months",
-          "Ten years",
-          "Unlimited period"
-        ],
+        options: ["Three years", "Six months", "Ten years", "Unlimited period"],
         answer: 0,
         solution_html: "<p>Section 221 permits the Tribunal to impose restrictions for a period not exceeding three years.</p>"
       },
@@ -15858,12 +11842,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_12_Q4",
         difficulty: "Hard",
         question: "Contravention of the Tribunal's order can make the officer in default liable to:",
-        options: [
-          "Imprisonment up to three years and/or specified fine",
-          "Only ₹500 fine",
-          "No punishment",
-          "Only disqualification for one month"
-        ],
+        options: ["Imprisonment up to three years and/or specified fine", "Only ₹500 fine", "No punishment", "Only disqualification for one month"],
         answer: 0,
         solution_html: "<p>Section 221(2) provides imprisonment up to three years or fine between ₹50,000 and ₹5 lakh, or both, for the officer in default.</p>"
       },
@@ -15871,19 +11850,12 @@ const AICaseStudies = [
         question_id: "C4_HARD_12_Q5",
         difficulty: "Hard",
         question: "The company itself, for contravention of the Tribunal's order, may be punished with:",
-        options: [
-          "Fine of ₹1 lakh to ₹25 lakh",
-          "Only ₹500",
-          "Imprisonment only",
-          "No penalty"
-        ],
+        options: ["Fine of ₹1 lakh to ₹25 lakh", "Only ₹500", "Imprisonment only", "No penalty"],
         answer: 0,
         solution_html: "<p>Section 221(2) provides a fine of not less than ₹1 lakh and up to ₹25 lakh for the company.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 13
   // =========================================================
@@ -15891,21 +11863,11 @@ const AICaseStudies = [
     case_id: "C4_HARD_13",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 222"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Sunrise Securities Limited</strong> is under an ownership
-      investigation under Section 216. The Tribunal believes that relevant facts
-      regarding certain securities cannot be determined unless restrictions are
-      placed on their transfer and issue.</p>
-
-      <p>The Tribunal passes an order imposing restrictions for two years.
-      Despite the order, the company transfers certain securities to nominees of
-      an existing shareholder.</p>
-
-      <p>The company argues that the transfer was merely an internal arrangement
-      and therefore should not be treated as a contravention.</p>
+      <p><strong>Sunrise Securities Limited</strong> is under an ownership investigation under Section 216. The Tribunal believes that relevant facts regarding certain securities cannot be determined unless restrictions are placed on their transfer and issue.</p>
+      <p>The Tribunal passes an order imposing restrictions for two years. Despite the order, the company transfers certain securities to nominees of an existing shareholder.</p>
+      <p>The company argues that the transfer was merely an internal arrangement and therefore should not be treated as a contravention.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_13_Q1",
@@ -15915,7 +11877,7 @@ const AICaseStudies = [
           "The relevant facts concerning securities cannot be found out unless restrictions are imposed",
           "The company wants to increase dividend",
           "The auditor resigns",
-          "The company wants to change its registered office"
+          "The company wants to change its registered office",
         ],
         answer: 0,
         solution_html: "<p>Section 222 permits restrictions where the Tribunal is of the opinion that relevant facts concerning securities cannot be found out unless restrictions are imposed.</p>"
@@ -15924,12 +11886,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_13_Q2",
         difficulty: "Hard",
         question: "The maximum period for restrictions under Section 222 is:",
-        options: [
-          "Three years",
-          "One year",
-          "Five years",
-          "Ten years"
-        ],
+        options: ["Three years", "One year", "Five years", "Ten years"],
         answer: 0,
         solution_html: "<p>The Tribunal may impose restrictions for a period not exceeding three years.</p>"
       },
@@ -15937,12 +11894,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_13_Q3",
         difficulty: "Hard",
         question: "A transfer in contravention of the Tribunal's order may attract:",
-        options: [
-          "Penalty under Section 222(2)",
-          "No consequence because it is an internal arrangement",
-          "Only audit qualification",
-          "Only shareholder approval"
-        ],
+        options: ["Penalty under Section 222(2)", "No consequence because it is an internal arrangement", "Only audit qualification", "Only shareholder approval"],
         answer: 0,
         solution_html: "<p>Section 222(2) specifically provides punishment where securities are issued, transferred or acted upon in contravention of the Tribunal's order.</p>"
       },
@@ -15950,12 +11902,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_13_Q4",
         difficulty: "Hard",
         question: "The company may face:",
-        options: [
-          "Fine between ₹1 lakh and ₹25 lakh",
-          "Only ₹500 fine",
-          "Imprisonment of the company alone",
-          "No penalty"
-        ],
+        options: ["Fine between ₹1 lakh and ₹25 lakh", "Only ₹500 fine", "Imprisonment of the company alone", "No penalty"],
         answer: 0,
         solution_html: "<p>Section 222(2) provides a fine of not less than ₹1 lakh and up to ₹25 lakh for the company.</p>"
       },
@@ -15963,19 +11910,12 @@ const AICaseStudies = [
         question_id: "C4_HARD_13_Q5",
         difficulty: "Hard",
         question: "The officer in default may face:",
-        options: [
-          "Imprisonment up to six months or specified fine or both",
-          "Imprisonment up to five years only",
-          "No consequence",
-          "Only civil damages"
-        ],
+        options: ["Imprisonment up to six months or specified fine or both", "Imprisonment up to five years only", "No consequence", "Only civil damages"],
         answer: 0,
         solution_html: "<p>Section 222(2) provides imprisonment up to six months or fine of ₹25,000 to ₹5 lakh, or both, for the officer in default.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 14
   // =========================================================
@@ -15983,33 +11923,17 @@ const AICaseStudies = [
     case_id: "C4_HARD_14",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 223 & 224"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Everest Retail Limited</strong> was investigated and the
-      Inspector submitted a final report to the Central Government. The report
-      concluded that certain directors had committed fraud and that a property
-      belonging to the company had been wrongfully retained by a related person.</p>
-
-      <p>A creditor whose interests were affected wanted a copy of the Inspector's
-      report. Separately, the Central Government considered whether the company's
-      circumstances justified winding-up proceedings or an application under
-      Section 241.</p>
-
-      <p>The company argued that an Inspector's report was merely administrative
-      and could not be used as evidence in legal proceedings.</p>
+      <p><strong>Everest Retail Limited</strong> was investigated and the Inspector submitted a final report to the Central Government. The report concluded that certain directors had committed fraud and that a property belonging to the company had been wrongfully retained by a related person.</p>
+      <p>A creditor whose interests were affected wanted a copy of the Inspector's report. Separately, the Central Government considered whether the company's circumstances justified winding-up proceedings or an application under Section 241.</p>
+      <p>The company argued that an Inspector's report was merely administrative and could not be used as evidence in legal proceedings.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_14_Q1",
         difficulty: "Hard",
         question: "A person whose interests are likely to be affected may obtain a copy of the Inspector's report by:",
-        options: [
-          "Making an application to the Central Government",
-          "Approaching the company's auditor",
-          "Passing a board resolution",
-          "Obtaining permission from every shareholder"
-        ],
+        options: ["Making an application to the Central Government", "Approaching the company's auditor", "Passing a board resolution", "Obtaining permission from every shareholder"],
         answer: 0,
         solution_html: "<p>Section 223(3) permits members, creditors or other persons whose interests are likely to be affected to obtain a copy by making an application to the Central Government.</p>"
       },
@@ -16017,12 +11941,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_14_Q2",
         difficulty: "Hard",
         question: "An authenticated Inspector's report may be:",
-        options: [
-          "Admissible in legal proceedings as evidence regarding matters contained in it",
-          "Used only internally by the company",
-          "Never used as evidence",
-          "Used only for audit purposes"
-        ],
+        options: ["Admissible in legal proceedings as evidence regarding matters contained in it", "Used only internally by the company", "Never used as evidence", "Used only for audit purposes"],
         answer: 0,
         solution_html: "<p>Section 223(4) provides for authentication of the report and its admissibility in legal proceedings as evidence regarding matters contained in it.</p>"
       },
@@ -16030,12 +11949,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_14_Q3",
         difficulty: "Hard",
         question: "Where the report indicates criminal liability, the Central Government may:",
-        options: [
-          "Prosecute the person",
-          "Only issue a warning",
-          "Only order a new audit",
-          "Only freeze securities"
-        ],
+        options: ["Prosecute the person", "Only issue a warning", "Only order a new audit", "Only freeze securities"],
         answer: 0,
         solution_html: "<p>Section 224 permits the Central Government to prosecute persons appearing from the report to be guilty of criminal offences.</p>"
       },
@@ -16043,12 +11957,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_14_Q4",
         difficulty: "Hard",
         question: "If circumstances referred to in Section 213 exist and the company is liable to be wound up, the Central Government may cause to be presented:",
-        options: [
-          "A winding-up petition and/or an application under Section 241",
-          "Only an application for dividend",
-          "Only an auditor's report",
-          "Only an application for increase in capital"
-        ],
+        options: ["A winding-up petition and/or an application under Section 241", "Only an application for dividend", "Only an auditor's report", "Only an application for increase in capital"],
         answer: 0,
         solution_html: "<p>Under Section 224(2), the Central Government may cause a winding-up petition, an application under Section 241, or both, to be presented in appropriate circumstances.</p>"
       },
@@ -16056,19 +11965,12 @@ const AICaseStudies = [
         question_id: "C4_HARD_14_Q5",
         difficulty: "Hard",
         question: "Where fraud resulted in undue benefit, the Government may seek:",
-        options: [
-          "Disgorgement and personal liability without limitation",
-          "Only cancellation of shares",
-          "Only reduction of capital",
-          "No recovery"
-        ],
+        options: ["Disgorgement and personal liability without limitation", "Only cancellation of shares", "Only reduction of capital", "No recovery"],
         answer: 0,
         solution_html: "<p>Section 224 provides for an application to the Tribunal for disgorgement and for holding the relevant person personally liable without limitation where the statutory conditions are satisfied.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 15
   // =========================================================
@@ -16076,33 +11978,17 @@ const AICaseStudies = [
     case_id: "C4_HARD_15",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 225"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>National Textiles Limited</strong> was investigated by an
-      Inspector appointed by the Central Government. The investigation resulted
-      in prosecution of certain officers and recovery of company property.</p>
-
-      <p>The Central Government had initially borne the investigation expenses.
-      The court convicted one officer and ordered another person to restore
-      property wrongfully retained by him. The company itself recovered a
-      substantial amount through proceedings.</p>
-
-      <p>The company questioned whether investigation expenses could be recovered
-      from different persons and whether the company's liability could become a
-      first charge on recovered sums or property.</p>
+      <p><strong>National Textiles Limited</strong> was investigated by an Inspector appointed by the Central Government. The investigation resulted in prosecution of certain officers and recovery of company property.</p>
+      <p>The Central Government had initially borne the investigation expenses. The court convicted one officer and ordered another person to restore property wrongfully retained by him. The company itself recovered a substantial amount through proceedings.</p>
+      <p>The company questioned whether investigation expenses could be recovered from different persons and whether the company's liability could become a first charge on recovered sums or property.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_15_Q1",
         difficulty: "Hard",
         question: "The Central Government initially bears investigation expenses under:",
-        options: [
-          "Section 225",
-          "Section 206",
-          "Section 216",
-          "Section 229"
-        ],
+        options: ["Section 225", "Section 206", "Section 216", "Section 229"],
         answer: 0,
         solution_html: "<p>Section 225 provides that investigation expenses are defrayed in the first instance by the Central Government, subject to reimbursement provisions.</p>"
       },
@@ -16110,12 +11996,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_15_Q2",
         difficulty: "Hard",
         question: "A person convicted may be ordered to reimburse investigation expenses:",
-        options: [
-          "To the extent specified by the court in the same proceedings",
-          "Always without limit",
-          "Never",
-          "Only after shareholder approval"
-        ],
+        options: ["To the extent specified by the court in the same proceedings", "Always without limit", "Never", "Only after shareholder approval"],
         answer: 0,
         solution_html: "<p>The extent of reimbursement by a convicted person is determined by the court in the same proceedings.</p>"
       },
@@ -16123,12 +12004,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_15_Q3",
         difficulty: "Hard",
         question: "A person ordered to restore property may also be liable to reimburse:",
-        options: [
-          "Investigation expenses to the extent specified",
-          "Only future audit expenses",
-          "No investigation expenses",
-          "Only employee salaries"
-        ],
+        options: ["Investigation expenses to the extent specified", "Only future audit expenses", "No investigation expenses", "Only employee salaries"],
         answer: 0,
         solution_html: "<p>Section 225 permits reimbursement by a person ordered to pay damages or restore property to the extent specified in the proceedings.</p>"
       },
@@ -16136,12 +12012,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_15_Q4",
         difficulty: "Hard",
         question: "Where the company recovers sums or property as a result of proceedings, reimbursement may be:",
-        options: [
-          "To the extent of the amount or value recovered",
-          "Unlimited irrespective of recovery",
-          "Only ₹1 lakh",
-          "Zero in every case"
-        ],
+        options: ["To the extent of the amount or value recovered", "Unlimited irrespective of recovery", "Only ₹1 lakh", "Zero in every case"],
         answer: 0,
         solution_html: "<p>The company/body corporate may reimburse investigation expenses to the extent of sums or property recovered as a result of proceedings.</p>"
       },
@@ -16149,19 +12020,12 @@ const AICaseStudies = [
         question_id: "C4_HARD_15_Q5",
         difficulty: "Hard",
         question: "An amount for which the company is liable under Section 225 may constitute:",
-        options: [
-          "A first charge on the relevant sums or property",
-          "A charge only on directors' personal property",
-          "No charge",
-          "A charge only on future profits"
-        ],
+        options: ["A first charge on the relevant sums or property", "A charge only on directors' personal property", "No charge", "A charge only on future profits"],
         answer: 0,
         solution_html: "<p>Section 225 provides that an amount for which the company or body corporate is liable shall be a first charge on the sums or property mentioned in the relevant provision.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 16
   // =========================================================
@@ -16169,33 +12033,17 @@ const AICaseStudies = [
     case_id: "C4_HARD_16",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 226 & 227"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Silver Crest Limited</strong> was undergoing an investigation
-      when the company passed a special resolution for voluntary winding up.
-      A winding-up proceeding was also pending before the Tribunal.</p>
-
-      <p>The directors argued that the Inspector should stop investigating because
-      the company's existence was in the process of being brought to an end.
-      The Inspector continued the investigation.</p>
-
-      <p>During the investigation, the Inspector requested privileged legal
-      communications from the company's legal adviser and also sought information
-      from a bank concerning the affairs of another customer unrelated to the
-      company.</p>
+      <p><strong>Silver Crest Limited</strong> was undergoing an investigation when the company passed a special resolution for voluntary winding up. A winding-up proceeding was also pending before the Tribunal.</p>
+      <p>The directors argued that the Inspector should stop investigating because the company's existence was in the process of being brought to an end. The Inspector continued the investigation.</p>
+      <p>During the investigation, the Inspector requested privileged legal communications from the company's legal adviser and also sought information from a bank concerning the affairs of another customer unrelated to the company.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_16_Q1",
         difficulty: "Hard",
         question: "The investigation is:",
-        options: [
-          "Not automatically stopped by voluntary winding up",
-          "Automatically terminated",
-          "Valid only if shareholders approve",
-          "Stopped immediately by the auditor"
-        ],
+        options: ["Not automatically stopped by voluntary winding up", "Automatically terminated", "Valid only if shareholders approve", "Stopped immediately by the auditor"],
         answer: 0,
         solution_html: "<p>Section 226 provides that an investigation is not stopped merely because a special resolution for voluntary winding up has been passed.</p>"
       },
@@ -16203,12 +12051,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_16_Q2",
         difficulty: "Hard",
         question: "Pending winding-up proceedings before the Tribunal:",
-        options: [
-          "Do not by themselves stop the investigation",
-          "Automatically terminate it",
-          "Require the Inspector to destroy evidence",
-          "Make the investigation void"
-        ],
+        options: ["Do not by themselves stop the investigation", "Automatically terminate it", "Require the Inspector to destroy evidence", "Make the investigation void"],
         answer: 0,
         solution_html: "<p>Section 226 states that an investigation shall not be stopped or suspended merely because winding-up proceedings are pending before the Tribunal.</p>"
       },
@@ -16216,12 +12059,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_16_Q3",
         difficulty: "Hard",
         question: "The legal adviser may generally refuse disclosure of:",
-        options: [
-          "Privileged communication made to him in that capacity",
-          "The client's name and address",
-          "Publicly filed documents",
-          "Published financial statements"
-        ],
+        options: ["Privileged communication made to him in that capacity", "The client's name and address", "Publicly filed documents", "Published financial statements"],
         answer: 0,
         solution_html: "<p>Section 227 protects privileged communications made to a legal adviser in that capacity, while the name and address of the client are not protected by this provision.</p>"
       },
@@ -16233,7 +12071,7 @@ const AICaseStudies = [
           "The affairs of customers other than the company/body corporate/person concerned",
           "The company itself in every circumstance",
           "Its own publicly available information",
-          "Its statutory filings"
+          "Its statutory filings",
         ],
         answer: 0,
         solution_html: "<p>Section 227 protects bankers from being required to disclose information about the affairs of customers other than the company, body corporate or person concerned.</p>"
@@ -16246,15 +12084,13 @@ const AICaseStudies = [
           "Investigation continues despite specified winding-up events, while specified privileged/legal and banking information receives protection",
           "Investigation always stops and all information must be disclosed",
           "Both sections concern only auditor appointment",
-          "Both sections concern only securities"
+          "Both sections concern only securities",
         ],
         answer: 0,
         solution_html: "<p>Section 226 deals with continuation of investigation despite specified winding-up events, while Section 227 provides limited protection for privileged legal communications and certain banking information.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 17
   // =========================================================
@@ -16262,33 +12098,17 @@ const AICaseStudies = [
     case_id: "C4_HARD_17",
     case_chapter: ["Inspection, Inquiry and Investigation", "Sections 217 & 228"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Global Exports India Limited</strong> is a foreign company
-      operating in India and is subject to investigation under Chapter XIV.
-      Several records relevant to the investigation are maintained outside India
-      in the office of its overseas parent.</p>
-
-      <p>The Inspector believes that evidence available abroad is necessary and
-      approaches the competent Indian court for a letter of request. The company
-      argues that Chapter XIV applies only to Indian companies and therefore the
-      Inspector cannot seek foreign evidence.</p>
-
-      <p>The Inspector also considers reciprocal arrangements between India and
-      the foreign State concerned.</p>
+      <p><strong>Global Exports India Limited</strong> is a foreign company operating in India and is subject to investigation under Chapter XIV. Several records relevant to the investigation are maintained outside India in the office of its overseas parent.</p>
+      <p>The Inspector believes that evidence available abroad is necessary and approaches the competent Indian court for a letter of request. The company argues that Chapter XIV applies only to Indian companies and therefore the Inspector cannot seek foreign evidence.</p>
+      <p>The Inspector also considers reciprocal arrangements between India and the foreign State concerned.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_17_Q1",
         difficulty: "Hard",
         question: "Do the Chapter XIV provisions apply to foreign companies?",
-        options: [
-          "Yes, mutatis mutandis",
-          "No",
-          "Only if the company is listed in India",
-          "Only if the auditor approves"
-        ],
+        options: ["Yes, mutatis mutandis", "No", "Only if the company is listed in India", "Only if the auditor approves"],
         answer: 0,
         solution_html: "<p>Section 228 provides that Chapter XIV applies mutatis mutandis to inspection, inquiry or investigation in relation to foreign companies.</p>"
       },
@@ -16300,7 +12120,7 @@ const AICaseStudies = [
           "Issue a letter of request to the competent foreign court/authority",
           "Automatically seize the foreign records",
           "Close the investigation",
-          "Appoint the foreign company's directors"
+          "Appoint the foreign company's directors",
         ],
         answer: 0,
         solution_html: "<p>Section 217(11) permits the competent court in India to issue a letter of request to a competent court or authority in another country.</p>"
@@ -16309,12 +12129,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_17_Q3",
         difficulty: "Hard",
         question: "Evidence obtained under the letter of request is deemed to be:",
-        options: [
-          "Evidence collected during the investigation",
-          "Only informal information",
-          "Only audit evidence",
-          "Invalid evidence"
-        ],
+        options: ["Evidence collected during the investigation", "Only informal information", "Only audit evidence", "Invalid evidence"],
         answer: 0,
         solution_html: "<p>Statements, documents or things received under the statutory procedure are deemed to be evidence collected during the investigation.</p>"
       },
@@ -16322,12 +12137,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_17_Q4",
         difficulty: "Hard",
         question: "The Central Government may enter into:",
-        options: [
-          "Reciprocal arrangements with foreign governments",
-          "Only shareholder agreements",
-          "Only auditor agreements",
-          "Only employee agreements"
-        ],
+        options: ["Reciprocal arrangements with foreign governments", "Only shareholder agreements", "Only auditor agreements", "Only employee agreements"],
         answer: 0,
         solution_html: "<p>Section 217(10) permits the Central Government to enter into reciprocal arrangements with foreign States for assistance in inspection, inquiry or investigation.</p>"
       },
@@ -16335,19 +12145,12 @@ const AICaseStudies = [
         question_id: "C4_HARD_17_Q5",
         difficulty: "Hard",
         question: "The company's argument that Chapter XIV applies only to Indian companies is:",
-        options: [
-          "Incorrect",
-          "Correct",
-          "Correct only for investigation",
-          "Correct only for inspection"
-        ],
+        options: ["Incorrect", "Correct", "Correct only for investigation", "Correct only for inspection"],
         answer: 0,
         solution_html: "<p>Section 228 expressly extends Chapter XIV mutatis mutandis to foreign companies.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 18
   // =========================================================
@@ -16355,34 +12158,17 @@ const AICaseStudies = [
     case_id: "C4_HARD_18",
     case_chapter: ["Inspection, Inquiry and Investigation", "Section 229"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>Delta Finserv Limited</strong> is under a detailed investigation.
-      Before the Inspector examines the company's records, the Compliance Head
-      instructs an employee to remove certain original contracts from the
-      company's premises.</p>
-
-      <p>Another employee modifies several entries in a register and later states
-      during examination that the entries were never altered. A third employee
-      knowingly gives a false explanation concerning the location of certain
-      documents.</p>
-
-      <p>The Inspector identifies the persons involved and considers whether the
-      fact that some of the acts were carried out on the instructions of a senior
-      officer changes the statutory consequences.</p>
+      <p><strong>Delta Finserv Limited</strong> is under a detailed investigation. Before the Inspector examines the company's records, the Compliance Head instructs an employee to remove certain original contracts from the company's premises.</p>
+      <p>Another employee modifies several entries in a register and later states during examination that the entries were never altered. A third employee knowingly gives a false explanation concerning the location of certain documents.</p>
+      <p>The Inspector identifies the persons involved and considers whether the fact that some of the acts were carried out on the instructions of a senior officer changes the statutory consequences.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_18_Q1",
         difficulty: "Hard",
         question: "Unauthorized removal of company documents during investigation is:",
-        options: [
-          "An act covered by Section 229",
-          "Always permissible if ordered by a superior",
-          "Only an employment matter",
-          "Outside Chapter XIV"
-        ],
+        options: ["An act covered by Section 229", "Always permissible if ordered by a superior", "Only an employment matter", "Outside Chapter XIV"],
         answer: 0,
         solution_html: "<p>Section 229 covers unauthorized removal of documents relating to the property, assets or affairs of the company/body corporate.</p>"
       },
@@ -16390,12 +12176,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_18_Q2",
         difficulty: "Hard",
         question: "A person who is a party to the falsification of documents may:",
-        options: [
-          "Be punished for fraud under Section 447",
-          "Escape liability automatically because another person made the entry",
-          "Only receive a warning",
-          "Be protected as an employee"
-        ],
+        options: ["Be punished for fraud under Section 447", "Escape liability automatically because another person made the entry", "Only receive a warning", "Be protected as an employee"],
         answer: 0,
         solution_html: "<p>Section 229 applies not only to the person directly performing the act but also to a person who is a party to destruction, mutilation, falsification, concealment, tampering or unauthorized removal.</p>"
       },
@@ -16403,12 +12184,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_18_Q3",
         difficulty: "Hard",
         question: "Knowingly providing a false explanation during investigation is:",
-        options: [
-          "Covered by Section 229",
-          "Protected automatically",
-          "Only a contractual breach",
-          "Not relevant"
-        ],
+        options: ["Covered by Section 229", "Protected automatically", "Only a contractual breach", "Not relevant"],
         answer: 0,
         solution_html: "<p>Section 229 specifically covers providing an explanation which is false or which the person knows to be false.</p>"
       },
@@ -16416,12 +12192,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_18_Q4",
         difficulty: "Hard",
         question: "An employee cannot ordinarily avoid Section 229 liability merely by saying:",
-        options: [
-          "I acted on my superior's instructions",
-          "I was an employee",
-          "The documents belonged to the company",
-          "The investigation was ongoing"
-        ],
+        options: ["I acted on my superior's instructions", "I was an employee", "The documents belonged to the company", "The investigation was ongoing"],
         answer: 0,
         solution_html: "<p>Section 229 expressly covers a person who is a party to the prohibited conduct. Merely acting on another person's instruction does not by itself eliminate the statutory consequences.</p>"
       },
@@ -16429,19 +12200,12 @@ const AICaseStudies = [
         question_id: "C4_HARD_18_Q5",
         difficulty: "Hard",
         question: "The punishment under Section 229 is linked to:",
-        options: [
-          "Section 447",
-          "Section 206(7)",
-          "Section 214",
-          "Section 222 only"
-        ],
+        options: ["Section 447", "Section 206(7)", "Section 214", "Section 222 only"],
         answer: 0,
         solution_html: "<p>Section 229 provides that the person shall be punishable for fraud in the manner provided in Section 447.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 19
   // =========================================================
@@ -16449,36 +12213,17 @@ const AICaseStudies = [
     case_id: "C4_HARD_19",
     case_chapter: ["Inspection, Inquiry and Investigation", "Integrated Provisions"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>National Industrial Systems Limited</strong> first came under
-      scrutiny after the Registrar found discrepancies in documents filed by the
-      company. The Registrar issued notices under Section 206 and subsequently
-      conducted an inquiry after receiving information suggesting fraudulent
-      conduct.</p>
-
-      <p>The Inspector's report recommended further investigation. The Central
-      Government assigned the investigation to SFIO. During the SFIO investigation,
-      the investigators discovered evidence involving a subsidiary and a former
-      Managing Director.</p>
-
-      <p>The SFIO investigation also revealed that the directors intended to
-      transfer assets and that one officer had altered documents. The Tribunal
-      was approached regarding the assets, while the Inspector dealt with the
-      altered documents and the related company.</p>
+      <p><strong>National Industrial Systems Limited</strong> first came under scrutiny after the Registrar found discrepancies in documents filed by the company. The Registrar issued notices under Section 206 and subsequently conducted an inquiry after receiving information suggesting fraudulent conduct.</p>
+      <p>The Inspector's report recommended further investigation. The Central Government assigned the investigation to SFIO. During the SFIO investigation, the investigators discovered evidence involving a subsidiary and a former Managing Director.</p>
+      <p>The SFIO investigation also revealed that the directors intended to transfer assets and that one officer had altered documents. The Tribunal was approached regarding the assets, while the Inspector dealt with the altered documents and the related company.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_19_Q1",
         difficulty: "Hard",
         question: "The initial Registrar process described in the case most appropriately follows:",
-        options: [
-          "Section 206 → inquiry → Section 208 report",
-          "Section 224 → Section 206 → Section 211",
-          "Section 222 → Section 209 only",
-          "Section 225 → Section 226"
-        ],
+        options: ["Section 206 → inquiry → Section 208 report", "Section 224 → Section 206 → Section 211", "Section 222 → Section 209 only", "Section 225 → Section 226"],
         answer: 0,
         solution_html: "<p>The Registrar may first call for information under Section 206, conduct inquiry where the statutory conditions are satisfied, and submit a report under Section 208.</p>"
       },
@@ -16486,24 +12231,14 @@ const AICaseStudies = [
         question_id: "C4_HARD_19_Q2",
         difficulty: "Hard",
         question: "Once the investigation is assigned to SFIO, investigation into the same Companies Act offences by another Central/State investigating agency:",
-        options: [
-          "Cannot proceed further",
-          "Must continue simultaneously",
-          "Must be restarted by the Registrar",
-          "Can continue without restriction"
-        ],
+        options: ["Cannot proceed further", "Must continue simultaneously", "Must be restarted by the Registrar", "Can continue without restriction"],
         answer: 0,
         solution_html: "<p>Section 212(2) prevents another Central or State Government investigating agency from proceeding with investigation concerning the Companies Act offences covered by the SFIO assignment.</p>"
       },
       {
         question_id: "C4_HARD_19_Q3",
         question: "Investigation into the subsidiary by the Inspector is possible under:",
-        options: [
-          "Section 219, subject to its requirements",
-          "Section 206(1) only",
-          "Section 225 only",
-          "Section 227 only"
-        ],
+        options: ["Section 219, subject to its requirements", "Section 206(1) only", "Section 225 only", "Section 227 only"],
         answer: 0,
         solution_html: "<p>Section 219 permits investigation into specified related companies, including subsidiaries, where necessary for the main investigation and subject to prior approval of the Central Government.</p>"
       },
@@ -16511,12 +12246,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_19_Q4",
         difficulty: "Hard",
         question: "The Tribunal's role concerning threatened transfer of company assets is primarily connected with:",
-        options: [
-          "Section 221",
-          "Section 211",
-          "Section 229",
-          "Section 215"
-        ],
+        options: ["Section 221", "Section 211", "Section 229", "Section 215"],
         answer: 0,
         solution_html: "<p>Section 221 empowers the Tribunal to restrict removal, transfer or disposal of company funds, assets or properties where the statutory conditions are satisfied.</p>"
       },
@@ -16524,19 +12254,12 @@ const AICaseStudies = [
         question_id: "C4_HARD_19_Q5",
         difficulty: "Hard",
         question: "The officer who altered documents may face:",
-        options: [
-          "Fraud punishment under Section 447 through Section 229",
-          "Only a warning under Section 206",
-          "Only civil liability",
-          "No liability because the investigation was ongoing"
-        ],
+        options: ["Fraud punishment under Section 447 through Section 229", "Only a warning under Section 206", "Only civil liability", "No liability because the investigation was ongoing"],
         answer: 0,
         solution_html: "<p>Section 229 covers falsification and related conduct concerning documents during inspection, inquiry or investigation and links punishment to Section 447.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // HARD CASE SCENARIO 20
   // =========================================================
@@ -16544,37 +12267,17 @@ const AICaseStudies = [
     case_id: "C4_HARD_20",
     case_chapter: ["Inspection, Inquiry and Investigation", "Integrated Provisions"],
     difficulty: "Hard",
-
     caseText: `
-      <p><strong>United Commercial Ventures Limited</strong> has been the subject
-      of complaints from investors, creditors and certain members. The Registrar
-      initially called for information and explanations. Several documents were
-      found inadequate and an inquiry was subsequently conducted.</p>
-
-      <p>The Registrar's report recommended further investigation. The Central
-      Government ordered an investigation and eventually assigned it to SFIO.
-      During the investigation, SFIO discovered that the company's beneficial
-      ownership was concealed through nominees, assets were being transferred,
-      employees were being threatened with dismissal, and documents had been
-      falsified.</p>
-
-      <p>The company challenged almost every action, arguing that the Registrar
-      lacked inquiry powers, the SFIO had no jurisdiction after another agency
-      had begun investigating, the Tribunal could not restrict assets, and
-      employees could be dismissed during investigation without approval.</p>
+      <p><strong>United Commercial Ventures Limited</strong> has been the subject of complaints from investors, creditors and certain members. The Registrar initially called for information and explanations. Several documents were found inadequate and an inquiry was subsequently conducted.</p>
+      <p>The Registrar's report recommended further investigation. The Central Government ordered an investigation and eventually assigned it to SFIO. During the investigation, SFIO discovered that the company's beneficial ownership was concealed through nominees, assets were being transferred, employees were being threatened with dismissal, and documents had been falsified.</p>
+      <p>The company challenged almost every action, arguing that the Registrar lacked inquiry powers, the SFIO had no jurisdiction after another agency had begun investigating, the Tribunal could not restrict assets, and employees could be dismissed during investigation without approval.</p>
     `,
-
     questions: [
       {
         question_id: "C4_HARD_20_Q1",
         difficulty: "Hard",
         question: "The Registrar's power to inquire into allegations of fraudulent or unlawful conduct is derived from:",
-        options: [
-          "Section 206(4)",
-          "Section 211",
-          "Section 222",
-          "Section 225"
-        ],
+        options: ["Section 206(4)", "Section 211", "Section 222", "Section 225"],
         answer: 0,
         solution_html: "<p>Section 206(4) empowers the Registrar to conduct inquiry where the statutory conditions relating to fraudulent/unlawful conduct, non-compliance or unaddressed investor grievances are satisfied.</p>"
       },
@@ -16582,12 +12285,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_20_Q2",
         difficulty: "Hard",
         question: "The concealed beneficial ownership issue is primarily connected with:",
-        options: [
-          "Section 216",
-          "Section 207",
-          "Section 225",
-          "Section 226"
-        ],
+        options: ["Section 216", "Section 207", "Section 225", "Section 226"],
         answer: 0,
         solution_html: "<p>Section 216 permits investigation into membership and ownership to determine true persons financially interested, controlling or materially influencing the company and beneficial ownership.</p>"
       },
@@ -16599,7 +12297,7 @@ const AICaseStudies = [
           "Cannot proceed further with the Companies Act investigation covered by the assignment and must transfer relevant records",
           "Must continue simultaneously",
           "Can ignore SFIO",
-          "Can take over SFIO"
+          "Can take over SFIO",
         ],
         answer: 0,
         solution_html: "<p>Section 212(2) requires the concerned agency to stop proceeding with the relevant Companies Act investigation and transfer the relevant documents and records to SFIO.</p>"
@@ -16608,12 +12306,7 @@ const AICaseStudies = [
         question_id: "C4_HARD_20_Q4",
         difficulty: "Hard",
         question: "If company assets are likely to be transferred prejudicially, the Tribunal may act under:",
-        options: [
-          "Section 221",
-          "Section 206",
-          "Section 211",
-          "Section 227"
-        ],
+        options: ["Section 221", "Section 206", "Section 211", "Section 227"],
         answer: 0,
         solution_html: "<p>Section 221 empowers the Tribunal to restrict removal, transfer or disposal of company funds, assets or properties for a period not exceeding three years, subject to statutory conditions.</p>"
       },
@@ -16621,18 +12314,12 @@ const AICaseStudies = [
         question_id: "C4_HARD_20_Q5",
         difficulty: "Hard",
         question: "If employees are proposed to be dismissed during the relevant investigation, the company generally:",
-        options: [
-          "Must follow Section 218 and obtain Tribunal approval",
-          "Can always dismiss without approval",
-          "Needs only auditor approval",
-          "Needs only shareholder approval"
-        ],
+        options: ["Must follow Section 218 and obtain Tribunal approval", "Can always dismiss without approval", "Needs only auditor approval", "Needs only shareholder approval"],
         answer: 0,
         solution_html: "<p>Section 218 protects employees during specified investigations and proceedings and requires Tribunal approval before specified adverse employment actions are taken.</p>"
       }
     ]
   },
-
   // =========================================================
   // VERY HARD CASE SCENARIO 1
   // =========================================================
@@ -16643,31 +12330,12 @@ const AICaseStudies = [
       "Sections 206, 208, 210 and 212"
     ],
     difficulty: "Very Hard",
-
     caseText: `
-      <p><strong>Orion Infrastructure Limited</strong> had reported rapid growth
-      in revenue during the previous three financial years. However, the Registrar
-      noticed that trade receivables, related-party balances and advances had also
-      increased substantially.</p>
-
-      <p>The Registrar initially issued a written notice requiring information and
-      supporting documents. The company furnished documents, but several
-      explanations were inconsistent with the records already filed with the
-      Registrar. The Registrar therefore conducted an inquiry and submitted a
-      report recommending further investigation.</p>
-
-      <p>Before the Central Government passed any investigation order, 18 members
-      holding 12% of the voting power passed a special resolution requesting
-      investigation. Separately, a State Government department forwarded
-      information suggesting that the company had been used for fraudulent
-      transactions.</p>
-
-      <p>The Central Government ultimately concluded that the case involved
-      substantial public interest and assigned the investigation to SFIO. A State
-      investigating agency had already commenced an investigation into certain
-      offences under the Companies Act.</p>
+      <p><strong>Orion Infrastructure Limited</strong> had reported rapid growth in revenue during the previous three financial years. However, the Registrar noticed that trade receivables, related-party balances and advances had also increased substantially.</p>
+      <p>The Registrar initially issued a written notice requiring information and supporting documents. The company furnished documents, but several explanations were inconsistent with the records already filed with the Registrar. The Registrar therefore conducted an inquiry and submitted a report recommending further investigation.</p>
+      <p>Before the Central Government passed any investigation order, 18 members holding 12% of the voting power passed a special resolution requesting investigation. Separately, a State Government department forwarded information suggesting that the company had been used for fraudulent transactions.</p>
+      <p>The Central Government ultimately concluded that the case involved substantial public interest and assigned the investigation to SFIO. A State investigating agency had already commenced an investigation into certain offences under the Companies Act.</p>
     `,
-
     questions: [
       {
         question_id: "C4_VH_01_Q1",
@@ -16677,12 +12345,11 @@ const AICaseStudies = [
           "Only because the Registrar requested it",
           "Only because the members passed a special resolution",
           "The Registrar's report, special resolution, State Government information and public interest could constitute separate statutory grounds",
-          "Only because the State investigating agency had already started investigation"
+          "Only because the State investigating agency had already started investigation",
         ],
         answer: 2,
         solution_html: "<p>Section 212 recognises multiple circumstances for SFIO assignment, including a report under Section 208, a special resolution, a request from a Central/State Government department, and public interest.</p>"
       },
-
       {
         question_id: "C4_VH_01_Q2",
         difficulty: "Very Hard",
@@ -16691,12 +12358,11 @@ const AICaseStudies = [
           "The number of members alone is sufficient to automatically appoint SFIO",
           "A special resolution of the company is one of the specified circumstances under Section 212",
           "Any ordinary resolution automatically triggers SFIO",
-          "Only members holding 51% voting power can request SFIO"
+          "Only members holding 51% voting power can request SFIO",
         ],
         answer: 1,
         solution_html: "<p>A special resolution passed by the company is expressly recognised as a circumstance under Section 212(1) for assignment of investigation to SFIO.</p>"
       },
-
       {
         question_id: "C4_VH_01_Q3",
         difficulty: "Very Hard",
@@ -16705,12 +12371,11 @@ const AICaseStudies = [
           "Continue independently because it commenced first",
           "Continue simultaneously with SFIO",
           "Cease proceeding with the Companies Act investigation covered by the assignment and transfer relevant records/documents",
-          "Transfer only its final report"
+          "Transfer only its final report",
         ],
         answer: 2,
         solution_html: "<p>Once the Central Government assigns the investigation to SFIO, another Central or State Government investigating agency cannot proceed further with the Companies Act investigation covered by the assignment and must transfer relevant records and documents.</p>"
       },
-
       {
         question_id: "C4_VH_01_Q4",
         difficulty: "Very Hard",
@@ -16719,29 +12384,21 @@ const AICaseStudies = [
           "The Registrar's inquiry under Section 206 automatically becomes an SFIO investigation",
           "The Registrar's inquiry/report may form the basis for further investigation, but SFIO investigation requires the statutory Central Government assignment",
           "The Registrar has no power to conduct any inquiry",
-          "SFIO can begin only after shareholder approval"
+          "SFIO can begin only after shareholder approval",
         ],
         answer: 1,
         solution_html: "<p>The Registrar's inquiry and Section 208 report form part of the preliminary statutory framework. SFIO investigation is separately assigned by the Central Government under Section 212.</p>"
       },
-
       {
         question_id: "C4_VH_01_Q5",
         difficulty: "Very Hard",
         question: "If the Registrar had found the company's explanation inadequate after the initial notice, the next statutory step could include:",
-        options: [
-          "A further written notice requiring additional information/documents",
-          "Automatic winding up",
-          "Automatic arrest of directors",
-          "Automatic seizure of every company asset"
-        ],
+        options: ["A further written notice requiring additional information/documents", "Automatic winding up", "Automatic arrest of directors", "Automatic seizure of every company asset"],
         answer: 0,
         solution_html: "<p>Section 206 permits the Registrar to issue a further notice where the information or explanation furnished is inadequate, subject to the statutory requirements.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // VERY HARD CASE SCENARIO 2
   // =========================================================
@@ -16752,26 +12409,12 @@ const AICaseStudies = [
       "Sections 210, 213, 214 and 216"
     ],
     difficulty: "Very Hard",
-
     caseText: `
-      <p><strong>Meridian Consumer Products Limited</strong> has 3,500 members.
-      A group of 360 members claims that the company's affairs are being conducted
-      in a manner prejudicial to the interests of members and that certain
-      directors have concealed the real beneficial ownership of shares.</p>
-
-      <p>The applicants approach the Tribunal and produce documents showing that
-      shares registered in the names of several individuals appear to be controlled
-      by one undisclosed person.</p>
-
-      <p>The company argues that the applicants have approached the Tribunal only
-      because they are dissatisfied with the management and that the Tribunal
-      cannot investigate ownership merely because registered shareholders are
-      different from the suspected beneficial owner.</p>
-
-      <p>The Central Government separately considers whether security for the
-      investigation expenses should be required.</p>
+      <p><strong>Meridian Consumer Products Limited</strong> has 3,500 members. A group of 360 members claims that the company's affairs are being conducted in a manner prejudicial to the interests of members and that certain directors have concealed the real beneficial ownership of shares.</p>
+      <p>The applicants approach the Tribunal and produce documents showing that shares registered in the names of several individuals appear to be controlled by one undisclosed person.</p>
+      <p>The company argues that the applicants have approached the Tribunal only because they are dissatisfied with the management and that the Tribunal cannot investigate ownership merely because registered shareholders are different from the suspected beneficial owner.</p>
+      <p>The Central Government separately considers whether security for the investigation expenses should be required.</p>
     `,
-
     questions: [
       {
         question_id: "C4_VH_02_Q1",
@@ -16781,12 +12424,11 @@ const AICaseStudies = [
           "Section 213 recognises 100 or more members as one possible threshold in a company having share capital",
           "Only 500 members can apply",
           "Every member must apply",
-          "Only directors can initiate Section 213"
+          "Only directors can initiate Section 213",
         ],
         answer: 0,
         solution_html: "<p>For a company having share capital, Section 213 recognises an application by 100 or more members or members holding not less than one-tenth of the total voting power, subject to the statutory conditions.</p>"
       },
-
       {
         question_id: "C4_VH_02_Q2",
         difficulty: "Very Hard",
@@ -16795,26 +12437,19 @@ const AICaseStudies = [
           "Numerical threshold alone automatically establishes the case",
           "Section 213 also requires evidence showing good reasons for seeking investigation",
           "Evidence is relevant only after prosecution",
-          "The Tribunal cannot consider documentary evidence"
+          "The Tribunal cannot consider documentary evidence",
         ],
         answer: 1,
         solution_html: "<p>Section 213 requires evidence necessary to show that the applicants have good reasons for seeking an investigation.</p>"
       },
-
       {
         question_id: "C4_VH_02_Q3",
         difficulty: "Very Hard",
         question: "The suspected concealed beneficial ownership is most directly connected with:",
-        options: [
-          "Section 216",
-          "Section 206(1) only",
-          "Section 225",
-          "Section 227 only"
-        ],
+        options: ["Section 216", "Section 206(1) only", "Section 225", "Section 227 only"],
         answer: 0,
         solution_html: "<p>Section 216 specifically deals with investigation into membership and ownership, including determining persons who are financially interested or able to control or materially influence company policy.</p>"
       },
-
       {
         question_id: "C4_VH_02_Q4",
         difficulty: "Very Hard",
@@ -16823,12 +12458,11 @@ const AICaseStudies = [
           "Security for the costs and expenses of investigation",
           "Transfer of all shares to the Government",
           "Automatic resignation of directors",
-          "Cancellation of the company's registration"
+          "Cancellation of the company's registration",
         ],
         answer: 0,
         solution_html: "<p>Section 214 permits the Central Government to require security for payment of the costs and expenses of investigation in cases covered by Section 213.</p>"
       },
-
       {
         question_id: "C4_VH_02_Q5",
         difficulty: "Very Hard",
@@ -16837,15 +12471,13 @@ const AICaseStudies = [
           "Incorrect, because Section 216 is specifically designed to investigate such ownership arrangements",
           "Correct in every circumstance",
           "Correct unless the auditor agrees",
-          "Correct because beneficial ownership is irrelevant under Chapter XIV"
+          "Correct because beneficial ownership is irrelevant under Chapter XIV",
         ],
         answer: 0,
         solution_html: "<p>Section 216 specifically enables investigation into true ownership and persons financially interested in or controlling shares, including beneficial interests.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // VERY HARD CASE SCENARIO 3
   // =========================================================
@@ -16856,24 +12488,12 @@ const AICaseStudies = [
       "Sections 217, 218, 220 and 229"
     ],
     difficulty: "Very Hard",
-
     caseText: `
-      <p><strong>Vertex Digital Limited</strong> is under an investigation into
-      suspected diversion of funds. The Inspector issues written directions to
-      several officers to produce original contracts and accounting records.</p>
-
-      <p>The Chief Financial Officer instructs an employee to secretly remove
-      certain contracts before the Inspector arrives. Another officer alters
-      several entries in a register and later provides an explanation that he
-      knows to be false.</p>
-
-      <p>Meanwhile, an employee who supplied information to the Inspector is
-      threatened with suspension and reduction in rank by the management.</p>
-
-      <p>The company argues that all three matters are internal employment or
-      administrative issues and should not attract consequences under Chapter XIV.</p>
+      <p><strong>Vertex Digital Limited</strong> is under an investigation into suspected diversion of funds. The Inspector issues written directions to several officers to produce original contracts and accounting records.</p>
+      <p>The Chief Financial Officer instructs an employee to secretly remove certain contracts before the Inspector arrives. Another officer alters several entries in a register and later provides an explanation that he knows to be false.</p>
+      <p>Meanwhile, an employee who supplied information to the Inspector is threatened with suspension and reduction in rank by the management.</p>
+      <p>The company argues that all three matters are internal employment or administrative issues and should not attract consequences under Chapter XIV.</p>
     `,
-
     questions: [
       {
         question_id: "C4_VH_03_Q1",
@@ -16883,54 +12503,35 @@ const AICaseStudies = [
           "Section 229 covers unauthorized removal of relevant documents",
           "Employees can never be liable",
           "Only directors can commit document offences",
-          "Removal is permissible if the employee acts on instructions"
+          "Removal is permissible if the employee acts on instructions",
         ],
         answer: 0,
         solution_html: "<p>Section 229 covers unauthorized removal of books and papers relating to the property, assets or affairs of the company/body corporate/person under inspection, inquiry or investigation.</p>"
       },
-
       {
         question_id: "C4_VH_03_Q2",
         difficulty: "Very Hard",
         question: "The officer who knowingly provides a false explanation is exposed to:",
-        options: [
-          "Section 229 and punishment linked to fraud under Section 447",
-          "Only Section 206",
-          "Only civil liability",
-          "No liability if he is an employee"
-        ],
+        options: ["Section 229 and punishment linked to fraud under Section 447", "Only Section 206", "Only civil liability", "No liability if he is an employee"],
         answer: 0,
         solution_html: "<p>Section 229 expressly covers furnishing an explanation that is false or known to be false and links the offence to punishment for fraud under Section 447.</p>"
       },
-
       {
         question_id: "C4_VH_03_Q3",
         difficulty: "Very Hard",
         question: "The Inspector's direction to officers to produce documents is primarily supported by:",
-        options: [
-          "Section 217",
-          "Section 221",
-          "Section 225",
-          "Section 227"
-        ],
+        options: ["Section 217", "Section 221", "Section 225", "Section 227"],
         answer: 0,
         solution_html: "<p>Section 217 lays down the procedure and powers of inspectors and imposes duties upon officers, employees and other relevant persons to produce books and furnish information.</p>"
       },
-
       {
         question_id: "C4_VH_03_Q4",
         difficulty: "Very Hard",
         question: "The threatened suspension/reduction in rank of the cooperating employee is primarily governed by:",
-        options: [
-          "Section 218",
-          "Section 206",
-          "Section 220",
-          "Section 229"
-        ],
+        options: ["Section 218", "Section 206", "Section 220", "Section 229"],
         answer: 0,
         solution_html: "<p>Section 218 provides protection to employees during investigation and relevant proceedings against specified adverse employment actions without following the prescribed Tribunal process.</p>"
       },
-
       {
         question_id: "C4_VH_03_Q5",
         difficulty: "Very Hard",
@@ -16939,15 +12540,13 @@ const AICaseStudies = [
           "Document removal – Section 229; false explanation – Section 229; adverse employment action – Section 218",
           "All three – Section 206 only",
           "All three – Section 225 only",
-          "Document removal – Section 218; false explanation – Section 221"
+          "Document removal – Section 218; false explanation – Section 221",
         ],
         answer: 0,
         solution_html: "<p>The three events trigger different statutory provisions: Section 229 deals with prohibited document-related conduct and false explanations, while Section 218 provides employee protection during investigation.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // VERY HARD CASE SCENARIO 4
   // =========================================================
@@ -16958,65 +12557,36 @@ const AICaseStudies = [
       "Sections 219, 220, 221 and 222"
     ],
     difficulty: "Very Hard",
-
     caseText: `
-      <p><strong>Atlas Manufacturing Limited</strong> is being investigated into
-      suspected diversion of company funds. The Inspector discovers that the
-      transactions cannot be properly understood without examining its wholly
-      controlled subsidiary.</p>
-
-      <p>The Inspector proposes to investigate the subsidiary. At the same time,
-      evidence indicates that the directors are planning to transfer valuable
-      machinery to another group entity and that certain securities are about to
-      be transferred through nominee shareholders.</p>
-
-      <p>The Central Government and Tribunal consider separate protective measures
-      concerning the subsidiary, company assets and securities.</p>
+      <p><strong>Atlas Manufacturing Limited</strong> is being investigated into suspected diversion of company funds. The Inspector discovers that the transactions cannot be properly understood without examining its wholly controlled subsidiary.</p>
+      <p>The Inspector proposes to investigate the subsidiary. At the same time, evidence indicates that the directors are planning to transfer valuable machinery to another group entity and that certain securities are about to be transferred through nominee shareholders.</p>
+      <p>The Central Government and Tribunal consider separate protective measures concerning the subsidiary, company assets and securities.</p>
     `,
-
     questions: [
       {
         question_id: "C4_VH_04_Q1",
         difficulty: "Very Hard",
         question: "Before the Inspector investigates the subsidiary under Section 219, he must generally obtain:",
-        options: [
-          "Prior approval of the Central Government",
-          "Approval of the subsidiary's auditor",
-          "Approval of all subsidiary shareholders",
-          "No approval under any circumstances"
-        ],
+        options: ["Prior approval of the Central Government", "Approval of the subsidiary's auditor", "Approval of all subsidiary shareholders", "No approval under any circumstances"],
         answer: 0,
         solution_html: "<p>Section 219 requires prior approval of the Central Government before the Inspector extends the investigation to specified related companies/persons.</p>"
       },
-
       {
         question_id: "C4_VH_04_Q2",
         difficulty: "Very Hard",
         question: "The threatened transfer of machinery is most directly addressed by:",
-        options: [
-          "Section 221",
-          "Section 216",
-          "Section 227",
-          "Section 229"
-        ],
+        options: ["Section 221", "Section 216", "Section 227", "Section 229"],
         answer: 0,
         solution_html: "<p>Section 221 empowers the Tribunal to restrict removal, transfer or disposal of company funds, assets or properties during inquiry/investigation.</p>"
       },
-
       {
         question_id: "C4_VH_04_Q3",
         difficulty: "Very Hard",
         question: "The proposed restriction on securities is conceptually distinct because Section 222 deals specifically with:",
-        options: [
-          "Restrictions upon securities",
-          "Inspection of books",
-          "Investigation expenses",
-          "Protection of legal privilege"
-        ],
+        options: ["Restrictions upon securities", "Inspection of books", "Investigation expenses", "Protection of legal privilege"],
         answer: 0,
         solution_html: "<p>Section 222 specifically empowers the Tribunal to impose restrictions upon securities where the statutory conditions are satisfied.</p>"
       },
-
       {
         question_id: "C4_VH_04_Q4",
         difficulty: "Very Hard",
@@ -17025,12 +12595,11 @@ const AICaseStudies = [
           "Section 221 concerns company funds/assets/property, while Section 222 specifically concerns securities",
           "Both provisions deal exclusively with employees",
           "Section 221 concerns legal privilege and Section 222 concerns bankers",
-          "Both provisions concern only investigation expenses"
+          "Both provisions concern only investigation expenses",
         ],
         answer: 0,
         solution_html: "<p>Section 221 focuses on freezing/restricting company funds, assets and property, whereas Section 222 specifically addresses restrictions upon securities.</p>"
       },
-
       {
         question_id: "C4_VH_04_Q5",
         difficulty: "Very Hard",
@@ -17039,15 +12608,13 @@ const AICaseStudies = [
           "Where necessary/relevant to the investigation of the original company and subject to statutory conditions",
           "For any unrelated matter",
           "Only because it shares the same auditor",
-          "Automatically in every investigation"
+          "Automatically in every investigation",
         ],
         answer: 0,
         solution_html: "<p>Section 219 permits investigation into specified related entities where the investigation is relevant to the affairs of the company under investigation and the statutory conditions are met.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // VERY HARD CASE SCENARIO 5
   // =========================================================
@@ -17058,81 +12625,44 @@ const AICaseStudies = [
       "Sections 212, 217, 223 and 224"
     ],
     difficulty: "Very Hard",
-
     caseText: `
-      <p><strong>National Healthcare Limited</strong> was assigned to SFIO after
-      the Central Government formed the opinion that a detailed investigation was
-      necessary. The investigation involved numerous transactions spread across
-      several years.</p>
-
-      <p>The investigators required former directors, current employees and a
-      related body corporate to furnish documents and information. A former
-      director refused to appear, arguing that his tenure had ended before the
-      investigation began.</p>
-
-      <p>After completion, the SFIO report indicated that two directors had
-      committed offences and that a third person had wrongfully retained company
-      property. The report was authenticated and submitted to the Central
-      Government.</p>
+      <p><strong>National Healthcare Limited</strong> was assigned to SFIO after the Central Government formed the opinion that a detailed investigation was necessary. The investigation involved numerous transactions spread across several years.</p>
+      <p>The investigators required former directors, current employees and a related body corporate to furnish documents and information. A former director refused to appear, arguing that his tenure had ended before the investigation began.</p>
+      <p>After completion, the SFIO report indicated that two directors had committed offences and that a third person had wrongfully retained company property. The report was authenticated and submitted to the Central Government.</p>
     `,
-
     questions: [
       {
         question_id: "C4_VH_05_Q1",
         difficulty: "Very Hard",
         question: "The former director's refusal to cooperate is:",
-        options: [
-          "Not automatically justified merely because his tenure ended",
-          "Always valid",
-          "Valid unless shareholders object",
-          "Valid because only current employees can be examined"
-        ],
+        options: ["Not automatically justified merely because his tenure ended", "Always valid", "Valid unless shareholders object", "Valid because only current employees can be examined"],
         answer: 0,
         solution_html: "<p>The investigation powers and duties under Section 217 extend to relevant former officers/employees/agents and persons connected with the affairs under investigation.</p>"
       },
-
       {
         question_id: "C4_VH_05_Q2",
         difficulty: "Very Hard",
         question: "The authenticated Inspector/SFIO report may be:",
-        options: [
-          "Admissible in legal proceedings as evidence concerning matters contained in it",
-          "Used only internally",
-          "Used only for audit purposes",
-          "Automatically inadmissible"
-        ],
+        options: ["Admissible in legal proceedings as evidence concerning matters contained in it", "Used only internally", "Used only for audit purposes", "Automatically inadmissible"],
         answer: 0,
         solution_html: "<p>Section 223 provides for authentication of the Inspector's report and its admissibility in legal proceedings as evidence regarding matters contained in it.</p>"
       },
-
       {
         question_id: "C4_VH_05_Q3",
         difficulty: "Very Hard",
         question: "Where the report indicates that a person committed an offence, the Central Government may:",
-        options: [
-          "Institute prosecution in accordance with Section 224",
-          "Only issue a warning",
-          "Only amend the company's articles",
-          "Only order an audit"
-        ],
+        options: ["Institute prosecution in accordance with Section 224", "Only issue a warning", "Only amend the company's articles", "Only order an audit"],
         answer: 0,
         solution_html: "<p>Section 224 enables the Central Government to take prosecution and other statutory actions based on the Inspector's report.</p>"
       },
-
       {
         question_id: "C4_VH_05_Q4",
         difficulty: "Very Hard",
         question: "Where the report establishes wrongful retention of company property, the Government may seek:",
-        options: [
-          "Recovery of the property and other relief permitted by Section 224",
-          "Only cancellation of the person's DIN",
-          "Only removal of the auditor",
-          "No recovery"
-        ],
+        options: ["Recovery of the property and other relief permitted by Section 224", "Only cancellation of the person's DIN", "Only removal of the auditor", "No recovery"],
         answer: 0,
         solution_html: "<p>Section 224 provides mechanisms for recovery of property of the company that has been misapplied or wrongfully retained.</p>"
       },
-
       {
         question_id: "C4_VH_05_Q5",
         difficulty: "Very Hard",
@@ -17141,15 +12671,13 @@ const AICaseStudies = [
           "SFIO assignment → investigation → examination/production of records → authenticated report → action under Section 224",
           "Prosecution → SFIO assignment → inspection",
           "Section 224 → Section 206 → Section 217",
-          "Recovery → appointment of SFIO → investigation"
+          "Recovery → appointment of SFIO → investigation",
         ],
         answer: 0,
         solution_html: "<p>The statutory process proceeds from investigation through exercise of investigative powers and submission/authentication of the report, followed by action based upon the report.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // VERY HARD CASE SCENARIO 6
   // =========================================================
@@ -17160,38 +12688,20 @@ const AICaseStudies = [
       "Sections 217, 220, 227 and 228"
     ],
     difficulty: "Very Hard",
-
     caseText: `
-      <p><strong>Global Maritime Services Limited</strong>, a foreign company
-      having business operations in India, becomes subject to investigation under
-      Chapter XIV.</p>
-
-      <p>Important accounting records are maintained outside India. The Inspector
-      believes that evidence from the foreign jurisdiction is necessary and seeks
-      assistance through the statutory mechanism.</p>
-
-      <p>During the investigation in India, the Inspector also requests the
-      company's Indian banker to disclose information concerning the accounts of
-      an unrelated customer. The banker refuses. Separately, the company's legal
-      adviser refuses to disclose privileged communications but provides the
-      client's name and address.</p>
+      <p><strong>Global Maritime Services Limited</strong>, a foreign company having business operations in India, becomes subject to investigation under Chapter XIV.</p>
+      <p>Important accounting records are maintained outside India. The Inspector believes that evidence from the foreign jurisdiction is necessary and seeks assistance through the statutory mechanism.</p>
+      <p>During the investigation in India, the Inspector also requests the company's Indian banker to disclose information concerning the accounts of an unrelated customer. The banker refuses. Separately, the company's legal adviser refuses to disclose privileged communications but provides the client's name and address.</p>
     `,
-
     questions: [
       {
         question_id: "C4_VH_06_Q1",
         difficulty: "Very Hard",
         question: "Chapter XIV applies to a foreign company:",
-        options: [
-          "Mutatis mutandis",
-          "Not at all",
-          "Only if it is listed in India",
-          "Only with shareholder approval"
-        ],
+        options: ["Mutatis mutandis", "Not at all", "Only if it is listed in India", "Only with shareholder approval"],
         answer: 0,
         solution_html: "<p>Section 228 provides that Chapter XIV applies mutatis mutandis to inspection, inquiry or investigation of foreign companies.</p>"
       },
-
       {
         question_id: "C4_VH_06_Q2",
         difficulty: "Very Hard",
@@ -17200,12 +12710,11 @@ const AICaseStudies = [
           "A letter of request to the competent foreign court/authority",
           "Automatic seizure by an Indian Inspector abroad",
           "Automatic prosecution in the foreign country",
-          "Cancellation of the foreign company's registration"
+          "Cancellation of the foreign company's registration",
         ],
         answer: 0,
         solution_html: "<p>Section 217 provides for a letter of request to a competent court or authority outside India where evidence necessary for the investigation is available there.</p>"
       },
-
       {
         question_id: "C4_VH_06_Q3",
         difficulty: "Very Hard",
@@ -17214,12 +12723,11 @@ const AICaseStudies = [
           "Consistent with the statutory protection under Section 227",
           "Invalid because every bank must disclose all customer information",
           "Valid only if the auditor agrees",
-          "Always punishable"
+          "Always punishable",
         ],
         answer: 0,
         solution_html: "<p>Section 227 protects bankers from being compelled to disclose information concerning the affairs of customers other than the company/body corporate/person concerned.</p>"
       },
-
       {
         question_id: "C4_VH_06_Q4",
         difficulty: "Very Hard",
@@ -17228,12 +12736,11 @@ const AICaseStudies = [
           "Generally consistent with Section 227",
           "Incorrect because even the client's identity is privileged under Section 227",
           "Incorrect because no legal privilege exists",
-          "Valid only if the client is a director"
+          "Valid only if the client is a director",
         ],
         answer: 0,
         solution_html: "<p>Section 227 protects privileged communications made to a legal adviser in that capacity, but specifically does not protect the client's name and address from disclosure.</p>"
       },
-
       {
         question_id: "C4_VH_06_Q5",
         difficulty: "Very Hard",
@@ -17242,15 +12749,13 @@ const AICaseStudies = [
           "Investigation powers can extend to obtaining foreign evidence, while specified legal and banking information receives statutory protection and Chapter XIV applies to foreign companies",
           "All information must always be disclosed",
           "Foreign companies are completely outside Chapter XIV",
-          "Bankers and legal advisers have no statutory protections"
+          "Bankers and legal advisers have no statutory protections",
         ],
         answer: 0,
         solution_html: "<p>The provisions operate together: Section 217 facilitates evidence gathering, Section 227 protects specified legal/banking information, and Section 228 extends Chapter XIV to foreign companies.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // VERY HARD CASE SCENARIO 7
   // =========================================================
@@ -17261,64 +12766,35 @@ const AICaseStudies = [
       "Sections 218, 221, 222 and 229"
     ],
     difficulty: "Very Hard",
-
     caseText: `
-      <p><strong>Summit Energy Limited</strong> is under investigation after
-      evidence emerges that its directors have diverted assets and manipulated
-      securities transactions.</p>
-
-      <p>The Tribunal passes an order restricting transfer of specified company
-      assets and another order restricting dealings in specified securities.
-      Despite the orders, one director instructs an employee to transfer machinery
-      and another officer causes securities to be transferred to nominee holders.</p>
-
-      <p>At the same time, the company proposes to dismiss an employee who supplied
-      information to the Inspector. The employee challenges the proposed dismissal
-      before the Tribunal.</p>
+      <p><strong>Summit Energy Limited</strong> is under investigation after evidence emerges that its directors have diverted assets and manipulated securities transactions.</p>
+      <p>The Tribunal passes an order restricting transfer of specified company assets and another order restricting dealings in specified securities. Despite the orders, one director instructs an employee to transfer machinery and another officer causes securities to be transferred to nominee holders.</p>
+      <p>At the same time, the company proposes to dismiss an employee who supplied information to the Inspector. The employee challenges the proposed dismissal before the Tribunal.</p>
     `,
-
     questions: [
       {
         question_id: "C4_VH_07_Q1",
         difficulty: "Very Hard",
         question: "The restriction concerning company machinery is primarily under:",
-        options: [
-          "Section 221",
-          "Section 222",
-          "Section 218",
-          "Section 227"
-        ],
+        options: ["Section 221", "Section 222", "Section 218", "Section 227"],
         answer: 0,
         solution_html: "<p>Section 221 concerns restrictions on removal, transfer or disposal of company funds, assets or properties during inquiry or investigation.</p>"
       },
-
       {
         question_id: "C4_VH_07_Q2",
         difficulty: "Very Hard",
         question: "The restriction concerning specified securities is primarily under:",
-        options: [
-          "Section 222",
-          "Section 221",
-          "Section 206",
-          "Section 217"
-        ],
+        options: ["Section 222", "Section 221", "Section 206", "Section 217"],
         answer: 0,
         solution_html: "<p>Section 222 specifically deals with restrictions upon securities.</p>"
       },
-
       {
         question_id: "C4_VH_07_Q3",
         question: "The employee's proposed dismissal raises an issue under:",
-        options: [
-          "Section 218",
-          "Section 229 only",
-          "Section 225",
-          "Section 216"
-        ],
+        options: ["Section 218", "Section 229 only", "Section 225", "Section 216"],
         answer: 0,
         solution_html: "<p>Section 218 protects employees from specified adverse employment actions during investigation without following the statutory Tribunal process.</p>"
       },
-
       {
         question_id: "C4_VH_07_Q4",
         question: "If the employee's dismissal is challenged and the Tribunal objects, the company may:",
@@ -17326,12 +12802,11 @@ const AICaseStudies = [
           "Use the statutory appellate remedy against the Tribunal's objection",
           "Ignore the Tribunal",
           "Dismiss immediately regardless of the objection",
-          "Ask the statutory auditor to overrule the Tribunal"
+          "Ask the statutory auditor to overrule the Tribunal",
         ],
         answer: 0,
         solution_html: "<p>Section 218 provides an appeal mechanism against the Tribunal's objection to the proposed employment action.</p>"
       },
-
       {
         question_id: "C4_VH_07_Q5",
         difficulty: "Very Hard",
@@ -17340,15 +12815,13 @@ const AICaseStudies = [
           "Section 229 if it involves prohibited destruction, falsification, concealment, tampering or unauthorized removal of documents",
           "Section 214 only",
           "Section 227 only",
-          "No provision because he acted on instructions"
+          "No provision because he acted on instructions",
         ],
         answer: 0,
         solution_html: "<p>Section 229 covers persons who are parties to prohibited conduct involving documents. Acting under instructions does not automatically remove statutory liability.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // VERY HARD CASE SCENARIO 8
   // =========================================================
@@ -17359,24 +12832,11 @@ const AICaseStudies = [
       "Sections 206, 207, 208, 217 and 229"
     ],
     difficulty: "Very Hard",
-
     caseText: `
-      <p><strong>Precision Auto Components Limited</strong> receives a notice
-      from the Registrar seeking explanations regarding transactions recorded
-      five years earlier.</p>
-
-      <p>The current Finance Director states that he joined the company only last
-      year and therefore cannot answer questions concerning the earlier period.
-      The Registrar then serves a written notice on the former Finance Director
-      who was employed during the relevant period.</p>
-
-      <p>During the subsequent inquiry, certain documents are found to have been
-      falsified. The current Finance Director claims that he cannot be liable
-      because the falsification occurred before his appointment, while the former
-      Finance Director claims that he cannot be questioned because he is no longer
-      an employee.</p>
+      <p><strong>Precision Auto Components Limited</strong> receives a notice from the Registrar seeking explanations regarding transactions recorded five years earlier.</p>
+      <p>The current Finance Director states that he joined the company only last year and therefore cannot answer questions concerning the earlier period. The Registrar then serves a written notice on the former Finance Director who was employed during the relevant period.</p>
+      <p>During the subsequent inquiry, certain documents are found to have been falsified. The current Finance Director claims that he cannot be liable because the falsification occurred before his appointment, while the former Finance Director claims that he cannot be questioned because he is no longer an employee.</p>
     `,
-
     questions: [
       {
         question_id: "C4_VH_08_Q1",
@@ -17386,25 +12846,18 @@ const AICaseStudies = [
           "Does not automatically eliminate the Registrar's ability to call the former officer concerned",
           "Automatically ends the inquiry",
           "Makes the Registrar's notice invalid",
-          "Requires SFIO investigation"
+          "Requires SFIO investigation",
         ],
         answer: 0,
         solution_html: "<p>Section 206 specifically contemplates calling past officers where the information relates to the period during which they were employed.</p>"
       },
-
       {
         question_id: "C4_VH_08_Q2",
         question: "The former Finance Director's argument that he cannot be questioned because he has left the company is:",
-        options: [
-          "Incorrect where the statutory conditions for calling a past officer are satisfied",
-          "Always correct",
-          "Correct if he owns no shares",
-          "Correct if the company objects"
-        ],
+        options: ["Incorrect where the statutory conditions for calling a past officer are satisfied", "Always correct", "Correct if he owns no shares", "Correct if the company objects"],
         answer: 0,
         solution_html: "<p>The proviso to Section 206(2) permits the Registrar to call past officers through written notice regarding information relating to their period of employment.</p>"
       },
-
       {
         question_id: "C4_VH_08_Q3",
         question: "If the falsification occurred before the current Finance Director's appointment, his liability under Section 229:",
@@ -17412,25 +12865,18 @@ const AICaseStudies = [
           "Depends on whether he himself participated in, was a party to, or otherwise committed conduct covered by the section",
           "Automatically arises merely because he is currently Finance Director",
           "Automatically does not arise because he is a director",
-          "Is determined only by the auditor"
+          "Is determined only by the auditor",
         ],
         answer: 0,
         solution_html: "<p>Section 229 attaches to the prohibited conduct of the person concerned; mere subsequent appointment does not automatically establish liability for an earlier act.</p>"
       },
-
       {
         question_id: "C4_VH_08_Q4",
         question: "If the former Finance Director deliberately falsified documents during the relevant period, the strongest applicable provision is:",
-        options: [
-          "Section 229",
-          "Section 214",
-          "Section 218",
-          "Section 227"
-        ],
+        options: ["Section 229", "Section 214", "Section 218", "Section 227"],
         answer: 0,
         solution_html: "<p>Falsification of documents relating to the affairs of the company during inspection, inquiry or investigation is specifically covered by Section 229.</p>"
       },
-
       {
         question_id: "C4_VH_08_Q5",
         question: "Which sequence is most appropriate?",
@@ -17438,15 +12884,13 @@ const AICaseStudies = [
           "Section 206 information request → possible inquiry → Section 208 report → possible further investigation",
           "Section 229 → Section 206 → Section 208 automatically",
           "Section 225 → Section 206 → Section 217",
-          "Section 218 → Section 208 → Section 206"
+          "Section 218 → Section 208 → Section 206",
         ],
         answer: 0,
         solution_html: "<p>The statutory scheme generally permits the Registrar to begin by calling for information/documents, conduct inquiry where warranted, report under Section 208 and, where circumstances justify, proceed to further investigation.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // VERY HARD CASE SCENARIO 9
   // =========================================================
@@ -17457,23 +12901,11 @@ const AICaseStudies = [
       "Sections 212, 220, 223, 224 and 225"
     ],
     difficulty: "Very Hard",
-
     caseText: `
-      <p><strong>Royal Finance Limited</strong> was investigated by SFIO after
-      serious allegations of fraud. During the investigation, the Inspector
-      believed that several original records were likely to be destroyed and
-      therefore exercised the statutory power to seize them.</p>
-
-      <p>The final report stated that two directors had committed offences and
-      that another person had wrongfully retained company property worth
-      ₹4 crore. The Central Government initiated prosecution and recovery
-      proceedings.</p>
-
-      <p>The investigation had cost ₹75 lakh. The court convicted one director
-      and ordered the wrongdoer to restore the property. The company subsequently
-      recovered the property.</p>
+      <p><strong>Royal Finance Limited</strong> was investigated by SFIO after serious allegations of fraud. During the investigation, the Inspector believed that several original records were likely to be destroyed and therefore exercised the statutory power to seize them.</p>
+      <p>The final report stated that two directors had committed offences and that another person had wrongfully retained company property worth ₹4 crore. The Central Government initiated prosecution and recovery proceedings.</p>
+      <p>The investigation had cost ₹75 lakh. The court convicted one director and ordered the wrongdoer to restore the property. The company subsequently recovered the property.</p>
     `,
-
     questions: [
       {
         question_id: "C4_VH_09_Q1",
@@ -17483,12 +12915,11 @@ const AICaseStudies = [
           "Reasonable grounds to believe that the documents were likely to be destroyed, mutilated, altered, falsified or secreted",
           "A general desire to possess all records",
           "A shareholder resolution",
-          "Approval of the statutory auditor"
+          "Approval of the statutory auditor",
         ],
         answer: 0,
         solution_html: "<p>Section 220 requires reasonable grounds to believe that relevant books and papers are likely to be destroyed, mutilated, altered, falsified or secreted before seizure.</p>"
       },
-
       {
         question_id: "C4_VH_09_Q2",
         question: "The authenticated report can support legal proceedings because:",
@@ -17496,25 +12927,18 @@ const AICaseStudies = [
           "Section 223 provides for its admissibility as evidence regarding matters contained in it",
           "All internal reports are automatically evidence",
           "SFIO reports have no evidentiary value",
-          "Only auditors' reports can be evidence"
+          "Only auditors' reports can be evidence",
         ],
         answer: 0,
         solution_html: "<p>Section 223 provides for authentication of the Inspector's report and its admissibility in legal proceedings as evidence concerning matters contained in it.</p>"
       },
-
       {
         question_id: "C4_VH_09_Q3",
         question: "The Central Government's prosecution following the report is primarily supported by:",
-        options: [
-          "Section 224",
-          "Section 214",
-          "Section 218",
-          "Section 227"
-        ],
+        options: ["Section 224", "Section 214", "Section 218", "Section 227"],
         answer: 0,
         solution_html: "<p>Section 224 deals with actions to be taken in pursuance of the Inspector's report, including prosecution where criminal liability is indicated.</p>"
       },
-
       {
         question_id: "C4_VH_09_Q4",
         question: "The ₹75 lakh investigation expense is initially:",
@@ -17522,12 +12946,11 @@ const AICaseStudies = [
           "Defrayed by the Central Government, subject to statutory reimbursement mechanisms",
           "Always paid personally by the Registrar",
           "Always paid by shareholders",
-          "Automatically paid by the convicted person in full"
+          "Automatically paid by the convicted person in full",
         ],
         answer: 0,
         solution_html: "<p>Section 225 provides that investigation expenses are initially defrayed by the Central Government, subject to recovery/reimbursement under the section.</p>"
       },
-
       {
         question_id: "C4_VH_09_Q5",
         question: "If ₹4 crore worth of property is recovered as a result of the proceedings, the company's liability toward investigation expenses may be:",
@@ -17535,15 +12958,13 @@ const AICaseStudies = [
           "Reimbursed to the extent permitted by Section 225 and the value recovered",
           "Automatically equal to unlimited damages",
           "Completely extinguished in every case",
-          "Converted into share capital"
+          "Converted into share capital",
         ],
         answer: 0,
         solution_html: "<p>Section 225 provides mechanisms for recovery of investigation expenses from relevant persons and from the company/body corporate to the extent of sums or property recovered through proceedings.</p>"
       }
     ]
   },
-
-
   // =========================================================
   // VERY HARD CASE SCENARIO 10
   // =========================================================
@@ -17554,31 +12975,12 @@ const AICaseStudies = [
       "Integrated Sections 206–229"
     ],
     difficulty: "Very Hard",
-
     caseText: `
-      <p><strong>National Strategic Ventures Limited</strong> presents an
-      unusually complex investigation. The Registrar initially notices
-      inconsistencies in documents filed by the company and calls for further
-      information. The company provides explanations, but the Registrar considers
-      them inadequate and conducts an inquiry.</p>
-
-      <p>The resulting report recommends further investigation. A special
-      resolution is also passed by the company, while a Government department
-      separately provides information suggesting fraudulent conduct. The Central
-      Government therefore assigns the investigation to SFIO.</p>
-
-      <p>During the SFIO investigation, investigators discover that a subsidiary
-      is being used to route transactions, the true beneficial owners of certain
-      shares are concealed, assets are about to be transferred, securities are
-      being shifted to nominees, an employee is threatened with dismissal for
-      cooperating with the investigation, and certain records have been
-      deliberately falsified.</p>
-
-      <p>The company argues that all these matters should be handled through a
-      single provision and that once the SFIO investigation begins, the Tribunal
-      and Registrar have no further role.</p>
+      <p><strong>National Strategic Ventures Limited</strong> presents an unusually complex investigation. The Registrar initially notices inconsistencies in documents filed by the company and calls for further information. The company provides explanations, but the Registrar considers them inadequate and conducts an inquiry.</p>
+      <p>The resulting report recommends further investigation. A special resolution is also passed by the company, while a Government department separately provides information suggesting fraudulent conduct. The Central Government therefore assigns the investigation to SFIO.</p>
+      <p>During the SFIO investigation, investigators discover that a subsidiary is being used to route transactions, the true beneficial owners of certain shares are concealed, assets are about to be transferred, securities are being shifted to nominees, an employee is threatened with dismissal for cooperating with the investigation, and certain records have been deliberately falsified.</p>
+      <p>The company argues that all these matters should be handled through a single provision and that once the SFIO investigation begins, the Tribunal and Registrar have no further role.</p>
     `,
-
     questions: [
       {
         question_id: "C4_VH_10_Q1",
@@ -17588,12 +12990,11 @@ const AICaseStudies = [
           "Inadequate information – Section 206; SFIO assignment – Section 212; related company – Section 219; ownership – Section 216",
           "All issues – Section 206 only",
           "All issues – Section 225 only",
-          "Ownership – Section 229; employee protection – Section 227"
+          "Ownership – Section 229; employee protection – Section 227",
         ],
         answer: 0,
         solution_html: "<p>The case deliberately involves different statutory mechanisms: Section 206 for Registrar information/inquiry, Section 212 for SFIO assignment, Section 219 for related companies and Section 216 for ownership investigation.</p>"
       },
-
       {
         question_id: "C4_VH_10_Q2",
         difficulty: "Very Hard",
@@ -17602,38 +13003,25 @@ const AICaseStudies = [
           "Assets are primarily addressed under Section 221, while securities are specifically addressed under Section 222",
           "Both are governed only by Section 206",
           "Both are governed only by Section 229",
-          "Neither can be restricted by the Tribunal"
+          "Neither can be restricted by the Tribunal",
         ],
         answer: 0,
         solution_html: "<p>Section 221 concerns restrictions on company funds, assets and property, while Section 222 specifically deals with restrictions upon securities.</p>"
       },
-
       {
         question_id: "C4_VH_10_Q3",
         question: "The threatened dismissal of the cooperating employee is primarily relevant to:",
-        options: [
-          "Section 218",
-          "Section 219",
-          "Section 220",
-          "Section 225"
-        ],
+        options: ["Section 218", "Section 219", "Section 220", "Section 225"],
         answer: 0,
         solution_html: "<p>Section 218 provides protection to employees during investigation against specified adverse employment actions without following the statutory process.</p>"
       },
-
       {
         question_id: "C4_VH_10_Q4",
         question: "The deliberate falsification of investigation-related records is primarily dealt with under:",
-        options: [
-          "Section 229",
-          "Section 216",
-          "Section 221",
-          "Section 227"
-        ],
+        options: ["Section 229", "Section 216", "Section 221", "Section 227"],
         answer: 0,
         solution_html: "<p>Section 229 deals with destruction, mutilation, falsification, concealment, tampering and unauthorized removal of documents and false explanations in the context of inspection, inquiry or investigation.</p>"
       },
-
       {
         question_id: "C4_VH_10_Q5",
         difficulty: "Very Hard",
@@ -17642,21 +13030,19 @@ const AICaseStudies = [
           "The investigation framework contains multiple complementary powers, and assignment to SFIO does not erase the separate statutory roles of the Tribunal and other authorities",
           "All investigation powers must always be exercised under Section 206",
           "SFIO automatically replaces every Tribunal function",
-          "Once investigation begins, all protective orders become impossible"
+          "Once investigation begins, all protective orders become impossible",
         ],
         answer: 0,
         solution_html: "<p>The Companies Act creates an interconnected framework. SFIO investigation under Section 212 does not eliminate the statutory powers of the Tribunal or other authorities where provisions such as Sections 216, 218, 219, 221, 222 and 229 become relevant.</p>"
       }
     ]
   },
-  // Chapter 5
   /* =========================================================
    CHAPTER 5 – COMPROMISES, ARRANGEMENTS AND AMALGAMATIONS
    DIFFICULTY: EASY
    CASE SCENARIOS: 10
    5 MCQs PER CASE
 ========================================================= */
-
 /* =========================================================
    CASE SCENARIO 1
 ========================================================= */
@@ -17665,88 +13051,48 @@ const AICaseStudies = [
   difficulty: "Easy",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Sunrise Textiles Limited</strong> was facing financial difficulties due to a decline in
-    demand for its products. The company proposed a scheme with its secured creditors under
-    Section 230 of the Companies Act, 2013. Under the proposed scheme, the creditors agreed
-    to receive 80% of their outstanding dues immediately and the remaining 20% after two years.</p>
-
-    <p>The company made an application to the National Company Law Tribunal (NCLT) seeking
-    appropriate directions regarding the meeting of creditors. The Tribunal considered the
-    application and decided to call a meeting of the concerned class of creditors.</p>
-
-    <p>The management explained that a compromise involves mutual concessions between parties,
-    whereas an arrangement may involve modification or reorganisation of existing rights.</p>
-  `,
+      <p><strong>Sunrise Textiles Limited</strong> was facing financial difficulties due to a decline in demand for its products. The company proposed a scheme with its secured creditors under Section 230 of the Companies Act, 2013. Under the proposed scheme, the creditors agreed to receive 80% of their outstanding dues immediately and the remaining 20% after two years.</p>
+      <p>The company made an application to the National Company Law Tribunal (NCLT) seeking appropriate directions regarding the meeting of creditors. The Tribunal considered the application and decided to call a meeting of the concerned class of creditors.</p>
+      <p>The management explained that a compromise involves mutual concessions between parties, whereas an arrangement may involve modification or reorganisation of existing rights.</p>
+    `,
   questions: [
-
     {
       id: "CAA_EASY_01_1",
       question: "Under Section 230, which of the following may apply to the Tribunal for a compromise or arrangement?",
-      options: [
-        "Only the company",
-        "Only the creditors",
-        "Company, creditor, member or liquidator in case of voluntary liquidation",
-        "Only the Central Government"
-      ],
+      options: ["Only the company", "Only the creditors", "Company, creditor, member or liquidator in case of voluntary liquidation", "Only the Central Government"],
       answer: 2,
       explanation: "Section 230 permits an application by the company, creditor, member or liquidator in case of voluntary liquidation."
     },
-
     {
       id: "CAA_EASY_01_2",
       question: "A compromise generally involves:",
-      options: [
-        "A dispute between parties and mutual concessions",
-        "Only a transfer of shares",
-        "Only an increase in share capital",
-        "Compulsory winding up"
-      ],
+      options: ["A dispute between parties and mutual concessions", "Only a transfer of shares", "Only an increase in share capital", "Compulsory winding up"],
       answer: 0,
       explanation: "A compromise assumes a dispute and generally involves mutual adjustments and concessions by the parties."
     },
-
     {
       id: "CAA_EASY_01_3",
       question: "An arrangement may include:",
-      options: [
-        "Only settlement of disputes",
-        "Reorganisation of share capital",
-        "Only liquidation of a company",
-        "Only acquisition of another company"
-      ],
+      options: ["Only settlement of disputes", "Reorganisation of share capital", "Only liquidation of a company", "Only acquisition of another company"],
       answer: 1,
       explanation: "The term arrangement is wide and includes reorganisation of share capital."
     },
-
     {
       id: "CAA_EASY_01_4",
       question: "Which authority has the power to order the meeting under Section 230?",
-      options: [
-        "Registrar of Companies",
-        "NCLT",
-        "Income-tax Department",
-        "SEBI in every case"
-      ],
+      options: ["Registrar of Companies", "NCLT", "Income-tax Department", "SEBI in every case"],
       answer: 1,
       explanation: "The NCLT may order a meeting of creditors, members or the relevant class thereof."
     },
-
     {
       id: "CAA_EASY_01_5",
       question: "A scheme under Section 230 may be proposed between:",
-      options: [
-        "A company and its creditors or members",
-        "Only two unrelated companies",
-        "Only a company and the Central Government",
-        "Only shareholders and directors"
-      ],
+      options: ["A company and its creditors or members", "Only two unrelated companies", "Only a company and the Central Government", "Only shareholders and directors"],
       answer: 0,
       explanation: "Section 230 covers compromises or arrangements between a company and its creditors or members or classes thereof."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 2
 ========================================================= */
@@ -17755,87 +13101,48 @@ const AICaseStudies = [
   difficulty: "Easy",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Galaxy Foods Limited</strong> proposed a scheme of arrangement with its members.
-    The scheme involved reorganising its share capital by consolidating certain shares and
-    dividing another class of shares into different classes.</p>
-
-    <p>The company filed an application before the NCLT. The Tribunal directed that a meeting
-    of the relevant class of members should be called. Notices were required to be sent to the
-    members at their registered addresses.</p>
-
-    <p>The company also prepared information explaining the effect of the proposed arrangement
-    on members, creditors, promoters, key managerial personnel and debenture-holders.</p>
-  `,
+      <p><strong>Galaxy Foods Limited</strong> proposed a scheme of arrangement with its members. The scheme involved reorganising its share capital by consolidating certain shares and dividing another class of shares into different classes.</p>
+      <p>The company filed an application before the NCLT. The Tribunal directed that a meeting of the relevant class of members should be called. Notices were required to be sent to the members at their registered addresses.</p>
+      <p>The company also prepared information explaining the effect of the proposed arrangement on members, creditors, promoters, key managerial personnel and debenture-holders.</p>
+    `,
   questions: [
-
     {
       id: "CAA_EASY_02_1",
       question: "Under Section 230, arrangement includes:",
-      options: [
-        "Reorganisation of share capital",
-        "Only winding up",
-        "Only issue of debentures",
-        "Only reduction of liabilities"
-      ],
+      options: ["Reorganisation of share capital", "Only winding up", "Only issue of debentures", "Only reduction of liabilities"],
       answer: 0,
       explanation: "Arrangement expressly includes reorganisation of share capital by consolidation or division of shares of different classes."
     },
-
     {
       id: "CAA_EASY_02_2",
       question: "Notice of a Tribunal-ordered meeting is required to be sent individually to:",
-      options: [
-        "Only directors",
-        "Creditors, members and debenture-holders as applicable",
-        "Only promoters",
-        "Only employees"
-      ],
+      options: ["Only directors", "Creditors, members and debenture-holders as applicable", "Only promoters", "Only employees"],
       answer: 1,
       explanation: "Section 230(3) requires notices to the relevant creditors, members and debenture-holders individually."
     },
-
     {
       id: "CAA_EASY_02_3",
       question: "The notice should generally be sent to members at:",
-      options: [
-        "The company's registered office only",
-        "The address registered with the company",
-        "The address of the director",
-        "Any address selected by the company"
-      ],
+      options: ["The company's registered office only", "The address registered with the company", "The address of the director", "Any address selected by the company"],
       answer: 1,
       explanation: "The notice is sent individually at the address registered with the company."
     },
-
     {
       id: "CAA_EASY_02_4",
       question: "The statement accompanying the notice may explain the effect of the scheme on:",
-      options: [
-        "Only shareholders",
-        "Only creditors",
-        "Various stakeholders including creditors, KMPs, promoters and members",
-        "Only directors"
-      ],
+      options: ["Only shareholders", "Only creditors", "Various stakeholders including creditors, KMPs, promoters and members", "Only directors"],
       answer: 2,
       explanation: "The accompanying statement contains disclosures regarding the effect of the compromise or arrangement on relevant stakeholders."
     },
-
     {
       id: "CAA_EASY_02_5",
       question: "The Tribunal involved in schemes under Section 230 is:",
-      options: [
-        "NCLT",
-        "NCLAT as the first authority",
-        "SEBI",
-        "Registrar of Companies"
-      ],
+      options: ["NCLT", "NCLAT as the first authority", "SEBI", "Registrar of Companies"],
       answer: 0,
       explanation: "Applications under Section 230 are made to the National Company Law Tribunal."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 3
 ========================================================= */
@@ -17844,87 +13151,48 @@ const AICaseStudies = [
   difficulty: "Easy",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Metro Engineering Limited</strong> proposed a compromise with its creditors.
-    The company issued notices for the meeting and informed the creditors that voting could
-    be undertaken personally, through a proxy or by postal ballot.</p>
-
-    <p>During the meeting, the creditors considered the proposed scheme. The company also
-    received representations from certain regulatory authorities regarding matters that could
-    potentially affect their respective regulatory interests.</p>
-
-    <p>The company was advised that the statutory authorities should be given an opportunity
-    to make their representations within the prescribed period.</p>
-  `,
+      <p><strong>Metro Engineering Limited</strong> proposed a compromise with its creditors. The company issued notices for the meeting and informed the creditors that voting could be undertaken personally, through a proxy or by postal ballot.</p>
+      <p>During the meeting, the creditors considered the proposed scheme. The company also received representations from certain regulatory authorities regarding matters that could potentially affect their respective regulatory interests.</p>
+      <p>The company was advised that the statutory authorities should be given an opportunity to make their representations within the prescribed period.</p>
+    `,
   questions: [
-
     {
       id: "CAA_EASY_03_1",
       question: "Under Section 230(4), voting on a compromise or arrangement may be done:",
-      options: [
-        "Only personally",
-        "Personally, through proxy or by postal ballot",
-        "Only through proxy",
-        "Only electronically"
-      ],
+      options: ["Only personally", "Personally, through proxy or by postal ballot", "Only through proxy", "Only electronically"],
       answer: 1,
       explanation: "Persons receiving the notice may vote personally, through proxies or by postal ballot."
     },
-
     {
       id: "CAA_EASY_03_2",
       question: "Sectoral regulators receiving notice under Section 230(5) generally have how much time to make representations?",
-      options: [
-        "15 days",
-        "30 days",
-        "45 days",
-        "60 days"
-      ],
+      options: ["15 days", "30 days", "45 days", "60 days"],
       answer: 1,
       explanation: "Representations are required to be made within 30 days from receipt of the notice."
     },
-
     {
       id: "CAA_EASY_03_3",
       question: "If the relevant authority does not make a representation within the prescribed 30 days:",
-      options: [
-        "The scheme automatically fails",
-        "It is presumed that the authority has no representation to make",
-        "The company must withdraw the scheme",
-        "The Tribunal loses jurisdiction"
-      ],
+      options: ["The scheme automatically fails", "It is presumed that the authority has no representation to make", "The company must withdraw the scheme", "The Tribunal loses jurisdiction"],
       answer: 1,
       explanation: "Failure to make a representation within 30 days is presumed to mean that the authority has no representation to make."
     },
-
     {
       id: "CAA_EASY_03_4",
       question: "Which of the following may receive notice under Section 230(5)?",
-      options: [
-        "Income-tax authorities",
-        "RBI",
-        "SEBI",
-        "All of the above"
-      ],
+      options: ["Income-tax authorities", "RBI", "SEBI", "All of the above"],
       answer: 3,
       explanation: "The provision includes several sectoral authorities including the Income-tax authorities, RBI and SEBI."
     },
-
     {
       id: "CAA_EASY_03_5",
       question: "The notice to sectoral regulators is intended mainly to:",
-      options: [
-        "Give them an opportunity to make representations",
-        "Transfer management to them",
-        "Obtain automatic approval",
-        "Cancel the scheme"
-      ],
+      options: ["Give them an opportunity to make representations", "Transfer management to them", "Obtain automatic approval", "Cancel the scheme"],
       answer: 0,
       explanation: "The notice allows authorities likely to be affected by the scheme to make representations."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 4
 ========================================================= */
@@ -17933,85 +13201,48 @@ const AICaseStudies = [
   difficulty: "Easy",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Bright Electronics Limited</strong> proposed a scheme of compromise with its
-    creditors. At the meeting, the creditors considered the proposal and voted on it.</p>
-
-    <p>The scheme received the required approval from the creditors voting at the meeting.
-    The company thereafter approached the NCLT for sanction of the compromise.</p>
-
-    <p>The Tribunal examined the scheme and, after being satisfied with the statutory requirements,
-    sanctioned the compromise by an order.</p>
-  `,
+      <p><strong>Bright Electronics Limited</strong> proposed a scheme of compromise with its creditors. At the meeting, the creditors considered the proposal and voted on it.</p>
+      <p>The scheme received the required approval from the creditors voting at the meeting. The company thereafter approached the NCLT for sanction of the compromise.</p>
+      <p>The Tribunal examined the scheme and, after being satisfied with the statutory requirements, sanctioned the compromise by an order.</p>
+    `,
   questions: [
-
     {
       id: "CAA_EASY_04_1",
       question: "For approval of a compromise or arrangement under Section 230(6), the required majority in value is:",
-      options: [
-        "One-half",
-        "Two-thirds",
-        "Three-fourths",
-        "Nine-tenths"
-      ],
+      options: ["One-half", "Two-thirds", "Three-fourths", "Nine-tenths"],
       answer: 2,
       explanation: "The compromise or arrangement requires approval by persons representing three-fourths in value of those voting, along with the required majority in number."
     },
-
     {
       id: "CAA_EASY_04_2",
       question: "After sanction by the Tribunal, the compromise or arrangement becomes binding on:",
-      options: [
-        "Only the persons who voted in favour",
-        "The company and the relevant creditors or members as specified",
-        "Only directors",
-        "Only dissenting members"
-      ],
+      options: ["Only the persons who voted in favour", "The company and the relevant creditors or members as specified", "Only directors", "Only dissenting members"],
       answer: 1,
       explanation: "Once sanctioned by the Tribunal after the requisite approval, the scheme becomes binding on the company and relevant stakeholders covered by Section 230(6)."
     },
-
     {
       id: "CAA_EASY_04_3",
       question: "The order sanctioning the scheme is made by:",
-      options: [
-        "NCLT",
-        "Registrar",
-        "Central Government only",
-        "SEBI"
-      ],
+      options: ["NCLT", "Registrar", "Central Government only", "SEBI"],
       answer: 0,
       explanation: "The NCLT sanctions the compromise or arrangement under Section 230."
     },
-
     {
       id: "CAA_EASY_04_4",
       question: "A compromise or arrangement sanctioned by the Tribunal may be binding on:",
-      options: [
-        "Creditors or members of the relevant class",
-        "Only employees",
-        "Only directors",
-        "Only the auditors"
-      ],
+      options: ["Creditors or members of the relevant class", "Only employees", "Only directors", "Only the auditors"],
       answer: 0,
       explanation: "The sanctioned scheme is binding on the company and the relevant creditors, members or classes thereof."
     },
-
     {
       id: "CAA_EASY_04_5",
       question: "The majority requirement under Section 230(6) involves:",
-      options: [
-        "Only number",
-        "Only value",
-        "Majority in number and three-fourths in value of those voting",
-        "Nine-tenths in number only"
-      ],
+      options: ["Only number", "Only value", "Majority in number and three-fourths in value of those voting", "Nine-tenths in number only"],
       answer: 2,
       explanation: "The requirement is a simple majority in number of those voting together with representation of three-fourths in value of those voting."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 5
 ========================================================= */
@@ -18020,88 +13251,48 @@ const AICaseStudies = [
   difficulty: "Easy",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Nova Industries Limited</strong> obtained an order from the NCLT sanctioning
-    a compromise with its creditors. The Tribunal wanted to ensure that the scheme was properly
-    implemented.</p>
-
-    <p>During implementation, certain difficulties arose regarding the payment schedule.
-    The Tribunal examined the matter and considered whether modifications were necessary for
-    proper implementation of the sanctioned scheme.</p>
-
-    <p>The company was also informed that if the sanctioned scheme could not be implemented
-    satisfactorily and the company was unable to pay its debts according to the scheme, the
-    Tribunal could take further action.</p>
-  `,
+      <p><strong>Nova Industries Limited</strong> obtained an order from the NCLT sanctioning a compromise with its creditors. The Tribunal wanted to ensure that the scheme was properly implemented.</p>
+      <p>During implementation, certain difficulties arose regarding the payment schedule. The Tribunal examined the matter and considered whether modifications were necessary for proper implementation of the sanctioned scheme.</p>
+      <p>The company was also informed that if the sanctioned scheme could not be implemented satisfactorily and the company was unable to pay its debts according to the scheme, the Tribunal could take further action.</p>
+    `,
   questions: [
-
     {
       id: "CAA_EASY_05_1",
       question: "Which section deals with the power of the Tribunal to enforce a compromise or arrangement?",
-      options: [
-        "Section 230",
-        "Section 231",
-        "Section 233",
-        "Section 236"
-      ],
+      options: ["Section 230", "Section 231", "Section 233", "Section 236"],
       answer: 1,
       explanation: "Section 231 deals with the Tribunal's power to enforce and supervise implementation of a compromise or arrangement."
     },
-
     {
       id: "CAA_EASY_05_2",
       question: "Under Section 231, the Tribunal may:",
-      options: [
-        "Supervise implementation of the scheme",
-        "Give necessary directions",
-        "Make necessary modifications",
-        "All of the above"
-      ],
+      options: ["Supervise implementation of the scheme", "Give necessary directions", "Make necessary modifications", "All of the above"],
       answer: 3,
       explanation: "The Tribunal may supervise implementation and give directions or modifications necessary for proper implementation."
     },
-
     {
       id: "CAA_EASY_05_3",
       question: "If the sanctioned compromise cannot be implemented satisfactorily and the company is unable to pay its debts under the scheme, the Tribunal may:",
-      options: [
-        "Order winding up",
-        "Automatically cancel all debts",
-        "Transfer the company to SEBI",
-        "Remove all directors"
-      ],
+      options: ["Order winding up", "Automatically cancel all debts", "Transfer the company to SEBI", "Remove all directors"],
       answer: 0,
       explanation: "Section 231 permits the Tribunal to make an order for winding up in the specified circumstances."
     },
-
     {
       id: "CAA_EASY_05_4",
       question: "The power under Section 231 is exercised in relation to a compromise or arrangement sanctioned under:",
-      options: [
-        "Section 230",
-        "Section 235",
-        "Section 238",
-        "Section 240"
-      ],
+      options: ["Section 230", "Section 235", "Section 238", "Section 240"],
       answer: 0,
       explanation: "Section 231 applies where the Tribunal has made an order under Section 230 sanctioning a compromise or arrangement."
     },
-
     {
       id: "CAA_EASY_05_5",
       question: "The main purpose of Tribunal supervision under Section 231 is to:",
-      options: [
-        "Ensure proper implementation of the sanctioned scheme",
-        "Increase the company's authorised capital",
-        "Conduct the company's audit",
-        "Appoint statutory auditors"
-      ],
+      options: ["Ensure proper implementation of the sanctioned scheme", "Increase the company's authorised capital", "Conduct the company's audit", "Appoint statutory auditors"],
       answer: 0,
       explanation: "The Tribunal supervises implementation to ensure that the sanctioned compromise or arrangement is properly carried out."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 6
 ========================================================= */
@@ -18110,87 +13301,48 @@ const AICaseStudies = [
   difficulty: "Easy",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Alpha Manufacturing Limited</strong> decided to merge with Beta Components
-    Limited. Alpha was the transferor company and Beta was the transferee company.</p>
-
-    <p>Under the proposed scheme, the undertaking, property and liabilities of Alpha were to
-    be transferred to Beta. The scheme also provided for the dissolution of Alpha without
-    winding up after the merger.</p>
-
-    <p>The NCLT considered the scheme under Section 232. The companies were required to
-    comply with the prescribed procedural requirements and provide relevant reports and
-    documents.</p>
-  `,
+      <p><strong>Alpha Manufacturing Limited</strong> decided to merge with Beta Components Limited. Alpha was the transferor company and Beta was the transferee company.</p>
+      <p>Under the proposed scheme, the undertaking, property and liabilities of Alpha were to be transferred to Beta. The scheme also provided for the dissolution of Alpha without winding up after the merger.</p>
+      <p>The NCLT considered the scheme under Section 232. The companies were required to comply with the prescribed procedural requirements and provide relevant reports and documents.</p>
+    `,
   questions: [
-
     {
       id: "CAA_EASY_06_1",
       question: "In the given case, Alpha Manufacturing Limited is the:",
-      options: [
-        "Transferee company",
-        "Transferor company",
-        "Resulting company only",
-        "Holding company"
-      ],
+      options: ["Transferee company", "Transferor company", "Resulting company only", "Holding company"],
       answer: 1,
       explanation: "The company whose undertaking, property and liabilities are transferred is called the transferor company."
     },
-
     {
       id: "CAA_EASY_06_2",
       question: "Beta Components Limited is the:",
-      options: [
-        "Transferor company",
-        "Transferee company",
-        "Liquidator",
-        "Official Liquidator"
-      ],
+      options: ["Transferor company", "Transferee company", "Liquidator", "Official Liquidator"],
       answer: 1,
       explanation: "The company receiving the undertaking, property and liabilities is the transferee company."
     },
-
     {
       id: "CAA_EASY_06_3",
       question: "Which section primarily deals with merger and amalgamation of companies?",
-      options: [
-        "Section 230",
-        "Section 231",
-        "Section 232",
-        "Section 240"
-      ],
+      options: ["Section 230", "Section 231", "Section 232", "Section 240"],
       answer: 2,
       explanation: "Section 232 deals with merger and amalgamation of companies."
     },
-
     {
       id: "CAA_EASY_06_4",
       question: "Under Section 232, a transferor company may be dissolved:",
-      options: [
-        "Only after winding up",
-        "Without winding up",
-        "Only by the Registrar",
-        "Only by shareholders without Tribunal involvement"
-      ],
+      options: ["Only after winding up", "Without winding up", "Only by the Registrar", "Only by shareholders without Tribunal involvement"],
       answer: 1,
       explanation: "The Tribunal's order may provide for dissolution of the transferor company without winding up."
     },
-
     {
       id: "CAA_EASY_06_5",
       question: "Under a merger scheme, pending legal proceedings of the transferor company may:",
-      options: [
-        "Automatically terminate",
-        "Continue by or against the transferee company",
-        "Always be transferred to SEBI",
-        "Be transferred to the shareholders"
-      ],
+      options: ["Automatically terminate", "Continue by or against the transferee company", "Always be transferred to SEBI", "Be transferred to the shareholders"],
       answer: 1,
       explanation: "Section 232 permits continuation of legal proceedings by or against the transferee company."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 7
 ========================================================= */
@@ -18199,85 +13351,47 @@ const AICaseStudies = [
   difficulty: "Easy",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Prime Holdings Limited</strong> wanted to merge with its wholly-owned subsidiary,
-    Prime Services Limited. The directors considered using the fast-track merger mechanism
-    under Section 233.</p>
-
-    <p>The companies examined the requirements relating to members, creditors and filing of
-    the scheme. The management also learned that the fast-track route is available for specified
-    classes of companies and that eligible companies may alternatively use the normal merger
-    procedure.</p>
-  `,
+      <p><strong>Prime Holdings Limited</strong> wanted to merge with its wholly-owned subsidiary, Prime Services Limited. The directors considered using the fast-track merger mechanism under Section 233.</p>
+      <p>The companies examined the requirements relating to members, creditors and filing of the scheme. The management also learned that the fast-track route is available for specified classes of companies and that eligible companies may alternatively use the normal merger procedure.</p>
+    `,
   questions: [
-
     {
       id: "CAA_EASY_07_1",
       question: "A holding company and its wholly-owned subsidiary may enter into a merger scheme under:",
-      options: [
-        "Section 233",
-        "Section 236 only",
-        "Section 239 only",
-        "Section 240 only"
-      ],
+      options: ["Section 233", "Section 236 only", "Section 239 only", "Section 240 only"],
       answer: 0,
       explanation: "Section 233 provides the fast-track merger mechanism for a holding company and its wholly-owned subsidiary."
     },
-
     {
       id: "CAA_EASY_07_2",
       question: "The fast-track merger procedure is generally intended for:",
-      options: [
-        "Specified classes of companies",
-        "Only listed companies",
-        "Only foreign companies",
-        "Only companies under liquidation"
-      ],
+      options: ["Specified classes of companies", "Only listed companies", "Only foreign companies", "Only companies under liquidation"],
       answer: 0,
       explanation: "Section 233 applies to specified classes such as small companies and holding company-wholly-owned subsidiary combinations."
     },
-
     {
       id: "CAA_EASY_07_3",
       question: "Under the fast-track procedure, the scheme is approved by members holding at least:",
-      options: [
-        "51% of total shares",
-        "75% of total shares",
-        "90% of total number of shares",
-        "100% of total shares"
-      ],
+      options: ["51% of total shares", "75% of total shares", "90% of total number of shares", "100% of total shares"],
       answer: 2,
       explanation: "The scheme must be approved by members or the relevant class holding at least 90% of the total number of shares."
     },
-
     {
       id: "CAA_EASY_07_4",
       question: "The fast-track merger requires creditor approval by a majority representing:",
-      options: [
-        "One-half in value",
-        "Two-thirds in value",
-        "Three-fourths in value",
-        "Nine-tenths in value"
-      ],
+      options: ["One-half in value", "Two-thirds in value", "Three-fourths in value", "Nine-tenths in value"],
       answer: 3,
       explanation: "Section 233 requires approval by a majority representing nine-tenths in value of the creditors or relevant class."
     },
-
     {
       id: "CAA_EASY_07_5",
       question: "The provisions of Section 233 are:",
-      options: [
-        "Always compulsory for eligible companies",
-        "Optional; an eligible company may use Section 232 instead",
-        "Applicable only to foreign companies",
-        "Applicable only after winding up"
-      ],
+      options: ["Always compulsory for eligible companies", "Optional; an eligible company may use Section 232 instead", "Applicable only to foreign companies", "Applicable only after winding up"],
       answer: 1,
       explanation: "Eligible companies may use the fast-track mechanism, but they can also opt for the normal procedure under Sections 230 to 232."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 8
 ========================================================= */
@@ -18286,86 +13400,48 @@ const AICaseStudies = [
   difficulty: "Easy",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Zenith Retail Limited</strong> acquired 90% of the issued equity share capital
-    of another company. After becoming the 90% majority shareholder, Zenith decided to acquire
-    the remaining equity shares held by the minority shareholders.</p>
-
-    <p>The company understood that the price payable to minority shareholders must be determined
-    on the basis of valuation by a registered valuer in accordance with the prescribed rules.</p>
-
-    <p>The majority shareholders also had to deposit the required amount in a separate bank
-    account operated by the company for payment to the minority shareholders.</p>
-  `,
+      <p><strong>Zenith Retail Limited</strong> acquired 90% of the issued equity share capital of another company. After becoming the 90% majority shareholder, Zenith decided to acquire the remaining equity shares held by the minority shareholders.</p>
+      <p>The company understood that the price payable to minority shareholders must be determined on the basis of valuation by a registered valuer in accordance with the prescribed rules.</p>
+      <p>The majority shareholders also had to deposit the required amount in a separate bank account operated by the company for payment to the minority shareholders.</p>
+    `,
   questions: [
-
     {
       id: "CAA_EASY_08_1",
       question: "Section 236 becomes relevant when an acquirer becomes registered holder of at least:",
-      options: [
-        "51% of issued equity share capital",
-        "75% of issued equity share capital",
-        "90% of issued equity share capital",
-        "95% of issued equity share capital"
-      ],
+      options: ["51% of issued equity share capital", "75% of issued equity share capital", "90% of issued equity share capital", "95% of issued equity share capital"],
       answer: 2,
       explanation: "Section 236 applies when the acquirer or specified person/group becomes registered holder of 90% or more of the issued equity share capital."
     },
-
     {
       id: "CAA_EASY_08_2",
       question: "The price for purchase of minority shares is determined on the basis of valuation by:",
-      options: [
-        "Statutory auditor",
-        "Company secretary",
-        "Registered valuer",
-        "Registrar of Companies"
-      ],
+      options: ["Statutory auditor", "Company secretary", "Registered valuer", "Registrar of Companies"],
       answer: 2,
       explanation: "Section 236 requires valuation by a registered valuer in accordance with Rule 27."
     },
-
     {
       id: "CAA_EASY_08_3",
       question: "The majority shareholders are required to deposit the amount for acquisition in:",
-      options: [
-        "The personal account of the promoter",
-        "A separate bank account operated by the company",
-        "The account of the Registrar",
-        "The account of the Central Government"
-      ],
+      options: ["The personal account of the promoter", "A separate bank account operated by the company", "The account of the Registrar", "The account of the Central Government"],
       answer: 1,
       explanation: "The amount equal to the value of shares to be acquired is deposited in a separate bank account operated by the company."
     },
-
     {
       id: "CAA_EASY_08_4",
       question: "The company whose shares are being transferred acts as:",
-      options: [
-        "Transfer agent",
-        "Registered valuer",
-        "Liquidator",
-        "Tribunal"
-      ],
+      options: ["Transfer agent", "Registered valuer", "Liquidator", "Tribunal"],
       answer: 0,
       explanation: "Under Section 236, the company whose shares are transferred acts as the transfer agent for receiving and paying the price and handling the shares."
     },
-
     {
       id: "CAA_EASY_08_5",
       question: "The main purpose of Section 236 is to provide a mechanism for:",
-      options: [
-        "Purchase of minority shareholding after the 90% threshold is reached",
-        "Appointment of auditors",
-        "Reduction of share capital",
-        "Voluntary liquidation"
-      ],
+      options: ["Purchase of minority shareholding after the 90% threshold is reached", "Appointment of auditors", "Reduction of share capital", "Voluntary liquidation"],
       answer: 0,
       explanation: "Section 236 provides the mechanism for purchase of minority shareholding once the prescribed 90% threshold is reached."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 9
 ========================================================= */
@@ -18374,87 +13450,48 @@ const AICaseStudies = [
   difficulty: "Easy",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>National Infrastructure Limited</strong> was involved in a proposed amalgamation
-    which the Central Government considered necessary in the public interest. The Government
-    proposed to issue an order providing for amalgamation of two companies into a single company.</p>
-
-    <p>The Government also considered the interests and rights of members and creditors of the
-    transferor companies. It ensured that their interests or rights would remain substantially
-    protected in the transferee company.</p>
-
-    <p>A creditor who was dissatisfied with the compensation assessment considered challenging
-    the assessment before the Tribunal.</p>
-  `,
+      <p><strong>National Infrastructure Limited</strong> was involved in a proposed amalgamation which the Central Government considered necessary in the public interest. The Government proposed to issue an order providing for amalgamation of two companies into a single company.</p>
+      <p>The Government also considered the interests and rights of members and creditors of the transferor companies. It ensured that their interests or rights would remain substantially protected in the transferee company.</p>
+      <p>A creditor who was dissatisfied with the compensation assessment considered challenging the assessment before the Tribunal.</p>
+    `,
   questions: [
-
     {
       id: "CAA_EASY_09_1",
       question: "Which section deals with amalgamation of companies in public interest by the Central Government?",
-      options: [
-        "Section 232",
-        "Section 233",
-        "Section 236",
-        "Section 237"
-      ],
+      options: ["Section 232", "Section 233", "Section 236", "Section 237"],
       answer: 3,
       explanation: "Section 237 empowers the Central Government to provide for amalgamation of companies in public interest."
     },
-
     {
       id: "CAA_EASY_09_2",
       question: "The Central Government's order under Section 237 is notified in:",
-      options: [
-        "A newspaper only",
-        "The Official Gazette",
-        "The company's annual report only",
-        "The stock exchange bulletin only"
-      ],
+      options: ["A newspaper only", "The Official Gazette", "The company's annual report only", "The stock exchange bulletin only"],
       answer: 1,
       explanation: "The amalgamation order is notified in the Official Gazette."
     },
-
     {
       id: "CAA_EASY_09_3",
       question: "Members and creditors of transferor companies should generally have:",
-      options: [
-        "No rights after amalgamation",
-        "The same or substantially similar interests or rights in the transferee company",
-        "Only voting rights",
-        "Only dividend rights"
-      ],
+      options: ["No rights after amalgamation", "The same or substantially similar interests or rights in the transferee company", "Only voting rights", "Only dividend rights"],
       answer: 1,
       explanation: "Section 237 seeks to preserve, as nearly as may be, the interests or rights of members and creditors."
     },
-
     {
       id: "CAA_EASY_09_4",
       question: "If the interest or rights of a member or creditor become less, the person may be entitled to:",
-      options: [
-        "Compensation",
-        "Automatic winding up",
-        "Additional voting rights only",
-        "Appointment as director"
-      ],
+      options: ["Compensation", "Automatic winding up", "Additional voting rights only", "Appointment as director"],
       answer: 0,
       explanation: "Where the rights or interests are reduced, the person is entitled to compensation to that extent."
     },
-
     {
       id: "CAA_EASY_09_5",
       question: "An aggrieved person may appeal against the compensation assessment to:",
-      options: [
-        "Registrar",
-        "NCLT",
-        "SEBI",
-        "RBI"
-      ],
+      options: ["Registrar", "NCLT", "SEBI", "RBI"],
       answer: 1,
       explanation: "An aggrieved person may appeal to the Tribunal against the assessment of compensation."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 10
 ========================================================= */
@@ -18463,86 +13500,46 @@ const AICaseStudies = [
   difficulty: "Easy",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Future Technologies Limited</strong> was amalgamated with another company.
-    Following the amalgamation, some of the former officers of the transferor company argued
-    that their responsibility for offences committed before the merger had ended because the
-    transferor company no longer existed.</p>
-
-    <p>The legal adviser of the company explained that the Companies Act specifically provides
-    for continuation of liability of officers in default for offences committed before the merger,
-    amalgamation or acquisition.</p>
-
-    <p>The company also wanted to dispose of certain books and papers of the amalgamated company.
-    It was informed that prior permission of the Central Government was required before disposal
-    of such books and papers.</p>
-  `,
+      <p><strong>Future Technologies Limited</strong> was amalgamated with another company. Following the amalgamation, some of the former officers of the transferor company argued that their responsibility for offences committed before the merger had ended because the transferor company no longer existed.</p>
+      <p>The legal adviser of the company explained that the Companies Act specifically provides for continuation of liability of officers in default for offences committed before the merger, amalgamation or acquisition.</p>
+      <p>The company also wanted to dispose of certain books and papers of the amalgamated company. It was informed that prior permission of the Central Government was required before disposal of such books and papers.</p>
+    `,
   questions: [
-
     {
       id: "CAA_EASY_10_1",
       question: "Which section deals with preservation of books and papers of amalgamated companies?",
-      options: [
-        "Section 237",
-        "Section 238",
-        "Section 239",
-        "Section 240"
-      ],
+      options: ["Section 237", "Section 238", "Section 239", "Section 240"],
       answer: 2,
       explanation: "Section 239 deals with preservation of books and papers of amalgamated companies or companies whose shares have been acquired."
     },
-
     {
       id: "CAA_EASY_10_2",
       question: "Books and papers covered by Section 239 cannot generally be disposed of without prior permission of:",
-      options: [
-        "Central Government",
-        "SEBI",
-        "RBI",
-        "NCLAT"
-      ],
+      options: ["Central Government", "SEBI", "RBI", "NCLAT"],
       answer: 0,
       explanation: "Prior permission of the Central Government is required for disposal of such books and papers."
     },
-
     {
       id: "CAA_EASY_10_3",
       question: "Which section deals with liability of officers for offences committed before merger or amalgamation?",
-      options: [
-        "Section 230",
-        "Section 232",
-        "Section 239",
-        "Section 240"
-      ],
+      options: ["Section 230", "Section 232", "Section 239", "Section 240"],
       answer: 3,
       explanation: "Section 240 provides that liability for offences committed before merger, amalgamation or acquisition continues."
     },
-
     {
       id: "CAA_EASY_10_4",
       question: "Under Section 240, liability for an offence committed before merger:",
-      options: [
-        "Automatically disappears",
-        "Continues after the merger or amalgamation",
-        "Transfers only to shareholders",
-        "Applies only if the company is listed"
-      ],
+      options: ["Automatically disappears", "Continues after the merger or amalgamation", "Transfers only to shareholders", "Applies only if the company is listed"],
       answer: 1,
       explanation: "Section 240 expressly provides for continuation of liability of officers in default for offences committed before merger, amalgamation or acquisition."
     },
-
     {
       id: "CAA_EASY_10_5",
       question: "The purpose of preserving books and papers under Section 239 includes enabling examination for evidence of:",
-      options: [
-        "Only tax payments",
-        "Offences connected with promotion, formation or management of the company",
-        "Only dividend calculations",
-        "Only employee records"
-      ],
+      options: ["Only tax payments", "Offences connected with promotion, formation or management of the company", "Only dividend calculations", "Only employee records"],
       answer: 1,
       explanation: "The Central Government may appoint a person to examine the books and papers to ascertain evidence of offences connected with promotion, formation, management, amalgamation or acquisition."
     }
-
   ]
 },
 /* =========================================================
@@ -18551,7 +13548,6 @@ const AICaseStudies = [
    CASE SCENARIOS: 15
    5 MCQs PER CASE
 ========================================================= */
-
 /* =========================================================
    CASE SCENARIO 1
 ========================================================= */
@@ -18560,73 +13556,39 @@ const AICaseStudies = [
   difficulty: "Medium",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Arun Manufacturing Limited</strong> proposed a compromise with its secured
-    creditors. The company had outstanding secured debt of ₹20 crore. A scheme was proposed
-    under which 60% of the debt would be paid immediately and the balance would be converted
-    into equity shares.</p>
-
-    <p>The company filed an application before the NCLT. The application contained details of
-    the company's financial position, the latest auditor's report and details regarding pending
-    proceedings against the company. The scheme also contained a valuation report prepared by
-    a registered valuer.</p>
-
-    <p>Some creditors argued that the company had failed to disclose material facts relating to
-    the pending investigation against it.</p>
-  `,
+      <p><strong>Arun Manufacturing Limited</strong> proposed a compromise with its secured creditors. The company had outstanding secured debt of ₹20 crore. A scheme was proposed under which 60% of the debt would be paid immediately and the balance would be converted into equity shares.</p>
+      <p>The company filed an application before the NCLT. The application contained details of the company's financial position, the latest auditor's report and details regarding pending proceedings against the company. The scheme also contained a valuation report prepared by a registered valuer.</p>
+      <p>Some creditors argued that the company had failed to disclose material facts relating to the pending investigation against it.</p>
+    `,
   questions: [
-
     {
       id: "CAA_MEDIUM_01_1",
       question: "Under Section 230(2), the applicant is required to disclose to the Tribunal:",
-      options: [
-        "Only the proposed repayment schedule",
-        "All material facts relating to the company",
-        "Only details of secured creditors",
-        "Only the valuation report"
-      ],
+      options: ["Only the proposed repayment schedule", "All material facts relating to the company", "Only details of secured creditors", "Only the valuation report"],
       answer: 1,
       explanation: "Section 230(2) requires disclosure by affidavit of all material facts relating to the company, including its latest financial position, latest auditor's report and pending investigations or proceedings."
     },
-
     {
       id: "CAA_MEDIUM_01_2",
       question: "Which of the following is specifically required to be disclosed under Section 230(2)?",
-      options: [
-        "Pending investigation or proceedings against the company",
-        "Personal assets of every director",
-        "Income of every employee",
-        "Future dividend policy only"
-      ],
+      options: ["Pending investigation or proceedings against the company", "Personal assets of every director", "Income of every employee", "Future dividend policy only"],
       answer: 0,
       explanation: "Pending investigation or proceedings against the company form part of the material facts required to be disclosed."
     },
-
     {
       id: "CAA_MEDIUM_01_3",
       question: "A valuation report relating to shares and assets under the relevant scheme is generally prepared by:",
-      options: [
-        "A registered valuer",
-        "The Registrar of Companies",
-        "The Official Liquidator",
-        "The company's bankers"
-      ],
+      options: ["A registered valuer", "The Registrar of Companies", "The Official Liquidator", "The company's bankers"],
       answer: 0,
       explanation: "The Act requires a valuation report in the circumstances specified under Section 230, with valuation by a registered valuer."
     },
-
     {
       id: "CAA_MEDIUM_01_4",
       question: "If a reduction of share capital is included in the compromise or arrangement, the application should disclose:",
-      options: [
-        "The proposed reduction",
-        "Only the number of directors",
-        "Only the company's registered office",
-        "Only the amount of authorised capital"
-      ],
+      options: ["The proposed reduction", "Only the number of directors", "Only the company's registered office", "Only the amount of authorised capital"],
       answer: 0,
       explanation: "Section 230(2) specifically requires disclosure of reduction of share capital, if any, included in the compromise or arrangement."
     },
-
     {
       id: "CAA_MEDIUM_01_5",
       question: "The failure to disclose a pending investigation is most directly relevant to:",
@@ -18634,15 +13596,13 @@ const AICaseStudies = [
         "Disclosure requirements under Section 230(2)",
         "Purchase of minority shares under Section 236",
         "Public interest amalgamation under Section 237",
-        "Preservation of books under Section 239"
+        "Preservation of books under Section 239",
       ],
       answer: 0,
       explanation: "Pending investigations are material facts that must be disclosed to the Tribunal under Section 230(2)."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 2
 ========================================================= */
@@ -18651,33 +13611,18 @@ const AICaseStudies = [
   difficulty: "Medium",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Blue Star Infrastructure Limited</strong> proposed a scheme of arrangement
-    with its members. The company had 1,000 members. A Tribunal-ordered meeting was called
-    to consider the scheme.</p>
-
-    <p>At the meeting, 700 members attended. Of these, 600 members actually voted. The members
-    who voted represented shares having a paid-up value of ₹80 lakh. Members voting in favour
-    represented 460 members holding shares having a paid-up value of ₹62 lakh.</p>
-
-    <p>The management claimed that the scheme was approved because the value represented by
-    members voting in favour exceeded three-fourths of the total value of shares of all members
-    who attended the meeting.</p>
-  `,
+      <p><strong>Blue Star Infrastructure Limited</strong> proposed a scheme of arrangement with its members. The company had 1,000 members. A Tribunal-ordered meeting was called to consider the scheme.</p>
+      <p>At the meeting, 700 members attended. Of these, 600 members actually voted. The members who voted represented shares having a paid-up value of ₹80 lakh. Members voting in favour represented 460 members holding shares having a paid-up value of ₹62 lakh.</p>
+      <p>The management claimed that the scheme was approved because the value represented by members voting in favour exceeded three-fourths of the total value of shares of all members who attended the meeting.</p>
+    `,
   questions: [
-
     {
       id: "CAA_MEDIUM_02_1",
       question: "For Section 230(6), the three-fourths value requirement is calculated with reference to:",
-      options: [
-        "All shareholders of the company",
-        "Members present and voting",
-        "Only members absent from the meeting",
-        "The authorised share capital"
-      ],
+      options: ["All shareholders of the company", "Members present and voting", "Only members absent from the meeting", "The authorised share capital"],
       answer: 1,
       explanation: "The three-fourths value is computed with reference to the value represented by members present and voting."
     },
-
     {
       id: "CAA_MEDIUM_02_2",
       question: "The value of shares represented by members voting in favour is ₹62 lakh against ₹80 lakh represented by all members voting. Has the three-fourths value requirement been satisfied?",
@@ -18685,54 +13630,34 @@ const AICaseStudies = [
         "Yes, because ₹62 lakh is more than half",
         "Yes, because attendance exceeds 50%",
         "No, because ₹62 lakh is less than ₹60 lakh",
-        "No, because ₹62 lakh is less than three-fourths of ₹80 lakh"
+        "No, because ₹62 lakh is less than three-fourths of ₹80 lakh",
       ],
       answer: 3,
       explanation: "Three-fourths of ₹80 lakh is ₹60 lakh. Since ₹62 lakh exceeds ₹60 lakh, the value requirement is actually satisfied. However, the option stating that it is not satisfied is incorrect. Therefore this question tests the calculation: the correct conclusion is that the value requirement IS satisfied."
     },
-
     {
       id: "CAA_MEDIUM_02_3",
       question: "If 600 members voted and 460 voted in favour, the simple majority in number is:",
-      options: [
-        "Satisfied",
-        "Not satisfied",
-        "Exactly 50%",
-        "Irrelevant under Section 230"
-      ],
+      options: ["Satisfied", "Not satisfied", "Exactly 50%", "Irrelevant under Section 230"],
       answer: 0,
       explanation: "460 members voting in favour is more than half of 600 members who voted, so the simple majority in number is satisfied."
     },
-
     {
       id: "CAA_MEDIUM_02_4",
       question: "The approval requirement under Section 230(6) is best described as:",
-      options: [
-        "Three-fourths majority in number only",
-        "Simple majority in number plus three-fourths in value of those voting",
-        "Nine-tenths majority in number only",
-        "Unanimous approval"
-      ],
+      options: ["Three-fourths majority in number only", "Simple majority in number plus three-fourths in value of those voting", "Nine-tenths majority in number only", "Unanimous approval"],
       answer: 1,
       explanation: "The requirement involves a majority in number of persons voting and persons representing three-fourths in value of those voting."
     },
-
     {
       id: "CAA_MEDIUM_02_5",
       question: "The management's statement that the value must be calculated using all 1,000 members is:",
-      options: [
-        "Correct",
-        "Incorrect",
-        "Correct only for creditors",
-        "Correct only for listed companies"
-      ],
+      options: ["Correct", "Incorrect", "Correct only for creditors", "Correct only for listed companies"],
       answer: 1,
       explanation: "For the three-fourths value requirement, the relevant base is the value represented by members present and voting."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 3
 ========================================================= */
@@ -18741,87 +13666,48 @@ const AICaseStudies = [
   difficulty: "Medium",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Crystal Pharma Limited</strong> proposed a scheme of compromise. One shareholder,
-    holding 6% of the company's shareholding, objected to the scheme. Another shareholder holding
-    12% of the shareholding also objected.</p>
-
-    <p>A creditor having outstanding debt equal to 4% of the company's total outstanding debt
-    also wanted to challenge the scheme. Another creditor had outstanding debt equal to 6% of
-    the total outstanding debt.</p>
-
-    <p>The company informed the objectors that Section 230(4) places minimum thresholds on persons
-    who may raise objections to a compromise or arrangement.</p>
-  `,
+      <p><strong>Crystal Pharma Limited</strong> proposed a scheme of compromise. One shareholder, holding 6% of the company's shareholding, objected to the scheme. Another shareholder holding 12% of the shareholding also objected.</p>
+      <p>A creditor having outstanding debt equal to 4% of the company's total outstanding debt also wanted to challenge the scheme. Another creditor had outstanding debt equal to 6% of the total outstanding debt.</p>
+      <p>The company informed the objectors that Section 230(4) places minimum thresholds on persons who may raise objections to a compromise or arrangement.</p>
+    `,
   questions: [
-
     {
       id: "CAA_MEDIUM_03_1",
       question: "A member holding 6% shareholding can independently raise an objection under the threshold specified in Section 230(4)?",
-      options: [
-        "Yes",
-        "No",
-        "Yes, if the company is listed",
-        "Yes, if the creditor agrees"
-      ],
+      options: ["Yes", "No", "Yes, if the company is listed", "Yes, if the creditor agrees"],
       answer: 1,
       explanation: "An objection may be made only by persons holding not less than 10% of the shareholding."
     },
-
     {
       id: "CAA_MEDIUM_03_2",
       question: "A member holding 12% shareholding satisfies the statutory shareholding threshold for objection.",
-      options: [
-        "True",
-        "False",
-        "Only if holding is in preference shares",
-        "Only if the member is a director"
-      ],
+      options: ["True", "False", "Only if holding is in preference shares", "Only if the member is a director"],
       answer: 0,
       explanation: "The statutory threshold is not less than 10% of shareholding."
     },
-
     {
       id: "CAA_MEDIUM_03_3",
       question: "A creditor holding 4% of the total outstanding debt satisfies the debt threshold for objection.",
-      options: [
-        "Yes",
-        "No",
-        "Only if unsecured",
-        "Only if secured"
-      ],
+      options: ["Yes", "No", "Only if unsecured", "Only if secured"],
       answer: 1,
       explanation: "The threshold is outstanding debt amounting to not less than 5% of the total outstanding debt."
     },
-
     {
       id: "CAA_MEDIUM_03_4",
       question: "A creditor holding 6% of the total outstanding debt satisfies the threshold.",
-      options: [
-        "Yes",
-        "No",
-        "Only with Tribunal permission",
-        "Only with Central Government permission"
-      ],
+      options: ["Yes", "No", "Only with Tribunal permission", "Only with Central Government permission"],
       answer: 0,
       explanation: "Six per cent exceeds the statutory minimum of 5%."
     },
-
     {
       id: "CAA_MEDIUM_03_5",
       question: "The thresholds for objections under Section 230(4) are:",
-      options: [
-        "10% shareholding or 5% outstanding debt",
-        "5% shareholding or 10% outstanding debt",
-        "25% shareholding or 10% outstanding debt",
-        "51% shareholding or 25% outstanding debt"
-      ],
+      options: ["10% shareholding or 5% outstanding debt", "5% shareholding or 10% outstanding debt", "25% shareholding or 10% outstanding debt", "51% shareholding or 25% outstanding debt"],
       answer: 0,
       explanation: "The proviso permits objections by persons holding not less than 10% shareholding or having outstanding debt of not less than 5% of total outstanding debt."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 4
 ========================================================= */
@@ -18830,87 +13716,48 @@ const AICaseStudies = [
   difficulty: "Medium",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Delta Motors Limited</strong> proposed a scheme under Section 230 which included
-    conversion of preference shares into equity shares. The preference shareholders had accumulated
-    arrears of dividend.</p>
-
-    <p>The Tribunal considered the scheme and proposed that the preference shareholders should
-    receive an appropriate choice concerning their arrears of dividend. The scheme also affected
-    the rights of one particular class of creditors.</p>
-
-    <p>The Tribunal considered whether specific protections and arrangements should be incorporated
-    in its order sanctioning the scheme.</p>
-  `,
+      <p><strong>Delta Motors Limited</strong> proposed a scheme under Section 230 which included conversion of preference shares into equity shares. The preference shareholders had accumulated arrears of dividend.</p>
+      <p>The Tribunal considered the scheme and proposed that the preference shareholders should receive an appropriate choice concerning their arrears of dividend. The scheme also affected the rights of one particular class of creditors.</p>
+      <p>The Tribunal considered whether specific protections and arrangements should be incorporated in its order sanctioning the scheme.</p>
+    `,
   questions: [
-
     {
       id: "CAA_MEDIUM_04_1",
       question: "Where preference shares are converted into equity shares under the compromise, preference shareholders may be given an option regarding:",
-      options: [
-        "Arrears of dividend",
-        "Appointment of directors",
-        "Reduction of authorised capital only",
-        "Appointment of auditors"
-      ],
+      options: ["Arrears of dividend", "Appointment of directors", "Reduction of authorised capital only", "Appointment of auditors"],
       answer: 0,
       explanation: "Section 230(7) provides for an option to preference shareholders to obtain arrears of dividend in cash or accept equity shares equal to the value of the dividend payable."
     },
-
     {
       id: "CAA_MEDIUM_04_2",
       question: "The Tribunal's order may provide for:",
-      options: [
-        "Protection of any class of creditors",
-        "Cancellation of all creditor rights",
-        "Automatic liquidation",
-        "Removal of all shareholders"
-      ],
+      options: ["Protection of any class of creditors", "Cancellation of all creditor rights", "Automatic liquidation", "Removal of all shareholders"],
       answer: 0,
       explanation: "Protection of any class of creditors is one of the matters that may be provided for in the Tribunal's order."
     },
-
     {
       id: "CAA_MEDIUM_04_3",
       question: "If the compromise results in variation of shareholders' rights, such variation is given effect to under:",
-      options: [
-        "Section 48",
-        "Section 68",
-        "Section 90",
-        "Section 236"
-      ],
+      options: ["Section 48", "Section 68", "Section 90", "Section 236"],
       answer: 0,
       explanation: "Section 230(7) provides that variation of shareholders' rights shall be given effect under Section 48."
     },
-
     {
       id: "CAA_MEDIUM_04_4",
       question: "Before sanctioning the scheme, the Tribunal requires an auditor's certificate regarding:",
-      options: [
-        "Compliance of proposed accounting treatment with applicable accounting standards",
-        "Payment of all taxes",
-        "Profitability of the company",
-        "Future share price"
-      ],
+      options: ["Compliance of proposed accounting treatment with applicable accounting standards", "Payment of all taxes", "Profitability of the company", "Future share price"],
       answer: 0,
       explanation: "The auditor must certify that the proposed accounting treatment is in conformity with the accounting standards prescribed under Section 133."
     },
-
     {
       id: "CAA_MEDIUM_04_5",
       question: "Which of the following may also be included in the Tribunal's order?",
-      options: [
-        "Exit offer to dissenting shareholders",
-        "Appointment of all creditors as directors",
-        "Automatic exemption from all laws",
-        "Cancellation of all liabilities"
-      ],
+      options: ["Exit offer to dissenting shareholders", "Appointment of all creditors as directors", "Automatic exemption from all laws", "Cancellation of all liabilities"],
       answer: 0,
       explanation: "The Tribunal may provide for matters including an exit offer to dissenting shareholders where necessary for implementation."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 5
 ========================================================= */
@@ -18919,86 +13766,48 @@ const AICaseStudies = [
   difficulty: "Medium",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Evergreen Industries Limited</strong> received an order from the NCLT sanctioning
-    its scheme of compromise. The company received the certified copy of the order on 1st June.</p>
-
-    <p>The directors assumed that filing the order with the Registrar could be delayed until
-    the end of the financial year. The company secretary, however, pointed out that the Act
-    prescribes a specific period for filing the Tribunal's order with the Registrar.</p>
-
-    <p>The company also wanted to include a buy-back arrangement in the compromise which did
-    not comply with the requirements of Section 68.</p>
-  `,
+      <p><strong>Evergreen Industries Limited</strong> received an order from the NCLT sanctioning its scheme of compromise. The company received the certified copy of the order on 1st June.</p>
+      <p>The directors assumed that filing the order with the Registrar could be delayed until the end of the financial year. The company secretary, however, pointed out that the Act prescribes a specific period for filing the Tribunal's order with the Registrar.</p>
+      <p>The company also wanted to include a buy-back arrangement in the compromise which did not comply with the requirements of Section 68.</p>
+    `,
   questions: [
-
     {
       id: "CAA_MEDIUM_05_1",
       question: "The Tribunal's order under Section 230 must be filed with the Registrar within:",
-      options: [
-        "15 days of receipt",
-        "30 days of receipt",
-        "60 days of receipt",
-        "90 days of receipt"
-      ],
+      options: ["15 days of receipt", "30 days of receipt", "60 days of receipt", "90 days of receipt"],
       answer: 1,
       explanation: "Section 230(8) requires the company to file the Tribunal's order with the Registrar within 30 days of receipt of the order."
     },
-
     {
       id: "CAA_MEDIUM_05_2",
       question: "If the certified order is received on 1 June, the normal statutory filing period ends after:",
-      options: [
-        "15 days",
-        "30 days",
-        "45 days",
-        "90 days"
-      ],
+      options: ["15 days", "30 days", "45 days", "90 days"],
       answer: 1,
       explanation: "The order must be filed within 30 days from receipt."
     },
-
     {
       id: "CAA_MEDIUM_05_3",
       question: "A compromise relating to buy-back of securities may be sanctioned only if the buy-back complies with:",
-      options: [
-        "Section 68",
-        "Section 90",
-        "Section 148",
-        "Section 236"
-      ],
+      options: ["Section 68", "Section 90", "Section 148", "Section 236"],
       answer: 0,
       explanation: "Section 230(10) states that a buy-back under a compromise or arrangement must comply with Section 68."
     },
-
     {
       id: "CAA_MEDIUM_05_4",
       question: "Which authority receives the filed order for registration?",
-      options: [
-        "Registrar of Companies",
-        "RBI",
-        "SEBI only",
-        "Income-tax Department"
-      ],
+      options: ["Registrar of Companies", "RBI", "SEBI only", "Income-tax Department"],
       answer: 0,
       explanation: "The Tribunal's order is filed with the Registrar for registration."
     },
-
     {
       id: "CAA_MEDIUM_05_5",
       question: "The directors' proposal to wait until the end of the financial year is:",
-      options: [
-        "Correct",
-        "Incorrect",
-        "Correct only for listed companies",
-        "Correct only where creditors consent"
-      ],
+      options: ["Correct", "Incorrect", "Correct only for listed companies", "Correct only where creditors consent"],
       answer: 1,
       explanation: "The Act specifically prescribes a 30-day period from receipt of the order."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 6
 ========================================================= */
@@ -19007,87 +13816,48 @@ const AICaseStudies = [
   difficulty: "Medium",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Fusion Technologies Limited</strong> proposed a merger with Innovate Systems
-    Limited. Fusion was the transferor company and Innovate was the transferee company.</p>
-
-    <p>The scheme provided for transfer of all assets and liabilities of Fusion to Innovate.
-    It also provided for continuation of pending legal proceedings and transfer of employees
-    to Innovate.</p>
-
-    <p>Fusion was a listed company whereas Innovate was unlisted. Some shareholders of Fusion
-    did not wish to become shareholders of the unlisted transferee company and requested an
-    exit option.</p>
-  `,
+      <p><strong>Fusion Technologies Limited</strong> proposed a merger with Innovate Systems Limited. Fusion was the transferor company and Innovate was the transferee company.</p>
+      <p>The scheme provided for transfer of all assets and liabilities of Fusion to Innovate. It also provided for continuation of pending legal proceedings and transfer of employees to Innovate.</p>
+      <p>Fusion was a listed company whereas Innovate was unlisted. Some shareholders of Fusion did not wish to become shareholders of the unlisted transferee company and requested an exit option.</p>
+    `,
   questions: [
-
     {
       id: "CAA_MEDIUM_06_1",
       question: "Where the transferor company is listed and the transferee company is unlisted, the transferee company:",
-      options: [
-        "Automatically becomes listed",
-        "Remains unlisted until it becomes a listed company",
-        "Must be dissolved",
-        "Must transfer all assets to SEBI"
-      ],
+      options: ["Automatically becomes listed", "Remains unlisted until it becomes a listed company", "Must be dissolved", "Must transfer all assets to SEBI"],
       answer: 1,
       explanation: "Under Section 232(3), the transferee company remains unlisted until it becomes a listed company."
     },
-
     {
       id: "CAA_MEDIUM_06_2",
       question: "Shareholders of the listed transferor company may be provided an option to:",
-      options: [
-        "Opt out and receive the value of their shares as provided under the scheme",
-        "Cancel the merger themselves",
-        "Appoint the Tribunal",
-        "Avoid all tax liabilities"
-      ],
+      options: ["Opt out and receive the value of their shares as provided under the scheme", "Cancel the merger themselves", "Appoint the Tribunal", "Avoid all tax liabilities"],
       answer: 0,
       explanation: "Where the transferor is listed and transferee is unlisted, provision may be made for shareholders to opt out and receive the value of their shares according to the prescribed arrangement."
     },
-
     {
       id: "CAA_MEDIUM_06_3",
       question: "The amount payable under the exit arrangement should not be less than:",
-      options: [
-        "The minimum specified by SEBI regulations",
-        "The face value in every case",
-        "The book value only",
-        "The amount decided by directors alone"
-      ],
+      options: ["The minimum specified by SEBI regulations", "The face value in every case", "The book value only", "The amount decided by directors alone"],
       answer: 0,
       explanation: "The payment or valuation should not be less than the amount specified by SEBI under applicable regulations."
     },
-
     {
       id: "CAA_MEDIUM_06_4",
       question: "Pending legal proceedings of Fusion may continue:",
-      options: [
-        "By or against Innovate",
-        "Only against shareholders",
-        "Only against directors",
-        "They must automatically terminate"
-      ],
+      options: ["By or against Innovate", "Only against shareholders", "Only against directors", "They must automatically terminate"],
       answer: 0,
       explanation: "The Tribunal's order may provide for continuation of pending legal proceedings by or against the transferee company."
     },
-
     {
       id: "CAA_MEDIUM_06_5",
       question: "Employees of the transferor company may be:",
-      options: [
-        "Transferred to the transferee company under the scheme",
-        "Automatically dismissed",
-        "Transferred to the Registrar",
-        "Transferred to the Central Government"
-      ],
+      options: ["Transferred to the transferee company under the scheme", "Automatically dismissed", "Transferred to the Registrar", "Transferred to the Central Government"],
       answer: 0,
       explanation: "Section 232 permits provision for transfer of employees of the transferor company to the transferee company."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 7
 ========================================================= */
@@ -19096,87 +13866,48 @@ const AICaseStudies = [
   difficulty: "Medium",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Green Energy Limited</strong> and <strong>Green Power Limited</strong> proposed
-    a merger. The companies prepared the draft scheme and adopted it through their respective
-    Boards.</p>
-
-    <p>The companies also prepared a directors' report explaining the effect of the scheme on
-    different classes of shareholders, promoters, non-promoter shareholders and key managerial
-    personnel. A valuation expert prepared a report concerning the share exchange ratio.</p>
-
-    <p>The last annual accounts of one of the companies related to a financial year ending more
-    than six months before the first meeting called to approve the scheme.</p>
-  `,
+      <p><strong>Green Energy Limited</strong> and <strong>Green Power Limited</strong> proposed a merger. The companies prepared the draft scheme and adopted it through their respective Boards.</p>
+      <p>The companies also prepared a directors' report explaining the effect of the scheme on different classes of shareholders, promoters, non-promoter shareholders and key managerial personnel. A valuation expert prepared a report concerning the share exchange ratio.</p>
+      <p>The last annual accounts of one of the companies related to a financial year ending more than six months before the first meeting called to approve the scheme.</p>
+    `,
   questions: [
-
     {
       id: "CAA_MEDIUM_07_1",
       question: "The draft terms of the merger scheme are required to be:",
-      options: [
-        "Drawn up and adopted by the directors of the merging company",
-        "Prepared only by the Registrar",
-        "Prepared only by the creditors",
-        "Prepared only by SEBI"
-      ],
+      options: ["Drawn up and adopted by the directors of the merging company", "Prepared only by the Registrar", "Prepared only by the creditors", "Prepared only by SEBI"],
       answer: 0,
       explanation: "Section 232(2) requires circulation of the draft proposed terms drawn up and adopted by the directors of the merging company."
     },
-
     {
       id: "CAA_MEDIUM_07_2",
       question: "The directors' report should explain the effect of the compromise on:",
-      options: [
-        "Shareholders and other specified stakeholders",
-        "Only directors",
-        "Only creditors",
-        "Only employees"
-      ],
+      options: ["Shareholders and other specified stakeholders", "Only directors", "Only creditors", "Only employees"],
       answer: 0,
       explanation: "The directors' report explains the effect on classes of shareholders, KMPs, promoters and non-promoter shareholders and includes the share exchange ratio."
     },
-
     {
       id: "CAA_MEDIUM_07_3",
       question: "A valuation report may be prepared by:",
-      options: [
-        "An expert concerning valuation",
-        "Only the Registrar",
-        "Only the Tribunal",
-        "Only the creditors"
-      ],
+      options: ["An expert concerning valuation", "Only the Registrar", "Only the Tribunal", "Only the creditors"],
       answer: 0,
       explanation: "Section 232(2) requires circulation of the report of the expert with regard to valuation, if any."
     },
-
     {
       id: "CAA_MEDIUM_07_4",
       question: "Where the last annual accounts relate to a financial year ending more than six months before the first meeting, the company should provide:",
-      options: [
-        "A supplementary accounting statement",
-        "A winding-up petition",
-        "A new memorandum",
-        "A new certificate of incorporation"
-      ],
+      options: ["A supplementary accounting statement", "A winding-up petition", "A new memorandum", "A new certificate of incorporation"],
       answer: 0,
       explanation: "A supplementary accounting statement is required in such circumstances."
     },
-
     {
       id: "CAA_MEDIUM_07_5",
       question: "The purpose of the directors' report on the scheme includes explaining:",
-      options: [
-        "The share exchange ratio",
-        "Only employee salaries",
-        "Only tax rates",
-        "Only authorised capital"
-      ],
+      options: ["The share exchange ratio", "Only employee salaries", "Only tax rates", "Only authorised capital"],
       answer: 0,
       explanation: "The directors' report specifically lays out the share exchange ratio and any special valuation difficulties."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 8
 ========================================================= */
@@ -19185,88 +13916,48 @@ const AICaseStudies = [
   difficulty: "Medium",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Heritage Industries Limited</strong> and <strong>Modern Industries Limited</strong>
-    were considering a merger. Under the scheme, Heritage's assets and liabilities would transfer
-    to Modern. Certain shares of Modern were already held by Heritage as part of an earlier
-    transaction.</p>
-
-    <p>The legal adviser informed the Board that the transferee company should not end up holding
-    shares in its own name, or through a trust, on behalf of itself or its subsidiary or associate
-    company as a result of the scheme.</p>
-
-    <p>The scheme therefore contained a provision for cancellation or extinguishment of such
-    shares.</p>
-  `,
+      <p><strong>Heritage Industries Limited</strong> and <strong>Modern Industries Limited</strong> were considering a merger. Under the scheme, Heritage's assets and liabilities would transfer to Modern. Certain shares of Modern were already held by Heritage as part of an earlier transaction.</p>
+      <p>The legal adviser informed the Board that the transferee company should not end up holding shares in its own name, or through a trust, on behalf of itself or its subsidiary or associate company as a result of the scheme.</p>
+      <p>The scheme therefore contained a provision for cancellation or extinguishment of such shares.</p>
+    `,
   questions: [
-
     {
       id: "CAA_MEDIUM_08_1",
       question: "Under Section 232, the transferee company should not, as a result of the scheme, hold shares:",
-      options: [
-        "In its own name",
-        "In the name of a trust on its behalf",
-        "On behalf of its subsidiary or associate in the specified circumstances",
-        "All of the above"
-      ],
+      options: ["In its own name", "In the name of a trust on its behalf", "On behalf of its subsidiary or associate in the specified circumstances", "All of the above"],
       answer: 3,
       explanation: "Section 232 restricts such holdings and provides that such shares are to be cancelled or extinguished."
     },
-
     {
       id: "CAA_MEDIUM_08_2",
       question: "Shares held contrary to the above requirement are:",
-      options: [
-        "Cancelled or extinguished",
-        "Automatically converted into debentures",
-        "Transferred to the Registrar",
-        "Transferred to employees"
-      ],
+      options: ["Cancelled or extinguished", "Automatically converted into debentures", "Transferred to the Registrar", "Transferred to employees"],
       answer: 0,
       explanation: "The Act provides that such shares shall be cancelled or extinguished."
     },
-
     {
       id: "CAA_MEDIUM_08_3",
       question: "The restriction is mainly intended to prevent:",
-      options: [
-        "The transferee company from indirectly holding its own shares through the merger scheme",
-        "Payment of dividends",
-        "Issue of preference shares",
-        "Appointment of auditors"
-      ],
+      options: ["The transferee company from indirectly holding its own shares through the merger scheme", "Payment of dividends", "Issue of preference shares", "Appointment of auditors"],
       answer: 0,
       explanation: "The provision prevents the transferee company from holding its own shares, directly or through specified structures, as a consequence of the scheme."
     },
-
     {
       id: "CAA_MEDIUM_08_4",
       question: "The relevant provision is contained in:",
-      options: [
-        "Section 232",
-        "Section 234",
-        "Section 237",
-        "Section 240"
-      ],
+      options: ["Section 232", "Section 234", "Section 237", "Section 240"],
       answer: 0,
       explanation: "The restriction appears in Section 232(3)(b)."
     },
-
     {
       id: "CAA_MEDIUM_08_5",
       question: "The cancellation of such shares is connected with:",
-      options: [
-        "Implementation of the merger or amalgamation scheme",
-        "Annual audit",
-        "Tax assessment",
-        "Appointment of directors"
-      ],
+      options: ["Implementation of the merger or amalgamation scheme", "Annual audit", "Tax assessment", "Appointment of directors"],
       answer: 0,
       explanation: "The cancellation or extinguishment is a consequence of the merger or amalgamation scheme."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 9
 ========================================================= */
@@ -19275,86 +13966,48 @@ const AICaseStudies = [
   difficulty: "Medium",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Indian Foods Limited</strong> was considering a merger with a foreign company
-    incorporated outside India. The foreign company was located in a jurisdiction permitted
-    under the applicable rules.</p>
-
-    <p>The proposed cross-border merger contemplated payment of consideration to shareholders
-    of the foreign company partly in cash and partly through depository receipts.</p>
-
-    <p>The legal adviser informed the Board that prior approval of the Reserve Bank of India
-    and compliance with the applicable provisions of the Companies Act were required.</p>
-  `,
+      <p><strong>Indian Foods Limited</strong> was considering a merger with a foreign company incorporated outside India. The foreign company was located in a jurisdiction permitted under the applicable rules.</p>
+      <p>The proposed cross-border merger contemplated payment of consideration to shareholders of the foreign company partly in cash and partly through depository receipts.</p>
+      <p>The legal adviser informed the Board that prior approval of the Reserve Bank of India and compliance with the applicable provisions of the Companies Act were required.</p>
+    `,
   questions: [
-
     {
       id: "CAA_MEDIUM_09_1",
       question: "Cross-border mergers between Indian companies and foreign companies are primarily dealt with under:",
-      options: [
-        "Section 234",
-        "Section 236",
-        "Section 239",
-        "Section 240"
-      ],
+      options: ["Section 234", "Section 236", "Section 239", "Section 240"],
       answer: 0,
       explanation: "Section 234 deals with merger or amalgamation of an Indian company with a foreign company."
     },
-
     {
       id: "CAA_MEDIUM_09_2",
       question: "A foreign company merging with an Indian company requires prior approval of:",
-      options: [
-        "RBI",
-        "Only SEBI",
-        "Only ROC",
-        "Only the Income-tax Department"
-      ],
+      options: ["RBI", "Only SEBI", "Only ROC", "Only the Income-tax Department"],
       answer: 0,
       explanation: "Section 234 provides for prior approval of the Reserve Bank of India in the relevant cross-border merger."
     },
-
     {
       id: "CAA_MEDIUM_09_3",
       question: "Consideration to shareholders of the merging foreign company may be provided in:",
-      options: [
-        "Cash",
-        "Depository Receipts",
-        "Partly cash and partly Depository Receipts",
-        "All of the above"
-      ],
+      options: ["Cash", "Depository Receipts", "Partly cash and partly Depository Receipts", "All of the above"],
       answer: 3,
       explanation: "The scheme may provide consideration in cash, depository receipts, or partly in cash and partly in depository receipts."
     },
-
     {
       id: "CAA_MEDIUM_09_4",
       question: "The Indian company and foreign company must comply with:",
-      options: [
-        "Applicable provisions of Sections 230 to 232 and relevant rules",
-        "Only Section 236",
-        "Only Section 239",
-        "Only the Income-tax Act"
-      ],
+      options: ["Applicable provisions of Sections 230 to 232 and relevant rules", "Only Section 236", "Only Section 239", "Only the Income-tax Act"],
       answer: 0,
       explanation: "Cross-border mergers must comply with Sections 230 to 232 and the applicable rules, in addition to the RBI requirements."
     },
-
     {
       id: "CAA_MEDIUM_09_5",
       question: "The detailed procedural requirements for cross-border mergers are prescribed under:",
-      options: [
-        "Rule 25A of the Companies (Compromises, Arrangements and Amalgamations) Rules, 2016",
-        "Rule 27 only",
-        "Section 68 rules",
-        "SEBI Listing Regulations only"
-      ],
+      options: ["Rule 25A of the Companies (Compromises, Arrangements and Amalgamations) Rules, 2016", "Rule 27 only", "Section 68 rules", "SEBI Listing Regulations only"],
       answer: 0,
       explanation: "Rule 25A prescribes the relevant procedure for cross-border mergers."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 10
 ========================================================= */
@@ -19363,86 +14016,48 @@ const AICaseStudies = [
   difficulty: "Medium",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Rapid Solutions Limited</strong> was a wholly-owned subsidiary of
-    Prime Holdings Limited. The companies decided to use the fast-track merger mechanism.</p>
-
-    <p>The companies issued notices inviting objections and suggestions from the Registrar
-    and Official Liquidator. Their members approved the scheme by the required majority.
-    Each company also filed the prescribed declaration of solvency.</p>
-
-    <p>A meeting of creditors was convened with 21 days' notice. The scheme was approved by
-    creditors representing nine-tenths in value.</p>
-  `,
+      <p><strong>Rapid Solutions Limited</strong> was a wholly-owned subsidiary of Prime Holdings Limited. The companies decided to use the fast-track merger mechanism.</p>
+      <p>The companies issued notices inviting objections and suggestions from the Registrar and Official Liquidator. Their members approved the scheme by the required majority. Each company also filed the prescribed declaration of solvency.</p>
+      <p>A meeting of creditors was convened with 21 days' notice. The scheme was approved by creditors representing nine-tenths in value.</p>
+    `,
   questions: [
-
     {
       id: "CAA_MEDIUM_10_1",
       question: "Under the fast-track procedure, notice inviting objections and suggestions is generally given for:",
-      options: [
-        "15 days",
-        "21 days",
-        "30 days",
-        "60 days"
-      ],
+      options: ["15 days", "21 days", "30 days", "60 days"],
       answer: 2,
       explanation: "The notice invites objections or suggestions within 30 days."
     },
-
     {
       id: "CAA_MEDIUM_10_2",
       question: "The creditors' meeting is convened by giving a notice of:",
-      options: [
-        "7 days",
-        "15 days",
-        "21 days",
-        "30 days"
-      ],
+      options: ["7 days", "15 days", "21 days", "30 days"],
       answer: 2,
       explanation: "Section 233 provides for a 21-day notice to creditors for the meeting."
     },
-
     {
       id: "CAA_MEDIUM_10_3",
       question: "Approval by creditors requires a majority representing:",
-      options: [
-        "51% in value",
-        "75% in value",
-        "90% in value",
-        "100% in value"
-      ],
+      options: ["51% in value", "75% in value", "90% in value", "100% in value"],
       answer: 2,
       explanation: "The fast-track scheme requires approval by a majority representing nine-tenths in value of the creditors or relevant class."
     },
-
     {
       id: "CAA_MEDIUM_10_4",
       question: "Each company involved in the fast-track merger is required to file:",
-      options: [
-        "Declaration of solvency",
-        "Winding-up petition",
-        "Tax exemption certificate",
-        "SEBI registration certificate"
-      ],
+      options: ["Declaration of solvency", "Winding-up petition", "Tax exemption certificate", "SEBI registration certificate"],
       answer: 0,
       explanation: "Each company involved in the merger is required to file a declaration of solvency."
     },
-
     {
       id: "CAA_MEDIUM_10_5",
       question: "The fast-track merger scheme is filed by the transferee company with:",
-      options: [
-        "Central Government, Registrar and Official Liquidator",
-        "Only SEBI",
-        "Only RBI",
-        "Only NCLAT"
-      ],
+      options: ["Central Government, Registrar and Official Liquidator", "Only SEBI", "Only RBI", "Only NCLAT"],
       answer: 0,
       explanation: "The approved scheme is filed with the Central Government, Registrar and Official Liquidators in the prescribed manner."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 11
 ========================================================= */
@@ -19451,87 +14066,48 @@ const AICaseStudies = [
   difficulty: "Medium",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Sunrise Software Limited</strong> was eligible for a fast-track merger under
-    Section 233. The scheme was filed with the Central Government after approval by the
-    companies and creditors.</p>
-
-    <p>The Registrar raised certain objections within the prescribed period. The Official
-    Liquidator also made suggestions regarding the treatment of certain liabilities.</p>
-
-    <p>The Central Government considered the objections and concluded that the scheme might
-    not be in the public interest. It therefore considered referring the matter to the Tribunal
-    for consideration under the normal merger procedure.</p>
-  `,
+      <p><strong>Sunrise Software Limited</strong> was eligible for a fast-track merger under Section 233. The scheme was filed with the Central Government after approval by the companies and creditors.</p>
+      <p>The Registrar raised certain objections within the prescribed period. The Official Liquidator also made suggestions regarding the treatment of certain liabilities.</p>
+      <p>The Central Government considered the objections and concluded that the scheme might not be in the public interest. It therefore considered referring the matter to the Tribunal for consideration under the normal merger procedure.</p>
+    `,
   questions: [
-
     {
       id: "CAA_MEDIUM_11_1",
       question: "If the Registrar or Official Liquidator has objections or suggestions, they are communicated to:",
-      options: [
-        "Central Government",
-        "Only the shareholders",
-        "Only SEBI",
-        "Only RBI"
-      ],
+      options: ["Central Government", "Only the shareholders", "Only SEBI", "Only RBI"],
       answer: 0,
       explanation: "Objections or suggestions are communicated in writing to the Central Government."
     },
-
     {
       id: "CAA_MEDIUM_11_2",
       question: "If no objection or suggestion is communicated within the prescribed period, it is presumed that:",
-      options: [
-        "The scheme is rejected",
-        "There is no objection or suggestion",
-        "The company must be wound up",
-        "The scheme automatically becomes void"
-      ],
+      options: ["The scheme is rejected", "There is no objection or suggestion", "The company must be wound up", "The scheme automatically becomes void"],
       answer: 1,
       explanation: "If no communication is made within the prescribed period, it is presumed that there is no objection."
     },
-
     {
       id: "CAA_MEDIUM_11_3",
       question: "If the Central Government considers the scheme not to be in public interest or creditors' interest, it may approach:",
-      options: [
-        "NCLT",
-        "SEBI",
-        "RBI",
-        "High Court only"
-      ],
+      options: ["NCLT", "SEBI", "RBI", "High Court only"],
       answer: 0,
       explanation: "The Central Government may file an application before the Tribunal requesting consideration under Section 232."
     },
-
     {
       id: "CAA_MEDIUM_11_4",
       question: "The Central Government may file such application before the Tribunal within:",
-      options: [
-        "30 days of receipt of the scheme",
-        "45 days of receipt",
-        "60 days of receipt",
-        "90 days of receipt"
-      ],
+      options: ["30 days of receipt of the scheme", "45 days of receipt", "60 days of receipt", "90 days of receipt"],
       answer: 2,
       explanation: "The application may be filed before the Tribunal within 60 days of receipt of the scheme."
     },
-
     {
       id: "CAA_MEDIUM_11_5",
       question: "If the Tribunal considers that the scheme should follow the normal procedure, it may direct consideration under:",
-      options: [
-        "Section 232",
-        "Section 236",
-        "Section 239",
-        "Section 240"
-      ],
+      options: ["Section 232", "Section 236", "Section 239", "Section 240"],
       answer: 0,
       explanation: "The Tribunal may direct that the scheme be considered under the procedure laid down in Section 232."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 12
 ========================================================= */
@@ -19540,71 +14116,39 @@ const AICaseStudies = [
   difficulty: "Medium",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>National Retail Limited</strong> made an offer under Section 235 to acquire
-    shares of Retail Stores Limited. The offer remained open for four months.</p>
-
-    <p>Within the four-month period, shareholders holding 92% in value of the shares involved
-    in the transfer approved the offer. National Retail Limited thereafter decided to acquire
-    the shares of the remaining dissenting shareholders.</p>
-
-    <p>The transferee company sent the required notice to the dissenting shareholders. One of
-    the dissenting shareholders approached the Tribunal within one month from the date of notice,
-    requesting an order preventing the acquisition.</p>
-  `,
+      <p><strong>National Retail Limited</strong> made an offer under Section 235 to acquire shares of Retail Stores Limited. The offer remained open for four months.</p>
+      <p>Within the four-month period, shareholders holding 92% in value of the shares involved in the transfer approved the offer. National Retail Limited thereafter decided to acquire the shares of the remaining dissenting shareholders.</p>
+      <p>The transferee company sent the required notice to the dissenting shareholders. One of the dissenting shareholders approached the Tribunal within one month from the date of notice, requesting an order preventing the acquisition.</p>
+    `,
   questions: [
-
     {
       id: "CAA_MEDIUM_12_1",
       question: "For Section 235 to apply, approval should be obtained from holders of at least:",
-      options: [
-        "75% in value",
-        "80% in value",
-        "90% in value",
-        "95% in value"
-      ],
+      options: ["75% in value", "80% in value", "90% in value", "95% in value"],
       answer: 2,
       explanation: "Section 235 requires approval by holders of not less than nine-tenths in value of the shares whose transfer is involved."
     },
-
     {
       id: "CAA_MEDIUM_12_2",
       question: "The 90% approval must generally be received within:",
-      options: [
-        "One month of the offer",
-        "Two months of the offer",
-        "Four months after making the offer",
-        "One year after the offer"
-      ],
+      options: ["One month of the offer", "Two months of the offer", "Four months after making the offer", "One year after the offer"],
       answer: 2,
       explanation: "The approval must be received within four months after making the offer."
     },
-
     {
       id: "CAA_MEDIUM_12_3",
       question: "After expiry of the four-month period, the transferee company must express its desire to acquire the remaining shares within:",
-      options: [
-        "15 days",
-        "One month",
-        "Two months",
-        "Six months"
-      ],
+      options: ["15 days", "One month", "Two months", "Six months"],
       answer: 2,
       explanation: "The transferee company must express its desire to acquire the remaining shares within two months after expiry of the four-month period."
     },
-
     {
       id: "CAA_MEDIUM_12_4",
       question: "A dissenting shareholder may approach the Tribunal within:",
-      options: [
-        "One month from the notice",
-        "Two months from the notice",
-        "Four months from the notice",
-        "One year from the notice"
-      ],
+      options: ["One month from the notice", "Two months from the notice", "Four months from the notice", "One year from the notice"],
       answer: 0,
       explanation: "A dissenting shareholder may apply to the Tribunal within one month from the date on which the notice was given."
     },
-
     {
       id: "CAA_MEDIUM_12_5",
       question: "If the Tribunal does not order otherwise, the transferee company is:",
@@ -19612,15 +14156,13 @@ const AICaseStudies = [
         "Entitled but not bound to acquire the shares",
         "Bound and entitled to acquire the dissenting shareholders' shares",
         "Prohibited from acquiring the shares",
-        "Required to buy only half of the shares"
+        "Required to buy only half of the shares",
       ],
       answer: 1,
       explanation: "Subject to the Tribunal's order, the transferee company is entitled to and bound to acquire the dissenting shareholders' shares on the applicable terms."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 13
 ========================================================= */
@@ -19629,59 +14171,32 @@ const AICaseStudies = [
   difficulty: "Medium",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Vertex Limited</strong> acquired 90% of the issued equity share capital of
-    another company through a share exchange arrangement. The remaining shares were held by
-    minority shareholders.</p>
-
-    <p>Vertex notified the company of its intention to purchase the remaining equity shares.
-    The price was determined by a registered valuer. The majority shareholders deposited the
-    amount equal to the value of shares to be acquired in a separate bank account operated by
-    the company.</p>
-
-    <p>Some minority shareholders did not deliver their physical share certificates within the
-    period specified by the company.</p>
-  `,
+      <p><strong>Vertex Limited</strong> acquired 90% of the issued equity share capital of another company through a share exchange arrangement. The remaining shares were held by minority shareholders.</p>
+      <p>Vertex notified the company of its intention to purchase the remaining equity shares. The price was determined by a registered valuer. The majority shareholders deposited the amount equal to the value of shares to be acquired in a separate bank account operated by the company.</p>
+      <p>Some minority shareholders did not deliver their physical share certificates within the period specified by the company.</p>
+    `,
   questions: [
-
     {
       id: "CAA_MEDIUM_13_1",
       question: "Section 236 can apply when 90% or more of the issued equity share capital is obtained by virtue of:",
-      options: [
-        "Amalgamation or share exchange",
-        "Only cash purchase",
-        "Only inheritance",
-        "Only bonus issue"
-      ],
+      options: ["Amalgamation or share exchange", "Only cash purchase", "Only inheritance", "Only bonus issue"],
       answer: 0,
       explanation: "Section 236 covers situations where 90% majority is achieved by amalgamation, share exchange, conversion of securities or other specified reasons."
     },
-
     {
       id: "CAA_MEDIUM_13_2",
       question: "The minority purchase price must be determined on the basis of valuation by:",
-      options: [
-        "Registered valuer",
-        "Company secretary alone",
-        "Board of directors alone",
-        "Registrar"
-      ],
+      options: ["Registered valuer", "Company secretary alone", "Board of directors alone", "Registrar"],
       answer: 0,
       explanation: "The purchase price is determined on the basis of valuation by a registered valuer."
     },
-
     {
       id: "CAA_MEDIUM_13_3",
       question: "The amount for purchase of minority shares is deposited in:",
-      options: [
-        "A separate bank account operated by the company",
-        "The personal account of the majority shareholder",
-        "The account of the Tribunal",
-        "The account of SEBI"
-      ],
+      options: ["A separate bank account operated by the company", "The personal account of the majority shareholder", "The account of the Tribunal", "The account of SEBI"],
       answer: 0,
       explanation: "Section 236(4) requires the majority shareholders to deposit the amount in a separate bank account operated by the company."
     },
-
     {
       id: "CAA_MEDIUM_13_4",
       question: "If minority shareholders fail to physically deliver share certificates within the specified period:",
@@ -19689,28 +14204,20 @@ const AICaseStudies = [
         "The share certificates may be deemed cancelled subject to the statutory mechanism",
         "The acquisition automatically fails",
         "The majority loses its 90% status",
-        "The company must be wound up"
+        "The company must be wound up",
       ],
       answer: 0,
       explanation: "Section 236 provides a mechanism whereby certificates may be deemed cancelled and the company may issue shares in lieu and complete the transfer according to law."
     },
-
     {
       id: "CAA_MEDIUM_13_5",
       question: "The company whose shares are being transferred acts as transfer agent mainly for:",
-      options: [
-        "Receiving and paying the price and taking/delivering shares",
-        "Conducting the merger",
-        "Determining the valuation",
-        "Approving the scheme"
-      ],
+      options: ["Receiving and paying the price and taking/delivering shares", "Conducting the merger", "Determining the valuation", "Approving the scheme"],
       answer: 0,
       explanation: "The company acts as transfer agent for receiving and paying the price and taking delivery and delivering the shares."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 14
 ========================================================= */
@@ -19719,87 +14226,48 @@ const AICaseStudies = [
   difficulty: "Medium",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>Royal Consumer Products Limited</strong> proposed a scheme involving transfer
-    of shares to another company under Section 235. The directors prepared a circular recommending
-    that shareholders accept the offer.</p>
-
-    <p>The transferee company had also made arrangements to ensure that sufficient cash would
-    be available to complete the acquisition. However, the directors issued the circular before
-    it had been presented to the Registrar for registration.</p>
-
-    <p>The Registrar refused registration because the circular did not comply with the required
-    information requirements. The directors considered issuing the circular anyway.</p>
-  `,
+      <p><strong>Royal Consumer Products Limited</strong> proposed a scheme involving transfer of shares to another company under Section 235. The directors prepared a circular recommending that shareholders accept the offer.</p>
+      <p>The transferee company had also made arrangements to ensure that sufficient cash would be available to complete the acquisition. However, the directors issued the circular before it had been presented to the Registrar for registration.</p>
+      <p>The Registrar refused registration because the circular did not comply with the required information requirements. The directors considered issuing the circular anyway.</p>
+    `,
   questions: [
-
     {
       id: "CAA_MEDIUM_14_1",
       question: "A circular containing an offer under Section 235 must be presented to the Registrar for:",
-      options: [
-        "Registration",
-        "Approval of dividend",
-        "Appointment of directors",
-        "Tax assessment"
-      ],
+      options: ["Registration", "Approval of dividend", "Appointment of directors", "Tax assessment"],
       answer: 0,
       explanation: "Section 238 requires such circular to be presented to the Registrar for registration."
     },
-
     {
       id: "CAA_MEDIUM_14_2",
       question: "The circular should contain a statement by or on behalf of the transferee company regarding:",
-      options: [
-        "Steps taken to ensure necessary cash will be available",
-        "Future dividend rate",
-        "Number of employees",
-        "Future market price"
-      ],
+      options: ["Steps taken to ensure necessary cash will be available", "Future dividend rate", "Number of employees", "Future market price"],
       answer: 0,
       explanation: "Section 238 requires disclosure of steps taken to ensure that necessary cash will be available."
     },
-
     {
       id: "CAA_MEDIUM_14_3",
       question: "Can the circular be issued before registration by the Registrar?",
-      options: [
-        "Yes",
-        "No",
-        "Yes, if directors approve",
-        "Yes, if 90% shareholders agree"
-      ],
+      options: ["Yes", "No", "Yes, if directors approve", "Yes, if 90% shareholders agree"],
       answer: 1,
       explanation: "The circular cannot be issued until it has been presented to and registered by the Registrar."
     },
-
     {
       id: "CAA_MEDIUM_14_4",
       question: "An appeal against refusal by the Registrar to register the circular lies to:",
-      options: [
-        "NCLT",
-        "RBI",
-        "SEBI",
-        "Central Government only"
-      ],
+      options: ["NCLT", "RBI", "SEBI", "Central Government only"],
       answer: 0,
       explanation: "Section 238(2) provides for an appeal to the Tribunal against refusal by the Registrar."
     },
-
     {
       id: "CAA_MEDIUM_14_5",
       question: "A director issuing an unregistered circular in contravention of Section 238 is liable to:",
-      options: [
-        "A penalty of ₹1 lakh",
-        "A penalty of ₹10,000",
-        "A penalty of ₹5 lakh",
-        "No penalty"
-      ],
+      options: ["A penalty of ₹1 lakh", "A penalty of ₹10,000", "A penalty of ₹5 lakh", "No penalty"],
       answer: 0,
       explanation: "Section 238(3) provides a penalty of ₹1 lakh for a director who issues a circular that has not been presented for and registered by the Registrar."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 15
 ========================================================= */
@@ -19808,87 +14276,48 @@ const AICaseStudies = [
   difficulty: "Medium",
   chapter: "Compromises, Arrangements and Amalgamations",
   caseText: `
-    <p><strong>National Logistics Limited</strong> proposed an amalgamation in the public
-    interest under Section 237. The Central Government prepared a draft order and sent a copy
-    to each company concerned.</p>
-
-    <p>The companies were given an opportunity to submit suggestions and objections. The
-    Central Government specified a period of two months for receiving such objections.</p>
-
-    <p>One creditor was dissatisfied with the compensation assessed after the amalgamation.
-    The creditor wanted to challenge the assessment before the Tribunal within the prescribed
-    period.</p>
-  `,
+      <p><strong>National Logistics Limited</strong> proposed an amalgamation in the public interest under Section 237. The Central Government prepared a draft order and sent a copy to each company concerned.</p>
+      <p>The companies were given an opportunity to submit suggestions and objections. The Central Government specified a period of two months for receiving such objections.</p>
+      <p>One creditor was dissatisfied with the compensation assessed after the amalgamation. The creditor wanted to challenge the assessment before the Tribunal within the prescribed period.</p>
+    `,
   questions: [
-
     {
       id: "CAA_MEDIUM_15_1",
       question: "Before passing an order under Section 237, the Central Government must send a copy of the proposed order in draft to:",
-      options: [
-        "Each company concerned",
-        "Only SEBI",
-        "Only RBI",
-        "Only the shareholders"
-      ],
+      options: ["Each company concerned", "Only SEBI", "Only RBI", "Only the shareholders"],
       answer: 0,
       explanation: "A copy of the proposed order must be sent in draft to each of the companies concerned."
     },
-
     {
       id: "CAA_MEDIUM_15_2",
       question: "The period fixed by the Central Government for suggestions and objections from companies cannot be less than:",
-      options: [
-        "15 days",
-        "30 days",
-        "Two months",
-        "Six months"
-      ],
+      options: ["15 days", "30 days", "Two months", "Six months"],
       answer: 2,
       explanation: "The period fixed for suggestions and objections from the companies must not be less than two months."
     },
-
     {
       id: "CAA_MEDIUM_15_3",
       question: "An aggrieved person may appeal against the compensation assessment within:",
-      options: [
-        "15 days from publication",
-        "30 days from publication",
-        "60 days from publication",
-        "90 days from publication"
-      ],
+      options: ["15 days from publication", "30 days from publication", "60 days from publication", "90 days from publication"],
       answer: 1,
       explanation: "Section 237(4) provides a 30-day period from the date of publication of the assessment in the Official Gazette."
     },
-
     {
       id: "CAA_MEDIUM_15_4",
       question: "The appeal against compensation assessment is made to:",
-      options: [
-        "NCLT",
-        "Registrar",
-        "SEBI",
-        "RBI"
-      ],
+      options: ["NCLT", "Registrar", "SEBI", "RBI"],
       answer: 0,
       explanation: "An aggrieved person may prefer an appeal to the Tribunal."
     },
-
     {
       id: "CAA_MEDIUM_15_5",
       question: "The Central Government may order amalgamation under Section 237 when it is satisfied that the amalgamation is:",
-      options: [
-        "Essential in the public interest",
-        "Requested by every employee",
-        "Approved unanimously by creditors",
-        "Required only for tax savings"
-      ],
+      options: ["Essential in the public interest", "Requested by every employee", "Approved unanimously by creditors", "Required only for tax savings"],
       answer: 0,
       explanation: "The fundamental requirement under Section 237 is the Central Government's satisfaction that amalgamation is essential in the public interest."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 1
 ========================================================= */
@@ -19896,33 +14325,13 @@ const AICaseStudies = [
   id: "CAA_HARD_01",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Orion Industrial Products Limited</strong> was facing serious liquidity
-    pressure because of a sharp increase in the cost of raw materials and a decline in
-    export orders. The company had three distinct classes of creditors: secured lenders,
-    unsecured trade creditors and holders of privately placed debentures.</p>
-
-    <p>The Board proposed a compromise under which secured lenders would receive 70% of
-    their outstanding principal immediately and the balance would be converted into
-    secured non-convertible debentures. Unsecured trade creditors would receive 55% of
-    their admitted claims over a period of three years, while the debenture holders would
-    receive equity shares in exchange for part of their outstanding debt.</p>
-
-    <p>One group of unsecured creditors argued that they should vote together with the
-    secured creditors because the overall compromise concerned the same company. However,
-    their rights under the proposed arrangement were substantially different. The company
-    nevertheless proposed to convene a single meeting for all creditors.</p>
-
-    <p>A group of creditors representing 8% of the total outstanding debt objected to the
-    scheme. Another creditor representing 6% of the outstanding debt supported the objection.
-    The company also had a pending investigation relating to certain transactions entered
-    into by former directors, but this fact was initially omitted from the explanatory
-    statement.</p>
-  `,
-
+      <p><strong>Orion Industrial Products Limited</strong> was facing serious liquidity pressure because of a sharp increase in the cost of raw materials and a decline in export orders. The company had three distinct classes of creditors: secured lenders, unsecured trade creditors and holders of privately placed debentures.</p>
+      <p>The Board proposed a compromise under which secured lenders would receive 70% of their outstanding principal immediately and the balance would be converted into secured non-convertible debentures. Unsecured trade creditors would receive 55% of their admitted claims over a period of three years, while the debenture holders would receive equity shares in exchange for part of their outstanding debt.</p>
+      <p>One group of unsecured creditors argued that they should vote together with the secured creditors because the overall compromise concerned the same company. However, their rights under the proposed arrangement were substantially different. The company nevertheless proposed to convene a single meeting for all creditors.</p>
+      <p>A group of creditors representing 8% of the total outstanding debt objected to the scheme. Another creditor representing 6% of the outstanding debt supported the objection. The company also had a pending investigation relating to certain transactions entered into by former directors, but this fact was initially omitted from the explanatory statement.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_01_1",
       question: "The most appropriate basis for determining separate classes of creditors is:",
@@ -19930,25 +14339,18 @@ const AICaseStudies = [
         "Whether all creditors are legally creditors of the same company",
         "Whether the rights of the creditors are so dissimilar that they cannot consult together with a common interest",
         "Whether the creditors have different addresses",
-        "Whether the creditors hold different denominations of debt instruments"
+        "Whether the creditors hold different denominations of debt instruments",
       ],
       answer: 1,
       explanation: "For a compromise or arrangement, classification is based on similarity or dissimilarity of rights and interests. Creditors having materially different rights may constitute separate classes."
     },
-
     {
       id: "CAA_HARD_01_2",
       question: "A creditor holding 6% of the total outstanding debt would satisfy the statutory threshold for raising an objection under Section 230(4), assuming all other requirements are met.",
-      options: [
-        "Yes",
-        "No",
-        "Only if the creditor is secured",
-        "Only if the creditor is a debenture holder"
-      ],
+      options: ["Yes", "No", "Only if the creditor is secured", "Only if the creditor is a debenture holder"],
       answer: 0,
       explanation: "The threshold for creditors is outstanding debt amounting to not less than 5% of the total outstanding debt."
     },
-
     {
       id: "CAA_HARD_01_3",
       question: "The creditor representing 8% of total outstanding debt:",
@@ -19956,12 +14358,11 @@ const AICaseStudies = [
         "Cannot object because the threshold is 10%",
         "Can object because the threshold is 5%",
         "Can object only if all shareholders consent",
-        "Cannot object because only secured creditors can object"
+        "Cannot object because only secured creditors can object",
       ],
       answer: 1,
       explanation: "The statutory threshold is not less than 5% of total outstanding debt."
     },
-
     {
       id: "CAA_HARD_01_4",
       question: "The omission of the pending investigation is most directly relevant to:",
@@ -19969,12 +14370,11 @@ const AICaseStudies = [
         "Disclosure of material facts accompanying the application",
         "The requirement relating to minority acquisition",
         "The fast-track merger procedure",
-        "The preservation of books after amalgamation"
+        "The preservation of books after amalgamation",
       ],
       answer: 0,
       explanation: "Pending investigations and proceedings constitute material facts that must be disclosed in connection with the compromise or arrangement."
     },
-
     {
       id: "CAA_HARD_01_5",
       question: "If the secured lenders, unsecured creditors and debenture holders have materially different rights under the scheme, treating all of them as one class is:",
@@ -19982,15 +14382,13 @@ const AICaseStudies = [
         "Always mandatory",
         "Potentially improper because separate classes may be required",
         "Mandatory only where the company is listed",
-        "Correct because Section 230 permits only one creditor meeting"
+        "Correct because Section 230 permits only one creditor meeting",
       ],
       answer: 1,
       explanation: "Where rights are sufficiently different, creditors may need to be placed in separate classes so that persons with a common interest vote together."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 2
 ========================================================= */
@@ -19998,98 +14396,50 @@ const AICaseStudies = [
   id: "CAA_HARD_02",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Zenith Textiles Limited</strong> proposed a scheme of arrangement with its
-    equity shareholders. The company had 2,500 members, but only 1,400 members attended the
-    meeting convened pursuant to the Tribunal's order. Out of those present, 1,200 members
-    actually voted.</p>
-
-    <p>The members who voted represented shares having an aggregate paid-up value of
-    ₹18 crore. Of them, 820 members holding shares having an aggregate paid-up value of
-    ₹13.8 crore voted in favour of the scheme. The remaining members voted against the
-    proposal or abstained.</p>
-
-    <p>The company's legal adviser calculated the three-fourths requirement by comparing
-    ₹13.8 crore with the total paid-up capital of all 2,500 members. The company secretary
-    argued that abstaining members should also be counted in determining the value required
-    for approval.</p>
-
-    <p>Meanwhile, two shareholders holding 11% and 14% respectively of the company's
-    shareholding filed objections before the Tribunal, claiming that the scheme unfairly
-    diluted their economic interest.</p>
-  `,
-
+      <p><strong>Zenith Textiles Limited</strong> proposed a scheme of arrangement with its equity shareholders. The company had 2,500 members, but only 1,400 members attended the meeting convened pursuant to the Tribunal's order. Out of those present, 1,200 members actually voted.</p>
+      <p>The members who voted represented shares having an aggregate paid-up value of ₹18 crore. Of them, 820 members holding shares having an aggregate paid-up value of ₹13.8 crore voted in favour of the scheme. The remaining members voted against the proposal or abstained.</p>
+      <p>The company's legal adviser calculated the three-fourths requirement by comparing ₹13.8 crore with the total paid-up capital of all 2,500 members. The company secretary argued that abstaining members should also be counted in determining the value required for approval.</p>
+      <p>Meanwhile, two shareholders holding 11% and 14% respectively of the company's shareholding filed objections before the Tribunal, claiming that the scheme unfairly diluted their economic interest.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_02_1",
       question: "For determining the three-fourths value requirement under Section 230(6), the relevant value is the value represented by:",
-      options: [
-        "All members of the company",
-        "Members present and voting",
-        "Members present whether voting or abstaining",
-        "Only members voting against the scheme"
-      ],
+      options: ["All members of the company", "Members present and voting", "Members present whether voting or abstaining", "Only members voting against the scheme"],
       answer: 1,
       explanation: "The three-fourths value requirement is measured with reference to the value represented by members present and voting."
     },
-
     {
       id: "CAA_HARD_02_2",
       question: "₹13.8 crore represents what percentage of ₹18 crore?",
-      options: [
-        "70%",
-        "75%",
-        "76.67%",
-        "82%"
-      ],
+      options: ["70%", "75%", "76.67%", "82%"],
       answer: 2,
       explanation: "₹13.8 crore ÷ ₹18 crore × 100 = 76.67% approximately."
     },
-
     {
       id: "CAA_HARD_02_3",
       question: "On the value test alone, the scheme satisfies the three-fourths requirement.",
-      options: [
-        "True",
-        "False",
-        "Only if all 2,500 members consent",
-        "Only if abstaining members are included"
-      ],
+      options: ["True", "False", "Only if all 2,500 members consent", "Only if abstaining members are included"],
       answer: 0,
       explanation: "76.67% is greater than 75%, so the three-fourths value requirement is satisfied."
     },
-
     {
       id: "CAA_HARD_02_4",
       question: "The 820 members voting in favour out of 1,200 members voting represent:",
-      options: [
-        "Less than a majority",
-        "A majority in number",
-        "Exactly three-fourths",
-        "Exactly 90%"
-      ],
+      options: ["Less than a majority", "A majority in number", "Exactly three-fourths", "Exactly 90%"],
       answer: 1,
       explanation: "820 out of 1,200 is approximately 68.33%, which is more than 50% and therefore constitutes a majority in number."
     },
-
     {
       id: "CAA_HARD_02_5",
       question: "The shareholder holding 11% shareholding meets the statutory minimum threshold for objecting to the scheme.",
-      options: [
-        "Yes",
-        "No",
-        "Only if holding preference shares",
-        "Only if also a creditor"
-      ],
+      options: ["Yes", "No", "Only if holding preference shares", "Only if also a creditor"],
       answer: 0,
       explanation: "A member holding not less than 10% of the shareholding meets the statutory threshold under Section 230(4)."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 3
 ========================================================= */
@@ -20097,30 +14447,13 @@ const AICaseStudies = [
   id: "CAA_HARD_03",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Silverline Finance Limited</strong> proposed a compromise with its
-    preference shareholders. The company had issued two categories of preference shares.
-    Class A preference shares carried a cumulative dividend and had a preferential right
-    to repayment of capital. Class B preference shares carried a non-cumulative dividend
-    but had a different redemption priority.</p>
-
-    <p>The proposed arrangement would convert both classes into equity shares. Class A
-    shareholders would receive equity shares at a relatively favourable ratio because of
-    their accumulated dividend arrears, whereas Class B shareholders would receive a lower
-    number of equity shares.</p>
-
-    <p>The Board argued that all preference shareholders should vote together because both
-    categories were technically preference shareholders. A group of Class B shareholders
-    objected, stating that their rights and economic position were substantially different.</p>
-
-    <p>The company also proposed a reduction in share capital as part of the scheme and
-    intended to rely on the Tribunal's sanction of the arrangement for implementing the
-    reduction without separately considering the applicable statutory requirements.</p>
-  `,
-
+      <p><strong>Silverline Finance Limited</strong> proposed a compromise with its preference shareholders. The company had issued two categories of preference shares. Class A preference shares carried a cumulative dividend and had a preferential right to repayment of capital. Class B preference shares carried a non-cumulative dividend but had a different redemption priority.</p>
+      <p>The proposed arrangement would convert both classes into equity shares. Class A shareholders would receive equity shares at a relatively favourable ratio because of their accumulated dividend arrears, whereas Class B shareholders would receive a lower number of equity shares.</p>
+      <p>The Board argued that all preference shareholders should vote together because both categories were technically preference shareholders. A group of Class B shareholders objected, stating that their rights and economic position were substantially different.</p>
+      <p>The company also proposed a reduction in share capital as part of the scheme and intended to rely on the Tribunal's sanction of the arrangement for implementing the reduction without separately considering the applicable statutory requirements.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_03_1",
       question: "The strongest argument for treating Class A and Class B preference shareholders as separate classes is:",
@@ -20128,38 +14461,25 @@ const AICaseStudies = [
         "They have different residential addresses",
         "Their legal and economic rights under the scheme are materially different",
         "They were issued in different years only",
-        "They have different certificate numbers"
+        "They have different certificate numbers",
       ],
       answer: 1,
       explanation: "Classification depends on similarity of rights and interests, not merely the common label 'preference shareholder'."
     },
-
     {
       id: "CAA_HARD_03_2",
       question: "Where variation of shareholders' rights is involved in a scheme, the relevant statutory provision specifically referred to in Section 230 is:",
-      options: [
-        "Section 48",
-        "Section 68",
-        "Section 90",
-        "Section 236"
-      ],
+      options: ["Section 48", "Section 68", "Section 90", "Section 236"],
       answer: 0,
       explanation: "Section 230(7) provides that variation of shareholders' rights shall be given effect in accordance with Section 48."
     },
-
     {
       id: "CAA_HARD_03_3",
       question: "The proposed reduction of share capital as part of the arrangement:",
-      options: [
-        "Need never be disclosed",
-        "Is a matter that should be disclosed in the application",
-        "Can only be disclosed after the merger",
-        "Is relevant only to creditors"
-      ],
+      options: ["Need never be disclosed", "Is a matter that should be disclosed in the application", "Can only be disclosed after the merger", "Is relevant only to creditors"],
       answer: 1,
       explanation: "Where reduction of share capital is included in the compromise or arrangement, it is a material matter requiring disclosure."
     },
-
     {
       id: "CAA_HARD_03_4",
       question: "The Board's argument that all preference shareholders must necessarily vote together is:",
@@ -20167,28 +14487,20 @@ const AICaseStudies = [
         "Correct in every case",
         "Incorrect if their rights are sufficiently different to require separate classification",
         "Correct only if the company is listed",
-        "Correct only if dividends are cumulative"
+        "Correct only if dividends are cumulative",
       ],
       answer: 1,
       explanation: "The legal classification depends on the similarity of rights and interests rather than merely the security type."
     },
-
     {
       id: "CAA_HARD_03_5",
       question: "The conversion of preference shares into equity shares under a scheme may require consideration of:",
-      options: [
-        "The rights and interests of the preference shareholders",
-        "Only the company's authorised capital",
-        "Only the Registrar's opinion",
-        "Only the tax department's approval"
-      ],
+      options: ["The rights and interests of the preference shareholders", "Only the company's authorised capital", "Only the Registrar's opinion", "Only the tax department's approval"],
       answer: 0,
       explanation: "The Tribunal must consider the rights of affected classes while evaluating the scheme."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 4
 ========================================================= */
@@ -20196,79 +14508,41 @@ const AICaseStudies = [
   id: "CAA_HARD_04",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Metro Engineering Limited</strong> proposed to amalgamate with its wholly-owned
-    subsidiary, Metro Components Private Limited. Both companies prepared a common draft
-    scheme and submitted it for approval.</p>
-
-    <p>Under the scheme, all property, assets, liabilities, contracts and pending proceedings
-    of the subsidiary would vest in the holding company. Several employees of the subsidiary
-    were working under employment agreements that contained continuity clauses.</p>
-
-    <p>The subsidiary also had a pending arbitration proceeding against a supplier. The supplier
-    argued that the arbitration should terminate because the subsidiary would cease to exist.
-    The company argued that the scheme should ensure continuation of the proceeding by or
-    against the transferee company.</p>
-
-    <p>One shareholder also questioned why shares held by the subsidiary in the holding company
-    should continue after the amalgamation.</p>
-  `,
-
+      <p><strong>Metro Engineering Limited</strong> proposed to amalgamate with its wholly-owned subsidiary, Metro Components Private Limited. Both companies prepared a common draft scheme and submitted it for approval.</p>
+      <p>Under the scheme, all property, assets, liabilities, contracts and pending proceedings of the subsidiary would vest in the holding company. Several employees of the subsidiary were working under employment agreements that contained continuity clauses.</p>
+      <p>The subsidiary also had a pending arbitration proceeding against a supplier. The supplier argued that the arbitration should terminate because the subsidiary would cease to exist. The company argued that the scheme should ensure continuation of the proceeding by or against the transferee company.</p>
+      <p>One shareholder also questioned why shares held by the subsidiary in the holding company should continue after the amalgamation.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_04_1",
       question: "A merger scheme may provide for continuation of pending legal proceedings:",
-      options: [
-        "By or against the transferee company",
-        "Only by the transferor's former directors",
-        "Only by the Registrar",
-        "Such proceedings must always terminate"
-      ],
+      options: ["By or against the transferee company", "Only by the transferor's former directors", "Only by the Registrar", "Such proceedings must always terminate"],
       answer: 0,
       explanation: "The Tribunal's order may provide for continuation of legal proceedings by or against the transferee company."
     },
-
     {
       id: "CAA_HARD_04_2",
       question: "The transfer of employees under an amalgamation scheme is:",
-      options: [
-        "A matter that may be provided for in the scheme",
-        "Prohibited",
-        "Possible only after winding up",
-        "Possible only if all employees resign first"
-      ],
+      options: ["A matter that may be provided for in the scheme", "Prohibited", "Possible only after winding up", "Possible only if all employees resign first"],
       answer: 0,
       explanation: "The scheme may provide for transfer of employees of the transferor company to the transferee company."
     },
-
     {
       id: "CAA_HARD_04_3",
       question: "Shares held by the transferee company in itself as a result of the scheme are generally:",
-      options: [
-        "Allowed indefinitely",
-        "Cancelled or extinguished",
-        "Converted into debentures",
-        "Transferred to the Registrar"
-      ],
+      options: ["Allowed indefinitely", "Cancelled or extinguished", "Converted into debentures", "Transferred to the Registrar"],
       answer: 1,
       explanation: "Section 232 contains restrictions concerning the transferee company holding its own shares as a result of the scheme."
     },
-
     {
       id: "CAA_HARD_04_4",
       question: "The continuation of the arbitration after amalgamation primarily illustrates:",
-      options: [
-        "Succession of legal proceedings under the scheme",
-        "Reduction of capital",
-        "Minority squeeze-out",
-        "Fast-track merger"
-      ],
+      options: ["Succession of legal proceedings under the scheme", "Reduction of capital", "Minority squeeze-out", "Fast-track merger"],
       answer: 0,
       explanation: "A merger scheme may provide for continuation of pending legal proceedings by or against the transferee company."
     },
-
     {
       id: "CAA_HARD_04_5",
       question: "The fact that Metro Components is a wholly-owned subsidiary is particularly relevant to:",
@@ -20276,15 +14550,13 @@ const AICaseStudies = [
         "The possibility of using the simplified merger mechanism where statutory conditions are met",
         "Automatic dissolution without statutory procedure",
         "Avoiding all creditor rights",
-        "Avoiding Tribunal jurisdiction in every case"
+        "Avoiding Tribunal jurisdiction in every case",
       ],
       answer: 0,
       explanation: "Certain mergers involving wholly-owned subsidiaries may qualify for the fast-track procedure under Section 233, subject to statutory conditions."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 5
 ========================================================= */
@@ -20292,95 +14564,50 @@ const AICaseStudies = [
   id: "CAA_HARD_05",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Eastern Ports Limited</strong>, a listed company, proposed to merge with
-    Coastal Logistics Private Limited, an unlisted company. The scheme provided that
-    shareholders of Eastern Ports would receive shares of Coastal Logistics in a specified
-    exchange ratio.</p>
-
-    <p>Several institutional investors objected because they would effectively move from a
-    listed security to an unlisted security. The Board argued that the merger itself had
-    been approved by the required majority and therefore no separate protection was necessary.</p>
-
-    <p>The scheme contemplated that Coastal Logistics would remain an unlisted company after
-    the merger. A valuation report was prepared by a registered valuer, and the exchange ratio
-    was supported by comparable-company analysis and discounted cash-flow analysis.</p>
-
-    <p>A group of dissenting shareholders demanded that they should be permitted to exit for
-    cash instead of becoming shareholders of the unlisted transferee company.</p>
-  `,
-
+      <p><strong>Eastern Ports Limited</strong>, a listed company, proposed to merge with Coastal Logistics Private Limited, an unlisted company. The scheme provided that shareholders of Eastern Ports would receive shares of Coastal Logistics in a specified exchange ratio.</p>
+      <p>Several institutional investors objected because they would effectively move from a listed security to an unlisted security. The Board argued that the merger itself had been approved by the required majority and therefore no separate protection was necessary.</p>
+      <p>The scheme contemplated that Coastal Logistics would remain an unlisted company after the merger. A valuation report was prepared by a registered valuer, and the exchange ratio was supported by comparable-company analysis and discounted cash-flow analysis.</p>
+      <p>A group of dissenting shareholders demanded that they should be permitted to exit for cash instead of becoming shareholders of the unlisted transferee company.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_05_1",
       question: "Where the transferor company is listed and the transferee company is unlisted, the transferee company generally:",
-      options: [
-        "Automatically becomes listed",
-        "Remains unlisted until it becomes listed",
-        "Must be converted into a public company immediately",
-        "Must be wound up"
-      ],
+      options: ["Automatically becomes listed", "Remains unlisted until it becomes listed", "Must be converted into a public company immediately", "Must be wound up"],
       answer: 1,
       explanation: "The unlisted transferee company does not automatically become listed merely because of the merger."
     },
-
     {
       id: "CAA_HARD_05_2",
       question: "The exit option for dissenting shareholders is primarily intended to address:",
-      options: [
-        "The consequences of moving from a listed to an unlisted security",
-        "Appointment of auditors",
-        "Payment of employee bonuses",
-        "Reduction in authorised capital"
-      ],
+      options: ["The consequences of moving from a listed to an unlisted security", "Appointment of auditors", "Payment of employee bonuses", "Reduction in authorised capital"],
       answer: 0,
       explanation: "The statutory framework recognizes the need to protect shareholders where a listed transferor merges into an unlisted transferee."
     },
-
     {
       id: "CAA_HARD_05_3",
       question: "The valuation report in the circumstances described should be prepared by:",
-      options: [
-        "A registered valuer",
-        "The Registrar",
-        "The Official Liquidator",
-        "The company's internal auditor"
-      ],
+      options: ["A registered valuer", "The Registrar", "The Official Liquidator", "The company's internal auditor"],
       answer: 0,
       explanation: "Valuation required under the merger provisions is undertaken by a registered valuer."
     },
-
     {
       id: "CAA_HARD_05_4",
       question: "The Board's argument that majority approval eliminates all statutory protections is:",
-      options: [
-        "Correct",
-        "Incorrect",
-        "Correct only for listed companies",
-        "Correct only where 90% approve"
-      ],
+      options: ["Correct", "Incorrect", "Correct only for listed companies", "Correct only where 90% approve"],
       answer: 1,
       explanation: "Approval of the scheme does not eliminate statutory safeguards applicable to affected shareholders."
     },
-
     {
       id: "CAA_HARD_05_5",
       question: "The exchange ratio should primarily be supported by:",
-      options: [
-        "An appropriate valuation exercise",
-        "A resolution of employees",
-        "The Registrar's personal estimate",
-        "The company's previous dividend"
-      ],
+      options: ["An appropriate valuation exercise", "A resolution of employees", "The Registrar's personal estimate", "The company's previous dividend"],
       answer: 0,
       explanation: "The share exchange ratio should be supported by an appropriate valuation exercise and relevant expert report."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 6
 ========================================================= */
@@ -20388,53 +14615,27 @@ const AICaseStudies = [
   id: "CAA_HARD_06",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Nova Consumer Products Limited</strong> and its subsidiary Nova Retail Private
-    Limited proposed a fast-track merger under Section 233. Both companies prepared the
-    scheme and filed declarations of solvency.</p>
-
-    <p>Notice of the proposed scheme was sent to the Registrar and Official Liquidator,
-    inviting objections and suggestions. The Registrar raised an objection concerning an
-    undervalued transfer of one manufacturing unit. The Official Liquidator also requested
-    clarification regarding certain contingent liabilities.</p>
-
-    <p>At the creditors' meeting, creditors representing 91% in value approved the scheme.
-    However, one major secured creditor representing 4% of the debt objected, arguing that
-    the proposed valuation understated the value of the manufacturing unit.</p>
-
-    <p>The Central Government received the scheme along with the objections and began
-    examining whether the scheme should be approved or referred to the Tribunal.</p>
-  `,
-
+      <p><strong>Nova Consumer Products Limited</strong> and its subsidiary Nova Retail Private Limited proposed a fast-track merger under Section 233. Both companies prepared the scheme and filed declarations of solvency.</p>
+      <p>Notice of the proposed scheme was sent to the Registrar and Official Liquidator, inviting objections and suggestions. The Registrar raised an objection concerning an undervalued transfer of one manufacturing unit. The Official Liquidator also requested clarification regarding certain contingent liabilities.</p>
+      <p>At the creditors' meeting, creditors representing 91% in value approved the scheme. However, one major secured creditor representing 4% of the debt objected, arguing that the proposed valuation understated the value of the manufacturing unit.</p>
+      <p>The Central Government received the scheme along with the objections and began examining whether the scheme should be approved or referred to the Tribunal.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_06_1",
       question: "The approval by creditors representing 91% in value satisfies the nine-tenths requirement applicable to the fast-track merger.",
-      options: [
-        "True",
-        "False",
-        "Only if all unsecured creditors approve",
-        "Only if the Registrar approves"
-      ],
+      options: ["True", "False", "Only if all unsecured creditors approve", "Only if the Registrar approves"],
       answer: 0,
       explanation: "Nine-tenths in value is the relevant creditor approval threshold for the fast-track mechanism."
     },
-
     {
       id: "CAA_HARD_06_2",
       question: "The fact that one creditor holding 4% objects automatically prevents approval of the fast-track scheme.",
-      options: [
-        "Yes",
-        "No",
-        "Yes, regardless of its voting rights",
-        "Yes, because every secured creditor has a veto"
-      ],
+      options: ["Yes", "No", "Yes, regardless of its voting rights", "Yes, because every secured creditor has a veto"],
       answer: 1,
       explanation: "The statutory approval requirement is based on the prescribed majority in value; an individual creditor does not automatically possess a veto merely because it objects."
     },
-
     {
       id: "CAA_HARD_06_3",
       question: "The Registrar's objection is relevant because:",
@@ -20442,41 +14643,27 @@ const AICaseStudies = [
         "Objections and suggestions are considered in the prescribed fast-track process",
         "The Registrar can independently sanction every merger",
         "The Registrar becomes a shareholder",
-        "The Registrar replaces the Tribunal in every merger"
+        "The Registrar replaces the Tribunal in every merger",
       ],
       answer: 0,
       explanation: "The Registrar and Official Liquidator have a statutory role in examining and communicating objections or suggestions."
     },
-
     {
       id: "CAA_HARD_06_4",
       question: "If the Central Government considers the scheme not to be in public interest or creditors' interest, it may:",
-      options: [
-        "Apply to the Tribunal for consideration under the normal merger procedure",
-        "Automatically dissolve both companies",
-        "Transfer the matter to SEBI",
-        "Cancel all creditor claims"
-      ],
+      options: ["Apply to the Tribunal for consideration under the normal merger procedure", "Automatically dissolve both companies", "Transfer the matter to SEBI", "Cancel all creditor claims"],
       answer: 0,
       explanation: "The Central Government may refer the scheme to the Tribunal if it considers that the scheme should not proceed through the fast-track route."
     },
-
     {
       id: "CAA_HARD_06_5",
       question: "The contingent liabilities raised by the Official Liquidator are relevant to:",
-      options: [
-        "Whether the scheme adequately addresses liabilities and protects stakeholders",
-        "Only employee remuneration",
-        "Only dividend declaration",
-        "Only share certificate printing"
-      ],
+      options: ["Whether the scheme adequately addresses liabilities and protects stakeholders", "Only employee remuneration", "Only dividend declaration", "Only share certificate printing"],
       answer: 0,
       explanation: "Potential liabilities are material when assessing the fairness and implementation of a merger scheme."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 7
 ========================================================= */
@@ -20484,94 +14671,49 @@ const AICaseStudies = [
   id: "CAA_HARD_07",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Global Metals Limited</strong>, an Indian company, proposed a merger with
-    Global Resources GmbH, a foreign company incorporated in a permitted foreign jurisdiction.
-    The foreign company held valuable mining-related technology and intellectual property.</p>
-
-    <p>The consideration payable to the shareholders of the foreign company was proposed to
-    be partly in cash and partly through depository receipts. The Indian company obtained
-    professional advice regarding foreign exchange regulations and proposed to seek the
-    required approval of the Reserve Bank of India.</p>
-
-    <p>One director argued that because the foreign company was not incorporated in India,
-    the Companies Act provisions relating to mergers would not apply. Another director
-    argued that Section 234 specifically deals with cross-border mergers and therefore the
-    statutory merger framework must be followed in addition to applicable foreign exchange
-    requirements.</p>
-  `,
-
+      <p><strong>Global Metals Limited</strong>, an Indian company, proposed a merger with Global Resources GmbH, a foreign company incorporated in a permitted foreign jurisdiction. The foreign company held valuable mining-related technology and intellectual property.</p>
+      <p>The consideration payable to the shareholders of the foreign company was proposed to be partly in cash and partly through depository receipts. The Indian company obtained professional advice regarding foreign exchange regulations and proposed to seek the required approval of the Reserve Bank of India.</p>
+      <p>One director argued that because the foreign company was not incorporated in India, the Companies Act provisions relating to mergers would not apply. Another director argued that Section 234 specifically deals with cross-border mergers and therefore the statutory merger framework must be followed in addition to applicable foreign exchange requirements.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_07_1",
       question: "The principal Companies Act provision governing merger of an Indian company with a foreign company is:",
-      options: [
-        "Section 230",
-        "Section 232",
-        "Section 234",
-        "Section 236"
-      ],
+      options: ["Section 230", "Section 232", "Section 234", "Section 236"],
       answer: 2,
       explanation: "Section 234 specifically deals with merger or amalgamation of an Indian company with a foreign company."
     },
-
     {
       id: "CAA_HARD_07_2",
       question: "The statement that the Companies Act cannot apply merely because one company is foreign is:",
-      options: [
-        "Correct",
-        "Incorrect",
-        "Correct only where the foreign company owns no assets",
-        "Correct only where the Indian company is private"
-      ],
+      options: ["Correct", "Incorrect", "Correct only where the foreign company owns no assets", "Correct only where the Indian company is private"],
       answer: 1,
       explanation: "Section 234 provides a statutory framework for cross-border mergers."
     },
-
     {
       id: "CAA_HARD_07_3",
       question: "Prior approval of which authority is relevant under the cross-border merger framework?",
-      options: [
-        "RBI",
-        "Only Registrar",
-        "Only Official Liquidator",
-        "Only Competition Commission"
-      ],
+      options: ["RBI", "Only Registrar", "Only Official Liquidator", "Only Competition Commission"],
       answer: 0,
       explanation: "The cross-border merger framework requires compliance with RBI requirements, including prior approval where prescribed."
     },
-
     {
       id: "CAA_HARD_07_4",
       question: "Consideration to foreign shareholders may, subject to applicable requirements, be structured as:",
-      options: [
-        "Cash only",
-        "Depository receipts only",
-        "Cash and/or depository receipts as permitted",
-        "Only preference shares"
-      ],
+      options: ["Cash only", "Depository receipts only", "Cash and/or depository receipts as permitted", "Only preference shares"],
       answer: 2,
       explanation: "Section 234 permits consideration in cash, depository receipts, or a combination, subject to applicable provisions."
     },
-
     {
       id: "CAA_HARD_07_5",
       question: "A cross-border merger must be examined together with:",
-      options: [
-        "Companies Act provisions and applicable RBI/foreign exchange requirements",
-        "Only the Companies Act",
-        "Only income-tax provisions",
-        "Only foreign company law"
-      ],
+      options: ["Companies Act provisions and applicable RBI/foreign exchange requirements", "Only the Companies Act", "Only income-tax provisions", "Only foreign company law"],
       answer: 0,
       explanation: "Cross-border mergers involve both the Companies Act framework and applicable foreign exchange/RBI requirements."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 8
 ========================================================= */
@@ -20579,93 +14721,49 @@ const AICaseStudies = [
   id: "CAA_HARD_08",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Vertex Telecom Limited</strong> proposed a scheme of amalgamation with
-    Signal Networks Limited. Before approaching the Tribunal, the companies circulated
-    a draft scheme, valuation report and directors' report.</p>
-
-    <p>The directors' report stated that the scheme would substantially increase the
-    value of the combined company. However, it did not explain the effect of the scheme
-    on promoters, non-promoter shareholders or key managerial personnel. It also omitted
-    a material difficulty encountered by the valuer in valuing an overseas subsidiary.</p>
-
-    <p>The latest annual accounts of Signal Networks related to a financial year that ended
-    eight months before the first meeting called to consider the scheme. The company argued
-    that because the accounts had already been audited, no additional financial statement
-    was necessary.</p>
-  `,
-
+      <p><strong>Vertex Telecom Limited</strong> proposed a scheme of amalgamation with Signal Networks Limited. Before approaching the Tribunal, the companies circulated a draft scheme, valuation report and directors' report.</p>
+      <p>The directors' report stated that the scheme would substantially increase the value of the combined company. However, it did not explain the effect of the scheme on promoters, non-promoter shareholders or key managerial personnel. It also omitted a material difficulty encountered by the valuer in valuing an overseas subsidiary.</p>
+      <p>The latest annual accounts of Signal Networks related to a financial year that ended eight months before the first meeting called to consider the scheme. The company argued that because the accounts had already been audited, no additional financial statement was necessary.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_08_1",
       question: "The directors' report accompanying a merger scheme should address the effect of the scheme on:",
-      options: [
-        "Promoters, non-promoter shareholders and KMPs among the specified stakeholders",
-        "Only the managing director",
-        "Only secured creditors",
-        "Only employees"
-      ],
+      options: ["Promoters, non-promoter shareholders and KMPs among the specified stakeholders", "Only the managing director", "Only secured creditors", "Only employees"],
       answer: 0,
       explanation: "The directors' report contains prescribed information concerning the effect of the scheme on specified stakeholders."
     },
-
     {
       id: "CAA_HARD_08_2",
       question: "A special valuation difficulty encountered by the valuer should:",
-      options: [
-        "Be disclosed where required in the directors' report",
-        "Always be ignored",
-        "Be disclosed only after merger",
-        "Be disclosed only to employees"
-      ],
+      options: ["Be disclosed where required in the directors' report", "Always be ignored", "Be disclosed only after merger", "Be disclosed only to employees"],
       answer: 0,
       explanation: "Special valuation difficulties, if any, are among the matters to be disclosed in the directors' report."
     },
-
     {
       id: "CAA_HARD_08_3",
       question: "Where the last annual accounts relate to a financial year ending more than six months before the first meeting, the company is required to provide:",
-      options: [
-        "A supplementary accounting statement",
-        "A fresh certificate of incorporation",
-        "A winding-up order",
-        "A new memorandum"
-      ],
+      options: ["A supplementary accounting statement", "A fresh certificate of incorporation", "A winding-up order", "A new memorandum"],
       answer: 0,
       explanation: "A supplementary accounting statement is required in the circumstances prescribed by the Act."
     },
-
     {
       id: "CAA_HARD_08_4",
       question: "The statement that audited annual accounts automatically eliminate the need for the supplementary accounting statement is:",
-      options: [
-        "Correct",
-        "Incorrect",
-        "Correct only for listed companies",
-        "Correct only if shareholders consent"
-      ],
+      options: ["Correct", "Incorrect", "Correct only for listed companies", "Correct only if shareholders consent"],
       answer: 1,
       explanation: "The statutory requirement is triggered by the timing of the latest annual accounts relative to the first meeting."
     },
-
     {
       id: "CAA_HARD_08_5",
       question: "The directors' report concerning the scheme is intended primarily to:",
-      options: [
-        "Provide stakeholders with prescribed information necessary to evaluate the scheme",
-        "Replace the valuation report",
-        "Replace the Tribunal",
-        "Determine tax liability"
-      ],
+      options: ["Provide stakeholders with prescribed information necessary to evaluate the scheme", "Replace the valuation report", "Replace the Tribunal", "Determine tax liability"],
       answer: 0,
       explanation: "The directors' report facilitates informed consideration of the proposed scheme by explaining its effects and relevant valuation matters."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 9
 ========================================================= */
@@ -20673,92 +14771,49 @@ const AICaseStudies = [
   id: "CAA_HARD_09",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Harbour Infrastructure Limited</strong> obtained an order from the NCLT
-    sanctioning a compromise with its creditors. The certified copy of the order was
-    received by the company on 12 August.</p>
-
-    <p>The company secretary advised the Board that the order should be filed with the
-    Registrar within the statutory period. The CFO argued that filing could be postponed
-    because the scheme would become operational only after the next financial year.</p>
-
-    <p>The scheme also contained a provision for buy-back of securities. However, the
-    proposed buy-back did not comply with all the conditions applicable to buy-back under
-    Section 68. The directors argued that Tribunal sanction of the compromise would override
-    the separate buy-back requirements.</p>
-  `,
-
+      <p><strong>Harbour Infrastructure Limited</strong> obtained an order from the NCLT sanctioning a compromise with its creditors. The certified copy of the order was received by the company on 12 August.</p>
+      <p>The company secretary advised the Board that the order should be filed with the Registrar within the statutory period. The CFO argued that filing could be postponed because the scheme would become operational only after the next financial year.</p>
+      <p>The scheme also contained a provision for buy-back of securities. However, the proposed buy-back did not comply with all the conditions applicable to buy-back under Section 68. The directors argued that Tribunal sanction of the compromise would override the separate buy-back requirements.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_09_1",
       question: "The Tribunal's order sanctioning a compromise or arrangement must be filed with the Registrar within:",
-      options: [
-        "15 days",
-        "30 days",
-        "60 days",
-        "90 days"
-      ],
+      options: ["15 days", "30 days", "60 days", "90 days"],
       answer: 1,
       explanation: "Section 230 requires filing of the Tribunal's order with the Registrar within 30 days of receipt."
     },
-
     {
       id: "CAA_HARD_09_2",
       question: "The CFO's proposal to wait until the next financial year is:",
-      options: [
-        "Permitted",
-        "Not permitted merely because the scheme becomes operational later",
-        "Permitted if creditors agree",
-        "Permitted if the company is private"
-      ],
+      options: ["Permitted", "Not permitted merely because the scheme becomes operational later", "Permitted if creditors agree", "Permitted if the company is private"],
       answer: 1,
       explanation: "The statutory filing period runs from receipt of the order and is not postponed merely because implementation occurs later."
     },
-
     {
       id: "CAA_HARD_09_3",
       question: "A buy-back included in a compromise or arrangement must comply with:",
-      options: [
-        "Section 68",
-        "Section 48",
-        "Section 90",
-        "Section 234"
-      ],
+      options: ["Section 68", "Section 48", "Section 90", "Section 234"],
       answer: 0,
       explanation: "Section 230(10) requires compliance with Section 68 for a buy-back undertaken under a compromise or arrangement."
     },
-
     {
       id: "CAA_HARD_09_4",
       question: "Tribunal sanction of a compromise automatically overrides the requirements of Section 68.",
-      options: [
-        "True",
-        "False",
-        "True only for listed companies",
-        "True only where creditors approve"
-      ],
+      options: ["True", "False", "True only for listed companies", "True only where creditors approve"],
       answer: 1,
       explanation: "The specific statutory requirements applicable to buy-back continue to apply."
     },
-
     {
       id: "CAA_HARD_09_5",
       question: "The filing requirement primarily ensures:",
-      options: [
-        "Registration and statutory record of the Tribunal's order",
-        "Automatic tax exemption",
-        "Automatic listing of shares",
-        "Cancellation of creditor claims"
-      ],
+      options: ["Registration and statutory record of the Tribunal's order", "Automatic tax exemption", "Automatic listing of shares", "Cancellation of creditor claims"],
       answer: 0,
       explanation: "Filing the order with the Registrar ensures the order is placed on the statutory record."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 10
 ========================================================= */
@@ -20766,66 +14821,34 @@ const AICaseStudies = [
   id: "CAA_HARD_10",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Prime Industrial Limited</strong> proposed a merger with Alpha Manufacturing
-    Limited. The scheme contemplated transfer of all assets, liabilities and contractual
-    obligations of Alpha to Prime.</p>
-
-    <p>Alpha had several contracts containing change-of-control clauses. One major lender
-    argued that the merger should be treated as a termination event and that the entire
-    outstanding loan should become immediately payable.</p>
-
-    <p>The scheme also provided that certain employees of Alpha would continue in employment
-    with Prime on substantially similar terms. A number of legal proceedings were pending
-    against Alpha in different courts and tribunals.</p>
-
-    <p>Prime also discovered that Alpha held a block of shares in Prime. The Board proposed
-    that these shares should simply remain outstanding because they had been validly issued
-    before the merger.</p>
-  `,
-
+      <p><strong>Prime Industrial Limited</strong> proposed a merger with Alpha Manufacturing Limited. The scheme contemplated transfer of all assets, liabilities and contractual obligations of Alpha to Prime.</p>
+      <p>Alpha had several contracts containing change-of-control clauses. One major lender argued that the merger should be treated as a termination event and that the entire outstanding loan should become immediately payable.</p>
+      <p>The scheme also provided that certain employees of Alpha would continue in employment with Prime on substantially similar terms. A number of legal proceedings were pending against Alpha in different courts and tribunals.</p>
+      <p>Prime also discovered that Alpha held a block of shares in Prime. The Board proposed that these shares should simply remain outstanding because they had been validly issued before the merger.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_10_1",
       question: "The Tribunal's merger order may provide for transfer and vesting of:",
-      options: [
-        "Property and liabilities",
-        "Only tangible assets",
-        "Only cash",
-        "Only intellectual property"
-      ],
+      options: ["Property and liabilities", "Only tangible assets", "Only cash", "Only intellectual property"],
       answer: 0,
       explanation: "A merger scheme may provide for transfer and vesting of property, liabilities and other matters specified by law."
     },
-
     {
       id: "CAA_HARD_10_2",
       question: "Pending legal proceedings against the transferor may:",
-      options: [
-        "Continue by or against the transferee company",
-        "Always terminate automatically",
-        "Continue only against former directors",
-        "Be transferred to the Registrar"
-      ],
+      options: ["Continue by or against the transferee company", "Always terminate automatically", "Continue only against former directors", "Be transferred to the Registrar"],
       answer: 0,
       explanation: "The scheme may provide for continuation of pending proceedings by or against the transferee company."
     },
-
     {
       id: "CAA_HARD_10_3",
       question: "Transfer of employees under the merger scheme is:",
-      options: [
-        "Permissible subject to the scheme and applicable requirements",
-        "Automatically prohibited",
-        "Possible only after employee dismissal",
-        "Possible only after liquidation"
-      ],
+      options: ["Permissible subject to the scheme and applicable requirements", "Automatically prohibited", "Possible only after employee dismissal", "Possible only after liquidation"],
       answer: 0,
       explanation: "Transfer of employees is a recognized matter that may be dealt with in a merger scheme."
     },
-
     {
       id: "CAA_HARD_10_4",
       question: "The shares held by Alpha in Prime create a problem because:",
@@ -20833,28 +14856,20 @@ const AICaseStudies = [
         "The transferee company should not end up holding its own shares through the merger structure",
         "All shares automatically become preference shares",
         "The shares must be transferred to employees",
-        "The shares must be listed separately"
+        "The shares must be listed separately",
       ],
       answer: 0,
       explanation: "The merger provisions prevent the transferee company from holding its own shares, directly or through specified structures, as a consequence of the scheme."
     },
-
     {
       id: "CAA_HARD_10_5",
       question: "The lender's objection concerning a contractual clause is primarily relevant to:",
-      options: [
-        "The rights and liabilities affected by the scheme",
-        "The company's registered office",
-        "Appointment of the statutory auditor",
-        "The authorised share capital only"
-      ],
+      options: ["The rights and liabilities affected by the scheme", "The company's registered office", "Appointment of the statutory auditor", "The authorised share capital only"],
       answer: 0,
       explanation: "Contractual liabilities and creditor rights are material considerations in evaluating a scheme."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 11
 ========================================================= */
@@ -20862,94 +14877,50 @@ const AICaseStudies = [
   id: "CAA_HARD_11",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Sunrise Retail Limited</strong> made an offer to acquire shares of
-    Moonlight Retail Limited. The offer remained open for four months. During that
-    period, shareholders holding 91% in value of the relevant shares accepted the offer.</p>
-
-    <p>After the expiry of the four-month period, Sunrise decided to acquire the shares
-    of the remaining shareholders. It sent the statutory notice expressing its intention
-    to acquire the remaining shares.</p>
-
-    <p>One dissenting shareholder approached the Tribunal within one month from the date
-    of the notice. Another shareholder claimed that because 91% had accepted the offer,
-    the remaining shareholders should have no statutory right to approach the Tribunal.</p>
-
-    <p>The majority shareholders also deposited the consideration required for acquiring
-    the remaining shares in the separate bank account operated by the company.</p>
-  `,
-
+      <p><strong>Sunrise Retail Limited</strong> made an offer to acquire shares of Moonlight Retail Limited. The offer remained open for four months. During that period, shareholders holding 91% in value of the relevant shares accepted the offer.</p>
+      <p>After the expiry of the four-month period, Sunrise decided to acquire the shares of the remaining shareholders. It sent the statutory notice expressing its intention to acquire the remaining shares.</p>
+      <p>One dissenting shareholder approached the Tribunal within one month from the date of the notice. Another shareholder claimed that because 91% had accepted the offer, the remaining shareholders should have no statutory right to approach the Tribunal.</p>
+      <p>The majority shareholders also deposited the consideration required for acquiring the remaining shares in the separate bank account operated by the company.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_11_1",
       question: "The 91% approval satisfies the minimum percentage required under Section 235.",
-      options: [
-        "Yes",
-        "No",
-        "Only if 95% also consent",
-        "Only if all directors consent"
-      ],
+      options: ["Yes", "No", "Only if 95% also consent", "Only if all directors consent"],
       answer: 0,
       explanation: "The statutory threshold is not less than nine-tenths in value."
     },
-
     {
       id: "CAA_HARD_11_2",
       question: "The four-month period is relevant because approval must be obtained within:",
-      options: [
-        "Four months after the offer",
-        "Six months after the offer",
-        "One year after the offer",
-        "30 days after the offer"
-      ],
+      options: ["Four months after the offer", "Six months after the offer", "One year after the offer", "30 days after the offer"],
       answer: 0,
       explanation: "Section 235 provides a four-month period for obtaining the requisite approval."
     },
-
     {
       id: "CAA_HARD_11_3",
       question: "The dissenting shareholder's application within one month of the notice is:",
-      options: [
-        "Within the statutory period",
-        "Too late",
-        "Permitted only after six months",
-        "Automatically invalid"
-      ],
+      options: ["Within the statutory period", "Too late", "Permitted only after six months", "Automatically invalid"],
       answer: 0,
       explanation: "A dissenting shareholder may apply to the Tribunal within one month from the date of the notice."
     },
-
     {
       id: "CAA_HARD_11_4",
       question: "The majority shareholders are required to deposit the purchase consideration in:",
-      options: [
-        "A separate bank account operated by the company",
-        "The personal account of the transferee's managing director",
-        "The account of the Registrar",
-        "The account of the Tribunal"
-      ],
+      options: ["A separate bank account operated by the company", "The personal account of the transferee's managing director", "The account of the Registrar", "The account of the Tribunal"],
       answer: 0,
       explanation: "Section 235 requires the purchase consideration to be deposited in the prescribed separate bank account."
     },
-
     {
       id: "CAA_HARD_11_5",
       question: "The statement that 90% approval completely removes the dissenting shareholder's right to approach the Tribunal is:",
-      options: [
-        "Correct",
-        "Incorrect",
-        "Correct only for listed companies",
-        "Correct only for preference shares"
-      ],
+      options: ["Correct", "Incorrect", "Correct only for listed companies", "Correct only for preference shares"],
       answer: 1,
       explanation: "The statute specifically preserves the right of a dissenting shareholder to apply to the Tribunal within the prescribed period."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 12
 ========================================================= */
@@ -20957,96 +14928,50 @@ const AICaseStudies = [
   id: "CAA_HARD_12",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>National Consumer Brands Limited</strong> acquired 92% of the issued equity
-    share capital of Regional Foods Limited through a combination of share exchange and
-    conversion of securities. The remaining 8% was held by several minority shareholders.</p>
-
-    <p>National Consumer Brands proposed to acquire the remaining shares under Section 236.
-    A registered valuer determined the fair value after considering the assets, liabilities,
-    profitability, market conditions and other relevant factors.</p>
-
-    <p>The majority shareholders deposited the amount required for acquisition in a separate
-    bank account operated by Regional Foods. Notices were sent to minority shareholders.
-    Some minority shareholders failed to deliver their share certificates despite receiving
-    the notices.</p>
-
-    <p>One minority shareholder argued that Section 236 could not apply because the 92% holding
-    had been acquired partly through conversion of securities rather than by a straightforward
-    cash purchase.</p>
-  `,
-
+      <p><strong>National Consumer Brands Limited</strong> acquired 92% of the issued equity share capital of Regional Foods Limited through a combination of share exchange and conversion of securities. The remaining 8% was held by several minority shareholders.</p>
+      <p>National Consumer Brands proposed to acquire the remaining shares under Section 236. A registered valuer determined the fair value after considering the assets, liabilities, profitability, market conditions and other relevant factors.</p>
+      <p>The majority shareholders deposited the amount required for acquisition in a separate bank account operated by Regional Foods. Notices were sent to minority shareholders. Some minority shareholders failed to deliver their share certificates despite receiving the notices.</p>
+      <p>One minority shareholder argued that Section 236 could not apply because the 92% holding had been acquired partly through conversion of securities rather than by a straightforward cash purchase.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_12_1",
       question: "The 92% acquisition exceeds the 90% threshold required under Section 236.",
-      options: [
-        "True",
-        "False",
-        "Only if acquired for cash",
-        "Only if acquired through amalgamation"
-      ],
+      options: ["True", "False", "Only if acquired for cash", "Only if acquired through amalgamation"],
       answer: 0,
       explanation: "The threshold is 90% or more of the issued equity share capital."
     },
-
     {
       id: "CAA_HARD_12_2",
       question: "Section 236 can apply where the 90% holding is acquired through:",
-      options: [
-        "Amalgamation, share exchange, conversion of securities or other specified means",
-        "Only cash purchase",
-        "Only inheritance",
-        "Only rights issue"
-      ],
+      options: ["Amalgamation, share exchange, conversion of securities or other specified means", "Only cash purchase", "Only inheritance", "Only rights issue"],
       answer: 0,
       explanation: "Section 236 expressly covers acquisition by virtue of amalgamation, share exchange, conversion of securities or other specified means."
     },
-
     {
       id: "CAA_HARD_12_3",
       question: "The minority shareholder's argument that only cash acquisition can trigger Section 236 is:",
-      options: [
-        "Correct",
-        "Incorrect",
-        "Correct only for listed companies",
-        "Correct only for private companies"
-      ],
+      options: ["Correct", "Incorrect", "Correct only for listed companies", "Correct only for private companies"],
       answer: 1,
       explanation: "The provision is not restricted to a simple cash acquisition."
     },
-
     {
       id: "CAA_HARD_12_4",
       question: "The purchase price under Section 236 is determined on the basis of:",
-      options: [
-        "Valuation by a registered valuer",
-        "Face value alone",
-        "The original issue price alone",
-        "The majority shareholder's unilateral estimate"
-      ],
+      options: ["Valuation by a registered valuer", "Face value alone", "The original issue price alone", "The majority shareholder's unilateral estimate"],
       answer: 0,
       explanation: "The fair value is determined in accordance with the statutory valuation mechanism involving a registered valuer."
     },
-
     {
       id: "CAA_HARD_12_5",
       question: "The separate bank account mechanism is primarily intended to:",
-      options: [
-        "Secure the consideration payable for acquisition of minority shares",
-        "Pay employee salaries",
-        "Pay income tax",
-        "Fund future expansion"
-      ],
+      options: ["Secure the consideration payable for acquisition of minority shares", "Pay employee salaries", "Pay income tax", "Fund future expansion"],
       answer: 0,
       explanation: "The deposit ensures availability of consideration for the minority shareholders."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 13
 ========================================================= */
@@ -21054,41 +14979,20 @@ const AICaseStudies = [
   id: "CAA_HARD_13",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Blue Horizon Limited</strong> proposed a scheme of compromise under which
-    preference shareholders would receive equity shares in exchange for their preference
-    shares and accumulated dividend arrears.</p>
-
-    <p>The company had two classes of preference shareholders. The first class had accumulated
-    dividend arrears of ₹8 crore, while the second class had arrears of ₹3 crore. The scheme
-    proposed that the first class could receive either cash equal to the dividend arrears or
-    equity shares of equivalent value. The second class was proposed to receive only equity
-    shares.</p>
-
-    <p>Some Class II shareholders argued that they were being treated less favourably and
-    should be given the same cash option. The Board argued that the scheme had been approved
-    by the required majority and therefore no distinction could be questioned.</p>
-
-    <p>The company also intended to issue new equity shares to implement the scheme and
-    simultaneously vary the rights attached to the preference shares.</p>
-  `,
-
+      <p><strong>Blue Horizon Limited</strong> proposed a scheme of compromise under which preference shareholders would receive equity shares in exchange for their preference shares and accumulated dividend arrears.</p>
+      <p>The company had two classes of preference shareholders. The first class had accumulated dividend arrears of ₹8 crore, while the second class had arrears of ₹3 crore. The scheme proposed that the first class could receive either cash equal to the dividend arrears or equity shares of equivalent value. The second class was proposed to receive only equity shares.</p>
+      <p>Some Class II shareholders argued that they were being treated less favourably and should be given the same cash option. The Board argued that the scheme had been approved by the required majority and therefore no distinction could be questioned.</p>
+      <p>The company also intended to issue new equity shares to implement the scheme and simultaneously vary the rights attached to the preference shares.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_13_1",
       question: "The specific statutory provision dealing with the option relating to preference dividend arrears in the circumstances described is contained in:",
-      options: [
-        "Section 230",
-        "Section 232",
-        "Section 235",
-        "Section 239"
-      ],
+      options: ["Section 230", "Section 232", "Section 235", "Section 239"],
       answer: 0,
       explanation: "Section 230 contains provisions concerning treatment of preference shareholders and dividend arrears in the relevant scheme."
     },
-
     {
       id: "CAA_HARD_13_2",
       question: "The fact that a scheme has received majority approval means that:",
@@ -21096,54 +15000,34 @@ const AICaseStudies = [
         "All statutory requirements become irrelevant",
         "The Tribunal may still examine fairness, statutory compliance and class treatment",
         "All dissenting shareholders automatically lose their rights",
-        "The Registrar must automatically approve it"
+        "The Registrar must automatically approve it",
       ],
       answer: 1,
       explanation: "Majority approval is necessary but does not eliminate the Tribunal's statutory role in examining the scheme."
     },
-
     {
       id: "CAA_HARD_13_3",
       question: "Variation of rights attached to preference shares is connected with:",
-      options: [
-        "Section 48",
-        "Section 68",
-        "Section 90",
-        "Section 236"
-      ],
+      options: ["Section 48", "Section 68", "Section 90", "Section 236"],
       answer: 0,
       explanation: "Variation of shareholders' rights is dealt with under Section 48."
     },
-
     {
       id: "CAA_HARD_13_4",
       question: "The central issue in deciding whether Class I and Class II should be treated as one class is:",
-      options: [
-        "Similarity of their rights and interests",
-        "The colour of their share certificates",
-        "The date on which dividends were declared",
-        "The location of the shareholders"
-      ],
+      options: ["Similarity of their rights and interests", "The colour of their share certificates", "The date on which dividends were declared", "The location of the shareholders"],
       answer: 0,
       explanation: "Class constitution depends on similarity of legal rights and interests."
     },
-
     {
       id: "CAA_HARD_13_5",
       question: "The issuance of equity shares to implement the arrangement is:",
-      options: [
-        "A matter that can form part of the scheme, subject to applicable statutory requirements",
-        "Always prohibited",
-        "Possible only after liquidation",
-        "Outside the scope of any scheme"
-      ],
+      options: ["A matter that can form part of the scheme, subject to applicable statutory requirements", "Always prohibited", "Possible only after liquidation", "Outside the scope of any scheme"],
       answer: 0,
       explanation: "Schemes may provide for issue or allotment of securities to implement the arrangement, subject to applicable law."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 14
 ========================================================= */
@@ -21151,81 +15035,41 @@ const AICaseStudies = [
   id: "CAA_HARD_14",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Evergreen Infrastructure Limited</strong> proposed a scheme involving
-    transfer of a large undertaking to another company. The scheme required the transfer
-    of land, machinery, intellectual property, employees, contracts and various financial
-    liabilities.</p>
-
-    <p>The company had obtained approval of the required class of creditors and members.
-    However, after approval, the Board discovered that the latest audited financial
-    statements were significantly older than the period contemplated by the statutory
-    requirements.</p>
-
-    <p>Several shareholders complained that they had received insufficient information
-    regarding the effect of the scheme on promoters and non-promoter shareholders. A
-    valuation report also disclosed that the valuer had encountered significant difficulties
-    in valuing a foreign subsidiary.</p>
-
-    <p>The Board argued that since the scheme had already been approved by the members,
-    these defects were merely procedural and could not affect Tribunal sanction.</p>
-  `,
-
+      <p><strong>Evergreen Infrastructure Limited</strong> proposed a scheme involving transfer of a large undertaking to another company. The scheme required the transfer of land, machinery, intellectual property, employees, contracts and various financial liabilities.</p>
+      <p>The company had obtained approval of the required class of creditors and members. However, after approval, the Board discovered that the latest audited financial statements were significantly older than the period contemplated by the statutory requirements.</p>
+      <p>Several shareholders complained that they had received insufficient information regarding the effect of the scheme on promoters and non-promoter shareholders. A valuation report also disclosed that the valuer had encountered significant difficulties in valuing a foreign subsidiary.</p>
+      <p>The Board argued that since the scheme had already been approved by the members, these defects were merely procedural and could not affect Tribunal sanction.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_14_1",
       question: "The age of the latest annual accounts may trigger a requirement for:",
-      options: [
-        "A supplementary accounting statement",
-        "Automatic liquidation",
-        "Cancellation of all shares",
-        "Fresh incorporation"
-      ],
+      options: ["A supplementary accounting statement", "Automatic liquidation", "Cancellation of all shares", "Fresh incorporation"],
       answer: 0,
       explanation: "Where the statutory time condition is met, a supplementary accounting statement is required."
     },
-
     {
       id: "CAA_HARD_14_2",
       question: "The valuation difficulty concerning the foreign subsidiary should be:",
-      options: [
-        "Appropriately disclosed as required",
-        "Ignored",
-        "Disclosed only after completion",
-        "Disclosed only to creditors"
-      ],
+      options: ["Appropriately disclosed as required", "Ignored", "Disclosed only after completion", "Disclosed only to creditors"],
       answer: 0,
       explanation: "Special valuation difficulties are relevant information for stakeholders evaluating the scheme."
     },
-
     {
       id: "CAA_HARD_14_3",
       question: "The effect of the scheme on promoters and non-promoter shareholders is:",
-      options: [
-        "Relevant information in the directors' report",
-        "Never required",
-        "Relevant only after merger",
-        "Relevant only to creditors"
-      ],
+      options: ["Relevant information in the directors' report", "Never required", "Relevant only after merger", "Relevant only to creditors"],
       answer: 0,
       explanation: "The directors' report contains information concerning the effect of the scheme on specified shareholder groups."
     },
-
     {
       id: "CAA_HARD_14_4",
       question: "Member approval does not automatically eliminate the Tribunal's power to:",
-      options: [
-        "Examine statutory compliance and stakeholder protection",
-        "Ignore all objections",
-        "Cancel the Companies Act",
-        "Replace the Registrar permanently"
-      ],
+      options: ["Examine statutory compliance and stakeholder protection", "Ignore all objections", "Cancel the Companies Act", "Replace the Registrar permanently"],
       answer: 0,
       explanation: "The Tribunal must consider the statutory requirements and relevant stakeholder interests before sanctioning the scheme."
     },
-
     {
       id: "CAA_HARD_14_5",
       question: "The strongest legal characterization of the Board's argument is:",
@@ -21233,15 +15077,13 @@ const AICaseStudies = [
         "Incorrect because compliance and disclosure requirements remain relevant despite majority approval",
         "Correct in every circumstance",
         "Correct only for private companies",
-        "Correct only where creditors approve"
+        "Correct only where creditors approve",
       ],
       answer: 0,
       explanation: "Majority approval does not cure substantive statutory non-compliance or material disclosure deficiencies."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 15
 ========================================================= */
@@ -21249,54 +15091,27 @@ const AICaseStudies = [
   id: "CAA_HARD_15",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Rapid Mobility Limited</strong> and Rapid Components Private Limited were
-    eligible to consider a fast-track merger. The transferor had 850 members, while the
-    transferee had 420 members. The companies prepared a common scheme and filed declarations
-    of solvency.</p>
-
-    <p>Notice of the proposed scheme was circulated to the Registrar and Official Liquidator.
-    The Registrar raised no objection within the prescribed period, but the Official
-    Liquidator sought clarification concerning a pending environmental liability of the
-    transferor.</p>
-
-    <p>At the creditors' meeting, creditors representing 90.2% in value voted in favour.
-    A separate class of creditors claimed that they should not have been counted in the same
-    class because their repayment rights were substantially different.</p>
-
-    <p>The companies nevertheless proceeded on the basis that the nine-tenths requirement
-    had been satisfied and requested the Central Government to confirm the scheme.</p>
-  `,
-
+      <p><strong>Rapid Mobility Limited</strong> and Rapid Components Private Limited were eligible to consider a fast-track merger. The transferor had 850 members, while the transferee had 420 members. The companies prepared a common scheme and filed declarations of solvency.</p>
+      <p>Notice of the proposed scheme was circulated to the Registrar and Official Liquidator. The Registrar raised no objection within the prescribed period, but the Official Liquidator sought clarification concerning a pending environmental liability of the transferor.</p>
+      <p>At the creditors' meeting, creditors representing 90.2% in value voted in favour. A separate class of creditors claimed that they should not have been counted in the same class because their repayment rights were substantially different.</p>
+      <p>The companies nevertheless proceeded on the basis that the nine-tenths requirement had been satisfied and requested the Central Government to confirm the scheme.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_15_1",
       question: "Creditors representing 90.2% in value satisfy the numerical value threshold of:",
-      options: [
-        "75%",
-        "80%",
-        "90%",
-        "95%"
-      ],
+      options: ["75%", "80%", "90%", "95%"],
       answer: 2,
       explanation: "90.2% exceeds the nine-tenths threshold."
     },
-
     {
       id: "CAA_HARD_15_2",
       question: "The fact that creditors representing 90.2% approved the scheme does not necessarily resolve:",
-      options: [
-        "Whether creditors were correctly classified",
-        "Whether the percentage exceeds 90%",
-        "Whether the scheme exists",
-        "Whether the companies have creditors"
-      ],
+      options: ["Whether creditors were correctly classified", "Whether the percentage exceeds 90%", "Whether the scheme exists", "Whether the companies have creditors"],
       answer: 0,
       explanation: "Correct class constitution remains important. A numerical majority cannot cure improper classification."
     },
-
     {
       id: "CAA_HARD_15_3",
       question: "The Official Liquidator's concern regarding environmental liability is:",
@@ -21304,25 +15119,18 @@ const AICaseStudies = [
         "Relevant to the assessment of liabilities under the scheme",
         "Irrelevant because environmental matters are never considered",
         "Relevant only to employees",
-        "Relevant only after dissolution"
+        "Relevant only after dissolution",
       ],
       answer: 0,
       explanation: "Outstanding or contingent liabilities are relevant to determining the fairness and implementation of a scheme."
     },
-
     {
       id: "CAA_HARD_15_4",
       question: "The declaration of solvency is:",
-      options: [
-        "A requirement in the fast-track merger procedure",
-        "Required only for creditors",
-        "Required only after merger",
-        "Not connected with Section 233"
-      ],
+      options: ["A requirement in the fast-track merger procedure", "Required only for creditors", "Required only after merger", "Not connected with Section 233"],
       answer: 0,
       explanation: "The companies involved in the fast-track merger procedure are required to file declarations of solvency."
     },
-
     {
       id: "CAA_HARD_15_5",
       question: "If creditors with materially different rights have been improperly grouped together, the principal concern is:",
@@ -21330,15 +15138,13 @@ const AICaseStudies = [
         "Whether the voting process fairly represents the relevant class",
         "Whether the company has a registered office",
         "Whether the company has employees",
-        "Whether the company is profitable"
+        "Whether the company is profitable",
       ],
       answer: 0,
       explanation: "Proper constitution of classes is fundamental because approval must be obtained from the persons whose rights are being compromised."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 16
 ========================================================= */
@@ -21346,41 +15152,20 @@ const AICaseStudies = [
   id: "CAA_HARD_16",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>National Logistics Corporation Limited</strong> was ordered to undergo
-    amalgamation in the public interest. The Central Government prepared a draft order
-    specifying the proposed transfer of assets, liabilities and business undertakings.</p>
-
-    <p>A copy of the draft order was sent to the companies concerned. The companies were
-    given an opportunity to submit suggestions and objections. One company requested a
-    longer period than the statutory minimum, while another submitted objections relating
-    to the proposed valuation of its assets.</p>
-
-    <p>After considering the representations, the Central Government proceeded with the
-    amalgamation. The order also provided for compensation to shareholders whose interests
-    were adversely affected.</p>
-
-    <p>One shareholder considered the compensation inadequate and wanted to challenge the
-    assessment before the Tribunal. The company argued that because the Central Government
-    had already issued the amalgamation order, the compensation could not be challenged.</p>
-  `,
-
+      <p><strong>National Logistics Corporation Limited</strong> was ordered to undergo amalgamation in the public interest. The Central Government prepared a draft order specifying the proposed transfer of assets, liabilities and business undertakings.</p>
+      <p>A copy of the draft order was sent to the companies concerned. The companies were given an opportunity to submit suggestions and objections. One company requested a longer period than the statutory minimum, while another submitted objections relating to the proposed valuation of its assets.</p>
+      <p>After considering the representations, the Central Government proceeded with the amalgamation. The order also provided for compensation to shareholders whose interests were adversely affected.</p>
+      <p>One shareholder considered the compensation inadequate and wanted to challenge the assessment before the Tribunal. The company argued that because the Central Government had already issued the amalgamation order, the compensation could not be challenged.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_16_1",
       question: "Section 237 primarily concerns amalgamation:",
-      options: [
-        "In the public interest",
-        "Only between subsidiaries",
-        "Only between private companies",
-        "Only between foreign companies"
-      ],
+      options: ["In the public interest", "Only between subsidiaries", "Only between private companies", "Only between foreign companies"],
       answer: 0,
       explanation: "Section 237 deals with amalgamation of companies in the public interest."
     },
-
     {
       id: "CAA_HARD_16_2",
       question: "Before making the final order, the Central Government must:",
@@ -21388,54 +15173,34 @@ const AICaseStudies = [
         "Send a draft order to the companies concerned and provide an opportunity for suggestions and objections",
         "Obtain unanimous employee consent",
         "Obtain approval from every creditor",
-        "Obtain approval from every shareholder"
+        "Obtain approval from every shareholder",
       ],
       answer: 0,
       explanation: "The companies concerned must be given an opportunity to make representations on the draft order."
     },
-
     {
       id: "CAA_HARD_16_3",
       question: "The statutory minimum period for suggestions and objections under the relevant provision is:",
-      options: [
-        "15 days",
-        "30 days",
-        "Two months",
-        "Six months"
-      ],
+      options: ["15 days", "30 days", "Two months", "Six months"],
       answer: 2,
       explanation: "The period specified for representations cannot be less than two months."
     },
-
     {
       id: "CAA_HARD_16_4",
       question: "An aggrieved person may challenge the compensation assessment before:",
-      options: [
-        "The Tribunal",
-        "The Registrar",
-        "The RBI",
-        "The Official Liquidator only"
-      ],
+      options: ["The Tribunal", "The Registrar", "The RBI", "The Official Liquidator only"],
       answer: 0,
       explanation: "Section 237 provides an appeal mechanism to the Tribunal against the compensation assessment."
     },
-
     {
       id: "CAA_HARD_16_5",
       question: "The argument that compensation cannot be challenged merely because the amalgamation order has been issued is:",
-      options: [
-        "Incorrect",
-        "Correct",
-        "Correct only where the shareholder holds less than 1%",
-        "Correct only for listed companies"
-      ],
+      options: ["Incorrect", "Correct", "Correct only where the shareholder holds less than 1%", "Correct only for listed companies"],
       answer: 0,
       explanation: "The statute specifically provides a mechanism for challenging the compensation assessment."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 17
 ========================================================= */
@@ -21443,95 +15208,50 @@ const AICaseStudies = [
   id: "CAA_HARD_17",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Royal Healthcare Limited</strong> proposed an amalgamation with Medical
-    Devices Limited. The companies prepared a scheme under which all assets and liabilities
-    of Medical Devices would vest in Royal Healthcare.</p>
-
-    <p>Royal Healthcare had previously acquired a significant number of shares in Medical
-    Devices. Certain shares were also held by Medical Devices in Royal Healthcare through
-    an earlier investment arrangement.</p>
-
-    <p>The valuation expert proposed a share exchange ratio based on the relative enterprise
-    values of the two companies. A group of minority shareholders challenged the valuation,
-    arguing that the valuation ignored a recently acquired patent whose value had not yet
-    been reflected in the audited financial statements.</p>
-
-    <p>The Board responded that the patent had no historical cost of significance and therefore
-    should not materially influence the exchange ratio.</p>
-  `,
-
+      <p><strong>Royal Healthcare Limited</strong> proposed an amalgamation with Medical Devices Limited. The companies prepared a scheme under which all assets and liabilities of Medical Devices would vest in Royal Healthcare.</p>
+      <p>Royal Healthcare had previously acquired a significant number of shares in Medical Devices. Certain shares were also held by Medical Devices in Royal Healthcare through an earlier investment arrangement.</p>
+      <p>The valuation expert proposed a share exchange ratio based on the relative enterprise values of the two companies. A group of minority shareholders challenged the valuation, arguing that the valuation ignored a recently acquired patent whose value had not yet been reflected in the audited financial statements.</p>
+      <p>The Board responded that the patent had no historical cost of significance and therefore should not materially influence the exchange ratio.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_17_1",
       question: "A share exchange ratio in a merger should primarily be based on:",
-      options: [
-        "An appropriate valuation of the relevant businesses and securities",
-        "Historical cost of every asset alone",
-        "Face value of shares alone",
-        "Previous year's dividend alone"
-      ],
+      options: ["An appropriate valuation of the relevant businesses and securities", "Historical cost of every asset alone", "Face value of shares alone", "Previous year's dividend alone"],
       answer: 0,
       explanation: "The exchange ratio should be supported by an appropriate valuation methodology considering relevant assets, liabilities and business prospects."
     },
-
     {
       id: "CAA_HARD_17_2",
       question: "A recently acquired patent may be relevant to valuation even if:",
-      options: [
-        "Its value is not fully reflected in historical-cost-based financial statements",
-        "It has no legal ownership",
-        "It is unrelated to the business",
-        "It has already expired"
-      ],
+      options: ["Its value is not fully reflected in historical-cost-based financial statements", "It has no legal ownership", "It is unrelated to the business", "It has already expired"],
       answer: 0,
       explanation: "Valuation is not necessarily limited to historical accounting carrying values; relevant intangible assets may affect economic value."
     },
-
     {
       id: "CAA_HARD_17_3",
       question: "Shares held by the transferee company in itself as a consequence of the scheme should generally be:",
-      options: [
-        "Cancelled or extinguished",
-        "Retained indefinitely",
-        "Transferred to directors",
-        "Converted into government securities"
-      ],
+      options: ["Cancelled or extinguished", "Retained indefinitely", "Transferred to directors", "Converted into government securities"],
       answer: 0,
       explanation: "The merger provisions address and generally require cancellation or extinguishment of such self-held shares."
     },
-
     {
       id: "CAA_HARD_17_4",
       question: "The principal purpose of an expert valuation report in this context is to:",
-      options: [
-        "Support a fair and reasoned basis for the share exchange ratio",
-        "Replace the Tribunal",
-        "Determine income-tax liability conclusively",
-        "Approve employee salaries"
-      ],
+      options: ["Support a fair and reasoned basis for the share exchange ratio", "Replace the Tribunal", "Determine income-tax liability conclusively", "Approve employee salaries"],
       answer: 0,
       explanation: "The valuation report provides an expert basis for the proposed exchange ratio."
     },
-
     {
       id: "CAA_HARD_17_5",
       question: "The Board's statement that only historical cost should determine the exchange ratio is:",
-      options: [
-        "Too narrow",
-        "Always correct",
-        "Mandatory under Section 232",
-        "Mandatory for all registered valuers"
-      ],
+      options: ["Too narrow", "Always correct", "Mandatory under Section 232", "Mandatory for all registered valuers"],
       answer: 0,
       explanation: "A merger valuation generally considers economic value and appropriate valuation methodologies rather than historical cost alone."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 18
 ========================================================= */
@@ -21539,39 +15259,20 @@ const AICaseStudies = [
   id: "CAA_HARD_18",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Future Energy Limited</strong> proposed a scheme under which part of its
-    undertaking would be transferred to a newly formed company. The scheme included
-    transfer of land, plant, intellectual property, employees and specified liabilities.</p>
-
-    <p>Before the Tribunal, certain creditors argued that the scheme did not clearly specify
-    which liabilities would be transferred and which would remain with Future Energy.
-    Several contracts also contained restrictions on assignment.</p>
-
-    <p>The company submitted a revised scheme clarifying the allocation of liabilities.
-    However, one class of creditors claimed that the revision materially changed their
-    rights and therefore required reconsideration by the relevant class.</p>
-
-    <p>The Tribunal considered whether the revised scheme adequately protected creditors
-    and whether the statutory procedure had been followed.</p>
-  `,
-
+      <p><strong>Future Energy Limited</strong> proposed a scheme under which part of its undertaking would be transferred to a newly formed company. The scheme included transfer of land, plant, intellectual property, employees and specified liabilities.</p>
+      <p>Before the Tribunal, certain creditors argued that the scheme did not clearly specify which liabilities would be transferred and which would remain with Future Energy. Several contracts also contained restrictions on assignment.</p>
+      <p>The company submitted a revised scheme clarifying the allocation of liabilities. However, one class of creditors claimed that the revision materially changed their rights and therefore required reconsideration by the relevant class.</p>
+      <p>The Tribunal considered whether the revised scheme adequately protected creditors and whether the statutory procedure had been followed.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_18_1",
       question: "A merger or arrangement scheme may provide for:",
-      options: [
-        "Transfer of undertaking, property, liabilities and other prescribed matters",
-        "Only transfer of cash",
-        "Only transfer of shares",
-        "Only transfer of employees"
-      ],
+      options: ["Transfer of undertaking, property, liabilities and other prescribed matters", "Only transfer of cash", "Only transfer of shares", "Only transfer of employees"],
       answer: 0,
       explanation: "The statutory framework permits comprehensive provisions concerning property, liabilities, undertaking and other matters necessary for implementation."
     },
-
     {
       id: "CAA_HARD_18_2",
       question: "Where a revised scheme materially changes the rights of a class of creditors, the principal concern is:",
@@ -21579,12 +15280,11 @@ const AICaseStudies = [
         "Whether the affected class has been given the appropriate statutory opportunity to consider the revised arrangement",
         "Whether the company has enough directors",
         "Whether the registered office changes",
-        "Whether the auditor resigns"
+        "Whether the auditor resigns",
       ],
       answer: 0,
       explanation: "Material changes affecting a class can raise issues concerning proper class approval and stakeholder consent."
     },
-
     {
       id: "CAA_HARD_18_3",
       question: "Contracts containing assignment restrictions are relevant because:",
@@ -21592,12 +15292,11 @@ const AICaseStudies = [
         "The scheme must properly address contractual rights and obligations",
         "Contracts automatically disappear on a scheme",
         "All contracts are irrelevant to mergers",
-        "Only employee contracts matter"
+        "Only employee contracts matter",
       ],
       answer: 0,
       explanation: "Contractual rights and liabilities are relevant to implementation and must be appropriately dealt with in the scheme."
     },
-
     {
       id: "CAA_HARD_18_4",
       question: "The Tribunal's role includes consideration of:",
@@ -21605,28 +15304,20 @@ const AICaseStudies = [
         "Whether the scheme complies with statutory requirements and adequately addresses stakeholder interests",
         "Only the company's profit",
         "Only the directors' wishes",
-        "Only the tax consequences"
+        "Only the tax consequences",
       ],
       answer: 0,
       explanation: "The Tribunal considers statutory compliance and relevant stakeholder interests while exercising its jurisdiction."
     },
-
     {
       id: "CAA_HARD_18_5",
       question: "The strongest reason for clearly identifying transferred liabilities is:",
-      options: [
-        "To establish the legal and financial consequences of the scheme",
-        "To determine employee attendance",
-        "To calculate directors' remuneration",
-        "To decide the registered office"
-      ],
+      options: ["To establish the legal and financial consequences of the scheme", "To determine employee attendance", "To calculate directors' remuneration", "To decide the registered office"],
       answer: 0,
       explanation: "Clear allocation of liabilities is essential for implementation and protection of creditors and other stakeholders."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 19
 ========================================================= */
@@ -21634,40 +15325,20 @@ const AICaseStudies = [
   id: "CAA_HARD_19",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>National Foods Limited</strong> proposed a compromise with its creditors
-    after suffering losses for two consecutive years. The scheme classified creditors into
-    secured financial creditors, unsecured operational creditors and preference shareholders.</p>
-
-    <p>The company filed an application before the Tribunal containing its latest financial
-    position and the auditor's report. However, the application did not initially disclose
-    a pending regulatory proceeding against one of its subsidiaries. The company argued that
-    the proceeding was against the subsidiary and therefore did not need to be mentioned.</p>
-
-    <p>The scheme also involved a reduction of share capital and a proposed issue of equity
-    shares to certain creditors. A valuation report was annexed, but the valuation date was
-    several months before the proposed implementation date.</p>
-
-    <p>Several creditors holding more than 5% of the total outstanding debt objected to the
-    omission and the valuation methodology.</p>
-  `,
-
+      <p><strong>National Foods Limited</strong> proposed a compromise with its creditors after suffering losses for two consecutive years. The scheme classified creditors into secured financial creditors, unsecured operational creditors and preference shareholders.</p>
+      <p>The company filed an application before the Tribunal containing its latest financial position and the auditor's report. However, the application did not initially disclose a pending regulatory proceeding against one of its subsidiaries. The company argued that the proceeding was against the subsidiary and therefore did not need to be mentioned.</p>
+      <p>The scheme also involved a reduction of share capital and a proposed issue of equity shares to certain creditors. A valuation report was annexed, but the valuation date was several months before the proposed implementation date.</p>
+      <p>Several creditors holding more than 5% of the total outstanding debt objected to the omission and the valuation methodology.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_19_1",
       question: "The latest financial position and auditor's report are:",
-      options: [
-        "Material information relevant to the application",
-        "Optional information",
-        "Required only for listed companies",
-        "Relevant only to shareholders"
-      ],
+      options: ["Material information relevant to the application", "Optional information", "Required only for listed companies", "Relevant only to shareholders"],
       answer: 0,
       explanation: "The application requires disclosure of the latest financial position and auditor's report among other material facts."
     },
-
     {
       id: "CAA_HARD_19_2",
       question: "A pending proceeding involving a subsidiary may be relevant where:",
@@ -21675,25 +15346,18 @@ const AICaseStudies = [
         "It constitutes a material fact affecting the company's affairs or the proposed arrangement",
         "It is never relevant",
         "It involves no monetary amount",
-        "Only shareholders request disclosure"
+        "Only shareholders request disclosure",
       ],
       answer: 0,
       explanation: "Material pending proceedings and investigations must be appropriately disclosed where relevant to the company's affairs and scheme."
     },
-
     {
       id: "CAA_HARD_19_3",
       question: "Creditors holding more than 5% of outstanding debt:",
-      options: [
-        "Meet the statutory threshold for raising objections",
-        "Never have standing to object",
-        "Need 50% of debt",
-        "Need 90% of debt"
-      ],
+      options: ["Meet the statutory threshold for raising objections", "Never have standing to object", "Need 50% of debt", "Need 90% of debt"],
       answer: 0,
       explanation: "The statutory threshold is not less than 5% of the total outstanding debt."
     },
-
     {
       id: "CAA_HARD_19_4",
       question: "Reduction of share capital included in the scheme is:",
@@ -21701,12 +15365,11 @@ const AICaseStudies = [
         "A matter requiring appropriate disclosure and compliance with applicable law",
         "Completely irrelevant",
         "Automatically valid merely because the scheme exists",
-        "Relevant only to employees"
+        "Relevant only to employees",
       ],
       answer: 0,
       explanation: "A reduction of share capital included in the scheme must be disclosed and implemented in accordance with the applicable statutory framework."
     },
-
     {
       id: "CAA_HARD_19_5",
       question: "The principal issue with an outdated valuation date is:",
@@ -21714,15 +15377,13 @@ const AICaseStudies = [
         "Whether the valuation appropriately reflects the relevant circumstances for the proposed transaction",
         "Whether the company has enough employees",
         "Whether the registered office is correct",
-        "Whether the company has filed annual returns"
+        "Whether the company has filed annual returns",
       ],
       answer: 0,
       explanation: "A valuation must be appropriate to the transaction and its relevant circumstances; an outdated valuation may require examination."
     }
-
   ]
 },
-
 /* =========================================================
    CASE SCENARIO 20
 ========================================================= */
@@ -21730,39 +15391,15 @@ const AICaseStudies = [
   id: "CAA_HARD_20",
   difficulty: "Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Unified Technology Limited</strong> proposed a complex restructuring involving
-    a compromise with creditors, transfer of one undertaking to another group company and
-    eventual amalgamation of the transferor with the transferee.</p>
-
-    <p>The scheme provided that secured creditors would receive a combination of cash and
-    securities, while unsecured creditors would receive shares in the transferee company.
-    Equity shareholders of the transferor would also receive shares based on a valuation
-    report prepared by a registered valuer.</p>
-
-    <p>The company had a pending investigation concerning transactions entered into by
-    previous management. The application initially omitted the investigation because the
-    current Board claimed that it was unrelated to the proposed restructuring.</p>
-
-    <p>At the meeting of one creditor class, 78% in number of the creditors voted in favour,
-    representing 76% in value of the creditors present and voting. However, another class
-    representing 12% of the company's total debt argued that it had been incorrectly grouped
-    with creditors having different repayment rights.</p>
-
-    <p>After the meeting, the company received the Tribunal's order sanctioning the scheme.
-    The certified copy was received by the company, but the company delayed filing the order
-    with the Registrar because management believed that the order would become effective only
-    after all contractual transfers had been completed.</p>
-
-    <p>The scheme also contemplated a buy-back component, although the company had not yet
-    demonstrated compliance with all requirements applicable to buy-back under Section 68.
-    Meanwhile, certain shareholders of the listed transferor objected to receiving shares in
-    an unlisted transferee company and demanded an appropriate exit mechanism.</p>
-  `,
-
+      <p><strong>Unified Technology Limited</strong> proposed a complex restructuring involving a compromise with creditors, transfer of one undertaking to another group company and eventual amalgamation of the transferor with the transferee.</p>
+      <p>The scheme provided that secured creditors would receive a combination of cash and securities, while unsecured creditors would receive shares in the transferee company. Equity shareholders of the transferor would also receive shares based on a valuation report prepared by a registered valuer.</p>
+      <p>The company had a pending investigation concerning transactions entered into by previous management. The application initially omitted the investigation because the current Board claimed that it was unrelated to the proposed restructuring.</p>
+      <p>At the meeting of one creditor class, 78% in number of the creditors voted in favour, representing 76% in value of the creditors present and voting. However, another class representing 12% of the company's total debt argued that it had been incorrectly grouped with creditors having different repayment rights.</p>
+      <p>After the meeting, the company received the Tribunal's order sanctioning the scheme. The certified copy was received by the company, but the company delayed filing the order with the Registrar because management believed that the order would become effective only after all contractual transfers had been completed.</p>
+      <p>The scheme also contemplated a buy-back component, although the company had not yet demonstrated compliance with all requirements applicable to buy-back under Section 68. Meanwhile, certain shareholders of the listed transferor objected to receiving shares in an unlisted transferee company and demanded an appropriate exit mechanism.</p>
+    `,
   questions: [
-
     {
       id: "CAA_HARD_20_1",
       question: "The creditor class in which 78% in number voted in favour and 76% in value voted in favour satisfies the approval requirement only if:",
@@ -21770,12 +15407,11 @@ const AICaseStudies = [
         "The relevant class was correctly constituted and the statutory majority requirements are otherwise satisfied",
         "Every creditor of the company voted",
         "All shareholders approved unanimously",
-        "The Registrar personally approves the voting"
+        "The Registrar personally approves the voting",
       ],
       answer: 0,
       explanation: "The majority and three-fourths value requirements operate within the properly constituted class. Incorrect class constitution can undermine the validity of the voting process."
     },
-
     {
       id: "CAA_HARD_20_2",
       question: "The pending investigation should have been considered for disclosure because:",
@@ -21783,38 +15419,25 @@ const AICaseStudies = [
         "Material investigations or proceedings are relevant disclosures under Section 230",
         "Investigations are never relevant to schemes",
         "Only investigations involving current directors are disclosed",
-        "Only criminal investigations require disclosure"
+        "Only criminal investigations require disclosure",
       ],
       answer: 0,
       explanation: "Section 230 requires disclosure of material facts, including pending investigations or proceedings relevant to the company."
     },
-
     {
       id: "CAA_HARD_20_3",
       question: "The company's decision to delay filing the Tribunal's order until contractual transfers are completed is:",
-      options: [
-        "Not justified merely on that basis because the Act prescribes a filing period",
-        "Always correct",
-        "Correct only where creditors agree",
-        "Correct only for listed companies"
-      ],
+      options: ["Not justified merely on that basis because the Act prescribes a filing period", "Always correct", "Correct only where creditors agree", "Correct only for listed companies"],
       answer: 0,
       explanation: "The Tribunal's order must be filed with the Registrar within the statutory period from receipt of the order."
     },
-
     {
       id: "CAA_HARD_20_4",
       question: "The buy-back component of the scheme must comply with:",
-      options: [
-        "Section 68",
-        "Section 48 only",
-        "Section 234 only",
-        "Section 237 only"
-      ],
+      options: ["Section 68", "Section 48 only", "Section 234 only", "Section 237 only"],
       answer: 0,
       explanation: "A buy-back under a compromise or arrangement must comply with Section 68."
     },
-
     {
       id: "CAA_HARD_20_5",
       question: "The objection of shareholders of the listed transferor concerning receipt of shares in an unlisted transferee is primarily addressed by:",
@@ -21822,15 +15445,13 @@ const AICaseStudies = [
         "The statutory protections applicable where a listed company merges with an unlisted company",
         "Automatic cancellation of the merger",
         "Section 236 minority purchase only",
-        "The provisions relating to investigation of ownership only"
+        "The provisions relating to investigation of ownership only",
       ],
       answer: 0,
       explanation: "Where a listed transferor merges with an unlisted transferee, the merger framework provides safeguards including an appropriate exit mechanism for dissenting shareholders in the prescribed circumstances."
     }
-
   ]
 },
-
 /* =========================================================
    VERY HARD CASE SCENARIO 1
 ========================================================= */
@@ -21838,37 +15459,14 @@ const AICaseStudies = [
   id: "CAA_VH_01",
   difficulty: "Very Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Apex Infrastructure Limited</strong> proposed a scheme of arrangement with
-    its creditors after experiencing a severe liquidity crisis. The company had three
-    categories of creditors. Class A consisted of secured institutional lenders holding
-    claims of ₹420 crore. Class B consisted of unsecured financial creditors holding
-    claims
-    of ₹180 crore. Class C consisted of trade creditors holding claims of ₹100 crore.</p>
-
-    <p>Under the proposed scheme, Class A creditors would receive 80% of their principal
-    immediately and the balance through long-term securities. Class B creditors would
-    receive 60% of their claims in cash over four years, while Class C creditors would
-    receive 35% of their admitted claims in cash over two years.</p>
-
-    <p>The Board proposed one common meeting for all creditors on the ground that all of
-    them were creditors of Apex. At the meeting, creditors representing 78% of the total
-    debt in value voted in favour. However, the voting pattern was substantially different
-    between the three categories.</p>
-
-    <p>Class A overwhelmingly supported the scheme, whereas Class C substantially opposed
-    it. A group of Class C creditors argued that their rights were fundamentally different
-    because they had no security and were being offered a substantially lower recovery.</p>
-
-    <p>One creditor holding 5.2% of the total outstanding debt objected to the scheme.
-    Another creditor holding 4.8% supported the objection. The company contended that
-    because the scheme had crossed the required overall majority, the objections should
-    not be considered.</p>
-  `,
-
+      <p><strong>Apex Infrastructure Limited</strong> proposed a scheme of arrangement with its creditors after experiencing a severe liquidity crisis. The company had three categories of creditors. Class A consisted of secured institutional lenders holding claims of ₹420 crore. Class B consisted of unsecured financial creditors holding claims of ₹180 crore. Class C consisted of trade creditors holding claims of ₹100 crore.</p>
+      <p>Under the proposed scheme, Class A creditors would receive 80% of their principal immediately and the balance through long-term securities. Class B creditors would receive 60% of their claims in cash over four years, while Class C creditors would receive 35% of their admitted claims in cash over two years.</p>
+      <p>The Board proposed one common meeting for all creditors on the ground that all of them were creditors of Apex. At the meeting, creditors representing 78% of the total debt in value voted in favour. However, the voting pattern was substantially different between the three categories.</p>
+      <p>Class A overwhelmingly supported the scheme, whereas Class C substantially opposed it. A group of Class C creditors argued that their rights were fundamentally different because they had no security and were being offered a substantially lower recovery.</p>
+      <p>One creditor holding 5.2% of the total outstanding debt objected to the scheme. Another creditor holding 4.8% supported the objection. The company contended that because the scheme had crossed the required overall majority, the objections should not be considered.</p>
+    `,
   questions: [
-
     {
       id: "CAA_VH_01_1",
       question: "The strongest legal objection to conducting one common meeting for all three creditor categories is:",
@@ -21876,25 +15474,18 @@ const AICaseStudies = [
         "The total debt exceeds ₹500 crore",
         "The creditors may possess sufficiently different rights and interests to require separate classes",
         "Trade creditors can never vote on a compromise",
-        "Secured creditors can never vote together with financial creditors"
+        "Secured creditors can never vote together with financial creditors",
       ],
       answer: 1,
       explanation: "The decisive issue is similarity of rights and interests. Creditors whose rights are sufficiently different may need to constitute separate classes."
     },
-
     {
       id: "CAA_VH_01_2",
       question: "Assuming the 5.2% creditor satisfies all other statutory conditions, the creditor:",
-      options: [
-        "Fails because the threshold is 10%",
-        "Fails because the threshold is 7.5%",
-        "Meets the statutory 5% debt threshold for objecting",
-        "Can object only if secured"
-      ],
+      options: ["Fails because the threshold is 10%", "Fails because the threshold is 7.5%", "Meets the statutory 5% debt threshold for objecting", "Can object only if secured"],
       answer: 2,
       explanation: "A creditor holding not less than 5% of the total outstanding debt can object, subject to the statutory requirements."
     },
-
     {
       id: "CAA_VH_01_3",
       question: "If the classes were incorrectly combined, the fact that 78% of total debt approved the scheme would:",
@@ -21902,12 +15493,11 @@ const AICaseStudies = [
         "Automatically cure the defect",
         "Not necessarily cure the defect because approval must be considered class-wise where separate classes are required",
         "Make the scheme binding regardless of the rights of Class C",
-        "Make Tribunal scrutiny unnecessary"
+        "Make Tribunal scrutiny unnecessary",
       ],
       answer: 1,
       explanation: "A numerical majority cannot cure an improperly constituted class. The statutory voting process depends on proper classification."
     },
-
     {
       id: "CAA_VH_01_4",
       question: "Which fact most strongly supports separate treatment of Class C?",
@@ -21915,12 +15505,11 @@ const AICaseStudies = [
         "Class C has smaller claims individually",
         "Class C creditors are geographically dispersed",
         "Class C creditors have materially different rights and substantially different treatment under the scheme",
-        "Class C creditors are trade creditors by name"
+        "Class C creditors are trade creditors by name",
       ],
       answer: 2,
       explanation: "The relevant consideration is the nature of the rights and interests and the treatment under the scheme."
     },
-
     {
       id: "CAA_VH_01_5",
       question: "The company's argument that an overall 78% approval prevents consideration of individual objections is:",
@@ -21928,15 +15517,13 @@ const AICaseStudies = [
         "Correct in all cases",
         "Incorrect because statutory objection rights and proper class constitution remain relevant",
         "Correct where secured creditors approve",
-        "Correct if the company is financially distressed"
+        "Correct if the company is financially distressed",
       ],
       answer: 1,
       explanation: "Majority approval does not extinguish statutory rights of eligible objectors or eliminate the requirement of proper class constitution."
     }
-
   ]
 },
-
 /* =========================================================
    VERY HARD CASE SCENARIO 2
 ========================================================= */
@@ -21944,57 +15531,28 @@ const AICaseStudies = [
   id: "CAA_VH_02",
   difficulty: "Very Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Zenith Pharmaceuticals Limited</strong> proposed an amalgamation with
-    Zenith Research Private Limited, its wholly-owned subsidiary. The companies intended
-    to use the fast-track merger mechanism.</p>
-
-    <p>The transferor company had 1,250 members and the transferee company had 180 members.
-    The companies filed declarations of solvency and circulated the proposed scheme to
-    members and creditors.</p>
-
-    <p>At the creditors' meeting, creditors representing 92% in value approved the scheme.
-    However, the creditor list used for calculating the percentage included a creditor
-    whose claim was disputed and had been rejected by the company in its books.</p>
-
-    <p>The Registrar raised an objection concerning the treatment of an intellectual
-    property licence. The Official Liquidator separately raised concerns regarding an
-    environmental liability that had not been adequately reflected in the scheme.</p>
-
-    <p>The Central Government considered the objections and questioned whether the scheme
-    should continue through the fast-track mechanism or be dealt with under the regular
-    merger procedure.</p>
-  `,
-
+      <p><strong>Zenith Pharmaceuticals Limited</strong> proposed an amalgamation with Zenith Research Private Limited, its wholly-owned subsidiary. The companies intended to use the fast-track merger mechanism.</p>
+      <p>The transferor company had 1,250 members and the transferee company had 180 members. The companies filed declarations of solvency and circulated the proposed scheme to members and creditors.</p>
+      <p>At the creditors' meeting, creditors representing 92% in value approved the scheme. However, the creditor list used for calculating the percentage included a creditor whose claim was disputed and had been rejected by the company in its books.</p>
+      <p>The Registrar raised an objection concerning the treatment of an intellectual property licence. The Official Liquidator separately raised concerns regarding an environmental liability that had not been adequately reflected in the scheme.</p>
+      <p>The Central Government considered the objections and questioned whether the scheme should continue through the fast-track mechanism or be dealt with under the regular merger procedure.</p>
+    `,
   questions: [
-
     {
       id: "CAA_VH_02_1",
       question: "The 92% creditor approval by itself conclusively establishes compliance with the fast-track procedure.",
-      options: [
-        "Yes",
-        "No",
-        "Yes, because the threshold is the only statutory requirement",
-        "Yes, provided the companies are related"
-      ],
+      options: ["Yes", "No", "Yes, because the threshold is the only statutory requirement", "Yes, provided the companies are related"],
       answer: 1,
       explanation: "The prescribed majority is necessary but does not eliminate other statutory conditions, including proper procedure and consideration of objections."
     },
-
     {
       id: "CAA_VH_02_2",
       question: "The disputed and rejected claim included in the denominator creates a potential issue concerning:",
-      options: [
-        "Proper determination of the relevant creditor class and voting entitlement",
-        "The authorised share capital only",
-        "Appointment of directors",
-        "The company's registered office"
-      ],
+      options: ["Proper determination of the relevant creditor class and voting entitlement", "The authorised share capital only", "Appointment of directors", "The company's registered office"],
       answer: 0,
       explanation: "Determination of the relevant creditors and their voting rights is fundamental to calculating the statutory approval."
     },
-
     {
       id: "CAA_VH_02_3",
       question: "The Central Government may refuse to allow the matter to proceed under the fast-track route where:",
@@ -22002,12 +15560,11 @@ const AICaseStudies = [
         "The scheme raises issues requiring consideration by the Tribunal under the statutory framework",
         "Any single creditor objects",
         "The company has intellectual property",
-        "The subsidiary is wholly owned"
+        "The subsidiary is wholly owned",
       ],
       answer: 0,
       explanation: "The Central Government can refer the scheme to the Tribunal where statutory conditions warrant consideration under the regular procedure."
     },
-
     {
       id: "CAA_VH_02_4",
       question: "The Official Liquidator's environmental-liability objection is significant because:",
@@ -22015,12 +15572,11 @@ const AICaseStudies = [
         "Environmental liabilities are automatically extinguished on merger",
         "The scheme must adequately address liabilities transferred or assumed under the merger",
         "Only financial liabilities matter in a merger",
-        "Environmental liabilities can be ignored if members approve"
+        "Environmental liabilities can be ignored if members approve",
       ],
       answer: 1,
       explanation: "Liabilities form an important part of the scheme and cannot simply be disregarded because the transaction is a merger."
     },
-
     {
       id: "CAA_VH_02_5",
       question: "The fact that the transferee is a wholly-owned subsidiary:",
@@ -22028,15 +15584,13 @@ const AICaseStudies = [
         "May make the transaction eligible for the fast-track framework, subject to statutory conditions",
         "Automatically eliminates every statutory requirement",
         "Automatically dissolves the subsidiary without a scheme",
-        "Makes creditor approval unnecessary"
+        "Makes creditor approval unnecessary",
       ],
       answer: 0,
       explanation: "Wholly-owned subsidiary mergers may qualify for the simplified procedure, but the prescribed statutory conditions still apply."
     }
-
   ]
 },
-
 /* =========================================================
    VERY HARD CASE SCENARIO 3
 ========================================================= */
@@ -22044,31 +15598,14 @@ const AICaseStudies = [
   id: "CAA_VH_03",
   difficulty: "Very Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Meridian Technologies Limited</strong>, a listed company, proposed to merge
-    with Innovate Systems Private Limited, an unlisted company. Meridian shareholders would
-    receive shares of Innovate Systems under a valuation-based exchange ratio.</p>
-
-    <p>Immediately before the scheme was announced, Meridian's market price was ₹480 per
-    share. The valuation report determined the economic value of Meridian at ₹520 per share
-    and Innovate Systems at an equivalent value of ₹260 per share.</p>
-
-    <p>The proposed exchange ratio was therefore two shares of Innovate Systems for every
-    one share of Meridian. However, Innovate Systems would remain unlisted after the merger.</p>
-
-    <p>Institutional shareholders argued that the exchange ratio was economically reasonable
-    but the transaction deprived them of the liquidity associated with a listed security.
-    They demanded an exit mechanism. The Board argued that no shareholder had suffered a
-    loss because the valuation showed equivalent economic value.</p>
-
-    <p>A separate shareholder holding 11.5% of Meridian's share capital filed an objection
-    and argued that majority approval could not remove the statutory protection applicable
-    to shareholders of a listed transferor.</p>
-  `,
-
+      <p><strong>Meridian Technologies Limited</strong>, a listed company, proposed to merge with Innovate Systems Private Limited, an unlisted company. Meridian shareholders would receive shares of Innovate Systems under a valuation-based exchange ratio.</p>
+      <p>Immediately before the scheme was announced, Meridian's market price was ₹480 per share. The valuation report determined the economic value of Meridian at ₹520 per share and Innovate Systems at an equivalent value of ₹260 per share.</p>
+      <p>The proposed exchange ratio was therefore two shares of Innovate Systems for every one share of Meridian. However, Innovate Systems would remain unlisted after the merger.</p>
+      <p>Institutional shareholders argued that the exchange ratio was economically reasonable but the transaction deprived them of the liquidity associated with a listed security. They demanded an exit mechanism. The Board argued that no shareholder had suffered a loss because the valuation showed equivalent economic value.</p>
+      <p>A separate shareholder holding 11.5% of Meridian's share capital filed an objection and argued that majority approval could not remove the statutory protection applicable to shareholders of a listed transferor.</p>
+    `,
   questions: [
-
     {
       id: "CAA_VH_03_1",
       question: "The central issue created by the listed-to-unlisted merger is:",
@@ -22076,25 +15613,18 @@ const AICaseStudies = [
         "Only the numerical exchange ratio",
         "The loss of listing/liquidity and the statutory protection applicable to shareholders",
         "Whether Innovate has employees",
-        "Whether Meridian has secured creditors"
+        "Whether Meridian has secured creditors",
       ],
       answer: 1,
       explanation: "A listed transferor merging into an unlisted transferee raises specific statutory protection and exit considerations."
     },
-
     {
       id: "CAA_VH_03_2",
       question: "The fact that the economic valuation is equivalent necessarily means that no exit protection can apply.",
-      options: [
-        "True",
-        "False",
-        "True only where institutional investors approve",
-        "True only where the exchange ratio is certified"
-      ],
+      options: ["True", "False", "True only where institutional investors approve", "True only where the exchange ratio is certified"],
       answer: 1,
       explanation: "Economic valuation and statutory shareholder protection are separate considerations. Equal valuation does not automatically eliminate statutory safeguards."
     },
-
     {
       id: "CAA_VH_03_3",
       question: "The shareholder holding 11.5% is significant because:",
@@ -22102,41 +15632,27 @@ const AICaseStudies = [
         "The shareholder exceeds the statutory shareholding threshold for raising an objection",
         "Any shareholder above 1% automatically controls the scheme",
         "Only institutional shareholders may object",
-        "The shareholder becomes a creditor"
+        "The shareholder becomes a creditor",
       ],
       answer: 0,
       explanation: "A member holding not less than 10% of the shareholding satisfies the prescribed threshold for objecting, subject to other conditions."
     },
-
     {
       id: "CAA_VH_03_4",
       question: "If Meridian's market price is ₹480 but its valuation is ₹520, which value is necessarily required to determine the exchange ratio?",
-      options: [
-        "Only ₹480",
-        "Only ₹520",
-        "Neither figure alone; the prescribed valuation methodology and relevant circumstances must be considered",
-        "The face value of the shares"
-      ],
+      options: ["Only ₹480", "Only ₹520", "Neither figure alone; the prescribed valuation methodology and relevant circumstances must be considered", "The face value of the shares"],
       answer: 2,
       explanation: "A merger exchange ratio is not determined mechanically by market price or a single valuation figure; the appropriate valuation exercise must be considered."
     },
-
     {
       id: "CAA_VH_03_5",
       question: "The Board's statement that majority approval eliminates the shareholders' statutory protection is:",
-      options: [
-        "Correct",
-        "Incorrect",
-        "Correct only if 90% approve",
-        "Correct only if the valuer agrees"
-      ],
+      options: ["Correct", "Incorrect", "Correct only if 90% approve", "Correct only if the valuer agrees"],
       answer: 1,
       explanation: "Statutory protections applicable to affected shareholders are not automatically waived by majority approval."
     }
-
   ]
 },
-
 /* =========================================================
    VERY HARD CASE SCENARIO 4
 ========================================================= */
@@ -22144,70 +15660,35 @@ const AICaseStudies = [
   id: "CAA_VH_04",
   difficulty: "Very Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Omega Mining Limited</strong> proposed a cross-border merger with Global
-    Minerals Pte. Ltd., incorporated outside India in a jurisdiction permitted under the
-    applicable framework.</p>
-
-    <p>Global Minerals owned mining technology, foreign subsidiaries and several overseas
-    contractual rights. Omega proposed to issue securities to the shareholders of Global
-    Minerals as consideration, together with a cash component.</p>
-
-    <p>The scheme was approved by the boards of both companies. The directors then approached
-    the Tribunal, arguing that approval under the Companies Act was sufficient because the
-    transaction was structured as a merger.</p>
-
-    <p>The legal adviser pointed out that the transaction would involve foreign exchange
-    implications and therefore compliance with the Reserve Bank of India framework was
-    necessary. One director argued that RBI approval was merely administrative and could
-    be obtained after the Tribunal sanctioned the merger.</p>
-
-    <p>The foreign shareholders also questioned whether they could receive depository
-    receipts rather than direct shares in the Indian company.</p>
-  `,
-
+      <p><strong>Omega Mining Limited</strong> proposed a cross-border merger with Global Minerals Pte. Ltd., incorporated outside India in a jurisdiction permitted under the applicable framework.</p>
+      <p>Global Minerals owned mining technology, foreign subsidiaries and several overseas contractual rights. Omega proposed to issue securities to the shareholders of Global Minerals as consideration, together with a cash component.</p>
+      <p>The scheme was approved by the boards of both companies. The directors then approached the Tribunal, arguing that approval under the Companies Act was sufficient because the transaction was structured as a merger.</p>
+      <p>The legal adviser pointed out that the transaction would involve foreign exchange implications and therefore compliance with the Reserve Bank of India framework was necessary. One director argued that RBI approval was merely administrative and could be obtained after the Tribunal sanctioned the merger.</p>
+      <p>The foreign shareholders also questioned whether they could receive depository receipts rather than direct shares in the Indian company.</p>
+    `,
   questions: [
-
     {
       id: "CAA_VH_04_1",
       question: "The principal Companies Act provision specifically dealing with cross-border merger is:",
-      options: [
-        "Section 230",
-        "Section 232",
-        "Section 234",
-        "Section 237"
-      ],
+      options: ["Section 230", "Section 232", "Section 234", "Section 237"],
       answer: 2,
       explanation: "Section 234 specifically governs merger or amalgamation of an Indian company with a foreign company."
     },
-
     {
       id: "CAA_VH_04_2",
       question: "The director's statement that RBI requirements can simply be ignored until after Tribunal sanction is:",
-      options: [
-        "Correct",
-        "Incorrect",
-        "Correct where the foreign company has no Indian assets",
-        "Correct where both boards approve"
-      ],
+      options: ["Correct", "Incorrect", "Correct where the foreign company has no Indian assets", "Correct where both boards approve"],
       answer: 1,
       explanation: "Cross-border mergers must comply with applicable RBI and foreign exchange requirements."
     },
-
     {
       id: "CAA_VH_04_3",
       question: "The proposed consideration to foreign shareholders may, subject to applicable conditions, include:",
-      options: [
-        "Cash and/or depository receipts",
-        "Only Indian currency",
-        "Only ordinary shares",
-        "Only preference shares"
-      ],
+      options: ["Cash and/or depository receipts", "Only Indian currency", "Only ordinary shares", "Only preference shares"],
       answer: 0,
       explanation: "The statutory framework permits consideration through cash, depository receipts or a combination, subject to applicable requirements."
     },
-
     {
       id: "CAA_VH_04_4",
       question: "The presence of overseas contractual rights means that the scheme should:",
@@ -22215,12 +15696,11 @@ const AICaseStudies = [
         "Address transfer, vesting and enforceability of relevant rights and liabilities",
         "Automatically terminate all foreign contracts",
         "Ignore foreign law",
-        "Transfer all contracts to the RBI"
+        "Transfer all contracts to the RBI",
       ],
       answer: 0,
       explanation: "A cross-border scheme must properly address assets, liabilities, contracts and other legal rights affected by the merger."
     },
-
     {
       id: "CAA_VH_04_5",
       question: "Board approval of both companies:",
@@ -22228,15 +15708,13 @@ const AICaseStudies = [
         "Is sufficient by itself to complete the cross-border merger",
         "Does not replace the statutory and regulatory approval framework",
         "Automatically constitutes Tribunal sanction",
-        "Automatically constitutes RBI approval"
+        "Automatically constitutes RBI approval",
       ],
       answer: 1,
       explanation: "Board approval is only one step and does not replace statutory, Tribunal and regulatory requirements."
     }
-
   ]
 },
-
 /* =========================================================
    VERY HARD CASE SCENARIO 5
 ========================================================= */
@@ -22244,56 +15722,28 @@ const AICaseStudies = [
   id: "CAA_VH_05",
   difficulty: "Very Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Vertex Consumer Limited</strong> acquired 93% of the equity share capital of
-    Retail Brands Limited through a combination of share purchase, conversion of securities
-    and a previous amalgamation transaction.</p>
-
-    <p>The remaining 7% was held by approximately 320 minority shareholders. Vertex invoked
-    the provisions concerning purchase of shares of minority shareholders.</p>
-
-    <p>A registered valuer determined the fair value at ₹375 per share. The majority shareholder
-    deposited the consideration in a separate bank account. Notices were issued to the
-    minority shareholders.</p>
-
-    <p>Some minority shareholders argued that the 90% threshold should be calculated only
-    on the basis of shares acquired for cash and that shares received through conversion
-    of securities should be excluded.</p>
-
-    <p>Another shareholder argued that the valuation should be based solely on the original
-    issue price of ₹100 because that was the price at which the company originally issued
-    the shares.</p>
-  `,
-
+      <p><strong>Vertex Consumer Limited</strong> acquired 93% of the equity share capital of Retail Brands Limited through a combination of share purchase, conversion of securities and a previous amalgamation transaction.</p>
+      <p>The remaining 7% was held by approximately 320 minority shareholders. Vertex invoked the provisions concerning purchase of shares of minority shareholders.</p>
+      <p>A registered valuer determined the fair value at ₹375 per share. The majority shareholder deposited the consideration in a separate bank account. Notices were issued to the minority shareholders.</p>
+      <p>Some minority shareholders argued that the 90% threshold should be calculated only on the basis of shares acquired for cash and that shares received through conversion of securities should be excluded.</p>
+      <p>Another shareholder argued that the valuation should be based solely on the original issue price of ₹100 because that was the price at which the company originally issued the shares.</p>
+    `,
   questions: [
-
     {
       id: "CAA_VH_05_1",
       question: "For Section 236 purposes, acquisition through amalgamation, share exchange or conversion of securities:",
-      options: [
-        "Can be relevant in determining the 90% threshold",
-        "Can never be counted",
-        "Can be counted only if the acquisition was in cash",
-        "Is relevant only to foreign companies"
-      ],
+      options: ["Can be relevant in determining the 90% threshold", "Can never be counted", "Can be counted only if the acquisition was in cash", "Is relevant only to foreign companies"],
       answer: 0,
       explanation: "Section 236 expressly covers acquisition through amalgamation, share exchange, conversion of securities and other specified means."
     },
-
     {
       id: "CAA_VH_05_2",
       question: "The 93% holding is sufficient to cross the statutory threshold because:",
-      options: [
-        "The threshold is 75%",
-        "The threshold is 80%",
-        "The threshold is 90% or more of the issued equity share capital",
-        "The threshold is 95%"
-      ],
+      options: ["The threshold is 75%", "The threshold is 80%", "The threshold is 90% or more of the issued equity share capital", "The threshold is 95%"],
       answer: 2,
       explanation: "Section 236 applies where the acquirer becomes the registered holder of 90% or more of the issued equity share capital."
     },
-
     {
       id: "CAA_VH_05_3",
       question: "The argument that the original issue price must necessarily determine the purchase price is:",
@@ -22301,25 +15751,18 @@ const AICaseStudies = [
         "Correct",
         "Incorrect because statutory valuation involves fair value determined through the prescribed valuation mechanism",
         "Correct if minority shareholders agree",
-        "Correct for all unlisted companies"
+        "Correct for all unlisted companies",
       ],
       answer: 1,
       explanation: "The statutory mechanism relies on fair value determined by a registered valuer rather than simply the historical issue price."
     },
-
     {
       id: "CAA_VH_05_4",
       question: "The deposit of consideration into a separate bank account primarily serves to:",
-      options: [
-        "Secure the amount payable to minority shareholders",
-        "Create additional share capital",
-        "Pay the company's taxes",
-        "Finance the acquirer's future investments"
-      ],
+      options: ["Secure the amount payable to minority shareholders", "Create additional share capital", "Pay the company's taxes", "Finance the acquirer's future investments"],
       answer: 0,
       explanation: "The deposit mechanism protects the payment obligation to minority shareholders."
     },
-
     {
       id: "CAA_VH_05_5",
       question: "The strongest legal basis for rejecting the minority shareholders' cash-only threshold argument is:",
@@ -22327,15 +15770,13 @@ const AICaseStudies = [
         "Section 236 expressly includes specified non-cash modes of acquisition",
         "All shares must always be purchased for cash",
         "Only listed shares qualify",
-        "Only preference shares qualify"
+        "Only preference shares qualify",
       ],
       answer: 0,
       explanation: "The statutory wording extends beyond a simple cash purchase."
     }
-
   ]
 },
-
 /* =========================================================
    VERY HARD CASE SCENARIO 6
 ========================================================= */
@@ -22343,54 +15784,27 @@ const AICaseStudies = [
   id: "CAA_VH_06",
   difficulty: "Very Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Eastern Power Limited</strong> filed an application for sanction of a
-    compromise and arrangement. The company had 4,000 members and total outstanding debt
-    of ₹800 crore.</p>
-
-    <p>A shareholder holding 9.8% of the shareholding objected to the scheme. A creditor
-    holding 5.1% of the outstanding debt also objected. Another shareholder holding 10.2%
-    supported the scheme but claimed that the scheme was unfair to a different class of
-    shareholders.</p>
-
-    <p>The company argued that only shareholders who actually voted against the scheme could
-    object and that a shareholder who supported the scheme could not later question the
-    arrangement.</p>
-
-    <p>The scheme also contained a provision for reduction of share capital. The company
-    attempted to rely solely on Section 230 without separately examining the statutory
-    requirements associated with reduction.</p>
-  `,
-
+      <p><strong>Eastern Power Limited</strong> filed an application for sanction of a compromise and arrangement. The company had 4,000 members and total outstanding debt of ₹800 crore.</p>
+      <p>A shareholder holding 9.8% of the shareholding objected to the scheme. A creditor holding 5.1% of the outstanding debt also objected. Another shareholder holding 10.2% supported the scheme but claimed that the scheme was unfair to a different class of shareholders.</p>
+      <p>The company argued that only shareholders who actually voted against the scheme could object and that a shareholder who supported the scheme could not later question the arrangement.</p>
+      <p>The scheme also contained a provision for reduction of share capital. The company attempted to rely solely on Section 230 without separately examining the statutory requirements associated with reduction.</p>
+    `,
   questions: [
-
     {
       id: "CAA_VH_06_1",
       question: "The shareholder holding 9.8% fails to meet the 10% shareholding threshold specified for objection under Section 230(4), assuming no other qualifying basis exists.",
-      options: [
-        "True",
-        "False",
-        "Only if the company is listed",
-        "Only if the shareholder is a promoter"
-      ],
+      options: ["True", "False", "Only if the company is listed", "Only if the shareholder is a promoter"],
       answer: 0,
       explanation: "The statutory shareholding threshold is not less than 10% of the shareholding."
     },
-
     {
       id: "CAA_VH_06_2",
       question: "The creditor holding 5.1% of outstanding debt:",
-      options: [
-        "Meets the 5% threshold for objecting",
-        "Fails because the threshold is 10%",
-        "Fails because only secured creditors can object",
-        "Needs unanimous creditor support"
-      ],
+      options: ["Meets the 5% threshold for objecting", "Fails because the threshold is 10%", "Fails because only secured creditors can object", "Needs unanimous creditor support"],
       answer: 0,
       explanation: "A creditor holding not less than 5% of total outstanding debt meets the statutory threshold, subject to the other conditions."
     },
-
     {
       id: "CAA_VH_06_3",
       question: "The shareholder who supported the scheme but later alleges unfair treatment:",
@@ -22398,12 +15812,11 @@ const AICaseStudies = [
         "Can never raise any issue",
         "May still raise issues where otherwise legally entitled, but the specific statutory objection threshold and procedural requirements must be satisfied",
         "Automatically becomes a creditor",
-        "Automatically invalidates the scheme"
+        "Automatically invalidates the scheme",
       ],
       answer: 1,
       explanation: "Voting position and statutory standing are distinct questions. The relevant statutory requirements must still be satisfied."
     },
-
     {
       id: "CAA_VH_06_4",
       question: "Where reduction of share capital forms part of the arrangement:",
@@ -22411,28 +15824,20 @@ const AICaseStudies = [
         "The applicable statutory requirements concerning reduction must still be considered",
         "Section 230 automatically overrides every reduction requirement",
         "No disclosure is required",
-        "Only creditors need to know"
+        "Only creditors need to know",
       ],
       answer: 0,
       explanation: "Inclusion of reduction in a scheme does not mean that all statutory safeguards relating to reduction cease to apply."
     },
-
     {
       id: "CAA_VH_06_5",
       question: "The company's assertion that only a person voting against the scheme can object is:",
-      options: [
-        "An overstatement of the statutory position",
-        "Always correct",
-        "Mandatory under Section 230",
-        "Correct where creditors approve"
-      ],
+      options: ["An overstatement of the statutory position", "Always correct", "Mandatory under Section 230", "Correct where creditors approve"],
       answer: 0,
       explanation: "The Act specifies eligibility and thresholds for objections; the issue cannot be reduced simply to whether the person voted against."
     }
-
   ]
 },
-
 /* =========================================================
    VERY HARD CASE SCENARIO 7
 ========================================================= */
@@ -22440,27 +15845,13 @@ const AICaseStudies = [
   id: "CAA_VH_07",
   difficulty: "Very Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Global Engineering Limited</strong> proposed a merger with Global Machines
-    Limited. The Tribunal sanctioned the scheme on 3 September. The certified copy of the
-    order was received by the company on 7 September.</p>
-
-    <p>The company secretary advised the Board that the order should be filed with the
-    Registrar within 30 days. The CFO calculated the period from 3 September and therefore
-    intended to file the order by 2 October.</p>
-
-    <p>The company eventually filed the order on 5 October. Management argued that because
-    the order had been sanctioned on 3 September, filing on 5 October was only a minor
-    administrative delay.</p>
-
-    <p>The scheme also provided for a buy-back of securities. The directors believed that
-    because the Tribunal had sanctioned the overall scheme, the buy-back did not need to
-    independently satisfy Section 68.</p>
-  `,
-
+      <p><strong>Global Engineering Limited</strong> proposed a merger with Global Machines Limited. The Tribunal sanctioned the scheme on 3 September. The certified copy of the order was received by the company on 7 September.</p>
+      <p>The company secretary advised the Board that the order should be filed with the Registrar within 30 days. The CFO calculated the period from 3 September and therefore intended to file the order by 2 October.</p>
+      <p>The company eventually filed the order on 5 October. Management argued that because the order had been sanctioned on 3 September, filing on 5 October was only a minor administrative delay.</p>
+      <p>The scheme also provided for a buy-back of securities. The directors believed that because the Tribunal had sanctioned the overall scheme, the buy-back did not need to independently satisfy Section 68.</p>
+    `,
   questions: [
-
     {
       id: "CAA_VH_07_1",
       question: "For the 30-day filing requirement, the relevant starting point is:",
@@ -22468,67 +15859,41 @@ const AICaseStudies = [
         "The date of the Tribunal's order",
         "The date on which the certified copy of the order is received by the company",
         "The date of the shareholders' meeting",
-        "The date on which the merger becomes operational"
+        "The date on which the merger becomes operational",
       ],
       answer: 1,
       explanation: "The statutory period for filing the order runs from receipt of the certified copy by the company."
     },
-
     {
       id: "CAA_VH_07_2",
       question: "If the certified copy was received on 7 September, filing on 5 October would be:",
-      options: [
-        "Within 30 days",
-        "Outside the 30-day statutory period",
-        "Valid because the order was made on 3 September",
-        "Valid automatically because the delay is administrative"
-      ],
+      options: ["Within 30 days", "Outside the 30-day statutory period", "Valid because the order was made on 3 September", "Valid automatically because the delay is administrative"],
       answer: 1,
       explanation: "The statutory period is calculated from receipt of the order, not from the date the Tribunal pronounced it."
     },
-
     {
       id: "CAA_VH_07_3",
       question: "The CFO's calculation beginning on 3 September is:",
-      options: [
-        "Correct",
-        "Incorrect",
-        "Correct only where the company is listed",
-        "Correct only where no creditor objects"
-      ],
+      options: ["Correct", "Incorrect", "Correct only where the company is listed", "Correct only where no creditor objects"],
       answer: 1,
       explanation: "The statutory trigger is receipt of the certified copy by the company."
     },
-
     {
       id: "CAA_VH_07_4",
       question: "The buy-back component of the scheme:",
-      options: [
-        "Must comply with Section 68",
-        "Automatically overrides Section 68",
-        "Is governed only by Section 234",
-        "Requires no statutory compliance after Tribunal sanction"
-      ],
+      options: ["Must comply with Section 68", "Automatically overrides Section 68", "Is governed only by Section 234", "Requires no statutory compliance after Tribunal sanction"],
       answer: 0,
       explanation: "Section 230(10) specifically requires compliance with Section 68 where a buy-back is provided under a compromise or arrangement."
     },
-
     {
       id: "CAA_VH_07_5",
       question: "The directors' assumption that Tribunal sanction automatically validates a non-compliant buy-back is:",
-      options: [
-        "Correct",
-        "Incorrect",
-        "Correct if 75% of creditors approve",
-        "Correct if the company is profitable"
-      ],
+      options: ["Correct", "Incorrect", "Correct if 75% of creditors approve", "Correct if the company is profitable"],
       answer: 1,
       explanation: "Specific statutory requirements applicable to the buy-back continue to apply."
     }
-
   ]
 },
-
 /* =========================================================
    VERY HARD CASE SCENARIO 8
 ========================================================= */
@@ -22536,44 +15901,21 @@ const AICaseStudies = [
   id: "CAA_VH_08",
   difficulty: "Very Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Sunrise Telecom Limited</strong> proposed a scheme involving transfer of
-    its network infrastructure undertaking to a newly incorporated subsidiary, followed
-    by amalgamation of the subsidiary with another group company.</p>
-
-    <p>The undertaking included spectrum-related rights, towers, land leases, employees,
-    bank loans and long-term customer contracts. Several contracts contained clauses
-    requiring consent before assignment.</p>
-
-    <p>The scheme stated that all assets and liabilities relating to the undertaking would
-    vest in the transferee. However, it did not specifically identify several contingent
-    liabilities relating to environmental claims and litigation.</p>
-
-    <p>One group of creditors argued that the absence of detailed allocation of contingent
-    liabilities made the scheme uncertain. The company replied that all liabilities,
-    whether disclosed or not, would automatically transfer because the scheme stated
-    that "all liabilities" were transferred.</p>
-
-    <p>During the hearing, the Tribunal also considered whether the transfer of employees
-    and pending proceedings had been adequately provided for.</p>
-  `,
-
+      <p><strong>Sunrise Telecom Limited</strong> proposed a scheme involving transfer of its network infrastructure undertaking to a newly incorporated subsidiary, followed by amalgamation of the subsidiary with another group company.</p>
+      <p>The undertaking included spectrum-related rights, towers, land leases, employees, bank loans and long-term customer contracts. Several contracts contained clauses requiring consent before assignment.</p>
+      <p>The scheme stated that all assets and liabilities relating to the undertaking would vest in the transferee. However, it did not specifically identify several contingent liabilities relating to environmental claims and litigation.</p>
+      <p>One group of creditors argued that the absence of detailed allocation of contingent liabilities made the scheme uncertain. The company replied that all liabilities, whether disclosed or not, would automatically transfer because the scheme stated that "all liabilities" were transferred.</p>
+      <p>During the hearing, the Tribunal also considered whether the transfer of employees and pending proceedings had been adequately provided for.</p>
+    `,
   questions: [
-
     {
       id: "CAA_VH_08_1",
       question: "The phrase 'all liabilities' necessarily eliminates the need to properly identify material contingent liabilities in the scheme.",
-      options: [
-        "True",
-        "False",
-        "True only where creditors approve",
-        "True only where the company is private"
-      ],
+      options: ["True", "False", "True only where creditors approve", "True only where the company is private"],
       answer: 1,
       explanation: "Material liabilities and stakeholder consequences should be appropriately identified and addressed. A general phrase does not necessarily cure inadequate disclosure or uncertainty."
     },
-
     {
       id: "CAA_VH_08_2",
       question: "Contractual clauses requiring consent before assignment are relevant because:",
@@ -22581,54 +15923,34 @@ const AICaseStudies = [
         "The scheme must consider the legal consequences of transferring contractual rights and obligations",
         "All contracts automatically terminate on merger",
         "Contracts are outside the scope of a scheme",
-        "Only employment contracts require consideration"
+        "Only employment contracts require consideration",
       ],
       answer: 0,
       explanation: "Contractual rights and restrictions can materially affect implementation of the scheme."
     },
-
     {
       id: "CAA_VH_08_3",
       question: "Transfer of employees may be specifically provided for in:",
-      options: [
-        "The scheme of merger or arrangement",
-        "Only the articles of the transferee",
-        "Only the annual return",
-        "Only the auditor's report"
-      ],
+      options: ["The scheme of merger or arrangement", "Only the articles of the transferee", "Only the annual return", "Only the auditor's report"],
       answer: 0,
       explanation: "The statutory merger framework permits the scheme to provide for transfer of employees."
     },
-
     {
       id: "CAA_VH_08_4",
       question: "Pending legal proceedings can, subject to the scheme and statutory order:",
-      options: [
-        "Continue by or against the transferee company",
-        "Never continue",
-        "Continue only against former employees",
-        "Automatically become tax proceedings"
-      ],
+      options: ["Continue by or against the transferee company", "Never continue", "Continue only against former employees", "Automatically become tax proceedings"],
       answer: 0,
       explanation: "A merger order may provide for continuation of legal proceedings by or against the transferee company."
     },
-
     {
       id: "CAA_VH_08_5",
       question: "The Tribunal's concern regarding contingent liabilities is primarily connected with:",
-      options: [
-        "Protection of creditors and clarity of the scheme's legal and financial consequences",
-        "Appointment of directors",
-        "Determination of dividend",
-        "Registration of trademarks only"
-      ],
+      options: ["Protection of creditors and clarity of the scheme's legal and financial consequences", "Appointment of directors", "Determination of dividend", "Registration of trademarks only"],
       answer: 0,
       explanation: "Liabilities and their allocation are central to the rights of creditors and the effective implementation of the scheme."
     }
-
   ]
 },
-
 /* =========================================================
    VERY HARD CASE SCENARIO 9
 ========================================================= */
@@ -22636,95 +15958,50 @@ const AICaseStudies = [
   id: "CAA_VH_09",
   difficulty: "Very Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>National Healthcare Limited</strong> proposed a compromise under which
-    secured creditors would receive ₹70 crore immediately and securities worth ₹50 crore
-    over five years. Unsecured creditors would receive ₹45 crore against admitted claims
-    of ₹100 crore.</p>
-
-    <p>The company had 1,000 shareholders. At the members' meeting, 640 members were present
-    and voting. Members representing shares with paid-up value of ₹80 crore voted in favour,
-    while the total value represented by members present and voting was ₹100 crore.</p>
-
-    <p>Among the members voting in favour, one shareholder holding 12% of the company's
-    shareholding argued that the scheme was nevertheless unfair because the valuation
-    methodology understated the value of a newly developed medical technology.</p>
-
-    <p>The Board responded that the shareholder had voted in favour and therefore could not
-    raise any valuation issue before the Tribunal.</p>
-  `,
-
+      <p><strong>National Healthcare Limited</strong> proposed a compromise under which secured creditors would receive ₹70 crore immediately and securities worth ₹50 crore over five years. Unsecured creditors would receive ₹45 crore against admitted claims of ₹100 crore.</p>
+      <p>The company had 1,000 shareholders. At the members' meeting, 640 members were present and voting. Members representing shares with paid-up value of ₹80 crore voted in favour, while the total value represented by members present and voting was ₹100 crore.</p>
+      <p>Among the members voting in favour, one shareholder holding 12% of the company's shareholding argued that the scheme was nevertheless unfair because the valuation methodology understated the value of a newly developed medical technology.</p>
+      <p>The Board responded that the shareholder had voted in favour and therefore could not raise any valuation issue before the Tribunal.</p>
+    `,
   questions: [
-
     {
       id: "CAA_VH_09_1",
       question: "The members voting in favour represented what percentage of the value of members present and voting?",
-      options: [
-        "70%",
-        "75%",
-        "80%",
-        "85%"
-      ],
+      options: ["70%", "75%", "80%", "85%"],
       answer: 2,
       explanation: "₹80 crore ÷ ₹100 crore × 100 = 80%."
     },
-
     {
       id: "CAA_VH_09_2",
       question: "On the value test alone, the three-fourths requirement is:",
-      options: [
-        "Not satisfied",
-        "Satisfied",
-        "Satisfied only if 90% approve",
-        "Satisfied only if every shareholder approves"
-      ],
+      options: ["Not satisfied", "Satisfied", "Satisfied only if 90% approve", "Satisfied only if every shareholder approves"],
       answer: 1,
       explanation: "80% exceeds the required three-fourths (75%) value threshold."
     },
-
     {
       id: "CAA_VH_09_3",
       question: "The shareholder holding 12% satisfies the statutory shareholding threshold for objection, assuming other conditions are met.",
-      options: [
-        "Yes",
-        "No",
-        "Only if the shareholder voted against",
-        "Only if the shareholder is a promoter"
-      ],
+      options: ["Yes", "No", "Only if the shareholder voted against", "Only if the shareholder is a promoter"],
       answer: 0,
       explanation: "The shareholder exceeds the 10% threshold."
     },
-
     {
       id: "CAA_VH_09_4",
       question: "The Board's claim that voting in favour permanently prevents any issue from being raised is:",
-      options: [
-        "Too broad",
-        "Always correct",
-        "Mandatory under Section 230",
-        "Correct where the scheme has 75% approval"
-      ],
+      options: ["Too broad", "Always correct", "Mandatory under Section 230", "Correct where the scheme has 75% approval"],
       answer: 0,
       explanation: "The statutory framework does not simply equate voting in favour with an absolute waiver of all legal concerns."
     },
-
     {
       id: "CAA_VH_09_5",
       question: "The newly developed medical technology is potentially relevant to:",
-      options: [
-        "The fairness and methodology of valuation",
-        "Only employee benefits",
-        "Only the registered office",
-        "Only the company's authorised capital"
-      ],
+      options: ["The fairness and methodology of valuation", "Only employee benefits", "Only the registered office", "Only the company's authorised capital"],
       answer: 0,
       explanation: "Material intangible assets and business prospects can be relevant to a valuation used to determine treatment under a scheme."
     }
-
   ]
 },
-
 /* =========================================================
    VERY HARD CASE SCENARIO 10
 ========================================================= */
@@ -22732,63 +16009,29 @@ const AICaseStudies = [
   id: "CAA_VH_10",
   difficulty: "Very Hard",
   chapter: "Compromises, Arrangements and Amalgamations",
-
   caseText: `
-    <p><strong>Unified Financial Services Limited</strong> proposed a comprehensive
-    restructuring involving a compromise with creditors, reduction of share capital,
-    issue of equity shares to creditors and eventual amalgamation with a group company.</p>
-
-    <p>The company had secured creditors of ₹600 crore, unsecured creditors of ₹250 crore
-    and trade creditors of ₹150 crore. The proposed scheme treated secured and unsecured
-    creditors differently. Trade creditors were divided into two groups depending upon
-    whether their claims were secured by retention-of-title clauses under their supply
-    agreements.</p>
-
-    <p>The company initially proposed three creditor classes but later combined the two
-    groups of trade creditors shortly before the meeting. The company argued that because
-    both groups were legally classified as trade creditors, they necessarily formed one class.</p>
-
-    <p>At the meeting, the combined trade creditor class approved the scheme by 77% in value.
-    However, the group having retention-of-title rights had overwhelmingly opposed the scheme
-    before the meeting.</p>
-
-    <p>The scheme also omitted details of a pending investigation into transactions carried
-    out by former directors. A creditor holding 6% of the total debt objected to the omission
-    and the class constitution.</p>
-
-    <p>After sanction of the scheme, the company received the Tribunal's order but did not
-    file it with the Registrar within the statutory period. The company subsequently sought
-    to implement the reduction of capital and buy-back provisions contained in the scheme.</p>
-  `,
-
+      <p><strong>Unified Financial Services Limited</strong> proposed a comprehensive restructuring involving a compromise with creditors, reduction of share capital, issue of equity shares to creditors and eventual amalgamation with a group company.</p>
+      <p>The company had secured creditors of ₹600 crore, unsecured creditors of ₹250 crore and trade creditors of ₹150 crore. The proposed scheme treated secured and unsecured creditors differently. Trade creditors were divided into two groups depending upon whether their claims were secured by retention-of-title clauses under their supply agreements.</p>
+      <p>The company initially proposed three creditor classes but later combined the two groups of trade creditors shortly before the meeting. The company argued that because both groups were legally classified as trade creditors, they necessarily formed one class.</p>
+      <p>At the meeting, the combined trade creditor class approved the scheme by 77% in value. However, the group having retention-of-title rights had overwhelmingly opposed the scheme before the meeting.</p>
+      <p>The scheme also omitted details of a pending investigation into transactions carried out by former directors. A creditor holding 6% of the total debt objected to the omission and the class constitution.</p>
+      <p>After sanction of the scheme, the company received the Tribunal's order but did not file it with the Registrar within the statutory period. The company subsequently sought to implement the reduction of capital and buy-back provisions contained in the scheme.</p>
+    `,
   questions: [
-
     {
       id: "CAA_VH_10_1",
       question: "The strongest reason why the two groups of trade creditors may require separate consideration is:",
-      options: [
-        "They have different names",
-        "Retention-of-title rights may create materially different legal rights and interests",
-        "One group is larger",
-        "One group supplied goods earlier"
-      ],
+      options: ["They have different names", "Retention-of-title rights may create materially different legal rights and interests", "One group is larger", "One group supplied goods earlier"],
       answer: 1,
       explanation: "Class constitution depends on similarity of legal rights and interests. Retention-of-title rights may materially affect creditor rights."
     },
-
     {
       id: "CAA_VH_10_2",
       question: "The 77% approval of the combined trade creditor class is potentially insufficient to validate the scheme if:",
-      options: [
-        "The class itself was improperly constituted",
-        "The company has more than 1,000 creditors",
-        "The creditors are trade creditors",
-        "The scheme includes an amalgamation"
-      ],
+      options: ["The class itself was improperly constituted", "The company has more than 1,000 creditors", "The creditors are trade creditors", "The scheme includes an amalgamation"],
       answer: 0,
       explanation: "If creditors with materially different rights were improperly combined, the voting result may not represent the approval of the properly constituted class."
     },
-
     {
       id: "CAA_VH_10_3",
       question: "The creditor holding 6% of total debt:",
@@ -22796,12 +16039,11 @@ const AICaseStudies = [
         "Meets the statutory debt threshold for raising an objection",
         "Fails because 10% is required",
         "Cannot object because the creditor is unsecured",
-        "Can object only after the scheme is implemented"
+        "Can object only after the scheme is implemented",
       ],
       answer: 0,
       explanation: "The statutory threshold is not less than 5% of total outstanding debt."
     },
-
     {
       id: "CAA_VH_10_4",
       question: "The omission of the investigation involving former directors is potentially material because:",
@@ -22809,12 +16051,11 @@ const AICaseStudies = [
         "Pending investigations or proceedings constitute information relevant to the scheme and stakeholder assessment",
         "Only investigations involving current directors are relevant",
         "Investigations are never disclosed in schemes",
-        "Only criminal convictions must be disclosed"
+        "Only criminal convictions must be disclosed",
       ],
       answer: 0,
       explanation: "Material pending investigations and proceedings are among the matters requiring disclosure under the scheme framework."
     },
-
     {
       id: "CAA_VH_10_5",
       question: "The company's subsequent implementation of a buy-back provision contained in the sanctioned scheme:",
@@ -22822,13 +16063,604 @@ const AICaseStudies = [
         "Automatically avoids the requirements of Section 68",
         "Must still comply with Section 68",
         "Requires compliance only with Section 236",
-        "Requires no statutory compliance once the Tribunal sanctions the scheme"
+        "Requires no statutory compliance once the Tribunal sanctions the scheme",
       ],
       answer: 1,
       explanation: "Section 230(10) specifically requires a buy-back under a compromise or arrangement to comply with Section 68."
     }
-
+  ]
+},
+  // Chapter 6
+/* =========================================================
+   MEDIUM CASE SCENARIOS
+========================================================= */
+{
+  case_id: "CEL_CH6_MED_01",
+  difficulty: "Medium",
+  case_chapter: ["Prevention of Oppression and Mismanagement", "Section 244"],
+  caseText: `
+      <p><strong>Apex Engineering Private Limited</strong> is a company having share capital and has <strong>180 members</strong>. The company has issued share capital of ₹12 crore divided into 12 lakh equity shares of ₹100 each. Certain minority shareholders have alleged that the majority shareholders have been taking important business decisions without adequately considering the interests of minority shareholders.</p>
+      <p>The minority shareholders further allege that certain transactions entered into by the company are prejudicial to the interests of the company and its members. After examining the company's records, a group of shareholders consisting of <strong>18 members</strong> decides to approach the National Company Law Tribunal under Section 241 of the Companies Act, 2013.</p>
+      <p>The 18 applicants collectively hold <strong>1,25,000 equity shares</strong>, representing more than one-tenth of the issued share capital of the company. All calls and other amounts due on their shares have been fully paid.</p>
+      <p>The company objects to the proposed application on the ground that the group consists of fewer than 100 members and also fewer than one-tenth of the total number of members. According to the company, the applicants therefore do not have sufficient numerical strength to approach the Tribunal.</p>
+      <p>The shareholders, however, contend that the Companies Act provides an alternative basis for eligibility where the applicants hold the prescribed percentage of the issued share capital. They therefore argue that their application should be maintainable even though they are fewer than 100 members.</p>
+    `,
+  questions: [
+    {
+      question_id: "CEL_CH6_MED_01_1",
+      question: "Which of the following correctly determines whether the group can apply under Section 241?",
+      options: [
+        "No, because at least 100 members must always apply.",
+        "No, because at least one-tenth of total members must always apply.",
+        "Yes, because members holding at least one-tenth of the issued share capital may apply, subject to statutory conditions.",
+        "No, because only the Central Government can approach the Tribunal.",
+      ],
+      answer: 2,
+      reason: "Under Section 244, in a company having share capital, members holding not less than one-tenth of the issued share capital may apply, subject to the condition that calls and other sums due have been paid."
+    },
+    {
+      question_id: "CEL_CH6_MED_01_2",
+      question: "For determining eligibility under Section 244, which capital is relevant?",
+      options: ["Authorised share capital", "Subscribed share capital", "Paid-up share capital", "Issued share capital"],
+      answer: 3,
+      reason: "The prescribed shareholding requirement under Section 244 is based on the issued share capital."
+    },
+    {
+      question_id: "CEL_CH6_MED_01_3",
+      question: "If the applicants have not paid calls and other sums due on their shares, which statement is correct?",
+      options: [
+        "Their application automatically becomes maintainable.",
+        "The requirement regarding payment of calls is irrelevant.",
+        "They would not satisfy the statutory condition for applying on the basis of shareholding.",
+        "The Central Government must automatically pay the calls.",
+      ],
+      answer: 2,
+      reason: "Section 244 specifically requires the applicant or applicants relying on the shareholding criterion to have paid all calls and other sums due on their shares."
+    },
+    {
+      question_id: "CEL_CH6_MED_01_4",
+      question: "What power does the Tribunal have regarding the eligibility requirements under Section 244?",
+      options: [
+        "It may waive all or any of the prescribed requirements.",
+        "It may waive only the requirement relating to issued share capital.",
+        "It may waive only the requirement relating to number of members.",
+        "It has no power to waive the requirements.",
+      ],
+      answer: 0,
+      reason: "The proviso to Section 244 empowers the Tribunal to waive all or any of the requirements specified in Section 244."
+    },
+    {
+      question_id: "CEL_CH6_MED_01_5",
+      question: "Which section primarily deals with the right to apply for relief against oppression and mismanagement?",
+      options: ["Section 241", "Section 242", "Section 244", "Section 245"],
+      answer: 2,
+      reason: "Section 244 specifies the eligibility of members to make an application under Section 241."
+    }
+  ]
+},
+{
+  case_id: "CEL_CH6_MED_02",
+  difficulty: "Medium",
+  case_chapter: ["Prevention of Oppression and Mismanagement", "Section 241"],
+  caseText: `
+      <p><strong>Bright Star Technologies Limited</strong> has been operating successfully for several years. The company has a widely dispersed shareholding pattern and a professional Board of Directors. Recently, a group of investors acquired a substantial portion of the company's shares and consequently obtained effective control over the composition of the Board.</p>
+      <p>Following the change, several existing directors were removed and replaced by persons closely associated with the new controlling shareholders. The new management also proposed significant changes in the company's business strategy, including entering into transactions with entities associated with the new shareholders.</p>
+      <p>A minority shareholder, Ms. Kavya, believes that the change in management and control is likely to result in the affairs of the company being conducted in a manner prejudicial to the interests of the company and its minority shareholders. She does not allege that the company has already suffered an actual financial loss but relies upon the material changes in management and control and the circumstances surrounding those changes.</p>
+      <p>The new management argues that no application can be made because no actual financial loss has yet occurred. Ms. Kavya, however, believes that Section 241 also covers a material change in management or control where such change is likely to result in prejudicial conduct.</p>
+    `,
+  questions: [
+    {
+      question_id: "CEL_CH6_MED_02_1",
+      question: "Under Section 241, a member may complain about:",
+      options: [
+        "Only actual financial losses already suffered.",
+        "Only acts committed before the change in management.",
+        "A material change in management or control where such change is likely to result in prejudicial conduct.",
+        "Only changes in the authorised capital.",
+      ],
+      answer: 2,
+      reason: "Section 241 covers a material change in management or control where, by reason of such change, the affairs of the company are likely to be conducted prejudicially."
+    },
+    {
+      question_id: "CEL_CH6_MED_02_2",
+      question: "Which of the following may constitute a material change in management or control?",
+      options: ["Alteration in the Board of Directors", "Alteration in ownership of shares", "Alteration in membership where the company has no share capital", "All of the above"],
+      answer: 3,
+      reason: "Section 241 specifically recognizes changes in the Board, ownership of shares, membership in a company without share capital, or other forms of management or control changes."
+    },
+    {
+      question_id: "CEL_CH6_MED_02_3",
+      question: "A change will not be considered a material change for this purpose if it is brought about by or in the interest of:",
+      options: ["Majority shareholders for their personal benefit", "Creditors, debenture-holders or any class of shareholders", "Employees of the company", "Individual directors"],
+      answer: 1,
+      reason: "Section 241 excludes a material change brought about by, or in the interests of, creditors including debenture-holders or any class of shareholders."
+    },
+    {
+      question_id: "CEL_CH6_MED_02_4",
+      question: "Section 241 may address conduct prejudicial to:",
+      options: ["Public interest only", "Members only", "The company only", "Public interest, members or the company, as applicable"],
+      answer: 3,
+      reason: "Section 241 covers affairs conducted in a manner prejudicial to public interest, members or the interests of the company."
+    },
+    {
+      question_id: "CEL_CH6_MED_02_5",
+      question: "Which statement is most appropriate regarding Ms. Kavya's proposed application?",
+      options: [
+        "It cannot be made until actual financial loss occurs.",
+        "A material change likely to cause prejudice may form the basis of a complaint under Section 241.",
+        "Only the Central Government can complain about a change in control.",
+        "A shareholder can never challenge a change in management.",
+      ],
+      answer: 1,
+      reason: "Section 241 expressly recognizes a material change in management or control where such change is likely to result in prejudicial conduct."
+    }
+  ]
+},
+{
+  case_id: "CEL_CH6_MED_03",
+  difficulty: "Medium",
+  case_chapter: ["Prevention of Oppression and Mismanagement", "Oppression"],
+  caseText: `
+      <p><strong>Sunrise Textiles Private Limited</strong> is controlled by three majority shareholders who together hold approximately 82% of the company's issued share capital. The remaining shareholders are minority shareholders who have historically participated in the management of the closely-held company.</p>
+      <p>Over the last two years, the majority shareholders have gradually taken several decisions that have adversely affected the minority shareholders. They stopped providing important financial information to the minority group, repeatedly excluded them from discussions concerning major transactions and entered into arrangements with entities controlled by the majority shareholders.</p>
+      <p>The minority shareholders initially attempted to resolve the matter internally. However, the conduct continued over several board and general meetings. The minority shareholders therefore argue that the conduct is not merely an isolated disagreement but forms part of a continuing pattern of unfair treatment.</p>
+      <p>The majority shareholders contend that every individual decision was taken through the proper corporate procedure and that mere disagreement or lack of confidence among members cannot amount to oppression.</p>
+    `,
+  questions: [
+    {
+      question_id: "CEL_CH6_MED_03_1",
+      question: "Which feature is particularly relevant in determining whether conduct amounts to oppression?",
+      options: [
+        "Only whether a single meeting was improperly conducted",
+        "Whether the conduct forms part of a continuing pattern of harsh and wrongful treatment",
+        "Whether the company has made a profit",
+        "Whether the majority shareholders own more than 50% shares",
+      ],
+      answer: 1,
+      reason: "Oppression generally involves continuing conduct that is burdensome, harsh and wrongful and involves lack of probity or fair dealing."
+    },
+    {
+      question_id: "CEL_CH6_MED_03_2",
+      question: "Mere lack of confidence between members is:",
+      options: ["Always oppression", "Always mismanagement", "Not by itself sufficient to establish oppression", "Automatically a ground for winding up"],
+      answer: 2,
+      reason: "Mere domestic disputes or lack of confidence between members, without more, do not constitute oppression."
+    },
+    {
+      question_id: "CEL_CH6_MED_03_3",
+      question: "The conduct complained of should primarily affect the applicant in the capacity of:",
+      options: ["Creditor", "Employee", "Member", "Consultant"],
+      answer: 2,
+      reason: "Oppression must affect the person in their capacity or character as a member of the company."
+    },
+    {
+      question_id: "CEL_CH6_MED_03_4",
+      question: "Which of the following best describes oppression?",
+      options: [
+        "Any commercial decision resulting in loss",
+        "Harsh, burdensome and wrongful conduct involving lack of probity and fair dealing",
+        "Every disagreement between directors",
+        "Failure to declare dividend in every case",
+      ],
+      answer: 1,
+      reason: "Oppression involves conduct that is burdensome, harsh and wrongful and lacks probity and fair dealing."
+    },
+    {
+      question_id: "CEL_CH6_MED_03_5",
+      question: "If the conduct consists only of a single isolated and ordinary commercial decision, it would generally:",
+      options: ["Automatically constitute oppression", "Automatically constitute fraud", "Not by itself establish continuing oppression", "Require compulsory winding up"],
+      answer: 2,
+      reason: "Oppressive conduct generally needs to be considered as a continuing course of conduct rather than an isolated ordinary business decision."
+    }
+  ]
+},
+{
+  case_id: "CEL_CH6_MED_04",
+  difficulty: "Medium",
+  case_chapter: ["Prevention of Oppression and Mismanagement", "Section 242"],
+  caseText: `
+      <p><strong>Galaxy Components Limited</strong> has been facing a dispute between its majority and minority shareholders. The minority group alleges that the majority shareholders have used their voting power to approve transactions that unfairly benefit entities connected with them.</p>
+      <p>After considering the material placed before it, the NCLT concludes that the affairs of the company have been conducted in a manner prejudicial to the interests of the company and certain members. The Tribunal also concludes that winding up the company would unfairly prejudice the minority shareholders, although the facts might otherwise justify a winding-up order on the ground that it is just and equitable to do so.</p>
+      <p>The minority shareholders request the Tribunal to provide a practical remedy that will bring the disputed matters to an end while allowing the company to continue its business. They specifically request regulation of future affairs, restrictions on transfer of shares and removal of certain persons involved in the disputed conduct.</p>
+      <p>The company argues that once oppression is established, the only appropriate remedy is winding up. The minority shareholders disagree and rely upon the wide powers available to the Tribunal under Section 242.</p>
+    `,
+  questions: [
+    {
+      question_id: "CEL_CH6_MED_04_1",
+      question: "Where the conditions under Section 242 are satisfied, the Tribunal may:",
+      options: ["Only order winding up", "Make such order as it thinks fit to bring the matters complained of to an end", "Only impose a monetary penalty", "Only remove shareholders"],
+      answer: 1,
+      reason: "Section 242 gives the Tribunal wide powers to make appropriate orders to bring the matters complained of to an end."
+    },
+    {
+      question_id: "CEL_CH6_MED_04_2",
+      question: "Which of the following can be ordered by the Tribunal?",
+      options: ["Regulation of future conduct of company affairs", "Purchase of shares or interests of members", "Restrictions on transfer or allotment of shares", "All of the above"],
+      answer: 3,
+      reason: "Section 242 provides several specific remedies including regulation of affairs, purchase of shares and restrictions on transfer or allotment."
+    },
+    {
+      question_id: "CEL_CH6_MED_04_3",
+      question: "The Tribunal may order removal of:",
+      options: ["Any employee", "Managing director, manager or director", "Any shareholder automatically", "Any creditor"],
+      answer: 1,
+      reason: "Section 242 specifically empowers the Tribunal to remove the managing director, manager or any director."
+    },
+    {
+      question_id: "CEL_CH6_MED_04_4",
+      question: "A certified copy of an order of the Tribunal under Section 242 is required to be filed by the company with the Registrar within:",
+      options: ["15 days", "30 days", "60 days", "90 days"],
+      answer: 1,
+      reason: "Section 242 requires the company to file a certified copy of the Tribunal's order with the Registrar within 30 days."
+    },
+    {
+      question_id: "CEL_CH6_MED_04_5",
+      question: "The Tribunal may also pass:",
+      options: ["An interim order regulating the conduct of company affairs", "Only a final winding-up order", "Only an order relating to dividend", "No interim order"],
+      answer: 0,
+      reason: "Section 242 empowers the Tribunal to make interim orders for regulating the conduct of company affairs on just and equitable terms."
+    }
+  ]
+},
+{
+  case_id: "CEL_CH6_MED_05",
+  difficulty: "Medium",
+  case_chapter: ["Prevention of Oppression and Mismanagement", "Section 245"],
+  caseText: `
+      <p><strong>Metro Consumer Products Limited</strong> has a large number of shareholders and depositors. A group of investors discovers that the company has approved a resolution altering certain provisions of its Articles of Association. The investors allege that the resolution was obtained after material facts were suppressed from the shareholders and that the altered provisions are being used to benefit a particular group.</p>
+      <p>The shareholders also discover that certain statements in the company's audit report were allegedly misleading and that an external consultant had supplied incorrect information that was relied upon while approving the transaction.</p>
+      <p>A group of eligible shareholders decides to approach the NCLT under Section 245 seeking relief on behalf of the affected class. They seek an order restraining the company from acting upon the disputed resolution and also seek damages against persons responsible for fraudulent or wrongful conduct.</p>
+      <p>The company argues that class action can be brought only against the company itself and that no claim can be made against an auditor or consultant. The shareholders dispute this contention.</p>
+    `,
+  questions: [
+    {
+      question_id: "CEL_CH6_MED_05_1",
+      question: "Under Section 245, a class action may seek to:",
+      options: ["Restrain an ultra vires act", "Restrain breach of the Memorandum or Articles", "Seek damages or compensation in appropriate cases", "All of the above"],
+      answer: 3,
+      reason: "Section 245 provides several remedies including restraint of ultra vires acts, prevention of breaches and claims for damages or compensation."
+    },
+    {
+      question_id: "CEL_CH6_MED_05_2",
+      question: "A resolution altering the Memorandum or Articles may be declared void where it was passed by:",
+      options: ["Following all legal procedures", "Suppression of material facts or misstatement", "Unanimous consent", "A simple majority in every case"],
+      answer: 1,
+      reason: "Section 245 permits an application to declare such a resolution void if passed by suppression of material facts or misstatement."
+    },
+    {
+      question_id: "CEL_CH6_MED_05_3",
+      question: "A class action may seek damages against an auditor for:",
+      options: [
+        "Every business loss of the company",
+        "Improper or misleading statements in the audit report or fraudulent, unlawful or wrongful conduct",
+        "Low profits",
+        "Failure to recommend dividend",
+      ],
+      answer: 1,
+      reason: "Section 245 specifically permits claims against an auditor or audit firm for improper or misleading statements or fraudulent, unlawful or wrongful conduct."
+    },
+    {
+      question_id: "CEL_CH6_MED_05_4",
+      question: "Where damages are sought against an audit firm, liability may extend to:",
+      options: ["Only the company", "Only the audit firm", "The audit firm and each partner involved in the relevant conduct", "Only the shareholders"],
+      answer: 2,
+      reason: "Section 245 provides that liability may extend to the audit firm as well as each partner involved in making the improper or misleading statement or wrongful conduct."
+    },
+    {
+      question_id: "CEL_CH6_MED_05_5",
+      question: "An order passed by the Tribunal under Section 245 is binding on:",
+      options: ["Only the applicants", "Only the company", "The company and the relevant members, depositors and other persons covered by the provision", "Only the directors"],
+      answer: 2,
+      reason: "Section 245 provides that an order passed by the Tribunal is binding on the company and the members, depositors, auditor, audit firm, expert, consultant, advisor or other person associated with the company, as applicable."
+    }
+  ]
+},
+/* =========================================================
+   HARD CASE SCENARIOS
+========================================================= */
+{
+  case_id: "CEL_CH6_HARD_01",
+  difficulty: "Hard",
+  case_chapter: ["Prevention of Oppression and Mismanagement", "Section 241", "Section 244"],
+  caseText: `
+      <p><strong>Orion Renewable Energy Limited</strong> has an issued share capital of ₹40 crore divided into 4 crore equity shares. The company has <strong>420 members</strong>. A group of minority shareholders has been monitoring the conduct of the Board for nearly eighteen months.</p>
+      <p>During this period, the Board approved several transactions with entities connected with certain controlling shareholders. The minority group alleges that the transactions were not commercially justified and that the controlling shareholders indirectly benefited from them. The minority shareholders also allege that the Board subsequently issued additional shares to a group of investors closely connected with the existing management.</p>
+      <p>Before the fresh issue, the minority group held approximately 12% of the issued share capital. After the allotment, their collective holding fell to approximately 7.8%. They allege that the fresh issue was not genuinely required for the company's financial needs but was undertaken primarily to reduce their voting strength.</p>
+      <p>Initially, 55 members agreed to file an application before the NCLT. However, several members later withdrew their consent before the hearing. The remaining applicants continue to hold approximately 7.8% of the issued share capital.</p>
+      <p>The applicants contend that the original petition was maintainable because eligibility should be considered at the beginning of the proceedings. They further argue that the subsequent reduction in their shareholding resulted from the very oppressive act being challenged and should not defeat their petition.</p>
+    `,
+  questions: [
+    {
+      question_id: "CEL_CH6_HARD_01_1",
+      question: "The fresh issue of shares primarily intended to convert a majority group into a minority group may be regarded as:",
+      options: [
+        "An ordinary commercial decision which can never be questioned",
+        "A grave act of oppression if the power to issue shares was exercised for an improper purpose",
+        "Valid merely because the Board passed a resolution",
+        "A matter exclusively concerning creditors",
+      ],
+      answer: 1,
+      reason: "The power to issue shares must be exercised bona fide in the interests of the company. Using the power solely to alter control or benefit a particular group can constitute oppression."
+    },
+    {
+      question_id: "CEL_CH6_HARD_01_2",
+      question: "For Section 244 purposes, shareholding and membership are generally reckoned with reference to:",
+      options: ["Authorised share capital", "Subscribed capital", "Issued share capital", "Reserves and surplus"],
+      answer: 2,
+      reason: "The statutory eligibility based on shareholding is determined with reference to issued share capital."
+    },
+    {
+      question_id: "CEL_CH6_HARD_01_3",
+      question: "If the petition was validly maintainable when presented, withdrawal of consent by some consenting members during the proceedings would generally:",
+      options: [
+        "Automatically terminate the proceedings",
+        "Make the original application void ab initio",
+        "Not affect maintainability of the petition",
+        "Require fresh consent from every shareholder",
+      ],
+      answer: 2,
+      reason: "Consent is reckoned at the beginning of the proceedings. Subsequent withdrawal of consent does not affect maintainability."
+    },
+    {
+      question_id: "CEL_CH6_HARD_01_4",
+      question: "If the reduction below the prescribed shareholding occurred because of the disputed fresh allotment, the Tribunal may consider:",
+      options: [
+        "The petition automatically barred",
+        "The validity of the allotment while determining maintainability and relief",
+        "Only the company's dividend policy",
+        "Only the directors' salaries",
+      ],
+      answer: 1,
+      reason: "Where the petitioner's shareholding was reduced due to the very allotment being challenged, the validity of that allotment may be relevant to maintainability and relief."
+    },
+    {
+      question_id: "CEL_CH6_HARD_01_5",
+      question: "Which fact most strongly supports the allegation of oppression?",
+      options: [
+        "The company made profits during the year",
+        "The Board changed its registered office",
+        "Shares were issued with the primary purpose of altering control against the minority",
+        "The company held an annual general meeting",
+      ],
+      answer: 2,
+      reason: "An improper issue of shares designed to convert a majority into a minority is recognized as a serious oppressive act."
+    }
+  ]
+},
+{
+  case_id: "CEL_CH6_HARD_02",
+  difficulty: "Hard",
+  case_chapter: ["Prevention of Oppression and Mismanagement", "Section 242"],
+  caseText: `
+      <p><strong>Vertex Healthcare Limited</strong> is involved in a prolonged dispute between two groups of shareholders. The first group controls the Board while the second group holds a substantial minority interest. The minority group alleges that the controlling directors have caused the company to enter into several transactions that benefited entities connected with them.</p>
+      <p>The minority shareholders approach the NCLT with documentary evidence showing repeated transactions, changes in management arrangements and diversion of business opportunities. They contend that the conduct has continued for several years and has materially prejudiced the company.</p>
+      <p>The Tribunal, after considering the material, forms the opinion that the company's affairs have been conducted in a manner prejudicial to the company and certain members. It also concludes that winding up the company might otherwise be justified on the ground that it is just and equitable, but such winding up would unfairly prejudice the minority shareholders.</p>
+      <p>The Tribunal therefore considers various remedies. It proposes to regulate the future conduct of the company's affairs, restrict certain transfers of shares, remove one of the directors responsible for the conduct and recover undue gains obtained by that director.</p>
+      <p>The company argues that the Tribunal cannot interfere with existing agreements or recover gains and that its jurisdiction should be limited to ordering winding up. The minority shareholders rely upon the broad language of Section 242.</p>
+    `,
+  questions: [
+    {
+      question_id: "CEL_CH6_HARD_02_1",
+      question: "The basic condition for exercising the wide powers under Section 242 includes a finding that:",
+      options: [
+        "The company has merely suffered a temporary loss",
+        "The affairs are prejudicial or oppressive and winding up would unfairly prejudice members while the facts otherwise justify winding up",
+        "The majority shareholders disagree with the minority",
+        "The company has not declared dividend",
+      ],
+      answer: 1,
+      reason: "Section 242 requires the Tribunal to be satisfied regarding prejudicial/oppressive conduct and that winding up would unfairly prejudice members, although the facts otherwise justify a winding-up order."
+    },
+    {
+      question_id: "CEL_CH6_HARD_02_2",
+      question: "Which remedy may the Tribunal specifically provide regarding undue gains?",
+      options: [
+        "Recovery of undue gains made by a managing director, manager or director",
+        "Recovery of every profit earned by shareholders",
+        "Automatic recovery of all company profits",
+        "Recovery only from creditors",
+      ],
+      answer: 0,
+      reason: "Section 242 allows recovery of undue gains made by a managing director, manager or director during the period of appointment."
+    },
+    {
+      question_id: "CEL_CH6_HARD_02_3",
+      question: "The Tribunal may provide for:",
+      options: ["Restrictions on transfer or allotment of shares", "Removal of directors", "Regulation of future conduct of affairs", "All of the above"],
+      answer: 3,
+      reason: "All these remedies are expressly contemplated under Section 242."
+    },
+    {
+      question_id: "CEL_CH6_HARD_02_4",
+      question: "If the Tribunal terminates or modifies an agreement covered by Section 242, the affected person may generally:",
+      options: [
+        "Always claim damages for loss of office",
+        "Claim compensation automatically from the company",
+        "Not claim damages or compensation merely because of such termination or modification",
+        "Demand compulsory purchase of all company shares",
+      ],
+      answer: 2,
+      reason: "Section 243 provides that termination, setting aside or modification of certain agreements under Section 242 does not give rise to claims against the company for damages or compensation for loss of office."
+    },
+    {
+      question_id: "CEL_CH6_HARD_02_5",
+      question: "If an agreement with a person other than a managing director, director or manager is to be terminated or modified under Section 242, the Tribunal must generally:",
+      options: ["Act without notice", "Give due notice and obtain the consent of the concerned party", "Obtain approval only from creditors", "Obtain approval only from employees"],
+      answer: 1,
+      reason: "Section 242 provides that such an agreement shall not be terminated, set aside or modified except after due notice and obtaining the consent of the party concerned."
+    }
+  ]
+},
+{
+  case_id: "CEL_CH6_HARD_03",
+  difficulty: "Hard",
+  case_chapter: ["Class Action", "Section 245"],
+  caseText: `
+      <p><strong>National Consumer Appliances Limited</strong> is a listed company with a large shareholder base and thousands of depositors. An internal investigation reveals that the company approved a major transaction after certain material information was allegedly withheld from shareholders.</p>
+      <p>The transaction involved an entity connected with senior management. Several shareholders believe that the transaction was not only prejudicial to the company but was also supported by misleading information placed before the members.</p>
+      <p>A group of shareholders decides to initiate a class action before the NCLT under Section 245. The applicants collectively hold more than 2% of the issued share capital. They seek an order restraining the company from implementing the disputed transaction and also seek compensation from the company, certain directors and the audit firm.</p>
+      <p>During the proceedings, another group of shareholders files a second class action application concerning substantially the same cause of action. The company argues that both applications should proceed independently because the shareholders belong to different groups.</p>
+      <p>The Tribunal must therefore consider the statutory requirements for admission, consolidation, lead applicants and the binding effect of the final order.</p>
+    `,
+  questions: [
+    {
+      question_id: "CEL_CH6_HARD_03_1",
+      question: "For a listed company having share capital, a class action application may be filed by members holding at least:",
+      options: ["1% of issued share capital", "2% of issued share capital", "5% of issued share capital", "10% of issued share capital"],
+      answer: 1,
+      reason: "For a listed company, the prescribed shareholding threshold for class action under Section 245 is 2% of the issued share capital."
+    },
+    {
+      question_id: "CEL_CH6_HARD_03_2",
+      question: "If multiple similar class action applications relating to the same cause of action are filed, the Tribunal should:",
+      options: [
+        "Allow all applications to continue separately",
+        "Consolidate similar applications into a single application",
+        "Reject every application",
+        "Transfer all applications to a civil court",
+      ],
+      answer: 1,
+      reason: "Section 245 provides for consolidation of similar applications into a single application."
+    },
+    {
+      question_id: "CEL_CH6_HARD_03_3",
+      question: "If class members cannot agree upon a lead applicant, who may appoint the lead applicant?",
+      options: ["The company's auditor", "The Board of Directors", "The Tribunal", "The Central Government automatically"],
+      answer: 2,
+      reason: "Where class members cannot reach consensus, the Tribunal has the power to appoint a lead applicant."
+    },
+    {
+      question_id: "CEL_CH6_HARD_03_4",
+      question: "A class action may seek compensation from an audit firm for:",
+      options: [
+        "Any decline in market price",
+        "Improper or misleading statements in its audit report or fraudulent, unlawful or wrongful conduct",
+        "Every business decision of management",
+        "Failure to declare dividend",
+      ],
+      answer: 1,
+      reason: "Section 245 permits claims against an auditor or audit firm for improper or misleading statements or fraudulent, unlawful or wrongful conduct."
+    },
+    {
+      question_id: "CEL_CH6_HARD_03_5",
+      question: "An order passed by the Tribunal in a class action is:",
+      options: ["Binding only on the lead applicant", "Binding only on the directors", "Binding on the company and relevant members, depositors and specified persons", "Merely advisory"],
+      answer: 2,
+      reason: "Section 245 provides that the Tribunal's order is binding on the company and the members, depositors, auditor, audit firm and other specified persons associated with the matter."
+    }
+  ]
+},
+{
+  case_id: "CEL_CH6_HARD_04",
+  difficulty: "Hard",
+  case_chapter: ["Section 241", "Central Government", "Oppression and Mismanagement"],
+  caseText: `
+      <p><strong>Eastern Infrastructure Corporation Limited</strong> undertakes large infrastructure projects involving substantial public funds. Over a period of time, the Central Government receives several reports suggesting serious irregularities in the conduct and management of the company's affairs.</p>
+      <p>An investigation indicates that certain persons responsible for managing the company may have been guilty of fraud, persistent negligence and breach of trust. There are also indications that the company's business was not being conducted according to sound business principles or prudent commercial practices.</p>
+      <p>Further material suggests that certain transactions were structured in a manner that caused serious injury to the interests of the infrastructure industry and may have been undertaken with an intention to defraud creditors and other stakeholders.</p>
+      <p>The Central Government decides that the circumstances justify action before the NCLT. It wants the Tribunal to examine whether the persons concerned are fit and proper persons to continue holding positions as directors or other offices connected with the conduct and management of companies.</p>
+      <p>The persons concerned argue that only shareholders can initiate proceedings concerning oppression and mismanagement. The Central Government maintains that Section 241 expressly provides it with independent powers in circumstances affecting public interest.</p>
+    `,
+  questions: [
+    {
+      question_id: "CEL_CH6_HARD_04_1",
+      question: "Where the Central Government is of the opinion that company affairs are being conducted prejudicially to public interest, it may:",
+      options: ["Only advise the Board", "Apply to the Tribunal for an order under the relevant provisions", "Automatically wind up the company", "Remove every shareholder"],
+      answer: 1,
+      reason: "Section 241 permits the Central Government to apply to the Tribunal where it is of the opinion that the affairs of the company are being conducted in a manner prejudicial to public interest."
+    },
+    {
+      question_id: "CEL_CH6_HARD_04_2",
+      question: "Which circumstance may justify Central Government initiation of a case against a person managing the company?",
+      options: ["Fraud, misfeasance or persistent negligence", "Conduct contrary to sound business principles", "Intent to defraud creditors or members", "All of the above"],
+      answer: 3,
+      reason: "Section 241(3) recognizes several circumstances including fraud, misfeasance, persistent negligence, unsound business practices and fraudulent or unlawful purposes."
+    },
+    {
+      question_id: "CEL_CH6_HARD_04_3",
+      question: "The person against whom the case is referred to the Tribunal under Section 241(3) shall:",
+      options: ["Not be informed", "Be joined as a respondent", "Automatically cease to be a shareholder", "Be treated as a creditor"],
+      answer: 1,
+      reason: "Section 241(4) provides that the person against whom the case is referred shall be joined as a respondent."
+    },
+    {
+      question_id: "CEL_CH6_HARD_04_4",
+      question: "The Tribunal may be requested to determine whether such person is:",
+      options: ["A profitable shareholder", "A fit and proper person to hold the office of director or other connected office", "Entitled to dividends", "A secured creditor"],
+      answer: 1,
+      reason: "The Central Government may request the Tribunal to inquire whether the person is fit and proper to hold the office of director or another office connected with management."
+    },
+    {
+      question_id: "CEL_CH6_HARD_04_5",
+      question: "An application under Section 241(3) should contain:",
+      options: [
+        "Only the names of shareholders",
+        "A concise statement of relevant circumstances and materials necessary for the inquiry",
+        "Only audited financial statements",
+        "Only a copy of the company's Articles",
+      ],
+      answer: 1,
+      reason: "Section 241(5) requires the application to contain a concise statement of the circumstances and materials considered necessary for the inquiry."
+    }
+  ]
+},
+{
+  case_id: "CEL_CH6_HARD_05",
+  difficulty: "Hard",
+  case_chapter: ["Class Action", "Section 245", "Section 246"],
+  caseText: `
+      <p><strong>Silverline Financial Services Limited</strong> has a substantial number of shareholders and depositors. A group of depositors alleges that the company's management has adopted practices that are prejudicial to their interests. They believe that certain transactions were entered into contrary to the company's constitutional documents and applicable law.</p>
+      <p>The depositors gather documentary evidence suggesting that senior officers knowingly provided incorrect information to stakeholders. An external expert who advised the company is also alleged to have provided misleading information before the transaction was approved.</p>
+      <p>A group of eligible depositors proposes to file an application before the NCLT under Section 245. At the same time, certain shareholders intend to file a separate application concerning the same underlying transaction.</p>
+      <p>The applicants also learn that one potential class action filed earlier was dismissed by the Tribunal after being found to be frivolous and vexatious. The Tribunal had imposed costs on the applicants.</p>
+      <p>The management argues that depositors cannot initiate a class action and that the Tribunal cannot impose consequences merely because an application is frivolous. The applicants seek clarification regarding the scope of Section 245 and the consequences of non-compliance with Tribunal orders.</p>
+    `,
+  questions: [
+    {
+      question_id: "CEL_CH6_HARD_05_1",
+      question: "A requisite group of depositors may file a class action where they believe that the company's affairs are being conducted:",
+      options: [
+        "Only in a manner profitable to the company",
+        "In a manner prejudicial to the interests of the company, members or depositors",
+        "Only in a manner causing tax liability",
+        "Only when the company is being wound up",
+      ],
+      answer: 1,
+      reason: "Section 245 permits eligible members and depositors to seek relief where the management or conduct of affairs is prejudicial to the interests of the company, members or depositors."
+    },
+    {
+      question_id: "CEL_CH6_HARD_05_2",
+      question: "The requisite number of depositors is generally:",
+      options: [
+        "At least 100 depositors or 5% of total depositors, whichever is less, or depositors representing the prescribed percentage of total deposits",
+        "Always 500 depositors",
+        "Always 10% of total depositors",
+        "Only one depositor",
+      ],
+      answer: 0,
+      reason: "Section 245 prescribes the alternative thresholds of at least 100 depositors or 5% of total depositors, whichever is less, or depositors to whom the prescribed percentage of total deposits is owed."
+    },
+    {
+      question_id: "CEL_CH6_HARD_05_3",
+      question: "Where a class action application is found to be frivolous or vexatious, the Tribunal may:",
+      options: ["Ignore the application", "Reject it and order the applicant to pay costs not exceeding ₹1 lakh", "Automatically imprison every applicant", "Order compulsory winding up"],
+      answer: 1,
+      reason: "Section 245(8) allows the Tribunal to reject a frivolous or vexatious application and impose costs on the applicant, up to ₹1 lakh."
+    },
+    {
+      question_id: "CEL_CH6_HARD_05_4",
+      question: "If a company fails to comply with an order passed by the Tribunal under Section 245, the company may face:",
+      options: ["No consequence", "Fine of at least ₹5 lakh which may extend to ₹25 lakh", "Only a warning", "Automatic dissolution"],
+      answer: 1,
+      reason: "Section 245 provides a fine of not less than ₹5 lakh and up to ₹25 lakh for a company failing to comply with the Tribunal's order."
+    },
+    {
+      question_id: "CEL_CH6_HARD_05_5",
+      question: "Section 246 makes certain provisions relating to winding up applicable to proceedings under:",
+      options: ["Sections 241 and 245", "Sections 188 and 189", "Sections 108 and 109", "Sections 149 and 150"],
+      answer: 0,
+      reason: "Section 246 applies the provisions of Sections 337 to 341, mutatis mutandis, to proceedings under Sections 241 and 245."
+    }
   ]
 }
 ];
-
