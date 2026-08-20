@@ -17382,4 +17382,784 @@ const AICaseStudies = [
 
     ]
   },
+  // Chapter 8
+
+  /* =========================================================
+     MEDIUM CASE SCENARIOS
+  ========================================================= */
+
+  {
+    case_id: "seta_AI_cs_8_001",
+    difficulty: "medium",
+    caseText: `
+      <p>Vardhan Valuation Services LLP has been approached by Zenith Manufacturing Limited to undertake the valuation of certain immovable properties and machinery for the purposes of a transaction under the Companies Act, 2013. The LLP has several professionals associated with it, but only some of them are registered valuers for the relevant asset class.</p>
+
+      <p>The Audit Committee of Zenith Manufacturing Limited considered the proposal and decided to appoint Mr. Arjun Mehta, a registered valuer having the required qualifications and experience. During the compliance review, it was discovered that Mr. Mehta had a direct financial interest in one of the properties proposed to be valued. The interest had existed two years before the proposed appointment.</p>
+
+      <p>Mr. Mehta argued that since he was a registered valuer and had successfully passed the valuation examination, the existence of an earlier financial interest would not prevent his appointment. He also stated that he could disclose the interest in his valuation report and continue with the assignment.</p>
+
+      <p>The Audit Committee sought advice on whether Mr. Mehta could validly undertake the valuation and what standards and professional duties would apply to him while preparing the valuation report.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_8_001_1",
+        question: "Which authority should appoint the registered valuer in Zenith Manufacturing Limited when an Audit Committee exists?",
+        options: [
+          "Only the Registrar of Companies",
+          "The Audit Committee",
+          "Any shareholder of the company",
+          "The Central Government directly"
+        ],
+        answer: 2,
+        reason: "A registered valuer is appointed by the Audit Committee or, in its absence, by the Board of Directors of the company."
+      },
+      {
+        question_id: "seta_AI_cs_8_001_2",
+        question: "Can Mr. Mehta undertake the valuation when he had a direct or indirect interest in the asset during the two years preceding his proposed appointment?",
+        options: [
+          "Yes, because he is a registered valuer",
+          "Yes, provided the Audit Committee approves",
+          "No, because the restriction covers the three years prior to appointment",
+          "Yes, provided the interest is disclosed after completion of valuation"
+        ],
+        answer: 3,
+        reason: "A registered valuer must not undertake valuation of an asset in which he has a direct or indirect interest at any time during three years prior to appointment or three years after the valuation."
+      },
+      {
+        question_id: "seta_AI_cs_8_001_3",
+        question: "Which of the following is a fundamental duty of a registered valuer while conducting valuation?",
+        options: [
+          "To maximise the value of the asset",
+          "To make an impartial, true and fair valuation and exercise due diligence",
+          "To follow only the instructions of the company's directors",
+          "To prepare a valuation favourable to the appointing authority"
+        ],
+        answer: 2,
+        reason: "The valuer must make an impartial, true and fair valuation and exercise due diligence while performing valuation functions."
+      },
+      {
+        question_id: "seta_AI_cs_8_001_4",
+        question: "If valuation standards have not been notified or modified by the Central Government, which standards may the registered valuer follow?",
+        options: [
+          "Only standards issued by the company",
+          "Only accounting standards",
+          "Internationally accepted valuation standards or standards adopted by a registered valuers organisation",
+          "Only standards issued by the Registrar of Companies"
+        ],
+        answer: 3,
+        reason: "Until valuation standards are notified or modified by the Central Government, valuations may be made according to internationally accepted valuation standards or valuation standards adopted by a registered valuers organisation."
+      },
+      {
+        question_id: "seta_AI_cs_8_001_5",
+        question: "If Mr. Mehta obtains valuation inputs from another registered valuer, what responsibility continues to remain with him?",
+        options: [
+          "No responsibility remains with him",
+          "Only the other valuer becomes responsible",
+          "Liability for the resultant valuation remains with Mr. Mehta, and he must disclose the details of the inputs and other valuer",
+          "Responsibility automatically shifts to the Audit Committee"
+        ],
+        answer: 3,
+        reason: "A registered valuer may obtain inputs or a separate valuation from another registered valuer, but must fully disclose the details. Liability for the resultant valuation remains with the first-mentioned valuer."
+      }
+    ]
+  },
+
+  {
+    case_id: "seta_AI_cs_8_002",
+    difficulty: "medium",
+    caseText: `
+      <p>Blue Horizon Technologies Private Limited was incorporated several years ago. For the last two immediately preceding financial years, the company has not carried on any business or operation. The company has also not made any significant accounting transaction during that period. The directors are considering applying for removal of the company's name from the Register of Companies.</p>
+
+      <p>Before taking the decision, the Company Secretary examined the company's recent activities. During the previous three months, the company had shifted its registered office from one State to another. It had also disposed of certain property held by it for value. In addition, the company had recently made an application to the Tribunal for sanctioning a compromise or arrangement, and the matter had not yet been finally concluded.</p>
+
+      <p>The directors nevertheless proposed to file an application for removal of the company's name immediately, arguing that the company had not carried on business for two years and therefore automatically qualified for strike-off.</p>
+
+      <p>The Company Secretary advised that the eligibility to seek removal of name is subject to specific restrictions under Section 249, particularly regarding activities undertaken during the three months immediately preceding the application.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_8_002_1",
+        question: "Which of the following circumstances would restrict Blue Horizon Technologies from making an application under Section 248?",
+        options: [
+          "It has maintained its registered office",
+          "It has changed its name or shifted its registered office during the previous three months",
+          "It has appointed an auditor",
+          "It has maintained accounting records"
+        ],
+        answer: 2,
+        reason: "An application under Section 248 cannot be made if, during the previous three months, the company has changed its name or shifted its registered office from one State to another."
+      },
+      {
+        question_id: "seta_AI_cs_8_002_2",
+        question: "What is the effect of making an application for strike-off while the company has a pending application before the Tribunal for compromise or arrangement?",
+        options: [
+          "The strike-off application is freely permissible",
+          "The company may proceed after obtaining shareholder consent",
+          "The application is restricted until the Tribunal matter is finally concluded",
+          "Only the Registrar can decide whether the restriction applies"
+        ],
+        answer: 3,
+        reason: "An application under Section 248 is restricted where an application to the Tribunal for sanctioning a compromise or arrangement has been made and the matter has not been finally concluded."
+      },
+      {
+        question_id: "seta_AI_cs_8_002_3",
+        question: "For how long does the restriction relating to the specified activities apply before an application under Section 248?",
+        options: [
+          "30 days",
+          "60 days",
+          "Three months",
+          "One year"
+        ],
+        answer: 3,
+        reason: "Section 249 examines whether the specified circumstances existed at any time during the previous three months."
+      },
+      {
+        question_id: "seta_AI_cs_8_002_4",
+        question: "If a company files an application in violation of the restrictions under Section 249, what penalty may apply?",
+        options: [
+          "Fine up to ₹10,000",
+          "Fine up to ₹50,000",
+          "Fine up to ₹1 lakh",
+          "Imprisonment up to one year only"
+        ],
+        answer: 3,
+        reason: "Where an application is filed in violation of the restrictions under Section 249, the company shall be punishable with fine which may extend to ₹1 lakh."
+      },
+      {
+        question_id: "seta_AI_cs_8_002_5",
+        question: "What should happen to an application under Section 248 if the restrictions under Section 249 are brought to the Registrar's notice?",
+        options: [
+          "It must automatically be approved",
+          "It must be withdrawn by the company or rejected by the Registrar",
+          "It must be converted into a dormant company application",
+          "It must be referred to the Central Government"
+        ],
+        answer: 2,
+        reason: "An application filed in violation of Section 249 shall be withdrawn by the company or rejected by the Registrar as soon as the conditions are brought to his notice."
+      }
+    ]
+  },
+
+  {
+    case_id: "seta_AI_cs_8_003",
+    difficulty: "medium",
+    caseText: `
+      <p>Pragati Mutual Benefit Limited was incorporated as a Nidhi company. During its first year of operations, the management reviewed its compliance with the Nidhi Rules, 2014. The company had 215 members and Net Owned Funds of ₹22 lakh. Its outstanding deposits were ₹4 crore.</p>
+
+      <p>The Board proposed to introduce several new activities to improve profitability. These included providing locker facilities to members, acquiring securities of another company, accepting deposits from a non-member who was willing to offer a higher interest rate, and entering into a partnership arrangement for lending activities.</p>
+
+      <p>The management also considered allowing a minor to become a direct member of the Nidhi and proposed to accept a deposit in the minor's name. The compliance officer pointed out that the Rules distinguish between membership of a minor and deposits made on behalf of a minor.</p>
+
+      <p>The Board requested a detailed legal review before implementing any of the proposed measures.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_8_003_1",
+        question: "What is the maximum ratio of Net Owned Funds to deposits permitted for a Nidhi?",
+        options: [
+          "1:10",
+          "1:15",
+          "1:20",
+          "1:25"
+        ],
+        answer: 3,
+        reason: "A Nidhi shall not accept deposits exceeding twenty times its Net Owned Funds. Thus, the ratio is not more than 1:20."
+      },
+      {
+        question_id: "seta_AI_cs_8_003_2",
+        question: "Can Pragati Mutual Benefit Limited accept deposits from a non-member?",
+        options: [
+          "Yes, if the interest offered is commercially reasonable",
+          "Yes, if approved by the Board",
+          "No, Nidhis can accept deposits only from their members",
+          "Yes, if the deposit is below ₹1 lakh"
+        ],
+        answer: 3,
+        reason: "A Nidhi cannot accept deposits from or lend to any person other than its members."
+      },
+      {
+        question_id: "seta_AI_cs_8_003_3",
+        question: "Can Pragati Mutual Benefit Limited acquire or purchase securities of another company?",
+        options: [
+          "Yes, with shareholder approval",
+          "Yes, with Regional Director approval",
+          "No, such activity is prohibited",
+          "Yes, if the securities are listed"
+        ],
+        answer: 3,
+        reason: "A Nidhi shall not acquire or purchase securities of any other company or control its Board composition or enter into arrangements for change of management."
+      },
+      {
+        question_id: "seta_AI_cs_8_003_4",
+        question: "Can a Nidhi provide locker facilities to its members?",
+        options: [
+          "Never",
+          "Yes, without any income restriction",
+          "Yes, subject to the applicable conditions, including rental income not exceeding 20% of gross income",
+          "Only to non-members"
+        ],
+        answer: 3,
+        reason: "A Nidhi complying with the applicable provisions may provide locker facilities on rent to members, provided rental income does not exceed 20% of its gross income at any point during the financial year."
+      },
+      {
+        question_id: "seta_AI_cs_8_003_5",
+        question: "Which statement correctly describes membership of a minor in a Nidhi?",
+        options: [
+          "A minor may freely become a member",
+          "A minor may become a member with Board approval",
+          "A minor cannot be admitted as a member, although deposits may be accepted in the minor's name when made by a member who is the natural or legal guardian",
+          "A minor can become a member if the deposit exceeds ₹1 lakh"
+        ],
+        answer: 3,
+        reason: "A minor cannot be admitted as a member of a Nidhi. However, deposits may be accepted in the name of a minor if made by the natural or legal guardian who is a member of the Nidhi."
+      }
+    ]
+  },
+
+  {
+    case_id: "seta_AI_cs_8_004",
+    difficulty: "medium",
+    caseText: `
+      <p>Eastern Infrastructure Limited is a company in which the Central Government holds 30% of the paid-up share capital and the Government of State X holds another 25%. The remaining share capital is held by private investors. A government company also holds 10% of the company's paid-up share capital.</p>
+
+      <p>The management initially described Eastern Infrastructure Limited as a Government company because the combined holding of the Central Government and the State Government was 55%. However, during a detailed review, the Company Secretary pointed out that the definition must be applied carefully and the shareholding of a government company does not simply get added to the direct government holding for determining the 51% threshold.</p>
+
+      <p>In another matter, Eastern Infrastructure Limited was considering the preparation of its annual report. The Central Government is a member of the company and the Government of State X is also a member. The company sought clarification regarding the preparation and laying of the annual report, including the role of the Comptroller and Auditor-General of India.</p>
+
+      <p>The Board requested the Company Secretary to explain the correct statutory position.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_8_004_1",
+        question: "What percentage of paid-up share capital must generally be held by the Central Government, State Government(s), or both for a company to fall within the definition of a Government company?",
+        options: [
+          "25%",
+          "40%",
+          "51%",
+          "75%"
+        ],
+        answer: 3,
+        reason: "A Government company is one in which not less than 51% of the paid-up share capital is held by the Central Government, State Government(s), or partly by the Central and partly by State Governments."
+      },
+      {
+        question_id: "seta_AI_cs_8_004_2",
+        question: "In determining whether Eastern Infrastructure Limited satisfies the 51% requirement, how should the 10% holding of the government company be treated under the chapter's illustration?",
+        options: [
+          "It must automatically be added to the government holding",
+          "It is treated as private shareholding for this purpose",
+          "It is added only if the Central Government approves",
+          "It is counted as 20%"
+        ],
+        answer: 2,
+        reason: "The chapter's example states that the holding of a government company in another company cannot be taken into account while counting the prescribed 51% direct government holding."
+      },
+      {
+        question_id: "seta_AI_cs_8_004_3",
+        question: "Where the Central Government is a member of a Government company, who causes the annual report on the working and affairs of the company to be prepared?",
+        options: [
+          "The Registrar of Companies",
+          "The Central Government",
+          "The State Government alone",
+          "The Tribunal"
+        ],
+        answer: 2,
+        reason: "Under Section 394, where the Central Government is a member of a Government company, the Central Government shall cause the annual report on its working and affairs to be prepared."
+      },
+      {
+        question_id: "seta_AI_cs_8_004_4",
+        question: "The annual report under Section 394 is to be prepared within what period after the relevant annual general meeting?",
+        options: [
+          "30 days",
+          "60 days",
+          "Three months",
+          "Six months"
+        ],
+        answer: 3,
+        reason: "The annual report is to be prepared within three months of the annual general meeting before which the CAG's comments and audit report are placed."
+      },
+      {
+        question_id: "seta_AI_cs_8_004_5",
+        question: "Where a State Government is also a member along with the Central Government, what must the State Government do?",
+        options: [
+          "Nothing further",
+          "Cause a copy of the annual report to be laid before the State Legislature along with the audit report and CAG comments",
+          "Send the report only to the Registrar",
+          "Approve the audit report before Parliament"
+        ],
+        answer: 2,
+        reason: "Where, in addition to the Central Government, a State Government is also a member, that State Government shall cause a copy of the annual report to be laid before the House or both Houses of the State Legislature along with the audit report and CAG comments or supplement."
+      }
+    ]
+  },
+
+  {
+    case_id: "seta_AI_cs_8_005",
+    difficulty: "medium",
+    caseText: `
+      <p>Nova Research Limited was incorporated for developing a future technology project. For the last two financial years, it has not carried on any business or operation and has not made any significant accounting transaction. The company now wishes to obtain the status of a dormant company.</p>
+
+      <p>The directors reviewed the company's records and found that it had continued to pay statutory fees to the Registrar and rental expenses for maintaining its registered office and records. The directors were initially concerned that these transactions would prevent the company from being treated as inactive.</p>
+
+      <p>The company has no public deposits outstanding, no outstanding secured loans and no disputes regarding management or ownership. However, it has an outstanding unsecured loan from one of its promoters. The promoter has agreed in writing to the company obtaining dormant status.</p>
+
+      <p>The directors also considered whether a special resolution would be necessary and what form would need to be filed with the Registrar. They further wanted to know the annual compliance requirements after obtaining dormant status.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_8_005_1",
+        question: "Do payment of statutory fees to the Registrar and payments for maintaining the office and records constitute significant accounting transactions for the purpose of Section 455?",
+        options: [
+          "Yes, in every case",
+          "Yes, if paid during two consecutive years",
+          "No, these transactions are specifically excluded",
+          "Only payment of Registrar fees is excluded"
+        ],
+        answer: 3,
+        reason: "Payment of fees to the Registrar and payments for maintenance of office and records are excluded from the definition of significant accounting transaction."
+      },
+      {
+        question_id: "seta_AI_cs_8_005_2",
+        question: "Can Nova Research Limited apply for dormant status when it has an outstanding unsecured loan, provided the lender gives concurrence?",
+        options: [
+          "No, unsecured loans can never exist",
+          "Yes, if the lender's concurrence is obtained and enclosed with Form MSC-1",
+          "Yes, without informing the lender",
+          "Only after converting the loan into equity"
+        ],
+        answer: 2,
+        reason: "A company having an outstanding unsecured loan may apply for dormant status after obtaining concurrence of the lender and enclosing it with Form MSC-1."
+      },
+      {
+        question_id: "seta_AI_cs_8_005_3",
+        question: "What approval is required before an application for dormant status is made under the Companies (Miscellaneous) Rules, 2014?",
+        options: [
+          "Only Board approval",
+          "Special resolution or consent of at least three-fourths shareholders in value after notice to all shareholders",
+          "Only approval of the Registrar",
+          "Approval of the Central Government"
+        ],
+        answer: 2,
+        reason: "The company may apply after passing a special resolution in general meeting or after issuing notice to all shareholders and obtaining consent of at least three-fourths shareholders in value."
+      },
+      {
+        question_id: "seta_AI_cs_8_005_4",
+        question: "Which form is used for applying to the Registrar for obtaining dormant company status?",
+        options: [
+          "MSC-1",
+          "MSC-2",
+          "MSC-3",
+          "MSC-4"
+        ],
+        answer: 1,
+        reason: "Form MSC-1 is used for making the application to the Registrar for obtaining dormant company status."
+      },
+      {
+        question_id: "seta_AI_cs_8_005_5",
+        question: "Which form is used for the annual Return of Dormant Company?",
+        options: [
+          "MSC-1",
+          "MSC-2",
+          "MSC-3",
+          "MSC-5"
+        ],
+        answer: 3,
+        reason: "A dormant company is required to file the Return of Dormant Company annually in Form MSC-3."
+      }
+    ]
+  },
+
+
+  /* =========================================================
+     HARD CASE SCENARIOS
+  ========================================================= */
+
+  {
+    case_id: "seta_AI_cs_8_006",
+    difficulty: "hard",
+    caseText: `
+      <p>Vertex Valuation Consultants Private Limited is registered as a valuer for a particular asset class. The company has four directors, of whom three are registered valuers, but only two of them are registered for the specific asset class involved in a proposed assignment. Vertex has recently been appointed to value a large portfolio of machinery owned by Omega Industries Limited.</p>
+
+      <p>Before commencing the assignment, the management of Vertex proposed that a director who is not registered for the relevant asset class should sign the final valuation report because he has substantial experience in machinery transactions. The two directors who are registered for the relevant asset class were unavailable due to other professional commitments.</p>
+
+      <p>Vertex also proposed to obtain a separate valuation of certain specialised machinery from another registered valuer and incorporate those figures into its report. The directors believed that obtaining an external valuation would transfer responsibility for that portion of the report to the other valuer.</p>
+
+      <p>During the same period, one of Vertex's registered valuers shifted his membership from one registered valuers organisation to another without obtaining prior permission from the authority. The company also failed to maintain the records of one completed valuation assignment beyond the second year.</p>
+
+      <p>Omega Industries has now questioned whether the valuation report can be validly signed and whether Vertex has complied with the conditions attached to registration.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_8_006_1",
+        question: "Who may sign and act on behalf of Vertex in respect of the valuation of the machinery asset class?",
+        options: [
+          "Any director with general valuation experience",
+          "Any partner or director of Vertex",
+          "Only a partner or director who is a registered valuer for the relevant asset class",
+          "Only an employee authorised by Omega Industries"
+        ],
+        answer: 3,
+        reason: "Where a partnership entity or company is the registered valuer, only the partner or director who is a registered valuer for the relevant asset class may sign and act on its behalf."
+      },
+      {
+        question_id: "seta_AI_cs_8_006_2",
+        question: "If Vertex obtains valuation inputs from another registered valuer, does responsibility for the resultant valuation automatically shift to that other valuer?",
+        options: [
+          "Yes, completely",
+          "Yes, if the external valuer signs the supporting document",
+          "No, liability for the resultant valuation remains with Vertex as the first-mentioned valuer",
+          "Yes, if Omega Industries consents"
+        ],
+        answer: 3,
+        reason: "The first-mentioned registered valuer remains liable for the resultant valuation even when inputs or a separate valuation are obtained from another registered valuer. The details must also be fully disclosed."
+      },
+      {
+        question_id: "seta_AI_cs_8_006_3",
+        question: "What should the registered valuer have done before shifting membership from one registered valuers organisation to another?",
+        options: [
+          "Nothing is required",
+          "Obtain prior permission of the authority",
+          "Obtain approval from the client only",
+          "Obtain approval from the Registrar of Companies only"
+        ],
+        answer: 2,
+        reason: "One of the conditions of registration is that a registered valuer must take prior permission of the authority for shifting membership from one registered valuers organisation to another."
+      },
+      {
+        question_id: "seta_AI_cs_8_006_4",
+        question: "For how long must a registered valuer maintain records of each assignment undertaken?",
+        options: [
+          "One year from appointment",
+          "Two years from completion",
+          "At least three years from completion of the assignment",
+          "Permanently in every case"
+        ],
+        answer: 3,
+        reason: "The conditions of registration require the registered valuer to maintain records of each assignment for at least three years from completion of that assignment."
+      },
+      {
+        question_id: "seta_AI_cs_8_006_5",
+        question: "Which conclusion is most appropriate regarding Vertex's proposed signing arrangement?",
+        options: [
+          "The experienced but unregistered director may sign because experience overrides registration",
+          "The report may be signed by any director if approved by the Board",
+          "The report should be signed and acted upon only by a director registered for the relevant asset class",
+          "The client can sign the report instead"
+        ],
+        answer: 3,
+        reason: "The registered valuer entity can act through only the partner or director who is registered for the relevant asset class. General experience does not substitute for the required registration."
+      }
+    ]
+  },
+
+  {
+    case_id: "seta_AI_cs_8_007",
+    difficulty: "hard",
+    caseText: `
+      <p>Greenfield Agro Products Limited had stopped carrying on business for several years and decided to apply for removal of its name from the Register of Companies. Before filing the application, the directors extinguished the company's liabilities and obtained the requisite shareholder approval.</p>
+
+      <p>However, the directors had undertaken several transactions shortly before the proposed application. The company had changed its registered office from one State to another, disposed of certain valuable property for consideration, and entered into an activity that was not necessary for concluding its affairs or complying with statutory requirements.</p>
+
+      <p>The directors nevertheless proceeded with the application and represented to the Registrar that the company had no outstanding business activity. After the company was dissolved, one of its former creditors discovered that the application had been made with the intention of avoiding the company's liability to him.</p>
+
+      <p>The creditor sought legal advice regarding the liability of the persons who had managed the company and also considered whether the company's name could be restored. Separately, a person who had no status as a member, creditor, workman or the company itself attempted to file an application for restoration.</p>
+
+      <p>The matter eventually came before the Tribunal, where questions arose concerning the time limits applicable to different applicants and the consequences of a fraudulent strike-off application.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_8_007_1",
+        question: "Which of the following facts would independently restrict Greenfield Agro Products Limited from applying for strike-off under Section 249?",
+        options: [
+          "Payment of statutory fees",
+          "Changing its registered office from one State to another during the previous three months",
+          "Maintaining accounting records",
+          "Having no business for several years"
+        ],
+        answer: 2,
+        reason: "Changing the registered office from one State to another within the previous three months is one of the statutory restrictions on an application under Section 248."
+      },
+      {
+        question_id: "seta_AI_cs_8_007_2",
+        question: "If the application was made with the intention of evading liabilities or deceiving creditors, what consequence may follow under Section 251?",
+        options: [
+          "Only cancellation of the application",
+          "Only a civil warning",
+          "Joint and several liability for loss or damage and punishment for fraud under Section 447",
+          "Automatic immunity after dissolution"
+        ],
+        answer: 3,
+        reason: "Persons in charge of management who fraudulently apply for removal to evade liabilities or deceive creditors may be jointly and severally liable for resulting loss or damage and may be punished for fraud under Section 447."
+      },
+      {
+        question_id: "seta_AI_cs_8_007_3",
+        question: "Within what period may a person aggrieved by the Registrar's order notifying the company as dissolved generally appeal to the Tribunal under Section 252?",
+        options: [
+          "30 days",
+          "One year",
+          "Three years from the date of the Registrar's order",
+          "Twenty years"
+        ],
+        answer: 3,
+        reason: "Any person aggrieved by the Registrar's order may file an appeal to the Tribunal within three years from the date of the Registrar's order."
+      },
+      {
+        question_id: "seta_AI_cs_8_007_4",
+        question: "Who may apply to the Tribunal for restoration where the company was carrying on business or operation at the time its name was struck off, within the period stated in the chapter?",
+        options: [
+          "Only the Registrar",
+          "Only the directors",
+          "The company, member, creditor or workman, before expiry of twenty years from publication in the Official Gazette",
+          "Any person whatsoever without restriction"
+        ],
+        answer: 3,
+        reason: "The company, member, creditor or workman may apply before expiry of twenty years from publication in the Official Gazette if the statutory conditions for restoration are satisfied."
+      },
+      {
+        question_id: "seta_AI_cs_8_007_5",
+        question: "What is the position of a person who is neither the company nor a member, creditor or workman and seeks restoration of the company?",
+        options: [
+          "Such person automatically has locus standi",
+          "Such person has no locus standi merely because he disagrees with the strike-off",
+          "Such person can apply within three years without restriction",
+          "Such person can apply only with Registrar approval"
+        ],
+        answer: 2,
+        reason: "The chapter's case law states that a person who is neither the company nor a member nor a creditor cannot claim to be an aggrieved person for restoration merely on that basis and lacks locus standi."
+      }
+    ]
+  },
+
+  {
+    case_id: "seta_AI_cs_8_008",
+    difficulty: "hard",
+    caseText: `
+      <p>Shakti Nidhi Limited is an established Nidhi company whose management is reviewing its lending and deposit practices. According to its latest audited financial statements, the company has deposits of ₹60 crore and Net Owned Funds of ₹3 crore. The Board proposes to grant a member a loan of ₹18 lakh against immovable property.</p>
+
+      <p>The compliance officer observes that the proposed loan exceeds the prescribed maximum for the relevant deposit category. The Board argues that the security offered is valuable and therefore the higher loan should be permissible. The property is valued at ₹50 lakh.</p>
+
+      <p>The Nidhi has also not made profits continuously during the preceding three financial years. In addition, the Board wants to charge interest on loans at a rate substantially higher than the highest rate offered on its deposits. The directors further propose to appoint an individual auditor who has already served for five consecutive years and immediately reappoint the same person.</p>
+
+      <p>During the review, the Board also considers whether its director who has completed ten consecutive years can immediately be reappointed. The director has remained a member of the Nidhi throughout his tenure and satisfies all other eligibility requirements.</p>
+
+      <p>The compliance officer has been asked to identify each violation before the Board proceeds with the proposals.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_8_008_1",
+        question: "Based on deposits of ₹60 crore, what is the maximum ordinary loan amount that may be granted to a member under the prescribed deposit-based limits?",
+        options: [
+          "₹7.50 lakh",
+          "₹12 lakh",
+          "₹15 lakh",
+          "₹20 lakh"
+        ],
+        answer: 3,
+        reason: "Where total deposits from members exceed ₹50 crore, the prescribed maximum loan is ₹15 lakh."
+      },
+      {
+        question_id: "seta_AI_cs_8_008_2",
+        question: "Since Shakti Nidhi Limited has not made profits continuously for the preceding three financial years, what maximum fresh loan limit applies?",
+        options: [
+          "The full prescribed maximum",
+          "25% of the prescribed maximum",
+          "50% of the prescribed maximum",
+          "75% of the prescribed maximum"
+        ],
+        answer: 3,
+        reason: "Where a Nidhi has not made profits continuously in the three preceding financial years, it shall not make fresh loans exceeding 50% of the applicable maximum loan amounts."
+      },
+      {
+        question_id: "seta_AI_cs_8_008_3",
+        question: "Even if the property offered as security is worth ₹50 lakh, what is the maximum individual loan against immovable property based on the prescribed percentage of property value?",
+        options: [
+          "₹15 lakh",
+          "₹20 lakh",
+          "₹25 lakh",
+          "₹30 lakh"
+        ],
+        answer: 3,
+        reason: "An individual loan against immovable property shall not exceed 50% of the value of the property offered as security. Fifty per cent of ₹50 lakh is ₹25 lakh. However, other applicable loan limits must also be considered."
+      },
+      {
+        question_id: "seta_AI_cs_8_008_4",
+        question: "What is the maximum spread permitted for the rate of interest charged by a Nidhi on a loan over the highest rate of interest offered on deposits?",
+        options: [
+          "5%",
+          "6%",
+          "7.5%",
+          "10%"
+        ],
+        answer: 3,
+        reason: "The rate of interest charged on a loan shall not exceed 7.5% above the highest rate of interest offered on deposits by the Nidhi and is calculated on the reducing balance method."
+      },
+      {
+        question_id: "seta_AI_cs_8_008_5",
+        question: "Can the director who has completed ten consecutive years be immediately reappointed?",
+        options: [
+          "Yes, because he continues to be a member",
+          "Yes, if approved by the Board",
+          "No, reappointment is possible only after expiration of two years from ceasing to be a director",
+          "No, he can never be reappointed"
+        ],
+        answer: 3,
+        reason: "A Nidhi director may hold office for up to 10 consecutive years and is eligible for reappointment only after the expiration of two years from ceasing to be a director."
+      }
+    ]
+  },
+
+  {
+    case_id: "seta_AI_cs_8_009",
+    difficulty: "hard",
+    caseText: `
+      <p>Orion Corporate Services Limited is considering a restructuring involving a registered valuer, a dormant company and a proposed transaction that may involve an incorrect valuation statement. The Board appoints a registered valuer to determine the value of certain assets. The valuer knowingly omits a material fact from the valuation report because the omission is expected to increase the apparent value of the assets.</p>
+
+      <p>The Board relies on the report while obtaining approval for the transaction. Later, an investigation reveals that the valuer had intentionally omitted the material information. The company suffered a financial loss as a result.</p>
+
+      <p>At the same time, another subsidiary of Orion has been inactive for more than two financial years and wishes to obtain dormant status. The subsidiary has no significant accounting transactions other than statutory payments, office maintenance expenses and allotment of shares required to comply with the Companies Act.</p>
+
+      <p>However, an inspection has already been ordered against the subsidiary. The directors nevertheless propose filing Form MSC-1, arguing that the transactions are not significant and that the company otherwise satisfies the conditions for dormant status.</p>
+
+      <p>The Board seeks advice on the consequences of the valuer's conduct, the treatment of the subsidiary's transactions and whether the dormant-company application can validly proceed.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_8_009_1",
+        question: "A person knowingly omitting a material fact in a report required under the Companies Act may attract liability under which provision mentioned in the chapter?",
+        options: [
+          "Section 249",
+          "Section 406",
+          "Section 448",
+          "Section 455"
+        ],
+        answer: 3,
+        reason: "Rule 21 provides that where a person makes a false statement in material particulars knowing it to be false or omits a material fact knowing it to be material, he shall be liable under Section 448."
+      },
+      {
+        question_id: "seta_AI_cs_8_009_2",
+        question: "Which statement best describes the valuer's conduct in the circumstances?",
+        options: [
+          "It is acceptable if the Board approves the report",
+          "It is acceptable if the omission does not immediately affect the transaction",
+          "Knowingly omitting a material fact constitutes a serious contravention and may attract statutory liability",
+          "Only the company can be liable; the valuer cannot be liable"
+        ],
+        answer: 3,
+        reason: "A knowingly false statement or knowing omission of a material fact in a report attracts liability under Section 448 as stated in Rule 21."
+      },
+      {
+        question_id: "seta_AI_cs_8_009_3",
+        question: "Which of the following is excluded from the definition of significant accounting transaction for an inactive company?",
+        options: [
+          "Purchase of a major asset for expansion",
+          "Sale of a business division",
+          "Payment of fees to the Registrar and maintenance of office and records",
+          "Payment to a new supplier for business operations"
+        ],
+        answer: 3,
+        reason: "Payment of fees to the Registrar, payments to fulfil statutory requirements, allotment of shares to fulfil Companies Act requirements, and payments for maintenance of office and records are excluded from significant accounting transactions."
+      },
+      {
+        question_id: "seta_AI_cs_8_009_4",
+        question: "Can the subsidiary validly apply for dormant status when an inspection has already been ordered against it?",
+        options: [
+          "Yes, because it has no significant accounting transactions",
+          "Yes, if shareholders pass a special resolution",
+          "No, a company is not eligible to apply if an inspection, inquiry or investigation has been ordered, taken up or carried out against it",
+          "Yes, if the Registrar permits it informally"
+        ],
+        answer: 3,
+        reason: "One of the eligibility conditions for applying for dormant status is that no inspection, inquiry or investigation has been ordered, taken up or carried out against the company."
+      },
+      {
+        question_id: "seta_AI_cs_8_009_5",
+        question: "Which form is required for the subsidiary's application for dormant status, assuming all eligibility conditions are satisfied?",
+        options: [
+          "MSC-1",
+          "MSC-2",
+          "MSC-3",
+          "MSC-5"
+        ],
+        answer: 1,
+        reason: "The application for obtaining dormant company status is made to the Registrar in Form MSC-1."
+      }
+    ]
+  },
+
+  {
+    case_id: "seta_AI_cs_8_010",
+    difficulty: "hard",
+    caseText: `
+      <p>Atlas Corporate Group is reviewing the compliance position of several companies within its group. One company, Atlas Government Infrastructure Limited, is jointly owned by the Central Government and two State Governments. Another subsidiary is already classified as a Government company because it is a subsidiary of a Government company.</p>
+
+      <p>The group also has a Nidhi company whose management has allowed deposits to grow substantially. The Nidhi has Net Owned Funds of ₹40 lakh and deposits of ₹8 crore. It maintains unencumbered term deposits with a scheduled commercial bank equal to 10% of the outstanding deposits at the relevant date.</p>
+
+      <p>The Nidhi's Board proposes to accept additional deposits that would cause the deposits to exceed twenty times Net Owned Funds. The Board argues that because the company has sufficient unencumbered term deposits, the higher deposit acceptance should be permitted. The compliance officer disagrees.</p>
+
+      <p>Separately, a fraud involving ₹9 lakh has been discovered in one of the group companies. The company's turnover is ₹5 crore and the fraud does not involve public interest. Management argues that Section 447 cannot apply because the amount involved is below ₹10 lakh.</p>
+
+      <p>The legal team is required to determine the correct position concerning Government company status, Nidhi deposit limits and the applicable punishment framework for the fraud.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_8_010_1",
+        question: "A subsidiary company of a Government company can itself fall within the definition of Government company even if it is not wholly owned by the Government company. Which statement is correct?",
+        options: [
+          "Only a wholly owned subsidiary can qualify",
+          "A subsidiary company of a Government company is included within the definition",
+          "Only a subsidiary with 100% Central Government holding qualifies",
+          "A subsidiary can never qualify independently"
+        ],
+        answer: 2,
+        reason: "The definition of Government company expressly includes a company which is a subsidiary company of such a Government company; the chapter notes that wholly owned status is not specifically required."
+      },
+      {
+        question_id: "seta_AI_cs_8_010_2",
+        question: "With Net Owned Funds of ₹40 lakh, what is the maximum amount of deposits that a Nidhi may ordinarily accept based on the 1:20 ratio?",
+        options: [
+          "₹4 crore",
+          "₹6 crore",
+          "₹8 crore",
+          "₹10 crore"
+        ],
+        answer: 3,
+        reason: "A Nidhi shall not accept deposits exceeding twenty times its Net Owned Funds. ₹40 lakh × 20 = ₹8 crore."
+      },
+      {
+        question_id: "seta_AI_cs_8_010_3",
+        question: "If the Nidhi's deposits are already ₹8 crore and Net Owned Funds are ₹40 lakh, can it accept further deposits that exceed the 1:20 limit merely because it maintains the required 10% unencumbered term deposits?",
+        options: [
+          "Yes, because the 10% deposit requirement overrides the ratio",
+          "Yes, if approved by members",
+          "No, the 1:20 deposit-to-NOF ceiling must still be complied with",
+          "Yes, if the Regional Director is informed"
+        ],
+        answer: 3,
+        reason: "The requirement to maintain unencumbered term deposits is separate from the ceiling that deposits cannot exceed twenty times Net Owned Funds. Compliance with one does not override the other."
+      },
+      {
+        question_id: "seta_AI_cs_8_010_4",
+        question: "For the ₹9 lakh fraud, what is the relevant threshold for applying the higher punishment under Section 447?",
+        options: [
+          "₹5 lakh only",
+          "₹10 lakh or 1% of turnover, whichever is lower",
+          "₹10 lakh or 10% of turnover, whichever is higher",
+          "₹50 lakh in every case"
+        ],
+        answer: 2,
+        reason: "The higher punishment under Section 447 applies where fraud involves an amount of at least ₹10 lakh or 1% of the turnover of the company, whichever is lower."
+      },
+      {
+        question_id: "seta_AI_cs_8_010_5",
+        question: "Considering the company's turnover of ₹5 crore, what is 1% of turnover and how does the ₹9 lakh fraud compare with the statutory threshold?",
+        options: [
+          "1% is ₹50 lakh; fraud is below the threshold",
+          "1% is ₹5 lakh; ₹9 lakh exceeds the lower threshold and therefore falls within the higher punishment framework, subject to the statutory conditions",
+          "1% is ₹9 lakh; fraud exactly equals the threshold",
+          "1% is ₹10 lakh; fraud is automatically outside Section 447"
+        ],
+        answer: 2,
+        reason: "1% of ₹5 crore is ₹5 lakh. Since Section 447 uses ₹10 lakh or 1% of turnover, whichever is lower, the applicable threshold is ₹5 lakh. A ₹9 lakh fraud therefore exceeds the threshold, assuming the other statutory conditions are satisfied."
+      }
+    ]
+  }
 ];
