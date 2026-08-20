@@ -16662,6 +16662,724 @@ const AICaseStudies = [
       reason: "Section 246 applies the provisions of Sections 337 to 341, mutatis mutandis, to proceedings under Sections 241 and 245."
     }
   ]
-}
+},
 
+// Chapter 7
+
+  /* =========================================================
+     EASY CASE 1
+  ========================================================= */
+
+  {
+    case_id: "WIND_CS_E01",
+    difficulty: "Easy",
+    chapter: "Winding Up",
+
+    caseText: `
+      <p>Alpha Engineering Limited had been facing serious financial and operational
+      difficulties for several years. The company had also failed to comply with certain
+      statutory filing requirements under the Companies Act, 2013. After considering
+      the affairs of the company, the members passed a special resolution expressing
+      their decision that the company should be wound up by the Tribunal.</p>
+
+      <p>The company thereafter approached the Tribunal by presenting a petition for
+      winding up. During the proceedings, the Tribunal examined the circumstances
+      surrounding the petition and considered the possible orders that could be passed
+      under Section 273 of the Companies Act, 2013.</p>
+
+      <p>The directors of Alpha Engineering Limited were particularly concerned about
+      whether the Tribunal was restricted to either dismissing the petition or passing
+      an immediate winding-up order. They were advised that the Tribunal has several
+      alternatives available to it when dealing with a winding-up petition.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "WIND_CS_E01_Q01",
+        question: "Which of the following is a circumstance in which Alpha Engineering Limited may be wound up by the Tribunal under Section 271?",
+        options: [
+          "The company has changed its registered office",
+          "The company has, by special resolution, resolved that it be wound up by the Tribunal",
+          "The company has appointed a new auditor",
+          "The company has declared dividend"
+        ],
+        answer: 1,
+        explanation: "Under Section 271(a), a company may be wound up by the Tribunal if it has, by special resolution, resolved that the company be wound up by the Tribunal."
+      },
+
+      {
+        question_id: "WIND_CS_E01_Q02",
+        question: "Which authority has the power to pass an order under Section 273 upon receiving a winding-up petition?",
+        options: [
+          "Registrar of Companies",
+          "Central Government",
+          "Tribunal",
+          "Company Secretary"
+        ],
+        answer: 2,
+        explanation: "The Tribunal may, on receipt of a petition for winding up under Section 272, pass the orders specified under Section 273."
+      },
+
+      {
+        question_id: "WIND_CS_E01_Q03",
+        question: "Which of the following may be appointed by the Tribunal before a winding-up order is made?",
+        options: [
+          "Provisional Liquidator",
+          "Auditor General",
+          "Company Secretary",
+          "Registrar"
+        ],
+        answer: 0,
+        explanation: "Under Section 273, the Tribunal may appoint a provisional liquidator of the company until the making of a winding-up order."
+      },
+
+      {
+        question_id: "WIND_CS_E01_Q04",
+        question: "Within what period should an order under Section 273 generally be made?",
+        options: [
+          "30 days",
+          "60 days",
+          "90 days",
+          "120 days"
+        ],
+        answer: 2,
+        explanation: "An order under Section 273 shall be made within 90 days from the date of presentation of the petition."
+      },
+
+      {
+        question_id: "WIND_CS_E01_Q05",
+        question: "Which of the following is NOT one of the orders that the Tribunal may pass under Section 273?",
+        options: [
+          "Dismiss the petition",
+          "Make an interim order",
+          "Appoint a provisional liquidator",
+          "Automatically dissolve the company without completing winding up"
+        ],
+        answer: 3,
+        explanation: "Section 273 permits dismissal, interim orders, appointment of a provisional liquidator, winding-up order and any other order considered fit. Automatic dissolution without completing the winding-up process is not one of the listed orders."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     EASY CASE 2
+  ========================================================= */
+
+  {
+    case_id: "WIND_CS_E02",
+    difficulty: "Easy",
+    chapter: "Winding Up",
+
+    caseText: `
+      <p>Beta Manufacturing Limited was ordered to be wound up by the Tribunal.
+      Following the winding-up order, an Official Liquidator was appointed as the
+      Company Liquidator. The Tribunal also required the liquidator to take control
+      of the company's assets, records and other properties.</p>
+
+      <p>The liquidator began examining the affairs of the company. He found that
+      several directors and employees were still in possession of books, documents
+      and other information relating to the company's business. Some of them were
+      willing to cooperate, while others refused to provide the required information
+      and documents.</p>
+
+      <p>The liquidator informed the Tribunal that without cooperation from the
+      promoters, directors, officers and employees, it would be difficult to properly
+      conduct the winding-up proceedings and protect the assets of the company.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "WIND_CS_E02_Q01",
+        question: "Who are required to extend full cooperation to the Company Liquidator?",
+        options: [
+          "Only shareholders",
+          "Promoters, directors, officers and employees",
+          "Only secured creditors",
+          "Only contributories"
+        ],
+        answer: 1,
+        explanation: "Under Section 284, promoters, directors, officers and employees who are or have been associated with the company shall extend full cooperation to the Company Liquidator."
+      },
+
+      {
+        question_id: "WIND_CS_E02_Q02",
+        question: "If a person refuses to cooperate with the Company Liquidator, who may be approached for directions?",
+        options: [
+          "Registrar only",
+          "Central Government only",
+          "Tribunal",
+          "Stock Exchange"
+        ],
+        answer: 2,
+        explanation: "The Company Liquidator may make an application to the Tribunal for necessary directions where a person fails to assist or cooperate."
+      },
+
+      {
+        question_id: "WIND_CS_E02_Q03",
+        question: "What may the Tribunal do after receiving an application regarding non-cooperation?",
+        options: [
+          "Direct the person to cooperate with the Company Liquidator",
+          "Automatically dissolve the company",
+          "Cancel all company debts",
+          "Transfer the company to another shareholder"
+        ],
+        answer: 0,
+        explanation: "The Tribunal may direct the person required to assist or cooperate with the Company Liquidator to comply with his instructions and cooperate with him."
+      },
+
+      {
+        question_id: "WIND_CS_E02_Q04",
+        question: "Which of the following is included among the property that the liquidator is required to take into custody or control?",
+        options: [
+          "Only cash",
+          "Only immovable property",
+          "Property, effects and actionable claims",
+          "Only shares held by directors"
+        ],
+        answer: 2,
+        explanation: "Under Section 283, the Company Liquidator or provisional liquidator shall take into custody or control all property, effects and actionable claims to which the company is or appears to be entitled."
+      },
+
+      {
+        question_id: "WIND_CS_E02_Q05",
+        question: "From the date of the winding-up order, the property and effects of the company are deemed to be in the custody of:",
+        options: [
+          "The Registrar",
+          "The Tribunal",
+          "The shareholders",
+          "The Central Government"
+        ],
+        answer: 1,
+        explanation: "Section 283 provides that all property and effects of the company shall be deemed to be in the custody of the Tribunal from the date of the winding-up order."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     HARD CASE 1
+  ========================================================= */
+
+  {
+    case_id: "WIND_CS_H01",
+    difficulty: "Hard",
+    chapter: "Winding Up",
+
+    caseText: `
+      <p>Gamma Infrastructure Limited had been experiencing severe financial
+      difficulties. A petition for winding up was presented before the Tribunal by
+      certain persons other than the company itself. The petition alleged that the
+      affairs of the company were being conducted in a manner warranting winding
+      up.</p>
+
+      <p>Upon examining the petition, the Tribunal formed a prima facie view that
+      grounds for winding up appeared to exist. The Tribunal therefore directed the
+      company to submit its objections together with a statement of affairs. The
+      company was initially given thirty days to comply with the direction.</p>
+
+      <p>Due to an unexpected and serious contingency affecting the company's
+      ability to compile the required information, the company sought additional
+      time. The Tribunal considered the circumstances and the statutory provisions
+      concerning extension of time.</p>
+
+      <p>Meanwhile, certain directors argued that failure to file the statement of
+      affairs should merely result in a monetary penalty and should not affect the
+      company's right to oppose the winding-up petition. The liquidator disputed
+      this interpretation and relied upon the specific consequences prescribed by
+      the Companies Act, 2013.</p>
+
+      <p>After the winding-up order was ultimately passed, the directors were also
+      required to submit the company's books of account, completed and audited up
+      to the date of the order, to the liquidator within the prescribed period.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "WIND_CS_H01_Q01",
+        question: "What is the initial period within which Gamma Infrastructure Limited must file its objections along with the statement of affairs after the Tribunal's direction?",
+        options: [
+          "15 days",
+          "30 days",
+          "45 days",
+          "60 days"
+        ],
+        answer: 1,
+        explanation: "Under Section 274, where the petition is presented by a person other than the company and a prima facie case is made out, the Tribunal directs the company to file its objections along with a statement of affairs within 30 days of the order."
+      },
+
+      {
+        question_id: "WIND_CS_H01_Q02",
+        question: "In the circumstances stated in the case, what additional period may the Tribunal allow for filing the statement of affairs?",
+        options: [
+          "A further 15 days",
+          "A further 20 days",
+          "A further 30 days",
+          "A further 60 days"
+        ],
+        answer: 2,
+        explanation: "The Tribunal may allow a further period of 30 days in a situation of contingency or special circumstances."
+      },
+
+      {
+        question_id: "WIND_CS_H01_Q03",
+        question: "If the company fails to file the statement of affairs as directed, which of the following is the statutory consequence?",
+        options: [
+          "The company automatically stands dissolved",
+          "The company forfeits its right to oppose the petition",
+          "The winding-up petition automatically becomes invalid",
+          "The directors are automatically removed from office"
+        ],
+        answer: 1,
+        explanation: "Under Section 274, failure to file the statement of affairs results in forfeiture of the company's right to oppose the petition. Responsible directors and officers may also be liable for punishment."
+      },
+
+      {
+        question_id: "WIND_CS_H01_Q04",
+        question: "After the winding-up order, within what period must the directors and officers submit the books of account, completed and audited up to the date of the order, to the liquidator?",
+        options: [
+          "15 days",
+          "30 days",
+          "60 days",
+          "90 days"
+        ],
+        answer: 1,
+        explanation: "Under Section 274(3), the directors and other officers must submit the books of account completed and audited up to the date of the winding-up order within 30 days of such order."
+      },
+
+      {
+        question_id: "WIND_CS_H01_Q05",
+        question: "Which of the following may be imposed for contravention of the requirements relating to the statement of affairs and books of account?",
+        options: [
+          "Only a warning",
+          "Imprisonment up to six months or fine from ₹25,000 up to ₹5 lakh, or both",
+          "Imprisonment of exactly five years only",
+          "Fine of ₹10 lakh compulsorily"
+        ],
+        answer: 1,
+        explanation: "Under Section 274(4), the director or officer in default may be punished with imprisonment for a term which may extend to six months, or with fine of not less than ₹25,000 which may extend to ₹5 lakh, or with both."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     HARD CASE 2
+  ========================================================= */
+
+  {
+    case_id: "WIND_CS_H02",
+    difficulty: "Hard",
+    chapter: "Winding Up",
+
+    caseText: `
+      <p>Delta Consumer Products Limited was ordered to be wound up by the
+      Tribunal. At the time of the winding-up order, the company had substantial
+      outstanding liabilities to its workmen and secured creditors. The company
+      owned several valuable properties, but most of them were subject to security
+      interests in favour of banks.</p>
+
+      <p>The Company Liquidator took control of the assets and prepared a report
+      setting out the company's financial position. The report showed that the
+      total debts due to secured creditors were substantially higher than the value
+      of the assets available for distribution. The company also had significant
+      workmen's dues.</p>
+
+      <p>A secured creditor argued that because it held security over the company's
+      assets, it should first receive the entire amount realised from the sale of
+      the secured assets. The representatives of the workmen disputed this and
+      claimed that their statutory priority under Section 326 should be recognised.</p>
+
+      <p>The liquidator therefore had to determine the amount representing the
+      workmen's portion in the security and the amount that could thereafter be
+      distributed to the secured creditor, keeping in view the statutory mechanism
+      for overriding preferential payments.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "WIND_CS_H02_Q01",
+        question: "The value of security realised from the assets is ₹4 crore. Workmen's dues are ₹1 crore and the secured creditor's debt is ₹4 crore. What is the workmen's portion of the security?",
+        options: [
+          "₹40 lakh",
+          "₹50 lakh",
+          "₹80 lakh",
+          "₹1 crore"
+        ],
+        answer: 2,
+        explanation: "Workmen's portion = Value of security × Workmen's dues ÷ (Workmen's dues + secured creditor's debt). Therefore, ₹4 crore × ₹1 crore ÷ ₹5 crore = ₹80 lakh."
+      },
+
+      {
+        question_id: "WIND_CS_H02_Q02",
+        question: "Based on the facts in Question 1, after providing for the workmen's portion of ₹80 lakh, what amount remains from the ₹4 crore realised for the secured creditor?",
+        options: [
+          "₹2.20 crore",
+          "₹3.20 crore",
+          "₹3.80 crore",
+          "₹4 crore"
+        ],
+        answer: 1,
+        explanation: "The workmen's portion is ₹80 lakh. Therefore, ₹4 crore − ₹80 lakh = ₹3.20 crore is available for the secured creditor."
+      },
+
+      {
+        question_id: "WIND_CS_H02_Q03",
+        question: "If the assets available are insufficient to meet the overriding preferential payments under Section 326, how are such debts generally treated?",
+        options: [
+          "They are paid only after unsecured creditors",
+          "They abate in equal proportions",
+          "They are completely ignored",
+          "They are converted into equity"
+        ],
+        answer: 1,
+        explanation: "Under Section 326, the specified debts are to be paid in full unless the assets are insufficient, in which case they abate in equal proportions."
+      },
+
+      {
+        question_id: "WIND_CS_H02_Q04",
+        question: "Which statement correctly describes the relationship between workmen's dues and the secured creditor's security under Section 326?",
+        options: [
+          "Workmen have no claim against secured assets",
+          "The secured creditor always receives the entire security before workmen",
+          "The security of the secured creditor is subject to a pari passu charge in favour of workmen to the extent of the workmen's portion",
+          "Workmen's dues rank after unsecured creditors"
+        ],
+        answer: 2,
+        explanation: "Section 326 provides for a pari passu charge in favour of workmen to the extent of the workmen's portion in the security of the secured creditor."
+      },
+
+      {
+        question_id: "WIND_CS_H02_Q05",
+        question: "Which of the following is correct regarding Sections 326 and 327 in relation to liquidation under the Insolvency and Bankruptcy Code, 2016?",
+        options: [
+          "They always apply without modification",
+          "They apply only to voluntary liquidation",
+          "They do not apply in the event of liquidation under the Insolvency and Bankruptcy Code, 2016",
+          "They apply only if the company has no secured creditors"
+        ],
+        answer: 2,
+        explanation: "Section 327(7) specifically provides that Sections 326 and 327 shall not be applicable in the event of liquidation under the Insolvency and Bankruptcy Code, 2016."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     HARD CASE 3
+  ========================================================= */
+
+  {
+    case_id: "WIND_CS_H03",
+    difficulty: "Hard",
+    chapter: "Winding Up",
+
+    caseText: `
+      <p>Epsilon Technologies Limited was undergoing winding-up proceedings before
+      the Tribunal. During the investigation of the company's affairs, the Company
+      Liquidator discovered that shortly before the winding-up application was made,
+      the company had transferred certain valuable assets to one of its creditors.
+      The transfer had the effect of placing that creditor in a significantly better
+      position than the other creditors would have occupied if the transaction had
+      not taken place.</p>
+
+      <p>The transaction involved delivery of certain goods and payment of an
+      outstanding amount. The transaction was completed within six months before
+      the making of the winding-up application.</p>
+
+      <p>The creditor argued that the transaction was a normal commercial
+      transaction and therefore could not be disturbed. However, the Company
+      Liquidator believed that the transaction amounted to a fraudulent preference
+      because it improved the creditor's position immediately before the company's
+      liquidation.</p>
+
+      <p>At the same time, another transaction was discovered involving transfer of
+      company property approximately eight months before the winding-up petition.
+      The transfer was not made in the ordinary course of business and the purchaser
+      could not establish that the transaction was entered into in good faith and for
+      valuable consideration.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "WIND_CS_H03_Q01",
+        question: "A transaction giving preference to a creditor is completed within six months before the winding-up application and places that creditor in a better position on liquidation. Which provision is primarily relevant?",
+        options: [
+          "Section 326",
+          "Section 328",
+          "Section 333",
+          "Section 352"
+        ],
+        answer: 1,
+        explanation: "Section 328 deals with fraudulent preference. A transaction within six months before the winding-up application that improves the position of a creditor, surety or guarantor may be treated as a fraudulent preference."
+      },
+
+      {
+        question_id: "WIND_CS_H03_Q02",
+        question: "If the Tribunal is satisfied that the transaction constitutes fraudulent preference, what may it do?",
+        options: [
+          "Ignore the transaction in all cases",
+          "Restore the position to what it would have been if the preference had not been given",
+          "Automatically dissolve the company",
+          "Transfer the debt to the directors"
+        ],
+        answer: 1,
+        explanation: "The Tribunal may make an order restoring the position to what it would have been if the company had not given the preference."
+      },
+
+      {
+        question_id: "WIND_CS_H03_Q03",
+        question: "The second transaction occurred eight months before presentation of the winding-up petition, was outside the ordinary course of business and was not in favour of a purchaser acting in good faith for valuable consideration. Which section may render the transfer void against the Company Liquidator?",
+        options: [
+          "Section 328",
+          "Section 329",
+          "Section 332",
+          "Section 334"
+        ],
+        answer: 1,
+        explanation: "Section 329 provides that certain transfers of property or delivery of goods made within one year before presentation of a winding-up petition are void against the Company Liquidator where they are not made in the ordinary course of business or in favour of a purchaser/encumbrancer in good faith and for valuable consideration."
+      },
+
+      {
+        question_id: "WIND_CS_H03_Q04",
+        question: "What is the key time period under Section 329 for a transfer that is otherwise covered by the provision?",
+        options: [
+          "Three months before presentation of petition",
+          "Six months before presentation of petition",
+          "One year before presentation of petition",
+          "Two years before presentation of petition"
+        ],
+        answer: 2,
+        explanation: "Section 329 covers specified transfers made within one year before the presentation of a petition for winding up by the Tribunal."
+      },
+
+      {
+        question_id: "WIND_CS_H03_Q05",
+        question: "Which of the following best distinguishes Sections 328 and 329 in the given circumstances?",
+        options: [
+          "Section 328 concerns fraudulent preference, while Section 329 concerns certain transfers not made in good faith or ordinary course",
+          "Both sections exclusively deal with floating charges",
+          "Section 328 deals only with dissolution, while Section 329 deals only with contributories",
+          "Section 329 applies only to transactions after dissolution"
+        ],
+        answer: 0,
+        explanation: "Section 328 deals with fraudulent preference given to creditors, sureties or guarantors within the specified six-month period. Section 329 deals with specified transfers of property or delivery of goods within one year before presentation of the winding-up petition."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     HARD CASE 4
+  ========================================================= */
+
+  {
+    case_id: "WIND_CS_H04",
+    difficulty: "Hard",
+    chapter: "Winding Up",
+
+    caseText: `
+      <p>Zeta Holdings Limited was ordered to be wound up by the Tribunal. Shortly
+      after the commencement of winding up, one of the company's former directors
+      attempted to transfer certain shares in the company to a third party. The
+      transfer was made without obtaining permission from the Tribunal.</p>
+
+      <p>At the same time, a creditor of the company initiated execution proceedings
+      against one of the company's properties without obtaining leave of the
+      Tribunal. The creditor argued that the underlying debt was genuine and that
+      therefore the execution should be allowed to continue.</p>
+
+      <p>The Company Liquidator objected to both actions. He stated that the
+      commencement of winding up has important consequences for dispositions of
+      company property, transfers of shares and execution proceedings against the
+      company's assets.</p>
+
+      <p>The Tribunal examined whether the transactions and execution proceedings
+      could continue in the absence of its permission and considered the distinction
+      between ordinary private claims and proceedings for recovery of Government
+      taxes or imposts.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "WIND_CS_H04_Q01",
+        question: "A transfer of shares in Zeta Holdings Limited is made after commencement of winding up without an order of the Tribunal. What is the general effect under Section 334?",
+        options: [
+          "It is automatically valid",
+          "It is void unless the Tribunal otherwise orders",
+          "It is valid only if approved by the Registrar",
+          "It is valid if consideration is paid"
+        ],
+        answer: 1,
+        explanation: "Under Section 334, any transfer of shares in the company made after commencement of winding up is void unless the Tribunal otherwise orders."
+      },
+
+      {
+        question_id: "WIND_CS_H04_Q02",
+        question: "A creditor puts an attachment into force against the company's property after commencement of winding up without leave of the Tribunal. What is the general consequence?",
+        options: [
+          "The attachment is void",
+          "The attachment is automatically perfected",
+          "The attachment becomes a secured debt",
+          "The attachment is valid if the debt is admitted"
+        ],
+        answer: 0,
+        explanation: "Section 335 provides that an attachment, distress or execution put in force without leave of the Tribunal against the company's estate or effects after commencement of winding up is void."
+      },
+
+      {
+        question_id: "WIND_CS_H04_Q03",
+        question: "Which of the following proceedings is expressly excluded from the operation of Section 335?",
+        options: [
+          "Recovery of a private loan",
+          "Recovery of an unsecured debt",
+          "Proceedings for recovery of tax, impost or Government dues",
+          "Execution by an ordinary creditor"
+        ],
+        answer: 2,
+        explanation: "Section 335(2) states that the section does not apply to proceedings for recovery of any tax or impost or any dues payable to the Government."
+      },
+
+      {
+        question_id: "WIND_CS_H04_Q04",
+        question: "Under Section 279, after a winding-up order, a new suit or legal proceeding against the company generally requires:",
+        options: [
+          "Permission of the Registrar",
+          "Permission of the Central Government",
+          "Leave of the Tribunal",
+          "Approval of all shareholders"
+        ],
+        answer: 2,
+        explanation: "After a winding-up order or appointment of a provisional liquidator, no suit or legal proceeding shall be commenced without the leave of the Tribunal, subject to the statutory exceptions."
+      },
+
+      {
+        question_id: "WIND_CS_H04_Q05",
+        question: "Which proceeding is specifically not affected by Section 279(1)?",
+        options: [
+          "A fresh civil suit",
+          "A fresh recovery proceeding",
+          "An appeal pending before the Supreme Court or a High Court",
+          "A fresh execution proceeding"
+        ],
+        answer: 2,
+        explanation: "Section 279(2) specifically provides that Section 279(1) does not apply to proceedings pending in appeal before the Supreme Court or a High Court."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     HARD CASE 5
+  ========================================================= */
+
+  {
+    case_id: "WIND_CS_H05",
+    difficulty: "Hard",
+    chapter: "Winding Up",
+
+    caseText: `
+      <p>Omega Retail Limited was in the process of being wound up by the Tribunal.
+      The Company Liquidator discovered that the company owned a leasehold
+      property subject to expensive and onerous contractual obligations. The
+      property was generating losses and could not be sold easily because any
+      purchaser would have to assume substantial obligations.</p>
+
+      <p>The Company Liquidator considered disclaiming the property instead of
+      retaining it as part of the company's assets. However, a person having an
+      interest in the property submitted a written application to the liquidator,
+      requiring him to decide whether he intended to disclaim the property.</p>
+
+      <p>The liquidator did not immediately issue a notice stating that he intended
+      to apply to the Tribunal for leave to disclaim. The interested person argued
+      that the statutory period for the liquidator to respond had consequences for
+      whether the property could still be disclaimed.</p>
+
+      <p>Another person claimed an interest in the disclaimed property and argued
+      that, after disclaimer, the Tribunal should determine how the property or
+      interest should be dealt with and whether it could vest in another person
+      under appropriate terms.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "WIND_CS_H05_Q01",
+        question: "Which of the following may constitute onerous property that can potentially be disclaimed under Section 333?",
+        options: [
+          "Only cash balances",
+          "Land burdened with onerous covenants",
+          "Only fully paid shares",
+          "Only company vehicles"
+        ],
+        answer: 1,
+        explanation: "Section 333 covers, among other things, land burdened with onerous covenants, certain shares or stocks, unsaleable property due to onerous obligations and unprofitable contracts."
+      },
+
+      {
+        question_id: "WIND_CS_H05_Q02",
+        question: "The Company Liquidator generally requires what before disclaiming property under Section 333?",
+        options: [
+          "Leave of the Tribunal",
+          "Approval of every shareholder",
+          "Approval of the Registrar only",
+          "Approval of every employee"
+        ],
+        answer: 0,
+        explanation: "The Company Liquidator may disclaim specified onerous property with the leave of the Tribunal and subject to the provisions of Section 333."
+      },
+
+      {
+        question_id: "WIND_CS_H05_Q03",
+        question: "Where an interested person makes a written application requiring the liquidator to decide whether to disclaim, within what period must the liquidator give notice that he intends to apply to the Tribunal for leave to disclaim, subject to any extension allowed by the Tribunal?",
+        options: [
+          "7 days",
+          "14 days",
+          "28 days",
+          "60 days"
+        ],
+        answer: 2,
+        explanation: "Under Section 333(4), where such an application is made, the Company Liquidator must within 28 days, or such extended period as may be allowed by the Tribunal, give notice that he intends to apply for leave to disclaim."
+      },
+
+      {
+        question_id: "WIND_CS_H05_Q04",
+        question: "If the property is under a contract and the liquidator does not disclaim the contract within the prescribed period after receiving the application, what may happen?",
+        options: [
+          "The contract is automatically cancelled",
+          "The liquidator is deemed to have adopted the contract",
+          "The company is automatically dissolved",
+          "The contract becomes void ab initio"
+        ],
+        answer: 1,
+        explanation: "Where the property is under a contract and the Company Liquidator does not disclaim it within the prescribed period, he shall be deemed to have adopted the contract."
+      },
+
+      {
+        question_id: "WIND_CS_H05_Q05",
+        question: "A person is affected by the operation of a disclaimer and becomes entitled to compensation or damages. What is the statutory position of such person?",
+        options: [
+          "The person has no claim against the company",
+          "The person is deemed to be a creditor of the company for the amount of compensation or damages",
+          "The person automatically becomes a shareholder",
+          "The person becomes a secured creditor irrespective of circumstances"
+        ],
+        answer: 1,
+        explanation: "Under Section 333(7), a person affected by the operation of a disclaimer is deemed to be a creditor of the company to the amount of compensation or damages payable and may prove that amount as a debt in the winding up."
+      }
+
+    ]
+  },
 ];
