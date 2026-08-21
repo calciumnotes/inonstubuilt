@@ -18161,5 +18161,766 @@ const AICaseStudies = [
         reason: "1% of ₹5 crore is ₹5 lakh. Since Section 447 uses ₹10 lakh or 1% of turnover, whichever is lower, the applicable threshold is ₹5 lakh. A ₹9 lakh fraud therefore exceeds the threshold, assuming the other statutory conditions are satisfied."
       }
     ]
-  }
+  },
+  // Chapter 9
+  {
+    case_id: "seta_AI_cs_9_01",
+    difficulty: "medium",
+    caseText: `
+      <p>Zenith Manufacturing Limited, a public company engaged in the manufacture of industrial equipment, became involved in a dispute with a group of shareholders concerning the manner in which the affairs of the company were being conducted. The shareholders approached the National Company Law Tribunal seeking appropriate relief. The matter was heard by the Tribunal and an order was subsequently passed in favour of one of the parties.</p>
+
+      <p>After receiving a copy of the order, Zenith Manufacturing Limited believed that the Tribunal had made a mistake which was apparent from the record. The company's legal adviser initially suggested that the company should immediately file an appeal before the National Company Law Appellate Tribunal. Another adviser suggested that the company should instead approach the same Tribunal for correction of the mistake.</p>
+
+      <p>The company examined the order and found that no appeal had yet been filed. The management also wanted to know the period within which the Tribunal could rectify such a mistake and whether an appeal could be filed against an order passed with the consent of all parties.</p>
+
+      <p>The Board therefore asked the legal department to explain the powers of the Tribunal concerning amendment of its orders and the basic rules governing appeals from the Tribunal.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_9_01_1",
+        question: "Under Section 420, within what period may the Tribunal amend its order for rectifying a mistake apparent from the record?",
+        options: [
+          "Within six months from the date of the order",
+          "Within one year from the date of the order",
+          "Within two years from the date of the order",
+          "Within three years from the date of the order"
+        ],
+        answer: 2,
+        reason: "Under Section 420, the Tribunal may amend an order within two years from the date of the order for rectifying a mistake apparent from the record."
+      },
+      {
+        question_id: "seta_AI_cs_9_01_2",
+        question: "Which condition is necessary before the Tribunal amends its order for rectification of a mistake?",
+        options: [
+          "The Central Government must approve the amendment",
+          "The mistake must be apparent from the record",
+          "NCLAT must direct the Tribunal to amend it",
+          "The Registrar must certify the mistake"
+        ],
+        answer: 1,
+        reason: "Section 420 permits amendment for rectifying a mistake apparent from the record."
+      },
+      {
+        question_id: "seta_AI_cs_9_01_3",
+        question: "If an appeal has already been preferred against the order, can the Tribunal amend that order under Section 420?",
+        options: [
+          "Yes, in every case",
+          "Yes, if the mistake is brought by a shareholder",
+          "No",
+          "Yes, with approval of NCLAT"
+        ],
+        answer: 2,
+        reason: "No amendment can be made under Section 420 in respect of an order against which an appeal has been preferred."
+      },
+      {
+        question_id: "seta_AI_cs_9_01_4",
+        question: "Within what period should an appeal from an order of the Tribunal ordinarily be filed before the Appellate Tribunal?",
+        options: [
+          "30 days",
+          "45 days",
+          "60 days",
+          "90 days"
+        ],
+        answer: 1,
+        reason: "Under Section 421, an appeal to the Appellate Tribunal must ordinarily be filed within 45 days from the date on which a copy of the order is made available to the aggrieved person."
+      },
+      {
+        question_id: "seta_AI_cs_9_01_5",
+        question: "Can an appeal be filed before NCLAT against an order of NCLT made with the consent of the parties?",
+        options: [
+          "Yes, as a matter of right",
+          "Yes, within 45 days",
+          "No appeal lies against such an order",
+          "Only with the permission of the Registrar"
+        ],
+        answer: 2,
+        reason: "Section 421(2) specifically provides that no appeal shall lie to the Appellate Tribunal from an order made by the Tribunal with the consent of the parties."
+      }
+    ]
+},
+{
+    case_id: "seta_AI_cs_9_02",
+    difficulty: "medium",
+    caseText: `
+      <p>Orion Technologies Limited had filed an application before the National Company Law Tribunal relating to a dispute concerning the management of the company. The proceedings involved several shareholders, directors and senior officers. Because the dispute had created tension among the parties, some shareholders suggested that the matter should be resolved through mediation rather than continuing with lengthy litigation.</p>
+
+      <p>During the hearing, one of the shareholders submitted an application requesting that the matter be referred to the Mediation and Conciliation Panel maintained by the Central Government. The Tribunal informed the parties that the Companies Act, 2013 provides for a panel of experts who may assist in mediation between parties during the pendency of proceedings.</p>
+
+      <p>Another party argued that only the Tribunal itself could refer a matter to mediation and that an individual party could not request such a reference. The Tribunal examined the statutory provisions and also considered whether it could refer the matter to mediation on its own initiative without an application from any party.</p>
+
+      <p>The parties further sought clarification regarding the period within which the experts appointed from the panel should dispose of the matter and whether a dissatisfied party would have any opportunity to raise objections to their recommendation.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_9_02_1",
+        question: "Who maintains the Mediation and Conciliation Panel under Section 442?",
+        options: [
+          "The Supreme Court",
+          "The Central Government",
+          "The NCLAT",
+          "The Registrar of Companies"
+        ],
+        answer: 1,
+        reason: "Section 442 provides that the Central Government shall maintain a panel of experts called the Mediation and Conciliation Panel."
+      },
+      {
+        question_id: "seta_AI_cs_9_02_2",
+        question: "Can a party to proceedings apply for referring the matter to the Mediation and Conciliation Panel?",
+        options: [
+          "No, only the Central Government can apply",
+          "No, only NCLAT can apply",
+          "Yes",
+          "Only after final order is passed"
+        ],
+        answer: 2,
+        reason: "Any party to the proceedings may, at any time during the proceedings before the Central Government, Tribunal or Appellate Tribunal, apply for referring the matter to the Mediation and Conciliation Panel."
+      },
+      {
+        question_id: "seta_AI_cs_9_02_3",
+        question: "Can the Central Government, Tribunal or Appellate Tribunal refer a matter to the panel suo motu?",
+        options: [
+          "Yes",
+          "No",
+          "Only with consent of all parties",
+          "Only after an order of the Supreme Court"
+        ],
+        answer: 0,
+        reason: "The Central Government, Tribunal or Appellate Tribunal may suo motu refer any matter pertaining to the proceeding to experts from the panel."
+      },
+      {
+        question_id: "seta_AI_cs_9_02_4",
+        question: "Within what period should the Mediation and Conciliation Panel dispose of the matter and forward its recommendations?",
+        options: [
+          "30 days",
+          "60 days",
+          "Three months",
+          "Six months"
+        ],
+        answer: 2,
+        reason: "The panel shall dispose of the matter within three months from the date of appointment of the expert and forward its recommendations."
+      },
+      {
+        question_id: "seta_AI_cs_9_02_5",
+        question: "What remedy is available to a party aggrieved by the recommendation of the Mediation and Conciliation Panel?",
+        options: [
+          "The recommendation automatically becomes final",
+          "The party may file objections before the Central Government, Tribunal or Appellate Tribunal, as applicable",
+          "The party must approach the Supreme Court directly",
+          "No objection is permitted"
+        ],
+        answer: 1,
+        reason: "Any party aggrieved by the recommendation may file objections before the Central Government, Tribunal or Appellate Tribunal, as the case may be."
+      }
+    ]
+},
+{
+    case_id: "seta_AI_cs_9_03",
+    difficulty: "medium",
+    caseText: `
+      <p>Nova Consumer Products Limited was facing criminal proceedings for an offence under the Companies Act, 2013. The company admitted that a statutory filing requirement had not been complied with and wanted to explore whether the offence could be compounded. The company's legal adviser explained that not every offence under the Companies Act is capable of being compounded.</p>
+
+      <p>The offence committed by Nova Consumer Products Limited was punishable with imprisonment and fine. The company had not yet faced prosecution before the court. The management wanted to know whether compounding could be sought before prosecution was instituted and, if so, which authority would have jurisdiction to deal with the application.</p>
+
+      <p>The maximum fine prescribed for the offence was ₹20 lakh. The company also had an earlier similar offence compounded two years earlier. The compliance team argued that the new offence should be treated as a first offence because the earlier matter had already been closed.</p>
+
+      <p>The legal adviser further explained that an application for compounding is initially made to the Registrar, who forwards it with comments to the appropriate authority. The Board therefore requested a detailed examination of the compounding provisions.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_9_03_1",
+        question: "Can an offence under the Companies Act which is punishable with imprisonment and fine be compounded under Section 441?",
+        options: [
+          "Yes, in every case",
+          "Yes, if the fine is below ₹25 lakh",
+          "No",
+          "Yes, if the Registrar approves"
+        ],
+        answer: 2,
+        reason: "An offence punishable with imprisonment only, or with imprisonment and fine, is not compoundable under Section 441."
+      },
+      {
+        question_id: "seta_AI_cs_9_03_2",
+        question: "Assuming the offence is otherwise compoundable and the maximum fine does not exceed ₹25 lakh, which authority may compound it?",
+        options: [
+          "Only the Supreme Court",
+          "Regional Director or authorised officer of the Central Government",
+          "Only the Special Court",
+          "Only the Registrar"
+        ],
+        answer: 1,
+        reason: "Where the maximum fine does not exceed ₹25 lakh, the Regional Director or an officer authorised by the Central Government may compound the offence."
+      },
+      {
+        question_id: "seta_AI_cs_9_03_3",
+        question: "At what stage may a compoundable offence be compounded?",
+        options: [
+          "Only after conviction",
+          "Only after prosecution is instituted",
+          "Either before or after institution of prosecution",
+          "Only before investigation begins"
+        ],
+        answer: 2,
+        reason: "A compoundable offence may be compounded either before or after institution of prosecution."
+      },
+      {
+        question_id: "seta_AI_cs_9_03_4",
+        question: "Where should an application for compounding ordinarily be made initially?",
+        options: [
+          "Supreme Court",
+          "NCLAT",
+          "Registrar",
+          "Special Court"
+        ],
+        answer: 2,
+        reason: "Every application for compounding is made to the Registrar, who forwards it with comments to the Tribunal, Regional Director or authorised officer, as applicable."
+      },
+      {
+        question_id: "seta_AI_cs_9_03_5",
+        question: "If a similar offence was compounded two years earlier, how is the subsequent offence treated under Section 441?",
+        options: [
+          "It is automatically treated as a first offence",
+          "Section 441 does not apply to the subsequent offence within three years",
+          "It is treated as a second or subsequent offence for the purposes of the provision",
+          "It is ignored because the earlier offence was compounded"
+        ],
+        answer: 1,
+        reason: "Section 441 provides that sub-section (1) does not apply to an offence committed within three years from the date on which a similar offence was compounded."
+      }
+    ]
+},
+{
+    case_id: "seta_AI_cs_9_04",
+    difficulty: "medium",
+    caseText: `
+      <p>Vertex Electronics Limited received a notice from the adjudicating officer for alleged non-compliance with a provision of the Companies Act, 2013. The notice was served electronically and required the company and the officer in default to show cause why penalty should not be imposed.</p>
+
+      <p>The notice clearly described the alleged default and referred to the relevant penal provision. The company initially believed that it had only ten days to respond because the notice required an early response. The compliance officer, however, examined the Companies (Adjudication of Penalties) Rules and informed the Board that the statutory framework provides a specific range of time for responding to the notice.</p>
+
+      <p>The company submitted its reply within the prescribed period. After considering the reply, the adjudicating officer felt that the matter required physical appearance. A further notice fixing a date of appearance was issued. The company's authorised representative appeared and made oral submissions.</p>
+
+      <p>The Board subsequently asked how quickly the adjudicating officer should pass the final order and what factors should be considered while deciding the quantum of penalty.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_9_04_1",
+        question: "The written notice issued by the adjudicating officer must generally provide what period for showing cause?",
+        options: [
+          "5 to 10 days",
+          "10 to 15 days",
+          "15 to 30 days",
+          "30 to 60 days"
+        ],
+        answer: 2,
+        reason: "The notice must provide a period not less than 15 days and not more than 30 days from the date of service."
+      },
+      {
+        question_id: "seta_AI_cs_9_04_2",
+        question: "Can the adjudicating officer extend the period for filing the reply?",
+        options: [
+          "No, under any circumstances",
+          "Yes, by a further period not exceeding 15 days for sufficient cause or where the circumstances specified in the Rules exist",
+          "Yes, indefinitely",
+          "Only with NCLT approval"
+        ],
+        answer: 1,
+        reason: "The adjudicating officer may, for reasons recorded in writing, extend the period by a further period not exceeding 15 days where sufficient cause or the specified circumstances exist."
+      },
+      {
+        question_id: "seta_AI_cs_9_04_3",
+        question: "If physical appearance is considered necessary, within what period from receipt of the reply should the adjudicating officer issue the appearance notice?",
+        options: [
+          "5 working days",
+          "10 working days",
+          "15 working days",
+          "30 working days"
+        ],
+        answer: 1,
+        reason: "Where physical appearance is required, the adjudicating officer shall issue notice within 10 working days from receipt of the reply."
+      },
+      {
+        question_id: "seta_AI_cs_9_04_4",
+        question: "Where physical appearance is not required, within what period should the adjudicating officer ordinarily pass the order?",
+        options: [
+          "15 days from notice",
+          "30 days from expiry of the reply period",
+          "60 days from receipt of reply",
+          "90 days from notice"
+        ],
+        answer: 1,
+        reason: "Where physical appearance is not required, the order should be passed within 30 days of expiry of the period for reply or the extended period."
+      },
+      {
+        question_id: "seta_AI_cs_9_04_5",
+        question: "Which of the following is NOT one of the factors specifically mentioned for determining the quantum of penalty?",
+        options: [
+          "Size of the company",
+          "Injury to public interest",
+          "Nature of the default",
+          "Personal wealth of the directors"
+        ],
+        answer: 3,
+        reason: "The Rules require consideration of factors including size of company, nature of business, injury to public interest, nature and repetition of default, disproportionate gain and loss caused. Personal wealth of directors is not listed."
+      }
+    ]
+},
+{
+    case_id: "seta_AI_cs_9_05",
+    difficulty: "medium",
+    caseText: `
+      <p>Mercury Infrastructure Limited received an order from the National Company Law Tribunal. The company believed that the order adversely affected its interests and decided to challenge it before the National Company Law Appellate Tribunal. The company received a copy of the order on 1st June.</p>
+
+      <p>The legal department initially prepared the appeal but due to an internal administrative issue the appeal could not be filed within the initial statutory period. The company eventually filed the appeal after the expiry of 45 days and submitted that it had been prevented by sufficient cause from filing the appeal within the prescribed period.</p>
+
+      <p>The NCLAT considered the explanation and examined the statutory limit for condonation of delay. After the NCLAT passed its order, Mercury Infrastructure Limited remained dissatisfied and wanted to approach the Supreme Court.</p>
+
+      <p>The company's legal adviser explained that an appeal from NCLAT to the Supreme Court is not a general appeal on every factual disagreement. The appeal must involve a question of law and must be filed within the statutory period, subject to the prescribed extension where sufficient cause is established.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_9_05_1",
+        question: "What is the ordinary period for filing an appeal before NCLAT against an order of NCLT?",
+        options: [
+          "30 days",
+          "45 days",
+          "60 days",
+          "90 days"
+        ],
+        answer: 1,
+        reason: "An appeal under Section 421 must ordinarily be filed within 45 days."
+      },
+      {
+        question_id: "seta_AI_cs_9_05_2",
+        question: "For how much additional period may NCLAT entertain a delayed appeal if sufficient cause is established?",
+        options: [
+          "15 days",
+          "30 days",
+          "45 days",
+          "60 days"
+        ],
+        answer: 2,
+        reason: "NCLAT may entertain the appeal after 45 days but within a further period not exceeding 45 days if sufficient cause is established."
+      },
+      {
+        question_id: "seta_AI_cs_9_05_3",
+        question: "An appeal from NCLAT to the Supreme Court under Section 423 lies on:",
+        options: [
+          "Any question of fact",
+          "Any disagreement with the NCLAT order",
+          "Any question of law arising out of the order",
+          "Only a question relating to company accounts"
+        ],
+        answer: 2,
+        reason: "Section 423 permits an appeal to the Supreme Court on any question of law arising out of the order of the Appellate Tribunal."
+      },
+      {
+        question_id: "seta_AI_cs_9_05_4",
+        question: "What is the ordinary period for filing an appeal before the Supreme Court against an NCLAT order?",
+        options: [
+          "30 days",
+          "45 days",
+          "60 days",
+          "90 days"
+        ],
+        answer: 2,
+        reason: "An appeal to the Supreme Court must ordinarily be filed within 60 days from receipt of the NCLAT order."
+      },
+      {
+        question_id: "seta_AI_cs_9_05_5",
+        question: "What is the maximum further period for which the Supreme Court may permit a delayed appeal where sufficient cause is established?",
+        options: [
+          "30 days",
+          "45 days",
+          "60 days",
+          "90 days"
+        ],
+        answer: 2,
+        reason: "The Supreme Court may allow the appeal within a further period not exceeding 60 days if sufficient cause is established."
+      }
+    ]
+},
+{
+    case_id: "seta_AI_cs_9_06",
+    difficulty: "hard",
+    caseText: `
+      <p>Aravind Global Industries Limited was involved in a complex dispute concerning the affairs of the company. A group of shareholders filed proceedings before the National Company Law Tribunal alleging serious irregularities in the management of the company. The Tribunal heard the parties and passed an order after providing them with an opportunity to present their respective cases.</p>
+
+      <p>Aravind Global Industries Limited received a copy of the order on 10th January. The company believed that the Tribunal had committed a mistake apparent from the record and therefore prepared an application requesting rectification. Before the application could be considered, however, another party filed an appeal against the same NCLT order before NCLAT within the prescribed period.</p>
+
+      <p>Aravind Global argued that the existence of the appeal should not prevent NCLT from correcting an obvious mistake because the Tribunal had a statutory power to amend its order within two years. The opposing party argued that once an appeal had been preferred, Section 420 expressly prevented amendment of the order.</p>
+
+      <p>During the proceedings, Aravind Global also argued that the NCLT proceedings should be invalid because one seat of the Tribunal had remained vacant when the order was passed. The opposing party relied upon the statutory provision dealing with vacancies in the Tribunal.</p>
+
+      <p>The company then attempted to challenge the matter before a civil court and sought an injunction against further action pursuant to the NCLT order. The legal advisers had to determine whether such a civil suit and injunction could be maintained.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_9_06_1",
+        question: "Can NCLT amend its order under Section 420 after an appeal against that order has already been preferred?",
+        options: [
+          "Yes, because the two-year period has not expired",
+          "Yes, if the mistake is apparent from the record",
+          "No",
+          "Yes, if the parties consent"
+        ],
+        answer: 2,
+        reason: "Section 420 specifically provides that no amendment shall be made in respect of an order against which an appeal has been preferred."
+      },
+      {
+        question_id: "seta_AI_cs_9_06_2",
+        question: "What is the maximum period within which NCLT may otherwise amend its order for rectifying a mistake apparent from the record?",
+        options: [
+          "Six months",
+          "One year",
+          "Two years",
+          "Five years"
+        ],
+        answer: 2,
+        reason: "The Tribunal may amend an order within two years from the date of the order for rectifying a mistake apparent from the record, subject to the statutory restriction regarding an appeal."
+      },
+      {
+        question_id: "seta_AI_cs_9_06_3",
+        question: "Does a vacancy in the Tribunal automatically invalidate its acts or proceedings?",
+        options: [
+          "Yes, every vacancy invalidates proceedings",
+          "Yes, unless the Central Government approves the proceedings",
+          "No",
+          "Yes, if one party objects"
+        ],
+        answer: 2,
+        reason: "Section 431 provides that no act or proceeding of the Tribunal or Appellate Tribunal shall be questioned or invalidated merely because of a vacancy or defect in its constitution."
+      },
+      {
+        question_id: "seta_AI_cs_9_06_4",
+        question: "Can a civil court entertain a suit concerning a matter which NCLT or NCLAT is empowered to determine?",
+        options: [
+          "Yes, because civil courts have unlimited jurisdiction",
+          "Yes, if the company is a public company",
+          "No",
+          "Only if the Registrar permits"
+        ],
+        answer: 2,
+        reason: "Section 430 bars civil courts from entertaining suits or proceedings relating to matters which the Tribunal or Appellate Tribunal is empowered to determine."
+      },
+      {
+        question_id: "seta_AI_cs_9_06_5",
+        question: "Can a civil court grant an injunction against an action taken pursuant to powers conferred on NCLT or NCLAT under the Companies Act?",
+        options: [
+          "Yes, in every case",
+          "Yes, if the applicant is a shareholder",
+          "No",
+          "Only with the permission of the Tribunal"
+        ],
+        answer: 2,
+        reason: "Section 430 also prohibits granting of injunction by a court or authority in respect of action taken or to be taken pursuant to powers conferred on the Tribunal or Appellate Tribunal."
+      }
+    ]
+},
+{
+    case_id: "seta_AI_cs_9_07",
+    difficulty: "hard",
+    caseText: `
+      <p>Bhavya Finance Limited was accused of several defaults under the Companies Act, 2013. One alleged offence carried imprisonment for a period of two years along with fine, while another offence was punishable with imprisonment for a term not exceeding three years. The company argued that both matters should be handled in the ordinary criminal courts because the offences were not sufficiently serious.</p>
+
+      <p>The registered office of Bhavya Finance Limited was situated in a district where two Special Courts had been established. The company challenged the jurisdiction of the Special Court selected for the matter and argued that it could choose the Special Court nearest to its registered office.</p>
+
+      <p>During the proceedings, the accused was forwarded to a Magistrate under Section 167 of the Code of Criminal Procedure. The Magistrate considered whether detention was necessary and whether the matter should thereafter be forwarded to the Special Court having jurisdiction.</p>
+
+      <p>The Special Court also considered whether the offence could be tried summarily. The company requested summary trial on the ground that the offence was punishable with imprisonment not exceeding three years. The prosecution objected and argued that if the circumstances indicated that imprisonment exceeding one year might have to be imposed, the matter should not continue as a summary trial.</p>
+
+      <p>The legal team was asked to determine the appropriate jurisdiction, detention powers and rules relating to summary trial.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_9_07_1",
+        question: "An offence punishable with imprisonment of two years or more under the Companies Act is triable by:",
+        options: [
+          "Ordinary Civil Court",
+          "Special Court",
+          "NCLAT",
+          "Registrar of Companies"
+        ],
+        answer: 1,
+        reason: "Under Section 435, offences punishable with imprisonment of two years or more are tried by a Special Court consisting of a Session Judge or Additional Session Judge."
+      },
+      {
+        question_id: "seta_AI_cs_9_07_2",
+        question: "Where more than one Special Court exists in the relevant area, which court is selected for trial?",
+        options: [
+          "The accused may freely choose one",
+          "The Registrar chooses the court",
+          "The High Court specifies the Special Court",
+          "The Central Government must always choose the court"
+        ],
+        answer: 2,
+        reason: "Where more than one Special Court exists for the area, the High Court concerned specifies which Special Court shall have jurisdiction."
+      },
+      {
+        question_id: "seta_AI_cs_9_07_3",
+        question: "Where a person accused of an offence under the Companies Act is forwarded to a Judicial Magistrate under Section 167 CrPC, the Magistrate may authorize detention for a period not exceeding:",
+        options: [
+          "7 days in the whole",
+          "10 days in the whole",
+          "15 days in the whole",
+          "30 days in the whole"
+        ],
+        answer: 2,
+        reason: "A Judicial Magistrate may authorize detention for a period not exceeding 15 days in the whole under the provision described in Section 436."
+      },
+      {
+        question_id: "seta_AI_cs_9_07_4",
+        question: "A Special Court may try an offence under the Companies Act summarily where the offence is punishable with imprisonment for a term:",
+        options: [
+          "Not exceeding one year",
+          "Not exceeding two years",
+          "Not exceeding three years",
+          "Exceeding three years"
+        ],
+        answer: 2,
+        reason: "Section 436 permits summary trial of an offence under the Act which is punishable with imprisonment for a term not exceeding three years."
+      },
+      {
+        question_id: "seta_AI_cs_9_07_5",
+        question: "If during a summary trial it appears that imprisonment exceeding one year may have to be imposed, what should the Special Court do?",
+        options: [
+          "Continue summary trial and impose imprisonment exceeding one year",
+          "Automatically acquit the accused",
+          "Record an order and proceed according to the procedure for regular trial",
+          "Transfer the matter to NCLT"
+        ],
+        answer: 2,
+        reason: "If it appears that a sentence exceeding one year may have to be passed, or summary trial is otherwise undesirable, the Special Court must record an order and proceed according to the regular trial procedure."
+      }
+    ]
+},
+{
+    case_id: "seta_AI_cs_9_08",
+    difficulty: "hard",
+    caseText: `
+      <p>Crystal Infrastructure Limited had committed a default under the Companies Act, 2013 and was facing proceedings before the appropriate authority. The company wanted to compound the offence because management believed that settlement would avoid prolonged criminal proceedings. The offence was not punishable with imprisonment only and was otherwise capable of being considered for compounding.</p>
+
+      <p>The maximum fine prescribed for the offence was ₹24 lakh. The company therefore approached the Registrar with an application for compounding. The Registrar examined the application and forwarded it, together with his comments, to the appropriate authority.</p>
+
+      <p>During consideration of the application, it was discovered that an investigation into the affairs of Crystal Infrastructure Limited had already been initiated under the Companies Act. The company nevertheless argued that the offence should be compounded because the investigation concerned a different aspect of the company's affairs.</p>
+
+      <p>In addition, the company had failed to file a statutory return. The authority considered directing an officer of the company to file the outstanding document together with the applicable fees and additional fee within a specified period. The officer warned that he would not comply with the direction.</p>
+
+      <p>The company also informed the authority that a similar offence had been compounded two years earlier. The legal adviser had to determine whether the present application could proceed and what consequences could follow from failure to comply with an order concerning the statutory filing.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_9_08_1",
+        question: "Since the maximum fine for the otherwise compoundable offence is ₹24 lakh, which authority may compound it under Section 441?",
+        options: [
+          "Only the Special Court",
+          "Regional Director or an officer authorised by the Central Government",
+          "Only the Supreme Court",
+          "Only the Registrar"
+        ],
+        answer: 1,
+        reason: "Where the maximum fine does not exceed ₹25 lakh, the Regional Director or an officer authorised by the Central Government may compound the offence."
+      },
+      {
+        question_id: "seta_AI_cs_9_08_2",
+        question: "Can an offence be compounded if an investigation against the company has already been initiated or is pending under the Companies Act?",
+        options: [
+          "Yes, automatically",
+          "Yes, if the maximum fine is below ₹25 lakh",
+          "No",
+          "Yes, with shareholder approval"
+        ],
+        answer: 2,
+        reason: "An offence covered by Section 441 cannot be compounded if investigation against the company has been initiated or is pending under the Act."
+      },
+      {
+        question_id: "seta_AI_cs_9_08_3",
+        question: "Where the offence relates to failure to file a return or other document, what may the authority direct?",
+        options: [
+          "Automatic winding up of the company",
+          "An officer or employee to file or register the required document within the specified time",
+          "Cancellation of the company's registration",
+          "Transfer of the matter to NCLAT"
+        ],
+        answer: 1,
+        reason: "Under Section 441(4), the Tribunal, Regional Director or authorised officer may direct an officer or employee to file or register the required return, account or document within the specified time."
+      },
+      {
+        question_id: "seta_AI_cs_9_08_4",
+        question: "If the officer fails to comply with the order relating to filing the document, the maximum fine for the offence proposed to be compounded may become:",
+        options: [
+          "Half the original amount",
+          "The same amount",
+          "Twice the amount provided in the corresponding provision",
+          "Ten times the original amount"
+        ],
+        answer: 2,
+        reason: "Under Section 441(5), failure to comply with the order may result in the maximum amount of fine becoming twice the amount provided in the corresponding section."
+      },
+      {
+        question_id: "seta_AI_cs_9_08_5",
+        question: "What is the effect of a similar offence having been compounded two years earlier?",
+        options: [
+          "The present offence is automatically treated as a first offence",
+          "Section 441(1) does not apply to the present offence committed within three years",
+          "The earlier compounding has no statutory relevance",
+          "The company can compound only after five years"
+        ],
+        answer: 1,
+        reason: "Section 441(2) provides that the compounding provision in sub-section (1) does not apply where a similar offence is committed within three years from the date on which the earlier similar offence was compounded."
+      }
+    ]
+},
+{
+    case_id: "seta_AI_cs_9_09",
+    difficulty: "hard",
+    caseText: `
+      <p>Delta Renewable Energy Limited received an order from an adjudicating officer imposing a substantial penalty for non-compliance with a provision of the Companies Act. The company believed that the penalty was excessive and decided to challenge the order before the Regional Director.</p>
+
+      <p>The company received the copy of the adjudicating officer's order on 5th February. Its legal team initially assumed that an appeal could be filed at any time because the adjudicating officer had already given the company an opportunity of being heard. The compliance head corrected this view and pointed out that Section 454 prescribes a specific limitation period for an appeal against an adjudicating officer's order.</p>
+
+      <p>While reviewing the original penalty, the company also discovered that the alleged default had been committed earlier by the company but had been rectified shortly after receiving the notice from the adjudicating officer. The default related to a provision concerning filing of the annual return or financial statements. The company wanted to know whether rectification within the prescribed period could prevent imposition of penalty.</p>
+
+      <p>Separately, the company had received a penalty order for a similar default three years earlier. Management was unsure whether a fresh default would attract an enhanced penalty under the provisions relating to repeated defaults.</p>
+
+      <p>The Board requested the legal department to explain the appeal period, the special relief available for timely rectification of certain defaults and the consequences of a repeated default.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_9_09_1",
+        question: "Within what period should an appeal against an adjudicating officer's order ordinarily be filed before the Regional Director?",
+        options: [
+          "30 days",
+          "45 days",
+          "60 days",
+          "90 days"
+        ],
+        answer: 2,
+        reason: "Under Section 454, an appeal against an order of the adjudicating officer is to be filed within 60 days from receipt of the copy of the order."
+      },
+      {
+        question_id: "seta_AI_cs_9_09_2",
+        question: "Does the fact that the company was given an opportunity of being heard before the adjudicating officer eliminate its right to appeal?",
+        options: [
+          "Yes",
+          "No",
+          "Yes, unless NCLT permits",
+          "Yes, if the penalty exceeds ₹1 lakh"
+        ],
+        answer: 1,
+        reason: "The right of appeal under Section 454(5) is available to a person aggrieved by an order of the adjudicating officer. The opportunity of being heard does not itself eliminate the statutory right of appeal."
+      },
+      {
+        question_id: "seta_AI_cs_9_09_3",
+        question: "If the default relates to Section 92(4) or Section 137(1)/(2) and is rectified before or within 30 days of issue of the notice by the adjudicating officer, what is the consequence under Section 454(3)?",
+        options: [
+          "Penalty is automatically doubled",
+          "No penalty is imposed and proceedings in respect of that default are deemed concluded",
+          "The matter must be referred to NCLAT",
+          "The company must pay the minimum penalty"
+        ],
+        answer: 1,
+        reason: "Where such specified default has been rectified before, or within 30 days of, issue of the adjudicating officer's notice, no penalty shall be imposed and the proceedings are deemed concluded."
+      },
+      {
+        question_id: "seta_AI_cs_9_09_4",
+        question: "Section 454A applies where a company or officer commits the same default again within:",
+        options: [
+          "One year from the previous order",
+          "Two years from the previous order",
+          "Three years from the date of the order imposing penalty",
+          "Five years from the previous default"
+        ],
+        answer: 2,
+        reason: "Section 454A applies where the same default is committed again within three years from the date of the order imposing the earlier penalty."
+      },
+      {
+        question_id: "seta_AI_cs_9_09_5",
+        question: "Where Section 454A applies, the penalty for the second or subsequent default is:",
+        options: [
+          "Half of the prescribed penalty",
+          "Equal to the prescribed penalty",
+          "Twice the amount of penalty provided for the default",
+          "Three times the prescribed penalty"
+        ],
+        answer: 2,
+        reason: "For a second or subsequent default within the specified three-year period, the company or officer is liable to an amount equal to twice the penalty provided for the default."
+      }
+    ]
+},
+{
+    case_id: "seta_AI_cs_9_10",
+    difficulty: "hard",
+    caseText: `
+      <p>Everest Holdings Limited was involved in a dispute before the National Company Law Tribunal relating to the affairs of the company. The matter became highly contentious and involved extensive documentary evidence. During the proceedings, one party argued that the Tribunal should strictly follow the procedure prescribed by the Code of Civil Procedure, 1908 in the same manner as an ordinary civil court.</p>
+
+      <p>The Tribunal explained that although it possesses several powers similar to those of a civil court, it is not bound by the procedure laid down in the Code of Civil Procedure while disposing of proceedings. Instead, it is guided by the principles of natural justice and has the power to regulate its own procedure, subject to the Companies Act, the Insolvency and Bankruptcy Code and applicable rules.</p>
+
+      <p>During the proceedings, the Tribunal required certain witnesses to attend, directed production of documents and considered evidence through affidavits. One party failed to appear despite being properly notified, and the Tribunal considered whether it could proceed ex parte.</p>
+
+      <p>After the Tribunal passed its order, the successful party sought to enforce the order against the company. The company's registered office was situated in Hyderabad. The legal team also examined whether a Tribunal order could be treated like a decree and whether proceedings before the Tribunal are regarded as judicial proceedings.</p>
+
+      <p>Finally, a party wanted to appear through a professional representative instead of appearing personally. The company sought clarification regarding who could represent a party before the Tribunal or Appellate Tribunal.</p>
+    `,
+    questions: [
+      {
+        question_id: "seta_AI_cs_9_10_1",
+        question: "While disposing of proceedings, NCLT and NCLAT are:",
+        options: [
+          "Strictly bound by the Code of Civil Procedure, 1908",
+          "Guided by principles of natural justice and empowered to regulate their own procedure",
+          "Bound only by criminal procedure",
+          "Not required to follow any legal principles"
+        ],
+        answer: 1,
+        reason: "Section 424 provides that the Tribunal and Appellate Tribunal are not bound by the CPC procedure but are guided by principles of natural justice and may regulate their own procedure subject to the applicable law and rules."
+      },
+      {
+        question_id: "seta_AI_cs_9_10_2",
+        question: "Which of the following is a power of NCLT/NCLAT similar to that of a civil court?",
+        options: [
+          "Issuing passports",
+          "Summoning and enforcing attendance of persons and examining them on oath",
+          "Conducting elections",
+          "Granting a criminal pardon"
+        ],
+        answer: 1,
+        reason: "Section 424 gives the Tribunal and Appellate Tribunal several civil-court powers, including summoning and enforcing attendance and examining persons on oath."
+      },
+      {
+        question_id: "seta_AI_cs_9_10_3",
+        question: "Can the Tribunal decide a matter ex parte where a party fails to appear?",
+        options: [
+          "No, under any circumstances",
+          "Yes, the Tribunal has powers including deciding a representation ex parte",
+          "Only the Supreme Court can permit this",
+          "Only the Registrar can decide ex parte"
+        ],
+        answer: 1,
+        reason: "Section 424 includes the power to dismiss a representation for default or decide it ex parte, as well as to set aside such orders in appropriate circumstances."
+      },
+      {
+        question_id: "seta_AI_cs_9_10_4",
+        question: "An order made by the Tribunal may be enforced:",
+        options: [
+          "Only by the Registrar",
+          "In the same manner as a decree made by a court in a suit",
+          "Only after approval of the Central Government",
+          "Only through a fresh civil suit"
+        ],
+        answer: 1,
+        reason: "Under Section 424, an order of the Tribunal or Appellate Tribunal may be enforced in the same manner as a decree made by a court in a suit."
+      },
+      {
+        question_id: "seta_AI_cs_9_10_5",
+        question: "Who may a party authorize to present its case before NCLT or NCLAT?",
+        options: [
+          "Only an advocate",
+          "Only a Chartered Accountant",
+          "A Chartered Accountant, Company Secretary, Cost Accountant, Legal Practitioner or other permitted person",
+          "Only a director of the company"
+        ],
+        answer: 2,
+        reason: "Section 432 permits a party to appear personally or authorize one or more Chartered Accountants, Company Secretaries, Cost Accountants, Legal Practitioners or any other permitted person to present its case."
+      }
+    ]
+}
 ];
