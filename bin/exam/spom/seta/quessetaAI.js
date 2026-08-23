@@ -19743,5 +19743,2868 @@ const AICaseStudies = [
       reason: "The authorised signatory and professional certifying the e-form are responsible for the correctness of its contents and attachments. Scanned document images should be of original signed documents and should bear the actual signature of the authorised person. False or misleading information or omission of material facts may attract action under the Companies Act."
     }
   ]
+},
+// Chapter SEBI
+
+  {
+    case_id: "SEBI_CH1_CS_01",
+    chapter: "SEBI Act, 1992",
+    difficulty: "medium",
+    caseText: `
+      <p>Alpha Securities Limited is a registered intermediary operating in the securities market. Over a period of several months, SEBI received complaints from investors alleging that the company had engaged in practices that were detrimental to their interests. Certain transactions undertaken through the intermediary appeared unusual, and SEBI also received information suggesting that some securities were being traded in a manner that could potentially affect the integrity of the securities market.</p>
+
+      <p>Based on the information available, SEBI formed a reasonable belief that the intermediary might have violated provisions of the SEBI Act, the regulations made thereunder and certain directions issued by SEBI. The Board therefore decided that an investigation into the affairs of Alpha Securities Limited was necessary.</p>
+
+      <p>SEBI appointed an Investigating Authority by an order in writing. During the investigation, the authority required the company's managing director, officers and employees to preserve and produce books of account, registers, electronic records and other documents relating to the transactions under investigation. The company argued that some of the documents were confidential and therefore need not be produced.</p>
+
+      <p>The Investigating Authority explained that persons covered by the relevant provision are required to preserve and produce documents that are in their custody or power. It also informed the company that the documents produced could ordinarily remain in its custody for a specified period and could subsequently be called for again if required.</p>
+
+      <p>One senior employee was summoned personally for examination. He refused to appear and also refused to answer questions relating to the affairs of the intermediary. He further declined to sign the notes of examination prepared by the Investigating Authority.</p>
+
+      <p>During the investigation, the authority also discovered that certain original records might be destroyed or altered by company personnel. The authority therefore considered seeking an order from the designated court for seizure of the relevant books and records.</p>
+    `,
+    questions: [
+      {
+        question_id: "SEBI_CH1_CS_01_Q1",
+        question: "Under Section 11C, SEBI may direct an investigation where it has reasonable grounds to believe that:",
+        options: [
+          "Only the company's profits have declined",
+          "Transactions in securities are being dealt with detrimentally to investors or the securities market, or an intermediary has violated the Act, rules or regulations",
+          "The company has failed to pay income tax",
+          "The company has changed its registered office"
+        ],
+        answer: 2,
+        reason: "Section 11C permits investigation where SEBI has reasonable grounds to believe that securities transactions are being dealt with in a manner detrimental to investors or the securities market, or an intermediary/person associated with the securities market has violated the Act, rules, regulations or directions."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_01_Q2",
+        question: "Who is required to preserve and produce relevant books, registers and documents to the Investigating Authority?",
+        options: [
+          "Only the Managing Director",
+          "Only the statutory auditor",
+          "Managers, managing directors, officers, employees and relevant intermediaries/persons associated with the securities market",
+          "Only shareholders holding more than 10% shares"
+        ],
+        answer: 3,
+        reason: "Section 11C places the duty to preserve and produce relevant books, registers, documents and records on the specified managers, managing directors, officers, employees and persons associated with the securities market."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_01_Q3",
+        question: "Ordinarily, the Investigating Authority may keep documents produced during an investigation in its custody for:",
+        options: [
+          "Three months",
+          "Six months",
+          "One year",
+          "Until the company requests them back"
+        ],
+        answer: 2,
+        reason: "Under Section 11C, documents produced may ordinarily be kept in the custody of the Investigating Authority for six months. They may thereafter be called for again if required."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_01_Q4",
+        question: "If a person, without reasonable cause, refuses to appear before the Investigating Authority or answer questions as required, the person may be liable to:",
+        options: [
+          "Only a written warning",
+          "Imprisonment up to one year or fine up to ₹1 crore or both, along with further fine up to ₹5 lakh for every day after the first during which the failure continues",
+          "Only cancellation of PAN",
+          "Only civil damages"
+        ],
+        answer: 2,
+        reason: "Section 11C provides imprisonment up to one year, or fine up to ₹1 crore, or both, together with a further fine up to ₹5 lakh for every day after the first during which the failure or refusal continues."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_01_Q5",
+        question: "If the Investigating Authority has reasonable grounds to believe that records may be destroyed, altered, falsified or secreted, seizure may be authorised by:",
+        options: [
+          "The company's Board of Directors",
+          "The stock broker",
+          "The Magistrate or Judge of the designated court",
+          "The statutory auditor"
+        ],
+        answer: 3,
+        reason: "Under Section 11C, where there are reasonable grounds for believing that relevant records may be destroyed, mutilated, altered, falsified or secreted, the Investigating Authority may apply to the Magistrate or Judge of the designated court for an order authorising seizure."
+      }
+    ]
+  },
+
+  {
+    case_id: "SEBI_CH1_CS_02",
+    chapter: "SEBI Act, 1992",
+    difficulty: "hard",
+    caseText: `
+      <p>Bright Capital Markets Limited is a listed company whose securities are actively traded on a recognised stock exchange. During a particular quarter, SEBI received information suggesting that a group of persons connected with the company had entered into a series of transactions designed to create an artificial appearance of trading activity. The transactions were accompanied by misleading statements circulated among certain market participants.</p>
+
+      <p>SEBI initiated an inquiry and found indications that some persons had used deceptive devices in connection with the purchase and sale of securities. It also appeared that certain persons had dealt in securities while possessing material information that had not been made public.</p>
+
+      <p>During the investigation, SEBI considered whether immediate protective measures were necessary to safeguard investors and maintain the orderly functioning of the securities market. The Board examined its powers to suspend trading, restrain persons from accessing the securities market and prevent disposal of assets connected with transactions under investigation.</p>
+
+      <p>One intermediary argued that SEBI could not restrain it from accessing the securities market until the investigation was finally completed. Another person argued that SEBI could not attach a bank account because attachment would amount to a final punishment.</p>
+
+      <p>SEBI explained that certain orders may be passed during or after an investigation when necessary in the interests of investors or the securities market. However, where the Board proposes to pass specified measures, the concerned persons must be provided an opportunity of being heard either before or after passing the order, as applicable under the provision.</p>
+
+      <p>At the conclusion of the proceedings, an amount was directed to be disgorged from one of the persons who had obtained wrongful gains through the prohibited transactions. The company wanted to know whether the disgorged amount would become part of SEBI's ordinary administrative income.</p>
+    `,
+    questions: [
+      {
+        question_id: "SEBI_CH1_CS_02_Q1",
+        question: "Which of the following is expressly prohibited under Section 12A?",
+        options: [
+          "Conducting genuine securities transactions",
+          "Using a manipulative or deceptive device in connection with securities",
+          "Holding shares for investment purposes",
+          "Opening a demat account"
+        ],
+        answer: 2,
+        reason: "Section 12A prohibits the use of manipulative or deceptive devices, fraudulent schemes and practices in connection with securities covered by the provision."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_02_Q2",
+        question: "Pending investigation, SEBI may, in the interests of investors or the securities market:",
+        options: [
+          "Only issue an advisory letter",
+          "Suspend trading of a security and restrain persons from accessing the securities market",
+          "Compulsorily liquidate every company under investigation",
+          "Cancel all shareholder rights"
+        ],
+        answer: 2,
+        reason: "Section 11B permits SEBI to take measures including suspension of trading and restraining persons from accessing the securities market where necessary in the interests of investors or the securities market."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_02_Q3",
+        question: "SEBI may attach a bank account or other property under the specified power for a period not exceeding:",
+        options: [
+          "30 days",
+          "60 days",
+          "90 days",
+          "180 days"
+        ],
+        answer: 3,
+        reason: "Section 11B permits attachment of a bank account or other property for a period not exceeding 90 days, subject to the prescribed requirement of obtaining confirmation from the Special Court within that period."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_02_Q4",
+        question: "Where SEBI directs disgorgement under the relevant provisions, the disgorged amount is credited to:",
+        options: [
+          "The Consolidated Fund of India",
+          "The company's general reserve",
+          "The Investor Protection and Education Fund established by SEBI",
+          "The account of the person against whom proceedings were initiated"
+        ],
+        answer: 3,
+        reason: "The amount disgorged pursuant to the specified directions is credited to the Investor Protection and Education Fund established by SEBI and utilised in accordance with the applicable regulations."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_02_Q5",
+        question: "Which of the following is a prohibited activity under Section 12A relating to unpublished price-sensitive information?",
+        options: [
+          "Dealing in securities while possessing material non-public information in contravention of the Act or regulations",
+          "Investing after receiving publicly available information",
+          "Holding securities for more than one year",
+          "Receiving dividend from listed securities"
+        ],
+        answer: 1,
+        reason: "Section 12A prohibits dealing in securities while in possession of material non-public information and communicating such information in contravention of the Act or regulations."
+      }
+    ]
+  },
+
+  {
+    case_id: "SEBI_CH1_CS_03",
+    chapter: "SEBI Act, 1992",
+    difficulty: "hard",
+    caseText: `
+      <p>Crystal Wealth Advisors Limited is a registered investment intermediary. During a regulatory inspection, SEBI discovered several compliance failures. The intermediary had failed to maintain certain prescribed records, had not entered into agreements with some of its clients and had also failed to properly address investor grievances despite receiving a written direction from SEBI requiring such grievances to be redressed within a specified period.</p>
+
+      <p>The company argued that the failures were technical and that no investor had suffered any significant loss. SEBI initiated the prescribed adjudication proceedings. The company was given an opportunity to present its case before the adjudicating officer.</p>
+
+      <p>During the proceedings, the adjudicating officer considered the nature of the defaults and the applicable provisions relating to penalties. The company contended that the penalty should automatically be fixed at the minimum amount because the defaults had not resulted in measurable losses.</p>
+
+      <p>In another matter involving a different entity, an investment adviser had failed to comply with regulations and directions issued by SEBI. In a separate case, an alternative investment fund had failed to comply with applicable SEBI regulations and had earned substantial gains from the non-compliance.</p>
+
+      <p>SEBI also examined a case involving an insider who had communicated unpublished price-sensitive information to another person, who subsequently traded in the securities. The insider argued that since he did not himself purchase or sell any shares, no penalty could be imposed upon him.</p>
+
+      <p>The Board asked the adjudicating officer to determine the appropriate penalty after considering the statutory factors relevant to the quantum of penalty.</p>
+    `,
+    questions: [
+      {
+        question_id: "SEBI_CH1_CS_03_Q1",
+        question: "Failure by a registered intermediary to enter into an agreement with its client, where such agreement is required under the Act or regulations, attracts penalty under:",
+        options: [
+          "Section 15A",
+          "Section 15B",
+          "Section 15G",
+          "Section 15HB"
+        ],
+        answer: 2,
+        reason: "Section 15B specifically deals with failure by a registered intermediary to enter into an agreement with its client where required."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_03_Q2",
+        question: "A listed company or registered intermediary failing to redress investor grievances after being called upon by SEBI is covered under:",
+        options: [
+          "Section 15A",
+          "Section 15C",
+          "Section 15E",
+          "Section 15H"
+        ],
+        answer: 2,
+        reason: "Section 15C provides penalty for failure by a listed company or registered intermediary to redress investor grievances within the time specified by SEBI after being called upon to do so."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_03_Q3",
+        question: "For an investment adviser or research analyst failing to comply with SEBI regulations or directions, the relevant provision is:",
+        options: [
+          "Section 15EB",
+          "Section 15EA",
+          "Section 15F",
+          "Section 15HA"
+        ],
+        answer: 1,
+        reason: "Section 15EB specifically deals with defaults by investment advisers and research analysts."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_03_Q4",
+        question: "An insider who communicates unpublished price-sensitive information to another person, except as permitted in the ordinary course of business or under law, may attract penalty under:",
+        options: [
+          "Section 15C",
+          "Section 15F",
+          "Section 15G",
+          "Section 15HB"
+        ],
+        answer: 3,
+        reason: "Section 15G covers insider trading-related defaults, including communication of unpublished price-sensitive information in circumstances prohibited by law."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_03_Q5",
+        question: "While determining the quantum of penalty, the adjudicating officer should have due regard to:",
+        options: [
+          "Only the market value of the company",
+          "Only the age of the accused person",
+          "Disproportionate gain or unfair advantage, loss caused to investors and repetitive nature of the default",
+          "Only the number of employees of the company"
+        ],
+        answer: 3,
+        reason: "Section 15J requires due regard to the amount of disproportionate gain or unfair advantage, the amount of loss caused to investors or a group of investors, and the repetitive nature of the default."
+      }
+    ]
+  },
+
+  {
+    case_id: "SEBI_CH1_CS_04",
+    chapter: "SEBI Act, 1992",
+    difficulty: "medium",
+    caseText: `
+      <p>Delta Investments Limited operates a collective investment arrangement under which money is collected from a large number of investors. The contributions are pooled and used for acquiring and managing various assets. Investors are promised profits and returns from the arrangement. The property forming part of the arrangement is managed on behalf of the investors, while the investors themselves have no day-to-day control over its management or operation.</p>
+
+      <p>The promoters of Delta Investments argued that their arrangement was merely a private investment programme and therefore could not be treated as a collective investment scheme. They also argued that because the investors received statements periodically and could communicate with the management, they effectively exercised sufficient control over the scheme.</p>
+
+      <p>SEBI examined the actual structure of the arrangement. It found that investors' contributions were pooled and utilised for the purposes of the scheme, investors expected profits or income, the underlying property was managed on behalf of the investors and investors did not exercise day-to-day control over the management and operation.</p>
+
+      <p>During the review, Delta Investments also pointed out several arrangements that are specifically excluded from the definition of a collective investment scheme. These included a contract of insurance, certain employee-related schemes, deposits accepted by specified entities and subscriptions to mutual funds.</p>
+
+      <p>Separately, the company proposed to continue operating the arrangement without obtaining the necessary certificate of registration. Its compliance officer warned the management that carrying on a collective investment scheme without the required registration could attract regulatory consequences.</p>
+    `,
+    questions: [
+      {
+        question_id: "SEBI_CH1_CS_04_Q1",
+        question: "Which of the following is a key condition for an arrangement to constitute a collective investment scheme under Section 11AA(2)?",
+        options: [
+          "Investors must have complete day-to-day control",
+          "Contributions or payments of investors are pooled and utilised for the purposes of the scheme",
+          "Only one investor must participate",
+          "No profits or income may be expected"
+        ],
+        answer: 2,
+        reason: "Pooling of contributions or payments of investors and utilisation thereof for the purposes of the scheme is one of the statutory conditions."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_04_Q2",
+        question: "Which of the following is NOT one of the four principal conditions specified under Section 11AA(2)?",
+        options: [
+          "Investors' contributions are pooled",
+          "Investors expect profits, income, produce or property",
+          "Property is managed on behalf of investors",
+          "Investors must exercise day-to-day control over management"
+        ],
+        answer: 4,
+        reason: "The law specifically requires that investors do NOT have day-to-day control over the management and operation of the scheme."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_04_Q3",
+        question: "Which of the following is expressly excluded from the definition of collective investment scheme?",
+        options: [
+          "An arrangement pooling investors' funds for profit where investors have no day-to-day control",
+          "A contract of insurance to which the Insurance Act, 1938 applies",
+          "An unregistered investment arrangement meeting all four statutory conditions",
+          "A scheme involving pooled contributions managed for investors"
+        ],
+        answer: 2,
+        reason: "Section 11AA(3) specifically excludes a contract of insurance to which the Insurance Act, 1938 applies."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_04_Q4",
+        question: "Which of the following is also specifically excluded from the definition of collective investment scheme?",
+        options: [
+          "Subscription to a mutual fund",
+          "Any arrangement promising returns",
+          "Any scheme involving pooled money",
+          "Any scheme managed by a professional"
+        ],
+        answer: 1,
+        reason: "A scheme under which contributions are in the nature of subscription to a mutual fund is specifically excluded under Section 11AA(3)."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_04_Q5",
+        question: "A person intending to sponsor or carry on a collective investment scheme is generally required to:",
+        options: [
+          "Obtain a certificate of registration from SEBI in accordance with the regulations",
+          "Obtain approval only from the shareholders",
+          "Obtain approval only from the stock exchange",
+          "File an income-tax return before commencing the scheme"
+        ],
+        answer: 1,
+        reason: "Under Section 12, persons intending to sponsor or carry on collective investment schemes must obtain a certificate of registration from SEBI in accordance with the applicable regulations."
+      }
+    ]
+  },
+
+  {
+    case_id: "SEBI_CH1_CS_05",
+    chapter: "SEBI Act, 1992",
+    difficulty: "hard",
+    caseText: `
+      <p>Evergreen Technologies Limited, a listed company, received an order from SEBI imposing a substantial monetary penalty following adjudication proceedings. The company believed that the order was incorrect and wanted to challenge it before the Securities Appellate Tribunal (SAT).</p>
+
+      <p>The company's legal adviser explained that a person aggrieved by an order of SEBI or an adjudicating officer under the SEBI Act may prefer an appeal to the Securities Appellate Tribunal having jurisdiction. The adviser further explained that the appeal must ordinarily be filed within the statutory period calculated from the date on which the copy of the order is received.</p>
+
+      <p>Evergreen delayed filing the appeal because its Board of Directors took additional time to decide whether litigation should be pursued. By the time the appeal was prepared, more than the prescribed period had elapsed. The company argued that the delay should automatically be ignored because the underlying dispute involved an important securities-law question.</p>
+
+      <p>The company also wanted to know whether SAT was bound strictly by the procedure contained in the Code of Civil Procedure, 1908. The legal adviser explained that SAT is not bound by the procedure laid down by the Code of Civil Procedure, but is guided by principles of natural justice and has powers to regulate its own procedure.</p>
+
+      <p>During the proceedings, the company proposed to be represented by its Chartered Accountant. The company also asked whether SAT could exercise powers similar to those of a civil court in matters such as summoning persons, requiring production of documents and receiving evidence on affidavits.</p>
+
+      <p>After receiving the decision of SAT, Evergreen considered approaching the Supreme Court. Its legal adviser explained that an appeal from SAT to the Supreme Court is available on a question of law and is subject to a separate statutory limitation period.</p>
+    `,
+    questions: [
+      {
+        question_id: "SEBI_CH1_CS_05_Q1",
+        question: "An appeal against an order of SEBI or an adjudicating officer under Section 15T should ordinarily be filed within:",
+        options: [
+          "15 days from receipt of the order",
+          "30 days from receipt of the order",
+          "45 days from receipt of the order",
+          "90 days from receipt of the order"
+        ],
+        answer: 3,
+        reason: "Section 15T provides that an appeal to SAT shall ordinarily be filed within 45 days from the date on which the copy of the order is received."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_05_Q2",
+        question: "Can SAT entertain an appeal filed after the expiry of 45 days?",
+        options: [
+          "Never, under any circumstances",
+          "Yes, if SAT is satisfied that there was sufficient cause for the delay",
+          "Only if the appellant is a listed company",
+          "Only if SEBI gives written consent"
+        ],
+        answer: 2,
+        reason: "The proviso to Section 15T permits SAT to entertain an appeal after 45 days if it is satisfied that there was sufficient cause for not filing the appeal within that period."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_05_Q3",
+        question: "Which statement correctly describes the procedure followed by SAT?",
+        options: [
+          "SAT is strictly bound by the entire Code of Civil Procedure, 1908",
+          "SAT is not bound by the CPC procedure but is guided by principles of natural justice and may regulate its own procedure",
+          "SAT can decide matters only through criminal procedure",
+          "SAT cannot regulate its own procedure"
+        ],
+        answer: 2,
+        reason: "Under Section 15U, SAT is not bound by the procedure laid down by the CPC, but is guided by principles of natural justice and may regulate its own procedure."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_05_Q4",
+        question: "Before SAT, an appellant may authorise which of the following to present its case?",
+        options: [
+          "Only an advocate",
+          "Only a Chartered Accountant",
+          "A Chartered Accountant, Company Secretary, Cost Accountant, legal practitioner or certain officers, as permitted",
+          "Only a SEBI officer"
+        ],
+        answer: 3,
+        reason: "Section 15V permits an appellant to appear in person or authorise one or more Chartered Accountants, Company Secretaries, Cost Accountants, legal practitioners or its officers to present the case."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_05_Q5",
+        question: "An appeal from a decision or order of SAT to the Supreme Court may be filed:",
+        options: [
+          "Within 30 days on any question of fact",
+          "Within 45 days on any question of fact",
+          "Within 60 days on any question of law arising out of the order",
+          "Within 180 days only with SEBI's approval"
+        ],
+        answer: 3,
+        reason: "Section 15Z provides for an appeal to the Supreme Court within 60 days from communication of the SAT decision or order, on any question of law arising out of such order. The Supreme Court may allow a further period not exceeding 60 days where sufficient cause is shown."
+      }
+    ]
+  },
+
+  // =========================================================
+  // CASE SCENARIO 6
+  // Topics: SEBI Board, Composition, Removal, Meetings,
+  //          Conflict of Interest, Vacancies
+  // Difficulty: Medium
+  // =========================================================
+
+  {
+    case_id: "SEBI_CH1_CS_06",
+    chapter: "SEBI Act, 1992",
+    difficulty: "medium",
+
+    caseText: `
+      <p>SEBI, established under the Securities and Exchange Board of India Act, 1992, functions as a statutory regulatory body for the securities market. The Board is a body corporate having perpetual succession and a common seal. It has the power to acquire, hold and dispose of movable and immovable property and may contract, sue or be sued in its own name. Its head office is situated at Mumbai, although it may establish offices at other places in India.</p>
+
+      <p>Following a change in the composition of the Board, the Central Government appointed a new Chairman along with other members. The Board included two members from the Central Government Ministries, one member from the Reserve Bank of India and five other members nominated by the Central Government, out of whom at least three were whole-time members.</p>
+
+      <p>During one of the meetings, a matter concerning a listed company came up for consideration. One of the members of the Board was also a director of that company and had an indirect pecuniary interest in the matter. The member initially intended to participate in the discussion because he believed that his experience in the company would help the Board reach a better decision.</p>
+
+      <p>Another member pointed out that the SEBI Act contains a specific requirement regarding disclosure of such interest. The concerned member thereafter disclosed the nature of his interest, and the disclosure was recorded in the proceedings of the Board.</p>
+
+      <p>At a subsequent meeting, the Chairman was unable to attend due to unavoidable circumstances. The members present had to decide who would preside over the meeting. During voting on one issue, the votes were equally divided between the members.</p>
+
+      <p>Meanwhile, one vacancy arose in the Board because of the resignation of a member. A question was raised as to whether all decisions taken by the Board after the vacancy would become invalid merely because the Board was temporarily not fully constituted.</p>
+
+      <p>The Central Government also examined whether one of the members could be removed because he had been adjudicated insolvent. Another member had been accused of abusing his position in a manner considered detrimental to public interest.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_06_Q1",
+        question: "SEBI is established under Section 3 as:",
+        options: [
+          "A partnership firm",
+          "A body corporate having perpetual succession and a common seal",
+          "A department of the Reserve Bank of India",
+          "A statutory committee without separate legal identity"
+        ],
+        answer: 2,
+        reason: "Section 3 establishes SEBI as a body corporate having perpetual succession and a common seal, with power to acquire, hold and dispose of property and to sue or be sued."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_06_Q2",
+        question: "If the Chairman is unable to attend a Board meeting, who shall preside over the meeting?",
+        options: [
+          "The Central Government Secretary",
+          "The RBI representative automatically",
+          "A member chosen by the members present from amongst themselves",
+          "The senior-most officer of SEBI"
+        ],
+        answer: 3,
+        reason: "Under Section 7, where the Chairman is unable to attend, any member chosen by the members present from amongst themselves shall preside over the meeting."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_06_Q3",
+        question: "Where there is equality of votes at a Board meeting, the Chairman or presiding member has:",
+        options: [
+          "No further vote",
+          "A casting vote",
+          "Two additional votes",
+          "Power to refer the matter only to the Central Government"
+        ],
+        answer: 2,
+        reason: "Section 7 provides that the Chairman or presiding member has a second or casting vote in the event of equality of votes."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_06_Q4",
+        question: "A Board member who is a director of a company and has an indirect pecuniary interest in a matter before the Board must:",
+        options: [
+          "Participate because his expertise is relevant",
+          "Transfer his shares immediately",
+          "Disclose the nature of his interest and not take part in deliberation or decision on that matter",
+          "Resign permanently from SEBI"
+        ],
+        answer: 3,
+        reason: "Section 7A requires disclosure of the nature of the interest, recording of the disclosure in the proceedings and prohibits the member from participating in deliberation or decision concerning that matter."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_06_Q5",
+        question: "Which statement regarding a vacancy in the Board is correct?",
+        options: [
+          "Every vacancy automatically invalidates all subsequent proceedings",
+          "A vacancy does not invalidate the acts or proceedings of the Board",
+          "The Board must immediately cease functioning",
+          "All previous orders automatically become void"
+        ],
+        answer: 2,
+        reason: "Section 8 provides that a vacancy in the Board does not invalidate any act or proceeding of the Board. Similar protection applies to specified defects and irregularities that do not affect the merits."
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 7
+  // Topics: Section 11 Powers and Functions,
+  //          Civil Court Powers, Inspection, Information
+  // Difficulty: Hard
+  // =========================================================
+
+  {
+    case_id: "SEBI_CH1_CS_07",
+    chapter: "SEBI Act, 1992",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Zenith Broking Services Limited is a registered intermediary associated with the securities market. SEBI received information suggesting that certain transactions executed through Zenith had characteristics indicating possible fraudulent and unfair trade practices. The information also suggested that certain clients may have been given preferential treatment in relation to transactions involving securities of a listed company.</p>
+
+      <p>SEBI decided to examine the books of account, registers, transaction records, correspondence, electronic records and other documents maintained by Zenith. The intermediary argued that SEBI could inspect only records directly maintained by the stock exchange and could not call for records maintained by a registered intermediary.</p>
+
+      <p>SEBI informed Zenith that its statutory functions include registering and regulating intermediaries associated with the securities market and prohibiting fraudulent and unfair trade practices. It also explained that the Board may call for information, undertake inspections, conduct inquiries and audits of stock exchanges, mutual funds, intermediaries and other persons associated with the securities market.</p>
+
+      <p>During the inquiry, SEBI required certain persons to appear before it and produce books and documents. One employee argued that SEBI did not have powers similar to those of a civil court and therefore could not compel attendance or production of documents.</p>
+
+      <p>The Board further received information from another regulatory authority located outside India. The information related to transactions suspected to involve securities-law violations. SEBI considered sharing certain information with the foreign authority but first examined the statutory conditions governing exchange of information with authorities outside India.</p>
+
+      <p>At the same time, SEBI considered inspecting the records of another public company which had not yet listed its securities but had publicly announced its intention to seek listing on a recognised stock exchange. There were reasonable grounds to suspect that the company might have been involved in insider trading.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_07_Q1",
+        question: "Which of the following falls within SEBI's functions under Section 11?",
+        options: [
+          "Regulating only listed companies",
+          "Registering and regulating intermediaries associated with the securities market",
+          "Regulating income-tax assessments",
+          "Appointing directors of every listed company"
+        ],
+        answer: 2,
+        reason: "Section 11 specifically includes registration and regulation of stock brokers, merchant bankers, underwriters, portfolio managers, investment advisers and other intermediaries associated with the securities market."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_07_Q2",
+        question: "SEBI's powers similar to those of a civil court include:",
+        options: [
+          "Passing criminal convictions",
+          "Summoning and enforcing attendance and requiring discovery and production of documents",
+          "Imposing imprisonment directly in every case",
+          "Dissolving companies"
+        ],
+        answer: 2,
+        reason: "Section 11 provides SEBI with specified powers of a civil court, including summoning and enforcing attendance, discovery and production of books and documents, examination on oath and issuing commissions."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_07_Q3",
+        question: "SEBI may inspect books or records of a listed public company or a public company intending to list where it has reasonable grounds to believe that the company has been indulging in:",
+        options: [
+          "Only tax evasion",
+          "Insider trading or fraudulent and unfair trade practices relating to the securities market",
+          "Only failure to pay dividends",
+          "Only labour-law violations"
+        ],
+        answer: 2,
+        reason: "The Act permits SEBI to undertake such inspection where it has reasonable grounds to believe that the company has been indulging in insider trading or fraudulent and unfair trade practices relating to the securities market."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_07_Q4",
+        question: "SEBI may furnish information to an authority outside India having similar functions subject to:",
+        options: [
+          "No conditions whatsoever",
+          "The applicable legal requirements and, where required, an arrangement or agreement or understanding with prior approval of the Central Government",
+          "Approval of every listed company",
+          "Approval of every investor"
+        ],
+        answer: 2,
+        reason: "Section 11 permits information exchange with similar authorities, subject to applicable law. For furnishing information to an authority outside India, SEBI may enter into an arrangement, agreement or understanding with prior approval of the Central Government."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_07_Q5",
+        question: "Which of the following is NOT ordinarily a power of SEBI under its civil-court-like powers?",
+        options: [
+          "Summoning persons",
+          "Requiring production of documents",
+          "Examining persons on oath",
+          "Sentencing a person to imprisonment as a criminal court"
+        ],
+        answer: 4,
+        reason: "SEBI has specified civil-court-like procedural powers but does not thereby become a criminal court with general power to impose criminal sentences."
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 8
+  // Topics: Section 11A, Prospectus, Offer Document,
+  //          Listing Requirements
+  // Difficulty: Medium
+  // =========================================================
+
+  {
+    case_id: "SEBI_CH1_CS_08",
+    chapter: "SEBI Act, 1992",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Nova Renewable Energy Limited proposed to raise substantial capital from the public through an issue of securities. The management prepared a prospectus containing information regarding the company's business, financial position, risks and proposed utilisation of the issue proceeds. The company also planned an extensive advertising campaign through newspapers, digital platforms and television.</p>
+
+      <p>The company's legal team advised the management that securities laws impose specific disclosure requirements relating to the issue of capital, transfer of securities and other matters incidental thereto. The team further explained that SEBI has the power to specify, by regulations, the matters relating to issue of capital and the manner in which such matters must be disclosed by companies.</p>
+
+      <p>Nova's management believed that because the company had already prepared its prospectus, SEBI could not interfere with the proposed advertisement. However, the legal adviser explained that SEBI may, by general or special orders, prohibit a company from issuing a prospectus, offer document or advertisement soliciting money from the public for an issue of securities. SEBI may also specify conditions subject to which such document or advertisement may be issued where it is not prohibited.</p>
+
+      <p>The company also intended to obtain listing of its securities on a recognised stock exchange after completion of the issue. Some directors argued that listing requirements were matters entirely within the discretion of the stock exchange and SEBI had no authority in relation to them.</p>
+
+      <p>SEBI informed the company that it may specify requirements for listing and transfer of securities and other matters incidental thereto. The company therefore reviewed its offer documents and proposed advertisements before proceeding with the issue.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_08_Q1",
+        question: "Under Section 11A, SEBI may specify by regulations matters relating to:",
+        options: [
+          "Only taxation",
+          "Issue of capital, transfer of securities and other incidental matters",
+          "Only appointment of directors",
+          "Only employee salaries"
+        ],
+        answer: 2,
+        reason: "Section 11A empowers SEBI to specify matters relating to issue of capital, transfer of securities and other matters incidental thereto, along with the manner of disclosure."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_08_Q2",
+        question: "SEBI may, by general or special orders, prohibit a company from issuing:",
+        options: [
+          "Only annual reports",
+          "Prospectus, offer document or advertisement soliciting money from the public for issue of securities",
+          "Only internal management reports",
+          "Only dividend warrants"
+        ],
+        answer: 2,
+        reason: "Section 11A permits SEBI to prohibit issuance of prospectus, offer document or advertisement soliciting money from the public for an issue of securities."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_08_Q3",
+        question: "Where a prospectus or offer document is not prohibited, SEBI may:",
+        options: [
+          "Specify conditions subject to which it may be issued",
+          "Transfer ownership of the company",
+          "Appoint the company's auditors",
+          "Fix the company's employee salaries"
+        ],
+        answer: 1,
+        reason: "Section 11A permits SEBI to specify conditions subject to which a prospectus, offer document or advertisement may be issued."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_08_Q4",
+        question: "SEBI may specify requirements relating to:",
+        options: [
+          "Listing and transfer of securities",
+          "Only income-tax refunds",
+          "Only employment contracts",
+          "Only bank lending rates"
+        ],
+        answer: 1,
+        reason: "Section 11A expressly empowers SEBI to specify requirements for listing and transfer of securities and related matters."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_08_Q5",
+        question: "The primary purpose of SEBI exercising powers under Section 11A is:",
+        options: [
+          "To increase company profits",
+          "To protect investors",
+          "To control monetary policy",
+          "To replace stock exchanges"
+        ],
+        answer: 2,
+        reason: "Section 11A empowers SEBI to take measures for the protection of investors in relation to issue of securities and related disclosures."
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 9
+  // Topics: Section 11B, Directions, Disgorgement,
+  //          Cease and Desist
+  // Difficulty: Hard
+  // =========================================================
+
+  {
+    case_id: "SEBI_CH1_CS_09",
+    chapter: "SEBI Act, 1992",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Orion Financial Services was a registered intermediary providing services to investors in the securities market. SEBI received several complaints alleging that the intermediary had been conducting its affairs in a manner detrimental to investors. An inquiry was initiated, during which SEBI discovered that the intermediary had failed to follow certain regulatory requirements and had undertaken transactions that appeared to benefit connected persons at the expense of investors.</p>
+
+      <p>SEBI considered whether directions should be issued against the intermediary. The Board concluded that intervention was necessary not only to protect investors but also to ensure the orderly development of the securities market and proper management of the intermediary.</p>
+
+      <p>During the proceedings, SEBI found that one individual had earned ₹8 crore as a result of transactions carried out in contravention of the securities laws. The individual argued that because the transaction itself had already been completed, SEBI could not require him to surrender the benefit obtained from the violation.</p>
+
+      <p>SEBI also received evidence indicating that another person was likely to continue engaging in a prohibited activity. The person had not yet completed the proposed transaction but had taken substantial steps towards it.</p>
+
+      <p>The Board considered whether a cease-and-desist order could be issued in relation to conduct that had already occurred or was likely to occur. The legal team also examined the special limitation applicable to listed public companies and public companies intending to list their securities.</p>
+
+      <p>After considering the material available, SEBI decided to issue appropriate directions and separately considered whether disgorgement of wrongful gain was necessary.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_09_Q1",
+        question: "Under Section 11B, SEBI may issue directions where necessary, among other purposes, to:",
+        options: [
+          "Protect investors and ensure orderly development of the securities market",
+          "Determine income-tax liability",
+          "Appoint directors of private companies",
+          "Set monetary policy"
+        ],
+        answer: 1,
+        reason: "Section 11B enables SEBI to issue directions in the interests of investors, orderly development of the securities market, prevention of detrimental conduct and proper management of intermediaries/persons covered by the provision."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_09_Q2",
+        question: "The power to issue directions under Section 11B includes the power to direct a person who made wrongful gain to:",
+        options: [
+          "Retain the entire gain",
+          "Disgorge an amount equivalent to the wrongful gain or loss averted",
+          "Transfer the gain to the company only",
+          "Pay the gain to another investor chosen by him"
+        ],
+        answer: 2,
+        reason: "Section 11B clarifies that the power to issue directions includes the power to direct a person who made profit or averted loss through contravention to disgorge an amount equivalent to the wrongful gain or loss averted."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_09_Q3",
+        question: "Cease-and-desist proceedings under Section 11D may be initiated where SEBI finds that a person:",
+        options: [
+          "Has violated or is likely to violate the Act, rules or regulations",
+          "Has merely suffered a financial loss",
+          "Has changed its registered office",
+          "Has declared a dividend"
+        ],
+        answer: 1,
+        reason: "Section 11D allows SEBI, after inquiry, to pass an order requiring a person to cease and desist where the person has violated or is likely to violate the Act, rules or regulations."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_09_Q4",
+        question: "In relation to a listed public company or a public company intending to list, Section 11D contains a special restriction on cease-and-desist orders unless SEBI has reasonable grounds to believe that the company has indulged in:",
+        options: [
+          "Insider trading or market manipulation",
+          "Failure to pay salaries",
+          "A decline in sales",
+          "A change in auditors"
+        ],
+        answer: 1,
+        reason: "Section 11D contains a special restriction for listed public companies and public companies intending to list, unless SEBI has reasonable grounds to believe that the company has indulged in insider trading or market manipulation."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_09_Q5",
+        question: "The disgorged amount referred to in the case is generally credited to:",
+        options: [
+          "The Consolidated Fund of India",
+          "Investor Protection and Education Fund established by SEBI",
+          "The personal account of the investor",
+          "The company's share capital account"
+        ],
+        answer: 2,
+        reason: "The amount disgorged pursuant to the relevant directions is credited to the Investor Protection and Education Fund established by SEBI and utilised in accordance with applicable regulations."
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 10
+  // Topics: Section 12 Registration of Intermediaries,
+  //          Suspension/Cancellation
+  // Difficulty: Medium
+  // =========================================================
+
+  {
+    case_id: "SEBI_CH1_CS_10",
+    chapter: "SEBI Act, 1992",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Prime Merchant Services Limited proposed to enter the securities market as a merchant banker. Its management believed that incorporation under the Companies Act and commencement of business would be sufficient to enable it to provide securities-market services.</p>
+
+      <p>The company's compliance officer explained that Section 12 of the SEBI Act imposes a separate regulatory requirement on specified intermediaries. Persons such as stock brokers, share transfer agents, bankers to an issue, trustees of trust deeds, registrars to an issue, merchant bankers, underwriters, portfolio managers and investment advisers are required to obtain a certificate of registration from SEBI and must operate in accordance with the conditions of that certificate.</p>
+
+      <p>The company also examined whether other categories of market participants, including depositories, participants, custodians of securities and credit rating agencies, are covered by the registration framework. The compliance officer confirmed that SEBI may specify such persons by notification.</p>
+
+      <p>Prime Merchant Services submitted an application for registration along with the prescribed fee. After registration, the company commenced operations. Several months later, SEBI discovered serious violations of the conditions attached to its certificate.</p>
+
+      <p>The company received a notice proposing suspension or cancellation of its registration. The management argued that SEBI could cancel the certificate immediately without hearing the company because the violations were serious.</p>
+
+      <p>The compliance officer disagreed and pointed out that the statutory framework provides procedural protection before an order of suspension or cancellation is made.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_10_Q1",
+        question: "A merchant banker intending to operate in the securities market must generally:",
+        options: [
+          "Only incorporate a company",
+          "Obtain a certificate of registration from SEBI",
+          "Obtain approval only from RBI",
+          "Obtain approval only from shareholders"
+        ],
+        answer: 2,
+        reason: "Section 12 requires specified securities-market intermediaries, including merchant bankers, to obtain a certificate of registration from SEBI."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_10_Q2",
+        question: "Which of the following is specifically included among persons requiring registration under Section 12?",
+        options: [
+          "Ordinary retail investors",
+          "Stock brokers",
+          "Employees of listed companies generally",
+          "All shareholders"
+        ],
+        answer: 2,
+        reason: "Stock brokers are expressly included among the intermediaries required to obtain a certificate of registration under Section 12."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_10_Q3",
+        question: "SEBI may notify additional categories of persons required to obtain registration, including:",
+        options: [
+          "Depositories, participants and custodians of securities",
+          "Every employee of a company",
+          "Every individual investor",
+          "Every creditor of a company"
+        ],
+        answer: 1,
+        reason: "Section 12 also covers depositories, participants, custodians of securities, foreign institutional investors, credit rating agencies and other intermediaries specified by SEBI through notification."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_10_Q4",
+        question: "An application for registration under Section 12 is made:",
+        options: [
+          "In the manner prescribed by regulations and on payment of prescribed fees",
+          "Only orally before the Board",
+          "Only through the stock exchange",
+          "Without any fee"
+        ],
+        answer: 1,
+        reason: "Section 12 provides that every application for registration shall be made in the prescribed manner and on payment of fees determined by regulations."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_10_Q5",
+        question: "Before suspension or cancellation of a certificate of registration, the concerned person must generally be given:",
+        options: [
+          "An opportunity to purchase additional shares",
+          "A reasonable opportunity of being heard",
+          "Automatic immunity",
+          "Permission from every investor"
+        ],
+        answer: 2,
+        reason: "Section 12 provides that no order of suspension or cancellation shall be made unless the person concerned has been given a reasonable opportunity of being heard."
+      }
+    ]
+  },
+
+  // =========================================================
+  // CASE SCENARIO 11
+  // Topics:
+  // Section 11AA - Collective Investment Scheme
+  // Conditions + Exceptions
+  // Difficulty: Medium-Hard
+  // =========================================================
+
+  {
+    case_id: "SEBI_CH1_CS_11",
+    chapter: "SEBI Act, 1992",
+    difficulty: "medium-hard",
+
+    caseText: `
+      <p>GreenHarvest Ventures Limited introduced an investment arrangement under which thousands of investors were invited to contribute money for acquiring and developing agricultural land. The company assured investors that their contributions would be pooled and utilised for the development of the land and that investors would receive a share of the profits generated from the agricultural activities.</p>
+
+      <p>The entire land portfolio was managed by GreenHarvest. Individual investors were not involved in the day-to-day management of the agricultural projects. Instead, the company appointed professional managers who took decisions regarding cultivation, leasing, sale of produce and utilisation of the pooled funds.</p>
+
+      <p>Investors were told that they would receive returns based on the profits generated by the overall agricultural portfolio. No investor had independent control over the management or operation of the arrangement. The company argued that because individual investors received certificates showing their contribution, the arrangement could not be regarded as a collective investment scheme.</p>
+
+      <p>SEBI examined the arrangement in light of Section 11AA. The Board observed that the substance of the arrangement was more important than the terminology used by the company. The contributions were pooled, the investors expected profits or income from the arrangement, the property and investments were managed on behalf of investors, and investors had no day-to-day control over management and operation.</p>
+
+      <p>GreenHarvest subsequently argued that certain statutory arrangements are expressly excluded from the definition of a collective investment scheme. It referred to cooperative societies, insurance contracts, certain pension schemes, deposits accepted under specified laws, chit businesses and subscriptions to mutual funds.</p>
+
+      <p>The company also claimed that because its scheme involved agricultural land rather than securities, SEBI could not examine it as a collective investment arrangement. SEBI rejected the argument and focused on the statutory conditions governing a collective investment scheme.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_11_Q1",
+        question: "Which combination most appropriately satisfies the conditions of a collective investment scheme under Section 11AA(2)?",
+        options: [
+          "Pooling of contributions, expectation of profits/income, management on behalf of investors and absence of day-to-day investor control",
+          "Only pooling of money",
+          "Only investment in listed securities",
+          "Only receipt of fixed interest from a bank"
+        ],
+        answer: 1,
+        reason: "Section 11AA(2) requires the specified conditions, including pooling of contributions, expectation of profits/income/produce/property, management on behalf of investors and absence of day-to-day control."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_11_Q2",
+        question: "The fact that GreenHarvest called the arrangement an 'agricultural participation plan' would:",
+        options: [
+          "Automatically exclude it from CIS",
+          "Automatically make it a mutual fund",
+          "Not by itself determine whether it is a CIS",
+          "Make SEBI's jurisdiction impossible"
+        ],
+        answer: 3,
+        reason: "The statutory test depends on the nature and substance of the scheme and satisfaction of the prescribed conditions, not merely the name given to it."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_11_Q3",
+        question: "Which of the following is expressly excluded from the definition of CIS under Section 11AA(3)?",
+        options: [
+          "Every private investment arrangement",
+          "A contract of insurance to which the Insurance Act applies",
+          "Every agricultural scheme",
+          "Every real estate arrangement"
+        ],
+        answer: 2,
+        reason: "Section 11AA(3) specifically excludes a contract of insurance to which the Insurance Act, 1938 applies."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_11_Q4",
+        question: "Which fact in the case most strongly supports the conclusion that the arrangement satisfies Section 11AA(2)?",
+        options: [
+          "Investors independently managed their individual plots every day",
+          "Investors had no day-to-day control and the property was managed on their behalf",
+          "Investors received certificates",
+          "The company used the word 'agriculture'"
+        ],
+        answer: 2,
+        reason: "Absence of day-to-day control by investors and management of the property/investment on behalf of investors are express statutory conditions."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_11_Q5",
+        question: "Under Section 11AA, an unregistered pooling arrangement involving a corpus of ₹100 crore or more may be:",
+        options: [
+          "Deemed to be a collective investment scheme, subject to the statutory provision",
+          "Automatically treated as a mutual fund",
+          "Automatically exempt from SEBI",
+          "Treated as a bank deposit"
+        ],
+        answer: 1,
+        reason: "Section 11AA provides that an unregistered or otherwise uncovered pooling arrangement involving a corpus of ₹100 crore or more shall be deemed to be a collective investment scheme."
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 12
+  // Topics:
+  // Section 11C - Investigation
+  // Preservation of records
+  // Six-month custody
+  // Examination on oath
+  // Seizure / Magistrate
+  // Difficulty: Hard
+  // =========================================================
+
+  {
+    case_id: "SEBI_CH1_CS_12",
+    chapter: "SEBI Act, 1992",
+    difficulty: "hard",
+
+    caseText: `
+      <p>SEBI received information indicating that Apex Securities Limited, a registered intermediary, had executed a series of suspicious transactions shortly before a sharp movement in the price of securities of a listed company. Several accounts connected with persons associated with Apex appeared to have traded in unusually large quantities.</p>
+
+      <p>SEBI formed a reasonable belief that the transactions might be detrimental to investors and the securities market and that the intermediary might have violated provisions of the SEBI Act and regulations made thereunder. Accordingly, the Board passed a written order directing an Investigating Authority to investigate the affairs of Apex Securities and persons associated with the securities market.</p>
+
+      <p>During the investigation, SEBI required the managing director, officers and employees of Apex to preserve and produce books, registers, electronic records, correspondence and other documents relating to the transactions. One senior employee claimed that documents stored electronically were outside the scope of the requirement because the Act referred to books, registers and documents.</p>
+
+      <p>The Investigating Authority also required the managing director to appear personally and answer questions. The managing director initially refused, arguing that an investigation by SEBI was merely administrative and that he could not be examined on oath.</p>
+
+      <p>The Authority retained certain records produced during the investigation. Apex demanded immediate return of all documents. The Investigating Authority explained that the records could ordinarily remain in its custody for six months and could subsequently be called for again if required.</p>
+
+      <p>During the investigation, the Authority discovered evidence suggesting that certain original records might be destroyed or falsified. It therefore considered seeking an order from the Magistrate or Judge of the designated court for entry, search and seizure of the relevant records.</p>
+
+      <p>Apex argued that the Investigating Authority could itself seize all company documents without approaching a court. The Authority examined the statutory procedure before proceeding further.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_12_Q1",
+        question: "SEBI may order an investigation under Section 11C where it has reasonable grounds to believe that:",
+        options: [
+          "Transactions are being dealt with detrimentally to investors/securities market or an intermediary has violated securities laws",
+          "A company has reduced its dividend",
+          "A company has changed its auditor",
+          "A shareholder has sold shares"
+        ],
+        answer: 1,
+        reason: "Section 11C permits investigation where SEBI has reasonable grounds to believe that securities transactions are being dealt with detrimentally to investors/securities market or an intermediary/person associated with the securities market has violated applicable provisions."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_12_Q2",
+        question: "During an investigation, the concerned persons have a duty to:",
+        options: [
+          "Destroy irrelevant records immediately",
+          "Preserve and produce relevant books, registers, documents and records",
+          "Produce records only after criminal conviction",
+          "Produce only physical documents"
+        ],
+        answer: 2,
+        reason: "Section 11C requires specified persons to preserve and produce books, registers, documents and records in their custody or power. The obligation is not limited merely to physical records."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_12_Q3",
+        question: "The Investigating Authority may ordinarily keep produced books, registers and documents in its custody for:",
+        options: [
+          "30 days only",
+          "Three months only",
+          "Six months, subject to the statutory provision for calling them again",
+          "An unlimited period in every case"
+        ],
+        answer: 3,
+        reason: "Section 11C provides that the Investigating Authority may keep such records in custody for six months, after which they should be returned, though they may be called for again if needed."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_12_Q4",
+        question: "The Investigating Authority may examine a manager, managing director, officer or employee:",
+        options: [
+          "Only informally",
+          "On oath in relation to the affairs of the business",
+          "Only after a court convicts the person",
+          "Only with shareholder approval"
+        ],
+        answer: 2,
+        reason: "Section 11C specifically empowers the person directed to make an investigation to examine relevant persons on oath and require them to appear personally."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_12_Q5",
+        question: "Where the Investigating Authority reasonably believes that records may be destroyed, mutilated, altered, falsified or secreted, seizure may be authorised by:",
+        options: [
+          "Any shareholder",
+          "The company's auditor",
+          "A Magistrate or Judge of the designated court, upon application",
+          "The stock exchange's compliance officer"
+        ],
+        answer: 3,
+        reason: "Under Section 11C, where the prescribed grounds exist, the Investigating Authority may apply to the Magistrate or Judge of the designated court for an order authorising entry, search and seizure."
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 13
+  // Topics:
+  // Section 15A, 15B, 15C, 15F
+  // Penalties for defaults
+  // Difficulty: Medium-Hard
+  // =========================================================
+
+  {
+    case_id: "SEBI_CH1_CS_13",
+    chapter: "SEBI Act, 1992",
+    difficulty: "medium-hard",
+
+    caseText: `
+      <p>BrightTrade Securities Limited is a registered stock broker and intermediary. During a regulatory inspection, SEBI identified several independent compliance failures. The broker had delayed filing a regulatory return beyond the prescribed time and had also failed to maintain certain books and records in the required manner.</p>
+
+      <p>In another matter, BrightTrade had onboarded several clients but failed to enter into the required agreements with some of them. The compliance team argued that because the clients had already started trading and no monetary loss had been reported, the absence of the agreements should not attract a statutory penalty.</p>
+
+      <p>SEBI had also received investor complaints against BrightTrade. The Board issued a written communication requiring the intermediary to redress the grievances within the specified period. The broker failed to resolve the grievances within that period.</p>
+
+      <p>Separately, BrightTrade had failed to deliver certain securities to investors within the prescribed time. In another transaction, the broker charged brokerage exceeding the brokerage permitted under the applicable regulations.</p>
+
+      <p>The management argued that all these failures should be treated as minor procedural lapses. SEBI examined each default under the relevant penalty provisions of the SEBI Act, including the provisions relating to failure to furnish information, failure to enter into client agreements, failure to redress investor grievances and defaults by stock brokers.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_13_Q1",
+        question: "Failure to furnish a required document, return or report, or furnishing false/incomplete information, may attract penalty under:",
+        options: [
+          "Section 15A",
+          "Section 15Z",
+          "Section 26A",
+          "Section 32"
+        ],
+        answer: 1,
+        reason: "Section 15A deals with failure to furnish documents, returns or reports, filing false/incorrect/incomplete information and failure to maintain books and records."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_13_Q2",
+        question: "Failure by a registered intermediary to enter into an agreement with its client, where such agreement is required, attracts penalty under:",
+        options: [
+          "Section 15B",
+          "Section 15C",
+          "Section 15G",
+          "Section 15H"
+        ],
+        answer: 1,
+        reason: "Section 15B specifically provides penalty for failure by a registered intermediary to enter into the required agreement with clients."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_13_Q3",
+        question: "Where a listed company or registered intermediary fails to redress investor grievances after being called upon by SEBI in writing, the relevant provision is:",
+        options: [
+          "Section 15A",
+          "Section 15C",
+          "Section 15E",
+          "Section 15HB"
+        ],
+        answer: 2,
+        reason: "Section 15C deals specifically with failure to redress investor grievances within the time specified by SEBI after being called upon in writing."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_13_Q4",
+        question: "A stock broker failing to deliver securities or make payment due to an investor in the manner prescribed may attract penalty under:",
+        options: [
+          "Section 15F",
+          "Section 15G",
+          "Section 15H",
+          "Section 15J"
+        ],
+        answer: 1,
+        reason: "Section 15F provides penalties for specified defaults by stock brokers, including failure to deliver securities or make payment due to investors."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_13_Q5",
+        question: "Where a stock broker charges brokerage exceeding the specified brokerage, the penalty may extend to:",
+        options: [
+          "The amount of brokerage charged",
+          "Five times the amount of brokerage charged in excess of the specified brokerage, subject to the statutory minimum",
+          "₹1,000 only",
+          "Three times the broker's annual turnover"
+        ],
+        answer: 2,
+        reason: "Section 15F provides that for charging excess brokerage, the penalty may extend to five times the amount of brokerage charged in excess of the specified brokerage, subject to the statutory provision."
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 14
+  // Topics:
+  // Section 15G - Insider Trading
+  // Section 12A
+  // UPSI
+  // Difficulty: Hard
+  // =========================================================
+
+  {
+    case_id: "SEBI_CH1_CS_14",
+    chapter: "SEBI Act, 1992",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Orion Technologies Limited was a listed company preparing to announce a major acquisition. The transaction was expected to significantly alter the company's financial position and business strategy. Before the public announcement, the information was known only to a small group consisting of senior management, legal advisers, investment bankers and certain professional consultants.</p>
+
+      <p>Arjun, a senior employee of Orion, became aware of the proposed acquisition before it was publicly disclosed. He discussed the matter with his close friend Ravi, who was not connected with Orion. Ravi asked Arjun whether he should purchase shares of Orion before the announcement. Arjun did not expressly instruct Ravi to buy the shares but indicated that the acquisition would have a major positive impact on the company.</p>
+
+      <p>Ravi purchased a substantial number of shares shortly before the acquisition was announced. After the announcement, the market price increased significantly and Ravi sold the shares at a substantial profit.</p>
+
+      <p>During the investigation, SEBI discovered that Arjun himself had not purchased any shares. Arjun argued that he could not have violated the insider trading provisions because he had not personally traded in the securities and had not received any monetary benefit.</p>
+
+      <p>SEBI also discovered that another employee, Meera, had directly communicated unpublished price-sensitive information to an external person who had requested the information. Meera argued that no transaction had occurred at the time of communication and therefore there could be no violation.</p>
+
+      <p>A third employee had advised a relative to purchase securities while possessing unpublished price-sensitive information. The relative subsequently traded in the securities.</p>
+
+      <p>The Board examined the conduct under Section 12A and the penalty provisions relating to insider trading.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_14_Q1",
+        question: "Which of the following conduct by Arjun may attract the insider trading provision even though he did not personally trade?",
+        options: [
+          "Communicating UPSI to another person who trades on it",
+          "Reading an annual report",
+          "Holding shares purchased years earlier",
+          "Attending an ordinary board meeting"
+        ],
+        answer: 1,
+        reason: "Section 15G covers communication of unpublished price-sensitive information except where permitted in the ordinary course of business or under law. Personal trading by the insider is not the only prohibited conduct."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_14_Q2",
+        question: "Meera's argument that communication is not prohibited unless the recipient actually trades is:",
+        options: [
+          "Correct in all circumstances",
+          "Incorrect because communication of UPSI itself may attract the statutory prohibition",
+          "Correct if the recipient is a friend",
+          "Correct if no profit is made"
+        ],
+        answer: 2,
+        reason: "Section 15G includes communication of UPSI to any person, except as required in the ordinary course of business or under law."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_14_Q3",
+        question: "Advising or procuring another person to trade on the basis of UPSI may attract:",
+        options: [
+          "Only company-law consequences",
+          "The insider trading penalty under Section 15G",
+          "Only a tax penalty",
+          "No consequence if the insider does not personally trade"
+        ],
+        answer: 2,
+        reason: "Section 15G expressly covers counselling or procuring another person to deal in securities on the basis of unpublished price-sensitive information."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_14_Q4",
+        question: "The maximum monetary penalty under Section 15G is linked to:",
+        options: [
+          "₹1 lakh only",
+          "₹10 lakh only",
+          "₹25 crore or three times the profits made from insider trading, whichever is higher",
+          "₹50,000 per transaction"
+        ],
+        answer: 3,
+        reason: "Section 15G provides a penalty of not less than ₹10 lakh, extendable to ₹25 crore or three times the amount of profits made from insider trading, whichever is higher."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_14_Q5",
+        question: "Which statutory provision generally prohibits dealing in securities while in possession of material or non-public information in contravention of the Act or regulations?",
+        options: [
+          "Section 12A",
+          "Section 15C",
+          "Section 26A",
+          "Section 29"
+        ],
+        answer: 1,
+        reason: "Section 12A prohibits, among other things, dealing in securities while in possession of material or non-public information in contravention of the Act, rules or regulations."
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 15
+  // Topics:
+  // Section 15H - Takeover / Substantial Acquisition
+  // Section 12A
+  // Difficulty: Hard
+  // =========================================================
+
+  {
+    case_id: "SEBI_CH1_CS_15",
+    chapter: "SEBI Act, 1992",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Vertex Holdings Limited had been closely monitoring the shareholding pattern of Alpha Manufacturing Limited, a listed company. Vertex initially held a modest percentage of Alpha's equity shares. Over a period of several months, Vertex and persons acting in coordination with it gradually acquired additional shares.</p>
+
+      <p>The acquisition eventually crossed the threshold at which the takeover regulations required the acquirer to comply with specified obligations. Vertex's management was aware that the acquisition would materially increase its influence over Alpha, but it believed that the purchases could be completed through multiple small transactions without triggering takeover obligations.</p>
+
+      <p>After crossing the relevant threshold, Vertex did not make the required public announcement. It also failed to make the public offer and did not send the required letter of offer to the shareholders. When the matter was raised, Vertex argued that because each individual purchase was below the relevant threshold, no single transaction created an obligation.</p>
+
+      <p>SEBI examined the aggregate acquisition and the applicable takeover requirements. The Board also considered whether Vertex had complied with disclosure obligations relating to its aggregate shareholding before acquiring additional shares.</p>
+
+      <p>Vertex subsequently argued that the acquisition had not caused any loss to shareholders because the market price of Alpha's shares increased after the acquisition. SEBI rejected the argument that absence of immediate monetary loss automatically eliminates liability for failure to comply with takeover requirements.</p>
+
+      <p>The matter was considered in light of the prohibition on substantial acquisition of securities or control in contravention of the applicable regulations and the penalty provisions under Section 15H.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_15_Q1",
+        question: "The conduct described in the case primarily concerns:",
+        options: [
+          "Substantial acquisition of shares and takeover obligations",
+          "Audit rotation",
+          "Income-tax assessment",
+          "Corporate insolvency"
+        ],
+        answer: 1,
+        reason: "The facts concern acquisition of shares, crossing takeover-related thresholds, public announcement, public offer and related disclosures."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_15_Q2",
+        question: "Under Section 12A, a person is prohibited from:",
+        options: [
+          "Acquiring control or securities beyond the prescribed percentage in contravention of takeover regulations",
+          "Holding shares for more than one year",
+          "Selling shares through a stock exchange",
+          "Buying government securities"
+        ],
+        answer: 1,
+        reason: "Section 12A prohibits acquiring control of a company or securities beyond the prescribed percentage of equity share capital in contravention of regulations made under the Act."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_15_Q3",
+        question: "Which failure specifically falls within Section 15H?",
+        options: [
+          "Failure to make a public announcement to acquire shares at the minimum price",
+          "Failure to conduct an annual general meeting",
+          "Failure to appoint an internal auditor",
+          "Failure to pay GST"
+        ],
+        answer: 1,
+        reason: "Section 15H covers failure to make a required public announcement to acquire shares at the minimum price, among other takeover-related defaults."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_15_Q4",
+        question: "Vertex's argument that every individual acquisition was below the threshold should be examined in light of:",
+        options: [
+          "The applicable takeover regulations and aggregate shareholding/acquisition requirements",
+          "Only the company's articles",
+          "Only the Income-tax Act",
+          "Only the contract between Vertex and its broker"
+        ],
+        answer: 1,
+        reason: "Takeover obligations are determined with reference to the applicable regulatory framework, including relevant aggregate acquisition and shareholding requirements, rather than simply isolating transactions."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_15_Q5",
+        question: "The penalty under Section 15H may extend to:",
+        options: [
+          "₹1 lakh only",
+          "₹10 lakh or ₹25 crore/three times the profits made out of the failure, whichever is higher, subject to the statutory formulation",
+          "₹50,000 only",
+          "The amount of share capital of the target company"
+        ],
+        answer: 2,
+        reason: "Section 15H provides a minimum penalty of ₹10 lakh and a maximum linked to ₹25 crore or three times the amount of profits made out of the failure, whichever is higher."
+      }
+    ]
+  },
+
+  // =========================================================
+  // CASE SCENARIO 16
+  // Topics:
+  // Section 15E - AMC
+  // Section 15EA - AIF, InvIT, REIT
+  // Section 15EB - Investment Adviser / Research Analyst
+  // Difficulty: Hard
+  // =========================================================
+
+  {
+    case_id: "SEBI_CH1_CS_16",
+    chapter: "SEBI Act, 1992",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Nova Asset Management Group operated through several entities involved in different segments of the securities market. Its mutual fund business was managed by Nova Asset Management Company, which was registered with SEBI. The company had adopted internal policies governing the activities of its asset management division, including restrictions prescribed under the applicable SEBI regulations.</p>
+
+      <p>During a regulatory inspection, SEBI found that the asset management company had undertaken certain activities in a manner inconsistent with the restrictions applicable to asset management companies. The compliance department argued that the deviations were internal operational matters and should not attract a statutory penalty because the mutual fund itself remained registered with SEBI.</p>
+
+      <p>In another part of the group, Nova Infrastructure Fund operated as an alternative investment fund. SEBI found that the fund had failed to comply with certain applicable regulatory requirements and had also failed to follow a direction issued by SEBI.</p>
+
+      <p>The group also operated a registered investment advisory business. One of its investment advisers failed to comply with certain regulatory requirements applicable to investment advisers. Separately, a research analyst associated with the group failed to comply with a direction issued by SEBI.</p>
+
+      <p>The group argued that because no investor had filed a complaint and the entities had not been accused of insider trading or fraudulent trading, the penalty provisions should not apply. SEBI examined the specific provisions applicable to asset management companies, alternative investment funds, infrastructure investment trusts, real estate investment trusts, investment advisers and research analysts.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_16_Q1",
+        question: "Failure by an asset management company of a mutual fund to comply with regulations providing restrictions on its activities is primarily covered by:",
+        options: [
+          "Section 15E",
+          "Section 15G",
+          "Section 15H",
+          "Section 15Z"
+        ],
+        answer: 1,
+        reason: "Section 15E specifically deals with failure by an asset management company of a mutual fund to comply with regulations providing restrictions on its activities."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_16_Q2",
+        question: "Section 15EA applies to defaults relating to:",
+        options: [
+          "Only stock brokers",
+          "AIFs, InvITs and REITs",
+          "Only listed companies",
+          "Only mutual funds"
+        ],
+        answer: 2,
+        reason: "Section 15EA deals with failures to comply with regulations or directions relating to alternative investment funds, infrastructure investment trusts and real estate investment trusts."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_16_Q3",
+        question: "For a default covered by Section 15EA, the penalty may extend to:",
+        options: [
+          "₹1 lakh only",
+          "₹1 crore only in every case",
+          "₹1 crore or three times the gains made out of the failure, whichever is higher, subject to the statutory formulation",
+          "₹10,000"
+        ],
+        answer: 3,
+        reason: "Section 15EA provides a penalty which may extend to ₹1 lakh per day subject to a maximum of ₹1 crore or three times the amount of gains made out of such failure, whichever is higher."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_16_Q4",
+        question: "Failure by an investment adviser to comply with SEBI regulations or directions is covered by:",
+        options: [
+          "Section 15EB",
+          "Section 15B",
+          "Section 15F",
+          "Section 15J"
+        ],
+        answer: 1,
+        reason: "Section 15EB specifically covers defaults by investment advisers and research analysts."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_16_Q5",
+        question: "Which statement is most appropriate regarding the group's argument that absence of investor complaints prevents penalty?",
+        options: [
+          "Correct, because SEBI can act only after a complaint",
+          "Correct, if no investor suffered a loss",
+          "Incorrect, because the relevant penalty provisions may apply upon contravention of the specified regulatory requirements",
+          "Correct, unless the company is listed"
+        ],
+        answer: 3,
+        reason: "The statutory penalty provisions are triggered by specified regulatory defaults; an investor complaint or actual investor loss is not necessarily a prerequisite."
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 17
+  // Topics:
+  // Section 15HAA
+  // Electronic records
+  // Regulatory database
+  // Difficulty: Hard
+  // =========================================================
+
+  {
+    case_id: "SEBI_CH1_CS_17",
+    chapter: "SEBI Act, 1992",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Alpha Exchange Services maintained extensive electronic records relating to securities transactions, regulatory filings and communications with market intermediaries. SEBI commenced an investigation into suspected manipulation of certain securities and required the company to preserve relevant electronic records.</p>
+
+      <p>Before the investigation was completed, the company's information technology administrator, acting on instructions from a senior executive, deleted several electronic files that contained transaction-related information. The executive later claimed that the files were deleted as part of routine data-cleaning and that no physical document had been destroyed.</p>
+
+      <p>During the investigation, another employee accessed SEBI's regulatory database without authorisation and copied certain regulatory data to an external storage device. The employee argued that because the data was electronic and not physical property, downloading it could not constitute a statutory violation.</p>
+
+      <p>In a separate incident, a person associated with the company introduced a computer contaminant into a system database, resulting in a temporary trading halt. The person claimed that the incident was accidental and that no securities were permanently lost.</p>
+
+      <p>SEBI examined whether the conduct amounted to alteration, destruction, concealment or falsification of records, unauthorised access or extraction of regulatory data, introduction of computer contaminants, or disruption of the regulatory database.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_17_Q1",
+        question: "Knowingly altering, destroying, mutilating, concealing or falsifying records to impede an investigation may attract:",
+        options: [
+          "Section 15HAA",
+          "Section 15C",
+          "Section 15F",
+          "Section 24A"
+        ],
+        answer: 1,
+        reason: "Section 15HAA specifically covers specified acts involving information, records and documents, including electronic records, when done knowingly to impede, obstruct or influence investigation, inquiry, audit or inspection."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_17_Q2",
+        question: "Section 15HAA applies to:",
+        options: [
+          "Only physical registers",
+          "Only paper-based records",
+          "Information, records and documents including electronic records, as specified",
+          "Only share certificates"
+        ],
+        answer: 3,
+        reason: "Section 15HAA expressly includes electronic records within its scope."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_17_Q3",
+        question: "Unauthorised downloading, extracting, copying or reproducing regulatory data maintained in the system database may constitute:",
+        options: [
+          "A permitted administrative activity",
+          "An act covered by Section 15HAA",
+          "A matter exclusively under company law",
+          "A takeover violation under Section 15H"
+        ],
+        answer: 2,
+        reason: "Section 15HAA expressly covers unauthorised downloading, extraction, copying or reproduction of regulatory data maintained in the system database."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_17_Q4",
+        question: "Knowingly introducing a computer virus or other computer contaminant into the system database and bringing out a trading halt is:",
+        options: [
+          "Expressly covered under Section 15HAA",
+          "Never covered by SEBI law",
+          "Covered only if all investors lose money",
+          "Covered only under Section 15G"
+        ],
+        answer: 1,
+        reason: "Section 15HAA specifically covers knowingly introducing a computer virus or other computer contaminant into the system database and bringing out a trading halt."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_17_Q5",
+        question: "The maximum penalty under Section 15HAA may extend to:",
+        options: [
+          "₹1 crore",
+          "₹10 crore or three times the amount of profits made out of such act, whichever is higher",
+          "₹25 crore only",
+          "₹5 lakh only"
+        ],
+        answer: 2,
+        reason: "Section 15HAA provides a penalty which may extend to ₹10 crore or three times the amount of profits made out of such act, whichever is higher."
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 18
+  // Topics:
+  // Section 15HB
+  // Residual penalty
+  // Section 15-I
+  // Adjudicating Officer
+  // Difficulty: Hard
+  // =========================================================
+
+  {
+    case_id: "SEBI_CH1_CS_18",
+    chapter: "SEBI Act, 1992",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Zenith Capital Services was a registered intermediary operating in the securities market. During an inspection, SEBI identified a contravention of a provision of the SEBI Act and the regulations made thereunder. The particular provision had been violated, but the legislation did not prescribe a separate monetary penalty for that specific contravention.</p>
+
+      <p>SEBI initiated adjudication proceedings. Zenith argued that no penalty could be imposed because the legislation did not contain a specific penalty provision corresponding exactly to the particular default. The Board examined the residual penalty provision applicable where no separate penalty had been provided.</p>
+
+      <p>SEBI thereafter appointed an officer not below the prescribed rank to act as an adjudicating officer. The officer issued notice to Zenith and provided an opportunity of being heard. During the inquiry, the officer summoned a person who was acquainted with the relevant facts and required production of certain documents considered relevant to the proceedings.</p>
+
+      <p>After considering the evidence, the adjudicating officer concluded that Zenith had failed to comply with the applicable provision and imposed a penalty in accordance with the relevant section.</p>
+
+      <p>Zenith contended that the adjudicating officer had no power to summon witnesses or require documents. It also argued that the penalty should be imposed without considering the benefit obtained by Zenith or the loss suffered by investors.</p>
+
+      <p>The matter required consideration of both the residual penalty provision and the statutory framework governing adjudication and determination of penalty.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_18_Q1",
+        question: "Where a person fails to comply with a provision of the SEBI Act, rules, regulations or directions for which no separate penalty is provided, the relevant provision is:",
+        options: [
+          "Section 15HB",
+          "Section 15G",
+          "Section 15H",
+          "Section 15T"
+        ],
+        answer: 1,
+        reason: "Section 15HB provides the residual penalty where a person fails to comply with a provision for which no separate penalty has been provided."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_18_Q2",
+        question: "For adjudging penalties under specified provisions, SEBI may appoint an adjudicating officer who must be:",
+        options: [
+          "Any private consultant",
+          "An officer not below the prescribed rank of Division Chief",
+          "Only a High Court judge",
+          "Only a stock broker"
+        ],
+        answer: 2,
+        reason: "Section 15-I provides that the Board may appoint an officer not below the rank of Division Chief as an adjudicating officer."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_18_Q3",
+        question: "During adjudication, the adjudicating officer may:",
+        options: [
+          "Summon persons acquainted with the facts and require relevant documents",
+          "Only examine the accused personally",
+          "Impose imprisonment directly",
+          "Dissolve the company"
+        ],
+        answer: 1,
+        reason: "Section 15-I empowers the adjudicating officer to summon persons acquainted with the facts and circumstances and require production of relevant documents."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_18_Q4",
+        question: "Which factor is relevant while determining the quantum of penalty under Section 15J?",
+        options: [
+          "Amount of disproportionate gain or unfair advantage",
+          "Colour of the company's logo",
+          "Number of directors unrelated to the default",
+          "Age of the company's website"
+        ],
+        answer: 1,
+        reason: "Section 15J requires due regard to the disproportionate gain or unfair advantage, loss caused to an investor or group of investors, and repetitive nature of the default."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_18_Q5",
+        question: "Which combination correctly states the factors under Section 15J?",
+        options: [
+          "Gain/unfair advantage, loss caused to investors, repetitive nature of default",
+          "Turnover, number of employees, age of company",
+          "Market capitalisation, dividend rate, auditor's tenure",
+          "Share price, promoter age, office location"
+        ],
+        answer: 1,
+        reason: "Section 15J expressly requires consideration of the amount of disproportionate gain or unfair advantage, loss caused to investors or a group of investors, and repetitive nature of the default."
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 19
+  // Topics:
+  // Section 15JB - Settlement
+  // Administrative and civil proceedings
+  // Settlement amount
+  // Appeal
+  // Difficulty: Hard
+  // =========================================================
+
+  {
+    case_id: "SEBI_CH1_CS_19",
+    chapter: "SEBI Act, 1992",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Mercury Financial Services was facing proceedings before SEBI concerning alleged regulatory defaults. The proceedings involved matters falling within the provisions relating to directions, cease-and-desist proceedings and adjudication. Mercury's management recognised that continuing the proceedings could result in significant litigation costs and uncertainty.</p>
+
+      <p>The company submitted a written application to SEBI proposing settlement of the proceedings. In its application, Mercury offered to pay a specified settlement amount and proposed additional terms intended to address the regulatory concerns identified by SEBI.</p>
+
+      <p>SEBI examined the nature, gravity and impact of the alleged defaults. After considering the proposal and the applicable settlement framework, the Board agreed to settle the proceedings on specified terms.</p>
+
+      <p>After the settlement order was passed, Mercury attempted to file an appeal before the Securities Appellate Tribunal under Section 15T, arguing that the settlement amount was excessive and that the Board had not accepted all of its arguments.</p>
+
+      <p>SEBI objected to the appeal, pointing out that the SEBI Act specifically addresses the appealability of settlement orders. The company then argued that every order passed by SEBI must necessarily be appealable to SAT.</p>
+
+      <p>The issue also arose regarding the destination of settlement amounts. Mercury argued that every amount paid during settlement should be treated as disgorgement and credited in the same manner as disgorged amounts.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_19_Q1",
+        question: "A person against whom specified proceedings have been initiated or may be initiated may propose settlement by:",
+        options: [
+          "An oral request to any stock broker",
+          "Filing a written application with the Board proposing settlement",
+          "Filing directly before the Supreme Court",
+          "Obtaining approval from all shareholders"
+        ],
+        answer: 2,
+        reason: "Section 15JB permits a person against whom specified proceedings have been initiated or may be initiated to file a written application with the Board proposing settlement."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_19_Q2",
+        question: "While considering a settlement proposal, the Board takes into consideration:",
+        options: [
+          "Nature, gravity and impact of defaults",
+          "Only the company's turnover",
+          "Only the number of shareholders",
+          "Only the market price"
+        ],
+        answer: 1,
+        reason: "Section 15JB specifically provides that the Board may consider the nature, gravity and impact of defaults while agreeing to a settlement proposal."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_19_Q3",
+        question: "An order passed under Section 15JB is:",
+        options: [
+          "Automatically appealable under Section 15T",
+          "Not appealable under Section 15T",
+          "Appealable only to a civil court",
+          "Appealable only to the stock exchange"
+        ],
+        answer: 2,
+        reason: "Section 15JB expressly provides that no appeal shall lie under Section 15T against an order passed by the Board or adjudicating officer under that section."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_19_Q4",
+        question: "Settlement amounts realised under the Act, excluding disgorgement amount and legal costs, are credited to:",
+        options: [
+          "Investor's personal bank accounts",
+          "Consolidated Fund of India",
+          "The stock exchange's reserve",
+          "The company's general reserve"
+        ],
+        answer: 2,
+        reason: "Section 15JB provides that settlement amounts, excluding disgorgement amount and legal costs, realised under the Act are credited to the Consolidated Fund of India."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_19_Q5",
+        question: "Mercury's statement that every amount paid under a settlement is automatically disgorgement is:",
+        options: [
+          "Correct",
+          "Incorrect; the Act distinguishes settlement amounts from disgorgement amounts",
+          "Correct only for listed companies",
+          "Correct only when SEBI conducts an investigation"
+        ],
+        answer: 2,
+        reason: "Section 15JB specifically distinguishes settlement amounts from disgorgement amounts and legal costs for purposes of crediting the amount to the Consolidated Fund of India."
+      }
+    ]
+  },
+
+
+  // =========================================================
+  // CASE SCENARIO 20
+  // Topics:
+  // SAT
+  // Section 15T
+  // Section 15U
+  // Section 15V
+  // Section 15Z
+  // Difficulty: Hard
+  // =========================================================
+
+  {
+    case_id: "SEBI_CH1_CS_20",
+    chapter: "SEBI Act, 1992",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Delta Securities Limited received an adverse order from SEBI following regulatory proceedings. The company believed that the order contained serious errors and decided to challenge it before the Securities Appellate Tribunal. The legal department first examined the statutory limitation period and the powers available to the Tribunal.</p>
+
+      <p>Delta received a copy of the SEBI order on 1 June. Its advisers initially suggested filing an appeal after several months, but another adviser pointed out that the SEBI Act prescribes a specific period for filing an appeal before SAT. Delta eventually prepared its appeal and also considered whether a delay could be condoned if sufficient cause existed.</p>
+
+      <p>During the proceedings before SAT, Delta sought production of documents from SEBI and requested that certain persons be summoned for examination. SEBI argued that SAT was required to follow the exact procedure laid down in the Code of Civil Procedure, 1908 and therefore could not adopt a flexible procedure.</p>
+
+      <p>Delta also decided to appoint a practising Chartered Accountant to present its case before SAT. One director argued that only advocates could represent a party before the Tribunal.</p>
+
+      <p>SAT ultimately passed an order modifying certain portions of the SEBI order. Delta remained dissatisfied and considered approaching the Supreme Court. Its legal advisers explained that an appeal to the Supreme Court is not an unrestricted second appeal on every factual issue and is confined to a question of law.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_20_Q1",
+        question: "An appeal against an order of SEBI or an adjudicating officer under Section 15T is ordinarily required to be filed within:",
+        options: [
+          "15 days",
+          "30 days",
+          "45 days",
+          "180 days"
+        ],
+        answer: 3,
+        reason: "Section 15T provides that an appeal shall be filed within 45 days from the date on which the copy of the relevant order is received."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_20_Q2",
+        question: "SAT may entertain an appeal filed after 45 days where:",
+        options: [
+          "The appellant has sufficient cause for the delay",
+          "The appellant is a listed company",
+          "The appellant requests an extension without reason",
+          "The stock exchange approves the delay"
+        ],
+        answer: 1,
+        reason: "Section 15T permits SAT to entertain an appeal after 45 days if it is satisfied that there was sufficient cause for not filing within the prescribed period."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_20_Q3",
+        question: "SAT is:",
+        options: [
+          "Strictly bound by the entire procedure of the Code of Civil Procedure",
+          "Not bound by the procedure under CPC but guided by principles of natural justice, subject to the Act and rules",
+          "A criminal court only",
+          "A stock exchange committee"
+        ],
+        answer: 2,
+        reason: "Section 15U states that SAT is not bound by the procedure laid down by the CPC but shall be guided by principles of natural justice, subject to the Act and rules."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_20_Q4",
+        question: "Before SAT, a party may authorise which of the following to present its case?",
+        options: [
+          "Only an advocate",
+          "A Chartered Accountant, Company Secretary, Cost Accountant, legal practitioner or its officer, as permitted by Section 15V",
+          "Only a stock broker",
+          "Only a SEBI officer"
+        ],
+        answer: 2,
+        reason: "Section 15V permits an appellant to appear personally or authorise one or more Chartered Accountants, Company Secretaries, Cost Accountants, legal practitioners or officers to present the case."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_20_Q5",
+        question: "An appeal from a decision or order of SAT to the Supreme Court under Section 15Z lies:",
+        options: [
+          "On any factual disagreement whatsoever",
+          "Only on a question of law arising out of the SAT order",
+          "Only with permission of the stock exchange",
+          "Only when the penalty exceeds ₹25 crore"
+        ],
+        answer: 2,
+        reason: "Section 15Z provides for an appeal to the Supreme Court within the prescribed period on any question of law arising out of the decision or order of SAT."
+      }
+    ]
+  },
+  // =========================================================
+// CASE SCENARIO 21
+// Topics:
+// Section 3, Section 4, Section 5, Section 6, Section 7,
+// Section 7A, Section 8
+// Difficulty: Medium-Hard
+// =========================================================
+
+{
+  case_id: "SEBI_CH1_CS_21",
+  chapter: "SEBI Act, 1992",
+  difficulty: "medium-hard",
+
+  caseText: `
+    <p>Arvind Rao, a senior professional with extensive experience in securities law and financial markets, was appointed as a member of the Securities and Exchange Board of India. The Central Government also appointed other members to constitute the Board in accordance with the statutory framework. After the appointments, the Board began conducting regular meetings to consider matters relating to regulation of the securities market, investor protection and supervision of market intermediaries.</p>
+
+    <p>At one of the meetings, the Chairman was unable to attend due to an unavoidable reason. The members present therefore selected one member from among themselves to preside over that particular meeting. Several proposals were placed before the Board and voting took place. On one proposal, the votes were equally divided between the members present.</p>
+
+    <p>Meanwhile, one of the members of the Board was also a director of a company. A matter concerning that company came before the Board for consideration. The member had an indirect pecuniary interest in the matter. Although he initially participated in the discussion, another member pointed out the conflict of interest and requested him to disclose the nature of his interest.</p>
+
+    <p>The member thereafter disclosed his interest and the disclosure was recorded in the proceedings. He was then excluded from further deliberation and decision-making on that particular matter.</p>
+
+    <p>During the same period, a vacancy arose in one of the positions on the Board because a member resigned. Certain persons questioned whether decisions taken by the Board after the vacancy were automatically invalid because the Board was no longer constituted exactly as originally appointed.</p>
+
+    <p>Separately, the Central Government examined the tenure of the Chairman and certain whole-time members. It was noted that their appointment orders specified a term within the statutory maximum and that the Chairman was below the prescribed maximum age.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_CH1_CS_21_Q1",
+      question: "If the Chairman is unable to attend a meeting of the Board, who shall preside over the meeting?",
+      options: [
+        "The Central Government Secretary automatically",
+        "Any member chosen by the members present from amongst themselves",
+        "The senior-most officer of SEBI",
+        "The RBI representative compulsorily"
+      ],
+      answer: 2,
+      reason: "Under Section 7, where the Chairman is unable to attend a meeting, any member chosen by the members present from amongst themselves shall preside over the meeting."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_21_Q2",
+      question: "Where there is equality of votes on a question before the Board, the Chairman or presiding member has:",
+      options: [
+        "No further voting right",
+        "A casting vote",
+        "Two ordinary votes",
+        "A right to refer the matter only to the Central Government"
+      ],
+      answer: 2,
+      reason: "Section 7 provides that in case of equality of votes, the Chairman or the presiding member has a second or casting vote."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_21_Q3",
+      question: "In relation to the Board member having an indirect pecuniary interest in a matter, which statement is correct?",
+      options: [
+        "He may participate because he is a Board member",
+        "He must disclose the nature of his interest and shall not participate in deliberation or decision on that matter",
+        "He only needs to disclose the interest after the meeting",
+        "He must automatically resign from SEBI"
+      ],
+      answer: 2,
+      reason: "Section 7A requires disclosure of the nature of the interest and prohibits the member from taking part in deliberation or decision concerning that matter."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_21_Q4",
+      question: "Does a vacancy in the Board automatically invalidate its proceedings?",
+      options: [
+        "Yes, every vacancy invalidates all proceedings",
+        "Yes, unless the Central Government immediately fills the vacancy",
+        "No, a vacancy does not invalidate acts or proceedings of the Board",
+        "Only the Chairman can decide whether proceedings remain valid"
+      ],
+      answer: 3,
+      reason: "Section 8 provides that a vacancy in the Board does not invalidate any act or proceeding of the Board."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_21_Q5",
+      question: "The Chairman and whole-time members may hold office for a period:",
+      options: [
+        "Not exceeding 5 years, subject to the applicable rules and appointment terms",
+        "Exactly 10 years in every case",
+        "For life unless removed",
+        "Only for 1 year and never eligible for reappointment"
+      ],
+      answer: 1,
+      reason: "The Chairman and whole-time members hold office for the period specified in the appointment order, not exceeding five years, and are eligible for reappointment, subject to the statutory age limit."
+    }
+  ]
+},
+
+
+// =========================================================
+// CASE SCENARIO 22
+// Topics:
+// Section 11 - Powers and Functions of SEBI
+// Civil court powers
+// Inspection
+// Information and records
+// Directions
+// Difficulty: Hard
+// =========================================================
+
+{
+  case_id: "SEBI_CH1_CS_22",
+  chapter: "SEBI Act, 1992",
+  difficulty: "hard",
+
+  caseText: `
+    <p>Brightline Securities Ltd. was a listed public company engaged in the manufacture of electronic components. Over a period of several months, unusual trading activity was noticed in the company's shares. The trading volume increased sharply shortly before the company made a significant corporate announcement. SEBI received information suggesting that certain persons connected with the company might have engaged in insider trading and fraudulent and unfair trade practices.</p>
+
+    <p>SEBI decided to examine the company's books, registers and other relevant documents. The company argued that SEBI could inspect only registered intermediaries and had no authority to inspect the records of a listed public company. SEBI rejected this argument and initiated an inspection of the company's records on the basis of reasonable grounds to believe that the company may have been involved in prohibited activities.</p>
+
+    <p>During the inquiry, SEBI also required certain persons to appear and provide information. Some individuals refused to produce books of account and documents, claiming that SEBI did not possess the powers of a civil court. SEBI explained that, for specified matters, it has powers similar to those vested in a civil court under the Code of Civil Procedure.</p>
+
+    <p>As the investigation progressed, SEBI concluded that immediate regulatory action was necessary to protect investors and maintain the orderly functioning of the securities market. It considered suspending trading in the securities, restraining certain persons from accessing the securities market and impounding proceeds connected with transactions under investigation.</p>
+
+    <p>SEBI also considered attaching certain bank accounts. The company argued that SEBI could attach all assets of the company merely because an investigation was pending. SEBI examined the statutory restrictions applicable to such attachment and the requirement of judicial confirmation in the prescribed circumstances.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_CH1_CS_22_Q1",
+      question: "SEBI may inspect books and records of a listed public company where it has reasonable grounds to believe that the company is indulging in:",
+      options: [
+        "Only accounting errors",
+        "Insider trading or fraudulent and unfair trade practices relating to securities",
+        "Only tax evasion",
+        "Only labour law violations"
+      ],
+      answer: 2,
+      reason: "Section 11 empowers SEBI to undertake inspection of books and records of a listed public company where it has reasonable grounds to believe that the company has been indulging in insider trading or fraudulent and unfair trade practices."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_22_Q2",
+      question: "For specified matters, SEBI has powers similar to those vested in:",
+      options: [
+        "A civil court under the Code of Civil Procedure, 1908",
+        "A criminal jury",
+        "A stock exchange committee",
+        "A private arbitrator"
+      ],
+      answer: 1,
+      reason: "Section 11(3) gives SEBI powers similar to those of a civil court under the Code of Civil Procedure, 1908 in specified matters."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_22_Q3",
+      question: "Which of the following is NOT one of the specified powers available to SEBI in this context?",
+      options: [
+        "Summoning and enforcing attendance of persons",
+        "Discovery and production of books and documents",
+        "Examination on oath",
+        "Passing a criminal conviction and imprisonment directly as a civil court"
+      ],
+      answer: 4,
+      reason: "SEBI has specified civil-court-like procedural powers, but it does not thereby become a criminal court empowered to directly impose criminal imprisonment as a civil court."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_22_Q4",
+      question: "Pending investigation, SEBI may, by an order for reasons recorded in writing and in the interests of investors or the securities market:",
+      options: [
+        "Suspend trading of a security",
+        "Automatically dissolve the company",
+        "Cancel all shareholder rights permanently",
+        "Transfer ownership of the company to SEBI"
+      ],
+      answer: 1,
+      reason: "Section 11B empowers SEBI to take measures such as suspension of trading of a security, restraint from accessing the securities market and other specified measures."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_22_Q5",
+      question: "Where SEBI attaches a bank account under the relevant power, the attachment by SEBI is initially for a period not exceeding:",
+      options: [
+        "30 days",
+        "60 days",
+        "90 days",
+        "180 days"
+      ],
+      answer: 3,
+      reason: "The relevant provision permits SEBI to attach, for a period not exceeding 90 days, bank accounts or other property of specified persons involved in violations, subject to the statutory requirement of confirmation by the Special Court within the prescribed period."
+    }
+  ]
+},
+
+
+// =========================================================
+// CASE SCENARIO 23
+// Topics:
+// Section 11AA - Collective Investment Scheme
+// Four conditions
+// Exceptions
+// ₹100 crore deemed CIS
+// Difficulty: Hard
+// =========================================================
+
+{
+  case_id: "SEBI_CH1_CS_23",
+  chapter: "SEBI Act, 1992",
+  difficulty: "hard",
+
+  caseText: `
+    <p>GreenFields Wealth Ventures introduced an investment arrangement under which thousands of investors were invited to contribute money for acquiring and developing agricultural land. The company collected contributions from investors into a common pool and used the pooled funds to acquire and manage properties. Investors were promised a share in the profits generated from the properties.</p>
+
+    <p>The day-to-day management of the properties was undertaken by GreenFields. Individual investors did not have control over the daily management or operation of the properties. The company described the arrangement as a private investment opportunity and argued that it was not a collective investment scheme because the investors received contractual rights relating to specific property units.</p>
+
+    <p>SEBI examined the arrangement under Section 11AA. It found that contributions were pooled, the investors expected profits or income, the property was managed on behalf of the investors and the investors did not have day-to-day control over the management and operation of the arrangement.</p>
+
+    <p>GreenFields further argued that even if the arrangement satisfied these characteristics, it should not be treated as a collective investment scheme because the company had used a different name for the arrangement. SEBI considered whether the legal classification depended on the substance and statutory conditions rather than the label used by the operator.</p>
+
+    <p>In a separate project, another entity operated an unregistered arrangement involving a corpus of more than ₹100 crore. The entity claimed that because it had not called itself a collective investment scheme, the provisions relating to CIS were irrelevant.</p>
+
+    <p>SEBI also considered whether certain regulated arrangements, such as insurance contracts, specified provident fund schemes, mutual fund subscriptions and chit business, fall within the statutory definition of collective investment scheme despite satisfying some characteristics of pooling and investment.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_CH1_CS_23_Q1",
+      question: "Which combination correctly represents the principal conditions under Section 11AA(2)?",
+      options: [
+        "Pooling of contributions, expectation of profits/income/property, management on behalf of investors, and absence of day-to-day investor control",
+        "Only pooling of funds and listing of securities",
+        "Only payment of dividends and appointment of directors",
+        "Only investment in listed shares"
+      ],
+      answer: 1,
+      reason: "Section 11AA(2) specifies the relevant conditions relating to pooling of contributions, expectation of profits/income/produce/property, management on behalf of investors and absence of day-to-day control."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_23_Q2",
+      question: "Whether an arrangement is a CIS depends primarily upon:",
+      options: [
+        "The name given to the arrangement by the operator",
+        "Whether the statutory conditions are satisfied",
+        "Whether investors are wealthy",
+        "Whether the arrangement uses a private contract"
+      ],
+      answer: 2,
+      reason: "The statutory classification depends on whether the conditions specified under Section 11AA are satisfied, rather than merely the label used by the operator."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_23_Q3",
+      question: "An unregistered scheme or arrangement involving a corpus of ₹100 crore or more may be:",
+      options: [
+        "Deemed to be a collective investment scheme, subject to the statutory provision",
+        "Automatically exempt from SEBI",
+        "Automatically treated as a mutual fund",
+        "Outside the SEBI Act"
+      ],
+      answer: 1,
+      reason: "Section 11AA provides that pooling of funds under an unregistered scheme or arrangement not covered by the specified exceptions involving a corpus of ₹100 crore or more shall be deemed to be a collective investment scheme."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_23_Q4",
+      question: "Which of the following is expressly excluded from the definition of collective investment scheme under Section 11AA(3)?",
+      options: [
+        "A contract of insurance to which the Insurance Act applies",
+        "Every private investment arrangement",
+        "Every company receiving equity capital",
+        "Every listed company"
+      ],
+      answer: 1,
+      reason: "A contract of insurance to which the Insurance Act, 1938 applies is one of the statutory exceptions under Section 11AA(3)."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_23_Q5",
+      question: "Which of the following is also excluded under the statutory exceptions to CIS?",
+      options: [
+        "A chit business within the meaning of the Chit Fund Act",
+        "Every real estate investment",
+        "Every venture capital investment",
+        "Every partnership firm"
+      ],
+      answer: 1,
+      reason: "A scheme falling within the meaning of 'chit business' under the Chit Fund Act, 1982 is excluded from the definition of collective investment scheme."
+    }
+  ]
+},
+
+
+// =========================================================
+// CASE SCENARIO 24
+// Topics:
+// Section 11C - Investigation
+// Preservation and production of records
+// Six-month custody
+// Examination on oath
+// Search and seizure
+// Difficulty: Hard
+// =========================================================
+
+{
+  case_id: "SEBI_CH1_CS_24",
+  chapter: "SEBI Act, 1992",
+  difficulty: "hard",
+
+  caseText: `
+    <p>Orion Broking Services was a registered intermediary. SEBI received information indicating that transactions conducted through Orion may have been detrimental to investors and the securities market. There were also indications that certain persons associated with Orion had violated provisions of the SEBI Act and regulations made thereunder.</p>
+
+    <p>SEBI therefore passed an order directing an investigating authority to investigate the affairs of Orion and persons associated with the securities market. The investigating authority required Orion's management and employees to preserve and produce books, registers, documents and records relating to the investigation.</p>
+
+    <p>Orion's compliance head argued that once documents had been produced, SEBI could retain them permanently. The investigating authority explained that the Act permits custody for a specified period and also permits documents to be called for again where necessary. Orion also requested certified copies of documents that had been produced.</p>
+
+    <p>During the investigation, the investigating authority required the managing director and certain officers to appear personally and answer questions. The questions were administered on oath. One officer refused to answer and declined to sign the notes of examination, claiming that he could not be compelled to cooperate with a regulatory investigation.</p>
+
+    <p>Later, the investigating authority formed a reasonable belief that certain books and records might be destroyed, altered or concealed. It therefore considered approaching the designated Magistrate or Judge for an order authorising entry, search and seizure of the relevant documents. Orion argued that SEBI itself could immediately seize all documents without obtaining any judicial authorisation.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_CH1_CS_24_Q1",
+      question: "SEBI may order an investigation under Section 11C where it has reasonable grounds to believe that:",
+      options: [
+        "Transactions are being dealt with detrimentally to investors/securities market or specified persons have violated the Act/rules/regulations/directions",
+        "A company has earned high profits",
+        "A shareholder disagrees with management",
+        "A company's share price has increased"
+      ],
+      answer: 1,
+      reason: "Section 11C provides the grounds for investigation where transactions are being dealt with in a manner detrimental to investors or the securities market, or where specified persons have violated applicable provisions."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_24_Q2",
+      question: "The investigating authority may ordinarily keep books and records produced before it in custody for:",
+      options: [
+        "30 days only",
+        "Six months, subject to the statutory provisions",
+        "Two years in every case",
+        "Permanently"
+      ],
+      answer: 2,
+      reason: "Section 11C provides that the investigating authority may keep the books, registers and other documents and records in its custody for six months, after which they are to be returned, subject to the authority's power to call for them again when needed."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_24_Q3",
+      question: "If the person from whose custody documents were produced requires certified copies, the investigating authority:",
+      options: [
+        "Must refuse in every case",
+        "May provide certified copies as provided by the Act",
+        "Must destroy the originals",
+        "Must transfer the documents to the stock exchange"
+      ],
+      answer: 2,
+      reason: "Section 11C provides for furnishing certified copies of documents produced before the investigating authority where the person concerned requires them."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_24_Q4",
+      question: "During investigation, the investigating authority may examine certain persons:",
+      options: [
+        "Only informally and never on oath",
+        "On oath in relation to the affairs of the business",
+        "Only after SAT approval",
+        "Only if the stock exchange gives permission"
+      ],
+      answer: 2,
+      reason: "Section 11C permits the investigating authority to examine on oath managers, managing directors, officers and other employees or persons associated with the securities market in relation to the affairs of the business."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_24_Q5",
+      question: "Where there are reasonable grounds to believe that relevant books and records may be destroyed, mutilated, altered, falsified or secreted, seizure is undertaken pursuant to:",
+      options: [
+        "An order of the Magistrate or Judge of the designated court as contemplated by Section 11C",
+        "An order of the stock broker",
+        "A shareholder resolution",
+        "An order of the company's auditor"
+      ],
+      answer: 1,
+      reason: "Section 11C provides for an application to the Magistrate or Judge of the designated court for an order authorising entry, search and seizure in the specified circumstances."
+    }
+  ]
+},
+
+
+// =========================================================
+// CASE SCENARIO 25
+// Topics:
+// Section 12 - Registration
+// Section 12A - Prohibited activities
+// Insider trading
+// Fraudulent/deceptive devices
+// Takeover
+// Difficulty: Hard
+// =========================================================
+
+{
+  case_id: "SEBI_CH1_CS_25",
+  chapter: "SEBI Act, 1992",
+  difficulty: "hard",
+
+  caseText: `
+    <p>Vertex Capital Markets operated as a group providing several services in the securities market. One entity within the group proposed to operate as a stock broker, another intended to act as an investment adviser and a third proposed to operate as a merchant banker. The management assumed that because the group had incorporated these entities under the Companies Act, they could immediately begin dealing with securities without obtaining separate regulatory registration.</p>
+
+    <p>The compliance officer informed the management that specified intermediaries associated with the securities market are required to obtain certificates of registration from SEBI and must conduct their activities in accordance with the conditions of such registration.</p>
+
+    <p>At the same time, a senior executive of Vertex obtained unpublished price-sensitive information regarding a proposed acquisition by a listed company. Before the information became public, the executive purchased shares of the company. He also communicated the information to a close associate, who purchased additional shares.</p>
+
+    <p>Separately, another group entity designed a scheme intended to create a misleading appearance of trading activity in a listed security. The management argued that because the trades were technically executed through the stock exchange, they could not constitute a prohibited manipulative or deceptive device.</p>
+
+    <p>In another transaction, the promoters of Vertex sought to acquire control of a listed company and planned to acquire securities beyond the permitted threshold without following the applicable takeover requirements. They argued that the transaction was a private commercial arrangement and therefore SEBI's restrictions would not apply.</p>
+
+    <p>SEBI examined the conduct of the entities and individuals under the registration provisions and the statutory prohibition against manipulative and deceptive devices, insider trading and acquisition of securities or control in contravention of the applicable regulations.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_CH1_CS_25_Q1",
+      question: "A stock broker intending to buy, sell or deal in securities as a regulated intermediary must generally:",
+      options: [
+        "Obtain a certificate of registration from SEBI and comply with its conditions",
+        "Only obtain a GST registration",
+        "Only incorporate a company",
+        "Only obtain permission from one investor"
+      ],
+      answer: 1,
+      reason: "Section 12 requires specified intermediaries such as stock brokers to obtain a certificate of registration from SEBI and comply with the conditions of registration."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_25_Q2",
+      question: "The executive's purchase of shares while possessing unpublished price-sensitive information may constitute:",
+      options: [
+        "Permitted trading merely because the purchase was through a stock exchange",
+        "Insider trading prohibited under the SEBI Act and applicable regulations",
+        "A takeover only",
+        "A CIS activity"
+      ],
+      answer: 2,
+      reason: "Section 12A prohibits insider trading and dealing in securities while in possession of material or non-public information in contravention of the Act and regulations."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_25_Q3",
+      question: "Communication of unpublished price-sensitive information by an insider may be prohibited when:",
+      options: [
+        "It is done contrary to the Act/regulations and is not justified as required in the ordinary course of business or under law",
+        "The recipient is a friend",
+        "The recipient promises not to tell anyone",
+        "The communication occurs after market hours"
+      ],
+      answer: 1,
+      reason: "Section 12A prohibits dealing with or communicating material/non-public information in contravention of the Act or regulations, subject to the statutory exceptions."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_25_Q4",
+      question: "The argument that trades cannot constitute manipulation merely because they were executed through a recognised stock exchange is:",
+      options: [
+        "Correct in every case",
+        "Incorrect, because manipulative or deceptive devices may be prohibited irrespective of the execution mechanism",
+        "Correct if the trades are profitable",
+        "Correct only for promoters"
+      ],
+      answer: 2,
+      reason: "Section 12A prohibits manipulative or deceptive devices and schemes intended to defraud or operate as fraud or deceit in connection with securities."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_25_Q5",
+      question: "Acquiring control of a listed company or securities beyond the prescribed percentage in contravention of takeover regulations is prohibited under:",
+      options: [
+        "Section 12A",
+        "Section 15I only",
+        "Section 24A only",
+        "Section 29"
+      ],
+      answer: 1,
+      reason: "Section 12A prohibits acquiring control of a company or securities beyond the prescribed percentage in contravention of the regulations made under the SEBI Act."
+    }
+  ]
+},
+// =========================================================
+// CASE SCENARIO 26
+// Topics:
+// Section 11B - Directions and Disgorgement
+// Section 11D - Cease and Desist
+// Section 15A - Failure to furnish information/records
+// Section 15C - Investor grievances
+// Section 15HB - Residual penalty
+// Difficulty: Hard
+// =========================================================
+
+{
+  case_id: "SEBI_CH1_CS_26",
+  chapter: "SEBI Act, 1992",
+  difficulty: "hard",
+
+  caseText: `
+    <p>Zenith InfraTech Ltd., a listed company, had been facing increasing complaints from investors regarding delays in processing securities-related requests and failure to resolve grievances. SEBI received several complaints and, after examining the available information, issued a written direction requiring the company to redress the specified investor grievances within the period prescribed in the direction.</p>
+
+    <p>The company appointed a new compliance team but failed to take effective steps within the prescribed period. The management argued that investor complaints were merely private disputes between the company and its shareholders and that SEBI could not impose regulatory consequences for failure to resolve them.</p>
+
+    <p>At the same time, SEBI discovered that a senior officer of Zenith had engaged in a series of transactions using a mechanism that generated substantial wrongful gains. Following an inquiry, SEBI concluded that the transactions were carried out in contravention of the applicable securities laws. The officer argued that even if SEBI could impose a penalty, it could not require him to surrender the amount of wrongful gain.</p>
+
+    <p>SEBI also received information suggesting that Zenith might continue a particular practice which had already been found to be inconsistent with the SEBI Act and the regulations made thereunder. SEBI caused an inquiry to be made and considered whether an order requiring the company to cease and desist from the conduct was appropriate.</p>
+
+    <p>In another matter, an intermediary failed to submit a statutory report and certain records within the time specified under the applicable regulations. The intermediary subsequently submitted the documents, but several portions were incomplete. SEBI examined the applicable penalty provisions and considered whether the mere fact that the documents were eventually submitted eliminated the default.</p>
+
+    <p>The compliance team also identified another contravention for which the SEBI Act did not prescribe a separate specific penalty. The intermediary argued that because no specific section mentioned the particular default, no monetary penalty could be imposed.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_CH1_CS_26_Q1",
+      question: "Where a listed company, after being called upon by SEBI in writing, fails to redress investor grievances within the specified time, which provision is primarily attracted?",
+      options: [
+        "Section 15A",
+        "Section 15C",
+        "Section 15G",
+        "Section 24A"
+      ],
+      answer: 2,
+      reason: "Section 15C provides a penalty where a listed company or registered intermediary, after being called upon by SEBI in writing, fails to redress investor grievances within the specified time."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_26_Q2",
+      question: "SEBI's power to direct a person who made a profit or averted a loss through a contravention to disgorge an amount equivalent to the wrongful gain or loss averted arises under:",
+      options: [
+        "Section 11B",
+        "Section 15I",
+        "Section 15T",
+        "Section 29"
+      ],
+      answer: 1,
+      reason: "The power to issue directions under Section 11B includes the power to direct a person who made profit or averted loss by contravening the Act or regulations to disgorge an amount equivalent to the wrongful gain or loss averted."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_26_Q3",
+      question: "Before passing a cease and desist order under Section 11D, SEBI must:",
+      options: [
+        "Obtain approval from every shareholder",
+        "Cause an inquiry to be made and find that the person has violated or is likely to violate the applicable provisions",
+        "Obtain an order from a civil court in every case",
+        "Obtain approval from the stock exchange"
+      ],
+      answer: 2,
+      reason: "Section 11D permits SEBI, after causing an inquiry to be made, to pass a cease and desist order where it finds that a person has violated or is likely to violate the Act, rules or regulations."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_26_Q4",
+      question: "An intermediary that fails to furnish a required document, return or report, or furnishes false, incorrect or incomplete information, may attract:",
+      options: [
+        "Section 15A",
+        "Section 15C",
+        "Section 15H",
+        "Section 15Z"
+      ],
+      answer: 1,
+      reason: "Section 15A covers failure to furnish required documents, returns or reports and furnishing false, incorrect or incomplete information, subject to the prescribed penalty."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_26_Q5",
+      question: "Where a person contravenes a provision of the SEBI Act or regulations for which no separate penalty is provided, the applicable provision is generally:",
+      options: [
+        "Section 15HB",
+        "Section 15G",
+        "Section 15C",
+        "Section 11AA"
+      ],
+      answer: 1,
+      reason: "Section 15HB provides a residual penalty for failure to comply with a provision of the Act, rules, regulations or directions of SEBI where no separate penalty has been provided."
+    }
+  ]
+},
+
+
+// =========================================================
+// CASE SCENARIO 27
+// Topics:
+// Section 15G - Insider Trading Penalty
+// Section 15H - Takeover Disclosure Penalty
+// Section 15HA - Fraudulent & Unfair Trade Practices
+// Section 15HAA - Regulatory Database / Records
+// Difficulty: Hard
+// =========================================================
+
+{
+  case_id: "SEBI_CH1_CS_27",
+  chapter: "SEBI Act, 1992",
+  difficulty: "hard",
+
+  caseText: `
+    <p>Nova Technologies Ltd. was preparing to announce a major strategic transaction that was expected to materially affect the company's valuation. Before the announcement was made public, the company's finance head obtained unpublished price-sensitive information concerning the transaction. Instead of waiting for the information to become public, he purchased securities of Nova through his personal trading account.</p>
+
+    <p>The finance head subsequently informed a senior consultant about the proposed transaction. The consultant had not requested the information, but after receiving it, he purchased shares of Nova before the announcement. During the investigation, SEBI also discovered that the finance head had advised another associate to purchase securities before the information became public.</p>
+
+    <p>Separately, a promoter group of Nova acquired additional shares in a listed company without complying with the applicable disclosure and public announcement requirements. The promoter group argued that the acquisition was internally funded and therefore did not require regulatory disclosure.</p>
+
+    <p>At the same time, certain traders associated with the company executed a coordinated series of transactions designed to create an artificial appearance of demand. The trades were structured to influence other investors into believing that there was strong market interest in the security. The participants made substantial profits after other investors entered the market.</p>
+
+    <p>During SEBI's investigation, an employee responsible for maintaining regulatory records intentionally deleted several electronic records relating to the transactions. Another employee, without authorisation, accessed the regulatory database and downloaded confidential regulatory data. The employees argued that the records were internal company data and that SEBI could not penalise them for actions involving electronic records.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_CH1_CS_27_Q1",
+      question: "The finance head's dealing in securities while possessing unpublished price-sensitive information may attract:",
+      options: [
+        "Section 15G",
+        "Section 15C",
+        "Section 15P",
+        "Section 15V"
+      ],
+      answer: 1,
+      reason: "Section 15G provides a penalty for insider trading, including dealing in securities on the basis of unpublished price-sensitive information."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_27_Q2",
+      question: "The consultant who received unpublished price-sensitive information and then traded on its basis may be exposed to liability because:",
+      options: [
+        "Only employees of the company can ever be insiders",
+        "Dealing on the basis of unpublished price-sensitive information can attract the insider trading provisions",
+        "Trading through a personal account is always exempt",
+        "The information was received verbally"
+      ],
+      answer: 2,
+      reason: "The statutory prohibition covers dealing in securities on the basis of unpublished price-sensitive information; the mere fact that the information was received verbally or through an associate does not make the conduct permissible."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_27_Q3",
+      question: "Failure to comply with specified disclosure/public announcement requirements relating to acquisition of shares or takeover may attract:",
+      options: [
+        "Section 15H",
+        "Section 15A",
+        "Section 15E",
+        "Section 15X"
+      ],
+      answer: 1,
+      reason: "Section 15H provides penalties for specified failures relating to disclosure of shareholding, public announcement, public offer and payment of consideration under takeover requirements."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_27_Q4",
+      question: "The coordinated transactions designed to create an artificial appearance of trading activity are most directly associated with:",
+      options: [
+        "Fraudulent and unfair trade practices",
+        "Investor education",
+        "Board appointment",
+        "Registration of SAT members"
+      ],
+      answer: 1,
+      reason: "Transactions designed to create a false or misleading appearance in the securities market may constitute fraudulent and unfair trade practices, attracting Section 15HA."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_27_Q5",
+      question: "Unauthorised access, downloading or alteration of regulatory data maintained in the SEBI system may attract:",
+      options: [
+        "Section 15HAA",
+        "Section 15B",
+        "Section 15T",
+        "Section 20A"
+      ],
+      answer: 1,
+      reason: "Section 15HAA specifically covers unauthorised access, downloading, extraction, copying, alteration, destruction and other specified acts relating to regulatory data and records."
+    }
+  ]
+},
+
+
+// =========================================================
+// CASE SCENARIO 28
+// Topics:
+// Section 15-I - Adjudicating Officer
+// Section 15-J - Factors for Quantum of Penalty
+// Section 15-JA - Crediting Penalties
+// Section 15-JB - Settlement
+// Difficulty: Hard
+// =========================================================
+
+{
+  case_id: "SEBI_CH1_CS_28",
+  chapter: "SEBI Act, 1992",
+  difficulty: "hard",
+
+  caseText: `
+    <p>Atlas Investment Services, a registered securities intermediary, was accused of violating several regulatory requirements. SEBI initiated proceedings and appointed an adjudicating officer for determining whether penalties should be imposed under the applicable provisions of the SEBI Act.</p>
+
+    <p>The adjudicating officer issued notices to Atlas and provided an opportunity of being heard. During the proceedings, the officer required certain individuals who were acquainted with the facts of the matter to appear and give evidence. The officer also required production of documents that were considered relevant to the inquiry.</p>
+
+    <p>After considering the evidence, the adjudicating officer concluded that Atlas had committed the relevant defaults and imposed a penalty. Atlas argued that the officer had no authority to summon persons or require production of documents.</p>
+
+    <p>While determining the quantum of penalty, the adjudicating officer considered the financial advantage obtained by Atlas, the loss caused to investors and whether similar defaults had been committed repeatedly. Atlas argued that the penalty should be based only on the technical nature of the violation and not on the consequences of the conduct.</p>
+
+    <p>SEBI subsequently examined the order passed by the adjudicating officer and formed the view that the penalty was inadequate and that the order was erroneous to the extent that it was not in the interests of the securities market. SEBI considered whether it could enhance the quantum of penalty, subject to the statutory requirements.</p>
+
+    <p>Separately, Atlas proposed to settle the proceedings rather than continue with the administrative and civil proceedings. It submitted a written settlement proposal to SEBI. The proposal included payment of an amount and compliance with certain conditions. Atlas later questioned whether an order passed under the settlement mechanism could be challenged through an appeal under Section 15T.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_CH1_CS_28_Q1",
+      question: "For adjudging penalties under the specified provisions, SEBI may appoint an adjudicating officer who must be:",
+      options: [
+        "Any employee regardless of rank",
+        "An officer not below the rank of Division Chief",
+        "Only a High Court judge",
+        "Only an external auditor"
+      ],
+      answer: 2,
+      reason: "Section 15-I provides that SEBI may appoint an officer not below the rank of Division Chief as an adjudicating officer."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_28_Q2",
+      question: "During an inquiry, the adjudicating officer has power to:",
+      options: [
+        "Summon persons acquainted with the facts and require production of relevant documents",
+        "Dissolve the company",
+        "Cancel Parliament's legislation",
+        "Appoint directors of the company"
+      ],
+      answer: 1,
+      reason: "Section 15-I empowers the adjudicating officer to summon and enforce attendance of persons acquainted with the facts and circumstances and require production of relevant documents."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_28_Q3",
+      question: "Which of the following is NOT one of the specific factors mentioned in Section 15J for determining the quantum of penalty?",
+      options: [
+        "Amount of disproportionate gain or unfair advantage",
+        "Amount of loss caused to an investor or group of investors",
+        "Repetitive nature of the default",
+        "Educational qualification of the person committing the default"
+      ],
+      answer: 4,
+      reason: "Section 15J specifically requires consideration of disproportionate gain/unfair advantage, loss caused to investors and repetitive nature of the default."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_28_Q4",
+      question: "Amounts realised by way of penalties under the SEBI Act are credited to:",
+      options: [
+        "Investor Protection and Education Fund in every case",
+        "Consolidated Fund of India",
+        "The stock exchange's general fund",
+        "The defaulting company's reserve account"
+      ],
+      answer: 2,
+      reason: "Section 15JA provides that sums realised by way of penalties under the SEBI Act shall be credited to the Consolidated Fund of India."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_28_Q5",
+      question: "An order passed under Section 15JB relating to settlement proceedings is:",
+      options: [
+        "Always appealable under Section 15T",
+        "Not appealable under Section 15T",
+        "Appealable only to the Central Government",
+        "Automatically appealable to a civil court"
+      ],
+      answer: 2,
+      reason: "Section 15JB specifically provides that no appeal shall lie under Section 15T against an order passed by the Board or adjudicating officer under the settlement provision."
+    }
+  ]
+},
+
+
+// =========================================================
+// CASE SCENARIO 29
+// Topics:
+// Securities Appellate Tribunal
+// Section 15K, 15L, 15M
+// Section 15N, 15Q
+// Section 15T
+// Difficulty: Hard
+// =========================================================
+
+{
+  case_id: "SEBI_CH1_CS_29",
+  chapter: "SEBI Act, 1992",
+  difficulty: "hard",
+
+  caseText: `
+    <p>Meridian Securities Pvt. Ltd. received an adverse order from SEBI imposing a substantial monetary penalty. The company believed that the order was legally incorrect and decided to challenge it before the Securities Appellate Tribunal.</p>
+
+    <p>The company's legal team examined the constitution of the Tribunal. They noted that the Securities Appellate Tribunal consists of a Presiding Officer and such number of Judicial Members and Technical Members as may be determined by the Central Government. They also examined the composition of a Bench and found that a Bench constituted under the statutory framework must contain at least one Judicial Member and one Technical Member.</p>
+
+    <p>One of Meridian's directors argued that the appeal should first be filed before a civil court because the dispute involved a monetary penalty. The legal adviser explained that the SEBI Act provides a specific appellate mechanism through the Securities Appellate Tribunal.</p>
+
+    <p>Meridian received a copy of the SEBI order on 1 August. The company instructed its lawyers on 20 September to file an appeal. The lawyers informed the company that the statutory limitation period for filing an appeal before SAT is forty-five days from the date on which the copy of the order is received, although delay may be condoned if sufficient cause is established.</p>
+
+    <p>During the same period, Meridian considered the eligibility of a person proposed for appointment as a Judicial Member. The candidate had served as a High Court Judge for more than five years. Another candidate proposed for the position of Technical Member had extensive professional experience in the financial sector and securities market exceeding fifteen years.</p>
+
+    <p>One member of the Tribunal later submitted a resignation. The Central Government considered the statutory requirements relating to resignation, continuation in office and filling of vacancies.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_CH1_CS_29_Q1",
+      question: "A Bench of the Securities Appellate Tribunal must include at least:",
+      options: [
+        "Two Judicial Members only",
+        "One Judicial Member and one Technical Member",
+        "Three Technical Members",
+        "One SEBI officer and one shareholder"
+      ],
+      answer: 2,
+      reason: "Section 15L provides that every Bench constituted shall include at least one Judicial Member and one Technical Member."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_29_Q2",
+      question: "An appeal against an order of SEBI under Section 15T is generally required to be filed within:",
+      options: [
+        "15 days",
+        "30 days",
+        "45 days",
+        "90 days"
+      ],
+      answer: 3,
+      reason: "Section 15T provides a period of 45 days from the date on which the copy of the order is received. SAT may entertain a delayed appeal where sufficient cause is established."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_29_Q3",
+      question: "A person who has been a Judge of a High Court for at least five years may qualify for appointment as:",
+      options: [
+        "Judicial Member of SAT",
+        "Technical Member only",
+        "SEBI Chairman only",
+        "Recovery Officer only"
+      ],
+      answer: 1,
+      reason: "Section 15M provides that a person who is or has been a Judge of a High Court for at least five years qualifies for appointment as a Judicial Member of SAT, subject to the statutory framework."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_29_Q4",
+      question: "For appointment as a Technical Member, a person may qualify on the basis of:",
+      options: [
+        "Only two years of securities market experience",
+        "Proven ability, integrity and standing with special knowledge and at least fifteen years' professional experience in the financial sector, including securities market, subject to the statutory requirements",
+        "Only being a shareholder of a listed company",
+        "Being a company director for one year"
+      ],
+      answer: 2,
+      reason: "Section 15M provides a qualification route for a Technical Member based on proven ability, integrity and standing with special knowledge and professional experience of not less than fifteen years in the financial sector, including securities market and specified areas."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_29_Q5",
+      question: "If a member of SAT resigns, he ordinarily continues to hold office until:",
+      options: [
+        "The very next day in every case",
+        "Three months from receipt of notice, or appointment of successor, or expiry of term, whichever is earliest, unless permitted to relinquish earlier",
+        "The next general election",
+        "The Central Government dissolves SAT"
+      ],
+      answer: 2,
+      reason: "Section 15Q provides that a Presiding Officer or Member ordinarily continues until expiry of three months from receipt of resignation notice, appointment of successor, or expiry of term, whichever is earliest, unless permitted to relinquish earlier."
+    }
+  ]
+},
+
+
+// =========================================================
+// CASE SCENARIO 30
+// Topics:
+// Section 15U - SAT powers and procedure
+// Section 15V - Legal representation
+// Section 15W - Limitation Act
+// Section 15Y - Civil court jurisdiction
+// Section 15Z - Supreme Court appeal
+// Difficulty: Hard
+// =========================================================
+
+{
+  case_id: "SEBI_CH1_CS_30",
+  chapter: "SEBI Act, 1992",
+  difficulty: "hard",
+
+  caseText: `
+    <p>Eastern Capital Advisors challenged an order passed by SEBI before the Securities Appellate Tribunal. During the proceedings, the company requested permission to produce documentary evidence and summon certain persons who were relevant to the dispute. The opposite party argued that SAT could not exercise powers similar to those of a civil court because it was an appellate tribunal.</p>
+
+    <p>The Presiding Officer examined the statutory framework and noted that SAT is not bound by the procedure laid down by the Code of Civil Procedure, 1908. Instead, it is guided by the principles of natural justice and may regulate its own procedure, subject to the SEBI Act and applicable rules.</p>
+
+    <p>The appellant also appointed a practising Chartered Accountant to present its case before the Tribunal. A shareholder questioned whether only advocates were legally permitted to represent parties before SAT.</p>
+
+    <p>During the proceedings, the company attempted to institute a separate civil suit challenging the same regulatory matter and sought an injunction from the civil court to restrain SEBI from taking action pursuant to its statutory powers. SEBI objected on the ground that the SEBI Act specifically bars civil court jurisdiction in matters falling within the authority of the adjudicating officer or SAT.</p>
+
+    <p>After hearing the matter, SAT passed an order adverse to Eastern Capital Advisors. The company believed that SAT had committed an error of law and wanted to approach the Supreme Court. Its legal adviser explained that the Supreme Court appeal is not a general second appeal on every factual issue but is available on a question of law arising out of the SAT order.</p>
+
+    <p>The company also considered the applicable limitation period and whether a delay could be condoned where sufficient cause existed.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_CH1_CS_30_Q1",
+      question: "SAT is:",
+      options: [
+        "Strictly bound by the entire procedure of the Code of Civil Procedure, 1908",
+        "Not bound by the CPC procedure and is guided by principles of natural justice, subject to the Act and rules",
+        "A criminal court",
+        "A private arbitration tribunal"
+      ],
+      answer: 2,
+      reason: "Section 15U provides that SAT shall not be bound by the procedure laid down by the CPC but shall be guided by principles of natural justice."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_30_Q2",
+      question: "Which of the following may be authorised to present a case before SAT under Section 15V?",
+      options: [
+        "Only an advocate",
+        "A Chartered Accountant, Company Secretary, Cost Accountant, legal practitioner or specified officer/person as permitted by the Act",
+        "Only a SEBI officer",
+        "Only a judge"
+      ],
+      answer: 2,
+      reason: "Section 15V permits an appellant to appear personally or authorise one or more Chartered Accountants, Company Secretaries, Cost Accountants, legal practitioners or specified officers to present the case."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_30_Q3",
+      question: "Which statement regarding civil court jurisdiction is correct?",
+      options: [
+        "Civil courts can always entertain matters assigned to SAT",
+        "Civil courts have no jurisdiction over matters which the adjudicating officer or SAT is empowered to determine under the Act",
+        "Only district courts are barred",
+        "Only High Courts are barred"
+      ],
+      answer: 2,
+      reason: "Section 15Y bars civil court jurisdiction in matters which an adjudicating officer or SAT is empowered to determine under the SEBI Act."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_30_Q4",
+      question: "An appeal from a decision or order of SAT to the Supreme Court lies:",
+      options: [
+        "On every question of fact",
+        "Only on a question of law arising out of the SAT order",
+        "Only with permission of the stock exchange",
+        "Only where the penalty exceeds ₹25 crore"
+      ],
+      answer: 2,
+      reason: "Section 15Z provides for an appeal to the Supreme Court on any question of law arising out of the decision or order of SAT."
+    },
+
+    {
+      question_id: "SEBI_CH1_CS_30_Q5",
+      question: "The period for filing an appeal to the Supreme Court under Section 15Z is generally:",
+      options: [
+        "30 days, with unlimited extension",
+        "45 days",
+        "60 days, with a further period not exceeding 60 days where sufficient cause is established",
+        "One year in every case"
+      ],
+      answer: 3,
+      reason: "Section 15Z provides a period of 60 days from communication of the SAT decision or order, with the Supreme Court empowered to allow a further period not exceeding 60 days if sufficient cause is shown."
+    }
+  ]
 }
 ];
