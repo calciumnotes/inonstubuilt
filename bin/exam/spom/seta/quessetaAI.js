@@ -18922,5 +18922,826 @@ const AICaseStudies = [
         reason: "Section 432 permits a party to appear personally or authorize one or more Chartered Accountants, Company Secretaries, Cost Accountants, Legal Practitioners or any other permitted person to present its case."
       }
     ]
+},
+// Chapter 10
+{
+  case_id: "seta_EFILING_cs_10_01",
+  difficulty: "medium",
+  caseText: `
+    <p>Zenith Engineering Limited is a public company engaged in the manufacture of industrial equipment. During the financial year, the company undertook several corporate actions requiring filings with the Registrar of Companies. The company appointed a new director, altered certain particulars relating to its registered office and also created a charge over certain assets in favour of a financial institution.</p>
+
+    <p>The company secretary of Zenith Engineering Limited was responsible for coordinating the filings through the MCA21 portal. Since the company had recently changed its internal compliance team, the newly appointed compliance executive was unfamiliar with the complete e-filing process. He first attempted to download an old version of an e-form that had previously been used by the company. The company secretary instructed him to ensure that only the latest notified version of the relevant e-form was used and that the accompanying instruction kit was reviewed before completion.</p>
+
+    <p>The compliance executive completed the form offline because the internet connection at his office was temporarily unavailable. He used the pre-fill facility to populate certain information already available in the MCA database. After attaching the required supporting documents, he subjected the form to automated pre-scrutiny. The system identified an error in one of the fields, which was corrected before the form was digitally signed.</p>
+
+    <p>The form required authentication by the authorised signatory. The company secretary explained that merely typing the name of the authorised person or attaching a scanned signature would not satisfy the authentication requirement. The authorised person therefore used a valid Digital Signature Certificate. Since another person was also required to sign the form, the form was digitally signed by both persons. The compliance executive was specifically warned that once the form had been digitally signed, no alteration should be made to its contents.</p>
+
+    <p>After all required signatures were affixed, the executive sent the completed e-form as an email attachment to the concerned ROC office, believing that electronic transmission by email would amount to e-filing. The company secretary rejected this approach and instructed him to submit the form through the functionality provided on the MCA21 portal.</p>
+
+    <p>Upon submission through the portal, the system detected that one of the digital signatures was invalid. The form was consequently returned with details of the defect. After obtaining a valid signature and correcting the defect, the company resubmitted the form. The system then calculated the applicable filing fee and provided different payment options. The company chose internet banking and received an electronically generated receipt containing the relevant service information.</p>
+
+    <p>The management subsequently reviewed the entire process to determine whether the actions taken were consistent with the statutory framework governing electronic filing, authentication and submission of documents.</p>
+  `,
+  questions: [
+    {
+      question_id: "seta_EFILING_cs_10_01_1",
+      question: "Which of the following correctly describes the pre-fill facility available in an e-form?",
+      options: [
+        "It automatically verifies every legal requirement applicable to the company",
+        "It automatically populates certain fields using information already available in the MCA database",
+        "It digitally signs the form on behalf of the company",
+        "It automatically makes payment of the filing fee"
+      ],
+      answer: 2,
+      reason: "The pre-fill facility enables certain fields to be populated automatically from information available in the electronic registry. It does not itself authenticate, certify or submit the form."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_01_2",
+      question: "The compliance executive initially sent the completed e-form by email to the ROC. Is such transmission by email, by itself, valid e-filing?",
+      options: [
+        "Yes, because the document was transmitted electronically",
+        "Yes, provided the form contains a digital signature",
+        "No, submission must be made through the prescribed functionality of the MCA21 portal",
+        "No, because all e-forms must first be printed and physically submitted"
+      ],
+      answer: 3,
+      reason: "Sending an e-form by email does not constitute e-filing. The e-form must be submitted through the prescribed functionality available on the MCA21 portal."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_01_3",
+      question: "After multiple digital signatures were applied, the compliance executive altered certain contents of the form before submission. What is the consequence?",
+      options: [
+        "The alteration is irrelevant if at least one DSC remains valid",
+        "The form remains valid if the alteration is approved by the company secretary",
+        "The document may become invalid because the contents should not be altered after digital signing",
+        "The system automatically revalidates all signatures after every alteration"
+      ],
+      answer: 3,
+      reason: "Where multiple signatures are applied, the contents of the e-form must not be altered thereafter. Alteration can render the document invalid and lead to rejection during filing."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_01_4",
+      question: "Which statement best describes the role of automated pre-scrutiny?",
+      options: [
+        "It replaces the statutory certification required from a professional",
+        "It verifies electronically whether the form is complete in respects that can be checked by the system",
+        "It guarantees that the information contained in the form is legally correct",
+        "It constitutes final approval by the Registrar"
+      ],
+      answer: 2,
+      reason: "Automated pre-scrutiny is a computerized check of the form for matters that can be electronically verified. It does not replace professional certification or constitute final approval by the Registrar."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_01_5",
+      question: "Zenith's first submission was rejected because one DSC was invalid. Which of the following is the most appropriate conclusion?",
+      options: [
+        "An invalid DSC can never be corrected after submission",
+        "The form may be returned with details of the defect and can be resubmitted after correcting the defect",
+        "The filing is automatically treated as complete once the form reaches the portal",
+        "The company must abandon the e-form and file only a physical form"
+      ],
+      answer: 2,
+      reason: "Where defects such as incorrect data or missing/invalid digital signatures are identified, the e-form may be rejected or returned with details of the defect. The defect can then be corrected and the form resubmitted."
+    }
+  ]
+},
+
+{
+  case_id: "seta_EFILING_cs_10_02",
+  difficulty: "hard",
+  caseText: `
+    <p>Orion Consumer Products Limited is expanding rapidly and has recently undertaken several corporate transactions. The company has a paid-up capital of ₹6 crore and a turnover of ₹125 crore. It is not a banking company, non-banking financial company, housing finance company or insurance company. Its financial statements are prepared in accordance with the applicable Indian Accounting Standards framework.</p>
+
+    <p>During the annual compliance review, the finance department informed the Board that Orion would have to file its financial statements and other prescribed documents in XBRL format. One director questioned the requirement on the ground that the company was not listed on a stock exchange. Another director argued that XBRL filing was required only where turnover exceeded ₹200 crore. The company secretary explained that the statutory criteria include several independent triggers and that the company satisfied more than one of them.</p>
+
+    <p>The company appointed a specialist to prepare its XBRL filing. The specialist explained that XBRL is a standardized language for communicating financial information electronically. The company's financial information could not simply be converted into an electronic document by scanning the financial statements. Instead, the financial data had to be mapped to the appropriate elements of the prescribed taxonomy and incorporated into an XBRL Instance Document.</p>
+
+    <p>During the mapping exercise, Orion's finance team encountered information relating to related party transactions. The team needed to identify the relevant concepts, including the nature of the related party relationship, transactions with related parties, amounts payable and receivable, guarantees, commitments and other relevant disclosures. The specialist explained that the taxonomy functions as an electronic dictionary defining the reporting elements and their relationships.</p>
+
+    <p>Orion had successfully filed its financial statements in XBRL format in the previous financial year. During the current year, a change in its business resulted in the company no longer satisfying one of the numerical thresholds that originally triggered XBRL applicability. The CFO suggested that the company could therefore return to ordinary financial statement filing. The company secretary disagreed and referred to the rule concerning continuity of XBRL filing once a company has filed its financial statements in XBRL format.</p>
+
+    <p>The Board also asked whether every company covered by the XBRL Rules is required to follow the same treatment. The company secretary pointed out that certain categories, including specified financial sector entities, are excluded from the requirement under the relevant proviso.</p>
+
+    <p>The Board requested a written assessment covering the applicability of XBRL, the meaning of taxonomy and instance document, and the effect of the company's previous XBRL filing.</p>
+  `,
+  questions: [
+    {
+      question_id: "seta_EFILING_cs_10_02_1",
+      question: "Which combination independently brings Orion Consumer Products Limited within the prescribed classes required to file financial statements in XBRL?",
+      options: [
+        "Paid-up capital of ₹5 crore or above and turnover of ₹100 crore or above",
+        "Paid-up capital of ₹5 crore or above only if the company is listed",
+        "Turnover of ₹100 crore or above only where the company has foreign shareholders",
+        "Paid-up capital of ₹10 crore or above and turnover of ₹200 crore or above"
+      ],
+      answer: 1,
+      reason: "The prescribed classes include companies having paid-up capital of ₹5 crore or above and companies having turnover of ₹100 crore or above. These are independent specified criteria; listing is not required for these particular thresholds."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_02_2",
+      question: "What is the most appropriate description of an XBRL taxonomy?",
+      options: [
+        "A database containing only the company's previous year's financial statements",
+        "An electronic dictionary defining reporting data elements and their relationships",
+        "A digital signature used to authenticate XBRL documents",
+        "A software program used only to calculate filing fees"
+      ],
+      answer: 2,
+      reason: "Under the XBRL Rules, taxonomy means an electronic dictionary for reporting business data. It defines relevant elements and their relationships for reporting."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_02_3",
+      question: "Which statement correctly distinguishes taxonomy from an XBRL Instance Document?",
+      options: [
+        "Taxonomy defines reporting elements, while the Instance Document contains the company's mapped reported information",
+        "Taxonomy contains the company's actual figures, while the Instance Document contains only definitions",
+        "Both terms refer to exactly the same electronic document",
+        "Taxonomy is used for payment while the Instance Document is used for authentication"
+      ],
+      answer: 1,
+      reason: "The taxonomy defines the reporting concepts and relationships. The company maps its financial information to the relevant taxonomy elements and generates an XBRL Instance Document containing the reported information."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_02_4",
+      question: "Orion no longer satisfies one of the numerical thresholds in the current year but had already filed its financial statements in XBRL format in the preceding year. What is the correct position?",
+      options: [
+        "It may automatically stop XBRL filing because the threshold is no longer satisfied",
+        "It may stop XBRL filing if the Board passes an ordinary resolution",
+        "It is required to continue filing its financial statements and other documents in XBRL format",
+        "It can stop XBRL filing only after approval from its statutory auditor"
+      ],
+      answer: 3,
+      reason: "A company which has once filed its financial statements in XBRL format is required to continue filing in XBRL format even if it subsequently does not fall within the specified classes."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_02_5",
+      question: "Which of the following entities is specifically included among the exemptions from filing financial statements under the XBRL Rules, as stated in the chapter?",
+      options: [
+        "Every listed company",
+        "Every manufacturing company",
+        "Non-banking financial companies",
+        "Every company having turnover below ₹100 crore"
+      ],
+      answer: 3,
+      reason: "The second proviso to Rule 3(1) exempts specified categories including non-banking financial companies, housing finance companies and companies engaged in banking and insurance business."
+    }
+  ]
+},
+
+{
+  case_id: "seta_EFILING_cs_10_03",
+  difficulty: "hard",
+  caseText: `
+    <p>Vertex Technologies Limited has been facing repeated delays in statutory filings. During an internal compliance audit, it was found that several documents had been filed after their prescribed due dates. The Board asked the company secretary to determine the consequences of delayed filings and whether payment of additional fees would completely eliminate the company's statutory liability.</p>
+
+    <p>One ordinary filing, for which the normal filing fee was ₹2,000, was delayed by 45 days. Another filing with a normal fee of ₹5,000 was delayed by 120 days. A third filing, having a normal fee of ₹3,000, was delayed by 200 days. The company secretary referred to the prescribed table of additional fees applicable to filings other than specified filings under sections 92 and 137 and certain charge-related filings.</p>
+
+    <p>At the same time, Vertex had delayed filing its annual return under section 92 by 20 days beyond the prescribed period. The finance department initially calculated the additional fee by applying the general multiple applicable to ordinary delayed forms. The company secretary rejected this calculation and stated that forms under sections 92 and 137 are subject to a specific additional fee of ₹100 per day for the relevant period of delay.</p>
+
+    <p>The company also had a financial statement filing under section 137 that had been delayed. The Board argued that once the additional fee was paid, no other liability could arise because the purpose of the additional fee was to regularize the filing. The company secretary explained that the payment of fee and additional fee does not eliminate the possibility of penalty or punishment for the underlying default.</p>
+
+    <p>During the review, another issue emerged. Vertex had defaulted on a filing on two or more occasions. The compliance officer believed that the same normal additional fee multiple would apply each time. The company secretary pointed out that the prescribed rules contain a concept of higher additional fee in certain circumstances, particularly where specified forms such as INC-22 or PAS-3 are filed belatedly on multiple occasions within the prescribed period.</p>
+
+    <p>The Board also examined the method of payment. The finance manager suggested that fees could be paid only through a physical bank challan. The company secretary explained that the statutory framework permits several electronic and other modes of payment, including credit card and internet banking, subject to the prescribed rules.</p>
+
+    <p>The Board requested the company secretary to prepare a compliance note distinguishing ordinary delayed filings from section 92/137 filings and explaining the continuing liability of the company and officers in default.</p>
+  `,
+  questions: [
+    {
+      question_id: "seta_EFILING_cs_10_03_1",
+      question: "Vertex delayed an ordinary filing by 45 days and the normal filing fee is ₹2,000. Based on the prescribed table in the chapter, what additional fee multiple applies?",
+      options: [
+        "2 times the normal filing fee",
+        "4 times the normal filing fee",
+        "6 times the normal filing fee",
+        "10 times the normal filing fee"
+      ],
+      answer: 2,
+      reason: "A delay of more than 30 days and up to 60 days attracts additional fees at 4 times the normal filing fee under the general table."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_03_2",
+      question: "Vertex's ordinary filing carrying a normal fee of ₹5,000 was delayed by 120 days. What additional fee is payable under the general table?",
+      options: [
+        "₹20,000",
+        "₹30,000",
+        "₹50,000",
+        "₹60,000"
+      ],
+      answer: 3,
+      reason: "A delay of more than 90 days and up to 180 days attracts additional fees at 10 times the normal filing fee. ₹5,000 × 10 = ₹50,000."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_03_3",
+      question: "For the filing under section 92 delayed by 20 days beyond the prescribed period, which additional fee mechanism is applicable according to the chapter?",
+      options: [
+        "Two times the normal filing fee",
+        "Four times the normal filing fee",
+        "₹100 per day",
+        "Ten times the normal filing fee"
+      ],
+      answer: 3,
+      reason: "For forms under section 92 or section 137, the chapter specifically states an additional fee of ₹100 per day for delay beyond the prescribed period."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_03_4",
+      question: "If a company pays the applicable additional fee for delayed filing, which statement is correct under section 403(2)?",
+      options: [
+        "Payment of additional fee automatically extinguishes all statutory liability",
+        "Only the officers remain liable while the company is discharged",
+        "The company and officers in default may still be liable for penalty or punishment for the default",
+        "Payment of additional fee converts the default into a valid filing from the original due date"
+      ],
+      answer: 3,
+      reason: "Section 403(2) provides that payment of fee/additional fee does not prevent liability for the penalty or punishment provided under the Act for the failure or default."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_03_5",
+      question: "Which statement correctly reflects the concept of higher additional fee discussed in the chapter?",
+      options: [
+        "Higher additional fee applies to every delayed form irrespective of the form involved",
+        "Higher additional fee may apply where specified forms such as INC-22 or PAS-3 are delayed on two or more occasions within the prescribed period",
+        "Higher additional fee applies only to annual returns under section 92",
+        "Higher additional fee is applicable only where payment is made through physical challan"
+      ],
+      answer: 2,
+      reason: "The rules provide for higher additional fees in certain specified circumstances, including repeated belated filing of INC-22 or PAS-3 within the prescribed period."
+    }
+  ]
+},
+
+{
+  case_id: "seta_EFILING_cs_10_04",
+  difficulty: "medium",
+  caseText: `
+    <p>Nova Infrastructure Private Limited has recently undergone several changes in its corporate structure. The company appointed a new director after one of its existing directors resigned. It also altered its share capital and created a charge in favour of a lender. During the same period, the company was required to file certain documents relating to its annual compliance and a transaction involving allotment of securities.</p>
+
+    <p>The newly appointed compliance officer prepared a list of e-forms but was uncertain about which form corresponded to each corporate event. He proposed filing DIR-3 for appointment of the new director, SH-7 for the creation of the charge, and CHG-1 for alteration of share capital. He also proposed using MGT-7A for the annual return merely because Nova was a private company.</p>
+
+    <p>The company secretary reviewed the proposed forms and explained that the choice of e-form depends on the nature of the statutory event and the applicable category of company. The secretary also pointed out that the distinction between forms used for appointment/change of directors and forms used for allotment, alteration of share capital and charge-related matters is important for proper compliance.</p>
+
+    <p>During the same review, Nova considered converting its status and making certain changes in its registered office. The compliance officer examined several forms listed in the MCA framework, including INC-22, INC-27 and INC-23. He also came across forms such as STK-2, MSC-1 and MSC-4 but was uncertain about their purposes.</p>
+
+    <p>The company then received advice from a practising professional regarding pre-certification. The professional explained that several specified e-forms filed by companies other than OPCs and small companies require pre-certification by a Chartered Accountant, Company Secretary or Cost Accountant in whole-time practice, depending upon the form and applicable requirement. Certain forms also have specific certification requirements rather than a uniform certification rule.</p>
+
+    <p>One of the company's directors asked whether the professional certification meant that the company's authorised signatory had no responsibility for the accuracy of the form. The company secretary clarified that the authorised signatory and the professional certifying the e-form are responsible for the correctness of the contents and enclosures as applicable under the rules.</p>
+
+    <p>Finally, the Board instructed the compliance officer to prepare a mapping of important e-forms and identify the forms applicable to Nova's various corporate actions.</p>
+  `,
+  questions: [
+    {
+      question_id: "seta_EFILING_cs_10_04_1",
+      question: "Which e-form is generally associated with notice of alteration of share capital to the Registrar?",
+      options: [
+        "CHG-1",
+        "SH-7",
+        "DIR-12",
+        "PAS-3"
+      ],
+      answer: 2,
+      reason: "Form SH-7 is used for notice to the Registrar regarding alteration of share capital."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_04_2",
+      question: "Nova proposes to register creation of a charge other than a charge relating to debentures. Which form is appropriate?",
+      options: [
+        "CHG-1",
+        "CHG-4",
+        "CHG-6",
+        "CHG-9"
+      ],
+      answer: 1,
+      reason: "Form CHG-1 is used for registration of creation or modification of charge other than charges related to debentures, subject to the prescribed particulars."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_04_3",
+      question: "Which form is used for filing particulars of appointment of directors and KMP and changes among them?",
+      options: [
+        "DIR-3",
+        "DIR-5",
+        "DIR-12",
+        "DIR-6"
+      ],
+      answer: 3,
+      reason: "Form DIR-12 is used for particulars of appointment of directors and key managerial personnel and changes among them, including specified changes such as resignation."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_04_4",
+      question: "Which statement correctly reflects the responsibility associated with certification and authentication of e-forms?",
+      options: [
+        "Only the professional certifying the form is responsible for all information",
+        "Only the Registrar is responsible for verifying the correctness of the information",
+        "The authorised signatory and professional, where applicable, have responsibility for correctness of contents and relevant enclosures",
+        "Once a form is pre-scrutinized, nobody can be held responsible for incorrect information"
+      ],
+      answer: 3,
+      reason: "Rule 8 places responsibility on the authorised signatory and, where applicable, the professional certifying the e-form for correctness of contents and relevant enclosures."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_04_5",
+      question: "Which pairing is correctly matched?",
+      options: [
+        "STK-2 — Application by company for removing its name from the Register of Companies",
+        "MSC-1 — Application for appointment of a director",
+        "INC-23 — Application for removal of company name",
+        "PAS-3 — Application for obtaining dormant company status"
+      ],
+      answer: 1,
+      reason: "STK-2 is the application by a company to the ROC for removing its name from the Register of Companies. MSC-1 relates to obtaining dormant company status, INC-23 relates to shifting registered office from one state to another or as specified, and PAS-3 relates to return of allotment."
+    }
+  ]
+},
+
+{
+  case_id: "seta_EFILING_cs_10_05",
+  difficulty: "hard",
+  caseText: `
+    <p>Meridian Global Limited is a listed company with substantial operations across several Indian States. During the year, the company had to deal with multiple electronic compliance matters involving registered office changes, statutory filings, inspection of documents, XBRL reporting and interaction with the Ministry of Corporate Affairs.</p>
+
+    <p>The Board's compliance committee began by reviewing the statutory basis of electronic filing. The company secretary explained that the Companies Act provides a framework enabling the Central Government to make rules requiring applications, financial statements, returns, declarations, particulars of charges and other documents to be filed electronically. The same framework also covers electronic service of documents and communications, maintenance of records by the Registrar in electronic form, electronic inspection and electronic payment of fees.</p>
+
+    <p>One committee member asked whether the statutory provisions governing electronic filing automatically authorize the imposition of fines and penalties through the rules made under the e-filing provision. The company secretary clarified that the relevant provision specifically states that the rules made under that section do not relate to imposition of fines or other pecuniary penalties, demand or payment of fees, or contraventions and punishment for contraventions of the Act.</p>
+
+    <p>The committee then examined whether electronic filing must always completely replace physical filing. The secretary explained that the Central Government may provide, through rules made under the relevant provisions, that electronic form shall be exclusive, alternative to physical form, or in addition to physical form. Therefore, the mere existence of electronic filing does not mean that physical documents can never be required.</p>
+
+    <p>Meridian also had to submit a document executed on non-judicial stamp paper. The compliance team initially scanned the document and uploaded it electronically without retaining or submitting the physical original. The company secretary explained that where documents are required to be filed on non-judicial stamp paper, physical submission may also be required unless stamp duty has been paid electronically through the notified portal. The original stamped documents must also be retained for the period specified by the rules, depending on the nature of the document.</p>
+
+    <p>In another matter, Meridian's authorised signatory attempted to file correspondence containing only a signature and the words “Authorised Signatory”. The compliance department rejected the document because the prescribed identification particulars of the person signing the document had not been properly stated.</p>
+
+    <p>The company also had certain filing defaults. It had not updated its Balance Sheet, Profit and Loss Account and Annual Return for previous years. The company wanted to file an event-based change relating to its corporate structure. The compliance officer discovered that, subject to specified exceptions, event-based information or changes may not be accepted from a defaulting company unless its overdue filings are brought up to date.</p>
+
+    <p>Finally, the Board reviewed MCA21 Version 3.0. The secretary explained that the newer architecture includes components such as e-Scrutiny, e-Adjudication, e-Consultation and the Compliance Management System. The Board was particularly interested in the Compliance Management System because it uses technology to identify non-compliant companies or LLPs, issue e-notices and support enforcement activities.</p>
+
+    <p>The committee asked the company secretary to identify the correct statutory principles applicable to these issues and to distinguish the functions of the various MCA21 mechanisms.</p>
+  `,
+  questions: [
+    {
+      question_id: "seta_EFILING_cs_10_05_1",
+      question: "Which of the following is NOT within the scope of matters that rules under the electronic filing provision are intended to deal with, according to the explanation discussed in the chapter?",
+      options: [
+        "Electronic filing of applications and documents",
+        "Electronic maintenance of records by the Registrar",
+        "Electronic inspection of documents",
+        "Imposition of fines and pecuniary penalties for contraventions"
+      ],
+      answer: 4,
+      reason: "The explanation to section 398 clarifies that rules made under that section do not relate to imposition of fines or other pecuniary penalties, demand or payment of fees, or contraventions and punishment for contraventions."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_05_2",
+      question: "Under the framework discussed in the chapter, electronic form may be prescribed as:",
+      options: [
+        "Only exclusive to physical form",
+        "Only an alternative to physical form",
+        "Only in addition to physical form",
+        "Exclusive, alternative or in addition to physical form"
+      ],
+      answer: 4,
+      reason: "Section 400 permits the Central Government to provide that electronic form shall be exclusive, in the alternative, or in addition to the physical form."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_05_3",
+      question: "Where a document is required to be filed on non-judicial stamp paper and stamp duty has NOT been paid electronically through the notified portal, what is the general position stated in the chapter?",
+      options: [
+        "Only the physical document is required and electronic filing is prohibited",
+        "The document may need to be submitted physically in addition to electronic submission",
+        "No document is required once a scanned copy is uploaded",
+        "Only an email copy is sufficient"
+      ],
+      answer: 2,
+      reason: "Where documents are required to be filed on non-judicial stamp paper, physical submission is required in addition to electronic submission, unless the applicable stamp duty has been paid electronically through the notified portal."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_05_4",
+      question: "Meridian's compliance team wants to file an event-based change while several prescribed annual filings remain overdue. Which statement best reflects the rule described in the chapter?",
+      options: [
+        "Event-based filings can always be accepted regardless of previous defaults",
+        "No filing whatsoever can be made by a defaulting company under any circumstance",
+        "Subject to specified exceptions, event-based information or changes may not be accepted until overdue Balance Sheet, Profit and Loss Account and Annual Return filings are made",
+        "Only physical filings can be accepted from a defaulting company"
+      ],
+      answer: 3,
+      reason: "The chapter states that, subject to specified exceptions, event-based information or changes will not be accepted from defaulting companies unless their updated Balance Sheet, Profit and Loss Account and Annual Return are filed."
+    },
+    {
+      question_id: "seta_EFILING_cs_10_05_5",
+      question: "Which MCA21 Version 3.0 component is primarily intended to identify non-compliant companies/LLPs, issue e-notices and support rule-based compliance checks and enforcement drives?",
+      options: [
+        "e-Consultation",
+        "MCA Lab",
+        "Compliance Management System",
+        "e-Adjudication"
+      ],
+      answer: 3,
+      reason: "The Compliance Management System (CMS) is designed to assist MCA in identifying non-compliant companies/LLPs, issuing e-notices and undertaking rule-based compliance checks and enforcement drives."
+    }
+  ]
+},
+{
+  case_id: "seta_AI_cs_10_01",
+  difficulty: "medium",
+  caseText: `
+    <p>Aarav Technologies Limited (ATL) is a listed public company engaged in the manufacture and sale of specialised electronic equipment. During the financial year, the company undertook several corporate activities requiring filings with the Registrar of Companies (RoC). The company appointed Ms. Riya, a Company Secretary in whole-time practice, to supervise its statutory e-filing process.</p>
+
+    <p>At the beginning of the year, ATL's management decided to update its internal e-filing procedures. Riya explained to the management that MCA21 is the online portal of the Ministry of Corporate Affairs and enables stakeholders to undertake various statutory filings electronically. The system also provides a Service Request Number (SRN), which can be used to track a service request.</p>
+
+    <p>During the year, ATL had to file several forms. One of the directors downloaded the relevant e-form and filled it offline. Since certain information relating to the company was already available in the MCA database, the director used the "pre-fill" facility. Before submission, the company also used the automated "pre-scrutiny" facility to identify errors that could be detected electronically.</p>
+
+    <p>The completed form contained several attachments. The authorised signatory digitally signed the form using his Digital Signature Certificate (DSC). Since another person was also required to sign the form, the form was sent to that person for applying the second digital signature. After both signatures were applied, the company noticed that one figure in the form was incorrect. The finance department changed the figure before uploading the form to the MCA21 portal, without obtaining fresh digital signatures.</p>
+
+    <p>Separately, one employee attempted to submit another e-form by sending it as an attachment through e-mail to the concerned RoC office. The employee argued that since the document had been digitally signed, sending it through e-mail should constitute electronic filing.</p>
+
+    <p>The company was also required to file its financial statements in XBRL format. Riya explained that XBRL is a standardised language for electronic communication of financial information. The company first mapped the relevant financial information to the prescribed taxonomy and then generated the XBRL instance document. The management wanted to know why both taxonomy and an instance document were necessary.</p>
+
+    <p>ATL also had a question regarding its obligation to continue filing financial statements in XBRL format. Its CFO stated that if the company failed to satisfy the prescribed criteria in a subsequent year, it could immediately stop filing in XBRL format. Riya advised the CFO to reconsider this view.</p>
+  `,
+  questions: [
+    {
+      question_id: "seta_AI_cs_10_01_1",
+      question: "Which of the following is a salient feature of MCA21?",
+      options: [
+        "It permits only physical filing of statutory documents",
+        "It provides a Service Request Number for tracking service requests",
+        "It eliminates the need for authentication of e-forms",
+        "It is available only to listed companies"
+      ],
+      answer: 2,
+      reason: "MCA21 provides an SRN (Service Request Number), which enables stakeholders to track their service requests."
+    },
+    {
+      question_id: "seta_AI_cs_10_01_2",
+      question: "Which facility enables certain information already available in the MCA database to be automatically populated in an e-form?",
+      options: [
+        "Pre-scrutiny",
+        "Pre-fill",
+        "SRN",
+        "Back Office"
+      ],
+      answer: 2,
+      reason: "The pre-fill facility automatically captures available information from the MCA electronic registry, reducing repetitive data entry."
+    },
+    {
+      question_id: "seta_AI_cs_10_01_3",
+      question: "After two digital signatures had been applied to the e-form, the company changed a figure in the form before submission without obtaining fresh digital signatures. What is the most appropriate consequence?",
+      options: [
+        "The alteration is valid because the form had not yet been submitted",
+        "The alteration is valid provided the authorised signatory approves it orally",
+        "The alteration can render the digitally signed document invalid and may result in rejection during e-filing",
+        "The alteration is irrelevant because digital signatures authenticate only the identity of the signatories"
+      ],
+      answer: 3,
+      reason: "Multiple digital signatures may be applied to an e-form, but the contents must not be altered after signing. If the contents are altered, the document becomes invalid and may be rejected during the e-filing process."
+    },
+    {
+      question_id: "seta_AI_cs_10_01_4",
+      question: "The employee's attempt to submit an e-form by sending it as an e-mail attachment to the RoC would:",
+      options: [
+        "Constitute valid e-filing because the form was digitally signed",
+        "Constitute valid e-filing only if the e-mail was sent by a director",
+        "Not constitute e-filing because submission must be made through the MCA21 portal using the prescribed functionality",
+        "Constitute valid e-filing if the RoC officer opens the attachment"
+      ],
+      answer: 3,
+      reason: "Sending an e-form by e-mail does not constitute e-filing. The e-form must be submitted through the MCA21 portal using the prescribed functionality."
+    },
+    {
+      question_id: "seta_AI_cs_10_01_5",
+      question: "Which statement correctly explains the relationship between XBRL taxonomy and an XBRL instance document?",
+      options: [
+        "Taxonomy contains the company's actual financial figures, while the instance document contains only definitions of reporting concepts",
+        "Taxonomy acts as an electronic dictionary defining reporting elements and relationships, while the instance document contains the company's mapped financial information along with relevant details such as units and periods",
+        "Taxonomy and instance document are interchangeable terms used for the same electronic file",
+        "Instance documents are prepared first and the taxonomy is subsequently created by the company"
+      ],
+      answer: 2,
+      reason: "Taxonomy defines the reporting concepts, elements and relationships. The company maps its financial information to the taxonomy and generates the XBRL instance document, which contains the relevant reported information along with details such as reporting period and unit of measurement."
+    }
+  ]
+},
+
+{
+  case_id: "seta_AI_cs_10_02",
+  difficulty: "medium",
+  caseText: `
+    <p>Zenith Manufacturing Limited is a public company having a large number of statutory filings during the financial year. The company maintains an internal compliance department headed by its Chief Financial Officer, Mr. Arjun. Due to an increase in filing requirements, the Board decided to streamline the company's e-filing process and appointed a professional to review the system.</p>
+
+    <p>The compliance team explained that before using the MCA21 portal for filing, a user is required to complete the registration process and create a personalised login ID. Where an authorised signatory intends to authenticate e-forms using a Digital Signature Certificate, the DSC also needs to be registered. The team further explained that registration of the DSC would have to be repeated when the user obtains a new or renewed DSC.</p>
+
+    <p>Zenith was required to file an event-based form relating to a change in its registered office. The compliance officer downloaded an old version of the relevant form because he had used the same form during the previous financial year. He argued that the old form could still be used because the basic information required by the form had not changed.</p>
+
+    <p>Before filing another form, the company filled it offline because the finance manager was working at a location where an active internet connection was unavailable. After completing the form, the company attached supporting documents in PDF format and digitally signed the form.</p>
+
+    <p>During automated pre-scrutiny, the system detected an error relating to one of the mandatory fields. The compliance officer corrected the error and resubmitted the form. The system subsequently accepted the form for payment.</p>
+
+    <p>The CFO wanted to know whether the company could regard the e-filing as complete immediately after uploading the form. The professional explained that submission and completion of e-filing are not necessarily the same stage because the applicable fee must also be paid.</p>
+  `,
+  questions: [
+    {
+      question_id: "seta_AI_cs_10_02_1",
+      question: "What is the purpose of registration of a user on the MCA21 portal?",
+      options: [
+        "It permanently eliminates the requirement of a DSC",
+        "It enables the user to create a personalised login ID for accessing the portal",
+        "It automatically incorporates a company",
+        "It replaces the requirement to file statutory forms"
+      ],
+      answer: 2,
+      reason: "Registration is a one-time process through which a user creates a personalised login ID for accessing MCA21 services."
+    },
+    {
+      question_id: "seta_AI_cs_10_02_2",
+      question: "If the authorised signatory obtains a new DSC after registering the earlier DSC, what is required?",
+      options: [
+        "Nothing, because DSC registration is permanent",
+        "Only the RoC must be informed physically",
+        "The new DSC must be registered again",
+        "A new company registration is required"
+      ],
+      answer: 3,
+      reason: "The process of registration of DSC is repeated whenever the user procures a new DSC or renews the existing DSC."
+    },
+    {
+      question_id: "seta_AI_cs_10_02_3",
+      question: "Was the compliance officer justified in using an old version of the e-form merely because the underlying information had not materially changed?",
+      options: [
+        "Yes, because any previously notified form can always be used",
+        "Yes, if the form is digitally signed",
+        "No, the user must ensure that the latest notified e-form is used",
+        "Yes, if the professional subsequently certifies it"
+      ],
+      answer: 3,
+      reason: "Users must ensure that they use the latest notified e-forms made available through the MCA21 portal."
+    },
+    {
+      question_id: "seta_AI_cs_10_02_4",
+      question: "Which statement regarding offline completion of an e-form is correct?",
+      options: [
+        "Offline filling is prohibited in every case",
+        "Offline filling can be done without remaining connected to the internet",
+        "Offline filling eliminates the need for digital signatures",
+        "Offline filling itself constitutes e-filing"
+      ],
+      answer: 2,
+      reason: "E-forms may be filled online or offline. Offline filling does not require the user to remain connected to the internet, but the completed form must subsequently be submitted through the prescribed MCA portal."
+    },
+    {
+      question_id: "seta_AI_cs_10_02_5",
+      question: "At what stage is e-filing generally regarded as completed?",
+      options: [
+        "Immediately when the e-form is downloaded",
+        "When the form is filled but before signing",
+        "Only when the necessary payment is remitted through the applicable payment method",
+        "When the form is printed"
+      ],
+      answer: 3,
+      reason: "E-filing is completed once the necessary payment is remitted either through electronic payment means or through the challan-based method."
+    }
+  ]
+},
+
+{
+  case_id: "seta_AI_cs_10_03",
+  difficulty: "hard",
+  caseText: `
+    <p>Meridian Industries Limited is a large company with substantial authorised share capital and numerous statutory filing obligations. During the year, the company experienced delays in filing certain documents with the Registrar of Companies. The Board constituted a compliance committee to determine the consequences of delayed filing and the additional fees that would become payable.</p>
+
+    <p>The compliance committee first considered a document that had been filed 20 days after the prescribed due date. The company had calculated the normal filing fee and proposed to pay only the normal fee, arguing that the delay was relatively short and had not caused any prejudice to stakeholders.</p>
+
+    <p>Another filing was delayed by 75 days. The compliance officer stated that the additional fee should be calculated in exactly the same manner as the first delayed filing because both were ordinary statutory forms. The professional advising the company disagreed and explained that the prescribed additional fee increases according to the period of delay.</p>
+
+    <p>A third filing concerned the annual return under section 92. It was filed substantially after the statutory period. The CFO argued that the general table applicable to ordinary delayed forms should be applied. The professional explained that forms under sections 92 and 137 are subject to a specific additional fee framework.</p>
+
+    <p>During the review, the company also discovered that it had committed defaults on more than one occasion in filing certain forms such as INC-22 and PAS-3 within the prescribed period. The compliance team questioned whether the ordinary additional fee structure would always apply even when repeated defaults occurred within the specified period.</p>
+
+    <p>Finally, the company had to file an application for which no specific e-form was prescribed under the relevant rules. The junior compliance officer proposed that the application should simply be uploaded as a PDF without using any prescribed form.</p>
+
+    <p>The Board asked the compliance committee to determine the correct legal position regarding additional fees, higher additional fees and the procedure for documents for which no specific e-form is prescribed.</p>
+  `,
+  questions: [
+    {
+      question_id: "seta_AI_cs_10_03_1",
+      question: "A delay of more than 15 days and up to 30 days in filing an ordinary form generally attracts additional fee equal to:",
+      options: [
+        "One time of normal filing fee",
+        "Two times of normal filing fee",
+        "Four times of normal filing fee",
+        "Six times of normal filing fee"
+      ],
+      answer: 2,
+      reason: "For delay of more than 15 days and up to 30 days, the additional fee is generally two times the normal filing fee."
+    },
+    {
+      question_id: "seta_AI_cs_10_03_2",
+      question: "A delay of more than 60 days and up to 90 days in an ordinary filing generally attracts additional fee equal to:",
+      options: [
+        "Two times normal fee",
+        "Four times normal fee",
+        "Six times normal fee",
+        "Ten times normal fee"
+      ],
+      answer: 3,
+      reason: "For delay of more than 60 days and up to 90 days, the prescribed additional fee is six times the normal filing fee."
+    },
+    {
+      question_id: "seta_AI_cs_10_03_3",
+      question: "Which statement correctly describes the additional fee for documents under sections 92 and 137 where the relevant period expires after 30 June 2018?",
+      options: [
+        "₹10 per day",
+        "₹50 per day",
+        "₹100 per day",
+        "No additional fee is payable"
+      ],
+      answer: 3,
+      reason: "For documents under section 92 or 137, the additional fee for delay beyond the prescribed period is ₹100 per day."
+    },
+    {
+      question_id: "seta_AI_cs_10_03_4",
+      question: "Where prescribed conditions relating to repeated defaults in INC-22 or PAS-3 are satisfied, what may become payable?",
+      options: [
+        "Only normal filing fee",
+        "Higher additional fee",
+        "No fee because the company has already paid earlier",
+        "Only inspection fee"
+      ],
+      answer: 2,
+      reason: "Higher additional fees may apply where the prescribed repeated-default conditions are satisfied for forms such as INC-22 or PAS-3."
+    },
+    {
+      question_id: "seta_AI_cs_10_03_5",
+      question: "Where no e-form is prescribed for filing a particular document or application under the Companies Act, which form is generally used?",
+      options: [
+        "DIR-3",
+        "GNL-1 or GNL-2, as applicable",
+        "MGT-7A only",
+        "AOC-4 XBRL"
+      ],
+      answer: 2,
+      reason: "Rule 12(2) provides that where no e-form is prescribed, the document or application is filed through Form GNL-1 or GNL-2 along with the applicable fee."
+    }
+  ]
+},
+
+{
+  case_id: "seta_AI_cs_10_04",
+  difficulty: "hard",
+  caseText: `
+    <p>Nova Financial Services Limited is a diversified corporate group consisting of a listed manufacturing company, a housing finance company, a banking subsidiary and several other companies. The group is in the process of reviewing its XBRL reporting obligations and wants to ensure that each entity files its financial statements in the appropriate electronic format.</p>
+
+    <p>The listed parent company has been filing its financial statements using AOC-4 XBRL. The finance team uses specialised accounting software capable of exporting financial information into XBRL format. Before generating the final instance document, the reporting team maps the company's financial statement concepts to the appropriate elements contained in the prescribed taxonomy.</p>
+
+    <p>The CFO explains to the Board that XBRL is not simply another PDF format. It is a standardised language used for electronic communication of financial information. The taxonomy serves as an electronic dictionary containing reporting elements and relationships. The instance document contains the actual company-specific information mapped to those elements.</p>
+
+    <p>One subsidiary of the listed company has paid-up capital of ₹6 crore but its turnover is only ₹70 crore. Another independent company in the group has paid-up capital of ₹3 crore but turnover of ₹125 crore. A third company has paid-up capital of ₹2 crore and turnover of ₹40 crore but prepares its financial statements in accordance with the Companies (Indian Accounting Standards) Rules, 2015.</p>
+
+    <p>The banking subsidiary has argued that because it is part of a large listed group, it must necessarily file its financial statements under the same XBRL requirements as the listed parent. The housing finance company has taken a similar position, while the compliance officer has raised doubts about the applicability of the XBRL filing rules to these entities.</p>
+
+    <p>The CFO also informs the Board that the parent company may be required to continue filing its financial statements in XBRL even if, in a later year, its paid-up capital and turnover fall below the specified thresholds. Certain directors disagree and believe that the obligation automatically disappears once the numerical thresholds are no longer satisfied.</p>
+
+    <p>The Board asks the compliance team to analyse the applicability of XBRL filing based on the statutory criteria and exemptions.</p>
+  `,
+  questions: [
+    {
+      question_id: "seta_AI_cs_10_04_1",
+      question: "A company having paid-up capital of ₹6 crore would generally fall within the specified class requiring XBRL filing, subject to the applicable rules and exemptions, because its paid-up capital is:",
+      options: [
+        "₹3 crore or above",
+        "₹4 crore or above",
+        "₹5 crore or above",
+        "₹10 crore or above"
+      ],
+      answer: 3,
+      reason: "Companies having paid-up capital of ₹5 crore or above are included in the specified class of companies required to file financial statements in XBRL, subject to applicable exemptions."
+    },
+    {
+      question_id: "seta_AI_cs_10_04_2",
+      question: "The company having turnover of ₹125 crore but paid-up capital of ₹3 crore would generally fall within the XBRL requirement because its turnover exceeds:",
+      options: [
+        "₹25 crore",
+        "₹50 crore",
+        "₹75 crore",
+        "₹100 crore"
+      ],
+      answer: 4,
+      reason: "Companies having turnover of ₹100 crore or above are included within the specified class required to file financial statements in XBRL, subject to applicable exemptions."
+    },
+    {
+      question_id: "seta_AI_cs_10_04_3",
+      question: "The company having paid-up capital of ₹2 crore and turnover of ₹40 crore prepares its financial statements under the Companies (Indian Accounting Standards) Rules, 2015. What is the correct position?",
+      options: [
+        "It cannot be required to file XBRL because both numerical thresholds are below the limits",
+        "It falls within the specified XBRL class because companies required to prepare financial statements under the Indian Accounting Standards Rules are included",
+        "It is automatically exempt because its turnover is below ₹100 crore",
+        "Only listed companies can file XBRL"
+      ],
+      answer: 2,
+      reason: "Companies required to prepare their financial statements in accordance with the Companies (Indian Accounting Standards) Rules, 2015 are included in the specified class for XBRL filing."
+    },
+    {
+      question_id: "seta_AI_cs_10_04_4",
+      question: "Which of the following entities is specifically exempted from filing financial statements under the XBRL Rules?",
+      options: [
+        "Listed manufacturing companies",
+        "Companies having turnover above ₹100 crore",
+        "Housing Finance Companies",
+        "Companies having paid-up capital above ₹5 crore"
+      ],
+      answer: 3,
+      reason: "Non-banking financial companies, Housing Finance Companies and companies engaged in banking and insurance sectors are exempted from filing financial statements under these XBRL Rules."
+    },
+    {
+      question_id: "seta_AI_cs_10_04_5",
+      question: "If a company has once filed its financial statements in XBRL format, what is the position in a subsequent year when it no longer falls within the specified classes?",
+      options: [
+        "It may automatically stop XBRL filing",
+        "It must continue filing its financial statements and other documents in XBRL format",
+        "It must obtain fresh approval from the RoC before every XBRL filing",
+        "It must revert to physical filing"
+      ],
+      answer: 2,
+      reason: "A company which has once filed its financial statements in XBRL format shall continue to file its financial statements and other documents in XBRL format even if it subsequently does not fall within the specified class."
+    }
+  ]
+},
+
+{
+  case_id: "seta_AI_cs_10_05",
+  difficulty: "hard",
+  caseText: `
+    <p>Orion Infrastructure Limited is undertaking a major restructuring exercise involving changes in its registered office, alteration of share capital, appointment of directors and creation of security in favour of a financial institution. Since several forms have to be filed electronically, the company has asked its compliance team to determine the correct forms and authentication requirements.</p>
+
+    <p>The company first proposes to change the situation of its registered office. The compliance officer identifies Form INC-22 as the relevant form. The company then proposes to increase its authorised share capital and the compliance team identifies Form SH-7 for filing the notice of alteration of share capital.</p>
+
+    <p>During the same period, one director resigns and another director is appointed. The junior executive proposes to use DIR-6 for recording the appointment and resignation because he believes that all director-related changes can be reported through a single DIN-related form. The Company Secretary corrects him and explains that different forms serve different purposes.</p>
+
+    <p>Orion also obtains a loan from a bank and creates a charge over certain assets. The compliance officer identifies CHG-1 for registration of creation or modification of a charge other than charges relating to debentures. Later, after repayment of the secured borrowing, the company plans to file the relevant satisfaction of charge form.</p>
+
+    <p>While preparing the forms, the authorised signatory attaches scanned documents. One scanned attachment is merely a blank scanned page bearing no actual signature because the original signed document was temporarily unavailable. The compliance officer suggests that the blank page can be retained and the original can be supplied later if demanded by the RoC.</p>
+
+    <p>Another issue arises concerning responsibility for the contents of the form. The professional certifying the e-form argues that because the company's management prepared the information, he cannot be responsible for incorrect contents or incomplete attachments. The Board seeks clarification regarding responsibility for authentication and certification.</p>
+
+    <p>Finally, the company discovers that an e-form previously filed contained a material omission and misleading information. The management proposes to ignore the matter because the form has already been accepted by the MCA system.</p>
+  `,
+  questions: [
+    {
+      question_id: "seta_AI_cs_10_05_1",
+      question: "Which form is generally used for notice of situation or change of situation of registered office?",
+      options: [
+        "INC-22",
+        "INC-27",
+        "SH-7",
+        "DIR-12"
+      ],
+      answer: 1,
+      reason: "Form INC-22 is used for notice of situation or change of situation of registered office to be filed with the Registrar of Companies."
+    },
+    {
+      question_id: "seta_AI_cs_10_05_2",
+      question: "Which form is generally used for filing notice of alteration of share capital?",
+      options: [
+        "PAS-3",
+        "SH-7",
+        "MGT-14",
+        "CHG-1"
+      ],
+      answer: 2,
+      reason: "Form SH-7 is used for filing notice to the Registrar of any alteration of share capital."
+    },
+    {
+      question_id: "seta_AI_cs_10_05_3",
+      question: "Which statement correctly distinguishes DIR-6 and DIR-12?",
+      options: [
+        "DIR-6 is used for changes in particulars of a director, while DIR-12 deals with appointment and changes among directors and KMP",
+        "DIR-6 is used only for registration of charges, while DIR-12 is used for financial statements",
+        "Both forms are exclusively used for alteration of share capital",
+        "DIR-6 is used for XBRL filing and DIR-12 for annual return"
+      ],
+      answer: 1,
+      reason: "DIR-6 is used for intimation of change in particulars of a director, whereas DIR-12 is used for particulars of appointment of directors and KMP and changes among them, including resignation."
+    },
+    {
+      question_id: "seta_AI_cs_10_05_4",
+      question: "Which form is generally used for registration of creation or modification of a charge other than charges relating to debentures?",
+      options: [
+        "CHG-1",
+        "CHG-4",
+        "CHG-6",
+        "CHG-9"
+      ],
+      answer: 1,
+      reason: "Form CHG-1 is used for registration of creation or modification of a charge other than charges related to debentures. CHG-4 relates to satisfaction of charge."
+    },
+    {
+      question_id: "seta_AI_cs_10_05_5",
+      question: "Which statement is correct regarding authentication and attachments to e-forms?",
+      options: [
+        "A blank scanned document can be attached because the original can always be produced later",
+        "Only the company, and never the professional certifying the form, has responsibility for correctness",
+        "The authorised signatory and professional certifying the e-form are responsible for correctness of contents and relevant attachments, and scanned documents should represent original signed documents",
+        "Once the MCA system accepts a form, false or misleading information can never attract further consequences"
+      ],
+      answer: 3,
+      reason: "The authorised signatory and professional certifying the e-form are responsible for the correctness of its contents and attachments. Scanned document images should be of original signed documents and should bear the actual signature of the authorised person. False or misleading information or omission of material facts may attract action under the Companies Act."
+    }
+  ]
 }
 ];
