@@ -22606,5 +22606,2503 @@ const AICaseStudies = [
       reason: "Section 15Z provides a period of 60 days from communication of the SAT decision or order, with the Supreme Court empowered to allow a further period not exceeding 60 days if sufficient cause is shown."
     }
   ]
-}
+},
+
+  /* =========================================================
+     CASE SCENARIO 31
+     SEBI (LODR) – BOARD OF DIRECTORS & CORPORATE GOVERNANCE
+     DIFFICULTY: MEDIUM
+  ========================================================= */
+
+  {
+
+    case_id: "SEBI_CH1_CS_31",
+
+    chapter: "SEBI (LODR) Regulations, 2015",
+
+    difficulty: "medium",
+
+    caseText: `
+
+      <p>Arvind Consumer Products Ltd. is a company whose equity shares are listed on the Main Board of a recognised stock exchange. The company has recently expanded its operations and is reviewing its corporate governance framework to ensure compliance with the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015.</p>
+
+      <p>The Board of Directors consists of 12 directors. The Chairperson is a regular non-executive director and is not related to any promoter. The Board includes five independent directors and two women directors. The company believes that since more than one-third of the Board consists of independent directors, its composition is compliant.</p>
+
+      <p>During the financial year, the Board conducted four meetings. However, the company noticed that the interval between two consecutive meetings was 128 days. The management argued that four meetings had nevertheless been held during the year and therefore there could not be any violation.</p>
+
+      <p>One of the non-executive directors of the company has attained the age of 76 years. The Board proposes to continue him as a director without obtaining any additional shareholder approval because of his long experience in the industry.</p>
+
+      <p>The Board also periodically receives compliance reports prepared by the legal department. However, the directors merely take the reports on record and do not review the steps taken by the company to rectify instances of non-compliance.</p>
+
+    `,
+
+    questions: [
+
+      {
+
+        question_id: "SEBI_CH1_CS_31_Q1",
+
+        question: "Since the Chairperson is a regular non-executive director and is not related to any promoter, what minimum proportion of the Board should comprise independent directors?",
+
+        options: [
+
+          "One-fourth of the Board",
+
+          "One-third of the Board",
+
+          "One-half of the Board",
+
+          "Two-thirds of the Board"
+
+        ],
+
+        answer: 2,
+
+        reason: "Where the Chairperson of the Board is a non-executive director, at least one-third of the Board shall comprise independent directors, subject to the specified conditions."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_31_Q2",
+
+        question: "The interval of 128 days between two consecutive Board meetings is:",
+
+        options: [
+
+          "Permitted because four meetings were held during the year",
+
+          "Permitted if approved by the Chairperson",
+
+          "Not compliant because the maximum gap should generally not exceed 120 days",
+
+          "Permitted if approved by the Audit Committee"
+
+        ],
+
+        answer: 3,
+
+        reason: "The Board shall meet at least four times in a financial year and the maximum time gap between any two consecutive meetings shall not exceed 120 days."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_31_Q3",
+
+        question: "What is required for continuation of the 76-year-old non-executive director?",
+
+        options: [
+
+          "No approval is required",
+
+          "Ordinary resolution of shareholders",
+
+          "Special resolution of shareholders with justification in the explanatory statement",
+
+          "Approval of SEBI only"
+
+        ],
+
+        answer: 3,
+
+        reason: "A listed entity shall not appoint or continue a non-executive director who has attained 75 years of age unless a special resolution is passed and the explanatory statement contains justification."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_31_Q4",
+
+        question: "The Board's treatment of the compliance reports is:",
+
+        options: [
+
+          "Fully compliant because merely receiving the report is sufficient",
+
+          "Not appropriate because the Board is required to periodically review compliance reports and steps taken for rectification",
+
+          "Required to be performed only by the Audit Committee",
+
+          "Required only once every three years"
+
+        ],
+
+        answer: 2,
+
+        reason: "The Board is required to periodically review compliance reports of all laws applicable to the company and the steps taken to rectify instances of non-compliance."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_31_Q5",
+
+        question: "Which of the following is a general obligation of persons dealing with the listed entity?",
+
+        options: [
+
+          "They need not provide information to the company",
+
+          "They must disclose relevant and necessary information to enable the listed entity to ensure compliance",
+
+          "They are responsible only for financial reporting",
+
+          "They are responsible only when SEBI specifically asks for information"
+
+        ],
+
+        answer: 2,
+
+        reason: "KMPs, directors, promoters and other persons dealing with the listed entity must disclose information relevant and necessary for the listed entity to ensure compliance with applicable laws."
+
+      }
+
+    ]
+
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 32
+     SEBI (LODR) – DIRECTORSHIPS & COMMITTEE MEMBERSHIPS
+     DIFFICULTY: MEDIUM
+  ========================================================= */
+
+  {
+
+    case_id: "SEBI_CH1_CS_32",
+
+    chapter: "SEBI (LODR) Regulations, 2015",
+
+    difficulty: "medium",
+
+    caseText: `
+
+      <p>Bhavya Infrastructure Ltd. is a listed company with several subsidiaries and investments in other listed entities. Mr. Rohan Mehta, a prominent professional, serves as a director in several listed companies. He is also a whole-time director in one listed entity and an independent director in a number of other listed entities.</p>
+
+      <p>As part of its annual governance review, the company discovers that Mr. Mehta is a director in eight listed entities. He argues that his directorships should not be counted cumulatively because some of the entities have different types of securities listed.</p>
+
+      <p>In addition, Mr. Mehta serves on several committees. He is a member of twelve committees across public limited companies, out of which seven are Audit Committees or Stakeholders' Relationship Committees. He is also the chairperson of six committees.</p>
+
+      <p>The company asks Mr. Mehta to provide details of committee positions held by him in other listed entities. He states that the company is not entitled to seek such information because committee positions are personal responsibilities of directors.</p>
+
+      <p>Mr. Mehta also serves as an independent director in four listed entities while continuing as a whole-time director in another listed company.</p>
+
+    `,
+
+    questions: [
+
+      {
+
+        question_id: "SEBI_CH1_CS_32_Q1",
+
+        question: "Under Regulation 17A, the maximum number of listed entities in which a person can generally be a director is:",
+
+        options: [
+
+          "Five",
+
+          "Seven",
+
+          "Ten",
+
+          "Twelve"
+
+        ],
+
+        answer: 2,
+
+        reason: "A person shall not be a director in more than seven listed entities, subject to the provisions and explanations under Regulation 17A."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_32_Q2",
+
+        question: "Since Mr. Mehta is a whole-time director in one listed entity, he may serve as an independent director in not more than:",
+
+        options: [
+
+          "Two listed entities",
+
+          "Three listed entities",
+
+          "Five listed entities",
+
+          "Seven listed entities"
+
+        ],
+
+        answer: 2,
+
+        reason: "A person serving as a whole-time director or managing director in any listed entity shall serve as an independent director in not more than three listed entities."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_32_Q3",
+
+        question: "For determining the committee membership and chairperson limits, which committees are specifically considered?",
+
+        options: [
+
+          "All committees of every private and public company",
+
+          "Only Audit Committee and Stakeholders' Relationship Committee",
+
+          "Only Nomination and Remuneration Committee",
+
+          "Only Risk Management Committee"
+
+        ],
+
+        answer: 2,
+
+        reason: "For determination of the limit under Regulation 26, chairpersonship and membership of the Audit Committee and Stakeholders' Relationship Committee alone are considered."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_32_Q4",
+
+        question: "A director shall generally not be a member in more than:",
+
+        options: [
+
+          "5 committees",
+
+          "7 committees",
+
+          "10 committees",
+
+          "15 committees"
+
+        ],
+
+        answer: 3,
+
+        reason: "A director shall not be a member in more than ten committees or act as chairperson of more than five committees across all listed entities in which he or she is a director, subject to the specified method of counting."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_32_Q5",
+
+        question: "Mr. Mehta's refusal to provide information about committee positions is:",
+
+        options: [
+
+          "Correct because committee positions are private",
+
+          "Incorrect because every director must inform the listed entity about committee positions occupied in other listed entities and notify changes",
+
+          "Correct unless SEBI issues a notice",
+
+          "Correct only for Audit Committee positions"
+
+        ],
+
+        answer: 2,
+
+        reason: "Every director shall inform the listed entity about committee positions occupied in other listed entities and notify changes as and when they take place."
+
+      }
+
+    ]
+
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 33
+     SEBI (LODR) – MATERIAL SUBSIDIARY
+     DIFFICULTY: MEDIUM
+  ========================================================= */
+
+  {
+
+    case_id: "SEBI_CH1_CS_33",
+
+    chapter: "SEBI (LODR) Regulations, 2015",
+
+    difficulty: "medium",
+
+    caseText: `
+
+      <p>Devika Motors Ltd. is a listed entity having an unlisted subsidiary, Devika Auto Components Ltd. The listed company has been reviewing the subsidiary's operations because of its rapidly increasing contribution to the consolidated business of the group.</p>
+
+      <p>For the immediately preceding accounting year, the turnover of Devika Auto Components represents 24% of the consolidated turnover of Devika Motors and its subsidiaries. The management therefore classifies Devika Auto Components as an unlisted material subsidiary.</p>
+
+      <p>The listed company's Board has not appointed any independent director on the Board of the subsidiary. The management believes that because the subsidiary is incorporated outside the main business location of the listed company, such appointment is unnecessary.</p>
+
+      <p>The Audit Committee of Devika Motors also does not review the financial statements of the subsidiary. The minutes of the subsidiary's Board meetings are maintained at its registered office but are not placed before the Board of the listed entity.</p>
+
+      <p>During the year, the subsidiary enters into a major arrangement which amounts to more than 10% of its total assets. The management does not report the arrangement to the Board of Devika Motors.</p>
+
+    `,
+
+    questions: [
+
+      {
+
+        question_id: "SEBI_CH1_CS_33_Q1",
+
+        question: "Devika Auto Components qualifies as a material subsidiary because its turnover exceeds:",
+
+        options: [
+
+          "10% of consolidated turnover",
+
+          "15% of consolidated turnover",
+
+          "20% of consolidated turnover",
+
+          "50% of consolidated turnover"
+
+        ],
+
+        answer: 3,
+
+        reason: "A material subsidiary is a subsidiary whose turnover or net worth exceeds 20% of the consolidated turnover or net worth respectively of the listed entity and its subsidiaries in the immediately preceding accounting year."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_33_Q2",
+
+        question: "What is required regarding independent directors?",
+
+        options: [
+
+          "No independent director is required",
+
+          "At least one independent director of the listed entity should be a director on the subsidiary's Board",
+
+          "All directors of the subsidiary must be independent",
+
+          "Only the statutory auditor must be independent"
+
+        ],
+
+        answer: 2,
+
+        reason: "At least one independent director on the Board of the listed entity shall be a director on the Board of an unlisted material subsidiary, whether incorporated in India or not."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_33_Q3",
+
+        question: "The Audit Committee of the listed company should:",
+
+        options: [
+
+          "Ignore the subsidiary's financial statements",
+
+          "Review the financial statements, particularly investments made by the subsidiary",
+
+          "Approve every employee appointment of the subsidiary",
+
+          "Review only the tax returns of the subsidiary"
+
+        ],
+
+        answer: 2,
+
+        reason: "The Audit Committee of the listed company shall review the financial statements of the unlisted subsidiary, particularly the investments made by the subsidiary."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_33_Q4",
+
+        question: "The minutes of the subsidiary's Board meetings should be:",
+
+        options: [
+
+          "Destroyed after approval",
+
+          "Placed before the Board of the listed entity",
+
+          "Sent only to SEBI",
+
+          "Placed only before shareholders"
+
+        ],
+
+        answer: 2,
+
+        reason: "The minutes of the Board meetings of the unlisted subsidiary shall be placed at the meeting of the Board of the listed entity."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_33_Q5",
+
+        question: "A transaction exceeding 10% of the subsidiary's total assets is generally treated as:",
+
+        options: [
+
+          "A significant transaction or arrangement requiring the subsidiary's management to bring it to the notice of the listed entity's Board",
+
+          "An ordinary transaction which never needs disclosure",
+
+          "A criminal transaction",
+
+          "A transaction requiring approval only from shareholders of the subsidiary"
+
+        ],
+
+        answer: 1,
+
+        reason: "An individual transaction or arrangement exceeding or likely to exceed 10% of the total assets, revenues, expenses or liabilities, as applicable, of the unlisted subsidiary is treated as significant and should be brought to the notice of the listed entity's Board."
+
+      }
+
+    ]
+
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 34
+     SEBI (LODR) – QUARTERLY & ANNUAL COMPLIANCES
+     DIFFICULTY: MEDIUM
+  ========================================================= */
+
+  {
+
+    case_id: "SEBI_CH1_CS_34",
+
+    chapter: "SEBI (LODR) Regulations, 2015",
+
+    difficulty: "medium",
+
+    caseText: `
+
+      <p>Evergreen Textiles Ltd. is a listed company whose compliance department is responsible for periodic filings with recognised stock exchanges. During the year, the company experienced several delays in preparing its quarterly disclosures.</p>
+
+      <p>At the end of the first quarter, the company prepared its statement showing the holding of specified securities and shareholding pattern. The statement was filed 18 days after the end of the quarter. In the second quarter, the company filed the same statement 24 days after the end of the quarter.</p>
+
+      <p>The company also has an investor grievance redressal mechanism. At the end of each quarter, details of investor complaints received, resolved and pending are compiled by the compliance department.</p>
+
+      <p>During the year, the company made a capital restructuring which resulted in a change of more than 2% of its total paid-up share capital. The company waited until the next quarterly filing to disclose the revised shareholding pattern.</p>
+
+      <p>The company's annual audited standalone financial results were finalised after the end of the financial year. The management planned to submit the results to the stock exchange within 75 days from the end of the financial year. It also planned to send the annual report to shareholders only after the AGM notice had already been dispatched.</p>
+
+    `,
+
+    questions: [
+
+      {
+
+        question_id: "SEBI_CH1_CS_34_Q1",
+
+        question: "The quarterly shareholding pattern should generally be filed within:",
+
+        options: [
+
+          "10 days from the end of the quarter",
+
+          "21 days from the end of the quarter",
+
+          "30 days from the end of the quarter",
+
+          "45 days from the end of the quarter"
+
+        ],
+
+        answer: 2,
+
+        reason: "Under Regulation 31, the shareholding pattern is required to be filed on a quarterly basis within 21 days from the end of each quarter."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_34_Q2",
+
+        question: "Investor grievance details are required to be submitted:",
+
+        options: [
+
+          "Monthly",
+
+          "Quarterly",
+
+          "Only annually",
+
+          "Only when SEBI asks"
+
+        ],
+
+        answer: 2,
+
+        reason: "Under Regulation 13(3), the listed entity shall file a statement detailing the redressal of investor grievances with the recognised stock exchanges on a quarterly basis."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_34_Q3",
+
+        question: "After a capital restructuring resulting in a change exceeding 2% of total paid-up share capital, the revised shareholding pattern should generally be filed within:",
+
+        options: [
+
+          "3 days",
+
+          "7 days",
+
+          "10 days",
+
+          "21 days"
+
+        ],
+
+        answer: 3,
+
+        reason: "Regulation 31 requires filing within 10 days of any capital restructuring resulting in a change exceeding 2% of the total paid-up share capital."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_34_Q4",
+
+        question: "Annual audited standalone financial results are generally required to be submitted within:",
+
+        options: [
+
+          "30 days from the end of the financial year",
+
+          "45 days from the end of the financial year",
+
+          "60 days from the end of the financial year",
+
+          "90 days from the end of the financial year"
+
+        ],
+
+        answer: 3,
+
+        reason: "Annual audited standalone financial results, along with the audit report and applicable Statement on Impact of Audit Qualifications, are required within 60 days from the end of the financial year."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_34_Q5",
+
+        question: "The annual report sent to shareholders is required to be submitted to the stock exchange:",
+
+        options: [
+
+          "Only after the AGM",
+
+          "On or before commencement of dispatch to shareholders",
+
+          "Within 90 days after the AGM",
+
+          "Only if requested by shareholders"
+
+        ],
+
+        answer: 2,
+
+        reason: "Under Regulation 34, the listed entity shall submit to the stock exchange and publish on its website a copy of the annual report sent to shareholders along with the AGM notice, on or before commencement of dispatch."
+
+      }
+
+    ]
+
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 35
+     SEBI (LODR) – PRIOR INTIMATION & RECORD DATE
+     DIFFICULTY: MEDIUM
+  ========================================================= */
+
+  {
+
+    case_id: "SEBI_CH1_CS_35",
+
+    chapter: "SEBI (LODR) Regulations, 2015",
+
+    difficulty: "medium",
+
+    caseText: `
+
+      <p>Galaxy Renewable Energy Ltd. is planning a series of corporate actions during the financial year. The Board proposes to consider a buy-back of securities, declaration of dividend, issue of convertible securities and raising funds through a rights issue.</p>
+
+      <p>The company secretary prepares the agenda for the Board meeting scheduled for Monday. The stock exchange is informed on Friday. The company argues that since Friday, Saturday and Sunday occur before the meeting, the requirement of prior intimation has been satisfied.</p>
+
+      <p>At another Board meeting, the company proposes voluntary delisting of its equity shares. The compliance department sends the intimation on the day immediately preceding the Board meeting.</p>
+
+      <p>The company subsequently fixes a record date for determining shareholders entitled to receive bonus shares. The record date is a Wednesday, and the company gives notice to the stock exchange on the preceding Friday.</p>
+
+      <p>The company also modifies certain information on its website. The IT department updates the website five working days after the change was approved by management.</p>
+
+    `,
+
+    questions: [
+
+      {
+
+        question_id: "SEBI_CH1_CS_35_Q1",
+
+        question: "For specified proposals such as buy-back and fund raising, prior intimation to the stock exchange should generally be given at least:",
+
+        options: [
+
+          "1 working day in advance",
+
+          "2 working days in advance, excluding the date of intimation and meeting",
+
+          "3 calendar days in advance",
+
+          "7 working days in advance"
+
+        ],
+
+        answer: 2,
+
+        reason: "Regulation 29 requires prior intimation of at least two working days, excluding the date of intimation and the date of the Board meeting, for specified proposals."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_35_Q2",
+
+        question: "Which of the following is covered by the prior-intimation requirement?",
+
+        options: [
+
+          "Proposal for buy-back of securities",
+
+          "Appointment of a junior employee",
+
+          "Routine purchase of office supplies",
+
+          "Ordinary payment of electricity bills"
+
+        ],
+
+        answer: 1,
+
+        reason: "A proposal for buy-back of securities is specifically covered by the prior-intimation requirement under Regulation 29."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_35_Q3",
+
+        question: "For a record date, prior notice to the stock exchange should generally be given at least:",
+
+        options: [
+
+          "1 working day",
+
+          "2 working days",
+
+          "3 working days, excluding the date of intimation and record date",
+
+          "10 working days"
+
+        ],
+
+        answer: 3,
+
+        reason: "Regulation 42 requires at least three working days' prior notice of the record date, excluding the date of intimation and the record date."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_35_Q4",
+
+        question: "A record date may be fixed for:",
+
+        options: [
+
+          "Declaration of dividend",
+
+          "Issue of bonus shares",
+
+          "Corporate actions such as merger or de-merger",
+
+          "All of the above"
+
+        ],
+
+        answer: 4,
+
+        reason: "Record dates may be fixed for dividend, rights or bonus shares, conversion of securities and corporate actions such as mergers, de-mergers and splits, among other specified purposes."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_35_Q5",
+
+        question: "A listed entity should update changes in the content of its website within:",
+
+        options: [
+
+          "24 hours",
+
+          "2 working days",
+
+          "7 working days",
+
+          "15 days"
+
+        ],
+
+        answer: 2,
+
+        reason: "Under Regulation 46, the listed entity shall update any change in the content of its website within two working days from the date of such change."
+
+      }
+
+    ]
+
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 36
+     SEBI (LODR) – RELATED PARTY TRANSACTIONS
+     DIFFICULTY: HARD
+  ========================================================= */
+
+  {
+
+    case_id: "SEBI_CH1_CS_36",
+
+    chapter: "SEBI (LODR) Regulations, 2015",
+
+    difficulty: "hard",
+
+    caseText: `
+
+      <p>Horizon Digital Ltd. is a listed technology company. During the financial year, the company enters into several arrangements with entities connected with its promoter group. The Board believes that some of the transactions should not be treated as related party transactions because they are entered into at market prices.</p>
+
+      <p>A promoter-group entity holds 11% of the equity shares of Horizon Digital. The management argues that because the entity does not control Horizon Digital, it should not be regarded as a related party under the SEBI (LODR) Regulations.</p>
+
+      <p>Horizon Digital also enters into an arrangement with an unrelated entity. Although the entity itself is not a related party, the purpose and effect of the arrangement is to provide an economic benefit to a related party of Horizon Digital.</p>
+
+      <p>During the year, Horizon enters into a series of transactions with a related party. Individually, each transaction is relatively small, but when aggregated with earlier transactions during the same financial year, the total exceeds the prescribed materiality threshold.</p>
+
+      <p>The Audit Committee considers the transactions. Several members participate in the approval process, including members who are not independent directors. The company later approaches shareholders for approval of the material related party transaction, and the related party itself votes in favour of the resolution.</p>
+
+      <p>The company also considers giving an omnibus approval for repetitive related party transactions. However, the Audit Committee does not specify the maximum amount, period, nature of transaction or pricing mechanism in its approval.</p>
+
+    `,
+
+    questions: [
+
+      {
+
+        question_id: "SEBI_CH1_CS_36_Q1",
+
+        question: "Under the SEBI (LODR) definition, a person or entity holding 10% or more of the equity shares during the immediately preceding financial year is deemed to be:",
+
+        options: [
+
+          "An unrelated party",
+
+          "A related party, subject to the applicable provisions",
+
+          "A statutory auditor",
+
+          "A government company"
+
+        ],
+
+        answer: 2,
+
+        reason: "Under the amended definition, a person or entity holding equity shares of 10% or more, directly or on a beneficial interest basis, during the immediately preceding financial year is deemed to be a related party, subject to the regulation."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_36_Q2",
+
+        question: "A transaction with an unrelated entity whose purpose and effect is to benefit a related party can be treated as:",
+
+        options: [
+
+          "A related party transaction",
+
+          "An ordinary transaction in every case",
+
+          "A capital market offence automatically",
+
+          "A transaction outside the scope of LODR"
+
+        ],
+
+        answer: 1,
+
+        reason: "A related party transaction includes a transaction with any other person or entity where the purpose and effect is to benefit a related party of the listed entity or its subsidiaries."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_36_Q3",
+
+        question: "For determining whether a transaction is material, transactions during the financial year are:",
+
+        options: [
+
+          "Considered individually only",
+
+          "Considered only if they are cash transactions",
+
+          "Taken individually or together with previous transactions during the financial year",
+
+          "Ignored if each individual transaction is small"
+
+        ],
+
+        answer: 3,
+
+        reason: "Materiality is determined by considering the transaction individually or together with previous transactions during the financial year."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_36_Q4",
+
+        question: "Who among the Audit Committee members can approve related party transactions under the specified requirement?",
+
+        options: [
+
+          "Only promoter directors",
+
+          "Only non-executive directors",
+
+          "Only members who are independent directors",
+
+          "Only the Compliance Officer"
+
+        ],
+
+        answer: 3,
+
+        reason: "All related party transactions and subsequent material modifications require prior Audit Committee approval, and only those Audit Committee members who are independent directors shall approve related party transactions."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_36_Q5",
+
+        question: "In relation to a material related party transaction, the related party:",
+
+        options: [
+
+          "Can vote because it is a shareholder",
+
+          "Can vote only if the transaction is at market price",
+
+          "Cannot vote to approve the resolution",
+
+          "Can vote if the Audit Committee approves"
+
+        ],
+
+        answer: 3,
+
+        reason: "Material related party transactions require prior shareholder approval through resolution, and no related party shall vote to approve such resolutions, whether or not the related party is a related party to the particular transaction."
+
+      }
+
+    ]
+
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 37
+     SEBI (LODR) – COMMITTEES
+     DIFFICULTY: HARD
+  ========================================================= */
+
+  {
+
+    case_id: "SEBI_CH1_CS_37",
+
+    chapter: "SEBI (LODR) Regulations, 2015",
+
+    difficulty: "hard",
+
+    caseText: `
+
+      <p>Indus Financial Services Ltd. is a large listed entity which has constituted an Audit Committee, Nomination and Remuneration Committee, Stakeholders Relationship Committee and Risk Management Committee.</p>
+
+      <p>The Audit Committee consists of five directors. Three are independent directors. The Chairperson is an independent director. However, at one meeting only two members were present and neither of them was an independent director. The company secretary argues that because the meeting concerned a routine financial matter, the composition of the quorum was irrelevant.</p>
+
+      <p>The Nomination and Remuneration Committee consists of four directors, including the executive Chairperson of the listed entity. The executive Chairperson is also appointed as the Chairperson of the committee.</p>
+
+      <p>The Stakeholders Relationship Committee has three directors, one of whom is independent. Its Chairperson is a non-executive director. However, the Chairperson does not attend the AGM because the company believes that shareholder complaints are handled by the compliance department.</p>
+
+      <p>The Risk Management Committee consists of three members, but only one member is a Board director. The committee meets once during the financial year. The company argues that because the risk management plan is reviewed by the internal audit department, a second meeting is unnecessary.</p>
+
+    `,
+
+    questions: [
+
+      {
+
+        question_id: "SEBI_CH1_CS_37_Q1",
+
+        question: "The Audit Committee should have at least:",
+
+        options: [
+
+          "Two directors",
+
+          "Three directors",
+
+          "Five directors",
+
+          "Seven directors"
+
+        ],
+
+        answer: 2,
+
+        reason: "The Audit Committee shall have a minimum of three directors as members."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_37_Q2",
+
+        question: "For the Audit Committee quorum, which requirement is applicable?",
+
+        options: [
+
+          "One member is always sufficient",
+
+          "Two members or one-third of the members, whichever is greater, with at least two independent directors",
+
+          "All members must be present",
+
+          "Only the Chairperson must be present"
+
+        ],
+
+        answer: 2,
+
+        reason: "The quorum for an Audit Committee meeting is two members or one-third of the members, whichever is greater, with at least two independent directors."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_37_Q3",
+
+        question: "Which statement about the Nomination and Remuneration Committee is correct?",
+
+        options: [
+
+          "The executive Chairperson must chair the committee",
+
+          "The committee must consist entirely of executive directors",
+
+          "The Chairperson of the listed entity may be a member but shall not chair the committee",
+
+          "No independent director is required"
+
+        ],
+
+        answer: 3,
+
+        reason: "The Chairperson of the listed entity, whether executive or non-executive, may be appointed as a member of the Nomination and Remuneration Committee but shall not chair the committee."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_37_Q4",
+
+        question: "The Stakeholders Relationship Committee should be headed by:",
+
+        options: [
+
+          "An executive director",
+
+          "A non-executive director",
+
+          "The Compliance Officer",
+
+          "The statutory auditor"
+
+        ],
+
+        answer: 2,
+
+        reason: "The Chairperson of the Stakeholders Relationship Committee shall be a non-executive director."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_37_Q5",
+
+        question: "The Risk Management Committee should meet at least:",
+
+        options: [
+
+          "Once in a financial year",
+
+          "Twice in a financial year",
+
+          "Four times in every quarter",
+
+          "Once every three years"
+
+        ],
+
+        answer: 2,
+
+        reason: "The Risk Management Committee shall meet at least twice in a financial year, with not more than 210 days between two consecutive meetings."
+
+      }
+
+    ]
+
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 38
+     SEBI (LODR) – SECRETARIAL AUDIT & CORPORATE GOVERNANCE
+     DIFFICULTY: HARD
+  ========================================================= */
+
+  {
+
+    case_id: "SEBI_CH1_CS_38",
+
+    chapter: "SEBI (LODR) Regulations, 2015",
+
+    difficulty: "hard",
+
+    caseText: `
+
+      <p>Jupiter Engineering Ltd. is a listed entity having one material unlisted subsidiary incorporated in India. The company is revising its annual compliance framework and decides to appoint a Secretarial Auditor.</p>
+
+      <p>The Board proposes to appoint an individual Company Secretary in Practice for five consecutive years. The Board recommends the appointment to shareholders, who will consider the matter at the Annual General Meeting.</p>
+
+      <p>The company considers appointing the same individual for another five-year term after completion of the first term. The management argues that there is no restriction on reappointment because the Secretarial Auditor is an external professional.</p>
+
+      <p>For the material unlisted subsidiary, the company decides not to undertake a separate Secretarial Audit because the subsidiary's financial statements are consolidated with those of the listed entity.</p>
+
+      <p>The company also prepares its Corporate Governance Report. The draft report includes the philosophy of corporate governance and composition of the Board but does not include directors' attendance at Board meetings and the last AGM. It also omits information regarding shareholder complaints and pending complaints.</p>
+
+      <p>The company believes these details are unnecessary because the annual report already contains general information about directors and shareholders.</p>
+
+    `,
+
+    questions: [
+
+      {
+
+        question_id: "SEBI_CH1_CS_38_Q1",
+
+        question: "The Secretarial Auditor of a listed entity should be:",
+
+        options: [
+
+          "Any person chosen by the CFO",
+
+          "A Secretarial Auditor who is a Peer Reviewed Company Secretary",
+
+          "Only a statutory auditor",
+
+          "Only an advocate"
+
+        ],
+
+        answer: 2,
+
+        reason: "Every listed entity and its material unlisted subsidiaries incorporated in India shall undertake Secretarial Audit by a Secretarial Auditor who shall be a Peer Reviewed Company Secretary."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_38_Q2",
+
+        question: "An individual Secretarial Auditor may generally be appointed for:",
+
+        options: [
+
+          "One term of five consecutive years",
+
+          "Two terms of ten years each",
+
+          "Unlimited consecutive terms",
+
+          "One year only"
+
+        ],
+
+        answer: 1,
+
+        reason: "On the recommendation of the Board, a listed entity shall appoint or reappoint an individual as Secretarial Auditor for not more than one term of five consecutive years, with shareholder approval."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_38_Q3",
+
+        question: "The material unlisted subsidiary incorporated in India:",
+
+        options: [
+
+          "Is exempt because its accounts are consolidated",
+
+          "Must undertake Secretarial Audit under the applicable LODR requirement",
+
+          "Needs Secretarial Audit only if SEBI orders it",
+
+          "Needs only internal audit"
+
+        ],
+
+        answer: 2,
+
+        reason: "Every listed entity and its material unlisted subsidiaries incorporated in India are required to undertake Secretarial Audit in accordance with Regulation 24A."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_38_Q4",
+
+        question: "The Corporate Governance Report should disclose:",
+
+        options: [
+
+          "Attendance of each director at Board meetings and the last AGM",
+
+          "Only the names of directors",
+
+          "Only directors' remuneration",
+
+          "Only the name of the statutory auditor"
+
+        ],
+
+        answer: 1,
+
+        reason: "The Corporate Governance Report includes disclosures regarding composition and category of directors, attendance at Board meetings and the last AGM, among other specified matters."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_38_Q5",
+
+        question: "The Stakeholders Relationship Committee section of the Corporate Governance Report should include:",
+
+        options: [
+
+          "Only the committee's name",
+
+          "Shareholders' complaints received, unresolved and pending, along with specified committee and compliance officer details",
+
+          "Only financial results",
+
+          "Only related party transactions"
+
+        ],
+
+        answer: 2,
+
+        reason: "The Corporate Governance Report includes the name of the non-executive director heading the committee, compliance officer details, complaints received, complaints not resolved to shareholders' satisfaction and pending complaints."
+
+      }
+
+    ]
+
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 39
+     SEBI ICDR – TYPES OF ISSUES & DEFINITIONS
+     DIFFICULTY: HARD
+  ========================================================= */
+
+  {
+
+    case_id: "SEBI_CH1_CS_39",
+
+    chapter: "SEBI (ICDR) Regulations, 2018",
+
+    difficulty: "hard",
+
+    caseText: `
+
+      <p>Nova Digital Systems Ltd. is preparing to access the capital market. The company is currently unlisted but proposes to offer specified securities to the public for the first time. Some existing shareholders also intend to sell their shares as part of the proposed issue.</p>
+
+      <p>The management initially describes the proposed transaction as an FPO because existing shareholders will also offer shares for sale. The legal adviser points out that the issuer is still unlisted and therefore the classification of the public issue needs to be examined carefully.</p>
+
+      <p>At the same time, the Board considers another fundraising plan after the company becomes listed. Under this plan, the company proposes to offer specified securities to its existing shareholders as on a record date. Another proposal involves issuing shares to a select group of identified investors on a private placement basis.</p>
+
+      <p>A separate proposal involves issuing eligible securities to qualified institutional buyers on a private placement basis. The management wants to classify this transaction as a preferential issue because institutional investors are involved.</p>
+
+      <p>During discussions with merchant bankers, the company also considers using a process to assess investor demand and determine the price of the public issue. The company proposes to use an over-allotment mechanism to support the market price after listing.</p>
+
+    `,
+
+    questions: [
+
+      {
+
+        question_id: "SEBI_CH1_CS_39_Q1",
+
+        question: "An offer of specified securities by an unlisted issuer to the public for the first time is generally classified as:",
+
+        options: [
+
+          "FPO",
+
+          "IPO",
+
+          "Rights issue",
+
+          "QIP"
+
+        ],
+
+        answer: 2,
+
+        reason: "An Initial Public Offer means an offer of specified securities by an unlisted issuer to the public for subscription, including an offer for sale by existing holders in the unlisted issuer."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_39_Q2",
+
+        question: "A rights issue is an offer of specified securities by:",
+
+        options: [
+
+          "An unlisted issuer to the general public",
+
+          "A listed issuer to shareholders as on the record date fixed for the purpose",
+
+          "A listed issuer only to foreign investors",
+
+          "Any issuer only to employees"
+
+        ],
+
+        answer: 2,
+
+        reason: "A rights issue means an offer of specified securities by a listed issuer to its shareholders as on the record date fixed for that purpose."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_39_Q3",
+
+        question: "An issue of specified securities by a listed issuer to selected persons on a private placement basis in accordance with the applicable ICDR provisions is known as:",
+
+        options: [
+
+          "IPO",
+
+          "Preferential issue",
+
+          "Rights issue",
+
+          "Bonus issue"
+
+        ],
+
+        answer: 2,
+
+        reason: "A preferential issue is an issue of specified securities by a listed issuer to any select person or group of persons on a private placement basis in accordance with Chapter V of the ICDR Regulations."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_39_Q4",
+
+        question: "Issue of eligible securities by a listed issuer to qualified institutional buyers on a private placement basis is known as:",
+
+        options: [
+
+          "FPO",
+
+          "Bonus issue",
+
+          "Qualified Institutions Placement",
+
+          "Rights issue"
+
+        ],
+
+        answer: 3,
+
+        reason: "Qualified Institutions Placement or QIP means issue of eligible securities by a listed issuer to qualified institutional buyers on a private placement basis, subject to the applicable ICDR provisions."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_39_Q5",
+
+        question: "The over-allotment mechanism proposed to support the price after listing is known as:",
+
+        options: [
+
+          "Rights option",
+
+          "Green Shoe Option",
+
+          "Book closure",
+
+          "Preferential option"
+
+        ],
+
+        answer: 2,
+
+        reason: "Green Shoe Option means an option of allotting equity shares in excess of the equity shares offered in a public issue as a post-listing price stabilising mechanism."
+
+      }
+
+    ]
+
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 40
+     SEBI ICDR – IPO ELIGIBILITY
+     DIFFICULTY: HARD
+  ========================================================= */
+
+  {
+
+    case_id: "SEBI_CH1_CS_40",
+
+    chapter: "SEBI (ICDR) Regulations, 2018",
+
+    difficulty: "hard",
+
+    caseText: `
+
+      <p>Quantum BioTech Ltd. is an unlisted company proposing to make an Initial Public Offer on the Main Board. Before filing its draft offer document, the company conducts an internal review of its financial eligibility and the status of its promoters and directors.</p>
+
+      <p>The company has net tangible assets of ₹4 crore in each of the preceding three full financial years. However, 62% of its net tangible assets are held in monetary assets. The management argues that the net tangible assets requirement is satisfied because the total amount exceeds ₹3 crore.</p>
+
+      <p>The company has an average operating profit of ₹14 crore during the preceding three years. Operating profit was earned in each of those years. Its net worth has remained above ₹1 crore in each of the preceding three years.</p>
+
+      <p>The company also discovers that one of its promoters was previously debarred by SEBI from accessing the capital market. However, the period of debarment expired before the company filed its draft offer document.</p>
+
+      <p>One director of Quantum BioTech is also a director of another company that is currently debarred from accessing the capital market. Another promoter has been classified as a wilful defaulter.</p>
+
+      <p>The company has certain outstanding convertible securities that are capable of being converted into equity shares. The management argues that because the conversion will take place before the proposed listing, the outstanding securities should not affect IPO eligibility.</p>
+
+    `,
+
+    questions: [
+
+      {
+
+        question_id: "SEBI_CH1_CS_40_Q1",
+
+        question: "Quantum BioTech's net tangible assets requirement is:",
+
+        options: [
+
+          "Satisfied merely because net tangible assets exceed ₹3 crore",
+
+          "Not satisfied because monetary assets exceed 50%, unless the specified condition regarding utilisation or firm commitment is met",
+
+          "Satisfied because net worth exceeds ₹1 crore",
+
+          "Not relevant for an IPO"
+
+        ],
+
+        answer: 2,
+
+        reason: "The issuer must have net tangible assets of at least ₹3 crore in each of the preceding three full years, of which not more than 50% should be held in monetary assets, subject to the specified exception where excess monetary assets are utilised or firmly committed for utilisation in the business or project."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_40_Q2",
+
+        question: "Quantum BioTech's average operating profit of ₹14 crore is:",
+
+        options: [
+
+          "Sufficient because operating profit is positive",
+
+          "Sufficient because net worth exceeds ₹1 crore",
+
+          "Insufficient because the required average operating profit is at least ₹15 crore",
+
+          "Irrelevant for IPO eligibility"
+
+        ],
+
+        answer: 3,
+
+        reason: "The issuer is generally required to have an average operating profit of at least ₹15 crore, calculated on a restated and consolidated basis, during the preceding three years, with operating profit in each of those years."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_40_Q3",
+
+        question: "The previous debarment of the promoter whose debarment period expired before filing the draft offer document:",
+
+        options: [
+
+          "Automatically makes the issuer permanently ineligible",
+
+          "Does not attract the restriction if the period of debarment has already expired as on the relevant filing date",
+
+          "Requires approval from shareholders",
+
+          "Requires approval from the stock exchange"
+
+        ],
+
+        answer: 2,
+
+        reason: "The restrictions relating to persons debarred by SEBI do not apply where the period of debarment was already over as on the date of filing of the draft offer document."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_40_Q4",
+
+        question: "The fact that one director is also a director of another company currently debarred by SEBI:",
+
+        options: [
+
+          "Has no relevance",
+
+          "Can make the issuer ineligible under the specified ICDR restriction",
+
+          "Only affects the director's remuneration",
+
+          "Only affects post-listing compliance"
+
+        ],
+
+        answer: 2,
+
+        reason: "An issuer is not eligible for an IPO where any promoter or director is a promoter or director of another company which is debarred from accessing the capital market by SEBI, subject to the specified exception relating to expired debarment."
+
+      },
+
+      {
+
+        question_id: "SEBI_CH1_CS_40_Q5",
+
+        question: "Outstanding convertible securities capable of giving a person an option to receive equity shares generally:",
+
+        options: [
+
+          "Do not affect IPO eligibility in any situation",
+
+          "Make the issuer ineligible, subject to specified exceptions",
+
+          "Are compulsory for an IPO",
+
+          "Only affect the issue price"
+
+        ],
+
+        answer: 2,
+
+        reason: "An issuer shall not be eligible to make an IPO if there are outstanding convertible securities or other rights which would entitle a person to receive equity shares, subject to specified exceptions such as qualifying employee stock options and certain securities converted before the relevant filing."
+
+      }
+
+    ]
+
+  },
+
+  /* =========================================================
+     CASE SCENARIO 41
+     SEBI (LODR) – COMPLIANCE OFFICER
+     DIFFICULTY: MEDIUM
+  ========================================================= */
+
+  {
+    case_id: "SEBI_CH1_CS_41",
+    chapter: "SEBI (LODR) Regulations, 2015",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Pragati Infrastructure Ltd. is a listed entity whose Board has recently undertaken a review of its regulatory compliance structure. The company had appointed a Company Secretary as its Compliance Officer several years ago. However, due to an internal restructuring, the Compliance Officer resigned from the company on 1st April.</p>
+
+      <p>The Managing Director immediately appointed a senior finance manager as an interim Compliance Officer. The finance manager was not a Company Secretary and was two levels below the Managing Director in the organisational structure. The management argued that the appointment was temporary and therefore the qualification and organisational-level requirements applicable to a regular Compliance Officer need not be followed.</p>
+
+      <p>The Board subsequently decided to appoint a qualified Company Secretary who is in whole-time employment of the company. The proposed officer would report to the Chief Financial Officer, who reports to the Managing Director. The company does not have any separate Chief Executive Officer.</p>
+
+      <p>Meanwhile, investor grievances continued to be received through the grievance redressal email address. Because of the vacancy, no officer was specifically monitoring the email account for several weeks. The company also delayed the filing of certain information with the stock exchange because the compliance department was waiting for the new officer to join.</p>
+
+      <p>The Board is now considering the responsibilities that should specifically be assigned to the Compliance Officer and the time within which the vacancy must be filled.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_41_Q1",
+        question: "A listed entity is required to appoint as Compliance Officer:",
+        options: [
+          "Any senior employee",
+          "A qualified Company Secretary meeting the specified requirements",
+          "Only the Chief Financial Officer",
+          "Only an advocate"
+        ],
+        answer: 2,
+        reason: "Regulation 6 requires a listed entity to appoint a qualified Company Secretary as the Compliance Officer, who must be in whole-time employment and satisfy the prescribed organisational-level requirements."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_41_Q2",
+        question: "Where a listed entity does not have a Managing Director or Whole-time Director, the Compliance Officer cannot be more than one level below:",
+        options: [
+          "The statutory auditor",
+          "The Chief Financial Officer only",
+          "The Chief Executive Officer, Manager or person heading day-to-day affairs",
+          "The Chairperson of the Audit Committee"
+        ],
+        answer: 3,
+        reason: "Where there is no Managing Director or Whole-time Director, the Compliance Officer cannot be more than one level below the CEO, Manager or other person heading the day-to-day affairs of the listed entity."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_41_Q3",
+        question: "The vacancy in the office of Compliance Officer should generally be filled:",
+        options: [
+          "Within 15 days",
+          "Within one month",
+          "At the earliest and not later than three months from the vacancy",
+          "Only at the next AGM"
+        ],
+        answer: 3,
+        reason: "Any vacancy in the office of the Compliance Officer shall be filled at the earliest and in any case not later than three months from the date of vacancy."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_41_Q4",
+        question: "Which of the following is specifically a responsibility of the Compliance Officer?",
+        options: [
+          "Preparing the statutory audit report",
+          "Ensuring conformity with regulatory provisions applicable to the listed entity",
+          "Approving all loans granted by the company",
+          "Conducting the AGM"
+        ],
+        answer: 2,
+        reason: "The Compliance Officer is responsible for ensuring conformity with regulatory provisions applicable to the listed entity, coordinating and reporting to the Board, ensuring correctness of information filed and monitoring the grievance redressal email address."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_41_Q5",
+        question: "The company's failure to monitor the grievance redressal email during the vacancy is inconsistent with the responsibility of:",
+        options: [
+          "The statutory auditor",
+          "The Compliance Officer",
+          "The Nomination and Remuneration Committee",
+          "The shareholders"
+        ],
+        answer: 2,
+        reason: "Monitoring the email address of the grievance redressal division is specifically one of the responsibilities of the Compliance Officer."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 42
+     SEBI (LODR) – MATERIAL SUBSIDIARY & DISPOSAL OF ASSETS
+     DIFFICULTY: MEDIUM
+  ========================================================= */
+
+  {
+    case_id: "SEBI_CH1_CS_42",
+    chapter: "SEBI (LODR) Regulations, 2015",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Silverline Industries Ltd., a listed entity, has an unlisted material subsidiary, Silverline Manufacturing Ltd. The subsidiary owns several factories and substantial intellectual property used by the group. The listed company's management proposes a restructuring of the subsidiary's assets to raise funds for expansion.</p>
+
+      <p>During the financial year, the subsidiary proposes to sell and lease certain assets. On an aggregate basis, the proposed transactions would amount to 24% of the total assets of the material subsidiary. The management believes that shareholder approval of the listed company is unnecessary because the transactions are being entered into by the subsidiary and not directly by the listed entity.</p>
+
+      <p>In another proposal, the listed company intends to sell a portion of its shareholding in the material subsidiary. After the proposed sale, the listed company and its other subsidiaries together would hold exactly 50% of the subsidiary's share capital. The management argues that special resolution is required only if the holding falls below 50%.</p>
+
+      <p>The company is also considering transferring some assets between two wholly-owned subsidiaries of the listed entity. The management wants to know whether the same shareholder approval requirements apply to such an internal transfer.</p>
+
+      <p>The Board has asked the Company Secretary to identify the situations where shareholder approval through special resolution is required and the exceptions available under the regulations.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_42_Q1",
+        question: "Sale, disposal or lease of more than 20% of the assets of a material subsidiary on an aggregate basis during a financial year generally requires:",
+        options: [
+          "Prior approval of shareholders by special resolution",
+          "Only approval of the Compliance Officer",
+          "Only approval of the statutory auditor",
+          "No approval"
+        ],
+        answer: 1,
+        reason: "Selling, disposing or leasing of assets amounting to more than 20% of the assets of a material subsidiary on an aggregate basis during a financial year requires prior shareholder approval by special resolution, subject to specified exceptions."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_42_Q2",
+        question: "If the listed entity's shareholding in the material subsidiary is reduced to exactly 50%, the regulation treats the threshold as:",
+        options: [
+          "Not reached because only a holding below 50% matters",
+          "Reached because reduction to less than or equal to 50% is covered",
+          "Applicable only if holding falls below 25%",
+          "Applicable only to foreign subsidiaries"
+        ],
+        answer: 2,
+        reason: "Special resolution is required where disposal of shares results in reduction of the listed entity's shareholding, either alone or together with its subsidiaries, to less than or equal to 50%, or cessation of control."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_42_Q3",
+        question: "Which of the following can be an exception to the special resolution requirement for disposal of shares in a material subsidiary?",
+        options: [
+          "A transaction approved under a Court/Tribunal-approved scheme of arrangement",
+          "A routine sale approved by the CFO",
+          "Any transaction with a promoter",
+          "Any transaction below ₹1 crore"
+        ],
+        answer: 1,
+        reason: "The special resolution requirement does not apply where the divestment is made under a scheme of arrangement duly approved by a Court/Tribunal or under a resolution plan approved under section 31 of the Insolvency Code, subject to the prescribed disclosure."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_42_Q4",
+        question: "Sale, disposal or lease of assets between two wholly-owned subsidiaries of the listed entity is:",
+        options: [
+          "Always prohibited",
+          "Outside the special resolution requirement specified for disposal of material subsidiary assets",
+          "Valid only with SEBI approval",
+          "Valid only after an IPO"
+        ],
+        answer: 2,
+        reason: "The special resolution requirement for sale, disposal or lease of assets of the material subsidiary does not apply where such sale, disposal or lease is between two wholly-owned subsidiaries of the listed entity."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_42_Q5",
+        question: "The 24% aggregate asset disposal proposed by the material subsidiary is significant because it:",
+        options: [
+          "Exceeds the 20% threshold",
+          "Exceeds the 50% threshold",
+          "Is below every applicable threshold",
+          "Can never require listed-company shareholder approval"
+        ],
+        answer: 1,
+        reason: "The proposed disposal exceeds 20% of the material subsidiary's assets on an aggregate basis and therefore attracts the special resolution requirement, subject to applicable exceptions."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 43
+     SEBI (LODR) – RPT OMNIBUS APPROVAL
+     DIFFICULTY: MEDIUM
+  ========================================================= */
+
+  {
+    case_id: "SEBI_CH1_CS_43",
+    chapter: "SEBI (LODR) Regulations, 2015",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Trident Retail Ltd. regularly purchases packaging material from an entity belonging to the promoter group. Since the transactions occur every month and involve similar products, the Audit Committee proposes to grant an omnibus approval so that the company does not have to approach the committee for approval of every individual transaction.</p>
+
+      <p>The Audit Committee first establishes criteria for granting omnibus approvals in accordance with the company's related party transaction policy. It then examines whether the transactions are repetitive in nature and whether granting an omnibus approval is necessary and in the interest of the listed entity.</p>
+
+      <p>While drafting the approval, the Company Secretary proposes to mention only the name of the related party. The Audit Committee Chairperson points out that the approval should contain additional particulars relating to the nature and period of transactions and the maximum amount proposed to be entered into.</p>
+
+      <p>In another case, an unforeseen related party transaction arises and the company does not have sufficient information to specify all the details normally required in an omnibus approval. The CFO proposes to approve the transaction through the same omnibus mechanism even though the individual transaction is worth ₹1.25 crore.</p>
+
+      <p>The Audit Committee also proposes to review the transactions entered into under the omnibus approvals once every year. The Company Secretary advises that the review should occur more frequently.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_43_Q1",
+        question: "Omnibus approval may be granted by the Audit Committee particularly for related party transactions that are:",
+        options: [
+          "Repetitive in nature",
+          "Always illegal",
+          "Only one-time transactions",
+          "Unrelated to the company"
+        ],
+        answer: 1,
+        reason: "The Audit Committee may grant omnibus approval subject to prescribed conditions, including that the approval is applicable to transactions which are repetitive in nature."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_43_Q2",
+        question: "An omnibus approval should specify, among other things:",
+        options: [
+          "Only the name of the statutory auditor",
+          "Name of related party, nature, period and maximum amount of transactions",
+          "Only the annual profit of the company",
+          "Only the number of directors"
+        ],
+        answer: 2,
+        reason: "The omnibus approval should specify the name(s) of the related party, nature and period of transaction and maximum amount of transactions, along with the indicative base/current contracted price and price variation formula."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_43_Q3",
+        question: "Where an unforeseen related party transaction occurs and the prescribed details are unavailable, omnibus approval may be granted subject to the value not exceeding:",
+        options: [
+          "₹50 lakh per transaction",
+          "₹1 crore per transaction",
+          "₹2 crore per transaction",
+          "₹5 crore per transaction"
+        ],
+        answer: 2,
+        reason: "Where the need for a related party transaction cannot be foreseen and the prescribed details are unavailable, omnibus approval may be granted provided the value does not exceed ₹1 crore per transaction."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_43_Q4",
+        question: "The Audit Committee should review transactions entered into pursuant to omnibus approvals:",
+        options: [
+          "At least quarterly",
+          "Once every two years",
+          "Only at the AGM",
+          "Only when SEBI asks"
+        ],
+        answer: 1,
+        reason: "The Audit Committee shall review, at least on a quarterly basis, the details of related party transactions entered into pursuant to each omnibus approval."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_43_Q5",
+        question: "An omnibus approval is generally valid for a period not exceeding:",
+        options: [
+          "Six months",
+          "One year",
+          "Three years",
+          "Five years"
+        ],
+        answer: 2,
+        reason: "Omnibus approvals shall be valid for a period not exceeding one year and fresh approval is required after expiry of one year."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 44
+     SEBI ICDR – GENERAL CONDITIONS FOR IPO
+     DIFFICULTY: MEDIUM
+  ========================================================= */
+
+  {
+    case_id: "SEBI_CH1_CS_44",
+    chapter: "SEBI (ICDR) Regulations, 2018",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Vistara Healthcare Ltd. is an unlisted company proposing to make an Initial Public Offer. The company has started preparing the draft offer document and is reviewing the general conditions that must be satisfied before proceeding with the issue.</p>
+
+      <p>The company has approached a recognised stock exchange and intends to obtain in-principle approval for listing. It has also entered into an agreement with a depository for dematerialisation of its specified securities.</p>
+
+      <p>During the review, the company discovers that some specified securities held by its promoters are still in physical form. In addition, certain existing partly paid-up equity shares are outstanding. The finance team proposes to leave these matters unresolved until after the IPO because they do not affect the amount of funds to be raised.</p>
+
+      <p>The company is also planning a project which will be partly financed from IPO proceeds. Management has made firm arrangements through verifiable means for 70% of the stated means of finance for the project, excluding the proposed public issue proceeds and existing identifiable internal accruals.</p>
+
+      <p>Finally, the company proposes to allocate 28% of the amount raised for general corporate purposes. The investment bankers point out that this may exceed the applicable ceiling.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_44_Q1",
+        question: "An issuer making an IPO should make an application to one or more stock exchanges with the intent to obtain:",
+        options: [
+          "Final tax approval",
+          "In-principle approval for listing",
+          "Approval of every shareholder",
+          "Approval of the statutory auditor"
+        ],
+        answer: 2,
+        reason: "The issuer must make an application to one or more stock exchanges with the intent to seek in-principle approval for listing of its specified securities."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_44_Q2",
+        question: "Specified securities held by promoters should be:",
+        options: [
+          "In physical form",
+          "In dematerialised form prior to filing the offer document",
+          "Transferred to the government",
+          "Cancelled before the IPO"
+        ],
+        answer: 2,
+        reason: "The issuer must ensure that all specified securities held by promoters are in dematerialised form prior to filing the offer document."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_44_Q3",
+        question: "Existing partly paid-up equity shares before an IPO should generally be:",
+        options: [
+          "Ignored",
+          "Fully paid-up or forfeited",
+          "Converted into debt automatically",
+          "Transferred to employees"
+        ],
+        answer: 2,
+        reason: "All existing partly paid-up equity shares must have either been fully paid-up or forfeited."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_44_Q4",
+        question: "The issuer generally needs firm arrangements through verifiable means towards at least what percentage of the stated means of finance for a specified project, excluding the specified sources?",
+        options: [
+          "50%",
+          "60%",
+          "75%",
+          "90%"
+        ],
+        answer: 3,
+        reason: "The issuer must have firm arrangements of finance through verifiable means towards 75% of the stated means of finance for the specific project, excluding the amount to be raised through the proposed public issue and existing identifiable internal accruals."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_44_Q5",
+        question: "The amount for general corporate purposes as mentioned in the objects of the issue in the draft offer document and offer document shall generally not exceed:",
+        options: [
+          "10% of the amount raised",
+          "15% of the amount raised",
+          "25% of the amount raised",
+          "50% of the amount raised"
+        ],
+        answer: 3,
+        reason: "The amount for general corporate purposes shall generally not exceed 25% of the amount being raised by the issuer."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 45
+     SEBI ICDR – OFFER FOR SALE
+     DIFFICULTY: MEDIUM
+  ========================================================= */
+
+  {
+    case_id: "SEBI_CH1_CS_45",
+    chapter: "SEBI (ICDR) Regulations, 2018",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Zenith Logistics Ltd. is an unlisted company proposing an IPO that includes an offer for sale by some of its existing shareholders. The shareholders acquired their equity shares at different points of time and through different corporate transactions.</p>
+
+      <p>Shareholder A acquired fully paid-up equity shares eight months before the filing of the draft offer document. Shareholder B acquired fully paid-up compulsorily convertible securities two years earlier, and these securities were converted into equity shares shortly before the proposed filing of the offer document.</p>
+
+      <p>Shareholder C received bonus shares six months before the proposed filing. However, the original securities on which the bonus shares were issued had been held for more than one year before the filing. The bonus shares were issued out of free reserves and share premium existing in the books at the end of the preceding financial year.</p>
+
+      <p>Shareholder D acquired shares pursuant to a scheme approved by a Tribunal. The business and invested capital represented by those shares had existed for more than one year before the approval of the scheme.</p>
+
+      <p>The shareholders ask the merchant banker whether each category of shares can be included in the offer for sale and whether the normal one-year holding requirement applies uniformly to every situation.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_45_Q1",
+        question: "The general holding requirement for fully paid-up equity shares offered for sale is:",
+        options: [
+          "At least three months",
+          "At least six months",
+          "At least one year prior to filing the draft offer document",
+          "At least five years"
+        ],
+        answer: 3,
+        reason: "Only fully paid-up equity shares held by the sellers for at least one year prior to filing the draft offer document may generally be offered for sale."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_45_Q2",
+        question: "Where equity shares are received upon conversion of fully paid-up compulsorily convertible securities, the holding period is generally calculated by considering:",
+        options: [
+          "Only the period after conversion",
+          "Only the period before conversion",
+          "The holding period of the convertible securities together with the resultant equity shares",
+          "Only the date of IPO"
+        ],
+        answer: 3,
+        reason: "For shares received on conversion or exchange of fully paid-up compulsorily convertible securities, the holding period of the convertible securities and the resultant equity shares together is considered."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_45_Q3",
+        question: "The normal one-year holding requirement may not apply to certain shares acquired pursuant to:",
+        options: [
+          "An ordinary purchase from the market",
+          "A scheme approved by a High Court or Tribunal or Central Government under specified provisions",
+          "A private agreement with an employee",
+          "A loan agreement"
+        ],
+        answer: 2,
+        reason: "The one-year requirement does not apply in specified cases where equity shares were acquired pursuant to a scheme approved by a High Court, Tribunal or Central Government under the applicable provisions."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_45_Q4",
+        question: "Bonus shares can qualify for the specified exception where the underlying securities were held for at least one year and the bonus shares were issued out of:",
+        options: [
+          "Revaluation reserves only",
+          "Free reserves and eligible share premium existing at the end of the preceding financial year",
+          "Unrealised profits only",
+          "Borrowed funds"
+        ],
+        answer: 2,
+        reason: "For the specified bonus-share exception, the securities should have been held for at least one year and the bonus shares should be issued out of free reserves and share premium existing in the books at the end of the preceding financial year, subject to the stated conditions."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_45_Q5",
+        question: "Shareholder A, who acquired the shares only eight months before filing the draft offer document, would generally:",
+        options: [
+          "Be eligible to offer all such shares for sale",
+          "Not satisfy the general one-year holding requirement",
+          "Automatically qualify because the shares are fully paid",
+          "Qualify only if the company is profitable"
+        ],
+        answer: 2,
+        reason: "Fully paid-up equity shares offered for sale generally need to have been held by the sellers for at least one year prior to filing the draft offer document."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 46
+     SEBI (LODR) – BOARD COMPOSITION, QUORUM & EVALUATION
+     DIFFICULTY: HARD
+  ========================================================= */
+
+  {
+    case_id: "SEBI_CH1_CS_46",
+    chapter: "SEBI (LODR) Regulations, 2015",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Orion Pharmaceuticals Ltd. is a large listed entity whose Board consists of 15 directors. Its regular Chairperson is a non-executive director and is a promoter of the company. The management initially believes that because the Chairperson is non-executive, only one-third of the Board needs to be independent.</p>
+
+      <p>The company is also among the top listed entities covered by the enhanced Board requirements. The Board currently includes five independent directors, one woman director and ten other directors.</p>
+
+      <p>During one financial year, the Board meets four times. The maximum interval between two consecutive meetings is 118 days. At one meeting, only five directors attend. The company considers the meeting valid because five directors represent more than one-third of the total Board strength.</p>
+
+      <p>At the end of the year, the Board undertakes performance evaluation of the independent directors. The independent directors whose performance is being evaluated participate in the discussion and vote on their own evaluation. The management argues that their participation is necessary because they understand their own contributions better than other directors.</p>
+
+      <p>The Board also has an independent woman director and is reviewing whether its composition satisfies the special requirements applicable to the largest listed entities.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_46_Q1",
+        question: "Since the regular non-executive Chairperson is a promoter, the Board should generally have independent directors comprising at least:",
+        options: [
+          "One-fourth of the Board",
+          "One-third of the Board",
+          "One-half of the Board",
+          "Two-thirds of the Board"
+        ],
+        answer: 3,
+        reason: "Where the regular non-executive Chairperson is a promoter or is related to a promoter or certain management persons, at least half of the Board shall consist of independent directors."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_46_Q2",
+        question: "For a Board of 15 directors, the requirement of at least half independent directors would mean at least:",
+        options: [
+          "5 independent directors",
+          "6 independent directors",
+          "7 independent directors",
+          "8 independent directors"
+        ],
+        answer: 4,
+        reason: "At least half of 15 directors means the minimum whole-number requirement is 8 independent directors."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_46_Q3",
+        question: "For the top 2000 listed entities, Board meeting quorum is generally:",
+        options: [
+          "One-fourth of total strength",
+          "One-third of total strength or three directors, whichever is higher, including at least one independent director",
+          "Only three executive directors",
+          "All independent directors"
+        ],
+        answer: 2,
+        reason: "The quorum for every Board meeting of the top 2000 listed entities is one-third of total strength or three directors, whichever is higher, including at least one independent director."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_46_Q4",
+        question: "For a Board of 15 directors, one-third is 5. Therefore, the minimum quorum under the specified rule would be:",
+        options: [
+          "3 directors",
+          "4 directors",
+          "5 directors",
+          "6 directors"
+        ],
+        answer: 3,
+        reason: "One-third of 15 is 5, which is higher than three. Therefore, five directors would constitute the numerical quorum, subject to the requirement that at least one independent director be present."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_46_Q5",
+        question: "During evaluation of an independent director, the director being evaluated:",
+        options: [
+          "Must participate and vote",
+          "May participate only if the Chairperson permits",
+          "Shall not participate in the evaluation",
+          "Must conduct the evaluation alone"
+        ],
+        answer: 3,
+        reason: "The evaluation of independent directors is undertaken by the entire Board, but the directors who are subject to evaluation shall not participate in the evaluation."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 47
+     SEBI (LODR) – RPT MATERIALITY & EXCEPTIONS
+     DIFFICULTY: HARD
+  ========================================================= */
+
+  {
+    case_id: "SEBI_CH1_CS_47",
+    chapter: "SEBI (LODR) Regulations, 2015",
+    difficulty: "hard",
+
+    caseText: `
+      <p>National Consumer Technologies Ltd. is a listed entity with consolidated turnover of ₹8,000 crore according to its latest audited financial statements. During the current financial year, the company enters into several transactions with a related party.</p>
+
+      <p>The first series of transactions relates to the purchase of technology services. The total value of these transactions, taken together with previous transactions during the financial year, is ₹850 crore. The management argues that the amount is not material because it is below ₹1,000 crore.</p>
+
+      <p>The company separately proposes to pay ₹500 crore as royalty and brand-usage charges to the same related party. Management again believes that the ₹1,000 crore threshold should be used because the transactions are related to intellectual property.</p>
+
+      <p>The Audit Committee considers the transactions and grants approval. However, only its non-independent members participate in approving the related party transactions. The company later seeks shareholder approval for the material transaction and allows the related party shareholder to vote.</p>
+
+      <p>In a separate matter, National Consumer Technologies enters into a transaction with its wholly-owned subsidiary whose accounts are consolidated with the listed holding company and placed before shareholders at the general meeting. Another transaction is between two wholly-owned subsidiaries of the listed holding company, whose accounts are similarly consolidated and placed before shareholders.</p>
+
+      <p>The Company Secretary is asked to determine which transactions require Audit Committee approval and shareholder approval and which transactions fall within the specified exceptions.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_47_Q1",
+        question: "For National Consumer Technologies, the ₹850 crore transaction is material if it exceeds which amount, considering the prescribed test?",
+        options: [
+          "₹100 crore only",
+          "₹500 crore only",
+          "The lower of ₹1,000 crore and 10% of annual consolidated turnover",
+          "₹2,000 crore only"
+        ],
+        answer: 3,
+        reason: "A related party transaction is material where transactions individually or together with previous transactions during the financial year exceed ₹1,000 crore or 10% of annual consolidated turnover, whichever is lower. Here 10% of ₹8,000 crore is ₹800 crore, so ₹800 crore is the applicable threshold."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_47_Q2",
+        question: "The ₹500 crore royalty transaction is tested against a materiality threshold of:",
+        options: [
+          "1% of turnover",
+          "5% of annual consolidated turnover",
+          "10% of annual consolidated turnover only",
+          "₹1,000 crore only"
+        ],
+        answer: 2,
+        reason: "Transactions involving payments made to a related party with respect to brand usage or royalty are considered material if they exceed 5% of annual consolidated turnover, subject to the regulation."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_47_Q3",
+        question: "Approval of related party transactions by the Audit Committee should be given by:",
+        options: [
+          "Only independent directors who are members of the Audit Committee",
+          "Only executive directors",
+          "Only promoter directors",
+          "The Compliance Officer"
+        ],
+        answer: 1,
+        reason: "Related party transactions require prior Audit Committee approval, and only those members of the Audit Committee who are independent directors shall approve such transactions."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_47_Q4",
+        question: "For a material related party transaction requiring shareholder approval, the related party shareholder:",
+        options: [
+          "Must vote in favour",
+          "May vote if the transaction is at market price",
+          "Cannot vote to approve the resolution",
+          "May vote only if it holds less than 10%"
+        ],
+        answer: 3,
+        reason: "No related party shall vote to approve a resolution relating to a material related party transaction, whether or not the related party is a related party to the particular transaction."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_47_Q5",
+        question: "A transaction between a listed holding company and its wholly-owned subsidiary may fall within the specified exception where:",
+        options: [
+          "The subsidiary's accounts are not consolidated",
+          "The subsidiary's accounts are consolidated with the holding company and placed before shareholders at the general meeting",
+          "The transaction is always below ₹1 crore",
+          "The subsidiary has no directors"
+        ],
+        answer: 2,
+        reason: "The Audit Committee and shareholder approval requirements do not apply to transactions between a holding company and its wholly-owned subsidiary whose accounts are consolidated with the holding company and placed before shareholders at the general meeting."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 48
+     SEBI ICDR – IPO ELIGIBILITY THROUGH BOOK BUILDING
+     DIFFICULTY: HARD
+  ========================================================= */
+
+  {
+    case_id: "SEBI_CH1_CS_48",
+    chapter: "SEBI (ICDR) Regulations, 2018",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Vertex Artificial Intelligence Ltd. is an unlisted technology company proposing to make an Initial Public Offer on the Main Board. The company has developed advanced data analytics and artificial intelligence platforms but does not satisfy all of the ordinary financial eligibility conditions prescribed for an IPO.</p>
+
+      <p>Its net tangible assets and net worth satisfy certain prescribed requirements, but its average operating profit during the preceding three years is only ₹11 crore. The management nevertheless believes that the company may access the capital market because its technology-driven business has significant growth potential.</p>
+
+      <p>The merchant banker advises the company that an issuer that does not satisfy the normal eligibility conditions may still be eligible subject to specific alternative conditions. The proposed issue would therefore be made through the book-building process.</p>
+
+      <p>The company proposes to reserve 70% of the net offer for qualified institutional buyers. The CFO argues that 70% should be enough because qualified institutional buyers are sophisticated investors and can evaluate the risks themselves.</p>
+
+      <p>In another matter, the company has issued superior voting rights equity shares to certain promoters who hold executive positions. The company wants to retain those shares while proceeding with the IPO. The shares carry voting rights at a ratio of 12:1 compared with ordinary shares.</p>
+
+      <p>The Board asks its legal advisers to identify whether the alternative IPO route and the superior voting rights structure satisfy the relevant conditions.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_48_Q1",
+        question: "An issuer not satisfying the normal financial eligibility conditions may make an IPO through the alternative route if the issue is made through:",
+        options: [
+          "Private placement only",
+          "Book-building process",
+          "Bonus issue",
+          "Rights issue"
+        ],
+        answer: 2,
+        reason: "An issuer not satisfying the conditions under the normal eligibility route may be eligible if the issue is made through the book-building process and the other prescribed conditions are satisfied."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_48_Q2",
+        question: "Under the alternative eligibility route, at least what percentage of the net offer must be allotted to qualified institutional buyers?",
+        options: [
+          "50%",
+          "60%",
+          "75%",
+          "90%"
+        ],
+        answer: 3,
+        reason: "The alternative route requires the issuer to undertake to allot at least 75% of the net offer to qualified institutional buyers and to refund the full subscription money if it fails to do so."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_48_Q3",
+        question: "Vertex's proposed 70% allotment to qualified institutional buyers would be:",
+        options: [
+          "Sufficient",
+          "Insufficient because the required minimum is 75%",
+          "Sufficient only with SEBI approval",
+          "Irrelevant"
+        ],
+        answer: 2,
+        reason: "The alternative route requires at least 75% of the net offer to be allotted to qualified institutional buyers. Therefore, a proposed 70% allocation would not satisfy the requirement."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_48_Q4",
+        question: "For SR equity shares under the stated conditions, the voting-right ratio compared with ordinary shares can be:",
+        options: [
+          "Only 1:1",
+          "Minimum 2:1 and maximum 10:1",
+          "Minimum 5:1 and maximum 20:1",
+          "Any ratio decided by promoters"
+        ],
+        answer: 2,
+        reason: "SR equity shares may have voting rights in a ratio of minimum 2:1 up to a maximum of 10:1 compared with ordinary shares, with the ratio in whole numbers."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_48_Q5",
+        question: "The proposed 12:1 voting ratio of Vertex's SR equity shares is:",
+        options: [
+          "Permitted",
+          "Not permitted because it exceeds the maximum 10:1 ratio",
+          "Permitted if approved by the CFO",
+          "Permitted only for foreign promoters"
+        ],
+        answer: 2,
+        reason: "The voting-right ratio of SR equity shares must be between 2:1 and 10:1 compared with ordinary shares. A 12:1 ratio exceeds the permitted maximum."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 49
+     SEBI ICDR – SR EQUITY SHARES
+     DIFFICULTY: HARD
+  ========================================================= */
+
+  {
+    case_id: "SEBI_CH1_CS_49",
+    chapter: "SEBI (ICDR) Regulations, 2018",
+    difficulty: "hard",
+
+    caseText: `
+      <p>InnovateX Platforms Ltd. is a technology-intensive company preparing for an IPO. Its founders have requested superior voting rights so that they can continue to exercise strategic control after listing even if their economic ownership reduces.</p>
+
+      <p>The company proposes to issue SR equity shares only to promoters who hold executive positions in the company. The Board places the proposal before the shareholders through a special resolution. The notice specifies the size of the proposed SR issue, the differential voting ratio, differential dividend rights and the proposed sunset provisions.</p>
+
+      <p>The promoters receive the SR equity shares two months before the filing of the draft red herring prospectus. One promoter does not hold an executive position in the company but argues that he should also receive SR equity shares because he is a founder.</p>
+
+      <p>The registered valuer determines that one SR shareholder's net worth is ₹950 crore. The company has no other class of SR equity shares and proposes to maintain the same face value for SR and ordinary shares.</p>
+
+      <p>The company also wants SR equity shares to have preferential rights relating to dividends, transfer and other economic benefits beyond the difference in voting rights. The legal adviser warns that the regulations impose restrictions on how SR shares should compare with ordinary shares.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_49_Q1",
+        question: "SR equity shares should generally be issued only to promoters/founders who:",
+        options: [
+          "Are retired employees",
+          "Hold an executive position in the issuer company",
+          "Are external consultants",
+          "Are statutory auditors"
+        ],
+        answer: 2,
+        reason: "The SR equity shares should be issued only to promoters/founders who hold an executive position in the issuer company."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_49_Q2",
+        question: "The SR equity shares should have been issued prior to filing the draft red herring prospectus and held for at least:",
+        options: [
+          "One month",
+          "Two months",
+          "Three months",
+          "One year"
+        ],
+        answer: 3,
+        reason: "The SR equity shares must have been issued prior to filing of the draft red herring prospectus and held for a period of at least three months prior to such filing."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_49_Q3",
+        question: "The net worth of an SR shareholder, as determined by a Registered Valuer, should not be more than:",
+        options: [
+          "₹500 crore",
+          "₹750 crore",
+          "₹1,000 crore",
+          "₹2,000 crore"
+        ],
+        answer: 3,
+        reason: "The net worth of the SR shareholder, as determined by a Registered Valuer, should not be more than ₹1,000 crore."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_49_Q4",
+        question: "InnovateX's proposal to issue SR shares to a founder who does not hold an executive position is:",
+        options: [
+          "Compliant because every founder automatically qualifies",
+          "Not compliant with the specified condition",
+          "Compliant if approved by the CFO",
+          "Compliant only after listing"
+        ],
+        answer: 2,
+        reason: "SR equity shares are required to be issued only to promoters/founders who hold an executive position in the issuer company."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_49_Q5",
+        question: "SR equity shares should generally be equivalent to ordinary equity shares in all respects except:",
+        options: [
+          "Voting rights",
+          "Face value",
+          "Existence of the company",
+          "Number of shareholders"
+        ],
+        answer: 1,
+        reason: "SR equity shares should be equivalent to ordinary equity shares in all respects except for having superior voting rights."
+      }
+
+    ]
+  },
+
+
+  /* =========================================================
+     CASE SCENARIO 50
+     SEBI ICDR – UNIDENTIFIED ACQUISITION / GENERAL CORPORATE PURPOSES
+     DIFFICULTY: HARD
+  ========================================================= */
+
+  {
+    case_id: "SEBI_CH1_CS_50",
+    chapter: "SEBI (ICDR) Regulations, 2018",
+    difficulty: "hard",
+
+    caseText: `
+      <p>BluePeak Consumer Technologies Ltd. is preparing an IPO to raise ₹1,000 crore. The company intends to use the proceeds for expansion, working capital, general corporate purposes and possible future acquisitions. At the time of filing the draft offer document, however, the company has not identified the specific acquisition target or investment opportunity.</p>
+
+      <p>The draft offer document proposes to use ₹250 crore for general corporate purposes and another ₹150 crore for acquisitions or investments that have not yet been identified. The management believes that because both amounts together represent only 40% of the proposed issue size, the structure should be acceptable.</p>
+
+      <p>The merchant banker points out that different ceilings apply where acquisition or investment targets have not been identified. The Board therefore revises the proposed allocation and seeks advice on the maximum amount that may be used for general corporate purposes and unidentified acquisition or investment objects.</p>
+
+      <p>Separately, the company considers identifying a specific strategic acquisition before filing the final offer document. The target is a company operating in the same industry, and detailed disclosures regarding the proposed acquisition can be included in the offer document.</p>
+
+      <p>The directors want to know whether identifying the acquisition target changes the applicable ceiling and whether the 25% general corporate purpose limit continues to apply in every situation.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_CH1_CS_50_Q1",
+        question: "The amount for general corporate purposes generally cannot exceed:",
+        options: [
+          "10% of the issue size",
+          "25% of the amount being raised",
+          "35% of the amount being raised",
+          "50% of the amount being raised"
+        ],
+        answer: 2,
+        reason: "The amount for general corporate purposes as mentioned in the draft offer document and offer document shall generally not exceed 25% of the amount being raised."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_50_Q2",
+        question: "Where an acquisition or investment target has not been identified, the amount proposed for such objects generally cannot exceed:",
+        options: [
+          "10% of the issue size",
+          "25% of the amount being raised",
+          "35% of the amount being raised",
+          "50% of the amount being raised"
+        ],
+        answer: 2,
+        reason: "Where the issuer has not identified the acquisition or investment target, the amount raised for such objects shall not exceed 25% of the amount being raised, subject to the prescribed conditions."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_50_Q3",
+        question: "The combined ceiling for general corporate purposes and unidentified acquisition/investment objects is generally:",
+        options: [
+          "20% of the issue size",
+          "25% of the issue size",
+          "35% of the amount being raised",
+          "60% of the amount being raised"
+        ],
+        answer: 3,
+        reason: "The amount for general corporate purposes and objects where the acquisition or investment target has not been identified shall not exceed 35% of the amount being raised, while the unidentified acquisition/investment component itself is subject to the 25% ceiling."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_50_Q4",
+        question: "If the proposed acquisition or strategic investment has been identified and suitable specific disclosures are made in the offer documents, the prescribed unidentified-object limits:",
+        options: [
+          "Continue to apply without exception",
+          "Do not apply to the extent provided by the regulation",
+          "Automatically reduce to 10%",
+          "Require cancellation of the IPO"
+        ],
+        answer: 2,
+        reason: "The specified limits do not apply if the proposed acquisition or strategic investment object has been identified and suitable specific disclosures regarding such acquisition or investment are made in the draft offer document and offer document."
+      },
+
+      {
+        question_id: "SEBI_CH1_CS_50_Q5",
+        question: "If BluePeak raises ₹1,000 crore, the maximum amount that may generally be allocated to general corporate purposes is:",
+        options: [
+          "₹100 crore",
+          "₹200 crore",
+          "₹250 crore",
+          "₹350 crore"
+        ],
+        answer: 3,
+        reason: "The general corporate purpose ceiling is 25% of the amount raised. Therefore, for ₹1,000 crore, the general corporate purpose amount can generally be up to ₹250 crore."
+      }
+
+    ]
+  }
 ];
