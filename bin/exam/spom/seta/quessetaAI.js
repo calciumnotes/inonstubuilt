@@ -29112,5 +29112,1398 @@ const AICaseStudies = [
       }
 
     ]
-  }
+  },
+  // Chapter FEMA I
+
+/* =========================================================
+   MEDIUM CASE SCENARIOS
+========================================================= */
+
+{
+    case_id: "fema_cs_medium_01",
+    case_chapter: ["FEMA", "Residential Status", "Person Resident in India"],
+    caseText: `<p>Mr. Arjun, an Indian citizen, had been residing in India for more than 182 days during the financial year 2025-26. On 10 April 2026, he left India to take up employment with a technology company in Singapore. His employment contract was for an indefinite period and there was no fixed date for his return to India.</p>
+    <p>Before leaving India, Arjun maintained a foreign currency account which he had legitimately acquired while he was earlier a person resident outside India. After taking up employment in Singapore, he also received salary in Singapore dollars in his Singapore bank account.</p>
+    <p>Arjun's brother argued that since Arjun had stayed in India for more than 182 days during the preceding financial year, he would continue to be a person resident in India throughout FY 2026-27. Arjun's professional adviser disagreed and stated that FEMA residential status depends upon the purpose for which a person leaves India and is relevant from the date of the change in circumstances.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_01_1",
+            question: "What is the residential status of Arjun after he leaves India on 10 April 2026 for taking up employment in Singapore?",
+            options: [
+                "Person Resident in India until 31 March 2027",
+                "Person Resident Outside India from the date of departure",
+                "Person Resident in India because he stayed more than 182 days in the preceding financial year",
+                "His status can be determined only after completion of FY 2026-27"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_01_2",
+            question: "Which factor is most relevant in determining Arjun's status after leaving India?",
+            options: [
+                "His citizenship",
+                "His place of birth",
+                "The purpose for which he has gone out of India",
+                "The amount of foreign exchange held by him"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_01_3",
+            question: "Arjun's foreign currency account was acquired and held when he was a person resident outside India. Can he continue to hold such eligible asset after becoming resident in India at a later stage?",
+            options: [
+                "No, all foreign assets must immediately be surrendered",
+                "Yes, subject to the conditions applicable under FEMA",
+                "Only with approval of the Ministry of Finance",
+                "Only if the asset is converted into Indian rupees"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_01_4",
+            question: "Which of the following is NOT a criterion for determining whether an individual is a person resident in India under FEMA?",
+            options: [
+                "Stay in India for more than 182 days during the preceding financial year",
+                "Purpose of going outside India",
+                "Intention regarding the period of stay outside India",
+                "Indian citizenship"
+            ],
+            answer: 3
+        },
+        {
+            question_id: "fema_cs_medium_01_5",
+            question: "Why is residential status under FEMA generally determined from a particular date rather than merely for the entire financial year?",
+            options: [
+                "Because FEMA is a tax collection statute",
+                "Because FEMA regulates foreign exchange transactions at the time they occur",
+                "Because citizenship changes during the year",
+                "Because the financial year has no relevance under FEMA"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_02",
+    case_chapter: ["FEMA", "Current Account Transaction", "Capital Account Transaction"],
+    caseText: `<p>Zenith Engineering Ltd., a company resident in India, imported specialised machinery from a German supplier. The machinery was paid for immediately through its Authorised Dealer Category-I bank. In another transaction, Zenith imported additional machinery from the same supplier under a six-month credit arrangement.</p>
+    <p>The finance manager classified both transactions as capital account transactions because machinery is treated as a capital asset in the company's books. The company's FEMA consultant explained that the classification under FEMA does not depend merely upon whether an item is capital or revenue expenditure under accounting principles.</p>
+    <p>Zenith also planned to remit USD 30,000 to the daughter of one of its directors, who was studying abroad, towards her living expenses. The remittance was proposed through the company's authorised banking channel.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_02_1",
+            question: "How should the immediate payment for imported machinery generally be classified under FEMA based on the facts given?",
+            options: [
+                "Capital Account Transaction",
+                "Current Account Transaction",
+                "Prohibited transaction",
+                "Foreign Direct Investment"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_02_2",
+            question: "Why can the six-month credit arrangement for imported machinery fall within Current Account Transaction?",
+            options: [
+                "All imports are automatically capital account transactions",
+                "Short-term banking and credit facilities in the ordinary course of business are included in current account transactions",
+                "Machinery is never a capital asset",
+                "Credit arrangements are outside FEMA"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_02_3",
+            question: "Which principle correctly distinguishes current account and capital account transactions under FEMA?",
+            options: [
+                "Current account transactions are always prohibited",
+                "Capital account transactions are always freely permitted",
+                "Current account transactions are generally permitted subject to reasonable restrictions, while capital account transactions require specific permission where applicable",
+                "Both are treated identically under FEMA"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_02_4",
+            question: "A payment towards living expenses of a person's child residing abroad is generally covered within which category?",
+            options: [
+                "Current Account Transaction",
+                "Capital Account Transaction",
+                "Only Overseas Direct Investment",
+                "Only External Commercial Borrowing"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_02_5",
+            question: "If Zenith wants to make a payment involving foreign exchange, which channel should ordinarily be used?",
+            options: [
+                "Direct cash payment to any foreign resident",
+                "Only a foreign tourist",
+                "An Authorised Person, subject to FEMA requirements",
+                "Any private individual offering a better exchange rate"
+            ],
+            answer: 2
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_03",
+    case_chapter: ["FEMA", "Current Account Transactions", "Liberalised Remittance Scheme"],
+    caseText: `<p>Ms. Kavya, a person resident in India, intends to remit foreign exchange during FY 2026-27 for several purposes. She proposes to remit USD 80,000 for studies abroad, USD 40,000 as a gift to her brother residing overseas and USD 50,000 for a private visit abroad.</p>
+    <p>She also wishes to remit an additional USD 100,000 for another permissible current account purpose during the same financial year. Kavya believes that every permissible transaction can be made without considering the aggregate limit because the purposes are different.</p>
+    <p>Her bank informs her that the Liberalised Remittance Scheme applies to resident individuals and that the prescribed annual limit has to be considered while determining the available remittance facility.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_03_1",
+            question: "What is the general annual LRS limit applicable to a resident individual under the material provided?",
+            options: [
+                "USD 50,000",
+                "USD 100,000",
+                "USD 250,000",
+                "USD 500,000"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_03_2",
+            question: "What is the aggregate amount proposed by Kavya in the first three transactions?",
+            options: [
+                "USD 120,000",
+                "USD 150,000",
+                "USD 170,000",
+                "USD 180,000"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_03_3",
+            question: "After the first three remittances, assuming they are all counted under the applicable LRS limit, what amount remains from the USD 250,000 limit?",
+            options: [
+                "USD 50,000",
+                "USD 80,000",
+                "USD 100,000",
+                "USD 120,000"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_03_4",
+            question: "Which of the following persons can generally avail the LRS facility?",
+            options: [
+                "Only companies",
+                "Only partnership firms",
+                "Resident individuals, including minors subject to applicable conditions",
+                "Only HUFs"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_03_5",
+            question: "If Kavya proposes a remittance exceeding the prescribed limit for a purpose covered under Schedule III, what is generally required for the excess amount?",
+            options: [
+                "No permission is ever required",
+                "Prior approval of RBI, subject to applicable provisions",
+                "Approval of the foreign recipient",
+                "Approval of the Income Tax Department only"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_04",
+    case_chapter: ["FEMA", "Import of Goods", "Authorised Dealer"],
+    caseText: `<p>Orbit Components Ltd. imported electronic components from Japan. The company made payment through its Authorised Dealer Category-I bank. The bank requested evidence of import and asked Orbit to furnish the relevant import documentation.</p>
+    <p>Orbit's accounts department argued that once the foreign exchange had been remitted to the supplier, no further action was necessary. The Authorised Dealer explained that the purchaser of foreign exchange has obligations regarding utilisation and evidence of import.</p>
+    <p>Due to a commercial dispute concerning quality, Orbit could not settle another import liability within six months from the date of shipment. Orbit requested an extension from its Authorised Dealer.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_04_1",
+            question: "Which entity generally regulates import trade from the trade policy perspective?",
+            options: [
+                "SEBI",
+                "DGFT",
+                "IRDAI",
+                "NCLT"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_04_2",
+            question: "What should an Authorised Dealer generally ensure where foreign exchange has been utilised for importing goods?",
+            options: [
+                "That equivalent goods have been imported and appropriate evidence is furnished",
+                "That the importer has earned a profit",
+                "That the supplier is an Indian resident",
+                "That the goods were purchased in Indian currency"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_04_3",
+            question: "What is the normal time limit mentioned for settlement of import payments?",
+            options: [
+                "Three months from shipment",
+                "Six months from shipment",
+                "Nine months from shipment",
+                "Two years from shipment"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_04_4",
+            question: "Can an Authorised Dealer consider an extension of time for settlement of import dues in specified circumstances?",
+            options: [
+                "No, never",
+                "Yes, subject to prescribed conditions and limits",
+                "Only the foreign supplier can grant it",
+                "Only the customs authorities can grant it"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_04_5",
+            question: "Which of the following may constitute evidence of import referred to in the material?",
+            options: [
+                "IDPMS records or Customs Assessment Certificate",
+                "Only an oral confirmation from supplier",
+                "Only the company's internal purchase order",
+                "Only the board resolution"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_05",
+    case_chapter: ["FEMA", "Section 3", "Authorised Person"],
+    caseText: `<p>Rohan, a person resident in India, was approached by his friend who was a person resident outside India. The friend wanted to sell USD 5,000 directly to Rohan at a rate better than the rate offered by authorised dealers. Rohan agreed to purchase the dollars in cash.</p>
+    <p>In another transaction, a foreign tourist visiting India wanted to pay a restaurant directly in US dollars in cash. The restaurant accepted the payment even though it did not have the necessary authorisation to deal in foreign exchange.</p>
+    <p>A FEMA consultant advised both parties that FEMA regulates dealings in foreign exchange and that specified transactions must be carried out through an Authorised Person unless otherwise permitted.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_05_1",
+            question: "Can Rohan ordinarily purchase foreign exchange directly from his non-resident friend?",
+            options: [
+                "Yes, because both parties agree",
+                "Yes, if the exchange rate is mutually beneficial",
+                "No, dealings in foreign exchange must generally be through an Authorised Person unless permitted",
+                "Yes, provided the amount is below USD 10,000"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_05_2",
+            question: "Which provision primarily deals with the specified prohibitions on dealing in foreign exchange and related transactions?",
+            options: [
+                "Section 3",
+                "Section 16",
+                "Section 36",
+                "Section 49"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_05_3",
+            question: "What is an Authorised Person under FEMA?",
+            options: [
+                "Only a chartered accountant",
+                "Authorised dealer, money changer, offshore banking unit or other person authorised under section 10(1)",
+                "Any Indian citizen",
+                "Only a foreign bank"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_05_4",
+            question: "Can a restaurant without appropriate authorisation ordinarily accept foreign currency cash from a foreign tourist?",
+            options: [
+                "Yes, because the tourist is a non-resident",
+                "Yes, if the restaurant records the transaction",
+                "No, the receipt otherwise than through an Authorised Person is restricted",
+                "Yes, if the amount is below USD 100"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_05_5",
+            question: "Which statement best explains the purpose of the restriction?",
+            options: [
+                "To prevent all foreign tourists from spending money in India",
+                "To regulate inflow and outflow of foreign exchange through authorised channels",
+                "To prohibit all current account transactions",
+                "To prohibit Indian residents from receiving any foreign currency"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+
+/* =========================================================
+   HARD CASE SCENARIOS
+========================================================= */
+
+{
+    case_id: "fema_cs_hard_01",
+    case_chapter: ["FEMA", "Residential Status", "Capital Account", "Current Account"],
+    caseText: `<p>Mr. Dev, an Indian citizen, had stayed in India for more than 182 days during FY 2025-26. On 1 April 2026, he travelled to Canada to pursue a three-year professional course. He did not initially take up employment in Canada and stated that he intended to return to India after completing his studies.</p>
+    <p>During FY 2026-27, Dev received a scholarship in Canada and maintained a Canadian bank account. His parents in India periodically remitted amounts to him for his living expenses. Dev subsequently obtained employment in Canada on 1 December 2026 and decided to remain there indefinitely.</p>
+    <p>On 15 December 2026, he purchased shares of a Canadian company using his Canadian bank balance. His father argued that Dev remained a person resident in India because he had stayed in India for more than 182 days in the preceding financial year. Dev's adviser stated that the position must be examined separately at different points in time.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_01_1",
+            question: "Based on the facts provided, what is the most appropriate approach to determining Dev's FEMA residential status?",
+            options: [
+                "Status is fixed permanently based only on citizenship",
+                "Status is determined only after completion of FY 2026-27",
+                "Status must be examined with reference to the preceding-year stay and the purpose/circumstances of going or staying outside India",
+                "Status depends only upon the location of his bank account"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_hard_01_2",
+            question: "According to the specific clarification mentioned in the study material, students going abroad for studies are generally considered:",
+            options: [
+                "Always PRII from the date of departure",
+                "PROI based on RBI clarification",
+                "PRII only if they have a scholarship",
+                "PRII until they acquire citizenship abroad"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_01_3",
+            question: "Once Dev takes up employment in Canada and circumstances indicate an intention to remain outside India for an uncertain period, what is the likely consequence?",
+            options: [
+                "He automatically becomes PRII",
+                "He ceases to be PRII from the relevant date and becomes PROI",
+                "His status remains PRII until 31 March 2027 in every case",
+                "His citizenship determines the result"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_01_4",
+            question: "The remittances made by Dev's parents in India towards his living expenses abroad would generally fall under:",
+            options: [
+                "Current Account Transaction",
+                "Capital Account Transaction solely because the recipient is abroad",
+                "Overseas Direct Investment",
+                "External Commercial Borrowing"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_01_5",
+            question: "If Dev purchases Canadian shares after becoming a person resident outside India, which statement is most appropriate?",
+            options: [
+                "His Indian citizenship alone makes every foreign investment an Indian capital account transaction",
+                "The transaction must be examined with reference to his FEMA residential status and applicable provisions at the time of investment",
+                "The transaction is automatically prohibited",
+                "The transaction is automatically treated as an Indian current account transaction"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_02",
+    case_chapter: ["FEMA", "Overseas Investment", "ODI", "OPI"],
+    caseText: `<p>Alpha India Ltd., an Indian company, proposes to establish a wholly-owned subsidiary in Germany. The German entity will carry on a genuine technology business permitted both in India and Germany. Alpha proposes to acquire 100% of the unlisted equity capital of the German entity and also provide debt financing to it.</p>
+    <p>Separately, Alpha proposes to purchase 8% of the equity shares of a listed foreign company without acquiring control. The foreign company's shares are listed on a recognised stock exchange outside India.</p>
+    <p>Alpha's CFO argues that both investments should be classified as Overseas Direct Investment because both involve equity. The compliance officer disagrees and points out that the distinction between ODI and OPI depends upon the nature and percentage of investment and control.</p>
+    <p>Alpha also proposes to invest in a foreign entity whose business consists of gambling activities. The directors believe that because the entity is legally incorporated in the host country, the investment should be permissible.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_02_1",
+            question: "How should Alpha's acquisition of 100% of the unlisted equity capital of the German entity generally be classified?",
+            options: [
+                "OPI",
+                "ODI",
+                "Current Account Transaction",
+                "Portfolio investment only"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_02_2",
+            question: "Alpha's acquisition of 8% equity in a listed foreign entity without control would generally be classified as:",
+            options: [
+                "ODI merely because it is equity",
+                "OPI, assuming other applicable conditions are satisfied",
+                "ECB",
+                "Current Account Transaction"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_02_3",
+            question: "Which of the following would cause an investment in a listed foreign entity to fall within ODI under the definition provided?",
+            options: [
+                "Any investment below 1%",
+                "Investment of 10% or more of paid-up equity capital",
+                "Only investment through debt instruments",
+                "Only investment through mutual funds"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_02_4",
+            question: "Can Alpha make ODI in a foreign entity engaged in gambling merely because gambling is lawful in the host country?",
+            options: [
+                "Yes, host-country law alone is sufficient",
+                "Yes, if investment is below 10%",
+                "No, ODI in a foreign entity engaged in gambling in any form is prohibited subject to the stated regulatory framework",
+                "Yes, if the entity is listed"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_hard_02_5",
+            question: "Which statement regarding the foreign technology subsidiary is most appropriate?",
+            options: [
+                "The foreign entity need not conduct a bona fide business",
+                "Overseas investment should generally be in a foreign entity engaged in bona fide business activity, subject to applicable conditions",
+                "Only listed foreign entities can receive ODI",
+                "ODI is restricted to financial-sector entities"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_03",
+    case_chapter: ["FEMA", "External Commercial Borrowings", "ECB"],
+    caseText: `<p>Nova Manufacturing Ltd., an eligible Indian entity, proposes to raise a foreign currency denominated External Commercial Borrowing of USD 40 million from a recognised lender. The proposed ECB has a minimum average maturity period of three years and is intended partly for repayment of domestic Rupee loans originally taken for capital expenditure.</p>
+    <p>The company proposes an all-in-cost of benchmark rate plus 500 basis points. It also intends to obtain the ECB proceeds immediately but plans to draw down the funds before obtaining a Loan Registration Number (LRN).</p>
+    <p>The CFO argues that because the borrowing is under the automatic route, RBI approval is not necessary and therefore the LRN requirement should not apply. The treasury department also proposes to use part of the ECB proceeds for investment in the capital market.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_03_1",
+            question: "What is the significance of the Loan Registration Number in relation to ECB drawdown?",
+            options: [
+                "Drawdown can generally occur only after obtaining the LRN",
+                "LRN is required only after repayment",
+                "LRN is relevant only to Indian Rupee loans",
+                "LRN is optional under the automatic route"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_03_2",
+            question: "Which statement correctly describes the automatic route for ECB?",
+            options: [
+                "It means no FEMA compliance is required",
+                "Cases conforming to the prescribed parameters are handled through the designated AD Category-I bank without prior RBI approval in the ordinary course",
+                "It permits use of ECB proceeds for every purpose",
+                "It eliminates reporting requirements"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_03_3",
+            question: "Investment of ECB proceeds in the capital market is generally:",
+            options: [
+                "Permitted without restriction",
+                "Included in the negative list of end-uses",
+                "Mandatory",
+                "Permitted only for three months"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_03_4",
+            question: "The proposed all-in-cost of benchmark rate plus 500 basis points is relevant because:",
+            options: [
+                "ECB has no cost ceiling",
+                "The all-in-cost must comply with the prescribed ceiling under the ECB framework",
+                "Only the lender determines the permitted cost",
+                "Only Indian Rupee ECB has a cost ceiling"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_03_5",
+            question: "Repayment of domestic Rupee loans from ECB proceeds is:",
+            options: [
+                "Always prohibited",
+                "Permitted only in the cases/categories specifically allowed under the ECB framework",
+                "Always permitted for every borrower",
+                "Permitted only if the borrower is a startup"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_04",
+    case_chapter: ["FEMA", "Overseas Investment", "No Objection Certificate", "Disinvestment"],
+    caseText: `<p>Beta Infrastructure Ltd. has made an ODI in a foreign construction company three years ago. The foreign entity has suffered losses for the previous two years. Beta now proposes to restructure the balance sheet of the foreign entity, resulting in a diminution in the value of its outstanding investment.</p>
+    <p>At the same time, Beta proposes to disinvest completely from the foreign entity by selling its equity to another eligible investor. Beta has certain outstanding dues receivable from the foreign entity as an investor.</p>
+    <p>Beta's banking account has also been classified as a non-performing asset. The company argues that its NPA status does not affect its overseas investment because the original ODI was validly made.</p>
+    <p>The compliance officer points out that the Overseas Investment framework contains specific requirements relating to restructuring, disinvestment and No Objection Certificates.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_04_1",
+            question: "Can restructuring of the foreign entity's balance sheet be considered where the foreign entity has incurred losses for the previous two years?",
+            options: [
+                "Never",
+                "Yes, subject to prescribed conditions relating to reporting, documentation and diminution in value",
+                "Only if the foreign entity is listed in India",
+                "Only with approval from SEBI"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_04_2",
+            question: "If the diminution in value exceeds the specified threshold, what additional requirement may arise?",
+            options: [
+                "Certification on an arm's-length basis by the prescribed valuer/certifying professional",
+                "Automatic cancellation of ODI",
+                "Approval of the foreign shareholders only",
+                "No additional requirement"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_04_3",
+            question: "Before full disinvestment by sale, what issue concerning Beta's outstanding dues is relevant?",
+            options: [
+                "There must be no outstanding dues receivable by Beta from the foreign entity in the circumstances specified",
+                "All dues must be converted into equity",
+                "The dues must be transferred to RBI",
+                "The foreign entity must become an Indian company"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_04_4",
+            question: "Since Beta's account is classified as an NPA, what must Beta generally obtain before making financial commitment or undertaking disinvestment under the OI framework?",
+            options: [
+                "No Objection Certificate from the lender bank",
+                "Approval from the foreign entity's auditor",
+                "Approval from SEBI in every case",
+                "Certificate from the Ministry of Corporate Affairs only"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_04_5",
+            question: "If the lender bank fails to furnish the No Objection Certificate within the prescribed 60-day period after receipt of the application, what is the stated consequence?",
+            options: [
+                "The application is permanently rejected",
+                "It may be presumed that there was no objection to the proposed transaction",
+                "Beta automatically becomes PROI",
+                "The ODI becomes prohibited"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_05",
+    case_chapter: ["FEMA", "Capital Account Transactions", "Overseas Investment", "Section 6"],
+    caseText: `<p>Gamma Holdings, a person resident in India, is evaluating several cross-border transactions. First, it proposes to acquire an immovable property in France using funds remitted from India. Second, it proposes to acquire another property abroad through inheritance from a person who was resident outside India. Third, Gamma proposes to invest in a foreign entity engaged in development of residential premises and roads. Finally, Gamma proposes to invest in a foreign entity that has an indirect investment in India and would result in a structure having more than two layers of subsidiaries.</p>
+    <p>The management initially concluded that all four transactions should be prohibited because Section 4 generally restricts Indian residents from holding foreign exchange, foreign securities or immovable property outside India. The FEMA consultant explained that Section 6 and the Overseas Investment Rules contain specific permissions and exceptions which must be considered transaction-wise.</p>
+    <p>Gamma also proposes to make an investment in an overseas entity formed in Pakistan. The management believes that because the entity carries on a legitimate business, no special approval is required.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_05_1",
+            question: "Can a person resident in India acquire immovable property outside India through inheritance from a person resident outside India?",
+            options: [
+                "No, inheritance is never recognised",
+                "Yes, subject to the applicable FEMA provisions",
+                "Only if the property is located in India",
+                "Only if the person becomes a non-resident"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_05_2",
+            question: "Does development of townships, residential/commercial premises, roads or bridges necessarily fall within the prohibited meaning of 'real estate activity' for ODI?",
+            options: [
+                "Yes, all property-related development is prohibited",
+                "No, the specified development activities are excluded from the stated definition of real estate activity",
+                "Yes, unless the entity is listed",
+                "Only residential development is prohibited"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_05_3",
+            question: "What is the general position regarding ODI in a foreign entity that has invested or invests into India and creates a structure with more than two layers of subsidiaries?",
+            options: [
+                "It is always freely permitted",
+                "It is restricted, subject to the specified exceptions",
+                "It is mandatory for Indian companies",
+                "It is treated as a current account transaction"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_05_4",
+            question: "An overseas investment in a foreign entity formed, registered or incorporated in Pakistan would generally require:",
+            options: [
+                "No approval if the business is genuine",
+                "Prior approval of the Central Government",
+                "Only approval from the foreign entity",
+                "Only approval from the Income Tax Department"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_05_5",
+            question: "Which statement best reflects the relationship between Section 4 and the Overseas Investment framework?",
+            options: [
+                "Section 4 makes every foreign asset held by a resident illegal without exception",
+                "Specific permissions and exceptions under FEMA and the applicable Rules/Regulations must be considered before concluding that a foreign asset or investment is prohibited",
+                "Section 4 applies only to companies and not individuals",
+                "Section 6 has no relevance to foreign investments"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+/* =========================================================
+   MEDIUM CASE SCENARIOS
+========================================================= */
+
+{
+    case_id: "fema_cs_medium_06",
+    case_chapter: ["FEMA", "Residential Status", "Person Resident in India"],
+    caseText: `<p>Mr. Raghav is an Indian citizen who had been residing in India for several years. During the financial year 2025-26, he stayed in India for 240 days. On 15 May 2026, he travelled to the United Kingdom for the purpose of taking up employment with a multinational company. His employment agreement did not specify any definite date of return to India. His employer provided him accommodation in London and Raghav shifted his principal economic activities to the United Kingdom.</p>
+
+    <p>Before leaving India, Raghav maintained several bank accounts in India and also owned a residential property in Bengaluru. He continued to receive rental income from the Indian property after moving to the United Kingdom. His brother argued that because Raghav had stayed in India for more than 182 days during the preceding financial year, he would necessarily remain a person resident in India throughout FY 2026-27.</p>
+
+    <p>Raghav's FEMA consultant explained that the 182-day test is only the first limb of the definition for an individual. The purpose for which a person leaves India is also relevant. According to the consultant, a person who goes outside India for taking up employment outside India is excluded from the basic rule, even though the person may have stayed in India for more than 182 days during the preceding financial year.</p>
+
+    <p>Raghav also planned to transfer part of his Indian savings to his UK bank account for meeting his living expenses. His adviser informed him that residential status under FEMA should be determined with reference to the circumstances existing at the relevant time and not merely by looking at his citizenship.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_06_1",
+            question: "What is the most appropriate residential status of Raghav after leaving India for taking up employment in the United Kingdom?",
+            options: [
+                "Person Resident in India until the end of FY 2026-27",
+                "Person Resident Outside India from the relevant date of departure",
+                "Person Resident in India because he stayed 240 days in the preceding financial year",
+                "Residential status cannot be determined under FEMA"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_06_2",
+            question: "Which fact is particularly relevant in applying the exception to the 182-day rule?",
+            options: [
+                "Raghav's Indian citizenship",
+                "Raghav's ownership of Indian property",
+                "Raghav leaving India for taking up employment outside India",
+                "Raghav's rental income in India"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_06_3",
+            question: "Which statement regarding Raghav's Indian residential property is most appropriate?",
+            options: [
+                "Becoming PROI automatically extinguishes his ownership",
+                "His ownership of Indian property itself determines his residential status",
+                "His ownership of Indian property does not by itself determine his FEMA residential status",
+                "He must immediately sell the property"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_06_4",
+            question: "Under FEMA, residential status of an individual is primarily relevant because:",
+            options: [
+                "It determines citizenship",
+                "It determines the regulatory treatment of foreign exchange transactions",
+                "It determines the person's income-tax slab",
+                "It determines whether the person can own Indian property"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_06_5",
+            question: "Which of the following is NOT relevant by itself for determining whether Raghav is a person resident in India?",
+            options: [
+                "Stay during the preceding financial year",
+                "Purpose of leaving India",
+                "Circumstances indicating intention to stay outside India for an uncertain period",
+                "Indian citizenship alone"
+            ],
+            answer: 3
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_07",
+    case_chapter: ["FEMA", "Section 3", "Foreign Exchange", "Authorised Person"],
+    caseText: `<p>Sunrise Exports Ltd. regularly receives payments from customers located in Europe and the United States. The company maintains an account with an Authorised Dealer Category-I bank and ordinarily receives export proceeds through normal banking channels.</p>
+
+    <p>One of Sunrise's overseas customers, however, suggested an alternative arrangement. Under the proposal, the customer would pay an amount equivalent to USD 25,000 to a third party in Dubai, while Sunrise's Indian director would receive an equivalent amount in Indian rupees from another Indian intermediary. The customer claimed that this arrangement would reduce banking charges and save time.</p>
+
+    <p>The finance manager initially believed that the arrangement was permissible because Sunrise would ultimately receive an amount equivalent to the export proceeds. The company's FEMA adviser disagreed and explained that FEMA specifically regulates receipt of payments from persons resident outside India and requires specified receipts to be made through an Authorised Person.</p>
+
+    <p>In a separate matter, the managing director of Sunrise was approached by an NRI who offered to sell USD 10,000 directly to him at a rate higher than the prevailing bank rate. The managing director considered accepting the offer because the transaction appeared commercially beneficial.</p>
+
+    <p>The compliance officer advised the board that the source and mode of receipt of foreign exchange are important under FEMA and that a transaction cannot be justified merely because both parties voluntarily agree to it.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_07_1",
+            question: "The proposed arrangement involving payment in Dubai and receipt of equivalent rupees in India may be regarded as:",
+            options: [
+                "A normal banking transaction",
+                "A permitted current account transaction in every case",
+                "A prohibited arrangement involving receipt otherwise than through an Authorised Person",
+                "An overseas portfolio investment"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_07_2",
+            question: "Why cannot Sunrise justify the proposed arrangement merely because it receives an equivalent amount in rupees?",
+            options: [
+                "Because export proceeds cannot ever be received in India",
+                "Because FEMA regulates the manner in which payments from persons resident outside India are received",
+                "Because foreign customers cannot make payments",
+                "Because all export transactions are capital account transactions"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_07_3",
+            question: "The direct purchase of USD 10,000 by the managing director from an NRI would generally be:",
+            options: [
+                "Permitted because the rate is attractive",
+                "Permitted because the amount is below USD 250,000",
+                "Restricted because dealing in foreign exchange must generally be through an Authorised Person",
+                "Mandatory under FEMA"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_07_4",
+            question: "Which of the following is an Authorised Person under FEMA?",
+            options: [
+                "Any resident individual",
+                "An authorised dealer or money changer authorised under FEMA",
+                "Any exporter",
+                "Any foreign customer"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_07_5",
+            question: "What is the primary regulatory objective of routing foreign exchange transactions through authorised channels?",
+            options: [
+                "To eliminate exports",
+                "To regulate foreign exchange transactions and maintain orderly foreign exchange management",
+                "To prevent all inward remittances",
+                "To make all capital account transactions illegal"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_08",
+    case_chapter: ["FEMA", "Current Account Transactions", "Schedule I", "Schedule III"],
+    caseText: `<p>Brightstar Media Pvt. Ltd. is planning several international payments during FY 2026-27. The company intends to remit USD 7,000 towards a foreign magazine advertisement connected with promotion of its business. It also proposes to pay USD 20,000 to an overseas consultant for specialised business advice.</p>
+
+    <p>At the same time, one of the company's directors, who is a resident individual, plans to remit USD 30,000 for a private visit abroad, USD 40,000 as a gift and USD 60,000 for medical treatment of a close family member abroad. The director intends to make all these payments through an Authorised Dealer.</p>
+
+    <p>The company's accounts team assumes that all current account transactions are completely unrestricted. The compliance officer explains that while current account transactions are generally permitted, the Central Government may impose reasonable restrictions and the Foreign Exchange Management (Current Account Transactions) Rules contain different schedules dealing with prohibited transactions and transactions requiring approvals.</p>
+
+    <p>The director also asks whether the fact that the payments are made through an Authorised Dealer automatically means that no further regulatory restriction can apply. The compliance officer explains that the use of an Authorised Person is necessary but does not override restrictions contained in the applicable Rules and Regulations.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_08_1",
+            question: "Which general principle applies to current account transactions under FEMA?",
+            options: [
+                "They are always prohibited",
+                "They are generally permitted subject to reasonable restrictions",
+                "They are always treated as capital account transactions",
+                "They can only be undertaken by companies"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_08_2",
+            question: "Which Schedule contains transactions for which drawal of foreign exchange is prohibited?",
+            options: [
+                "Schedule I",
+                "Schedule II",
+                "Schedule III",
+                "Schedule IV"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_08_3",
+            question: "Private visits abroad by resident individuals are covered within the facilities under:",
+            options: [
+                "Schedule I",
+                "Schedule II",
+                "Schedule III",
+                "Only capital account regulations"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_08_4",
+            question: "Does routing a transaction through an Authorised Dealer automatically make every current account transaction permissible?",
+            options: [
+                "Yes, in all circumstances",
+                "No, applicable restrictions and approval requirements must still be examined",
+                "Yes, provided the amount is below USD 250,000",
+                "Yes, if the transaction relates to business"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_08_5",
+            question: "Which authority may impose reasonable restrictions on current account transactions under the Act?",
+            options: [
+                "Central Government in consultation with RBI",
+                "Only SEBI",
+                "Only Income Tax Department",
+                "Only DGFT"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_09",
+    case_chapter: ["FEMA", "Capital Account Transactions", "Section 6"],
+    caseText: `<p>Trident Technologies Ltd., a person resident in India, is considering a number of international transactions as part of its global expansion strategy. The company proposes to invest in equity shares of a foreign subsidiary, obtain a foreign currency loan from an overseas lender, maintain a foreign currency account outside India and acquire an insurance policy from an overseas insurance company.</p>
+
+    <p>The CFO argues that these transactions should all be freely permissible because Trident has sufficient foreign currency resources. The legal adviser explains that availability of funds does not by itself determine whether a capital account transaction is permissible.</p>
+
+    <p>The adviser further explains that capital account transactions are transactions that alter assets or liabilities, including contingent liabilities, outside India of persons resident in India, or assets or liabilities in India of persons resident outside India. The regulatory framework permits specified categories of capital account transactions subject to prescribed limits and conditions.</p>
+
+    <p>Trident's board also considers making a transaction which does not appear in the list of specified permissible capital account transactions. One director argues that because the transaction is not expressly prohibited, it should automatically be permissible. The adviser cautions the board that the approach for capital account transactions differs from the general approach applicable to current account transactions.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_09_1",
+            question: "Which of the following is generally a capital account transaction for a person resident in India?",
+            options: [
+                "Payment for ordinary foreign travel",
+                "Payment of interest on a loan",
+                "Investment in foreign securities",
+                "Payment for ordinary business services"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_09_2",
+            question: "Which authority regulates capital account transactions involving debt instruments under the current framework?",
+            options: [
+                "RBI, subject to the statutory framework",
+                "Only SEBI",
+                "Only DGFT",
+                "Only Ministry of Corporate Affairs"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_09_3",
+            question: "Which authority has powers relating to permissible capital account transactions not involving debt instruments?",
+            options: [
+                "Central Government in consultation with RBI",
+                "Only RBI",
+                "Only SEBI",
+                "Only DGFT"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_09_4",
+            question: "What is the correct general approach to a capital account transaction?",
+            options: [
+                "It is automatically permitted unless specifically prohibited",
+                "It is permitted only when specifically permitted under the applicable framework",
+                "It is always prohibited",
+                "It is treated as a current account transaction"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_09_5",
+            question: "Which of the following is specifically included in the permissible capital account transactions for residents under the material?",
+            options: [
+                "Investment in foreign securities",
+                "Lottery winnings",
+                "Payment for banned magazines",
+                "Foreign exchange hawala settlement"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_10",
+    case_chapter: ["FEMA", "Import of Goods", "Foreign Currency", "Authorised Dealer"],
+    caseText: `<p>Mr. Sameer, a person resident in India, returned to India after a short visit to the United States. He carried USD 7,500 in currency notes and travellers' cheques. He also had a foreign currency bank balance maintained outside India. On arrival, he was informed by a customs official that declarations may be required depending upon the amount and form of foreign exchange brought into India.</p>
+
+    <p>In another transaction, Sameer's company imported machinery from South Korea. The company acquired foreign exchange through its Authorised Dealer and made payment to the supplier. The supplier subsequently provided the required shipping documents, and the company furnished evidence of import through the prescribed system.</p>
+
+    <p>The company's finance manager proposed that future import payments could be settled directly in cash with foreign suppliers to avoid bank charges. The compliance officer rejected the suggestion and explained that payments for imports must comply with FEMA, Foreign Trade Policy and the applicable banking-channel requirements.</p>
+
+    <p>The company also had an import liability that remained outstanding beyond the normal six-month period because of a dispute regarding the quality of the imported goods. It approached the Authorised Dealer seeking an extension.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_10_1",
+            question: "Under the material provided, declaration is generally not necessary for foreign exchange in currency notes, bank notes or travellers' cheques where the aggregate value does not exceed:",
+            options: [
+                "USD 1,000",
+                "USD 5,000",
+                "USD 10,000",
+                "USD 50,000"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_10_2",
+            question: "What is the normal settlement period for import payments mentioned in the material?",
+            options: [
+                "Three months",
+                "Six months",
+                "Nine months",
+                "Twelve months"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_10_3",
+            question: "Can an Authorised Dealer grant an extension in appropriate cases involving disputes regarding quality or quantity?",
+            options: [
+                "Yes, subject to prescribed conditions and limits",
+                "No, under any circumstances",
+                "Only the foreign supplier can grant the extension",
+                "Only DGFT can grant the extension"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_10_4",
+            question: "Which system is referred to for evidence and monitoring of import transactions?",
+            options: [
+                "IDPMS",
+                "GSTN",
+                "MCA21",
+                "SEBI SCORES"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_10_5",
+            question: "Why is direct cash settlement with foreign suppliers generally inappropriate as a substitute for prescribed banking channels?",
+            options: [
+                "Imports can never be paid for in foreign currency",
+                "Foreign exchange transactions must comply with FEMA and applicable authorised banking-channel requirements",
+                "Cash payments are mandatory only for capital goods",
+                "DGFT prohibits all imports"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+
+/* =========================================================
+   HARD CASE SCENARIOS
+========================================================= */
+
+{
+    case_id: "fema_cs_hard_06",
+    case_chapter: ["FEMA", "Current Account", "Capital Account", "LRS", "Gift"],
+    caseText: `<p>Mr. Aditya is a person resident in India who plans several transactions involving foreign exchange during FY 2026-27. His first proposal is to remit USD 70,000 to his daughter who is studying in Australia, primarily towards tuition and living expenses. He then intends to remit USD 60,000 to his spouse who is residing abroad for maintenance and family expenses. Later, he proposes to purchase an overseas residential property jointly with his spouse, who is also a person resident in India.</p>
+
+    <p>Aditya's financial adviser initially classifies all three transactions as current account transactions because money is being sent abroad. Another adviser points out that the nature of the transaction, rather than merely the direction of movement of money, must be examined.</p>
+
+    <p>Aditya has already remitted USD 100,000 earlier during the same financial year for a permissible overseas investment. He now wants to make the additional remittances and argues that each transaction has a separate purpose and therefore each should receive a fresh USD 250,000 limit.</p>
+
+    <p>He also proposes to consolidate remittances with his spouse. The couple wants to purchase the overseas property jointly and believes that the unused LRS limit of one spouse can always be transferred to the other. Their banker explains that consolidation is subject to specific conditions and that clubbing is not permitted in the same manner for every capital account transaction.</p>
+
+    <p>The banker further explains that resident individuals, including minors subject to the applicable conditions, may utilise the LRS facility within the prescribed annual limit for permissible current and capital account transactions or a combination of both.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_06_1",
+            question: "Aditya's remittance towards his daughter's education and living expenses abroad is generally:",
+            options: [
+                "A current account transaction",
+                "Always an ODI",
+                "Only a capital account transaction",
+                "An ECB"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_06_2",
+            question: "The purchase of an overseas residential property would generally involve:",
+            options: [
+                "A capital account transaction",
+                "Only a current account transaction",
+                "Only a service transaction",
+                "A prohibited transaction in every case"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_06_3",
+            question: "Aditya has already remitted USD 100,000 under LRS during the financial year. What is the key principle applicable to his remaining LRS capacity?",
+            options: [
+                "Each purpose gets a separate USD 250,000 limit",
+                "The annual LRS limit is considered cumulatively for the financial year",
+                "Capital transactions are never counted",
+                "Current account transactions are never counted"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_06_4",
+            question: "Can remittances of family members always be clubbed for every capital account transaction?",
+            options: [
+                "Yes, without any condition",
+                "No, clubbing is not permitted for specified capital account transactions unless the family members are co-owners/co-partners as applicable",
+                "Yes, because LRS is unlimited",
+                "Only if both persons are companies"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_06_5",
+            question: "Which statement best explains why Aditya cannot simply claim a fresh USD 250,000 limit for each purpose?",
+            options: [
+                "LRS applies only to current account transactions",
+                "The prescribed LRS limit applies per resident individual per financial year and covers permissible transactions within the scheme",
+                "LRS applies only to property purchases",
+                "The limit applies only to companies"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_07",
+    case_chapter: ["FEMA", "ECB", "External Commercial Borrowings", "Reporting"],
+    caseText: `<p>Vertex Infrastructure Ltd., an Indian company eligible to raise ECB, enters into an agreement with a recognised overseas lender for a foreign currency denominated ECB of USD 60 million. The loan carries a minimum average maturity period of three years. The company proposes to use the proceeds partly for general corporate purposes and partly for repayment of domestic Rupee borrowings.</p>
+
+    <p>The treasury team informs the board that the ECB will be raised under the automatic route because the company satisfies the eligibility conditions. The company therefore plans to draw down the first instalment immediately after signing the loan agreement. The compliance head objects, stating that obtaining an LRN is a prerequisite before drawdown.</p>
+
+    <p>After the first drawdown, the company discovers that its finance department failed to submit one of the required monthly ECB returns within the prescribed period. The company argues that because the ECB itself is valid, the reporting delay should have no regulatory consequences.</p>
+
+    <p>Later, Vertex proposes to refinance the existing ECB through a fresh ECB carrying a lower all-in-cost. The proposed refinancing would not reduce the outstanding maturity of the original borrowing. The CFO believes that refinancing is prohibited because a new ECB cannot be used to replace an existing ECB.</p>
+
+    <p>Finally, Vertex proposes to convert the outstanding ECB into equity. The foreign lender agrees to the conversion. However, the proposed conversion would result in the foreign investor exceeding the applicable sectoral foreign equity cap. The management argues that because the lender has consented, conversion should automatically be allowed.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_07_1",
+            question: "Can Vertex draw down ECB proceeds merely because the ECB has been contracted under the automatic route?",
+            options: [
+                "Yes, LRN is unnecessary under the automatic route",
+                "No, drawdown should occur only after obtaining the required Loan Registration Number",
+                "Yes, if the lender is foreign",
+                "Yes, if the amount is below USD 750 million"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_07_2",
+            question: "Which statement regarding monthly ECB reporting is correct?",
+            options: [
+                "Reporting is completely optional",
+                "Actual ECB transactions are required to be reported through the prescribed monthly return",
+                "Only repayment transactions are reported",
+                "Reporting is required only after maturity"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_07_3",
+            question: "Can an eligible borrower refinance an existing ECB through a fresh ECB under the framework described?",
+            options: [
+                "Never",
+                "Yes, subject to conditions including that the outstanding maturity is not reduced and the fresh ECB satisfies the prescribed cost conditions",
+                "Yes, without any conditions",
+                "Only if the lender is an Indian bank"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_07_4",
+            question: "What is the problem with converting Vertex's ECB into equity when the conversion would breach the applicable foreign equity sectoral cap?",
+            options: [
+                "There is no problem if the lender agrees",
+                "Conversion cannot be allowed in a manner that results in breach of applicable eligibility or sectoral foreign equity limits",
+                "ECB can never be converted into equity",
+                "Only RBI's approval is relevant and sectoral caps do not matter"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_07_5",
+            question: "Which statement best describes the automatic route?",
+            options: [
+                "Automatic route eliminates all FEMA compliance",
+                "Automatic route means eligible proposals conforming to prescribed parameters can be handled without prior RBI approval, while compliance and reporting remain necessary",
+                "Automatic route permits every end-use",
+                "Automatic route applies only to Indian Rupee loans"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_08",
+    case_chapter: ["FEMA", "Overseas Investment", "ODI", "Financial Commitment", "Strategic Sector"],
+    caseText: `<p>Orion Electronics Ltd., an Indian company, proposes to expand its operations internationally. It plans to establish an unlisted foreign subsidiary in Singapore to manufacture specialised electronic components. The subsidiary will conduct a genuine business activity permitted in both India and Singapore.</p>
+
+    <p>Orion proposes to acquire 100% of the foreign entity's equity capital and additionally provide a loan to the subsidiary. It also proposes to issue a corporate guarantee in favour of an overseas lender financing the subsidiary. The CFO calculates only the equity investment and concludes that the proposed transaction is comfortably within the company's overseas investment limit.</p>
+
+    <p>The FEMA adviser explains that financial commitment is broader than merely the amount of equity investment. It may include ODI, debt other than OPI in the foreign entity and non-fund-based facilities extended to or on behalf of the foreign entity.</p>
+
+    <p>Orion subsequently discovers an opportunity to invest in a foreign entity operating in an important strategic sector. The proposed financial commitment would exceed the normal regulatory limit. The board believes that because the activity is strategically important, the excess investment can be made automatically without further action.</p>
+
+    <p>At the same time, the proposed foreign subsidiary has a downstream structure involving more than two layers of subsidiaries and has some business exposure connected with India. The compliance team is required to examine whether the layer restriction applies and whether any statutory exception is available.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_08_1",
+            question: "Which of the following forms part of financial commitment as defined under the Overseas Investment framework?",
+            options: [
+                "Only equity investment",
+                "ODI, specified debt and non-fund-based facilities extended to or on behalf of the foreign entity",
+                "Only foreign currency deposits",
+                "Only portfolio investments"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_08_2",
+            question: "Why is Orion's calculation based only on equity investment potentially incorrect?",
+            options: [
+                "Equity investment is never ODI",
+                "Financial commitment may include more than the equity component",
+                "Loans are always current account transactions",
+                "Guarantees are never relevant under FEMA"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_08_3",
+            question: "If financial commitment in a strategic sector exceeds the prescribed limit, which authority may permit such commitment subject to conditions?",
+            options: [
+                "Central Government on an application made through RBI",
+                "Only the foreign entity",
+                "Only SEBI",
+                "Only DGFT"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_08_4",
+            question: "What is the general position regarding a foreign structure having more than two layers of subsidiaries where the relevant restriction applies?",
+            options: [
+                "It is always permitted",
+                "It is restricted subject to specified exceptions",
+                "It is mandatory for all ODI",
+                "It automatically becomes OPI"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_08_5",
+            question: "Which of the following is an example of a specified exception to the subsidiary-layer restriction?",
+            options: [
+                "Every private company",
+                "A banking company",
+                "Every partnership firm",
+                "Every startup irrespective of its activity"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_09",
+    case_chapter: ["FEMA", "Overseas Investment", "Immovable Property", "LRS"],
+    caseText: `<p>Ms. Nisha is a resident individual who wishes to acquire an apartment in Dubai. She has accumulated funds in India and maintains a Resident Foreign Currency Account containing foreign currency lawfully held by her. She also has an overseas property inherited from her grandfather, who was resident outside India.</p>
+
+    <p>Nisha proposes to purchase the Dubai apartment partly from funds available in her RFC account and partly through remittances under the Liberalised Remittance Scheme. Her brother, who is also resident in India, offers to contribute his unused LRS limit to the purchase. The apartment is proposed to be registered jointly in their names.</p>
+
+    <p>Nisha's adviser explains that FEMA contains specific provisions dealing with acquisition of immovable property outside India and that certain acquisitions are permitted through inheritance, gift, purchase using eligible funds, or other specified routes. The adviser also points out that the treatment of RFC funds and LRS remittances must be examined under the applicable provisions.</p>
+
+    <p>Separately, Nisha proposes to acquire another overseas property on a five-year lease. She is unsure whether the restriction on acquisition of immovable property outside India would apply in the same manner to a lease of limited duration.</p>
+
+    <p>Nisha also considers selling the inherited property to another person resident in India. She wants to know whether an asset that was lawfully acquired can subsequently be transferred and whether the transferee must independently satisfy the eligibility conditions for acquiring such property.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_09_1",
+            question: "Which of the following is a recognised route through which a person resident in India may acquire immovable property outside India under the material?",
+            options: [
+                "Inheritance from a person resident outside India",
+                "Only through an Indian company",
+                "Only through an overseas loan",
+                "Never under any circumstances"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_09_2",
+            question: "Can acquisition of overseas immovable property be made using funds from an RFC account, subject to applicable provisions?",
+            options: [
+                "Yes",
+                "No, RFC funds can only be used in India",
+                "Only by companies",
+                "Only with SEBI approval"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_09_3",
+            question: "Can family members always club their LRS limits for purchasing overseas property?",
+            options: [
+                "Yes, without conditions",
+                "No, consolidation is subject to prescribed conditions",
+                "Only if they are foreign citizens",
+                "Only if the property is commercial"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_09_4",
+            question: "A person resident in India may acquire immovable property outside India on a lease not exceeding what period under the material?",
+            options: [
+                "Three years",
+                "Five years",
+                "Ten years",
+                "Twenty years"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_09_5",
+            question: "If Nisha transfers a lawfully acquired overseas property to another person resident in India, what is important?",
+            options: [
+                "The transferee must be eligible to acquire the property under the applicable FEMA framework",
+                "Any person can acquire it irrespective of FEMA",
+                "The property must automatically be surrendered to RBI",
+                "The transfer is always prohibited"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_10",
+    case_chapter: ["FEMA", "ODI", "OPI", "Transfer", "Disinvestment", "Restructuring"],
+    caseText: `<p>Global Foods India Ltd. made an overseas direct investment four years ago by acquiring 75% of the equity capital of a foreign company engaged in food processing. The foreign entity initially performed well, but during the last two financial years it incurred substantial losses. Its audited financial statements now indicate accumulated losses and a significant reduction in the value of the Indian company's investment.</p>
+
+    <p>Global Foods proposes to restructure the foreign company's balance sheet. Under the proposed restructuring, the value of its outstanding investment would be reduced by 18%. The original investment was USD 12 million. The company's management believes that because the reduction is below 20%, no valuation or certification requirement can arise.</p>
+
+    <p>At the same time, Global Foods has found a foreign buyer willing to purchase its entire equity holding. However, the foreign subsidiary still owes Global Foods certain amounts relating to earlier debt and investment arrangements. The CFO wants to complete the sale immediately and recover the outstanding amount separately later.</p>
+
+    <p>Global Foods is also under investigation by the Directorate of Enforcement in relation to an unrelated FEMA matter. The company wants to undertake another overseas financial commitment and argues that the pending investigation automatically prevents all overseas investment activity.</p>
+
+    <p>The compliance officer advises the board that the OI framework contains separate provisions relating to restructuring, disinvestment, reporting and No Objection Certificates, and that each issue must be analysed independently rather than assuming that the entire overseas investment activity is either automatically permitted or automatically prohibited.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_10_1",
+            question: "Can Global Foods restructure the balance sheet of the foreign entity that has incurred losses for the previous two years?",
+            options: [
+                "No, restructuring is never permitted",
+                "Yes, subject to prescribed conditions relating to losses, diminution, reporting and documentation",
+                "Yes, without any conditions",
+                "Only after converting ODI into OPI"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_10_2",
+            question: "Why is the management's conclusion that certification can never be required merely because the diminution is below 20% potentially incorrect?",
+            options: [
+                "The original investment exceeds USD 10 million, which is one of the specified thresholds",
+                "Any diminution automatically requires RBI approval",
+                "All ODI restructuring is prohibited",
+                "Certification is required only when investment is below USD 1 million"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_10_3",
+            question: "Before full disinvestment, what condition relating to outstanding dues is relevant?",
+            options: [
+                "The transferor should not have specified outstanding dues receivable from the foreign entity",
+                "All dues must be waived",
+                "The dues must be transferred to RBI",
+                "The foreign entity must become a listed Indian company"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_10_4",
+            question: "If a person resident in India is under investigation by the Directorate of Enforcement, what may be required before making financial commitment or undertaking disinvestment under the OI framework?",
+            options: [
+                "A No Objection Certificate from the relevant investigative agency",
+                "Automatic cancellation of all existing ODI",
+                "Approval from the foreign buyer",
+                "No documentation whatsoever"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_10_5",
+            question: "If the concerned agency does not furnish the No Objection Certificate within 60 days from receipt of the application, what may be presumed according to the stated framework?",
+            options: [
+                "The transaction is permanently prohibited",
+                "There was no objection to the proposed transaction",
+                "The applicant becomes a person resident outside India",
+                "The overseas entity must be liquidated"
+            ],
+            answer: 1
+        }
+    ]
+}
 ];
