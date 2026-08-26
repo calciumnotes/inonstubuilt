@@ -27206,5 +27206,1911 @@ const AICaseStudies = [
       }
 
     ]
+  },
+
+  // ============================================================
+  // MEDIUM CASE SCENARIO 1
+  // ============================================================
+
+  {
+    case_id: "SAST_MED_01",
+    chapter: "Substantial Acquisition of Shares, Voting Rights or Control",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Ardent Manufacturing Limited is a listed company whose equity shares are traded on a recognised stock exchange. Mr. Rohan Mehta, one of the promoters of the company, presently holds 18% of the voting rights in Ardent. His associate investment company, Meridian Investments Private Limited, holds another 4% of the voting rights. Rohan and Meridian have entered into an arrangement under which they coordinate their voting decisions in relation to important matters concerning Ardent. Accordingly, they are treated as persons acting in concert for the purposes of the applicable takeover regulations.</p>
+
+      <p>Rohan has now negotiated an agreement to acquire another 4% of the voting rights of Ardent from an existing shareholder. He argues that since his individual holding after the proposed acquisition would only be 22%, no open offer obligation would arise. His legal adviser, however, points out that the acquisition has to be considered together with the voting rights already held by persons acting in concert with him.</p>
+
+      <p>When the holdings of Rohan and Meridian are aggregated, they presently hold 22% of the voting rights. After acquisition of the additional 4%, their aggregate voting rights would become 26%. Rohan therefore asks whether the open offer obligation would arise before or after completion of the proposed acquisition.</p>
+
+      <p>During the same period, another promoter, Ms. Kavya Shah, proposes to acquire 3% of Ardent. Kavya currently holds 24% of the voting rights and has no persons acting in concert with her. She believes that because the proposed acquisition is only 3%, it should be permitted without an open offer. The compliance officer explains that the threshold is determined by the aggregate voting rights after acquisition and not merely by the size of the additional acquisition.</p>
+
+      <p>The board also receives a proposal from a shareholder who currently holds 23% of Ardent and wishes to acquire an additional 2%. He believes that since his post-acquisition holding would remain below 25%, the transaction would not attract the open offer requirement.</p>
+
+      <p>The company seeks the advice of its merchant banker to determine which of these transactions would trigger the obligation to make an open offer.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SAST_MED_01_Q1",
+        question: "Rohan's acquisition of an additional 4% would result in aggregate voting rights of 26% with his PAC. What is the consequence?",
+        options: [
+          "No open offer is required because Rohan individually remains below 25%",
+          "An open offer is required because the aggregate voting rights would reach 25% or more",
+          "An open offer is required only if the acquisition exceeds 5%",
+          "The acquisition is automatically exempt because Rohan is a promoter"
+        ],
+        answer: 1,
+        reason: "The 25% threshold is determined by aggregating the shareholding/voting rights of the acquirer and persons acting in concert. Rohan and his PAC would move from 22% to 26%, triggering the open offer obligation."
+      },
+
+      {
+        question_id: "SAST_MED_01_Q2",
+        question: "For determining the 25% threshold, the voting rights of Meridian Investments are:",
+        options: [
+          "Ignored because Meridian is a separate legal entity",
+          "Aggregated with Rohan's holding because Meridian is acting in concert with him",
+          "Considered only if Meridian owns more than 5%",
+          "Considered only after Rohan becomes a director"
+        ],
+        answer: 1,
+        reason: "Shares or voting rights held by persons acting in concert with the acquirer are aggregated for determining whether the 25% threshold is reached."
+      },
+
+      {
+        question_id: "SAST_MED_01_Q3",
+        question: "Kavya holds 24% and proposes to acquire another 3%. What is the correct position?",
+        options: [
+          "No open offer because the additional acquisition is only 3%",
+          "No open offer because she is a promoter",
+          "Open offer obligation arises because her holding would become 27%",
+          "Open offer arises only when her holding exceeds 30%"
+        ],
+        answer: 2,
+        reason: "An acquirer holding below 25% cannot acquire shares which, taken together with existing holdings, entitle the acquirer to exercise 25% or more voting rights without making an open offer."
+      },
+
+      {
+        question_id: "SAST_MED_01_Q4",
+        question: "A shareholder holding 23% proposes to acquire another 2%. What is the position?",
+        options: [
+          "Open offer is required because the acquisition is exactly 2%",
+          "Open offer is required because the holding would become 25%",
+          "No open offer is required because the holding remains below 30%",
+          "The acquisition is prohibited completely"
+        ],
+        answer: 1,
+        reason: "Acquisition resulting in entitlement to exercise 25% or more voting rights triggers the open offer requirement."
+      },
+
+      {
+        question_id: "SAST_MED_01_Q5",
+        question: "The basic threshold under Regulation 3(1), as stated in the study material, is:",
+        options: [
+          "10%",
+          "20%",
+          "25%",
+          "30%"
+        ],
+        answer: 2,
+        reason: "An acquirer cannot acquire shares or voting rights which, together with holdings of PACs, would entitle them to exercise 25% or more voting rights unless the required open offer is made."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // MEDIUM CASE SCENARIO 2
+  // ============================================================
+
+  {
+    case_id: "SAST_MED_02",
+    chapter: "Substantial Acquisition of Shares, Voting Rights or Control",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Bluecrest Infrastructure Limited is a listed company. Mr. Sameer Rao and persons acting in concert with him collectively hold 31% of the voting rights of the company. The maximum permissible non-public shareholding limit applicable to the company is 75%. Sameer has held this position for several years and now intends to increase his stake through a series of market purchases during the financial year.</p>
+
+      <p>At the beginning of the financial year, Sameer acquires shares representing 2% of the voting rights. Two months later, he acquires another 1.5%. In the following quarter, he acquires another 2.2%. His advisers initially calculate the annual acquisition as 5.7% and conclude that no open offer is required because some of his holdings were sold during the same financial year.</p>
+
+      <p>During the year, Sameer's PAC sells 1% of the company's shares. Subsequently, Bluecrest issues fresh equity shares to certain investors, resulting in dilution of Sameer's percentage voting rights. Sameer argues that because his percentage holding has fallen at certain points during the year, the acquisitions should be adjusted against those reductions.</p>
+
+      <p>The compliance officer explains that for determining the quantum of additional acquisition under the applicable provision, gross acquisitions alone are considered. Intermittent falls in shareholding due to disposal of shares or dilution resulting from fresh issue of shares by the target company are not deducted from the acquisitions.</p>
+
+      <p>Sameer now proposes to acquire another 1.5% before the end of the financial year. His advisers must determine whether this acquisition can be completed without making an open offer.</p>
+
+      <p>Separately, the company proposes a preferential issue of equity shares to Sameer. The finance team asks whether the special relaxation concerning acquisition beyond 5% and up to 10% can be generally used in the current financial year or whether it was restricted to the specific financial year mentioned in the regulations.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SAST_MED_02_Q1",
+        question: "Sameer and PACs already hold 31%. The annual acquisition threshold under Regulation 3(2) is generally:",
+        options: [
+          "2%",
+          "5%",
+          "10%",
+          "15%"
+        ],
+        answer: 1,
+        reason: "An acquirer holding 25% or more but less than the maximum permissible non-public shareholding can acquire additional shares up to 5% voting rights in a financial year without triggering an open offer, subject to the applicable conditions."
+      },
+
+      {
+        question_id: "SAST_MED_02_Q2",
+        question: "Sameer's acquisitions of 2%, 1.5% and 2.2% amount to gross acquisitions of:",
+        options: [
+          "4.7%",
+          "5%",
+          "5.7%",
+          "6.7%"
+        ],
+        answer: 2,
+        reason: "Gross acquisitions are added without reducing them for intermittent falls. 2% + 1.5% + 2.2% = 5.7%."
+      },
+
+      {
+        question_id: "SAST_MED_02_Q3",
+        question: "The sale of 1% by Sameer's PAC during the year:",
+        options: [
+          "Reduces the gross acquisition for calculating the 5% limit",
+          "Does not reduce gross acquisitions for the purpose of Regulation 3(2)",
+          "Automatically cancels the open offer obligation",
+          "Allows another 5% acquisition without restriction"
+        ],
+        answer: 1,
+        reason: "Gross acquisitions alone are considered. Intermittent falls caused by disposal of shares are ignored while determining the quantum of additional acquisition."
+      },
+
+      {
+        question_id: "SAST_MED_02_Q4",
+        question: "Dilution resulting from a fresh issue of shares by Bluecrest:",
+        options: [
+          "Must always be deducted from Sameer's acquisitions",
+          "Is treated as a disposal by Sameer",
+          "Does not reduce gross acquisitions for Regulation 3(2)",
+          "Automatically permits another 5% acquisition"
+        ],
+        answer: 2,
+        reason: "The explanation to Regulation 3(2) specifically provides that dilution due to fresh issue of shares does not reduce gross acquisitions for determining the quantum of additional acquisition."
+      },
+
+      {
+        question_id: "SAST_MED_02_Q5",
+        question: "The special provision permitting acquisition beyond 5% but up to 10% in the financial year mentioned in the material applied specifically to:",
+        options: [
+          "All acquisitions by all acquirers",
+          "Acquisition by a promoter pursuant to preferential issue during FY 2020-21",
+          "Only acquisitions through open market purchases",
+          "Acquisitions by institutional investors during every financial year"
+        ],
+        answer: 1,
+        reason: "The proviso referred to in the material permitted acquisition beyond 5% but up to 10% for FY 2020-21 only in respect of acquisition by a promoter pursuant to preferential issue of equity shares by the target company."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // MEDIUM CASE SCENARIO 3
+  // ============================================================
+
+  {
+    case_id: "SAST_MED_03",
+    chapter: "Acquisition of Control and Open Offer",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Evergreen Consumer Limited is a listed company engaged in the manufacture and distribution of consumer products. Titan Capital Limited currently holds only 12% of the voting rights in Evergreen. Titan is negotiating a shareholders' agreement with certain existing shareholders under which Titan would obtain the right to appoint a majority of the directors of Evergreen and exercise significant influence over management and policy decisions.</p>
+
+      <p>Titan's advisers initially argue that since the proposed transaction does not immediately increase Titan's shareholding beyond 25%, Regulation 3 would not be triggered. They therefore suggest that Titan can acquire control without making an open offer.</p>
+
+      <p>The merchant banker, however, points out that acquisition of control is independently regulated. The requirement to make an open offer applies irrespective of the percentage of shares or voting rights held by the acquirer where the acquirer acquires direct or indirect control over the target company.</p>
+
+      <p>Titan subsequently asks whether it can appoint one of its representatives to Evergreen's board immediately after announcing the proposed open offer. The board of Evergreen objects to the appointment during the offer period.</p>
+
+      <p>Titan also makes the open offer conditional upon obtaining a minimum level of acceptances. Titan specifies that unless shareholders tender at least a specified minimum number of shares, Titan will not be bound to accept any shares under the offer.</p>
+
+      <p>During the offer period, one of Titan's representatives who is already a director of Evergreen wants to participate in board discussions concerning the open offer and vote on the resolution. The company seeks clarification regarding the restrictions applicable to such director.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SAST_MED_03_Q1",
+        question: "Titan's acquisition of the right to appoint a majority of directors is relevant because:",
+        options: [
+          "Control is irrelevant unless 25% shares are acquired",
+          "Control can independently trigger an open offer obligation",
+          "Only acquisition of 50% shares can trigger an open offer",
+          "Board appointment rights have no relevance under SAST"
+        ],
+        answer: 1,
+        reason: "Under Regulation 4, irrespective of acquisition or holding of shares or voting rights, no acquirer may acquire control over a target company without making the required open offer."
+      },
+
+      {
+        question_id: "SAST_MED_03_Q2",
+        question: "During the offer period, a person representing the acquirer generally:",
+        options: [
+          "Can always be appointed as a director",
+          "Cannot be appointed as director, subject to the specified exception after 15 working days and escrow requirements",
+          "Must automatically become managing director",
+          "Can be appointed only by the acquirer"
+        ],
+        answer: 1,
+        reason: "During the offer period, a person representing the acquirer or PAC cannot generally be appointed to the board. An exception may apply after an initial period of 15 working days from the detailed public statement where the required escrow condition is satisfied."
+      },
+
+      {
+        question_id: "SAST_MED_03_Q3",
+        question: "Where the open offer is conditional upon a minimum level of acceptance, the acquirer:",
+        options: [
+          "Can appoint directors immediately after depositing escrow money",
+          "Cannot appoint a director representing the acquirer or PAC during the offer period",
+          "Can appoint directors only if the target agrees",
+          "Can appoint directors once 5% shares are tendered"
+        ],
+        answer: 1,
+        reason: "In a conditional open offer, the acquirer and PAC are not entitled to appoint any director representing them during the offer period, regardless of the amount deposited in escrow."
+      },
+
+      {
+        question_id: "SAST_MED_03_Q4",
+        question: "If the acquirer has already represented a director on the target board, that director:",
+        options: [
+          "Must participate in all open-offer discussions",
+          "May vote only with the acquirer's permission",
+          "Cannot participate in deliberations or vote on matters relating to the open offer",
+          "Must resign immediately"
+        ],
+        answer: 2,
+        reason: "A director representing the acquirer or PAC already on the board cannot participate in deliberations or vote on matters relating to the open offer."
+      },
+
+      {
+        question_id: "SAST_MED_03_Q5",
+        question: "A conditional open offer means that:",
+        options: [
+          "The acquirer is not required to purchase any shares regardless of acceptances",
+          "The acquirer has stipulated a minimum level of acceptances and is not bound to accept shares if that minimum is not achieved",
+          "The target company determines the minimum acceptance",
+          "The offer automatically lapses after five days"
+        ],
+        answer: 1,
+        reason: "A conditional offer is one where the acquirer stipulates a minimum level of acceptance. If valid tenders are below that level, the acquirer is not bound to accept shares under the offer."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // MEDIUM CASE SCENARIO 4
+  // ============================================================
+
+  {
+    case_id: "PIT_MED_04",
+    chapter: "SEBI Prohibition of Insider Trading Regulations, 2015",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Nova Technologies Limited is a listed company preparing to announce its quarterly financial results. The results are substantially better than market expectations, but they have not yet been approved by the board and have not been disseminated to the stock exchange. The Chief Financial Officer, the statutory auditor and a legal adviser working on the financial statements are aware of the information.</p>
+
+      <p>The CFO discusses the results with his brother during a family dinner. The brother is not an employee of Nova and has no contractual relationship with the company. After hearing the information, the brother purchases shares of Nova through his personal trading account.</p>
+
+      <p>Separately, a junior employee in the finance department learns about the expected results and tells a friend that the company is likely to report exceptionally strong numbers. The friend does not receive the actual financial statements but buys shares after the conversation.</p>
+
+      <p>Nova's legal adviser argues that the brother and friend cannot be insiders because neither of them is connected with the company through employment. The compliance officer explains that the definition of insider is wider and includes persons who are in possession of or have access to unpublished price sensitive information.</p>
+
+      <p>The company also discovers that the information was circulated in a WhatsApp group containing several employees. The compliance officer is concerned that the information may have been communicated beyond the legitimate need-to-know group.</p>
+
+      <p>The CFO argues that the financial results were discussed only informally and therefore the communication should not be considered prohibited communication of UPSI.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "PIT_MED_04_Q1",
+        question: "The expected financial results before public disclosure are generally:",
+        options: [
+          "Generally available information",
+          "Unpublished price sensitive information",
+          "Historical information",
+          "Only internal accounting information with no securities relevance"
+        ],
+        answer: 1,
+        reason: "Financial results are specifically included among matters that ordinarily constitute UPSI when they are not generally available and are likely to materially affect the price."
+      },
+
+      {
+        question_id: "PIT_MED_04_Q2",
+        question: "The CFO's brother may be treated as an insider because:",
+        options: [
+          "Only employees can be insiders",
+          "Any person in possession of or having access to UPSI can fall within the definition of insider",
+          "Only directors are insiders",
+          "Only promoters are insiders"
+        ],
+        answer: 1,
+        reason: "The definition of insider includes a connected person or any person in possession of or having access to unpublished price sensitive information."
+      },
+
+      {
+        question_id: "PIT_MED_04_Q3",
+        question: "Communication of UPSI by an insider is generally:",
+        options: [
+          "Always permitted",
+          "Prohibited except where made for legitimate purposes, performance of duties or discharge of legal obligations",
+          "Permitted to all relatives",
+          "Permitted if no money is received"
+        ],
+        answer: 1,
+        reason: "Regulation 3 prohibits communication, provision or allowing access to UPSI except where the communication is in furtherance of legitimate purposes, performance of duties or discharge of legal obligations."
+      },
+
+      {
+        question_id: "PIT_MED_04_Q4",
+        question: "The friend who receives UPSI indirectly may:",
+        options: [
+          "Never be considered an insider",
+          "Be considered an insider if he possesses or has access to UPSI",
+          "Be considered an insider only after becoming an employee",
+          "Be considered an insider only if he owns more than 5%"
+        ],
+        answer: 1,
+        reason: "The definition is intended to cover persons who are in possession of or have access to UPSI regardless of how they came into possession of it."
+      },
+
+      {
+        question_id: "PIT_MED_04_Q5",
+        question: "Sharing UPSI internally with employees is permissible where:",
+        options: [
+          "It is shared with every employee",
+          "It is shared for legitimate purposes and on a need-to-know basis",
+          "It is shared for personal benefit",
+          "It is shared through social media"
+        ],
+        answer: 1,
+        reason: "UPSI may be communicated for legitimate purposes, performance of duties or discharge of legal obligations, with appropriate confidentiality and need-to-know controls."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // MEDIUM CASE SCENARIO 5
+  // ============================================================
+
+  {
+    case_id: "PIT_MED_05",
+    chapter: "SEBI Prohibition of Insider Trading Regulations, 2015",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Sunrise Healthcare Limited is a listed company. The company is negotiating a major acquisition of another healthcare business. The proposed acquisition is expected to materially expand Sunrise's operations and may significantly affect the market price of its securities once announced.</p>
+
+      <p>The board decides that it is necessary to share confidential information regarding the proposed acquisition with a merchant banker, legal adviser, lender and financial consultant. The compliance officer creates a list of persons who will receive the information and asks each of them to sign confidentiality and non-disclosure obligations.</p>
+
+      <p>The merchant banker argues that because it is receiving the information for a legitimate business purpose, it does not become an insider. The compliance officer explains that a person receiving UPSI pursuant to a legitimate purpose is considered an insider for purposes of the regulations and must maintain confidentiality.</p>
+
+      <p>Sunrise's IT department proposes to store the details of the UPSI in a database maintained by an external cloud vendor. The vendor operates servers outside India and provides access to the company through a subscription arrangement.</p>
+
+      <p>The compliance officer rejects the proposal and states that the structured digital database required under the regulations must not be outsourced. The database must contain details of the nature of UPSI and persons who shared and received the information, together with PAN or another legally authorised identifier where PAN is unavailable.</p>
+
+      <p>After the acquisition is completed, the compliance team plans to delete the database immediately because the transaction is finished. The compliance officer explains that the records have to be preserved for a prescribed minimum period and, if an investigation or enforcement proceeding is pending, the relevant records must continue to be preserved until completion of the proceeding.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "PIT_MED_05_Q1",
+        question: "The merchant banker receiving UPSI for a legitimate purpose is:",
+        options: [
+          "Never an insider",
+          "Considered an insider for purposes of the PIT Regulations",
+          "An insider only after trading",
+          "An insider only if it owns shares"
+        ],
+        answer: 1,
+        reason: "Any person receiving UPSI pursuant to a legitimate purpose is considered an insider for purposes of the regulations."
+      },
+
+      {
+        question_id: "PIT_MED_05_Q2",
+        question: "The recipients of UPSI should generally:",
+        options: [
+          "Publish the information immediately",
+          "Maintain confidentiality and comply with the regulations",
+          "Trade before the announcement",
+          "Share the information with relatives"
+        ],
+        answer: 1,
+        reason: "Persons receiving UPSI pursuant to a legitimate purpose must maintain confidentiality and comply with the applicable restrictions."
+      },
+
+      {
+        question_id: "PIT_MED_05_Q3",
+        question: "The structured digital database:",
+        options: [
+          "May be freely outsourced to a cloud vendor",
+          "Must be maintained internally and cannot be outsourced",
+          "Is required only for auditors",
+          "Is optional for listed companies"
+        ],
+        answer: 1,
+        reason: "The structured digital database is required to be maintained internally and must not be outsourced."
+      },
+
+      {
+        question_id: "PIT_MED_05_Q4",
+        question: "The structured digital database should contain:",
+        options: [
+          "Only the name of the compliance officer",
+          "Nature of UPSI and names/details of persons who shared and received it, along with PAN or authorised identifier",
+          "Only the date of board meetings",
+          "Only the market price of securities"
+        ],
+        answer: 1,
+        reason: "The database must record the nature of UPSI, names of persons who shared and received the information and PAN or another authorised identifier where PAN is unavailable."
+      },
+
+      {
+        question_id: "PIT_MED_05_Q5",
+        question: "The structured digital database must ordinarily be preserved for at least:",
+        options: [
+          "2 years",
+          "5 years",
+          "8 years after completion of the relevant transactions",
+          "10 years from incorporation"
+        ],
+        answer: 2,
+        reason: "The structured digital database must be preserved for not less than eight years after completion of the relevant transactions, and longer where an investigation or enforcement proceeding requires preservation."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // HARD CASE SCENARIO 6
+  // ============================================================
+
+  {
+    case_id: "SAST_HARD_06",
+    chapter: "SAST Regulations - Acquisition and Control",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Vertex Renewable Energy Limited is a listed entity having a maximum permissible non-public shareholding of 75%. The promoter group, consisting of Vertex Holdings Limited and three persons acting in concert with it, collectively holds 58% of the voting rights. During the financial year, Vertex Holdings proposes a series of acquisitions through different modes.</p>
+
+      <p>In April, Vertex Holdings acquires 2.4% voting rights from the open market. In July, one of the PACs acquires 1.8% through a negotiated transaction. In September, the target company issues fresh equity shares to a third party, resulting in dilution of the promoter group's percentage voting rights. Following the issue, the promoter group's percentage holding falls to 55.5% even though it has not disposed of any shares.</p>
+
+      <p>In November, Vertex Holdings acquires another 1.2% from the market. The promoter group argues that because its percentage holding fell from 58% to 55.5% due to dilution, the total acquisition during the year should be reduced accordingly. It calculates its net additional acquisition as less than 5%.</p>
+
+      <p>The compliance officer disagrees and states that the regulations require gross acquisitions to be considered irrespective of intermittent falls in shareholding or voting rights. Therefore, acquisitions made by all persons acting in concert must be aggregated for determining the additional acquisition during the financial year.</p>
+
+      <p>At the same time, Vertex proposes a preferential issue of equity shares to the promoter group. The promoters argue that the preferential issue can be structured so that the aggregate holding after acquisition exceeds the maximum permissible non-public shareholding because the transaction is being undertaken under a corporate restructuring arrangement.</p>
+
+      <p>The legal adviser points out that the acquirer cannot acquire or enter into an agreement to acquire shares exceeding the number that would take the aggregate shareholding above the maximum permissible non-public shareholding, subject to the specific exception provided for acquisition pursuant to a resolution plan approved under section 31 of the Insolvency and Bankruptcy Code, 2016.</p>
+
+      <p>Vertex now wants to determine whether its market acquisitions have already exceeded the annual threshold and whether the proposed preferential acquisition can be made without an open offer.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SAST_HARD_06_Q1",
+        question: "The gross acquisitions made during the financial year are:",
+        options: [
+          "3.6%",
+          "4.2%",
+          "5.4%",
+          "6.2%"
+        ],
+        answer: 2,
+        reason: "The acquisitions are 2.4% + 1.8% + 1.2% = 5.4%. Gross acquisitions by the acquirer and PACs are aggregated."
+      },
+
+      {
+        question_id: "SAST_HARD_06_Q2",
+        question: "The dilution caused by the fresh issue of shares by Vertex Renewable Energy:",
+        options: [
+          "Must be deducted from gross acquisitions",
+          "Is treated as a disposal by the promoters",
+          "Does not reduce the gross acquisitions for Regulation 3(2)",
+          "Allows an additional 5% acquisition automatically"
+        ],
+        answer: 2,
+        reason: "Gross acquisitions alone are considered regardless of dilution of voting rights resulting from fresh issue of shares by the target company."
+      },
+
+      {
+        question_id: "SAST_HARD_06_Q3",
+        question: "Since the gross acquisition exceeds 5%, an open offer is generally:",
+        options: [
+          "Not required because the promoter group remains below 75%",
+          "Required for the acquisition beyond the permitted 5% annual limit",
+          "Required only if holding exceeds 60%",
+          "Required only when the promoter sells shares"
+        ],
+        answer: 1,
+        reason: "An acquirer holding 25% or more but below the maximum permissible non-public shareholding cannot acquire more than 5% additional voting rights in a financial year without an open offer."
+      },
+
+      {
+        question_id: "SAST_HARD_06_Q4",
+        question: "The promoter group's attempt to exceed the maximum permissible non-public shareholding through ordinary acquisition is:",
+        options: [
+          "Always permitted",
+          "Permitted if the acquisition is through preferential issue",
+          "Restricted by the proviso preventing acquisition beyond the maximum permissible non-public shareholding",
+          "Permitted if the promoters are existing shareholders"
+        ],
+        answer: 2,
+        reason: "The acquirer cannot acquire or agree to acquire shares that would take aggregate shareholding above the maximum permissible non-public shareholding, subject to the specified exception."
+      },
+
+      {
+        question_id: "SAST_HARD_06_Q5",
+        question: "The specific exception referred to in the material relates to acquisition pursuant to:",
+        options: [
+          "Any private arrangement",
+          "A resolution plan approved under section 31 of the Insolvency and Bankruptcy Code, 2016",
+          "A normal market purchase",
+          "An employee stock option plan"
+        ],
+        answer: 1,
+        reason: "Acquisition pursuant to a resolution plan approved under section 31 of the Insolvency and Bankruptcy Code, 2016 is exempt from the specified proviso relating to maximum permissible non-public shareholding."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // HARD CASE SCENARIO 7
+  // ============================================================
+
+  {
+    case_id: "SAST_HARD_07",
+    chapter: "Obligations of Acquirer and Target Company",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Horizon Ports Limited has received a detailed public statement relating to an open offer by Global Infrastructure Fund. Global has acquired control over Horizon and has made an open offer to the public shareholders. The offer period has commenced, and the board of Horizon is required to comply with several restrictions under the takeover regulations.</p>
+
+      <p>Horizon receives a proposal from its subsidiary to sell a significant port asset to an unrelated third party. The proposed sale is outside the ordinary course of business and represents a material asset of the group. The board argues that the transaction should proceed because the subsidiary's board, rather than Horizon's board, is technically approving the sale.</p>
+
+      <p>The legal adviser explains that during the offer period, the board of directors of the target company or its subsidiary cannot ordinarily alienate material assets outside the ordinary course of business without obtaining approval by special resolution of the shareholders through postal ballot.</p>
+
+      <p>Horizon also proposes to undertake a large borrowing to finance an unrelated diversification project. The borrowing is outside its ordinary course of business. At the same time, the company intends to issue authorised but unissued shares carrying voting rights to a strategic investor.</p>
+
+      <p>The company further proposes to conduct a buy-back of its shares during the offer period. The board argues that the buy-back was discussed before the public announcement and therefore should be allowed.</p>
+
+      <p>Meanwhile, a material contract with a related party is proposed to be terminated and replaced with a new agreement. The transaction is outside the ordinary course of business. The independent directors ask whether the restrictions apply only to transactions with related parties or also to transactions with unrelated parties.</p>
+
+      <p>Global Infrastructure Fund, the acquirer, has also informed the target that it intends to sell one of Horizon's major assets after gaining control. However, this intention was not disclosed in the detailed public statement or letter of offer.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SAST_HARD_07_Q1",
+        question: "During the offer period, alienation of a material asset outside ordinary course generally requires:",
+        options: [
+          "Only approval of the managing director",
+          "Special resolution of shareholders by postal ballot",
+          "Only approval of the acquirer",
+          "No approval"
+        ],
+        answer: 1,
+        reason: "During the offer period, material asset alienation outside the ordinary course is restricted unless shareholder approval through a special resolution by postal ballot is obtained."
+      },
+
+      {
+        question_id: "SAST_HARD_07_Q2",
+        question: "The restrictions apply to transactions undertaken by:",
+        options: [
+          "Only the target company",
+          "The target company and its subsidiaries",
+          "Only the promoter",
+          "Only the acquirer"
+        ],
+        answer: 1,
+        reason: "Regulation 26 applies the specified restrictions to the board of directors of the target company or any of its subsidiaries."
+      },
+
+      {
+        question_id: "SAST_HARD_07_Q3",
+        question: "A material borrowing outside the ordinary course of business during the offer period is:",
+        options: [
+          "Freely permitted",
+          "Restricted unless the prescribed shareholder approval is obtained",
+          "Permitted only if below 5% of assets",
+          "Automatically approved by SEBI"
+        ],
+        answer: 1,
+        reason: "Material borrowings outside the ordinary course of business are restricted during the offer period unless the prescribed shareholder approval is obtained."
+      },
+
+      {
+        question_id: "SAST_HARD_07_Q4",
+        question: "The proposed buy-back during the offer period is:",
+        options: [
+          "Freely permitted because it was discussed before the offer",
+          "Restricted as it involves a change to the capital structure",
+          "Mandatory",
+          "Permitted only for promoters"
+        ],
+        answer: 1,
+        reason: "During the offer period, the target company cannot implement a buy-back or effect another change to its capital structure without the required shareholder approval."
+      },
+
+      {
+        question_id: "SAST_HARD_07_Q5",
+        question: "If the acquirer did not disclose an intention to alienate material assets, after acquiring control it is generally:",
+        options: [
+          "Free to alienate the assets immediately",
+          "Debarred from causing such alienation for two years after the offer period, subject to the specified exception",
+          "Required to sell the assets within six months",
+          "Required to transfer the assets to SEBI"
+        ],
+        answer: 1,
+        reason: "Where the intention to alienate material assets was not disclosed in the detailed public statement and letter of offer, the acquirer is debarred from causing such alienation for two years after the offer period, subject to the statutory exception."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // HARD CASE SCENARIO 8
+  // ============================================================
+
+  {
+    case_id: "SAST_HARD_08",
+    chapter: "Disclosure of Shareholding and Encumbrance",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Summit Electronics Limited is a listed company. Its promoter group holds 48% of the equity shares. The promoter, Mr. Anil Kapoor, holds 20% individually, while persons acting in concert with him hold the remaining 28%.</p>
+
+      <p>During the financial year, Anil acquires an additional 3% of Summit's shares. The acquisition takes the aggregate promoter-group holding to 51%. The compliance officer informs Anil that the acquisition and the aggregate holding need to be considered for disclosure purposes.</p>
+
+      <p>Two months later, Anil disposes of 2.5% of his holding. After the transaction, the aggregate promoter-group holding falls below the level previously disclosed. Anil argues that because his holding remains substantial, no disclosure is necessary.</p>
+
+      <p>Separately, one of the promoter-group entities pledges shares in favour of a scheduled commercial bank to secure an ordinary-course business loan. The bank is acting as pledgee. The compliance officer examines whether the bank itself is required to treat the shares taken as pledge as an acquisition for disclosure purposes.</p>
+
+      <p>Another promoter creates an encumbrance over shares through a non-disposal undertaking. The promoter argues that the arrangement does not constitute a pledge and therefore does not qualify as an encumbrance under the regulations.</p>
+
+      <p>Later, the promoter releases part of the encumbrance. The promoter also creates an additional encumbrance over another block of shares. The compliance department prepares the necessary disclosures and determines the applicable time limits.</p>
+
+      <p>At the end of the financial year, the promoter must also make a declaration regarding whether any encumbrance has been created during the year other than those already disclosed. The audit committee asks the promoter to provide the declaration within the prescribed period.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SAST_HARD_08_Q1",
+        question: "The initial disclosure threshold under Regulation 29 is generally:",
+        options: [
+          "2%",
+          "3%",
+          "5%",
+          "10%"
+        ],
+        answer: 2,
+        reason: "An acquirer together with PACs acquiring shares or voting rights which aggregate to 5% or more is required to make the prescribed disclosure."
+      },
+
+      {
+        question_id: "SAST_HARD_08_Q2",
+        question: "A subsequent change exceeding the specified threshold requires disclosure when the person already holds 5% or more. The change threshold is:",
+        options: [
+          "1%",
+          "2%",
+          "5%",
+          "10%"
+        ],
+        answer: 1,
+        reason: "Where a person and PACs hold 5% or more, a change exceeding 2% from the last disclosure triggers the prescribed disclosure."
+      },
+
+      {
+        question_id: "SAST_HARD_08_Q3",
+        question: "For a scheduled commercial bank acting as pledgee in the ordinary course of business, the acquisition-disclosure treatment for pledged shares is:",
+        options: [
+          "Always applicable without exception",
+          "Exempt under the specified provision",
+          "Applicable only if the pledge exceeds 10%",
+          "Applicable only if the bank becomes promoter"
+        ],
+        answer: 1,
+        reason: "The disclosure treatment for shares taken by way of encumbrance does not apply to a scheduled commercial bank or specified financial institution as pledgee where the pledge secures indebtedness in the ordinary course of business."
+      },
+
+      {
+        question_id: "SAST_HARD_08_Q4",
+        question: "A non-disposal undertaking can constitute an encumbrance because:",
+        options: [
+          "Only a pledge is an encumbrance",
+          "Encumbrance includes restrictions on free and marketable title, including non-disposal undertakings",
+          "Only mortgages qualify",
+          "Only court orders qualify"
+        ],
+        answer: 1,
+        reason: "Encumbrance includes any restriction on free and marketable title, including pledge, lien, negative lien, non-disposal undertaking and arrangements in the nature of encumbrance."
+      },
+
+      {
+        question_id: "SAST_HARD_08_Q5",
+        question: "Disclosure of creation, invocation or release of promoter encumbrance is generally required within:",
+        options: [
+          "2 working days",
+          "5 working days",
+          "7 working days",
+          "15 working days"
+        ],
+        answer: 2,
+        reason: "The promoter is required to make the prescribed disclosure within seven working days from creation, invocation or release of encumbrance."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // HARD CASE SCENARIO 9
+  // ============================================================
+
+  {
+    case_id: "PIT_HARD_09",
+    chapter: "Trading When in Possession of UPSI and Trading Plans",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Zenith Pharmaceuticals Limited is a listed company. Its Chief Financial Officer, Ms. Priya Nair, is aware of an unpublished financial forecast showing that the company's profits are expected to decline significantly. The information has not yet been disclosed to the stock exchanges.</p>
+
+      <p>Priya does not directly purchase or sell Zenith shares. Instead, she discusses the situation with an investment manager who manages her personal investment portfolio. The investment manager sells a substantial quantity of Zenith shares on her behalf.</p>
+
+      <p>Priya later argues that she did not personally execute the trade and therefore did not trade while in possession of UPSI. The compliance officer explains that the definition of trading is broad and includes dealing in securities and agreeing to subscribe, buy, sell or deal in securities.</p>
+
+      <p>Meanwhile, Zenith's Chief Executive Officer had formulated an approved trading plan several months before the financial forecast was prepared. Under the plan, the CEO was scheduled to sell shares over a period beginning more than 120 calendar days after public disclosure of the trading plan.</p>
+
+      <p>At the time the trading plan was formulated, the CEO did not possess UPSI. However, a new UPSI relating to a regulatory investigation arose later. The CEO argues that because he is now in possession of UPSI, the previously approved trading plan cannot be implemented.</p>
+
+      <p>The compliance officer explains the distinction between UPSI existing at the time of formulation and UPSI arising subsequently. However, the CEO's plan also contains a price limit for the proposed sale. The market price falls below the specified price limit, and the CEO asks whether he can nevertheless execute the trade at the prevailing lower price.</p>
+
+      <p>In another matter, an insider's approved trading plan could not be implemented because there was inadequate liquidity in the security. The insider informs the compliance officer after the plan period ends. The compliance officer must place the matter before the Audit Committee for determination of whether the non-implementation was bona fide.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "PIT_HARD_09_Q1",
+        question: "Priya's argument that she did not personally execute the trade is:",
+        options: [
+          "Correct because only direct trades are covered",
+          "Incorrect because trading includes dealing and agreeing to deal in securities",
+          "Correct if the investment manager executed the order",
+          "Correct because the shares belonged to her"
+        ],
+        answer: 1,
+        reason: "Trading is defined broadly to include subscribing, redeeming, switching, buying, selling, dealing or agreeing to undertake such transactions."
+      },
+
+      {
+        question_id: "PIT_HARD_09_Q2",
+        question: "A person trading while in possession of UPSI is presumed to have been motivated by:",
+        options: [
+          "Market rumours only",
+          "Knowledge and awareness of the UPSI",
+          "The advice of the stock exchange",
+          "General market conditions"
+        ],
+        answer: 1,
+        reason: "Where a person who traded was in possession of UPSI, the trades are presumed to have been motivated by the knowledge and awareness of that information, subject to the prescribed exceptions."
+      },
+
+      {
+        question_id: "PIT_HARD_09_Q3",
+        question: "If the CEO did not possess UPSI when the trading plan was formulated but new UPSI arose later, the later UPSI:",
+        options: [
+          "Automatically invalidates every trading plan",
+          "Does not by itself prevent implementation of the plan, subject to the other regulatory conditions",
+          "Requires the CEO to cancel the plan",
+          "Allows the CEO to modify the plan freely"
+        ],
+        answer: 1,
+        reason: "Where new UPSI arises after formulation of the trading plan, trading may be carried out according to the plan even if the new UPSI has not become generally available, subject to the regulations."
+      },
+
+      {
+        question_id: "PIT_HARD_09_Q4",
+        question: "If a price limit has been specified in an approved trading plan and the market price is outside that limit:",
+        options: [
+          "The insider must execute the trade anyway",
+          "The insider may execute only if the price is within the specified limit",
+          "The insider can change the limit without approval",
+          "The insider can trade outside the plan"
+        ],
+        answer: 1,
+        reason: "Where a price limit has been specified, the trade is to be executed only if the execution price is within the prescribed price limit."
+      },
+
+      {
+        question_id: "PIT_HARD_09_Q5",
+        question: "Where non-implementation of a trading plan occurs due to inadequate liquidity, the Audit Committee:",
+        options: [
+          "Has no role",
+          "Determines whether the non-implementation was bona fide after receiving the compliance officer's recommendation",
+          "Automatically imposes a penalty",
+          "Must cancel all future trading plans"
+        ],
+        answer: 1,
+        reason: "The compliance officer places the insider's explanation and recommendation before the Audit Committee, which decides whether the non-implementation was bona fide."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // HARD CASE SCENARIO 10
+  // ============================================================
+
+  {
+    case_id: "PIT_HARD_10",
+    chapter: "SEBI Prohibition of Insider Trading Regulations, 2015",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Orion Financial Services Limited is a listed company. The company is considering a major acquisition that is expected to significantly alter its business operations and market valuation. The proposed transaction is still confidential and constitutes unpublished price sensitive information.</p>
+
+      <p>The board decides that the transaction cannot be evaluated without sharing certain details with a merchant banker, legal adviser, lender and valuation consultant. The board records that sharing the information is necessary in the best interests of Orion and is connected with a transaction that would entail an open offer under the takeover regulations.</p>
+
+      <p>The compliance officer requires every recipient to execute confidentiality and non-disclosure agreements. The recipients are informed that they cannot trade in Orion securities while in possession of the UPSI. The compliance officer also records the information in the structured digital database.</p>
+
+      <p>One of the recipients is a foreign consultant whose identity document does not contain an Indian PAN. The compliance officer records another identifier authorised by law. The IT department proposes to maintain the database on a third-party server located outside India. The compliance officer rejects the proposal because the database cannot be outsourced.</p>
+
+      <p>Separately, Orion's Chief Executive Officer formulates a trading plan. The plan is submitted to the compliance officer on 1 January. The plan proposes the first trade on 15 February. It also proposes that shares be sold over a period of ten consecutive trading days and provides a lower price limit for the sale.</p>
+
+      <p>The compliance officer rejects the plan because the first trade would commence too early and because the specified trading period exceeds the maximum permitted period for a particular trade. The CEO argues that the plan is merely an internal document and therefore these limitations should not apply.</p>
+
+      <p>Another designated person of Orion trades securities worth ₹12 lakh during a calendar quarter. The person argues that no disclosure is required because the transaction was divided into several smaller trades, none of which individually exceeded ₹10 lakh.</p>
+
+      <p>The company also considers requiring an external management consultant, who regularly receives UPSI for legitimate business purposes, to provide periodic disclosures of his holdings and trades even though he is not otherwise covered by the company's standard disclosure process.</p>
+
+      <p>Finally, the board reviews its Code of Fair Disclosure and Code of Conduct. It discovers that the code has not been promptly intimated to the stock exchanges after a recent amendment. The compliance officer recommends immediate corrective action.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "PIT_HARD_10_Q1",
+        question: "Sharing UPSI with the merchant banker and legal adviser for a takeover transaction may be permitted where:",
+        options: [
+          "The information is shared for personal benefit",
+          "The board is of informed opinion that sharing is in the best interests of the company and the transaction entails an open offer obligation",
+          "The recipients promise to buy shares",
+          "The information is shared publicly on social media"
+        ],
+        answer: 1,
+        reason: "UPSI may be communicated in connection with a transaction that entails an open offer where the board of directors is of informed opinion that sharing the information is in the best interests of the company."
+      },
+
+      {
+        question_id: "PIT_HARD_10_Q2",
+        question: "Where a recipient does not have PAN, the structured digital database may contain:",
+        options: [
+          "No identification details",
+          "Another identifier authorised by law",
+          "Only the recipient's email address",
+          "Only the recipient's telephone number"
+        ],
+        answer: 1,
+        reason: "The structured digital database must contain PAN or any other identifier authorised by law where PAN is not available."
+      },
+
+      {
+        question_id: "PIT_HARD_10_Q3",
+        question: "The CEO's trading plan commencing on 15 February after submission on 1 January violates the requirement because trading cannot commence earlier than:",
+        options: [
+          "30 calendar days",
+          "60 calendar days",
+          "90 calendar days",
+          "120 calendar days"
+        ],
+        answer: 3,
+        reason: "A trading plan cannot entail commencement of trading earlier than 120 calendar days from public disclosure of the plan."
+      },
+
+      {
+        question_id: "PIT_HARD_10_Q4",
+        question: "A particular trade under a trading plan cannot specify a time period exceeding:",
+        options: [
+          "3 consecutive trading days",
+          "5 consecutive trading days",
+          "10 consecutive trading days",
+          "15 consecutive trading days"
+        ],
+        answer: 1,
+        reason: "The trading plan must specify either a specific date or a time period not exceeding five consecutive trading days for each trade."
+      },
+
+      {
+        question_id: "PIT_HARD_10_Q5",
+        question: "The designated person's ₹12 lakh quarterly trading value requires disclosure because:",
+        options: [
+          "Every individual transaction exceeded ₹10 lakh",
+          "The aggregate traded value during the calendar quarter exceeded ₹10 lakh",
+          "Only transactions above ₹25 lakh are reportable",
+          "No disclosure is required for multiple transactions"
+        ],
+        answer: 1,
+        reason: "Disclosure is required where the traded value, whether in one transaction or a series of transactions over a calendar quarter, aggregates to more than ₹10 lakh or the other value specified by SEBI."
+      }
+
+    ]
+  },
+
+  // ============================================================
+  // MEDIUM CASE SCENARIO 11
+  // ============================================================
+
+  {
+    case_id: "SAST_MED_11",
+    chapter: "Substantial Acquisition of Shares, Voting Rights or Control",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Northstar Engineering Limited is a listed company engaged in the manufacture of specialised industrial equipment. Mr. Arjun Malhotra holds 21% of the voting rights in Northstar. His family investment vehicle, Apex Ventures Private Limited, holds another 3%. Arjun and Apex have historically coordinated their voting decisions and are treated as persons acting in concert for the purposes of the takeover regulations.</p>
+
+      <p>Arjun is considering the acquisition of an additional 1% of the shares of Northstar from a financial investor. He believes that because his individual holding would become 22%, there would be no concern under the takeover regulations. The compliance officer, however, points out that the holdings of Arjun and Apex must be considered together. Their aggregate holding is already 24%, and the proposed acquisition would take their aggregate voting rights to 25%.</p>
+
+      <p>Arjun argues that the acquisition should be viewed only from the perspective of his own shareholding because Apex is a separate legal entity. The merchant banker explains that the relevant threshold is based on the aggregate voting rights of the acquirer and persons acting in concert with him.</p>
+
+      <p>At the same time, another investor, Meridian Capital LLP, holds 26% of Northstar. Meridian intends to acquire additional shares during the financial year. It proposes to acquire 2% in April, 1% in August and another 2% in December. Meridian's investment committee believes that because each individual acquisition is below 5%, no open offer obligation will arise.</p>
+
+      <p>The compliance officer explains that for an acquirer already holding 25% or more but below the maximum permissible non-public shareholding, the aggregate additional acquisition during a financial year is relevant. The fact that individual acquisitions are separately below 5% does not mean that the annual limit can be ignored.</p>
+
+      <p>Meridian later sells 1% of its shares in October and argues that the sale should reduce the acquisitions made earlier in the year. The merchant banker asks the board to consider the rule regarding gross acquisitions.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SAST_MED_11_Q1",
+        question: "Arjun and Apex collectively hold 24%. If Arjun acquires another 1%, the aggregate holding becomes 25%. What is the consequence?",
+        options: [
+          "No open offer because Arjun individually remains below 25%",
+          "Open offer obligation arises because the aggregate voting rights reach 25%",
+          "No open offer until aggregate holding reaches 30%",
+          "Only Apex must make the open offer"
+        ],
+        answer: 1,
+        reason: "The holdings of the acquirer and persons acting in concert are aggregated. Acquisition resulting in 25% or more voting rights triggers the open offer requirement."
+      },
+
+      {
+        question_id: "SAST_MED_11_Q2",
+        question: "Meridian's proposed acquisitions during the year total:",
+        options: [
+          "3%",
+          "4%",
+          "5%",
+          "6%"
+        ],
+        answer: 2,
+        reason: "Meridian proposes to acquire 2% + 1% + 2% = 5% during the financial year."
+      },
+
+      {
+        question_id: "SAST_MED_11_Q3",
+        question: "If Meridian acquires another 1% after the above acquisitions, the gross acquisition during the financial year would become:",
+        options: [
+          "5%",
+          "5.5%",
+          "6%",
+          "7%"
+        ],
+        answer: 2,
+        reason: "Gross acquisitions would be 2% + 1% + 2% + 1% = 6%."
+      },
+
+      {
+        question_id: "SAST_MED_11_Q4",
+        question: "Meridian's sale of 1% in October would:",
+        options: [
+          "Reduce its gross acquisitions from 5% to 4%",
+          "Have no effect on the calculation of gross acquisitions",
+          "Permit another 5% acquisition",
+          "Cancel all previous acquisitions"
+        ],
+        answer: 1,
+        reason: "Gross acquisitions alone are considered. Intermittent falls in shareholding due to disposal are not deducted."
+      },
+
+      {
+        question_id: "SAST_MED_11_Q5",
+        question: "The relevant annual threshold for an acquirer holding 25% or more but below maximum permissible non-public shareholding is generally:",
+        options: [
+          "2%",
+          "5%",
+          "10%",
+          "15%"
+        ],
+        answer: 1,
+        reason: "Such an acquirer may generally acquire up to 5% additional voting rights during a financial year without triggering an open offer, subject to the regulations."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // MEDIUM CASE SCENARIO 12
+  // ============================================================
+
+  {
+    case_id: "SAST_MED_12",
+    chapter: "Obligations of Acquirer and Target Company",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Eastern Logistics Limited is the target company in an open offer made by Pacific Holdings Limited. Pacific has completed the necessary arrangements for the open offer and has deposited the required amount in the escrow account. A detailed public statement has been issued and the tendering period is approaching.</p>
+
+      <p>The board of Eastern Logistics is concerned about the conduct of business during the offer period. The managing director proposes that the company should sell an old warehouse, undertake a large borrowing for an unrelated investment project and terminate a material supply contract with a related party.</p>
+
+      <p>The company secretary informs the board that these transactions are outside the ordinary course of business and may be subject to restrictions during the offer period. The managing director argues that the transactions are commercially beneficial and therefore the restrictions should not apply.</p>
+
+      <p>The board also proposes to issue a fresh batch of equity shares carrying voting rights to a strategic investor. The shares are authorised but presently unissued. The company secretary again advises that the proposed issue may be restricted during the offer period.</p>
+
+      <p>Meanwhile, the independent directors of Eastern Logistics receive the detailed public statement. They are required to constitute a committee of independent directors to provide reasoned recommendations on the open offer.</p>
+
+      <p>The committee decides to obtain advice from an external financial adviser. It prepares written recommendations and plans to publish them shortly before the tendering period begins. The stock exchanges also need to receive the recommendations.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SAST_MED_12_Q1",
+        question: "During the offer period, the target company should generally conduct its business:",
+        options: [
+          "In any manner approved by the acquirer",
+          "In the ordinary course consistent with past practice",
+          "Only after SEBI approval",
+          "Only after shareholder approval for every transaction"
+        ],
+        answer: 1,
+        reason: "The board of the target company must ensure that business is conducted in the ordinary course consistent with past practice during the offer period."
+      },
+
+      {
+        question_id: "SAST_MED_12_Q2",
+        question: "Sale of a material asset outside the ordinary course generally requires:",
+        options: [
+          "No approval",
+          "Special resolution by shareholders through postal ballot",
+          "Approval only from the managing director",
+          "Approval only from the acquirer"
+        ],
+        answer: 1,
+        reason: "Alienation of material assets outside the ordinary course during the offer period is restricted unless the prescribed special resolution is obtained."
+      },
+
+      {
+        question_id: "SAST_MED_12_Q3",
+        question: "Issue of authorised but unissued securities carrying voting rights during the offer period is:",
+        options: [
+          "Freely permitted",
+          "Restricted subject to the specified exceptions",
+          "Mandatory",
+          "Allowed only to promoters"
+        ],
+        answer: 1,
+        reason: "The target company generally cannot issue or allot authorised but unissued securities carrying voting rights during the offer period without the prescribed shareholder approval, subject to specified exceptions."
+      },
+
+      {
+        question_id: "SAST_MED_12_Q4",
+        question: "The independent directors' committee is required to:",
+        options: [
+          "Approve the acquisition",
+          "Provide reasoned recommendations on the open offer",
+          "Negotiate the purchase price with the acquirer",
+          "Cancel the open offer"
+        ],
+        answer: 1,
+        reason: "The committee of independent directors is constituted to provide reasoned recommendations to shareholders on the open offer."
+      },
+
+      {
+        question_id: "SAST_MED_12_Q5",
+        question: "The committee may:",
+        options: [
+          "Never obtain external advice",
+          "Seek external professional advice at the expense of the target company",
+          "Seek advice only from the acquirer",
+          "Seek advice only from SEBI"
+        ],
+        answer: 1,
+        reason: "The committee of independent directors is entitled to seek external professional advice at the expense of the target company."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // MEDIUM CASE SCENARIO 13
+  // ============================================================
+
+  {
+    case_id: "PIT_MED_13",
+    chapter: "Definitions under SEBI Prohibition of Insider Trading Regulations",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Galaxy Digital Systems Limited is a listed technology company. The company is in advanced discussions with a global technology corporation for a strategic acquisition. The negotiations are confidential and have not been disclosed to the public.</p>
+
+      <p>The head of corporate strategy, the chief financial officer, two external lawyers and a valuation consultant are involved in the transaction. The lawyers have received detailed financial projections and information regarding the proposed transaction. The valuation consultant has also received sensitive information to prepare an independent valuation.</p>
+
+      <p>A former employee of Galaxy, who resigned four months earlier, maintains frequent communication with the company's senior management and continues to provide informal business advice. The former employee learns about the proposed acquisition during a conversation with a senior executive.</p>
+
+      <p>The former employee's spouse subsequently purchases Galaxy shares. The spouse argues that she cannot be treated as an insider because she has never worked for Galaxy and was not directly given any confidential document.</p>
+
+      <p>Meanwhile, an article appears in a financial newspaper stating that Galaxy may be considering a strategic acquisition. The article is based on unnamed sources and has not been confirmed by Galaxy or the stock exchange. Several investors begin trading based on the article.</p>
+
+      <p>The compliance officer must determine whether the newspaper report constitutes generally available information and whether the acquisition information remains UPSI.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "PIT_MED_13_Q1",
+        question: "The proposed acquisition, before public disclosure, would ordinarily be:",
+        options: [
+          "UPSI",
+          "Generally available information",
+          "Historical information",
+          "Non-price-sensitive information automatically"
+        ],
+        answer: 0,
+        reason: "Acquisitions and similar transactions are specifically included among matters that may constitute UPSI when not generally available and likely to materially affect the price."
+      },
+
+      {
+        question_id: "PIT_MED_13_Q2",
+        question: "A person associated with a company during the preceding six months who has access to UPSI may fall within the definition of:",
+        options: [
+          "Public shareholder",
+          "Connected person",
+          "Independent director only",
+          "Merchant banker only"
+        ],
+        answer: 1,
+        reason: "A connected person includes a person associated with the company in a manner that allows or is reasonably expected to allow access to UPSI, including during the relevant six-month period."
+      },
+
+      {
+        question_id: "PIT_MED_13_Q3",
+        question: "The spouse's status under the regulations may be relevant because:",
+        options: [
+          "Relatives of connected persons are among persons deemed connected unless the contrary is established",
+          "Spouses can never be insiders",
+          "Only employees can be connected persons",
+          "Only directors' spouses are regulated"
+        ],
+        answer: 0,
+        reason: "Relatives of specified connected persons are deemed to be connected persons unless the contrary is established."
+      },
+
+      {
+        question_id: "PIT_MED_13_Q4",
+        question: "An unverified media report would ordinarily:",
+        options: [
+          "Automatically make the information generally available",
+          "Not constitute generally available information merely because it appears in print or electronic media",
+          "Always eliminate UPSI",
+          "Automatically approve trading"
+        ],
+        answer: 1,
+        reason: "Generally available information is information accessible to the public on a non-discriminatory basis and does not include unverified events or information reported in print or electronic media."
+      },
+
+      {
+        question_id: "PIT_MED_13_Q5",
+        question: "Information published on the website of a stock exchange would ordinarily be treated as:",
+        options: [
+          "UPSI",
+          "Generally available information",
+          "Confidential information",
+          "Insider information"
+        ],
+        answer: 1,
+        reason: "Information published on the website of a stock exchange would ordinarily be considered generally available."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // MEDIUM CASE SCENARIO 14
+  // ============================================================
+
+  {
+    case_id: "PIT_MED_14",
+    chapter: "Disclosures by Insiders",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Metro Infrastructure Limited is a listed company. Mr. Vikram Sen has recently been appointed as a director of the company. On the date of his appointment, Vikram holds 18,000 equity shares of Metro Infrastructure along with certain securities held through an investment account for which he takes trading decisions.</p>
+
+      <p>The company secretary informs Vikram that he is required to disclose his securities holding upon appointment. Vikram argues that because his holding is relatively small and he acquired the shares before becoming a director, disclosure is unnecessary.</p>
+
+      <p>Three months later, Vikram purchases additional shares in several transactions. Each transaction is below ₹10 lakh. However, the aggregate traded value of all the transactions during the calendar quarter exceeds ₹10 lakh.</p>
+
+      <p>Vikram's immediate relative also sells a substantial number of shares during the same quarter. Vikram argues that the relative's transaction is separate and should not be included in disclosures relating to his trading.</p>
+
+      <p>The compliance officer explains that the disclosure provisions extend to trading by immediate relatives and persons for whom the designated person takes trading decisions. The company must also notify the stock exchange after receiving the required disclosure.</p>
+
+      <p>The board further decides that a particular external consultant who regularly receives UPSI should be required to provide periodic disclosures of holdings and trading even though the consultant is not otherwise within the routine disclosure category.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "PIT_MED_14_Q1",
+        question: "A director appointed to the company must disclose his holding:",
+        options: [
+          "Within 7 days of appointment",
+          "Within 30 days",
+          "Within 60 days",
+          "Only when shares are sold"
+        ],
+        answer: 0,
+        reason: "Every person on appointment as a KMP or director must disclose securities held as on the date of appointment within seven days."
+      },
+
+      {
+        question_id: "PIT_MED_14_Q2",
+        question: "Where several transactions during a calendar quarter collectively exceed ₹10 lakh:",
+        options: [
+          "No disclosure is required because each transaction was below ₹10 lakh",
+          "Disclosure is required because the aggregate traded value exceeds the threshold",
+          "Disclosure is required only if one transaction exceeds ₹10 lakh",
+          "Only the final transaction is disclosed"
+        ],
+        answer: 1,
+        reason: "The threshold applies to the traded value in one transaction or a series of transactions over a calendar quarter."
+      },
+
+      {
+        question_id: "PIT_MED_14_Q3",
+        question: "Trading by an immediate relative is:",
+        options: [
+          "Always excluded from disclosure",
+          "Included in the disclosures under the regulations",
+          "Included only if the relative is an employee",
+          "Included only if the relative holds more than 5%"
+        ],
+        answer: 1,
+        reason: "Disclosures include trading by the person's immediate relatives and persons for whom the person takes trading decisions."
+      },
+
+      {
+        question_id: "PIT_MED_14_Q4",
+        question: "The company must generally notify the stock exchange of the trading disclosure within:",
+        options: [
+          "2 trading days",
+          "7 working days",
+          "15 days",
+          "30 days"
+        ],
+        answer: 0,
+        reason: "The company is required to notify particulars of such trading to the stock exchange within two trading days of receipt of the disclosure or becoming aware of the information."
+      },
+
+      {
+        question_id: "PIT_MED_14_Q5",
+        question: "A listed company may require other connected persons to disclose holdings and trading:",
+        options: [
+          "Never",
+          "At its discretion in order to monitor compliance",
+          "Only with court approval",
+          "Only if they become directors"
+        ],
+        answer: 1,
+        reason: "The regulations permit a listed company, at its discretion, to require other connected persons or classes of connected persons to make disclosures."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // MEDIUM CASE SCENARIO 15
+  // ============================================================
+
+  {
+    case_id: "PIT_MED_15",
+    chapter: "Codes of Fair Disclosure and Conduct",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Prime Consumer Products Limited is a listed company with a large number of retail investors. The board has recently reviewed its internal framework for handling unpublished price sensitive information.</p>
+
+      <p>The company has a Code of Fair Disclosure dealing with the manner in which UPSI is disseminated. The board makes several amendments to the code after identifying weaknesses in the existing process. However, the company secretary does not immediately inform the stock exchanges about the amended code.</p>
+
+      <p>At the same time, the board asks the Chief Executive Officer to formulate a Code of Conduct to regulate and monitor trading by designated persons and their immediate relatives. The CEO prepares a draft and obtains approval from the board.</p>
+
+      <p>The company also appoints a compliance officer. The compliance officer is asked to identify designated persons based on their role, function, seniority and access to UPSI. The compliance officer considers including employees of material subsidiaries and support staff who have access to UPSI.</p>
+
+      <p>One senior manager argues that only senior executives should be designated persons and that IT employees cannot be included because they do not participate in financial decision-making. The compliance officer disagrees because certain IT employees have administrative access to confidential databases containing UPSI.</p>
+
+      <p>The company also engages a professional advisory firm that regularly receives UPSI. The board considers the firm to be a fiduciary for purposes of the regulations.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "PIT_MED_15_Q1",
+        question: "The Code of Fair Disclosure is formulated by:",
+        options: [
+          "The stock exchange",
+          "The board of directors of the listed company",
+          "Only the compliance officer",
+          "The shareholders"
+        ],
+        answer: 1,
+        reason: "The board of directors of every listed company is required to formulate and publish the Code of Fair Disclosure."
+      },
+
+      {
+        question_id: "PIT_MED_15_Q2",
+        question: "Amendments to the Code of Fair Disclosure should be:",
+        options: [
+          "Kept confidential",
+          "Promptly intimated to the stock exchanges",
+          "Sent only to employees",
+          "Sent only to SEBI annually"
+        ],
+        answer: 1,
+        reason: "The Code of Fair Disclosure and every amendment thereto must be promptly intimated to the stock exchanges."
+      },
+
+      {
+        question_id: "PIT_MED_15_Q3",
+        question: "The Code of Conduct is intended to regulate:",
+        options: [
+          "Only customers",
+          "Trading by designated persons and their immediate relatives",
+          "Only shareholders",
+          "Only independent directors"
+        ],
+        answer: 1,
+        reason: "The Code of Conduct regulates, monitors and reports trading by designated persons and their immediate relatives."
+      },
+
+      {
+        question_id: "PIT_MED_15_Q4",
+        question: "Support staff such as IT employees may be designated where:",
+        options: [
+          "They have access to UPSI",
+          "They have worked for more than 10 years",
+          "They own more than 5% shares",
+          "They are shareholders"
+        ],
+        answer: 0,
+        reason: "Support staff such as IT or secretarial staff having access to UPSI are specifically included among persons who may be designated."
+      },
+
+      {
+        question_id: "PIT_MED_15_Q5",
+        question: "Professional firms such as auditors, lawyers and consultants assisting listed companies are collectively referred to as:",
+        options: [
+          "Promoters",
+          "Fiduciaries",
+          "Acquirers",
+          "PACs"
+        ],
+        answer: 1,
+        reason: "Professional firms assisting or advising listed companies, including auditors, accountancy firms, law firms, consultants and banks, are collectively referred to as fiduciaries."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // HARD CASE SCENARIO 16
+  // ============================================================
+
+  {
+    case_id: "SAST_HARD_16",
+    chapter: "SAST Regulations - Open Offer and Competing Offers",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Imperial Textiles Limited is a widely held listed company. Orion Capital Fund announces an open offer after entering into an agreement that gives it control over Imperial Textiles. Orion deposits the required consideration in the escrow account and publishes the detailed public statement.</p>
+
+      <p>Fifteen working days after the detailed public statement, Orion proposes to appoint two of its representatives to the board of Imperial Textiles. Orion has deposited the entire consideration payable under the open offer in cash in the escrow account. The board seeks advice regarding whether the appointments may now be made.</p>
+
+      <p>However, the open offer was made conditional upon Orion receiving a minimum level of acceptance. The minimum level specified by Orion is substantially higher than the minimum number of shares it would otherwise be required to acquire.</p>
+
+      <p>Before Orion can complete the proposed board appointments, another investor, Zenith Strategic Partners, makes a competing offer for the shares of Imperial Textiles. The board of Imperial Textiles had planned to appoint a new independent director to fill a newly created position during the same period.</p>
+
+      <p>Orion argues that because it has already deposited the full consideration in escrow, it should be permitted to appoint its representatives and the company should be permitted to appoint the new independent director.</p>
+
+      <p>The legal adviser points out that the rules concerning competing offers impose restrictions on induction of new directors during the pendency of competing offers, subject to the specified exception in case of death or incapacitation of an existing director.</p>
+
+      <p>Meanwhile, an existing director representing Orion wants to participate in board deliberations relating to the competing offers. The director argues that he should be allowed to vote because Orion has already fulfilled the escrow requirement.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SAST_HARD_16_Q1",
+        question: "After the initial 15 working days from the detailed public statement, appointment of acquirer representatives may generally be possible if:",
+        options: [
+          "The acquirer owns 10%",
+          "The acquirer deposits the entire consideration payable under the open offer in cash in the escrow account, subject to other conditions",
+          "The acquirer receives 1% acceptance",
+          "The target company waives the regulations"
+        ],
+        answer: 1,
+        reason: "After the initial 15 working days, appointment may be effected where the acquirer deposits the entire consideration payable under the open offer in cash in the escrow account, subject to applicable conditions."
+      },
+
+      {
+        question_id: "SAST_HARD_16_Q2",
+        question: "Because Orion's offer is conditional upon a minimum level of acceptance:",
+        options: [
+          "Orion can appoint directors once escrow is deposited",
+          "Orion cannot appoint directors representing it during the offer period",
+          "Orion automatically becomes entitled to board control",
+          "The condition becomes irrelevant"
+        ],
+        answer: 1,
+        reason: "For a conditional offer, the acquirer and PAC cannot appoint any director representing them during the offer period regardless of the size of the escrow deposit."
+      },
+
+      {
+        question_id: "SAST_HARD_16_Q3",
+        question: "During the pendency of competing offers, induction of a new director is generally:",
+        options: [
+          "Freely permitted",
+          "Prohibited subject to the specified exception for death or incapacitation",
+          "Mandatory",
+          "Permitted only to the first acquirer"
+        ],
+        answer: 1,
+        reason: "During competing offers, no new director may generally be inducted, regardless of the escrow deposit, except in the specified circumstances such as death or incapacitation."
+      },
+
+      {
+        question_id: "SAST_HARD_16_Q4",
+        question: "The existing director representing Orion should:",
+        options: [
+          "Vote on every matter concerning the open offer",
+          "Not participate in deliberations or vote on matters relating to the open offer",
+          "Vote only when Orion has deposited escrow",
+          "Chair the open-offer committee"
+        ],
+        answer: 1,
+        reason: "A director representing the acquirer or PAC cannot participate in deliberations or vote on matters relating to the open offer."
+      },
+
+      {
+        question_id: "SAST_HARD_16_Q5",
+        question: "The purpose of restrictions during competing offers is primarily to:",
+        options: [
+          "Give the first acquirer permanent control",
+          "Prevent board changes from influencing the competitive takeover process",
+          "Prevent shareholders from tendering shares",
+          "Increase the target company's borrowing capacity"
+        ],
+        answer: 1,
+        reason: "The restriction on induction of directors during competing offers protects the integrity of the takeover process and prevents board changes from influencing the competing offers."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // HARD CASE SCENARIO 17
+  // ============================================================
+
+  {
+    case_id: "PIT_HARD_17",
+    chapter: "Communication and Procurement of UPSI",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Quantum Energy Limited is a listed company. Its board is considering a major restructuring involving the sale of a non-core business division and the acquisition of a renewable energy company. The proposed transactions are expected to materially affect the company's future revenue and profitability.</p>
+
+      <p>The Chief Executive Officer instructs the corporate strategy team to prepare confidential analysis. The team shares the analysis with the company's merchant banker, external legal advisers, valuation specialists, lenders and insolvency professionals who are assisting with certain aspects of the proposed transaction.</p>
+
+      <p>The board formally determines that sharing the information is necessary for a legitimate purpose and is in the best interests of the company. All recipients are required to execute confidentiality and non-disclosure agreements.</p>
+
+      <p>One external consultant, after receiving the UPSI, shares selected information with a close business associate who is not involved in the transaction. The associate then asks the consultant for additional details and purchases Quantum shares.</p>
+
+      <p>The consultant argues that he had received the information legitimately and therefore could not be violating the regulations. The compliance officer explains that legitimate receipt does not provide unlimited freedom to communicate or trade. A person receiving UPSI pursuant to a legitimate purpose becomes an insider and must maintain confidentiality.</p>
+
+      <p>Separately, an employee deliberately asks another employee to provide confidential information regarding the proposed acquisition even though the information is not required for the employee's duties. The employee later trades Quantum shares.</p>
+
+      <p>The company discovers that some of the UPSI was shared with an external adviser two days before a major transaction. The adviser had signed the confidentiality agreement but had not yet been entered into the structured digital database. The compliance officer examines the database obligations and the timing requirements.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "PIT_HARD_17_Q1",
+        question: "Sharing UPSI with professional advisers may be legitimate where:",
+        options: [
+          "It is done to facilitate the company's legitimate business purpose",
+          "It is done to help relatives trade",
+          "It is done for personal profit",
+          "It is done without confidentiality controls"
+        ],
+        answer: 0,
+        reason: "UPSI may be shared in the ordinary course of business with advisers and other specified persons for legitimate purposes, provided the sharing is not intended to evade the regulations."
+      },
+
+      {
+        question_id: "PIT_HARD_17_Q2",
+        question: "A person receiving UPSI pursuant to a legitimate purpose:",
+        options: [
+          "Does not become an insider",
+          "Is considered an insider for purposes of the regulations",
+          "Can trade immediately",
+          "Can freely disclose the information"
+        ],
+        answer: 1,
+        reason: "A person receiving UPSI pursuant to a legitimate purpose is considered an insider and must maintain confidentiality."
+      },
+
+      {
+        question_id: "PIT_HARD_17_Q3",
+        question: "The consultant's disclosure to an unrelated business associate is generally:",
+        options: [
+          "Automatically permitted",
+          "Prohibited unless covered by a legitimate purpose, performance of duties or legal obligation",
+          "Required by law",
+          "Permitted because the consultant signed an NDA"
+        ],
+        answer: 1,
+        reason: "An insider cannot communicate UPSI except for legitimate purposes, performance of duties or discharge of legal obligations."
+      },
+
+      {
+        question_id: "PIT_HARD_17_Q4",
+        question: "The employee who procures UPSI without a legitimate purpose may violate:",
+        options: [
+          "Only company employment policy",
+          "The prohibition on procuring UPSI",
+          "Only takeover regulations",
+          "No regulation"
+        ],
+        answer: 1,
+        reason: "Regulation 3 prohibits procuring UPSI or causing its communication by an insider except for legitimate purposes, performance of duties or discharge of legal obligations."
+      },
+
+      {
+        question_id: "PIT_HARD_17_Q5",
+        question: "The structured digital database is intended to provide:",
+        options: [
+          "A record of the nature of UPSI and persons sharing and receiving it",
+          "A record only of share prices",
+          "A record only of directors",
+          "A record only of quarterly profits"
+        ],
+        answer: 0,
+        reason: "The structured digital database records the nature of UPSI and the details of persons who have shared and received it, together with the required identifiers."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // HARD CASE SCENARIO 18
+  // ============================================================
+
+  {
+    case_id: "PIT_HARD_18",
+    chapter: "Trading Plans",
+    difficulty: "hard",
+
+    caseText: `
+      <p>National Industrial Products Limited is a listed company. Its Managing Director, Mr. Rajiv Menon, frequently comes into possession of UPSI because of his position. To facilitate legitimate long-term investment decisions, Rajiv decides to formulate a trading plan.</p>
+
+      <p>On 1 January, Rajiv submits a trading plan to the compliance officer. The plan proposes purchases of shares on specified dates and sales of shares on other specified dates. For each trade, the plan states the number of shares, nature of the trade and proposed trading date. Rajiv also specifies an upper price limit for purchases and a lower price limit for sales.</p>
+
+      <p>The compliance officer examines the plan and determines that one of the proposed trading periods overlaps with another trading plan already approved for Rajiv. The compliance officer also notes that the first trade under the new plan is proposed to commence only 100 calendar days after public disclosure.</p>
+
+      <p>Rajiv argues that the 120-day requirement is excessive and that the compliance officer should approve the plan because the plan itself was prepared honestly.</p>
+
+      <p>The compliance officer rejects the plan and asks Rajiv to revise it. Rajiv submits a revised plan that satisfies the cooling-off period. The plan is approved and publicly disclosed.</p>
+
+      <p>After approval, Rajiv becomes aware of new UPSI concerning a major regulatory approval. He wants to cancel the trading plan because he believes the new information may cause a significant change in the market price.</p>
+
+      <p>Later, one trade under the plan cannot be executed because the market price falls below the lower price limit specified for a sale. Rajiv asks the broker to execute the transaction anyway at the prevailing price. The compliance officer explains the effect of a price limit specified in the approved plan.</p>
+
+      <p>In another instance, a trade could not be executed because the security had inadequate liquidity. Rajiv submits an explanation to the compliance officer after the plan period ends.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "PIT_HARD_18_Q1",
+        question: "A trading plan must not commence trading earlier than:",
+        options: [
+          "30 calendar days",
+          "60 calendar days",
+          "90 calendar days",
+          "120 calendar days"
+        ],
+        answer: 3,
+        reason: "The trading plan cannot entail commencement of trading earlier than 120 calendar days from public disclosure of the plan."
+      },
+
+      {
+        question_id: "PIT_HARD_18_Q2",
+        question: "A trading plan should:",
+        options: [
+          "Overlap with another plan",
+          "Not entail overlap with another trading plan already in existence",
+          "Remain confidential",
+          "Be changed every month"
+        ],
+        answer: 1,
+        reason: "A trading plan must not overlap with any period for which another trading plan is already in existence."
+      },
+
+      {
+        question_id: "PIT_HARD_18_Q3",
+        question: "Once approved, a trading plan is generally:",
+        options: [
+          "Revocable at the insider's discretion",
+          "Irrevocable and required to be implemented, subject to specified exceptions",
+          "Optional",
+          "Automatically cancelled when prices change"
+        ],
+        answer: 1,
+        reason: "An approved trading plan is irrevocable and must be implemented, subject to the specified exceptions such as permanent incapacity, bankruptcy, operation of law and other prescribed circumstances."
+      },
+
+      {
+        question_id: "PIT_HARD_18_Q4",
+        question: "If a price limit is specified and the market price falls outside the permitted limit:",
+        options: [
+          "The insider must execute regardless of the limit",
+          "The trade should not be executed outside the specified price limit",
+          "The insider can change the limit without approval",
+          "The broker may ignore the plan"
+        ],
+        answer: 1,
+        reason: "Where a price limit is specified in the approved trading plan, the trade is executed only if the execution price falls within the specified limit."
+      },
+
+      {
+        question_id: "PIT_HARD_18_Q5",
+        question: "Where a trade is not implemented because of inadequate liquidity, the matter is ultimately considered by:",
+        options: [
+          "The Audit Committee",
+          "The stock broker",
+          "The shareholder",
+          "The acquirer"
+        ],
+        answer: 0,
+        reason: "The compliance officer places the explanation and recommendation before the Audit Committee, which decides whether the non-implementation was bona fide."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // HARD CASE SCENARIO 19
+  // ============================================================
+
+  {
+    case_id: "SAST_HARD_19",
+    chapter: "Disclosures and Obligations under SAST Regulations",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Silver Oak Financial Limited is a listed company. The promoter group holds 62% of its voting rights. The promoter, Ms. Neha Sharma, personally holds 32%, while two entities acting in concert with her hold 18% and 12% respectively.</p>
+
+      <p>During the financial year, Neha acquires 1.5% of the shares. One of the PACs acquires another 2.5%. A second PAC acquires 1.5%. The promoter group therefore makes several acquisitions during the year through different entities.</p>
+
+      <p>Neha argues that the acquisitions should be examined separately because they were made by different legal entities and through different brokerage accounts. The compliance officer explains that the relevant calculations must consider the acquirer and persons acting in concert collectively.</p>
+
+      <p>During the same year, one PAC disposes of 1% of its shares. The promoter group argues that this disposal should offset the acquisitions for purposes of the annual threshold. The compliance officer again refers to the principle of gross acquisition.</p>
+
+      <p>Meanwhile, Neha has pledged a portion of her shares with a lender. The pledge is disclosed within the prescribed period. Several months later, the lender invokes the pledge because Neha defaults on the secured obligation. Neha must consider the disclosure consequences of invocation.</p>
+
+      <p>At the end of the financial year, Neha also needs to make a declaration concerning encumbrances created by her and the PACs during the financial year. The company secretary reminds her that the declaration must be made to the stock exchanges and the audit committee within the specified period.</p>
+
+      <p>Silver Oak's board also receives the detailed public statement for a proposed open offer. The independent directors constitute their committee and decide to publish recommendations before commencement of the tendering period.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SAST_HARD_19_Q1",
+        question: "For determining the annual acquisition by the promoter group, acquisitions by PACs are:",
+        options: [
+          "Ignored",
+          "Aggregated with the acquirer's acquisitions",
+          "Considered only when made through the same broker",
+          "Considered only if made by the promoter personally"
+        ],
+        answer: 1,
+        reason: "Acquisitions by the acquirer and persons acting in concert are aggregated for determining the relevant acquisition thresholds."
+      },
+
+      {
+        question_id: "SAST_HARD_19_Q2",
+        question: "The gross acquisitions in the year are:",
+        options: [
+          "4%",
+          "5%",
+          "5.5%",
+          "6.5%"
+        ],
+        answer: 2,
+        reason: "1.5% + 2.5% + 1.5% = 5.5% gross acquisition."
+      },
+
+      {
+        question_id: "SAST_HARD_19_Q3",
+        question: "The PAC's disposal of 1%:",
+        options: [
+          "Reduces gross acquisitions to 4.5%",
+          "Does not reduce gross acquisitions for Regulation 3(2)",
+          "Automatically permits another 5%",
+          "Cancels the acquisition obligation"
+        ],
+        answer: 1,
+        reason: "Gross acquisitions alone are taken into account and intermittent falls due to disposals are not deducted."
+      },
+
+      {
+        question_id: "SAST_HARD_19_Q4",
+        question: "Invocation of an encumbrance created by a promoter requires:",
+        options: [
+          "No disclosure",
+          "Prescribed disclosure of the invocation",
+          "Disclosure only if shares exceed 25%",
+          "Disclosure only at year-end"
+        ],
+        answer: 1,
+        reason: "Promoters are required to disclose details of invocation or release of encumbrance within the prescribed period."
+      },
+
+      {
+        question_id: "SAST_HARD_19_Q5",
+        question: "The annual declaration regarding encumbrances is required to be made to:",
+        options: [
+          "Only the Registrar of Companies",
+          "Stock exchanges and the audit committee of the target company",
+          "Only the acquirer",
+          "Only the shareholders"
+        ],
+        answer: 1,
+        reason: "The yearly declaration is required to be made to every stock exchange where the shares are listed and to the audit committee of the target company."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // HARD CASE SCENARIO 20
+  // ============================================================
+
+  {
+    case_id: "PIT_HARD_20",
+    chapter: "Insider Trading - Penalty and Compliance Framework",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Atlas Telecom Limited is a listed company facing a serious regulatory investigation. The investigation may result in significant financial penalties and restrictions on the company's operations. The information is confidential and has not been disclosed to the stock exchanges.</p>
+
+      <p>The company's Chief Legal Officer, Chief Financial Officer and one senior compliance executive are aware of the investigation. The information is also shared with an external law firm and forensic accounting firm assisting the company. The board determines that the sharing is necessary for legitimate business purposes.</p>
+
+      <p>The forensic accounting firm's partner informs an old professional acquaintance about the existence of a serious investigation. The acquaintance does not receive documents but understands that the company is likely to face adverse regulatory action and sells Atlas shares.</p>
+
+      <p>At the same time, the Chief Financial Officer tells his investment adviser that Atlas is facing a potentially serious issue. The adviser sells Atlas shares held in an account over which the CFO has trading authority.</p>
+
+      <p>The CFO later claims that he did not place the orders himself and therefore cannot be treated as having traded. The compliance officer points out that trading includes dealing and that the disclosure and prohibition framework focuses on the person taking trading decisions and the possession of UPSI.</p>
+
+      <p>SEBI begins an investigation. The connected persons argue that they should not be presumed to have possessed UPSI because no physical document was found in their possession. The regulator examines the circumstances and the statutory framework regarding the burden of establishing possession of UPSI.</p>
+
+      <p>After determining the violations, the authorities consider the statutory penalty for insider trading, communication of UPSI and counselling or procuring another person to trade on the basis of UPSI.</p>
+
+      <p>The board also reviews its internal systems and discovers that the structured digital database was incomplete and several entries lacked proper time stamps and audit trails. The compliance officer recommends strengthening internal controls and preserving the database for the required period.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "PIT_HARD_20_Q1",
+        question: "The confidential regulatory investigation may constitute UPSI because it relates to:",
+        options: [
+          "Only ordinary business activity",
+          "Actions initiated or orders passed by regulatory authorities in relation to the company",
+          "Only historical information",
+          "Only dividend declarations"
+        ],
+        answer: 1,
+        reason: "Actions initiated or orders passed by regulatory, statutory, enforcement or judicial authorities relating to the company are among the matters that may constitute UPSI."
+      },
+
+      {
+        question_id: "PIT_HARD_20_Q2",
+        question: "The forensic firm's legitimate receipt of UPSI:",
+        options: [
+          "Allows unlimited onward disclosure",
+          "Does not permit disclosure outside legitimate purposes, duties or legal obligations",
+          "Automatically permits trading",
+          "Makes the information public"
+        ],
+        answer: 1,
+        reason: "A legitimate recipient becomes an insider and remains subject to confidentiality and trading restrictions."
+      },
+
+      {
+        question_id: "PIT_HARD_20_Q3",
+        question: "The CFO's argument that he did not personally place the order is:",
+        options: [
+          "Always valid",
+          "Not necessarily valid because trading includes dealing in securities and the framework covers trading decisions",
+          "Valid whenever a broker executes the order",
+          "Valid if the trade is profitable"
+        ],
+        answer: 1,
+        reason: "Trading is broadly defined and includes dealing in securities. The regulations are intended to prevent indirect dealing based on UPSI as well."
+      },
+
+      {
+        question_id: "PIT_HARD_20_Q4",
+        question: "For a connected person accused of trading while in possession of UPSI, the burden of establishing that he was not in possession is generally:",
+        options: [
+          "On the connected person",
+          "Always on the stock exchange",
+          "Always on the company",
+          "On the shareholders"
+        ],
+        answer: 0,
+        reason: "In the case of connected persons, the onus of establishing that they were not in possession of UPSI is on such connected persons. In other cases, the onus is on the Board."
+      },
+
+      {
+        question_id: "PIT_HARD_20_Q5",
+        question: "Under Section 15G of the SEBI Act, the penalty for specified insider-trading violations is not less than ₹10 lakh and may extend to:",
+        options: [
+          "₹1 crore only",
+          "₹5 crore only",
+          "₹25 crore or three times the profits made, whichever is higher",
+          "₹50 lakh or profits made, whichever is lower"
+        ],
+        answer: 2,
+        reason: "Section 15G provides that the penalty shall not be less than ₹10 lakh and may extend to ₹25 crore or three times the amount of profits made out of insider trading, whichever is higher."
+      }
+
+    ]
   }
 ];
