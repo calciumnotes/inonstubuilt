@@ -25013,7 +25013,7 @@ const AICaseStudies = [
   },
 
 
-  /* ==================================================
+  /* =========================================================
      CASE SCENARIO 50
      SEBI ICDR – UNIDENTIFIED ACQUISITION / GENERAL CORPORATE PURPOSES
      DIFFICULTY: HARD
@@ -25101,6 +25101,2108 @@ const AICaseStudies = [
         ],
         answer: 3,
         reason: "The general corporate purpose ceiling is 25% of the amount raised. Therefore, for ₹1,000 crore, the general corporate purpose amount can generally be up to ₹250 crore."
+      }
+
+    ]
+  },
+
+/* =========================================================
+   HARD CASE SCENARIO 1
+========================================================= */
+
+{
+  case_id: "SEBI_ICDR_HARD_CS_01",
+  difficulty: "Hard",
+  case_chapter: [
+    "Issue of Convertible Debt Instruments",
+    "Promoters' Contribution",
+    "Lock-in",
+    "Pricing",
+    "Minimum Subscription"
+  ],
+
+  caseText: `
+
+  <p>Ardent Infrastructure Limited (AIL) is an unlisted company engaged in the development
+  of large-scale renewable energy infrastructure projects. The company proposes to raise
+  funds from the public for setting up a solar power generation project and associated
+  transmission infrastructure. Since AIL has not made any prior public issue of equity shares,
+  its Board proposes to make an initial public offer of convertible debt instruments without
+  first listing its equity shares.</p>
+
+  <p>AIL proposes to issue secured convertible debt instruments having a total value of
+  ₹480 crore. The company has not defaulted on any interest payment or repayment of principal
+  on debt instruments issued to the public during the preceding six months. The company
+  proposes to obtain a credit rating and appoint a debenture trustee before opening the issue.</p>
+
+  <p>The proposed debt instruments will be secured by a charge over certain land and plant
+  and machinery. However, part of the land proposed to be offered as security is already
+  subject to a charge in favour of an existing scheduled commercial bank. The company
+  proposes to obtain the bank's consent for creation of a second or pari passu charge before
+  the opening of the issue. The management also proposes to calculate the asset cover after
+  deducting liabilities having a first or prior charge.</p>
+
+  <p>The project is to be implemented in three stages. The total project cost is ₹600 crore.
+  The promoters propose to contribute ₹120 crore through equity shares. The proposed issue
+  size of the convertible debt instruments is ₹480 crore. The promoters intend to bring their
+  contribution one day before the opening of the issue and deposit the amount in an escrow
+  account with a scheduled commercial bank.</p>
+
+  <p>The company proposes a price band of ₹100 to ₹120 per specified security. The management
+  argues that the cap price is exactly 120% of the floor price and therefore satisfies the
+  pricing requirement. It also proposes to announce the price band only one working day
+  before opening the issue because the issue has already received considerable publicity.</p>
+
+  <p>The company expects applications substantially exceeding the issue size. However, its
+  internal projections indicate that only 88% of the offer through the offer document may be
+  subscribed. The CFO argues that because the company is raising funds for infrastructure,
+  it can proceed with allotment even if subscription is below 90%.</p>
+
+  <p>Separately, AIL proposes to issue warrants along with certain specified securities. The
+  exercise price has been disclosed upfront and the company proposes to collect 25% of the
+  consideration based on the exercise price upfront. Some directors, however, believe that
+  the warrant holder should be given three months from allotment to exercise the warrants,
+  rather than three months from the date of payment of consideration.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_01_Q1",
+      question: "Which of the following correctly determines whether AIL can make an initial public offer of convertible debt instruments without a prior public issue of equity shares?",
+      options: [
+        "AIL cannot do so because equity shares must necessarily be listed first.",
+        "AIL can do so, provided it is not in default of payment of interest or repayment of principal in respect of debt instruments issued to the public for a period exceeding six months.",
+        "AIL can do so only if its equity shares are already listed.",
+        "AIL can do so only where the convertible debt instruments are unsecured."
+      ],
+      answer: 1,
+      reason: "An issuer may make an initial public offer of convertible debt instruments even without a prior public issue and listing of equity shares, provided the issuer is not in default of interest or principal repayment on public debt instruments for more than six months."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_01_Q2",
+      question: "AIL proposes to create a second or pari passu charge over land already charged to an existing bank. Which action is required before opening the issue?",
+      options: [
+        "No consent is required because the security belongs to AIL.",
+        "Only the consent of the lead manager is required.",
+        "Consent of the existing lender or security trustee, or lessor where applicable, for the second or pari passu charge must be obtained and submitted to the debenture trustee before opening the issue.",
+        "Consent can be obtained after allotment of the convertible debt instruments."
+      ],
+      answer: 2,
+      reason: "Where security is already created in favour of an existing lender or security trustee, the required consent for a second or pari passu charge must be obtained and submitted to the debenture trustee before opening the issue."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_01_Q3",
+      question: "The proposed price band is ₹100–₹120. Which statement is correct?",
+      options: [
+        "The price band is invalid because the cap cannot exceed 115% of the floor price.",
+        "The price band is valid because the cap is exactly 120% of the floor price, assuming the other requirements are complied with.",
+        "The price band is invalid because the cap must be less than 120% of the floor price.",
+        "The price band is valid only if the floor price is below the face value."
+      ],
+      answer: 1,
+      reason: "The cap of the price band may be less than or equal to 120% of the floor price, and must be at least 105% of the floor price. ₹120 is exactly 120% of ₹100."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_01_Q4",
+      question: "AIL's expected subscription is only 88% of the offer through the offer document. What is the correct consequence?",
+      options: [
+        "AIL may proceed because infrastructure issues are exempt from the minimum subscription requirement.",
+        "AIL may proceed if the promoters contribute the shortfall.",
+        "The minimum subscription requirement is not satisfied and the application monies must be refunded forthwith, but not later than four days from closure of the issue.",
+        "AIL can allot 88% of the securities and retain the remaining application money."
+      ],
+      answer: 2,
+      reason: "Minimum subscription is at least 90% of the offer through the offer document, except in an offer for sale. On failure to receive minimum subscription, application monies must be refunded forthwith and not later than four days from closure."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_01_Q5",
+      question: "The warrant holders fail to exercise their warrants. From which point is the three-month period relevant for forfeiture of the consideration?",
+      options: [
+        "Date of allotment of the warrants.",
+        "Date of filing of the offer document.",
+        "Date of payment of consideration.",
+        "Date on which the price of the equity shares is determined."
+      ],
+      answer: 2,
+      reason: "If the warrant holder does not exercise the option within three months from the date of payment of consideration, the consideration paid in respect of the warrants is forfeited."
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   HARD CASE SCENARIO 2
+========================================================= */
+
+{
+  case_id: "SEBI_ICDR_HARD_CS_02",
+  difficulty: "Hard",
+  case_chapter: [
+    "Promoters' Contribution",
+    "Lock-in",
+    "Partly Paid Securities",
+    "Transferability",
+    "Pledge"
+  ],
+
+  caseText: `
+
+
+  <p>Nova Precision Technologies Limited (NPTL) is preparing for an initial public offer.
+  The company has identifiable promoters. Immediately before the issue, the promoters hold
+  equity shares representing 27% of the pre-issue capital. The proposed public issue will
+  significantly expand the company's capital because the issue includes convertible securities
+  that may be converted into equity shares.</p>
+
+  <p>The promoters propose to contribute only 18% of the post-issue capital. They argue that
+  they already hold 27% before the issue and therefore the requirement of minimum promoters'
+  contribution has effectively been met. The lead manager disagrees and states that the
+  computation must consider the post-issue expanded capital assuming full conversion of
+  convertible securities and exercise of relevant vested options.</p>
+
+  <p>The company intends to use 65% of the issue proceeds for construction of a new manufacturing
+  facility, purchase of plant and machinery and civil work. The remaining amount will be used
+  for working capital and other corporate purposes. The promoters hold securities in excess
+  of the minimum promoters' contribution and wish to transfer some of those securities six
+  months after allotment.</p>
+
+  <p>The promoters also intend to pledge a portion of their locked-in securities with a
+  scheduled commercial bank to obtain a loan for financing the objects of the issue. Some
+  directors believe that locked-in securities can never be pledged during the lock-in period.
+  The promoters also want to pledge SR equity shares on the same terms.</p>
+
+  <p>Additionally, certain promoter securities are partly paid. The amount called up on these
+  securities is lower than the amount called up on the securities issued to the public. The
+  company proposes to calculate the lock-in period from the date of allotment regardless of
+  when the promoter securities become pari passu with the public securities.</p>
+
+  <p>After the IPO, one promoter proposes to transfer some locked-in securities to another
+  promoter. The transferee intends to sell those shares immediately after receiving them,
+  arguing that the original promoter has already completed part of the lock-in period.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_02_Q1",
+      question: "For computing minimum promoters' contribution, which basis is relevant where convertible securities are proposed to be issued?",
+      options: [
+        "Pre-issue capital only.",
+        "Post-issue expanded capital assuming full proposed conversion of convertible securities and exercise of relevant vested options.",
+        "Only the equity shares actually issued on the date of allotment.",
+        "Only the promoters' existing shareholding immediately before the IPO."
+      ],
+      answer: 1,
+      reason: "Promoters' contribution is computed on the basis of post-issue expanded capital, assuming full proposed conversion of convertible securities and exercise of relevant vested options."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_02_Q2",
+      question: "Since the majority of issue proceeds is proposed to be used for capital expenditure, what is the lock-in period for minimum promoters' contribution?",
+      options: [
+        "Six months.",
+        "One year.",
+        "Eighteen months.",
+        "Three years."
+      ],
+      answer: 3,
+      reason: "Minimum promoters' contribution is generally locked in for 18 months, but where the majority of issue proceeds excluding the offer-for-sale portion is proposed to be used for capital expenditure, the period is three years."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_02_Q3",
+      question: "Which statement regarding pledge of locked-in promoter securities is correct?",
+      options: [
+        "Locked-in promoter securities can never be pledged.",
+        "Locked-in promoter securities, except SR equity shares, may be pledged as collateral security subject to specified conditions.",
+        "Only SR equity shares may be pledged.",
+        "Promoters may pledge locked-in securities to any private lender without restrictions."
+      ],
+      answer: 1,
+      reason: "Specified securities, except SR equity shares, held by promoters and locked-in may be pledged as collateral security for loans from specified financial institutions subject to prescribed conditions."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_02_Q4",
+      question: "NPTL's partly paid promoter securities have a lower amount called up than the securities issued to the public. When does the lock-in end?",
+      options: [
+        "Immediately after allotment.",
+        "After 18 months from allotment.",
+        "After three years from allotment.",
+        "After expiry of three years after such securities become pari passu with the securities issued to the public."
+      ],
+      answer: 3,
+      reason: "For partly paid specified securities subject to lock-in, where the amount called-up is less than that on securities issued to the public, the lock-in ends only on expiry of three years after the securities become pari passu with the public securities."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_02_Q5",
+      question: "If locked-in promoter securities are transferred to another promoter, what happens to the lock-in?",
+      options: [
+        "The lock-in ends immediately on transfer.",
+        "The transferee gets a fresh full lock-in period irrespective of the original holding.",
+        "The lock-in continues for the remaining period with the transferee.",
+        "The transferee may freely sell the securities immediately."
+      ],
+      answer: 2,
+      reason: "Permitted transfer of locked-in promoter securities does not extinguish the lock-in. The remaining lock-in continues with the transferee."
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   HARD CASE SCENARIO 3
+========================================================= */
+
+{
+  case_id: "SEBI_ICDR_HARD_CS_03",
+  difficulty: "Hard",
+  case_chapter: [
+    "Further Public Offer",
+    "Eligibility",
+    "Name Change",
+    "General Conditions",
+    "QIB Allocation"
+  ],
+
+  caseText: `
+
+  <p>Zenith Consumer Limited (ZCL) is a listed company planning a further public offer
+  to raise ₹800 crore. During the eight months preceding the proposed filing of the offer
+  document, the company changed its name from Zenith Industrial Products Limited to
+  Zenith Consumer Limited. The management states that the name change was made because
+  the company intends to enter the consumer products market.</p>
+
+  <p>During the preceding full financial year, only 42% of ZCL's revenue came from the
+  consumer products activity indicated by its new name. The remaining revenue was generated
+  from its industrial machinery business. The Board nevertheless wants to proceed with the
+  FPO under the normal allocation framework.</p>
+
+  <p>The lead manager advises that because the company has changed its name within the last
+  one year and has not earned at least 50% of its preceding full year's revenue from the
+  activity indicated by the new name, it cannot proceed under the normal route. The company
+  proposes instead to use the book building process and commit to allocating at least 75%
+  of the net offer to qualified institutional buyers.</p>
+
+  <p>ZCL proposes to use ₹160 crore for general corporate purposes, ₹200 crore for a proposed
+  acquisition for which no specific target has yet been identified, and the remaining amount
+  for a specific identified expansion project. The Board believes that general corporate
+  purposes can constitute 25% and unidentified acquisitions can constitute another 25%,
+  making 50% permissible.</p>
+
+  <p>In addition, ZCL has firm arrangements for only 65% of the stated means of finance for
+  the specific project, excluding the proposed public issue and existing identifiable internal
+  accruals. The CFO argues that the balance can be arranged after the issue because the issue
+  proceeds themselves will fund the project.</p>
+
+  <p>One of the promoters is also a director of another company that was debarred by SEBI
+  three years ago. The period of debarment expired six months before ZCL plans to file its
+  draft offer document. Another promoter has been classified as a wilful defaulter.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_03_Q1",
+      question: "Since ZCL changed its name within one year and only 42% of its preceding full year's revenue came from the activity indicated by the new name, which route is available to it?",
+      options: [
+        "It can proceed normally without any additional condition.",
+        "It can proceed only through a book building process with an undertaking to allot at least 75% of the net offer to QIBs and refund the full subscription money if that minimum allotment is not achieved.",
+        "It is permanently prohibited from making an FPO.",
+        "It can proceed only through a fixed price issue."
+      ],
+      answer: 1,
+      reason: "Where the issuer changed its name within the preceding one year but does not derive at least 50% of preceding full-year revenue from the activity indicated by the new name, it may proceed only through book building, with at least 75% of net offer to QIBs and refund if that minimum allotment is not achieved."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_03_Q2",
+      question: "What is the maximum amount ZCL may normally allocate to general corporate purposes out of ₹800 crore?",
+      options: [
+        "₹80 crore",
+        "₹160 crore",
+        "₹200 crore",
+        "₹280 crore"
+      ],
+      answer: 1,
+      reason: "General corporate purposes shall not exceed 25% of the amount being raised. 25% of ₹800 crore is ₹200 crore. Therefore, option 2 is correct."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_03_Q3",
+      question: "Which statement correctly describes the finance arrangement requirement for the specific project?",
+      options: [
+        "65% is sufficient because the remaining amount can be financed from the issue proceeds.",
+        "The issuer must have firm arrangements through verifiable means towards 75% of the stated means of finance for the specific project, excluding the proposed public issue and existing identifiable internal accruals.",
+        "The issuer must arrange 100% before filing.",
+        "Only 50% firm financing is required."
+      ],
+      answer: 1,
+      reason: "An FPO issuer must have firm arrangements of finance through verifiable means towards 75% of the stated means of finance for the specific project, excluding the amount proposed to be raised through the public issue and existing identifiable internal accruals."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_03_Q4",
+      question: "Does the previous SEBI debarment of the promoter-director of another company automatically disqualify ZCL where the period of debarment has already expired?",
+      options: [
+        "Yes, irrespective of when the debarment expired.",
+        "No, the restriction does not apply where the period of debarment has already expired as on the date of filing the draft offer document.",
+        "Yes, but only if the company has changed its name.",
+        "No, because directors are never relevant for FPO eligibility."
+      ],
+      answer: 1,
+      reason: "The restrictions relating to persons/entities debarred from accessing the capital market do not apply where the period of debarment is already over as on the date of filing the draft offer document."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_03_Q5",
+      question: "Which fact in the case independently creates a serious eligibility issue for ZCL?",
+      options: [
+        "The company changed its name.",
+        "The company proposes an identified expansion project.",
+        "A promoter is a wilful defaulter.",
+        "The company proposes to use issue proceeds for expansion."
+      ],
+      answer: 2,
+      reason: "An issuer is not eligible to make a further public offer if the issuer or any of its promoters or directors is a wilful defaulter or fraudulent borrower."
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   HARD CASE SCENARIO 4
+========================================================= */
+
+{
+  case_id: "SEBI_ICDR_HARD_CS_04",
+  difficulty: "Hard",
+  case_chapter: [
+    "Green Shoe Option",
+    "Price Stabilisation",
+    "Stabilising Agent",
+    "Post-Issue Compliance"
+  ],
+
+  caseText: `
+
+  <p>Meridian Digital Systems Limited (MDSL) has completed its public issue and has decided
+  to use a green shoe option for stabilising the post-listing price of its specified securities.
+  The general meeting of shareholders has authorised the company to allot specified securities
+  to the stabilising agent, if required, after expiry of the stabilisation period.</p>
+
+  <p>MDSL appoints its lead manager as the stabilising agent. Before filing the draft offer
+  document, MDSL and the stabilising agent enter into an agreement specifying the terms,
+  fees and expenses relating to the green shoe arrangement. Before filing the offer document,
+  the stabilising agent enters into another agreement with the promoters for borrowing
+  specified securities.</p>
+
+  <p>The proposed issue size is ₹400 crore. The stabilising agent proposes an over-allotment
+  of securities worth ₹70 crore. The promoters agree to lend the required securities in
+  dematerialised form. The lead manager argues that since investor demand is extremely high,
+  the company may over-allot up to 25% of the issue size.</p>
+
+  <p>After listing, the stabilising agent opens a special bank account and a separate special
+  account with a depository participant. During the stabilisation period, it purchases a
+  substantial portion of the securities from the market and credits them to the depository
+  participant account.</p>
+
+  <p>At the end of the stabilisation period, the agent has purchased securities corresponding
+  to most, but not all, of the securities over-allotted. The company proposes to allot securities
+  equal to the shortfall to the stabilising agent's special depository account after ten days,
+  because the finance department needs time to reconcile the issue proceeds.</p>
+
+  <p>The stabilising agent also proposes to retain the surplus amount remaining in the special
+  bank account after payment of expenses as compensation for successfully stabilising the
+  share price. It further proposes to maintain transaction records for only two years.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_04_Q1",
+      question: "What is the maximum permissible over-allotment under the green shoe option for an issue size of ₹400 crore?",
+      options: [
+        "₹40 crore",
+        "₹60 crore",
+        "₹70 crore",
+        "₹100 crore"
+      ],
+      answer: 1,
+      reason: "Over-allotment under the green shoe option cannot exceed 15% of the issue size. 15% of ₹400 crore is ₹60 crore."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_04_Q2",
+      question: "MDSL proposes over-allotment of ₹70 crore. What is the correct conclusion?",
+      options: [
+        "It is valid because demand is high.",
+        "It is valid if the promoters consent.",
+        "It exceeds the prescribed maximum of 15% of the issue size.",
+        "It is valid if SEBI gives oral approval."
+      ],
+      answer: 2,
+      reason: "The proposed over-allotment cannot exceed 15% of the issue size. ₹70 crore is 17.5% of ₹400 crore and therefore exceeds the limit."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_04_Q3",
+      question: "If the stabilising agent is unable to purchase securities corresponding to the entire over-allotment, within what period must the issuer allot securities equal to the shortfall?",
+      options: [
+        "Within two working days from the end of the stabilisation period.",
+        "Within five days of closure of the stabilisation period.",
+        "Within ten working days.",
+        "Within thirty days."
+      ],
+      answer: 1,
+      reason: "Where the stabilising agent cannot purchase securities from the market to the extent of securities over-allotted, the issuer must allot securities equal to the shortfall within five days of closure of the stabilisation period."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_04_Q4",
+      question: "What must happen to money remaining in the special bank account after remittance to the issuer and deduction of stabilisation expenses?",
+      options: [
+        "It may be retained by the stabilising agent.",
+        "It must be distributed among promoters.",
+        "It must be transferred to the Investor Protection and Education Fund established by SEBI.",
+        "It must be transferred to the lead manager."
+      ],
+      answer: 2,
+      reason: "Any money remaining after remittance to the issuer and deduction of stabilisation expenses must be transferred to the Investor Protection and Education Fund."
+    },
+
+    {
+      question_id: "SEBI_ICDR_HARD_CS_04_Q5",
+      question: "For how long must the stabilising agent maintain the prescribed register?",
+      options: [
+        "One year.",
+        "Two years.",
+        "Three years from the date of the end of the stabilisation period.",
+        "Five years from listing."
+      ],
+      answer: 2,
+      reason: "The stabilising agent must maintain the prescribed register for at least three years from the date of the end of the stabilisation period."
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   HARD CASE SCENARIO 5
+========================================================= */
+
+{
+  case_id: "SEBI_ICDR_HARD_CS_05",
+  difficulty: "Hard",
+  case_chapter: [
+    "Takeover Regulations",
+    "Acquirer",
+    "Control",
+    "Persons Acting in Concert",
+    "Frequently Traded Shares"
+  ],
+
+  caseText: `
+
+  <p>Stellar Foods Limited is a listed target company. Orion Capital Private Limited,
+  an investment company, has been evaluating the possibility of acquiring a substantial
+  stake in Stellar Foods. Orion already owns 7% of the voting rights in Stellar Foods.</p>
+
+  <p>Orion now enters into an arrangement with its holding company and two promoter-group
+  entities under which the parties agree to jointly acquire additional shares of Stellar Foods
+  and coordinate their voting on important strategic matters. Orion's investment adviser,
+  merchant banker and portfolio manager are also involved in advising the acquisition.</p>
+
+  <p>Separately, the chief executive officer of Stellar Foods argues that because he does not
+  own a significant number of shares, he cannot be regarded as exercising control merely
+  because he participates in management decisions. A shareholder agreement, however,
+  gives Orion the right to appoint a majority of the directors and veto certain major policy
+  decisions.</p>
+
+  <p>Stellar Foods has 1 crore equity shares of a particular class. During the preceding
+  twelve calendar months, 12 lakh shares of that class were traded on stock exchanges.
+  The company argues that the shares should not be treated as frequently traded because
+  only 12% of the total shares changed hands and the actual number of active shareholders
+  was much lower.</p>
+
+  <p>Orion argues that only its own shareholding should be considered when determining
+  whether it is an acquirer. The legal adviser disagrees and states that the definition also
+  covers persons acting in concert and indirect acquisitions.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_SAST_HARD_CS_05_Q1",
+      question: "Which person/entity is most clearly an 'acquirer' under the SAST framework described in the case?",
+      options: [
+        "Only Orion's holding company.",
+        "Only Orion's directors.",
+        "Orion, because it directly or indirectly acquires or agrees to acquire shares, voting rights or control over the target company.",
+        "Only the shareholder who individually acquires more than 10%."
+      ],
+      answer: 2,
+      reason: "An acquirer includes any person who directly or indirectly acquires or agrees to acquire shares, voting rights in, or control over a target company."
+    },
+
+    {
+      question_id: "SEBI_SAST_HARD_CS_05_Q2",
+      question: "The shareholder agreement gives Orion the right to appoint a majority of directors and control policy decisions. Which conclusion is appropriate?",
+      options: [
+        "Orion cannot be considered to have control unless it owns more than 50% shares.",
+        "Orion may be considered to have control because control includes the right to appoint majority of directors or control management or policy decisions.",
+        "Only the CEO can have control.",
+        "A shareholder agreement can never result in control."
+      ],
+      answer: 1,
+      reason: "Control includes the right to appoint majority of directors or to control management or policy decisions, directly or indirectly, including through shareholding or agreements."
+    },
+
+    {
+      question_id: "SEBI_SAST_HARD_CS_05_Q3",
+      question: "Orion and the promoter-group entities have agreed to cooperate for acquiring shares and exercising control. What is the likely characterization?",
+      options: [
+        "They are necessarily independent investors.",
+        "They may be persons acting in concert because they share a common objective or purpose and cooperate pursuant to an agreement or understanding.",
+        "They can never be PACs if they are separate legal entities.",
+        "Only family members can be PACs."
+      ],
+      answer: 1,
+      reason: "Persons acting in concert are persons who share a common objective or purpose of acquisition or control and directly or indirectly cooperate pursuant to an agreement or understanding."
+    },
+
+    {
+      question_id: "SEBI_SAST_HARD_CS_05_Q4",
+      question: "Based on the trading information, are Stellar Foods' shares frequently traded?",
+      options: [
+        "No, because only 12% were traded.",
+        "Yes, because traded turnover is at least 10% of the total number of shares of that class during the preceding twelve calendar months.",
+        "No, because at least 25% must be traded.",
+        "Yes, but only if 50% of shareholders participated."
+      ],
+      answer: 1,
+      reason: "Frequently traded shares are those where traded turnover during the relevant twelve calendar months is at least 10% of the total number of shares of that class."
+    },
+
+    {
+      question_id: "SEBI_SAST_HARD_CS_05_Q5",
+      question: "Which statement regarding control by a director or officer is correct?",
+      options: [
+        "Every CEO automatically has control.",
+        "A director or officer is not considered to be in control merely by virtue of holding that position.",
+        "A director can never exercise control.",
+        "Only a promoter can exercise control."
+      ],
+      answer: 1,
+      reason: "A director or officer of the target company is not considered to be in control merely by virtue of holding that position."
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   MEDIUM CASE SCENARIO 6
+========================================================= */
+
+{
+  case_id: "SEBI_ICDR_MEDIUM_CS_06",
+  difficulty: "Medium",
+  case_chapter: [
+    "Offer Document",
+    "Public Comments",
+    "Lead Manager",
+    "Filing Requirements"
+  ],
+
+  caseText: `
+
+  <p>Horizon Medical Devices Limited proposes to make a public issue of specified securities.
+  The company appoints two lead managers and prepares a draft offer document containing
+  details of its business, financial statements, risk factors, objects of the issue and other
+  material information.</p>
+
+  <p>The company files three copies of the draft offer document with SEBI through the lead
+  managers along with the prescribed fees. The lead managers also submit the required
+  agreement certificate and due diligence certificate. Since the issue includes convertible
+  debt instruments, the company also arranges for the debenture trustee to submit the
+  required due diligence certificate.</p>
+
+  <p>After filing the draft offer document, the company immediately opens the issue for
+  subscription, arguing that investors have already received sufficient information through
+  press releases. The lead manager points out that the draft offer document must first be
+  made available for public comments for the prescribed period.</p>
+
+  <p>The company eventually makes the required public announcement two working days after
+  filing the draft offer document. It hosts the draft document on the websites of the issuer,
+  SEBI, the stock exchanges and the lead managers.</p>
+
+  <p>During the public comment period, several investors submit comments regarding disclosure
+  deficiencies. The lead managers compile the comments and consequential changes and
+  submit them to SEBI after the expiry of the prescribed period.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_06_Q1",
+      question: "For how long must the draft offer document be made public for comments?",
+      options: [
+        "7 days",
+        "14 days",
+        "21 days",
+        "30 days"
+      ],
+      answer: 2,
+      reason: "The draft offer document must be made public for comments for at least 21 days from the date of publication of the public announcement."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_06_Q2",
+      question: "Within what period must the issuer make the public announcement after filing the draft offer document with SEBI?",
+      options: [
+        "Within one working day",
+        "Within two working days",
+        "Within seven working days",
+        "Within ten working days"
+      ],
+      answer: 1,
+      reason: "The issuer must make the public announcement within two working days of filing the draft offer document with SEBI."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_06_Q3",
+      question: "Who is responsible for exercising due diligence regarding the issue and adequacy of disclosures?",
+      options: [
+        "Only the Registrar of Companies.",
+        "Only the stock exchange.",
+        "The lead manager(s).",
+        "Only the debenture holders."
+      ],
+      answer: 2,
+      reason: "The lead manager(s) must exercise due diligence and satisfy themselves about all aspects of the issue, including the veracity and adequacy of disclosures."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_06_Q4",
+      question: "In an issue involving convertible debt instruments, which additional certification is required at the draft offer document stage?",
+      options: [
+        "Certificate from the registrar of companies.",
+        "Due diligence certificate from the debenture trustee.",
+        "Certificate from every shareholder.",
+        "Certificate from the stock exchange."
+      ],
+      answer: 1,
+      reason: "In case of an issue of convertible debt instruments, a due diligence certificate from the debenture trustee is required."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_06_Q5",
+      question: "After expiry of the public comment period, what should the lead manager do with comments received?",
+      options: [
+        "Ignore them unless SEBI specifically asks.",
+        "File details of comments received and consequential changes, if any, with SEBI.",
+        "Send them only to investors.",
+        "Destroy the comments after review."
+      ],
+      answer: 1,
+      reason: "After expiry of the prescribed period, the lead manager must file details of comments received and consequential changes, if any, with SEBI."
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   MEDIUM CASE SCENARIO 7
+========================================================= */
+
+{
+  case_id: "SEBI_ICDR_MEDIUM_CS_07",
+  difficulty: "Medium",
+  case_chapter: [
+    "Pricing",
+    "Price Band",
+    "Differential Pricing",
+    "Issue Period"
+  ],
+
+  caseText: `
+
+  <p>Vertex Consumer Electronics Limited proposes a book-built public issue. The company
+  proposes a floor price of ₹200 and a cap price of ₹240. The management believes that
+  the cap price may be fixed at any level above the floor price because investors are
+  participating through competitive bidding.</p>
+
+  <p>The company plans to announce the price band one working day before the issue opens.
+  The lead manager advises that the announcement must be made at least two working days
+  before opening of the issue.</p>
+
+  <p>Vertex also wants to offer specified securities to retail individual investors at a
+  discount compared with the price offered to other categories. The company proposes a
+  discount of 12%, arguing that retail investors should be encouraged to participate.</p>
+
+  <p>The issue is scheduled to remain open for five working days. During the issue period,
+  the company decides to revise the price band. It proposes to extend the issue by only
+  one working day.</p>
+
+  <p>The company also wants to fix the final price below the face value because its financial
+  adviser believes the lower price would make the issue more attractive.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_07_Q1",
+      question: "Is the proposed price band of ₹200–₹240 permissible?",
+      options: [
+        "Yes, because ₹240 is exactly 120% of ₹200.",
+        "No, because the cap cannot exceed 110% of the floor price.",
+        "No, because the cap must be exactly 105% of the floor price.",
+        "Yes, but only in a fixed price issue."
+      ],
+      answer: 0,
+      reason: "The cap may be less than or equal to 120% of the floor price. ₹240 is 120% of ₹200."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_07_Q2",
+      question: "When should the floor price or price band be announced before opening of the issue?",
+      options: [
+        "At least one working day before.",
+        "At least two working days before.",
+        "At least three calendar days before.",
+        "Only on the opening day."
+      ],
+      answer: 1,
+      reason: "The floor price or price band must be announced at least two working days before opening of the issue."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_07_Q3",
+      question: "What is the maximum discount that may ordinarily be offered to retail individual investors compared with the price at which the net offer is made to other categories, excluding anchor investors?",
+      options: [
+        "5%",
+        "10%",
+        "12%",
+        "15%"
+      ],
+      answer: 1,
+      reason: "Retail individual investors may be offered specified securities at a price not lower by more than 10% of the price at which the net offer is made to other categories, excluding anchor investors."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_07_Q4",
+      question: "If the price band is revised, what is the minimum extension required for the bidding period?",
+      options: [
+        "One working day.",
+        "Two working days.",
+        "Three working days.",
+        "Five working days."
+      ],
+      answer: 2,
+      reason: "In case of revision in the price band, the bidding period must be extended for a minimum period of three working days, subject to the overall requirements."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_07_Q5",
+      question: "Can the final issue price be below the face value of the specified securities?",
+      options: [
+        "Yes, if the lead manager approves.",
+        "Yes, in a book-built issue.",
+        "No, the floor price or final price shall not be less than the face value.",
+        "Yes, if retail investors receive a discount."
+      ],
+      answer: 2,
+      reason: "The floor price or final price cannot be less than the face value of the specified securities."
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   MEDIUM CASE SCENARIO 8
+========================================================= */
+
+{
+  case_id: "SEBI_ICDR_MEDIUM_CS_08",
+  difficulty: "Medium",
+  case_chapter: [
+    "Minimum Application",
+    "Calls",
+    "Allotment",
+    "Minimum Subscription"
+  ],
+
+  caseText: `
+
+  <p>Greenline Logistics Limited launches a public issue of specified securities. The company
+  fixes the minimum application value at ₹12,000 and requires applications in multiples of
+  that minimum application value.</p>
+
+  <p>The issue price is ₹200 per security. The company proposes to collect only ₹40 per
+  security at the application stage and call the remaining amount later. The finance team
+  argues that since ₹40 represents 20% of the issue price, the arrangement should be
+  sufficient.</p>
+
+  <p>The company intends to make calls on the outstanding subscription money over a period
+  of eighteen months. The lead manager points out that the outstanding subscription money
+  should ordinarily be called within twelve months from the date of allotment unless the
+  specified exception relating to appointment of a monitoring agency applies.</p>
+
+  <p>The issue receives subscription from 950 prospective allottees. The management proposes
+  to proceed with allotment because the issue is fully subscribed and the number of applicants
+  should not affect the validity of the issue.</p>
+
+  <p>After allotment, the company and lead managers face delays in completing refunds and
+  unblocking application monies. The company does not initially provide for interest to
+  investors.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_08_Q1",
+      question: "The minimum application value fixed at ₹12,000 falls within which prescribed range?",
+      options: [
+        "₹5,000 to ₹10,000",
+        "₹10,000 to ₹15,000",
+        "₹15,000 to ₹20,000",
+        "There is no prescribed range."
+      ],
+      answer: 1,
+      reason: "The minimum application value must fall within the range of ₹10,000 to ₹15,000."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_08_Q2",
+      question: "At an issue price of ₹200, what is the minimum amount payable on application per security, ordinarily?",
+      options: [
+        "₹25",
+        "₹40",
+        "₹50",
+        "₹100"
+      ],
+      answer: 2,
+      reason: "At least 25% of the issue price must be payable on application. 25% of ₹200 is ₹50."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_08_Q3",
+      question: "When should outstanding subscription money ordinarily be called?",
+      options: [
+        "Within six months from allotment.",
+        "Within twelve months from allotment.",
+        "Within eighteen months from allotment.",
+        "Within twenty-four months from allotment."
+      ],
+      answer: 1,
+      reason: "Outstanding subscription money should ordinarily be called within twelve months from the date of allotment."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_08_Q4",
+      question: "Can Greenline make an allotment when the number of prospective allottees is only 950?",
+      options: [
+        "Yes, because the issue is fully subscribed.",
+        "Yes, if the lead manager consents.",
+        "No, allotment cannot be made if the number of prospective allottees is less than 1,000.",
+        "Yes, provided promoters subscribe to the balance."
+      ],
+      answer: 2,
+      reason: "The issuer shall not make an allotment pursuant to a public issue if the number of prospective allottees is less than 1,000."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_08_Q5",
+      question: "If allotment/refund/unblocking is not completed within the period stipulated by SEBI, what interest rate is prescribed?",
+      options: [
+        "6% per annum",
+        "10% per annum",
+        "12% per annum",
+        "15% per annum"
+      ],
+      answer: 3,
+      reason: "Where securities are not allotted or application monies are not refunded/unblocked within the stipulated period, the issuer shall undertake to pay interest at 15% per annum."
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   MEDIUM CASE SCENARIO 9
+========================================================= */
+
+{
+  case_id: "SEBI_ICDR_MEDIUM_CS_09",
+  difficulty: "Medium",
+  case_chapter: [
+    "Monitoring Agency",
+    "Issue Proceeds",
+    "Post-Issue Reporting",
+    "Promoter Transactions"
+  ],
+
+  caseText: `
+
+  <p>Apex Renewable Energy Limited makes a public issue of specified securities. The issue
+  size, excluding the offer for sale by selling shareholders, is ₹135 crore. The company
+  intends to use the proceeds for setting up wind power facilities and related capital
+  expenditure.</p>
+
+  <p>The finance director believes that because the company is engaged in renewable energy,
+  appointment of a monitoring agency is optional. The lead manager informs the Board that
+  the issue size exceeds the prescribed threshold and therefore the use of proceeds must
+  be monitored by a credit rating agency registered with SEBI.</p>
+
+  <p>The monitoring agency submits reports to the issuer every quarter. However, the company
+  delays public dissemination of one report for fifty days after the end of the relevant quarter.</p>
+
+  <p>During the period beginning with filing of the draft offer document and ending with closure
+  of the issue, a promoter sells a portion of his securities. The issuer records the transaction
+  internally but reports it to the stock exchange after three working days.</p>
+
+  <p>The company also has a proposed pre-IPO placement which was disclosed in the draft offer
+  document. The placement is completed in two separate tranches. The management proposes
+  to report the entire placement only after completion of the second tranche.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_09_Q1",
+      question: "Is appointment of a monitoring agency required based on the issue size described?",
+      options: [
+        "No, because renewable energy companies are exempt.",
+        "Yes, because the issue size excluding offer for sale exceeds ₹100 crore.",
+        "Only if the issue size exceeds ₹500 crore.",
+        "Only if the issue is an FPO."
+      ],
+      answer: 1,
+      reason: "Where the issue size excluding the size of offer for sale by selling shareholders exceeds ₹100 crore, the issuer must arrange for monitoring of the use of proceeds by a SEBI-registered credit rating agency, subject to specified exemptions."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_09_Q2",
+      question: "How frequently should the monitoring agency submit its report?",
+      options: [
+        "Monthly",
+        "Quarterly",
+        "Half-yearly",
+        "Annually"
+      ],
+      answer: 1,
+      reason: "The monitoring agency submits its report to the issuer on a quarterly basis until 100% of the proceeds have been utilised."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_09_Q3",
+      question: "Within what period should the issuer publicly disseminate the monitoring agency's report?",
+      options: [
+        "Within 15 days from quarter end.",
+        "Within 30 days from quarter end.",
+        "Within 45 days from the end of each quarter.",
+        "Within 90 days from quarter end."
+      ],
+      answer: 2,
+      reason: "The issuer must publicly disseminate the monitoring agency's report within 45 days from the end of each quarter by uploading it on its website and submitting it to the stock exchange(s)."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_09_Q4",
+      question: "Within what period must transactions in securities by promoters/promoter group during the relevant issue period be reported to the stock exchange?",
+      options: [
+        "Within 24 hours.",
+        "Within 48 hours.",
+        "Within three working days.",
+        "Within seven days."
+      ],
+      answer: 0,
+      reason: "Transactions in securities by promoters and promoter group between filing of the draft offer document/offer document and closure of the issue must be reported within 24 hours."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_09_Q5",
+      question: "How should the proposed pre-IPO placement be reported when it is completed in tranches?",
+      options: [
+        "Only after all tranches are completed.",
+        "Within 24 hours of each pre-IPO transaction, whether in part or in entirety.",
+        "Within seven days after the issue.",
+        "Only if the total placement exceeds 25%."
+      ],
+      answer: 1,
+      reason: "Any proposed pre-IPO placement disclosed in the draft offer document must be reported to the stock exchange within 24 hours of such pre-IPO transactions, whether in part or in entirety."
+    }
+
+  ]
+},
+
+
+/* =========================================================
+   MEDIUM CASE SCENARIO 10
+========================================================= */
+
+{
+  case_id: "SEBI_ICDR_MEDIUM_CS_10",
+  difficulty: "Medium",
+  case_chapter: [
+    "Convertible Debt Instruments",
+    "Optional Conversion",
+    "Warrants",
+    "Debenture Trustee"
+  ],
+
+  caseText: `
+
+  <p>Silverline Finance Limited proposes to issue listed convertible debt instruments.
+  The value of the convertible portion is ₹18 crore. At the time of issue, the company
+  does not determine the conversion price. The management assumes that holders will
+  automatically be converted into equity shares when the conversion date arrives unless
+  they expressly reject the conversion.</p>
+
+  <p>The company sends a notice to the holders stating that the convertible portion will be
+  converted into equity shares unless the holders respond within fifteen days with an objection.
+  Several holders do not respond. The company treats their silence as positive consent.</p>
+
+  <p>Another group of holders expressly refuses conversion. The company proposes to redeem
+  the relevant portion immediately at a price equal to 95% of face value because the market
+  value of the securities has declined.</p>
+
+  <p>The company also proposes to issue warrants. The exercise price is disclosed upfront and
+  25% of the consideration based on the exercise price is collected at the relevant stage.
+  However, the company informs investors that failure to exercise within three months from
+  allotment will result in forfeiture, whereas the regulations refer to the date of payment
+  of consideration.</p>
+
+  <p>Silverline has also appointed a debenture trustee and obtained a credit rating for the
+  convertible debt instruments. The Board wants to ensure that the terms of redemption
+  are consistent with the offer document.</p>
+  `,
+
+  questions: [
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_10_Q1",
+      question: "Can Silverline treat non-response to its notice as consent to conversion?",
+      options: [
+        "Yes, silence amounts to consent.",
+        "Yes, if the notice gives at least fifteen days.",
+        "No, positive consent of the holders is required and non-receipt of reply cannot be construed as consent.",
+        "Yes, if the debenture trustee agrees."
+      ],
+      answer: 2,
+      reason: "Optionally convertible debt instruments cannot be converted unless holders have sent positive consent. Non-receipt of reply cannot be treated as consent."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_10_Q2",
+      question: "Since the value of the convertible portion exceeds ₹10 crore and the conversion price was not determined at issue, what protection applies?",
+      options: [
+        "Holders must automatically convert.",
+        "Holders must be given an option of not converting the convertible portion into equity shares.",
+        "The issuer may convert without consent.",
+        "The securities automatically become warrants."
+      ],
+      answer: 1,
+      reason: "Where the value of the convertible portion exceeds ₹10 crore and the conversion price was not determined at issue, holders must be given an option not to convert, unless the specified upper limit/formula and justification were disclosed at issue."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_10_Q3",
+      question: "If holders do not exercise the option to convert, at what minimum price must the issuer redeem the relevant portion?",
+      options: [
+        "90% of face value",
+        "95% of face value",
+        "Not less than face value",
+        "Market value only"
+      ],
+      answer: 2,
+      reason: "Where the option not to convert is available and holders do not exercise conversion, the issuer must redeem the relevant portion within one month at a price not less than face value."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_10_Q4",
+      question: "For warrants, from which date is the three-month period for exercise relevant?",
+      options: [
+        "Date of filing of the offer document.",
+        "Date of allotment.",
+        "Date of payment of consideration.",
+        "Date of listing."
+      ],
+      answer: 2,
+      reason: "If the warrant holder does not exercise the option within three months from the date of payment of consideration, the consideration paid in respect of the warrants is forfeited."
+    },
+
+    {
+      question_id: "SEBI_ICDR_MEDIUM_CS_10_Q5",
+      question: "Which combination represents important additional requirements for a public issue of convertible debt instruments?",
+      options: [
+        "Credit rating, appointment of debenture trustee and creation of debenture redemption reserve.",
+        "Only appointment of a registrar.",
+        "Only shareholder approval.",
+        "Only stock exchange approval."
+      ],
+      answer: 0,
+      reason: "The issuer must obtain credit rating, appoint at least one debenture trustee and create a debenture redemption reserve in accordance with the applicable provisions."
+    }
+
+  ]
+},
+
+  // ============================================================
+  // MEDIUM CASE SCENARIO 1
+  // ============================================================
+
+  {
+    case_id: "SEBI_ICDR_CS_31",
+    chapter: "SEBI ICDR Regulations, 2018",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Northstar Renewable Energy Limited is an unlisted company engaged in the development of solar power projects. The company proposes to raise substantial funds from the public for construction of a new solar generation facility and therefore decides to make an initial public offer of convertible debt instruments without making a prior public issue of its equity shares.</p>
+
+      <p>The management initially believed that the company could proceed with the issue merely by preparing an offer document and obtaining approval from the stock exchange. However, during discussions with its legal advisers, the company was informed that an issuer making an initial public offer of convertible debt instruments may do so even without a prior public issue of equity shares, subject to satisfaction of the prescribed conditions.</p>
+
+      <p>Northstar has outstanding debt instruments issued to the public. The company had regularly paid interest and principal on those instruments during the last several years. The management therefore concluded that there was no default which could prevent the proposed issue.</p>
+
+      <p>As part of the proposed issue, Northstar obtained a credit rating from a recognised credit rating agency and appointed a debenture trustee. It also proposed to create security over certain industrial land and machinery owned by it. One of the parcels of land was already subject to a charge in favour of a scheduled commercial bank. Another portion of the proposed security consisted of leasehold land, for which the consent of the lessor had not yet been obtained.</p>
+
+      <p>The debenture trustee informed the company that the security proposed for the convertible debt instruments must be sufficient to discharge the principal amount at all times. The trustee also pointed out that where an existing first or prior charge exists, the asset cover for a second or subsequent charge must be determined after reducing the liabilities having the first or prior charge. The company was asked to obtain the necessary consent before opening the issue.</p>
+
+      <p>At the same time, the finance director proposed that the company should use part of the money raised through the convertible debt instruments to provide a loan to a company belonging to the promoter group. The loan was intended to help the promoter group company acquire shares of another group entity. The legal adviser cautioned the directors that the regulations restrict such use of convertible debt instruments, subject to a specific exception relating to fully convertible instruments having a conversion period of less than eighteen months.</p>
+
+      <p>The company also proposed to issue warrants along with certain specified securities. The proposed warrants would have a tenure of twenty months and the exercise price would be determined through a formula after the issue. The management planned to collect only ten per cent of the consideration upfront and the balance when the warrants were exercised.</p>
+
+      <p>The lead manager advised the company that the proposed warrant structure required substantial modification before the issue could proceed. The board therefore decided to reconsider the tenure, upfront payment and disclosure of the exercise price or formula in the offer document.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_ICDR_CS_31_Q1",
+        question: "Northstar Renewable Energy Limited can make an initial public offer of convertible debt instruments without a prior public issue of equity shares:",
+        options: [
+          "Only if its equity shares are already listed",
+          "Even without a prior public issue of equity shares, subject to the prescribed conditions",
+          "Only after making a rights issue",
+          "Only after obtaining permission from the Ministry of Corporate Affairs"
+        ],
+        answer: 1,
+        reason: "An issuer may make an initial public offer of convertible debt instruments even without making a prior public issue of its equity shares and listing thereof, subject to the applicable conditions."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_31_Q2",
+        question: "Before opening the issue, what is required where security is proposed over leasehold land?",
+        options: [
+          "No consent is required",
+          "Consent of the lessor for the required charge must be obtained and submitted to the debenture trustee",
+          "Only shareholder approval is required",
+          "Only SEBI approval is required"
+        ],
+        answer: 1,
+        reason: "Where the issue is proposed to be secured by creation of security on leasehold land, the consent of the lessor for a second or pari passu charge, as applicable, must be obtained and submitted to the debenture trustee before opening the issue."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_31_Q3",
+        question: "If Northstar proposes to use the convertible debt proceeds to finance a promoter-group company, the issue is generally:",
+        options: [
+          "Permitted without restriction",
+          "Prohibited, subject to the prescribed exception for fully convertible debt instruments with conversion period below eighteen months",
+          "Permitted only if the promoter gives a personal guarantee",
+          "Permitted only where the amount is below ₹10 crore"
+        ],
+        answer: 1,
+        reason: "Convertible debt instruments cannot generally be issued for financing, providing loans to, or acquiring shares of a person belonging to the promoter group or group companies. An exception exists for fully convertible debt instruments where the conversion period is less than eighteen months."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_31_Q4",
+        question: "What is the maximum permissible tenure of warrants proposed by Northstar?",
+        options: [
+          "Twelve months",
+          "Eighteen months",
+          "Twenty-four months",
+          "Thirty-six months"
+        ],
+        answer: 1,
+        reason: "The tenure of warrants issued in an initial public offer cannot exceed eighteen months from the date of allotment."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_31_Q5",
+        question: "Where the exercise price of warrants is based on a formula, the issuer must generally receive upfront:",
+        options: [
+          "10% of the consideration based on the issue price",
+          "15% of the consideration based on the floor price",
+          "25% of the consideration based on the cap price of the relevant price band",
+          "50% of the consideration based on the final price"
+        ],
+        answer: 2,
+        reason: "Where the warrant exercise price is based on a formula, at least twenty-five per cent of the consideration based on the cap price of the price band determined for the linked securities is required upfront."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // MEDIUM CASE SCENARIO 2
+  // ============================================================
+
+  {
+    case_id: "SEBI_ICDR_CS_32",
+    chapter: "SEBI ICDR Regulations, 2018",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Bluewave Technologies Limited is preparing for an initial public offer of equity shares. The company has identified several promoters and promoter-group entities and expects that the post-issue shareholding of the promoters will be below twenty per cent. The board therefore examines how the minimum promoters' contribution requirement can be satisfied.</p>
+
+      <p>The promoters propose to contribute a combination of equity shares and convertible securities. In one category of convertible securities, the conversion price has already been determined and disclosed in the offer document. In another category, the conversion price will be determined later and has not been disclosed at the time of the public issue.</p>
+
+      <p>The finance team initially suggested that the promoters could satisfy their minimum contribution entirely through the existing equity shares held by them, regardless of whether the conversion price of the convertible securities was predetermined. The lead manager disagreed and explained that the manner in which promoters may contribute depends upon whether the price of equity shares arising upon conversion has been predetermined and disclosed.</p>
+
+      <p>Bluewave also intends to rely on certain other investors to make up the shortfall in promoters' contribution. These investors include an alternative investment fund, a scheduled commercial bank and a non-individual public shareholder holding more than five per cent of the post-issue capital. The legal adviser explained that certain specified categories may contribute towards the shortfall, subject to the prescribed maximum limit and without necessarily being identified as promoters.</p>
+
+      <p>The promoters further proposed to deposit their contribution into the company's ordinary current account several days before the issue opens. The statutory adviser recommended instead that the amount be maintained in an escrow account with a scheduled commercial bank and released along with the issue proceeds, subject to the applicable provisions.</p>
+
+      <p>One promoter also proposed to transfer locked-in shares immediately after allotment to an unrelated investor in order to obtain funds for a new personal business. The company was informed that promoter-held specified securities subject to lock-in are not freely transferable and that permitted transfers, where applicable, do not extinguish the remaining lock-in period.</p>
+
+      <p>Another promoter intended to pledge the locked-in securities with a scheduled commercial bank to obtain a personal loan unrelated to the objects of the issue. The board sought clarification regarding whether such pledge would be permitted.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_ICDR_CS_32_Q1",
+        question: "The normal minimum promoters' contribution for the IPO is generally:",
+        options: [
+          "10% of post-issue capital",
+          "15% of post-issue capital",
+          "20% of post-issue capital",
+          "25% of post-issue capital"
+        ],
+        answer: 2,
+        reason: "Promoters are generally required to hold at least twenty per cent of the post-issue capital, subject to the applicable provisions and permitted alternatives."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_32_Q2",
+        question: "Where the price of equity shares arising from conversion of convertible securities is not predetermined and not disclosed in the offer document, promoters should contribute:",
+        options: [
+          "Only through existing equity shares",
+          "Only by subscribing to the convertible securities and undertaking to subscribe to equity shares upon conversion",
+          "Only through debt instruments",
+          "Only through a bank guarantee"
+        ],
+        answer: 1,
+        reason: "Where the conversion price is not predetermined and disclosed, promoters shall contribute by subscribing to the convertible securities and undertake in writing to subscribe to the equity shares pursuant to conversion."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_32_Q3",
+        question: "Which statement regarding contribution by specified persons towards a shortfall is correct?",
+        options: [
+          "Any person may contribute without limitation",
+          "Specified eligible categories may contribute subject to the prescribed maximum of ten per cent of post-issue capital",
+          "Only existing promoters may contribute",
+          "Only retail investors may contribute"
+        ],
+        answer: 1,
+        reason: "Specified eligible entities or shareholders may contribute towards the shortfall, subject to the regulatory conditions and a maximum of ten per cent of post-issue capital without being identified as promoters."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_32_Q4",
+        question: "Where promoters subscribe to equity shares or convertible securities towards minimum promoters' contribution, the amount is generally required to be:",
+        options: [
+          "Kept in an escrow account with a scheduled commercial bank",
+          "Deposited with the stock exchange",
+          "Deposited directly with SEBI",
+          "Paid in cash to the lead manager"
+        ],
+        answer: 0,
+        reason: "The promoters' contribution is generally required to be kept in an escrow account with a scheduled commercial bank and released to the issuer along with the issue proceeds."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_32_Q5",
+        question: "If locked-in promoter securities are validly transferred to a permitted transferee, the lock-in:",
+        options: [
+          "Immediately ends",
+          "Is reduced by half",
+          "Continues for the remaining period with the transferee",
+          "Applies only if SEBI separately orders it"
+        ],
+        answer: 2,
+        reason: "Where transfer of locked-in specified securities is permitted, the lock-in continues for the remaining period with the transferee."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // MEDIUM CASE SCENARIO 3
+  // ============================================================
+
+  {
+    case_id: "SEBI_ICDR_CS_33",
+    chapter: "SEBI ICDR Regulations, 2018",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Harbor Consumer Products Limited is planning an initial public offer through the book-building process. The company and its lead managers are working on the draft offer document and the subsequent filing process. The board of directors has asked the compliance officer to prepare a detailed timetable covering filing, public comments, price disclosure and opening of the issue.</p>
+
+      <p>The company proposes to file three copies of the draft offer document with SEBI through the lead manager. The lead manager is also required to provide the prescribed due diligence certification and confirm that an agreement has been entered into with the issuer. Since the proposed issue includes convertible debt instruments, the company has also appointed a debenture trustee.</p>
+
+      <p>After filing the draft offer document, Harbor plans to make it available to the public for comments. The compliance officer informs the board that the draft offer document must be hosted on the relevant websites and must remain available for public comments for at least twenty-one days. The company also proposes to publish a public announcement within two working days of filing the draft offer document.</p>
+
+      <p>The finance team proposes a price band of ₹100 to ₹125 per share. The company believes that the upper limit can be 125% of the floor price because book building provides flexibility. The lead manager corrects this assumption and explains the prescribed relationship between the cap and floor price.</p>
+
+      <p>The company then considers offering the shares to retail individual investors at a discount. The proposed discount is ₹15 where the price offered to other categories is ₹100. The management asks whether this differential pricing is permissible.</p>
+
+      <p>Finally, the board proposes to open the public issue immediately after filing the red herring prospectus with the Registrar of Companies. The lead manager explains that the issue cannot be opened on the same day and that a minimum waiting period applies.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_ICDR_CS_33_Q1",
+        question: "The draft offer document filed with SEBI must generally be made public for comments for at least:",
+        options: [
+          "7 days",
+          "14 days",
+          "21 days",
+          "30 days"
+        ],
+        answer: 2,
+        reason: "The draft offer document must be made public for comments for a period of at least twenty-one days."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_33_Q2",
+        question: "The public announcement regarding filing of the draft offer document must generally be made within:",
+        options: [
+          "One working day",
+          "Two working days",
+          "Seven working days",
+          "Twenty-one working days"
+        ],
+        answer: 1,
+        reason: "The issuer must make the public announcement within two working days of filing the draft offer document with the Board."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_33_Q3",
+        question: "For a floor price of ₹100, the maximum permissible cap under the stated rule is:",
+        options: [
+          "₹105",
+          "₹110",
+          "₹120",
+          "₹125"
+        ],
+        answer: 2,
+        reason: "The cap of the price band must be less than or equal to 120% of the floor price. Therefore, for ₹100, the maximum is ₹120."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_33_Q4",
+        question: "If the net offer price to other applicants is ₹100, the maximum permissible discount to retail investors under the stated differential pricing rule is:",
+        options: [
+          "₹5",
+          "₹10",
+          "₹15",
+          "₹20"
+        ],
+        answer: 1,
+        reason: "Retail investors may be offered specified securities at a price not lower by more than ten per cent of the price at which the net offer is made to other categories, excluding anchor investors."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_33_Q5",
+        question: "In a book-built issue, the issue may generally be opened only after at least:",
+        options: [
+          "One working day from filing the red herring prospectus",
+          "Two working days from filing the red herring prospectus",
+          "Three working days from filing the red herring prospectus",
+          "Seven working days from filing the red herring prospectus"
+        ],
+        answer: 2,
+        reason: "The issue shall be opened after at least three working days from the date of filing the red herring prospectus with the Registrar of Companies."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // MEDIUM CASE SCENARIO 4
+  // ============================================================
+
+  {
+    case_id: "SEBI_ICDR_CS_34",
+    chapter: "SEBI ICDR Regulations, 2018",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Metro Infrastructure Limited is making a further public offer to finance expansion of its transport infrastructure business. The company proposes to raise ₹600 crore through the issue. Out of this amount, ₹150 crore is proposed to be used for general corporate purposes, while another ₹100 crore is proposed for a possible acquisition whose target has not yet been identified.</p>
+
+      <p>The company has been listed for several years and its equity shares are frequently traded. However, during the previous year, certain complaints relating to dividend payments and dematerialisation were pending. The compliance department has subsequently resolved almost all the complaints.</p>
+
+      <p>One director of Metro Infrastructure is also a director of another company which has been debarred by SEBI from accessing the capital market. The director argues that Metro itself has never been debarred and therefore the proposed FPO should not be affected by the other company's regulatory status.</p>
+
+      <p>Metro has also changed its name approximately eight months before filing the draft offer document. The new name reflects its transition from general engineering activities to infrastructure development. The management claims that the change in name should not prevent the FPO because the company has substantially expanded its infrastructure business during the preceding year.</p>
+
+      <p>The finance department has arranged 75% of the stated means of finance for the specific capital expenditure project proposed to be funded from the issue, excluding the amount proposed to be raised through the public issue itself. The remaining amount is expected to be funded from future operating cash flows.</p>
+
+      <p>The company now asks the lead manager to determine whether it satisfies the key eligibility and general conditions for making the further public offer.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_ICDR_CS_34_Q1",
+        question: "The amount proposed for general corporate purposes is ₹150 crore out of ₹600 crore. This represents:",
+        options: [
+          "20%",
+          "25%",
+          "30%",
+          "35%"
+        ],
+        answer: 1,
+        reason: "₹150 crore ÷ ₹600 crore = 25%. The general corporate purpose limit is 25% of the amount being raised."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_34_Q2",
+        question: "The ₹100 crore acquisition amount, where no acquisition target has been identified, is subject to the specific limit of:",
+        options: [
+          "10% of the issue size",
+          "15% of the issue size",
+          "25% of the issue size",
+          "50% of the issue size"
+        ],
+        answer: 2,
+        reason: "Where the acquisition or investment target has not been identified, the amount for such objects cannot exceed 25% of the amount being raised, subject to the overall conditions."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_34_Q3",
+        question: "An issuer is generally not eligible for an FPO if:",
+        options: [
+          "Its director is a director of another company debarred by SEBI",
+          "It has more than one promoter",
+          "Its issue is above ₹100 crore",
+          "Its shares are frequently traded"
+        ],
+        answer: 0,
+        reason: "An issuer is not eligible where any promoter or director is a promoter or director of another company which is debarred from accessing the capital market by SEBI, subject to the specified exception for expired past debarment."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_34_Q4",
+        question: "Where an issuer has changed its name within the preceding one year, it may generally make an FPO if at least what percentage of preceding full-year revenue was earned from the activity indicated by the new name?",
+        options: [
+          "25%",
+          "40%",
+          "50%",
+          "75%"
+        ],
+        answer: 2,
+        reason: "If the issuer has changed its name during the preceding one year, at least 50% of revenue for the preceding full year should have been earned from the activity indicated by the new name."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_34_Q5",
+        question: "The stated means of finance arranged for the specific project, excluding the proposed public issue and existing identifiable internal accruals, should generally be at least:",
+        options: [
+          "50%",
+          "60%",
+          "75%",
+          "90%"
+        ],
+        answer: 2,
+        reason: "An issuer making an FPO must have firm arrangements of finance through verifiable means towards 75% of the stated means of finance for the specific project, excluding the amount raised through the public issue and existing identifiable internal accruals."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // MEDIUM CASE SCENARIO 5
+  // ============================================================
+
+  {
+    case_id: "SEBI_ICDR_CS_35",
+    chapter: "SEBI ICDR Regulations, 2018",
+    difficulty: "medium",
+
+    caseText: `
+      <p>Evergreen Consumer Limited has completed its public issue and is now dealing with post-issue compliance. The issue received applications from a large number of investors and the company has finalised the basis of allotment with the designated stock exchange, lead managers and registrars.</p>
+
+      <p>Due to an operational error, the company failed to complete the electronic credit of some securities within the prescribed period. Certain applicants also continued to have their application money blocked beyond the period permitted under the applicable framework.</p>
+
+      <p>The lead manager informs the company that where securities are not allotted and/or application monies are not refunded or unblocked within the prescribed period, the issuer is required to pay interest at the specified rate. The finance director initially believes that the interest obligation should apply only to refund amounts and not to delayed dematerialised credit of allotted securities.</p>
+
+      <p>Separately, the company discovers that the stock exchange has rejected its application for listing and trading permission. The company proposes to wait for ten days before refunding the subscription money because it wishes to appeal against the stock exchange's decision.</p>
+
+      <p>During the period between filing the draft offer document and closure of the issue, one promoter sold a portion of his securities. The company failed to report the transaction immediately because the promoter claimed that the sale was a personal transaction unrelated to the public issue.</p>
+
+      <p>The lead manager also reminds the company that post-issue advertisements containing details of subscription, basis of allotment, refunds, credit of securities and listing application must be published within the prescribed period and that the relevant details must also be placed on the stock exchange websites.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_ICDR_CS_35_Q1",
+        question: "Where allotment/refund or unblocking is delayed beyond the prescribed period, the specified interest rate is:",
+        options: [
+          "10% per annum",
+          "12% per annum",
+          "15% per annum",
+          "18% per annum"
+        ],
+        answer: 2,
+        reason: "The issuer is required to pay interest at 15% per annum where the specified securities are not allotted and/or application monies are not refunded or unblocked within the prescribed period."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_35_Q2",
+        question: "The obligation to pay interest can arise where:",
+        options: [
+          "Only refunds are delayed",
+          "Only listing is delayed",
+          "Allotment and/or refund or unblocking is delayed beyond the prescribed period",
+          "Only the post-issue advertisement is delayed"
+        ],
+        answer: 2,
+        reason: "The provision covers delay in allotment and/or refund or unblocking of application monies beyond the prescribed period."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_35_Q3",
+        question: "If listing permission is rejected, the issuer must generally refund the entire money received within:",
+        options: [
+          "Two days of the rejection",
+          "Four days of receipt of intimation of rejection",
+          "Seven days",
+          "Ten days"
+        ],
+        answer: 1,
+        reason: "Where listing or trading permission is not obtained, the issuer must refund the entire monies received within four days of receiving intimation of rejection."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_35_Q4",
+        question: "Transactions in securities by promoters and promoter group between filing and closure of the issue should generally be reported to stock exchanges within:",
+        options: [
+          "24 hours",
+          "48 hours",
+          "7 days",
+          "10 days"
+        ],
+        answer: 0,
+        reason: "Transactions in securities by promoters and promoter group during the relevant period must be reported to the stock exchanges within twenty-four hours."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_35_Q5",
+        question: "Post-issue advertisements containing the prescribed details are generally required within:",
+        options: [
+          "Three days from allotment",
+          "Five days from issue closure",
+          "Ten days from completion of the relevant activities",
+          "Thirty days from listing"
+        ],
+        answer: 2,
+        reason: "The prescribed post-issue advertisement must be released within ten days from completion of the various activities."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // HARD CASE SCENARIO 6
+  // ============================================================
+
+  {
+    case_id: "SEBI_ICDR_CS_36",
+    chapter: "SEBI ICDR Regulations, 2018",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Orion Mobility Limited is an established listed company planning a further public offer to finance a major expansion of its electric vehicle manufacturing capacity. The company proposes to raise ₹1,200 crore through the FPO. The issue is structured through the book-building process and the management expects substantial participation from qualified institutional buyers, non-institutional investors and retail individual investors.</p>
+
+      <p>Orion has been listed for more than three years and its shares have been frequently traded. The company has generally complied with the SEBI Listing Obligations and Disclosure Requirements Regulations. However, during one quarter approximately two years ago, the composition of its board did not comply with the prescribed requirements. The defect was subsequently rectified and the company made adequate disclosure regarding the historical non-compliance in its proposed offer document.</p>
+
+      <p>The company has also maintained a strong investor grievance redressal record and has resolved 96% of the complaints received up to the end of the relevant quarter. The promoters therefore argue that the company should qualify for the exemption from minimum promoters' contribution available in specified circumstances.</p>
+
+      <p>However, the promoters intend to subscribe to a substantial amount of the issue even though the company seeks to rely on the exemption. The finance team proposes that the promoters should acquire the securities at a price below the applicable price determined under the regulations because the promoters are existing shareholders.</p>
+
+      <p>Orion has also issued convertible securities which are convertible into equity shares on different dates. The promoters propose to count their existing equity contribution toward the minimum contribution without considering the weighted average price of the equity shares arising upon conversion of the convertible securities.</p>
+
+      <p>In addition, certain securities held by a promoter were acquired within the preceding three years in exchange for an asset. The transaction involved revaluation of the asset before the securities were issued. Another block of promoter securities was issued as bonus shares out of revaluation reserves. The promoters propose to include both blocks while calculating their minimum promoters' contribution.</p>
+
+      <p>The lead manager asks the board to examine the entire structure carefully because the company cannot simply count every security held by the promoters toward the prescribed contribution merely because the securities are presently owned by them.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_ICDR_CS_36_Q1",
+        question: "The historical board-composition non-compliance may be treated as compliance for the exemption where:",
+        options: [
+          "The company ignores the historical non-compliance",
+          "The company is compliant at filing and adequately discloses the historical non-compliance",
+          "The promoters personally certify that it was immaterial",
+          "The stock exchange gives an oral approval"
+        ],
+        answer: 1,
+        reason: "Where the issuer was non-compliant with board-composition provisions during a quarter but is compliant at filing and makes adequate disclosures about the past non-compliance, the specified condition may be treated as satisfied."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_36_Q2",
+        question: "The investor complaint redressal level of 96% satisfies the numerical threshold of:",
+        options: [
+          "90%",
+          "92%",
+          "95%",
+          "100%"
+        ],
+        answer: 2,
+        reason: "The relevant exemption requires redressal of at least 95% of investor complaints received up to the end of the relevant quarter."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_36_Q3",
+        question: "If promoters subscribe beyond the permitted level when relying on the exemption, the excess subscription is generally required to be made at:",
+        options: [
+          "Any price chosen by the promoters",
+          "The lower of the applicable regulatory price and issue price",
+          "The price determined under the applicable pricing provision or the issue price, whichever is higher",
+          "The face value only"
+        ],
+        answer: 2,
+        reason: "Where promoters subscribe beyond the specified permitted level, the excess subscription is subject to the prescribed pricing requirement, including the higher of the regulatory price and issue price."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_36_Q4",
+        question: "Where promoters' contribution is by equity shares in respect of convertible securities having different conversion dates and predetermined conversion prices, the contribution cannot be at a price lower than:",
+        options: [
+          "The face value",
+          "The lowest conversion price",
+          "The weighted average price of the equity shares arising from conversion",
+          "The average market price of the preceding month"
+        ],
+        answer: 2,
+        reason: "Where convertible securities are convertible or exchangeable on different dates and promoters' contribution is by equity shares with predetermined conversion prices, the contribution cannot be at a price lower than the weighted average price of the equity shares arising from conversion."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_36_Q5",
+        question: "The promoter securities acquired for non-cash consideration involving revaluation of assets during the preceding three years are:",
+        options: [
+          "Automatically eligible",
+          "Ineligible for computation of minimum promoters' contribution, subject to the specified scheme exception",
+          "Eligible if held for six months",
+          "Eligible if approved by the lead manager"
+        ],
+        answer: 1,
+        reason: "Specified securities acquired during the preceding three years for consideration other than cash where revaluation of assets or capitalisation of intangible assets is involved are generally ineligible for computing minimum promoters' contribution, subject to the prescribed exception for approved schemes."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // HARD CASE SCENARIO 7
+  // ============================================================
+
+  {
+    case_id: "SEBI_ICDR_CS_37",
+    chapter: "SEBI ICDR Regulations, 2018",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Vertex Industrial Systems Limited proposes a further public offer of ₹800 crore. The company intends to use ₹400 crore for a new manufacturing plant, ₹200 crore for repayment of loans incurred for capital expenditure, ₹120 crore for general corporate purposes and ₹80 crore for a potential strategic acquisition. At the time of filing the draft offer document, the company has not identified the acquisition target.</p>
+
+      <p>The management believes that the proposed allocation is acceptable because general corporate purposes constitute only 15% of the total issue size. However, the lead manager points out that the regulations impose not only a separate ceiling for general corporate purposes but also a combined ceiling where general corporate purposes are considered together with specified objects for which the acquisition or investment target has not been identified.</p>
+
+      <p>Vertex has also entered into an agreement with a monitoring agency because the issue size exceeds ₹100 crore, excluding the offer-for-sale component. The finance director believes that once the monitoring agency is appointed, the company can use the entire issue proceeds without quarterly reporting because the agency merely monitors the funds internally.</p>
+
+      <p>The company proposes a green shoe option of 18% of the issue size. The stabilising agent has already been appointed, but the agreement with the promoters for borrowing securities has not been executed. The board argues that the agreement can be signed after the issue opens because the green shoe option is required only if the market price falls.</p>
+
+      <p>During the stabilisation period, the stabilising agent expects to purchase securities from the market. It proposes to hold the purchased securities in its ordinary demat account and return them to the promoters approximately one week after the stabilisation period ends.</p>
+
+      <p>The compliance officer also discovers that the stabilisation process is proposed to continue for forty-five days after trading permission. The stabilising agent believes the longer period will provide greater flexibility and better price support.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_ICDR_CS_37_Q1",
+        question: "For ₹800 crore issue size, the ₹120 crore proposed for general corporate purposes represents:",
+        options: [
+          "10%",
+          "15%",
+          "20%",
+          "25%"
+        ],
+        answer: 1,
+        reason: "₹120 crore ÷ ₹800 crore = 15%. Although this is below the 25% standalone limit, other objects without an identified acquisition target must also be considered for the combined limit."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_37_Q2",
+        question: "The combined amount for general corporate purposes and unidentified acquisition/investment objects is subject to an overall ceiling of:",
+        options: [
+          "25% of the amount being raised",
+          "30% of the amount being raised",
+          "35% of the amount being raised",
+          "50% of the amount being raised"
+        ],
+        answer: 2,
+        reason: "The combined amount for general corporate purposes and objects where the acquisition/investment target has not been identified cannot exceed 35% of the amount being raised, subject to the specific 25% ceiling for unidentified acquisition/investment objects."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_37_Q3",
+        question: "For an issue exceeding ₹100 crore, excluding the offer-for-sale component, the monitoring agency generally submits reports:",
+        options: [
+          "Monthly until listing",
+          "Quarterly until 100% of the proceeds are utilised",
+          "Half-yearly for three years",
+          "Only once at the end of the issue"
+        ],
+        answer: 1,
+        reason: "The monitoring agency submits its report to the issuer on a quarterly basis until 100% of the issue proceeds have been utilised."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_37_Q4",
+        question: "The proposed green shoe over-allotment of 18% of the issue size is:",
+        options: [
+          "Permitted because it is below 25%",
+          "Permitted only with shareholder approval",
+          "Not permitted because over-allotment cannot exceed 15% of the issue size",
+          "Permitted only if the stabilisation period is extended"
+        ],
+        answer: 2,
+        reason: "The maximum number of specified securities that may be borrowed for over-allotment under the green shoe mechanism cannot exceed 15% of the issue size."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_37_Q5",
+        question: "The stabilisation process may continue for a maximum period of:",
+        options: [
+          "15 days",
+          "30 days",
+          "45 days",
+          "60 days"
+        ],
+        answer: 1,
+        reason: "The stabilisation process under the green shoe option is available for a period not exceeding thirty days from the date on which trading permission is given."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // HARD CASE SCENARIO 8
+  // ============================================================
+
+  {
+    case_id: "SEBI_ICDR_CS_38",
+    chapter: "SEBI ICDR Regulations, 2018",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Zenith Pharmaceuticals Limited is undertaking a book-built further public offer after changing its business strategy. The company changed its name nine months before filing the draft offer document. Its management claims that the new name accurately represents the company's pharmaceutical business, but the revenue data for the preceding full financial year shows that only 42% of revenue came from the activity indicated by the new name.</p>
+
+      <p>The company therefore proposes to rely on the alternative eligibility route requiring the issue to be made through book building and at least 75% of the net offer to be allotted to qualified institutional buyers. The management believes that if the company cannot satisfy the name-change revenue requirement, it can still proceed provided the institutional allocation is sufficiently high.</p>
+
+      <p>Zenith proposes an allocation of 80% of the net offer to qualified institutional buyers, 10% to retail investors and 10% to non-institutional investors. The management assumes that the excess QIB allocation will automatically satisfy every other category requirement.</p>
+
+      <p>The company also proposes to reserve 8% of the issue size for existing shareholders and 6% for employees. The compliance officer explains that reservations are subject to separate limits and that the reservation for employees is additionally subject to limits on the value of allotment to an individual employee.</p>
+
+      <p>Zenith's lead manager also receives a proposal from a marketing consultant to offer investors gift vouchers if they submit applications during the first two days of the issue. The consultant argues that the vouchers are not cash and therefore do not constitute an incentive prohibited by the regulations.</p>
+
+      <p>Finally, the company proposes to advertise during the issue period that the issue has already received applications exceeding the number of securities offered. The management believes that highlighting investor enthusiasm will improve confidence and encourage further applications.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_ICDR_CS_38_Q1",
+        question: "Since only 42% of preceding full-year revenue came from the activity indicated by Zenith's new name, the company may use the alternative route if it:",
+        options: [
+          "Makes a fixed-price issue with 50% retail allocation",
+          "Uses book building and undertakes to allot at least 75% of the net offer to QIBs, with refund if that minimum is not achieved",
+          "Allocates at least 50% to retail investors",
+          "Obtains a special resolution from existing shareholders only"
+        ],
+        answer: 1,
+        reason: "Where the name-change revenue condition is not satisfied, the issuer may proceed through book building, undertake to allot at least 75% of the net offer to QIBs, and refund full subscription money if the minimum QIB allotment is not achieved."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_38_Q2",
+        question: "Under the alternative route described, the minimum QIB allocation is:",
+        options: [
+          "50%",
+          "60%",
+          "75%",
+          "80%"
+        ],
+        answer: 2,
+        reason: "The alternative eligibility route requires an undertaking to allot at least 75% of the net offer to qualified institutional buyers."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_38_Q3",
+        question: "The aggregate reservation for employees generally cannot exceed:",
+        options: [
+          "2% of post-issue capital",
+          "5% of post-issue capital",
+          "10% of post-issue capital",
+          "15% of post-issue capital"
+        ],
+        answer: 1,
+        reason: "The aggregate reservation for employees cannot exceed 5% of the post-issue capital, subject to the other applicable conditions."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_38_Q4",
+        question: "Offering gift vouchers to induce investors to make applications is:",
+        options: [
+          "Permitted because vouchers are not cash",
+          "Permitted if disclosed in the prospectus",
+          "Prohibited as an incentive connected with making an application, subject to the prescribed exception for fees or commission for services rendered",
+          "Mandatory for retail investors"
+        ],
+        answer: 2,
+        reason: "A person connected with the issue cannot offer direct or indirect incentives in cash, kind, services or otherwise for making an application, except fees or commission for services rendered in relation to the issue."
+      },
+
+      {
+        question_id: "SEBI_ICDR_CS_38_Q5",
+        question: "An advertisement during the open issue period stating that the issue is fully or oversubscribed is:",
+        options: [
+          "Permitted without restriction",
+          "Permitted if the lead manager approves it",
+          "Prohibited",
+          "Permitted only in regional newspapers"
+        ],
+        answer: 2,
+        reason: "During the period the issue is open, advertisements should not give the impression that the issue has been fully subscribed or oversubscribed or indicate investors' response."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // HARD CASE SCENARIO 9
+  // ============================================================
+
+  {
+    case_id: "SEBI_ICDR_CS_39",
+    chapter: "SEBI SAST Regulations, 2011",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Atlas Holdings Private Limited is considering acquiring a substantial stake in Meridian Engineering Limited, a company whose equity shares are listed on a recognised stock exchange. Atlas is controlled by a group of investors who have historically coordinated their investment decisions. Atlas intends to acquire shares directly, while one of its associated investment entities proposes to acquire additional shares through a separate transaction.</p>
+
+      <p>The investment advisers initially calculate the acquisition threshold by considering only the shares that Atlas itself will purchase. They exclude the proposed acquisition by the associated investment entity on the ground that the entity is a separate legal person with independent financial statements.</p>
+
+      <p>During due diligence, it emerges that Atlas and the associated entity have entered into an understanding to jointly acquire Meridian's shares and influence the composition of its board. The two entities also plan to coordinate their voting decisions after the acquisition. The legal team therefore examines whether the entities may constitute persons acting in concert.</p>
+
+      <p>At the same time, Atlas is negotiating an agreement that would give it the contractual right to appoint a majority of Meridian's directors. Atlas argues that it should not be treated as having control until it actually acquires the shares and exercises the appointment right. The target company's existing directors also claim that merely holding their office makes them persons in control of Meridian.</p>
+
+      <p>The proposed acquisition raises another issue because one of Atlas's immediate relatives has agreed to support the acquisition financially. A merchant banker advising Atlas also participates in discussions regarding the acquisition. The compliance team therefore examines the statutory categories of persons who may be deemed to be acting in concert.</p>
+
+      <p>Atlas finally proposes to acquire shares indirectly through another company in which it holds a controlling interest. The transaction is structured so that Atlas itself will not appear as the direct purchaser of Meridian's shares. The advisers are asked whether the takeover regulations apply only to direct acquisitions or also cover indirect acquisitions of shares, voting rights or control.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_SAST_CS_39_Q1",
+        question: "The understanding between Atlas and the associated entity to jointly acquire shares and exercise control is relevant because they may be:",
+        options: [
+          "Independent shareholders in all circumstances",
+          "Persons acting in concert",
+          "Only financial creditors",
+          "Only selling shareholders"
+        ],
+        answer: 1,
+        reason: "Persons who, with a common objective or purpose of acquiring shares, voting rights or control, directly or indirectly cooperate pursuant to a formal or informal understanding may constitute persons acting in concert."
+      },
+
+      {
+        question_id: "SEBI_SAST_CS_39_Q2",
+        question: "Control under the SAST Regulations includes the right to:",
+        options: [
+          "Receive dividends only",
+          "Appoint a majority of directors or control management or policy decisions",
+          "Attend general meetings only",
+          "Inspect the company's books"
+        ],
+        answer: 1,
+        reason: "Control includes the right to appoint a majority of directors or to control management or policy decisions, directly or indirectly, through shareholding, management rights, shareholder agreements, voting agreements or otherwise."
+      },
+
+      {
+        question_id: "SEBI_SAST_CS_39_Q3",
+        question: "A director or officer of a target company is considered to be in control merely because of holding that position:",
+        options: [
+          "Always",
+          "Only if the company is listed",
+          "No, merely holding the position does not by itself constitute control",
+          "Only if the director owns one share"
+        ],
+        answer: 2,
+        reason: "The definition specifically provides that a director or officer of a target company shall not be considered to be in control merely by virtue of holding such position."
+      },
+
+      {
+        question_id: "SEBI_SAST_CS_39_Q4",
+        question: "The SAST Regulations generally apply to:",
+        options: [
+          "Only direct acquisitions",
+          "Only acquisitions of physical shares",
+          "Direct and indirect acquisition of shares or voting rights in, or control over, a target company",
+          "Only acquisitions resulting in 100% ownership"
+        ],
+        answer: 2,
+        reason: "The regulations apply to direct and indirect acquisition of shares or voting rights in, or control over, a target company, subject to the stated applicability provisions."
+      },
+
+      {
+        question_id: "SEBI_SAST_CS_39_Q5",
+        question: "Which person is specifically included among deemed persons acting in concert with an acquirer in the circumstances described?",
+        options: [
+          "An immediate relative",
+          "Any unrelated customer",
+          "Any employee of the target company",
+          "Any retail shareholder of the target"
+        ],
+        answer: 0,
+        reason: "Immediate relatives are included among the categories deemed to be persons acting in concert with other persons within the relevant category."
+      }
+
+    ]
+  },
+
+
+  // ============================================================
+  // HARD CASE SCENARIO 10
+  // ============================================================
+
+  {
+    case_id: "SEBI_ICDR_CS_40",
+    chapter: "SEBI SAST Regulations, 2011",
+    difficulty: "hard",
+
+    caseText: `
+      <p>Summit Capital Fund is examining a proposed acquisition of shares and control in Horizon Infrastructure Limited, a listed target company. Summit is advised by a merchant banker and a portfolio manager, while financing arrangements are being discussed with a bank. The acquisition team wants to structure the transaction so that the persons involved remain outside the concept of persons acting in concert wherever possible.</p>
+
+      <p>Summit has entered into an agreement with another investment company under which both parties will pursue a common objective of acquiring shares of Horizon and will coordinate their voting decisions. The second investment company has a shareholder who holds more than ten per cent of its paid-up capital and also holds a similar interest in another investment fund that is expected to participate in the acquisition.</p>
+
+      <p>The compliance officer examines whether the common objective and coordinated conduct could result in the parties being treated as persons acting in concert. The officer also examines the statutory rules relating to investment companies or funds and persons having significant interests in such entities.</p>
+
+      <p>Meanwhile, the merchant banker argues that its relationship with Summit is purely professional and therefore cannot create any deemed concert relationship. The portfolio manager takes a similar position but has been actively advising Summit on the acquisition strategy and execution. The bank financing the acquisition provides ordinary commercial banking services but does not participate in the acquisition decision-making.</p>
+
+      <p>Horizon's shares are actively traded. The investment team calculates the traded turnover during the preceding twelve calendar months and finds that the turnover on a stock exchange is 11% of the total number of shares of the relevant class. However, the share capital of that class was not identical throughout the entire period because of a corporate action. The team therefore needs to determine how the total number of shares should be considered for deciding whether the shares qualify as frequently traded.</p>
+
+      <p>Finally, Summit considers acquiring a company whose shares are listed on the Innovators Growth Platform but which had been listed without making a public issue. The advisers are asked whether the SAST Regulations necessarily apply to that target in the same manner as they apply to other listed target companies.</p>
+    `,
+
+    questions: [
+
+      {
+        question_id: "SEBI_SAST_CS_40_Q1",
+        question: "Two investment entities that cooperate pursuant to an understanding to acquire shares with a common objective may be treated as:",
+        options: [
+          "Persons acting in concert",
+          "Independent auditors",
+          "Only institutional investors without any common status",
+          "Target-company employees"
+        ],
+        answer: 0,
+        reason: "Persons who cooperate directly or indirectly pursuant to a formal or informal agreement or understanding with a common objective of acquisition or control may be persons acting in concert."
+      },
+
+      {
+        question_id: "SEBI_SAST_CS_40_Q2",
+        question: "Under the specified deemed-PAC provision, an investment company or fund may be treated in concert with a person having an interest of at least:",
+        options: [
+          "5% in the relevant investment company or fund",
+          "10% in the relevant investment company or fund",
+          "15% in the relevant investment company or fund",
+          "25% in the relevant investment company or fund"
+        ],
+        answer: 1,
+        reason: "The specified category covers an investment company or fund and a person having an interest as shareholder or unitholder of not less than 10% of the paid-up capital or unit capital, subject to the regulatory conditions."
+      },
+
+      {
+        question_id: "SEBI_SAST_CS_40_Q3",
+        question: "A bank whose sole role is to provide normal commercial banking services is:",
+        options: [
+          "Always deemed to be acting in concert",
+          "Not covered by the specified deemed-PAC provision merely because it provides normal commercial banking services",
+          "Automatically an acquirer",
+          "Automatically the target company"
+        ],
+        answer: 1,
+        reason: "The deemed-PAC provision concerning banks and advisers contains an exception for a bank whose sole role is providing normal commercial banking services or activities in relation to an open offer."
+      },
+
+      {
+        question_id: "SEBI_SAST_CS_40_Q4",
+        question: "Where the share capital of a particular class is not identical throughout the relevant twelve-month period, the total number of shares for determining frequent trading is represented by:",
+        options: [
+          "The highest number of shares during the period",
+          "The lowest number of shares during the period",
+          "The weighted average number of total shares of that class",
+          "The number of shares on the acquisition date"
+        ],
+        answer: 2,
+        reason: "Where the share capital of a particular class is not identical throughout the relevant period, the weighted average number of total shares of that class represents the total number for determining frequently traded shares."
+      },
+
+      {
+        question_id: "SEBI_SAST_CS_40_Q5",
+        question: "The SAST Regulations do not apply to direct or indirect acquisition of shares, voting rights or control over:",
+        options: [
+          "Every listed company",
+          "A company listed without making a public issue on the Innovators Growth Platform of a recognised stock exchange, subject to the stated provision",
+          "Every frequently traded company",
+          "Every public sector undertaking"
+        ],
+        answer: 1,
+        reason: "The regulations provide that they do not apply to direct and indirect acquisition of shares or voting rights in, or control over, a company listed without making a public issue on the Innovators Growth Platform of a recognised stock exchange."
       }
 
     ]
