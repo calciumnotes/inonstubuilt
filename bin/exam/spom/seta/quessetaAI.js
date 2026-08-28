@@ -29122,6 +29122,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_medium_01",
     case_chapter: ["FEMA", "Residential Status", "Person Resident in India"],
+    difficulty: "medium",
     caseText: `<p>Mr. Arjun, an Indian citizen, had been residing in India for more than 182 days during the financial year 2025-26. On 10 April 2026, he left India to take up employment with a technology company in Singapore. His employment contract was for an indefinite period and there was no fixed date for his return to India.</p>
     <p>Before leaving India, Arjun maintained a foreign currency account which he had legitimately acquired while he was earlier a person resident outside India. After taking up employment in Singapore, he also received salary in Singapore dollars in his Singapore bank account.</p>
     <p>Arjun's brother argued that since Arjun had stayed in India for more than 182 days during the preceding financial year, he would continue to be a person resident in India throughout FY 2026-27. Arjun's professional adviser disagreed and stated that FEMA residential status depends upon the purpose for which a person leaves India and is relevant from the date of the change in circumstances.</p>`,
@@ -29188,6 +29189,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_medium_02",
     case_chapter: ["FEMA", "Current Account Transaction", "Capital Account Transaction"],
+    difficulty: "medium",
     caseText: `<p>Zenith Engineering Ltd., a company resident in India, imported specialised machinery from a German supplier. The machinery was paid for immediately through its Authorised Dealer Category-I bank. In another transaction, Zenith imported additional machinery from the same supplier under a six-month credit arrangement.</p>
     <p>The finance manager classified both transactions as capital account transactions because machinery is treated as a capital asset in the company's books. The company's FEMA consultant explained that the classification under FEMA does not depend merely upon whether an item is capital or revenue expenditure under accounting principles.</p>
     <p>Zenith also planned to remit USD 30,000 to the daughter of one of its directors, who was studying abroad, towards her living expenses. The remittance was proposed through the company's authorised banking channel.</p>`,
@@ -29254,6 +29256,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_medium_03",
     case_chapter: ["FEMA", "Current Account Transactions", "Liberalised Remittance Scheme"],
+    difficulty: "medium",
     caseText: `<p>Ms. Kavya, a person resident in India, intends to remit foreign exchange during FY 2026-27 for several purposes. She proposes to remit USD 80,000 for studies abroad, USD 40,000 as a gift to her brother residing overseas and USD 50,000 for a private visit abroad.</p>
     <p>She also wishes to remit an additional USD 100,000 for another permissible current account purpose during the same financial year. Kavya believes that every permissible transaction can be made without considering the aggregate limit because the purposes are different.</p>
     <p>Her bank informs her that the Liberalised Remittance Scheme applies to resident individuals and that the prescribed annual limit has to be considered while determining the available remittance facility.</p>`,
@@ -29320,6 +29323,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_medium_04",
     case_chapter: ["FEMA", "Import of Goods", "Authorised Dealer"],
+    difficulty: "medium",
     caseText: `<p>Orbit Components Ltd. imported electronic components from Japan. The company made payment through its Authorised Dealer Category-I bank. The bank requested evidence of import and asked Orbit to furnish the relevant import documentation.</p>
     <p>Orbit's accounts department argued that once the foreign exchange had been remitted to the supplier, no further action was necessary. The Authorised Dealer explained that the purchaser of foreign exchange has obligations regarding utilisation and evidence of import.</p>
     <p>Due to a commercial dispute concerning quality, Orbit could not settle another import liability within six months from the date of shipment. Orbit requested an extension from its Authorised Dealer.</p>`,
@@ -29386,6 +29390,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_medium_05",
     case_chapter: ["FEMA", "Section 3", "Authorised Person"],
+    difficulty: "medium",
     caseText: `<p>Rohan, a person resident in India, was approached by his friend who was a person resident outside India. The friend wanted to sell USD 5,000 directly to Rohan at a rate better than the rate offered by authorised dealers. Rohan agreed to purchase the dollars in cash.</p>
     <p>In another transaction, a foreign tourist visiting India wanted to pay a restaurant directly in US dollars in cash. The restaurant accepted the payment even though it did not have the necessary authorisation to deal in foreign exchange.</p>
     <p>A FEMA consultant advised both parties that FEMA regulates dealings in foreign exchange and that specified transactions must be carried out through an Authorised Person unless otherwise permitted.</p>`,
@@ -29457,6 +29462,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_hard_01",
     case_chapter: ["FEMA", "Residential Status", "Capital Account", "Current Account"],
+    difficulty: "hard",
     caseText: `<p>Mr. Dev, an Indian citizen, had stayed in India for more than 182 days during FY 2025-26. On 1 April 2026, he travelled to Canada to pursue a three-year professional course. He did not initially take up employment in Canada and stated that he intended to return to India after completing his studies.</p>
     <p>During FY 2026-27, Dev received a scholarship in Canada and maintained a Canadian bank account. His parents in India periodically remitted amounts to him for his living expenses. Dev subsequently obtained employment in Canada on 1 December 2026 and decided to remain there indefinitely.</p>
     <p>On 15 December 2026, he purchased shares of a Canadian company using his Canadian bank balance. His father argued that Dev remained a person resident in India because he had stayed in India for more than 182 days in the preceding financial year. Dev's adviser stated that the position must be examined separately at different points in time.</p>`,
@@ -29523,6 +29529,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_hard_02",
     case_chapter: ["FEMA", "Overseas Investment", "ODI", "OPI"],
+    difficulty: "hard",
     caseText: `<p>Alpha India Ltd., an Indian company, proposes to establish a wholly-owned subsidiary in Germany. The German entity will carry on a genuine technology business permitted both in India and Germany. Alpha proposes to acquire 100% of the unlisted equity capital of the German entity and also provide debt financing to it.</p>
     <p>Separately, Alpha proposes to purchase 8% of the equity shares of a listed foreign company without acquiring control. The foreign company's shares are listed on a recognised stock exchange outside India.</p>
     <p>Alpha's CFO argues that both investments should be classified as Overseas Direct Investment because both involve equity. The compliance officer disagrees and points out that the distinction between ODI and OPI depends upon the nature and percentage of investment and control.</p>
@@ -29590,6 +29597,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_hard_03",
     case_chapter: ["FEMA", "External Commercial Borrowings", "ECB"],
+    difficulty: "hard",
     caseText: `<p>Nova Manufacturing Ltd., an eligible Indian entity, proposes to raise a foreign currency denominated External Commercial Borrowing of USD 40 million from a recognised lender. The proposed ECB has a minimum average maturity period of three years and is intended partly for repayment of domestic Rupee loans originally taken for capital expenditure.</p>
     <p>The company proposes an all-in-cost of benchmark rate plus 500 basis points. It also intends to obtain the ECB proceeds immediately but plans to draw down the funds before obtaining a Loan Registration Number (LRN).</p>
     <p>The CFO argues that because the borrowing is under the automatic route, RBI approval is not necessary and therefore the LRN requirement should not apply. The treasury department also proposes to use part of the ECB proceeds for investment in the capital market.</p>`,
@@ -29656,6 +29664,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_hard_04",
     case_chapter: ["FEMA", "Overseas Investment", "No Objection Certificate", "Disinvestment"],
+    difficulty: "hard",
     caseText: `<p>Beta Infrastructure Ltd. has made an ODI in a foreign construction company three years ago. The foreign entity has suffered losses for the previous two years. Beta now proposes to restructure the balance sheet of the foreign entity, resulting in a diminution in the value of its outstanding investment.</p>
     <p>At the same time, Beta proposes to disinvest completely from the foreign entity by selling its equity to another eligible investor. Beta has certain outstanding dues receivable from the foreign entity as an investor.</p>
     <p>Beta's banking account has also been classified as a non-performing asset. The company argues that its NPA status does not affect its overseas investment because the original ODI was validly made.</p>
@@ -29723,6 +29732,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_hard_05",
     case_chapter: ["FEMA", "Capital Account Transactions", "Overseas Investment", "Section 6"],
+    difficulty: "hard",
     caseText: `<p>Gamma Holdings, a person resident in India, is evaluating several cross-border transactions. First, it proposes to acquire an immovable property in France using funds remitted from India. Second, it proposes to acquire another property abroad through inheritance from a person who was resident outside India. Third, Gamma proposes to invest in a foreign entity engaged in development of residential premises and roads. Finally, Gamma proposes to invest in a foreign entity that has an indirect investment in India and would result in a structure having more than two layers of subsidiaries.</p>
     <p>The management initially concluded that all four transactions should be prohibited because Section 4 generally restricts Indian residents from holding foreign exchange, foreign securities or immovable property outside India. The FEMA consultant explained that Section 6 and the Overseas Investment Rules contain specific permissions and exceptions which must be considered transaction-wise.</p>
     <p>Gamma also proposes to make an investment in an overseas entity formed in Pakistan. The management believes that because the entity carries on a legitimate business, no special approval is required.</p>`,
@@ -29793,6 +29803,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_medium_06",
     case_chapter: ["FEMA", "Residential Status", "Person Resident in India"],
+    difficulty: "medium",
     caseText: `<p>Mr. Raghav is an Indian citizen who had been residing in India for several years. During the financial year 2025-26, he stayed in India for 240 days. On 15 May 2026, he travelled to the United Kingdom for the purpose of taking up employment with a multinational company. His employment agreement did not specify any definite date of return to India. His employer provided him accommodation in London and Raghav shifted his principal economic activities to the United Kingdom.</p>
 
     <p>Before leaving India, Raghav maintained several bank accounts in India and also owned a residential property in Bengaluru. He continued to receive rental income from the Indian property after moving to the United Kingdom. His brother argued that because Raghav had stayed in India for more than 182 days during the preceding financial year, he would necessarily remain a person resident in India throughout FY 2026-27.</p>
@@ -29863,6 +29874,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_medium_07",
     case_chapter: ["FEMA", "Section 3", "Foreign Exchange", "Authorised Person"],
+    difficulty: "medium",
     caseText: `<p>Sunrise Exports Ltd. regularly receives payments from customers located in Europe and the United States. The company maintains an account with an Authorised Dealer Category-I bank and ordinarily receives export proceeds through normal banking channels.</p>
 
     <p>One of Sunrise's overseas customers, however, suggested an alternative arrangement. Under the proposal, the customer would pay an amount equivalent to USD 25,000 to a third party in Dubai, while Sunrise's Indian director would receive an equivalent amount in Indian rupees from another Indian intermediary. The customer claimed that this arrangement would reduce banking charges and save time.</p>
@@ -29935,6 +29947,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_medium_08",
     case_chapter: ["FEMA", "Current Account Transactions", "Schedule I", "Schedule III"],
+    difficulty: "medium",
     caseText: `<p>Brightstar Media Pvt. Ltd. is planning several international payments during FY 2026-27. The company intends to remit USD 7,000 towards a foreign magazine advertisement connected with promotion of its business. It also proposes to pay USD 20,000 to an overseas consultant for specialised business advice.</p>
 
     <p>At the same time, one of the company's directors, who is a resident individual, plans to remit USD 30,000 for a private visit abroad, USD 40,000 as a gift and USD 60,000 for medical treatment of a close family member abroad. The director intends to make all these payments through an Authorised Dealer.</p>
@@ -30005,6 +30018,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_medium_09",
     case_chapter: ["FEMA", "Capital Account Transactions", "Section 6"],
+    difficulty: "medium",
     caseText: `<p>Trident Technologies Ltd., a person resident in India, is considering a number of international transactions as part of its global expansion strategy. The company proposes to invest in equity shares of a foreign subsidiary, obtain a foreign currency loan from an overseas lender, maintain a foreign currency account outside India and acquire an insurance policy from an overseas insurance company.</p>
 
     <p>The CFO argues that these transactions should all be freely permissible because Trident has sufficient foreign currency resources. The legal adviser explains that availability of funds does not by itself determine whether a capital account transaction is permissible.</p>
@@ -30075,6 +30089,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_medium_10",
     case_chapter: ["FEMA", "Import of Goods", "Foreign Currency", "Authorised Dealer"],
+    difficulty: "medium",
     caseText: `<p>Mr. Sameer, a person resident in India, returned to India after a short visit to the United States. He carried USD 7,500 in currency notes and travellers' cheques. He also had a foreign currency bank balance maintained outside India. On arrival, he was informed by a customs official that declarations may be required depending upon the amount and form of foreign exchange brought into India.</p>
 
     <p>In another transaction, Sameer's company imported machinery from South Korea. The company acquired foreign exchange through its Authorised Dealer and made payment to the supplier. The supplier subsequently provided the required shipping documents, and the company furnished evidence of import through the prescribed system.</p>
@@ -30222,6 +30237,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_hard_07",
     case_chapter: ["FEMA", "ECB", "External Commercial Borrowings", "Reporting"],
+    difficulty: "hard",
     caseText: `<p>Vertex Infrastructure Ltd., an Indian company eligible to raise ECB, enters into an agreement with a recognised overseas lender for a foreign currency denominated ECB of USD 60 million. The loan carries a minimum average maturity period of three years. The company proposes to use the proceeds partly for general corporate purposes and partly for repayment of domestic Rupee borrowings.</p>
 
     <p>The treasury team informs the board that the ECB will be raised under the automatic route because the company satisfies the eligibility conditions. The company therefore plans to draw down the first instalment immediately after signing the loan agreement. The compliance head objects, stating that obtaining an LRN is a prerequisite before drawdown.</p>
@@ -30294,6 +30310,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_hard_08",
     case_chapter: ["FEMA", "Overseas Investment", "ODI", "Financial Commitment", "Strategic Sector"],
+    difficulty: "hard",
     caseText: `<p>Orion Electronics Ltd., an Indian company, proposes to expand its operations internationally. It plans to establish an unlisted foreign subsidiary in Singapore to manufacture specialised electronic components. The subsidiary will conduct a genuine business activity permitted in both India and Singapore.</p>
 
     <p>Orion proposes to acquire 100% of the foreign entity's equity capital and additionally provide a loan to the subsidiary. It also proposes to issue a corporate guarantee in favour of an overseas lender financing the subsidiary. The CFO calculates only the equity investment and concludes that the proposed transaction is comfortably within the company's overseas investment limit.</p>
@@ -30366,6 +30383,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_hard_09",
     case_chapter: ["FEMA", "Overseas Investment", "Immovable Property", "LRS"],
+    difficulty: "hard",
     caseText: `<p>Ms. Nisha is a resident individual who wishes to acquire an apartment in Dubai. She has accumulated funds in India and maintains a Resident Foreign Currency Account containing foreign currency lawfully held by her. She also has an overseas property inherited from her grandfather, who was resident outside India.</p>
 
     <p>Nisha proposes to purchase the Dubai apartment partly from funds available in her RFC account and partly through remittances under the Liberalised Remittance Scheme. Her brother, who is also resident in India, offers to contribute his unused LRS limit to the purchase. The apartment is proposed to be registered jointly in their names.</p>
@@ -30438,6 +30456,7 @@ const AICaseStudies = [
 {
     case_id: "fema_cs_hard_10",
     case_chapter: ["FEMA", "ODI", "OPI", "Transfer", "Disinvestment", "Restructuring"],
+    difficulty: "hard",
     caseText: `<p>Global Foods India Ltd. made an overseas direct investment four years ago by acquiring 75% of the equity capital of a foreign company engaged in food processing. The foreign entity initially performed well, but during the last two financial years it incurred substantial losses. Its audited financial statements now indicate accumulated losses and a significant reduction in the value of the Indian company's investment.</p>
 
     <p>Global Foods proposes to restructure the foreign company's balance sheet. Under the proposed restructuring, the value of its outstanding investment would be reduced by 18%. The original investment was USD 12 million. The company's management believes that because the reduction is below 20%, no valuation or certification requirement can arise.</p>
@@ -30501,6 +30520,2816 @@ const AICaseStudies = [
                 "There was no objection to the proposed transaction",
                 "The applicant becomes a person resident outside India",
                 "The overseas entity must be liquidated"
+            ],
+            answer: 1
+        }
+    ]
+},
+{
+    case_id: "fema_cs_medium_05",
+    case_chapter: ["FEMA", "Overseas Direct Investment", "Financial Commitment"],
+    difficulty: "medium",
+    caseText: `<p>Arvind Global Industries Limited, an Indian company engaged in the manufacture of specialised industrial machinery, has been expanding its operations outside India. The company proposes to acquire equity capital in a foreign entity incorporated in Singapore for the purpose of carrying on a bona fide manufacturing business. The proposed investment is intended to be made partly by subscribing to fresh equity shares and partly by acquiring existing equity shares from an existing shareholder of the Singapore company.</p>
+    <p>During the Board meeting, the Chief Financial Officer explained that overseas direct investment by an Indian entity may be made or held through several recognised modes. These include subscription to equity capital as part of the memorandum of association, purchase of listed or unlisted equity capital, acquisition through bidding or tender procedure, acquisition through rights issue or allotment of bonus shares, permitted capitalisation of amounts due from the foreign entity, swap of securities and certain transactions arising pursuant to merger, demerger, amalgamation or a scheme of arrangement.</p>
+    <p>Arvind Global Industries Limited also has an amount receivable from its Singapore subsidiary in respect of certain technical services provided to it. The amount is legally capable of being remitted to India and the management is considering capitalising the amount towards additional equity in the foreign entity. One of the directors, however, argues that only fresh cash subscription can qualify as ODI and that capitalisation of receivables cannot be considered an investment.</p>
+    <p>The compliance officer further informed the Board that the company must consider its aggregate financial commitment in all foreign entities rather than examining each overseas investment independently. The company therefore decides to review all its existing overseas commitments before making the proposed investment.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_05_1",
+            question: "Which of the following is a recognised manner in which an Indian entity may make or hold ODI?",
+            options: [
+                "Only by subscribing to fresh equity for cash",
+                "By subscription or purchase of equity capital, including listed or unlisted equity",
+                "Only by purchasing listed shares",
+                "Only by acquiring debt instruments"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_05_2",
+            question: "Can an Indian entity make ODI by capitalising an amount due from a foreign entity?",
+            options: [
+                "No, capitalisation can never constitute ODI",
+                "Yes, where the amount is otherwise permitted to be remitted or does not require prior permission",
+                "Only where the foreign entity is a bank",
+                "Only with approval of SEBI"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_05_3",
+            question: "Which of the following is also recognised as a possible mode of ODI?",
+            options: [
+                "Swap of securities",
+                "Issue of Indian currency notes abroad",
+                "Transfer of domestic immovable property automatically",
+                "Cash withdrawal without banking channels"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_05_4",
+            question: "While determining the financial commitment limit, what broad principle should Arvind Global Industries Limited follow?",
+            options: [
+                "Consider each foreign entity separately",
+                "Consider only the largest foreign investment",
+                "Consider total financial commitment in all foreign entities taken together",
+                "Consider only equity investments made during the current year"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_05_5",
+            question: "Which of the following transactions is specifically recognised as a mode of making or holding ODI under Schedule I?",
+            options: [
+                "Merger, demerger, amalgamation or scheme of arrangement subject to applicable laws",
+                "Purchase of any domestic asset by the foreign entity",
+                "Payment of ordinary household expenses",
+                "Purchase of lottery tickets abroad"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_06",
+    case_chapter: ["FEMA", "Overseas Direct Investment", "Debt and Guarantee"],
+    difficulty: "medium",
+    caseText: `<p>Mehta Engineering Limited, an Indian entity with substantial operations in the infrastructure sector, has acquired control over a foreign subsidiary incorporated in the United Arab Emirates. After acquiring control, the Indian company decides to provide additional financial support to the overseas subsidiary because the subsidiary requires funds for purchasing machinery and meeting working-capital requirements.</p>
+    <p>The Indian company proposes to provide a loan to the foreign subsidiary under a written loan agreement. The finance department suggests charging interest at a very low rate because the foreign subsidiary is wholly controlled by Mehta Engineering Limited. The tax and compliance teams, however, advise that the interest rate should be determined on an arm's-length basis, since the regulations require the loan to be duly backed by a loan agreement and the rate of interest should satisfy the applicable requirement.</p>
+    <p>At the same time, the overseas subsidiary approaches an international lender for a large loan. The lender asks Mehta Engineering Limited to provide a corporate guarantee. The Indian company proposes to issue the guarantee without specifying an expiry date, arguing that the guarantee can remain valid until the entire overseas loan is repaid.</p>
+    <p>The compliance officer points out that guarantees issued as financial commitment are subject to specific conditions and that a guarantee cannot remain open-ended. He also explains that where a guarantee is invoked, the treatment of the invoked amount changes for the purpose of financial commitment. The Board therefore seeks advice on the regulatory position before approving the proposed arrangements.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_06_1",
+            question: "Before an Indian entity makes financial commitment by lending to a foreign entity, which condition is relevant under the regulations?",
+            options: [
+                "The Indian entity must be eligible to make ODI and have made ODI in the foreign entity",
+                "The Indian entity must be a listed company",
+                "The foreign entity must be located only in Singapore",
+                "The Indian entity must have no foreign subsidiary"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_06_2",
+            question: "A loan given by an Indian entity to its foreign entity should be backed by:",
+            options: [
+                "An oral understanding",
+                "A duly executed loan agreement",
+                "Only a board meeting attendance sheet",
+                "A domestic sale agreement"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_06_3",
+            question: "What is the requirement regarding the interest rate on such loan?",
+            options: [
+                "It must be charged on an arm's-length basis",
+                "It must always be zero",
+                "It must be below the domestic savings rate",
+                "There is no requirement regarding interest"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_06_4",
+            question: "Can a guarantee issued as financial commitment be open-ended?",
+            options: [
+                "Yes, in every case",
+                "Yes, if approved by the foreign subsidiary",
+                "No, a guarantee shall not be open-ended",
+                "Only if it is a performance guarantee"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_06_5",
+            question: "When a guarantee is invoked to the extent of the amount invoked, how is that amount treated?",
+            options: [
+                "It ceases to be relevant for financial commitment",
+                "It continues only as a non-fund-based commitment",
+                "It ceases to be non-fund-based commitment and is considered as lending",
+                "It is automatically treated as equity capital"
+            ],
+            answer: 2
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_07",
+    case_chapter: ["FEMA", "Overseas Direct Investment", "Reporting Requirements"],
+    difficulty: "medium",
+    caseText: `<p>Sunrise Pharmaceuticals Limited, an Indian company, has made ODI in a foreign pharmaceutical company situated in Germany. The Indian company has acquired equity capital in the foreign entity and also has certain additional financial commitments towards the overseas subsidiary. The company has designated an Authorised Dealer bank for routing transactions relating to the foreign investment.</p>
+    <p>When the initial outward remittance was proposed, the compliance officer explained that the company could not simply remit the funds and complete regulatory reporting at its convenience. The company was required to obtain a Unique Identification Number for the foreign entity through the designated Authorised Dealer bank before making the outward remittance or acquiring the equity capital, whichever was earlier.</p>
+    <p>After making the investment, Sunrise Pharmaceuticals Limited received the share certificates and other relevant documents evidencing its investment. The accounts department proposed keeping the documents internally without submitting them to the bank, stating that the remittance itself was sufficient evidence of the investment. The compliance officer rejected this proposal and explained that evidence of investment has to be submitted within the prescribed period.</p>
+    <p>The company also intends to transfer part of its overseas investment during the following year. The Board is informed that disinvestment and restructuring transactions have separate reporting timelines. Further, since the company continues to hold ODI in the foreign entity, the Annual Performance Report requirements must also be considered.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_07_1",
+            question: "Who obtains the Unique Identification Number for the foreign entity in which ODI is intended to be made?",
+            options: [
+                "The foreign entity directly from SEBI",
+                "The person resident in India through its designated AD bank from RBI",
+                "The foreign tax authority",
+                "The Ministry of Corporate Affairs directly"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_07_2",
+            question: "The UIN should generally be obtained before which event?",
+            options: [
+                "Before sending outward remittance or acquisition of equity capital, whichever is earlier",
+                "Only after liquidation of the foreign entity",
+                "Only after receipt of dividend",
+                "After five years of investment"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_07_3",
+            question: "Within what period should evidence of investment generally be submitted to the AD bank?",
+            options: [
+                "30 days",
+                "60 days",
+                "Six months",
+                "Three years"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_07_4",
+            question: "Disinvestment by a person resident in India is generally required to be reported within:",
+            options: [
+                "Seven days from the date of agreement",
+                "Thirty days of receipt of disinvestment proceeds",
+                "Six months from the end of the financial year",
+                "One year from the date of transfer"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_07_5",
+            question: "An Indian entity which has made ODI is required to submit which additional annual return to the RBI's Department of Statistics and Information Management?",
+            options: [
+                "Annual Return on Foreign Liabilities and Assets",
+                "Annual Income Tax Return of the foreign subsidiary",
+                "Annual GST Return of the foreign entity",
+                "Annual Customs Return"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_08",
+    case_chapter: ["FEMA", "Export of Goods and Services", "Realisation and Repatriation"],
+    difficulty: "medium",
+    caseText: `<p>Nova Electronics Private Limited is an Indian company engaged in exporting electronic equipment to customers located in several countries. During the financial year, the company exported a consignment to France through a customs port. At the time of export, the company was able to ascertain the full export value of the goods and accordingly made the necessary declaration containing the relevant particulars.</p>
+    <p>For another export transaction involving specialised software transmitted electronically to a customer outside India, the finance team initially assumed that the date on which the customer downloaded the software should be treated as the date of export. The compliance officer explained that the regulations contain a specific rule regarding the deemed date of export for software exported in a form other than physical form.</p>
+    <p>Nova Electronics also received an export order from a foreign customer under which the customer agreed to pay an advance. The company received the advance through its authorised dealer and was required to comply with the conditions applicable to advance payments against exports. The company also had to ensure that the relevant export documents were routed through the authorised dealer through whom the advance payment was received.</p>
+    <p>One of the directors suggested that because the export proceeds were receivable in foreign currency, the company could retain the proceeds outside India indefinitely. The compliance officer explained that FEMA contains requirements relating to realisation and repatriation of export proceeds within the prescribed period, subject to applicable extensions and exceptions.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_08_1",
+            question: "Where the full export value of goods is ascertainable at the time of export, the exporter should declare:",
+            options: [
+                "Only the cost of production",
+                "The full export value of the goods",
+                "Only the profit margin",
+                "Only the amount received as advance"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_08_2",
+            question: "For software exported in a form other than physical form, the date of export is generally deemed to be:",
+            options: [
+                "The date of customer's annual audit",
+                "The date of invoice covering such export",
+                "The date of incorporation of the exporter",
+                "The date of receipt of dividend"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_08_3",
+            question: "Where advance payment is received against exports, shipment should ordinarily be made within:",
+            options: [
+                "Three months",
+                "Six months",
+                "One year",
+                "Five years"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_08_4",
+            question: "Where advance payment is received through an authorised dealer, the shipment documents should generally be routed through:",
+            options: [
+                "Any foreign bank selected by the exporter",
+                "The authorised dealer through whom the advance payment was received",
+                "Only the foreign customs authority",
+                "The Ministry of Finance"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_08_5",
+            question: "What is the general requirement regarding export proceeds under FEMA?",
+            options: [
+                "They may always be retained outside India indefinitely",
+                "They must be realised and repatriated to India within the prescribed period",
+                "They need not be realised if the exporter is profitable",
+                "They must always be converted into Indian currency immediately"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_09",
+    case_chapter: ["FEMA", "Authorised Person", "Reserve Bank of India"],
+    difficulty: "medium",
+    caseText: `<p>Global Trade Bank is an authorised dealer operating in India and regularly undertakes transactions involving foreign exchange and foreign securities. A corporate customer, Meridian Exports Limited, approaches the bank seeking foreign exchange for a proposed overseas transaction. Meridian provides the bank with a declaration and supporting information concerning the purpose of the transaction.</p>
+    <p>The bank's compliance officer notices inconsistencies between the stated purpose and certain supporting documents. The customer insists that the bank should process the transaction because the amount involved is commercially significant and the transaction has already been approved internally by its Board of Directors.</p>
+    <p>The compliance officer explains that an authorised person is required to satisfy itself that a proposed transaction does not involve, or is not designed to contravene or evade, the provisions of FEMA or the rules, regulations, notifications, directions or orders made under it. Where the customer refuses to provide the information required by the authorised person, the bank may refuse to undertake the transaction in writing.</p>
+    <p>In a separate matter, the Reserve Bank proposes to inspect the business of Global Trade Bank. The bank is informed that the inspection may be undertaken to verify statements and information furnished to RBI, obtain information which the bank failed to furnish, and secure compliance with FEMA and the rules and directions made thereunder.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_09_1",
+            question: "Before undertaking a foreign exchange transaction on behalf of a customer, an authorised person may require the customer to:",
+            options: [
+                "Make a declaration and furnish required information",
+                "Obtain approval from SEBI in every case",
+                "Deposit all assets with RBI",
+                "Close all domestic bank accounts"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_09_2",
+            question: "If the customer refuses to comply with the authorised person's reasonable information requirements, the authorised person should:",
+            options: [
+                "Automatically approve the transaction",
+                "Refuse the transaction in writing",
+                "Transfer the transaction to a foreign bank",
+                "Ignore the matter"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_09_3",
+            question: "If an authorised person has reason to believe that a transaction is designed to contravene or evade FEMA, the matter should be:",
+            options: [
+                "Reported to RBI",
+                "Reported only to the customer",
+                "Ignored if the amount is small",
+                "Reported only to SEBI"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_09_4",
+            question: "The RBI may inspect an authorised person's business for which of the following purposes?",
+            options: [
+                "To verify correctness of statements or information furnished to RBI",
+                "To determine the company's share price",
+                "To approve employee salaries",
+                "To determine customs duty on imports"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_09_5",
+            question: "An authorised person must generally comply with:",
+            options: [
+                "Only instructions of its customers",
+                "General or special directions or orders issued by RBI",
+                "Only directions issued by foreign banks",
+                "Only directions of its shareholders"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_01",
+    case_chapter: ["FEMA", "Overseas Direct Investment", "Financial Services"],
+    difficulty: "hard",
+    caseText: `<p>Vertex Financial Holdings Limited, an Indian company, has been engaged in financial services activity in India for more than a decade. The company is registered with the appropriate financial services regulator in India and has recently identified an investment opportunity in a foreign entity incorporated in an overseas financial centre. The foreign entity operates an online financial technology platform which performs activities that, if undertaken in India, would require regulation by a financial sector regulator.</p>
+    <p>Vertex proposes to acquire a controlling stake in the foreign entity. The management is aware that overseas investment in a financial-services business is subject to additional conditions. The company has produced net profits during two of the preceding three financial years but incurred a loss in the third year. The loss relates to a financial year materially affected by the COVID-19 pandemic.</p>
+    <p>The CFO argues that the profitability condition should be applied mechanically to all three years and that the loss automatically disqualifies Vertex. The legal adviser, however, points out that the overseas investment framework contains a specific provision dealing with the impact of COVID-19 on the profitability requirement. The adviser also reminds the Board that the Indian entity must satisfy the applicable regulatory requirements in India and obtain approvals that may be required from regulators in India and the host country or host jurisdiction.</p>
+    <p>One director then suggests that because Vertex itself is not a bank or insurance company, the additional financial-services conditions should not apply. The compliance officer disagrees, explaining that the definition of financial services activity depends upon whether the activity, if undertaken in India, would require registration with or regulation by a financial sector regulator.</p>
+    <p>The Board therefore asks whether the foreign entity's business can fall within the concept of financial services activity even though its precise business model is described as a technology platform rather than as a traditional bank or insurance company.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_01_1",
+            question: "For determining whether the foreign entity is engaged in financial services activity, which test is relevant?",
+            options: [
+                "Whether the foreign entity calls itself a bank",
+                "Whether the activity, if undertaken in India, requires registration with or is regulated by a financial sector regulator in India",
+                "Whether the foreign entity has more than 100 employees",
+                "Whether the foreign entity is listed on a stock exchange"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_01_2",
+            question: "For an Indian entity engaged in financial services activity in India, which profitability condition is ordinarily relevant for ODI in a foreign financial-services entity?",
+            options: [
+                "Net profits during the preceding three financial years",
+                "Net profits during only the immediately preceding month",
+                "Profit in at least one year out of ten years",
+                "No profitability requirement applies"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_01_3",
+            question: "Where the Indian entity fails to meet the required profitability condition due to the impact of COVID-19 during FY 2020-21 and FY 2021-22, what may be done under the specific relaxation?",
+            options: [
+                "The company is permanently prohibited from ODI",
+                "The COVID-affected period may be excluded for considering the three-year profitability requirement",
+                "All financial statements are ignored permanently",
+                "The profitability requirement is converted into a net-worth requirement"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_01_4",
+            question: "Which additional regulatory requirement is relevant where an Indian financial-services entity proposes such ODI?",
+            options: [
+                "The entity should be registered with or regulated by a financial services regulator in India",
+                "It must necessarily be registered with DGFT",
+                "It must obtain approval from NCLT before every foreign investment",
+                "It must be a government company"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_01_5",
+            question: "Which statement best reflects the requirement concerning regulatory approvals for financial-services ODI?",
+            options: [
+                "Approval is required only from the foreign customer",
+                "Applicable approvals from regulators in India and the host country or jurisdiction must be obtained",
+                "Only RBI approval can ever be relevant",
+                "No regulatory approval can be required once the Indian company is profitable"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_02",
+    case_chapter: ["FEMA", "Overseas Investment", "Guarantee", "Financial Commitment"],
+    difficulty: "hard",
+    caseText: `<p>Trident Manufacturing Limited, an Indian company, has acquired control over a foreign subsidiary and proposes to raise a substantial overseas loan for the subsidiary. The foreign lender requires a combination of guarantees and security before sanctioning the facility. Trident proposes to issue a corporate guarantee for the entire borrowing and also intends to obtain a guarantee from another Indian company belonging to the same promoter group.</p>
+    <p>The promoter group company holds 55% of Trident Manufacturing Limited. The group company proposes to issue its own corporate guarantee directly in favour of the overseas lender. Separately, the promoter of Trident, who is a resident individual, offers to provide a personal guarantee.</p>
+    <p>The finance team calculates financial commitment only with reference to Trident's own corporate guarantee. It excludes the group company guarantee because the group company is a separate legal entity and excludes the promoter's personal guarantee because the promoter is an individual rather than an Indian entity. The compliance officer disputes this calculation and explains that certain guarantees extended by group companies and resident individual promoters have specific treatment under the overseas investment regulations.</p>
+    <p>The proposed guarantee is also intended to remain valid until the foreign loan is completely repaid, without a predetermined closing date. The lender argues that such an arrangement provides better protection and should therefore be acceptable. The compliance officer points out that the regulations contain an express restriction concerning open-ended guarantees.</p>
+    <p>Further, another guarantee is proposed to be issued jointly and severally by Trident and a second Indian entity. The CFO proposes to divide the guarantee amount equally between the two companies for calculating their respective financial commitment limits. The compliance officer advises that the regulations contain a specific rule for jointly and severally issued guarantees.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_02_1",
+            question: "A holding company holding at least 51% stake in the Indian entity may issue which type of guarantee under the specified framework?",
+            options: [
+                "Corporate or performance guarantee",
+                "Only personal guarantee",
+                "Only a foreign sovereign guarantee",
+                "Only a customs guarantee"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_02_2",
+            question: "Where a resident individual promoter gives a personal guarantee for the overseas financial commitment, it is generally counted towards:",
+            options: [
+                "The financial commitment limit of the foreign lender",
+                "The financial commitment limit of the Indian entity",
+                "The net worth of the foreign government",
+                "The personal LRS limit of every shareholder"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_02_3",
+            question: "Can the proposed guarantee remain open-ended until repayment of the foreign loan?",
+            options: [
+                "Yes, because foreign lenders can determine the period",
+                "Yes, if the guarantee is issued by a holding company",
+                "No, a guarantee issued under the relevant provision shall not be open-ended",
+                "Yes, but only where the promoter gives a personal guarantee"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_hard_02_4",
+            question: "Where a guarantee is extended jointly and severally by two or more Indian entities, how much is generally reckoned towards the individual financial commitment limit of each such Indian entity?",
+            options: [
+                "25% of the guarantee",
+                "50% of the guarantee",
+                "The amount actually paid by each entity",
+                "100% of the amount of the guarantee"
+            ],
+            answer: 3
+        },
+        {
+            question_id: "fema_cs_hard_02_5",
+            question: "Which statement regarding a guarantee issued by a group company is correct?",
+            options: [
+                "It is always ignored because the group company is a separate legal entity",
+                "It is counted towards the utilisation of the financial commitment limit of that group company independently",
+                "It is automatically counted only against the foreign subsidiary",
+                "It is counted only after the guarantee is invoked"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_03",
+    case_chapter: ["FEMA", "Overseas Investment", "Pledge and Charge", "Financial Commitment"],
+    difficulty: "hard",
+    caseText: `<p>Indus Renewable Energy Limited, an Indian company, has made ODI by acquiring equity capital in a foreign entity engaged in renewable-energy projects. The foreign entity subsequently proposes to raise debt financing from an overseas lender for constructing a large solar project. The overseas lender requires security before extending the facility.</p>
+    <p>Indus Renewable Energy Limited proposes to pledge the equity capital held by it in the foreign entity in favour of the overseas lender. The company also proposes to create a charge over certain assets situated in India, including assets belonging to one of its associate companies, as security for the facility obtained by the foreign entity.</p>
+    <p>The finance team argues that because the underlying loan is borrowed by the foreign subsidiary and not by the Indian company, the security arrangements should have no impact on the Indian company's financial commitment limit. The compliance officer explains that the regulations specifically provide for reckoning certain pledge or charge arrangements towards the financial commitment limit.</p>
+    <p>The company then considers creating a charge over assets located outside India belonging to the foreign entity. The proposed overseas lender is located in a jurisdiction which the compliance officer believes may fall within a country or jurisdiction from which financial commitment is not permissible under the applicable overseas investment framework.</p>
+    <p>At the same time, Indus Renewable Energy Limited has already created a negative pledge over certain assets in connection with a bidding process for acquisition of another foreign entity. The CFO wants to include this negative pledge in the financial commitment calculation as well, fearing that failure to do so could result in non-compliance.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_03_1",
+            question: "An Indian entity which has made ODI by way of equity capital may pledge such equity capital for:",
+            options: [
+                "Availing fund-based or non-fund-based facilities, subject to applicable conditions",
+                "Only purchasing domestic shares",
+                "Only paying Indian income tax",
+                "Any purpose without regulatory conditions"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_03_2",
+            question: "For determining the amount reckoned towards financial commitment in case of pledge or charge, the relevant measure is generally:",
+            options: [
+                "The higher of the pledge value and facility amount in every case",
+                "The value of the pledge or charge or the amount of the facility, whichever is less, subject to specified conditions",
+                "Only the original equity investment",
+                "The entire net worth of the Indian entity"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_03_3",
+            question: "Can an overseas lender in whose favour the pledge or charge is created be located in any jurisdiction whatsoever?",
+            options: [
+                "Yes, without restriction",
+                "No, the overseas lender should not be from a country or jurisdiction in which financial commitment is not permissible",
+                "Yes, provided the loan exceeds USD 1 million",
+                "Only if the foreign entity is listed"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_03_4",
+            question: "What is the treatment of a negative pledge created in accordance with the regulations for participation in a bidding or tender procedure for acquisition of a foreign entity?",
+            options: [
+                "It is always reckoned as financial commitment",
+                "It is not reckoned towards the financial commitment limit",
+                "It is treated as equity capital immediately",
+                "It is treated as a personal guarantee"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_03_5",
+            question: "The creation or enforcement of pledge or charge should be:",
+            options: [
+                "Only according to the foreign lender's internal policy",
+                "In accordance with FEMA, rules, regulations and directions issued thereunder",
+                "Only according to the Companies Act",
+                "Outside the scope of FEMA"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_04",
+    case_chapter: ["FEMA", "Overseas Investment", "APR", "Reporting and Delay"],
+    difficulty: "hard",
+    caseText: `<p>Eastern Consumer Products Limited, an Indian company, acquired 8% equity capital in a foreign consumer-products company several years ago. Eastern Consumer Products Limited does not exercise control over the foreign entity and has not provided any debt, guarantee or other financial commitment to that foreign entity apart from the equity investment. The foreign entity is located in a jurisdiction where the law does not mandatorily require companies of its size to have their accounts audited.</p>
+    <p>During the current year, the finance department begins preparing the Annual Performance Report. The compliance officer notices that Eastern's holding is less than 10% and that there is no financial commitment other than equity capital. He therefore considers whether an APR is required at all.</p>
+    <p>In another overseas entity, Eastern Consumer Products Limited holds 25% equity and exercises control. The foreign entity has several Indian investors. Two of the Indian investors hold exactly equal stakes, while Eastern holds the highest stake among the Indian investors. The management needs to determine who should submit the APR for that foreign entity.</p>
+    <p>Separately, Eastern Consumer Products Limited failed to submit one of its required overseas investment reports within the prescribed period. The company discovers the omission after several months and proposes to make a fresh financial commitment in the same foreign entity while simultaneously filing the delayed report.</p>
+    <p>The legal adviser explains that the regulations contain a mechanism for delayed reporting through payment of Late Submission Fee, subject to the prescribed conditions and maximum period. However, until the reporting delay is regularised, restrictions apply to further financial commitment and transfer of the investment.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_04_1",
+            question: "Is an APR required where a person resident in India holds less than 10% equity in a foreign entity without control and has no other financial commitment except equity capital?",
+            options: [
+                "Yes, in every case",
+                "No, such holding falls within the specified exemption from APR reporting",
+                "Yes, but only every five years",
+                "Only if the foreign entity is profitable"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_04_2",
+            question: "Where the foreign entity's law does not require audit and the Indian investor does not have control, the APR may be based on:",
+            options: [
+                "Unaudited financial statements certified as prescribed",
+                "Only management estimates without certification",
+                "Only the Indian company's balance sheet",
+                "Only the foreign tax return"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_04_3",
+            question: "Where multiple persons resident in India have made ODI in the same foreign entity, who is generally required to submit the APR?",
+            options: [
+                "The person holding the highest stake",
+                "The person holding the lowest stake",
+                "The foreign company's auditor",
+                "The RBI directly"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_04_4",
+            question: "Within what maximum period may the facility for delayed submission of evidence or filing through Late Submission Fee generally be availed?",
+            options: [
+                "Six months from the due date",
+                "One year from the due date",
+                "Three years from the due date",
+                "Ten years from the due date"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_hard_04_5",
+            question: "Until a delay in reporting is regularised, a person resident in India who has made financial commitment in the foreign entity is generally restricted from:",
+            options: [
+                "Making further financial commitment or transferring such investment",
+                "Receiving any domestic income",
+                "Maintaining a bank account in India",
+                "Paying domestic taxes"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_05",
+    case_chapter: ["FEMA", "Export of Goods and Services", "Advance Payment", "Project Exports"],
+    difficulty: "hard",
+    caseText: `<p>Pacific Infrastructure Exports Limited, an Indian engineering company, receives a large overseas contract for construction of an industrial facility in a foreign country. The contract involves supply of machinery from India, provision of engineering services and execution of civil construction work at the overseas site. The foreign customer agrees to provide an advance payment to Pacific Infrastructure Exports Limited before commencement of the project.</p>
+    <p>The company receives the advance through its authorised dealer. The contract provides for shipment of certain machinery within eight months, while the complete project is expected to continue for more than one year. The finance team is concerned because the general rule applicable to advance payments requires shipment within a specified period from receipt of the advance.</p>
+    <p>The contract itself, however, expressly provides that shipment of certain goods may extend beyond one year because of the nature of the project. The management seeks advice regarding whether such contractual provision can affect the normal time requirement applicable to advance payments.</p>
+    <p>In addition, the foreign customer requires Pacific Infrastructure Exports Limited to furnish a performance guarantee before releasing a further tranche of funds. The company proposes to obtain the necessary guarantee through its authorised dealer bank.</p>
+    <p>The project is structured as a turnkey project involving deferred payment terms and substantial overseas execution. The compliance officer informs the Board that projects involving deferred payment terms or turnkey projects/civil construction contracts are subject to specific requirements and that the proposal should be submitted for prior approval of the appropriate approving authority before entering into such export arrangements.</p>
+    <p>The directors debate whether the approval is required only after the project commences. The compliance officer clarifies that the requirement arises before entering into the export arrangement itself and identifies the approving authorities contemplated under the applicable regulations.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_05_1",
+            question: "Where an exporter receives advance payment against exports, what is the normal shipment requirement?",
+            options: [
+                "Shipment within one year from receipt of advance payment",
+                "Shipment within ten days in every case",
+                "Shipment only after five years",
+                "There is no shipment requirement"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_05_2",
+            question: "If the export agreement itself duly provides for shipment extending beyond one year from receipt of advance payment, which statement is correct?",
+            options: [
+                "Such advance payment can be received notwithstanding the ordinary one-year requirement",
+                "Advance payment is automatically prohibited",
+                "The contract becomes void under FEMA",
+                "Only SEBI can approve the export"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_05_3",
+            question: "Where the export involves a turnkey project or civil construction contract, the exporter should generally seek prior approval:",
+            options: [
+                "After completing the project",
+                "Before entering into the export arrangement",
+                "Only after receiving the final payment",
+                "Only after filing income tax return"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_05_4",
+            question: "For the purpose of the project-export regulation, the approving authority includes:",
+            options: [
+                "EXIM Bank of India or the Authorised Dealer, as applicable",
+                "Only SEBI",
+                "Only the Ministry of Corporate Affairs",
+                "Only the foreign customer's bank"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_05_5",
+            question: "Where a guarantee is required before post-award approval in connection with execution of a project outside India, which statement is most appropriate?",
+            options: [
+                "An authorised dealer bank/person resident in India being the exporting company may issue the guarantee subject to the prescribed conditions",
+                "No guarantee can ever be issued before project approval",
+                "Only the foreign customer can issue the guarantee",
+                "The guarantee automatically becomes an equity investment"
+            ],
+            answer: 0
+        }
+    ]
+},
+{
+    case_id: "fema_cs_medium_10",
+    case_chapter: ["FEMA", "Current Account Transactions", "Foreign Exchange", "Authorised Person"],
+    difficulty: "medium",
+    caseText: `<p>Zenith Technologies Limited is an Indian company engaged in providing information technology and consultancy services to clients in India and abroad. During the year, the company decided to expand its international operations and sent a team of senior executives to various countries for business meetings, technical discussions and negotiations with prospective customers. The company approached its Authorised Dealer bank for release of foreign exchange towards travel expenses, hotel accommodation and other expenses connected with the overseas business visits.</p>
+    <p>At the same time, Zenith Technologies proposed to engage a foreign consulting firm for carrying out a detailed market study relating to the company's proposed expansion into Europe. The consulting firm raised an invoice in foreign currency and requested remittance of the consultancy fee outside India. The accounts department was uncertain whether payment for such services would amount to a capital account transaction merely because the payment was being made to a person resident outside India.</p>
+    <p>The compliance officer explained that FEMA makes an important distinction between current account transactions and capital account transactions. A transaction does not become a capital account transaction merely because foreign exchange is involved. The nature and effect of the transaction must be examined. Current account transactions broadly include transactions other than capital account transactions and cover various payments connected with foreign trade, services, interest on loans and certain expenses relating to travel, education and medical care.</p>
+    <p>During the same period, one of the directors proposed another transaction involving acquisition of an immovable property outside India. He argued that this transaction should also be treated in the same manner as foreign travel expenses because both transactions require foreign exchange. The compliance officer disagreed and explained that acquisition or transfer of assets outside India may alter the assets or liabilities of a person resident in India and therefore requires examination under the provisions governing capital account transactions.</p>
+    <p>The Board requested the compliance officer to clearly distinguish the transactions before approaching the Authorised Dealer for the required foreign exchange.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_10_1",
+            question: "Which of the following best describes a current account transaction under FEMA?",
+            options: [
+                "A transaction other than a capital account transaction",
+                "Every transaction involving a foreign company",
+                "Only a transaction involving import of goods",
+                "Every transaction which increases the assets of a resident outside India"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_10_2",
+            question: "Payment in connection with foreign trade, other current business and services would generally fall within:",
+            options: [
+                "Current account transactions",
+                "Capital account transactions only",
+                "Prohibited transactions in every case",
+                "Transactions outside the scope of FEMA"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_10_3",
+            question: "Foreign exchange required for expenses connected with ordinary business travel abroad would generally be associated with:",
+            options: [
+                "A current account transaction",
+                "Compulsory overseas direct investment",
+                "Foreign portfolio investment",
+                "Transfer of immovable property"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_10_4",
+            question: "Why may acquisition of immovable property outside India require examination as a capital account transaction?",
+            options: [
+                "Because it may alter the assets or liabilities outside India of a person resident in India",
+                "Because every payment outside India is prohibited",
+                "Because immovable property can only be acquired by the RBI",
+                "Because all property transactions are current account transactions"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_10_5",
+            question: "Which statement is correct regarding classification of a transaction under FEMA?",
+            options: [
+                "Every foreign exchange transaction is necessarily a capital account transaction",
+                "The nature and effect of the transaction are relevant in determining its classification",
+                "Every payment to a non-resident is prohibited",
+                "Only the amount of foreign exchange determines its classification"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_11",
+    case_chapter: ["FEMA", "Export of Goods and Services", "Export Declaration", "Authorised Dealer"],
+    difficulty: "medium",
+    caseText: `<p>Crystal Handicrafts Limited is an Indian company engaged in manufacturing premium handicraft products which are exported to customers in Europe, the Middle East and North America. The company received an order from a distributor in Italy for a large consignment of decorative products. The goods were exported through a customs port in India and their full export value was ascertainable at the time of shipment.</p>
+    <p>The export department prepared the necessary shipping documents but one of the employees questioned why the company was required to make a declaration regarding the export value when the foreign buyer had already accepted the invoice. The compliance manager explained that FEMA imposes specific obligations upon exporters of goods and services and that the required declaration serves a regulatory purpose independent of the contractual invoice between the exporter and the foreign purchaser.</p>
+    <p>In another transaction, Crystal Handicrafts exported certain specially designed products for which the final value could not be determined at the time of export. The contract provided that the final price would depend upon the quality inspection undertaken after arrival of the goods at the customer's premises. The accounts department therefore sought guidance on the amount that should be declared where the full export value is not ascertainable at the time of export.</p>
+    <p>The company also entered into an export transaction where the overseas buyer delayed payment because of temporary financial difficulties. Crystal Handicrafts nevertheless remained under an obligation to take reasonable steps to realise and repatriate the export proceeds within the period prescribed under FEMA or within such extended period as may be permitted.</p>
+    <p>The management was advised that the export regulations should be considered together with the directions issued to Authorised Dealers because the banking channel plays an important role in monitoring realisation of export proceeds.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_11_1",
+            question: "Where the full export value of goods is ascertainable at the time of export, the exporter is generally required to specify:",
+            options: [
+                "The full export value",
+                "Only the cost of production",
+                "Only the amount of profit",
+                "Only the amount received in advance"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_11_2",
+            question: "Where the full export value is not ascertainable at the time of export, the exporter should generally declare:",
+            options: [
+                "No value whatsoever",
+                "The value which the exporter, having regard to prevailing market conditions, expects to receive",
+                "Only the customs duty",
+                "The book value of the exporter's entire business"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_11_3",
+            question: "Which party bears the primary obligation to take steps for realisation and repatriation of the export value?",
+            options: [
+                "The exporter",
+                "The foreign buyer's government",
+                "SEBI",
+                "The Registrar of Companies"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_11_4",
+            question: "A delay by the foreign buyer in making payment:",
+            options: [
+                "Automatically extinguishes the exporter's obligations under FEMA",
+                "Does not by itself eliminate the requirement concerning realisation and repatriation",
+                "Converts the transaction automatically into ODI",
+                "Makes the export transaction a domestic transaction"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_11_5",
+            question: "Which institution plays an important role in monitoring export transactions and realisation of export proceeds under the FEMA framework?",
+            options: [
+                "Authorised Dealer",
+                "NCLT",
+                "Competition Commission of India",
+                "Registrar of Trademarks"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_12",
+    case_chapter: ["FEMA", "Import of Goods", "Import Payment", "Evidence of Import"],
+    difficulty: "medium",
+    caseText: `<p>Apex Medical Devices Limited is an Indian manufacturer of sophisticated medical equipment. The company regularly imports specialised components from suppliers situated in Germany, Japan and the United States. During the year, Apex placed an order with a German supplier for components required for manufacturing diagnostic machines in India.</p>
+    <p>The company approached its Authorised Dealer Category-I bank for remittance of the purchase consideration. The foreign exchange was released and payment was made to the German supplier. After completion of the remittance, the accounts department treated the matter as closed and archived the purchase documents.</p>
+    <p>During a subsequent compliance review, the Authorised Dealer requested Apex to provide evidence demonstrating that the goods for which foreign exchange had been remitted had actually been imported into India. The accounts manager objected to the request and argued that once the bank had permitted the remittance, the bank had no further responsibility regarding the transaction.</p>
+    <p>The Authorised Dealer explained that the foreign exchange framework imposes responsibilities upon the bank to follow up import transactions and obtain appropriate evidence of import. Depending upon the nature and mode of import, the required evidence may be available through the Import Data Processing and Monitoring System or through appropriate customs documentation.</p>
+    <p>In a separate import transaction, Apex could not settle the amount payable to its Japanese supplier within the normal period because the machinery supplied had failed certain technical specifications. The parties entered into negotiations regarding replacement of defective components and the importer approached its Authorised Dealer for an extension of the period for settlement of the import liability.</p>
+    <p>The compliance department informed management that Authorised Dealers have delegated powers to permit extension in specified circumstances, subject to the conditions and limits contained in the applicable directions.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_12_1",
+            question: "After foreign exchange is remitted for import of goods, what should the Authorised Dealer generally ensure?",
+            options: [
+                "That appropriate evidence of import is obtained or available",
+                "That the importer earns a minimum profit",
+                "That the foreign supplier opens an Indian bank account",
+                "That the goods are resold immediately"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_12_2",
+            question: "Which system is relevant for monitoring import transactions?",
+            options: [
+                "IDPMS",
+                "MCA21 only",
+                "GSTN only",
+                "Depository system only"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_12_3",
+            question: "The normal period referred to for settlement of import dues is generally:",
+            options: [
+                "One month from shipment",
+                "Six months from shipment",
+                "Five years from shipment",
+                "Ten years from shipment"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_12_4",
+            question: "Can an Authorised Dealer permit extension of the period for settlement of import dues?",
+            options: [
+                "No, under no circumstances",
+                "Yes, in specified circumstances subject to applicable conditions",
+                "Only after approval of SEBI",
+                "Only if the supplier becomes an Indian resident"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_12_5",
+            question: "Which circumstance in the case may justify consideration of an extension by the Authorised Dealer?",
+            options: [
+                "A genuine quality dispute concerning imported machinery",
+                "The importer's desire to increase dividends",
+                "Change in the company's registered office",
+                "Increase in domestic share price"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_13",
+    case_chapter: ["FEMA", "Overseas Investment", "Transfer of Equity Capital", "Disinvestment"],
+    difficulty: "medium",
+    caseText: `<p>Silverline Industries Limited, an Indian manufacturing company, had acquired equity capital in a foreign entity incorporated in Malaysia several years ago. The investment had originally been made in compliance with the overseas investment framework and all remittances had been routed through the company's designated Authorised Dealer bank.</p>
+    <p>Following a strategic review, the Board of Silverline Industries decided to exit a portion of its overseas investment and use the funds for expansion of its domestic manufacturing facilities. A foreign investor offered to purchase part of Silverline's equity interest in the Malaysian entity. The company therefore began examining the conditions applicable to transfer of equity capital of a foreign entity.</p>
+    <p>One director assumed that because the original investment was permitted, the company could sell the equity interest to any person at any price without considering FEMA. The compliance officer explained that transfer or disinvestment remains subject to the overseas investment framework and that the applicable pricing and reporting requirements have to be observed.</p>
+    <p>The foreign entity had been profitable during the previous years and had accumulated significant reserves. The proposed sale price was negotiated commercially between the parties. The finance department was instructed to ensure that the transaction complied with the applicable valuation or pricing framework and that the proceeds of disinvestment were realised within the prescribed period.</p>
+    <p>After completion of the transfer, Silverline also had to report the disinvestment through its designated Authorised Dealer within the applicable timeline. The company therefore decided not to treat the receipt of sale consideration as the final compliance step.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_13_1",
+            question: "Does a transfer of equity capital of a foreign entity by an Indian investor remain subject to the overseas investment framework?",
+            options: [
+                "Yes",
+                "No, once the original ODI was permitted all subsequent transfers are outside FEMA",
+                "Only if the foreign entity makes a loss",
+                "Only if the buyer is an Indian resident"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_13_2",
+            question: "Which factor may be relevant while transferring equity capital of a foreign entity?",
+            options: [
+                "Applicable pricing or valuation requirements",
+                "Only the number of employees of the Indian company",
+                "Only domestic GST rate",
+                "Only the age of the foreign entity"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_13_3",
+            question: "The proceeds arising from disinvestment are:",
+            options: [
+                "Subject to applicable realisation requirements",
+                "Always permitted to remain outside India indefinitely",
+                "Automatically converted into a domestic loan",
+                "Outside FEMA in all circumstances"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_13_4",
+            question: "Disinvestment should generally be reported through:",
+            options: [
+                "The designated Authorised Dealer bank",
+                "The foreign entity's employees",
+                "The Registrar of Trademarks",
+                "The Competition Commission in every case"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_13_5",
+            question: "The reporting of disinvestment is generally required within:",
+            options: [
+                "30 days of receipt of disinvestment proceeds",
+                "Five years",
+                "Ten years",
+                "Only at the time of liquidation of the Indian company"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_14",
+    case_chapter: ["FEMA", "Overseas Investment", "Annual Performance Report", "Reporting"],
+    difficulty: "medium",
+    caseText: `<p>BluePeak Engineering Limited, an Indian entity, acquired 65% equity capital in a foreign manufacturing company incorporated in Vietnam. As a result of the investment, BluePeak exercises control over the foreign entity. The company routed the original investment through its designated Authorised Dealer and completed the initial reporting requirements.</p>
+    <p>At the end of the financial year, the finance department began preparing the compliance calendar for overseas investments. The junior accountant believed that reporting obligations ended once the initial ODI transaction had been reported. The compliance officer explained that an Indian entity having ODI may also be required to submit an Annual Performance Report in respect of the foreign entity.</p>
+    <p>The foreign entity prepares annual financial statements in accordance with the accounting requirements applicable in Vietnam. Since BluePeak exercises control over the entity, the compliance department also considers the requirement relating to audited financial statements while preparing the APR.</p>
+    <p>The foreign entity subsequently established another entity outside India. BluePeak's management was informed that the APR reporting framework requires disclosure of prescribed information regarding the foreign entity and its overseas structure.</p>
+    <p>During the review, the compliance team discovered that the APR for the preceding year had not been filed within the prescribed period because of an administrative oversight. Management wanted to make an additional financial commitment immediately and regularise the reporting delay later. The compliance officer cautioned that delays in reporting may have consequences for further financial commitment until the default is regularised.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_14_1",
+            question: "An Indian entity having ODI may be required to submit:",
+            options: [
+                "Annual Performance Report",
+                "Only a domestic GST return for the foreign entity",
+                "No annual information whatsoever",
+                "Only a report once every ten years"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_14_2",
+            question: "BluePeak's 65% holding and control over the foreign entity is relevant particularly for:",
+            options: [
+                "Compliance and financial statement requirements associated with APR",
+                "Determining Indian customs duty on domestic sales",
+                "Registration of Indian trademarks only",
+                "Domestic labour-law registration"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_14_3",
+            question: "Does completion of initial ODI reporting necessarily eliminate subsequent annual reporting obligations?",
+            options: [
+                "Yes, always",
+                "No",
+                "Yes, where investment exceeds 50%",
+                "Yes, if the foreign entity is profitable"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_14_4",
+            question: "Where required overseas investment reporting has not been completed, further financial commitment may:",
+            options: [
+                "Be subject to restriction until the delay is regularised",
+                "Always be made without any consequence",
+                "Automatically become a current account transaction",
+                "Be completely outside FEMA"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_14_5",
+            question: "A reporting delay may generally be regularised under the applicable framework through:",
+            options: [
+                "The prescribed delayed reporting mechanism including Late Submission Fee, where applicable",
+                "Automatic cancellation of the original ODI",
+                "Conversion of ODI into domestic investment",
+                "Ignoring the delay permanently"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_06",
+    case_chapter: ["FEMA", "Overseas Investment", "Round Tripping", "Subsidiary Structure"],
+    difficulty: "hard",
+    caseText: `<p>Orion Digital Ventures Limited is an Indian company engaged in developing digital platforms and software products. As part of its international expansion strategy, Orion proposes to establish a wholly owned subsidiary, Orion Global Pte. Ltd., in Singapore. The proposed foreign entity would develop and commercialise digital products in Asian markets and would also acquire strategic investments in technology companies situated in different jurisdictions.</p>
+    <p>During preparation of the investment structure, the Singapore subsidiary identifies an attractive investment opportunity in an Indian technology company, Bharat Digital Solutions Private Limited. The Singapore entity proposes to acquire equity capital in Bharat Digital Solutions after receiving the initial ODI from Orion. Consequently, the structure would involve an Indian entity investing in a foreign entity which in turn makes an investment back into India.</p>
+    <p>The finance director remembers that older regulatory practices placed significant restrictions on structures commonly described as round tripping. He therefore advises the Board that the proposed structure is completely prohibited under FEMA. The compliance adviser disagrees and explains that the current overseas investment framework does not impose an absolute prohibition in every such case. Instead, the number of subsidiary layers resulting from the structure becomes important.</p>
+    <p>Orion Global already has one foreign subsidiary in Indonesia. That Indonesian company itself owns another operating subsidiary in Thailand. If Orion Global acquires the proposed Indian company and thereafter uses the Indian company to establish additional subsidiaries, the group structure could become increasingly complex. The compliance team therefore maps the entire chain to determine the number of layers of subsidiaries resulting from the proposed financial commitment.</p>
+    <p>One director argues that foreign subsidiaries should not be counted because the restriction should apply only to subsidiaries incorporated in India. Another director argues that the restriction applies only when the Indian parent directly invests back into India. The legal adviser explains that the overseas investment rules must be examined carefully because the relevant provision considers financial commitment in a foreign entity that has invested or invests into India, directly or indirectly, where the structure results in more than the permissible number of subsidiary layers.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_06_1",
+            question: "Is every overseas investment structure involving a foreign entity which invests back into India absolutely prohibited under the current framework?",
+            options: [
+                "Yes, without exception",
+                "No, the permissibility must be examined with reference to the prescribed conditions including subsidiary layers",
+                "Yes, unless the Indian entity is listed",
+                "Yes, unless the foreign entity is incorporated in the United States"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_06_2",
+            question: "The relevant restriction applies where the structure resulting from such financial commitment has:",
+            options: [
+                "More than two layers of subsidiaries, subject to the applicable rule and exemptions",
+                "More than ten employees",
+                "More than one bank account",
+                "Any foreign subsidiary whatsoever"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_06_3",
+            question: "For application of the relevant overseas investment restriction, investment into India by the foreign entity may be:",
+            options: [
+                "Only direct",
+                "Direct or indirect",
+                "Only through a listed company",
+                "Only through debt instruments"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_06_4",
+            question: "Which statement best describes the compliance analysis required for Orion's proposed structure?",
+            options: [
+                "Only Orion's direct holding in Singapore needs to be examined",
+                "The resulting subsidiary structure should be mapped to determine whether the permissible layer restriction is breached",
+                "Only the profitability of the Singapore company is relevant",
+                "No analysis is required once ODI is permitted"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_06_5",
+            question: "The rule concerning layers in such overseas investment structures is linked to the restriction contemplated under:",
+            options: [
+                "The Companies Act framework concerning layers of subsidiaries",
+                "Only the Income-tax Act",
+                "Only the Customs Act",
+                "Only the Competition Act"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_07",
+    case_chapter: ["FEMA", "Overseas Investment", "Restructuring", "Diminution in Value"],
+    difficulty: "hard",
+    caseText: `<p>Horizon Automotive Limited, an Indian company, holds 70% equity capital in Horizon Europe GmbH, a foreign entity engaged in manufacturing automotive components. The overseas entity performed well for several years but subsequently suffered substantial losses due to a severe downturn in the automobile industry. Its accumulated losses significantly reduced its net worth and it became difficult for the entity to service its outstanding financial obligations.</p>
+    <p>Horizon Automotive had made ODI by way of equity capital and had also provided a shareholder loan to the foreign entity. After discussions with lenders and minority shareholders, the Board proposed a comprehensive restructuring of the foreign entity's balance sheet. Under the proposal, part of the outstanding loan payable to Horizon Automotive would be reduced and the value of certain financial interests of the Indian company would consequently diminish.</p>
+    <p>The CFO argued that FEMA would prohibit any reduction in the amount receivable by an Indian company from a foreign entity because such reduction would amount to allowing foreign exchange to remain unrealised. The compliance adviser explained that the overseas investment framework specifically permits restructuring of the balance sheet of a foreign entity which has been incurring losses during the prescribed period, subject to applicable conditions.</p>
+    <p>The management then commissioned a valuation to quantify the diminution in the total value of outstanding dues towards Horizon Automotive. Since the amount involved was substantial, the company also considered whether the valuation must be certified by an appropriate professional. The compliance adviser informed the Board that additional certification requirements arise where the amount of diminution exceeds the prescribed threshold or percentage of the Indian entity's total investment in the foreign entity.</p>
+    <p>The company also recognised that restructuring does not eliminate reporting requirements. The transaction must be reported through the designated Authorised Dealer within the prescribed period and the company must maintain appropriate supporting documentation regarding the commercial basis and valuation of the restructuring.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_07_1",
+            question: "Under the overseas investment framework, restructuring involving diminution in the value of outstanding dues may be permitted where the foreign entity:",
+            options: [
+                "Has been incurring losses for the prescribed previous period",
+                "Has never commenced business",
+                "Is profitable in every year",
+                "Is incorporated only in India"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_07_2",
+            question: "Which of the following may form part of the restructuring contemplated in the case?",
+            options: [
+                "Diminution in the total value of outstanding dues towards the Indian investor",
+                "Automatic cancellation of FEMA",
+                "Conversion of the Indian entity into a foreign company",
+                "Cancellation of all reporting requirements"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_07_3",
+            question: "Where the diminution exceeds the prescribed monetary amount or percentage of the Indian entity's total investment, the diminution should generally be:",
+            options: [
+                "Duly certified on an arm's-length basis by the prescribed professional",
+                "Determined only orally by the Board",
+                "Fixed by the foreign customer",
+                "Ignored for regulatory purposes"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_07_4",
+            question: "Which statement is correct regarding reporting of restructuring?",
+            options: [
+                "Restructuring is outside the reporting framework",
+                "The restructuring must be reported through the designated AD bank within the prescribed period",
+                "Reporting is required only after liquidation",
+                "Reporting is required only where there is no diminution"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_07_5",
+            question: "The regulatory treatment of diminution in value demonstrates that:",
+            options: [
+                "Every reduction of overseas dues is absolutely prohibited",
+                "A commercially justified restructuring may be permitted subject to prescribed safeguards",
+                "Indian entities may waive any overseas dues without conditions",
+                "Only RBI itself may restructure the foreign entity"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_08",
+    case_chapter: ["FEMA", "Overseas Investment", "Deferred Payment", "Equity Capital"],
+    difficulty: "hard",
+    caseText: `<p>Prism Healthcare Limited, an Indian pharmaceutical company, proposes to acquire 80% equity capital in Medica Global Ltd., a foreign entity incorporated in the United Kingdom. The parties negotiate a total acquisition consideration of USD 40 million. Instead of paying the entire consideration on completion, Prism proposes to pay USD 25 million immediately and the remaining USD 15 million after two years.</p>
+    <p>The deferred portion is intended to protect Prism against certain commercial risks identified during due diligence. The seller agrees that the amount may be paid after the agreed period provided that the acquisition documents clearly record the total consideration and the deferred payment mechanism.</p>
+    <p>The finance department initially concludes that only the USD 25 million paid immediately should be treated as ODI because the remaining USD 15 million has not yet been remitted outside India. The compliance adviser explains that where equity capital is acquired on a deferred-payment basis in accordance with the overseas investment framework, the deferred portion has a specific regulatory treatment and cannot simply be ignored while determining the nature of the investment.</p>
+    <p>The company also proposes to transfer legal title to the entire 80% equity interest immediately on completion, even though part of the consideration remains payable. The seller is comfortable with the arrangement because appropriate contractual safeguards have been included in the acquisition agreement.</p>
+    <p>Separately, Prism proposes to sell part of another overseas investment and allow the foreign purchaser to pay a portion of the sale consideration after eighteen months. The Board asks whether deferred consideration is available only for acquisitions by Indian entities or whether it can also apply in an overseas disinvestment transaction.</p>
+    <p>The legal team advises that the applicable rule covers acquisition as well as transfer of equity capital on a deferred-payment basis, subject to the conditions contained in the overseas investment framework.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_08_1",
+            question: "Can equity capital of a foreign entity be acquired by an Indian investor on a deferred-payment basis under the overseas investment framework?",
+            options: [
+                "Yes, subject to the applicable conditions",
+                "No, the entire consideration must invariably be paid on the date of acquisition",
+                "Only where the foreign entity is a bank",
+                "Only where the consideration is below USD 1 million"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_08_2",
+            question: "For regulatory purposes, the deferred part of the consideration in such an acquisition is generally treated as:",
+            options: [
+                "Non-existent until actual payment",
+                "A non-fund-based commitment until it is paid",
+                "A domestic current account transaction",
+                "A gift to the foreign seller"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_08_3",
+            question: "Does deferred payment necessarily prevent transfer of the agreed equity capital at completion?",
+            options: [
+                "Yes, in every case",
+                "No, acquisition or transfer may be structured on a deferred-payment basis subject to the applicable framework",
+                "Yes, unless RBI becomes a shareholder",
+                "Yes, unless the foreign entity is listed"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_08_4",
+            question: "Can deferred consideration also arise where an Indian investor transfers equity capital of a foreign entity?",
+            options: [
+                "Yes, subject to applicable conditions",
+                "No, it is available only for acquisitions",
+                "Only where the buyer is RBI",
+                "Only for domestic securities"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_08_5",
+            question: "Which statement best reflects the treatment of the USD 15 million deferred acquisition consideration?",
+            options: [
+                "It may be completely ignored because no remittance has yet occurred",
+                "Its regulatory treatment must be considered even though actual payment has been deferred",
+                "It automatically becomes a current account payment",
+                "It is treated as dividend income"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_09",
+    case_chapter: ["FEMA", "Overseas Investment", "Acquisition by Bidding", "Guarantee"],
+    difficulty: "hard",
+    caseText: `<p>National Engineering Corporation Limited, an Indian entity, decides to participate in an international competitive bidding process for acquisition of a foreign infrastructure company. Under the bidding terms, every participant must furnish an earnest money deposit together with a bid bond before submitting the final financial proposal.</p>
+    <p>The target company is valued at several hundred million dollars and National Engineering expects strong competition from multinational bidders. The company's Board authorises participation in the bidding process but the finance team is uncertain whether remitting earnest money before actually acquiring equity capital in the foreign entity would be permissible under the overseas investment framework.</p>
+    <p>The company's Authorised Dealer explains that the regulations specifically recognise acquisition of equity capital through bidding or tender procedure as a permissible mode of ODI and contain provisions dealing with remittance of earnest money deposit and issuance of bid bonds or guarantees connected with such transactions.</p>
+    <p>National Engineering proposes to remit the earnest money through its designated Authorised Dealer. The bidding authority also requires a bank guarantee. The company's bank agrees to issue the guarantee after examining the bidding documents and applicable regulatory conditions.</p>
+    <p>National Engineering ultimately wins the bid. Under the acquisition agreement, the company is required to make further remittances towards the purchase consideration. The finance director believes that because the initial earnest money was remitted before acquisition, all subsequent payments may be made without further consideration of the overseas investment framework.</p>
+    <p>The compliance officer disagrees. He explains that the initial remittance merely facilitates participation in the bidding process and that the ultimate acquisition and subsequent financial commitment must independently satisfy the applicable ODI conditions, financial commitment limits and reporting requirements.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_09_1",
+            question: "Is acquisition of equity capital through a bidding or tender procedure recognised as a mode of ODI?",
+            options: [
+                "Yes",
+                "No",
+                "Only for government companies",
+                "Only for listed foreign entities"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_09_2",
+            question: "Can earnest money deposit connected with an overseas bidding process be remitted in accordance with the applicable ODI framework?",
+            options: [
+                "Yes, subject to the prescribed conditions",
+                "No, because equity has not yet been acquired",
+                "Only after liquidation of the target",
+                "Only through a foreign bank unrelated to the Indian entity"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_09_3",
+            question: "A bid bond or guarantee required in connection with the overseas bidding process may generally be issued:",
+            options: [
+                "Subject to the applicable overseas investment and banking conditions",
+                "Without any consideration of FEMA",
+                "Only by the foreign government",
+                "Only after the bid has been rejected"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_09_4",
+            question: "If National Engineering wins the bid, do subsequent acquisition payments become automatically exempt from ODI requirements?",
+            options: [
+                "Yes",
+                "No, the acquisition and financial commitment must continue to satisfy the applicable framework",
+                "Yes, because earnest money was already remitted",
+                "Yes, if the target company is profitable"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_09_5",
+            question: "Which statement best describes the regulatory character of the initial earnest money remittance?",
+            options: [
+                "It facilitates participation in the overseas acquisition process but does not eliminate subsequent ODI compliance",
+                "It permanently exempts the acquisition from FEMA",
+                "It converts the transaction into a current account transaction",
+                "It automatically constitutes acquisition of 100% equity capital"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_10",
+    case_chapter: ["FEMA", "Overseas Investment", "NOC", "Wilful Defaulter", "Investigation"],
+    difficulty: "hard",
+    caseText: `<p>Summit Infrastructure Limited, an Indian company, proposes to acquire a controlling interest in an infrastructure company incorporated outside India. The proposed transaction would constitute ODI and would require a substantial financial commitment by Summit Infrastructure. The Board considers the acquisition commercially attractive because the foreign company owns valuable infrastructure concessions and has generated stable operating cash flows.</p>
+    <p>Before the transaction could proceed, the compliance department discovered that Summit Infrastructure had been classified as a wilful defaulter by a lender in India. Separately, an investigation had been initiated against the company by a financial sector regulator in connection with certain past transactions. The management nevertheless instructed the finance department to proceed with the foreign investment, arguing that the overseas investment regulations are concerned only with the foreign entity and not with the regulatory status of the Indian investor.</p>
+    <p>The compliance officer explained that certain persons resident in India are required to obtain a No Objection Certificate before making financial commitment or undertaking disinvestment under the overseas investment framework. The relevant categories include persons whose accounts have been classified as non-performing assets, persons classified as wilful defaulters and persons who are under investigation by specified investigative or regulatory authorities.</p>
+    <p>Summit therefore approached the concerned lender and regulatory authority seeking the necessary NOC. Several weeks passed without any response. The CFO assumed that the company would have to wait indefinitely because an express written NOC was mandatory before the transaction could proceed.</p>
+    <p>The legal adviser pointed out that the regulations provide a specific mechanism where the concerned lender, regulatory body or investigative agency fails to communicate its objection within the prescribed period from receipt of the NOC application. Accordingly, the date on which the application is received by the concerned authority becomes important.</p>
+    <p>While the NOC application remained pending, Summit also considered selling an existing overseas investment to raise funds. The Board initially assumed that the NOC requirement applied only to making new ODI and not to disinvestment. The compliance adviser warned that the relevant restriction extends to specified overseas investment transactions including financial commitment and transfer or disinvestment in the circumstances contemplated by the rules.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_10_1",
+            question: "Which of the following persons may be required to obtain an NOC before making financial commitment under the overseas investment framework?",
+            options: [
+                "A person classified as a wilful defaulter",
+                "Every employee of an Indian company",
+                "Every exporter of goods",
+                "Every domestic shareholder irrespective of circumstances"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_10_2",
+            question: "A person under investigation by a financial sector regulator may:",
+            options: [
+                "Be subject to the NOC requirement before undertaking specified overseas investment transactions",
+                "Always make ODI without any restriction",
+                "Automatically lose Indian residential status",
+                "Be permanently prohibited from every foreign exchange transaction"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_10_3",
+            question: "If the concerned lender, regulator or investigative agency does not communicate any objection within the prescribed period after receiving the NOC application, what is the general regulatory consequence?",
+            options: [
+                "The NOC may be deemed to have been granted",
+                "The ODI becomes permanently prohibited",
+                "The Indian entity must immediately liquidate",
+                "The application automatically shifts to SEBI"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_10_4",
+            question: "What is the prescribed period relevant for deemed NOC where no objection is communicated?",
+            options: [
+                "Ten calendar days",
+                "Thirty calendar days",
+                "Sixty calendar days",
+                "One year"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_hard_10_5",
+            question: "Is the NOC requirement in the specified circumstances relevant only for making a new ODI?",
+            options: [
+                "Yes, it can never affect disinvestment",
+                "No, the applicable restriction may also extend to transfer or disinvestment",
+                "Yes, unless the foreign entity is profitable",
+                "Yes, where the investment was originally made through an AD bank"
+            ],
+            answer: 1
+        }
+    ]
+},
+{
+    case_id: "fema_cs_medium_10",
+    case_chapter: ["FEMA", "Current Account Transactions", "Foreign Exchange", "Authorised Person"],
+    difficulty: "medium",
+    caseText: `<p>Zenith Technologies Limited is an Indian company engaged in providing information technology and consultancy services to clients in India and abroad. During the year, the company decided to expand its international operations and sent a team of senior executives to various countries for business meetings, technical discussions and negotiations with prospective customers. The company approached its Authorised Dealer bank for release of foreign exchange towards travel expenses, hotel accommodation and other expenses connected with the overseas business visits.</p>
+    <p>At the same time, Zenith Technologies proposed to engage a foreign consulting firm for carrying out a detailed market study relating to the company's proposed expansion into Europe. The consulting firm raised an invoice in foreign currency and requested remittance of the consultancy fee outside India. The accounts department was uncertain whether payment for such services would amount to a capital account transaction merely because the payment was being made to a person resident outside India.</p>
+    <p>The compliance officer explained that FEMA makes an important distinction between current account transactions and capital account transactions. A transaction does not become a capital account transaction merely because foreign exchange is involved. The nature and effect of the transaction must be examined. Current account transactions broadly include transactions other than capital account transactions and cover various payments connected with foreign trade, services, interest on loans and certain expenses relating to travel, education and medical care.</p>
+    <p>During the same period, one of the directors proposed another transaction involving acquisition of an immovable property outside India. He argued that this transaction should also be treated in the same manner as foreign travel expenses because both transactions require foreign exchange. The compliance officer disagreed and explained that acquisition or transfer of assets outside India may alter the assets or liabilities of a person resident in India and therefore requires examination under the provisions governing capital account transactions.</p>
+    <p>The Board requested the compliance officer to clearly distinguish the transactions before approaching the Authorised Dealer for the required foreign exchange.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_10_1",
+            question: "Which of the following best describes a current account transaction under FEMA?",
+            options: [
+                "A transaction other than a capital account transaction",
+                "Every transaction involving a foreign company",
+                "Only a transaction involving import of goods",
+                "Every transaction which increases the assets of a resident outside India"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_10_2",
+            question: "Payment in connection with foreign trade, other current business and services would generally fall within:",
+            options: [
+                "Current account transactions",
+                "Capital account transactions only",
+                "Prohibited transactions in every case",
+                "Transactions outside the scope of FEMA"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_10_3",
+            question: "Foreign exchange required for expenses connected with ordinary business travel abroad would generally be associated with:",
+            options: [
+                "A current account transaction",
+                "Compulsory overseas direct investment",
+                "Foreign portfolio investment",
+                "Transfer of immovable property"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_10_4",
+            question: "Why may acquisition of immovable property outside India require examination as a capital account transaction?",
+            options: [
+                "Because it may alter the assets or liabilities outside India of a person resident in India",
+                "Because every payment outside India is prohibited",
+                "Because immovable property can only be acquired by the RBI",
+                "Because all property transactions are current account transactions"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_10_5",
+            question: "Which statement is correct regarding classification of a transaction under FEMA?",
+            options: [
+                "Every foreign exchange transaction is necessarily a capital account transaction",
+                "The nature and effect of the transaction are relevant in determining its classification",
+                "Every payment to a non-resident is prohibited",
+                "Only the amount of foreign exchange determines its classification"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_11",
+    case_chapter: ["FEMA", "Export of Goods and Services", "Export Declaration", "Authorised Dealer"],
+    difficulty: "medium",
+    caseText: `<p>Crystal Handicrafts Limited is an Indian company engaged in manufacturing premium handicraft products which are exported to customers in Europe, the Middle East and North America. The company received an order from a distributor in Italy for a large consignment of decorative products. The goods were exported through a customs port in India and their full export value was ascertainable at the time of shipment.</p>
+    <p>The export department prepared the necessary shipping documents but one of the employees questioned why the company was required to make a declaration regarding the export value when the foreign buyer had already accepted the invoice. The compliance manager explained that FEMA imposes specific obligations upon exporters of goods and services and that the required declaration serves a regulatory purpose independent of the contractual invoice between the exporter and the foreign purchaser.</p>
+    <p>In another transaction, Crystal Handicrafts exported certain specially designed products for which the final value could not be determined at the time of export. The contract provided that the final price would depend upon the quality inspection undertaken after arrival of the goods at the customer's premises. The accounts department therefore sought guidance on the amount that should be declared where the full export value is not ascertainable at the time of export.</p>
+    <p>The company also entered into an export transaction where the overseas buyer delayed payment because of temporary financial difficulties. Crystal Handicrafts nevertheless remained under an obligation to take reasonable steps to realise and repatriate the export proceeds within the period prescribed under FEMA or within such extended period as may be permitted.</p>
+    <p>The management was advised that the export regulations should be considered together with the directions issued to Authorised Dealers because the banking channel plays an important role in monitoring realisation of export proceeds.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_11_1",
+            question: "Where the full export value of goods is ascertainable at the time of export, the exporter is generally required to specify:",
+            options: [
+                "The full export value",
+                "Only the cost of production",
+                "Only the amount of profit",
+                "Only the amount received in advance"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_11_2",
+            question: "Where the full export value is not ascertainable at the time of export, the exporter should generally declare:",
+            options: [
+                "No value whatsoever",
+                "The value which the exporter, having regard to prevailing market conditions, expects to receive",
+                "Only the customs duty",
+                "The book value of the exporter's entire business"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_11_3",
+            question: "Which party bears the primary obligation to take steps for realisation and repatriation of the export value?",
+            options: [
+                "The exporter",
+                "The foreign buyer's government",
+                "SEBI",
+                "The Registrar of Companies"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_11_4",
+            question: "A delay by the foreign buyer in making payment:",
+            options: [
+                "Automatically extinguishes the exporter's obligations under FEMA",
+                "Does not by itself eliminate the requirement concerning realisation and repatriation",
+                "Converts the transaction automatically into ODI",
+                "Makes the export transaction a domestic transaction"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_11_5",
+            question: "Which institution plays an important role in monitoring export transactions and realisation of export proceeds under the FEMA framework?",
+            options: [
+                "Authorised Dealer",
+                "NCLT",
+                "Competition Commission of India",
+                "Registrar of Trademarks"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_12",
+    case_chapter: ["FEMA", "Import of Goods", "Import Payment", "Evidence of Import"],
+    difficulty: "medium",
+    caseText: `<p>Apex Medical Devices Limited is an Indian manufacturer of sophisticated medical equipment. The company regularly imports specialised components from suppliers situated in Germany, Japan and the United States. During the year, Apex placed an order with a German supplier for components required for manufacturing diagnostic machines in India.</p>
+    <p>The company approached its Authorised Dealer Category-I bank for remittance of the purchase consideration. The foreign exchange was released and payment was made to the German supplier. After completion of the remittance, the accounts department treated the matter as closed and archived the purchase documents.</p>
+    <p>During a subsequent compliance review, the Authorised Dealer requested Apex to provide evidence demonstrating that the goods for which foreign exchange had been remitted had actually been imported into India. The accounts manager objected to the request and argued that once the bank had permitted the remittance, the bank had no further responsibility regarding the transaction.</p>
+    <p>The Authorised Dealer explained that the foreign exchange framework imposes responsibilities upon the bank to follow up import transactions and obtain appropriate evidence of import. Depending upon the nature and mode of import, the required evidence may be available through the Import Data Processing and Monitoring System or through appropriate customs documentation.</p>
+    <p>In a separate import transaction, Apex could not settle the amount payable to its Japanese supplier within the normal period because the machinery supplied had failed certain technical specifications. The parties entered into negotiations regarding replacement of defective components and the importer approached its Authorised Dealer for an extension of the period for settlement of the import liability.</p>
+    <p>The compliance department informed management that Authorised Dealers have delegated powers to permit extension in specified circumstances, subject to the conditions and limits contained in the applicable directions.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_12_1",
+            question: "After foreign exchange is remitted for import of goods, what should the Authorised Dealer generally ensure?",
+            options: [
+                "That appropriate evidence of import is obtained or available",
+                "That the importer earns a minimum profit",
+                "That the foreign supplier opens an Indian bank account",
+                "That the goods are resold immediately"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_12_2",
+            question: "Which system is relevant for monitoring import transactions?",
+            options: [
+                "IDPMS",
+                "MCA21 only",
+                "GSTN only",
+                "Depository system only"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_12_3",
+            question: "The normal period referred to for settlement of import dues is generally:",
+            options: [
+                "One month from shipment",
+                "Six months from shipment",
+                "Five years from shipment",
+                "Ten years from shipment"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_12_4",
+            question: "Can an Authorised Dealer permit extension of the period for settlement of import dues?",
+            options: [
+                "No, under no circumstances",
+                "Yes, in specified circumstances subject to applicable conditions",
+                "Only after approval of SEBI",
+                "Only if the supplier becomes an Indian resident"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_12_5",
+            question: "Which circumstance in the case may justify consideration of an extension by the Authorised Dealer?",
+            options: [
+                "A genuine quality dispute concerning imported machinery",
+                "The importer's desire to increase dividends",
+                "Change in the company's registered office",
+                "Increase in domestic share price"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_13",
+    case_chapter: ["FEMA", "Overseas Investment", "Transfer of Equity Capital", "Disinvestment"],
+    difficulty: "medium",
+    caseText: `<p>Silverline Industries Limited, an Indian manufacturing company, had acquired equity capital in a foreign entity incorporated in Malaysia several years ago. The investment had originally been made in compliance with the overseas investment framework and all remittances had been routed through the company's designated Authorised Dealer bank.</p>
+    <p>Following a strategic review, the Board of Silverline Industries decided to exit a portion of its overseas investment and use the funds for expansion of its domestic manufacturing facilities. A foreign investor offered to purchase part of Silverline's equity interest in the Malaysian entity. The company therefore began examining the conditions applicable to transfer of equity capital of a foreign entity.</p>
+    <p>One director assumed that because the original investment was permitted, the company could sell the equity interest to any person at any price without considering FEMA. The compliance officer explained that transfer or disinvestment remains subject to the overseas investment framework and that the applicable pricing and reporting requirements have to be observed.</p>
+    <p>The foreign entity had been profitable during the previous years and had accumulated significant reserves. The proposed sale price was negotiated commercially between the parties. The finance department was instructed to ensure that the transaction complied with the applicable valuation or pricing framework and that the proceeds of disinvestment were realised within the prescribed period.</p>
+    <p>After completion of the transfer, Silverline also had to report the disinvestment through its designated Authorised Dealer within the applicable timeline. The company therefore decided not to treat the receipt of sale consideration as the final compliance step.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_13_1",
+            question: "Does a transfer of equity capital of a foreign entity by an Indian investor remain subject to the overseas investment framework?",
+            options: [
+                "Yes",
+                "No, once the original ODI was permitted all subsequent transfers are outside FEMA",
+                "Only if the foreign entity makes a loss",
+                "Only if the buyer is an Indian resident"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_13_2",
+            question: "Which factor may be relevant while transferring equity capital of a foreign entity?",
+            options: [
+                "Applicable pricing or valuation requirements",
+                "Only the number of employees of the Indian company",
+                "Only domestic GST rate",
+                "Only the age of the foreign entity"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_13_3",
+            question: "The proceeds arising from disinvestment are:",
+            options: [
+                "Subject to applicable realisation requirements",
+                "Always permitted to remain outside India indefinitely",
+                "Automatically converted into a domestic loan",
+                "Outside FEMA in all circumstances"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_13_4",
+            question: "Disinvestment should generally be reported through:",
+            options: [
+                "The designated Authorised Dealer bank",
+                "The foreign entity's employees",
+                "The Registrar of Trademarks",
+                "The Competition Commission in every case"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_13_5",
+            question: "The reporting of disinvestment is generally required within:",
+            options: [
+                "30 days of receipt of disinvestment proceeds",
+                "Five years",
+                "Ten years",
+                "Only at the time of liquidation of the Indian company"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_14",
+    case_chapter: ["FEMA", "Overseas Investment", "Annual Performance Report", "Reporting"],
+    difficulty: "medium",
+    caseText: `<p>BluePeak Engineering Limited, an Indian entity, acquired 65% equity capital in a foreign manufacturing company incorporated in Vietnam. As a result of the investment, BluePeak exercises control over the foreign entity. The company routed the original investment through its designated Authorised Dealer and completed the initial reporting requirements.</p>
+    <p>At the end of the financial year, the finance department began preparing the compliance calendar for overseas investments. The junior accountant believed that reporting obligations ended once the initial ODI transaction had been reported. The compliance officer explained that an Indian entity having ODI may also be required to submit an Annual Performance Report in respect of the foreign entity.</p>
+    <p>The foreign entity prepares annual financial statements in accordance with the accounting requirements applicable in Vietnam. Since BluePeak exercises control over the entity, the compliance department also considers the requirement relating to audited financial statements while preparing the APR.</p>
+    <p>The foreign entity subsequently established another entity outside India. BluePeak's management was informed that the APR reporting framework requires disclosure of prescribed information regarding the foreign entity and its overseas structure.</p>
+    <p>During the review, the compliance team discovered that the APR for the preceding year had not been filed within the prescribed period because of an administrative oversight. Management wanted to make an additional financial commitment immediately and regularise the reporting delay later. The compliance officer cautioned that delays in reporting may have consequences for further financial commitment until the default is regularised.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_14_1",
+            question: "An Indian entity having ODI may be required to submit:",
+            options: [
+                "Annual Performance Report",
+                "Only a domestic GST return for the foreign entity",
+                "No annual information whatsoever",
+                "Only a report once every ten years"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_14_2",
+            question: "BluePeak's 65% holding and control over the foreign entity is relevant particularly for:",
+            options: [
+                "Compliance and financial statement requirements associated with APR",
+                "Determining Indian customs duty on domestic sales",
+                "Registration of Indian trademarks only",
+                "Domestic labour-law registration"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_14_3",
+            question: "Does completion of initial ODI reporting necessarily eliminate subsequent annual reporting obligations?",
+            options: [
+                "Yes, always",
+                "No",
+                "Yes, where investment exceeds 50%",
+                "Yes, if the foreign entity is profitable"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_14_4",
+            question: "Where required overseas investment reporting has not been completed, further financial commitment may:",
+            options: [
+                "Be subject to restriction until the delay is regularised",
+                "Always be made without any consequence",
+                "Automatically become a current account transaction",
+                "Be completely outside FEMA"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_14_5",
+            question: "A reporting delay may generally be regularised under the applicable framework through:",
+            options: [
+                "The prescribed delayed reporting mechanism including Late Submission Fee, where applicable",
+                "Automatic cancellation of the original ODI",
+                "Conversion of ODI into domestic investment",
+                "Ignoring the delay permanently"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_06",
+    case_chapter: ["FEMA", "Overseas Investment", "Round Tripping", "Subsidiary Structure"],
+    difficulty: "hard",
+    caseText: `<p>Orion Digital Ventures Limited is an Indian company engaged in developing digital platforms and software products. As part of its international expansion strategy, Orion proposes to establish a wholly owned subsidiary, Orion Global Pte. Ltd., in Singapore. The proposed foreign entity would develop and commercialise digital products in Asian markets and would also acquire strategic investments in technology companies situated in different jurisdictions.</p>
+    <p>During preparation of the investment structure, the Singapore subsidiary identifies an attractive investment opportunity in an Indian technology company, Bharat Digital Solutions Private Limited. The Singapore entity proposes to acquire equity capital in Bharat Digital Solutions after receiving the initial ODI from Orion. Consequently, the structure would involve an Indian entity investing in a foreign entity which in turn makes an investment back into India.</p>
+    <p>The finance director remembers that older regulatory practices placed significant restrictions on structures commonly described as round tripping. He therefore advises the Board that the proposed structure is completely prohibited under FEMA. The compliance adviser disagrees and explains that the current overseas investment framework does not impose an absolute prohibition in every such case. Instead, the number of subsidiary layers resulting from the structure becomes important.</p>
+    <p>Orion Global already has one foreign subsidiary in Indonesia. That Indonesian company itself owns another operating subsidiary in Thailand. If Orion Global acquires the proposed Indian company and thereafter uses the Indian company to establish additional subsidiaries, the group structure could become increasingly complex. The compliance team therefore maps the entire chain to determine the number of layers of subsidiaries resulting from the proposed financial commitment.</p>
+    <p>One director argues that foreign subsidiaries should not be counted because the restriction should apply only to subsidiaries incorporated in India. Another director argues that the restriction applies only when the Indian parent directly invests back into India. The legal adviser explains that the overseas investment rules must be examined carefully because the relevant provision considers financial commitment in a foreign entity that has invested or invests into India, directly or indirectly, where the structure results in more than the permissible number of subsidiary layers.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_06_1",
+            question: "Is every overseas investment structure involving a foreign entity which invests back into India absolutely prohibited under the current framework?",
+            options: [
+                "Yes, without exception",
+                "No, the permissibility must be examined with reference to the prescribed conditions including subsidiary layers",
+                "Yes, unless the Indian entity is listed",
+                "Yes, unless the foreign entity is incorporated in the United States"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_06_2",
+            question: "The relevant restriction applies where the structure resulting from such financial commitment has:",
+            options: [
+                "More than two layers of subsidiaries, subject to the applicable rule and exemptions",
+                "More than ten employees",
+                "More than one bank account",
+                "Any foreign subsidiary whatsoever"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_06_3",
+            question: "For application of the relevant overseas investment restriction, investment into India by the foreign entity may be:",
+            options: [
+                "Only direct",
+                "Direct or indirect",
+                "Only through a listed company",
+                "Only through debt instruments"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_06_4",
+            question: "Which statement best describes the compliance analysis required for Orion's proposed structure?",
+            options: [
+                "Only Orion's direct holding in Singapore needs to be examined",
+                "The resulting subsidiary structure should be mapped to determine whether the permissible layer restriction is breached",
+                "Only the profitability of the Singapore company is relevant",
+                "No analysis is required once ODI is permitted"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_06_5",
+            question: "The rule concerning layers in such overseas investment structures is linked to the restriction contemplated under:",
+            options: [
+                "The Companies Act framework concerning layers of subsidiaries",
+                "Only the Income-tax Act",
+                "Only the Customs Act",
+                "Only the Competition Act"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_07",
+    case_chapter: ["FEMA", "Overseas Investment", "Restructuring", "Diminution in Value"],
+    difficulty: "hard",
+    caseText: `<p>Horizon Automotive Limited, an Indian company, holds 70% equity capital in Horizon Europe GmbH, a foreign entity engaged in manufacturing automotive components. The overseas entity performed well for several years but subsequently suffered substantial losses due to a severe downturn in the automobile industry. Its accumulated losses significantly reduced its net worth and it became difficult for the entity to service its outstanding financial obligations.</p>
+    <p>Horizon Automotive had made ODI by way of equity capital and had also provided a shareholder loan to the foreign entity. After discussions with lenders and minority shareholders, the Board proposed a comprehensive restructuring of the foreign entity's balance sheet. Under the proposal, part of the outstanding loan payable to Horizon Automotive would be reduced and the value of certain financial interests of the Indian company would consequently diminish.</p>
+    <p>The CFO argued that FEMA would prohibit any reduction in the amount receivable by an Indian company from a foreign entity because such reduction would amount to allowing foreign exchange to remain unrealised. The compliance adviser explained that the overseas investment framework specifically permits restructuring of the balance sheet of a foreign entity which has been incurring losses during the prescribed period, subject to applicable conditions.</p>
+    <p>The management then commissioned a valuation to quantify the diminution in the total value of outstanding dues towards Horizon Automotive. Since the amount involved was substantial, the company also considered whether the valuation must be certified by an appropriate professional. The compliance adviser informed the Board that additional certification requirements arise where the amount of diminution exceeds the prescribed threshold or percentage of the Indian entity's total investment in the foreign entity.</p>
+    <p>The company also recognised that restructuring does not eliminate reporting requirements. The transaction must be reported through the designated Authorised Dealer within the prescribed period and the company must maintain appropriate supporting documentation regarding the commercial basis and valuation of the restructuring.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_07_1",
+            question: "Under the overseas investment framework, restructuring involving diminution in the value of outstanding dues may be permitted where the foreign entity:",
+            options: [
+                "Has been incurring losses for the prescribed previous period",
+                "Has never commenced business",
+                "Is profitable in every year",
+                "Is incorporated only in India"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_07_2",
+            question: "Which of the following may form part of the restructuring contemplated in the case?",
+            options: [
+                "Diminution in the total value of outstanding dues towards the Indian investor",
+                "Automatic cancellation of FEMA",
+                "Conversion of the Indian entity into a foreign company",
+                "Cancellation of all reporting requirements"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_07_3",
+            question: "Where the diminution exceeds the prescribed monetary amount or percentage of the Indian entity's total investment, the diminution should generally be:",
+            options: [
+                "Duly certified on an arm's-length basis by the prescribed professional",
+                "Determined only orally by the Board",
+                "Fixed by the foreign customer",
+                "Ignored for regulatory purposes"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_07_4",
+            question: "Which statement is correct regarding reporting of restructuring?",
+            options: [
+                "Restructuring is outside the reporting framework",
+                "The restructuring must be reported through the designated AD bank within the prescribed period",
+                "Reporting is required only after liquidation",
+                "Reporting is required only where there is no diminution"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_07_5",
+            question: "The regulatory treatment of diminution in value demonstrates that:",
+            options: [
+                "Every reduction of overseas dues is absolutely prohibited",
+                "A commercially justified restructuring may be permitted subject to prescribed safeguards",
+                "Indian entities may waive any overseas dues without conditions",
+                "Only RBI itself may restructure the foreign entity"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_08",
+    case_chapter: ["FEMA", "Overseas Investment", "Deferred Payment", "Equity Capital"],
+    difficulty: "hard",
+    caseText: `<p>Prism Healthcare Limited, an Indian pharmaceutical company, proposes to acquire 80% equity capital in Medica Global Ltd., a foreign entity incorporated in the United Kingdom. The parties negotiate a total acquisition consideration of USD 40 million. Instead of paying the entire consideration on completion, Prism proposes to pay USD 25 million immediately and the remaining USD 15 million after two years.</p>
+    <p>The deferred portion is intended to protect Prism against certain commercial risks identified during due diligence. The seller agrees that the amount may be paid after the agreed period provided that the acquisition documents clearly record the total consideration and the deferred payment mechanism.</p>
+    <p>The finance department initially concludes that only the USD 25 million paid immediately should be treated as ODI because the remaining USD 15 million has not yet been remitted outside India. The compliance adviser explains that where equity capital is acquired on a deferred-payment basis in accordance with the overseas investment framework, the deferred portion has a specific regulatory treatment and cannot simply be ignored while determining the nature of the investment.</p>
+    <p>The company also proposes to transfer legal title to the entire 80% equity interest immediately on completion, even though part of the consideration remains payable. The seller is comfortable with the arrangement because appropriate contractual safeguards have been included in the acquisition agreement.</p>
+    <p>Separately, Prism proposes to sell part of another overseas investment and allow the foreign purchaser to pay a portion of the sale consideration after eighteen months. The Board asks whether deferred consideration is available only for acquisitions by Indian entities or whether it can also apply in an overseas disinvestment transaction.</p>
+    <p>The legal team advises that the applicable rule covers acquisition as well as transfer of equity capital on a deferred-payment basis, subject to the conditions contained in the overseas investment framework.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_08_1",
+            question: "Can equity capital of a foreign entity be acquired by an Indian investor on a deferred-payment basis under the overseas investment framework?",
+            options: [
+                "Yes, subject to the applicable conditions",
+                "No, the entire consideration must invariably be paid on the date of acquisition",
+                "Only where the foreign entity is a bank",
+                "Only where the consideration is below USD 1 million"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_08_2",
+            question: "For regulatory purposes, the deferred part of the consideration in such an acquisition is generally treated as:",
+            options: [
+                "Non-existent until actual payment",
+                "A non-fund-based commitment until it is paid",
+                "A domestic current account transaction",
+                "A gift to the foreign seller"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_08_3",
+            question: "Does deferred payment necessarily prevent transfer of the agreed equity capital at completion?",
+            options: [
+                "Yes, in every case",
+                "No, acquisition or transfer may be structured on a deferred-payment basis subject to the applicable framework",
+                "Yes, unless RBI becomes a shareholder",
+                "Yes, unless the foreign entity is listed"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_08_4",
+            question: "Can deferred consideration also arise where an Indian investor transfers equity capital of a foreign entity?",
+            options: [
+                "Yes, subject to applicable conditions",
+                "No, it is available only for acquisitions",
+                "Only where the buyer is RBI",
+                "Only for domestic securities"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_08_5",
+            question: "Which statement best reflects the treatment of the USD 15 million deferred acquisition consideration?",
+            options: [
+                "It may be completely ignored because no remittance has yet occurred",
+                "Its regulatory treatment must be considered even though actual payment has been deferred",
+                "It automatically becomes a current account payment",
+                "It is treated as dividend income"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_09",
+    case_chapter: ["FEMA", "Overseas Investment", "Acquisition by Bidding", "Guarantee"],
+    difficulty: "hard",
+    caseText: `<p>National Engineering Corporation Limited, an Indian entity, decides to participate in an international competitive bidding process for acquisition of a foreign infrastructure company. Under the bidding terms, every participant must furnish an earnest money deposit together with a bid bond before submitting the final financial proposal.</p>
+    <p>The target company is valued at several hundred million dollars and National Engineering expects strong competition from multinational bidders. The company's Board authorises participation in the bidding process but the finance team is uncertain whether remitting earnest money before actually acquiring equity capital in the foreign entity would be permissible under the overseas investment framework.</p>
+    <p>The company's Authorised Dealer explains that the regulations specifically recognise acquisition of equity capital through bidding or tender procedure as a permissible mode of ODI and contain provisions dealing with remittance of earnest money deposit and issuance of bid bonds or guarantees connected with such transactions.</p>
+    <p>National Engineering proposes to remit the earnest money through its designated Authorised Dealer. The bidding authority also requires a bank guarantee. The company's bank agrees to issue the guarantee after examining the bidding documents and applicable regulatory conditions.</p>
+    <p>National Engineering ultimately wins the bid. Under the acquisition agreement, the company is required to make further remittances towards the purchase consideration. The finance director believes that because the initial earnest money was remitted before acquisition, all subsequent payments may be made without further consideration of the overseas investment framework.</p>
+    <p>The compliance officer disagrees. He explains that the initial remittance merely facilitates participation in the bidding process and that the ultimate acquisition and subsequent financial commitment must independently satisfy the applicable ODI conditions, financial commitment limits and reporting requirements.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_09_1",
+            question: "Is acquisition of equity capital through a bidding or tender procedure recognised as a mode of ODI?",
+            options: [
+                "Yes",
+                "No",
+                "Only for government companies",
+                "Only for listed foreign entities"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_09_2",
+            question: "Can earnest money deposit connected with an overseas bidding process be remitted in accordance with the applicable ODI framework?",
+            options: [
+                "Yes, subject to the prescribed conditions",
+                "No, because equity has not yet been acquired",
+                "Only after liquidation of the target",
+                "Only through a foreign bank unrelated to the Indian entity"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_09_3",
+            question: "A bid bond or guarantee required in connection with the overseas bidding process may generally be issued:",
+            options: [
+                "Subject to the applicable overseas investment and banking conditions",
+                "Without any consideration of FEMA",
+                "Only by the foreign government",
+                "Only after the bid has been rejected"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_09_4",
+            question: "If National Engineering wins the bid, do subsequent acquisition payments become automatically exempt from ODI requirements?",
+            options: [
+                "Yes",
+                "No, the acquisition and financial commitment must continue to satisfy the applicable framework",
+                "Yes, because earnest money was already remitted",
+                "Yes, if the target company is profitable"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_09_5",
+            question: "Which statement best describes the regulatory character of the initial earnest money remittance?",
+            options: [
+                "It facilitates participation in the overseas acquisition process but does not eliminate subsequent ODI compliance",
+                "It permanently exempts the acquisition from FEMA",
+                "It converts the transaction into a current account transaction",
+                "It automatically constitutes acquisition of 100% equity capital"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_10",
+    case_chapter: ["FEMA", "Overseas Investment", "NOC", "Wilful Defaulter", "Investigation"],
+    difficulty: "hard",
+    caseText: `<p>Summit Infrastructure Limited, an Indian company, proposes to acquire a controlling interest in an infrastructure company incorporated outside India. The proposed transaction would constitute ODI and would require a substantial financial commitment by Summit Infrastructure. The Board considers the acquisition commercially attractive because the foreign company owns valuable infrastructure concessions and has generated stable operating cash flows.</p>
+    <p>Before the transaction could proceed, the compliance department discovered that Summit Infrastructure had been classified as a wilful defaulter by a lender in India. Separately, an investigation had been initiated against the company by a financial sector regulator in connection with certain past transactions. The management nevertheless instructed the finance department to proceed with the foreign investment, arguing that the overseas investment regulations are concerned only with the foreign entity and not with the regulatory status of the Indian investor.</p>
+    <p>The compliance officer explained that certain persons resident in India are required to obtain a No Objection Certificate before making financial commitment or undertaking disinvestment under the overseas investment framework. The relevant categories include persons whose accounts have been classified as non-performing assets, persons classified as wilful defaulters and persons who are under investigation by specified investigative or regulatory authorities.</p>
+    <p>Summit therefore approached the concerned lender and regulatory authority seeking the necessary NOC. Several weeks passed without any response. The CFO assumed that the company would have to wait indefinitely because an express written NOC was mandatory before the transaction could proceed.</p>
+    <p>The legal adviser pointed out that the regulations provide a specific mechanism where the concerned lender, regulatory body or investigative agency fails to communicate its objection within the prescribed period from receipt of the NOC application. Accordingly, the date on which the application is received by the concerned authority becomes important.</p>
+    <p>While the NOC application remained pending, Summit also considered selling an existing overseas investment to raise funds. The Board initially assumed that the NOC requirement applied only to making new ODI and not to disinvestment. The compliance adviser warned that the relevant restriction extends to specified overseas investment transactions including financial commitment and transfer or disinvestment in the circumstances contemplated by the rules.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_10_1",
+            question: "Which of the following persons may be required to obtain an NOC before making financial commitment under the overseas investment framework?",
+            options: [
+                "A person classified as a wilful defaulter",
+                "Every employee of an Indian company",
+                "Every exporter of goods",
+                "Every domestic shareholder irrespective of circumstances"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_10_2",
+            question: "A person under investigation by a financial sector regulator may:",
+            options: [
+                "Be subject to the NOC requirement before undertaking specified overseas investment transactions",
+                "Always make ODI without any restriction",
+                "Automatically lose Indian residential status",
+                "Be permanently prohibited from every foreign exchange transaction"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_10_3",
+            question: "If the concerned lender, regulator or investigative agency does not communicate any objection within the prescribed period after receiving the NOC application, what is the general regulatory consequence?",
+            options: [
+                "The NOC may be deemed to have been granted",
+                "The ODI becomes permanently prohibited",
+                "The Indian entity must immediately liquidate",
+                "The application automatically shifts to SEBI"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_10_4",
+            question: "What is the prescribed period relevant for deemed NOC where no objection is communicated?",
+            options: [
+                "Ten calendar days",
+                "Thirty calendar days",
+                "Sixty calendar days",
+                "One year"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_hard_10_5",
+            question: "Is the NOC requirement in the specified circumstances relevant only for making a new ODI?",
+            options: [
+                "Yes, it can never affect disinvestment",
+                "No, the applicable restriction may also extend to transfer or disinvestment",
+                "Yes, unless the foreign entity is profitable",
+                "Yes, where the investment was originally made through an AD bank"
+            ],
+            answer: 1
+        }
+    ]
+},
+{
+    case_id: "fema_cs_medium_10",
+    case_chapter: ["FEMA", "Current Account Transactions", "Liberalised Remittance Scheme"],
+    difficulty: "medium",
+    caseText: `<p>Rohan Mehra, an individual resident in India, has been planning several overseas transactions during the financial year. His daughter has obtained admission to a university in the United Kingdom and Rohan proposes to remit money towards her tuition fees and living expenses. In addition, he wishes to undertake a family vacation abroad and make certain permitted investments outside India. He approaches his Authorised Dealer bank to understand whether these transactions can be undertaken under the Liberalised Remittance Scheme.</p>
+
+    <p>The relationship manager explains that the Liberalised Remittance Scheme permits resident individuals, including minors, to remit foreign exchange for permissible current account transactions, capital account transactions, or a combination of both, within the monetary ceiling prescribed under the Scheme. Rohan initially assumes that because he has four members in his family, he can automatically aggregate the individual limits of all family members and remit the entire amount from his own bank account. The bank explains that remittances by family members may be consolidated for permissible purposes subject to the applicable conditions, but each individual remitter must independently comply with the Scheme.</p>
+
+    <p>Rohan's wife proposes to remit part of her permissible limit for acquiring an overseas asset jointly with him. His minor son also has certain funds standing in his bank account. Rohan asks whether a minor can independently fall within the LRS framework. The bank informs him that the Scheme is available to resident individuals, including minors, although the prescribed procedural requirements applicable to a minor must be observed.</p>
+
+    <p>During the discussion, Rohan also proposes to use a portion of the remittance for purchasing lottery tickets abroad and another portion for undertaking margin trading through an overseas online platform. The bank's compliance officer cautions him that availability of an overall monetary limit under LRS does not mean that every transaction is permitted. Transactions which are otherwise prohibited under FEMA or the applicable current account transaction rules cannot be undertaken merely because the aggregate amount remains within the LRS ceiling.</p>
+
+    <p>Rohan therefore asks the bank to separately classify each proposed transaction and determine whether it is permissible before processing any remittance.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_10_1",
+            question: "The Liberalised Remittance Scheme is primarily available to:",
+            options: [
+                "Resident individuals",
+                "Only listed Indian companies",
+                "Only partnership firms",
+                "Every person resident outside India"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_10_2",
+            question: "Can a minor resident individual make remittance under LRS?",
+            options: [
+                "No, LRS is available only after attaining 21 years of age",
+                "Yes, resident individuals including minors are covered, subject to applicable procedural requirements",
+                "Only if the minor is employed",
+                "Only with approval of SEBI"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_10_3",
+            question: "LRS may generally be used for:",
+            options: [
+                "Only current account transactions",
+                "Only capital account transactions",
+                "Permissible current account transactions, capital account transactions, or a combination of both",
+                "Only import of physical goods"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_10_4",
+            question: "Does availability of an unused amount within the LRS monetary ceiling make an otherwise prohibited transaction permissible?",
+            options: [
+                "Yes, in every case",
+                "Yes, if the remitter gives an undertaking",
+                "No, prohibited transactions remain prohibited notwithstanding availability of the LRS limit",
+                "Yes, if the transaction is below USD 50,000"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_10_5",
+            question: "Which of the following proposed uses should raise a prohibition issue under the applicable foreign exchange framework?",
+            options: [
+                "Permissible overseas education expenditure",
+                "Permissible travel expenditure",
+                "Purchase of lottery tickets",
+                "Permissible investment outside India"
+            ],
+            answer: 2
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_11",
+    case_chapter: ["FEMA", "Export of Goods and Services", "Third Party Payments"],
+    difficulty: "medium",
+    caseText: `<p>Aster Textiles Limited, an Indian exporter of specialised fabrics, supplied goods worth USD 600,000 to Maison Retail SAS, a buyer situated in France. The export declaration and commercial invoice identified Maison Retail as the overseas buyer and the export documents were routed through Aster's Authorised Dealer bank in India. Under the original contractual terms, Maison Retail was required to make payment directly to Aster Textiles.</p>
+
+    <p>Before the payment became due, Maison Retail underwent an internal treasury restructuring. It informed Aster that payment would instead be made by another company belonging to the same international group and situated in Germany. Aster's accounts team became concerned because the person remitting the export proceeds would not be the buyer appearing on the export invoice.</p>
+
+    <p>The foreign buyer explained that third-party settlement was commercially convenient because the German group company operated a centralised treasury system. Aster therefore approached its Authorised Dealer to determine whether receipt from a third party could be accepted. The bank explained that third-party payments for export transactions may be permitted subject to satisfaction of the prescribed conditions, appropriate documentation and compliance with applicable banking procedures.</p>
+
+    <p>The bank further asked Aster to ensure that the relevant arrangement was supported by documentary evidence and that the transaction was routed through banking channels. The compliance officer also emphasised that the identity of the third-party remitter and the relationship with the underlying export transaction should be transparent rather than being structured merely to conceal the actual source of funds.</p>
+
+    <p>Aster's finance director initially argues that export proceeds can only be received from the buyer named on the invoice and that receipt from any other person would automatically violate FEMA. The compliance officer advises that this conclusion is too broad and that the regulatory framework recognises third-party payments in appropriate cases subject to the specified safeguards.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_11_1",
+            question: "Can export proceeds in an eligible case be received from a third party instead of directly from the overseas buyer?",
+            options: [
+                "No, third-party payments are absolutely prohibited",
+                "Yes, subject to compliance with prescribed conditions",
+                "Only if the exporter is a government company",
+                "Only where the export value is below USD 10,000"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_11_2",
+            question: "Which feature is particularly important in a permitted third-party payment arrangement?",
+            options: [
+                "The transaction should be supported by appropriate documentation",
+                "The identity of the remitter must be concealed",
+                "Payment must always be made in cash",
+                "No banking channel should be used"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_11_3",
+            question: "Which statement made by Aster's finance director is incorrect?",
+            options: [
+                "The AD bank may examine compliance with applicable requirements",
+                "Third-party settlement requires appropriate regulatory compliance",
+                "Every third-party receipt against an export is automatically prohibited under FEMA",
+                "The underlying export transaction should be identifiable"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fema_cs_medium_11_4",
+            question: "The principal regulatory concern in the facts is whether:",
+            options: [
+                "Payment from a person other than the buyer can qualify as an acceptable third-party export receipt",
+                "Aster may manufacture fabrics in India",
+                "The foreign buyer may operate a treasury department",
+                "Aster can maintain accounting records"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_11_5",
+            question: "Which approach should Aster adopt before accepting the proposed payment?",
+            options: [
+                "Accept it without informing its bank",
+                "Receive the amount in physical foreign currency",
+                "Ensure compliance with the prescribed third-party payment conditions through the banking channel",
+                "Cancel the export transaction in every case"
+            ],
+            answer: 2
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_12",
+    case_chapter: ["FEMA", "Overseas Investment", "Transfer of Equity Capital"],
+    difficulty: "medium",
+    caseText: `<p>Zenith Auto Components Limited, an Indian company, had acquired equity capital in a manufacturing entity incorporated in Thailand five years ago. The investment was originally made as ODI in accordance with the applicable overseas investment framework. Over the years, the Thai entity expanded its operations and attracted interest from several international investors.</p>
+
+    <p>Zenith now intends to transfer its entire equity holding in the foreign entity to another eligible person. The proposed sale price has been commercially negotiated after taking into account the financial position, assets, liabilities and future prospects of the foreign entity. Before signing the agreement, Zenith's finance team examines the pricing requirements applicable to transfer of overseas investment.</p>
+
+    <p>One director suggests that since the original investment was made with foreign exchange already remitted outside India, Zenith should be free to transfer the shares at any price agreed between the parties without considering the applicable regulatory framework. The compliance officer disagrees and explains that the transfer of equity capital of a foreign entity by a person resident in India is subject to the applicable overseas investment rules and regulations.</p>
+
+    <p>The proposed purchaser asks Zenith to permit payment of the consideration in instalments because immediate payment of the entire purchase price would create liquidity difficulties. Zenith therefore considers entering into a deferred-payment arrangement. The legal team explains that deferred consideration may be permissible subject to the conditions prescribed under the overseas investment framework.</p>
+
+    <p>At the same time, the accounts department identifies certain amounts that remain receivable from the foreign entity. The company is advised to separately examine whether any outstanding dues, reporting defaults or other non-compliances affect its ability to transfer the investment. The Board therefore decides that the transaction should not be viewed merely as an ordinary sale of shares but must be tested against FEMA's overseas investment requirements.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_12_1",
+            question: "The transfer by Zenith of its equity capital in the foreign entity is primarily governed by:",
+            options: [
+                "The applicable overseas investment framework under FEMA",
+                "Only the Indian Sale of Goods Act",
+                "Only customs law",
+                "Only the foreign buyer's internal policy"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_12_2",
+            question: "Is Zenith correct in assuming that shares held outside India may be transferred at any price without regard to FEMA merely because the original remittance was permitted?",
+            options: [
+                "Yes",
+                "No, the transfer remains subject to applicable overseas investment requirements",
+                "Yes, if the investment is more than five years old",
+                "Yes, if the buyer is a non-resident"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_12_3",
+            question: "Can consideration for transfer of equity capital of a foreign entity potentially be deferred?",
+            options: [
+                "No, deferred consideration is prohibited in every situation",
+                "Yes, subject to the prescribed conditions",
+                "Only for transfer of Indian immovable property",
+                "Only where RBI purchases the shares"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_12_4",
+            question: "Before completing the transfer, Zenith should particularly examine:",
+            options: [
+                "Whether there are outstanding reporting or other regulatory defaults affecting the transaction",
+                "Only whether its employees approve the sale",
+                "Only whether the purchaser has an Indian PAN",
+                "Whether the foreign company changes its name"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_12_5",
+            question: "Which statement best describes the proposed transaction?",
+            options: [
+                "It is completely outside FEMA because the shares are situated abroad",
+                "It constitutes transfer of overseas investment and must satisfy the applicable FEMA framework",
+                "It is automatically a current account transaction",
+                "It is prohibited merely because consideration may be paid in instalments"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_13",
+    case_chapter: ["FEMA", "Foreign Currency Accounts", "Exporters"],
+    difficulty: "medium",
+    caseText: `<p>BlueWave Software Solutions Limited is an Indian exporter providing software development and consultancy services to clients in the United States, Europe and Singapore. The company regularly receives export proceeds in foreign currency. Because it also incurs significant foreign currency expenditure for overseas travel, subscriptions, professional services and other permissible business expenses, repeated conversion of export receipts into Indian rupees and subsequent purchase of foreign exchange creates additional administrative work.</p>
+
+    <p>The company's banker suggests examining whether BlueWave can maintain an Exchange Earners' Foreign Currency account with an Authorised Dealer in India. The CFO understands that an EEFC account enables eligible foreign exchange earners to retain permissible foreign exchange earnings in foreign currency rather than necessarily converting the entire amount into rupees immediately.</p>
+
+    <p>A junior accountant assumes that the EEFC account operates like a term deposit and proposes to place the entire balance into a fixed deposit for two years so that the company can earn interest. The bank's compliance officer explains that an EEFC account has specific operational characteristics and cannot simply be treated as an ordinary interest-bearing fixed deposit.</p>
+
+    <p>BlueWave also wants to use the balance for making permitted foreign currency payments connected with its business. The bank informs the company that withdrawals may be made for permissible current account transactions and permissible capital account transactions, subject to the applicable FEMA framework.</p>
+
+    <p>The managing director then proposes to borrow funds in Indian rupees against the EEFC balance in order to finance a domestic expansion project. The finance team is asked to verify whether such borrowing against the account is consistent with the restrictions applicable to EEFC accounts rather than assuming that the foreign currency balance can be used as unrestricted collateral.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_13_1",
+            question: "The principal purpose of an EEFC account is to enable eligible persons to:",
+            options: [
+                "Retain eligible foreign exchange earnings in foreign currency",
+                "Avoid reporting exports",
+                "Borrow unlimited foreign currency",
+                "Receive only domestic rupee income"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_13_2",
+            question: "An EEFC account is generally maintained with:",
+            options: [
+                "An Authorised Dealer",
+                "Only SEBI",
+                "The Registrar of Companies",
+                "A foreign customer directly"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_13_3",
+            question: "Which statement concerning use of EEFC balances is most appropriate?",
+            options: [
+                "They can never be used for any payment",
+                "They may be used for permissible current and capital account transactions subject to applicable requirements",
+                "They can only be withdrawn in physical cash",
+                "They must be transferred to RBI every month"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_13_4",
+            question: "The accountant's proposal to automatically treat the EEFC balance as an ordinary two-year fixed deposit is:",
+            options: [
+                "Correct because EEFC is fundamentally a term-deposit scheme",
+                "Incorrect because EEFC accounts are subject to specific operational restrictions",
+                "Mandatory under FEMA",
+                "Required whenever the exporter earns more than USD 100,000"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_13_5",
+            question: "Before borrowing against the EEFC balance, BlueWave should:",
+            options: [
+                "Assume that unrestricted borrowing is permitted",
+                "Examine the specific restrictions applicable to EEFC accounts",
+                "Close its export business",
+                "Seek approval from every foreign customer"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_medium_14",
+    case_chapter: ["FEMA", "Realisation and Repatriation", "Foreign Exchange"],
+    difficulty: "medium",
+    caseText: `<p>Prakash, a person resident in India, provides professional consultancy services to several overseas clients. During the financial year, he earns foreign exchange from a client situated outside India. The client credits the amount to an overseas account that Prakash had legitimately used in connection with his foreign assignments.</p>
+
+    <p>Prakash believes that because the income was earned from a foreign client and was initially received outside India, FEMA has no further relevance once the amount has been received. He therefore proposes to retain the entire amount abroad indefinitely, even though the foreign exchange represents an amount which is required to be realised and repatriated to India under the applicable provisions.</p>
+
+    <p>His financial adviser explains that FEMA distinguishes between realisation and repatriation. Merely obtaining payment from the foreign debtor does not necessarily complete all obligations where the foreign exchange is required to be brought into India. Repatriation involves bringing the realised foreign exchange into India and, depending upon the applicable framework, selling it to an authorised person in India in exchange for rupees or retaining it in an account with an authorised dealer to the extent permitted.</p>
+
+    <p>Prakash asks whether he can use part of the foreign exchange directly outside India for making a permissible payment before bringing the balance to India. The adviser explains that the regulations recognise certain circumstances in which foreign exchange may be used for permissible purposes, but the existence of such exceptions does not create a general right to retain all foreign exchange outside India indefinitely.</p>
+
+    <p>Prakash therefore asks his Authorised Dealer to clarify the distinction between receiving foreign currency, realising a foreign exchange receivable and complying with the requirement of repatriation.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_medium_14_1",
+            question: "Under FEMA, 'repatriate to India' broadly involves:",
+            options: [
+                "Merely receiving foreign exchange from a foreign debtor",
+                "Bringing realised foreign exchange into India and dealing with it in the prescribed manner",
+                "Keeping foreign exchange abroad permanently",
+                "Converting Indian rupees into foreign currency"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_14_2",
+            question: "Is Prakash correct that once the foreign client pays him outside India, no repatriation obligation can arise?",
+            options: [
+                "Yes, in every case",
+                "No, receipt or realisation and repatriation are distinct concepts",
+                "Yes, because consultancy income is always exempt",
+                "Yes, if the amount exceeds USD 100,000"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_14_3",
+            question: "Repatriation may include retaining the realised amount:",
+            options: [
+                "In an account with an authorised dealer in India to the extent permitted",
+                "Only as physical currency at home",
+                "Only in an undisclosed foreign account",
+                "Only with a foreign customer"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_medium_14_4",
+            question: "Which statement is most appropriate regarding utilisation of foreign exchange outside India?",
+            options: [
+                "Foreign exchange required to be repatriated can always be retained abroad without restriction",
+                "Permissible utilisation may be recognised in specified circumstances, subject to FEMA",
+                "All overseas utilisation is criminally prohibited",
+                "FEMA applies only to companies and never to individuals"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_medium_14_5",
+            question: "The principal error in Prakash's reasoning is that he:",
+            options: [
+                "Treats receipt of foreign exchange as automatically satisfying every possible repatriation requirement",
+                "Uses an authorised dealer",
+                "Provides services to foreign clients",
+                "Receives professional income"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_06",
+    case_chapter: ["FEMA", "Overseas Investment", "Round Tripping", "Subsidiaries"],
+    difficulty: "hard",
+    caseText: `<p>Nova Digital Systems Limited, an Indian technology company, proposes to establish a wholly owned subsidiary, Nova Global Pte. Ltd., in Singapore. The proposed foreign entity will undertake software development, hold intellectual property and invest in technology businesses across several jurisdictions. Nova Digital proposes to make ODI in the Singapore company in accordance with the applicable overseas investment framework.</p>
+
+    <p>After incorporation, Nova Global proposes to establish a subsidiary in the United States. The US subsidiary would subsequently establish another entity in Europe. In addition, the management is considering whether the Singapore company could make an investment in an Indian technology start-up in which Nova Digital itself does not presently hold any interest.</p>
+
+    <p>Some members of Nova Digital's Board recall the historically restrictive approach to structures involving an overseas entity investing back into India. They therefore conclude that any foreign entity in which an Indian company has made ODI is absolutely prohibited from making any investment in India. The compliance officer explains that the current overseas investment framework requires a more nuanced analysis.</p>
+
+    <p>The legal team points out that an Indian entity may make ODI in a foreign entity which has invested or subsequently invests into India, directly or indirectly, provided that the resulting structure does not lead to a structure having more than the permitted number of layers of subsidiaries. For this purpose, the restrictions relating to layers need to be carefully examined rather than treating every inbound investment as automatically prohibited.</p>
+
+    <p>The Board then asks whether every entity in the ownership chain should automatically be treated as a 'subsidiary' merely because another entity has made some investment in it. The legal adviser explains that for the overseas investment framework, the concept of subsidiary or step-down subsidiary is connected with control by the foreign entity.</p>
+
+    <p>Nova Digital therefore has to analyse both the control relationships in the proposed chain and the number of subsidiary layers that would arise if the Singapore company ultimately makes an investment back into India.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_06_1",
+            question: "Is ODI in a foreign entity that subsequently invests into India automatically prohibited in every case?",
+            options: [
+                "Yes, without exception",
+                "No, such a structure may be permissible subject to the applicable restriction on layers and other conditions",
+                "Yes, unless the Indian entity is a bank",
+                "Yes, unless the investment into India is below 10%"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_06_2",
+            question: "For the purpose of determining a subsidiary or step-down subsidiary under the overseas investment framework, which factor is particularly relevant?",
+            options: [
+                "Control",
+                "Only the name of the company",
+                "Nationality of the directors",
+                "Number of employees"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_06_3",
+            question: "The principal regulatory concern where the foreign entity invests directly or indirectly back into India is:",
+            options: [
+                "Whether the resulting structure breaches the permissible subsidiary-layer restriction",
+                "Whether the foreign company earns profit in its first month",
+                "Whether every director is an Indian citizen",
+                "Whether the investment is denominated only in euros"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_06_4",
+            question: "Which statement best reflects the correct approach to Nova Global's proposed investment into India?",
+            options: [
+                "Reject it immediately because all round-trip structures are absolutely prohibited",
+                "Examine the resulting ownership and control structure, including the number of subsidiary layers",
+                "Ignore FEMA because the investment will be made by a Singapore entity",
+                "Treat the Singapore company as an Indian resident"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_06_5",
+            question: "If Nova Global merely holds an investment in another foreign entity without control, that entity is:",
+            options: [
+                "Automatically a subsidiary in every case",
+                "Not necessarily a subsidiary merely because an investment is held; the control test is relevant",
+                "Automatically an Indian entity",
+                "Automatically prohibited"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_07",
+    case_chapter: ["FEMA", "Overseas Investment", "Write-off", "Disinvestment"],
+    difficulty: "hard",
+    caseText: `<p>Orion Engineering Limited, an Indian manufacturing company, invested in an overseas joint venture eight years ago. The foreign entity initially performed well, but over the last three years it suffered significant losses due to technological obsolescence, loss of major customers and adverse economic conditions in its host country. Its accumulated losses substantially eroded its net worth and the shareholders decided to restructure the business.</p>
+
+    <p>An international investor offers to acquire Orion's entire stake in the foreign entity. However, because of the poor financial position of the foreign entity, the consideration offered is materially lower than the amount originally invested by Orion. Completion of the transaction would therefore result in Orion recognising a substantial loss on its overseas investment.</p>
+
+    <p>Orion's finance director assumes that any transfer of overseas equity at a loss requires prior approval from RBI because the company would effectively be writing off part of its original investment. The compliance officer explains that the current overseas investment framework permits transfer or disinvestment subject to the prescribed conditions and that the company must analyse the applicable provisions rather than assume that every loss requires prior approval.</p>
+
+    <p>The foreign entity also owes certain amounts to Orion in relation to earlier transactions. In negotiating an exit, Orion is considering whether some amounts due from the foreign entity may have to be written off. The legal team points out that the applicable conditions differ depending upon the nature of the transaction and that the company's reporting history and outstanding dues need to be reviewed before completion.</p>
+
+    <p>During this review, it is discovered that Orion failed to file an overseas investment report due nine months earlier. The CFO proposes completing the disinvestment immediately and regularising the reporting default afterwards through payment of Late Submission Fee. The compliance officer warns that an existing reporting default can restrict transfer of the investment until the delay is regularised.</p>
+
+    <p>The Board therefore has to distinguish between a commercial loss arising from disinvestment and a regulatory default arising from failure to complete required reporting.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_07_1",
+            question: "A sale of overseas investment for consideration lower than the original investment amount should be analysed primarily under:",
+            options: [
+                "The applicable provisions governing transfer or disinvestment of overseas investment",
+                "Only domestic GST law",
+                "Only the Indian Contract Act",
+                "The prohibition on current account transactions"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_07_2",
+            question: "Is the finance director correct that every overseas disinvestment involving a loss automatically requires prior RBI approval?",
+            options: [
+                "Yes, without exception",
+                "No, the transaction must be tested against the applicable overseas investment provisions and conditions",
+                "Yes, if the foreign entity has accumulated losses",
+                "Yes, if the investment was held for more than five years"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_07_3",
+            question: "What additional issue arises because Orion failed to file a required overseas investment report?",
+            options: [
+                "The reporting delay may restrict transfer until regularised",
+                "The foreign entity automatically becomes an Indian company",
+                "The original ODI automatically becomes void",
+                "The foreign entity must immediately be liquidated"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_07_4",
+            question: "Can Orion simply complete the transfer first and assume that the reporting default can always be regularised afterwards?",
+            options: [
+                "Yes, reporting defaults never affect transfers",
+                "No, the existing delay should be regularised in accordance with the applicable framework before undertaking a restricted transfer",
+                "Yes, if the buyer agrees",
+                "Yes, if the sale produces a loss"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_07_5",
+            question: "Which distinction is most important in the case?",
+            options: [
+                "Commercial loss on disinvestment and regulatory non-compliance are separate issues requiring separate analysis",
+                "Every commercial loss is itself a FEMA contravention",
+                "Every reporting delay permanently prohibits disinvestment",
+                "Loss-making foreign entities cannot be transferred"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_08",
+    case_chapter: ["FEMA", "Overseas Investment", "Resident Individual", "ODI"],
+    difficulty: "hard",
+    caseText: `<p>Ananya Kapoor, a resident individual in India, is an experienced technology entrepreneur. She proposes to invest in an unlisted foreign company incorporated in Canada which is developing artificial-intelligence software for industrial applications. She intends to acquire 18% of the equity capital of the Canadian company. Under the shareholders' agreement, Ananya would also receive certain rights relating to appointment of directors and participation in significant management decisions.</p>
+
+    <p>Ananya initially assumes that because she is an individual rather than an Indian company, she can make only portfolio investments outside India and cannot undertake ODI. Her Authorised Dealer explains that resident individuals may make ODI subject to the applicable overseas investment framework and the limits and conditions applicable to them.</p>
+
+    <p>The Canadian company proposes to establish two operating subsidiaries after receiving the investment. It also intends to acquire another foreign business through one of those subsidiaries. Ananya therefore asks whether the existence of subsidiaries or step-down subsidiaries affects her eligibility to make the investment.</p>
+
+    <p>In addition, the Canadian company is considering providing certain financial services through a new division. The activity would be regulated if carried on in India. Ananya's adviser warns that ODI by a resident individual in a foreign entity engaged in financial services activity is subject to specific restrictions and cannot be treated in the same manner as an investment in an ordinary operating company.</p>
+
+    <p>The founders of the Canadian company also offer Ananya an alternative structure under which she would initially provide a loan to the company without subscribing to any equity. The loan would later be converted into shares if the business meets certain targets. Ananya asks whether a resident individual can simply make debt-based financial commitment to the foreign entity in the same manner as an Indian entity.</p>
+
+    <p>The Authorised Dealer therefore has to examine the nature of Ananya's proposed investment, the activities of the foreign entity, the existence of control rights and the restrictions specifically applicable to ODI by resident individuals.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_08_1",
+            question: "Can a resident individual make ODI under the overseas investment framework?",
+            options: [
+                "No, ODI is restricted exclusively to Indian entities",
+                "Yes, subject to the applicable conditions and limits",
+                "Only after becoming a non-resident",
+                "Only through an Indian listed company"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_08_2",
+            question: "The rights given to Ananya concerning appointment of directors and significant management decisions are particularly relevant for determining:",
+            options: [
+                "Control",
+                "Customs valuation",
+                "Export realisation period",
+                "Whether she is an authorised dealer"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_08_3",
+            question: "If the Canadian company becomes engaged in financial services activity, Ananya should:",
+            options: [
+                "Assume the same ODI rules apply without any additional restriction",
+                "Examine the specific restrictions applicable to ODI by resident individuals in financial services activity",
+                "Ignore the nature of the activity because the company is incorporated outside India",
+                "Automatically classify the investment as OPI"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_08_4",
+            question: "Can Ananya assume that she may make a standalone loan to the foreign entity exactly as an Indian entity can make financial commitment by debt?",
+            options: [
+                "Yes, resident individuals and Indian entities have identical financial commitment rights",
+                "No, the specific framework applicable to resident individuals must be examined and such debt-based financial commitment cannot simply be assumed",
+                "Yes, provided the loan is interest-free",
+                "Yes, if the foreign entity is unlisted"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_08_5",
+            question: "Which factor is least relevant to determining whether Ananya's acquisition constitutes ODI?",
+            options: [
+                "Nature of the equity acquired",
+                "Control rights attached to the investment",
+                "Whether the foreign entity is listed or unlisted",
+                "Colour of the foreign company's corporate logo"
+            ],
+            answer: 3
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_09",
+    case_chapter: ["FEMA", "Export of Goods and Services", "Set-off", "Export Receivables"],
+    difficulty: "hard",
+    caseText: `<p>Meridian Chemicals Limited, an Indian company, regularly exports speciality chemicals to GlobalChem GmbH, a German company. GlobalChem also supplies certain specialised raw materials and laboratory equipment to Meridian. As a result of these reciprocal transactions, Meridian has substantial export receivables from GlobalChem while simultaneously having import payables to the same overseas counterparty.</p>
+
+    <p>At the end of the quarter, Meridian's books show export receivables of USD 1.4 million and import payables of USD 900,000. Instead of separately receiving USD 1.4 million into India and remitting USD 900,000 outside India, the parties propose to set off the reciprocal amounts and arrange settlement only of the net balance.</p>
+
+    <p>The finance director believes that such set-off should automatically be permitted because the same two parties are involved and the transaction reduces banking costs. Another director disagrees and argues that FEMA requires every export receipt and every import payment to physically move through India separately, making any set-off illegal.</p>
+
+    <p>Meridian approaches its Authorised Dealer. The bank explains that set-off of export receivables against import payables may be permitted subject to satisfaction of prescribed conditions. The bank examines whether the relevant export and import transactions are outstanding and whether the arrangement can be properly identified, documented and reported through the applicable systems.</p>
+
+    <p>The bank also discovers that a portion of Meridian's export receivable relates to an old transaction whose prescribed realisation period has already expired and for which no valid extension has been obtained. The accounts department argues that including this overdue amount in the proposed set-off should automatically cure the earlier delay because the receivable would technically disappear from the books after netting.</p>
+
+    <p>The compliance officer rejects this reasoning and explains that a set-off mechanism cannot automatically erase an existing regulatory default. Any overdue export receivable must be separately examined under the applicable realisation, extension, write-off or other regulatory provisions before it is assumed to be eligible for adjustment.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_09_1",
+            question: "Can export receivables potentially be set off against import payables under the FEMA framework?",
+            options: [
+                "No, set-off is prohibited in every circumstance",
+                "Yes, subject to satisfaction of the prescribed conditions",
+                "Only where both transactions are below USD 1,000",
+                "Only with approval of the foreign government"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_09_2",
+            question: "Is Meridian's finance director correct that set-off is automatically permissible merely because the same parties are involved?",
+            options: [
+                "Yes",
+                "No, the prescribed conditions and banking requirements must also be satisfied",
+                "Yes, if the parties sign a private agreement",
+                "Yes, if the net balance is positive"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_09_3",
+            question: "What is the correct treatment of the export receivable whose permitted realisation period has already expired?",
+            options: [
+                "Its inclusion in a set-off automatically cures the default",
+                "The existing delay must be separately examined and appropriately regularised",
+                "It automatically becomes an import payable",
+                "It must always be converted into equity"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_09_4",
+            question: "Which role does Meridian's Authorised Dealer perform in the proposed set-off?",
+            options: [
+                "Examining compliance with the applicable conditions and reporting requirements",
+                "Determining the chemical composition of exported goods",
+                "Fixing the corporate tax rate of GlobalChem",
+                "Approving GlobalChem's board meetings"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_09_5",
+            question: "Which statement best captures the regulatory position?",
+            options: [
+                "Set-off is a recognised mechanism but cannot be used merely to conceal or automatically regularise an existing FEMA default",
+                "Set-off eliminates every FEMA obligation relating to exports and imports",
+                "Set-off is possible only between two Indian companies",
+                "Set-off converts every current account transaction into ODI"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fema_cs_hard_10",
+    case_chapter: ["FEMA", "Contravention", "Penalties", "Compounding"],
+    difficulty: "hard",
+    caseText: `<p>Silverline Technologies Limited, an Indian company, undertook several foreign exchange transactions during a period of rapid international expansion. During an internal compliance review, the company discovered that one overseas transaction had been executed in a manner inconsistent with the applicable FEMA requirements. The contravention involved a quantifiable amount. The company immediately informed its legal and compliance teams and began examining the consequences under the Foreign Exchange Management Act, 1999.</p>
+
+    <p>The managing director initially assumes that every contravention under FEMA necessarily results in imprisonment. The legal adviser explains that FEMA is primarily a civil law framework and that Section 13 provides monetary penalties for contraventions. Where the amount involved in the contravention is quantifiable, the penalty may extend to a multiple of the sum involved. Where the amount is not quantifiable, a separate monetary ceiling applies.</p>
+
+    <p>The compliance team further explains that if the contravention is of a continuing nature, an additional penalty may apply for every day after the first day during which the contravention continues. The managing director therefore instructs the company to stop the continuing non-compliance immediately rather than waiting for formal proceedings.</p>
+
+    <p>The company then considers whether the contravention can be compounded. One director assumes that compounding means that the transaction is retrospectively treated as though no violation ever occurred and that no amount will have to be paid. The legal adviser explains that compounding is a statutory mechanism for dealing with eligible contraventions upon application and subject to the applicable procedure; it should not be confused with an automatic waiver.</p>
+
+    <p>The Board also asks what could happen if a person fails to make full payment of the penalty imposed under Section 13 within the prescribed period. The compliance officer explains that FEMA contains further enforcement consequences for non-payment and that civil imprisonment may arise in the context and manner contemplated by the Act for failure to pay the penalty, which is conceptually different from saying that every original FEMA contravention automatically carries imprisonment.</p>
+
+    <p>Silverline therefore decides to quantify the contravention, determine whether it is continuing, examine eligibility for compounding and ensure that any amount lawfully imposed is paid within the applicable period.</p>`,
+
+    questions: [
+        {
+            question_id: "fema_cs_hard_10_1",
+            question: "Where a person contravenes FEMA and the amount involved is quantifiable, the penalty under Section 13 may extend to:",
+            options: [
+                "Three times the sum involved in such contravention",
+                "Exactly the amount involved and never more",
+                "Ten times the company's turnover in every case",
+                "Only ₹10,000 irrespective of the amount"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_10_2",
+            question: "Where the amount involved in the contravention is not quantifiable, the penalty may extend to:",
+            options: [
+                "₹2 lakh",
+                "₹50 lakh",
+                "₹1 crore",
+                "No penalty can be imposed"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_10_3",
+            question: "In case of a continuing contravention, an additional penalty may extend to:",
+            options: [
+                "₹5,000 for every day after the first day during which the contravention continues",
+                "₹50,000 per hour",
+                "Three times the amount every day",
+                "No additional penalty"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fema_cs_hard_10_4",
+            question: "Which statement concerning compounding is most appropriate?",
+            options: [
+                "Compounding is an automatic cancellation of every FEMA violation",
+                "Compounding is a statutory mechanism for dealing with eligible contraventions subject to the prescribed process",
+                "Compounding is available only to foreign governments",
+                "Compounding converts a contravention into an export transaction"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fema_cs_hard_10_5",
+            question: "Which statement correctly distinguishes the original FEMA contravention from failure to pay an imposed penalty?",
+            options: [
+                "Every FEMA contravention automatically results in imprisonment",
+                "FEMA primarily provides civil monetary consequences for contraventions, while failure to pay an imposed penalty can trigger separate enforcement consequences under the Act",
+                "Failure to pay a penalty has no consequence",
+                "Only companies, and never individuals, can be penalised under FEMA"
             ],
             answer: 1
         }
