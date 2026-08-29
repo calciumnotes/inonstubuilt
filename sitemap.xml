@@ -359,6 +359,20 @@
   </url>
 
   <url>
+    <loc>https://www.calciumnotes.com/bin/exam/spom/seta/chapwise/chapgate.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.calciumnotes.com/bin/exam/spom/seta/chapwise/chapter-exam.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://www.calciumnotes.com/bin/exam/spom/seta/exama.html</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -368,6 +382,13 @@
   <url>
     <loc>https://www.calciumnotes.com/bin/exam/spom/seta/instructions.html</loc>
     <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.calciumnotes.com/bin/exam/spom/seta/setaint.html</loc>
+    <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -387,6 +408,48 @@
   </url>
 
   <url>
+    <loc>https://www.calciumnotes.com/bin/exam/spom/setc/examArbitration.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.calciumnotes.com/bin/exam/spom/setc/examforacc.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.calciumnotes.com/bin/exam/spom/setc/examibc.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.calciumnotes.com/bin/exam/spom/setc/instArbitration.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.calciumnotes.com/bin/exam/spom/setc/instforacc.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.calciumnotes.com/bin/exam/spom/setc/instibc.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://www.calciumnotes.com/bin/exam/spom/what-is-spom.html</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -401,14 +464,14 @@
   </url>
 
   <url>
-    <loc>https://www.calciumnotes.com/bin/notes/final/IDT/assessment_audit.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://www.calciumnotes.com/bin/notes/final/DT/tdstcs.html</loc>
+    <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.calciumnotes.com/bin/notes/notes.html</loc>
+    <loc>https://www.calciumnotes.com/bin/notes/final/IDT/assessment_audit.html</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -430,6 +493,13 @@
 
   <url>
     <loc>https://www.calciumnotes.com/bin/notes/notes/idtnotes.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.calciumnotes.com/bin/notes/notes.html</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
