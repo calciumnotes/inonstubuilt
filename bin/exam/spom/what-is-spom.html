@@ -199,6 +199,366 @@ ul:last-of-type {
     padding: 0;
     color: var(--primary-color);
 }
+
+.cn-summary {
+
+  width: 100%;
+
+  padding: 80px 20px;
+
+  background:
+
+    radial-gradient(circle at top left, rgba(59,130,246,.12), transparent 35%),
+
+    radial-gradient(circle at bottom right, rgba(139,92,246,.12), transparent 35%),
+
+    #070b14;
+
+  color: #f8fafc;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  box-sizing: border-box;
+
+}
+
+.cn-summary-container {
+
+  max-width: 1150px;
+
+  margin: auto;
+
+}
+
+.cn-summary-badge {
+
+  display: inline-block;
+
+  padding: 8px 16px;
+
+  border: 1px solid rgba(255,255,255,.15);
+
+  border-radius: 50px;
+
+  background: rgba(255,255,255,.05);
+
+  color: #93c5fd;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  letter-spacing: 1.5px;
+
+  margin-bottom: 20px;
+
+}
+
+.cn-summary h1 {
+
+  max-width: 850px;
+
+  font-size: clamp(34px, 5vw, 60px);
+
+  line-height: 1.08;
+
+  margin: 0 0 25px;
+
+  letter-spacing: -1.5px;
+
+}
+
+.cn-summary-intro {
+
+  max-width: 850px;
+
+  color: #cbd5e1;
+
+  font-size: 18px;
+
+  line-height: 1.8;
+
+  margin-bottom: 55px;
+
+}
+
+.cn-summary-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 20px;
+
+}
+
+.cn-summary-card {
+
+  padding: 30px;
+
+  min-height: 230px;
+
+  border: 1px solid rgba(255,255,255,.10);
+
+  border-radius: 22px;
+
+  background: rgba(255,255,255,.045);
+
+  backdrop-filter: blur(12px);
+
+  transition: .3s ease;
+
+}
+
+.cn-summary-card:hover {
+
+  transform: translateY(-6px);
+
+  border-color: rgba(147,197,253,.35);
+
+  background: rgba(255,255,255,.07);
+
+}
+
+.cn-icon {
+
+  font-size: 30px;
+
+  margin-bottom: 20px;
+
+}
+
+.cn-summary-card h2 {
+
+  font-size: 21px;
+
+  margin: 0 0 12px;
+
+}
+
+.cn-summary-card p {
+
+  color: #94a3b8;
+
+  font-size: 15px;
+
+  line-height: 1.7;
+
+  margin: 0;
+
+}
+
+.cn-focus {
+
+  margin: 70px 0;
+
+  padding: 55px;
+
+  border-radius: 28px;
+
+  border: 1px solid rgba(255,255,255,.1);
+
+  background: linear-gradient(
+
+    135deg,
+
+    rgba(59,130,246,.12),
+
+    rgba(139,92,246,.08)
+
+  );
+
+}
+
+.cn-small-title {
+
+  color: #93c5fd;
+
+  font-size: 12px;
+
+  font-weight: 800;
+
+  letter-spacing: 2px;
+
+}
+
+.cn-focus h2 {
+
+  font-size: clamp(28px, 4vw, 45px);
+
+  line-height: 1.2;
+
+  margin: 15px 0 22px;
+
+}
+
+.cn-focus h2 span {
+
+  color: #93c5fd;
+
+}
+
+.cn-focus p {
+
+  max-width: 850px;
+
+  color: #cbd5e1;
+
+  line-height: 1.8;
+
+  font-size: 16px;
+
+}
+
+.cn-features {
+
+  text-align: center;
+
+  margin-bottom: 70px;
+
+}
+
+.cn-features h2 {
+
+  font-size: 32px;
+
+  margin-bottom: 30px;
+
+}
+
+.cn-feature-list {
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 12px;
+
+}
+
+.cn-feature-list div {
+
+  padding: 15px;
+
+  border-radius: 12px;
+
+  background: rgba(255,255,255,.04);
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  color: #cbd5e1;
+
+  font-size: 14px;
+
+}
+
+.cn-cta {
+
+  text-align: center;
+
+  padding: 60px 20px;
+
+  border-top: 1px solid rgba(255,255,255,.08);
+
+}
+
+.cn-cta h2 {
+
+  font-size: 36px;
+
+  margin-bottom: 12px;
+
+}
+
+.cn-cta p {
+
+  max-width: 650px;
+
+  margin: 0 auto 30px;
+
+  color: #94a3b8;
+
+  line-height: 1.7;
+
+}
+
+.cn-button {
+
+  display: inline-block;
+
+  padding: 15px 28px;
+
+  border-radius: 12px;
+
+  background: #2563eb;
+
+  color: white;
+
+  text-decoration: none;
+
+  font-weight: 700;
+
+  transition: .25s ease;
+
+}
+
+.cn-button:hover {
+
+  transform: translateY(-3px);
+
+  opacity: .9;
+
+}
+
+@media (max-width: 850px) {
+
+  .cn-summary-grid {
+
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .cn-feature-list {
+
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .cn-summary {
+
+    padding: 55px 16px;
+
+  }
+
+  .cn-summary-grid {
+
+    grid-template-columns: 1fr;
+
+  }
+
+  .cn-feature-list {
+
+    grid-template-columns: 1fr;
+
+  }
+
+  .cn-focus {
+
+    padding: 30px 22px;
+
+  }
+
+  .cn-summary-intro {
+
+    font-size: 16px;
+
+  }
+
+}
 </style>
 </head>
 
@@ -400,6 +760,244 @@ No more cross-checking answers manually or paying for test series evaluations. T
 <hr>
 
 <p><strong>Content prepared for CA Final students based on ICAI New Scheme 2023 guidelines.</strong></p>
+
+<section class="cn-summary">
+
+  <div class="cn-summary-container">
+
+    <div class="cn-summary-badge">
+
+      CA STUDENT PREPARATION PLATFORM
+
+    </div>
+
+    <h1>
+
+      Chapter-Wise Exams & Smart Preparation for CA Students
+
+    </h1>
+
+    <p class="cn-summary-intro">
+
+      <strong>Calcium Notes</strong> is a dedicated learning and practice
+
+      platform for CA students, designed to make exam preparation more
+
+      structured, focused and effective. From chapter-wise practice to
+
+      full-length mock tests, students can prepare topic-by-topic and
+
+      understand exactly where they need to improve.
+
+    </p>
+
+    <div class="cn-summary-grid">
+
+      <div class="cn-summary-card">
+
+        <div class="cn-icon">📚</div>
+
+        <h2>Chapter-Wise Exams</h2>
+
+        <p>
+
+          Practice individual chapters separately instead of attempting the
+
+          entire syllabus at once. Focus on one chapter, test your preparation
+
+          and identify weak areas.
+
+        </p>
+
+      </div>
+
+      <div class="cn-summary-card">
+
+        <div class="cn-icon">📝</div>
+
+        <h2>MCQ Practice</h2>
+
+        <p>
+
+          Attempt exam-oriented multiple-choice questions designed to improve
+
+          conceptual understanding, accuracy and speed.
+
+        </p>
+
+      </div>
+
+      <div class="cn-summary-card">
+
+        <div class="cn-icon">🎯</div>
+
+        <h2>Case Scenario Questions</h2>
+
+        <p>
+
+          Practice detailed case-based questions that require application of
+
+          concepts, helping you become comfortable with the practical question
+
+          patterns used in professional examinations.
+
+        </p>
+
+      </div>
+
+      <div class="cn-summary-card">
+
+        <div class="cn-icon">📊</div>
+
+        <h2>Performance Analysis</h2>
+
+        <p>
+
+          Review your performance after the exam and understand your accuracy,
+
+          marks, attempted questions and areas that require additional
+
+          preparation.
+
+        </p>
+
+      </div>
+
+      <div class="cn-summary-card">
+
+        <div class="cn-icon">⏱️</div>
+
+        <h2>Exam-Like Practice</h2>
+
+        <p>
+
+          Experience timed practice sessions designed to help you improve
+
+          question selection, time management and exam confidence.
+
+        </p>
+
+      </div>
+
+      <div class="cn-summary-card">
+
+        <div class="cn-icon">📖</div>
+
+        <h2>Notes & Resources</h2>
+
+        <p>
+
+          Access structured study notes, revision material, important concepts
+
+          and useful resources to support your preparation alongside practice.
+
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="cn-focus">
+
+      <div class="cn-focus-content">
+
+        <span class="cn-small-title">PREPARE SMARTER</span>
+
+        <h2>
+
+          Don't just study the syllabus.
+
+          <span>Practice it chapter by chapter.</span>
+
+        </h2>
+
+        <p>
+
+          A large syllabus can feel overwhelming when everything is studied
+
+          together. Calcium Notes helps break preparation into smaller,
+
+          manageable units. Select a chapter, attempt its questions, analyse
+
+          your performance and move to the next chapter.
+
+        </p>
+
+        <p>
+
+          Whether you are revising a single chapter, preparing for an upcoming
+
+          examination or testing your complete preparation through mock tests,
+
+          Calcium Notes brings your practice resources together in one place.
+
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="cn-features">
+
+      <h2>What You Can Find on Calcium Notes</h2>
+
+      <div class="cn-feature-list">
+
+        <div>✓ Chapter-Wise Exams</div>
+
+        <div>✓ Subject-Wise Practice</div>
+
+        <div>✓ MCQ Question Banks</div>
+
+        <div>✓ Case-Based Questions</div>
+
+        <div>✓ Mock Test Papers</div>
+
+        <div>✓ Exam-Oriented Practice</div>
+
+        <div>✓ Timed Tests</div>
+
+        <div>✓ Performance Analysis</div>
+
+        <div>✓ Revision Notes</div>
+
+        <div>✓ Important Topics</div>
+
+        <div>✓ CA Exam Resources</div>
+
+        <div>✓ Free Online Practice</div>
+
+      </div>
+
+    </div>
+
+    <div class="cn-cta">
+
+      <h2>
+
+        Start Your Preparation Today
+
+      </h2>
+
+      <p>
+
+        Choose your course, select a subject or chapter and start practising.
+
+        Build your preparation one chapter at a time.
+
+      </p>
+
+      <a href="https://www.calciumnotes.com" class="cn-button">
+
+        Explore Calcium Notes →
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
 
 <!-- FAQ Schema Markup -->
 
