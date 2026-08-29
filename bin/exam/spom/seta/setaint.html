@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Essential Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set A Exam Modes & Blueprint | Calcium Notes</title>
+    
+    <!-- SEO & Description Meta Tags -->
+    <meta name="description" content="Configure your CA Final SPOM Set A (Corporate & Economic Laws) practice environment. View the syllabus blueprint, chapter weightage, and high-ROI strategies.">
+    <meta name="keywords" content="CA Final, SPOM Set A, Corporate Laws, Economic Laws, ICAI Mock Test, Calcium Notes, MCQ Practice, SEBI, IBC, FEMA">
+    <meta name="author" content="Calcium Notes">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (OG) Tags for Social Sharing -->
+    <meta property="og:title" content="Set A Exam Modes | Calcium Notes">
+    <meta property="og:description" content="Master SPOM Set A with our calibrated ICAI mocks, chapter-wise case randomizers, and the ABC strategy blueprint.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.calciumnotes.com/set-a/">
+    <meta property="og:image" content="https://www.calciumnotes.com/assets/set-a-preview.jpg">
+
+    <!-- Canonical Tag & Favicon -->
+    <link rel="canonical" href="https://www.calciumnotes.com/set-a/">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YYJ8R39EXM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-YYJ8R39EXM');
+    </script>
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7657462226177124" crossorigin="anonymous"></script>
+
+    <style>
+        /* ==========================
+           CALCIUM NOTES AESTHETIC
+           ========================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #0b0f19;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        /* ==========================
+           SECTION 1: HERO (100vh)
+           ========================== */
+        .hero-section {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+            position: relative;
+        }
+
+        .header-container {
+            text-align: center;
+            margin-bottom: 50px;
+            max-width: 650px;
+        }
+
+        .header-container h1 {
+            font-size: 38px;
+            font-weight: 800;
+            margin-bottom: 15px;
+            background: linear-gradient(90deg, #3b82f6, #00ffcc);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header-container p {
+            font-size: 16px;
+            color: #94a3b8;
+            line-height: 1.6;
+        }
+
+        /* EXAM MODE GRID */
+        .mode-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            width: 100%;
+            max-width: 1050px;
+            margin-bottom: 50px;
+        }
+
+        /* INDIVIDUAL CARDS */
+        .mode-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(59, 130, 246, 0.15);
+            border-radius: 16px;
+            padding: 40px 30px;
+            text-decoration: none;
+            color: #ffffff;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mode-title {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #f8fafc;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .mode-title::after {
+            content: "➔";
+            font-size: 18px;
+            color: #3b82f6;
+            opacity: 0;
+            transform: translateX(-10px);
+            transition: all 0.3s ease;
+        }
+
+        .mode-desc {
+            font-size: 15px;
+            color: #94a3b8;
+            line-height: 1.5;
+            z-index: 2;
+        }
+
+        /* HOVER REACTION */
+        .mode-card:hover {
+            background: rgba(59, 130, 246, 0.08);
+            border-color: rgba(59, 130, 246, 0.6);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25), inset 0 0 20px rgba(59, 130, 246, 0.05);
+        }
+
+        .mode-card:hover .mode-title::after {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .mode-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.04), transparent);
+            transform: skewX(-20deg);
+            transition: 0.6s;
+            z-index: 1;
+        }
+
+        .mode-card:hover::before {
+            left: 150%;
+        }
+
+        /* BOUNCING SCROLL INDICATOR */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 30px;
+            color: #64748b;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-decoration: none;
+            animation: bounce 2s infinite;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            transition: color 0.3s;
+        }
+
+        .scroll-indicator:hover {
+            color: #3b82f6;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+
+        /* ==========================
+           SECTION 2: BLUEPRINT (Below Fold)
+           ========================== */
+        .blueprint-wrapper {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 80px 20px;
+            background-color: #060913; /* Slightly darker to distinct the zones */
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .blueprint-section {
+            width: 100%;
+            max-width: 1050px;
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 40px;
+        }
+
+        .blueprint-section h2 {
+            font-size: 26px;
+            font-weight: 700;
+            color: #f8fafc;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .blueprint-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .blueprint-card {
+            background: rgba(255, 255, 255, 0.02);
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 3px solid #3b82f6;
+        }
+
+        .blueprint-card h3 {
+            font-size: 18px;
+            color: #00ffcc;
+            margin-bottom: 15px;
+        }
+
+        .blueprint-card ul {
+            list-style: none;
+        }
+
+        .blueprint-card ul li {
+            font-size: 14.5px;
+            color: #cbd5e1;
+            margin-bottom: 12px;
+            line-height: 1.5;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .blueprint-card ul li::before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: #3b82f6;
+            font-weight: bold;
+        }
+
+        .blueprint-card p {
+            font-size: 14.5px;
+            color: #cbd5e1;
+            line-height: 1.6;
+        }
+        
+        .highlight {
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        /* RETURN BUTTON */
+        .return-btn {
+            background: transparent;
+            color: #64748b;
+            border: 1px solid #334155;
+            padding: 12px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .return-btn:hover {
+            background: #1e293b;
+            color: #f1f5f9;
+            border-color: #475569;
+        }
+
+        /* RESPONSIVE DESIGN */
+        @media (max-width: 768px) {
+            .header-container h1 {
+                font-size: 32px;
+            }
+            .mode-grid, .blueprint-grid {
+                grid-template-columns: 1fr;
+            }
+            .blueprint-section {
+                padding: 25px;
+            }
+            .scroll-indicator {
+                bottom: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- =====================================
+         SECTION 1: HERO EXAM GATEWAY
+         ===================================== -->
+    <div class="hero-section">
+        <div class="header-container">
+            <h1>Set A: Corporate & Economic Laws</h1>
+            <p>Configure your practice environment. Select a pre-calibrated ICAI mock, target specific chapters, or build a custom exam simulation.</p>
+        </div>
+
+        <div class="mode-grid">
+            <a href="./instructions.html" class="mode-card">
+                <div class="mode-title">Pre-Final Mock Test</div>
+                <div class="mode-desc">A full 100-mark simulation. Test your endurance and logic against a complete, randomized ICAI-pattern paper with a 3-hour timer.</div>
+            </a>
+
+            <a href="./chapwise/chapgate.html" class="mode-card">
+                <div class="mode-title">Chapter-Wise Practice</div>
+                <div class="mode-desc">Surgical precision. Select specific chapters and extract a purified, 6-case randomizer with no timer constraints.</div>
+            </a>
+
+            <a href="#" class="mode-card" style="opacity: 0.6; cursor: not-allowed;">
+                <div class="mode-title">Custom Mock Test (Coming Soon)</div>
+                <div class="mode-desc">Build your own reaction. Hand-pick multiple chapters, set your own question limits, and tailor the exam to your exact weaknesses.</div>
+            </a>
+        </div>
+
+        <!-- Bouncing Anchor Link -->
+        <a href="#blueprint" class="scroll-indicator">
+            <span>Scroll for Strategy Blueprint</span>
+            <span>↓</span>
+        </a>
+    </div>
+
+    <!-- =====================================
+         SECTION 2: BLUEPRINT (BELOW FOLD)
+         ===================================== -->
+    <div class="blueprint-wrapper" id="blueprint">
+        <div class="blueprint-section">
+            <h2>📊 SPOM Set A Blueprint & Passing Strategy</h2>
+            
+            <div class="blueprint-grid">
+                <!-- Official Weightage -->
+                <div class="blueprint-card">
+                    <h3>Official Syllabus Weightage</h3>
+                    <ul>
+                        <li><span class="highlight">Company Law (50 Marks):</span> Directors Core (~20M), Operational Rules (~15M), Winding Up & Misc (~15M).</li>
+                        <li><span class="highlight">Securities Laws (20 Marks):</span> SEBI Act, LODR, ICDR, SAST, and Insider Trading (PIT).</li>
+                        <li><span class="highlight">Economic Laws (30 Marks):</span> FEMA (~12M), IBC (~12M), and FCRA (~8M).</li>
+                    </ul>
+                </div>
+
+                <!-- Phase 1 Lockdown -->
+                <div class="blueprint-card">
+                    <h3>Phase 1: High-ROI Lockdown</h3>
+                    <p>Since the passing threshold is 50% with <span class="highlight">zero negative marking</span>, attack the highest-yield, linear chapters first to secure an easy 40–45 marks baseline.</p>
+                    <br>
+                    <ul>
+                        <li><span class="highlight">Target 1:</span> Economic Laws (IBC & FCRA first).</li>
+                        <li><span class="highlight">Target 2:</span> The Directors Trio (Appointment, Remuneration, Board Meetings).</li>
+                    </ul>
+                </div>
+
+                <!-- MCQ Goldmine -->
+                <div class="blueprint-card">
+                    <h3>Master "The Limits" (MCQ Traps)</h3>
+                    <p>ICAI constructs case scenarios heavily around exemptions and numerical thresholds. Keep a single-sheet cheat note specifically for:</p>
+                    <br>
+                    <ul>
+                        <li><span class="highlight">Time Limits:</span> Days to file forms, hold meetings, or move CIRP applications.</li>
+                        <li><span class="highlight">Monetary Thresholds:</span> Turnover/Net Worth triggers for Committee compositions (Audit, NRC, SRC).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <a href="../../../../index.html" class="return-btn">Return to Home</a>
+    </div>
+
+</body>
+</html>
