@@ -6,6 +6,8 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_001",
     difficulty: "Easy",
+    case_topic: ["Chapter1"],
+    case_chapter: "Chapter1",
     caseText: `
       <p>Sunrise Engineering Limited is a newly incorporated public company. Its Articles of Association do not contain any provision regarding the appointment of its first directors. The Memorandum of Association has been subscribed to by six individuals and one private limited company. The company proposes to constitute its Board and commence business operations.</p>
       <p>During the initial compliance review, the Company Secretary explains that the Companies Act, 2013 prescribes a minimum number of directors for different types of companies and also specifies the maximum number of directors. The Board is considering appointing 16 directors immediately because the promoters believe that a larger Board would provide better representation.</p>
@@ -55,6 +57,8 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_002",
     difficulty: "Medium",
+    case_topic: ["Chapter1"],
+    case_chapter: "Chapter1",
     caseText: `
       <p>Alpha Manufacturing Limited is a public company having 12 directors. Out of these, 2 are independent directors and 1 is a nominee director appointed pursuant to an agreement with a financial institution. The remaining directors are ordinary directors who are subject to retirement by rotation.</p>
       <p>The company is preparing for its forthcoming Annual General Meeting. The Company Secretary is required to determine the number of directors liable to retire by rotation and the number of directors who must actually retire at the AGM.</p>
@@ -104,6 +108,8 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_003",
     difficulty: "Medium",
+    case_topic: ["Chapter1"],
+    case_chapter: "Chapter1",
     caseText: `
       <p>Vertex Technologies Limited has authorised its Board under its Articles of Association to appoint additional directors. During the financial year, the Board decides that an additional director is urgently required because of expansion of the company's operations. It proposes the appointment of Mr. Arjun, who possesses the required DIN and has not previously been rejected by the shareholders.</p>
       <p>Separately, one of the company's directors, Mr. Ravi, leaves India for a business assignment expected to last four months. The Articles of the company authorise the Board to appoint alternate directors. Mr. Ravi suggests that his personal nominee should automatically become his alternate director.</p>
@@ -153,6 +159,8 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_004",
     difficulty: "Hard",
+    case_topic: ["Chapter1"],
+    case_chapter: "Chapter1",
     caseText: `
       <p>Orion Infrastructure Limited is an unlisted public company. As on the last date of its latest audited financial statements, its paid-up share capital is ₹18 crore and its turnover is ₹140 crore. It has 13 directors on its Board.</p>
       <p>The company is reviewing its independent director requirements. One of the proposed candidates, Mr. Sameer, has significant professional experience but is also being examined against the statutory independence conditions. His relative has outstanding indebtedness to the company of ₹48 lakh. Mr. Sameer himself has never been an employee of the company or its holding, subsidiary or associate company during the relevant period.</p>
@@ -203,6 +211,8 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_005",
     difficulty: "Hard",
+    case_topic: ["Chapter1"],
+    case_chapter: "Chapter1",
     caseText: `
       <p>Delta Consumer Products Limited has been facing several compliance issues relating to its directors. Mr. Vikram is a director of Delta Consumer Products Limited and another company, Nova Retail Limited. Delta has failed to file its financial statements for three continuous financial years. In addition, Delta failed to repay certain deposits and the related interest, and the default has continued for more than one year.</p>
       <p>Mr. Vikram is due to retire by rotation from Nova Retail Limited. The company is considering reappointing him. At the same time, another company, Zenith Industries Limited, proposes to appoint Mr. Vikram as an additional director.</p>
@@ -253,7 +263,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "dir_mcq_cs1",
-    case_chapter: ["Appointment of Directors", "Section 152", "DIN"],
+    case_topic: ["Appointment of Directors", "Section 152", "DIN"],
+    case_chapter: "Chapter1",
     caseText: `
       <p>Zenith Innovations Private Limited was incorporated by three individual subscribers, namely Mr. Arjun, Mr. Bharat and Mr. Chetan. The Articles of Association of the company did not contain any provision regarding the appointment of first directors.</p>
       <p>At the time of incorporation, the subscribers assumed that the Board would subsequently appoint the first directors. Mr. Arjun was allotted a DIN before incorporation, whereas Mr. Bharat and Mr. Chetan did not possess DINs.</p>
@@ -332,7 +343,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "dir_mcq_cs2",
-    case_chapter: ["Appointment of Directors", "Section 152", "Retirement by Rotation"],
+    case_topic: ["Appointment of Directors", "Section 152", "Retirement by Rotation"],
+    case_chapter: "Chapter1",
     caseText: `
       <p>Orion Manufacturing Limited is a public company having 12 directors. Out of these, 2 are independent directors and 1 is a nominee director appointed pursuant to an agreement with a financial institution.</p>
       <p>The Articles of the company do not provide that all directors shall retire at every AGM. The remaining directors have been appointed by the shareholders at different general meetings.</p>
@@ -409,7 +421,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "dir_mcq_cs3",
-    case_chapter: ["Section 152", "Retirement of Directors", "Deemed Re-appointment"],
+    case_topic: ["Section 152", "Retirement of Directors", "Deemed Re-appointment"],
+    case_chapter: "Chapter1",
     caseText: `
       <p>Nova Textiles Limited held its AGM at which Mr. Rohan, a director liable to retire by rotation, retired from office. The company did not fill the vacancy and the meeting did not expressly resolve that the vacancy should remain unfilled.</p>
       <p>The meeting was therefore adjourned to the same day in the following week. At the adjourned meeting also, no person was appointed in place of Mr. Rohan and the members did not pass any resolution stating that the vacancy should not be filled.</p>
@@ -488,7 +501,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "dir_mcq_cs4",
-    case_chapter: ["DIN", "Sections 153 to 159"],
+    case_topic: ["DIN", "Sections 153 to 159"],
+    case_chapter: "Chapter1",
     caseText: `
       <p>Mr. Sameer intends to become a director in an existing company. He does not possess a DIN and therefore submits Form DIR-3 electronically along with the prescribed fee and required documents.</p>
       <p>The application is processed and the system generates an application number. Subsequently, the Central Government identifies certain defects in the application and places an intimation on the website and sends an email to Mr. Sameer directing him to rectify the defects.</p>
@@ -564,7 +578,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "dir_mcq_cs5",
-    case_chapter: ["DIN", "Sections 156 to 159"],
+    case_topic: ["DIN", "Sections 156 to 159"],
+    case_chapter: "Chapter1",
     caseText: `
       <p>Mr. Vikram is an existing director of three companies. He recently received his DIN from the Central Government. He is required to intimate the DIN to each company in which he is a director.</p>
       <p>After some time, Mr. Vikram changes his residential address. He submits the prescribed form for change in DIN particulars after the stipulated period. One of the companies receives his updated DIN information but fails to furnish the DIN of its directors to the Registrar within the prescribed time.</p>
@@ -640,7 +655,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "dir_mcq_cs6",
-    case_chapter: ["Section 160", "Appointment of Directors"],
+    case_topic: ["Section 160", "Appointment of Directors"],
+    case_chapter: "Chapter1",
     caseText: `
       <p>Alpha Infrastructure Limited is preparing for an Extraordinary General Meeting. Mr. Nitin, who is not a retiring director, wishes to stand for appointment as a director.</p>
       <p>He submits a written notice of his candidature at the registered office 14 days before the meeting and deposits the prescribed amount of ₹1,00,000.</p>
@@ -716,7 +732,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "dir_mcq_cs7",
-    case_chapter: ["Section 151", "Small Shareholders' Director"],
+    case_topic: ["Section 151", "Small Shareholders' Director"],
+    case_chapter: "Chapter1",
     caseText: `
       <p>Beta Technologies Limited is a listed company having a large number of small shareholders. The small shareholders want to exercise their right to have a representative on the Board.</p>
       <p>The company has 8,000 small shareholders. A group of small shareholders proposes Ms. Meera as a candidate for small shareholders' director and submits the required notice before the general meeting.</p>
@@ -796,7 +813,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "dir_mcq_cs8",
-    case_chapter: ["Section 161", "Additional Director", "Alternate Director"],
+    case_topic: ["Section 161", "Additional Director", "Alternate Director"],
+    case_chapter: "Chapter1",
     caseText: `
       <p>Gamma Finance Limited has an Article authorising its Board to appoint additional directors. The Board appoints Mr. Raj as an additional director. Mr. Raj had earlier failed to obtain appointment as a director at a general meeting of the company.</p>
       <p>Separately, Mr. Suresh, a director of the company, leaves India for a period of four months. The Articles authorise the Board to appoint an alternate director. The Board proposes Mr. Amit, who is not a director of the company, as an alternate director.</p>
@@ -872,7 +890,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "dir_mcq_cs9",
-    case_chapter: ["Section 161", "Nominee Director", "Casual Vacancy"],
+    case_topic: ["Section 161", "Nominee Director", "Casual Vacancy"],
+    case_chapter: "Chapter1",
     caseText: `
       <p>Delta Engineering Limited obtained substantial financial assistance from a financial institution. Under the financing agreement, the institution was entitled to nominate a director on the Board of Delta Engineering Limited.</p>
       <p>The financial institution nominated Mr. Karan. The Articles of the company permit appointment of nominee directors by the Board in accordance with the financing agreement.</p>
@@ -950,7 +969,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "dir_mcq_cs10",
-    case_chapter: ["Section 162", "Appointment of Directors"],
+    case_topic: ["Section 162", "Appointment of Directors"],
+    case_chapter: "Chapter1",
     caseText: `
       <p>Omega Retail Limited convened a general meeting for appointment of three directors, namely Mr. A, Mr. B and Mr. C. The Chairman proposed a single resolution for appointment of all three persons.</p>
       <p>Before moving the final resolution, a separate proposal was placed before the meeting asking whether the members agreed to appoint the three persons through a single resolution. Twenty members voted in favour of this proposal, while five members abstained and none voted against it.</p>
@@ -1031,6 +1051,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_001",
     difficulty: "Easy",
+    case_chapter: "Chapter1",
     caseText: `
       <p><strong>Zenith Engineering Limited</strong> is a public company having 12 directors on its Board. The shareholders of the company are divided into two broad groups. A group holding approximately 60% of the voting rights regularly succeeds in appointing most of the directors through the ordinary voting mechanism. The remaining shareholders, despite holding about 40% of the voting rights, have repeatedly failed to get even one of their nominees appointed to the Board.</p>
       <p>To provide a fair opportunity to the minority shareholders, the company proposes to amend its Articles of Association. The proposed Articles contain a provision that directors may be appointed according to the principle of proportional representation. The company proposes to use the system of single transferable vote for such appointments.</p>
@@ -1082,6 +1103,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_002",
     difficulty: "Medium",
+    case_chapter: "Chapter1",
     caseText: `
       <p><strong>Prime Consumer Products Limited</strong> has been facing several compliance difficulties. Mr. Rahul, one of its proposed directors, has been declared to be of unsound mind by a competent court. He has nevertheless expressed his intention to become a director of the company.</p>
       <p>Another proposed candidate, Mr. Sameer, has been convicted by a court for an offence and sentenced to imprisonment for eight months. He completed his sentence only three years ago. A third candidate, Mr. Vikram, has applied to be adjudicated as an insolvent and his application is still pending before the competent authority.</p>
@@ -1133,6 +1155,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_003",
     difficulty: "Medium",
+    case_chapter: "Chapter1",
     caseText: `
       <p><strong>Mr. Karan</strong> is a professional director who sits on the Boards of several companies. As on the current date, he is a director in 18 companies, including 8 public companies. He is now approached by three additional companies for appointment as a director.</p>
       <p>Two of the companies are public companies and one is a private company. One of the private companies is a subsidiary of a public company. Mr. Karan also serves as a director of a dormant company and a Section 8 company.</p>
@@ -1185,6 +1208,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_004",
     difficulty: "Hard",
+    case_chapter: "Chapter1",
     caseText: `
       <p><strong>Galaxy Financial Services Limited</strong> is a listed public company having 9 directors. The company is required to maintain the prescribed number of independent directors. The Board proposes to appoint Ms. Neha as an independent director.</p>
       <p>Ms. Neha is not a promoter of the company or its holding, subsidiary or associate company. She is also not related to any promoter or director of the company. However, her relative holds securities in the company having a face value of ₹45 lakh. The relative does not hold any other significant interest in the company.</p>
@@ -1237,6 +1261,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_005",
     difficulty: "Hard",
+    case_chapter: "Chapter1",
     caseText: `
       <p><strong>Nova Infrastructure Limited</strong> has been facing a number of governance issues. Mr. Dev, one of its directors, identifies a profitable business opportunity that falls within the objects and business activities of Nova Infrastructure Limited. Instead of presenting the opportunity to the company, he uses his position to undertake the transaction personally and earns an undue gain.</p>
       <p>Another director, Mr. Rishi, has a direct interest in a contract proposed to be entered into by the company. However, he fails to disclose his interest as required. He also remains absent from every Board meeting held during a continuous period of twelve months.</p>
@@ -1296,6 +1321,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_006",
     difficulty: "Hard",
+    case_chapter: "Chapter1",
     caseText: `
       <p><strong>National Industrial Projects Limited (NIPL)</strong> is a Government company whose entire paid-up share capital is held by the Central Government. The company has 15 directors on its Board. A group of minority institutional shareholders has requested that the Articles of the company contain provisions for appointment of directors through proportional representation so that minority interests can receive representation on the Board.</p>
       <p>The legal department of NIPL examines Section 163 and observes that, ordinarily, the Articles should provide for appointment of not less than two-thirds of the total number of directors through proportional representation. The proposed Articles contemplate appointment of 10 directors through proportional representation using the single transferable vote system.</p>
@@ -1347,6 +1373,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_007",
     difficulty: "Hard",
+    case_chapter: "Chapter1",
     caseText: `
       <p><strong>Orion Technologies Limited</strong> is evaluating three candidates for appointment as directors.</p>
       <p><strong>Mr. A</strong> was convicted of an offence and sentenced to imprisonment for eight months. His sentence expired three years ago. He has filed an appeal against the conviction, arguing that the conviction should not operate as a disqualification while the appeal is pending.</p>
@@ -1399,6 +1426,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_008",
     difficulty: "Hard",
+    case_chapter: "Chapter1",
     caseText: `
       <p><strong>Mr. Arvind</strong> is currently a director in 19 companies. His portfolio consists of 9 public companies, 8 ordinary private companies, 1 private company which is a subsidiary of a public company, and 1 dormant company.</p>
       <p>He has now received an offer to become a director of one additional public company. He argues that his dormant company directorship should not be counted while determining the ceiling of 20 companies. He also argues that because the new company is public, the only question is whether his total public-company directorships exceed 10.</p>
@@ -1450,6 +1478,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_009",
     difficulty: "Hard",
+    case_chapter: "Chapter1",
     caseText: `
       <p><strong>Vertex Healthcare Limited</strong> is a listed public company having 11 directors. The Board proposes to appoint Mr. Rohit as an independent director.</p>
       <p>Rohit is not a promoter and is not related to any promoter or director. However, his relative has outstanding indebtedness to the company of ₹48 lakh. The relative has also provided a guarantee in connection with the indebtedness of another person to the company for ₹49 lakh.</p>
@@ -1502,6 +1531,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_010",
     difficulty: "Hard",
+    case_chapter: "Chapter1",
     caseText: `
       <p><strong>Summit Renewable Energy Limited</strong> proposes to appoint Ms. Kavya as an independent director. Kavya's name is included in the databank maintained by the Indian Institute of Corporate Affairs. Her inclusion was initially for one year, but she failed to apply for renewal within thirty days from expiry of the period. Consequently, her name was removed from the databank.</p>
       <p>Kavya subsequently applies for restoration and pays the prescribed restoration fee. Her name is placed in the restored category for one year. During this period, she does not pass the online proficiency self-assessment test.</p>
@@ -1554,6 +1584,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_011",
     difficulty: "Medium",
+    case_chapter: "Chapter1",
     caseText: `
       <p><strong>Alpha Manufacturing Limited</strong> has five directors on its Board. Mr. Raj, one of the directors, decides to resign from office. He sends a written resignation notice to the company on 10th August, stating that his resignation shall take effect from 20th August.</p>
       <p>The company actually receives the resignation notice on 12th August. The Board takes note of the resignation on 14th August.</p>
@@ -1605,6 +1636,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_012",
     difficulty: "Medium",
+    case_chapter: "Chapter1",
     caseText: `
       <p><strong>Bright Star Limited</strong> has nine directors. The shareholders propose to remove Mr. Karan, a director appointed in the general meeting, before completion of his term.</p>
       <p>A group of members holding 1.5% of the total voting power submits a special notice proposing the removal. The company sends a copy of the notice to Karan. Karan submits a written representation explaining why he should not be removed and requests that the representation be circulated to the members.</p>
@@ -1656,6 +1688,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_013",
     difficulty: "Medium",
+    case_chapter: "Chapter1",
     caseText: `
       <p><strong>Unity Infrastructure Limited</strong> has twelve directors. Eight of them were appointed according to the principle of proportional representation under Section 163, while four directors were appointed through the ordinary procedure.</p>
       <p>A group of shareholders wants to remove three directors. Two of the proposed directors for removal were appointed through proportional representation, while one was appointed through the ordinary procedure.</p>
@@ -1707,6 +1740,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_014",
     difficulty: "Medium",
+    case_chapter: "Chapter1",
     caseText: `
       <p><strong>Greenfield Industries Limited</strong> maintains a register containing particulars of its directors and key managerial personnel at its registered office.</p>
       <p>Mr. Arjun, a shareholder of the company, wants to inspect the register during business hours. He also requests copies of certain entries. The company refuses to provide the copies, stating that only the Registrar is entitled to inspect the register.</p>
@@ -1759,6 +1793,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_015",
     difficulty: "Medium",
+    case_chapter: "Chapter1",
     caseText: `
       <p><strong>Nova Consumer Products Limited</strong> has recently undergone several changes in its Board. One director resigned, another director was appointed, and certain statutory particulars relating to directors and key managerial personnel were not updated within the prescribed period.</p>
       <p>The company also failed to comply with a requirement under Chapter XI of the Companies Act, 2013 for which no specific penalty or punishment is provided in that particular provision.</p>
@@ -1810,7 +1845,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS01",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Appointment of Managing Director",
       "Whole-time Director",
       "Manager",
@@ -1860,7 +1896,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS02",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 196",
       "Age Eligibility",
       "Managing Director",
@@ -1911,7 +1948,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS03",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Key Managerial Personnel",
       "Section 203",
       "Whole-time KMP",
@@ -1962,7 +2000,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS04",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 197",
       "Maximum Managerial Remuneration",
       "Net Profits",
@@ -2013,7 +2052,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS05",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Secretarial Audit",
       "Section 204",
       "Section 205",
@@ -2064,7 +2104,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS06",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Functions of Company Secretary",
       "Section 205",
       "Secretarial Standards",
@@ -2114,7 +2155,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS07",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 197",
       "Sitting Fees",
       "Mode of Remuneration",
@@ -2164,7 +2206,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS08",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 197",
       "Excess Remuneration",
       "Refund of Remuneration",
@@ -2214,7 +2257,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS09",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 197",
       "Insurance Premium",
       "Indemnification",
@@ -2265,7 +2309,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS10",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 202",
       "Compensation for Loss of Office",
       "Managing Director",
@@ -2316,7 +2361,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS11",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 198",
       "Calculation of Profits",
       "Managerial Remuneration"
@@ -2364,7 +2410,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS12",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Schedule V",
       "Effective Capital",
       "Inadequate Profits",
@@ -2414,7 +2461,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS13",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 203",
       "Key Managerial Personnel",
       "Appointment of KMP",
@@ -2464,7 +2512,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS14",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 203",
       "Vacancy of KMP",
       "Penalty",
@@ -2514,7 +2563,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS15",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 204",
       "Secretarial Audit",
       "Secretarial Audit Report",
@@ -2564,7 +2614,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS16",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 196",
       "Appointment of MD",
       "Appointment of WTD",
@@ -2613,7 +2664,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS17",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 196",
       "Eligibility Conditions",
       "Age of MD/WTD/Manager",
@@ -2662,7 +2714,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS18",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 205",
       "Functions of Company Secretary",
       "Secretarial Standards",
@@ -2711,7 +2764,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS19",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 197",
       "Sitting Fees",
       "Directors",
@@ -2760,7 +2814,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS20",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 197",
       "Excess Remuneration",
       "Refund",
@@ -2810,7 +2865,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS26",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 2(53)",
       "Manager",
       "Managerial Personnel"
@@ -2859,7 +2915,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS27",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 2(54)",
       "Managing Director",
       "Substantial Powers of Management"
@@ -2908,7 +2965,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS28",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 2(94)",
       "Whole-time Director",
       "WTD"
@@ -2957,7 +3015,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS29",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 197",
       "Maximum Managerial Remuneration",
       "Public Company"
@@ -3005,7 +3064,8 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_EASY_CS30",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
       "Section 196",
       "Eligibility",
       "Disqualification",
@@ -3056,8 +3116,9 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_MEDIUM_CS31",
+    case_chapter: "Chapter2",
     difficulty: "Medium",
-    case_chapter: [
+    case_topic: [
       "Section 196",
       "Appointment of MD/WTD/Manager",
       "Tenure",
@@ -3113,8 +3174,9 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_MEDIUM_CS32",
+    case_chapter: "Chapter2",
     difficulty: "Medium",
-    case_chapter: [
+    case_topic: [
       "Section 196(3)",
       "Age Limit",
       "Special Resolution",
@@ -3170,8 +3232,9 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_MEDIUM_CS33",
+    case_chapter: "Chapter2",
     difficulty: "Medium",
-    case_chapter: [
+    case_topic: [
       "Section 203",
       "Key Managerial Personnel",
       "Multiple Appointments",
@@ -3227,8 +3290,9 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_MEDIUM_CS34",
+    case_chapter: "Chapter2",
     difficulty: "Medium",
-    case_chapter: [
+    case_topic: [
       "Section 203(4)",
       "KMP Vacancy",
       "Board Meeting"
@@ -3282,8 +3346,9 @@ const AICaseStudies = [
   ========================================================= */
   {
     case_id: "CEL_CH2_MEDIUM_CS35",
+    case_chapter: "Chapter2",
     difficulty: "Medium",
-    case_chapter: [
+    case_topic: [
       "Section 204",
       "Secretarial Audit",
       "Rule 9",
@@ -3339,8 +3404,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   case_id: "CEL_CH2_MEDIUM_CS36",
+  case_chapter: "Chapter2",
   difficulty: "Medium",
-  case_chapter: [
+  case_topic: [
     "Section 197",
     "Overall Managerial Remuneration",
     "Net Profits",
@@ -3396,8 +3462,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   case_id: "CEL_CH2_MEDIUM_CS37",
+  case_chapter: "Chapter2",
   difficulty: "Medium",
-  case_chapter: [
+  case_topic: [
     "Section 197(3)",
     "Schedule V",
     "No Profit/Inadequate Profit",
@@ -3453,8 +3520,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   case_id: "CEL_CH2_MEDIUM_CS38",
+  case_chapter: "Chapter2",
   difficulty: "Medium",
-  case_chapter: [
+  case_topic: [
     "Schedule V",
     "Effective Capital",
     "Managerial Remuneration"
@@ -3508,8 +3576,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   case_id: "CEL_CH2_MEDIUM_CS39",
+  case_chapter: "Chapter2",
   difficulty: "Medium",
-  case_chapter: [
+  case_topic: [
     "Section 197(9)",
     "Section 197(10)",
     "Refund of Excess Remuneration",
@@ -3565,8 +3634,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   case_id: "CEL_CH2_MEDIUM_CS40",
+  case_chapter: "Chapter2",
   difficulty: "Medium",
-  case_chapter: [
+  case_topic: [
     "Section 202",
     "Compensation for Loss of Office",
     "MD/WTD/Manager",
@@ -3622,8 +3692,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   case_id: "CEL_CH2_MEDIUM_CS41",
+  case_chapter: "Chapter2",
   difficulty: "Medium",
-  case_chapter: [
+  case_topic: [
     "Section 197(5)",
     "Sitting Fees",
     "Independent Directors",
@@ -3680,8 +3751,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   case_id: "CEL_CH2_MEDIUM_CS42",
+  case_chapter: "Chapter2",
   difficulty: "Medium",
-  case_chapter: [
+  case_topic: [
     "Section 197(4)",
     "Professional Services",
     "Director Remuneration",
@@ -3737,8 +3809,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   case_id: "CEL_CH2_MEDIUM_CS43",
+  case_chapter: "Chapter2",
   difficulty: "Medium",
-  case_chapter: [
+  case_topic: [
     "Section 197(13)",
     "Insurance",
     "Managerial Personnel",
@@ -3794,8 +3867,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   case_id: "CEL_CH2_MEDIUM_CS44",
+  case_chapter: "Chapter2",
   difficulty: "Medium",
-  case_chapter: [
+  case_topic: [
     "Section 199",
     "Restatement of Financial Statements",
     "Recovery of Remuneration",
@@ -3852,7 +3926,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH2_MEDIUM_CS45",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "Chapter2",
+  case_topic: [
     "Section 205",
     "Functions of Company Secretary",
     "Secretarial Standards",
@@ -3909,7 +3984,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH2_MEDIUM_CS41",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "Chapter2",
+  case_topic: [
     "Section 2(53)",
     "Section 2(54)",
     "Section 196(1)",
@@ -3967,7 +4043,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH2_MEDIUM_CS42",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "Chapter2",
+  case_topic: [
     "Section 197(5)",
     "Rule 4",
     "Sitting Fees",
@@ -4025,7 +4102,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH2_MEDIUM_CS43",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "Chapter2",
+  case_topic: [
     "Section 197(4)",
     "Professional Services",
     "Additional Remuneration",
@@ -4082,7 +4160,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH2_MEDIUM_CS44",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "Chapter2",
+  case_topic: [
     "Section 197(13)",
     "Insurance Premium",
     "Indemnification",
@@ -4139,7 +4218,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH2_MEDIUM_CS45",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "Chapter2",
+  case_topic: [
     "Section 199",
     "Restatement of Financial Statements",
     "Recovery of Managerial Remuneration",
@@ -4196,7 +4276,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH2_MEDIUM_CS46",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "Chapter2",
+  case_topic: [
     "Section 203",
     "Key Managerial Personnel",
     "Rule 8",
@@ -4253,7 +4334,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH2_MEDIUM_CS47",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "Chapter2",
+  case_topic: [
     "Section 203(1)",
     "Chairperson",
     "Managing Director",
@@ -4311,7 +4393,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH2_MEDIUM_CS48",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "Chapter2",
+  case_topic: [
     "Section 203(3)",
     "MD/Manager in More Than One Company",
     "Board Resolution",
@@ -4368,7 +4451,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH2_MEDIUM_CS49",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "Chapter2",
+  case_topic: [
     "Section 196(4)",
     "Appointment Procedure",
     "MR-1",
@@ -4426,7 +4510,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH2_MEDIUM_CS50",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "Chapter2",
+  case_topic: [
     "Section 204",
     "Secretarial Audit",
     "Rule 9",
@@ -4485,7 +4570,8 @@ const AICaseStudies = [
 {
     case_id: "CEL_CH2_CS51",
     difficulty: "Hard",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
         "Appointment of Managing Director",
         "Whole-time Director",
         "Manager",
@@ -4602,7 +4688,8 @@ const AICaseStudies = [
 {
     case_id: "CEL_CH2_CS52",
     difficulty: "Hard",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
         "Key Managerial Personnel",
         "Section 203",
         "Multiple Company Appointments",
@@ -4711,7 +4798,8 @@ const AICaseStudies = [
 {
     case_id: "CEL_CH2_CS53",
     difficulty: "Hard",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
         "Functions of Company Secretary",
         "Section 205",
         "Secretarial Standards",
@@ -4819,7 +4907,8 @@ const AICaseStudies = [
 {
     case_id: "CEL_CH2_CS54",
     difficulty: "Hard",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
         "Overall Maximum Managerial Remuneration",
         "Section 197",
         "Managerial Remuneration Limits",
@@ -4934,7 +5023,8 @@ const AICaseStudies = [
 {
     case_id: "CEL_CH2_CS55",
     difficulty: "Hard",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
         "Managerial Remuneration",
         "Absence or Inadequacy of Profits",
         "Schedule V",
@@ -5047,8 +5137,9 @@ const AICaseStudies = [
   // ============================================================
 {
     case_id: "CEL_CH2_CS56",
+    case_chapter: "Chapter2",
     difficulty: "Hard",
-    case_chapter: [
+    case_topic: [
         "Effective Capital",
         "Schedule V",
         "No Profit or Inadequate Profit",
@@ -5161,7 +5252,8 @@ const AICaseStudies = [
 {
     case_id: "CEL_CH2_CS57",
     difficulty: "Hard",
-    case_chapter: [
+    case_chapter: "Chapter2",
+    case_topic: [
         "Section 197",
         "Professional Services by Directors",
         "Sitting Fees",
@@ -5265,7 +5357,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS01",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 173"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 173"],
     caseText: `
       <p>Alpha Technologies Limited was incorporated on 10th April 2026. The company held its first Board Meeting on 5th May 2026. Thereafter, the Board proposed to hold meetings on 10th August, 15th November and 20th December 2026. One of the directors suggested that since four meetings would be completed during the calendar year, the company would automatically comply with Section 173. Another director pointed out that the interval between two consecutive meetings is also relevant.</p>
       <p>The Company Secretary was asked to examine whether the proposed schedule satisfies the requirements relating to the first Board meeting, minimum number of meetings and maximum interval between consecutive meetings.</p>
@@ -5311,7 +5404,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS02",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 173", "OPC"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 173", "OPC"],
     caseText: `
       <p>Bright Solutions Private Limited is a small company having four directors. During the financial year, the management decided to hold only two Board Meetings. The first meeting was held on 15th January and the second on 20th August of the same calendar year.</p>
       <p>The directors believed that because the company is a small company, there is no requirement to hold four meetings. However, the Company Secretary informed the Board that the interval between the two meetings is also relevant.</p>
@@ -5358,7 +5452,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS03",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 173", "Video Conferencing"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 173", "Video Conferencing"],
     caseText: `
       <p>Crest Industries Limited convened a Board Meeting through video conferencing. All directors were provided with the agenda and relevant papers. Director A joined from Delhi, Director B from Mumbai and Director C from Bengaluru. At the beginning of the meeting, the Chairperson asked each director to state his name and location and confirm that he had received the agenda.</p>
       <p>During one agenda item, Director B's audio became unclear. The Company Secretary immediately requested him to repeat his statement. Later, Director C objected to a motion and voting became necessary.</p>
@@ -5404,7 +5499,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS04",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 173", "Notice"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 173", "Notice"],
     caseText: `
       <p>Delta Manufacturing Limited normally gives seven days' written notice to all directors for Board Meetings. Due to an urgent business opportunity, the company proposes to convene a Board Meeting at shorter notice.</p>
       <p>The Company Secretary informs the Chairperson that shorter notice can be used for urgent business. However, one independent director is travelling abroad and cannot attend the meeting. The Board proposes to proceed without him and circulate the decisions later for his information.</p>
@@ -5450,7 +5546,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS05",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 174", "Quorum"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 174", "Quorum"],
     caseText: `
       <p>Everest Limited has 12 directors according to its Board structure. However, two positions are vacant. At a scheduled Board Meeting, eight directors are physically present and two directors participate through video conferencing. The Chairperson wants to determine whether the quorum requirement is satisfied.</p>
       <p>The Company Secretary explains that vacant positions are not included while determining total strength and directors participating electronically are normally counted for quorum.</p>
@@ -5496,7 +5593,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS06",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 174", "Interested Directors"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 174", "Interested Directors"],
     caseText: `
       <p>Falcon Limited has 15 directors. During a Board Meeting, an agenda item concerning a contract with another company is taken up. Thirteen directors are interested in the transaction within the meaning of Section 184(2). Two directors have no interest in the transaction and remain eligible to participate.</p>
       <p>The Chairperson initially believes that the normal one-third quorum should apply. The Company Secretary points out that Section 174 contains a special rule where interested directors constitute at least two-thirds of the total strength.</p>
@@ -5542,7 +5640,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS07",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 175", "Resolution by Circulation"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 175", "Resolution by Circulation"],
     caseText: `
       <p>Galaxy Limited has six directors. The Chairperson proposes to pass a routine Board resolution by circulation. The draft resolution along with necessary papers is circulated electronically to all directors at their registered addresses.</p>
       <p>Three directors respond that the matter should instead be decided at a properly convened Board Meeting. The Chairperson argues that since the remaining directors support circulation, the resolution can still be passed.</p>
@@ -5588,7 +5687,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS08",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 177", "Audit Committee"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 177", "Audit Committee"],
     caseText: `
       <p>Horizon Public Limited Company is an unlisted public company. Its latest audited financial statements show paid-up share capital of ₹12 crore, turnover of ₹95 crore and aggregate outstanding loans, debentures and deposits of ₹40 crore.</p>
       <p>The Board argues that since the company is not listed and its turnover and outstanding liabilities are below the prescribed thresholds, an Audit Committee is unnecessary. The Company Secretary examines each prescribed threshold separately.</p>
@@ -5634,7 +5734,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS09",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 178", "NRC"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 178", "NRC"],
     caseText: `
       <p>Innovate Public Limited is a listed public company. Its Board is considering the constitution of the Nomination and Remuneration Committee. The proposed committee consists of three directors, all of whom are non-executive directors. One of them is an independent director.</p>
       <p>The Chairperson of the company wants to chair the committee because of his experience in human resources. The Company Secretary advises that the composition and chairmanship requirements must be examined separately.</p>
@@ -5680,7 +5781,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS10",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 179", "Section 180"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 179", "Section 180"],
     caseText: `
       <p>Jupiter Limited proposes to borrow a substantial amount for expansion of its manufacturing facility. The Board considers borrowing as one of its powers. However, the proposed borrowing, together with existing borrowings, would exceed the aggregate of the company's paid-up share capital, free reserves and securities premium, excluding temporary loans obtained from bankers in the ordinary course of business.</p>
       <p>The directors propose to approve the borrowing solely through a Board resolution. The shareholders are advised that Section 180 may impose an additional requirement where the prescribed borrowing limit is exceeded.</p>
@@ -5730,7 +5832,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS11",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 174", "Adjournment"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 174", "Adjournment"],
     caseText: `
       <p>Nova Infrastructure Limited convened a Board Meeting on Monday at 11:00 a.m. However, only one director was present and the company could not constitute the required quorum. The Articles of Association of the company did not contain any different provision regarding adjournment for want of quorum.</p>
       <p>The Chairman proposed that the meeting should automatically stand adjourned to the same day and time in the following week. The following week, that day happened to be a national holiday. One director argued that the meeting should nevertheless be held on the same day because it had already been scheduled.</p>
@@ -5776,7 +5879,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS12",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 175", "Resolution by Circulation"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 175", "Resolution by Circulation"],
     caseText: `
       <p>Orion Limited has eight directors. A matter that does not require consideration at a duly convened Board Meeting is proposed to be decided by circulation. The draft resolution, together with necessary papers, is circulated to all directors through electronic means.</p>
       <p>Five directors approve the resolution, while two directors vote against it and one director does not respond. None of the directors representing one-third of the total number of directors requires the matter to be placed before a Board Meeting.</p>
@@ -5822,7 +5926,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS13",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 177", "Audit Committee"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 177", "Audit Committee"],
     caseText: `
       <p>Prime Consumer Products Limited has a properly constituted Audit Committee. During its meeting, the Committee considers the appointment and remuneration of the statutory auditor, reviews the auditor's independence and examines the financial statements before they are submitted to the Board.</p>
       <p>The Committee also decides to investigate concerns regarding the company's internal financial controls. It proposes to obtain professional advice from an external expert and requests access to relevant company records.</p>
@@ -5868,7 +5973,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS14",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 177", "Vigil Mechanism"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 177", "Vigil Mechanism"],
     caseText: `
       <p>Quantum Limited is a listed company. Several employees have raised genuine concerns regarding possible financial irregularities. The company has an Audit Committee and has established a vigil mechanism.</p>
     `,
@@ -5913,7 +6019,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS15",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 178", "Stakeholders Relationship Committee"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 178", "Stakeholders Relationship Committee"],
     caseText: `
       <p>Sunrise Limited has 1,250 shareholders, 40 debenture-holders and several deposit-holders during the financial year. A number of security holders have submitted complaints concerning delays in transmission of securities and other grievances.</p>
     `,
@@ -5958,7 +6065,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS16",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 179", "Delegation of Powers"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 179", "Delegation of Powers"],
     caseText: `
       <p>Terra Limited wants to streamline its financial operations. The Board proposes to delegate certain powers concerning borrowing, investment of funds and granting loans or guarantees to its Managing Director.</p>
     `,
@@ -6003,7 +6111,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS17",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 180", "Restrictions on Board Powers"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 180", "Restrictions on Board Powers"],
     caseText: `
       <p>Vertex Limited owns two separate undertakings, Undertaking A and Undertaking B. The Board proposes to sell substantially the whole of Undertaking A to another company. The directors argue that because Undertaking B will continue to operate, the company is not disposing of its entire business and therefore no shareholder approval is required.</p>
     `,
@@ -6048,7 +6157,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS18",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 181", "Charitable Contributions"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 181", "Charitable Contributions"],
     caseText: `
       <p>Unity Limited proposes to make a contribution to a bona fide charitable fund. The average net profits of the company for the three immediately preceding financial years are ₹40 lakh. The Board proposes to contribute ₹2.5 lakh during the current financial year.</p>
     `,
@@ -6093,7 +6203,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS19",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 182", "Political Contributions"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 182", "Political Contributions"],
     caseText: `
       <p>Zenith Limited was incorporated more than three financial years ago and is not a Government company. Its Board proposes to make a contribution directly to a political party registered under Section 29A of the Representation of the People Act, 1951.</p>
     `,
@@ -6138,7 +6249,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_MT_CS20",
     difficulty: "Medium",
-    case_chapter: ["Meetings of Board and its Powers", "Section 184", "Disclosure of Interest"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 184", "Disclosure of Interest"],
     caseText: `
       <p>Apex Limited has three directors. Director R holds 3% of the paid-up share capital of Beta Private Limited. Apex Limited proposes to enter into a contract with Beta Private Limited. The contract is placed before the Board for discussion.</p>
     `,
@@ -6187,7 +6299,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS01",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 174", "Quorum", "Interested Directors"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 174", "Quorum", "Interested Directors"],
     caseText: `
       <p>Alpha Manufacturing Limited has a Board consisting of 18 directors. A Board Meeting is convened to consider a proposed transaction with Beta Industries Limited. At the beginning of the meeting, 16 directors are present.</p>
       <p>During consideration of the particular transaction, it is determined that 13 directors are interested in the transaction within the meaning of Section 184(2). The remaining 5 directors are not interested in the transaction. All 18 directors were originally present when the meeting commenced.</p>
@@ -6234,7 +6347,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS02",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 173", "Video Conferencing"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 173", "Video Conferencing"],
     caseText: `
       <p>Global Tech Limited convenes a Board Meeting at its registered office. Four directors attend physically and three directors participate through video conferencing. The company has made arrangements to record and store the proceedings along with the date and time.</p>
       <p>During roll call, each director participating electronically identifies his name and location and confirms receipt of the agenda and relevant papers. One director's connection becomes unclear while discussing an important resolution. The Company Secretary immediately asks him to repeat his statement.</p>
@@ -6280,7 +6394,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS03",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 179", "Board Powers", "Delegation"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 179", "Board Powers", "Delegation"],
     caseText: `
       <p>Horizon Limited is considering several financial decisions. The Board proposes to borrow ₹40 crore, invest surplus funds in another company, approve the annual financial statements, appoint a new internal auditor and approve an amalgamation.</p>
     `,
@@ -6325,7 +6440,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS04",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 180", "Borrowing Powers"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 180", "Borrowing Powers"],
     caseText: `
       <p>Sterling Limited has paid-up share capital of ₹30 crore, free reserves of ₹20 crore and securities premium of ₹5 crore. It already has borrowings of ₹45 crore, excluding temporary loans obtained from its bankers in the ordinary course of business.</p>
     `,
@@ -6370,7 +6486,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS05",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 184", "Disclosure of Interest"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 184", "Disclosure of Interest"],
     caseText: `
       <p>Director A of Meridian Limited holds 4% of the paid-up share capital of Delta Limited and is also a director of Delta Limited. At the beginning of the financial year, A makes his general disclosure of interest in the prescribed manner.</p>
     `,
@@ -6415,7 +6532,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS06",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 185", "Loans to Directors"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 185", "Loans to Directors"],
     caseText: `
       <p>Apex Finance Limited proposes to provide a loan of ₹8 crore to Beta Private Limited. One of Apex's directors is a director and member of Beta Private Limited. The Board believes that the transaction can proceed because the loan is not being given directly to the director.</p>
     `,
@@ -6460,7 +6578,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS07",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 173", "Notice", "Shorter Notice"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 173", "Notice", "Shorter Notice"],
     caseText: `
       <p>Zenith Technologies Limited needs to urgently consider a time-sensitive acquisition. The Company Secretary sends notice of the Board Meeting only four days before the proposed meeting because waiting seven days could result in the loss of the opportunity.</p>
     `,
@@ -6505,7 +6624,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS08",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 177", "Audit Committee", "Omnibus Approval"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 177", "Audit Committee", "Omnibus Approval"],
     caseText: `
       <p>The Audit Committee of Nova Limited is considering recurring transactions with several related parties. The transactions are repetitive and occur throughout the financial year. The Committee proposes to grant omnibus approval for the entire year.</p>
     `,
@@ -6550,7 +6670,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS09",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 173", "OPC", "Small Company", "Dormant Company"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 173", "OPC", "Small Company", "Dormant Company"],
     caseText: `
       <p>Three entities are being examined for compliance with Board Meeting requirements:</p>
       <p><strong>Company A:</strong> A One Person Company having only one director.</p>
@@ -6598,7 +6719,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS10",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 177", "Section 178", "Audit Committee", "NRC"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 177", "Section 178", "Audit Committee", "NRC"],
     caseText: `
       <p>Apex Public Limited Company has paid-up share capital of ₹14 crore, turnover of ₹120 crore and outstanding loans, debentures and deposits aggregating ₹40 crore. The company is not a joint venture, wholly owned subsidiary or dormant company.</p>
     `,
@@ -6647,7 +6769,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS11",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 174", "Quorum"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 174", "Quorum"],
     caseText: `
       <p>Orion Limited has a Board consisting of 12 directors. Three positions on the Board are vacant. Therefore, nine directors are currently holding office. A Board Meeting is convened and five directors attend.</p>
       <p>One director argues that quorum should be calculated with reference to the original sanctioned strength of 12 directors. Another argues that vacancies should be ignored and quorum should be calculated with reference to the actual strength of the Board.</p>
@@ -6693,7 +6816,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS12",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 175", "Passing of Resolution by Circulation"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 175", "Passing of Resolution by Circulation"],
     caseText: `
       <p>Sunrise Limited needs to approve an urgent routine matter. Instead of convening a physical Board Meeting, the Managing Director proposes to circulate a draft resolution together with the necessary papers to all directors entitled to receive notice.</p>
       <p>Eight directors are entitled to vote. Five directors approve the resolution, two directors reject it and one director does not respond. The Company Secretary records the resolution as passed by circulation.</p>
@@ -6739,7 +6863,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS13",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 179", "Section 180"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 179", "Section 180"],
     caseText: `
       <p>Vertex Limited plans to invest ₹25 crore in securities of another body corporate. At the same time, the Board proposes to sell one of its major undertakings for ₹80 crore. The directors believe that both transactions can be authorised through a single Board resolution because both relate to deployment of company resources.</p>
     `,
@@ -6784,7 +6909,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS14",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 176", "Defects in Appointment"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 176", "Defects in Appointment"],
     caseText: `
       <p>Crystal Limited appoints Mr. R as a director. Later, it is discovered that a technical defect existed in the appointment procedure. During the period before the defect was discovered, Mr. R attended Board Meetings and voted on several routine business matters.</p>
     `,
@@ -6829,7 +6955,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS15",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 182", "Political Contributions"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 182", "Political Contributions"],
     caseText: `
       <p>Pioneer Limited proposes to contribute ₹12 lakh to a political party during the financial year. The Managing Director suggests making the contribution directly from company funds without passing a Board resolution.</p>
     `,
@@ -6874,7 +7001,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS16",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 183", "National Defence Fund"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 183", "National Defence Fund"],
     caseText: `
       <p>National Infrastructure Limited wants to contribute ₹50 lakh towards a fund connected with national defence. The Managing Director believes that because the contribution is charitable and connected with national interest, no Board approval is necessary.</p>
     `,
@@ -6919,7 +7047,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS17",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 181", "Charitable Contributions"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 181", "Charitable Contributions"],
     caseText: `
       <p>Emerald Limited proposes to contribute ₹18 lakh to a charitable fund. The contribution is expected to exceed five per cent of the average net profits of the company for the three immediately preceding financial years.</p>
     `,
@@ -6964,7 +7093,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS18",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 178", "Nomination and Remuneration Committee"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 178", "Nomination and Remuneration Committee"],
     caseText: `
       <p>Summit Limited constitutes a Nomination and Remuneration Committee with three non-executive directors. Only one of the three directors is independent. The Board argues that because the committee has three non-executive directors, the composition is valid.</p>
     `,
@@ -7009,7 +7139,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS19",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 178", "Stakeholders Relationship Committee"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 178", "Stakeholders Relationship Committee"],
     caseText: `
       <p>Prime Limited has 1,200 shareholders. A large number of complaints have been received regarding non-receipt of dividend, transfer of shares and delayed transmission of securities.</p>
     `,
@@ -7054,7 +7185,8 @@ const AICaseStudies = [
   {
     case_id: "CEL_CH3_T_CS20",
     difficulty: "Hard",
-    case_chapter: ["Meetings of Board and its Powers", "Section 173", "Section 174", "Board Meeting Compliance"],
+    case_chapter: "Chapter3",
+    case_topic: ["Meetings of Board and its Powers", "Section 173", "Section 174", "Board Meeting Compliance"],
     caseText: `
       <p>Zenith Industries Limited has 15 directors. During the financial year, the company holds its first Board Meeting on 10 April, the second on 20 June, the third on 25 September and the fourth on 15 December.</p>
       <p>The notice for the September meeting is sent only five days in advance. Two directors participate through video conferencing. At the December meeting, only four directors are physically present, while three participate through permitted audio-visual means.</p>
@@ -7103,7 +7235,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_186_MED_01",
   difficulty: "Medium",
-  case_chapter: ["Section 186", "Loan and Investment"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 186", "Loan and Investment"],
   caseText: `
       <p><strong>Arnav Technologies Limited</strong> is considering making certain financial arrangements with other corporate entities. The company has a paid-up share capital of ₹8 crore, free reserves of ₹5 crore and securities premium of ₹2 crore.</p>
       <p>The company has already granted loans and guarantees amounting to ₹6 crore and now proposes to make a further investment of ₹5 crore in the securities of another body corporate. The Board is considering whether the proposed transaction can be undertaken without obtaining approval of the members.</p>
@@ -7153,7 +7286,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_186_MED_02",
   difficulty: "Medium",
-  case_chapter: ["Section 186", "Wholly Owned Subsidiary"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 186", "Wholly Owned Subsidiary"],
   caseText: `
       <p><strong>Bright Industries Limited</strong> proposes to provide a loan of ₹12 crore to its wholly owned subsidiary, Bright Components Private Limited. The company also proposes to provide a guarantee in respect of a loan taken by the subsidiary from a bank.</p>
       <p>The proposed transactions, together with earlier loans and investments, exceed the normal monetary limit prescribed under Section 186(2). The Board is of the view that a special resolution should nevertheless be obtained before proceeding with the transactions.</p>
@@ -7203,7 +7337,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_186_MED_03",
   difficulty: "Medium",
-  case_chapter: ["Section 186", "Rate of Interest"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 186", "Rate of Interest"],
   caseText: `
       <p><strong>Nova Engineering Limited</strong> grants a five-year loan to another company. The prevailing yield on Government Securities closest to the tenor of the loan is 7.5%. Nova Engineering proposes to charge interest at 6.5% on the loan because the borrower is a long-standing business associate.</p>
       <p>The finance team argues that the company can charge any rate of interest because the transaction has been approved by the Board.</p>
@@ -7252,7 +7387,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_187_MED_04",
   difficulty: "Medium",
-  case_chapter: ["Section 187", "Investments in Own Name"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 187", "Investments in Own Name"],
   caseText: `
       <p><strong>Zenith Retail Limited</strong> has made investments in shares and securities of several companies. Some securities have been transferred to its scheduled bank to facilitate their transfer to prospective purchasers.</p>
       <p>Six months have passed since certain securities were first held in the name of the bank, but no transfer has taken place. In another case, the company has deposited securities with its banker for collection of dividend.</p>
@@ -7302,7 +7438,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_188_MED_05",
   difficulty: "Medium",
-  case_chapter: ["Section 188", "Related Party Transactions"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 188", "Related Party Transactions"],
   caseText: `
       <p><strong>Galaxy Foods Limited</strong> proposes to purchase raw materials from a private company in which one of its directors and his relative are members. The proposed transaction is not on an arm's length basis.</p>
       <p>The management is considering whether shareholder approval is necessary. The value of the proposed purchases, together with earlier purchases during the financial year, is below the prescribed threshold requiring an ordinary resolution.</p>
@@ -7352,7 +7489,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_188_MED_06",
   difficulty: "Medium",
-  case_chapter: ["Section 188", "Prescribed Thresholds"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 188", "Prescribed Thresholds"],
   caseText: `
       <p><strong>Orbit Infrastructure Limited</strong> has a turnover of ₹80 crore and net worth of ₹50 crore based on its audited financial statements of the preceding financial year.</p>
       <p>During the current financial year, the company proposes to enter into the following related party transactions:</p>
@@ -7402,7 +7540,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_188_MED_07",
   difficulty: "Medium",
-  case_chapter: ["Section 188", "Voting", "Wholly Owned Subsidiary"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 188", "Voting", "Wholly Owned Subsidiary"],
   caseText: `
       <p><strong>Summit Holdings Limited</strong> is entering into a related party transaction requiring approval by ordinary resolution. One of the shareholders, Mr. R, is himself the related party to the proposed transaction and holds 18% of the voting share capital.</p>
       <p>The company also proposes another transaction with its wholly owned subsidiary. The accounts of the wholly owned subsidiary are consolidated with those of Summit Holdings Limited and placed before the shareholders at the general meeting.</p>
@@ -7451,7 +7590,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_189_MED_08",
   difficulty: "Medium",
-  case_chapter: ["Section 189", "Register of Contracts"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 189", "Register of Contracts"],
   caseText: `
       <p><strong>Delta Manufacturing Limited</strong> maintains a register of contracts and arrangements in which directors are interested. The company enters into several transactions with entities in which its directors have an interest.</p>
       <p>The Company Secretary has been instructed to update the register chronologically and place it before the next Board meeting. A shareholder later requests an extract of the register.</p>
@@ -7501,7 +7641,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_191_MED_09",
   difficulty: "Medium",
-  case_chapter: ["Section 191", "Payment for Loss of Office"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 191", "Payment for Loss of Office"],
   caseText: `
       <p><strong>Vertex Textiles Limited</strong> proposes to pay ₹18 lakh to its Managing Director as compensation for loss of office following the transfer of the company's undertaking.</p>
       <p>The Board has recommended the payment and proposes to place the matter before the members. The company intends to disclose the name of the director, amount proposed, basis for determining the amount and the reasons for the payment.</p>
@@ -7551,7 +7692,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_192_193_MED_10",
   difficulty: "Medium",
-  case_chapter: ["Section 192", "Section 193", "Non-Cash Transactions", "OPC"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 192", "Section 193", "Non-Cash Transactions", "OPC"],
   caseText: `
       <p><strong>Future Ventures Limited</strong> proposes to acquire a building from one of its directors in exchange for shares of the company instead of cash. The Board believes that because the transaction is beneficial to the company, no shareholder approval is necessary.</p>
       <p>Separately, its holding company has a director who proposes to transfer another asset to Future Ventures Limited in exchange for securities of the company.</p>
@@ -7602,7 +7744,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_186_01",
   difficulty: "hard",
-  case_chapter: ["Section 186", "Loans and Investments"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 186", "Loans and Investments"],
   caseText: `
       <p><strong>Trident Engineering Limited</strong> is a public company engaged in the manufacture of industrial machinery. As per its latest financial statements, its paid-up share capital is ₹20 crore, free reserves are ₹8 crore and securities premium account is ₹2 crore.</p>
       <p>The company has already granted loans of ₹5 crore to various bodies corporate, provided guarantees aggregating ₹4 crore in connection with loans obtained by other companies and acquired securities of other bodies corporate worth ₹3 crore.</p>
@@ -7654,7 +7797,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_186_02",
   difficulty: "hard",
-  case_chapter: ["Section 186", "WOS", "Joint Venture"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 186", "WOS", "Joint Venture"],
   caseText: `
       <p><strong>Apex Mobility Limited</strong> has paid-up share capital of ₹12 crore, free reserves of ₹6 crore and securities premium of ₹2 crore. Its existing loans, guarantees, securities and investments covered by Section 186(2) aggregate ₹10 crore.</p>
       <p>The Board proposes three additional transactions: a loan of ₹4 crore to Apex Batteries Private Limited, its wholly owned subsidiary; a guarantee of ₹3 crore in connection with a loan obtained by a joint venture company; and acquisition for ₹5 crore of securities of another unrelated body corporate.</p>
@@ -7706,7 +7850,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_186_03",
   difficulty: "hard",
-  case_chapter: ["Section 186", "Default", "Interest", "Register"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 186", "Default", "Interest", "Register"],
   caseText: `
       <p><strong>Meridian Finance Solutions Limited</strong>, which is not a banking company, proposes to grant a four-year corporate loan of ₹6 crore to Nova Limited. The prevailing yields on Government Securities are 6.8% for three-year securities and 7.4% for five-year securities.</p>
       <p>Meridian proposes to charge interest at 7% per annum. The finance director argues that the three-year Government Security should be used because three years is closer to four years than five years for commercial purposes.</p>
@@ -7758,7 +7903,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_187_04",
   difficulty: "hard",
-  case_chapter: ["Section 187", "Investments in Own Name"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 187", "Investments in Own Name"],
   caseText: `
       <p><strong>Orion Holdings Limited</strong> has investments in several companies. Normally, all investments are held in Orion's own name. However, its legal department has identified three exceptional situations.</p>
       <p>First, certain shares of its subsidiary are held in the names of nominees of Orion because this is necessary to ensure that the number of members of the subsidiary does not fall below the statutory minimum. Second, securities worth ₹3 crore were transferred into the name of a scheduled bank solely to facilitate their transfer to a purchaser. Seven months have passed and no transfer to the purchaser has taken place.</p>
@@ -7809,7 +7955,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_188_05",
   difficulty: "hard",
-  case_chapter: ["Section 188", "Related Party"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 188", "Related Party"],
   caseText: `
       <p><strong>Quantum Electronics Limited</strong> is evaluating several proposed transactions. Mr. Arjun is a director of Quantum.</p>
       <p>Transaction I is with Alpha Private Limited, in which Arjun's wife is a member. Transaction II is with Beta Limited, a public company in which Arjun is a director and Arjun together with his relatives holds 2.8% of the paid-up share capital. Transaction III is with Gamma & Associates, a partnership firm in which Arjun's brother is a partner.</p>
@@ -7861,7 +8008,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_188_06",
   difficulty: "hard",
-  case_chapter: ["Section 188", "Rule 15", "Thresholds"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 188", "Rule 15", "Thresholds"],
   caseText: `
       <p><strong>Prism Consumer Limited</strong> has turnover of ₹240 crore and net worth of ₹90 crore according to its audited financial statements for the immediately preceding financial year.</p>
       <p>During the current financial year, Prism has already purchased goods worth ₹16 crore from a related party. It now proposes an additional purchase of ₹9 crore from the same related party. It also proposes to purchase an office property worth ₹8.5 crore from another related party.</p>
@@ -7913,7 +8061,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_188_07",
   difficulty: "hard",
-  case_chapter: ["Section 188", "Ratification", "Voidable Contract"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 188", "Ratification", "Voidable Contract"],
   caseText: `
       <p><strong>Horizon Media Limited</strong>, an unlisted public company, entered into a substantial service contract with a related party. The transaction was neither in the ordinary course of business nor on an arm's length basis.</p>
       <p>Mr. Karan, a director of Horizon, authorised the contract without obtaining the consent of the Board and without obtaining the approval of shareholders that was required because the prescribed threshold had been crossed.</p>
@@ -7966,7 +8115,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_189_08",
   difficulty: "hard",
-  case_chapter: ["Section 189", "MBP-4", "Director Interest"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 189", "MBP-4", "Director Interest"],
   caseText: `
       <p><strong>Silverline Pharmaceuticals Limited</strong> maintains its statutory registers at its registered office. Mr. Dev was appointed as a director on 1 July. He disclosed particulars of his interests under Section 184(1) on 5 August.</p>
       <p>During the year, Silverline entered into a ₹4.80 lakh contract for supply of materials with an entity in which one of its directors was interested. This was the only such supply contract with that entity during the year. The company also entered into another contract falling under Section 188 that is required to be entered in the register.</p>
@@ -8017,7 +8167,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_190_191_09",
   difficulty: "hard",
-  case_chapter: ["Section 190", "Section 191", "Loss of Office"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 190", "Section 191", "Loss of Office"],
   caseText: `
       <p><strong>Regal Infrastructure Limited</strong>, a public company, appointed Mr. Varun as its whole-time director. His terms of employment were agreed orally and no formal written service contract was executed. The company nevertheless prepared a written memorandum containing all the agreed terms and kept it at its registered office.</p>
       <p>Two years later, Regal agreed to transfer substantially its entire undertaking. As a consequence, Mr. Varun would lose his office. The transferee offered to pay him compensation for such loss of office. The amount and basis of compensation were disclosed to Regal's members and the proposal was placed before the general meeting.</p>
@@ -8069,7 +8220,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_192_193_10",
   difficulty: "hard",
-  case_chapter: ["Section 192", "Section 193", "Non-Cash Transactions", "OPC"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 192", "Section 193", "Non-Cash Transactions", "OPC"],
   caseText: `
       <p><strong>Vertex Digital Limited</strong> proposes to transfer a commercial property worth ₹6 crore to Mr. Aman, a director of its holding company. Instead of paying cash, Mr. Aman proposes to transfer securities held by him to Vertex as consideration.</p>
       <p>The Board of Vertex approves the arrangement and contends that approval of the Board is sufficient because Mr. Aman is not a director of Vertex itself. The notice subsequently prepared for the general meeting describes the property and the securities but does not contain a valuation by a registered valuer.</p>
@@ -8121,7 +8273,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_186_01",
   difficulty: "hard",
-  case_chapter: ["Section 186", "Loans and Investments"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 186", "Loans and Investments"],
   caseText: `
       <p><strong>Trident Engineering Limited</strong> has a paid-up share capital of ₹30 crore, free reserves of ₹12 crore and securities premium account of ₹8 crore. The company has already made investments of ₹16 crore in securities of other bodies corporate and has given guarantees of ₹8 crore in connection with loans obtained by other companies.</p>
       <p>The Board now proposes to grant a loan of ₹10 crore to Trident Components Private Limited, its wholly owned subsidiary. In addition, it proposes to invest ₹4 crore in the securities of an unrelated body corporate. A term loan obtained from a public financial institution is presently subsisting. The company has regularly paid all instalments and interest relating to such term loan.</p>
@@ -8172,7 +8325,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_186_02",
   difficulty: "hard",
-  case_chapter: ["Section 186", "Investment Layers"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 186", "Investment Layers"],
   caseText: `
       <p><strong>Orion Global Limited</strong>, an Indian company, proposes a major corporate restructuring. It intends to make an investment through Investment Company A, which in turn will invest through Investment Company B, which proposes to make a further investment through Investment Company C.</p>
       <p>Each of A, B and C has more than 50% of its total assets represented by investments in shares, debentures and other securities. The directors are concerned that the proposed structure may breach the restriction on investment through more than two layers of investment companies.</p>
@@ -8223,7 +8377,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_186_03",
   difficulty: "hard",
-  case_chapter: ["Section 186", "Interest", "Default", "Register"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 186", "Interest", "Default", "Register"],
   caseText: `
       <p><strong>Apex Finance Solutions Limited</strong> accepted deposits from the public several years ago. Due to liquidity problems, ₹2 crore of matured deposits and the interest payable thereon remain unpaid. The default is continuing.</p>
       <p>During this period, Apex proposes to grant a seven-year loan of ₹5 crore to another body corporate and provide a guarantee of ₹3 crore in connection with a loan obtained by another company. For the proposed seven-year loan, the prevailing yields on Government Securities are 6.5% for five-year securities and 7.2% for ten-year securities. The finance department proposes an interest rate of 6%.</p>
@@ -8274,7 +8429,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_187_04",
   difficulty: "hard",
-  case_chapter: ["Section 187", "Investment in Own Name"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 187", "Investment in Own Name"],
   caseText: `
       <p><strong>Mercury Industries Limited</strong> holds investments worth ₹60 crore. Certain shares are deposited with a scheduled bank for collection of dividends. Another block of securities was transferred into the name of the scheduled bank to facilitate their proposed sale. Seven months have elapsed since that transfer, but no sale has taken place and the securities continue to remain in the bank's name.</p>
       <p>Mercury also holds dematerialised securities in the name of a depository while Mercury remains their beneficial owner. In addition, the company holds a small number of shares of its subsidiary through nominees solely to ensure that the subsidiary's number of members does not fall below the statutory requirement.</p>
@@ -8325,7 +8481,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_188_05",
   difficulty: "hard",
-  case_chapter: ["Section 188", "Related Party Transactions"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 188", "Related Party Transactions"],
   caseText: `
       <p><strong>Vertex Consumer Products Limited</strong> has turnover of ₹300 crore and net worth of ₹120 crore according to the audited financial statements of the immediately preceding financial year.</p>
       <p>Mr. A, a director of Vertex, is also a director of Prime Distribution Private Limited, while his wife is a member of that private company. Vertex proposes to purchase goods worth ₹32 crore from Prime Distribution during the financial year. The pricing offered to Vertex is substantially more favourable to Prime than the pricing charged to unrelated customers, and therefore the management accepts that the arrangement is not at arm's length.</p>
@@ -8376,7 +8533,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_188_06",
   difficulty: "hard",
-  case_chapter: ["Section 188", "Office or Place of Profit", "Related Party Voting"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 188", "Office or Place of Profit", "Related Party Voting"],
   caseText: `
       <p><strong>Emerald Technologies Limited</strong> proposes to appoint the son of one of its directors as Chief Strategy Adviser at a monthly remuneration of ₹3,20,000. The appointment is not in the ordinary course of the company's business.</p>
       <p>Emerald also proposes to appoint a related entity as underwriter for a proposed issue of securities. The remuneration payable to the underwriter is ₹1.8 crore. The company's net worth according to the audited financial statements of the preceding financial year is ₹150 crore.</p>
@@ -8427,7 +8585,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_188_07",
   difficulty: "hard",
-  case_chapter: ["Section 188", "Ratification", "Voidable Transaction"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 188", "Ratification", "Voidable Transaction"],
   caseText: `
       <p><strong>Pioneer Healthcare Limited</strong> entered into a substantial service contract with a related party on 1 April. The transaction required approval under Section 188, but the executive director authorised execution without first obtaining the required consent of the Board or approval of shareholders.</p>
       <p>The omission was discovered during an internal review. On 20 June, the Board began considering whether the transaction could be ratified. Due to disagreements among the directors, however, no decision was taken. The required approval was eventually obtained on 15 August.</p>
@@ -8478,7 +8637,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_189_08",
   difficulty: "hard",
-  case_chapter: ["Section 189", "Register of Contracts"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 189", "Register of Contracts"],
   caseText: `
       <p><strong>Quantum Motors Limited</strong> maintains its register of contracts and arrangements in Form MBP-4 at its registered office. Mr. K was appointed as a director on 1 June but disclosed his interests under Section 184(1) only on 10 July.</p>
       <p>The company entered into a contract for supply of services with an entity in which another director was interested. The aggregate cost of the services during the year was ₹4.80 lakh. It also entered into another interested contract for ₹9 lakh. The Company Secretary proposes to make all register entries together at the end of the financial year.</p>
@@ -8529,7 +8689,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_191_09",
   difficulty: "hard",
-  case_chapter: ["Section 191", "Compensation for Loss of Office"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 191", "Compensation for Loss of Office"],
   caseText: `
       <p><strong>Regal Infrastructure Limited</strong> proposes to transfer substantially its entire operating undertaking to another company. As part of the arrangement, the transferee proposes to pay ₹40 lakh to Mr. Z, the Managing Director of Regal, as compensation for loss of office.</p>
       <p>The Board has disclosed Mr. Z's name and the proposed amount to members but has not disclosed the basis for determination, source of payment, manner of payment or reasons justifying the compensation. At the general meeting called to approve the proposal, quorum is not present and the meeting is adjourned. The adjourned meeting also fails for want of quorum.</p>
@@ -8580,7 +8741,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_HARD_192_193_10",
   difficulty: "hard",
-  case_chapter: ["Section 192", "Section 193", "Non-Cash Transactions", "OPC"],
+  case_chapter: "Chapter3",
+  case_topic: ["Section 192", "Section 193", "Non-Cash Transactions", "OPC"],
   caseText: `
       <p><strong>Silverline Limited</strong> proposes to acquire a commercial property valued at ₹12 crore from Mr. D, a director of its holding company. Instead of paying cash, Silverline proposes to issue certain assets owned by it to Mr. D as consideration. The Board approves the arrangement and argues that approval of Silverline's shareholders is unnecessary because Mr. D is not a director of Silverline itself.</p>
       <p>The notice sent to shareholders merely states that a property transaction is proposed. It neither specifies full particulars of the arrangement nor contains the value of the assets calculated by a registered valuer. Silverline nevertheless proceeds with the transaction.</p>
@@ -8624,12 +8786,14 @@ const AICaseStudies = [
     }
   ]
 },
+// Chapter 4
   // =========================================================
   // CASE SCENARIO 1
   // =========================================================
   {
     case_id: "C4_EASY_01",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 206"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 206"],
     difficulty: "Easy",
     caseText: `
       <p><strong>Brightstar Technologies Limited</strong> is a company engaged in the business of software development. During scrutiny of the documents filed by the company, the Registrar of Companies noticed that certain figures appearing in the company's annual filings required further clarification.</p>
@@ -8684,7 +8848,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_EASY_02",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 206(3)"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 206(3)"],
     difficulty: "Easy",
     caseText: `
       <p><strong>Greenfield Manufacturing Limited</strong> received a notice from the Registrar of Companies asking the company to furnish certain information regarding its transactions with suppliers. The company submitted a reply, but the Registrar found that the explanation was incomplete and did not adequately answer the questions raised.</p>
@@ -8739,7 +8904,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_EASY_03",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 207"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 207"],
     difficulty: "Easy",
     caseText: `
       <p><strong>Sunrise Foods Limited</strong> received a notice from an Inspector requiring production of certain books of account and other papers for inspection. The company's directors informed the finance department that all relevant records should be made available to the Inspector.</p>
@@ -8794,7 +8960,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_EASY_04",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 208"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 208"],
     difficulty: "Easy",
     caseText: `
       <p><strong>Metro Infrastructure Limited</strong> was subjected to an inspection by the Registrar. During the inspection, the Registrar examined the books of account, statutory records and other papers of the company.</p>
@@ -8849,7 +9016,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_EASY_05",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 209"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 209"],
     difficulty: "Easy",
     caseText: `
       <p><strong>Alpha Trading Limited</strong> came under scrutiny after certain creditors alleged that the company's management was attempting to alter and destroy important accounting records. The Registrar examined the information available and formed a reasonable belief that certain books and papers might be destroyed or falsified.</p>
@@ -8904,7 +9072,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_EASY_06",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 210"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 210"],
     difficulty: "Easy",
     caseText: `
       <p><strong>Nova Energy Limited</strong> passed a special resolution stating that the affairs of the company ought to be investigated. The company communicated the resolution to the Central Government.</p>
@@ -8959,7 +9128,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_EASY_07",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 211"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 211"],
     difficulty: "Easy",
     caseText: `
       <p><strong>Vertex Industries Limited</strong> was suspected of being involved in complex financial transactions involving several entities. The Central Government considered that specialised investigation would be useful because the matter involved financial accounting, taxation, forensic audit and information technology.</p>
@@ -9014,7 +9184,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_EASY_08",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 212"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 212"],
     difficulty: "Easy",
     caseText: `
       <p><strong>Global Ventures Limited</strong> was facing allegations of serious financial irregularities. The Registrar conducted an inspection and submitted a report recommending further investigation.</p>
@@ -9069,7 +9240,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_EASY_09",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 216"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 216"],
     difficulty: "Easy",
     caseText: `
       <p><strong>Eastern Capital Limited</strong> had a complicated ownership structure. Several individuals appeared to exercise control over the company's policy even though their names did not appear prominently in the company's membership records.</p>
@@ -9124,7 +9296,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_EASY_10",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 218"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 218"],
     difficulty: "Easy",
     caseText: `
       <p><strong>Reliable Finance Limited</strong> was undergoing an investigation into its affairs. During the investigation, one of its employees provided important information and documents to the investigating authorities.</p>
@@ -9179,7 +9352,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_MEDIUM_01",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 206 & 207"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 206 & 207"],
     difficulty: "Medium",
     caseText: `
       <p><strong>Orion Electronics Limited</strong> received a written notice from the Registrar of Companies after scrutiny of certain documents filed by the company. The Registrar required the company to furnish explanations regarding unusually large payments made to certain suppliers and to produce supporting books and papers.</p>
@@ -9235,7 +9409,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_MEDIUM_02",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 206 & 210"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 206 & 210"],
     difficulty: "Medium",
     caseText: `
       <p><strong>Vertex Retail Limited</strong> came under scrutiny after several investors complained that their grievances relating to redemption of certain securities had not been addressed by the company.</p>
@@ -9291,7 +9466,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_MEDIUM_03",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 209 & 220"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 209 & 220"],
     difficulty: "Medium",
     caseText: `
       <p><strong>Prime Steel Limited</strong> was suspected of falsifying its accounting records. The Inspector received information indicating that certain original invoices and accounting registers were being altered and that some records might be secretly removed from the company's premises.</p>
@@ -9346,7 +9522,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_MEDIUM_04",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 210"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 210"],
     difficulty: "Medium",
     caseText: `
       <p><strong>Blue Horizon Infrastructure Limited</strong> was accused of entering into transactions that benefited certain directors at the expense of the company. A report of the Registrar recommended further investigation.</p>
@@ -9401,7 +9578,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_MEDIUM_05",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 211 & 212"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 211 & 212"],
     difficulty: "Medium",
     caseText: `
       <p><strong>Quantum Healthcare Limited</strong> was suspected of carrying out complex transactions involving multiple group companies. The transactions involved issues relating to financial accounting, taxation, information technology and forensic audit.</p>
@@ -9456,7 +9634,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_MEDIUM_06",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 213"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 213"],
     difficulty: "Medium",
     caseText: `
       <p><strong>Silverline Textiles Limited</strong> has a share capital and has 1,000 members. A group of 120 members became concerned that the business of the company was being conducted in a manner intended to defraud creditors and members.</p>
@@ -9511,7 +9690,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_MEDIUM_07",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 216 & 222"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 216 & 222"],
     difficulty: "Medium",
     caseText: `
       <p><strong>Summit Capital Limited</strong> noticed that a group of persons appeared to exercise significant influence over the company's policies. Their beneficial interest in certain shares was not immediately apparent from the company's ordinary membership records.</p>
@@ -9566,7 +9746,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_MEDIUM_08",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 217"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 217"],
     difficulty: "Medium",
     caseText: `
       <p><strong>Evergreen Motors Limited</strong> was undergoing an investigation into certain transactions involving its former Managing Director. The Inspector required the present directors, employees and former employees to preserve and produce books and papers relating to the company.</p>
@@ -9621,7 +9802,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_MEDIUM_09",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 218"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 218"],
     difficulty: "Medium",
     caseText: `
       <p><strong>National Logistics Limited</strong> was undergoing an investigation into its affairs. One employee, Meera, provided information to the Inspector concerning suspicious transactions involving senior management.</p>
@@ -9676,7 +9858,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_MEDIUM_10",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 219"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 219"],
     difficulty: "Medium",
     caseText: `
       <p><strong>Meridian Consumer Products Limited</strong> was being investigated by an Inspector. During the investigation, the Inspector discovered that several suspicious payments had been routed through the company's wholly owned subsidiary.</p>
@@ -9731,7 +9914,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_MEDIUM_11",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 221"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 221"],
     difficulty: "Medium",
     caseText: `
       <p><strong>Harbor Exports Limited</strong> was undergoing an investigation into its affairs. During the proceedings, evidence emerged that the company's directors might transfer substantial company assets to related entities before the investigation was completed.</p>
@@ -9786,7 +9970,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_MEDIUM_12",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 223 & 224"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 223 & 224"],
     difficulty: "Medium",
     caseText: `
       <p><strong>Everest Pharmaceuticals Limited</strong> was investigated by inspectors appointed under Chapter XIV. During the investigation, the Inspector submitted an interim report to the Central Government and later completed the investigation and submitted the final report.</p>
@@ -9841,7 +10026,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_MEDIUM_13",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 225"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 225"],
     difficulty: "Medium",
     caseText: `
       <p><strong>Crystal Engineering Limited</strong> was investigated by an Inspector appointed by the Central Government. The investigation resulted in prosecution against certain officers of the company and proceedings relating to recovery of company property.</p>
@@ -9896,7 +10082,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_MEDIUM_14",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 226 & 227"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 226 & 227"],
     difficulty: "Medium",
     caseText: `
       <p><strong>Suncrest Holdings Limited</strong> was under investigation into certain transactions involving related parties. During the investigation, the company passed a special resolution for voluntary winding up.</p>
@@ -9951,7 +10138,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_MEDIUM_15",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 229"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 229"],
     difficulty: "Medium",
     caseText: `
       <p><strong>Delta Manufacturing Limited</strong> was undergoing an investigation into its affairs. During the investigation, the Inspector discovered that certain employees had altered accounting documents after receiving notice of the investigation.</p>
@@ -10006,7 +10194,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_01",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 206"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 206"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Apex Renewable Energy Limited</strong> filed its annual financial statements and several other documents with the Registrar of Companies. During scrutiny, the Registrar noticed that the company had reported a substantial increase in revenue while its trade receivables had increased disproportionately.</p>
@@ -10061,7 +10250,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_02",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 206 & 207"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 206 & 207"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Zenith Infrastructure Limited</strong> received a notice from the Registrar alleging that its business might be conducted for an unlawful purpose. The allegations were based partly on information received from an investor and partly on information already available with the Registrar.</p>
@@ -10116,7 +10306,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_03",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 207 & 229"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 207 & 229"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Nova Chemicals Limited</strong> was subject to an inspection. The Registrar directed the Finance Director to produce certain ledgers, contracts and supporting documents and to provide explanations concerning payments to related entities.</p>
@@ -10171,7 +10362,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_04",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 208, 210 & 224"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 208, 210 & 224"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Orchid Finance Limited</strong> was inspected by an Inspector following irregularities discovered in its books. The Inspector completed the inspection and submitted a written report to the Central Government. The report recommended further investigation and gave detailed reasons.</p>
@@ -10226,7 +10418,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_05",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 210, 211 & 212"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 210, 211 & 212"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Global Infra Holdings Limited</strong> passed a special resolution stating that its affairs ought to be investigated. Separately, the State Government informed the Central Government about suspected financial irregularities. The Registrar also submitted a report recommending further investigation.</p>
@@ -10281,7 +10474,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_06",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 212"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 212"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Trident Technologies Limited</strong> was investigated by SFIO. During the investigation, an Assistant Director authorised by the Central Government obtained material giving him reason to believe that a senior officer had committed an offence covered by Section 212(6).</p>
@@ -10336,7 +10530,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_07",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 213 & 214"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 213 & 214"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Metro Consumer Goods Limited</strong> has 2,400 registered members. A group of 110 members alleges that the company's affairs are being conducted in a manner oppressive to members and that the company was formed partly for an unlawful purpose.</p>
@@ -10391,7 +10586,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_08",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 216"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 216"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Eastern Capital Limited</strong> has a widely dispersed shareholding pattern. The Central Government receives information suggesting that several individuals are acting through nominee shareholders and informal arrangements to exercise effective control over the company's policy.</p>
@@ -10446,7 +10642,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_09",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 217"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 217"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Falcon Industries Limited</strong> is under investigation. The Inspector requests the company and its former employees to preserve and produce certain documents. A former employee refuses, claiming that his employment ended two years earlier.</p>
@@ -10501,7 +10698,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_10",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 218"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 218"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Bluewave Shipping Limited</strong> is undergoing an investigation. An employee, Arjun, has supplied documents to the Inspector concerning suspected diversion of company funds.</p>
@@ -10556,7 +10754,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_11",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 219"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 219"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Prime Holdings Limited</strong> is being investigated into suspected diversion of funds. During the investigation, the Inspector discovers that a second company is managed by the same person who is the Managing Director of Prime Holdings.</p>
@@ -10611,7 +10810,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_12",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 220 & 221"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 220 & 221"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Vertex Mining Limited</strong> is under investigation. The Inspector receives credible information that certain original contracts and registers are likely to be destroyed. The Inspector enters the premises and seizes the necessary documents after allowing the company to make copies.</p>
@@ -10666,7 +10866,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_13",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 222"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 222"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Sunrise Securities Limited</strong> is under an ownership investigation under Section 216. The Tribunal believes that relevant facts regarding certain securities cannot be determined unless restrictions are placed on their transfer and issue.</p>
@@ -10721,7 +10922,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_14",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 223 & 224"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 223 & 224"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Everest Retail Limited</strong> was investigated and the Inspector submitted a final report to the Central Government. The report concluded that certain directors had committed fraud and that a property belonging to the company had been wrongfully retained by a related person.</p>
@@ -10776,7 +10978,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_15",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 225"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 225"],
     difficulty: "Hard",
     caseText: `
       <p><strong>National Textiles Limited</strong> was investigated by an Inspector appointed by the Central Government. The investigation resulted in prosecution of certain officers and recovery of company property.</p>
@@ -10831,7 +11034,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_16",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 226 & 227"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 226 & 227"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Silver Crest Limited</strong> was undergoing an investigation when the company passed a special resolution for voluntary winding up. A winding-up proceeding was also pending before the Tribunal.</p>
@@ -10886,7 +11090,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_17",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Sections 217 & 228"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Sections 217 & 228"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Global Exports India Limited</strong> is a foreign company operating in India and is subject to investigation under Chapter XIV. Several records relevant to the investigation are maintained outside India in the office of its overseas parent.</p>
@@ -10941,7 +11146,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_18",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Section 229"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Section 229"],
     difficulty: "Hard",
     caseText: `
       <p><strong>Delta Finserv Limited</strong> is under a detailed investigation. Before the Inspector examines the company's records, the Compliance Head instructs an employee to remove certain original contracts from the company's premises.</p>
@@ -10996,7 +11202,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_19",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Integrated Provisions"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Integrated Provisions"],
     difficulty: "Hard",
     caseText: `
       <p><strong>National Industrial Systems Limited</strong> first came under scrutiny after the Registrar found discrepancies in documents filed by the company. The Registrar issued notices under Section 206 and subsequently conducted an inquiry after receiving information suggesting fraudulent conduct.</p>
@@ -11050,7 +11257,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_HARD_20",
-    case_chapter: ["Inspection, Inquiry and Investigation", "Integrated Provisions"],
+    case_chapter: "Chapter4",
+    case_topic: ["Inspection, Inquiry and Investigation", "Integrated Provisions"],
     difficulty: "Hard",
     caseText: `
       <p><strong>United Commercial Ventures Limited</strong> has been the subject of complaints from investors, creditors and certain members. The Registrar initially called for information and explanations. Several documents were found inadequate and an inquiry was subsequently conducted.</p>
@@ -11105,7 +11313,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_VH_01",
-    case_chapter: [
+    case_chapter: "Chapter4",
+    case_topic: [
       "Inspection, Inquiry and Investigation",
       "Sections 206, 208, 210 and 212"
     ],
@@ -11164,7 +11373,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_VH_02",
-    case_chapter: [
+    case_chapter: "Chapter4",
+    case_topic: [
       "Inspection, Inquiry and Investigation",
       "Sections 210, 213, 214 and 216"
     ],
@@ -11223,7 +11433,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_VH_03",
-    case_chapter: [
+    case_chapter: "Chapter4",
+    case_topic: [
       "Inspection, Inquiry and Investigation",
       "Sections 217, 218, 220 and 229"
     ],
@@ -11282,7 +11493,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_VH_04",
-    case_chapter: [
+    case_chapter: "Chapter4",
+    case_topic: [
       "Inspection, Inquiry and Investigation",
       "Sections 219, 220, 221 and 222"
     ],
@@ -11340,7 +11552,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_VH_05",
-    case_chapter: [
+    case_chapter: "Chapter4",
+    case_topic: [
       "Inspection, Inquiry and Investigation",
       "Sections 212, 217, 223 and 224"
     ],
@@ -11398,7 +11611,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_VH_06",
-    case_chapter: [
+    case_chapter: "Chapter4",
+    case_topic: [
       "Inspection, Inquiry and Investigation",
       "Sections 217, 220, 227 and 228"
     ],
@@ -11456,7 +11670,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_VH_07",
-    case_chapter: [
+    case_chapter: "Chapter4",
+    case_topic: [
       "Inspection, Inquiry and Investigation",
       "Sections 218, 221, 222 and 229"
     ],
@@ -11512,7 +11727,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_VH_08",
-    case_chapter: [
+    case_chapter: "Chapter4",
+    case_topic: [
       "Inspection, Inquiry and Investigation",
       "Sections 206, 207, 208, 217 and 229"
     ],
@@ -11566,7 +11782,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_VH_09",
-    case_chapter: [
+    case_chapter: "Chapter4",
+    case_topic: [
       "Inspection, Inquiry and Investigation",
       "Sections 212, 220, 223, 224 and 225"
     ],
@@ -11620,7 +11837,8 @@ const AICaseStudies = [
   // =========================================================
   {
     case_id: "C4_VH_10",
-    case_chapter: [
+    case_chapter: "Chapter4",
+    case_topic: [
       "Inspection, Inquiry and Investigation",
       "Integrated Sections 206–229"
     ],
@@ -11683,8 +11901,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   id: "CAA_EASY_01",
+  case_chapter: "Chapter5",
   difficulty: "Easy",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Sunrise Textiles Limited</strong> was facing financial difficulties due to a decline in demand for its products. The company proposed a scheme with its secured creditors under Section 230 of the Companies Act, 2013. Under the proposed scheme, the creditors agreed to receive 80% of their outstanding dues immediately and the remaining 20% after two years.</p>
       <p>The company made an application to the National Company Law Tribunal (NCLT) seeking appropriate directions regarding the meeting of creditors. The Tribunal considered the application and decided to call a meeting of the concerned class of creditors.</p>
@@ -11733,8 +11952,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   id: "CAA_EASY_02",
+  case_chapter: "Chapter5",
   difficulty: "Easy",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Galaxy Foods Limited</strong> proposed a scheme of arrangement with its members. The scheme involved reorganising its share capital by consolidating certain shares and dividing another class of shares into different classes.</p>
       <p>The company filed an application before the NCLT. The Tribunal directed that a meeting of the relevant class of members should be called. Notices were required to be sent to the members at their registered addresses.</p>
@@ -11783,8 +12003,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   id: "CAA_EASY_03",
+  case_chapter: "Chapter5",
   difficulty: "Easy",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Metro Engineering Limited</strong> proposed a compromise with its creditors. The company issued notices for the meeting and informed the creditors that voting could be undertaken personally, through a proxy or by postal ballot.</p>
       <p>During the meeting, the creditors considered the proposed scheme. The company also received representations from certain regulatory authorities regarding matters that could potentially affect their respective regulatory interests.</p>
@@ -11833,8 +12054,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   id: "CAA_EASY_04",
+  case_chapter: "Chapter5",
   difficulty: "Easy",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Bright Electronics Limited</strong> proposed a scheme of compromise with its creditors. At the meeting, the creditors considered the proposal and voted on it.</p>
       <p>The scheme received the required approval from the creditors voting at the meeting. The company thereafter approached the NCLT for sanction of the compromise.</p>
@@ -11883,8 +12105,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   id: "CAA_EASY_05",
+  case_chapter: "Chapter5",
   difficulty: "Easy",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Nova Industries Limited</strong> obtained an order from the NCLT sanctioning a compromise with its creditors. The Tribunal wanted to ensure that the scheme was properly implemented.</p>
       <p>During implementation, certain difficulties arose regarding the payment schedule. The Tribunal examined the matter and considered whether modifications were necessary for proper implementation of the sanctioned scheme.</p>
@@ -11933,8 +12156,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   id: "CAA_EASY_06",
+  case_chapter: "Chapter5",
   difficulty: "Easy",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Alpha Manufacturing Limited</strong> decided to merge with Beta Components Limited. Alpha was the transferor company and Beta was the transferee company.</p>
       <p>Under the proposed scheme, the undertaking, property and liabilities of Alpha were to be transferred to Beta. The scheme also provided for the dissolution of Alpha without winding up after the merger.</p>
@@ -11983,8 +12207,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   id: "CAA_EASY_07",
+  case_chapter: "Chapter5",
   difficulty: "Easy",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Prime Holdings Limited</strong> wanted to merge with its wholly-owned subsidiary, Prime Services Limited. The directors considered using the fast-track merger mechanism under Section 233.</p>
       <p>The companies examined the requirements relating to members, creditors and filing of the scheme. The management also learned that the fast-track route is available for specified classes of companies and that eligible companies may alternatively use the normal merger procedure.</p>
@@ -12032,8 +12257,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   id: "CAA_EASY_08",
+  case_chapter: "Chapter5",
   difficulty: "Easy",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Zenith Retail Limited</strong> acquired 90% of the issued equity share capital of another company. After becoming the 90% majority shareholder, Zenith decided to acquire the remaining equity shares held by the minority shareholders.</p>
       <p>The company understood that the price payable to minority shareholders must be determined on the basis of valuation by a registered valuer in accordance with the prescribed rules.</p>
@@ -12082,8 +12308,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   id: "CAA_EASY_09",
+  case_chapter: "Chapter5",
   difficulty: "Easy",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>National Infrastructure Limited</strong> was involved in a proposed amalgamation which the Central Government considered necessary in the public interest. The Government proposed to issue an order providing for amalgamation of two companies into a single company.</p>
       <p>The Government also considered the interests and rights of members and creditors of the transferor companies. It ensured that their interests or rights would remain substantially protected in the transferee company.</p>
@@ -12132,8 +12359,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   id: "CAA_EASY_10",
+  case_chapter: "Chapter5",
   difficulty: "Easy",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Future Technologies Limited</strong> was amalgamated with another company. Following the amalgamation, some of the former officers of the transferor company argued that their responsibility for offences committed before the merger had ended because the transferor company no longer existed.</p>
       <p>The legal adviser of the company explained that the Companies Act specifically provides for continuation of liability of officers in default for offences committed before the merger, amalgamation or acquisition.</p>
@@ -12188,8 +12416,9 @@ const AICaseStudies = [
 ========================================================= */
 {
   id: "CAA_MEDIUM_01",
+  case_chapter: "Chapter5",
   difficulty: "Medium",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Arun Manufacturing Limited</strong> proposed a compromise with its secured creditors. The company had outstanding secured debt of ₹20 crore. A scheme was proposed under which 60% of the debt would be paid immediately and the balance would be converted into equity shares.</p>
       <p>The company filed an application before the NCLT. The application contained details of the company's financial position, the latest auditor's report and details regarding pending proceedings against the company. The scheme also contained a valuation report prepared by a registered valuer.</p>
@@ -12239,7 +12468,8 @@ const AICaseStudies = [
 {
   id: "CAA_MEDIUM_02",
   difficulty: "Medium",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Blue Star Infrastructure Limited</strong> proposed a scheme of arrangement with its members. The company had 1,000 members. A Tribunal-ordered meeting was called to consider the scheme.</p>
       <p>At the meeting, 700 members attended. Of these, 600 members actually voted. The members who voted represented shares having a paid-up value of ₹80 lakh. Members voting in favour represented 460 members holding shares having a paid-up value of ₹62 lakh.</p>
@@ -12289,7 +12519,8 @@ const AICaseStudies = [
 {
   id: "CAA_MEDIUM_03",
   difficulty: "Medium",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Crystal Pharma Limited</strong> proposed a scheme of compromise. One shareholder, holding 6% of the company's shareholding, objected to the scheme. Another shareholder holding 12% of the shareholding also objected.</p>
       <p>A creditor having outstanding debt equal to 4% of the company's total outstanding debt also wanted to challenge the scheme. Another creditor had outstanding debt equal to 6% of the total outstanding debt.</p>
@@ -12339,7 +12570,8 @@ const AICaseStudies = [
 {
   id: "CAA_MEDIUM_04",
   difficulty: "Medium",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Delta Motors Limited</strong> proposed a scheme under Section 230 which included conversion of preference shares into equity shares. The preference shareholders had accumulated arrears of dividend.</p>
       <p>The Tribunal considered the scheme and proposed that the preference shareholders should receive an appropriate choice concerning their arrears of dividend. The scheme also affected the rights of one particular class of creditors.</p>
@@ -12389,7 +12621,8 @@ const AICaseStudies = [
 {
   id: "CAA_MEDIUM_05",
   difficulty: "Medium",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Evergreen Industries Limited</strong> received an order from the NCLT sanctioning its scheme of compromise. The company received the certified copy of the order on 1st June.</p>
       <p>The directors assumed that filing the order with the Registrar could be delayed until the end of the financial year. The company secretary, however, pointed out that the Act prescribes a specific period for filing the Tribunal's order with the Registrar.</p>
@@ -12439,7 +12672,8 @@ const AICaseStudies = [
 {
   id: "CAA_MEDIUM_06",
   difficulty: "Medium",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Fusion Technologies Limited</strong> proposed a merger with Innovate Systems Limited. Fusion was the transferor company and Innovate was the transferee company.</p>
       <p>The scheme provided for transfer of all assets and liabilities of Fusion to Innovate. It also provided for continuation of pending legal proceedings and transfer of employees to Innovate.</p>
@@ -12489,7 +12723,8 @@ const AICaseStudies = [
 {
   id: "CAA_MEDIUM_07",
   difficulty: "Medium",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Green Energy Limited</strong> and <strong>Green Power Limited</strong> proposed a merger. The companies prepared the draft scheme and adopted it through their respective Boards.</p>
       <p>The companies also prepared a directors' report explaining the effect of the scheme on different classes of shareholders, promoters, non-promoter shareholders and key managerial personnel. A valuation expert prepared a report concerning the share exchange ratio.</p>
@@ -12539,7 +12774,8 @@ const AICaseStudies = [
 {
   id: "CAA_MEDIUM_08",
   difficulty: "Medium",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Heritage Industries Limited</strong> and <strong>Modern Industries Limited</strong> were considering a merger. Under the scheme, Heritage's assets and liabilities would transfer to Modern. Certain shares of Modern were already held by Heritage as part of an earlier transaction.</p>
       <p>The legal adviser informed the Board that the transferee company should not end up holding shares in its own name, or through a trust, on behalf of itself or its subsidiary or associate company as a result of the scheme.</p>
@@ -12589,7 +12825,8 @@ const AICaseStudies = [
 {
   id: "CAA_MEDIUM_09",
   difficulty: "Medium",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Indian Foods Limited</strong> was considering a merger with a foreign company incorporated outside India. The foreign company was located in a jurisdiction permitted under the applicable rules.</p>
       <p>The proposed cross-border merger contemplated payment of consideration to shareholders of the foreign company partly in cash and partly through depository receipts.</p>
@@ -12639,7 +12876,8 @@ const AICaseStudies = [
 {
   id: "CAA_MEDIUM_10",
   difficulty: "Medium",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Rapid Solutions Limited</strong> was a wholly-owned subsidiary of Prime Holdings Limited. The companies decided to use the fast-track merger mechanism.</p>
       <p>The companies issued notices inviting objections and suggestions from the Registrar and Official Liquidator. Their members approved the scheme by the required majority. Each company also filed the prescribed declaration of solvency.</p>
@@ -12689,7 +12927,8 @@ const AICaseStudies = [
 {
   id: "CAA_MEDIUM_11",
   difficulty: "Medium",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Sunrise Software Limited</strong> was eligible for a fast-track merger under Section 233. The scheme was filed with the Central Government after approval by the companies and creditors.</p>
       <p>The Registrar raised certain objections within the prescribed period. The Official Liquidator also made suggestions regarding the treatment of certain liabilities.</p>
@@ -12739,7 +12978,8 @@ const AICaseStudies = [
 {
   id: "CAA_MEDIUM_12",
   difficulty: "Medium",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>National Retail Limited</strong> made an offer under Section 235 to acquire shares of Retail Stores Limited. The offer remained open for four months.</p>
       <p>Within the four-month period, shareholders holding 92% in value of the shares involved in the transfer approved the offer. National Retail Limited thereafter decided to acquire the shares of the remaining dissenting shareholders.</p>
@@ -12789,7 +13029,8 @@ const AICaseStudies = [
 {
   id: "CAA_MEDIUM_13",
   difficulty: "Medium",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Vertex Limited</strong> acquired 90% of the issued equity share capital of another company through a share exchange arrangement. The remaining shares were held by minority shareholders.</p>
       <p>Vertex notified the company of its intention to purchase the remaining equity shares. The price was determined by a registered valuer. The majority shareholders deposited the amount equal to the value of shares to be acquired in a separate bank account operated by the company.</p>
@@ -12839,7 +13080,8 @@ const AICaseStudies = [
 {
   id: "CAA_MEDIUM_14",
   difficulty: "Medium",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Royal Consumer Products Limited</strong> proposed a scheme involving transfer of shares to another company under Section 235. The directors prepared a circular recommending that shareholders accept the offer.</p>
       <p>The transferee company had also made arrangements to ensure that sufficient cash would be available to complete the acquisition. However, the directors issued the circular before it had been presented to the Registrar for registration.</p>
@@ -12889,7 +13131,8 @@ const AICaseStudies = [
 {
   id: "CAA_MEDIUM_15",
   difficulty: "Medium",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>National Logistics Limited</strong> proposed an amalgamation in the public interest under Section 237. The Central Government prepared a draft order and sent a copy to each company concerned.</p>
       <p>The companies were given an opportunity to submit suggestions and objections. The Central Government specified a period of two months for receiving such objections.</p>
@@ -12939,7 +13182,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_01",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Orion Industrial Products Limited</strong> was facing serious liquidity pressure because of a sharp increase in the cost of raw materials and a decline in export orders. The company had three distinct classes of creditors: secured lenders, unsecured trade creditors and holders of privately placed debentures.</p>
       <p>The Board proposed a compromise under which secured lenders would receive 70% of their outstanding principal immediately and the balance would be converted into secured non-convertible debentures. Unsecured trade creditors would receive 55% of their admitted claims over a period of three years, while the debenture holders would receive equity shares in exchange for part of their outstanding debt.</p>
@@ -12990,7 +13234,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_02",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Zenith Textiles Limited</strong> proposed a scheme of arrangement with its equity shareholders. The company had 2,500 members, but only 1,400 members attended the meeting convened pursuant to the Tribunal's order. Out of those present, 1,200 members actually voted.</p>
       <p>The members who voted represented shares having an aggregate paid-up value of ₹18 crore. Of them, 820 members holding shares having an aggregate paid-up value of ₹13.8 crore voted in favour of the scheme. The remaining members voted against the proposal or abstained.</p>
@@ -13041,7 +13286,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_03",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Silverline Finance Limited</strong> proposed a compromise with its preference shareholders. The company had issued two categories of preference shares. Class A preference shares carried a cumulative dividend and had a preferential right to repayment of capital. Class B preference shares carried a non-cumulative dividend but had a different redemption priority.</p>
       <p>The proposed arrangement would convert both classes into equity shares. Class A shareholders would receive equity shares at a relatively favourable ratio because of their accumulated dividend arrears, whereas Class B shareholders would receive a lower number of equity shares.</p>
@@ -13092,7 +13338,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_04",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Metro Engineering Limited</strong> proposed to amalgamate with its wholly-owned subsidiary, Metro Components Private Limited. Both companies prepared a common draft scheme and submitted it for approval.</p>
       <p>Under the scheme, all property, assets, liabilities, contracts and pending proceedings of the subsidiary would vest in the holding company. Several employees of the subsidiary were working under employment agreements that contained continuity clauses.</p>
@@ -13143,7 +13390,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_05",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Eastern Ports Limited</strong>, a listed company, proposed to merge with Coastal Logistics Private Limited, an unlisted company. The scheme provided that shareholders of Eastern Ports would receive shares of Coastal Logistics in a specified exchange ratio.</p>
       <p>Several institutional investors objected because they would effectively move from a listed security to an unlisted security. The Board argued that the merger itself had been approved by the required majority and therefore no separate protection was necessary.</p>
@@ -13194,7 +13442,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_06",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Nova Consumer Products Limited</strong> and its subsidiary Nova Retail Private Limited proposed a fast-track merger under Section 233. Both companies prepared the scheme and filed declarations of solvency.</p>
       <p>Notice of the proposed scheme was sent to the Registrar and Official Liquidator, inviting objections and suggestions. The Registrar raised an objection concerning an undervalued transfer of one manufacturing unit. The Official Liquidator also requested clarification regarding certain contingent liabilities.</p>
@@ -13245,7 +13494,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_07",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Global Metals Limited</strong>, an Indian company, proposed a merger with Global Resources GmbH, a foreign company incorporated in a permitted foreign jurisdiction. The foreign company held valuable mining-related technology and intellectual property.</p>
       <p>The consideration payable to the shareholders of the foreign company was proposed to be partly in cash and partly through depository receipts. The Indian company obtained professional advice regarding foreign exchange regulations and proposed to seek the required approval of the Reserve Bank of India.</p>
@@ -13295,7 +13545,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_08",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Vertex Telecom Limited</strong> proposed a scheme of amalgamation with Signal Networks Limited. Before approaching the Tribunal, the companies circulated a draft scheme, valuation report and directors' report.</p>
       <p>The directors' report stated that the scheme would substantially increase the value of the combined company. However, it did not explain the effect of the scheme on promoters, non-promoter shareholders or key managerial personnel. It also omitted a material difficulty encountered by the valuer in valuing an overseas subsidiary.</p>
@@ -13345,7 +13596,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_09",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Harbour Infrastructure Limited</strong> obtained an order from the NCLT sanctioning a compromise with its creditors. The certified copy of the order was received by the company on 12 August.</p>
       <p>The company secretary advised the Board that the order should be filed with the Registrar within the statutory period. The CFO argued that filing could be postponed because the scheme would become operational only after the next financial year.</p>
@@ -13395,7 +13647,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_10",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Prime Industrial Limited</strong> proposed a merger with Alpha Manufacturing Limited. The scheme contemplated transfer of all assets, liabilities and contractual obligations of Alpha to Prime.</p>
       <p>Alpha had several contracts containing change-of-control clauses. One major lender argued that the merger should be treated as a termination event and that the entire outstanding loan should become immediately payable.</p>
@@ -13446,7 +13699,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_11",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Sunrise Retail Limited</strong> made an offer to acquire shares of Moonlight Retail Limited. The offer remained open for four months. During that period, shareholders holding 91% in value of the relevant shares accepted the offer.</p>
       <p>After the expiry of the four-month period, Sunrise decided to acquire the shares of the remaining shareholders. It sent the statutory notice expressing its intention to acquire the remaining shares.</p>
@@ -13497,7 +13751,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_12",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>National Consumer Brands Limited</strong> acquired 92% of the issued equity share capital of Regional Foods Limited through a combination of share exchange and conversion of securities. The remaining 8% was held by several minority shareholders.</p>
       <p>National Consumer Brands proposed to acquire the remaining shares under Section 236. A registered valuer determined the fair value after considering the assets, liabilities, profitability, market conditions and other relevant factors.</p>
@@ -13548,7 +13803,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_13",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Blue Horizon Limited</strong> proposed a scheme of compromise under which preference shareholders would receive equity shares in exchange for their preference shares and accumulated dividend arrears.</p>
       <p>The company had two classes of preference shareholders. The first class had accumulated dividend arrears of ₹8 crore, while the second class had arrears of ₹3 crore. The scheme proposed that the first class could receive either cash equal to the dividend arrears or equity shares of equivalent value. The second class was proposed to receive only equity shares.</p>
@@ -13599,7 +13855,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_14",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Evergreen Infrastructure Limited</strong> proposed a scheme involving transfer of a large undertaking to another company. The scheme required the transfer of land, machinery, intellectual property, employees, contracts and various financial liabilities.</p>
       <p>The company had obtained approval of the required class of creditors and members. However, after approval, the Board discovered that the latest audited financial statements were significantly older than the period contemplated by the statutory requirements.</p>
@@ -13650,7 +13907,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_15",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Rapid Mobility Limited</strong> and Rapid Components Private Limited were eligible to consider a fast-track merger. The transferor had 850 members, while the transferee had 420 members. The companies prepared a common scheme and filed declarations of solvency.</p>
       <p>Notice of the proposed scheme was circulated to the Registrar and Official Liquidator. The Registrar raised no objection within the prescribed period, but the Official Liquidator sought clarification concerning a pending environmental liability of the transferor.</p>
@@ -13701,7 +13959,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_16",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>National Logistics Corporation Limited</strong> was ordered to undergo amalgamation in the public interest. The Central Government prepared a draft order specifying the proposed transfer of assets, liabilities and business undertakings.</p>
       <p>A copy of the draft order was sent to the companies concerned. The companies were given an opportunity to submit suggestions and objections. One company requested a longer period than the statutory minimum, while another submitted objections relating to the proposed valuation of its assets.</p>
@@ -13752,7 +14011,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_17",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Royal Healthcare Limited</strong> proposed an amalgamation with Medical Devices Limited. The companies prepared a scheme under which all assets and liabilities of Medical Devices would vest in Royal Healthcare.</p>
       <p>Royal Healthcare had previously acquired a significant number of shares in Medical Devices. Certain shares were also held by Medical Devices in Royal Healthcare through an earlier investment arrangement.</p>
@@ -13803,7 +14063,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_18",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Future Energy Limited</strong> proposed a scheme under which part of its undertaking would be transferred to a newly formed company. The scheme included transfer of land, plant, intellectual property, employees and specified liabilities.</p>
       <p>Before the Tribunal, certain creditors argued that the scheme did not clearly specify which liabilities would be transferred and which would remain with Future Energy. Several contracts also contained restrictions on assignment.</p>
@@ -13854,7 +14115,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_19",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>National Foods Limited</strong> proposed a compromise with its creditors after suffering losses for two consecutive years. The scheme classified creditors into secured financial creditors, unsecured operational creditors and preference shareholders.</p>
       <p>The company filed an application before the Tribunal containing its latest financial position and the auditor's report. However, the application did not initially disclose a pending regulatory proceeding against one of its subsidiaries. The company argued that the proceeding was against the subsidiary and therefore did not need to be mentioned.</p>
@@ -13905,7 +14167,8 @@ const AICaseStudies = [
 {
   id: "CAA_HARD_20",
   difficulty: "Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Unified Technology Limited</strong> proposed a complex restructuring involving a compromise with creditors, transfer of one undertaking to another group company and eventual amalgamation of the transferor with the transferee.</p>
       <p>The scheme provided that secured creditors would receive a combination of cash and securities, while unsecured creditors would receive shares in the transferee company. Equity shareholders of the transferor would also receive shares based on a valuation report prepared by a registered valuer.</p>
@@ -13958,7 +14221,7 @@ const AICaseStudies = [
 {
   id: "CAA_VH_01",
   difficulty: "Very Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
   caseText: `
       <p><strong>Apex Infrastructure Limited</strong> proposed a scheme of arrangement with its creditors after experiencing a severe liquidity crisis. The company had three categories of creditors. Class A consisted of secured institutional lenders holding claims of ₹420 crore. Class B consisted of unsecured financial creditors holding claims of ₹180 crore. Class C consisted of trade creditors holding claims of ₹100 crore.</p>
       <p>Under the proposed scheme, Class A creditors would receive 80% of their principal immediately and the balance through long-term securities. Class B creditors would receive 60% of their claims in cash over four years, while Class C creditors would receive 35% of their admitted claims in cash over two years.</p>
@@ -14010,7 +14273,8 @@ const AICaseStudies = [
 {
   id: "CAA_VH_02",
   difficulty: "Very Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Zenith Pharmaceuticals Limited</strong> proposed an amalgamation with Zenith Research Private Limited, its wholly-owned subsidiary. The companies intended to use the fast-track merger mechanism.</p>
       <p>The transferor company had 1,250 members and the transferee company had 180 members. The companies filed declarations of solvency and circulated the proposed scheme to members and creditors.</p>
@@ -14062,7 +14326,8 @@ const AICaseStudies = [
 {
   id: "CAA_VH_03",
   difficulty: "Very Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Meridian Technologies Limited</strong>, a listed company, proposed to merge with Innovate Systems Private Limited, an unlisted company. Meridian shareholders would receive shares of Innovate Systems under a valuation-based exchange ratio.</p>
       <p>Immediately before the scheme was announced, Meridian's market price was ₹480 per share. The valuation report determined the economic value of Meridian at ₹520 per share and Innovate Systems at an equivalent value of ₹260 per share.</p>
@@ -14114,7 +14379,8 @@ const AICaseStudies = [
 {
   id: "CAA_VH_04",
   difficulty: "Very Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Omega Mining Limited</strong> proposed a cross-border merger with Global Minerals Pte. Ltd., incorporated outside India in a jurisdiction permitted under the applicable framework.</p>
       <p>Global Minerals owned mining technology, foreign subsidiaries and several overseas contractual rights. Omega proposed to issue securities to the shareholders of Global Minerals as consideration, together with a cash component.</p>
@@ -14166,7 +14432,8 @@ const AICaseStudies = [
 {
   id: "CAA_VH_05",
   difficulty: "Very Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Vertex Consumer Limited</strong> acquired 93% of the equity share capital of Retail Brands Limited through a combination of share purchase, conversion of securities and a previous amalgamation transaction.</p>
       <p>The remaining 7% was held by approximately 320 minority shareholders. Vertex invoked the provisions concerning purchase of shares of minority shareholders.</p>
@@ -14218,7 +14485,8 @@ const AICaseStudies = [
 {
   id: "CAA_VH_06",
   difficulty: "Very Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Eastern Power Limited</strong> filed an application for sanction of a compromise and arrangement. The company had 4,000 members and total outstanding debt of ₹800 crore.</p>
       <p>A shareholder holding 9.8% of the shareholding objected to the scheme. A creditor holding 5.1% of the outstanding debt also objected. Another shareholder holding 10.2% supported the scheme but claimed that the scheme was unfair to a different class of shareholders.</p>
@@ -14269,7 +14537,8 @@ const AICaseStudies = [
 {
   id: "CAA_VH_07",
   difficulty: "Very Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Global Engineering Limited</strong> proposed a merger with Global Machines Limited. The Tribunal sanctioned the scheme on 3 September. The certified copy of the order was received by the company on 7 September.</p>
       <p>The company secretary advised the Board that the order should be filed with the Registrar within 30 days. The CFO calculated the period from 3 September and therefore intended to file the order by 2 October.</p>
@@ -14320,7 +14589,8 @@ const AICaseStudies = [
 {
   id: "CAA_VH_08",
   difficulty: "Very Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Sunrise Telecom Limited</strong> proposed a scheme involving transfer of its network infrastructure undertaking to a newly incorporated subsidiary, followed by amalgamation of the subsidiary with another group company.</p>
       <p>The undertaking included spectrum-related rights, towers, land leases, employees, bank loans and long-term customer contracts. Several contracts contained clauses requiring consent before assignment.</p>
@@ -14372,7 +14642,8 @@ const AICaseStudies = [
 {
   id: "CAA_VH_09",
   difficulty: "Very Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>National Healthcare Limited</strong> proposed a compromise under which secured creditors would receive ₹70 crore immediately and securities worth ₹50 crore over five years. Unsecured creditors would receive ₹45 crore against admitted claims of ₹100 crore.</p>
       <p>The company had 1,000 shareholders. At the members' meeting, 640 members were present and voting. Members representing shares with paid-up value of ₹80 crore voted in favour, while the total value represented by members present and voting was ₹100 crore.</p>
@@ -14423,7 +14694,8 @@ const AICaseStudies = [
 {
   id: "CAA_VH_10",
   difficulty: "Very Hard",
-  chapter: "Compromises, Arrangements and Amalgamations",
+  case_chapter: "Chapter5",
+  case_topic: "Compromises, Arrangements and Amalgamations",
   caseText: `
       <p><strong>Unified Financial Services Limited</strong> proposed a comprehensive restructuring involving a compromise with creditors, reduction of share capital, issue of equity shares to creditors and eventual amalgamation with a group company.</p>
       <p>The company had secured creditors of ₹600 crore, unsecured creditors of ₹250 crore and trade creditors of ₹150 crore. The proposed scheme treated secured and unsecured creditors differently. Trade creditors were divided into two groups depending upon whether their claims were secured by retention-of-title clauses under their supply agreements.</p>
@@ -14477,7 +14749,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH6_MED_01",
   difficulty: "Medium",
-  case_chapter: ["Prevention of Oppression and Mismanagement", "Section 244"],
+  case_chapter: "Chapter6",
+  case_topic: ["Prevention of Oppression and Mismanagement", "Section 244"],
   caseText: `
       <p><strong>Apex Engineering Private Limited</strong> is a company having share capital and has <strong>180 members</strong>. The company has issued share capital of ₹12 crore divided into 12 lakh equity shares of ₹100 each. Certain minority shareholders have alleged that the majority shareholders have been taking important business decisions without adequately considering the interests of minority shareholders.</p>
       <p>The minority shareholders further allege that certain transactions entered into by the company are prejudicial to the interests of the company and its members. After examining the company's records, a group of shareholders consisting of <strong>18 members</strong> decides to approach the National Company Law Tribunal under Section 241 of the Companies Act, 2013.</p>
@@ -14526,7 +14799,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH6_MED_02",
   difficulty: "Medium",
-  case_chapter: ["Prevention of Oppression and Mismanagement", "Section 241"],
+  case_chapter: "Chapter6",
+  case_topic: ["Prevention of Oppression and Mismanagement", "Section 241"],
   caseText: `
       <p><strong>Bright Star Technologies Limited</strong> has been operating successfully for several years. The company has a widely dispersed shareholding pattern and a professional Board of Directors. Recently, a group of investors acquired a substantial portion of the company's shares and consequently obtained effective control over the composition of the Board.</p>
       <p>Following the change, several existing directors were removed and replaced by persons closely associated with the new controlling shareholders. The new management also proposed significant changes in the company's business strategy, including entering into transactions with entities associated with the new shareholders.</p>
@@ -14574,7 +14848,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH6_MED_03",
   difficulty: "Medium",
-  case_chapter: ["Prevention of Oppression and Mismanagement", "Oppression"],
+  case_chapter: "Chapter6",
+  case_topic: ["Prevention of Oppression and Mismanagement", "Oppression"],
   caseText: `
       <p><strong>Sunrise Textiles Private Limited</strong> is controlled by three majority shareholders who together hold approximately 82% of the company's issued share capital. The remaining shareholders are minority shareholders who have historically participated in the management of the closely-held company.</p>
       <p>Over the last two years, the majority shareholders have gradually taken several decisions that have adversely affected the minority shareholders. They stopped providing important financial information to the minority group, repeatedly excluded them from discussions concerning major transactions and entered into arrangements with entities controlled by the majority shareholders.</p>
@@ -14622,7 +14897,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH6_MED_04",
   difficulty: "Medium",
-  case_chapter: ["Prevention of Oppression and Mismanagement", "Section 242"],
+  case_chapter: "Chapter6",
+  case_topic: ["Prevention of Oppression and Mismanagement", "Section 242"],
   caseText: `
       <p><strong>Galaxy Components Limited</strong> has been facing a dispute between its majority and minority shareholders. The minority group alleges that the majority shareholders have used their voting power to approve transactions that unfairly benefit entities connected with them.</p>
       <p>After considering the material placed before it, the NCLT concludes that the affairs of the company have been conducted in a manner prejudicial to the interests of the company and certain members. The Tribunal also concludes that winding up the company would unfairly prejudice the minority shareholders, although the facts might otherwise justify a winding-up order on the ground that it is just and equitable to do so.</p>
@@ -14670,7 +14946,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH6_MED_05",
   difficulty: "Medium",
-  case_chapter: ["Prevention of Oppression and Mismanagement", "Section 245"],
+  case_chapter: "Chapter6",
+  case_topic: ["Prevention of Oppression and Mismanagement", "Section 245"],
   caseText: `
       <p><strong>Metro Consumer Products Limited</strong> has a large number of shareholders and depositors. A group of investors discovers that the company has approved a resolution altering certain provisions of its Articles of Association. The investors allege that the resolution was obtained after material facts were suppressed from the shareholders and that the altered provisions are being used to benefit a particular group.</p>
       <p>The shareholders also discover that certain statements in the company's audit report were allegedly misleading and that an external consultant had supplied incorrect information that was relied upon while approving the transaction.</p>
@@ -14721,7 +14998,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH6_HARD_01",
   difficulty: "Hard",
-  case_chapter: ["Prevention of Oppression and Mismanagement", "Section 241", "Section 244"],
+  case_chapter: "Chapter6",
+  case_topic: ["Prevention of Oppression and Mismanagement", "Section 241", "Section 244"],
   caseText: `
       <p><strong>Orion Renewable Energy Limited</strong> has an issued share capital of ₹40 crore divided into 4 crore equity shares. The company has <strong>420 members</strong>. A group of minority shareholders has been monitoring the conduct of the Board for nearly eighteen months.</p>
       <p>During this period, the Board approved several transactions with entities connected with certain controlling shareholders. The minority group alleges that the transactions were not commercially justified and that the controlling shareholders indirectly benefited from them. The minority shareholders also allege that the Board subsequently issued additional shares to a group of investors closely connected with the existing management.</p>
@@ -14770,7 +15048,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH6_HARD_02",
   difficulty: "Hard",
-  case_chapter: ["Prevention of Oppression and Mismanagement", "Section 242"],
+  case_chapter: "Chapter6",
+  case_topic: ["Prevention of Oppression and Mismanagement", "Section 242"],
   caseText: `
       <p><strong>Vertex Healthcare Limited</strong> is involved in a prolonged dispute between two groups of shareholders. The first group controls the Board while the second group holds a substantial minority interest. The minority group alleges that the controlling directors have caused the company to enter into several transactions that benefited entities connected with them.</p>
       <p>The minority shareholders approach the NCLT with documentary evidence showing repeated transactions, changes in management arrangements and diversion of business opportunities. They contend that the conduct has continued for several years and has materially prejudiced the company.</p>
@@ -14819,7 +15098,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH6_HARD_03",
   difficulty: "Hard",
-  case_chapter: ["Class Action", "Section 245"],
+  case_chapter: "Chapter6",
+  case_topic: ["Class Action", "Section 245"],
   caseText: `
       <p><strong>National Consumer Appliances Limited</strong> is a listed company with a large shareholder base and thousands of depositors. An internal investigation reveals that the company approved a major transaction after certain material information was allegedly withheld from shareholders.</p>
       <p>The transaction involved an entity connected with senior management. Several shareholders believe that the transaction was not only prejudicial to the company but was also supported by misleading information placed before the members.</p>
@@ -14868,7 +15148,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH6_HARD_04",
   difficulty: "Hard",
-  case_chapter: ["Section 241", "Central Government", "Oppression and Mismanagement"],
+  case_chapter: "Chapter6",
+  case_topic: ["Section 241", "Central Government", "Oppression and Mismanagement"],
   caseText: `
       <p><strong>Eastern Infrastructure Corporation Limited</strong> undertakes large infrastructure projects involving substantial public funds. Over a period of time, the Central Government receives several reports suggesting serious irregularities in the conduct and management of the company's affairs.</p>
       <p>An investigation indicates that certain persons responsible for managing the company may have been guilty of fraud, persistent negligence and breach of trust. There are also indications that the company's business was not being conducted according to sound business principles or prudent commercial practices.</p>
@@ -14917,7 +15198,8 @@ const AICaseStudies = [
 {
   case_id: "CEL_CH6_HARD_05",
   difficulty: "Hard",
-  case_chapter: ["Class Action", "Section 245", "Section 246"],
+  case_chapter: "Chapter6",
+  case_topic: ["Class Action", "Section 245", "Section 246"],
   caseText: `
       <p><strong>Silverline Financial Services Limited</strong> has a substantial number of shareholders and depositors. A group of depositors alleges that the company's management has adopted practices that are prejudicial to their interests. They believe that certain transactions were entered into contrary to the company's constitutional documents and applicable law.</p>
       <p>The depositors gather documentary evidence suggesting that senior officers knowingly provided incorrect information to stakeholders. An external expert who advised the company is also alleged to have provided misleading information before the transaction was approved.</p>
@@ -14973,7 +15255,8 @@ const AICaseStudies = [
   {
     case_id: "WIND_CS_E01",
     difficulty: "Easy",
-    chapter: "Winding Up",
+    case_chapter: "Chapter7",
+    case_topic: "Winding Up",
 
     caseText: `
       <p>Alpha Engineering Limited had been facing serious financial and operational
@@ -15046,7 +15329,8 @@ const AICaseStudies = [
   {
     case_id: "WIND_CS_E02",
     difficulty: "Easy",
-    chapter: "Winding Up",
+    case_chapter: "Chapter7",
+    case_topic: "Winding Up",
 
     caseText: `
       <p>Beta Manufacturing Limited was ordered to be wound up by the Tribunal.
@@ -15118,7 +15402,8 @@ const AICaseStudies = [
   {
     case_id: "WIND_CS_H01",
     difficulty: "Hard",
-    chapter: "Winding Up",
+    case_chapter: "Chapter7",
+    case_topic: "Winding Up",
 
     caseText: `
       <p>Gamma Infrastructure Limited had been experiencing severe financial
@@ -15201,7 +15486,8 @@ const AICaseStudies = [
   {
     case_id: "WIND_CS_H02",
     difficulty: "Hard",
-    chapter: "Winding Up",
+    case_chapter: "Chapter7",
+    case_topic: "Winding Up",
 
     caseText: `
       <p>Delta Consumer Products Limited was ordered to be wound up by the
@@ -15280,7 +15566,8 @@ const AICaseStudies = [
   {
     case_id: "WIND_CS_H03",
     difficulty: "Hard",
-    chapter: "Winding Up",
+    case_chapter: "Chapter7",
+    case_topic: "Winding Up",
 
     caseText: `
       <p>Epsilon Technologies Limited was undergoing winding-up proceedings before
@@ -15361,7 +15648,8 @@ const AICaseStudies = [
   {
     case_id: "WIND_CS_H04",
     difficulty: "Hard",
-    chapter: "Winding Up",
+    case_chapter: "Chapter7",
+    case_topic: "Winding Up",
 
     caseText: `
       <p>Zeta Holdings Limited was ordered to be wound up by the Tribunal. Shortly
@@ -15438,7 +15726,8 @@ const AICaseStudies = [
   {
     case_id: "WIND_CS_H05",
     difficulty: "Hard",
-    chapter: "Winding Up",
+    case_chapter: "Chapter7",
+    case_topic: "Winding Up",
 
     caseText: `
       <p>Omega Retail Limited was in the process of being wound up by the Tribunal.
@@ -15516,6 +15805,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_8_001",
     difficulty: "medium",
+    case_chapter: "Chapter8",
     caseText: `
       <p>Vardhan Valuation Services LLP has been approached by Zenith Manufacturing Limited to undertake the valuation of certain immovable properties and machinery for the purposes of a transaction under the Companies Act, 2013. The LLP has several professionals associated with it, but only some of them are registered valuers for the relevant asset class.</p>
 
@@ -15567,6 +15857,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_8_002",
     difficulty: "medium",
+    case_chapter: "Chapter8",
     caseText: `
       <p>Blue Horizon Technologies Private Limited was incorporated several years ago. For the last two immediately preceding financial years, the company has not carried on any business or operation. The company has also not made any significant accounting transaction during that period. The directors are considering applying for removal of the company's name from the Register of Companies.</p>
 
@@ -15618,6 +15909,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_8_003",
     difficulty: "medium",
+    case_chapter: "Chapter8",
     caseText: `
       <p>Pragati Mutual Benefit Limited was incorporated as a Nidhi company. During its first year of operations, the management reviewed its compliance with the Nidhi Rules, 2014. The company had 215 members and Net Owned Funds of ₹22 lakh. Its outstanding deposits were ₹4 crore.</p>
 
@@ -15669,6 +15961,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_8_004",
     difficulty: "medium",
+    case_chapter: "Chapter8",
     caseText: `
       <p>Eastern Infrastructure Limited is a company in which the Central Government holds 30% of the paid-up share capital and the Government of State X holds another 25%. The remaining share capital is held by private investors. A government company also holds 10% of the company's paid-up share capital.</p>
 
@@ -15720,6 +16013,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_8_005",
     difficulty: "medium",
+    case_chapter: "Chapter8",
     caseText: `
       <p>Nova Research Limited was incorporated for developing a future technology project. For the last two financial years, it has not carried on any business or operation and has not made any significant accounting transaction. The company now wishes to obtain the status of a dormant company.</p>
 
@@ -15776,6 +16070,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_8_006",
     difficulty: "hard",
+    case_chapter: "Chapter8",
     caseText: `
       <p>Vertex Valuation Consultants Private Limited is registered as a valuer for a particular asset class. The company has four directors, of whom three are registered valuers, but only two of them are registered for the specific asset class involved in a proposed assignment. Vertex has recently been appointed to value a large portfolio of machinery owned by Omega Industries Limited.</p>
 
@@ -15829,6 +16124,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_8_007",
     difficulty: "hard",
+    case_chapter: "Chapter8",
     caseText: `
       <p>Greenfield Agro Products Limited had stopped carrying on business for several years and decided to apply for removal of its name from the Register of Companies. Before filing the application, the directors extinguished the company's liabilities and obtained the requisite shareholder approval.</p>
 
@@ -15882,6 +16178,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_8_008",
     difficulty: "hard",
+    case_chapter: "Chapter8",
     caseText: `
       <p>Shakti Nidhi Limited is an established Nidhi company whose management is reviewing its lending and deposit practices. According to its latest audited financial statements, the company has deposits of ₹60 crore and Net Owned Funds of ₹3 crore. The Board proposes to grant a member a loan of ₹18 lakh against immovable property.</p>
 
@@ -15935,6 +16232,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_8_009",
     difficulty: "hard",
+    case_chapter: "Chapter8",
     caseText: `
       <p>Orion Corporate Services Limited is considering a restructuring involving a registered valuer, a dormant company and a proposed transaction that may involve an incorrect valuation statement. The Board appoints a registered valuer to determine the value of certain assets. The valuer knowingly omits a material fact from the valuation report because the omission is expected to increase the apparent value of the assets.</p>
 
@@ -15988,6 +16286,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_8_010",
     difficulty: "hard",
+    case_chapter: "Chapter8",
     caseText: `
       <p>Atlas Corporate Group is reviewing the compliance position of several companies within its group. One company, Atlas Government Infrastructure Limited, is jointly owned by the Central Government and two State Governments. Another subsidiary is already classified as a Government company because it is a subsidiary of a Government company.</p>
 
@@ -16041,6 +16340,7 @@ const AICaseStudies = [
   {
     case_id: "seta_AI_cs_9_01",
     difficulty: "medium",
+    case_chapter: "Chapter9",
     caseText: `
       <p>Zenith Manufacturing Limited, a public company engaged in the manufacture of industrial equipment, became involved in a dispute with a group of shareholders concerning the manner in which the affairs of the company were being conducted. The shareholders approached the National Company Law Tribunal seeking appropriate relief. The matter was heard by the Tribunal and an order was subsequently passed in favour of one of the parties.</p>
 
@@ -16091,6 +16391,7 @@ const AICaseStudies = [
 {
     case_id: "seta_AI_cs_9_02",
     difficulty: "medium",
+    case_chapter: "Chapter9",
     caseText: `
       <p>Orion Technologies Limited had filed an application before the National Company Law Tribunal relating to a dispute concerning the management of the company. The proceedings involved several shareholders, directors and senior officers. Because the dispute had created tension among the parties, some shareholders suggested that the matter should be resolved through mediation rather than continuing with lengthy litigation.</p>
 
@@ -16141,6 +16442,7 @@ const AICaseStudies = [
 {
     case_id: "seta_AI_cs_9_03",
     difficulty: "medium",
+    case_chapter: "Chapter9",
     caseText: `
       <p>Nova Consumer Products Limited was facing criminal proceedings for an offence under the Companies Act, 2013. The company admitted that a statutory filing requirement had not been complied with and wanted to explore whether the offence could be compounded. The company's legal adviser explained that not every offence under the Companies Act is capable of being compounded.</p>
 
@@ -16191,6 +16493,7 @@ const AICaseStudies = [
 {
     case_id: "seta_AI_cs_9_04",
     difficulty: "medium",
+    case_chapter: "Chapter9",
     caseText: `
       <p>Vertex Electronics Limited received a notice from the adjudicating officer for alleged non-compliance with a provision of the Companies Act, 2013. The notice was served electronically and required the company and the officer in default to show cause why penalty should not be imposed.</p>
 
@@ -16241,6 +16544,7 @@ const AICaseStudies = [
 {
     case_id: "seta_AI_cs_9_05",
     difficulty: "medium",
+    case_chapter: "Chapter9",
     caseText: `
       <p>Mercury Infrastructure Limited received an order from the National Company Law Tribunal. The company believed that the order adversely affected its interests and decided to challenge it before the National Company Law Appellate Tribunal. The company received a copy of the order on 1st June.</p>
 
@@ -16291,6 +16595,7 @@ const AICaseStudies = [
 {
     case_id: "seta_AI_cs_9_06",
     difficulty: "hard",
+    case_chapter: "Chapter9",
     caseText: `
       <p>Aravind Global Industries Limited was involved in a complex dispute concerning the affairs of the company. A group of shareholders filed proceedings before the National Company Law Tribunal alleging serious irregularities in the management of the company. The Tribunal heard the parties and passed an order after providing them with an opportunity to present their respective cases.</p>
 
@@ -16343,6 +16648,7 @@ const AICaseStudies = [
 {
     case_id: "seta_AI_cs_9_07",
     difficulty: "hard",
+    case_chapter: "Chapter9",
     caseText: `
       <p>Bhavya Finance Limited was accused of several defaults under the Companies Act, 2013. One alleged offence carried imprisonment for a period of two years along with fine, while another offence was punishable with imprisonment for a term not exceeding three years. The company argued that both matters should be handled in the ordinary criminal courts because the offences were not sufficiently serious.</p>
 
@@ -16395,6 +16701,7 @@ const AICaseStudies = [
 {
     case_id: "seta_AI_cs_9_08",
     difficulty: "hard",
+    case_chapter: "Chapter9",
     caseText: `
       <p>Crystal Infrastructure Limited had committed a default under the Companies Act, 2013 and was facing proceedings before the appropriate authority. The company wanted to compound the offence because management believed that settlement would avoid prolonged criminal proceedings. The offence was not punishable with imprisonment only and was otherwise capable of being considered for compounding.</p>
 
@@ -16447,6 +16754,7 @@ const AICaseStudies = [
 {
     case_id: "seta_AI_cs_9_09",
     difficulty: "hard",
+    case_chapter: "Chapter9",
     caseText: `
       <p>Delta Renewable Energy Limited received an order from an adjudicating officer imposing a substantial penalty for non-compliance with a provision of the Companies Act. The company believed that the penalty was excessive and decided to challenge the order before the Regional Director.</p>
 
@@ -16499,6 +16807,7 @@ const AICaseStudies = [
 {
     case_id: "seta_AI_cs_9_10",
     difficulty: "hard",
+    case_chapter: "Chapter9",
     caseText: `
       <p>Everest Holdings Limited was involved in a dispute before the National Company Law Tribunal relating to the affairs of the company. The matter became highly contentious and involved extensive documentary evidence. During the proceedings, one party argued that the Tribunal should strictly follow the procedure prescribed by the Code of Civil Procedure, 1908 in the same manner as an ordinary civil court.</p>
 
@@ -16552,6 +16861,7 @@ const AICaseStudies = [
 {
   case_id: "seta_EFILING_cs_10_01",
   difficulty: "medium",
+  case_chapter: "Chapter10",
   caseText: `
     <p>Zenith Engineering Limited is a public company engaged in the manufacture of industrial equipment. During the financial year, the company undertook several corporate actions requiring filings with the Registrar of Companies. The company appointed a new director, altered certain particulars relating to its registered office and also created a charge over certain assets in favour of a financial institution.</p>
 
@@ -16609,6 +16919,7 @@ const AICaseStudies = [
 {
   case_id: "seta_EFILING_cs_10_02",
   difficulty: "hard",
+  case_chapter: "Chapter10",
   caseText: `
     <p>Orion Consumer Products Limited is expanding rapidly and has recently undertaken several corporate transactions. The company has a paid-up capital of ₹6 crore and a turnover of ₹125 crore. It is not a banking company, non-banking financial company, housing finance company or insurance company. Its financial statements are prepared in accordance with the applicable Indian Accounting Standards framework.</p>
 
@@ -16666,6 +16977,7 @@ const AICaseStudies = [
 {
   case_id: "seta_EFILING_cs_10_03",
   difficulty: "hard",
+  case_chapter: "Chapter10",
   caseText: `
     <p>Vertex Technologies Limited has been facing repeated delays in statutory filings. During an internal compliance audit, it was found that several documents had been filed after their prescribed due dates. The Board asked the company secretary to determine the consequences of delayed filings and whether payment of additional fees would completely eliminate the company's statutory liability.</p>
 
@@ -16723,6 +17035,7 @@ const AICaseStudies = [
 {
   case_id: "seta_EFILING_cs_10_04",
   difficulty: "medium",
+  case_chapter: "Chapter10",
   caseText: `
     <p>Nova Infrastructure Private Limited has recently undergone several changes in its corporate structure. The company appointed a new director after one of its existing directors resigned. It also altered its share capital and created a charge in favour of a lender. During the same period, the company was required to file certain documents relating to its annual compliance and a transaction involving allotment of securities.</p>
 
@@ -16780,6 +17093,7 @@ const AICaseStudies = [
 {
   case_id: "seta_EFILING_cs_10_05",
   difficulty: "hard",
+  case_chapter: "Chapter10",
   caseText: `
     <p>Meridian Global Limited is a listed company with substantial operations across several Indian States. During the year, the company had to deal with multiple electronic compliance matters involving registered office changes, statutory filings, inspection of documents, XBRL reporting and interaction with the Ministry of Corporate Affairs.</p>
 
@@ -16840,6 +17154,7 @@ const AICaseStudies = [
 {
   case_id: "seta_AI_cs_10_01",
   difficulty: "medium",
+  case_chapter: "Chapter10",
   caseText: `
     <p>Aarav Technologies Limited (ATL) is a listed public company engaged in the manufacture and sale of specialised electronic equipment. During the financial year, the company undertook several corporate activities requiring filings with the Registrar of Companies (RoC). The company appointed Ms. Riya, a Company Secretary in whole-time practice, to supervise its statutory e-filing process.</p>
 
@@ -16897,6 +17212,7 @@ const AICaseStudies = [
 {
   case_id: "seta_AI_cs_10_02",
   difficulty: "medium",
+  case_chapter: "Chapter10",
   caseText: `
     <p>Zenith Manufacturing Limited is a public company having a large number of statutory filings during the financial year. The company maintains an internal compliance department headed by its Chief Financial Officer, Mr. Arjun. Due to an increase in filing requirements, the Board decided to streamline the company's e-filing process and appointed a professional to review the system.</p>
 
@@ -16952,6 +17268,7 @@ const AICaseStudies = [
 {
   case_id: "seta_AI_cs_10_03",
   difficulty: "hard",
+  case_chapter: "Chapter10",
   caseText: `
     <p>Meridian Industries Limited is a large company with substantial authorised share capital and numerous statutory filing obligations. During the year, the company experienced delays in filing certain documents with the Registrar of Companies. The Board constituted a compliance committee to determine the consequences of delayed filing and the additional fees that would become payable.</p>
 
@@ -17009,6 +17326,7 @@ const AICaseStudies = [
 {
   case_id: "seta_AI_cs_10_04",
   difficulty: "hard",
+  case_chapter: "Chapter10",
   caseText: `
     <p>Nova Financial Services Limited is a diversified corporate group consisting of a listed manufacturing company, a housing finance company, a banking subsidiary and several other companies. The group is in the process of reviewing its XBRL reporting obligations and wants to ensure that each entity files its financial statements in the appropriate electronic format.</p>
 
@@ -17066,6 +17384,7 @@ const AICaseStudies = [
 {
   case_id: "seta_AI_cs_10_05",
   difficulty: "hard",
+  case_chapter: "Chapter10",
   caseText: `
     <p>Orion Infrastructure Limited is undertaking a major restructuring exercise involving changes in its registered office, alteration of share capital, appointment of directors and creation of security in favour of a financial institution. Since several forms have to be filed electronically, the company has asked its compliance team to determine the correct forms and authentication requirements.</p>
 
@@ -17123,7 +17442,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_01",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "medium",
     caseText: `
       <p>Alpha Securities Limited is a registered intermediary operating in the securities market. Over a period of several months, SEBI received complaints from investors alleging that the company had engaged in practices that were detrimental to their interests. Certain transactions undertaken through the intermediary appeared unusual, and SEBI also received information suggesting that some securities were being traded in a manner that could potentially affect the integrity of the securities market.</p>
@@ -17183,7 +17502,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_02",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "hard",
     caseText: `
       <p>Bright Capital Markets Limited is a listed company whose securities are actively traded on a recognised stock exchange. During a particular quarter, SEBI received information suggesting that a group of persons connected with the company had entered into a series of transactions designed to create an artificial appearance of trading activity. The transactions were accompanied by misleading statements circulated among certain market participants.</p>
@@ -17243,7 +17562,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_03",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "hard",
     caseText: `
       <p>Crystal Wealth Advisors Limited is a registered investment intermediary. During a regulatory inspection, SEBI discovered several compliance failures. The intermediary had failed to maintain certain prescribed records, had not entered into agreements with some of its clients and had also failed to properly address investor grievances despite receiving a written direction from SEBI requiring such grievances to be redressed within a specified period.</p>
@@ -17303,7 +17622,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_04",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "medium",
     caseText: `
       <p>Delta Investments Limited operates a collective investment arrangement under which money is collected from a large number of investors. The contributions are pooled and used for acquiring and managing various assets. Investors are promised profits and returns from the arrangement. The property forming part of the arrangement is managed on behalf of the investors, while the investors themselves have no day-to-day control over its management or operation.</p>
@@ -17361,7 +17680,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_05",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "hard",
     caseText: `
       <p>Evergreen Technologies Limited, a listed company, received an order from SEBI imposing a substantial monetary penalty following adjudication proceedings. The company believed that the order was incorrect and wanted to challenge it before the Securities Appellate Tribunal (SAT).</p>
@@ -17428,7 +17747,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_06",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "medium",
 
     caseText: `
@@ -17501,7 +17820,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_07",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "hard",
 
     caseText: `
@@ -17572,7 +17891,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_08",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "medium",
 
     caseText: `
@@ -17641,7 +17960,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_09",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "hard",
 
     caseText: `
@@ -17712,7 +18031,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_10",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "medium",
 
     caseText: `
@@ -17783,7 +18102,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_11",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "medium-hard",
 
     caseText: `
@@ -17858,7 +18177,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_12",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "hard",
 
     caseText: `
@@ -17932,7 +18251,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_13",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "medium-hard",
 
     caseText: `
@@ -18003,7 +18322,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_14",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "hard",
 
     caseText: `
@@ -18077,7 +18396,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_15",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "hard",
 
     caseText: `
@@ -18149,7 +18468,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_16",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "hard",
 
     caseText: `
@@ -18220,7 +18539,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_17",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "hard",
 
     caseText: `
@@ -18292,7 +18611,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_18",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "hard",
 
     caseText: `
@@ -18366,7 +18685,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_19",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "hard",
 
     caseText: `
@@ -18441,7 +18760,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_20",
-    chapter: "SEBI Act, 1992",
+    case_chapter: "sebi",
     difficulty: "hard",
 
     caseText: `
@@ -18509,7 +18828,7 @@ const AICaseStudies = [
 
 {
   case_id: "SEBI_CH1_CS_21",
-  chapter: "SEBI Act, 1992",
+  case_chapter: "sebi",
   difficulty: "medium-hard",
 
   caseText: `
@@ -18584,7 +18903,7 @@ const AICaseStudies = [
 
 {
   case_id: "SEBI_CH1_CS_22",
-  chapter: "SEBI Act, 1992",
+  case_chapter: "sebi",
   difficulty: "hard",
 
   caseText: `
@@ -18656,7 +18975,7 @@ const AICaseStudies = [
 
 {
   case_id: "SEBI_CH1_CS_23",
-  chapter: "SEBI Act, 1992",
+  case_chapter: "sebi",
   difficulty: "hard",
 
   caseText: `
@@ -18731,7 +19050,7 @@ const AICaseStudies = [
 
 {
   case_id: "SEBI_CH1_CS_24",
-  chapter: "SEBI Act, 1992",
+  case_chapter: "sebi",
   difficulty: "hard",
 
   caseText: `
@@ -18804,7 +19123,7 @@ const AICaseStudies = [
 
 {
   case_id: "SEBI_CH1_CS_25",
-  chapter: "SEBI Act, 1992",
+  case_chapter: "sebi",
   difficulty: "hard",
 
   caseText: `
@@ -18877,7 +19196,7 @@ const AICaseStudies = [
 
 {
   case_id: "SEBI_CH1_CS_26",
-  chapter: "SEBI Act, 1992",
+  case_chapter: "sebi",
   difficulty: "hard",
 
   caseText: `
@@ -18951,7 +19270,7 @@ const AICaseStudies = [
 
 {
   case_id: "SEBI_CH1_CS_27",
-  chapter: "SEBI Act, 1992",
+  case_chapter: "sebi",
   difficulty: "hard",
 
   caseText: `
@@ -19023,7 +19342,7 @@ const AICaseStudies = [
 
 {
   case_id: "SEBI_CH1_CS_28",
-  chapter: "SEBI Act, 1992",
+  case_chapter: "sebi",
   difficulty: "hard",
 
   caseText: `
@@ -19097,7 +19416,7 @@ const AICaseStudies = [
 
 {
   case_id: "SEBI_CH1_CS_29",
-  chapter: "SEBI Act, 1992",
+  case_chapter: "sebi",
   difficulty: "hard",
 
   caseText: `
@@ -19172,7 +19491,7 @@ const AICaseStudies = [
 
 {
   case_id: "SEBI_CH1_CS_30",
-  chapter: "SEBI Act, 1992",
+  case_chapter: "sebi",
   difficulty: "hard",
 
   caseText: `
@@ -19243,7 +19562,7 @@ const AICaseStudies = [
 
     case_id: "SEBI_CH1_CS_31",
 
-    chapter: "SEBI (LODR) Regulations, 2015",
+    case_chapter: "sebilodr",
 
     difficulty: "medium",
 
@@ -19348,7 +19667,7 @@ const AICaseStudies = [
 
     case_id: "SEBI_CH1_CS_32",
 
-    chapter: "SEBI (LODR) Regulations, 2015",
+    case_chapter: "sebilodr",
 
     difficulty: "medium",
 
@@ -19453,7 +19772,7 @@ const AICaseStudies = [
 
     case_id: "SEBI_CH1_CS_33",
 
-    chapter: "SEBI (LODR) Regulations, 2015",
+    case_chapter: "sebilodr",
 
     difficulty: "medium",
 
@@ -19558,7 +19877,7 @@ const AICaseStudies = [
 
     case_id: "SEBI_CH1_CS_34",
 
-    chapter: "SEBI (LODR) Regulations, 2015",
+    case_chapter: "sebilodr",
 
     difficulty: "medium",
 
@@ -19663,7 +19982,7 @@ const AICaseStudies = [
 
     case_id: "SEBI_CH1_CS_35",
 
-    chapter: "SEBI (LODR) Regulations, 2015",
+    case_chapter: "sebilodr",
 
     difficulty: "medium",
 
@@ -19768,7 +20087,7 @@ const AICaseStudies = [
 
     case_id: "SEBI_CH1_CS_36",
 
-    chapter: "SEBI (LODR) Regulations, 2015",
+    case_chapter: "sebilodr",
 
     difficulty: "hard",
 
@@ -19875,7 +20194,7 @@ const AICaseStudies = [
 
     case_id: "SEBI_CH1_CS_37",
 
-    chapter: "SEBI (LODR) Regulations, 2015",
+    case_chapter: "sebilodr",
 
     difficulty: "hard",
 
@@ -19980,7 +20299,7 @@ const AICaseStudies = [
 
     case_id: "SEBI_CH1_CS_38",
 
-    chapter: "SEBI (LODR) Regulations, 2015",
+    case_chapter: "sebilodr",
 
     difficulty: "hard",
 
@@ -20087,7 +20406,7 @@ const AICaseStudies = [
 
     case_id: "SEBI_CH1_CS_39",
 
-    chapter: "SEBI (ICDR) Regulations, 2018",
+    case_chapter: "sebiicdr",
 
     difficulty: "hard",
 
@@ -20192,7 +20511,7 @@ const AICaseStudies = [
 
     case_id: "SEBI_CH1_CS_40",
 
-    chapter: "SEBI (ICDR) Regulations, 2018",
+    case_chapter: "sebiicdr",
 
     difficulty: "hard",
 
@@ -20296,7 +20615,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_41",
-    chapter: "SEBI (LODR) Regulations, 2015",
+    case_chapter: "sebilodr",
     difficulty: "medium",
 
     caseText: `
@@ -20365,7 +20684,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_42",
-    chapter: "SEBI (LODR) Regulations, 2015",
+    case_chapter: "sebilodr",
     difficulty: "medium",
 
     caseText: `
@@ -20434,7 +20753,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_43",
-    chapter: "SEBI (LODR) Regulations, 2015",
+    case_chapter: "sebilodr",
     difficulty: "medium",
 
     caseText: `
@@ -20503,7 +20822,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_44",
-    chapter: "SEBI (ICDR) Regulations, 2018",
+    case_chapter: "sebiicdr",
     difficulty: "medium",
 
     caseText: `
@@ -20572,7 +20891,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_45",
-    chapter: "SEBI (ICDR) Regulations, 2018",
+    case_chapter: "sebiicdr",
     difficulty: "medium",
 
     caseText: `
@@ -20641,7 +20960,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_46",
-    chapter: "SEBI (LODR) Regulations, 2015",
+    case_chapter: "sebilodr",
     difficulty: "hard",
 
     caseText: `
@@ -20710,7 +21029,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_47",
-    chapter: "SEBI (LODR) Regulations, 2015",
+    case_chapter: "sebilodr",
     difficulty: "hard",
 
     caseText: `
@@ -20781,7 +21100,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_48",
-    chapter: "SEBI (ICDR) Regulations, 2018",
+    case_chapter: "sebiicdr",
     difficulty: "hard",
 
     caseText: `
@@ -20852,7 +21171,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_49",
-    chapter: "SEBI (ICDR) Regulations, 2018",
+    case_chapter: "sebiicdr",
     difficulty: "hard",
 
     caseText: `
@@ -20921,7 +21240,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_CH1_CS_50",
-    chapter: "SEBI (ICDR) Regulations, 2018",
+    case_chapter: "sebiicdr",
     difficulty: "hard",
 
     caseText: `
@@ -20988,7 +21307,8 @@ const AICaseStudies = [
 {
   case_id: "SEBI_ICDR_HARD_CS_01",
   difficulty: "Hard",
-  case_chapter: [
+  case_chapter: "sebiicdr",
+  case_topic: [
     "Issue of Convertible Debt Instruments",
     "Promoters' Contribution",
     "Lock-in",
@@ -21093,7 +21413,8 @@ const AICaseStudies = [
 {
   case_id: "SEBI_ICDR_HARD_CS_02",
   difficulty: "Hard",
-  case_chapter: [
+  case_chapter: "sebiicdr",
+  case_topic: [
     "Promoters' Contribution",
     "Lock-in",
     "Partly Paid Securities",
@@ -21190,7 +21511,8 @@ const AICaseStudies = [
 {
   case_id: "SEBI_ICDR_HARD_CS_03",
   difficulty: "Hard",
-  case_chapter: [
+  case_chapter: "sebiicdr",
+  case_topic: [
     "Further Public Offer",
     "Eligibility",
     "Name Change",
@@ -21286,7 +21608,8 @@ const AICaseStudies = [
 {
   case_id: "SEBI_ICDR_HARD_CS_04",
   difficulty: "Hard",
-  case_chapter: [
+  case_chapter: "sebiicdr",
+  case_topic: [
     "Green Shoe Option",
     "Price Stabilisation",
     "Stabilising Agent",
@@ -21379,7 +21702,8 @@ const AICaseStudies = [
 {
   case_id: "SEBI_ICDR_HARD_CS_05",
   difficulty: "Hard",
-  case_chapter: [
+  case_chapter: "sebiicdr",
+  case_topic: [
     "Takeover Regulations",
     "Acquirer",
     "Control",
@@ -21468,7 +21792,8 @@ const AICaseStudies = [
 {
   case_id: "SEBI_ICDR_MEDIUM_CS_06",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "sebiicdr",
+  case_topic: [
     "Offer Document",
     "Public Comments",
     "Lead Manager",
@@ -21555,7 +21880,8 @@ const AICaseStudies = [
 {
   case_id: "SEBI_ICDR_MEDIUM_CS_07",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "sebiicdr",
+  case_topic: [
     "Pricing",
     "Price Band",
     "Differential Pricing",
@@ -21638,7 +21964,8 @@ const AICaseStudies = [
 {
   case_id: "SEBI_ICDR_MEDIUM_CS_08",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "sebiicdr",
+  case_topic: [
     "Minimum Application",
     "Calls",
     "Allotment",
@@ -21723,7 +22050,8 @@ const AICaseStudies = [
 {
   case_id: "SEBI_ICDR_MEDIUM_CS_09",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "sebiicdr",
+  case_topic: [
     "Monitoring Agency",
     "Issue Proceeds",
     "Post-Issue Reporting",
@@ -21807,7 +22135,8 @@ const AICaseStudies = [
 {
   case_id: "SEBI_ICDR_MEDIUM_CS_10",
   difficulty: "Medium",
-  case_chapter: [
+  case_chapter: "sebiicdr",
+  case_topic: [
     "Convertible Debt Instruments",
     "Optional Conversion",
     "Warrants",
@@ -21892,7 +22221,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_ICDR_CS_31",
-    chapter: "SEBI ICDR Regulations, 2018",
+    case_chapter: "sebiicdr",
     difficulty: "medium",
 
     caseText: `
@@ -21965,7 +22294,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_ICDR_CS_32",
-    chapter: "SEBI ICDR Regulations, 2018",
+    case_chapter: "sebiicdr",
     difficulty: "medium",
 
     caseText: `
@@ -22036,7 +22365,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_ICDR_CS_33",
-    chapter: "SEBI ICDR Regulations, 2018",
+    case_chapter: "sebiicdr",
     difficulty: "medium",
 
     caseText: `
@@ -22105,7 +22434,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_ICDR_CS_34",
-    chapter: "SEBI ICDR Regulations, 2018",
+    case_chapter: "sebiicdr",
     difficulty: "medium",
 
     caseText: `
@@ -22174,7 +22503,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_ICDR_CS_35",
-    chapter: "SEBI ICDR Regulations, 2018",
+    case_chapter: "sebiicdr",
     difficulty: "medium",
 
     caseText: `
@@ -22243,7 +22572,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_ICDR_CS_36",
-    chapter: "SEBI ICDR Regulations, 2018",
+    case_chapter: "sebiicdr",
     difficulty: "hard",
 
     caseText: `
@@ -22314,7 +22643,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_ICDR_CS_37",
-    chapter: "SEBI ICDR Regulations, 2018",
+    case_chapter: "sebiicdr",
     difficulty: "hard",
 
     caseText: `
@@ -22383,7 +22712,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_ICDR_CS_38",
-    chapter: "SEBI ICDR Regulations, 2018",
+    case_chapter: "sebiicdr",
     difficulty: "hard",
 
     caseText: `
@@ -22452,7 +22781,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_ICDR_CS_39",
-    chapter: "SEBI SAST Regulations, 2011",
+    case_chapter: "sebisast",
     difficulty: "hard",
 
     caseText: `
@@ -22521,7 +22850,7 @@ const AICaseStudies = [
 
   {
     case_id: "SEBI_ICDR_CS_40",
-    chapter: "SEBI SAST Regulations, 2011",
+    case_chapter: "sebisast",
     difficulty: "hard",
 
     caseText: `
@@ -22589,7 +22918,7 @@ const AICaseStudies = [
 
   {
     case_id: "SAST_MED_01",
-    chapter: "Substantial Acquisition of Shares, Voting Rights or Control",
+    case_chapter: "sebisast",
     difficulty: "medium",
 
     caseText: `
@@ -22658,7 +22987,7 @@ const AICaseStudies = [
 
   {
     case_id: "SAST_MED_02",
-    chapter: "Substantial Acquisition of Shares, Voting Rights or Control",
+    case_chapter: "sebisast",
     difficulty: "medium",
 
     caseText: `
@@ -22727,7 +23056,7 @@ const AICaseStudies = [
 
   {
     case_id: "SAST_MED_03",
-    chapter: "Acquisition of Control and Open Offer",
+    case_chapter: "sebisast",
     difficulty: "medium",
 
     caseText: `
@@ -22796,7 +23125,7 @@ const AICaseStudies = [
 
   {
     case_id: "PIT_MED_04",
-    chapter: "SEBI Prohibition of Insider Trading Regulations, 2015",
+    case_chapter: "sebisast",
     difficulty: "medium",
 
     caseText: `
@@ -22865,7 +23194,7 @@ const AICaseStudies = [
 
   {
     case_id: "PIT_MED_05",
-    chapter: "SEBI Prohibition of Insider Trading Regulations, 2015",
+    case_chapter: "sebisast",
     difficulty: "medium",
 
     caseText: `
@@ -22934,7 +23263,7 @@ const AICaseStudies = [
 
   {
     case_id: "SAST_HARD_06",
-    chapter: "SAST Regulations - Acquisition and Control",
+    case_chapter: "sebisast",
     difficulty: "hard",
 
     caseText: `
@@ -23005,7 +23334,8 @@ const AICaseStudies = [
 
   {
     case_id: "SAST_HARD_07",
-    chapter: "Obligations of Acquirer and Target Company",
+    case_chapter: "sebisast",
+    case_topic: "Obligations of Acquirer and Target Company",
     difficulty: "hard",
 
     caseText: `
@@ -23076,7 +23406,8 @@ const AICaseStudies = [
 
   {
     case_id: "SAST_HARD_08",
-    chapter: "Disclosure of Shareholding and Encumbrance",
+    case_chapter: "sebisast",
+    case_topic: "Disclosure of Shareholding and Encumbrance",
     difficulty: "hard",
 
     caseText: `
@@ -23147,7 +23478,8 @@ const AICaseStudies = [
 
   {
     case_id: "PIT_HARD_09",
-    chapter: "Trading When in Possession of UPSI and Trading Plans",
+    case_chapter: "sebisast",
+    case_topic: "Trading When in Possession of UPSI and Trading Plans",
     difficulty: "hard",
 
     caseText: `
@@ -23218,7 +23550,8 @@ const AICaseStudies = [
 
   {
     case_id: "PIT_HARD_10",
-    chapter: "SEBI Prohibition of Insider Trading Regulations, 2015",
+    case_chapter: "sebisast",
+    case_topic: "SEBI Prohibition of Insider Trading Regulations, 2015",
     difficulty: "hard",
 
     caseText: `
@@ -23292,7 +23625,7 @@ const AICaseStudies = [
 
   {
     case_id: "SAST_MED_11",
-    chapter: "Substantial Acquisition of Shares, Voting Rights or Control",
+    case_chapter: "sebisast",
     difficulty: "medium",
 
     caseText: `
@@ -23361,7 +23694,8 @@ const AICaseStudies = [
 
   {
     case_id: "SAST_MED_12",
-    chapter: "Obligations of Acquirer and Target Company",
+    case_chapter: "sebisast",
+    case_topic: "Obligations of Acquirer and Target Company",
     difficulty: "medium",
 
     caseText: `
@@ -23430,7 +23764,8 @@ const AICaseStudies = [
 
   {
     case_id: "PIT_MED_13",
-    chapter: "Definitions under SEBI Prohibition of Insider Trading Regulations",
+    case_chapter: "sebisast",
+    case_topic: "Definitions under SEBI Prohibition of Insider Trading Regulations",
     difficulty: "medium",
 
     caseText: `
@@ -23499,7 +23834,8 @@ const AICaseStudies = [
 
   {
     case_id: "PIT_MED_14",
-    chapter: "Disclosures by Insiders",
+    case_chapter: "sebisast",
+    case_topic: "Disclosures by Insiders",
     difficulty: "medium",
 
     caseText: `
@@ -23568,7 +23904,8 @@ const AICaseStudies = [
 
   {
     case_id: "PIT_MED_15",
-    chapter: "Codes of Fair Disclosure and Conduct",
+    case_chapter: "sebisast",
+    case_topic: "Codes of Fair Disclosure and Conduct",
     difficulty: "medium",
 
     caseText: `
@@ -23637,7 +23974,8 @@ const AICaseStudies = [
 
   {
     case_id: "SAST_HARD_16",
-    chapter: "SAST Regulations - Open Offer and Competing Offers",
+    case_chapter: "sebisast",
+    case_topic: "SAST Regulations - Open Offer and Competing Offers",
     difficulty: "hard",
 
     caseText: `
@@ -23708,7 +24046,8 @@ const AICaseStudies = [
 
   {
     case_id: "PIT_HARD_17",
-    chapter: "Communication and Procurement of UPSI",
+    case_chapter: "sebisast",
+    case_topic: "Communication and Procurement of UPSI",
     difficulty: "hard",
 
     caseText: `
@@ -23779,7 +24118,8 @@ const AICaseStudies = [
 
   {
     case_id: "PIT_HARD_18",
-    chapter: "Trading Plans",
+    case_chapter: "sebisast",
+    case_topic: "Trading Plans",
     difficulty: "hard",
 
     caseText: `
@@ -23852,7 +24192,8 @@ const AICaseStudies = [
 
   {
     case_id: "SAST_HARD_19",
-    chapter: "Disclosures and Obligations under SAST Regulations",
+    case_chapter: "sebisast",
+    case_topic: "Disclosures and Obligations under SAST Regulations",
     difficulty: "hard",
 
     caseText: `
@@ -23923,7 +24264,8 @@ const AICaseStudies = [
 
   {
     case_id: "PIT_HARD_20",
-    chapter: "Insider Trading - Penalty and Compliance Framework",
+    case_chapter: "sebisast",
+    case_topic: "Insider Trading - Penalty and Compliance Framework",
     difficulty: "hard",
 
     caseText: `
@@ -23996,7 +24338,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_01",
-    case_chapter: ["FEMA", "Residential Status", "Person Resident in India"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Residential Status", "Person Resident in India"],
     difficulty: "medium",
     caseText: `<p>Mr. Arjun, an Indian citizen, had been residing in India for more than 182 days during the financial year 2025-26. On 10 April 2026, he left India to take up employment with a technology company in Singapore. His employment contract was for an indefinite period and there was no fixed date for his return to India.</p>
     <p>Before leaving India, Arjun maintained a foreign currency account which he had legitimately acquired while he was earlier a person resident outside India. After taking up employment in Singapore, he also received salary in Singapore dollars in his Singapore bank account.</p>
@@ -24038,7 +24381,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_02",
-    case_chapter: ["FEMA", "Current Account Transaction", "Capital Account Transaction"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Current Account Transaction", "Capital Account Transaction"],
     difficulty: "medium",
     caseText: `<p>Zenith Engineering Ltd., a company resident in India, imported specialised machinery from a German supplier. The machinery was paid for immediately through its Authorised Dealer Category-I bank. In another transaction, Zenith imported additional machinery from the same supplier under a six-month credit arrangement.</p>
     <p>The finance manager classified both transactions as capital account transactions because machinery is treated as a capital asset in the company's books. The company's FEMA consultant explained that the classification under FEMA does not depend merely upon whether an item is capital or revenue expenditure under accounting principles.</p>
@@ -24080,7 +24424,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_03",
-    case_chapter: ["FEMA", "Current Account Transactions", "Liberalised Remittance Scheme"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Current Account Transactions", "Liberalised Remittance Scheme"],
     difficulty: "medium",
     caseText: `<p>Ms. Kavya, a person resident in India, intends to remit foreign exchange during FY 2026-27 for several purposes. She proposes to remit USD 80,000 for studies abroad, USD 40,000 as a gift to her brother residing overseas and USD 50,000 for a private visit abroad.</p>
     <p>She also wishes to remit an additional USD 100,000 for another permissible current account purpose during the same financial year. Kavya believes that every permissible transaction can be made without considering the aggregate limit because the purposes are different.</p>
@@ -24122,7 +24467,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_04",
-    case_chapter: ["FEMA", "Import of Goods", "Authorised Dealer"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Import of Goods", "Authorised Dealer"],
     difficulty: "medium",
     caseText: `<p>Orbit Components Ltd. imported electronic components from Japan. The company made payment through its Authorised Dealer Category-I bank. The bank requested evidence of import and asked Orbit to furnish the relevant import documentation.</p>
     <p>Orbit's accounts department argued that once the foreign exchange had been remitted to the supplier, no further action was necessary. The Authorised Dealer explained that the purchaser of foreign exchange has obligations regarding utilisation and evidence of import.</p>
@@ -24164,7 +24510,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_05",
-    case_chapter: ["FEMA", "Section 3", "Authorised Person"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Section 3", "Authorised Person"],
     difficulty: "medium",
     caseText: `<p>Rohan, a person resident in India, was approached by his friend who was a person resident outside India. The friend wanted to sell USD 5,000 directly to Rohan at a rate better than the rate offered by authorised dealers. Rohan agreed to purchase the dollars in cash.</p>
     <p>In another transaction, a foreign tourist visiting India wanted to pay a restaurant directly in US dollars in cash. The restaurant accepted the payment even though it did not have the necessary authorisation to deal in foreign exchange.</p>
@@ -24211,7 +24558,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_01",
-    case_chapter: ["FEMA", "Residential Status", "Capital Account", "Current Account"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Residential Status", "Capital Account", "Current Account"],
     difficulty: "hard",
     caseText: `<p>Mr. Dev, an Indian citizen, had stayed in India for more than 182 days during FY 2025-26. On 1 April 2026, he travelled to Canada to pursue a three-year professional course. He did not initially take up employment in Canada and stated that he intended to return to India after completing his studies.</p>
     <p>During FY 2026-27, Dev received a scholarship in Canada and maintained a Canadian bank account. His parents in India periodically remitted amounts to him for his living expenses. Dev subsequently obtained employment in Canada on 1 December 2026 and decided to remain there indefinitely.</p>
@@ -24253,7 +24601,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_02",
-    case_chapter: ["FEMA", "Overseas Investment", "ODI", "OPI"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "ODI", "OPI"],
     difficulty: "hard",
     caseText: `<p>Alpha India Ltd., an Indian company, proposes to establish a wholly-owned subsidiary in Germany. The German entity will carry on a genuine technology business permitted both in India and Germany. Alpha proposes to acquire 100% of the unlisted equity capital of the German entity and also provide debt financing to it.</p>
     <p>Separately, Alpha proposes to purchase 8% of the equity shares of a listed foreign company without acquiring control. The foreign company's shares are listed on a recognised stock exchange outside India.</p>
@@ -24296,7 +24645,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_03",
-    case_chapter: ["FEMA", "External Commercial Borrowings", "ECB"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "External Commercial Borrowings", "ECB"],
     difficulty: "hard",
     caseText: `<p>Nova Manufacturing Ltd., an eligible Indian entity, proposes to raise a foreign currency denominated External Commercial Borrowing of USD 40 million from a recognised lender. The proposed ECB has a minimum average maturity period of three years and is intended partly for repayment of domestic Rupee loans originally taken for capital expenditure.</p>
     <p>The company proposes an all-in-cost of benchmark rate plus 500 basis points. It also intends to obtain the ECB proceeds immediately but plans to draw down the funds before obtaining a Loan Registration Number (LRN).</p>
@@ -24338,7 +24688,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_04",
-    case_chapter: ["FEMA", "Overseas Investment", "No Objection Certificate", "Disinvestment"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "No Objection Certificate", "Disinvestment"],
     difficulty: "hard",
     caseText: `<p>Beta Infrastructure Ltd. has made an ODI in a foreign construction company three years ago. The foreign entity has suffered losses for the previous two years. Beta now proposes to restructure the balance sheet of the foreign entity, resulting in a diminution in the value of its outstanding investment.</p>
     <p>At the same time, Beta proposes to disinvest completely from the foreign entity by selling its equity to another eligible investor. Beta has certain outstanding dues receivable from the foreign entity as an investor.</p>
@@ -24381,7 +24732,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_05",
-    case_chapter: ["FEMA", "Capital Account Transactions", "Overseas Investment", "Section 6"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Capital Account Transactions", "Overseas Investment", "Section 6"],
     difficulty: "hard",
     caseText: `<p>Gamma Holdings, a person resident in India, is evaluating several cross-border transactions. First, it proposes to acquire an immovable property in France using funds remitted from India. Second, it proposes to acquire another property abroad through inheritance from a person who was resident outside India. Third, Gamma proposes to invest in a foreign entity engaged in development of residential premises and roads. Finally, Gamma proposes to invest in a foreign entity that has an indirect investment in India and would result in a structure having more than two layers of subsidiaries.</p>
     <p>The management initially concluded that all four transactions should be prohibited because Section 4 generally restricts Indian residents from holding foreign exchange, foreign securities or immovable property outside India. The FEMA consultant explained that Section 6 and the Overseas Investment Rules contain specific permissions and exceptions which must be considered transaction-wise.</p>
@@ -24427,7 +24779,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_06",
-    case_chapter: ["FEMA", "Residential Status", "Person Resident in India"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Residential Status", "Person Resident in India"],
     difficulty: "medium",
     caseText: `<p>Mr. Raghav is an Indian citizen who had been residing in India for several years. During the financial year 2025-26, he stayed in India for 240 days. On 15 May 2026, he travelled to the United Kingdom for the purpose of taking up employment with a multinational company. His employment agreement did not specify any definite date of return to India. His employer provided him accommodation in London and Raghav shifted his principal economic activities to the United Kingdom.</p>
 
@@ -24473,7 +24826,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_07",
-    case_chapter: ["FEMA", "Section 3", "Foreign Exchange", "Authorised Person"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Section 3", "Foreign Exchange", "Authorised Person"],
     difficulty: "medium",
     caseText: `<p>Sunrise Exports Ltd. regularly receives payments from customers located in Europe and the United States. The company maintains an account with an Authorised Dealer Category-I bank and ordinarily receives export proceeds through normal banking channels.</p>
 
@@ -24521,7 +24875,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_08",
-    case_chapter: ["FEMA", "Current Account Transactions", "Schedule I", "Schedule III"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Current Account Transactions", "Schedule I", "Schedule III"],
     difficulty: "medium",
     caseText: `<p>Brightstar Media Pvt. Ltd. is planning several international payments during FY 2026-27. The company intends to remit USD 7,000 towards a foreign magazine advertisement connected with promotion of its business. It also proposes to pay USD 20,000 to an overseas consultant for specialised business advice.</p>
 
@@ -24567,7 +24922,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_09",
-    case_chapter: ["FEMA", "Capital Account Transactions", "Section 6"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Capital Account Transactions", "Section 6"],
     difficulty: "medium",
     caseText: `<p>Trident Technologies Ltd., a person resident in India, is considering a number of international transactions as part of its global expansion strategy. The company proposes to invest in equity shares of a foreign subsidiary, obtain a foreign currency loan from an overseas lender, maintain a foreign currency account outside India and acquire an insurance policy from an overseas insurance company.</p>
 
@@ -24613,7 +24969,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_10",
-    case_chapter: ["FEMA", "Import of Goods", "Foreign Currency", "Authorised Dealer"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Import of Goods", "Foreign Currency", "Authorised Dealer"],
     difficulty: "medium",
     caseText: `<p>Mr. Sameer, a person resident in India, returned to India after a short visit to the United States. He carried USD 7,500 in currency notes and travellers' cheques. He also had a foreign currency bank balance maintained outside India. On arrival, he was informed by a customs official that declarations may be required depending upon the amount and form of foreign exchange brought into India.</p>
 
@@ -24664,7 +25021,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_06",
-    case_chapter: ["FEMA", "Current Account", "Capital Account", "LRS", "Gift"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Current Account", "Capital Account", "LRS", "Gift"],
     caseText: `<p>Mr. Aditya is a person resident in India who plans several transactions involving foreign exchange during FY 2026-27. His first proposal is to remit USD 70,000 to his daughter who is studying in Australia, primarily towards tuition and living expenses. He then intends to remit USD 60,000 to his spouse who is residing abroad for maintenance and family expenses. Later, he proposes to purchase an overseas residential property jointly with his spouse, who is also a person resident in India.</p>
 
     <p>Aditya's financial adviser initially classifies all three transactions as current account transactions because money is being sent abroad. Another adviser points out that the nature of the transaction, rather than merely the direction of movement of money, must be examined.</p>
@@ -24711,7 +25069,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_07",
-    case_chapter: ["FEMA", "ECB", "External Commercial Borrowings", "Reporting"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "ECB", "External Commercial Borrowings", "Reporting"],
     difficulty: "hard",
     caseText: `<p>Vertex Infrastructure Ltd., an Indian company eligible to raise ECB, enters into an agreement with a recognised overseas lender for a foreign currency denominated ECB of USD 60 million. The loan carries a minimum average maturity period of three years. The company proposes to use the proceeds partly for general corporate purposes and partly for repayment of domestic Rupee borrowings.</p>
 
@@ -24759,7 +25118,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_08",
-    case_chapter: ["FEMA", "Overseas Investment", "ODI", "Financial Commitment", "Strategic Sector"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "ODI", "Financial Commitment", "Strategic Sector"],
     difficulty: "hard",
     caseText: `<p>Orion Electronics Ltd., an Indian company, proposes to expand its operations internationally. It plans to establish an unlisted foreign subsidiary in Singapore to manufacture specialised electronic components. The subsidiary will conduct a genuine business activity permitted in both India and Singapore.</p>
 
@@ -24807,7 +25167,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_09",
-    case_chapter: ["FEMA", "Overseas Investment", "Immovable Property", "LRS"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Immovable Property", "LRS"],
     difficulty: "hard",
     caseText: `<p>Ms. Nisha is a resident individual who wishes to acquire an apartment in Dubai. She has accumulated funds in India and maintains a Resident Foreign Currency Account containing foreign currency lawfully held by her. She also has an overseas property inherited from her grandfather, who was resident outside India.</p>
 
@@ -24855,7 +25216,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_10",
-    case_chapter: ["FEMA", "ODI", "OPI", "Transfer", "Disinvestment", "Restructuring"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "ODI", "OPI", "Transfer", "Disinvestment", "Restructuring"],
     difficulty: "hard",
     caseText: `<p>Global Foods India Ltd. made an overseas direct investment four years ago by acquiring 75% of the equity capital of a foreign company engaged in food processing. The foreign entity initially performed well, but during the last two financial years it incurred substantial losses. Its audited financial statements now indicate accumulated losses and a significant reduction in the value of the Indian company's investment.</p>
 
@@ -24902,7 +25264,8 @@ const AICaseStudies = [
 },
 {
     case_id: "fema_cs_medium_05",
-    case_chapter: ["FEMA", "Overseas Direct Investment", "Financial Commitment"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Direct Investment", "Financial Commitment"],
     difficulty: "medium",
     caseText: `<p>Arvind Global Industries Limited, an Indian company engaged in the manufacture of specialised industrial machinery, has been expanding its operations outside India. The company proposes to acquire equity capital in a foreign entity incorporated in Singapore for the purpose of carrying on a bona fide manufacturing business. The proposed investment is intended to be made partly by subscribing to fresh equity shares and partly by acquiring existing equity shares from an existing shareholder of the Singapore company.</p>
     <p>During the Board meeting, the Chief Financial Officer explained that overseas direct investment by an Indian entity may be made or held through several recognised modes. These include subscription to equity capital as part of the memorandum of association, purchase of listed or unlisted equity capital, acquisition through bidding or tender procedure, acquisition through rights issue or allotment of bonus shares, permitted capitalisation of amounts due from the foreign entity, swap of securities and certain transactions arising pursuant to merger, demerger, amalgamation or a scheme of arrangement.</p>
@@ -24945,7 +25308,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_06",
-    case_chapter: ["FEMA", "Overseas Direct Investment", "Debt and Guarantee"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Direct Investment", "Debt and Guarantee"],
     difficulty: "medium",
     caseText: `<p>Mehta Engineering Limited, an Indian entity with substantial operations in the infrastructure sector, has acquired control over a foreign subsidiary incorporated in the United Arab Emirates. After acquiring control, the Indian company decides to provide additional financial support to the overseas subsidiary because the subsidiary requires funds for purchasing machinery and meeting working-capital requirements.</p>
     <p>The Indian company proposes to provide a loan to the foreign subsidiary under a written loan agreement. The finance department suggests charging interest at a very low rate because the foreign subsidiary is wholly controlled by Mehta Engineering Limited. The tax and compliance teams, however, advise that the interest rate should be determined on an arm's-length basis, since the regulations require the loan to be duly backed by a loan agreement and the rate of interest should satisfy the applicable requirement.</p>
@@ -24988,7 +25352,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_07",
-    case_chapter: ["FEMA", "Overseas Direct Investment", "Reporting Requirements"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Direct Investment", "Reporting Requirements"],
     difficulty: "medium",
     caseText: `<p>Sunrise Pharmaceuticals Limited, an Indian company, has made ODI in a foreign pharmaceutical company situated in Germany. The Indian company has acquired equity capital in the foreign entity and also has certain additional financial commitments towards the overseas subsidiary. The company has designated an Authorised Dealer bank for routing transactions relating to the foreign investment.</p>
     <p>When the initial outward remittance was proposed, the compliance officer explained that the company could not simply remit the funds and complete regulatory reporting at its convenience. The company was required to obtain a Unique Identification Number for the foreign entity through the designated Authorised Dealer bank before making the outward remittance or acquiring the equity capital, whichever was earlier.</p>
@@ -25031,7 +25396,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_08",
-    case_chapter: ["FEMA", "Export of Goods and Services", "Realisation and Repatriation"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Export of Goods and Services", "Realisation and Repatriation"],
     difficulty: "medium",
     caseText: `<p>Nova Electronics Private Limited is an Indian company engaged in exporting electronic equipment to customers located in several countries. During the financial year, the company exported a consignment to France through a customs port. At the time of export, the company was able to ascertain the full export value of the goods and accordingly made the necessary declaration containing the relevant particulars.</p>
     <p>For another export transaction involving specialised software transmitted electronically to a customer outside India, the finance team initially assumed that the date on which the customer downloaded the software should be treated as the date of export. The compliance officer explained that the regulations contain a specific rule regarding the deemed date of export for software exported in a form other than physical form.</p>
@@ -25074,7 +25440,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_09",
-    case_chapter: ["FEMA", "Authorised Person", "Reserve Bank of India"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Authorised Person", "Reserve Bank of India"],
     difficulty: "medium",
     caseText: `<p>Global Trade Bank is an authorised dealer operating in India and regularly undertakes transactions involving foreign exchange and foreign securities. A corporate customer, Meridian Exports Limited, approaches the bank seeking foreign exchange for a proposed overseas transaction. Meridian provides the bank with a declaration and supporting information concerning the purpose of the transaction.</p>
     <p>The bank's compliance officer notices inconsistencies between the stated purpose and certain supporting documents. The customer insists that the bank should process the transaction because the amount involved is commercially significant and the transaction has already been approved internally by its Board of Directors.</p>
@@ -25117,7 +25484,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_01",
-    case_chapter: ["FEMA", "Overseas Direct Investment", "Financial Services"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Direct Investment", "Financial Services"],
     difficulty: "hard",
     caseText: `<p>Vertex Financial Holdings Limited, an Indian company, has been engaged in financial services activity in India for more than a decade. The company is registered with the appropriate financial services regulator in India and has recently identified an investment opportunity in a foreign entity incorporated in an overseas financial centre. The foreign entity operates an online financial technology platform which performs activities that, if undertaken in India, would require regulation by a financial sector regulator.</p>
     <p>Vertex proposes to acquire a controlling stake in the foreign entity. The management is aware that overseas investment in a financial-services business is subject to additional conditions. The company has produced net profits during two of the preceding three financial years but incurred a loss in the third year. The loss relates to a financial year materially affected by the COVID-19 pandemic.</p>
@@ -25161,7 +25529,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_02",
-    case_chapter: ["FEMA", "Overseas Investment", "Guarantee", "Financial Commitment"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Guarantee", "Financial Commitment"],
     difficulty: "hard",
     caseText: `<p>Trident Manufacturing Limited, an Indian company, has acquired control over a foreign subsidiary and proposes to raise a substantial overseas loan for the subsidiary. The foreign lender requires a combination of guarantees and security before sanctioning the facility. Trident proposes to issue a corporate guarantee for the entire borrowing and also intends to obtain a guarantee from another Indian company belonging to the same promoter group.</p>
     <p>The promoter group company holds 55% of Trident Manufacturing Limited. The group company proposes to issue its own corporate guarantee directly in favour of the overseas lender. Separately, the promoter of Trident, who is a resident individual, offers to provide a personal guarantee.</p>
@@ -25205,7 +25574,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_03",
-    case_chapter: ["FEMA", "Overseas Investment", "Pledge and Charge", "Financial Commitment"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Pledge and Charge", "Financial Commitment"],
     difficulty: "hard",
     caseText: `<p>Indus Renewable Energy Limited, an Indian company, has made ODI by acquiring equity capital in a foreign entity engaged in renewable-energy projects. The foreign entity subsequently proposes to raise debt financing from an overseas lender for constructing a large solar project. The overseas lender requires security before extending the facility.</p>
     <p>Indus Renewable Energy Limited proposes to pledge the equity capital held by it in the foreign entity in favour of the overseas lender. The company also proposes to create a charge over certain assets situated in India, including assets belonging to one of its associate companies, as security for the facility obtained by the foreign entity.</p>
@@ -25249,7 +25619,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_04",
-    case_chapter: ["FEMA", "Overseas Investment", "APR", "Reporting and Delay"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "APR", "Reporting and Delay"],
     difficulty: "hard",
     caseText: `<p>Eastern Consumer Products Limited, an Indian company, acquired 8% equity capital in a foreign consumer-products company several years ago. Eastern Consumer Products Limited does not exercise control over the foreign entity and has not provided any debt, guarantee or other financial commitment to that foreign entity apart from the equity investment. The foreign entity is located in a jurisdiction where the law does not mandatorily require companies of its size to have their accounts audited.</p>
     <p>During the current year, the finance department begins preparing the Annual Performance Report. The compliance officer notices that Eastern's holding is less than 10% and that there is no financial commitment other than equity capital. He therefore considers whether an APR is required at all.</p>
@@ -25293,7 +25664,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_05",
-    case_chapter: ["FEMA", "Export of Goods and Services", "Advance Payment", "Project Exports"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Export of Goods and Services", "Advance Payment", "Project Exports"],
     difficulty: "hard",
     caseText: `<p>Pacific Infrastructure Exports Limited, an Indian engineering company, receives a large overseas contract for construction of an industrial facility in a foreign country. The contract involves supply of machinery from India, provision of engineering services and execution of civil construction work at the overseas site. The foreign customer agrees to provide an advance payment to Pacific Infrastructure Exports Limited before commencement of the project.</p>
     <p>The company receives the advance through its authorised dealer. The contract provides for shipment of certain machinery within eight months, while the complete project is expected to continue for more than one year. The finance team is concerned because the general rule applicable to advance payments requires shipment within a specified period from receipt of the advance.</p>
@@ -25337,7 +25709,8 @@ const AICaseStudies = [
 },
 {
     case_id: "fema_cs_medium_10",
-    case_chapter: ["FEMA", "Current Account Transactions", "Foreign Exchange", "Authorised Person"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Current Account Transactions", "Foreign Exchange", "Authorised Person"],
     difficulty: "medium",
     caseText: `<p>Zenith Technologies Limited is an Indian company engaged in providing information technology and consultancy services to clients in India and abroad. During the year, the company decided to expand its international operations and sent a team of senior executives to various countries for business meetings, technical discussions and negotiations with prospective customers. The company approached its Authorised Dealer bank for release of foreign exchange towards travel expenses, hotel accommodation and other expenses connected with the overseas business visits.</p>
     <p>At the same time, Zenith Technologies proposed to engage a foreign consulting firm for carrying out a detailed market study relating to the company's proposed expansion into Europe. The consulting firm raised an invoice in foreign currency and requested remittance of the consultancy fee outside India. The accounts department was uncertain whether payment for such services would amount to a capital account transaction merely because the payment was being made to a person resident outside India.</p>
@@ -25381,7 +25754,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_11",
-    case_chapter: ["FEMA", "Export of Goods and Services", "Export Declaration", "Authorised Dealer"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Export of Goods and Services", "Export Declaration", "Authorised Dealer"],
     difficulty: "medium",
     caseText: `<p>Crystal Handicrafts Limited is an Indian company engaged in manufacturing premium handicraft products which are exported to customers in Europe, the Middle East and North America. The company received an order from a distributor in Italy for a large consignment of decorative products. The goods were exported through a customs port in India and their full export value was ascertainable at the time of shipment.</p>
     <p>The export department prepared the necessary shipping documents but one of the employees questioned why the company was required to make a declaration regarding the export value when the foreign buyer had already accepted the invoice. The compliance manager explained that FEMA imposes specific obligations upon exporters of goods and services and that the required declaration serves a regulatory purpose independent of the contractual invoice between the exporter and the foreign purchaser.</p>
@@ -25425,7 +25799,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_12",
-    case_chapter: ["FEMA", "Import of Goods", "Import Payment", "Evidence of Import"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Import of Goods", "Import Payment", "Evidence of Import"],
     difficulty: "medium",
     caseText: `<p>Apex Medical Devices Limited is an Indian manufacturer of sophisticated medical equipment. The company regularly imports specialised components from suppliers situated in Germany, Japan and the United States. During the year, Apex placed an order with a German supplier for components required for manufacturing diagnostic machines in India.</p>
     <p>The company approached its Authorised Dealer Category-I bank for remittance of the purchase consideration. The foreign exchange was released and payment was made to the German supplier. After completion of the remittance, the accounts department treated the matter as closed and archived the purchase documents.</p>
@@ -25470,7 +25845,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_13",
-    case_chapter: ["FEMA", "Overseas Investment", "Transfer of Equity Capital", "Disinvestment"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Transfer of Equity Capital", "Disinvestment"],
     difficulty: "medium",
     caseText: `<p>Silverline Industries Limited, an Indian manufacturing company, had acquired equity capital in a foreign entity incorporated in Malaysia several years ago. The investment had originally been made in compliance with the overseas investment framework and all remittances had been routed through the company's designated Authorised Dealer bank.</p>
     <p>Following a strategic review, the Board of Silverline Industries decided to exit a portion of its overseas investment and use the funds for expansion of its domestic manufacturing facilities. A foreign investor offered to purchase part of Silverline's equity interest in the Malaysian entity. The company therefore began examining the conditions applicable to transfer of equity capital of a foreign entity.</p>
@@ -25514,7 +25890,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_14",
-    case_chapter: ["FEMA", "Overseas Investment", "Annual Performance Report", "Reporting"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Annual Performance Report", "Reporting"],
     difficulty: "medium",
     caseText: `<p>BluePeak Engineering Limited, an Indian entity, acquired 65% equity capital in a foreign manufacturing company incorporated in Vietnam. As a result of the investment, BluePeak exercises control over the foreign entity. The company routed the original investment through its designated Authorised Dealer and completed the initial reporting requirements.</p>
     <p>At the end of the financial year, the finance department began preparing the compliance calendar for overseas investments. The junior accountant believed that reporting obligations ended once the initial ODI transaction had been reported. The compliance officer explained that an Indian entity having ODI may also be required to submit an Annual Performance Report in respect of the foreign entity.</p>
@@ -25558,7 +25935,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_06",
-    case_chapter: ["FEMA", "Overseas Investment", "Round Tripping", "Subsidiary Structure"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Round Tripping", "Subsidiary Structure"],
     difficulty: "hard",
     caseText: `<p>Orion Digital Ventures Limited is an Indian company engaged in developing digital platforms and software products. As part of its international expansion strategy, Orion proposes to establish a wholly owned subsidiary, Orion Global Pte. Ltd., in Singapore. The proposed foreign entity would develop and commercialise digital products in Asian markets and would also acquire strategic investments in technology companies situated in different jurisdictions.</p>
     <p>During preparation of the investment structure, the Singapore subsidiary identifies an attractive investment opportunity in an Indian technology company, Bharat Digital Solutions Private Limited. The Singapore entity proposes to acquire equity capital in Bharat Digital Solutions after receiving the initial ODI from Orion. Consequently, the structure would involve an Indian entity investing in a foreign entity which in turn makes an investment back into India.</p>
@@ -25602,7 +25980,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_07",
-    case_chapter: ["FEMA", "Overseas Investment", "Restructuring", "Diminution in Value"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Restructuring", "Diminution in Value"],
     difficulty: "hard",
     caseText: `<p>Horizon Automotive Limited, an Indian company, holds 70% equity capital in Horizon Europe GmbH, a foreign entity engaged in manufacturing automotive components. The overseas entity performed well for several years but subsequently suffered substantial losses due to a severe downturn in the automobile industry. Its accumulated losses significantly reduced its net worth and it became difficult for the entity to service its outstanding financial obligations.</p>
     <p>Horizon Automotive had made ODI by way of equity capital and had also provided a shareholder loan to the foreign entity. After discussions with lenders and minority shareholders, the Board proposed a comprehensive restructuring of the foreign entity's balance sheet. Under the proposal, part of the outstanding loan payable to Horizon Automotive would be reduced and the value of certain financial interests of the Indian company would consequently diminish.</p>
@@ -25646,7 +26025,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_08",
-    case_chapter: ["FEMA", "Overseas Investment", "Deferred Payment", "Equity Capital"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Deferred Payment", "Equity Capital"],
     difficulty: "hard",
     caseText: `<p>Prism Healthcare Limited, an Indian pharmaceutical company, proposes to acquire 80% equity capital in Medica Global Ltd., a foreign entity incorporated in the United Kingdom. The parties negotiate a total acquisition consideration of USD 40 million. Instead of paying the entire consideration on completion, Prism proposes to pay USD 25 million immediately and the remaining USD 15 million after two years.</p>
     <p>The deferred portion is intended to protect Prism against certain commercial risks identified during due diligence. The seller agrees that the amount may be paid after the agreed period provided that the acquisition documents clearly record the total consideration and the deferred payment mechanism.</p>
@@ -25691,7 +26071,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_09",
-    case_chapter: ["FEMA", "Overseas Investment", "Acquisition by Bidding", "Guarantee"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Acquisition by Bidding", "Guarantee"],
     difficulty: "hard",
     caseText: `<p>National Engineering Corporation Limited, an Indian entity, decides to participate in an international competitive bidding process for acquisition of a foreign infrastructure company. Under the bidding terms, every participant must furnish an earnest money deposit together with a bid bond before submitting the final financial proposal.</p>
     <p>The target company is valued at several hundred million dollars and National Engineering expects strong competition from multinational bidders. The company's Board authorises participation in the bidding process but the finance team is uncertain whether remitting earnest money before actually acquiring equity capital in the foreign entity would be permissible under the overseas investment framework.</p>
@@ -25736,7 +26117,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_10",
-    case_chapter: ["FEMA", "Overseas Investment", "NOC", "Wilful Defaulter", "Investigation"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "NOC", "Wilful Defaulter", "Investigation"],
     difficulty: "hard",
     caseText: `<p>Summit Infrastructure Limited, an Indian company, proposes to acquire a controlling interest in an infrastructure company incorporated outside India. The proposed transaction would constitute ODI and would require a substantial financial commitment by Summit Infrastructure. The Board considers the acquisition commercially attractive because the foreign company owns valuable infrastructure concessions and has generated stable operating cash flows.</p>
     <p>Before the transaction could proceed, the compliance department discovered that Summit Infrastructure had been classified as a wilful defaulter by a lender in India. Separately, an investigation had been initiated against the company by a financial sector regulator in connection with certain past transactions. The management nevertheless instructed the finance department to proceed with the foreign investment, arguing that the overseas investment regulations are concerned only with the foreign entity and not with the regulatory status of the Indian investor.</p>
@@ -25780,7 +26162,8 @@ const AICaseStudies = [
 },
 {
     case_id: "fema_cs_medium_10",
-    case_chapter: ["FEMA", "Current Account Transactions", "Foreign Exchange", "Authorised Person"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Current Account Transactions", "Foreign Exchange", "Authorised Person"],
     difficulty: "medium",
     caseText: `<p>Zenith Technologies Limited is an Indian company engaged in providing information technology and consultancy services to clients in India and abroad. During the year, the company decided to expand its international operations and sent a team of senior executives to various countries for business meetings, technical discussions and negotiations with prospective customers. The company approached its Authorised Dealer bank for release of foreign exchange towards travel expenses, hotel accommodation and other expenses connected with the overseas business visits.</p>
     <p>At the same time, Zenith Technologies proposed to engage a foreign consulting firm for carrying out a detailed market study relating to the company's proposed expansion into Europe. The consulting firm raised an invoice in foreign currency and requested remittance of the consultancy fee outside India. The accounts department was uncertain whether payment for such services would amount to a capital account transaction merely because the payment was being made to a person resident outside India.</p>
@@ -25824,7 +26207,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_11",
-    case_chapter: ["FEMA", "Export of Goods and Services", "Export Declaration", "Authorised Dealer"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Export of Goods and Services", "Export Declaration", "Authorised Dealer"],
     difficulty: "medium",
     caseText: `<p>Crystal Handicrafts Limited is an Indian company engaged in manufacturing premium handicraft products which are exported to customers in Europe, the Middle East and North America. The company received an order from a distributor in Italy for a large consignment of decorative products. The goods were exported through a customs port in India and their full export value was ascertainable at the time of shipment.</p>
     <p>The export department prepared the necessary shipping documents but one of the employees questioned why the company was required to make a declaration regarding the export value when the foreign buyer had already accepted the invoice. The compliance manager explained that FEMA imposes specific obligations upon exporters of goods and services and that the required declaration serves a regulatory purpose independent of the contractual invoice between the exporter and the foreign purchaser.</p>
@@ -25868,7 +26252,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_12",
-    case_chapter: ["FEMA", "Import of Goods", "Import Payment", "Evidence of Import"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Import of Goods", "Import Payment", "Evidence of Import"],
     difficulty: "medium",
     caseText: `<p>Apex Medical Devices Limited is an Indian manufacturer of sophisticated medical equipment. The company regularly imports specialised components from suppliers situated in Germany, Japan and the United States. During the year, Apex placed an order with a German supplier for components required for manufacturing diagnostic machines in India.</p>
     <p>The company approached its Authorised Dealer Category-I bank for remittance of the purchase consideration. The foreign exchange was released and payment was made to the German supplier. After completion of the remittance, the accounts department treated the matter as closed and archived the purchase documents.</p>
@@ -25913,7 +26298,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_13",
-    case_chapter: ["FEMA", "Overseas Investment", "Transfer of Equity Capital", "Disinvestment"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Transfer of Equity Capital", "Disinvestment"],
     difficulty: "medium",
     caseText: `<p>Silverline Industries Limited, an Indian manufacturing company, had acquired equity capital in a foreign entity incorporated in Malaysia several years ago. The investment had originally been made in compliance with the overseas investment framework and all remittances had been routed through the company's designated Authorised Dealer bank.</p>
     <p>Following a strategic review, the Board of Silverline Industries decided to exit a portion of its overseas investment and use the funds for expansion of its domestic manufacturing facilities. A foreign investor offered to purchase part of Silverline's equity interest in the Malaysian entity. The company therefore began examining the conditions applicable to transfer of equity capital of a foreign entity.</p>
@@ -25957,7 +26343,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_14",
-    case_chapter: ["FEMA", "Overseas Investment", "Annual Performance Report", "Reporting"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Annual Performance Report", "Reporting"],
     difficulty: "medium",
     caseText: `<p>BluePeak Engineering Limited, an Indian entity, acquired 65% equity capital in a foreign manufacturing company incorporated in Vietnam. As a result of the investment, BluePeak exercises control over the foreign entity. The company routed the original investment through its designated Authorised Dealer and completed the initial reporting requirements.</p>
     <p>At the end of the financial year, the finance department began preparing the compliance calendar for overseas investments. The junior accountant believed that reporting obligations ended once the initial ODI transaction had been reported. The compliance officer explained that an Indian entity having ODI may also be required to submit an Annual Performance Report in respect of the foreign entity.</p>
@@ -26001,7 +26388,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_06",
-    case_chapter: ["FEMA", "Overseas Investment", "Round Tripping", "Subsidiary Structure"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Round Tripping", "Subsidiary Structure"],
     difficulty: "hard",
     caseText: `<p>Orion Digital Ventures Limited is an Indian company engaged in developing digital platforms and software products. As part of its international expansion strategy, Orion proposes to establish a wholly owned subsidiary, Orion Global Pte. Ltd., in Singapore. The proposed foreign entity would develop and commercialise digital products in Asian markets and would also acquire strategic investments in technology companies situated in different jurisdictions.</p>
     <p>During preparation of the investment structure, the Singapore subsidiary identifies an attractive investment opportunity in an Indian technology company, Bharat Digital Solutions Private Limited. The Singapore entity proposes to acquire equity capital in Bharat Digital Solutions after receiving the initial ODI from Orion. Consequently, the structure would involve an Indian entity investing in a foreign entity which in turn makes an investment back into India.</p>
@@ -26045,7 +26433,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_07",
-    case_chapter: ["FEMA", "Overseas Investment", "Restructuring", "Diminution in Value"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Restructuring", "Diminution in Value"],
     difficulty: "hard",
     caseText: `<p>Horizon Automotive Limited, an Indian company, holds 70% equity capital in Horizon Europe GmbH, a foreign entity engaged in manufacturing automotive components. The overseas entity performed well for several years but subsequently suffered substantial losses due to a severe downturn in the automobile industry. Its accumulated losses significantly reduced its net worth and it became difficult for the entity to service its outstanding financial obligations.</p>
     <p>Horizon Automotive had made ODI by way of equity capital and had also provided a shareholder loan to the foreign entity. After discussions with lenders and minority shareholders, the Board proposed a comprehensive restructuring of the foreign entity's balance sheet. Under the proposal, part of the outstanding loan payable to Horizon Automotive would be reduced and the value of certain financial interests of the Indian company would consequently diminish.</p>
@@ -26089,7 +26478,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_08",
-    case_chapter: ["FEMA", "Overseas Investment", "Deferred Payment", "Equity Capital"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Deferred Payment", "Equity Capital"],
     difficulty: "hard",
     caseText: `<p>Prism Healthcare Limited, an Indian pharmaceutical company, proposes to acquire 80% equity capital in Medica Global Ltd., a foreign entity incorporated in the United Kingdom. The parties negotiate a total acquisition consideration of USD 40 million. Instead of paying the entire consideration on completion, Prism proposes to pay USD 25 million immediately and the remaining USD 15 million after two years.</p>
     <p>The deferred portion is intended to protect Prism against certain commercial risks identified during due diligence. The seller agrees that the amount may be paid after the agreed period provided that the acquisition documents clearly record the total consideration and the deferred payment mechanism.</p>
@@ -26134,7 +26524,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_09",
-    case_chapter: ["FEMA", "Overseas Investment", "Acquisition by Bidding", "Guarantee"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Acquisition by Bidding", "Guarantee"],
     difficulty: "hard",
     caseText: `<p>National Engineering Corporation Limited, an Indian entity, decides to participate in an international competitive bidding process for acquisition of a foreign infrastructure company. Under the bidding terms, every participant must furnish an earnest money deposit together with a bid bond before submitting the final financial proposal.</p>
     <p>The target company is valued at several hundred million dollars and National Engineering expects strong competition from multinational bidders. The company's Board authorises participation in the bidding process but the finance team is uncertain whether remitting earnest money before actually acquiring equity capital in the foreign entity would be permissible under the overseas investment framework.</p>
@@ -26179,7 +26570,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_10",
-    case_chapter: ["FEMA", "Overseas Investment", "NOC", "Wilful Defaulter", "Investigation"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "NOC", "Wilful Defaulter", "Investigation"],
     difficulty: "hard",
     caseText: `<p>Summit Infrastructure Limited, an Indian company, proposes to acquire a controlling interest in an infrastructure company incorporated outside India. The proposed transaction would constitute ODI and would require a substantial financial commitment by Summit Infrastructure. The Board considers the acquisition commercially attractive because the foreign company owns valuable infrastructure concessions and has generated stable operating cash flows.</p>
     <p>Before the transaction could proceed, the compliance department discovered that Summit Infrastructure had been classified as a wilful defaulter by a lender in India. Separately, an investigation had been initiated against the company by a financial sector regulator in connection with certain past transactions. The management nevertheless instructed the finance department to proceed with the foreign investment, arguing that the overseas investment regulations are concerned only with the foreign entity and not with the regulatory status of the Indian investor.</p>
@@ -26223,7 +26615,8 @@ const AICaseStudies = [
 },
 {
     case_id: "fema_cs_medium_10",
-    case_chapter: ["FEMA", "Current Account Transactions", "Liberalised Remittance Scheme"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Current Account Transactions", "Liberalised Remittance Scheme"],
     difficulty: "medium",
     caseText: `<p>Rohan Mehra, an individual resident in India, has been planning several overseas transactions during the financial year. His daughter has obtained admission to a university in the United Kingdom and Rohan proposes to remit money towards her tuition fees and living expenses. In addition, he wishes to undertake a family vacation abroad and make certain permitted investments outside India. He approaches his Authorised Dealer bank to understand whether these transactions can be undertaken under the Liberalised Remittance Scheme.</p>
 
@@ -26271,7 +26664,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_11",
-    case_chapter: ["FEMA", "Export of Goods and Services", "Third Party Payments"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Export of Goods and Services", "Third Party Payments"],
     difficulty: "medium",
     caseText: `<p>Aster Textiles Limited, an Indian exporter of specialised fabrics, supplied goods worth USD 600,000 to Maison Retail SAS, a buyer situated in France. The export declaration and commercial invoice identified Maison Retail as the overseas buyer and the export documents were routed through Aster's Authorised Dealer bank in India. Under the original contractual terms, Maison Retail was required to make payment directly to Aster Textiles.</p>
 
@@ -26319,7 +26713,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_12",
-    case_chapter: ["FEMA", "Overseas Investment", "Transfer of Equity Capital"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Transfer of Equity Capital"],
     difficulty: "medium",
     caseText: `<p>Zenith Auto Components Limited, an Indian company, had acquired equity capital in a manufacturing entity incorporated in Thailand five years ago. The investment was originally made as ODI in accordance with the applicable overseas investment framework. Over the years, the Thai entity expanded its operations and attracted interest from several international investors.</p>
 
@@ -26367,7 +26762,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_13",
-    case_chapter: ["FEMA", "Foreign Currency Accounts", "Exporters"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Foreign Currency Accounts", "Exporters"],
     difficulty: "medium",
     caseText: `<p>BlueWave Software Solutions Limited is an Indian exporter providing software development and consultancy services to clients in the United States, Europe and Singapore. The company regularly receives export proceeds in foreign currency. Because it also incurs significant foreign currency expenditure for overseas travel, subscriptions, professional services and other permissible business expenses, repeated conversion of export receipts into Indian rupees and subsequent purchase of foreign exchange creates additional administrative work.</p>
 
@@ -26415,7 +26811,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_medium_14",
-    case_chapter: ["FEMA", "Realisation and Repatriation", "Foreign Exchange"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Realisation and Repatriation", "Foreign Exchange"],
     difficulty: "medium",
     caseText: `<p>Prakash, a person resident in India, provides professional consultancy services to several overseas clients. During the financial year, he earns foreign exchange from a client situated outside India. The client credits the amount to an overseas account that Prakash had legitimately used in connection with his foreign assignments.</p>
 
@@ -26463,7 +26860,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_06",
-    case_chapter: ["FEMA", "Overseas Investment", "Round Tripping", "Subsidiaries"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Round Tripping", "Subsidiaries"],
     difficulty: "hard",
     caseText: `<p>Nova Digital Systems Limited, an Indian technology company, proposes to establish a wholly owned subsidiary, Nova Global Pte. Ltd., in Singapore. The proposed foreign entity will undertake software development, hold intellectual property and invest in technology businesses across several jurisdictions. Nova Digital proposes to make ODI in the Singapore company in accordance with the applicable overseas investment framework.</p>
 
@@ -26513,7 +26911,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_07",
-    case_chapter: ["FEMA", "Overseas Investment", "Write-off", "Disinvestment"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Write-off", "Disinvestment"],
     difficulty: "hard",
     caseText: `<p>Orion Engineering Limited, an Indian manufacturing company, invested in an overseas joint venture eight years ago. The foreign entity initially performed well, but over the last three years it suffered significant losses due to technological obsolescence, loss of major customers and adverse economic conditions in its host country. Its accumulated losses substantially eroded its net worth and the shareholders decided to restructure the business.</p>
 
@@ -26563,7 +26962,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_08",
-    case_chapter: ["FEMA", "Overseas Investment", "Resident Individual", "ODI"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Overseas Investment", "Resident Individual", "ODI"],
     difficulty: "hard",
     caseText: `<p>Ananya Kapoor, a resident individual in India, is an experienced technology entrepreneur. She proposes to invest in an unlisted foreign company incorporated in Canada which is developing artificial-intelligence software for industrial applications. She intends to acquire 18% of the equity capital of the Canadian company. Under the shareholders' agreement, Ananya would also receive certain rights relating to appointment of directors and participation in significant management decisions.</p>
 
@@ -26613,7 +27013,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_09",
-    case_chapter: ["FEMA", "Export of Goods and Services", "Set-off", "Export Receivables"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Export of Goods and Services", "Set-off", "Export Receivables"],
     difficulty: "hard",
     caseText: `<p>Meridian Chemicals Limited, an Indian company, regularly exports speciality chemicals to GlobalChem GmbH, a German company. GlobalChem also supplies certain specialised raw materials and laboratory equipment to Meridian. As a result of these reciprocal transactions, Meridian has substantial export receivables from GlobalChem while simultaneously having import payables to the same overseas counterparty.</p>
 
@@ -26663,7 +27064,8 @@ const AICaseStudies = [
 
 {
     case_id: "fema_cs_hard_10",
-    case_chapter: ["FEMA", "Contravention", "Penalties", "Compounding"],
+    case_chapter: "fema",
+    case_topic: ["FEMA", "Contravention", "Penalties", "Compounding"],
     difficulty: "hard",
     caseText: `<p>Silverline Technologies Limited, an Indian company, undertook several foreign exchange transactions during a period of rapid international expansion. During an internal compliance review, the company discovered that one overseas transaction had been executed in a manner inconsistent with the applicable FEMA requirements. The contravention involved a quantifiable amount. The company immediately informed its legal and compliance teams and began examining the consequences under the Foreign Exchange Management Act, 1999.</p>
 
