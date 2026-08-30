@@ -27111,5 +27111,1931 @@ const AICaseStudies = [
             answer: 1
         }
     ]
+},
+
+// Chapter fcra
+
+{
+    case_id: "fcra_cs_medium_1",
+    case_chapter: "fcra",
+    case_topic: ["Foreign Contribution", "Relative", "Section 4", "Form FC-1"],
+    difficulty: "medium",
+    caseText: `<p>Mr. Arjun is a public servant working in India. During the financial year, his brother, who is a citizen of Canada and resides there, transferred ₹6 lakh to Arjun as a family gift. Arjun's colleague immediately informed him that public servants are prohibited from receiving foreign contribution under FCRA and therefore the amount should be returned immediately.</p>
+
+    <p>Arjun consulted the compliance officer, who explained that Section 3 contains a prohibition on acceptance of foreign contribution by specified categories of persons, including public servants. However, Section 4 provides specific exceptions where the prohibition does not apply.</p>
+
+    <p>The compliance officer further explained that contribution received from a relative falls within one of the statutory exceptions. However, the Rules prescribe an intimation requirement where the amount received from relatives exceeds the specified threshold during a financial year.</p>
+
+    <p>Arjun also received ₹12 lakh from another relative during the same financial year. The accounts department considered each receipt independently and assumed that no intimation was necessary because neither transfer was prohibited under Section 3.</p>
+
+    <p>Arjun now wants to determine whether the receipts can be retained and whether any reporting obligation arises in respect of the amount received from relatives.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_medium_1_1",
+            question: "Can a public servant receive foreign contribution from a relative in the circumstances covered by Section 4?",
+            options: [
+                "No, Section 3 applies without any exception",
+                "Yes, receipt from a relative is covered by an exception under Section 4",
+                "Only with RBI approval",
+                "Only if the amount is received in cash"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_1_2",
+            question: "The reporting threshold mentioned for foreign contribution received from relatives during a financial year is:",
+            options: [
+                "₹1 lakh",
+                "₹5 lakh",
+                "₹10 lakh",
+                "₹25 lakh"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fcra_cs_medium_1_3",
+            question: "Where the applicable threshold is exceeded, the recipient is required to furnish details:",
+            options: [
+                "In Form FC-1",
+                "In Form FC-3A",
+                "In Form FC-3C",
+                "In Form FC-7"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_1_4",
+            question: "The relevant intimation is generally required within:",
+            options: [
+                "15 days",
+                "One month",
+                "Three months",
+                "One year"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fcra_cs_medium_1_5",
+            question: "Which statement is correct?",
+            options: [
+                "Every amount received from a foreign relative is automatically prohibited",
+                "The relative exception can apply even to persons otherwise covered by Section 3, subject to the applicable reporting requirement",
+                "Only NGOs can receive money from relatives",
+                "Foreign relatives cannot make any transfer to India"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_medium_2",
+    case_chapter: "fcra",
+    case_topic: ["Registration", "Renewal", "Section 16", "Certificate Validity"],
+    difficulty: "medium",
+    caseText: `<p>Green Future Association obtained a certificate of registration under FCRA on 1 January 2022. The certificate was valid for five years. The management initially believed that the renewal process could be started after the certificate expired because the association had continuously complied with all FCRA requirements.</p>
+
+    <p>The finance officer reviewed the Rules and informed the governing body that the application for renewal must be made within the specified period before expiry of the certificate. The association therefore began preparing its renewal application in electronic form.</p>
+
+    <p>The association also discovered that the renewal application requires an FCRA Account and prescribed fee. One office bearer suggested submitting the application without the fee and paying it later. The compliance officer warned that the absence of the requisite fee could affect the validity of the renewal application and the continuation of the certificate.</p>
+
+    <p>The association further learned that if the certificate ceases to be valid, it cannot receive or utilise foreign contribution until renewal or fresh registration, as applicable. The Board therefore decided to complete the renewal process within the prescribed period.</p>
+
+    <p>The governing body asked its adviser to identify the correct renewal period, the form to be used and the consequences of failing to submit a complete renewal application before expiry.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_medium_2_1",
+            question: "A certificate of registration under FCRA is generally valid for:",
+            options: [
+                "One year",
+                "Three years",
+                "Five years",
+                "Ten years"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fcra_cs_medium_2_2",
+            question: "The application for renewal should generally be made:",
+            options: [
+                "Within six months before expiry",
+                "Only after expiry",
+                "Within thirty days after expiry",
+                "Any time during the first year"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_2_3",
+            question: "The prescribed electronic form for renewal is:",
+            options: [
+                "FC-1",
+                "FC-3A",
+                "FC-3B",
+                "FC-3C"
+            ],
+            answer: 3
+        },
+        {
+            question_id: "fcra_cs_medium_2_4",
+            question: "If the certificate ceases to exist because renewal requirements were not met, the person:",
+            options: [
+                "May continue receiving foreign contribution without restriction",
+                "May neither receive nor utilise foreign contribution until the certificate is renewed or fresh registration is obtained as applicable",
+                "Can automatically transfer foreign contribution to another NGO",
+                "Can use only 50% of the foreign contribution"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_2_5",
+            question: "The renewal application is required to be accompanied by a prescribed fee of:",
+            options: [
+                "₹1,000",
+                "₹3,000",
+                "₹5,000",
+                "₹10,000"
+            ],
+            answer: 2
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_medium_3",
+    case_chapter: "fcra",
+    case_topic: ["Transfer of Foreign Contribution", "Section 7", "Registered Association"],
+    difficulty: "medium",
+    caseText: `<p>Helping Hands Society is registered under FCRA and receives foreign contribution from several overseas donors for running educational programmes. During the year, the Society received ₹40 lakh for school infrastructure and teacher-training activities.</p>
+
+    <p>The Society later received a request from another NGO, Bright Education Trust, which was also working in rural education. Bright Education Trust requested ₹5 lakh from Helping Hands Society to purchase computers for a school project. The trustees of Helping Hands believed that transferring a portion of the foreign contribution would be permissible because both organisations were working for similar charitable objectives.</p>
+
+    <p>The treasurer checked older compliance material and found references suggesting that foreign contribution could previously be transferred in certain circumstances. He therefore proposed obtaining approval from the Central Government and completing the transfer.</p>
+
+    <p>The legal adviser explained that the law was amended and that Section 7 now contains a blanket prohibition on transfer of foreign contribution by a person who has received it under registration or prior permission to another person. The purpose is to prevent recipients from acting merely as conduits for foreign contributions.</p>
+
+    <p>The Board therefore reconsidered its proposal and decided to use the contribution only for the purposes for which it had been received, rather than transferring it to another organisation.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_medium_3_1",
+            question: "Can Helping Hands Society transfer the foreign contribution received by it to Bright Education Trust?",
+            options: [
+                "Yes, because both are NGOs",
+                "Yes, after obtaining approval in every case",
+                "No, Section 7 prohibits such transfer",
+                "Yes, if the amount is below ₹10 lakh"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fcra_cs_medium_3_2",
+            question: "The present restriction under Section 7 was introduced through:",
+            options: [
+                "The 2010 Act itself without later amendment",
+                "The Foreign Contribution (Regulation) Amendment Act, 2020",
+                "The Companies Act, 2013",
+                "The FEMA Amendment Act"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_3_3",
+            question: "The main purpose behind the prohibition on transfer is to prevent recipients from:",
+            options: [
+                "Maintaining separate bank accounts",
+                "Acting as conduits or facilitating agents for obtaining foreign contributions",
+                "Spending funds on their own objectives",
+                "Maintaining accounting records"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_3_4",
+            question: "The fact that Bright Education Trust has similar charitable objectives:",
+            options: [
+                "Automatically permits the transfer",
+                "Does not override the statutory prohibition",
+                "Makes Central Government approval unnecessary",
+                "Converts the transfer into domestic contribution"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_3_5",
+            question: "Helping Hands should primarily use its foreign contribution:",
+            options: [
+                "For the purposes for which it was received",
+                "For any purpose chosen by the trustees",
+                "For political activities",
+                "For transferring to unrelated NGOs"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_medium_4",
+    case_chapter: "fcra",
+    case_topic: ["FCRA Account", "Section 17", "Bank Accounts"],
+    difficulty: "medium",
+    caseText: `<p>Community Welfare Association has obtained registration under FCRA and expects to receive foreign contribution from a European charitable foundation. The treasurer proposes depositing the money directly into the Association's existing current account maintained with a scheduled bank in Hyderabad, where all domestic donations and local receipts are also maintained.</p>
+
+    <p>The compliance officer informs the treasurer that foreign contribution must initially be received through the designated FCRA Account maintained with the specified branch of State Bank of India at New Delhi. The Association may subsequently transfer the foreign contribution to another FCRA Account or utilisation account with a scheduled bank of its choice, subject to the statutory conditions.</p>
+
+    <p>The Association therefore opens the required designated account and plans to transfer funds to a separate utilisation account in Hyderabad for day-to-day project expenses. The treasurer asks whether domestic donations can also be deposited into the utilisation account because keeping several accounts is administratively inconvenient.</p>
+
+    <p>The compliance officer explains that the accounts used for foreign contribution must remain exclusive and that local contributions cannot be deposited into such accounts.</p>
+
+    <p>The Association also learns that banks have reporting obligations relating to transactions involving foreign contribution and that such information is required to be reported within the prescribed period.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_medium_4_1",
+            question: "Foreign contribution should initially be received in:",
+            options: [
+                "Any current account of the association",
+                "The designated FCRA Account at the specified SBI branch in New Delhi",
+                "The personal account of the secretary",
+                "A foreign bank account"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_4_2",
+            question: "After receipt in the designated FCRA Account, the association may:",
+            options: [
+                "Transfer funds to permitted FCRA/utilisation accounts with scheduled banks",
+                "Transfer funds to any individual's personal account",
+                "Mix the amount with domestic donations",
+                "Transfer the contribution to another NGO"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_4_3",
+            question: "Can local contributions be deposited into an FCRA utilisation account?",
+            options: [
+                "Yes, without limitation",
+                "Yes, if the amount is below ₹1 lakh",
+                "No, only foreign contribution may be received or deposited in such account",
+                "Yes, if approved by the auditor"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fcra_cs_medium_4_4",
+            question: "The purpose of the designated FCRA Account mechanism is primarily to:",
+            options: [
+                "Allow unrestricted mixing of funds",
+                "Ensure monitoring and controlled routing of foreign contribution",
+                "Avoid maintaining accounting records",
+                "Replace the need for FCRA registration"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_4_5",
+            question: "Banks are required to report transactions relating to receipt or utilisation of foreign contribution to the Central Government within:",
+            options: [
+                "24 hours",
+                "48 hours",
+                "15 days",
+                "90 days"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_medium_5",
+    case_chapter: "fcra",
+    case_topic: ["Annual Return", "Form FC-4", "Accounts and Audit"],
+    difficulty: "medium",
+    caseText: `<p>Vidya Rural Foundation is registered under FCRA and receives foreign contribution for educational activities. At the end of the financial year, its accounts department prepares the income and expenditure statement, receipt and payment account and balance sheet relating to its activities.</p>
+
+    <p>The Foundation's accountant believes that because the organisation received foreign contribution only during the first half of the year, it does not need to submit a complete annual return. He proposes filing a short statement only for the months in which foreign contribution was received.</p>
+
+    <p>The compliance officer explains that the FCRA framework requires an annual return in the prescribed electronic form and that the return covers the financial year. The return must reflect the foreign contribution received in the exclusive account and details of funds transferred to other permitted bank accounts for utilisation.</p>
+
+    <p>The Foundation also has a financial year during which it receives no foreign contribution at all. The trustees assume that no filing is necessary because there is nothing to report. The compliance officer explains that a NIL return is required even where no foreign contribution is received during the financial year, subject to the specified relaxation regarding supporting documents.</p>
+
+    <p>The Foundation asks its Chartered Accountant to verify the return and supporting financial statements before submission. The records and statements are also required to be preserved for the prescribed period.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_medium_5_1",
+            question: "The annual return for foreign contribution is filed in:",
+            options: [
+                "Form FC-1",
+                "Form FC-3A",
+                "Form FC-4",
+                "Form FC-7"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fcra_cs_medium_5_2",
+            question: "The annual return is generally required to be filed within:",
+            options: [
+                "Three months of the financial year-end",
+                "Six months of the financial year-end",
+                "Nine months of the financial year-end",
+                "Eighteen months of the financial year-end"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fcra_cs_medium_5_3",
+            question: "The annual return should include details of:",
+            options: [
+                "Only foreign currency held outside India",
+                "Foreign contribution received and funds transferred to other permitted accounts for utilisation",
+                "Only domestic donations",
+                "Only administrative expenses"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_5_4",
+            question: "If no foreign contribution is received during a financial year, the organisation should generally:",
+            options: [
+                "File no return",
+                "File a NIL return",
+                "Close its registration immediately",
+                "Transfer its assets to the Government"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_5_5",
+            question: "The accounting statements and records relating to foreign contribution are required to be preserved for:",
+            options: [
+                "One year",
+                "Three years",
+                "Six years",
+                "Ten years"
+            ],
+            answer: 2
+        }
+    ]
+},
+{
+    case_id: "fcra_cs_medium_6",
+    case_chapter: "fcra",
+    case_topic: ["Foreign Contribution", "Donation", "Foreign Source", "Section 2"],
+    difficulty: "medium",
+    caseText: `<p>Navjeevan Educational Society is an association working in the field of education and rural development. The Society has been registered under the Foreign Contribution (Regulation) Act, 2010 and has been receiving contributions from different sources for its educational programmes. During the financial year, the Society received several amounts which were described by the donors in different ways, including donation, grant, sponsorship and payment towards a specific activity.</p>
+
+    <p>A foreign charitable foundation transferred ₹30 lakh to the Society under a written grant agreement. The agreement stated that the money would be used for constructing classrooms and purchasing educational equipment. The Society's accounts department immediately recorded the entire amount as foreign contribution.</p>
+
+    <p>Subsequently, an Indian company with substantial foreign shareholding donated ₹15 lakh to the Society. The finance manager argued that the company should be regarded as a foreign source merely because foreign shareholders held a significant interest in it. The legal adviser explained that the statutory definition of foreign source contains specific categories and that the status of an Indian company cannot be determined merely by looking at the existence of foreign shareholders without examining the statutory test.</p>
+
+    <p>During the same year, a foreign university paid ₹5 lakh to the Society towards the cost of conducting a training programme for its visiting faculty. The Society treated the amount as foreign contribution because the university was located outside India. The compliance officer asked whether the receipt was actually consideration for services rendered in the ordinary course of the Society's activities and whether the statutory exclusion applied.</p>
+
+    <p>Another foreign organisation provided ₹2 lakh to reimburse the Society for expenses incurred by its representatives during a conference held in India. The accounts department again treated the reimbursement as a donation. The compliance officer directed the accountant to examine the substance of each transaction rather than relying merely upon the identity of the payer or the description used in the accounting records.</p>
+
+    <p>The governing body therefore instructed the finance team to classify every receipt after considering the contributor, the purpose of the payment, whether consideration was involved and the specific exclusions contained in the Act.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_medium_6_1",
+            question: "The ₹30 lakh grant received from the foreign charitable foundation for construction of classrooms is:",
+            options: [
+                "Foreign contribution",
+                "Domestic contribution",
+                "Foreign hospitality",
+                "Administrative expense"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_6_2",
+            question: "The foreign-source status of an Indian company should be determined:",
+            options: [
+                "Only by checking whether it has any foreign shareholder",
+                "By applying the specific statutory definition and conditions under FCRA",
+                "Automatically because all companies with foreign shareholders are foreign sources",
+                "Only by checking the company's turnover"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_6_3",
+            question: "The ₹5 lakh payment from the foreign university may be excluded from foreign contribution where it represents:",
+            options: [
+                "A donation without conditions",
+                "Consideration for services rendered in the ordinary course of business, trade or commerce",
+                "A political contribution",
+                "Foreign hospitality"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_6_4",
+            question: "The proper method of classification is to:",
+            options: [
+                "Look only at the country from which money originated",
+                "Examine the substance, source, purpose and statutory exclusions applicable to the receipt",
+                "Treat every overseas payment as foreign contribution",
+                "Treat every reimbursement as a donation"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_6_5",
+            question: "Which of the following is most relevant before treating a payment as foreign contribution?",
+            options: [
+                "Only the colour of the donor's logo",
+                "Identity of the contributor and nature of the transaction",
+                "Only the currency in which the payment was made",
+                "Only the date of receipt"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_medium_7",
+    case_chapter: "fcra",
+    case_topic: ["Utilisation", "Foreign Contribution", "Section 8", "Interest Income"],
+    difficulty: "medium",
+    caseText: `<p>Uday Rural Development Trust is registered under FCRA and receives foreign contribution for its rural healthcare programme. During the year, the Trust received ₹1.50 crore in its designated FCRA account. The project involved operating mobile medical units, conducting health camps and providing medicines to economically weaker sections.</p>
+
+    <p>The Trust's trustees decided to keep a portion of the foreign contribution temporarily in a bank deposit because the project expenditure would be incurred over several months. The deposit generated ₹4 lakh of interest. The accountant proposed transferring the interest to the Trust's ordinary domestic bank account and using it for an unrelated local project because, according to him, the interest was generated by the bank and was therefore not foreign contribution.</p>
+
+    <p>The compliance officer explained that income or interest arising from foreign contribution is treated in accordance with the FCRA framework and cannot simply be separated from the regulatory requirements merely because it arises after the original receipt.</p>
+
+    <p>At the same time, the Trust's project manager proposed using ₹20 lakh from the foreign contribution for construction of a commercial shopping complex. He argued that the rental income could subsequently finance the healthcare programme and would therefore indirectly benefit the Trust's charitable objectives.</p>
+
+    <p>The trustees also considered purchasing a large quantity of shares in a listed company with surplus funds. The investment adviser described the proposed investment as a normal investment rather than a speculative activity. The compliance officer advised the trustees to carefully distinguish permissible investment or temporary parking of funds from activities that may fall within prohibited speculative business.</p>
+
+    <p>The Trust also incurred expenditure on doctors, nurses and field workers directly involved in healthcare activities, while separately incurring expenditure on office administration, accounting and general management.</p>
+
+    <p>The Board now wants to determine the correct treatment of interest income, the proposed commercial activity, investments and different categories of expenditure before finalising the accounts.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_medium_7_1",
+            question: "Interest earned on foreign contribution is:",
+            options: [
+                "Completely outside the FCRA framework",
+                "Required to be treated in accordance with the FCRA provisions applicable to income arising from foreign contribution",
+                "Always domestic contribution",
+                "Automatically exempt from accounting"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_7_2",
+            question: "Using foreign contribution to construct a commercial shopping complex merely to generate rental income:",
+            options: [
+                "Is automatically permissible",
+                "Requires examination of whether the activity is consistent with the permitted objects and FCRA restrictions",
+                "Is always treated as a domestic donation",
+                "Does not require accounting"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_7_3",
+            question: "The Trust should distinguish between:",
+            options: [
+                "Foreign currency and Indian currency only",
+                "Permitted utilisation and prohibited speculative business",
+                "Cash and cheque only",
+                "Donors and employees only"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_7_4",
+            question: "Salary paid to doctors directly engaged in the healthcare programme is generally:",
+            options: [
+                "An expenditure directly related to the charitable activity",
+                "Always administrative expenditure",
+                "Prohibited expenditure",
+                "Foreign hospitality"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_7_5",
+            question: "The principal compliance concern regarding the interest earned on foreign contribution is that:",
+            options: [
+                "It can never be used",
+                "It remains subject to the regulatory framework applicable to foreign contribution and its income",
+                "It automatically becomes domestic donation",
+                "It must always be paid to RBI"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_medium_8",
+    case_chapter: "fcra",
+    case_topic: ["Change in Office Bearers", "Prior Approval", "FCRA Registration"],
+    difficulty: "medium",
+    caseText: `<p>Shakti Community Foundation is an FCRA-registered association working in the field of women's education and skill development. Its certificate of registration is valid for several more years. The association has three key office bearers: a president, a secretary and a treasurer.</p>
+
+    <p>During the year, the president resigned due to personal reasons and the governing body appointed a new president. The secretary also retired and was replaced by another individual. The treasurer, however, continued in office.</p>
+
+    <p>The new president was a well-known social worker and had considerable experience in educational programmes. The governing body assumed that the change could be made internally because the organisation's legal identity and charitable objectives had not changed.</p>
+
+    <p>The compliance officer explained that changes in key office bearers are subject to specific FCRA requirements. Certain changes may require prior approval of the Central Government depending upon the nature of the change and the extent of alteration in the governing body or key functionaries.</p>
+
+    <p>The Foundation also proposed changing the address of its registered office and appointing a new auditor. The secretary initially believed that all three changes—office bearer, address and auditor—could be handled through one informal letter to the Ministry.</p>
+
+    <p>The compliance team advised that changes must be reported through the prescribed procedure and that the association should not assume that every change has identical approval requirements.</p>
+
+    <p>The governing body therefore decided to prepare a complete record of all proposed changes, identify which changes require prior approval and which merely require intimation, and then make the necessary filings within the prescribed time.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_medium_8_1",
+            question: "Changes in key office bearers of an FCRA-registered association:",
+            options: [
+                "Can always be ignored if the objects remain unchanged",
+                "Are subject to specific FCRA compliance requirements",
+                "Automatically cancel registration",
+                "Can be made only by RBI"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_8_2",
+            question: "The association should determine whether a proposed change requires:",
+            options: [
+                "Prior approval or prescribed intimation, depending on the nature of the change",
+                "Only oral approval",
+                "Only approval from the donor",
+                "No compliance"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_8_3",
+            question: "Which approach is most appropriate for the Foundation?",
+            options: [
+                "Make all changes first and ignore FCRA requirements",
+                "Identify the applicable procedure for each change and comply separately",
+                "Close the association",
+                "Transfer the FCRA certificate"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_8_4",
+            question: "Appointment of a new auditor is:",
+            options: [
+                "Automatically a prohibited transaction",
+                "A compliance change that should be dealt with under the applicable reporting requirements",
+                "A foreign contribution",
+                "A political activity"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_8_5",
+            question: "Why should the Foundation not treat every change identically?",
+            options: [
+                "Because different categories of changes have different statutory procedures",
+                "Because no changes are reportable",
+                "Because only foreign donors can make changes",
+                "Because the FCRA certificate has no conditions"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_medium_9",
+    case_chapter: "fcra",
+    case_topic: ["Inspection", "Search and Seizure", "Records", "Enforcement"],
+    difficulty: "medium",
+    caseText: `<p>Jan Kalyan Society is registered under FCRA and has been receiving foreign contribution for community health projects. Over the last two years, the Society's accounting records have become increasingly disorganised. Several vouchers were missing, some bank statements were not available and the records relating to utilisation of foreign contribution were maintained separately by different project managers.</p>
+
+    <p>During an inspection, the authorised officer requested the Society to produce books of accounts, registers and other records relating to receipt and utilisation of foreign contribution. The secretary initially refused, arguing that the organisation was a private charitable association and that Government officers could not inspect its internal records without a court order.</p>
+
+    <p>The authorised officer explained that FCRA contains provisions empowering the Government and authorised officers to inspect records and conduct search and seizure in accordance with the statutory conditions. The Society was therefore required to cooperate and produce the relevant documents.</p>
+
+    <p>The officer discovered that a portion of the foreign contribution had been spent on activities unrelated to the registered objectives. Several invoices also appeared inconsistent with the actual expenditure incurred by the Society.</p>
+
+    <p>The management later realised that maintaining proper records was not merely an accounting formality. Accurate books and supporting documents were necessary to establish that foreign contribution had been received and utilised in accordance with law.</p>
+
+    <p>The Board therefore appointed an internal compliance team to reconstruct missing records, preserve documents and ensure that future transactions could be traced from receipt through utilisation.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_medium_9_1",
+            question: "An authorised officer under FCRA may inspect:",
+            options: [
+                "Only domestic bank accounts",
+                "Books of account and records relating to foreign contribution",
+                "Only personal records of employees",
+                "Only tax returns"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_9_2",
+            question: "The Society's argument that inspection always requires a court order is:",
+            options: [
+                "Correct in every case",
+                "Incorrect because FCRA provides statutory inspection powers subject to its conditions",
+                "Correct only for NGOs",
+                "Correct because FCRA has no enforcement provisions"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_9_3",
+            question: "Why are vouchers and supporting documents important?",
+            options: [
+                "They establish the traceability and proper utilisation of foreign contribution",
+                "They replace FCRA registration",
+                "They eliminate the need for annual returns",
+                "They permit political expenditure"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_9_4",
+            question: "Use of foreign contribution for activities unrelated to the permitted objectives may:",
+            options: [
+                "Raise a compliance issue under FCRA",
+                "Always be ignored",
+                "Convert the money into domestic contribution",
+                "Automatically become administrative expenses"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_9_5",
+            question: "The best compliance approach is to:",
+            options: [
+                "Maintain complete books, registers, vouchers and supporting records",
+                "Maintain only bank statements",
+                "Destroy old vouchers",
+                "Keep records only when an inspection is announced"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_medium_10",
+    case_chapter: "fcra",
+    case_topic: ["Renewal", "NIL Return", "Compliance", "FCRA Registration"],
+    difficulty: "medium",
+    caseText: `<p>Hope Foundation has held an FCRA registration for several years and has regularly conducted educational programmes using foreign contribution. In the latest financial year, however, the Foundation did not receive any fresh foreign contribution because its major overseas donor temporarily suspended its grant programme.</p>
+
+    <p>The Foundation's treasurer concluded that because no foreign contribution had been received, there was no need to file an annual return for the year. The auditor disagreed and explained that the absence of foreign contribution does not necessarily eliminate the reporting obligation.</p>
+
+    <p>At the same time, the Foundation's registration certificate was approaching expiry. The secretary believed that renewal could be completed after expiry because the organisation had a long history of compliance and no adverse findings had been recorded against it.</p>
+
+    <p>The compliance consultant explained that registration under FCRA is subject to a defined period of validity and that renewal has to be applied for within the prescribed period. The consultant also reminded the Foundation that failure to renew can affect its ability to receive and utilise foreign contribution.</p>
+
+    <p>The governing body therefore prepared a compliance calendar covering annual return filing, renewal of registration, maintenance of accounts, audit requirements and preservation of records.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_medium_10_1",
+            question: "If no foreign contribution is received during the financial year, the registered association should generally:",
+            options: [
+                "File a NIL return",
+                "File no return",
+                "Cancel its registration",
+                "Transfer its registration"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_10_2",
+            question: "The FCRA registration certificate is generally valid for:",
+            options: [
+                "Two years",
+                "Three years",
+                "Five years",
+                "Ten years"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fcra_cs_medium_10_3",
+            question: "Renewal should be applied for:",
+            options: [
+                "Within the prescribed period before expiry",
+                "Only after expiry",
+                "After ten years",
+                "Only when a donor requests it"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_10_4",
+            question: "Failure to renew the registration can affect the organisation's ability to:",
+            options: [
+                "Receive and utilise foreign contribution",
+                "Receive domestic donations",
+                "Conduct any charitable activity",
+                "Maintain a domestic bank account"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_10_5",
+            question: "A compliance calendar is useful because:",
+            options: [
+                "FCRA imposes continuing reporting and compliance obligations",
+                "FCRA registration never expires",
+                "Annual returns are optional",
+                "Accounts need not be maintained"
+            ],
+            answer: 0
+        }
+    ]
+},
+{
+    case_id: "fcra_cs_hard_7",
+    case_chapter: "fcra",
+    case_topic: ["Foreign Contribution", "Prohibition", "Organisation of Political Nature", "Section 5"],
+    difficulty: "hard",
+    caseText: `<p>People's Policy Research Institute is a non-profit organisation registered as a public charitable trust. Its stated objects include conducting research on public policy, publishing research papers and organising seminars on governance and economic development. It is not registered as a political party and does not directly sponsor election candidates.</p>
+
+    <p>During a particular year, the Institute began organising large public campaigns on proposed legislative reforms. Its representatives appeared at press conferences, distributed campaign material and urged citizens to support or oppose particular Government policies. A foreign foundation offered the Institute ₹1.20 crore to support these campaigns.</p>
+
+    <p>The trustees argued that the organisation was a research institution and not a political party. They therefore concluded that the foreign contribution could be accepted under its existing FCRA registration.</p>
+
+    <p>The compliance adviser cautioned that FCRA does not restrict its analysis only to organisations formally registered as political parties. Section 5 provides a mechanism under which an organisation of political nature may be specified by the Central Government. The adviser explained that the nature of the activities carried on by an organisation may therefore become relevant in determining whether the statutory restrictions apply.</p>
+
+    <p>The Institute also had a governing body member who was an office bearer of a political party. The member argued that his personal political association could not affect the Institute because the Trust itself had no political-party registration.</p>
+
+    <p>The Ministry issued a notice proposing to examine whether the Institute should be treated as an organisation of political nature. The Institute was given an opportunity to explain why it should not be specified under the relevant provisions.</p>
+
+    <p>The trustees now need to understand the distinction between a political party and an organisation of political nature, the significance of the Government's power under Section 5 and the effect of the statutory restrictions on accepting foreign contribution.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_hard_7_1",
+            question: "Which statement best explains the significance of Section 5 in this case?",
+            options: [
+                "Only registered political parties can ever be subject to political-activity restrictions",
+                "The Central Government may specify an organisation as an organisation of political nature in accordance with the statutory framework",
+                "Every charitable trust automatically becomes a political organisation",
+                "Foreign contribution is prohibited for every research organisation"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_7_2",
+            question: "The fact that the Institute is not registered as a political party:",
+            options: [
+                "Automatically means Section 5 can never apply",
+                "Does not by itself prevent consideration of whether it is an organisation of political nature",
+                "Makes all foreign contribution domestic",
+                "Exempts it from Section 3"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_7_3",
+            question: "Before specifying an organisation under Section 5, the Central Government is required to:",
+            options: [
+                "Provide the organisation an opportunity to state why it should not be specified",
+                "Obtain permission from RBI",
+                "Obtain approval from every foreign donor",
+                "Dissolve the organisation immediately"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_hard_7_4",
+            question: "Which fact is particularly relevant to the Government's examination?",
+            options: [
+                "The colour of the organisation's logo",
+                "The nature of the organisation's activities and whether they fall within the statutory parameters",
+                "The number of employees alone",
+                "The location of its office alone"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_7_5",
+            question: "If the Institute is validly specified as an organisation of political nature, the foreign contribution offered to it would:",
+            options: [
+                "Remain freely receivable because it is a charitable trust",
+                "Need to be examined in light of the prohibition applicable to specified political organisations/persons",
+                "Automatically become domestic contribution",
+                "Be governed only by the Income-tax Act"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_hard_8",
+    case_chapter: "fcra",
+    case_topic: ["Compounding", "Offences", "Adjudication", "Penalty"],
+    difficulty: "hard",
+    caseText: `<p>Global Relief Association is an FCRA-registered organisation working on disaster relief. During an internal audit, it discovered that several compliance requirements had not been followed correctly. One foreign contribution receipt had been incorrectly reported in the annual return, while another transaction involved utilisation of funds in a manner that potentially contravened the Act.</p>
+
+    <p>The governing body immediately appointed an independent compliance consultant to identify the nature of each contravention. The consultant explained that FCRA provides separate mechanisms for dealing with contraventions and that the organisation should not assume that every irregularity automatically leads to prosecution or cancellation of registration.</p>
+
+    <p>The Association was particularly interested in the concept of compounding. The chairman believed that compounding meant that the organisation could simply pay a nominal amount and obtain a complete legal clean slate irrespective of the nature of the offence. The consultant explained that compounding is available only for offences that are compoundable under the applicable law and subject to the prescribed procedure and authority.</p>
+
+    <p>The Association also received a notice concerning a penalty. The treasurer argued that because the Association had already filed a revised return, the penalty should automatically disappear. The consultant explained that subsequent corrective action may be relevant to compliance but does not necessarily extinguish a statutory liability that has already arisen.</p>
+
+    <p>One director further argued that if the amount of penalty remained unpaid, the only consequence would be an additional monetary charge. The consultant explained that the Act provides further consequences for failure to pay penalties, including the possibility of civil imprisonment in the circumstances specified by law.</p>
+
+    <p>The Board therefore decided to distinguish between the original contravention, adjudication and penalty, compounding where legally available, and enforcement of an unpaid penalty.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_hard_8_1",
+            question: "Compounding under FCRA should be understood as:",
+            options: [
+                "Automatic cancellation of an offence",
+                "A statutory mechanism available for eligible offences subject to prescribed conditions and procedure",
+                "A private settlement between donor and NGO",
+                "A method of avoiding all future compliance"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_8_2",
+            question: "If an offence is not legally compoundable:",
+            options: [
+                "It can nevertheless always be compounded by the organisation",
+                "The organisation cannot use compounding merely by paying money",
+                "The donor can compound it automatically",
+                "The auditor can compound it"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_8_3",
+            question: "Filing a revised return after discovering an irregularity:",
+            options: [
+                "Automatically extinguishes every statutory liability",
+                "May correct reporting but does not automatically erase an already-arisen contravention or penalty",
+                "Makes the FCRA registration permanent",
+                "Converts the foreign contribution into domestic contribution"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_8_4",
+            question: "Failure to pay a penalty imposed under FCRA may result in:",
+            options: [
+                "No consequence",
+                "Further enforcement action, including civil imprisonment in the circumstances specified by the Act",
+                "Automatic waiver",
+                "Cancellation of the donor's citizenship"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_8_5",
+            question: "The Board's proposed distinction between contravention, penalty and non-payment is:",
+            options: [
+                "Correct because these are legally distinct stages/consequences",
+                "Incorrect because every contravention is imprisonment",
+                "Incorrect because FCRA has no monetary penalties",
+                "Unnecessary because compounding applies automatically"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_hard_9",
+    case_chapter: "fcra",
+    case_topic: ["Cancellation", "Suspension", "Registration", "Section 14"],
+    difficulty: "hard",
+    caseText: `<p>Rural Empowerment Mission has held FCRA registration for many years and has received substantial foreign contribution for agricultural training and rural livelihood programmes. Following a change in management, several compliance failures occurred. The organisation stopped maintaining proper books, failed to file certain returns on time and utilised a significant portion of foreign contribution for activities that were not consistent with the approved objectives.</p>
+
+    <p>During an inspection, the Central Government found that the organisation had also violated provisions of the Act and the Rules. The governing body argued that the violations were caused by the former treasurer and that the present management should not be punished for historical mistakes.</p>
+
+    <p>The Ministry considered whether the circumstances justified suspension of the certificate of registration pending further examination. The Board assumed that suspension and cancellation were identical because both would prevent the organisation from operating with foreign contribution.</p>
+
+    <p>The legal adviser explained that suspension is a distinct statutory measure and may operate for a specified period, while cancellation is a more serious action affecting the registration itself. The Act specifies circumstances in which registration may be cancelled, including situations involving false statements, violation of the Act or Rules, or where the organisation is not functioning in the manner for which registration was granted.</p>
+
+    <p>The adviser also explained that before cancellation, the organisation is generally given an opportunity to be heard in accordance with the principles and procedure contained in the Act. The organisation's assets and foreign contribution would also have to be dealt with in accordance with the statutory consequences following cancellation.</p>
+
+    <p>The Board therefore prepares a detailed response to the Ministry, identifies corrective steps already taken and requests that the authority consider whether the circumstances warrant suspension, cancellation or another lawful course.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_hard_9_1",
+            question: "Suspension and cancellation of FCRA registration are:",
+            options: [
+                "Identical measures",
+                "Distinct statutory measures with different consequences",
+                "Only accounting procedures",
+                "Measures available only under FEMA"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_9_2",
+            question: "Which circumstance may constitute a ground for cancellation?",
+            options: [
+                "The organisation changes its office furniture",
+                "The organisation violates provisions of the Act or Rules",
+                "The organisation receives domestic donations",
+                "The organisation appoints a new accountant"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_9_3",
+            question: "Before cancellation of registration, the organisation is generally:",
+            options: [
+                "Given an opportunity of being heard in accordance with the statutory procedure",
+                "Automatically dissolved without notice",
+                "Transferred to another NGO",
+                "Required to obtain foreign donor approval"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_hard_9_4",
+            question: "The argument that only the former treasurer can be relevant because he caused the violation:",
+            options: [
+                "Automatically prevents action against the registered organisation",
+                "Does not by itself prevent statutory action against the organisation for its FCRA violations",
+                "Makes the organisation immune from cancellation",
+                "Transfers the FCRA registration to the treasurer"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_9_5",
+            question: "Which statement best describes suspension?",
+            options: [
+                "It is necessarily permanent",
+                "It is a distinct temporary statutory measure that may restrict the organisation's ability to receive foreign contribution",
+                "It automatically transfers the certificate to another NGO",
+                "It permanently dissolves the organisation"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_hard_10",
+    case_chapter: "fcra",
+    case_topic: ["Foreign Contribution", "Change of Purpose", "Assets", "Utilisation"],
+    difficulty: "hard",
+    caseText: `<p>Vikas Tribal Welfare Society received ₹3 crore as foreign contribution from an overseas charitable foundation for a specific tribal education project. The grant agreement required the money to be used for construction of residential school facilities, purchase of educational equipment and training of teachers.</p>
+
+    <p>During implementation, the Society completed the construction work at a lower cost than originally estimated. Approximately ₹70 lakh therefore remained unutilised. The president proposed using the surplus to construct a commercial guest house in a nearby city. He argued that the guest house would generate rental income that could finance the Society's educational activities in future.</p>
+
+    <p>The treasurer suggested another alternative: transfer ₹30 lakh to a different charitable trust working in tribal healthcare because the healthcare trust urgently needed funds. He argued that both organisations were charitable and that the donor's original objective was broadly related to tribal welfare.</p>
+
+    <p>The compliance adviser warned that the fact that both organisations have charitable objects does not automatically permit transfer of foreign contribution. The adviser also explained that foreign contribution should be utilised for the purposes for which it was received and in accordance with the Act, Rules and terms governing the contribution.</p>
+
+    <p>The Society then considered purchasing a property using the foreign contribution. The property would be registered in the name of the Society and used partly for its educational activities and partly rented to a commercial entity. The trustees wanted to know whether the acquisition and subsequent use of the property could create a compliance problem.</p>
+
+    <p>Meanwhile, the foreign donor requested that any unutilised amount at the end of the project be returned to the donor. The Society's management considered retaining the amount indefinitely and treating it as a reserve for future projects.</p>
+
+    <p>The governing body now has to determine the lawful treatment of unutilised foreign contribution, proposed transfer, acquisition of assets, commercial use and donor instructions. The Board also recognises that charitable intention alone does not override the specific statutory restrictions imposed by FCRA.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_hard_10_1",
+            question: "The Society's proposed transfer of ₹30 lakh to another charitable trust is:",
+            options: [
+                "Automatically permissible because both organisations are charitable",
+                "Prohibited under the current Section 7 framework governing transfer of foreign contribution",
+                "Permissible without any restrictions",
+                "Permissible if the receiving trust has domestic donations"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_10_2",
+            question: "The ₹70 lakh surplus should primarily be dealt with:",
+            options: [
+                "Without regard to the purpose for which the contribution was received",
+                "In accordance with the permitted purpose, applicable FCRA provisions and the terms governing the contribution",
+                "By transferring it to any NGO",
+                "By distributing it among trustees"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_10_3",
+            question: "Using foreign contribution to acquire an asset raises compliance considerations because:",
+            options: [
+                "Foreign contribution can never be used to acquire assets",
+                "The acquisition and subsequent use must be consistent with the permitted objects and applicable FCRA requirements",
+                "All assets purchased by NGOs become Government property immediately",
+                "Only movable assets may be purchased"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_10_4",
+            question: "If the foreign donor specifically requires return of unutilised funds, the Society should:",
+            options: [
+                "Ignore the donor and distribute the money",
+                "Deal with the unutilised contribution in accordance with applicable FCRA provisions and the lawful terms of the grant",
+                "Transfer it to another NGO automatically",
+                "Convert it into domestic donation"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_10_5",
+            question: "Which principle is most important throughout the case?",
+            options: [
+                "Charitable intention automatically overrides FCRA",
+                "Foreign contribution must be received, utilised and dealt with in accordance with FCRA and the applicable terms and restrictions",
+                "Foreign donors can decide Indian law",
+                "Registered associations are exempt from all restrictions"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_hard_11",
+    case_chapter: "fcra",
+    case_topic: ["Administrative Expenses", "Utilisation", "Section 8", "Foreign Contribution"],
+    difficulty: "hard",
+    caseText: `<p>National Community Health Initiative is a large FCRA-registered organisation operating hospitals, mobile clinics and public-health programmes across several States. During the financial year, it received ₹10 crore as foreign contribution from multiple foreign foundations. The organisation maintained detailed project-wise accounts, but the classification of certain expenditure became controversial during the statutory audit.</p>
+
+    <p>The Chief Financial Officer prepared an administrative-expense statement containing ₹2.80 crore. It included the salary of the Chief Executive Officer, salary of the Finance Director, accounting and audit fees, legal fees, office rent, electricity, communication expenses, travel of senior management, salaries of doctors and nurses, salaries of project coordinators and expenditure on training community health workers.</p>
+
+    <p>The compliance adviser explained that the statutory ceiling on administrative expenses is not intended to treat every salary or office-related expenditure as administrative. Expenditure directly incurred for furtherance of the organisation's stated objectives may receive different treatment from general administrative expenditure.</p>
+
+    <p>The CFO argued that because the total foreign contribution was ₹10 crore, the organisation could spend ₹2 crore as administrative expenses without any approval and could classify the remaining ₹80 lakh under project expenditure. The adviser cautioned that artificial classification or splitting of expenses would not be appropriate.</p>
+
+    <p>The organisation also proposed paying a large consultancy fee to a related entity owned by a trustee. The trustee argued that the related entity provided genuine professional services and that the transaction was commercially reasonable. The compliance committee nevertheless decided that the transaction required careful scrutiny, proper documentation and compliance with the restrictions relating to utilisation of foreign contribution and personal benefit.</p>
+
+    <p>At the end of the year, the auditors found that certain project expenses had been incurred outside the scope of the approved objectives. The management proposed adjusting those expenses against administrative expenses to remain within the 20% ceiling.</p>
+
+    <p>The Board therefore asks the finance team to reconstruct the expenditure classification based on substance, identify genuinely administrative expenses, exclude legitimate programme expenditure from the administrative ceiling where applicable and ensure that no expenditure is artificially classified merely to achieve compliance.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_hard_11_1",
+            question: "For ₹10 crore foreign contribution, the normal maximum administrative expense ceiling is:",
+            options: [
+                "₹50 lakh",
+                "₹1 crore",
+                "₹2 crore",
+                "₹5 crore"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fcra_cs_hard_11_2",
+            question: "Which expenditure is most appropriately treated as directly related to programme implementation rather than general administration?",
+            options: [
+                "Salary of a doctor directly providing healthcare services",
+                "General office rent",
+                "Audit fee",
+                "Legal consultancy for corporate administration"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_hard_11_3",
+            question: "The organisation cannot simply classify genuine project expenditure as administrative because:",
+            options: [
+                "Doing so would defeat the purpose of the statutory classification and may result in incorrect compliance reporting",
+                "All project expenses are illegal",
+                "Administrative expenses are unlimited",
+                "Project expenditure is never recorded"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_hard_11_4",
+            question: "Payment of consultancy fees to an entity owned by a trustee requires:",
+            options: [
+                "No scrutiny because it is a related party",
+                "Careful examination of the transaction, documentation, reasonableness and applicable restrictions",
+                "Automatic payment without records",
+                "Transfer of foreign contribution to the trustee"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_11_5",
+            question: "If the organisation genuinely needs to incur administrative expenditure beyond the permitted ceiling, it may:",
+            options: [
+                "Exceed the limit automatically",
+                "Seek prior approval of the Central Government in accordance with the Act",
+                "Transfer the excess to another NGO",
+                "Treat the excess as domestic contribution"
+            ],
+            answer: 1
+        }
+    ]
+},
+{
+    case_id: "fcra_cs_medium_11",
+    case_chapter: "fcra",
+    case_topic: ["Foreign Hospitality", "Section 6", "Prior Permission", "Medical Emergency"],
+    difficulty: "medium",
+    caseText: `<p>Mr. Arjun Mehta is a senior officer working in a Government-controlled corporation. He was invited by an international development organisation to attend a three-day conference in France relating to public infrastructure and sustainable development. The foreign organisation offered to bear his airfare, hotel accommodation, local transportation and certain incidental expenses during the conference.</p>
+
+    <p>Before leaving India, Arjun informed his department about the invitation. The administrative department advised him that the proposed benefits could constitute foreign hospitality because they were being offered by a foreign source and included expenses relating to travel, boarding, lodging and transportation outside India.</p>
+
+    <p>Arjun initially believed that because the conference was connected with his official work, no permission under FCRA would be necessary. The compliance officer explained that the nature of the purpose of the visit does not by itself remove the requirement where a person falls within a category specified under Section 6.</p>
+
+    <p>Accordingly, Arjun prepared the prescribed application for prior permission. The invitation letter issued by the host organisation was attached to the application. Since the visit was also connected with Government work, the department examined whether the necessary administrative clearance was required.</p>
+
+    <p>Two days before the scheduled return journey, Arjun suddenly developed a serious medical condition. The foreign organisation arranged emergency medical treatment and paid medical expenses equivalent to ₹82,000. Arjun was concerned that he had accepted additional foreign hospitality without obtaining fresh prior permission from the Central Government.</p>
+
+    <p>The compliance officer explained that the Act contains a specific exception for emergent medical aid required because of sudden illness during a visit outside India. The officer further explained that the Rules prescribe a monetary threshold for intimation in respect of such emergency medical hospitality.</p>
+
+    <p>Arjun therefore maintained all medical bills and records relating to the treatment and sought advice on whether a separate intimation was required for the emergency medical assistance received during his foreign visit.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_medium_11_1",
+            question: "Foreign hospitality generally includes an offer by a foreign source of:",
+            options: [
+                "Only a cash donation in India",
+                "Costs of travel, boarding, lodging, transport or medical treatment",
+                "Only salary received in India",
+                "Only domestic accommodation"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_11_2",
+            question: "A Government employee generally requires prior permission before accepting foreign hospitality:",
+            options: [
+                "Yes, under Section 6",
+                "No, because Government employees are exempt",
+                "Only when travelling within India",
+                "Only when receiving Indian currency"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_11_3",
+            question: "An application for foreign hospitality should generally be accompanied by:",
+            options: [
+                "Invitation letter from the host or host country",
+                "Only a domestic bank statement",
+                "Only the employee's salary slip",
+                "A political party certificate"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_11_4",
+            question: "Emergency medical aid arising from sudden illness during a foreign visit:",
+            options: [
+                "Can never be accepted",
+                "Is an exception to the prior-permission requirement",
+                "Is automatically foreign contribution",
+                "Requires approval from the donor"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_11_5",
+            question: "Where emergency medical hospitality is within the prescribed threshold, the recipient:",
+            options: [
+                "Need not provide the prescribed intimation",
+                "Must always obtain prior permission before treatment",
+                "Must transfer the amount to SBI",
+                "Must treat it as foreign contribution"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_medium_12",
+    case_chapter: "fcra",
+    case_topic: ["FCRA Account", "Scheduled Bank", "Section 17", "Utilisation Account"],
+    difficulty: "medium",
+    caseText: `<p>Pragati Welfare Association is an FCRA-registered organisation working on rural education projects. The Association recently received approval to accept foreign contribution from an overseas philanthropic foundation. The donor transferred the first instalment of ₹60 lakh to the Association for construction of classrooms and purchase of educational equipment.</p>
+
+    <p>The treasurer instructed the donor to transfer the money directly into the Association's existing savings account maintained with a local private bank. The Association had been using this account for receiving domestic donations and paying ordinary operating expenses.</p>
+
+    <p>The compliance manager stopped the transaction and explained that foreign contribution cannot simply be received into the ordinary domestic bank account. The initial receipt has to be routed through the designated FCRA Account maintained with the specified branch of State Bank of India at New Delhi.</p>
+
+    <p>The Association then opened the required FCRA Account with the designated branch. The treasurer asked whether the organisation could subsequently use another scheduled bank for day-to-day utilisation of the funds because most of its project activities were located in another State.</p>
+
+    <p>The compliance manager explained that the Act permits the organisation to open another FCRA Account with a scheduled bank of its choice for keeping or utilising foreign contribution received through the designated FCRA Account. It may also open one or more utilisation accounts with scheduled banks for utilisation of the contribution.</p>
+
+    <p>However, the Association wanted to use the utilisation account for receiving ₹10 lakh of domestic donations as well. The manager explained that funds other than foreign contribution cannot be deposited in such FCRA utilisation accounts.</p>
+
+    <p>The Board therefore revised its banking structure so that the foreign contribution could be properly routed, tracked and utilised without mixing it with domestic funds.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_medium_12_1",
+            question: "Foreign contribution must initially be received in:",
+            options: [
+                "Any ordinary savings account",
+                "The designated FCRA Account with the specified SBI branch at New Delhi",
+                "The personal account of the treasurer",
+                "The donor's Indian account"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_12_2",
+            question: "After receipt in the designated FCRA Account, the organisation may:",
+            options: [
+                "Transfer funds to permitted FCRA/utilisation accounts with scheduled banks",
+                "Transfer funds to the personal accounts of trustees",
+                "Mix the money with domestic donations",
+                "Transfer the certificate to another NGO"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_12_3",
+            question: "Can domestic donations be deposited into an FCRA utilisation account?",
+            options: [
+                "Yes, without restriction",
+                "No",
+                "Yes, if below ₹10 lakh",
+                "Yes, if approved by the donor"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_12_4",
+            question: "The purpose of the designated FCRA banking mechanism is primarily to:",
+            options: [
+                "Facilitate monitoring and proper routing of foreign contribution",
+                "Avoid maintaining accounts",
+                "Permit personal withdrawals",
+                "Replace annual returns"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_12_5",
+            question: "Which statement is correct?",
+            options: [
+                "Foreign and domestic contributions should be freely mixed",
+                "Foreign contribution must be maintained separately in accordance with FCRA requirements",
+                "FCRA does not regulate bank accounts",
+                "Foreign contribution can be deposited into any personal account"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_medium_13",
+    case_chapter: "fcra",
+    case_topic: ["Prior Permission", "Registration", "Specific Donor", "Specific Purpose"],
+    difficulty: "medium",
+    caseText: `<p>Green Future Foundation is a newly established charitable organisation working in the field of environmental education. It was incorporated only eighteen months ago and therefore did not have the required history and audited financial records ordinarily associated with an established organisation seeking regular FCRA registration.</p>
+
+    <p>A foreign foundation approached Green Future Foundation and offered ₹40 lakh specifically for a project to establish environmental learning centres in three districts. The foreign donor was clearly identified and the proposed amount and purpose were documented in a detailed project proposal.</p>
+
+    <p>The founder initially wanted to apply for full FCRA registration. However, the consultant explained that registration and prior permission operate as two different routes under FCRA. An organisation in its formative stage that does not satisfy the conditions for registration may seek prior permission for receiving a specified contribution from a specified donor for a specified purpose.</p>
+
+    <p>The Foundation prepared the project proposal, including the proposed activities, estimated expenditure, implementation schedule and expected beneficiaries. It also prepared the required application and identification documents of its office bearers and key functionaries.</p>
+
+    <p>One trustee suggested that the Foundation should obtain prior permission for ₹40 lakh and then use any amount received from the donor for other environmental projects if the original project was completed early. The consultant cautioned that prior permission is linked to the specific purpose and specific source for which it is granted.</p>
+
+    <p>The Foundation also discussed whether it could apply repeatedly for the same project immediately if its first application was rejected. The consultant advised the trustees to examine the statutory restrictions regarding making a second application within the prescribed period.</p>
+
+    <p>The trustees therefore decided to prepare the application carefully and ensure that the proposed utilisation remained consistent with the project for which permission was sought.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_medium_13_1",
+            question: "An organisation in its formative stage may generally seek foreign contribution through:",
+            options: [
+                "Prior permission",
+                "Automatic registration",
+                "Political-party approval",
+                "RBI licence only"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_13_2",
+            question: "Prior permission is generally linked to:",
+            options: [
+                "A specific donor/source and specific purpose/amount",
+                "Any donor and any purpose",
+                "Only domestic donors",
+                "Only Government grants"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_13_3",
+            question: "The Foundation should use the contribution:",
+            options: [
+                "For any activity chosen later",
+                "For the specific purpose for which permission was obtained, subject to applicable law",
+                "For personal expenses",
+                "For political campaigning"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_medium_13_4",
+            question: "Which form is generally used for an application for prior permission?",
+            options: [
+                "FC-3B",
+                "FC-3A",
+                "FC-3C",
+                "FC-7"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_13_5",
+            question: "Prior permission differs from registration because:",
+            options: [
+                "Prior permission is tied to the specified contribution, source and purpose",
+                "Prior permission is permanent",
+                "Registration is always for one donor only",
+                "Neither has any validity conditions"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_medium_14",
+    case_chapter: "fcra",
+    case_topic: ["Annual Return", "FC-4", "NIL Return", "Audit"],
+    difficulty: "medium",
+    caseText: `<p>Sahyog Development Association is registered under FCRA and maintains a separate set of books for its foreign contribution. During the financial year, the Association received ₹90 lakh from foreign sources and utilised ₹65 lakh for approved education and healthcare projects. The remaining amount continued to remain in the FCRA account at year-end.</p>
+
+    <p>The accounts department prepared the income and expenditure statement and receipt and payment account but delayed preparing the annual FCRA return because the statutory audit was still being completed. The secretary believed that the annual return could be filed whenever the audit was completed.</p>
+
+    <p>The compliance adviser explained that the FCRA Rules prescribe a specific period for filing the annual return. The return is required to contain relevant financial statements and information regarding receipt and utilisation of foreign contribution.</p>
+
+    <p>The Association's bank also provided a statement showing all receipts and transfers from the exclusive foreign contribution account. The auditor was asked to certify the relevant documents before filing.</p>
+
+    <p>During the year, one project received no foreign contribution at all. The project manager suggested that because that particular project had no receipt, no information concerning it should be included in the Association's overall compliance records.</p>
+
+    <p>The compliance team clarified that the Association's reporting obligations arise at the organisational level and that a NIL return may also be required where no foreign contribution is received during a financial year.</p>
+
+    <p>The Board therefore established an annual compliance process under which the accounts, bank statements, utilisation details and necessary certifications would be prepared well before the statutory deadline.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_medium_14_1",
+            question: "The annual FCRA return is generally filed in:",
+            options: [
+                "Form FC-4",
+                "Form FC-3A",
+                "Form FC-7",
+                "Form FC-2"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_14_2",
+            question: "The annual return generally relates to:",
+            options: [
+                "Receipt and utilisation of foreign contribution",
+                "Only domestic donations",
+                "Only employee salaries",
+                "Only income-tax matters"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_14_3",
+            question: "The annual return is generally required to be filed within:",
+            options: [
+                "Three months of financial year-end",
+                "Six months of financial year-end",
+                "Nine months of financial year-end",
+                "Two years of financial year-end"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fcra_cs_medium_14_4",
+            question: "The annual return is required to be supported by:",
+            options: [
+                "Relevant financial statements and prescribed certifications/documents",
+                "Only an oral statement",
+                "Only the donor's letter",
+                "Only the organisation's brochure"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_14_5",
+            question: "Where no foreign contribution is received during a financial year:",
+            options: [
+                "A NIL report may still be required",
+                "Registration automatically expires",
+                "No records need to be maintained",
+                "The organisation is automatically exempt from FCRA"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_medium_15",
+    case_chapter: "fcra",
+    case_topic: ["Cancellation", "Cooling Period", "Section 14", "Prior Permission"],
+    difficulty: "medium",
+    caseText: `<p>Seva Gram Foundation obtained an FCRA registration several years ago for conducting rural development programmes. Over time, the organisation's activities declined substantially. For two consecutive years, it conducted only a few minor activities and did not undertake any significant programme in the field for which its registration had been granted.</p>
+
+    <p>During a review, the Central Government also noticed that the Foundation had made certain incorrect statements in its original registration application. The management explained that the statements had been made by an earlier office bearer and that the present management had already corrected its internal records.</p>
+
+    <p>The Central Government initiated proceedings for cancellation of the certificate. The Foundation was given an opportunity to explain its position and submitted representations concerning its activities, management changes and corrective measures.</p>
+
+    <p>After considering the matter, the Central Government cancelled the certificate. The trustees immediately sought fresh registration, arguing that the Foundation had now appointed a new governing body and had promised to improve compliance.</p>
+
+    <p>The legal adviser explained that cancellation under Section 14 has a significant consequence: a person whose certificate has been cancelled is subject to a statutory cooling-off period before becoming eligible for registration or prior permission again.</p>
+
+    <p>The trustees therefore asked whether the new management could overcome the cooling period by simply applying under the prior-permission route instead of registration.</p>
+
+    <p>The adviser explained that the cooling-period restriction applies to both registration and grant of prior permission for the specified period following cancellation.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_medium_15_1",
+            question: "Failure to engage in reasonable activity for two consecutive years may:",
+            options: [
+                "Constitute a ground for cancellation",
+                "Automatically grant renewal",
+                "Have no relevance",
+                "Convert the certificate into prior permission"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_15_2",
+            question: "Before cancellation of registration, the person concerned should generally be:",
+            options: [
+                "Given a reasonable opportunity of being heard",
+                "Immediately dissolved",
+                "Transferred to another organisation",
+                "Denied all communication"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_15_3",
+            question: "The cooling-off period following cancellation is generally:",
+            options: [
+                "One year",
+                "Two years",
+                "Three years",
+                "Five years"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fcra_cs_medium_15_4",
+            question: "During the cooling-off period, the person is generally ineligible for:",
+            options: [
+                "Both registration and prior permission",
+                "Only domestic donations",
+                "Only opening a domestic bank account",
+                "Only filing tax returns"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_medium_15_5",
+            question: "Changing the governing body immediately after cancellation:",
+            options: [
+                "Automatically removes the cooling period",
+                "Does not by itself remove the statutory cooling-period restriction",
+                "Automatically restores registration",
+                "Converts cancellation into suspension"
+            ],
+            answer: 1
+        }
+    ]
+},
+{
+    case_id: "fcra_cs_hard_12",
+    case_chapter: "fcra",
+    case_topic: ["Foreign Source", "Indian Company", "Foreign Investment", "Section 2"],
+    difficulty: "hard",
+    caseText: `<p>Alpha Infrastructure Solutions Private Limited is incorporated in India under the Companies Act and is engaged in the development of infrastructure technology. The company has shareholders from India as well as several foreign jurisdictions. During the year, Alpha decided to make a substantial donation to a charitable organisation registered under FCRA.</p>
+
+    <p>The charitable organisation's compliance officer initially refused to accept the donation on the ground that Alpha had foreign shareholders and therefore must necessarily be a foreign source under FCRA. Alpha's finance director disagreed and pointed out that the company was incorporated in India and operated its business primarily from India.</p>
+
+    <p>The parties then examined the statutory definition of foreign source. They discovered that FCRA specifically addresses circumstances in which more than one-half of the nominal value of the share capital of a company is held, either singly or in aggregate, by specified foreign interests. The definition also contains an important proviso relating to foreign investment limits under FEMA.</p>
+
+    <p>Alpha's shareholding pattern showed that foreign investors held 58% of the nominal value of its share capital. However, the investment was within the applicable limits specified for foreign investment under FEMA and the relevant rules and regulations.</p>
+
+    <p>The compliance officer initially argued that the 58% figure alone was decisive. The company's legal adviser pointed out that the statutory proviso must also be considered before reaching a conclusion.</p>
+
+    <p>Meanwhile, another company, Beta Global Services Limited, was incorporated in India and had 55% foreign shareholding. However, the foreign investment exceeded the applicable limits under FEMA. Beta proposed making a similar contribution to an FCRA-registered association.</p>
+
+    <p>The association therefore had to analyse both cases separately rather than applying a simple rule that every Indian company having foreign shareholders is automatically a foreign source.</p>
+
+    <p>The Board asked its legal team to prepare a written opinion distinguishing the two companies based on the statutory definition and the FEMA-related proviso.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_hard_12_1",
+            question: "For determining whether an Indian company falls within the relevant foreign-source provision, the shareholding test refers to:",
+            options: [
+                "More than one-half of the nominal value of share capital held by specified foreign interests, subject to the statutory proviso",
+                "Any foreign shareholder irrespective of percentage",
+                "Only directors' nationality",
+                "Only turnover from foreign countries"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_hard_12_2",
+            question: "In Alpha's case, foreign shareholding of 58% alone:",
+            options: [
+                "Necessarily makes Alpha a foreign source in every case",
+                "Cannot be considered without examining the statutory proviso relating to FEMA foreign investment limits",
+                "Has no relevance whatsoever",
+                "Automatically makes Alpha a foreign company"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_12_3",
+            question: "Where foreign investment is within the limits specified under FEMA, the proviso may result in the company:",
+            options: [
+                "Not being treated as a foreign source notwithstanding the relevant shareholding percentage",
+                "Automatically becoming a foreign company",
+                "Losing Indian incorporation",
+                "Being prohibited from conducting business"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_hard_12_4",
+            question: "Beta's position differs from Alpha primarily because:",
+            options: [
+                "Beta has no shareholders",
+                "The foreign investment exceeds the applicable FEMA limits",
+                "Beta is incorporated in India",
+                "Beta has Indian directors"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_12_5",
+            question: "The correct approach for the FCRA recipient is to:",
+            options: [
+                "Reject every donation from an Indian company having foreign shareholders",
+                "Examine the statutory definition, shareholding and applicable FEMA proviso before classifying the source",
+                "Accept every donation automatically",
+                "Consider only the company's registered office"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_hard_13",
+    case_chapter: "fcra",
+    case_topic: ["Suspension", "Utilisation", "Foreign Contribution", "Section 13"],
+    difficulty: "hard",
+    caseText: `<p>Jeevan Seva Foundation is an FCRA-registered organisation operating hospitals and mobile healthcare units in several rural districts. It has accumulated ₹2.40 crore of unutilised foreign contribution in its FCRA accounts because a major infrastructure project was delayed due to Government approvals and land-related issues.</p>
+
+    <p>During an inspection, the Central Government noticed certain irregularities in the Foundation's accounts and began considering cancellation of its registration. Pending further examination, the Government decided that suspension of the certificate was necessary.</p>
+
+    <p>The Foundation's Chief Executive Officer assumed that suspension merely prevented the Foundation from receiving fresh foreign contribution and that the organisation could freely utilise the ₹2.40 crore already lying in its accounts.</p>
+
+    <p>The legal adviser explained that suspension has consequences not only for receipt of fresh foreign contribution but also for utilisation of foreign contribution already in the custody of the organisation. During suspension, the organisation cannot freely utilise the unutilised amount except in the manner permitted by the Act and Rules and, where required, with prior approval.</p>
+
+    <p>The Foundation applied to the Central Government seeking permission to utilise part of the funds to continue its essential healthcare activities. The compliance team examined the prescribed rule relating to the amount that may be utilised during suspension.</p>
+
+    <p>The Foundation also asked whether the remaining amount could be spent immediately after the first 180-day suspension period if the suspension was extended. The adviser explained that the statutory framework allows suspension for an initial period and may permit a further period subject to the maximum prescribed by law.</p>
+
+    <p>The Foundation prepared a detailed application showing its essential expenditure, the amount of unutilised contribution, project status and the proposed use of funds. It also undertook not to incur expenditure outside its declared objectives during the suspension.</p>
+
+    <p>The Board now wants to understand precisely what happens to receipt and utilisation of foreign contribution during suspension and what portion of the unutilised amount may be used with prior approval.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_hard_13_1",
+            question: "During suspension of an FCRA registration, the organisation generally:",
+            options: [
+                "May freely receive unlimited foreign contribution",
+                "Cannot receive foreign contribution during suspension, subject to the statutory exception where Government permits receipt on specified terms",
+                "Can transfer foreign contribution to any NGO",
+                "Can distribute foreign contribution among trustees"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_13_2",
+            question: "During suspension, utilisation of unspent foreign contribution:",
+            options: [
+                "Is completely unrestricted",
+                "Is subject to the prescribed restrictions and prior approval requirements",
+                "Is automatically converted into domestic funds",
+                "Can be made only for political activities"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_13_3",
+            question: "Under the prescribed rule, the amount of unutilised foreign contribution that may be spent during suspension with prior approval is up to:",
+            options: [
+                "10%",
+                "25%",
+                "50%",
+                "75%"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_13_4",
+            question: "The remaining 75% of unutilised foreign contribution is generally to be utilised:",
+            options: [
+                "Immediately without restriction",
+                "Only after revocation of suspension, subject to the applicable framework",
+                "By transferring it to another association",
+                "By distributing it among employees"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_13_5",
+            question: "The initial suspension period under Section 13 is:",
+            options: [
+                "90 days",
+                "180 days",
+                "365 days",
+                "Five years"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_hard_14",
+    case_chapter: "fcra",
+    case_topic: ["Appeal", "Revision", "Section 31", "Section 32"],
+    difficulty: "hard",
+    caseText: `<p>Centre for Social Research and Development is an FCRA-registered organisation that received a notice concerning cancellation of its registration. After considering the organisation's explanation, the Central Government passed an order cancelling the registration.</p>
+
+    <p>The organisation's governing body immediately considered its legal remedies. One member suggested filing a revision application before the Central Government. Another argued that an appeal should be filed before the High Court. A third member believed that the organisation could wait indefinitely before choosing a remedy.</p>
+
+    <p>The legal adviser explained that FCRA contains separate provisions governing appeals and revision. The appropriate remedy depends upon the nature of the order and the authority that passed it. Certain orders made by the Central Government may be challenged before the High Court by the persons or organisations specified in Section 31.</p>
+
+    <p>The adviser also explained that an appeal against certain orders must be filed within the prescribed period. For orders covered by Section 31(2), the relevant appeal to the High Court is required within sixty days from the date of the order.</p>
+
+    <p>The governing body then asked whether revision could be used without regard to the availability of an appeal. The adviser explained that Section 32 contains specific rules governing the Central Government's revisional jurisdiction, including restrictions where an appeal lies and the prescribed period for invoking revision.</p>
+
+    <p>The organisation's counsel discovered that the cancellation order had been communicated 70 days earlier. The Board initially assumed that because the normal appeal period had passed, revision would automatically become available without any further conditions.</p>
+
+    <p>The counsel explained that revision is not simply a substitute for every missed appeal and that the statutory conditions and time limits must be examined. An application for revision by a registered person is generally required within one year from the relevant date, subject to the statutory provisions concerning sufficient cause.</p>
+
+    <p>The Board therefore decided to examine the precise nature of the cancellation order, the applicable appellate remedy, the limitation period and whether any sufficient cause existed for delay.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_hard_14_1",
+            question: "An organisation aggrieved by certain Central Government orders under Section 31(2) may appeal to:",
+            options: [
+                "The High Court having the prescribed territorial jurisdiction",
+                "The RBI",
+                "The District Collector",
+                "The Income Tax Appellate Tribunal"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_hard_14_2",
+            question: "The appeal under Section 31(2) is generally required within:",
+            options: [
+                "30 days",
+                "45 days",
+                "60 days",
+                "180 days"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fcra_cs_hard_14_3",
+            question: "Revision under Section 32 may be exercised by the Central Government:",
+            options: [
+                "Only when no appeal is ever available",
+                "Subject to the statutory conditions and restrictions contained in Section 32",
+                "Only by foreign donors",
+                "Only by the High Court"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_14_4",
+            question: "An application for revision by a registered person is generally required within:",
+            options: [
+                "30 days",
+                "60 days",
+                "Six months",
+                "One year"
+            ],
+            answer: 3
+        },
+        {
+            question_id: "fcra_cs_hard_14_5",
+            question: "Revision should not be viewed as:",
+            options: [
+                "A statutory remedy subject to conditions",
+                "An automatic substitute for every appeal that was not filed in time",
+                "A mechanism under Section 32",
+                "A remedy involving examination of the relevant proceedings"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_hard_15",
+    case_chapter: "fcra",
+    case_topic: ["Offences by Companies", "Section 39", "Liability", "Due Diligence"],
+    difficulty: "hard",
+    caseText: `<p>HealthReach Foundation is organised as a company and holds an FCRA registration for receiving foreign contribution for healthcare projects. During a regulatory inspection, it was discovered that the company had accepted and utilised foreign contribution in contravention of certain provisions of the Act.</p>
+
+    <p>The investigation identified the Managing Director, Finance Director and Compliance Officer as the persons who were in charge of different aspects of the company's operations. The prosecution proposed proceedings against the company as well as the individuals who were responsible for the conduct of its business at the relevant time.</p>
+
+    <p>The Managing Director argued that only the company could be prosecuted because the foreign contribution was received in the company's name. The Finance Director argued that he should not be personally liable because he had not personally received any money from the foreign donor.</p>
+
+    <p>The Compliance Officer produced internal emails showing that she had repeatedly warned the management about the proposed transaction and had recommended that the transaction not be executed until legal clearance was obtained. She claimed that the final transaction had been approved by senior management despite her objections.</p>
+
+    <p>The legal adviser explained that Section 39 contains a specific framework for offences committed by companies. A company as well as persons who were in charge of and responsible for the conduct of the company's business at the relevant time may be deemed guilty, subject to the statutory defence available to an individual who establishes that the offence was committed without his knowledge or that he exercised due diligence to prevent its commission.</p>
+
+    <p>The investigation also found that a director had personally instructed employees to proceed with the transaction despite knowing that the compliance team had objected. Evidence suggested that the transaction was carried out with his consent and involvement.</p>
+
+    <p>The Board therefore had to distinguish between mere designation as an officer, actual responsibility for the conduct of business, lack of knowledge, due diligence, and actual consent or connivance in the commission of the offence.</p>
+
+    <p>The company's legal team began collecting board minutes, emails, internal compliance reports and approval records to determine the responsibility of each person involved rather than assuming that all officers would automatically have identical liability.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_hard_15_1",
+            question: "Where an offence under FCRA is committed by a company, liability may extend to:",
+            options: [
+                "Only the company",
+                "The company and persons who were in charge of and responsible for the conduct of its business, subject to statutory defences",
+                "Only the foreign donor",
+                "Only the auditor"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_15_2",
+            question: "An individual may avoid punishment under the relevant statutory framework if he proves:",
+            options: [
+                "He was not a shareholder",
+                "The offence occurred without his knowledge or that he exercised due diligence to prevent it",
+                "He received a domestic donation",
+                "He had worked for the company for less than one year"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_15_3",
+            question: "Mere absence of personal receipt of foreign funds by the Finance Director:",
+            options: [
+                "Automatically makes him immune from liability",
+                "Does not by itself determine liability under Section 39",
+                "Automatically transfers liability to the donor",
+                "Makes the company immune"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_15_4",
+            question: "Evidence that a director knowingly instructed employees to proceed despite compliance objections may establish:",
+            options: [
+                "Lack of knowledge",
+                "Consent or connivance relevant to statutory liability",
+                "Automatic exemption",
+                "Foreign hospitality"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_15_5",
+            question: "The Compliance Officer's strongest defence would involve proving:",
+            options: [
+                "She owned no shares",
+                "The offence was committed without her knowledge or that she exercised due diligence to prevent it",
+                "She was appointed recently",
+                "She had travelled abroad"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "fcra_cs_hard_16",
+    case_chapter: "fcra",
+    case_topic: ["Confiscation", "Adjudication", "Appeal", "Section 28-31"],
+    difficulty: "hard",
+    caseText: `<p>National Heritage Preservation Society is an FCRA-registered association engaged in preservation of historical monuments and cultural education. During an investigation, an authorised officer seized certain foreign currency, securities and articles from the Society on the suspicion that they had been received in contravention of the FCRA provisions.</p>
+
+    <p>The Society's president immediately demanded that all seized items be returned because, according to him, seizure itself did not establish that the Society had violated the law. The investigating authority agreed that seizure and confiscation were legally distinct stages and that confiscation would depend upon adjudication in accordance with the Act.</p>
+
+    <p>The matter was therefore placed before the competent adjudicating authority. The Society was informed that before an order of confiscation could be passed, it would be given a reasonable opportunity to make a representation concerning the seized article, currency or security.</p>
+
+    <p>The total value of the seized currency and articles was ₹7.50 lakh. The Society's counsel examined which authority could adjudge confiscation at this value. The legal team referred to the statutory provisions and the applicable Rules concerning the monetary limit within which an officer specified by the Central Government may adjudge confiscation.</p>
+
+    <p>The adjudicating authority ultimately passed an order directing confiscation of the seized property. The Society was aggrieved and wanted to challenge the order immediately.</p>
+
+    <p>The counsel explained that the appellate forum depends upon the authority that passed the adjudication order. Where the order is passed by the Court of Session, the appeal lies to the High Court to which that Court is subordinate. Where the order is passed by the specified officer, the appeal lies to the Court of Session within whose local jurisdiction the adjudication order was made.</p>
+
+    <p>The Society also learned that the statutory appeal has to be filed within one month from communication of the order, although the appellate court may allow a further period of one month in appropriate circumstances.</p>
+
+    <p>The governing body therefore decided to immediately obtain a certified copy of the order, determine the adjudicating authority, calculate the limitation period and prepare its grounds of appeal.</p>`,
+
+    questions: [
+        {
+            question_id: "fcra_cs_hard_16_1",
+            question: "Seizure of an article, currency or security under FCRA:",
+            options: [
+                "Automatically means final confiscation",
+                "Does not by itself establish final confiscation; confiscation is subject to adjudication",
+                "Automatically transfers ownership to the donor",
+                "Has no legal significance"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_16_2",
+            question: "Before passing an order of confiscation, the person concerned should be:",
+            options: [
+                "Given a reasonable opportunity to make a representation",
+                "Denied any hearing",
+                "Required to leave the country",
+                "Asked to obtain donor consent"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "fcra_cs_hard_16_3",
+            question: "Under the prescribed Rule referred to in the chapter, an officer specified under Section 29(1)(b) may adjudge confiscation where the value does not exceed:",
+            options: [
+                "₹1 lakh",
+                "₹5 lakh",
+                "₹10 lakh",
+                "₹50 lakh"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "fcra_cs_hard_16_4",
+            question: "Where confiscation is ordered by a specified officer under Section 29(1)(b), appeal generally lies to:",
+            options: [
+                "The High Court directly",
+                "The Court of Session having the relevant local jurisdiction",
+                "RBI",
+                "The Central Government only"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "fcra_cs_hard_16_5",
+            question: "An appeal against an order under Section 29 is generally to be preferred within:",
+            options: [
+                "One month from communication of the order",
+                "Six months",
+                "One year",
+                "Three years"
+            ],
+            answer: 0
+        }
+    ]
 }
 ];
