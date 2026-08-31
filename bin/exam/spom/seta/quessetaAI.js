@@ -29037,5 +29037,3766 @@ const AICaseStudies = [
             answer: 0
         }
     ]
-}
+},
+
+// CHapter IBC
+
+/* ============================================================
+   IBC – MEDIUM CASE SCENARIOS
+============================================================ */
+
+{
+    case_id: "ibc_cs_medium_1",
+    case_chapter: "ibc",
+    case_topic: ["Insolvency", "Default", "Financial Debt", "Operational Debt"],
+    difficulty: "medium",
+
+    caseText: `<p>Orion Infrastructure Limited is engaged in the development of commercial buildings and infrastructure projects. Over the last two years, the company expanded aggressively and raised funds from several sources. It obtained a term loan of ₹18 crore from Zenith Bank, issued secured debentures of ₹7 crore to institutional investors and also received advances from customers for its ongoing commercial project.</p>
+
+    <p>Initially, the company was able to meet its repayment obligations regularly. However, a major project was delayed because of regulatory approvals and construction-related difficulties. As a result, expected cash inflows were postponed. The company continued to receive revenue from certain completed portions of the project, but the timing of these receipts did not match the repayment schedule of its lenders.</p>
+
+    <p>Zenith Bank issued a demand notice after an instalment of ₹2.40 crore became due and remained unpaid. The bank's records showed that the loan had been disbursed against an obligation to pay interest and was therefore connected with the time value of money. The company, however, argued that the delay was temporary and that the bank should wait until the project generated sufficient cash flows.</p>
+
+    <p>At the same time, Nova Steel Suppliers, which had supplied construction material to Orion Infrastructure Limited, claimed ₹1.15 crore towards unpaid invoices. The supplier contended that its claim arose from the provision of goods and therefore represented an operational debt. Orion did not dispute that the material had been supplied but stated that it was facing temporary liquidity problems.</p>
+
+    <p>The company's finance team explained to the Board that insolvency is a state associated with inability to pay debts when they become due, whereas bankruptcy and liquidation represent later legal consequences depending upon the nature of the debtor and the process adopted. The Board therefore decided to examine the nature of each liability, determine whether a default had occurred and assess whether the company could seek a resolution rather than merely treating the proceedings as an ordinary debt recovery exercise.</p>
+
+    <p>After reviewing the financial records, the directors concluded that the company had failed to make payment of debts that had become due and payable. They therefore engaged insolvency professionals to understand the consequences of the default and the possible corporate insolvency resolution process under the Code.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_1_1",
+            question: "The term loan obtained by Orion Infrastructure Limited from Zenith Bank would generally constitute:",
+            options: [
+                "Operational debt",
+                "Financial debt",
+                "Equity contribution",
+                "Contingent claim only"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_1_2",
+            question: "The unpaid amount claimed by Nova Steel Suppliers primarily represents:",
+            options: [
+                "Financial debt",
+                "Operational debt",
+                "Share capital",
+                "Financial service"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_1_3",
+            question: "Under the Code, default essentially refers to:",
+            options: [
+                "Reduction in market value of shares",
+                "Non-payment of debt when the debt has become due and payable",
+                "Loss incurred by the corporate debtor",
+                "Failure to earn sufficient profit"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_1_4",
+            question: "Which statement best describes insolvency in the context of the case?",
+            options: [
+                "It is necessarily the same as liquidation",
+                "It is a state associated with inability to pay debts when due",
+                "It can arise only after a bankruptcy order",
+                "It applies only to individuals"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_1_5",
+            question: "The objective of the IBC is primarily to:",
+            options: [
+                "Provide a mechanism only for recovery of every outstanding debt",
+                "Facilitate time-bound insolvency resolution and value maximisation",
+                "Ensure that every corporate debtor is liquidated",
+                "Protect only financial creditors"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_medium_2",
+    case_chapter: "ibc",
+    case_topic: ["Corporate Person", "Applicability", "Financial Service Provider", "Section 2"],
+    difficulty: "medium",
+
+    caseText: `<p>Bluecrest Group operates several businesses through separate entities. Bluecrest Manufacturing Limited is incorporated under the Companies Act, 2013 and manufactures industrial equipment. Bluecrest Leasing LLP is registered under the Limited Liability Partnership Act, 2008 and provides leasing services to manufacturing businesses. A third entity, Bluecrest Finance Limited, is registered with the appropriate financial sector regulator and carries on the business of providing financial services.</p>
+
+    <p>Due to a prolonged decline in demand, Bluecrest Manufacturing Limited accumulated substantial unpaid liabilities. Its lenders advised the management to examine whether the Insolvency and Bankruptcy Code could be invoked against the company. The management agreed because the entity was a company incorporated under the Companies Act and therefore fell within the class of entities to which the Code could apply.</p>
+
+    <p>The situation concerning Bluecrest Leasing LLP was also examined. The legal adviser explained that an LLP is a corporate person for purposes of the Code and may therefore fall within the statutory framework subject to the applicable provisions.</p>
+
+    <p>However, the position of Bluecrest Finance Limited required separate consideration. The company was engaged in financial services and was regulated by a financial sector regulator. The directors initially assumed that because it was incorporated as a company, it would automatically be treated in exactly the same manner as an ordinary manufacturing company under the corporate insolvency provisions.</p>
+
+    <p>The legal adviser explained that the definition of corporate person excludes financial service providers. However, the Code contains a special enabling provision under which the Central Government may notify financial service providers for the purpose of insolvency and liquidation proceedings in consultation with the appropriate financial sector regulator.</p>
+
+    <p>The Board therefore decided not to treat all three entities identically. It directed the legal department to determine the statutory status of each entity, examine whether the Code applied to it and identify any special notification governing financial service providers.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_2_1",
+            question: "Bluecrest Manufacturing Limited is generally covered by the Code because it is:",
+            options: [
+                "A company incorporated under the Companies Act",
+                "A financial service provider",
+                "A partnership firm",
+                "A natural person"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_2_2",
+            question: "An LLP such as Bluecrest Leasing LLP can fall within the definition of:",
+            options: [
+                "Corporate person",
+                "Natural person only",
+                "Financial creditor only",
+                "Adjudicating Authority"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_2_3",
+            question: "A corporate person under the Code does not ordinarily include:",
+            options: [
+                "A company",
+                "An LLP",
+                "A person incorporated with limited liability",
+                "A financial service provider"
+            ],
+            answer: 3
+        },
+        {
+            question_id: "ibc_cs_medium_2_4",
+            question: "Section 227 is relevant because it enables the Central Government to:",
+            options: [
+                "Abolish NCLT",
+                "Notify certain financial service providers for insolvency and liquidation proceedings",
+                "Convert every LLP into a company",
+                "Cancel all financial debts"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_2_5",
+            question: "Which authority is the Adjudicating Authority for corporate persons?",
+            options: [
+                "DRT",
+                "NCLT",
+                "RBI",
+                "IBBI"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_medium_3",
+    case_chapter: "ibc",
+    case_topic: ["CIRP", "NCLT", "Moratorium", "Resolution"],
+    difficulty: "medium",
+
+    caseText: `<p>Vertex Engineering Limited had been operating as a going concern for more than fifteen years. The company manufactured specialised components for automobile manufacturers and employed more than 1,000 workers. Although the business remained commercially viable, a sudden decline in orders and delays in receivables caused a serious mismatch between cash inflows and payment obligations.</p>
+
+    <p>The company defaulted on a financial debt owed to a consortium of banks. The lenders initially attempted restructuring outside the insolvency framework, but the negotiations failed. One of the financial creditors eventually decided to approach the National Company Law Tribunal seeking initiation of the corporate insolvency resolution process.</p>
+
+    <p>The management of Vertex opposed the application on the ground that the company still owned substantial machinery, land and intellectual property and therefore could not be regarded as a failed business. The lenders responded that the existence of valuable assets does not by itself eliminate a default where an amount that has become due and payable remains unpaid.</p>
+
+    <p>After the application was admitted, the company entered the corporate insolvency resolution process. An insolvency professional was appointed and the management's control over the affairs of the corporate debtor changed in accordance with the statutory framework. The creditors were informed about the commencement of the process and the company was expected to continue operating as a going concern.</p>
+
+    <p>The legal department explained to the management that the commencement of CIRP also results in a moratorium. During the moratorium, specified proceedings against the corporate debtor are stayed so that the insolvency process can proceed without individual enforcement actions disrupting the collective process.</p>
+
+    <p>The creditors thereafter examined various alternatives. Some lenders supported a restructuring plan, while others believed that liquidation would produce better value. The resolution professional collected claims, constituted the Committee of Creditors and placed viable resolution proposals before the creditors for consideration.</p>
+
+    <p>The Board understood that the central objective was not merely to recover money for one creditor but to attempt resolution of the corporate debtor and maximise value while balancing stakeholder interests.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_3_1",
+            question: "The Adjudicating Authority for CIRP of Vertex Engineering Limited is:",
+            options: [
+                "NCLT",
+                "DRT",
+                "DRAT",
+                "High Court in every case"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_3_2",
+            question: "CIRP commences from:",
+            options: [
+                "The date on which negotiations begin",
+                "The date of default only",
+                "The date of admission of the application by the Adjudicating Authority",
+                "The date on which the first creditor issues a reminder"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "ibc_cs_medium_3_3",
+            question: "The principal purpose of the moratorium is to:",
+            options: [
+                "Automatically extinguish all debts",
+                "Provide a calm period by restricting specified proceedings against the corporate debtor",
+                "Transfer ownership to shareholders",
+                "Cancel all security interests permanently"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_3_4",
+            question: "The Committee of Creditors primarily evaluates:",
+            options: [
+                "Only employee salaries",
+                "Resolution proposals and the viability of resolving the corporate debtor",
+                "Only tax returns",
+                "The personal assets of shareholders"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_3_5",
+            question: "The IBC is not intended to function primarily as:",
+            options: [
+                "A resolution framework",
+                "A value-maximisation mechanism",
+                "A recovery mechanism for an individual creditor",
+                "A framework for insolvency resolution"
+            ],
+            answer: 2
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_medium_4",
+    case_chapter: "ibc",
+    case_topic: ["Definitions", "Claim", "Debt", "Creditor"],
+    difficulty: "medium",
+
+    caseText: `<p>Evergreen Foods Limited entered into several commercial arrangements with different parties. It purchased raw materials from Sunrise Agro Traders on credit, borrowed money from National Commercial Bank and entered into an agreement with a logistics company for transportation services. After a sudden disruption in its supply chain, Evergreen Foods failed to make several payments.</p>
+
+    <p>Sunrise Agro Traders claimed ₹85 lakh for raw materials supplied during the previous financial year. The company acknowledged the delivery of the goods but disputed the quality of a portion of the material. Sunrise argued that even though Evergreen disputed part of the amount, the underlying right to payment constituted a claim under the Code.</p>
+
+    <p>National Commercial Bank claimed ₹12 crore under a loan agreement. The loan had been disbursed against payment of interest and was therefore clearly connected with the time value of money. The bank accordingly considered itself a financial creditor in respect of the financial debt.</p>
+
+    <p>The logistics company claimed ₹28 lakh for transportation services provided to Evergreen. Its legal adviser explained that a claim arising from the provision of services falls within the concept of operational debt.</p>
+
+    <p>During the internal review, the finance department noticed that some claims were disputed, while others had already matured. The insolvency professional explained that the statutory concept of claim is broad and can include rights to payment even when such rights are disputed, unmatured, secured or unsecured, subject to the requirements of the Code.</p>
+
+    <p>The Board therefore instructed the finance team to classify each liability correctly instead of assuming that every creditor has the same status. The company also understood that the distinction between financial creditors and operational creditors can become important during insolvency proceedings.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_4_1",
+            question: "Sunrise Agro Traders' claim for raw materials supplied is generally:",
+            options: [
+                "Financial debt",
+                "Operational debt",
+                "Equity",
+                "Share capital"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_4_2",
+            question: "National Commercial Bank is a:",
+            options: [
+                "Financial creditor",
+                "Operational creditor",
+                "Resolution applicant automatically",
+                "Liquidator"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_4_3",
+            question: "A claim under the Code may include a right to payment which is:",
+            options: [
+                "Only undisputed",
+                "Only secured",
+                "Only matured",
+                "Disputed or undisputed, secured or unsecured, subject to the Code"
+            ],
+            answer: 3
+        },
+        {
+            question_id: "ibc_cs_medium_4_4",
+            question: "The logistics company's dues arise primarily from:",
+            options: [
+                "Provision of services",
+                "Issue of debentures",
+                "Time value of money",
+                "Share subscription"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_4_5",
+            question: "Debt under the Code includes:",
+            options: [
+                "Only financial debt",
+                "Only operational debt",
+                "Financial debt and operational debt",
+                "Only secured loans"
+            ],
+            answer: 2
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_medium_5",
+    case_chapter: "ibc",
+    case_topic: ["Institutions", "IBBI", "IPA", "IP", "Information Utility"],
+    difficulty: "medium",
+
+    caseText: `<p>Meridian Textiles Limited experienced financial distress after a major export customer failed to make timely payments. The company's lenders wanted to initiate insolvency proceedings and therefore required reliable information regarding outstanding loans, security interests, payment schedules and defaults.</p>
+
+    <p>The legal adviser explained that the insolvency ecosystem established under the Code consists of several institutional components. The National Company Law Tribunal acts as the Adjudicating Authority for corporate insolvency matters. The Insolvency and Bankruptcy Board of India acts as the regulator. Insolvency professionals undertake important functions in the resolution process, while insolvency professional agencies provide the professional regulatory framework for their members. Information utilities support the electronic collection and dissemination of financial information relevant to insolvency proceedings.</p>
+
+    <p>Meridian's Board initially assumed that the insolvency professional would act as an employee of the NCLT. The adviser clarified that an insolvency professional is a regulated professional registered with the Board after being enrolled with an insolvency professional agency and plays a key role in conducting insolvency processes under the Code.</p>
+
+    <p>The lenders also approached an information utility to verify records concerning the loans and defaults. The finance team learned that information utilities are intended to collect, collate, authenticate and disseminate financial information so that insolvency proceedings can operate on a reliable information base.</p>
+
+    <p>During a subsequent meeting, the Board discussed the role of IBBI. It was explained that the Board regulates major components of the insolvency ecosystem, including insolvency professional agencies and insolvency professionals, and has statutory powers relating to the administration and regulation of the insolvency framework.</p>
+
+    <p>Meridian therefore decided to coordinate with the appropriate insolvency professional, verify the information available through the relevant institutional framework and ensure that the company's records were properly maintained for the insolvency process.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_5_1",
+            question: "The principal regulator under the IBC ecosystem is:",
+            options: [
+                "NCLT",
+                "IBBI",
+                "NCLAT",
+                "DRT"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_5_2",
+            question: "An Insolvency Professional is required to be registered with:",
+            options: [
+                "NCLT only",
+                "IBBI as an insolvency professional",
+                "RBI only",
+                "The Ministry of Finance only"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_5_3",
+            question: "Information utilities primarily deal with:",
+            options: [
+                "Physical liquidation of assets",
+                "Collection, collation, authentication and dissemination of financial information",
+                "Appointment of judges",
+                "Granting bank loans"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_5_4",
+            question: "Insolvency Professional Agencies primarily:",
+            options: [
+                "Act as appellate tribunals",
+                "Develop professional standards and act as a regulatory limb for insolvency professionals",
+                "Replace NCLT",
+                "Provide government guarantees"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_5_5",
+            question: "Which of the following is one of the institutional pillars of the IBC framework?",
+            options: [
+                "Information utilities",
+                "Only commercial banks",
+                "Only shareholders",
+                "Only tax authorities"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+
+/* ============================================================
+   IBC – HARD CASE SCENARIOS
+============================================================ */
+
+{
+    case_id: "ibc_cs_hard_1",
+    case_chapter: "ibc",
+    case_topic: ["Financial Debt", "Guarantee", "Default", "Creditor Classification"],
+    difficulty: "hard",
+
+    caseText: `<p>Arclight Power Systems Limited operates a large renewable-energy equipment manufacturing facility. To finance expansion, the company entered into a complex financing arrangement with Meridian Financial Bank. The arrangement consisted of a term loan, a letter of credit facility and a guarantee-backed working capital facility. The financing documents contained several interlinked obligations and required Arclight to maintain specified financial ratios and make periodic payments.</p>
+
+    <p>During the first three years, Arclight complied with its repayment obligations. Subsequently, the company suffered a significant decline in orders. Although it continued manufacturing operations, cash collections were substantially delayed. A loan instalment of ₹6 crore became due and payable on 15 July and remained unpaid.</p>
+
+    <p>Meridian Financial Bank considered whether the entire exposure constituted financial debt. The bank's legal adviser explained that financial debt is not limited merely to traditional term loans. The statutory definition includes several categories of transactions involving the time value of money, including money borrowed against interest, certain acceptance credit facilities, debt securities and specified guarantee or indemnity obligations.</p>
+
+    <p>Arclight also had an outstanding amount under a documentary letter of credit issued by another financial institution. The company argued that because the underlying transaction related to purchase of raw materials, the entire liability should automatically be treated as operational debt. The bank disagreed and advised that the classification must be examined by reference to the statutory definition and nature of the financial arrangement rather than merely the commercial purpose for which the funds or instrument were used.</p>
+
+    <p>At the same time, Arclight's promoter had furnished a personal guarantee in favour of the bank. When the company defaulted, the bank considered initiating proceedings against the corporate debtor as well as examining the consequences of the personal guarantee.</p>
+
+    <p>The Board was confused because one director believed that the existence of substantial physical assets meant that no default could exist. The bank's adviser clarified that default under the Code is concerned with non-payment of debt when it has become due and payable. The mere existence of assets does not, by itself, erase a default.</p>
+
+    <p>The lenders therefore prepared a detailed classification statement identifying the term loan, letter of credit obligations, guarantee-related liabilities and other claims. They also examined the relevant provisions concerning financial debt, financial creditors, corporate debtors and personal guarantors before deciding upon the appropriate insolvency proceedings.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_1_1",
+            question: "Which factor is most relevant in determining whether a debt falls within financial debt?",
+            options: [
+                "Whether the debtor owns land",
+                "Whether the debt is disbursed against consideration for the time value of money or otherwise falls within Section 5(8)",
+                "Whether the debtor is profitable",
+                "Whether the debt is recorded as an expense"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_1_2",
+            question: "Which of the following can fall within financial debt under the statutory definition?",
+            options: [
+                "Only cash loans",
+                "Certain guarantee or indemnity liabilities relating to specified financial obligations",
+                "Only trade purchases",
+                "Only unpaid employee salary"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_1_3",
+            question: "Arclight's ownership of substantial assets:",
+            options: [
+                "Automatically prevents the existence of default",
+                "Does not by itself prevent a default if a debt has become due and remains unpaid",
+                "Automatically converts the debt into equity",
+                "Makes the creditor an operational creditor"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_1_4",
+            question: "The promoter who furnished a personal guarantee to the corporate debtor's creditor may be regarded as:",
+            options: [
+                "A personal guarantor",
+                "A financial service provider",
+                "An information utility",
+                "A liquidator"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_1_5",
+            question: "The most appropriate approach of the lenders is to:",
+            options: [
+                "Classify every liability as operational debt because it relates to business",
+                "Examine each liability against the statutory definitions and nature of the underlying transaction",
+                "Treat every liability as equity",
+                "Ignore the financing documents"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_hard_2",
+    case_chapter: "ibc",
+    case_topic: ["Related Party", "Voting Share", "Financial Creditor", "CoC"],
+    difficulty: "hard",
+
+    caseText: `<p>Helios Consumer Products Limited was undergoing financial stress after a failed expansion into an overseas market. The company had borrowed substantial amounts from institutional lenders and had also obtained financing from several entities connected with its promoter group.</p>
+
+    <p>Among the lenders was Zenith Holdings Private Limited. Zenith Holdings was a private company in which one of the directors of Helios Consumer Products Limited was also a director. The director and his relatives collectively held more than two per cent of Zenith Holdings' share capital. Another creditor, Orion Ventures Limited, was a company in which Helios Consumer Products Limited held more than twenty per cent of the voting rights. A third entity had several common directors with Helios and regularly acted on instructions of Helios' managing director in its ordinary course of business.</p>
+
+    <p>When the corporate insolvency resolution process commenced, questions arose regarding the classification of these entities as related parties. Certain creditors argued that because they had actually advanced money to Helios, they should automatically receive the same treatment as completely independent financial creditors for every purpose.</p>
+
+    <p>The resolution professional examined the statutory definition of related party. The definition covers a wide range of relationships, including directors and their relatives, certain companies in which specified directors or managers hold shares, holding and subsidiary relationships, persons exercising specified voting control and persons connected through board composition, policy-making participation or managerial relationships.</p>
+
+    <p>The resolution professional also had to determine the voting share of each financial creditor. One lender believed that every financial creditor should have one equal vote regardless of the amount of financial debt owed to it. The professional explained that voting share is based on the proportion of financial debt owed to a financial creditor in relation to the total financial debt owed by the corporate debtor to the financial creditors comprising the Committee of Creditors.</p>
+
+    <p>The matter became particularly contentious because some lenders wanted a resolution plan approved quickly while others demanded liquidation. The professional therefore prepared a detailed statement showing the debt owed to each financial creditor, the nature of the relationship with the corporate debtor and the corresponding voting share.</p>
+
+    <p>The Board of Helios realised that merely looking at the label attached to a creditor was insufficient. The legal consequences depended upon the statutory relationship between the creditor and the corporate debtor and the amount of financial debt forming the basis of voting rights.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_2_1",
+            question: "A private company in which a director of the corporate debtor is a director and holds, along with relatives, more than two per cent of its share capital can fall within:",
+            options: [
+                "Related party",
+                "Adjudicating Authority",
+                "Information Utility",
+                "Resolution Professional"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_2_2",
+            question: "A person controlling more than twenty per cent of voting rights in the corporate debtor may fall within the statutory concept of:",
+            options: [
+                "Related party",
+                "Operational debt",
+                "Financial service",
+                "Liquidation estate"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_2_3",
+            question: "Voting share of a financial creditor is principally based on:",
+            options: [
+                "Number of directors nominated by the creditor",
+                "Proportion of financial debt owed to that creditor compared with total financial debt",
+                "Number of shares held by the creditor in the corporate debtor",
+                "Age of the loan"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_2_4",
+            question: "Which approach is incorrect?",
+            options: [
+                "Examining statutory relationships for determining related-party status",
+                "Calculating voting share based on financial debt",
+                "Assuming every creditor has one equal vote irrespective of financial debt",
+                "Examining common control and management relationships"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "ibc_cs_hard_2_5",
+            question: "The resolution professional's classification exercise is important because:",
+            options: [
+                "All creditors have identical rights regardless of classification",
+                "Statutory classification can affect treatment and voting within the insolvency framework",
+                "Only shareholders can vote in CIRP",
+                "Related-party status is irrelevant to insolvency proceedings"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_hard_3",
+    case_chapter: "ibc",
+    case_topic: ["Avoidance Transactions", "Preferential Transactions", "Undervalued Transactions", "Fraudulent Trading"],
+    difficulty: "hard",
+
+    caseText: `<p>Silver Oak Engineering Limited had been facing financial difficulties for almost a year before commencement of its corporate insolvency resolution process. During this period, several transactions were entered into by the company's management. The transactions were not initially disclosed to the lenders in full and came to light only after the resolution professional obtained access to the company's detailed books and bank statements.</p>
+
+    <p>The first transaction involved the repayment of a large outstanding amount to a company controlled by a relative of one of Silver Oak's directors shortly before the commencement of CIRP. The payment was made even though several independent creditors remained unpaid for much longer periods.</p>
+
+    <p>The second transaction involved the transfer of a valuable parcel of land to an entity connected with the promoters for a consideration substantially below its fair value. The directors argued that the company urgently needed liquidity and that the transaction was commercially necessary.</p>
+
+    <p>The third transaction involved a series of agreements under which the company's assets were transferred in a manner that appeared designed to place them beyond the reach of creditors. The documents showed that the parties involved had knowledge of the company's financial distress.</p>
+
+    <p>The fourth transaction related to financing obtained by the company on extremely onerous terms. The interest and repayment obligations were substantially disproportionate to the amount received and the commercial circumstances surrounding the transaction. The resolution professional therefore examined whether the arrangement could fall within the provisions concerning extortionate credit transactions.</p>
+
+    <p>While examining the affairs of the company, the resolution professional also found evidence suggesting that certain directors had continued entering into transactions despite knowing that the business had no reasonable prospect of recovery and that such conduct could prejudice creditors.</p>
+
+    <p>The Committee of Creditors asked the resolution professional whether all these transactions could simply be cancelled internally. The professional explained that the Code contains specific statutory provisions concerning avoidance transactions and fraudulent or wrongful trading. The insolvency professional or liquidator is required to examine the transactions, form the appropriate opinion and take the prescribed action before the Adjudicating Authority.</p>
+
+    <p>The professional therefore separated the transactions into appropriate categories and began preparing the necessary applications before the NCLT. The Board was also informed that the legal character of a transaction must be determined from the facts and statutory requirements rather than merely from the description given by the parties.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_3_1",
+            question: "Repayment to a connected creditor shortly before CIRP, while other creditors remain unpaid, may require examination under provisions relating to:",
+            options: [
+                "Preferential transactions",
+                "Voluntary liquidation only",
+                "Financial service providers",
+                "Fresh start process"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_3_2",
+            question: "Transfer of valuable property for substantially less than its value may require examination as:",
+            options: [
+                "An undervalued transaction",
+                "A financial debt",
+                "A voting share",
+                "A moratorium"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_3_3",
+            question: "An arrangement involving extremely onerous credit terms may fall for examination under provisions relating to:",
+            options: [
+                "Extortionate credit transactions",
+                "Operational creditors only",
+                "Information utilities",
+                "Appellate jurisdiction"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_3_4",
+            question: "Transactions designed to defeat or prejudice creditors may require examination under provisions concerning:",
+            options: [
+                "Transactions defrauding creditors",
+                "Fresh start process",
+                "Financial service providers",
+                "Voting share"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_3_5",
+            question: "Evidence that directors continued business activities despite knowing that the business had no reasonable prospect of recovery may raise issues concerning:",
+            options: [
+                "Fraudulent or wrongful trading",
+                "Only operational debt",
+                "Only financial debt",
+                "Information utility registration"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_hard_4",
+    case_chapter: "ibc",
+    case_topic: ["Section 238", "CIRP", "Liquidation", "Government Dues"],
+    difficulty: "hard",
+
+    caseText: `<p>Eastern Minerals Limited was admitted into the corporate insolvency resolution process after it defaulted on substantial financial obligations. The company owned mining equipment, land, buildings, inventories and several contractual receivables. Various government authorities also claimed substantial amounts from the company towards statutory dues.</p>
+
+    <p>During CIRP, one State authority asserted that its statutory dues constituted a first charge over certain assets of Eastern Minerals under the applicable State legislation. The authority argued that because the State legislation created a statutory priority in its favour, the resolution process should recognise that priority and ensure payment before other creditors.</p>
+
+    <p>A separate government department raised a similar argument based on another statutory provision. It contended that the applicable tax legislation created a superior charge and therefore the assets subject to that charge could not be distributed in accordance with the insolvency framework without first satisfying the government's claim.</p>
+
+    <p>The resolution professional sought legal advice. The adviser explained that the Code contains an overriding provision. Section 238 provides that the provisions of the Code have effect notwithstanding anything inconsistent contained in any other law for the time being in force.</p>
+
+    <p>The professional further explained that the Code contains its own statutory framework for distribution and priority during liquidation and for implementation of resolution plans. Therefore, merely because another law contains a charge or priority provision does not automatically mean that the distribution mechanism under the Code must yield to that law.</p>
+
+    <p>The Committee of Creditors was concerned that accepting every competing statutory priority would undermine the collective insolvency framework. The professional clarified that the overriding effect of the Code is intended to provide certainty and ensure that the insolvency resolution and liquidation framework operates according to its statutory scheme.</p>
+
+    <p>Eastern Minerals eventually failed to obtain an acceptable resolution plan and liquidation became a possibility. The liquidator was instructed to examine the assets, claims and statutory priorities under the Code before making distributions.</p>
+
+    <p>The government authorities continued to insist that their respective laws should prevail. The liquidator therefore prepared a legal note explaining the relationship between the Code and inconsistent provisions contained in other laws, particularly in relation to distribution of assets.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_4_1",
+            question: "Section 238 of the IBC primarily provides for:",
+            options: [
+                "An overriding effect of the Code over inconsistent provisions of other laws",
+                "Automatic cancellation of government dues",
+                "Abolition of all statutory charges",
+                "Priority only for shareholders"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_4_2",
+            question: "A statutory first charge under another law:",
+            options: [
+                "Automatically overrides the IBC in every case",
+                "Must be considered in the context of the overriding provision and distribution framework of the IBC",
+                "Makes the creditor a shareholder",
+                "Terminates CIRP"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_4_3",
+            question: "The purpose of Section 238 is most closely connected with:",
+            options: [
+                "Resolving conflicts between the Code and inconsistent provisions of other laws",
+                "Increasing the company's share capital",
+                "Determining the tax rate",
+                "Appointing auditors"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_4_4",
+            question: "During liquidation, distribution of proceeds is primarily governed by:",
+            options: [
+                "Section 53 of the Code",
+                "Only the Companies Act",
+                "Only State legislation",
+                "The directions of shareholders"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_4_5",
+            question: "The liquidator should therefore:",
+            options: [
+                "Ignore the IBC distribution framework",
+                "Apply the statutory distribution framework of the Code while considering the overriding effect under Section 238",
+                "Pay shareholders first",
+                "Pay whichever creditor makes the first demand"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_hard_5",
+    case_chapter: "ibc",
+    case_topic: ["CIRP Timeline", "Moratorium", "Resolution Plan", "Liquidation"],
+    difficulty: "hard",
+
+    caseText: `<p>Vantage Electronics Limited was admitted into CIRP after prolonged financial distress. The company had a large manufacturing facility, valuable intellectual property and a network of long-term customers. Several financial creditors believed that the underlying business was commercially viable if the company's debt structure could be reorganised and working capital could be restored.</p>
+
+    <p>On the insolvency commencement date, the resolution professional took charge of the CIRP process in accordance with the Code. A public announcement was made and claims were invited from creditors. The management was required to cooperate with the resolution professional, while the business was to be managed with the objective of preserving its value as a going concern.</p>
+
+    <p>The commencement of CIRP also triggered the moratorium. Some creditors who had previously initiated proceedings sought to continue those proceedings despite the moratorium. The resolution professional informed them that the statutory restrictions during the moratorium were intended to provide a calm period and prevent individual actions from disrupting the collective insolvency process.</p>
+
+    <p>During the initial period, the Committee of Creditors considered several resolution plans. However, the business was more complicated than originally anticipated. The creditors believed that additional time was necessary to examine the restructuring proposals and assess the value of the company's assets and future earning capacity.</p>
+
+    <p>The Committee of Creditors considered whether the CIRP could be extended. The professional explained that the ordinary resolution process is structured around an initial period of 180 days and that, in limited circumstances, an extension of up to 90 days may be available with the required approval and prior approval of the Adjudicating Authority.</p>
+
+    <p>As the process continued, several legal proceedings were initiated concerning the company's assets and the validity of certain transactions. These proceedings complicated the resolution process. The creditors therefore examined the overall statutory time framework, including the outer limit applicable to CIRP and the treatment of time consumed in legal proceedings.</p>
+
+    <p>Eventually, two competing resolution applicants submitted plans. One plan proposed restructuring the company and continuing it as a going concern. The second proposal contemplated sale of substantial assets followed by a substantial reduction in operations. The Committee of Creditors examined both proposals in light of the objective of resolution and value maximisation.</p>
+
+    <p>The resolution professional reminded the creditors that liquidation is not the starting objective of the Code. It becomes relevant where resolution fails or the Committee of Creditors decides that the business cannot be successfully revived in accordance with the statutory framework.</p>
+
+    <p>The creditors therefore evaluated the plans carefully, considering feasibility, viability, value maximisation and the broader objective of preserving productive resources wherever commercially possible.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_5_1",
+            question: "The ordinary CIRP period referred to in the case begins from:",
+            options: [
+                "The date of first default",
+                "The insolvency commencement date",
+                "The date of public announcement",
+                "The date of appointment of auditor"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_5_2",
+            question: "The ordinary period of CIRP referred to in the supplied material is:",
+            options: [
+                "90 days",
+                "120 days",
+                "180 days",
+                "365 days"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "ibc_cs_hard_5_3",
+            question: "In limited circumstances, the CIRP may be extended by up to:",
+            options: [
+                "30 days",
+                "60 days",
+                "90 days",
+                "180 days"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "ibc_cs_hard_5_4",
+            question: "The outer time limit referred to in the supplied material for completion of CIRP is:",
+            options: [
+                "180 days",
+                "270 days",
+                "330 days",
+                "365 days"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "ibc_cs_hard_5_5",
+            question: "Which statement best reflects the objective of CIRP?",
+            options: [
+                "Liquidation must always be preferred over resolution",
+                "The process seeks resolution and value maximisation and liquidation becomes relevant where resolution fails or revival is not feasible",
+                "The objective is recovery by the first creditor who files the case",
+                "The objective is to protect only shareholders"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+/* ============================================================
+   IBC – ANOTHER 5 MEDIUM CASE SCENARIOS
+============================================================ */
+
+{
+    case_id: "ibc_cs_medium_6",
+    case_chapter: "ibc",
+    case_topic: ["Corporate Applicant", "CIRP", "Financial Creditor", "Operational Creditor"],
+    difficulty: "medium",
+
+    caseText: `<p>Riverview Industrial Components Limited had been manufacturing precision components for several automobile and engineering companies for more than twelve years. The company had built a strong customer base and owned substantial manufacturing equipment. However, a prolonged increase in input costs, delayed customer payments and an unsuccessful expansion programme resulted in severe pressure on the company's cash flows.</p>
+
+    <p>Riverview had borrowed ₹14 crore from Horizon Bank under a term loan facility. It had also purchased steel and other raw materials on credit from Metro Metals Limited. The amount payable to Metro Metals had remained unpaid for several months. In addition, certain employees had unpaid salary claims arising from their employment with the company.</p>
+
+    <p>At a meeting of the Board, the Managing Director stated that only a financial creditor could initiate insolvency proceedings against the company. The legal adviser clarified that the Code provides different routes for initiation of CIRP and that the corporate debtor itself may also act through an authorised corporate applicant where the statutory requirements are satisfied.</p>
+
+    <p>The Board considered whether the Managing Director could make the application personally. The adviser explained that the expression corporate applicant is wider than merely the corporate debtor and may include specified persons authorised to make an application on behalf of the corporate debtor, including a member or partner authorised under the constitutional documents and certain persons in charge of managing operations or having control and supervision over financial affairs.</p>
+
+    <p>Metro Metals separately examined its own position. Since its claim arose from the provision of goods, it considered itself an operational creditor. Horizon Bank, on the other hand, considered itself a financial creditor because its loan had been disbursed against consideration for the time value of money.</p>
+
+    <p>The Board also discussed whether filing an insolvency application would automatically mean that the company would be liquidated. The legal adviser explained that CIRP is designed to provide an opportunity for resolution and revival. Liquidation becomes relevant if resolution fails or where the statutory circumstances requiring liquidation arise.</p>
+
+    <p>After reviewing the financial position, Riverview decided to examine whether it could initiate the process itself and whether a viable resolution could preserve the business as a going concern rather than allowing valuable productive assets to be broken up immediately.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_6_1",
+            question: "Horizon Bank would generally be classified as:",
+            options: [
+                "Operational creditor",
+                "Financial creditor",
+                "Resolution applicant",
+                "Information utility"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_6_2",
+            question: "Metro Metals Limited would generally be classified as:",
+            options: [
+                "Financial creditor",
+                "Operational creditor",
+                "Corporate guarantor",
+                "Adjudicating Authority"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_6_3",
+            question: "Which of the following can fall within the expression 'corporate applicant'?",
+            options: [
+                "Only the shareholders collectively",
+                "Corporate debtor or specified authorised persons contemplated by Section 5(5)",
+                "Only the financial creditor",
+                "Only the operational creditor"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_6_4",
+            question: "Initiation of CIRP necessarily means that:",
+            options: [
+                "The company must immediately be liquidated",
+                "A resolution process begins with the objective of resolving the corporate debtor",
+                "All debts are automatically extinguished",
+                "Shareholders immediately receive liquidation proceeds"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_6_5",
+            question: "The Board's decision to preserve the business as a going concern is consistent with:",
+            options: [
+                "The resolution-oriented objective of the Code",
+                "Mandatory liquidation in every case",
+                "Automatic debt waiver",
+                "The abolition of the CoC"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_medium_7",
+    case_chapter: "ibc",
+    case_topic: ["Personal Guarantor", "Corporate Debtor", "NCLT", "NCLAT"],
+    difficulty: "medium",
+
+    caseText: `<p>Sunrise Renewable Energy Limited obtained a ₹40 crore loan from National Development Bank to establish a solar equipment manufacturing facility. The loan was secured by certain assets of the company. In addition to the corporate security, the Managing Director, Mr. Arjun Mehta, executed a personal guarantee in favour of the bank covering the obligations of Sunrise Renewable Energy Limited.</p>
+
+    <p>For several years, the company serviced the loan regularly. Subsequently, the company experienced severe financial difficulties and defaulted on its repayment obligations. The bank initiated corporate insolvency resolution proceedings against Sunrise Renewable Energy Limited before the National Company Law Tribunal.</p>
+
+    <p>At the same time, the bank examined the position of Mr. Mehta under the personal guarantee. Mr. Mehta argued that he was an individual and therefore any insolvency proceedings against him should necessarily be filed before the Debt Recovery Tribunal.</p>
+
+    <p>The bank's legal adviser explained that the Code treats personal guarantors to corporate debtors as a separate class because of their intrinsic connection with the corporate debtor. The statutory framework provides for their treatment through the same adjudicatory forum in the circumstances contemplated by the Code.</p>
+
+    <p>Mr. Mehta further argued that if a resolution plan for Sunrise Renewable Energy Limited was approved, his personal liability under the guarantee would automatically disappear. The bank disputed this argument and stated that approval of a resolution plan for the corporate debtor does not automatically mean that a personal guarantor is discharged from liability under the contract of guarantee.</p>
+
+    <p>The matter was discussed before the legal department, which explained that NCLT is the Adjudicating Authority for corporate persons and also has jurisdiction in relation to personal guarantors to corporate debtors in the circumstances specified by the Code. NCLAT functions as the appellate authority over orders of NCLT in the relevant insolvency matters.</p>
+
+    <p>The bank therefore decided to proceed carefully by examining the corporate insolvency proceedings and the statutory provisions applicable to the personal guarantee rather than assuming that the two liabilities would automatically disappear merely because a resolution plan was approved.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_7_1",
+            question: "Mr. Mehta is primarily a:",
+            options: [
+                "Corporate guarantor",
+                "Personal guarantor",
+                "Operational creditor",
+                "Resolution professional"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_7_2",
+            question: "Personal guarantors to corporate debtors are treated:",
+            options: [
+                "Exactly like unrelated individuals in every respect",
+                "As a separate class connected with the corporate debtor",
+                "As financial service providers",
+                "As operational creditors"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_7_3",
+            question: "The Adjudicating Authority for corporate insolvency matters is:",
+            options: [
+                "DRT",
+                "NCLT",
+                "DRAT",
+                "IBBI"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_7_4",
+            question: "Approval of a resolution plan for the corporate debtor:",
+            options: [
+                "Always automatically discharges the personal guarantor",
+                "Does not ipso facto discharge the personal guarantor from guarantee liability",
+                "Automatically cancels the guarantee contract",
+                "Makes the guarantor a shareholder"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_7_5",
+            question: "The appellate authority over NCLT decisions is generally:",
+            options: [
+                "NCLAT",
+                "DRT",
+                "IBBI",
+                "RBI"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_medium_8",
+    case_chapter: "ibc",
+    case_topic: ["Voluntary Liquidation", "Default", "Corporate Person", "Liquidation"],
+    difficulty: "medium",
+
+    caseText: `<p>Greenfield Packaging Private Limited had operated a small manufacturing unit for several years. After the promoters decided to discontinue the business, the company sold most of its inventory and completed its remaining customer contracts. The company had no outstanding default and its Board believed that continuing the corporate structure would no longer serve any commercial purpose.</p>
+
+    <p>The directors considered whether the company should enter the ordinary liquidation process following insolvency or whether it could voluntarily liquidate itself. The legal adviser explained that the Code contains a separate framework for voluntary liquidation of corporate persons that have not committed default and wish to wind up their affairs voluntarily.</p>
+
+    <p>Before taking the decision, the Board reviewed all liabilities. The company had paid its suppliers, employees and lenders. A small amount was payable to a local authority, but the finance department confirmed that the amount would be settled before the voluntary liquidation process was initiated.</p>
+
+    <p>The company also owned machinery and a small parcel of land. The directors planned to realise these assets and distribute the proceeds in accordance with the applicable legal framework after satisfying the company's liabilities.</p>
+
+    <p>One shareholder argued that because the company was being closed, it should first default on a liability and then approach the Adjudicating Authority under CIRP. The legal adviser rejected this approach and explained that voluntary liquidation is conceptually distinct from insolvency resolution arising from default.</p>
+
+    <p>The Board therefore examined the statutory requirements applicable to voluntary liquidation and the appointment of a liquidator. The objective was to close the company's affairs in an orderly manner rather than artificially creating a default merely to enter the insolvency resolution framework.</p>
+
+    <p>The directors also discussed the distinction between ordinary liquidation following an unsuccessful insolvency resolution process and voluntary liquidation undertaken by a corporate person that has not committed default. The adviser emphasised that the two processes should not be confused.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_8_1",
+            question: "Voluntary liquidation under Section 59 is intended for a corporate person that:",
+            options: [
+                "Has committed default in every case",
+                "Has not committed default and intends to liquidate voluntarily",
+                "Must first undergo CIRP",
+                "Must be a financial service provider"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_8_2",
+            question: "Greenfield should not artificially create a default because:",
+            options: [
+                "Default is irrelevant under IBC",
+                "Voluntary liquidation is a separate mechanism for eligible non-defaulting corporate persons",
+                "Every company must remain active",
+                "Liquidation is prohibited under IBC"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_8_3",
+            question: "Which process is associated with an unsuccessful CIRP?",
+            options: [
+                "Liquidation under the applicable provisions",
+                "Voluntary liquidation automatically",
+                "Fresh start process",
+                "Personal insolvency only"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_8_4",
+            question: "The company's assets during liquidation are generally:",
+            options: [
+                "Ignored",
+                "Realised and dealt with under the applicable statutory framework",
+                "Automatically transferred to directors",
+                "Automatically transferred to employees"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_8_5",
+            question: "The key distinction between CIRP-related liquidation and voluntary liquidation is that:",
+            options: [
+                "Voluntary liquidation is available to an eligible corporate person that has not committed default",
+                "CIRP is always voluntary",
+                "Voluntary liquidation is compulsory after every default",
+                "There is no distinction"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_medium_9",
+    case_chapter: "ibc",
+    case_topic: ["Fast Track CIRP", "Small Company", "Start-up", "Time Limit"],
+    difficulty: "medium",
+
+    caseText: `<p>QuickBuild Components Private Limited was incorporated to manufacture specialised electronic components for start-up businesses. The company had a small workforce and operated with limited assets. Although the company had developed a commercially promising product, a major customer unexpectedly cancelled an order, creating a temporary liquidity crisis.</p>
+
+    <p>The company defaulted on certain financial obligations and its lenders began examining insolvency options. The directors wanted to know whether the company would necessarily have to undergo the same lengthy corporate insolvency resolution process as a large listed manufacturing company.</p>
+
+    <p>The legal adviser explained that the Code contains provisions for a fast-track corporate insolvency resolution process for specified categories of corporate persons. The framework is designed to deal with eligible smaller or specified corporate debtors through a shorter resolution timeline.</p>
+
+    <p>The directors examined the statutory categories and noted that the Code refers to specified corporate persons, including certain small companies, start-ups and unlisted companies satisfying the prescribed asset threshold as contemplated by the relevant provisions.</p>
+
+    <p>The finance department prepared the company's asset statement. The total assets were within the statutory threshold referred to in the company's legal materials. The Board therefore considered whether QuickBuild could qualify for the fast-track mechanism.</p>
+
+    <p>One director believed that fast-track CIRP meant that creditors could skip the insolvency process entirely and directly sell the company's assets. The adviser clarified that fast-track CIRP remains a resolution process. Its distinguishing feature is the shorter statutory timeline rather than the automatic liquidation of the corporate debtor.</p>
+
+    <p>The Board therefore instructed the legal department to verify the company's eligibility, default position and other statutory conditions before taking any steps. The objective remained to preserve the viable business while dealing with financial distress more quickly.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_9_1",
+            question: "Fast-track CIRP is primarily intended to:",
+            options: [
+                "Eliminate insolvency resolution",
+                "Provide a shorter resolution framework for specified eligible corporate persons",
+                "Automatically liquidate every small company",
+                "Cancel all debts"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_9_2",
+            question: "Which entity may fall within the specified categories eligible for fast-track CIRP?",
+            options: [
+                "A specified small company",
+                "Only a listed multinational company",
+                "Only an individual",
+                "Only a foreign government"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_9_3",
+            question: "Fast-track CIRP differs from ordinary CIRP mainly because of:",
+            options: [
+                "Its shorter statutory resolution timeline",
+                "Absence of creditors",
+                "Automatic cancellation of debts",
+                "Absence of an insolvency professional"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_9_4",
+            question: "Fast-track CIRP necessarily means:",
+            options: [
+                "Immediate liquidation",
+                "A quicker resolution process, not automatic liquidation",
+                "No role for creditors",
+                "No role for NCLT"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_9_5",
+            question: "Before using fast-track CIRP, QuickBuild should:",
+            options: [
+                "Verify its eligibility and applicable statutory conditions",
+                "Create a false default",
+                "Close the company immediately",
+                "Transfer all assets to promoters"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_medium_10",
+    case_chapter: "ibc",
+    case_topic: ["Resolution Applicant", "Resolution Plan", "Going Concern", "CoC"],
+    difficulty: "medium",
+
+    caseText: `<p>Nova Medical Devices Limited was admitted into CIRP after defaulting on a substantial financial debt. The company had developed specialised medical equipment and possessed valuable patents, manufacturing facilities and long-term customer contracts. Although its financial position was weak, several creditors believed that the underlying business remained viable.</p>
+
+    <p>The resolution professional invited prospective applicants to submit resolution plans. Three investors expressed interest. Alpha Capital proposed to restructure the company's debt and inject fresh funds. Beta Industries proposed to merge certain operations of Nova with its own business. Gamma Investments proposed to sell most of the assets and discontinue the manufacturing operations.</p>
+
+    <p>The resolution professional explained that a resolution applicant is a person who submits a resolution plan pursuant to the statutory invitation. The plan itself is intended to provide for insolvency resolution of the corporate debtor as a going concern in accordance with Part II of the Code.</p>
+
+    <p>Alpha Capital's proposal involved restructuring the debt, changing the management structure and providing additional working capital. Beta Industries proposed a merger arrangement under which Nova's operations would continue as part of a larger business. Gamma's proposal focused primarily on asset realisation.</p>
+
+    <p>The Committee of Creditors considered whether a resolution plan could contain structural changes such as merger, amalgamation or demerger. The legal adviser confirmed that the statutory definition of resolution plan permits provisions for restructuring, including such corporate restructuring mechanisms.</p>
+
+    <p>The CoC therefore examined each proposal in light of the objectives of resolution, feasibility, viability and value maximisation. The members understood that the mere fact that an applicant offered the highest immediate cash amount did not mean that the proposal automatically represented the best overall resolution outcome.</p>
+
+    <p>After extensive discussions, the creditors requested additional information from each applicant regarding funding sources, implementation capability, future business projections and treatment of stakeholders before taking their decision.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_10_1",
+            question: "A person submitting a resolution plan pursuant to the statutory invitation is called:",
+            options: [
+                "Resolution applicant",
+                "Operational creditor",
+                "Liquidator",
+                "Information utility"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_10_2",
+            question: "A resolution plan may include:",
+            options: [
+                "Only repayment of bank loans",
+                "Restructuring including merger, amalgamation or demerger",
+                "Only liquidation of assets",
+                "Only payment to shareholders"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_10_3",
+            question: "The primary purpose of a resolution plan is to:",
+            options: [
+                "Provide for insolvency resolution of the corporate debtor as a going concern",
+                "Automatically dissolve the company",
+                "Pay shareholders before creditors",
+                "Cancel the CIRP"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_10_4",
+            question: "The CoC should examine resolution proposals with reference to:",
+            options: [
+                "Feasibility, viability and value considerations",
+                "Only the applicant's popularity",
+                "Only the number of employees",
+                "Only the age of the company"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_10_5",
+            question: "Gamma's asset-sale proposal illustrates that:",
+            options: [
+                "Every resolution plan must necessarily preserve every business activity",
+                "Different resolution proposals may adopt different restructuring approaches, subject to the Code",
+                "A resolution applicant cannot propose any restructuring",
+                "Resolution applicants are prohibited from considering assets"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+
+/* ============================================================
+   IBC – ANOTHER 5 HARD CASE SCENARIOS
+============================================================ */
+
+{
+    case_id: "ibc_cs_hard_6",
+    case_chapter: "ibc",
+    case_topic: ["Initiation Date", "Insolvency Commencement Date", "CIRP", "NCLT"],
+    difficulty: "hard",
+
+    caseText: `<p>Trident Industrial Machines Limited had been facing liquidity pressure for several months. A consortium of financial creditors had repeatedly discussed restructuring options with the company, but the company failed to make a scheduled repayment of ₹9 crore. The repayment became due on 10 January and remained unpaid despite repeated reminders.</p>
+
+    <p>On 20 January, one of the financial creditors prepared an application for initiation of corporate insolvency resolution process. The application was signed and filed before the National Company Law Tribunal on 25 January. The company immediately objected and argued that CIRP should be treated as having commenced from 10 January because that was the date on which the default occurred.</p>
+
+    <p>The financial creditor's counsel explained that the Code makes a distinction between the initiation date and the insolvency commencement date. The date on which the relevant applicant makes an application before the Adjudicating Authority is referred to as the initiation date. The insolvency commencement date, however, is linked to the admission of the application by the Adjudicating Authority.</p>
+
+    <p>The NCLT examined the application and sought additional information. After considering the statutory requirements, the Tribunal admitted the application on 5 February. The company continued to argue that all CIRP consequences should be backdated to the date of default.</p>
+
+    <p>The resolution professional clarified that the insolvency commencement date has specific legal significance because several provisions of the Code operate from that date. The commencement of the formal CIRP, including the applicable process period and moratorium, is therefore connected with the statutory commencement date rather than simply the date on which the original default occurred.</p>
+
+    <p>The creditors also discussed the 180-day resolution period. Some creditors counted the period from 10 January, while others counted from 25 January. The professional explained that the statutory definition of insolvency resolution process period is linked to the insolvency commencement date.</p>
+
+    <p>The Board therefore prepared a detailed chronology identifying the date of default, date of application, date of admission and resulting insolvency commencement date. This chronology was used to calculate the relevant CIRP timeline and determine when statutory consequences became operative.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_6_1",
+            question: "The date on which the financial creditor makes the application to the Adjudicating Authority is known as:",
+            options: [
+                "Liquidation commencement date",
+                "Initiation date",
+                "Insolvency commencement date",
+                "Discharge date"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_6_2",
+            question: "In the facts given, the insolvency commencement date would be:",
+            options: [
+                "10 January",
+                "20 January",
+                "25 January",
+                "5 February"
+            ],
+            answer: 3
+        },
+        {
+            question_id: "ibc_cs_hard_6_3",
+            question: "The CIRP period is linked to:",
+            options: [
+                "The date of original commercial negotiations",
+                "The insolvency commencement date",
+                "The date of first reminder",
+                "The date of board meeting"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_6_4",
+            question: "Which distinction is correctly stated?",
+            options: [
+                "Default date and insolvency commencement date are always identical",
+                "Initiation date refers to filing of application, while insolvency commencement date refers to admission",
+                "Initiation date occurs only after liquidation",
+                "Insolvency commencement date is the date of incorporation"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_6_5",
+            question: "The most appropriate chronology is:",
+            options: [
+                "Default → application → admission → insolvency commencement",
+                "Admission → default → application",
+                "Liquidation → application → default",
+                "Application → incorporation → default"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_hard_7",
+    case_chapter: "ibc",
+    case_topic: ["Related Party", "Corporate Debtor", "Voting Control", "Common Management"],
+    difficulty: "hard",
+
+    caseText: `<p>Zenith Healthcare Limited was a rapidly growing healthcare equipment manufacturer. Before its financial distress became public, the company had developed a network of entities with overlapping ownership, management and contractual relationships. When CIRP commenced, the resolution professional was required to identify the true relationships between the corporate debtor and various creditors.</p>
+
+    <p>One creditor, Apex Ventures Private Limited, was a private company in which Zenith's Managing Director was also a director. The Managing Director and his relatives collectively held more than two per cent of Apex Ventures' share capital. Apex claimed a substantial financial debt against Zenith and insisted that its financial contribution should be recognised in the insolvency process.</p>
+
+    <p>Another entity, Horizon Trading Limited, had no common directors with Zenith. However, Zenith controlled more than twenty per cent of the voting rights in Horizon under a combination of share ownership and a voting agreement. Horizon argued that because it was legally incorporated as a separate company, it could not be treated as connected with Zenith.</p>
+
+    <p>A third entity, Delta Services LLP, had several employees who regularly acted on the instructions of Zenith's Managing Director in the ordinary course of business. The LLP had also participated in policy discussions concerning Zenith's strategic procurement decisions.</p>
+
+    <p>A fourth company had no shareholding relationship with Zenith but had more than two directors in common with Zenith. Its senior management personnel had also moved between the two organisations over a period of several years.</p>
+
+    <p>The resolution professional explained that the related-party definition under the Code is deliberately broad and can capture relationships arising from shareholding, voting control, board composition, common management, policy-making participation and persons accustomed to act on the instructions of specified persons.</p>
+
+    <p>The professional therefore did not rely merely on whether the entities were separate legal persons. Instead, the professional prepared a relationship matrix showing shareholding, voting rights, common directors, managerial links, policy participation and instructions received from Zenith's management.</p>
+
+    <p>The Committee of Creditors was informed that the legal status of each entity would have to be determined by applying the statutory definition to the specific facts. The professional cautioned that a superficial examination based solely on corporate registration could produce an incorrect conclusion.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_7_1",
+            question: "A private company in which the corporate debtor's director is also a director and holds, with relatives, more than two per cent share capital may be:",
+            options: [
+                "A related party",
+                "An information utility",
+                "An adjudicating authority",
+                "A resolution professional"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_7_2",
+            question: "Zenith controlling more than twenty per cent voting rights in Horizon can be relevant because:",
+            options: [
+                "Voting control can form part of the related-party analysis",
+                "Voting rights are irrelevant under the Code",
+                "Only physical assets matter",
+                "It automatically creates operational debt"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_7_3",
+            question: "Common directors between the corporate debtor and another body corporate can:",
+            options: [
+                "Be relevant to determining related-party status",
+                "Never be relevant",
+                "Automatically create financial debt",
+                "Automatically terminate CIRP"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_7_4",
+            question: "A person accustomed to act on the advice, directions or instructions of a specified director or manager may:",
+            options: [
+                "Fall within the related-party framework",
+                "Automatically become a financial creditor",
+                "Automatically become an operational creditor",
+                "Never be considered connected"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_7_5",
+            question: "The professional's relationship matrix is useful because:",
+            options: [
+                "Related-party status may arise through multiple statutory relationships",
+                "Only shareholding determines related-party status",
+                "Corporate registration alone settles every issue",
+                "It eliminates the need to examine statutory provisions"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_hard_8",
+    case_chapter: "ibc",
+    case_topic: ["Corporate Person", "Financial Service Provider", "Special Act", "Section 227"],
+    difficulty: "hard",
+
+    caseText: `<p>Eastern Cooperative Sugar Society was established under the Multi-State Co-operative Societies Act, 2002 and operated a large sugar manufacturing and processing facility. It had borrowed funds from several banks and had also obtained working capital facilities from financial institutions. After successive years of poor sugar prices and operational losses, the society defaulted on several repayment obligations.</p>
+
+    <p>One of the financial creditors wanted to initiate insolvency proceedings under the Insolvency and Bankruptcy Code, 2016. Its counsel argued that the society carried on a substantial commercial business and had borrowed money from banks; therefore, according to the creditor, it should automatically be treated as a corporate debtor under the Code.</p>
+
+    <p>The society challenged the proposed proceedings. Its legal adviser pointed out that the definition of corporate person is not based merely on whether an entity conducts commercial activities or has borrowed money. The statutory applicability provisions must first be examined to determine whether the entity falls within the class of persons to which the Code applies.</p>
+
+    <p>The society was incorporated and governed under a special statute that contained its own provisions concerning management, winding up and related matters. The adviser therefore examined the interaction between the special statute and the IBC and considered whether the entity was a corporate person covered by Section 2.</p>
+
+    <p>During the same period, another company within the group, Eastern Housing Finance Limited, was carrying on the business of providing financial services and was regulated by an appropriate financial sector regulator. The creditor assumed that because the company was incorporated under the Companies Act, it would automatically be subject to the same corporate insolvency provisions as the sugar manufacturing company.</p>
+
+    <p>The legal adviser explained that financial service providers are generally excluded from the definition of corporate person. However, Section 227 provides an enabling mechanism under which the Central Government may notify financial service providers for insolvency and liquidation proceedings in consultation with the appropriate financial sector regulator.</p>
+
+    <p>The creditor therefore realised that two different questions had to be answered. First, whether the cooperative society itself was a corporate person to whom the Code applied. Second, whether the financial services entity had been specifically brought within the insolvency framework through an applicable notification.</p>
+
+    <p>The legal department prepared a comparative note and advised the creditor not to assume that the existence of commercial debt alone was sufficient to establish applicability of the Code.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_8_1",
+            question: "The fact that an entity carries on commercial activities and owes money to banks:",
+            options: [
+                "Automatically makes it a corporate person under IBC",
+                "Does not by itself determine applicability of the Code",
+                "Automatically makes it an LLP",
+                "Automatically makes it a financial service provider"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_8_2",
+            question: "The cooperative society's status must primarily be examined with reference to:",
+            options: [
+                "The statutory applicability provisions and the law under which it is incorporated",
+                "Only its turnover",
+                "Only its bank loans",
+                "Only its number of employees"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_8_3",
+            question: "A financial service provider is generally:",
+            options: [
+                "Included automatically within corporate person",
+                "Excluded from corporate person under the Code",
+                "Treated as an operational creditor",
+                "Treated as an individual debtor"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_8_4",
+            question: "Section 227 enables the Central Government to:",
+            options: [
+                "Notify specified financial service providers for insolvency and liquidation proceedings",
+                "Convert every financial service provider into an LLP",
+                "Abolish financial sector regulators",
+                "Remove all financial debts"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_8_5",
+            question: "The creditor's mistake was primarily assuming that:",
+            options: [
+                "Commercial borrowing alone determines whether every entity falls within IBC",
+                "Financial service providers require regulation",
+                "Special statutes may affect applicability",
+                "Section 227 exists"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_hard_9",
+    case_chapter: "ibc",
+    case_topic: ["Dispute", "Operational Creditor", "Default", "CIRP"],
+    difficulty: "hard",
+
+    caseText: `<p>Mariner Engineering Limited supplied specialised machinery to Coastal Auto Parts Limited under a long-term supply agreement. The total value of the machinery supplied during the financial year was ₹4.80 crore. Coastal Auto Parts paid most of the invoices but withheld ₹72 lakh, alleging that certain machinery had not met the technical specifications agreed under the contract.</p>
+
+    <p>Mariner Engineering repeatedly demanded payment of the outstanding amount. Coastal Auto Parts responded that it was not refusing to pay a genuine debt but that the amount could not be released until the disputed machinery was repaired or replaced. The correspondence between the parties continued for several months.</p>
+
+    <p>Mariner eventually considered initiating CIRP against Coastal Auto Parts as an operational creditor. Its legal adviser explained that operational debt includes claims arising from provision of goods or services. However, the adviser also warned that the existence of an unpaid invoice does not necessarily mean that an operational creditor can successfully invoke CIRP where a genuine dispute existed in accordance with the statutory requirements.</p>
+
+    <p>Coastal Auto Parts produced several emails exchanged before the insolvency application. These emails showed that the company had complained about the machinery's performance before receiving the statutory demand notice. It also produced an independent technical report indicating that certain components had failed to meet the contractual specifications.</p>
+
+    <p>Mariner argued that the dispute was merely an excuse to delay payment. The legal team therefore examined whether the correspondence and technical evidence disclosed a genuine dispute relating to the quality of goods or services or whether the objection had been manufactured only after the demand for payment.</p>
+
+    <p>The matter became more complicated because a portion of the amount claimed by Mariner represented interest for delayed payment. The adviser explained that the legal classification of the underlying claim had to be considered carefully and that the existence and nature of a dispute could materially affect the operational creditor's attempt to initiate CIRP.</p>
+
+    <p>The Board of Coastal Auto Parts therefore collected all purchase orders, inspection reports, correspondence, invoices, payment records and technical reports. The company wanted to establish that the dispute was not an afterthought but had arisen in connection with the quality of goods supplied before the insolvency proceedings were contemplated.</p>
+
+    <p>Mariner, meanwhile, prepared its response contending that the alleged quality dispute was not genuine and that the amount had become due and payable. Both parties understood that the insolvency framework was not intended to be used merely as a substitute for ordinary adjudication of a pre-existing contractual dispute.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_9_1",
+            question: "Mariner Engineering is primarily claiming an:",
+            options: [
+                "Operational debt",
+                "Equity contribution",
+                "Financial debt arising from a bank loan",
+                "Investment in securities"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_9_2",
+            question: "A dispute under Section 5(6) can include a dispute concerning:",
+            options: [
+                "Quality of goods or services",
+                "Only share capital",
+                "Only tax rates",
+                "Only voting rights"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_9_3",
+            question: "The fact that Coastal complained about quality before the insolvency demand is relevant because:",
+            options: [
+                "It may indicate that the dispute pre-existed the insolvency proceedings",
+                "It automatically proves Mariner's claim is false",
+                "It automatically converts operational debt into equity",
+                "It eliminates all contractual obligations"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_9_4",
+            question: "The insolvency process should not ordinarily be used:",
+            options: [
+                "As a substitute for adjudication of a genuine pre-existing contractual dispute",
+                "For resolution of corporate insolvency",
+                "By an operational creditor satisfying statutory requirements",
+                "For value maximisation"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_9_5",
+            question: "Which evidence would be most relevant to Coastal's contention?",
+            options: [
+                "Pre-existing complaints, technical reports and correspondence concerning quality",
+                "Only its annual report",
+                "Only its shareholding pattern",
+                "Only the director's personal bank statement"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+
+{
+    case_id: "ibc_cs_hard_10",
+    case_chapter: "ibc",
+    case_topic: ["Property", "Security Interest", "Secured Creditor", "Transfer"],
+    difficulty: "hard",
+
+    caseText: `<p>Atlas Heavy Industries Limited had financed a major expansion by borrowing ₹75 crore from Continental Bank. As security for the loan, Atlas created a mortgage over its factory land and buildings and also hypothecated certain movable machinery. The bank's security documents were properly executed and recorded in the relevant records.</p>
+
+    <p>Several years later, Atlas experienced severe financial difficulties. Before CIRP commenced, the company's directors entered into a number of transactions involving the secured assets. One parcel of land was agreed to be sold to an unrelated purchaser. Certain machinery was pledged to another lender as additional security, while some equipment was temporarily transferred to an affiliate for operational use.</p>
+
+    <p>After CIRP commenced, the resolution professional reviewed the company's asset register and security documents. The directors argued that only physical assets located within India could be considered property of the corporate debtor. The professional rejected this narrow interpretation and explained that the Code's definition of property is broad and can include money, goods, actionable claims, land and interests in property, including interests situated in India or outside India.</p>
+
+    <p>The bank also sought confirmation of its status. The legal adviser explained that a secured creditor is a creditor in whose favour a security interest has been created. Security interest includes rights, title or interests created in favour of a secured creditor to secure payment or performance of an obligation and can include mortgage, charge, hypothecation, assignment and encumbrance.</p>
+
+    <p>The resolution professional then examined the meaning of transaction and transfer. The directors claimed that the temporary movement of machinery to the affiliate was not a transfer because ownership had not permanently changed. The professional explained that transfer is defined broadly and can include sale, purchase, exchange, mortgage, pledge, gift, loan or other forms of transfer of right, title, possession or lien.</p>
+
+    <p>The professional therefore examined not only ownership but also possession, security rights and the nature of each arrangement. The review revealed that the land sale agreement could potentially affect the company's asset position, while the pledge and hypothecation arrangements affected security interests over movable assets.</p>
+
+    <p>The Committee of Creditors asked whether every movement or agreement involving an asset should automatically be treated as an avoidance transaction. The professional clarified that while transactions must be examined carefully, the legal character and consequences of each transaction depend upon the applicable statutory provisions and facts.</p>
+
+    <p>Atlas was therefore required to provide copies of all sale agreements, mortgage documents, pledge agreements, hypothecation documents, board resolutions and inter-company arrangements so that the resolution professional could establish the complete legal and economic position of the corporate debtor's property and secured interests.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_10_1",
+            question: "Continental Bank is a secured creditor because:",
+            options: [
+                "A security interest has been created in its favour",
+                "It is automatically a shareholder",
+                "It supplied machinery",
+                "It is an information utility"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_10_2",
+            question: "Which of the following can constitute security interest?",
+            options: [
+                "Mortgage",
+                "Hypothecation",
+                "Charge",
+                "All of the above"
+            ],
+            answer: 3
+        },
+        {
+            question_id: "ibc_cs_hard_10_3",
+            question: "The definition of property under the Code is:",
+            options: [
+                "Restricted only to land in India",
+                "Broad and includes various forms of property and interests, including those situated outside India",
+                "Restricted only to physical machinery",
+                "Restricted only to cash"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_10_4",
+            question: "The temporary transfer of machinery to an affiliate can require examination because transfer includes:",
+            options: [
+                "Only permanent sale",
+                "Forms involving transfer of right, title, possession or lien",
+                "Only inheritance",
+                "Only exchange of shares"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_10_5",
+            question: "Which statement is most appropriate regarding the transactions examined by the resolution professional?",
+            options: [
+                "Every asset movement automatically becomes an avoidance transaction",
+                "Each transaction should be examined against the relevant statutory provisions and facts",
+                "Only transactions involving land can be examined",
+                "Security interests have no relevance during CIRP"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_medium_11",
+    case_chapter: "ibc",
+    case_topic: ["CIRP", "Financial Creditor", "Default", "Admission"],
+    difficulty: "medium",
+
+    caseText: `<p>Vardhan Renewable Energy Limited was engaged in the development and operation of renewable energy projects across several states. To finance the construction of a large solar power project, the company obtained a term loan of ₹32 crore from Meridian Bank Limited. In addition, it had availed working capital facilities of ₹8 crore from the same bank. The financing documents required the company to make periodic repayments according to a predetermined repayment schedule.</p>
+
+    <p>Initially, Vardhan Renewable Energy Limited was able to service the debt regularly. However, a prolonged delay in commissioning one of its major projects resulted in a substantial mismatch between expected and actual cash flows. The company consequently failed to pay two instalments due to Meridian Bank. The bank issued several reminders and requested the company to regularise the account.</p>
+
+    <p>In response, the company admitted that certain instalments had remained unpaid but requested additional time. The bank examined the company's financial records and obtained evidence of the unpaid financial debt. After discussions failed to produce a satisfactory repayment arrangement, Meridian Bank decided to initiate corporate insolvency resolution process against Vardhan Renewable Energy Limited.</p>
+
+    <p>Before approaching the Adjudicating Authority, the bank obtained the relevant records evidencing the default and identified an insolvency professional who had agreed in writing to act as the Interim Resolution Professional if appointed. The bank filed the prescribed application before the Adjudicating Authority along with the required information.</p>
+
+    <p>Vardhan Renewable Energy Limited opposed the application on the ground that the bank had not first exhausted all restructuring possibilities. The company argued that because it had proposed a repayment arrangement and had not refused to pay permanently, CIRP should not be initiated.</p>
+
+    <p>The bank's legal advisers explained that the existence of default is central to initiation of CIRP by a financial creditor. They further explained that the Code provides a statutory mechanism through which a financial creditor can approach the Adjudicating Authority once the required conditions are satisfied.</p>
+
+    <p>The Adjudicating Authority examined the records submitted by the bank. It found that the financial debt was due and payable and that the company had failed to make payment. The application was also found to be complete and no disciplinary proceedings were pending against the proposed insolvency professional.</p>
+
+    <p>The Adjudicating Authority consequently admitted the application. The insolvency commencement date was established and the statutory consequences of commencement of CIRP followed. The company was informed that the management of its affairs would thereafter be dealt with in accordance with the provisions of the Code.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_11_1",
+            question: "Meridian Bank qualifies as a financial creditor because:",
+            options: [
+                "It supplied goods to the corporate debtor",
+                "It is owed a financial debt by the corporate debtor",
+                "It is a shareholder of the corporate debtor",
+                "It is an operational creditor"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_11_2",
+            question: "The primary event triggering the CIRP application in the case is:",
+            options: [
+                "Change in management",
+                "Occurrence of default",
+                "Appointment of auditor",
+                "Reduction in share capital"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_11_3",
+            question: "Along with its application, the financial creditor is required to furnish evidence relating to:",
+            options: [
+                "Only the company's annual report",
+                "The occurrence of default",
+                "Only shareholder resolutions",
+                "Only tax returns"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_11_4",
+            question: "When does CIRP commence?",
+            options: [
+                "When the first instalment becomes overdue",
+                "When the bank sends a reminder",
+                "From the date of admission of the application",
+                "When the company stops business"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "ibc_cs_medium_11_5",
+            question: "Which fact supported admission of the application?",
+            options: [
+                "The application was complete and default had occurred",
+                "The company had made full payment",
+                "There was no financial debt",
+                "The proposed IRP was under disciplinary proceedings"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_medium_12",
+    case_chapter: "ibc",
+    case_topic: ["Operational Creditor", "Demand Notice", "Dispute", "Section 9"],
+    difficulty: "medium",
+
+    caseText: `<p>Sunrise Industrial Components Private Limited manufactured precision components used by automobile manufacturers. It entered into a long-term supply arrangement with Apex Mobility Limited under which Sunrise was required to manufacture and supply components according to specifications provided by Apex. Payment was contractually required to be made within 60 days of the relevant invoice.</p>
+
+    <p>During one financial year, Sunrise supplied components worth ₹2.10 crore. Apex Mobility made payments against most invoices but withheld ₹46 lakh relating to several consignments. Sunrise repeatedly demanded payment and maintained that the components supplied were in accordance with the contractual specifications.</p>
+
+    <p>Apex Mobility, however, informed Sunrise that certain components had allegedly failed quality testing and that it had incurred additional costs in replacing them. Apex claimed that it had raised the quality issue before receiving the demand notice and had internally recorded the dispute with supporting inspection reports.</p>
+
+    <p>Sunrise did not accept Apex's explanation. It argued that the alleged quality issue was merely an excuse to delay payment. Sunrise therefore decided to invoke the insolvency mechanism applicable to operational creditors.</p>
+
+    <p>Before filing an application, Sunrise issued a demand notice requiring Apex Mobility to pay the outstanding operational debt. The notice was duly delivered to Apex. Within the statutory period, Apex sent a detailed response referring to the earlier correspondence concerning defective components and enclosed copies of inspection reports and emails exchanged between the parties before the demand notice.</p>
+
+    <p>Sunrise's management believed that the dispute was weak and commercially motivated. Its legal advisers, however, explained that the relevant question at the admission stage was not whether Sunrise would ultimately win the contractual dispute. The existence of a genuine pre-existing dispute could prevent an operational creditor from using the insolvency process as a recovery mechanism.</p>
+
+    <p>The advisers therefore examined the correspondence, quality reports, purchase orders and inspection records to determine whether the dispute existed before the demand notice and whether it was merely a sham or had a real factual basis.</p>
+
+    <p>After reviewing the documents, the advisers concluded that the dispute concerning quality had been raised before the demand notice and was supported by contemporaneous records. Sunrise was advised to consider its contractual remedies separately rather than relying solely upon a Section 9 application.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_12_1",
+            question: "Before filing an application under Section 9, Sunrise should first:",
+            options: [
+                "Issue a demand notice",
+                "Approach RBI",
+                "Appoint a liquidator",
+                "Obtain approval from shareholders of Apex"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_12_2",
+            question: "Apex's response concerning defective goods is relevant because it may establish:",
+            options: [
+                "A change in shareholding",
+                "A pre-existing dispute",
+                "A financial debt",
+                "A liquidation order"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_12_3",
+            question: "For Section 9 purposes, a dispute should generally be:",
+            options: [
+                "Created after the demand notice",
+                "Pre-existing and genuine",
+                "Entirely imaginary",
+                "Raised only before the Supreme Court"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_12_4",
+            question: "The insolvency process should not ordinarily be used merely as:",
+            options: [
+                "A resolution mechanism",
+                "A means of recovering a genuinely disputed debt",
+                "A restructuring mechanism",
+                "A going-concern revival mechanism"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_12_5",
+            question: "Which evidence is most relevant to determine whether a dispute was pre-existing?",
+            options: [
+                "Correspondence and inspection reports existing before the demand notice",
+                "Only documents created after filing Section 9 application",
+                "Only shareholder minutes",
+                "Only bank statements of Sunrise"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_medium_13",
+    case_chapter: "ibc",
+    case_topic: ["IRP", "Moratorium", "Management", "Public Announcement"],
+    difficulty: "medium",
+
+    caseText: `<p>Eastern Food Processing Limited operated a large food-processing facility and supplied packaged products to several national retail chains. The company had accumulated substantial financial liabilities and eventually defaulted on its financial obligations. A financial creditor filed an application before the Adjudicating Authority and the application was subsequently admitted.</p>
+
+    <p>On the insolvency commencement date, the Adjudicating Authority declared a moratorium and appointed Mr. Rohan Kapoor as the Interim Resolution Professional. A public announcement was required to be made inviting claims from creditors of the corporate debtor.</p>
+
+    <p>Immediately after his appointment, Mr. Kapoor visited the company's principal manufacturing facility. The managing director and several senior officers informed him that they intended to continue taking major decisions because the shareholders continued to own the company. They also stated that the IRP should merely supervise the company while the existing management continued to operate the business.</p>
+
+    <p>The IRP explained that the legal position was different. Once appointed, the management of the affairs of the corporate debtor vested in the IRP and the powers of the Board of Directors stood suspended. The officers and managers were required to report to the IRP and provide access to records and documents.</p>
+
+    <p>During the same period, one supplier threatened to discontinue supplies immediately because old invoices remained unpaid. The IRP examined the nature of the supplies and determined that certain supplies were essential for preserving the value of the business and maintaining it as a going concern.</p>
+
+    <p>The IRP also received claims from employees, operational creditors and financial creditors. He began verifying the claims and compiling the financial position of Eastern Food Processing Limited.</p>
+
+    <p>The former directors objected to the public announcement, arguing that creditors should approach the company individually instead of submitting claims to the IRP. The IRP explained that the statutory insolvency process requires claims to be submitted and verified in the prescribed manner so that the Committee of Creditors can be constituted properly.</p>
+
+    <p>The IRP thereafter prepared a preliminary assessment of the company's assets, liabilities, receivables and ongoing contracts and began taking steps to preserve the value of the business while the CIRP progressed.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_13_1",
+            question: "After appointment of the IRP, management of the corporate debtor vests in:",
+            options: [
+                "The shareholders",
+                "The suspended Board of Directors",
+                "The IRP",
+                "The operational creditors"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "ibc_cs_medium_13_2",
+            question: "The powers of the Board of Directors after appointment of the IRP:",
+            options: [
+                "Continue without restriction",
+                "Stand suspended",
+                "Transfer automatically to shareholders",
+                "Transfer to operational creditors"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_13_3",
+            question: "A major objective of the IRP is to:",
+            options: [
+                "Immediately liquidate every corporate debtor",
+                "Protect and preserve the value of the corporate debtor",
+                "Repay shareholders first",
+                "Terminate all contracts"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_13_4",
+            question: "Claims submitted by creditors are primarily relevant for:",
+            options: [
+                "Constitution of the CoC and determination of liabilities",
+                "Appointment of shareholders",
+                "Cancellation of the company's incorporation",
+                "Determination of income tax"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_13_5",
+            question: "The IRP may seek access to:",
+            options: [
+                "Only physical cash",
+                "Books, records and relevant information of the corporate debtor",
+                "Only shareholder registers",
+                "Only employee attendance records"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_medium_14",
+    case_chapter: "ibc",
+    case_topic: ["Committee of Creditors", "Voting Share", "Financial Creditors", "CoC Meeting"],
+    difficulty: "medium",
+
+    caseText: `<p>Pragati Infrastructure Limited was admitted into CIRP after defaulting on several financial obligations. Following the public announcement, the Interim Resolution Professional received claims from multiple creditors and undertook the process of verification.</p>
+
+    <p>The verified claims revealed that Pragati Infrastructure Limited owed ₹40 crore to Sunrise Bank, ₹25 crore to National Finance Corporation and ₹15 crore to Delta Investment Fund. In addition, the company owed ₹12 crore to various operational creditors and ₹5 crore in unpaid employee-related dues.</p>
+
+    <p>One of the financial creditors, Delta Investment Fund, was also a related party of the corporate debtor due to its substantial connection with the promoters. The suspended management argued that Delta should nevertheless participate in the Committee of Creditors because it was a financial creditor and had a substantial amount of debt outstanding.</p>
+
+    <p>The IRP explained that the Code contains specific restrictions concerning participation and voting by related-party financial creditors. The legal team was therefore asked to determine the proper composition of the CoC.</p>
+
+    <p>The IRP constituted the CoC after verifying the claims. The voting share of eligible financial creditors was determined with reference to the financial debt owed to each creditor. Sunrise Bank and National Finance Corporation subsequently disagreed over a proposal concerning the future strategy of the corporate debtor.</p>
+
+    <p>A meeting of the CoC was convened. The notice was circulated to the relevant participants. Representatives of the suspended Board were also informed about the meeting, although they were aware that they did not possess voting rights in the meeting.</p>
+
+    <p>During the meeting, the CoC considered several matters concerning the CIRP. The Resolution Professional explained that voting rights were based upon the voting share assigned to the financial creditors and that the percentage required for a decision depended upon the particular matter being voted upon.</p>
+
+    <p>The suspended directors requested that the meeting be postponed because they believed their absence would invalidate the proceedings. The Resolution Professional clarified that the absence of suspended directors would not by itself invalidate the meeting.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_14_1",
+            question: "The CoC generally comprises:",
+            options: [
+                "All employees",
+                "Financial creditors, subject to the Code",
+                "Only operational creditors",
+                "Only shareholders"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_14_2",
+            question: "The voting share of a financial creditor is generally based on:",
+            options: [
+                "Number of employees",
+                "Share capital held",
+                "Financial debt owed to the creditor in relation to total financial debt",
+                "Turnover of the creditor"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "ibc_cs_medium_14_3",
+            question: "A related-party financial creditor is generally:",
+            options: [
+                "Always entitled to vote",
+                "Excluded from participation and voting subject to statutory exceptions",
+                "Converted into an operational creditor",
+                "Automatically made a shareholder"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_14_4",
+            question: "The suspended directors attending a CoC meeting generally:",
+            options: [
+                "Have voting rights",
+                "Do not have voting rights",
+                "Can vote only on liquidation",
+                "Can vote only on appointment of RP"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_14_5",
+            question: "The absence of the suspended directors from the CoC meeting:",
+            options: [
+                "Automatically invalidates the meeting",
+                "Does not by itself invalidate the proceedings",
+                "Automatically dissolves the CoC",
+                "Makes the IRP personally liable"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_medium_15",
+    case_chapter: "ibc",
+    case_topic: ["Resolution Professional", "Section 22", "CoC", "Replacement"],
+    difficulty: "medium",
+
+    caseText: `<p>Navbharat Electronics Limited entered the corporate insolvency resolution process after a financial creditor successfully established a default before the Adjudicating Authority. Ms. Meera Shah was appointed as the Interim Resolution Professional. She immediately began collecting information regarding the company's assets, liabilities, creditors, contracts and ongoing business operations.</p>
+
+    <p>After verification of claims, the Committee of Creditors was constituted. The CoC consisted of several financial creditors having different voting shares. The first meeting was scheduled within the prescribed period.</p>
+
+    <p>At the first meeting, the financial creditors discussed whether Ms. Shah should continue as the Resolution Professional or whether another insolvency professional should be appointed. One of the financial creditors proposed Mr. Arjun Rao as the replacement candidate and produced his written consent to act as RP.</p>
+
+    <p>The CoC carefully considered the proposal and conducted a vote. The resolution to replace Ms. Shah received the required voting support of not less than 66% of the voting share of financial creditors.</p>
+
+    <p>The CoC thereafter communicated its decision and proposed the name of Mr. Rao for appointment as Resolution Professional. The matter was placed before the Adjudicating Authority and the proposed name was forwarded for confirmation by the Board.</p>
+
+    <p>During the intervening period, the creditors were concerned about the possibility that the confirmation might not be received immediately. The legal adviser explained that the Code contains a mechanism to ensure continuity of the insolvency process where confirmation of the proposed RP is delayed.</p>
+
+    <p>Meanwhile, Ms. Shah continued performing the necessary functions and ensured that business operations were not disrupted. She also prepared documents and information required to be handed over to the newly appointed RP once the appointment became effective.</p>
+
+    <p>The CoC subsequently received confirmation of the proposed appointment. Mr. Rao took charge and received the information, documents and records relating to the corporate debtor from Ms. Shah.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_15_1",
+            question: "The first meeting of the CoC is relevant for deciding:",
+            options: [
+                "Whether the IRP should continue as RP or be replaced",
+                "Whether shareholders should receive dividends",
+                "Whether the company should issue bonus shares",
+                "Whether all employees should be dismissed"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_15_2",
+            question: "The required voting threshold for appointment/replacement of RP under Section 22 is:",
+            options: [
+                "51%",
+                "60%",
+                "66%",
+                "90%"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "ibc_cs_medium_15_3",
+            question: "Where the proposed RP's confirmation is delayed, the IRP:",
+            options: [
+                "Must immediately stop functioning",
+                "Continues as directed until the appointment is confirmed",
+                "Automatically becomes liquidator",
+                "Transfers management to shareholders"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_15_4",
+            question: "On replacement, the outgoing IRP should:",
+            options: [
+                "Destroy all records",
+                "Provide relevant information, documents and records to the new RP",
+                "Transfer assets to shareholders",
+                "Close the corporate debtor's bank accounts permanently"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_15_5",
+            question: "The RP's principal responsibility during CIRP includes:",
+            options: [
+                "Conducting the CIRP and preserving the corporate debtor's assets",
+                "Representing only one creditor",
+                "Distributing all assets immediately",
+                "Managing shareholders' personal assets"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_hard_11",
+    case_chapter: "ibc",
+    case_topic: ["Section 29A", "Resolution Applicant", "NPA", "Eligibility"],
+    difficulty: "hard",
+
+    caseText: `<p>Orion Steel Manufacturing Limited was admitted into the corporate insolvency resolution process after defaulting on substantial financial debt. The Resolution Professional invited prospective resolution applicants to submit expressions of interest in accordance with the process approved by the Committee of Creditors. Several domestic and international business groups expressed interest in acquiring the corporate debtor as a going concern.</p>
+
+    <p>Among the applicants was Zenith Industrial Holdings Limited, a large industrial group with significant experience in steel manufacturing. Zenith submitted its expression of interest and was included among the prospective resolution applicants after satisfying the preliminary requirements.</p>
+
+    <p>During the detailed eligibility review, the Resolution Professional discovered that one of the companies controlled by the promoter group of Zenith Industrial Holdings had an account that had been classified as a non-performing asset more than one year earlier. The company had not cleared the entire overdue amount, interest and applicable charges before submission of the proposed resolution plan.</p>
+
+    <p>Zenith argued that the NPA belonged to a separate company and that the applicant itself had not personally committed the default. It further argued that the financial condition of the related company should not prevent Zenith from submitting a resolution plan because Zenith had sufficient funds to revive Orion Steel Manufacturing Limited.</p>
+
+    <p>The Resolution Professional examined the relationship between the entities and determined that the relevant company was under the management and control of persons connected with the resolution applicant. The professional therefore considered whether the statutory provisions dealing with connected persons and ineligible resolution applicants were attracted.</p>
+
+    <p>Another applicant, Falcon Asset Resolution Fund, was an asset reconstruction company registered with the Reserve Bank of India. One member of the CoC argued that Falcon should also be disqualified because one of its investment vehicles had previously acquired distressed assets that had been classified as NPAs.</p>
+
+    <p>The legal adviser explained that Section 29A contains specific disqualifications but also contains exceptions in relation to certain financial entities meeting the statutory requirements. The adviser therefore distinguished between an ordinary business applicant and a qualifying financial entity.</p>
+
+    <p>At the same time, another prospective applicant had been convicted for an offence attracting imprisonment exceeding the statutory threshold. The conviction had occurred several years earlier and the applicant had already completed the sentence. The applicant argued that sufficient time had passed since release and therefore the disqualification should not continue.</p>
+
+    <p>The Resolution Professional therefore had to evaluate each applicant independently by examining the precise statutory ground, the applicant's connected persons, the nature of any NPA, applicable exceptions and the time elapsed from release from imprisonment.</p>
+
+    <p>The CoC instructed the Resolution Professional not to place an ineligible resolution applicant's plan before it merely because the financial offer was substantially higher than the competing bids. The professional consequently prepared a detailed eligibility report before proceeding with evaluation of the plans.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_11_1",
+            question: "Zenith's eligibility may be affected by the NPA of another entity because:",
+            options: [
+                "Section 29A may consider entities under the management or control of the applicant and connected persons",
+                "Every NPA in India automatically disqualifies every applicant",
+                "Only shareholders are examined",
+                "NPAs have no relevance under Section 29A"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_11_2",
+            question: "An applicant having an NPA-related disqualification under Section 29A(c) may generally become eligible if, before submission of the resolution plan, it:",
+            options: [
+                "Changes its registered office",
+                "Pays the overdue amounts with interest and applicable charges as required",
+                "Obtains employee approval",
+                "Changes its statutory auditor"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_11_3",
+            question: "The status of Falcon Asset Resolution Fund is relevant because Section 29A contains specific provisions concerning:",
+            options: [
+                "Financial entities",
+                "Employees",
+                "Operational creditors",
+                "Trade unions"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_11_4",
+            question: "A conviction-based disqualification under Section 29A may cease to apply after:",
+            options: [
+                "Two years from release from imprisonment, subject to the statutory conditions",
+                "One month from conviction",
+                "Ten years from incorporation",
+                "Immediately after filing the resolution plan"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_11_5",
+            question: "The CoC should not approve a resolution plan merely because:",
+            options: [
+                "The applicant offers the highest financial amount despite being statutorily ineligible",
+                "The plan is feasible",
+                "The plan is viable",
+                "The applicant satisfies Section 29A"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_hard_12",
+    case_chapter: "ibc",
+    case_topic: ["Section 28", "CoC Approval", "Interim Finance", "Related Party Transaction"],
+    difficulty: "hard",
+
+    caseText: `<p>Mahadev Infrastructure Projects Limited was undergoing CIRP after defaulting on multiple financial obligations. The Resolution Professional, Mr. Vikram Rao, was responsible for managing the operations of the company as a going concern and preserving its value during the insolvency resolution process.</p>
+
+    <p>Shortly after taking charge, Mr. Rao discovered that the corporate debtor required immediate working capital of approximately ₹12 crore to continue operations. Several suppliers had become unwilling to provide materials on credit because of the company's deteriorating financial position. The Resolution Professional therefore began negotiations with a private lender willing to provide interim finance.</p>
+
+    <p>The proposed financing involved creation of a security interest over one of the company's valuable properties. Mr. Rao believed that obtaining the finance quickly would preserve the business and prevent a major customer from terminating its supply contract.</p>
+
+    <p>However, the proposed financing exceeded the amount that the Committee of Creditors had previously permitted. Mr. Rao considered proceeding immediately because of the urgency of the situation.</p>
+
+    <p>At the same time, the corporate debtor's management proposed entering into a transaction with a company controlled by one of its former promoters. The transaction involved the sale of certain inventory and provision of consultancy services. The former promoter argued that the transaction was commercially advantageous and would generate immediate cash for the corporate debtor.</p>
+
+    <p>Mr. Rao also received a request from the suspended management to alter the capital structure of the corporate debtor by issuing additional securities to a strategic investor. The investor had agreed to inject capital but required substantial control rights over the company.</p>
+
+    <p>The Resolution Professional consulted the legal advisers, who pointed out that certain specified actions cannot be undertaken by the RP during CIRP without prior approval of the CoC. These include specified actions relating to interim finance, creation of security interests, capital structure, related-party transactions and changes in management, among others.</p>
+
+    <p>The advisers further explained that the statutory requirement is not merely procedural. Where an action requiring prior CoC approval is taken without obtaining the required approval, the consequences can be serious and the action may be treated as void.</p>
+
+    <p>The matter was placed before the CoC. The creditors carefully considered the proposed interim finance, security interest, related-party transaction and capital restructuring proposal. The CoC examined whether each proposal was necessary for preserving the value of the corporate debtor and whether the proposed actions were commercially justified.</p>
+
+    <p>After detailed deliberation, the CoC approved some proposals with the required voting support but rejected the proposed related-party transaction because adequate commercial justification had not been established.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_12_1",
+            question: "The RP's proposed creation of security interest over the corporate debtor's property generally requires:",
+            options: [
+                "Prior approval of the CoC where Section 28 applies",
+                "Approval of any employee",
+                "Approval only of the suspended directors",
+                "No approval under any circumstances"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_12_2",
+            question: "A related-party transaction during CIRP is one of the matters that:",
+            options: [
+                "May require prior CoC approval under Section 28",
+                "Can always be undertaken without approval",
+                "Must always be approved by shareholders",
+                "Is automatically treated as liquidation"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_12_3",
+            question: "The minimum voting share generally required for approval of actions specified under Section 28 is:",
+            options: [
+                "33%",
+                "51%",
+                "66%",
+                "90%"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "ibc_cs_hard_12_4",
+            question: "If the RP takes an action covered by Section 28 without obtaining the required CoC approval, such action may be:",
+            options: [
+                "Automatically valid",
+                "Void",
+                "Binding only on employees",
+                "Converted into a resolution plan"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_12_5",
+            question: "Which of the following is also specifically subject to CoC approval under Section 28?",
+            options: [
+                "Change in the capital structure of the corporate debtor",
+                "Routine employee attendance",
+                "Preparation of public announcement",
+                "Verification of ordinary claims"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_hard_13",
+    case_chapter: "ibc",
+    case_topic: ["Resolution Plan", "CoC", "Voting", "NCLT Approval"],
+    difficulty: "hard",
+
+    caseText: `<p>Silverline Pharmaceuticals Limited was admitted into CIRP after substantial defaults to financial creditors. The Resolution Professional conducted the insolvency resolution process, prepared the information memorandum and invited prospective resolution applicants to submit resolution plans. After the eligibility requirements were completed, three applicants submitted detailed plans for revival of the corporate debtor as a going concern.</p>
+
+    <p>Applicant A proposed a restructuring involving substantial infusion of fresh capital, continuation of the existing manufacturing operations and settlement of creditors according to a structured payment schedule. Applicant B proposed a merger of Silverline Pharmaceuticals with another pharmaceutical company and offered a somewhat higher immediate payment to certain financial creditors. Applicant C proposed sale of certain business divisions and restructuring of the remaining operations.</p>
+
+    <p>The Resolution Professional examined each plan to determine whether it complied with the statutory requirements. Particular attention was given to payment of insolvency resolution process costs, treatment of operational creditors, treatment of financial creditors who did not vote in favour of the plan, management of the corporate debtor after approval, implementation and supervision of the plan and compliance with applicable laws.</p>
+
+    <p>One operational creditor complained that its proposed payment was substantially below the amount claimed by it. The Resolution Professional explained that the plan must satisfy the statutory requirements concerning payment to operational creditors, including the applicable minimum prescribed under the Code.</p>
+
+    <p>The CoC thereafter evaluated the plans on the basis of the evaluation matrix. The creditors considered feasibility, viability, distribution, security interests and the overall commercial prospects of each proposal.</p>
+
+    <p>During the first vote, Applicant A's plan received 64% of the voting share, Applicant B's plan received 67% and Applicant C's plan received 52%. Since more than one plan had been placed before the CoC, the Resolution Professional considered the prescribed procedure for simultaneous voting and identification of the plan receiving the highest requisite votes.</p>
+
+    <p>Applicant B's plan was therefore selected by the CoC and submitted to the Adjudicating Authority. One group of creditors opposed the decision and argued that the NCLT should substitute its own commercial assessment for that of the CoC.</p>
+
+    <p>The Resolution Professional explained that the CoC exercises commercial wisdom in evaluating the feasibility and viability of resolution plans. The Adjudicating Authority's role is to examine whether the statutory requirements have been complied with rather than simply replacing the commercial decision of the CoC with its own preferred commercial outcome.</p>
+
+    <p>The NCLT examined the plan and found that the statutory requirements were satisfied. It consequently approved the resolution plan. The plan became binding upon the corporate debtor and the stakeholders covered by the Code.</p>
+
+    <p>The successful resolution applicant thereafter began taking steps to implement the plan and obtain approvals required under applicable laws. The former promoters objected to certain consequences of the approved plan, arguing that their previous liabilities should continue against the corporate debtor even though those liabilities were not included in the approved plan.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_13_1",
+            question: "Before submission to the CoC, the RP must examine whether the resolution plan:",
+            options: [
+                "Complies with the requirements of Section 30(2)",
+                "Provides dividends to shareholders",
+                "Eliminates all operational creditors",
+                "Is approved by every employee"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_13_2",
+            question: "Applicant B's plan receiving 67% voting share means that it:",
+            options: [
+                "Failed because 90% was required",
+                "Crossed the 66% threshold generally required for CoC approval",
+                "Could automatically bypass the NCLT",
+                "Was automatically approved without CoC evaluation"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_13_3",
+            question: "The CoC's evaluation of a resolution plan primarily includes consideration of:",
+            options: [
+                "Feasibility and viability",
+                "Only the applicant's brand value",
+                "Only shareholder preference",
+                "Only employee salaries"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_13_4",
+            question: "The NCLT's consideration of an approved resolution plan primarily involves:",
+            options: [
+                "Replacing CoC commercial wisdom with its own commercial preference",
+                "Examining compliance with statutory requirements",
+                "Rewriting the entire resolution plan",
+                "Selecting the highest bidder irrespective of law"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_13_5",
+            question: "The principle associated with an approved resolution plan resulting in the successful applicant taking over on a fresh slate is reflected in:",
+            options: [
+                "Committee of Creditors of Essar Steel India Ltd. v. Satish Kumar Gupta",
+                "Mobilox Innovations Pvt. Ltd. v. Kirusa Software Pvt. Ltd.",
+                "Surendra Trading Company v. Juggilal Kamlapat Jute Mills",
+                "Manish Kumar v. Union of India"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_hard_14",
+    case_chapter: "ibc",
+    case_topic: ["CIRP Timeline", "Extension", "Liquidation", "CoC Commercial Wisdom"],
+    difficulty: "hard",
+
+    caseText: `<p>Trident Mining Equipment Limited was admitted into CIRP following a substantial default. The Resolution Professional immediately commenced the process of collecting claims, constituting the Committee of Creditors and preserving the company's manufacturing operations. The company owned specialised manufacturing facilities and had long-term contracts with mining companies, making preservation of the business as a going concern commercially significant.</p>
+
+    <p>During the early stages of CIRP, the Resolution Professional encountered several difficulties. Verification of claims took longer than anticipated because the corporate debtor maintained incomplete records. Several creditors had submitted claims supported by different sets of documents and the RP was required to reconcile them with the company's books and information available from other sources.</p>
+
+    <p>After the CoC was constituted, the RP initiated the process for preparation of the information memorandum and invited prospective resolution applicants. Several strategic investors initially expressed interest, but only two applicants ultimately submitted detailed resolution plans.</p>
+
+    <p>The first 180-day period was approaching its end. The CoC considered the status of the resolution plans and concluded that additional time was necessary to complete negotiations and evaluate whether the proposals were commercially viable. The CoC passed the necessary resolution with the prescribed voting support and instructed the RP to seek extension of the CIRP period.</p>
+
+    <p>The RP filed the necessary application before the Adjudicating Authority. During the extended period, one applicant withdrew its proposal and the remaining applicant submitted a revised plan. The revised proposal required significant restructuring of the company's debt and changes in the management structure.</p>
+
+    <p>Some creditors argued that the company should be liquidated because the process had already consumed substantial time and expenses. Others believed that liquidation would destroy substantial going-concern value because the company's specialised machinery would fetch considerably less if sold individually.</p>
+
+    <p>The CoC examined the financial projections, liquidation value, estimated recovery under the proposed resolution plan, costs of continuing the CIRP and the future prospects of the industry. After extensive deliberation, the CoC concluded that the revised resolution plan was not sufficiently viable.</p>
+
+    <p>Before confirmation of any resolution plan, the CoC passed a resolution supported by at least 66% of the voting share deciding to liquidate the corporate debtor. The RP communicated the decision to the Adjudicating Authority.</p>
+
+    <p>The suspended directors challenged the decision and argued that liquidation should occur only after every possible resolution applicant had been given an opportunity. They also argued that the NCLT should independently reassess the commercial decision of the CoC before ordering liquidation.</p>
+
+    <p>The CoC responded that the statutory scheme permits it to decide to liquidate the corporate debtor at any time after constitution of the CoC and before confirmation of a resolution plan, subject to the prescribed voting threshold.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_14_1",
+            question: "The original CIRP period is generally:",
+            options: [
+                "90 days",
+                "120 days",
+                "180 days",
+                "365 days"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "ibc_cs_hard_14_2",
+            question: "Extension beyond 180 days generally requires instruction from the CoC by at least:",
+            options: [
+                "33% voting share",
+                "51% voting share",
+                "66% voting share",
+                "90% voting share"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "ibc_cs_hard_14_3",
+            question: "Can the CoC decide to liquidate the corporate debtor before confirmation of a resolution plan?",
+            options: [
+                "No, never",
+                "Yes, with the prescribed 66% voting support",
+                "Only with unanimous shareholder approval",
+                "Only after five years"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_14_4",
+            question: "The commercial decision of the CoC regarding liquidation is generally:",
+            options: [
+                "Subject to unrestricted substitution by NCLT",
+                "A matter in which judicial interference is limited",
+                "Decided by operational creditors alone",
+                "Decided by the suspended Board"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_14_5",
+            question: "The key commercial consideration supporting continuation of resolution rather than immediate asset sale could be:",
+            options: [
+                "Higher going-concern value compared with break-up liquidation value",
+                "Preference of shareholders alone",
+                "Age of employees",
+                "Number of board meetings"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_hard_15",
+    case_chapter: "ibc",
+    case_topic: ["Moratorium", "Guarantor", "Essential Services", "Security Interest"],
+    difficulty: "hard",
+
+    caseText: `<p>Rajdhani Textiles Limited operated a large textile manufacturing unit with factories in three states. The company had borrowed extensively from several financial creditors and had also obtained guarantees from its promoters in favour of certain lenders. Following prolonged financial stress, Rajdhani Textiles Limited defaulted on its financial obligations and CIRP was initiated by the Adjudicating Authority.</p>
+
+    <p>On the insolvency commencement date, the Adjudicating Authority declared a moratorium under Section 14. The Resolution Professional immediately informed the company's creditors, suppliers, landlords and financial institutions about the commencement of CIRP and the consequences of the moratorium.</p>
+
+    <p>One secured creditor had already initiated enforcement proceedings against the mortgaged factory property before commencement of CIRP. After the moratorium was declared, the creditor sought to continue the enforcement proceedings and argued that its security interest was created long before the CIRP commenced.</p>
+
+    <p>The Resolution Professional objected and explained that the moratorium restricts actions to foreclose, recover or enforce security interests created by the corporate debtor in respect of its property during the moratorium period.</p>
+
+    <p>At the same time, a landlord demanded immediate recovery of the factory premises. The landlord argued that it was the owner of the property and therefore could recover possession despite the moratorium. The RP examined whether the property was occupied by or in possession of the corporate debtor and explained the specific statutory protection applicable during the moratorium.</p>
+
+    <p>Another issue arose concerning electricity and water supplies. Certain suppliers threatened to discontinue services because of unpaid historical dues. The RP explained that the Code contains specific protections concerning essential goods and services and, in appropriate circumstances, critical supplies necessary to preserve the value of the corporate debtor and continue operations as a going concern.</p>
+
+    <p>Meanwhile, one bank had initiated recovery proceedings against a promoter who had personally guaranteed the debt of Rajdhani Textiles Limited. The promoter argued that because the corporate debtor was protected by the moratorium, proceedings against him as guarantor should also automatically stop.</p>
+
+    <p>The legal advisers explained that the statutory moratorium applicable to the corporate debtor does not extend in the same manner to a surety in a contract of guarantee to the corporate debtor. The rights of creditors against the guarantor therefore had to be examined separately.</p>
+
+    <p>The RP also reminded the management that insolvency does not automatically terminate every licence, permit, registration or similar statutory grant. Subject to payment of current dues and the statutory conditions, such rights may continue during the moratorium period.</p>
+
+    <p>The CoC subsequently reviewed the effect of the moratorium on the company's operations and instructed the RP to ensure that no creditor took unilateral action that was prohibited by the Code while also ensuring that current dues for essential and critical supplies were appropriately dealt with.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_15_1",
+            question: "During the moratorium, enforcement of security interest created by the corporate debtor is generally:",
+            options: [
+                "Permitted without restriction",
+                "Prohibited subject to statutory provisions and exceptions",
+                "Mandatory",
+                "Transferred to shareholders"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_15_2",
+            question: "Recovery of property by an owner or lessor where the property is occupied by or in possession of the corporate debtor is generally:",
+            options: [
+                "Permitted automatically",
+                "Prohibited during the moratorium subject to the Code",
+                "Required by the RP",
+                "Allowed only to shareholders"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_15_3",
+            question: "The moratorium under Section 14 applies to:",
+            options: [
+                "The corporate debtor",
+                "Every guarantor automatically",
+                "Every shareholder personally",
+                "Every employee personally"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_15_4",
+            question: "Proceedings against a surety/guarantor are:",
+            options: [
+                "Automatically prohibited by Section 14",
+                "Not barred merely because the corporate debtor is under moratorium",
+                "Always converted into CIRP against the guarantor",
+                "Automatically dismissed"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_15_5",
+            question: "A licence or permit held by the corporate debtor is generally not to be suspended merely because of insolvency, subject to:",
+            options: [
+                "Payment of current dues and applicable statutory conditions",
+                "Approval of all shareholders",
+                "Approval of all employees",
+                "Payment of historical debts in full"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_medium_16",
+    case_chapter: "ibc",
+    case_topic: ["Insolvency Commencement Date", "Moratorium", "IRP", "CIRP"],
+    difficulty: "medium",
+
+    caseText: `<p>Aravind Engineering Limited was a medium-sized engineering company engaged in the manufacture of specialised industrial equipment. The company had been operating for more than fifteen years and had established long-term relationships with several domestic and international customers. In order to expand its manufacturing capacity, the company had borrowed substantial amounts from various financial institutions.</p>
+
+    <p>Due to a prolonged decline in orders and an unexpected increase in the cost of imported raw materials, Aravind Engineering Limited began facing severe liquidity problems. The company failed to make certain instalment payments to Zenith Bank Limited. The bank issued several reminders and subsequently initiated proceedings under the Insolvency and Bankruptcy Code.</p>
+
+    <p>The Adjudicating Authority examined the application and the documents relating to the financial debt and default. After being satisfied that the statutory requirements had been complied with, the application was admitted. An Interim Resolution Professional was appointed and a public announcement was made inviting claims from creditors.</p>
+
+    <p>The management of Aravind Engineering Limited believed that the company could continue dealing with creditors in the ordinary manner because the directors remained shareholders of the company. Accordingly, one of the directors instructed the accounts department to make payments to certain creditors whose invoices had become overdue.</p>
+
+    <p>The Interim Resolution Professional objected to this approach. He explained that upon commencement of CIRP, the management of the affairs of the corporate debtor vests in the Interim Resolution Professional and the powers of the Board of Directors are suspended. He also explained that the moratorium declared under the Code has significant consequences for actions against the corporate debtor.</p>
+
+    <p>Within a few days of commencement of CIRP, a supplier filed a civil suit seeking recovery of an amount that had become due before the insolvency commencement date. The supplier argued that it had a contractual right to recover the amount and that the insolvency process should not prevent it from pursuing the claim.</p>
+
+    <p>The IRP informed the supplier that the statutory moratorium prohibits the institution of suits or continuation of pending suits or proceedings against the corporate debtor, subject to the provisions and exceptions contained in the Code.</p>
+
+    <p>Meanwhile, certain creditors requested immediate payment of their old outstanding dues. The IRP explained that creditors were required to submit their claims through the prescribed process and that payment could not be made selectively merely because an individual creditor demanded it.</p>
+
+    <p>The IRP then took control of the company's records, bank accounts, assets and information systems. He instructed the officers and managers of the company to cooperate and provide all information necessary for conducting the CIRP.</p>
+
+    <p>The former directors subsequently requested that the IRP allow them to continue negotiating with major customers. The IRP permitted them to assist where their knowledge was useful but clarified that management and control of the corporate debtor during CIRP would be exercised in accordance with the Code.</p>
+
+    <p>The IRP thereafter focused on maintaining the company as a going concern, verifying claims, identifying assets and liabilities, and taking steps necessary for conducting the CIRP in an orderly manner.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_16_1",
+            question: "The insolvency commencement date is generally the date on which:",
+            options: [
+                "The company first suffers financial losses",
+                "The application for CIRP is admitted by the Adjudicating Authority",
+                "The first creditor sends a reminder",
+                "The company stops business"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_16_2",
+            question: "After commencement of CIRP, the powers of the Board of Directors:",
+            options: [
+                "Continue without restriction",
+                "Stand suspended",
+                "Transfer to shareholders",
+                "Transfer to operational creditors"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_16_3",
+            question: "The supplier's civil suit for recovery of pre-CIRP dues is affected by:",
+            options: [
+                "The moratorium",
+                "The company's memorandum",
+                "The annual general meeting",
+                "The audit committee"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_16_4",
+            question: "During CIRP, creditors should generally submit their claims to:",
+            options: [
+                "The shareholders",
+                "The IRP/RP in the prescribed manner",
+                "The suspended directors",
+                "The company's auditor"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_16_5",
+            question: "One important responsibility of the IRP is to:",
+            options: [
+                "Immediately sell all assets",
+                "Keep the corporate debtor as a going concern",
+                "Repay shareholders first",
+                "Terminate all employees"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_medium_17",
+    case_chapter: "ibc",
+    case_topic: ["Claims", "Verification", "Operational Creditor", "Financial Creditor"],
+    difficulty: "medium",
+
+    caseText: `<p>Bluewave Chemicals Limited was admitted into CIRP following a substantial default in repayment of financial debt. The Interim Resolution Professional, Ms. Kavya Menon, issued the required public announcement and invited creditors to submit their claims within the prescribed period.</p>
+
+    <p>Following the announcement, a large number of claims were received. Several financial creditors submitted claims supported by loan agreements, bank statements and certificates from information utilities. Operational creditors submitted invoices, purchase orders, delivery records and correspondence relating to outstanding payments.</p>
+
+    <p>One supplier, Prime Industrial Supplies, submitted a claim of ₹4.80 crore. The company's books, however, reflected only ₹3.90 crore as payable. Prime Industrial Supplies argued that the remaining ₹90 lakh represented interest and contractual compensation that had become payable under the supply agreement.</p>
+
+    <p>The IRP examined the agreement, invoices, correspondence and accounting records. She also sought clarification from the supplier regarding the basis of the additional amount. The supplier provided calculations showing how the interest had been computed.</p>
+
+    <p>At the same time, National Cooperative Bank submitted a financial claim of ₹28 crore. The corporate debtor's records showed a slightly lower amount because certain interest entries had not yet been updated in the accounting system. The bank submitted its statement of account and supporting loan documents.</p>
+
+    <p>Another creditor submitted a claim after the initial deadline. The creditor argued that it had not become aware of the public announcement because the notice had not been directly communicated to it.</p>
+
+    <p>The IRP explained that the claims process is designed to enable the insolvency professional to ascertain the financial position of the corporate debtor and determine the amounts owed to different creditors. Claims must therefore be supported by appropriate evidence and verified against available records.</p>
+
+    <p>During verification, the IRP also discovered that one operational creditor had submitted the same invoice twice. The creditor immediately acknowledged the duplication and withdrew the duplicate portion of the claim.</p>
+
+    <p>The IRP thereafter prepared a verified list of creditors and their admitted claims. The information was used for determining the composition and voting share of eligible financial creditors in the Committee of Creditors.</p>
+
+    <p>The former directors objected to certain admitted claims and argued that the IRP should reject every claim that was not exactly reflected in the company's accounting software. The IRP rejected this argument and explained that verification requires examination of the available evidence rather than blindly relying on a single accounting record.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_17_1",
+            question: "The IRP's primary purpose in verifying claims is to:",
+            options: [
+                "Determine the financial position and liabilities of the corporate debtor",
+                "Determine income tax liability",
+                "Declare dividends",
+                "Appoint directors"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_17_2",
+            question: "A creditor should support its claim with:",
+            options: [
+                "Appropriate documentary or other prescribed evidence",
+                "Only an oral statement",
+                "Only a newspaper advertisement",
+                "Only a shareholder resolution"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_17_3",
+            question: "The verified claims of financial creditors are particularly relevant for:",
+            options: [
+                "Determining their voting share in the CoC",
+                "Determining employee attendance",
+                "Appointing statutory auditors",
+                "Issuing shares"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_17_4",
+            question: "The IRP should determine claims by:",
+            options: [
+                "Accepting every claim automatically",
+                "Verifying claims against relevant records and evidence",
+                "Rejecting every claim not found in the accounting software",
+                "Accepting only claims of banks"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_17_5",
+            question: "If an operational creditor submits the same invoice twice, the appropriate approach is to:",
+            options: [
+                "Admit both claims automatically",
+                "Verify the duplication and admit only the genuine amount",
+                "Reject all claims of that creditor permanently",
+                "Convert the creditor into a financial creditor"
+            ],
+            answer: 1
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_medium_18",
+    case_chapter: "ibc",
+    case_topic: ["Going Concern", "IRP Duties", "Assets", "Information"],
+    difficulty: "medium",
+
+    caseText: `<p>Harit Agro Processing Limited operated a large food-processing facility producing packaged agricultural products. The company owned processing machinery, warehouses, vehicles and several long-term supply contracts. Following a prolonged period of financial stress, CIRP was initiated against the company.</p>
+
+    <p>The Interim Resolution Professional, Mr. Sameer Rao, took charge of the company's affairs. On his first visit to the factory, he discovered that several important machines were not operational because maintenance contracts had expired. Certain raw materials were also lying unused in the warehouse.</p>
+
+    <p>The suspended management informed Mr. Rao that the company had stopped purchasing raw materials because it did not have sufficient funds. They suggested that the IRP should immediately sell the unused machinery to generate cash and distribute the proceeds among creditors.</p>
+
+    <p>Mr. Rao did not accept the suggestion. He explained that the objective of CIRP is not simply to sell assets but to attempt resolution while preserving the value of the corporate debtor and keeping the business running as a going concern.</p>
+
+    <p>The IRP therefore examined the company's customer contracts and discovered that two major customers were willing to continue purchasing products if the company could resume production within thirty days. He also identified an interim finance provider willing to provide funds for procurement of essential raw materials, subject to the required approvals.</p>
+
+    <p>Mr. Rao instructed the management and employees to provide access to all relevant books and records. He also examined the company's bank accounts, receivables, inventory records, insurance documents and title documents relating to immovable property.</p>
+
+    <p>During the review, it was discovered that certain vehicles owned by the company had been transferred to a promoter-controlled entity shortly before commencement of CIRP. The transaction documents were obtained for further examination.</p>
+
+    <p>The IRP also identified receivables from customers amounting to ₹7 crore. Several customers disputed small portions of the amounts but accepted the majority of the outstanding balances. The IRP began taking steps to recover the receivables in accordance with the applicable legal framework.</p>
+
+    <p>The Committee of Creditors subsequently asked the IRP to provide a report explaining how the value of the company could be preserved during the CIRP. The report included the status of operations, working capital requirements, asset utilisation, receivables, liabilities and potential resolution applicants.</p>
+
+    <p>The CoC concluded that continuing the manufacturing operations was commercially preferable to immediate piecemeal disposal of assets and instructed the RP to continue preserving the company as a going concern while evaluating resolution proposals.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_18_1",
+            question: "The principal objective of continuing business operations during CIRP is to:",
+            options: [
+                "Preserve and maximise the value of the corporate debtor",
+                "Benefit only shareholders",
+                "Avoid payment to creditors",
+                "Immediately liquidate assets"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_18_2",
+            question: "The IRP's examination of books and records is intended to:",
+            options: [
+                "Understand the assets, liabilities and affairs of the corporate debtor",
+                "Prepare personal accounts of directors",
+                "Determine employee promotions",
+                "Replace the statutory auditor"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_18_3",
+            question: "The transfer of vehicles to a promoter-controlled entity before CIRP should:",
+            options: [
+                "Be ignored because it occurred before CIRP",
+                "Be examined under the applicable provisions of the Code",
+                "Automatically be treated as valid",
+                "Automatically be treated as liquidation"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_18_4",
+            question: "Receivables of the corporate debtor represent:",
+            options: [
+                "Assets of the corporate debtor",
+                "Only shareholder property",
+                "Employee liabilities",
+                "Government grants automatically"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_18_5",
+            question: "Immediate sale of productive machinery may be undesirable where:",
+            options: [
+                "Continuing operations can preserve greater going-concern value",
+                "The machinery has no value",
+                "There are no customers",
+                "The company has already been dissolved"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_medium_19",
+    case_chapter: "ibc",
+    case_topic: ["Essential Services", "Critical Supplies", "CIRP", "Moratorium"],
+    difficulty: "medium",
+
+    caseText: `<p>Metro Hospital Equipment Limited manufactured specialised medical equipment used by hospitals and diagnostic centres. The company was admitted into CIRP after defaulting on its financial obligations. The company had a large order book, but its continued operation depended upon uninterrupted electricity, water supply, cloud-based data services and certain specialised software licences.</p>
+
+    <p>After appointment, the Resolution Professional reviewed the company's financial position and discovered substantial unpaid historical bills relating to electricity and water. The utility providers threatened to disconnect the services immediately unless the entire outstanding amount was paid.</p>
+
+    <p>The RP explained that the company was undergoing CIRP and that certain services were essential for continuing operations. He requested the suppliers not to discontinue the services merely because of the insolvency process, while also acknowledging that current dues for continued supplies would need to be appropriately dealt with.</p>
+
+    <p>One supplier argued that because the company had failed to pay historical dues, it should not be required to continue supplying electricity. The RP explained that the Code contains specific provisions concerning essential supplies and critical goods or services during CIRP.</p>
+
+    <p>The RP then examined the company's production process and classified the services according to their importance to continued operations. Electricity and water were essential to the manufacturing process. A specialised cloud service was also necessary because production records, customer specifications and quality-control information were stored on the system.</p>
+
+    <p>At the same time, the company had subscribed to several non-essential services, including a premium entertainment platform for employees and certain unnecessary consultancy services. The RP discontinued these services because they were not necessary for keeping the corporate debtor operational.</p>
+
+    <p>The CoC discussed whether the corporate debtor should continue paying all historical dues. The RP clarified that the statutory protection concerning essential supplies does not mean that every past liability is automatically extinguished.</p>
+
+    <p>The suppliers ultimately agreed to continue essential supplies against payment of current charges in accordance with the applicable provisions. The RP monitored the payments carefully to prevent further accumulation of current liabilities.</p>
+
+    <p>The company was therefore able to continue manufacturing while the RP proceeded with the resolution process and invited potential resolution applicants to submit plans for revival of the business.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_19_1",
+            question: "Essential supplies during CIRP are protected primarily to:",
+            options: [
+                "Enable the corporate debtor to continue as a going concern",
+                "Benefit shareholders",
+                "Cancel all historical debts",
+                "Avoid all future payments"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_19_2",
+            question: "Which of the following may be an essential supply for a manufacturing company?",
+            options: [
+                "Electricity",
+                "Entertainment subscription",
+                "Holiday package",
+                "Luxury vehicle service"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_19_3",
+            question: "Protection of essential supplies does not mean that:",
+            options: [
+                "All historical liabilities are automatically extinguished",
+                "Current dues may need to be paid",
+                "Operations can continue",
+                "The RP must monitor supplies"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_19_4",
+            question: "A non-essential service may be discontinued by the RP where:",
+            options: [
+                "It is unnecessary for continuation of the business",
+                "It is always supplied by a bank",
+                "It is used by an employee",
+                "It appears in the company's annual report"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_19_5",
+            question: "The purpose of continuing essential supplies is closely connected with:",
+            options: [
+                "Maintaining the corporate debtor as a going concern",
+                "Increasing share capital",
+                "Declaring dividends",
+                "Changing statutory auditors"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_medium_20",
+    case_chapter: "ibc",
+    case_topic: ["Resolution Professional", "Information Memorandum", "Resolution Applicants", "CoC"],
+    difficulty: "medium",
+
+    caseText: `<p>Suncrest Automobile Components Limited was admitted into CIRP after a major financial institution established default. The Interim Resolution Professional was subsequently confirmed as the Resolution Professional. The company manufactured automobile components and supplied them to several large automobile manufacturers under long-term contracts.</p>
+
+    <p>The RP's initial review revealed that the company had substantial assets but was also carrying significant debt. It owned land, buildings, plant and machinery, inventories and receivables. The company also had several ongoing contracts, pending litigation, employee obligations and tax liabilities.</p>
+
+    <p>The RP began collecting information from the suspended management and other sources. He requested financial statements, tax records, loan documents, title deeds, details of employees, customer contracts, supplier agreements and information regarding contingent liabilities.</p>
+
+    <p>Some former directors were reluctant to provide the requested information. They argued that the RP could obtain most of the information independently from public records. The RP explained that the management and officers of the corporate debtor have a statutory duty to cooperate with the insolvency professional.</p>
+
+    <p>After collecting and verifying the information, the RP prepared the information memorandum. The document contained details regarding the assets and liabilities of the corporate debtor, material litigation, financial information, business operations, security interests and other information relevant to prospective resolution applicants.</p>
+
+    <p>The RP then invited eligible prospective resolution applicants to submit their plans. Four applicants initially expressed interest. Two were eliminated because they failed to satisfy the eligibility requirements under the Code. The remaining applicants were provided access to the relevant information subject to confidentiality requirements.</p>
+
+    <p>One applicant complained that the information provided was insufficient to assess the value of the business. The RP responded by providing additional information that was relevant and permitted under the applicable process.</p>
+
+    <p>The Committee of Creditors subsequently approved an evaluation matrix for comparing the resolution plans. The matrix considered financial as well as qualitative factors relevant to the revival of the business.</p>
+
+    <p>After receiving the plans, the RP placed them before the CoC for consideration. The CoC examined their feasibility, viability and expected recovery and ultimately selected the plan considered commercially most appropriate.</p>
+
+    <p>The RP thereafter submitted the approved plan to the Adjudicating Authority in accordance with the Code and the applicable regulations.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_medium_20_1",
+            question: "The information memorandum is primarily prepared to:",
+            options: [
+                "Provide relevant information to prospective resolution applicants",
+                "Declare dividends",
+                "Appoint statutory auditors",
+                "Dissolve the company"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_20_2",
+            question: "The suspended management is required to:",
+            options: [
+                "Cooperate with the RP",
+                "Continue exercising all board powers",
+                "Approve every creditor claim",
+                "Appoint the CoC"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_20_3",
+            question: "The CoC evaluates resolution plans primarily on:",
+            options: [
+                "Commercial considerations including feasibility and viability",
+                "Only the age of the applicant",
+                "Only employee preference",
+                "Only the number of shareholders"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_medium_20_4",
+            question: "An applicant failing the statutory eligibility requirements under Section 29A:",
+            options: [
+                "Can submit a plan because its offer is high",
+                "Should not be permitted to submit a resolution plan",
+                "Automatically becomes a financial creditor",
+                "Automatically becomes a shareholder"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_medium_20_5",
+            question: "The evaluation matrix is used to:",
+            options: [
+                "Compare resolution plans on criteria approved by the CoC",
+                "Calculate employee salaries",
+                "Determine GST liability",
+                "Replace the information memorandum"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_hard_16",
+    case_chapter: "ibc",
+    case_topic: ["Preferential Transactions", "Section 43", "Related Party", "Relevant Time"],
+    difficulty: "hard",
+
+    caseText: `<p>Raghav Textiles Limited was a large textile manufacturer that had experienced serious financial difficulties for several years. Its borrowings had increased substantially and several creditors had begun demanding repayment. Despite the deteriorating financial condition of the company, the promoters continued to control its affairs and undertook a number of transactions involving the company's assets and liabilities.</p>
+
+    <p>Approximately eighteen months before commencement of CIRP, the company transferred one of its valuable warehouse properties to a company controlled by a promoter's family member. The stated consideration was significantly below the value appearing in an independent valuation report obtained earlier by the company.</p>
+
+    <p>Approximately fourteen months before commencement of CIRP, the company also created additional security over certain assets in favour of a financial institution. The management argued that the transaction was necessary to obtain emergency funding and continue operations.</p>
+
+    <p>Approximately eight months before commencement of CIRP, the company repaid a loan owed to another entity controlled by one of its promoters. The repayment was made in full even though several unrelated creditors whose debts had already fallen due remained unpaid.</p>
+
+    <p>After CIRP commenced, the Resolution Professional appointed a transaction review team to examine transactions entered into during the relevant period. The team analysed the company's books, board minutes, valuation reports, bank statements and agreements with related entities.</p>
+
+    <p>The review revealed that the warehouse had been transferred for consideration substantially lower than its fair market value. The transferee was closely connected with the promoters. The team also discovered that the repayment of the promoter-related loan had been made shortly before the company stopped servicing most of its other creditors.</p>
+
+    <p>The promoters argued that the transactions could not be questioned because each had been approved by the Board of Directors and documented through formal agreements. They further argued that the warehouse transfer was completed more than one year before CIRP and therefore could not be treated as preferential.</p>
+
+    <p>The Resolution Professional explained that the Code does not determine the nature of a transaction merely by looking at whether a formal agreement or board resolution exists. The substance, timing, parties involved, and effect of the transaction must be examined in accordance with the statutory provisions governing avoidance transactions.</p>
+
+    <p>The RP also considered the special look-back period applicable to transactions involving related parties and compared it with the period applicable to transactions with persons other than related parties. The relationship between the parties therefore became crucial in determining whether the transaction fell within the relevant statutory period.</p>
+
+    <p>The transaction review team prepared a detailed report identifying the transactions that potentially gave an unfair preference to particular creditors or altered the position of creditors in a manner contemplated by the Code.</p>
+
+    <p>The RP subsequently initiated the appropriate proceedings before the Adjudicating Authority seeking appropriate relief in respect of transactions that were found to satisfy the statutory requirements.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_16_1",
+            question: "A transaction may be preferential where it has the effect of:",
+            options: [
+                "Putting a creditor or surety/guarantor in a beneficial position than it would have been in the relevant distribution",
+                "Increasing employee salaries",
+                "Increasing production",
+                "Reducing electricity consumption"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_16_2",
+            question: "For preferential transactions involving a related party, the relevant look-back period is generally:",
+            options: [
+                "One year",
+                "Two years",
+                "Three years",
+                "Five years"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_16_3",
+            question: "For preferential transactions involving persons other than related parties, the relevant period is generally:",
+            options: [
+                "One year preceding the insolvency commencement date",
+                "Two years after liquidation",
+                "Three years after CIRP",
+                "Five years before incorporation"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_16_4",
+            question: "The fact that a transaction was approved by the Board of Directors:",
+            options: [
+                "Automatically prevents it from being examined as an avoidance transaction",
+                "Does not by itself prevent statutory examination",
+                "Makes it binding on all creditors",
+                "Automatically validates an undervalued transaction"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_16_5",
+            question: "Why was the relationship between the transferee and promoters particularly important?",
+            options: [
+                "It could determine whether the transaction fell within the extended relevant period for related parties",
+                "It automatically made the transferee a financial creditor",
+                "It converted the transaction into a resolution plan",
+                "It eliminated the need for valuation"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_hard_17",
+    case_chapter: "ibc",
+    case_topic: ["Undervalued Transactions", "Section 45", "Section 46", "Avoidance"],
+    difficulty: "hard",
+
+    caseText: `<p>Vishal Infrastructure Limited had been engaged in construction and infrastructure development for more than two decades. Due to a sharp reduction in new projects and significant cost overruns on several existing contracts, the company began experiencing severe financial stress. Its lenders repeatedly requested additional security and the company eventually defaulted on its financial obligations.</p>
+
+    <p>Sixteen months before commencement of CIRP, the company sold a large parcel of non-core commercial land to Sunrise Developers Private Limited. The sale deed recorded consideration of ₹18 crore. However, an internal valuation obtained by the company three months before the transaction estimated the fair value of the land at approximately ₹31 crore.</p>
+
+    <p>The directors explained that the lower sale price was justified because the land was subject to certain development restrictions and the purchaser had agreed to complete certain infrastructure works. The purchaser was not formally classified as a related party in the company's financial statements.</p>
+
+    <p>After CIRP commenced, the Resolution Professional obtained the complete transaction file. It contained correspondence showing that the parties had discussed a price substantially higher than ₹18 crore before eventually agreeing to the lower consideration.</p>
+
+    <p>The RP appointed an independent valuer to reassess the property. The valuer concluded that the land had a value significantly above the consideration stated in the sale deed, although the exact value differed from the earlier internal valuation.</p>
+
+    <p>The former directors argued that because the sale was completed before CIRP and the purchaser was not a related party, the transaction could not be challenged. They also argued that the transaction generated immediate cash that was used to pay certain creditors and employees.</p>
+
+    <p>The Resolution Professional examined whether the transaction could constitute an undervalued transaction under the Code. The RP also considered the relevant look-back period and whether the transaction was entered into with the intention of keeping assets beyond the reach of creditors or otherwise prejudicing their interests.</p>
+
+    <p>In a separate transaction, the company transferred several pieces of heavy construction equipment to a newly incorporated subsidiary for a nominal consideration. The subsidiary was controlled by persons connected with the former promoters. The equipment remained in the same factory and continued to be used by the corporate debtor.</p>
+
+    <p>The transaction documents described the arrangement as a restructuring of the business. However, no independent valuation had been undertaken and the consideration was substantially below the estimated value of the equipment.</p>
+
+    <p>The RP concluded that both transactions required detailed examination because their legal character could not be determined merely from the descriptions used in the agreements. The RP prepared a report containing valuations, transaction dates, parties, consideration, ownership structure and surrounding circumstances.</p>
+
+    <p>The report was placed before the Adjudicating Authority with a request for appropriate relief if the statutory requirements for an undervalued transaction were found to be satisfied.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_17_1",
+            question: "A transaction may be treated as undervalued where:",
+            options: [
+                "The corporate debtor makes a gift or enters into a transaction involving transfer of assets for consideration significantly less than the value provided",
+                "The company sells goods at market price",
+                "A creditor receives contractual interest",
+                "Employees receive wages"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_17_2",
+            question: "The fact that a purchaser is not formally shown as a related party:",
+            options: [
+                "Automatically prevents examination of the transaction",
+                "Does not by itself prevent examination under applicable avoidance provisions",
+                "Makes the transaction a financial debt",
+                "Makes the transaction a resolution plan"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_17_3",
+            question: "The independent valuation obtained by the RP is relevant primarily to:",
+            options: [
+                "Assess whether the consideration was significantly below the value of the asset",
+                "Determine employee salaries",
+                "Determine voting share of shareholders",
+                "Appoint the statutory auditor"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_17_4",
+            question: "The continued possession and use of equipment after an apparent transfer may be relevant because:",
+            options: [
+                "The substance and surrounding circumstances of the transaction may need examination",
+                "Possession is never relevant under insolvency law",
+                "It automatically proves liquidation",
+                "It automatically makes the subsidiary a creditor"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_17_5",
+            question: "Which factor would be particularly relevant in determining whether an undervalued transaction should be examined?",
+            options: [
+                "The consideration compared with the value of the asset and the timing and circumstances of the transaction",
+                "Only the company's employee count",
+                "Only the company's registered office",
+                "Only the age of the directors"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_hard_18",
+    case_chapter: "ibc",
+    case_topic: ["Extortionate Credit Transactions", "Section 50", "CIRP", "Interest"],
+    difficulty: "hard",
+
+    caseText: `<p>Deccan Mining Technologies Limited was engaged in the manufacture of specialised mining equipment. Over a period of several years, the company invested heavily in research, manufacturing facilities and specialised machinery. When its primary lender refused to increase its working capital limit, the company approached a private financier for emergency funding.</p>
+
+    <p>The financier agreed to provide ₹10 crore for a period of twelve months. The loan agreement contained an exceptionally high rate of interest along with several additional charges payable upon default. It also required the company to provide security over certain valuable machinery.</p>
+
+    <p>Because the company urgently required funds to pay employees and purchase raw materials, the directors accepted the terms without obtaining an independent assessment of the commercial reasonableness of the arrangement.</p>
+
+    <p>Within six months, the company was unable to meet the repayment schedule. The financier imposed additional default charges and demanded immediate repayment of the principal together with accumulated interest and penalties.</p>
+
+    <p>Approximately nine months later, CIRP commenced against Deccan Mining Technologies Limited. The Resolution Professional reviewed the company's financing arrangements and identified the emergency loan as potentially problematic.</p>
+
+    <p>The RP obtained the original agreement, correspondence between the parties, board resolutions, financial statements and evidence concerning the company's financial condition at the time the loan was taken. The documents showed that the company was already in serious financial distress and had very limited bargaining power when it entered into the agreement.</p>
+
+    <p>The financier argued that the company had voluntarily agreed to the interest rate and charges and therefore could not challenge the transaction after CIRP commenced. It further argued that the security interest had been properly created and therefore the entire amount should be treated as secured debt.</p>
+
+    <p>The RP explained that the Code contains specific provisions dealing with transactions where the terms require exorbitant payments and are unconscionable in nature. The existence of a formally executed agreement does not necessarily prevent examination under the statutory provisions.</p>
+
+    <p>The RP therefore obtained expert assistance to compare the financing terms with prevailing commercial rates and the circumstances in which the loan had been obtained. The report indicated that the interest and additional charges were substantially excessive compared with ordinary market transactions involving borrowers with similar characteristics.</p>
+
+    <p>The Committee of Creditors asked the RP whether the entire debt could automatically be disregarded. The RP clarified that the legal consequences depend upon the findings of the Adjudicating Authority under the applicable provisions and that the RP's role was to identify and place the relevant transaction before the appropriate forum.</p>
+
+    <p>The matter was consequently prepared for appropriate proceedings under the Code so that the terms of the transaction and the relief available could be determined in accordance with law.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_18_1",
+            question: "An extortionate credit transaction generally involves:",
+            options: [
+                "Financial or operational terms requiring exorbitant payments that are unconscionable",
+                "Any ordinary bank loan",
+                "Any transaction involving interest",
+                "Any transaction with a secured creditor"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_18_2",
+            question: "The fact that the borrower voluntarily signed the agreement:",
+            options: [
+                "Automatically prevents examination under Section 50",
+                "Does not necessarily prevent statutory examination",
+                "Makes the transaction a resolution plan",
+                "Automatically converts the financier into an operational creditor"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_18_3",
+            question: "Which evidence would be most relevant in examining whether credit terms were extortionate?",
+            options: [
+                "Commercial rates, contractual terms and circumstances in which the loan was obtained",
+                "Only employee attendance",
+                "Only shareholding pattern",
+                "Only GST returns"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_18_4",
+            question: "The existence of a security interest:",
+            options: [
+                "Automatically validates all interest and penalty terms",
+                "Does not prevent examination of the underlying credit transaction under applicable provisions",
+                "Automatically makes the transaction preferential",
+                "Automatically makes the financier a shareholder"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_18_5",
+            question: "The RP's appropriate approach is to:",
+            options: [
+                "Identify the potentially extortionate transaction and place it before the appropriate authority",
+                "Ignore the transaction because it was documented",
+                "Immediately cancel all debt without an order",
+                "Pay the financier immediately"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_hard_19",
+    case_chapter: "ibc",
+    case_topic: ["Liquidation", "Secured Creditor", "Relinquishment", "Realisation"],
+    difficulty: "hard",
+
+    caseText: `<p>Eastern Steel Works Limited underwent CIRP after several years of declining profitability and substantial defaults. The Resolution Professional conducted the insolvency resolution process and invited prospective resolution applicants. Despite multiple rounds of discussions, no resolution plan satisfying the statutory requirements was approved within the prescribed period.</p>
+
+    <p>The Committee of Creditors ultimately resolved to liquidate the corporate debtor. The Adjudicating Authority passed the liquidation order and appointed a liquidator to conduct the liquidation process.</p>
+
+    <p>Eastern Steel Works Limited had several secured creditors. One secured creditor, National Industrial Bank, held a mortgage over the company's primary manufacturing plant. Another secured creditor, Bharat Finance Corporation, held security over certain movable machinery. Both creditors were required to consider their rights under the liquidation framework.</p>
+
+    <p>National Industrial Bank decided to relinquish its security interest to the liquidation estate and participate in the distribution from the proceeds of realisation in accordance with the Code. Bharat Finance Corporation, however, decided to realise its security interest outside the liquidation estate in accordance with the applicable provisions.</p>
+
+    <p>The liquidator requested Bharat Finance Corporation to provide complete details of the security interest, valuation, outstanding debt and proposed method of realisation. The bank argued that because the security had been validly created before CIRP, it was entitled to sell the asset without reference to the liquidator.</p>
+
+    <p>The liquidator explained that although a secured creditor has statutory rights to realise security interest in liquidation subject to the Code, the exercise of those rights is regulated by the liquidation framework. The creditor cannot simply disregard the statutory requirements governing realisation.</p>
+
+    <p>During valuation, the liquidator discovered that the secured machinery was being used by another company under an informal arrangement entered into by the former management. The other company claimed that it had possession of the machinery and therefore should be allowed to retain it until the end of the contractual period.</p>
+
+    <p>The liquidator examined the title documents, security documents and the circumstances of possession. He also reviewed whether the machinery formed part of the liquidation estate and whether the third-party claim had sufficient legal basis.</p>
+
+    <p>National Industrial Bank later objected to the proposed distribution and argued that secured creditors who relinquished security should receive priority over every other creditor regardless of the statutory waterfall.</p>
+
+    <p>The liquidator explained that distribution from the liquidation estate is governed by the statutory priority mechanism and that the rights of secured creditors must be considered together with the specific provisions governing liquidation and realisation of security.</p>
+
+    <p>The matter required careful coordination between the secured creditors, the liquidator, the valuation professionals and the Adjudicating Authority so that the assets could be realised and proceeds distributed in accordance with the Code.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_19_1",
+            question: "A secured creditor in liquidation may generally choose to:",
+            options: [
+                "Relinquish its security interest to the liquidation estate or realise the security interest in accordance with the Code",
+                "Automatically take ownership of every company asset",
+                "Ignore the liquidation process completely",
+                "Become a shareholder"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_19_2",
+            question: "A secured creditor choosing to relinquish its security interest participates in:",
+            options: [
+                "Distribution from the liquidation estate according to the Code",
+                "Distribution only to shareholders",
+                "Management of the company",
+                "Appointment of employees"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_19_3",
+            question: "A secured creditor realising security outside the liquidation estate must:",
+            options: [
+                "Comply with the applicable statutory provisions governing such realisation",
+                "Ignore the liquidator",
+                "Ignore valuation requirements",
+                "Transfer the asset to shareholders"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_19_4",
+            question: "The liquidation estate generally includes:",
+            options: [
+                "Assets belonging to or vested in the corporate debtor subject to statutory exclusions",
+                "Personal assets of directors",
+                "Personal assets of shareholders",
+                "Assets of unrelated companies"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_19_5",
+            question: "The distribution of liquidation proceeds is governed primarily by:",
+            options: [
+                "The statutory waterfall under Section 53",
+                "The preference of shareholders",
+                "The instructions of employees",
+                "The company's old board resolution"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_hard_20",
+    case_chapter: "ibc",
+    case_topic: ["Liquidation Estate", "Exclusions", "Third Party Assets", "Bailment"],
+    difficulty: "hard",
+
+    caseText: `<p>Navya Industrial Systems Limited was ordered to be liquidated after the resolution process failed to result in an approved resolution plan. The liquidator, Ms. Priya Nair, immediately began identifying, taking custody of and valuing the assets of the corporate debtor.</p>
+
+    <p>The company's factory contained a large quantity of machinery, raw materials, finished goods and equipment. Some of these assets were owned by the corporate debtor, while others had been supplied by customers or third parties under various contractual arrangements.</p>
+
+    <p>One major customer, Global Auto Systems Limited, claimed that ten specialised machines located inside the factory belonged to it. According to the customer, the machines had been supplied to Navya Industrial Systems under a bailment arrangement and were to be used exclusively for manufacturing components for Global Auto Systems.</p>
+
+    <p>The liquidator initially included the machines in the inventory because they were physically located within the corporate debtor's premises. Global Auto Systems objected and produced purchase invoices, title documents and the original agreement establishing that ownership remained with Global Auto Systems.</p>
+
+    <p>The liquidator then examined whether physical possession was sufficient to make an asset part of the liquidation estate. The legal adviser explained that the liquidation estate does not simply consist of every asset physically present at the premises. The Code contains specific exclusions, including assets owned by third parties but in possession of the corporate debtor in certain circumstances.</p>
+
+    <p>A second issue concerned raw materials supplied by another manufacturer under a retention-of-title arrangement. The supplier argued that title had not passed to Navya Industrial Systems because payment for the materials had not been made. The liquidator examined the purchase agreement, invoices and applicable contractual terms.</p>
+
+    <p>A third issue concerned a leased vehicle used by the company's managing director. The vehicle was owned by a leasing company and had been provided under a lease agreement. The liquidator considered whether the vehicle could be sold as part of the liquidation estate merely because it was being used by the corporate debtor.</p>
+
+    <p>At the same time, certain receivables owed to the corporate debtor were identified. The liquidator included the receivables as assets of the liquidation estate and began taking steps for their recovery.</p>
+
+    <p>The liquidator also discovered that some assets were subject to security interests in favour of financial creditors. The security documents were reviewed to determine the rights of the secured creditors and whether they would relinquish the security or realise it in accordance with the Code.</p>
+
+    <p>Several employees argued that because they had been using certain company-owned equipment for years, the equipment should be treated as their personal property. The liquidator rejected the claim and explained that possession or use by an employee does not by itself transfer ownership.</p>
+
+    <p>After completing the investigation, the liquidator prepared a detailed asset schedule separating assets forming part of the liquidation estate from assets excluded because they belonged to third parties or were otherwise excluded under the statutory framework.</p>
+
+    <p>The final inventory was then used for valuation, realisation and distribution planning in accordance with the liquidation provisions.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_20_1",
+            question: "An asset owned by a third party but merely in possession of the corporate debtor may:",
+            options: [
+                "Be excluded from the liquidation estate subject to the Code",
+                "Automatically become property of the corporate debtor",
+                "Automatically belong to employees",
+                "Automatically belong to shareholders"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_20_2",
+            question: "The liquidator's initial mistake of including the customer's machines illustrates that:",
+            options: [
+                "Physical possession alone does not necessarily establish ownership",
+                "Every physical asset belongs to the corporate debtor",
+                "Third parties can never claim assets",
+                "All machines must be sold"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_20_3",
+            question: "A retention-of-title clause may be relevant because:",
+            options: [
+                "Ownership may remain with the supplier until specified conditions are satisfied",
+                "It automatically creates a financial debt",
+                "It automatically creates liquidation",
+                "It eliminates the supplier's contractual rights"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_20_4",
+            question: "Receivables owed to the corporate debtor are generally:",
+            options: [
+                "Assets that may form part of the liquidation estate",
+                "Personal property of directors",
+                "Personal property of employees",
+                "Automatically extinguished on liquidation"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_20_5",
+            question: "The liquidator's asset schedule should distinguish:",
+            options: [
+                "Assets forming part of the liquidation estate from assets excluded under the Code",
+                "Only assets above ₹1 crore",
+                "Only movable assets",
+                "Only secured assets"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_hard_21",
+    case_chapter: "ibc",
+    case_topic: ["Personal Guarantor", "Corporate Debtor", "Adjudicating Authority", "Insolvency Resolution"],
+    difficulty: "hard",
+
+    caseText: `<p>Shakti Power Generation Limited had borrowed ₹120 crore from a consortium of banks to construct a thermal power project. The promoters of the company executed personal guarantees in favour of the lenders. The loan documents provided that the guarantors would be liable in accordance with the terms of their respective guarantees if the corporate debtor failed to discharge its obligations.</p>
+
+    <p>After several years of operational difficulties, Shakti Power Generation Limited defaulted on the loan facilities. CIRP was subsequently initiated against the corporate debtor. The Resolution Professional took control of the corporate debtor's affairs and began the resolution process.</p>
+
+    <p>The consortium of banks continued to pursue the guarantees provided by the promoters. One promoter, Mr. Dev Malhotra, argued that because CIRP was pending against Shakti Power Generation Limited, the banks should wait until the corporate insolvency process was completed before proceeding against him.</p>
+
+    <p>Mr. Malhotra also argued that the moratorium declared against the corporate debtor should protect him personally because his liability arose only because of the company's borrowing. He relied on the fact that the guarantee was connected with the same financial debt forming the subject matter of the CIRP.</p>
+
+    <p>The banks disputed this interpretation. Their legal advisers explained that the moratorium under Section 14 operates in relation to the corporate debtor and does not automatically extend to a surety in a contract of guarantee to the corporate debtor.</p>
+
+    <p>Meanwhile, the banks examined the financial position of Mr. Malhotra and other personal guarantors. They identified several personal assets and liabilities and considered whether proceedings under the provisions applicable to personal guarantors to corporate debtors should be initiated.</p>
+
+    <p>The guarantors argued that allowing proceedings against them while CIRP was pending could result in inconsistent recovery because the same underlying debt was already being dealt with in the corporate insolvency process.</p>
+
+    <p>The banks responded that the liability of a guarantor arises under the guarantee contract and that the statutory framework permits creditors to pursue appropriate remedies against guarantors subject to the provisions of the Code and other applicable law.</p>
+
+    <p>The legal advisers also explained that the insolvency framework for personal guarantors to corporate debtors is distinct from the corporate debtor's CIRP, even though the two proceedings may arise from the same underlying financial debt.</p>
+
+    <p>The matter was eventually placed before the appropriate Adjudicating Authority. The Authority examined the guarantee documents, the default, the corporate debtor's CIRP status and the statutory provisions applicable to personal guarantors.</p>
+
+    <p>The proceedings demonstrated the importance of distinguishing the liability of the corporate debtor from the independent contractual liability undertaken by a person who has guaranteed the debt of the corporate debtor.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_21_1",
+            question: "The moratorium under Section 14 applicable to the corporate debtor:",
+            options: [
+                "Automatically protects every personal guarantor",
+                "Does not automatically extend to a surety in a contract of guarantee to the corporate debtor",
+                "Automatically extinguishes the guarantee",
+                "Automatically converts the guarantor into a shareholder"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_21_2",
+            question: "The liability of a personal guarantor primarily arises from:",
+            options: [
+                "The guarantee contract",
+                "The memorandum of association",
+                "Employee rules",
+                "The company's annual report"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_21_3",
+            question: "The insolvency framework for personal guarantors to corporate debtors is:",
+            options: [
+                "Identical in every respect to CIRP of the corporate debtor",
+                "A distinct statutory framework",
+                "Applicable only to shareholders",
+                "Applicable only after liquidation is completed"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_21_4",
+            question: "The pendency of CIRP against the corporate debtor:",
+            options: [
+                "Necessarily extinguishes the creditor's rights against a guarantor",
+                "Does not by itself extinguish the guarantor's liability",
+                "Automatically cancels the guarantee",
+                "Makes the guarantor an operational creditor"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_21_5",
+            question: "In examining proceedings against a personal guarantor, the Adjudicating Authority would consider:",
+            options: [
+                "Guarantee documents, default and applicable statutory provisions",
+                "Only employee records",
+                "Only shareholder voting",
+                "Only the company's sales turnover"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_hard_22",
+    case_chapter: "ibc",
+    case_topic: ["Fast Track CIRP", "Eligibility", "Time Limit", "Resolution"],
+    difficulty: "hard",
+
+    caseText: `<p>Greenfield Packaging Private Limited was a relatively small manufacturing company engaged in producing specialised packaging materials. The company had a limited number of creditors, a relatively simple asset structure and a small employee base. After a period of financial difficulty, the company defaulted on certain financial obligations and an insolvency application was filed.</p>
+
+    <p>The management argued that a conventional CIRP would impose significant costs on the company and could unnecessarily delay resolution. The financial creditors examined whether the corporate debtor satisfied the statutory conditions for a fast track corporate insolvency resolution process.</p>
+
+    <p>The company was incorporated as a private company and its financial and operational structure was relatively uncomplicated. Its total assets and turnover were within the limits prescribed under the relevant framework for eligibility for fast track CIRP.</p>
+
+    <p>The Adjudicating Authority admitted the application and the fast track process commenced. An Interim Resolution Professional was appointed and the public announcement was made.</p>
+
+    <p>The IRP immediately began collecting claims. Since the number of creditors was relatively small and the company's records were substantially maintained electronically, verification of claims was completed quickly.</p>
+
+    <p>The IRP prepared the information memorandum and invited resolution applicants. Three applicants expressed interest. One was a strategic competitor, another was a private investment fund and the third was an existing supplier interested in taking over the business.</p>
+
+    <p>The Committee of Creditors evaluated the proposals. The strategic competitor proposed to retain most employees and invest in new machinery. The investment fund proposed a financial restructuring with a longer repayment period. The supplier proposed an acquisition of the business together with certain contractual commitments.</p>
+
+    <p>The creditors were concerned that the accelerated timetable could result in insufficient time to evaluate the plans. The RP explained that the fast track process is specifically designed to complete the resolution process within a shorter statutory period while still requiring compliance with the essential provisions applicable to CIRP.</p>
+
+    <p>One creditor requested that the process be automatically converted into an ordinary CIRP because one applicant had requested additional time for due diligence. The RP explained that a request from one applicant does not automatically change the statutory nature or timetable of the process.</p>
+
+    <p>The CoC ultimately selected the plan considered most viable and directed the RP to take the necessary steps for submission to the Adjudicating Authority.</p>
+
+    <p>The case demonstrated that the fast track mechanism is intended for specified categories of corporate debtors where a quicker resolution is considered appropriate, while maintaining the basic objectives of value maximisation and resolution of insolvency.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_22_1",
+            question: "The purpose of fast track CIRP is primarily to:",
+            options: [
+                "Provide a quicker insolvency resolution process for eligible corporate debtors",
+                "Avoid all creditor participation",
+                "Eliminate the CoC",
+                "Automatically liquidate the company"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_22_2",
+            question: "Fast track CIRP is available to:",
+            options: [
+                "Specified categories of corporate debtors satisfying statutory conditions",
+                "Every company automatically",
+                "Only listed companies",
+                "Only companies already in liquidation"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_22_3",
+            question: "The shorter timeline under fast track CIRP means that:",
+            options: [
+                "Essential statutory requirements can be ignored",
+                "The process must still comply with applicable statutory requirements",
+                "Creditors lose their claims",
+                "The CoC is unnecessary"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_22_4",
+            question: "A single resolution applicant's request for additional time:",
+            options: [
+                "Automatically converts fast track CIRP into ordinary CIRP",
+                "Does not automatically alter the statutory process",
+                "Automatically ends CIRP",
+                "Automatically triggers liquidation"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_22_5",
+            question: "The basic objective of fast track CIRP remains:",
+            options: [
+                "Resolution of insolvency and value maximisation",
+                "Distribution of assets to shareholders",
+                "Elimination of financial creditors",
+                "Recovery of only government dues"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_hard_23",
+    case_chapter: "ibc",
+    case_topic: ["Liquidation", "Dissolution", "Stakeholders", "Final Distribution"],
+    difficulty: "hard",
+
+    caseText: `<p>Prakash Machinery Limited entered CIRP after prolonged financial distress. The company manufactured heavy machinery and owned a large industrial facility, several specialised machines and substantial inventories. Despite extensive efforts by the Resolution Professional and Committee of Creditors, no compliant resolution plan was approved within the prescribed period.</p>
+
+    <p>The CoC therefore resolved to liquidate the company. The Adjudicating Authority passed an order for liquidation and appointed a registered insolvency professional as liquidator.</p>
+
+    <p>The liquidator immediately made a public announcement and invited claims from stakeholders. He took custody and control of the assets of the corporate debtor and appointed valuation professionals to determine the appropriate value of significant assets.</p>
+
+    <p>Several assets were subsequently sold through the prescribed liquidation mechanism. The liquidator realised ₹82 crore from the sale of the factory, ₹28 crore from machinery, ₹11 crore from inventory and ₹7 crore from recovery of receivables.</p>
+
+    <p>The company had outstanding liquidation costs, secured financial debt, employee dues, operational creditor claims and statutory liabilities. The liquidator prepared a statement showing the amount realised and the claims admitted under the liquidation process.</p>
+
+    <p>One shareholder argued that because the company had realised substantial amounts from asset sales, shareholders should receive a distribution before all creditors were fully satisfied. The liquidator explained that liquidation proceeds must be distributed in accordance with the statutory waterfall under Section 53.</p>
+
+    <p>A secured creditor had relinquished its security interest to the liquidation estate. Another secured creditor had chosen to realise its security separately in accordance with the Code. The liquidator therefore had to account for the different treatment of these creditors when determining the amount available for distribution from the liquidation estate.</p>
+
+    <p>After completing the realisation and distribution process, the liquidator determined that no further assets remained capable of realisation and that the affairs of the corporate debtor had been completely wound up.</p>
+
+    <p>An application was then made before the Adjudicating Authority seeking an order of dissolution. One former director objected and argued that dissolution should not occur because certain historical contractual disputes remained unresolved.</p>
+
+    <p>The liquidator explained that the statutory framework provides for dissolution after the affairs of the corporate debtor have been completely wound up. The existence of historical disputes does not by itself prevent dissolution where the statutory conditions have otherwise been satisfied.</p>
+
+    <p>The Adjudicating Authority examined the liquidator's report and supporting records. After being satisfied that the liquidation process had been completed in accordance with law, it passed the order of dissolution.</p>
+
+    <p>Following dissolution, the corporate debtor ceased to exist as a legal entity except to the extent provided by applicable law for dealing with matters arising from the liquidation and dissolution process.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_23_1",
+            question: "Liquidation proceeds are distributed according to:",
+            options: [
+                "Section 53 waterfall",
+                "Preference of shareholders",
+                "Preference of directors",
+                "Preference of employees alone"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_23_2",
+            question: "Shareholders receive distribution under the liquidation waterfall:",
+            options: [
+                "Before secured creditors",
+                "Before liquidation costs",
+                "Only after the categories having higher priority are satisfied",
+                "Immediately after the first asset is sold"
+            ],
+            answer: 2
+        },
+        {
+            question_id: "ibc_cs_hard_23_3",
+            question: "Dissolution generally follows when:",
+            options: [
+                "The affairs of the corporate debtor have been completely wound up",
+                "CIRP begins",
+                "The first creditor submits a claim",
+                "The first asset is valued"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_23_4",
+            question: "The Adjudicating Authority's dissolution order results in:",
+            options: [
+                "Dissolution of the corporate debtor",
+                "Automatic revival of the Board",
+                "Conversion into a partnership",
+                "Automatic payment to shareholders"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_23_5",
+            question: "A secured creditor that relinquishes its security interest:",
+            options: [
+                "Participates in distribution from the liquidation estate subject to the Code",
+                "Becomes a shareholder",
+                "Loses all claim automatically",
+                "Receives payment before liquidation costs"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_hard_24",
+    case_chapter: "ibc",
+    case_topic: ["Resolution Plan", "Operational Creditors", "CIRP Costs", "Binding Effect"],
+    difficulty: "hard",
+
+    caseText: `<p>National Healthcare Devices Limited was admitted into CIRP after defaulting on substantial financial debt. The company manufactured specialised medical devices and had a strong underlying business but had accumulated excessive debt due to aggressive expansion.</p>
+
+    <p>The Resolution Professional invited prospective resolution applicants and received four expressions of interest. After eligibility verification, three applicants submitted resolution plans. The plans differed significantly in their treatment of financial creditors, operational creditors, employees and future management of the company.</p>
+
+    <p>Plan A proposed a substantial cash infusion and repayment of financial creditors over a period of four years. Plan B proposed immediate payment of a lower amount but included a detailed restructuring of the company's operations. Plan C proposed acquisition of the company by a strategic competitor together with investment in new manufacturing facilities.</p>
+
+    <p>The RP examined each plan against the requirements of the Code. Particular attention was given to payment of insolvency resolution process costs, treatment of operational creditors and dissenting financial creditors, management of the corporate debtor after approval, implementation and supervision mechanisms and compliance with applicable laws.</p>
+
+    <p>One operational creditor, Medical Raw Materials Limited, had an admitted claim of ₹9 crore. Plan C proposed payment of ₹1 crore to the creditor. The creditor objected and argued that it was entitled to receive the full admitted claim.</p>
+
+    <p>The RP explained that an operational creditor is not necessarily entitled to receive the entire admitted amount under a resolution plan. However, the plan must comply with the minimum statutory requirements prescribed for treatment of operational creditors.</p>
+
+    <p>Another financial creditor had voted against Plan C. The creditor argued that because it had dissented, it should receive the full amount of its original claim before any other financial creditor received payment.</p>
+
+    <p>The RP explained that the treatment of dissenting financial creditors is governed by the Code and that voting against a plan does not automatically give the creditor a right to full recovery of its entire claim.</p>
+
+    <p>The CoC considered the three plans and selected Plan C with the required voting share. The plan was then submitted to the Adjudicating Authority for approval.</p>
+
+    <p>After examining the plan, the Adjudicating Authority approved it. Certain operational creditors subsequently argued that they had not separately consented to the plan and therefore should not be bound by it.</p>
+
+    <p>The successful resolution applicant argued that once a resolution plan is approved in accordance with the Code, it becomes binding upon the corporate debtor and relevant stakeholders as provided under the statutory framework.</p>
+
+    <p>The former promoters also attempted to initiate proceedings against the successful applicant concerning certain pre-CIRP liabilities. The successful applicant contended that the approved plan had dealt with the liabilities in accordance with the Code and that the purpose of the insolvency process would be defeated if undisclosed or unresolved claims could continue indefinitely contrary to the approved plan.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_24_1",
+            question: "A resolution plan must provide for payment of:",
+            options: [
+                "Insolvency resolution process costs in priority as required by the Code",
+                "Shareholder dividends before CIRP costs",
+                "Only financial creditors",
+                "Only government dues"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_24_2",
+            question: "An operational creditor is:",
+            options: [
+                "Always entitled to 100% of its admitted claim",
+                "Entitled to the minimum amount prescribed under the Code, subject to the statutory framework",
+                "Automatically treated as a shareholder",
+                "Automatically entitled to liquidation value plus interest"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_24_3",
+            question: "A financial creditor voting against a resolution plan:",
+            options: [
+                "Automatically becomes entitled to full repayment of its claim",
+                "Is dealt with according to the statutory provisions applicable to dissenting financial creditors",
+                "Can cancel the entire CIRP",
+                "Automatically becomes an operational creditor"
+            ],
+            answer: 1
+        },
+        {
+            question_id: "ibc_cs_hard_24_4",
+            question: "Once approved by the Adjudicating Authority, a resolution plan is generally binding on:",
+            options: [
+                "The corporate debtor and its stakeholders as provided by the Code",
+                "Only the successful resolution applicant",
+                "Only the CoC members",
+                "Only shareholders"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_24_5",
+            question: "The purpose of binding effect of an approved resolution plan includes:",
+            options: [
+                "Providing certainty and enabling implementation of the approved resolution",
+                "Allowing every creditor to reopen its claim indefinitely",
+                "Protecting only former promoters",
+                "Eliminating the CoC before approval"
+            ],
+            answer: 0
+        }
+    ]
+},
+
+{
+    case_id: "ibc_cs_hard_25",
+    case_chapter: "ibc",
+    case_topic: ["Avoidance Transactions", "Preferential", "Undervalued", "Fraudulent", "Wrongful Trading"],
+    difficulty: "hard",
+
+    caseText: `<p>Vijay Infrastructure Limited had been experiencing financial difficulties for more than two years before commencement of CIRP. The company had borrowed from several banks and financial institutions and also owed substantial amounts to contractors, suppliers and employees.</p>
+
+    <p>Despite the deteriorating financial position, the promoters continued to enter into transactions involving the company's assets. Approximately twenty months before CIRP, a valuable commercial property was transferred to an entity controlled by a promoter's close relative. The consideration received by the company was significantly lower than the property's estimated market value.</p>
+
+    <p>Approximately fourteen months before CIRP, the company repaid a substantial unsecured loan owed to a promoter-controlled entity. At the time of repayment, several unrelated creditors had already been demanding payment and the company was unable to meet its ordinary business liabilities.</p>
+
+    <p>Approximately eight months before CIRP, the company entered into an agreement under which certain machinery was transferred to another group entity for a nominal amount. The machinery, however, continued to remain at the company's factory and was used in its manufacturing operations.</p>
+
+    <p>Approximately five months before CIRP, the directors entered into a transaction under which the company assumed additional liabilities for the benefit of an entity controlled by the promoters. Internal correspondence suggested that the directors were aware that the company was unlikely to be able to meet these liabilities when they became due.</p>
+
+    <p>After commencement of CIRP, the Resolution Professional reviewed the entire transaction history. The RP appointed forensic professionals to examine bank statements, board minutes, agreements, emails and communications between the promoters and related entities.</p>
+
+    <p>The forensic review revealed several unusual transactions. Some payments appeared to have preferred particular creditors, some transfers appeared to have been made at substantially below value, and some transactions appeared to have been undertaken with the objective of putting assets beyond the reach of creditors.</p>
+
+    <p>The promoters argued that all transactions had been entered into for legitimate business reasons. They maintained that the company had been attempting to survive and that the transactions were part of a restructuring strategy.</p>
+
+    <p>The RP examined the transactions separately rather than treating every transaction as automatically avoidable. The RP considered the statutory requirements for preferential transactions, undervalued transactions, transactions defrauding creditors and extortionate credit transactions, wherever applicable.</p>
+
+    <p>The RP also examined whether the conduct of the directors could attract provisions relating to fraudulent trading or wrongful trading, having regard to the circumstances in which the business was continued and liabilities were incurred.</p>
+
+    <p>One promoter argued that because no single transaction by itself had caused the insolvency, none of the transactions could be challenged. The RP rejected this reasoning and explained that avoidance provisions focus on the statutory characteristics of individual transactions and conduct, rather than requiring one transaction to be the sole cause of insolvency.</p>
+
+    <p>The RP prepared separate reports identifying the parties, transaction dates, consideration, asset values, relationship between the parties, financial position of the company at the relevant time and the effect of each transaction on creditors.</p>
+
+    <p>The reports were placed before the Adjudicating Authority. The RP sought appropriate directions and relief in respect of transactions that were found, after examination, to satisfy the statutory requirements.</p>
+
+    <p>The case demonstrated why a resolution professional must conduct a detailed transaction review and distinguish between different categories of avoidance transactions rather than automatically classifying every transaction entered into before CIRP as illegal.</p>`,
+
+    questions: [
+        {
+            question_id: "ibc_cs_hard_25_1",
+            question: "Which transaction is most directly indicative of a potentially preferential transaction?",
+            options: [
+                "Repayment of a promoter-related creditor while unrelated creditors remained unpaid",
+                "Payment of current electricity charges",
+                "Payment of employee wages for ongoing work",
+                "Purchase of ordinary raw materials at market price"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_25_2",
+            question: "The transfer of machinery for nominal consideration while it continued to be used by the corporate debtor requires examination primarily because:",
+            options: [
+                "The transaction may involve an undervalued transfer and the surrounding circumstances may indicate its true substance",
+                "All machinery transfers are automatically illegal",
+                "Physical possession is irrelevant in every case",
+                "The transaction automatically constitutes liquidation"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_25_3",
+            question: "A transaction intended to keep assets beyond the reach of creditors may fall within provisions relating to:",
+            options: [
+                "Transactions defrauding creditors",
+                "Routine operational expenses",
+                "Employee benefits",
+                "Ordinary trade credit"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_25_4",
+            question: "The RP's decision to examine each transaction separately is appropriate because:",
+            options: [
+                "Different avoidance provisions have different statutory requirements",
+                "Every transaction automatically has the same legal consequence",
+                "Only related-party transactions can be examined",
+                "Only transactions after CIRP can be examined"
+            ],
+            answer: 0
+        },
+        {
+            question_id: "ibc_cs_hard_25_5",
+            question: "The directors' conduct in continuing business and incurring liabilities despite knowledge that the company could not meet them may require examination under provisions relating to:",
+            options: [
+                "Fraudulent or wrongful trading",
+                "Employee provident fund",
+                "Voting share of financial creditors",
+                "Information utility"
+            ],
+            answer: 0
+        }
+    ]
+},
 ];
