@@ -1,4 +1,4 @@
-const caseStudies = [
+const AICaseStudies = [
 // Chapter 1
 {
   case_id: "SCM_c12_cs_001",
@@ -1655,6 +1655,1654 @@ const caseStudies = [
       ],
       answer: 1,
       reason: "After-sales service is a primary value-chain activity and can be a source of differentiation. Cutting it solely for short-term cost reduction may weaken customer value and strategic position."
+    }
+  ]
+},
+{
+  case_id: "AI_c1_cs_026",
+  difficulty: "Hard",
+  case_topic: ["IT", "Porter's Five Forces", "Buyer Bargaining Power", "Customer Data", "Customer Lock-in", "Substitutes"],
+  case_chapter: "Chapter1",
+  caseText: `
+    <p>UrbanBasket Technologies Limited operates a digital retail platform connecting customers with thousands of products offered by different sellers. Initially, the platform competed primarily on price. Customers could easily compare products across competing platforms and could shift between platforms without significant difficulty.</p>
+
+    <p>As competition intensified, UrbanBasket recognised that price-based competition alone was creating pressure on margins. The company therefore began collecting detailed information regarding customer preferences, purchase history, search behaviour, frequency of purchases, product categories viewed and responses to promotional campaigns.</p>
+
+    <p>The information was stored in a central data warehouse. The analytics team used this information to identify customer buying patterns and develop targeted marketing campaigns. Customers who frequently purchased certain products began receiving personalised recommendations and offers based on their historical behaviour.</p>
+
+    <p>UrbanBasket also introduced a premium membership programme. Members received early access to selected offers, loyalty rewards, cashback and other privileges. Over time, management observed that high-value customers were increasingly using UrbanBasket for a wider proportion of their purchases.</p>
+
+    <p>The company then introduced a technology ecosystem in which selected products, accessories and services were configured to operate particularly well with UrbanBasket's own platform and related services. Customers who wanted to move to another platform sometimes had to incur additional costs or lose accumulated rewards and privileges.</p>
+
+    <p>Meanwhile, several alternative retail channels continued to exist. Physical stores, competing e-commerce platforms and direct-to-consumer websites provided customers with alternatives. Management therefore recognised that IT was not simply improving customer service; it was influencing buyer behaviour and the competitive environment.</p>
+
+    <p>The Chief Strategy Officer asked the management accountant to identify exactly how each IT initiative was affecting the relevant competitive force and whether the initiatives were genuinely reducing competitive pressure or merely shifting it from one source to another.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_026_1",
+      question: "The use of customer purchase history to generate targeted marketing recommendations primarily demonstrates:",
+      options: [
+        "Customer data warehousing and mining",
+        "Supplier integration",
+        "Inbound logistics",
+        "Exit barrier creation"
+      ],
+      answer: 1,
+      reason: "Customer data warehousing and mining involves collecting and storing large volumes of customer information and extracting relevant data for direct and targeted marketing."
+    },
+    {
+      question_id: "AI_c1_cs_026_2",
+      question: "The premium membership programme primarily attempts to:",
+      options: [
+        "Lock or retain customers",
+        "Increase supplier bargaining power",
+        "Create barriers to physical production",
+        "Eliminate substitutes"
+      ],
+      answer: 1,
+      reason: "IT can be used to retain customers through rewards, loyalty bonuses, cashback and premium status."
+    },
+    {
+      question_id: "AI_c1_cs_026_3",
+      question: "If customers can shift between platforms with very little inconvenience, this factor initially contributes to:",
+      options: [
+        "Higher buyer bargaining power",
+        "Higher supplier bargaining power",
+        "Lower buyer bargaining power",
+        "Higher exit barriers"
+      ],
+      answer: 1,
+      reason: "Buyer bargaining power is high where switching suppliers is easy or switching costs are low."
+    },
+    {
+      question_id: "AI_c1_cs_026_4",
+      question: "UrbanBasket's attempt to increase switching costs is primarily directed toward:",
+      options: [
+        "Reducing buyer bargaining power",
+        "Increasing supplier power",
+        "Increasing threat of new entrants",
+        "Increasing threat of substitutes"
+      ],
+      answer: 1,
+      reason: "IT can be used to lock customers by increasing switching costs or creating compatibility and loyalty arrangements that make customers less willing to change suppliers."
+    },
+    {
+      question_id: "AI_c1_cs_026_5",
+      question: "Which conclusion is most appropriate from the case?",
+      options: [
+        "IT can influence buyer power through information, service improvement and customer retention mechanisms",
+        "Customer data affects only internal accounting",
+        "Customer loyalty programmes increase buyer power in every case",
+        "IT can counter only the threat of new entrants"
+      ],
+      answer: 1,
+      reason: "IT can counter buyer bargaining power through improved customer service, customer data warehousing and mining, targeted marketing, and mechanisms that retain or lock customers."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c1_cs_027",
+  difficulty: "Hard",
+  case_topic: ["IT", "Value Chain", "Primary Activities", "Secondary Activities", "Procurement", "Technology Development", "HR"],
+  case_chapter: "Chapter1",
+  caseText: `
+    <p>RapidMeals Foods Limited operates a large food-service business involving central kitchens, delivery hubs, online ordering platforms and a network of restaurants. Management decided to undertake a complete review of how information technology was influencing the company's value chain.</p>
+
+    <p>The first project involved the company's incoming raw materials. Suppliers delivered vegetables, packaging materials and other inputs to central warehouses. The company introduced barcode and RFID systems to identify and track materials and connected several warehouses through an information system that provided consolidated inventory information.</p>
+
+    <p>The second project concerned operations. The engineering department introduced computer-aided design for kitchen layouts and equipment planning. Computer-aided manufacturing and automated equipment were considered for selected production activities. Management also examined whether robots could perform repetitive food preparation tasks.</p>
+
+    <p>The third project concerned outbound logistics. The delivery department introduced an automated vehicle scheduling system that allocated delivery vehicles based on orders, capacity and location. Finished food products were tracked through the distribution network.</p>
+
+    <p>The fourth project concerned marketing and sales. The company maintained digital customer databases and analysed customer ordering habits. Marketing teams used this information to segment customers and conduct targeted campaigns.</p>
+
+    <p>The fifth project concerned after-sales service. Customers could report issues digitally, while IoT-enabled systems were being considered for monitoring certain equipment used by franchisees and scheduling maintenance before failures occurred.</p>
+
+    <p>Management also introduced an ERP-based workflow system for organisation-wide planning and coordination. The HR department introduced applicant tracking, performance analytics and digital learning systems.</p>
+
+    <p>Finally, the procurement department implemented electronic tendering and Electronic Data Interchange with selected suppliers to facilitate automated exchange of information and supply processes.</p>
+
+    <p>One director suggested that all these initiatives should simply be classified as 'operations technology'. The management accountant disagreed, explaining that the strategic significance of IT depends upon the particular value-chain activity it supports.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_027_1",
+      question: "Which combination correctly matches the technology with the value-chain activity?",
+      options: [
+        "RFID tracking of incoming materials – Inbound Logistics",
+        "Customer ordering analytics – Procurement",
+        "Electronic tendering – Outbound Logistics",
+        "Applicant tracking – Inbound Logistics"
+      ],
+      answer: 1,
+      reason: "RFID can be used to track items throughout the supply chain and directly supports receiving, storing and handling of inputs in inbound logistics."
+    },
+    {
+      question_id: "AI_c1_cs_027_2",
+      question: "The vehicle scheduling system used for delivery allocation primarily supports:",
+      options: [
+        "Outbound Logistics",
+        "Technology Development",
+        "Human Resource Management",
+        "Procurement"
+      ],
+      answer: 1,
+      reason: "Outbound logistics includes storing, distributing and delivering finished goods. IT can be used for vehicle scheduling and automated warehousing."
+    },
+    {
+      question_id: "AI_c1_cs_027_3",
+      question: "The digital customer database used for segmentation and targeted campaigns primarily supports:",
+      options: [
+        "Marketing and Sales",
+        "Procurement",
+        "Inbound Logistics",
+        "Firm Infrastructure"
+      ],
+      answer: 1,
+      reason: "Marketing and sales includes market research and marketing activities. Digital customer databases facilitate segmentation, analysis of customer habits and CRM."
+    },
+    {
+      question_id: "AI_c1_cs_027_4",
+      question: "Which of the following is a SECONDARY activity rather than a primary activity?",
+      options: [
+        "After-sales service",
+        "Outbound logistics",
+        "Human resource management",
+        "Operations"
+      ],
+      answer: 3,
+      reason: "Human resource management is a secondary/support activity. Primary activities include inbound logistics, operations, outbound logistics, marketing and sales, and after-sales service."
+    },
+    {
+      question_id: "AI_c1_cs_027_5",
+      question: "The Electronic Data Interchange system used to exchange information with suppliers most directly supports:",
+      options: [
+        "Procurement",
+        "Marketing and sales",
+        "After-sales service",
+        "Operations only"
+      ],
+      answer: 1,
+      reason: "Procurement includes purchasing activities and techniques such as EDI for exchanging information with vendors for auto-supply and e-procurement/e-tendering."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c1_cs_028",
+  difficulty: "Hard",
+  case_topic: ["Management Accountant", "Communication", "Decision Making", "MBWA", "Leadership"],
+  case_chapter: "Chapter1",
+  caseText: `
+    <p>Orion Industrial Systems Limited was implementing a major strategic transformation involving automation, restructuring of production processes and changes in performance measurement. The management accountant was appointed as one of the leaders responsible for translating the strategic plan into operational actions.</p>
+
+    <p>The initial communication from senior management was delivered through a formal presentation circulated to all employees. Although the message explained the broad objectives of the transformation, employee feedback suggested that many workers did not understand why changes were required or how the new systems would affect their work.</p>
+
+    <p>The management accountant therefore decided to supplement formal communication with direct interaction. Instead of remaining in his office, he periodically visited production areas, spoke informally with employees, observed equipment and discussed operational difficulties. These visits were not announced in advance and were not restricted to scheduled meetings.</p>
+
+    <p>During these interactions, employees identified several problems that had not appeared in formal management reports. Some employees feared that automation would reduce their importance, while others believed that the new performance standards were unrealistic. The management accountant listened to these concerns and communicated the reasons behind the strategic changes to employees and functional managers.</p>
+
+    <p>At the same time, the Board was considering whether to proceed with one of two alternative technology investments. One senior executive strongly supported one option and encouraged the management accountant to approve it immediately. However, the management accountant insisted on identifying the alternatives, gathering relevant information, examining assumptions and assessing the consequences before making a recommendation.</p>
+
+    <p>He also consulted managers from production, human resources, technology and marketing because the decision would affect multiple departments. During the process, he discovered that some initial forecasts had been prepared using assumptions that had not been independently tested.</p>
+
+    <p>The management accountant concluded that effective leadership required both effective communication and rational decision-making. He also recognised that simply agreeing with a senior executive's preferred option without adequate analysis could lead to an irrational decision.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_028_1",
+      question: "The management accountant's unstructured visits to the production areas are an example of:",
+      options: [
+        "Management by Wandering Around",
+        "Strategic positioning",
+        "Cost driver analysis",
+        "Customer profiling"
+      ],
+      answer: 1,
+      reason: "MBWA involves managers wandering around the workplace in an unstructured manner to interact with employees, equipment and ongoing work."
+    },
+    {
+      question_id: "AI_c1_cs_028_2",
+      question: "The primary leadership dimension directly illustrated by MBWA in the case is:",
+      options: [
+        "Communication",
+        "Business ethics",
+        "Capital budgeting only",
+        "Procurement"
+      ],
+      answer: 1,
+      reason: "MBWA supports informal but effective communication, employee interaction, morale and TQM."
+    },
+    {
+      question_id: "AI_c1_cs_028_3",
+      question: "The management accountant's insistence on identifying alternatives, gathering information and assessing consequences reflects:",
+      options: [
+        "Rational decision-making",
+        "Irrational decision-making",
+        "Customer lock-in",
+        "Supplier integration"
+      ],
+      answer: 1,
+      reason: "A rational decision is objective, fully informed, conscious, explicit, deliberate, consistent, logical and directed toward end goals."
+    },
+    {
+      question_id: "AI_c1_cs_028_4",
+      question: "Which behaviour in the case could contribute to irrational decision-making?",
+      options: [
+        "Immediately agreeing with the senior executive's preferred proposal",
+        "Consulting different functional managers",
+        "Testing forecasts",
+        "Considering alternative solutions"
+      ],
+      answer: 1,
+      reason: "The material identifies readily agreeing with a leader's proposal, superficial understanding of facts, forecasting errors and pre-notions as possible causes of irrational decisions."
+    },
+    {
+      question_id: "AI_c1_cs_028_5",
+      question: "Why was two-way communication particularly important during the transformation?",
+      options: [
+        "Feedback could reveal employee resistance and help understand its nature",
+        "Feedback is unnecessary once management has issued instructions",
+        "Two-way communication eliminates the need for strategy",
+        "Communication should always be one-directional"
+      ],
+      answer: 1,
+      reason: "Communication is more than sending a message. Feedback creates dialogue and helps management understand resistance and the nature of that resistance."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c1_cs_029",
+  difficulty: "Very Hard",
+  case_topic: ["Business Ethics", "Triple Bottom Line", "Strategic Decision Making", "Management Accountant", "Lifecycle Cost"],
+  case_chapter: "Chapter1",
+  caseText: `
+    <p>EcoBuild Infrastructure Limited was evaluating a large infrastructure project expected to generate substantial revenue over a fifteen-year period. The initial financial analysis prepared by the project team indicated that the project would generate attractive returns if construction costs were kept within the approved budget.</p>
+
+    <p>The project involved the construction of a large industrial facility near a populated area. During the feasibility study, the management accountant identified several costs that had not been included in the initial financial model. These included environmental restoration costs at the end of the project, costs associated with disposal of certain materials, potential costs of relocating nearby communities and expenditure required to comply with evolving environmental standards.</p>
+
+    <p>The project director argued that these costs should not be considered because they would arise many years in the future and would reduce the project's reported return. He suggested that the company should focus on maximising shareholder wealth and should approve the project if the immediate financial return was attractive.</p>
+
+    <p>The management accountant disagreed. He explained that a business decision should not be evaluated solely from the perspective of immediate financial efficiency. The company's activities could create social and environmental costs that might ultimately affect stakeholders and the sustainability of the business.</p>
+
+    <p>He therefore recommended incorporating the relevant lifecycle costs into the analysis. He also proposed using a broader performance framework that considered economic, social and environmental dimensions rather than relying exclusively on financial profit.</p>
+
+    <p>The Board debated whether consideration of environmental and social consequences was consistent with the role of a management accountant. Some directors argued that such matters belonged exclusively to government regulators and were outside the accountant's responsibility.</p>
+
+    <p>The management accountant responded that business ethics applies to all aspects of business conduct and that leaders establish the ethical boundaries within which organisational goals are achieved. He further explained that an excessive focus on efficiency and profit could result in ethical problems such as environmental damage and unequal distribution of benefits and costs.</p>
+
+    <p>The Board ultimately requested a revised strategic evaluation that incorporated financial returns together with relevant social and environmental implications. The objective was not to ignore profitability but to assess whether the proposed strategy was sustainable and ethically defensible.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_029_1",
+      question: "The management accountant's inclusion of environmental restoration and disposal costs occurring over the project's life is primarily an application of:",
+      options: [
+        "Lifecycle cost consideration",
+        "Customer data mining",
+        "Supplier bargaining analysis",
+        "Market segmentation"
+      ],
+      answer: 1,
+      reason: "Lifecycle cost considers costs over the entire life of a project/product, including relevant costs such as site cleaning at the end of a project."
+    },
+    {
+      question_id: "AI_c1_cs_029_2",
+      question: "The project director's exclusive emphasis on immediate shareholder wealth reflects which ethical orientation criticised in the case?",
+      options: [
+        "An overriding efficiency/profit focus without sufficient consideration of social costs",
+        "A stakeholder-oriented socio-economic approach",
+        "Triple bottom line",
+        "Lifecycle management"
+      ],
+      answer: 1,
+      reason: "The material explains that an overriding focus on efficiency and profit can create ethical issues such as environmental damage and unequal distribution of income."
+    },
+    {
+      question_id: "AI_c1_cs_029_3",
+      question: "The broader performance framework proposed by the management accountant is most closely associated with:",
+      options: [
+        "Triple Bottom Line",
+        "Five Forces",
+        "Value Chain",
+        "Business Model Canvas"
+      ],
+      answer: 1,
+      reason: "The management accountant may use the Triple Bottom Line as a framework for performance evaluation, considering economic, social and environmental dimensions."
+    },
+    {
+      question_id: "AI_c1_cs_029_4",
+      question: "Which statement best explains why the management accountant's approach is consistent with business ethics?",
+      options: [
+        "Business ethics concerns moral principles and ethical problems arising in the business environment",
+        "Business ethics concerns only compliance with accounting standards",
+        "Business ethics requires maximisation of profit regardless of consequences",
+        "Business ethics applies only to external regulators"
+      ],
+      answer: 1,
+      reason: "Business ethics is a form of applied or professional ethics examining ethical principles and moral problems arising in a business environment and applies to individuals and organisations."
+    },
+    {
+      question_id: "AI_c1_cs_029_5",
+      question: "Which conclusion is most consistent with the socio-economic approach described in the material?",
+      options: [
+        "Economic objectives should be balanced with social costs to support sustainable business",
+        "Profit should always be ignored",
+        "Only government authorities should consider environmental effects",
+        "Shareholder wealth must always override stakeholder considerations"
+      ],
+      answer: 1,
+      reason: "The socio-economic approach recognises that sustainable organisations need to balance economic motives with the social costs of their actions and consider stakeholders."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c1_cs_030",
+  difficulty: "Very Hard",
+  case_topic: ["IT", "Five Forces", "Value Chain", "Strategic Management", "Management Accountant", "Strategic Alignment"],
+  case_chapter: "Chapter1",
+  caseText: `
+    <p>GlobalMove Logistics Limited is a large logistics company operating an integrated transportation and warehousing network. The company has historically competed by maintaining a large physical infrastructure of warehouses, vehicles and distribution centres. However, digital platforms have begun changing the industry. Customers increasingly demand real-time tracking, accurate delivery estimates, online booking, automated documentation and responsive customer support.</p>
+
+    <p>The Board initiated a comprehensive digital transformation programme. The first proposal was to implement an advanced information system connecting warehouses, vehicles, customers and suppliers. The system would gather information from multiple sources, process it, store it and make relevant information available to users throughout the organisation.</p>
+
+    <p>The procurement team proposed an e-procurement platform through which the company could identify alternative suppliers, compare prices and electronically exchange information. Selected suppliers would be given access to relevant ERP information so that inventory and supply requirements could be coordinated.</p>
+
+    <p>The logistics department proposed RFID tracking for packages. The system would identify and track packages entering warehouses and moving through distribution centres. It would also provide updated information for vehicle scheduling and delivery planning.</p>
+
+    <p>The marketing team proposed creating a customer data warehouse containing information about customer preferences, order history and service requirements. The analytics team would use this information to design targeted marketing campaigns and improve customer relationships.</p>
+
+    <p>The customer service department proposed IoT-enabled monitoring for selected industrial equipment at customer locations. The system could identify potential maintenance requirements and allow service teams to schedule repairs before major failures occurred.</p>
+
+    <p>Meanwhile, the HR department planned to introduce AI-based recruitment tools, applicant tracking systems, performance analytics and digital learning systems.</p>
+
+    <p>Although the proposed investments were substantial, the Chief Financial Officer argued that the company should not evaluate them merely as technology expenses. He believed that the initiatives could alter the company's competitive position. For example, integrated systems could reduce costs and improve coordination, customer analytics could strengthen customer relationships, supplier platforms could reduce supplier dependence, and advanced systems could make the company's service more difficult for rivals to replicate.</p>
+
+    <p>The management accountant was asked to evaluate the strategic proposal. He was required to consider both the impact on Porter's Five Forces and the impact on individual value-chain activities. He also had to ensure that the technology strategy, information-system strategy and information-management strategy were aligned with the overall organisational strategy.</p>
+
+    <p>During the review, the management accountant noticed that different managers were using the terms IT, IS and IM interchangeably. The Chief Executive Officer therefore asked him to prepare a strategic explanation distinguishing the three and showing why treating them as identical could result in inappropriate decisions.</p>
+
+    <p>The management accountant concluded that the digital transformation could not be viewed as a collection of isolated technology projects. It represented a strategic redesign of how information was acquired, processed, controlled, communicated and used across the organisation and its wider value chain.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_030_1",
+      question: "The proposed system connecting warehouses, vehicles, customers and suppliers to gather, process, store and disseminate information is primarily:",
+      options: [
+        "Information System",
+        "Information Management only",
+        "Information Technology only",
+        "Business ethics"
+      ],
+      answer: 1,
+      reason: "An Information System is a collection of multiple information resources used to gather, process, store and disseminate information."
+    },
+    {
+      question_id: "AI_c1_cs_030_2",
+      question: "The decision regarding management controls, responsibilities and access to organisational information would fall primarily under:",
+      options: [
+        "IM strategy",
+        "IT strategy",
+        "IS strategy",
+        "Marketing strategy"
+      ],
+      answer: 1,
+      reason: "IM strategy defines the role and structure of IT activities and deals with management controls, responsibilities, performance measurement and management processes."
+    },
+    {
+      question_id: "AI_c1_cs_030_3",
+      question: "The e-procurement platform's ability to identify suppliers and compare their prices is primarily intended to influence:",
+      options: [
+        "Supplier bargaining power",
+        "Threat of substitutes only",
+        "Buyer bargaining power",
+        "Exit barriers"
+      ],
+      answer: 1,
+      reason: "IT can reduce supplier bargaining power by helping organisations identify new suppliers, compare prices and use e-procurement or tendering systems."
+    },
+    {
+      question_id: "AI_c1_cs_030_4",
+      question: "RFID used to track packages entering warehouses and moving through distribution centres affects which combination?",
+      options: [
+        "Inbound and outbound logistics",
+        "Marketing and HR",
+        "Procurement and HR",
+        "After-sales service and marketing only"
+      ],
+      answer: 1,
+      reason: "RFID can track items throughout the supply chain and therefore positively influence both inbound and outbound logistics."
+    },
+    {
+      question_id: "AI_c1_cs_030_5",
+      question: "The customer data warehouse and analytics system is most directly connected with:",
+      options: [
+        "Buyer bargaining power and marketing/sales",
+        "Supplier bargaining power and procurement only",
+        "Exit barriers and HR",
+        "Operations and procurement only"
+      ],
+      answer: 1,
+      reason: "Customer data warehousing and mining can be used for targeted marketing and can help counter buyer bargaining power by improving customer service and understanding customer preferences."
+    }
+  ]
+},
+{
+  case_id: "AI_c1_cs_021",
+  difficulty: "Medium",
+  case_topic: ["Information Technology", "Information System", "Information Management", "Strategic Context"],
+  case_chapter: "Chapter1",
+  caseText: `
+    <p>NovaMart Retail Limited operates a chain of physical supermarkets across several cities. For many years, the company relied primarily on store-based sales and maintained separate systems for purchasing, inventory, customer information and sales reporting. Each store maintained its own inventory records, while the head office received periodic reports from individual stores.</p>
+
+    <p>As online retail platforms became increasingly popular, NovaMart noticed that customers were beginning to expect real-time information regarding product availability, online ordering, personalised offers and faster delivery. Several competitors had already introduced integrated digital platforms through which customers could place orders using mobile applications and receive recommendations based on their previous purchases.</p>
+
+    <p>The Board decided that merely purchasing new computers and software would not be sufficient. The Chief Executive Officer therefore asked the management team to distinguish between Information Technology, Information Systems and Information Management before preparing a technology-related strategic plan.</p>
+
+    <p>The Chief Information Officer explained that the company needed systems capable of gathering, processing, storing and disseminating information. The proposed system would connect stores, warehouses, suppliers, customers and the head office. However, another group of directors was more concerned with deciding who would be permitted to access customer information, who would be responsible for maintaining such information, how performance of IT activities would be measured and what controls would govern the use of information across the organisation.</p>
+
+    <p>The strategy team also proposed developing a detailed plan regarding the technological applications that should be introduced in different activities, including online ordering, inventory tracking, customer analytics, supplier communication and employee applications.</p>
+
+    <p>During the review, the Board realised that these three dimensions were interconnected but represented different strategic concerns. It therefore decided that the final strategy should align IT, IS and IM with the overall organisational strategy rather than treating technology expenditure as an isolated investment.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_021_1",
+      question: "The system proposed to gather, process, store and disseminate information across stores, warehouses, suppliers and customers is primarily an example of:",
+      options: [
+        "Information Management",
+        "Information System",
+        "Information Technology strategy",
+        "Strategic positioning"
+      ],
+      answer: 2,
+      reason: "Information Systems are collections of multiple information resources used to gather, process, store and disseminate information."
+    },
+    {
+      question_id: "AI_c1_cs_021_2",
+      question: "The Board's concern regarding who may access customer information and who is responsible for information is primarily related to:",
+      options: [
+        "IS strategy",
+        "IT strategy",
+        "IM strategy",
+        "Marketing strategy"
+      ],
+      answer: 3,
+      reason: "Information Management concerns acquisition, custodianship and distribution of information and includes management controls, responsibilities and decisions regarding who can access data."
+    },
+    {
+      question_id: "AI_c1_cs_021_3",
+      question: "The plan concerning technological applications to be introduced in different activities is most closely associated with:",
+      options: [
+        "IT strategy",
+        "IM strategy",
+        "Customer segmentation",
+        "Value proposition"
+      ],
+      answer: 1,
+      reason: "IT strategy is a comprehensive plan outlining how technology should be used to meet IT and business goals and decides the layout of IT use cases in the organisation."
+    },
+    {
+      question_id: "AI_c1_cs_021_4",
+      question: "Which combination correctly describes the linkage among the three strategies?",
+      options: [
+        "IS – How; IT – Where; IM – What",
+        "IS – What; IT – How; IM – Where",
+        "IS – Where; IT – What; IM – How",
+        "IS – How; IT – What; IM – Where"
+      ],
+      answer: 2,
+      reason: "Under Michael J. Earl's framework, IS strategy resolves 'What', IT strategy resolves 'How', and IM strategy resolves 'Where'."
+    },
+    {
+      question_id: "AI_c1_cs_021_5",
+      question: "If NovaMart formulates a strategy at organisation-wide level dealing with management controls, responsibilities and performance measurement relating to IT, it is most appropriately:",
+      options: [
+        "IS strategy",
+        "IT strategy",
+        "IM strategy",
+        "Value chain strategy"
+      ],
+      answer: 3,
+      reason: "IM strategy is formulated at organisation-wide level and deals with control over the layout of IT uses, management responsibilities, performance measurement and management processes."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c1_cs_022",
+  difficulty: "Medium",
+  case_topic: ["IT", "Porter's Five Forces", "Threat of New Entrants", "Barriers to Entry"],
+  case_chapter: "Chapter1",
+  caseText: `
+    <p>SecurePay Bank Limited had traditionally operated through a large network of physical branches. Establishing a banking business required significant investment in premises, employees, infrastructure and branch networks. For several years, the established banks believed that these requirements created a substantial barrier to new entrants.</p>
+
+    <p>However, the competitive environment changed rapidly when digital banking technologies became widely available. Several technology-driven financial service providers began offering customers account-related services through mobile applications without establishing extensive branch networks. They used digital channels for customer interaction and automated processes for several routine activities.</p>
+
+    <p>The management of SecurePay initially considered these new firms to be a relatively minor threat because they did not possess the same physical infrastructure as traditional banks. However, the strategy team pointed out that technology could play two opposite roles in relation to barriers to entry.</p>
+
+    <p>On one hand, SecurePay could invest in sophisticated IT applications, automated processes and computer-controlled systems that would require substantial technological expertise and investment from competitors attempting to replicate them. Such investments could increase economies of scale and make entry more difficult.</p>
+
+    <p>On the other hand, the same technological development could allow new entrants to avoid some traditional barriers. A digital entrant could reach customers without establishing an extensive branch network. Internet banking, mobile banking and other digital channels could therefore reduce the importance of the traditional branch-based distribution structure.</p>
+
+    <p>The Board therefore instructed the strategy team not merely to determine whether technology increased or decreased barriers to entry, but to determine the circumstances under which technology could perform either role.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_022_1",
+      question: "SecurePay's traditional branch network primarily represented:",
+      options: [
+        "A potential barrier to entry",
+        "A substitute product",
+        "Buyer bargaining power",
+        "A customer gain"
+      ],
+      answer: 1,
+      reason: "Capital requirements and access to distribution channels can operate as barriers to entry."
+    },
+    {
+      question_id: "AI_c1_cs_022_2",
+      question: "If SecurePay uses sophisticated IT applications requiring substantial investment and technical expertise, IT may:",
+      options: [
+        "Break down all entry barriers",
+        "Create barriers to entry",
+        "Increase buyer bargaining power",
+        "Create substitutes"
+      ],
+      answer: 2,
+      reason: "Sophisticated IT applications can be expensive, technically challenging and time-consuming to develop or imitate, thereby creating barriers to entry."
+    },
+    {
+      question_id: "AI_c1_cs_022_3",
+      question: "Digital entrants avoiding extensive branch networks illustrate which effect of IT?",
+      options: [
+        "IT can break down traditional barriers to entry",
+        "IT always increases barriers",
+        "IT eliminates rivalry",
+        "IT eliminates substitutes"
+      ],
+      answer: 1,
+      reason: "IT can be used by new entrants as a weapon to bypass traditional barriers. Internet and mobile banking can reduce the need for extensive physical branch networks."
+    },
+    {
+      question_id: "AI_c1_cs_022_4",
+      question: "The strategy team's conclusion that IT can both create and break down barriers indicates that:",
+      options: [
+        "IT has a uniform impact on every competitive force",
+        "IT's strategic impact depends upon how it is deployed",
+        "IT is relevant only to internal activities",
+        "IT has no strategic relevance"
+      ],
+      answer: 2,
+      reason: "The material specifically explains two possible roles of IT in relation to new entrants: creating barriers for existing players and breaking down barriers for new entrants."
+    },
+    {
+      question_id: "AI_c1_cs_022_5",
+      question: "A new entrant using mobile banking to avoid establishing branches is primarily changing the importance of:",
+      options: [
+        "Access to distribution channels",
+        "Supplier concentration",
+        "Buyer information",
+        "Exit barriers"
+      ],
+      answer: 1,
+      reason: "Traditional branch networks can act as distribution channels. Digital channels may allow new entrants to bypass this traditional barrier."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c1_cs_023",
+  difficulty: "Medium",
+  case_topic: ["IT", "Supplier Bargaining Power", "E-Procurement", "Supply Chain"],
+  case_chapter: "Chapter1",
+  caseText: `
+    <p>Alpha Components Limited manufactures precision components for automobile manufacturers. The company traditionally purchased raw materials from a small group of suppliers. Purchasing managers generally contacted suppliers individually through telephone and email, obtained quotations manually and selected suppliers based largely on historical relationships.</p>
+
+    <p>Over time, the purchasing department noticed that input prices were increasing even though several suppliers appeared to offer similar materials. Some managers suspected that the company's dependence on a limited number of suppliers had increased their bargaining power. The company also found it difficult to identify new suppliers because information about potential vendors was scattered across different sources.</p>
+
+    <p>The Chief Financial Officer proposed introducing an electronic procurement and tendering system. The proposed system would allow Alpha Components to invite bids electronically, compare prices offered by several suppliers, maintain supplier information and identify alternative vendors.</p>
+
+    <p>The company also planned to use commercial databases to obtain information about potential suppliers and their prices. In addition, management considered automatically rotating orders between approved suppliers, subject to quality requirements and contractual terms.</p>
+
+    <p>The procurement team further proposed extending the company's ERP system to selected suppliers so that suppliers could obtain relevant information regarding demand and production requirements. The objective was to create a more integrated supply chain rather than treating suppliers merely as independent sellers.</p>
+
+    <p>Some senior managers argued that the new system was simply a technology upgrade. The CFO disagreed and stated that the system could alter the company's relationship with suppliers and potentially reduce supplier bargaining power.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_023_1",
+      question: "Alpha's dependence on a small number of suppliers is most likely to:",
+      options: [
+        "Increase supplier bargaining power",
+        "Reduce supplier bargaining power",
+        "Eliminate supplier power",
+        "Increase buyer switching costs only"
+      ],
+      answer: 1,
+      reason: "Supplier concentration and a limited number of suppliers can increase suppliers' bargaining power."
+    },
+    {
+      question_id: "AI_c1_cs_023_2",
+      question: "The electronic tendering system is primarily intended to:",
+      options: [
+        "Identify and compare alternative suppliers",
+        "Increase dependence on existing suppliers",
+        "Prevent customer segmentation",
+        "Increase exit barriers"
+      ],
+      answer: 1,
+      reason: "E-procurement and tendering can help identify new suppliers, compare prices and prevent supplier cartelisation."
+    },
+    {
+      question_id: "AI_c1_cs_023_3",
+      question: "Using commercial databases to scan prices from multiple suppliers demonstrates IT's ability to:",
+      options: [
+        "Improve information regarding supplier alternatives",
+        "Eliminate all supplier costs",
+        "Increase supplier uniqueness",
+        "Create customer lock-in"
+      ],
+      answer: 1,
+      reason: "Commercial databases can help organisations identify potential suppliers and compare prices from a number of suppliers."
+    },
+    {
+      question_id: "AI_c1_cs_023_4",
+      question: "Extending ERP access to suppliers primarily supports:",
+      options: [
+        "An integrated supply chain",
+        "Customer segmentation",
+        "Threat of substitutes",
+        "Market penetration"
+      ],
+      answer: 1,
+      reason: "IT is intensively used to make the concept of an integrated supply chain a reality, including extending ERP access to vendors."
+    },
+    {
+      question_id: "AI_c1_cs_023_5",
+      question: "The CFO's statement that the system could alter supplier relationships demonstrates the strategic role of IT because:",
+      options: [
+        "IT can influence competitive forces rather than merely automate existing activities",
+        "IT has relevance only for accounting",
+        "Technology cannot influence supplier power",
+        "Supplier bargaining power is unrelated to information"
+      ],
+      answer: 1,
+      reason: "IT/IS can influence supplier bargaining power by helping identify suppliers, compare prices, facilitate e-procurement and integrate suppliers into the wider supply chain."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c1_cs_024",
+  difficulty: "Medium",
+  case_topic: ["IT", "Value Chain", "Inbound Logistics", "Outbound Logistics", "RFID", "ERP", "JIT"],
+  case_chapter: "Chapter1",
+  caseText: `
+    <p>PrimeAuto Parts Limited operates a large manufacturing facility supplying components to automobile companies. The factory receives thousands of components every day from suppliers located in different regions. Historically, the company relied on manual identification and recording of incoming materials. Warehouse employees had to physically locate components, update records and communicate inventory information to production departments.</p>
+
+    <p>These processes resulted in delays and occasional differences between physical inventory and recorded inventory. Management also found that finished goods were sometimes difficult to locate when customer orders were received. Vehicles were not always scheduled efficiently because the logistics department did not have real-time information about inventory positions and dispatch requirements.</p>
+
+    <p>The management team proposed introducing RFID tags throughout the supply chain. The tags would allow the company to automatically identify and track materials and finished products. The company also planned to integrate the system with its ERP platform and use JIT principles to improve stock control.</p>
+
+    <p>The logistics manager explained that the technology would not be restricted to incoming materials. Finished products could also be tracked while being moved from the factory to distribution points and customers. Vehicle schedules could be generated using updated information regarding the location and availability of finished goods.</p>
+
+    <p>At the same time, the production department proposed introducing CAD and CAM systems. The engineering team argued that these technologies would affect the transformation process itself rather than merely the movement and storage of materials.</p>
+
+    <p>The Board asked the management accountant to distinguish the effect of each technology on the relevant primary value-chain activity before approving the investment.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_024_1",
+      question: "RFID tracking of incoming components primarily improves:",
+      options: [
+        "Inbound logistics",
+        "Marketing and sales",
+        "After-sales service",
+        "Human resource management"
+      ],
+      answer: 1,
+      reason: "Inbound logistics deals with receiving, storing and handling raw materials and other inputs. RFID can automate identification and tracking of items."
+    },
+    {
+      question_id: "AI_c1_cs_024_2",
+      question: "Tracking finished goods during movement to customers primarily affects:",
+      options: [
+        "Inbound logistics",
+        "Outbound logistics",
+        "Procurement",
+        "Technology development only"
+      ],
+      answer: 2,
+      reason: "Outbound logistics covers storing, distributing and delivering finished goods to customers. RFID can support tracking throughout this process."
+    },
+    {
+      question_id: "AI_c1_cs_024_3",
+      question: "Which combination is most directly associated with stock/resource planning and stock control?",
+      options: [
+        "ERP and JIT",
+        "CAD and CAM",
+        "CRM and RFID only",
+        "EDI and CAD"
+      ],
+      answer: 1,
+      reason: "MRP and ERP can be used for resource planning, while JIT can be used for stock control."
+    },
+    {
+      question_id: "AI_c1_cs_024_4",
+      question: "CAD and CAM are primarily associated with:",
+      options: [
+        "Operations",
+        "Marketing",
+        "After-sales service",
+        "Outbound logistics"
+      ],
+      answer: 1,
+      reason: "Operations include transformation of raw materials into finished goods. CAD assists design and CAM assists material, capacity and production control."
+    },
+    {
+      question_id: "AI_c1_cs_024_5",
+      question: "Why should the company not classify RFID and CAD/CAM as affecting the same value-chain activity merely because all involve technology?",
+      options: [
+        "Technology must be analysed according to the business activity it improves",
+        "Technology is never relevant to value-chain analysis",
+        "All IT applications affect only procurement",
+        "All IT applications affect only operations"
+      ],
+      answer: 1,
+      reason: "IT/IS can affect every value-chain activity differently. RFID can improve logistics, while CAD/CAM directly support operations."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c1_cs_025",
+  difficulty: "Medium",
+  case_topic: ["Management Accountant", "Analysis", "Planning", "Innovation", "Leadership"],
+  case_chapter: "Chapter1",
+  caseText: `
+    <p>Zenith Manufacturing Limited had traditionally viewed its management accountant primarily as a person responsible for preparing budgets, maintaining accounting records and reporting financial performance to senior management. Departmental managers generally approached the management accountant only when they required budget information or explanations regarding cost variances.</p>
+
+    <p>Following a significant change in the competitive environment, the Chief Executive Officer decided that the management accountant should participate more actively in strategic decision-making. The company was considering automation, redesigning its supply chain, changing its product mix and introducing new technology.</p>
+
+    <p>The management accountant began analysing both financial and non-financial information. Instead of simply reporting that customer profitability had declined, he examined customer behaviour, product profitability, quality information, supply-chain data and operational performance to identify the reasons behind the change.</p>
+
+    <p>He then worked with senior executives to develop forecasts and budgets supporting the company's long-term strategy. He also encouraged management to consider technological innovations that could improve processes and supported the organisation in evaluating their financial and strategic implications.</p>
+
+    <p>When the proposed changes were communicated to employees, resistance emerged. The management accountant therefore participated in meetings with employees and functional managers, explained why the changes were necessary and collected feedback regarding implementation difficulties.</p>
+
+    <p>The CEO observed that the management accountant was no longer merely reporting numbers. He was helping management understand what was driving performance, shaping strategic alternatives, supporting technological change and assisting in execution.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_025_1",
+      question: "The management accountant's examination of financial and non-financial information to discover the reasons behind customer profitability changes represents:",
+      options: [
+        "Analysis",
+        "Stewardship accounting only",
+        "Procurement",
+        "Information disposal"
+      ],
+      answer: 1,
+      reason: "Analysis involves using financial and non-financial information to uncover the meaning of numbers and offer new insights and vision."
+    },
+    {
+      question_id: "AI_c1_cs_025_2",
+      question: "Working with executives to develop forecasts and budgets for the long-term strategy represents:",
+      options: [
+        "Planning",
+        "After-sales service",
+        "Procurement",
+        "Customer segmentation"
+      ],
+      answer: 1,
+      reason: "Management accountants use forecasting and budgeting skills to assist senior leaders in making business and financial decisions and developing long-term plans."
+    },
+    {
+      question_id: "AI_c1_cs_025_3",
+      question: "Encouraging technological innovation and supporting the organisation in adopting new technology represents:",
+      options: [
+        "Innovation",
+        "Stewardship",
+        "Inbound logistics",
+        "Market segmentation"
+      ],
+      answer: 1,
+      reason: "Innovation involves the management accountant acting as an initiator or change advocate for technological innovation."
+    },
+    {
+      question_id: "AI_c1_cs_025_4",
+      question: "The management accountant's participation in communicating the need for change primarily reflects:",
+      options: [
+        "Leadership",
+        "Cost allocation",
+        "Procurement",
+        "Customer profiling"
+      ],
+      answer: 1,
+      reason: "Leadership involves moving from planning to execution, including decision-making and communication across departments."
+    },
+    {
+      question_id: "AI_c1_cs_025_5",
+      question: "Which statement best reflects the transformation illustrated by Zenith's management accountant?",
+      options: [
+        "The management accountant has moved beyond reporting and is contributing to strategy, technology and leadership",
+        "The management accountant should only prepare budgets",
+        "The management accountant's role is restricted to financial reporting",
+        "The management accountant should avoid participation in strategic decisions"
+      ],
+      answer: 1,
+      reason: "The modern management accountant operates at the crossroads of technology, financial analysis, strategy and leadership rather than merely reporting financial figures."
+    }
+  ]
+},
+{
+  case_id: "AI_c1_cs_031",
+  difficulty: "medium",
+  case_topic: ["Information Systems", "Information Technology", "Information Management", "Strategic Alignment"],
+  case_chapter: "An Introduction to Strategic Cost Management",
+  caseText: `
+    <p><b>Vistara Home Appliances Limited</b> manufactures refrigerators, washing machines and small kitchen appliances through three manufacturing locations. During the last three years, the company expanded rapidly through online sales. However, its information-related systems developed independently within different departments.</p>
+
+    <p>The production department maintained a manufacturing database containing machine utilisation, production schedules and material requirements. The sales department maintained a separate customer database containing orders, complaints and purchase history. The procurement department used a supplier portal to compare quotations and place purchase orders. The finance department had another system for accounting and reporting.</p>
+
+    <p>Although each department had access to technology, senior management noticed that the information available to one department was not always consistent with information maintained elsewhere. For example, the sales team would sometimes promise delivery dates without knowing the latest production capacity. Procurement managers occasionally placed urgent orders because they were unaware that another supplier had already delivered the required material. Customer service executives also had difficulty obtaining a complete history of customer complaints because service information was stored separately.</p>
+
+    <p>The Chief Financial Officer proposed that the company should first identify what information each business unit actually requires for achieving its objectives. The Chief Information Officer, however, argued that the immediate priority should be deciding which technology platforms, servers and software should be acquired. The Chief Operating Officer suggested that the company should establish organisation-wide rules regarding who may access customer, supplier and production information, how information should be stored and when obsolete information should be archived or deleted.</p>
+
+    <p>The Managing Director concluded that the problem was not simply the absence of computers. The company needed to distinguish between the business-oriented strategy for determining information requirements, the technology-oriented strategy for determining how technology would provide the required capabilities, and the organisation-wide managerial framework governing information.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_031_1",
+      question: "Based on the facts of Vistara Home Appliances Limited, which approach most appropriately represents the primary concern of its Information Systems strategy?",
+      options: [
+        "Determining what information capabilities are required to support business needs",
+        "Determining the physical location of servers and network devices",
+        "Determining procedures for deletion of obsolete information only",
+        "Determining the technical specifications of computers used by employees"
+      ],
+      answer: 1,
+      reason: "IS strategy is business-driven and focuses on what information systems are required to support business needs."
+    },
+    {
+      question_id: "AI_c1_cs_031_2",
+      question: "The CIO's proposal to determine software platforms, servers and technological infrastructure is primarily associated with which concept?",
+      options: [
+        "Information Management strategy",
+        "Information Technology strategy",
+        "Information Systems strategy",
+        "Value Proposition strategy"
+      ],
+      answer: 2,
+      reason: "IT strategy is technology-focused and concerned with how technology will be used to achieve IT and business objectives."
+    },
+    {
+      question_id: "AI_c1_cs_031_3",
+      question: "The COO's proposal concerning access rights, storage, archiving and deletion of information most directly represents:",
+      options: [
+        "Information Technology",
+        "Information Systems",
+        "Information Management",
+        "Inbound logistics"
+      ],
+      answer: 3,
+      reason: "Information Management deals with acquisition, custodianship, distribution and disposal/archiving of information together with responsibilities and access controls."
+    },
+    {
+      question_id: "AI_c1_cs_031_4",
+      question: "Which of the following correctly matches the three approaches discussed by management?",
+      options: [
+        "IS – How; IT – Where; IM – What",
+        "IS – What; IT – How; IM – Where",
+        "IS – Where; IT – What; IM – How",
+        "IS – How; IT – What; IM – Where"
+      ],
+      answer: 2,
+      reason: "Michael J. Earl's framework associates IS with What, IT with How and IM with Where."
+    },
+    {
+      question_id: "AI_c1_cs_031_5",
+      question: "If Vistara develops an excellent technology platform but does not align the information provided by the system with business requirements, the most likely strategic weakness would be:",
+      options: [
+        "Technology has automatically become a substitute product",
+        "IT investment may fail to create the required business advantage",
+        "Supplier bargaining power will necessarily become zero",
+        "The company's fixed costs will automatically disappear"
+      ],
+      answer: 2,
+      reason: "Technology investment must be aligned with business requirements; otherwise significant IT expenditure may not generate strategic advantage."
+    }
+  ]
+},
+{
+  case_id: "AI_c1_cs_032",
+  difficulty: "medium",
+  case_topic: ["Value Chain", "Inbound Logistics", "Operations", "Outbound Logistics", "Information Technology"],
+  case_chapter: "An Introduction to Strategic Cost Management",
+  caseText: `
+    <p><b>Arclight Furniture Limited</b> manufactures customised office furniture for corporate customers. The company purchases wood panels, metal frames, fittings, glass and electronic components from several suppliers. Historically, materials were received at the factory and manually entered into inventory records. Production supervisors then issued paper-based instructions to workers regarding which materials were required for particular customer orders.</p>
+
+    <p>As the number of customised orders increased, the company experienced frequent discrepancies between physical inventory and recorded inventory. Some materials remained unused for long periods while other materials were urgently purchased because production staff could not locate the required items. The warehouse manager therefore proposed the use of barcodes and RFID tags to identify and track materials from the time they entered the warehouse.</p>
+
+    <p>The production department also introduced computer-aided design software. Customers could approve digital designs before manufacturing began. Once a design was approved, computer-aided manufacturing systems generated production instructions and helped determine machine utilisation and material requirements.</p>
+
+    <p>After production, finished furniture was temporarily stored in an automated warehouse. Delivery schedules were generated based on customer locations, promised delivery dates and vehicle availability. The company also began using RFID and barcode information while goods moved from the warehouse to distribution vehicles.</p>
+
+    <p>The Managing Director explained to the management accountant that the same technology could support different activities in the value chain depending upon where and how it was used. The accountant was asked to identify the primary value-chain activities affected by the company's new systems rather than simply classify all technology expenditure as one activity.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_032_1",
+      question: "The use of RFID to identify and track raw materials when they enter and are stored in the factory primarily supports which value-chain activity?",
+      options: [
+        "Marketing and sales",
+        "Inbound logistics",
+        "After-sales service",
+        "Human resource management"
+      ],
+      answer: 2,
+      reason: "Inbound logistics covers receiving, storing and handling inputs/raw materials."
+    },
+    {
+      question_id: "AI_c1_cs_032_2",
+      question: "The computer-aided manufacturing system that helps control production and machine utilisation primarily supports:",
+      options: [
+        "Operations",
+        "Outbound logistics",
+        "Procurement",
+        "Firm infrastructure"
+      ],
+      answer: 1,
+      reason: "Operations involve transforming inputs into finished products, and CAM supports production and capacity control."
+    },
+    {
+      question_id: "AI_c1_cs_032_3",
+      question: "The automated warehouse and delivery scheduling system used after production primarily relates to:",
+      options: [
+        "Inbound logistics",
+        "Operations",
+        "Outbound logistics",
+        "Technology development"
+      ],
+      answer: 3,
+      reason: "Outbound logistics includes storing, distributing and delivering finished goods."
+    },
+    {
+      question_id: "AI_c1_cs_032_4",
+      question: "Which statement best reflects the Managing Director's observation?",
+      options: [
+        "A particular technology can support different value-chain activities depending on its use",
+        "All IT expenditure is necessarily classified as technology development",
+        "Technology can only affect secondary activities",
+        "RFID can only be classified as procurement"
+      ],
+      answer: 1,
+      reason: "The classification depends upon the business activity being supported, not merely the technology being used."
+    },
+    {
+      question_id: "AI_c1_cs_032_5",
+      question: "If the company uses the same RFID system to monitor finished goods during dispatch, the relevant value-chain classification would most appropriately change to:",
+      options: [
+        "Outbound logistics",
+        "Inbound logistics",
+        "Human resource management",
+        "Customer relationship management"
+      ],
+      answer: 1,
+      reason: "When RFID is used for finished-goods storage and dispatch, it supports outbound logistics."
+    }
+  ]
+},
+{
+  case_id: "AI_c1_cs_033",
+  difficulty: "medium",
+  case_topic: ["Management Accountant", "Analysis", "Planning", "Innovation", "Leadership"],
+  case_chapter: "An Introduction to Strategic Cost Management",
+  caseText: `
+    <p><b>Nova Medical Devices Limited</b> had traditionally viewed its management accountants mainly as people responsible for budgets, cost reports and financial control. The company's new Managing Director believed that this approach was too narrow because the business was entering a period of rapid technological change.</p>
+
+    <p>The management accountant, Meera, was therefore asked to participate in a cross-functional project involving production, marketing, procurement, research and development and customer service.</p>
+
+    <p>During the first stage, Meera examined both financial and non-financial information. She analysed warranty claims, customer complaints, machine downtime, supplier performance and customer profitability along with traditional cost data. She discovered that some customers who generated high sales revenue were actually less profitable because they required frequent customisation and extensive after-sales support.</p>
+
+    <p>In the second stage, Meera prepared forecasts and alternative budgets for management. Instead of merely extending historical costs, she considered expected demand, production capacity, technological investment and long-term strategic objectives.</p>
+
+    <p>During the third stage, the company considered introducing automated inspection equipment. Several managers opposed the investment because it would initially increase expenditure. Meera presented alternative scenarios and demonstrated how the technology could improve quality and reduce long-term operating costs. She encouraged management to consider the strategic consequences rather than focusing only on the current year's accounting figures.</p>
+
+    <p>Finally, Meera had to explain the proposed changes to employees and managers across different departments. Some employees were concerned about automation, while others were unclear about how the project would affect their responsibilities. Meera therefore communicated the rationale for change, listened to objections and encouraged managers to provide feedback.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_033_1",
+      question: "Meera's analysis of warranty claims, customer complaints, machine downtime and customer profitability demonstrates which modern role of a management accountant?",
+      options: [
+        "Analysis",
+        "Stewardship only",
+        "Bookkeeping",
+        "External auditing"
+      ],
+      answer: 1,
+      reason: "Modern management accountants analyse both financial and non-financial information to generate insights."
+    },
+    {
+      question_id: "AI_c1_cs_033_2",
+      question: "The preparation of alternative forecasts and budgets considering capacity, demand and long-term objectives primarily demonstrates:",
+      options: [
+        "Planning",
+        "Procurement",
+        "After-sales service",
+        "Inbound logistics"
+      ],
+      answer: 1,
+      reason: "Planning involves forecasting, budgeting and supporting business and financial decisions."
+    },
+    {
+      question_id: "AI_c1_cs_033_3",
+      question: "Meera's role in encouraging adoption of automated inspection technology most directly reflects:",
+      options: [
+        "Innovation",
+        "Inbound logistics",
+        "Supplier bargaining power",
+        "Customer segmentation"
+      ],
+      answer: 1,
+      reason: "The modern management accountant can act as an initiator and advocate of technological innovation."
+    },
+    {
+      question_id: "AI_c1_cs_033_4",
+      question: "When Meera explains the change, listens to objections and obtains feedback, she is primarily demonstrating which leadership dimension?",
+      options: [
+        "Communication",
+        "Cost leadership",
+        "Structural cost management",
+        "Product differentiation"
+      ],
+      answer: 1,
+      reason: "Communication is a key leadership dimension and involves two-way exchange, including feedback and listening."
+    },
+    {
+      question_id: "AI_c1_cs_033_5",
+      question: "Why would relying only on historical accounting figures be inappropriate when evaluating the automated inspection proposal?",
+      options: [
+        "Because financial information can never be used for strategic decisions",
+        "Because strategic analysis may require financial and non-financial information and consideration of future effects",
+        "Because management accountants should never prepare budgets",
+        "Because automation is always profitable"
+      ],
+      answer: 2,
+      reason: "Strategic analysis requires broader information, including non-financial factors and expected future consequences."
+    }
+  ]
+},
+{
+  case_id: "AI_c1_cs_034",
+  difficulty: "medium",
+  case_topic: ["Communication", "Feedback", "Management by Wandering Around", "Leadership"],
+  case_chapter: "An Introduction to Strategic Cost Management",
+  caseText: `
+    <p><b>Zenith Packaging Limited</b> decided to introduce a new production planning system. Senior management believed that the system would improve capacity utilisation and reduce production delays. A detailed circular explaining the new system was sent to all employees.</p>
+
+    <p>Management initially believed that the communication exercise had been successful because the circular had been delivered to every employee. However, within two weeks, supervisors reported that employees were following the new procedures inconsistently. Some employees believed that the system would reduce their importance, while others did not understand why the existing method had to be changed.</p>
+
+    <p>The management accountant leading the implementation realised that sending information was not equivalent to effective communication. He arranged small meetings with production teams and encouraged employees to ask questions. He also visited different production areas without following a fixed schedule. During these visits, he observed the actual working environment and spoke informally with employees.</p>
+
+    <p>One employee explained that the new system required additional data entry during shift changes. Another pointed out that the system did not adequately reflect a particular production constraint. These observations had not appeared in formal management reports.</p>
+
+    <p>The accountant subsequently modified the implementation process and explained to employees why the changes were being made. Senior management noticed that employees became more willing to cooperate after their concerns were heard and acted upon.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_034_1",
+      question: "Why was the original circular insufficient to ensure effective communication?",
+      options: [
+        "Communication is complete whenever information is transmitted",
+        "Effective communication requires feedback and understanding rather than merely sending a message",
+        "Written communication is always ineffective",
+        "Employees should never receive formal communication"
+      ],
+      answer: 2,
+      reason: "Communication is a two-way process. Feedback helps determine whether the message was understood and reveals resistance or concerns."
+    },
+    {
+      question_id: "AI_c1_cs_034_2",
+      question: "The accountant's practice of visiting production areas without following a fixed schedule most closely represents:",
+      options: [
+        "Management by Wandering/Walking Around",
+        "Zero-based budgeting",
+        "Value engineering",
+        "Activity-based costing"
+      ],
+      answer: 1,
+      reason: "MBWA involves managers moving around the workplace in an unstructured or random manner to observe and interact with employees."
+    },
+    {
+      question_id: "AI_c1_cs_034_3",
+      question: "The informal conversations revealed information that was absent from formal reports mainly because:",
+      options: [
+        "Informal communication can provide direct insights from employees and the workplace",
+        "Formal reports are legally prohibited",
+        "Informal communication automatically replaces all formal systems",
+        "Employees are never included in formal reports"
+      ],
+      answer: 1,
+      reason: "Direct informal interaction can reveal operational issues and employee concerns that may not appear in formal reporting systems."
+    },
+    {
+      question_id: "AI_c1_cs_034_4",
+      question: "Which action would most likely reduce resistance to the new system?",
+      options: [
+        "Increasing the number of circulars without accepting feedback",
+        "Listening to concerns, explaining the reasons for change and incorporating relevant feedback",
+        "Stopping communication until employees accept the change",
+        "Allowing only senior managers to discuss the system"
+      ],
+      answer: 2,
+      reason: "Two-way communication, listening and feedback help reduce resistance during organisational change."
+    },
+    {
+      question_id: "AI_c1_cs_034_5",
+      question: "The accountant's observation that employees had concerns but were initially not expressing them demonstrates the importance of:",
+      options: [
+        "Listening in addition to merely hearing",
+        "Increasing fixed costs",
+        "Supplier concentration",
+        "Product differentiation"
+      ],
+      answer: 1,
+      reason: "Effective communication requires active listening and an attempt to understand the receiver's concerns."
+    }
+  ]
+},
+{
+  case_id: "AI_c1_cs_035",
+  difficulty: "medium",
+  case_topic: ["Business Ethics", "Triple Bottom Line", "Lifecycle Cost", "Management Accountant"],
+  case_chapter: "An Introduction to Strategic Cost Management",
+  caseText: `
+    <p><b>GreenCore Infrastructure Limited</b> was evaluating a proposal to construct a specialised manufacturing facility. The project appeared highly attractive on the basis of its projected sales and operating profit. The finance team therefore recommended immediate approval.</p>
+
+    <p>The management accountant, however, requested that management consider costs that were not included in the initial financial evaluation. The proposed facility would require specialised land preparation and, after several years, substantial expenditure would be required to clean and restore the site. Certain nearby communities could also be displaced during the development of the project.</p>
+
+    <p>The project manager argued that these costs should not affect the investment decision because they would arise many years after production began. The management accountant disagreed, stating that evaluating only current operating profitability could result in an incomplete assessment of the economic consequences of the project.</p>
+
+    <p>At the board meeting, one director argued that the company's only responsibility was to maximise shareholder wealth. Another director stated that the company should consider employees, customers, suppliers, communities and environmental consequences while making decisions.</p>
+
+    <p>The board finally requested an evaluation covering financial performance, social consequences and environmental impact. The management accountant was asked to prepare a framework that would allow management to evaluate the project without ignoring legitimate economic objectives.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_035_1",
+      question: "The management accountant's insistence on including future site-cleaning expenditure is most closely associated with:",
+      options: [
+        "Lifecycle costing",
+        "Customer segmentation",
+        "Supplier concentration",
+        "Market penetration"
+      ],
+      answer: 1,
+      reason: "Lifecycle costing considers costs throughout the life of a project/product, including relevant end-of-life costs."
+    },
+    {
+      question_id: "AI_c1_cs_035_2",
+      question: "The director advocating consideration of communities and environmental consequences is closest to which approach?",
+      options: [
+        "Pure shareholder wealth maximisation without other considerations",
+        "Socio-economic/stakeholder-oriented approach",
+        "Cost-plus pricing",
+        "Inbound logistics"
+      ],
+      answer: 2,
+      reason: "The socio-economic approach considers economic objectives together with social costs and stakeholder interests."
+    },
+    {
+      question_id: "AI_c1_cs_035_3",
+      question: "Which combination best represents the triple bottom line perspective?",
+      options: [
+        "Profit, people and planet",
+        "Price, production and procurement",
+        "Profit, productivity and purchasing",
+        "People, procurement and patents"
+      ],
+      answer: 1,
+      reason: "Triple bottom line evaluates performance across economic, social and environmental dimensions."
+    },
+    {
+      question_id: "AI_c1_cs_035_4",
+      question: "If the board evaluates only projected operating profit and ignores environmental and social consequences, the major weakness would be:",
+      options: [
+        "The evaluation may be excessively narrow from an ethical and broader performance perspective",
+        "The project automatically becomes loss-making",
+        "Lifecycle costs become irrelevant",
+        "The company can no longer prepare budgets"
+      ],
+      answer: 1,
+      reason: "Excessive focus on financial efficiency can overlook social and environmental consequences."
+    },
+    {
+      question_id: "AI_c1_cs_035_5",
+      question: "Which statement best describes the management accountant's role in this situation?",
+      options: [
+        "To ignore non-financial information because it cannot be measured",
+        "To provide relevant financial and non-financial information while maintaining ethical considerations",
+        "To approve the project independently of the board",
+        "To focus only on reducing current-year expenditure"
+      ],
+      answer: 2,
+      reason: "Modern management accountants contribute broader analysis and should incorporate ethical and relevant non-financial considerations."
+    }
+  ]
+},
+{
+  case_id: "AI_c1_cs_036",
+  difficulty: "hard",
+  case_topic: ["Porter's Five Forces", "Threat of New Entrants", "Information Technology", "Barriers to Entry"],
+  case_chapter: "An Introduction to Strategic Cost Management",
+  caseText: `
+    <p><b>MetroTrust Bank</b> operates a large network of physical branches across several cities. For many years, management believed that the branch network itself created a significant barrier to entry because a new banking institution would need substantial capital and infrastructure to compete with the bank's geographic reach.</p>
+
+    <p>Over time, however, digital banking platforms became increasingly sophisticated. Customers began opening accounts through mobile applications, conducting transactions electronically and obtaining services without visiting branches. Several new financial institutions entered selected markets without establishing traditional branch networks. Instead, they invested heavily in mobile applications, automated customer verification, cloud infrastructure and digital customer acquisition.</p>
+
+    <p>MetroTrust responded by investing in a highly sophisticated integrated banking platform. The system required substantial capital expenditure and specialised technical expertise. It integrated customer information, transaction processing, risk monitoring, automated service and digital channels. Management believed that maintaining such a system would be difficult for a small entrant.</p>
+
+    <p>At the same time, the bank discovered that technology had weakened some traditional barriers. New entrants could use internet-based distribution and mobile banking to reach customers without spending the amount traditionally required for a physical branch network.</p>
+
+    <p>The strategy team therefore prepared two apparently contradictory observations. The first stated that advanced technology could create a barrier because sophisticated systems were expensive and technically challenging. The second stated that technology could reduce entry barriers because digital channels allowed entrants to reach customers without traditional infrastructure.</p>
+
+    <p>The CEO asked the management accountant to explain whether these two observations were inconsistent and what conclusion should be drawn about the threat of new entrants.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_036_1",
+      question: "Which of the following best resolves the apparent contradiction identified by the strategy team?",
+      options: [
+        "Technology always increases barriers to entry",
+        "Technology always decreases barriers to entry",
+        "Technology can increase or decrease barriers depending on how it changes infrastructure requirements and competitive capabilities",
+        "Technology has no relationship with entry barriers"
+      ],
+      answer: 3,
+      reason: "Sophisticated technology can create technical and capital barriers, while digital channels can simultaneously reduce the need for traditional infrastructure."
+    },
+    {
+      question_id: "AI_c1_cs_036_2",
+      question: "MetroTrust's expensive and technically sophisticated integrated platform can strengthen its position primarily because it may:",
+      options: [
+        "Make imitation and technological entry more difficult",
+        "Eliminate all customer switching costs",
+        "Guarantee that no substitute will ever arise",
+        "Eliminate supplier bargaining power"
+      ],
+      answer: 1,
+      reason: "Capital requirements and technically challenging applications can act as barriers to new entrants."
+    },
+    {
+      question_id: "AI_c1_cs_036_3",
+      question: "The new entrants' use of mobile banking primarily demonstrates that:",
+      options: [
+        "Digital technology can reduce dependence on traditional branch infrastructure",
+        "Technology always increases fixed physical assets",
+        "Banks must use physical branches to compete",
+        "Digital channels eliminate competition"
+      ],
+      answer: 1,
+      reason: "Internet and mobile technologies can reduce the need for extensive physical distribution networks."
+    },
+    {
+      question_id: "AI_c1_cs_036_4",
+      question: "If MetroTrust evaluates the threat of new entrants only by looking at the number of physical branches possessed by competitors, the analysis would be:",
+      options: [
+        "Strategically incomplete",
+        "Perfectly rational",
+        "A complete measure of technology barriers",
+        "A measure of customer switching costs only"
+      ],
+      answer: 1,
+      reason: "The digital environment changes the nature of entry barriers, so physical infrastructure alone cannot adequately assess the threat."
+    },
+    {
+      question_id: "AI_c1_cs_036_5",
+      question: "Which Porter Five Forces factor is most directly being evaluated throughout the case?",
+      options: [
+        "Threat of substitutes",
+        "Bargaining power of suppliers",
+        "Threat of new entrants",
+        "Bargaining power of buyers"
+      ],
+      answer: 3,
+      reason: "The central strategic issue is whether technology makes it easier or harder for new competitors to enter the banking industry."
+    }
+  ]
+},
+{
+  case_id: "AI_c1_cs_037",
+  difficulty: "hard",
+  case_topic: ["Supplier Bargaining Power", "E-Procurement", "Supplier Concentration", "Information Technology"],
+  case_chapter: "An Introduction to Strategic Cost Management",
+  caseText: `
+    <p><b>Orion Auto Components Limited</b> purchases specialised electronic components from a relatively small number of suppliers. Historically, procurement managers negotiated individually with suppliers. Because some suppliers supplied critical components that could not easily be replaced, Orion frequently accepted higher prices and unfavourable delivery terms.</p>
+
+    <p>The procurement department proposed an electronic procurement platform. The platform would allow procurement managers to collect quotations from multiple suppliers, compare prices and technical specifications, monitor historical supplier performance and identify alternative sources. It would also connect selected suppliers with Orion's enterprise system.</p>
+
+    <p>Under the proposed arrangement, suppliers would receive electronic information regarding expected demand. Certain routine orders could be automatically generated when predetermined requirements were reached. The procurement team also planned to use commercial databases to compare market prices before negotiating major contracts.</p>
+
+    <p>However, the procurement director warned that the system would not automatically eliminate supplier power. One supplier controlled a proprietary component for which no close substitute was immediately available. Switching to another supplier would require redesigning the component and obtaining new approvals. Furthermore, the supplier had significant expertise and could potentially enter downstream activities.</p>
+
+    <p>The management accountant was asked to assess whether the new IT system had solved the supplier-power problem or merely improved Orion's ability to manage it.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_037_1",
+      question: "Which feature of the new system most directly helps Orion reduce information disadvantage during supplier negotiations?",
+      options: [
+        "Commercial databases that allow comparison of market prices",
+        "Increasing dependence on one supplier",
+        "Reducing the number of supplier quotations",
+        "Eliminating supplier performance records"
+      ],
+      answer: 1,
+      reason: "Commercial databases and price comparisons provide procurement managers with better market information."
+    },
+    {
+      question_id: "AI_c1_cs_037_2",
+      question: "Why does the proprietary component supplier continue to possess bargaining power despite Orion's e-procurement system?",
+      options: [
+        "Because IT systems automatically increase supplier concentration",
+        "Because the component has no close substitute and switching requires redesign and approval",
+        "Because electronic procurement prevents negotiation",
+        "Because supplier power depends only on the number of employees"
+      ],
+      answer: 2,
+      reason: "Supplier uniqueness, lack of substitutes and switching costs are important determinants of supplier bargaining power."
+    },
+    {
+      question_id: "AI_c1_cs_037_3",
+      question: "The possibility that the supplier may enter downstream activities is relevant because it represents:",
+      options: [
+        "Threat of forward integration",
+        "Threat of backward integration by buyers",
+        "Customer loyalty",
+        "Economies of scope"
+      ],
+      answer: 1,
+      reason: "Forward integration occurs when a supplier moves toward activities performed by its customers."
+    },
+    {
+      question_id: "AI_c1_cs_037_4",
+      question: "The proposed electronic connection between Orion and suppliers for automatic replenishment most directly supports:",
+      options: [
+        "Procurement and supply-chain integration",
+        "Customer segmentation",
+        "After-sales service only",
+        "Firm infrastructure only"
+      ],
+      answer: 1,
+      reason: "EDI/electronic integration with suppliers can support procurement and improve supply-chain coordination."
+    },
+    {
+      question_id: "AI_c1_cs_037_5",
+      question: "Which conclusion is most appropriate regarding Orion's IT investment?",
+      options: [
+        "It automatically eliminates supplier bargaining power",
+        "It improves Orion's ability to identify, compare and manage suppliers but does not eliminate structural sources of supplier power",
+        "It makes all suppliers interchangeable",
+        "It guarantees that supplier prices will always fall"
+      ],
+      answer: 2,
+      reason: "IT can strengthen procurement and negotiation capabilities, but structural factors such as uniqueness, substitutes and switching costs may continue to create supplier power."
+    }
+  ]
+},
+{
+  case_id: "AI_c1_cs_038",
+  difficulty: "hard",
+  case_topic: ["Value Proposition Canvas", "Customer Profile", "Value Map", "Problem-Solution Fit", "Product-Market Fit"],
+  case_chapter: "An Introduction to Strategic Cost Management",
+  caseText: `
+    <p><b>LearnSphere Technologies</b> operates an online professional education platform. The company initially assumed that students primarily wanted a large number of video lectures. Accordingly, its first value proposition emphasised the size of its lecture library.</p>
+
+    <p>After collecting detailed customer information, the company discovered that students had several different jobs. Some wanted to pass professional examinations, some wanted to revise concepts quickly before tests, while others wanted practical application of concepts. Their pains also differed. Some students complained about the time required to locate relevant material, while others struggled to determine which topics required greater attention.</p>
+
+    <p>The company also identified several gains students desired. Students wanted confidence about examination readiness, quick identification of weak areas, realistic practice and a clear indication of their progress.</p>
+
+    <p>LearnSphere therefore redesigned its offering. Instead of simply increasing the number of lectures, it introduced topic-wise practice, performance analytics, targeted revision material and progress indicators. Management classified these features as part of the business's response to customer pains and desired gains.</p>
+
+    <p>However, the strategy director warned that management should not assume that merely creating the redesigned value proposition meant the company had achieved product-market fit. The company first needed to determine whether the proposed value proposition actually matched the identified customer profile. After launch, the company would need evidence that the market accepted the offering and that the product achieved meaningful traction.</p>
+
+    <p>The management accountant was asked to distinguish between customer-side elements and business-side elements and to explain the difference between problem-solution fit and product-market fit.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_038_1",
+      question: "Which of the following belongs to the Customer Profile rather than the Value Map?",
+      options: [
+        "Progress indicators developed by LearnSphere",
+        "Targeted revision material",
+        "Students' difficulty in identifying weak areas",
+        "Performance analytics introduced by the company"
+      ],
+      answer: 3,
+      reason: "Customer Profile contains jobs, pains and gains. Difficulty in identifying weak areas is a customer pain."
+    },
+    {
+      question_id: "AI_c1_cs_038_2",
+      question: "LearnSphere's targeted revision material intended to address students' difficulty in locating important material is best classified as:",
+      options: [
+        "Customer pain",
+        "Pain reliever",
+        "Customer gain",
+        "Customer segment"
+      ],
+      answer: 2,
+      reason: "Pain relievers are business-side elements designed to reduce or remove customer pains."
+    },
+    {
+      question_id: "AI_c1_cs_038_3",
+      question: "Students' desire for confidence about examination readiness represents:",
+      options: [
+        "A gain",
+        "A pain reliever",
+        "A product/service",
+        "A key resource"
+      ],
+      answer: 1,
+      reason: "Desired benefits and outcomes from the customer's perspective are gains."
+    },
+    {
+      question_id: "AI_c1_cs_038_4",
+      question: "When LearnSphere designs a value proposition that matches the identified jobs, pains and gains of students, it is primarily seeking:",
+      options: [
+        "Problem-solution fit",
+        "Product-market fit",
+        "Backward integration",
+        "Cost leadership"
+      ],
+      answer: 1,
+      reason: "Problem-solution fit exists when the Value Map corresponds with the Customer Profile."
+    },
+    {
+      question_id: "AI_c1_cs_038_5",
+      question: "Why would management be incorrect in declaring product-market fit immediately after designing the new offering?",
+      options: [
+        "Because product-market fit requires market validation and evidence of traction",
+        "Because customer profiles cannot contain pains",
+        "Because a value proposition can never contain services",
+        "Because product-market fit occurs before identifying customer needs"
+      ],
+      answer: 1,
+      reason: "Product-market fit is reached after the market validates the offering and meaningful traction is achieved."
+    }
+  ]
+},
+{
+  case_id: "AI_c1_cs_039",
+  difficulty: "very hard",
+  case_topic: ["Cost Drivers", "Structural Cost Drivers", "Executional Cost Drivers", "Activity Drivers", "Strategic Cost Management"],
+  case_chapter: "An Introduction to Strategic Cost Management",
+  caseText: `
+    <p><b>PrecisionCast Industries</b> manufactures highly customised industrial components. Its management initially attempted to reduce manufacturing costs by negotiating lower prices for raw materials. Although material prices declined slightly, total manufacturing cost continued to rise.</p>
+
+    <p>A detailed cost-driver investigation revealed that the company's production system had become increasingly complex. The company had added several product lines, each requiring different production processes. The number of components used across products had also increased. Certain products required specialised equipment and separate production procedures.</p>
+
+    <p>The management accountant classified these factors as part of the underlying economic structure of the business. He explained that increasing the scale of operations, expanding the scope of products, adopting different technologies and increasing complexity can influence cost behaviour even before considering individual production activities.</p>
+
+    <p>A second investigation identified several operational issues. Production workers were not sufficiently involved in improvement programmes, capacity utilisation varied significantly between departments, plant layout resulted in unnecessary movement, and relationships with some suppliers were poorly coordinated.</p>
+
+    <p>At the shop-floor level, the accountant identified costs associated with machine hours, assembly labour hours, number of production setups, inspection hours, defective units and engineering change orders. Management initially wanted to classify all of these as the same type of cost driver.</p>
+
+    <p>The accountant disagreed. He explained that the first set of factors represented strategic structural conditions, the second set represented executional choices, and the third set contained operational drivers operating at different levels such as unit, batch and product levels.</p>
+
+    <p>The board requested a recommendation for cost reduction that would avoid the common mistake of treating every cost increase as a result of excessive spending on individual production units.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_039_1",
+      question: "The increase in product lines, production processes and component variety is most closely associated with which type of cost driver?",
+      options: [
+        "Executional cost driver",
+        "Structural cost driver",
+        "Customer gain",
+        "Resource driver only"
+      ],
+      answer: 2,
+      reason: "Scale, scope, experience, technology and complexity are structural cost-driver factors."
+    },
+    {
+      question_id: "AI_c1_cs_039_2",
+      question: "Poor plant layout and inadequate supplier relationships are best classified as:",
+      options: [
+        "Structural cost drivers",
+        "Executional cost drivers",
+        "Customer pains",
+        "Revenue drivers"
+      ],
+      answer: 2,
+      reason: "Plant layout and supplier/customer linkages are examples of executional cost drivers."
+    },
+    {
+      question_id: "AI_c1_cs_039_3",
+      question: "Which of the following is most appropriately a batch-level operational cost driver?",
+      options: [
+        "Assembly labour hours for one unit",
+        "Number of production setups",
+        "Number of different product lines",
+        "Electricity consumed by a machine per hour"
+      ],
+      answer: 2,
+      reason: "Number of setups is a batch-level driver because setup activities are generally incurred for batches rather than individual units."
+    },
+    {
+      question_id: "AI_c1_cs_039_4",
+      question: "Which of the following is most appropriately associated with the product level?",
+      options: [
+        "Machine hours",
+        "Number of defective units",
+        "Number of engineering change orders",
+        "Kilowatt-hours consumed"
+      ],
+      answer: 3,
+      reason: "Engineering change orders are identified as product-level operational cost drivers."
+    },
+    {
+      question_id: "AI_c1_cs_039_5",
+      question: "Which conclusion would best support strategic cost management in PrecisionCast?",
+      options: [
+        "Cost reduction should focus only on negotiating cheaper materials",
+        "Every cost should be reduced regardless of whether it supports strategic objectives",
+        "Management should identify the underlying structural, executional and operational drivers before deciding how costs should be managed",
+        "Only unit-level costs are strategically relevant"
+      ],
+      answer: 3,
+      reason: "Strategic cost management requires understanding why costs arise through appropriate cost-driver analysis rather than merely cutting individual expenditures."
+    }
+  ]
+},
+{
+  case_id: "AI_c1_cs_040",
+  difficulty: "very hard",
+  case_topic: ["Strategic Positioning", "Cost Leadership", "Differentiation", "Value Chain", "Value Proposition", "Business Model"],
+  case_chapter: "An Introduction to Strategic Cost Management",
+  caseText: `
+    <p><b>NovaRide Mobility</b> operates in a highly competitive electric mobility market. At the time of entering the market, the company considered two broad strategic positions. The first was to become a cost leader by developing highly efficient production processes and maintaining relatively low prices. The second was to differentiate its products through superior software, customer experience, battery management and after-sales service.</p>
+
+    <p>The founders initially attempted to pursue both approaches simultaneously. The company offered low introductory prices while also providing highly customised software, premium customer support, frequent product upgrades and specialised after-sales services. As sales increased, management discovered that the additional features significantly increased operating costs.</p>
+
+    <p>At the same time, competitors introduced lower-priced products with standardised features. Other competitors offered premium products with strong brand positioning and advanced technology. NovaRide found itself unable to match the lowest-cost competitors on price and unable to charge the premium prices commanded by highly differentiated competitors.</p>
+
+    <p>The strategy team therefore performed a value-chain analysis. It discovered that some activities created value from the customer's perspective, while others were costly activities that customers did not consider important. The company also identified opportunities to eliminate certain non-value-added activities while concentrating resources on features that customers valued.</p>
+
+    <p>The management accountant was asked to work with marketing and operations to redefine the company's value proposition. The team identified customer jobs, pains and gains and compared them with the products, services, pain relievers and gain creators offered by NovaRide.</p>
+
+    <p>During the review, the CEO argued that the company should simply try to become "the best at everything" so that it could appeal to every type of customer. The strategy director disagreed and stated that the business needed a clear basis of competition and should decide how it would create value differently from rivals.</p>
+
+    <p>The board also reviewed the company's business model. It considered key partners, key activities, key resources, customer segments, customer relationships, channels, revenue streams and cost structure. Management concluded that changing the value proposition without changing the supporting resources, processes and economic logic could create another strategic mismatch.</p>
+
+    <p>The management accountant was finally asked to explain how strategic positioning, value-chain analysis, the Value Proposition Canvas and the Business Model Canvas should interact in determining the company's future direction.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c1_cs_040_1",
+      question: "NovaRide's initial attempt to simultaneously compete through very low prices and extensive premium features creates the greatest risk of:",
+      options: [
+        "Becoming stuck in the middle without a clear strategic position",
+        "Automatically becoming the cost leader",
+        "Eliminating competitive rivalry",
+        "Creating a monopoly"
+      ],
+      answer: 1,
+      reason: "Trying to pursue conflicting strategic positions without a clear basis of competition can result in being 'stuck in the middle'."
+    },
+    {
+      question_id: "AI_c1_cs_040_2",
+      question: "The company's discovery that some activities consume resources but are not valued by customers should lead management primarily to:",
+      options: [
+        "Increase all activities equally",
+        "Eliminate or reduce non-value-added activities while concentrating resources on value-added activities",
+        "Eliminate all differentiation activities",
+        "Ignore customer preferences"
+      ],
+      answer: 2,
+      reason: "Value-chain analysis identifies value-added and non-value-added activities so that NVA activities can be reduced/eliminated and resources focused on value creation."
+    },
+    {
+      question_id: "AI_c1_cs_040_3",
+      question: "When NovaRide identifies customer jobs, pains and gains, it is constructing which part of the Value Proposition Canvas?",
+      options: [
+        "Value Map",
+        "Customer Profile",
+        "Cost Structure",
+        "Key Resources"
+      ],
+      answer: 2,
+      reason: "The Customer Profile contains customer jobs, pains and gains."
+    },
+    {
+      question_id: "AI_c1_cs_040_4",
+      question: "NovaRide's products and services, pain relievers and gain creators belong to:",
+      options: [
+        "Customer Profile",
+        "Value Map",
+        "Supplier analysis",
+        "PESTEL analysis"
+      ],
+      answer: 2,
+      reason: "The Value Map consists of products/services, pain relievers and gain creators."
+    },
+    {
+      question_id: "AI_c1_cs_040_5",
+      question: "Why is the strategy director correct in saying that changing NovaRide's value proposition without considering resources, processes and economic logic may create a mismatch?",
+      options: [
+        "Because the Business Model Canvas connects the value proposition with key resources, key activities, partners and the economic structure of the business",
+        "Because value propositions are unrelated to business models",
+        "Because customer segments determine all internal activities automatically",
+        "Because a company can never change its business model"
+      ],
+      answer: 1,
+      reason: "The business model explains how the business works and includes the value proposition together with key resources, processes/activities, partners and the profit/cost logic needed to deliver it."
     }
   ]
 }
