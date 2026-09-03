@@ -5180,5 +5180,3494 @@ const AICaseStudies = [
       reason: "An SLA defines service requirements, responsibilities, performance standards and potentially rewards or penalties."
     }
   ]
-}
+},
+// Chapter 3
+
+// ============================================================
+// CHAPTER 23 – LEAN SYSTEM AND INNOVATION
+// 5 MEDIUM + 5 HARD CASE SCENARIOS
+// ============================================================
+
+{
+  case_id: "AI_c23_cs_001",
+  difficulty: "medium",
+  case_topic: ["Lean System", "Seven Wastes", "Value Chain", "Waste Reduction"],
+  case_chapter: "Lean System and Innovation",
+  caseText: `
+    <p><b>Arvind Precision Components Ltd.</b> manufactures precision brackets
+    used by automobile manufacturers. The company has traditionally followed a
+    batch-production approach. Each production department prepares a large
+    quantity of components before transferring them to the next department.
+    Management believes that large batches reduce the average setup cost per
+    unit.</p>
+
+    <p>During a recent review, the operations manager observed that completed
+    components frequently remained outside the machining department for several
+    hours before being moved to inspection. After inspection, accepted
+    components were transported to another building for further processing.
+    Workers regularly walked long distances to collect tools because commonly
+    used tools were not kept near their workstations.</p>
+
+    <p>The production planning department also released production orders based
+    on expected monthly demand rather than actual customer requirements. As a
+    result, certain brackets were produced weeks before customers required
+    them. Some of these finished components remained in the warehouse for long
+    periods, while another product that had an urgent customer order was delayed.</p>
+
+    <p>Quality records showed that defects were generally discovered only after
+    an entire batch had passed through several production operations. When a
+    defect was detected, the company had to inspect and rework a large number
+    of units. Management estimated that considerable time was also lost because
+    workers waited for instructions, materials and machine availability.</p>
+
+    <p>The new operations head proposed adopting lean thinking. He suggested
+    identifying activities that actually create value for customers and removing
+    or reducing activities that do not. He also proposed smaller production
+    batches, better workplace organisation, improved material flow and closer
+    monitoring of customer requirements.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c23_cs_001_1",
+      question: "The production of components weeks before customers require them most directly represents which lean waste?",
+      options: [
+        "Motion",
+        "Overproduction",
+        "Defects",
+        "Transportation"
+      ],
+      answer: 1,
+      reason: "Producing ahead of actual demand is classified as overproduction waste."
+    },
+    {
+      question_id: "AI_c23_cs_001_2",
+      question: "Workers walking long distances to collect commonly used tools represents:",
+      options: [
+        "Motion waste",
+        "Inventory waste",
+        "Over-processing",
+        "Defect waste"
+      ],
+      answer: 0,
+      reason: "Unnecessary movement or walking by employees is motion waste."
+    },
+    {
+      question_id: "AI_c23_cs_001_3",
+      question: "The accumulation of completed components before the next production stage primarily represents:",
+      options: [
+        "Inventory or work-in-process waste",
+        "Customer value",
+        "Prevention activity",
+        "Process innovation"
+      ],
+      answer: 0,
+      reason: "Excess work-in-process inventory is one of the seven wastes identified under lean thinking."
+    },
+    {
+      question_id: "AI_c23_cs_001_4",
+      question: "Why would smaller production batches potentially help Arvind detect quality problems earlier?",
+      options: [
+        "They increase the quantity of defective units produced before detection",
+        "They reduce the number of units produced before a problem can be identified",
+        "They eliminate the need for quality management",
+        "They increase finished-goods inventory"
+      ],
+      answer: 1,
+      reason: "Smaller batches reduce the number of units that may be produced before a defect is identified and corrected."
+    },
+    {
+      question_id: "AI_c23_cs_001_5",
+      question: "The operations head's proposal primarily reflects which fundamental lean principle?",
+      options: [
+        "Maximise every activity regardless of customer value",
+        "Identify value-generating activities and eliminate non-value-added activities",
+        "Increase inventory to protect every department",
+        "Produce mainly according to departmental capacity"
+      ],
+      answer: 1,
+      reason: "Lean thinking focuses on customer value and eliminating non-value-added activities or waste."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_002",
+  difficulty: "medium",
+  case_topic: ["JIT", "Pull System", "Kanban", "Supplier Management"],
+  case_chapter: "Lean System and Innovation",
+  caseText: `
+    <p><b>Vega Auto Systems Ltd.</b> manufactures electrical assemblies for
+    commercial vehicles. Its existing purchasing system requires the company
+    to maintain approximately three weeks of component inventory because
+    purchasing managers believe that high inventory protects production from
+    supplier delays.</p>
+
+    <p>The new production director found that many components were stored for
+    long periods before being used. In some cases, engineering changes made
+    certain components obsolete while they were still in the warehouse.
+    Material handling employees also spent significant time moving components
+    from the central warehouse to individual production departments.</p>
+
+    <p>The director proposed a JIT purchasing system. Under the proposed
+    arrangement, selected suppliers would deliver smaller quantities directly
+    to the production floor at predetermined times. Suppliers would be
+    evaluated not merely on price but also on delivery reliability and quality.</p>
+
+    <p>Vega also planned to establish electronic communication with its major
+    suppliers. Production requirements would be communicated rapidly so that
+    suppliers could respond to actual production requirements rather than
+    simply receiving large periodic purchase orders.</p>
+
+    <p>Within the factory, the production director proposed using Kanban cards.
+    A downstream workstation would signal the preceding workstation when
+    additional components were required. Production would therefore be
+    authorised by actual consumption rather than by an unrestricted forecast.</p>
+
+    <p>The finance manager supported the proposal because warehouse and
+    material-handling costs could fall. However, the supply-chain manager
+    warned that the company would become more dependent on reliable suppliers
+    and accurate information. A single major supplier failure could interrupt
+    production if adequate contingency arrangements were not considered.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c23_cs_002_1",
+      question: "The proposed JIT purchasing arrangement is primarily intended to:",
+      options: [
+        "Increase warehouse inventory",
+        "Receive materials when they are required rather than mainly for stock",
+        "Increase production batch sizes",
+        "Create a buffer between every process"
+      ],
+      answer: 1,
+      reason: "JIT purchasing aims to make receipt and usage of materials coincide as far as possible."
+    },
+    {
+      question_id: "AI_c23_cs_002_2",
+      question: "Under the proposed Kanban arrangement, who initiates the production signal?",
+      options: [
+        "The final supplier irrespective of demand",
+        "The downstream workstation requiring components",
+        "The finance department every month",
+        "The warehouse manager based only on annual forecasts"
+      ],
+      answer: 1,
+      reason: "Kanban is a pull mechanism in which downstream requirements authorise production by preceding stages."
+    },
+    {
+      question_id: "AI_c23_cs_002_3",
+      question: "Why does supplier reliability become particularly important under JIT?",
+      options: [
+        "Large inventories completely protect Vega from delays",
+        "Low inventory leaves less buffer against supplier delays",
+        "JIT eliminates supplier involvement",
+        "JIT requires all suppliers to be replaced"
+      ],
+      answer: 1,
+      reason: "With minimal inventory, delays or quality failures from suppliers can quickly interrupt production."
+    },
+    {
+      question_id: "AI_c23_cs_002_4",
+      question: "Which supplier characteristic should Vega emphasise under JIT?",
+      options: [
+        "Lowest price regardless of quality",
+        "Ability to provide high-quality materials reliably and on time",
+        "Ability to deliver only once every quarter",
+        "Ability to maintain large quantities at Vega's warehouse"
+      ],
+      answer: 1,
+      reason: "JIT requires carefully selected suppliers capable of reliable, timely delivery of quality materials."
+    },
+    {
+      question_id: "AI_c23_cs_002_5",
+      question: "The shift from production based on unrestricted forecasts to actual downstream requirements represents:",
+      options: [
+        "A push system",
+        "A pull system",
+        "A batch inventory system",
+        "A traditional buffer system"
+      ],
+      answer: 1,
+      reason: "A pull system responds to demand and authorises production based on actual downstream requirements."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_003",
+  difficulty: "medium",
+  case_topic: ["Kaizen Costing", "Continuous Improvement", "Cost Reduction"],
+  case_chapter: "Lean System and Innovation",
+  caseText: `
+    <p><b>Sunrise Packaging Ltd.</b> produces specialised cartons for food
+    manufacturers. The company currently uses standard costing. At the
+    beginning of each financial year, the finance department establishes
+    annual standards for material, labour and manufacturing costs. Monthly
+    reports compare actual costs with these predetermined standards.</p>
+
+    <p>The production employees, however, noticed several small sources of
+    waste that were not being addressed. Workers frequently waited for
+    packaging material, some cutting patterns resulted in unnecessary
+    cardboard waste, and certain tools were stored away from the machines
+    where they were frequently required.</p>
+
+    <p>The plant manager proposed introducing Kaizen Costing. Instead of
+    assuming that existing production conditions would remain stable for the
+    entire year, management would establish short-term cost-reduction targets
+    based on actual previous-period performance.</p>
+
+    <p>The manager also wanted workers from production, maintenance, purchasing
+    and quality control to participate in identifying opportunities for
+    improvement. Employees would be encouraged to visit the actual workplace,
+    examine the process and use real operating information rather than
+    relying entirely on reports prepared at head office.</p>
+
+    <p>For example, if the actual production cost of a carton during one month
+    was ₹118, the team might establish a reasonable Kaizen target of ₹116 for
+    the following period. The team would then identify practical changes that
+    could achieve the reduction without compromising customer requirements.</p>
+
+    <p>The finance manager initially argued that the company should simply
+    continue comparing actual costs with the annual standard. The plant
+    manager explained that Kaizen Costing was intended to encourage continuous
+    cost reduction through small and incremental improvements rather than
+    merely controlling costs against a relatively fixed standard.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c23_cs_003_1",
+      question: "Which statement best describes Kaizen Costing in Sunrise's situation?",
+      options: [
+        "A system for maintaining current costs permanently",
+        "A cost reduction system based on small and continuous improvements",
+        "A system concerned only with annual financial reporting",
+        "A method that avoids employee involvement"
+      ],
+      answer: 1,
+      reason: "Kaizen Costing focuses on continuous, small and incremental cost reductions."
+    },
+    {
+      question_id: "AI_c23_cs_003_2",
+      question: "If actual cost is ₹118 and the Kaizen target is ₹116, the immediate Kaizen gap is:",
+      options: [
+        "₹2 favourable",
+        "₹2 reduction required",
+        "₹116",
+        "₹118"
+      ],
+      answer: 1,
+      reason: "The gap between actual cost of ₹118 and target cost of ₹116 is ₹2, representing the reduction required."
+    },
+    {
+      question_id: "AI_c23_cs_003_3",
+      question: "Why is the participation of production and maintenance employees particularly relevant to Kaizen?",
+      options: [
+        "Kaizen targets are intended to be determined only by finance",
+        "Employees close to the process can identify practical improvement opportunities",
+        "Employees are excluded from cost reduction decisions",
+        "Kaizen is concerned only with external suppliers"
+      ],
+      answer: 1,
+      reason: "Kaizen encourages participation from employees across functions because they possess practical process knowledge."
+    },
+    {
+      question_id: "AI_c23_cs_003_4",
+      question: "The manager's proposal to examine the actual workplace reflects which Kaizen principle?",
+      options: [
+        "Go to Gemba",
+        "Single sourcing",
+        "External failure",
+        "Push production"
+      ],
+      answer: 0,
+      reason: "Go to Gemba means going to the real place where value is created and observing the actual process."
+    },
+    {
+      question_id: "AI_c23_cs_003_5",
+      question: "Which sequence correctly represents the basic Kaizen Costing process?",
+      options: [
+        "Set target → ascertain gap → formulate and implement cost reduction plan",
+        "Calculate profit → increase inventory → set annual standard",
+        "Inspect finished goods → calculate warranty → stop improvement",
+        "Set selling price → outsource production → eliminate employees"
+      ],
+      answer: 0,
+      reason: "The Kaizen process involves establishing a cost-reduction goal, identifying the gap and implementing a cost-reduction plan."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_004",
+  difficulty: "medium",
+  case_topic: ["5S", "Sort", "Set in Order", "Shine", "Standardise", "Sustain"],
+  case_chapter: "Lean System and Innovation",
+  caseText: `
+    <p><b>Veritas Consulting LLP</b> has grown rapidly and now maintains a
+    substantial quantity of physical and electronic documents. Employees often
+    spend several minutes searching for client files, old working papers,
+    approval documents and frequently used forms.</p>
+
+    <p>An internal review found that many old files were still kept on desks and
+    in easily accessible cupboards even though they were no longer required.
+    Some files were required but were stored in another location, while
+    frequently used documents were kept in difficult-to-reach cabinets.</p>
+
+    <p>The firm also discovered that different employees followed different
+    naming conventions for electronic folders. Two employees could save
+    documents relating to the same client in completely different locations
+    using completely different names.</p>
+
+    <p>The partners decided to introduce 5S. First, unnecessary files would be
+    identified and removed from active work areas. Items that were required but
+    not immediately needed would be moved to an appropriate storage location.</p>
+
+    <p>Next, necessary files would be arranged according to frequency of use,
+    clearly indexed and labelled. Employees would also be responsible for
+    maintaining clean and orderly work areas. Standard procedures would then be
+    documented so that the new arrangement did not depend upon individual
+    preferences.</p>
+
+    <p>Finally, the firm planned periodic audits, daily monitoring, employee
+    training and visual controls to ensure that the new standards continued to
+    be followed. The partners emphasised that simply cleaning the office once
+    would not constitute successful implementation of 5S.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c23_cs_004_1",
+      question: "Removing unnecessary files from active work areas represents which 5S phase?",
+      options: [
+        "Sort",
+        "Set in Order",
+        "Shine",
+        "Sustain"
+      ],
+      answer: 0,
+      reason: "Sort involves identifying and removing unnecessary items from the workplace."
+    },
+    {
+      question_id: "AI_c23_cs_004_2",
+      question: "Arranging frequently used documents so that they can be retrieved quickly represents:",
+      options: [
+        "Sort",
+        "Set in Order",
+        "Shine",
+        "Sustain"
+      ],
+      answer: 1,
+      reason: "Set in Order involves systematically arranging necessary items for efficient and accessible use."
+    },
+    {
+      question_id: "AI_c23_cs_004_3",
+      question: "Documenting standard procedures so that the new arrangement becomes a common practice represents:",
+      options: [
+        "Shine",
+        "Standardise",
+        "Sort",
+        "Set in Order"
+      ],
+      answer: 1,
+      reason: "Standardise establishes best practices and incorporates them into standard operating procedures."
+    },
+    {
+      question_id: "AI_c23_cs_004_4",
+      question: "Why are periodic audits and continuous training important in the case?",
+      options: [
+        "They are primarily methods of sorting obsolete files",
+        "They help sustain the established 5S standards",
+        "They replace the need for standardisation",
+        "They increase document search time"
+      ],
+      answer: 1,
+      reason: "Sustain requires ongoing monitoring, training, audits and discipline to maintain established standards."
+    },
+    {
+      question_id: "AI_c23_cs_004_5",
+      question: "Which statement best explains why the partners' one-time cleaning exercise would be insufficient?",
+      options: [
+        "5S consists only of cleaning",
+        "5S is a continuous workplace organisation and improvement process",
+        "Cleaning is unrelated to lean systems",
+        "Sustain is performed before sorting"
+      ],
+      answer: 1,
+      reason: "5S requires the new workplace standards to be maintained and continuously followed, not merely established once."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_005",
+  difficulty: "medium",
+  case_topic: ["TPM", "OEE", "Six Big Losses", "Maintenance"],
+  case_chapter: "Lean System and Innovation",
+  caseText: `
+    <p><b>Metro Components Ltd.</b> operates an automated machine for producing
+    high-volume metal components. Management recently noticed that production
+    output was below the level expected from the machine's theoretical
+    capacity.</p>
+
+    <p>During a four-week review, the TPM team identified several different
+    causes. The machine experienced unexpected breakdowns on several
+    occasions. Production was also interrupted whenever the machine had to be
+    adjusted for a new product configuration.</p>
+
+    <p>Even when the machine was technically available, operators reported
+    frequent minor stoppages. The machine also operated below its ideal speed
+    for certain products. Finally, some components had to be scrapped or
+    reworked because they did not meet the required quality specification.</p>
+
+    <p>The plant manager initially believed that the problem was simply
+    insufficient maintenance because of the breakdowns. The TPM team
+    explained that equipment effectiveness must be assessed more broadly.
+    Availability, performance efficiency and quality all contribute to overall
+    equipment effectiveness.</p>
+
+    <p>The company therefore decided to calculate OEE regularly. The maintenance
+    department would concentrate on breakdown prevention, the production team
+    would investigate speed losses and setup losses, and the quality team would
+    analyse defects and rework.</p>
+
+    <p>Management also decided that employees operating the machines should be
+    trained to perform basic cleaning, lubrication, visual inspection and
+    tightening activities rather than relying entirely on specialist maintenance
+    personnel.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c23_cs_005_1",
+      question: "Which measure should Metro use to assess overall equipment effectiveness?",
+      options: [
+        "Customer Lifetime Value",
+        "OEE",
+        "Kaizen Gap",
+        "Process Cycle Efficiency"
+      ],
+      answer: 1,
+      reason: "Overall Equipment Effectiveness (OEE) is the principal measure used for TPM performance."
+    },
+    {
+      question_id: "AI_c23_cs_005_2",
+      question: "Unexpected machine breakdowns primarily affect which OEE component?",
+      options: [
+        "Availability",
+        "Quality",
+        "Customer satisfaction",
+        "Selling price"
+      ],
+      answer: 0,
+      reason: "Equipment failure and breakdown cause time losses and therefore affect availability."
+    },
+    {
+      question_id: "AI_c23_cs_005_3",
+      question: "Operating the machine below its ideal speed represents primarily:",
+      options: [
+        "A quality loss",
+        "A performance or speed loss",
+        "An external failure",
+        "A customer acquisition activity"
+      ],
+      answer: 1,
+      reason: "Reduced speed is one of the six big losses and affects performance efficiency."
+    },
+    {
+      question_id: "AI_c23_cs_005_4",
+      question: "Scrap and rework primarily affect which OEE component?",
+      options: [
+        "Availability",
+        "Performance",
+        "Quality",
+        "Setup"
+      ],
+      answer: 2,
+      reason: "Quality defects and rework are quality losses and affect the quality ratio."
+    },
+    {
+      question_id: "AI_c23_cs_005_5",
+      question: "The operators performing basic cleaning and lubrication are most closely associated with which TPM pillar?",
+      options: [
+        "Autonomous Maintenance",
+        "Early Management",
+        "Office TPM",
+        "Quality Maintenance"
+      ],
+      answer: 0,
+      reason: "Autonomous maintenance involves active employee participation in cleaning, lubrication, inspection and basic equipment care."
+    }
+  ]
+},
+
+// ============================================================
+// HARD CASES
+// ============================================================
+
+{
+  case_id: "AI_c23_cs_006",
+  difficulty: "hard",
+  case_topic: ["JIT", "Takt Time", "Process Cycle Efficiency", "Pull System", "Supplier Risk"],
+  case_chapter: "Lean System and Innovation",
+  caseText: `
+    <p><b>Omega Industrial Motors Ltd.</b> manufactures specialised electric
+    motors for industrial customers. The company currently follows a
+    traditional production system in which materials are purchased in large
+    quantities and finished goods are produced ahead of expected customer
+    demand.</p>
+
+    <p>A recent process study showed that a typical motor required 240 minutes
+    from the beginning of the production cycle until it became ready for
+    dispatch. Of this, only 72 minutes represented actual processing activity.
+    The remaining time consisted mainly of inspection, storage and movement
+    between departments.</p>
+
+    <p>Omega received a confirmed order for 12 motors. The factory has 600
+    minutes available during the relevant production period, but 60 minutes
+    are reserved for planned cleaning and shutdown activities. Management
+    therefore wants production to be synchronised with customer demand rather
+    than producing a large quantity for inventory.</p>
+
+    <p>The production director proposes introducing JIT and a single-piece-flow
+    approach. Under the new arrangement, suppliers would deliver materials in
+    small quantities directly to the relevant production areas. A Kanban signal
+    would authorise upstream production according to downstream consumption.</p>
+
+    <p>However, the purchasing manager warns that two of Omega's important
+    suppliers have historically experienced inconsistent delivery performance.
+    The company also has a limited IT system that does not provide real-time
+    production information. The maintenance department has recently reported
+    several unexpected machine stoppages.</p>
+
+    <p>The chief accountant therefore argues that the improvement in process
+    efficiency alone should not be treated as sufficient evidence for immediate
+    implementation. Supplier reliability, preventive maintenance, information
+    systems, quality performance and the ability to respond to demand must also
+    be evaluated before the company eliminates its inventory buffers.</p>
+
+    <p>The production team nevertheless believes that the proposed system could
+    substantially reduce storage, movement and waiting while allowing Omega to
+    respond more quickly to actual customer requirements.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c23_cs_006_1",
+      question: "Based on the facts, what is Omega's current Process Cycle Efficiency?",
+      options: [
+        "20%",
+        "30%",
+        "40%",
+        "72%"
+      ],
+      answer: 1,
+      reason: "Process Cycle Efficiency = Value Added Time / Cycle Time × 100 = 72/240 × 100 = 30%."
+    },
+    {
+      question_id: "AI_c23_cs_006_2",
+      question: "What is Omega's takt time for the confirmed order?",
+      options: [
+        "40 minutes",
+        "45 minutes",
+        "50 minutes",
+        "60 minutes"
+      ],
+      answer: 1,
+      reason: "Available production time = 600 − 60 = 540 minutes. Takt time = 540/12 = 45 minutes per motor."
+    },
+    {
+      question_id: "AI_c23_cs_006_3",
+      question: "Which combination creates the greatest implementation concern for Omega's proposed JIT system?",
+      options: [
+        "Reliable suppliers, preventive maintenance and accurate information",
+        "Unreliable suppliers, weak information systems and unexpected machine stoppages",
+        "Low inventory, good quality and predictable demand",
+        "Short setup times, skilled workers and defect-free materials"
+      ],
+      answer: 1,
+      reason: "JIT depends heavily on supplier reliability, efficient information systems and dependable equipment. The case shows weaknesses in all three."
+    },
+    {
+      question_id: "AI_c23_cs_006_4",
+      question: "Why would Kanban be appropriate for Omega's proposed production arrangement?",
+      options: [
+        "It authorises upstream production based on downstream requirements",
+        "It requires production entirely from annual forecasts",
+        "It encourages unrestricted WIP accumulation",
+        "It is primarily an accounting document for supplier invoices"
+      ],
+      answer: 0,
+      reason: "Kanban is a pull mechanism in which downstream requirements trigger upstream production."
+    },
+    {
+      question_id: "AI_c23_cs_006_5",
+      question: "Which conclusion is most appropriate for management?",
+      options: [
+        "Implement JIT immediately because PCE is the only relevant factor",
+        "Reject JIT permanently because inventory is always necessary",
+        "Evaluate supplier reliability, maintenance, quality, IT and demand conditions before full implementation",
+        "Implement JIT only by increasing inventory levels"
+      ],
+      answer: 2,
+      reason: "JIT can provide major benefits, but successful implementation requires reliable suppliers, efficient information systems, quality, maintenance and appropriate demand conditions."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_007",
+  difficulty: "hard",
+  case_topic: ["Back-flushing", "JIT", "Inventory Accuracy", "Scrap Reporting", "Lot Tracing"],
+  case_chapter: "Lean System and Innovation",
+  caseText: `
+    <p><b>Zenith Electronics Ltd.</b> has implemented a JIT production system for
+    a high-volume electronic product. Because the number of daily component
+    transactions is extremely high, the company decided to use a back-flushing
+    system for inventory accounting.</p>
+
+    <p>Under the system, production staff do not enter every individual material
+    movement into the accounting system. Instead, once finished products are
+    completed, the total quantity produced is entered. The computer system then
+    uses the bill of materials to calculate the quantity of components that
+    should have been consumed and adjusts the inventory records accordingly.</p>
+
+    <p>The system initially appeared efficient. However, the internal audit team
+    discovered that employees on one shift occasionally entered incorrect
+    production quantities. In addition, abnormal scrap generated during
+    production was not always recorded immediately. As a result, the quantity
+    of components theoretically consumed differed from the quantity actually
+    used.</p>
+
+    <p>The company also manufactures a product containing a safety-critical
+    electronic component. A particular component lot may need to be traced if
+    a supplier later informs Zenith about a potential defect. The quality
+    department discovered that ordinary back-flushing records did not identify
+    exactly which supplier lot had been incorporated into each finished
+    product.</p>
+
+    <p>The warehouse manager further observed that inventory records were
+    sometimes higher than the physical quantities available. The accounting
+    department argued that the system was designed to reduce transaction
+    processing and therefore should not be abandoned simply because employees
+    made occasional reporting errors.</p>
+
+    <p>The operations director disagreed. He stated that back-flushing could
+    work effectively only if production and abnormal scrap reporting were
+    sufficiently accurate. He also suggested that a separate picking
+    transaction might be retained for safety-critical components where lot
+    tracing was essential.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c23_cs_007_1",
+      question: "Why is accurate production reporting particularly important under Zenith's back-flushing system?",
+      options: [
+        "The system calculates component consumption from recorded finished production",
+        "Back-flushing does not use the bill of materials",
+        "Production reporting has no effect on inventory",
+        "Only suppliers determine inventory balances"
+      ],
+      answer: 0,
+      reason: "Back-flushing uses finished production quantities and the bill of materials to determine theoretical component consumption."
+    },
+    {
+      question_id: "AI_c23_cs_007_2",
+      question: "What is the likely consequence of failing to record abnormal scrap?",
+      options: [
+        "The system automatically identifies every scrap item",
+        "Inventory consumption may be understated and inventory records become inaccurate",
+        "Lot tracing becomes easier",
+        "Production quantities automatically become correct"
+      ],
+      answer: 1,
+      reason: "Unrecorded abnormal scrap falls outside the expected back-flushing calculation and can make inventory records inaccurate."
+    },
+    {
+      question_id: "AI_c23_cs_007_3",
+      question: "Why is ordinary back-flushing problematic for Zenith's safety-critical component?",
+      options: [
+        "It always increases supplier prices",
+        "It generally cannot provide adequate lot tracing",
+        "It prevents production from taking place",
+        "It requires excessive warehouse inventory"
+      ],
+      answer: 1,
+      reason: "A major limitation of back-flushing is that lot tracing is generally impossible unless additional picking or tracing functionality is retained."
+    },
+    {
+      question_id: "AI_c23_cs_007_4",
+      question: "The situation described as inaccurate information producing inaccurate inventory records illustrates which principle?",
+      options: [
+        "Zero inventory automatically ensures accuracy",
+        "Garbage in, garbage out",
+        "Higher inventory always improves quality",
+        "Pull systems eliminate data requirements"
+      ],
+      answer: 1,
+      reason: "Back-flushing is highly dependent on accurate input information; inaccurate production or scrap data leads to inaccurate inventory records."
+    },
+    {
+      question_id: "AI_c23_cs_007_5",
+      question: "Which approach is most appropriate for Zenith?",
+      options: [
+        "Abandon all back-flushing regardless of transaction volume",
+        "Continue back-flushing without correcting reporting weaknesses",
+        "Improve employee reporting accuracy and retain additional lot-tracing transactions where required",
+        "Increase warehouse inventory instead of improving records"
+      ],
+      answer: 2,
+      reason: "Back-flushing can be useful in high-volume JIT environments, but accurate reporting is essential and additional picking transactions may be necessary for lot tracing."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_008",
+  difficulty: "hard",
+  case_topic: ["Six Sigma", "DMAIC", "DMADV", "Customer Requirements", "Data Analysis"],
+  case_chapter: "Lean System and Innovation",
+  caseText: `
+    <p><b>NovaBank Digital Services</b> has been receiving complaints about the
+    time required to complete certain existing loan-processing activities.
+    Customers complain that applications sometimes remain pending for several
+    days even though the bank has already received most of the required
+    information.</p>
+
+    <p>The bank's operations head initially suggested creating an entirely new
+    loan-processing platform. However, the quality team investigated the
+    problem and discovered that the existing platform was generally capable of
+    processing applications. The major issues appeared to be duplicated data
+    entry, unnecessary approval stages, inconsistent classification of
+    applications and delays in transferring information between departments.</p>
+
+    <p>The bank decided that before changing the system, it should clearly define
+    the customer problem. It collected customer complaints and identified
+    processing time as one of the factors having the greatest impact on
+    satisfaction.</p>
+
+    <p>The bank then began collecting quantitative information about processing
+    times at different stages. The data was divided into categories so that
+    management could determine where delays were concentrated. Analysts found
+    that a large proportion of delays occurred after applications were manually
+    transferred between two departments.</p>
+
+    <p>The improvement team proposed eliminating duplicate data entry,
+    redesigning the transfer procedure and introducing automated validation.
+    After implementation, performance would be monitored regularly. If the
+    desired performance was not sustained, the process would be investigated
+    again.</p>
+
+    <p>Separately, NovaBank was considering launching a completely new
+    real-time loan product for customers whose applications could be approved
+    using a new technology platform. The technology, customer behaviour and
+    competitive environment were all expected to change substantially during
+    development.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c23_cs_008_1",
+      question: "Which Six Sigma methodology is most appropriate for improving NovaBank's existing loan-processing process?",
+      options: [
+        "DMADV",
+        "DMAIC",
+        "5S",
+        "TPM"
+      ],
+      answer: 1,
+      reason: "DMAIC is designed to improve existing business processes."
+    },
+    {
+      question_id: "AI_c23_cs_008_2",
+      question: "The bank's initial activity of identifying processing time as a major customer concern corresponds to which DMAIC phase?",
+      options: [
+        "Define",
+        "Measure",
+        "Improve",
+        "Control"
+      ],
+      answer: 0,
+      reason: "Define establishes the problem, objectives and customer requirements."
+    },
+    {
+      question_id: "AI_c23_cs_008_3",
+      question: "Collecting quantitative information about processing times belongs primarily to:",
+      options: [
+        "Define",
+        "Measure",
+        "Improve",
+        "Control"
+      ],
+      answer: 1,
+      reason: "Measure involves collecting quantitative data to establish existing process performance."
+    },
+    {
+      question_id: "AI_c23_cs_008_4",
+      question: "Identifying that manual transfers between departments cause a large proportion of delays primarily represents:",
+      options: [
+        "Analyse",
+        "Define",
+        "Control",
+        "Sustain"
+      ],
+      answer: 0,
+      reason: "Analyse is concerned with identifying causes and determining the root causes of process problems."
+    },
+    {
+      question_id: "AI_c23_cs_008_5",
+      question: "Which methodology is more appropriate for the proposed completely new real-time loan product?",
+      options: [
+        "DMAIC",
+        "DMADV",
+        "5S",
+        "Back-flushing"
+      ],
+      answer: 1,
+      reason: "DMADV is intended for designing new products or processes, particularly where customer behaviour, competitors or technology are changing."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_009",
+  difficulty: "hard",
+  case_topic: ["Cellular Manufacturing", "One-Piece Flow", "Production Flow Analysis", "Machine-Part Grouping"],
+  case_chapter: "Lean System and Innovation",
+  caseText: `
+    <p><b>Trident Engineering Works</b> manufactures several families of
+    precision components. Its current factory layout is organised by machine
+    type. All drilling machines are located in one area, all milling machines
+    in another and all finishing equipment in a third area.</p>
+
+    <p>A typical component may therefore travel repeatedly across the factory
+    during production. After drilling, it may be moved to milling, then sent
+    back near the drilling area for another operation and finally transported
+    to finishing. The production manager believes that the arrangement
+    provides high utilisation of individual machines, but the quality manager
+    has noticed significant work-in-process inventory between departments.</p>
+
+    <p>When a defect is identified at a downstream operation, several additional
+    units may already have been produced by the upstream machine. This makes
+    tracing the source of problems difficult and increases rework and scrap.</p>
+
+    <p>The operations director proposes cellular manufacturing. Before creating
+    the cells, the engineering team would group components into families based
+    on similarities in design or manufacturing requirements. Production flow
+    analysis would then be performed to determine which machines should be
+    grouped together.</p>
+
+    <p>For one component family, management is considering a U-shaped cell
+    containing drilling, milling and finishing machines. A trained operator
+    would move the component through the cell rather than sending large
+    batches between distant departments.</p>
+
+    <p>However, the demand for one component family has recently fallen
+    significantly. The operations director therefore warns that the cell may
+    need to be reconfigured. Such changes could be costly if demand patterns
+    continue to fluctuate.</p>
+
+    <p>The finance department also points out that creating cells requires an
+    analysis of machine locations, material movement, labour requirements and
+    production volumes. Management therefore wants to determine whether the
+    expected reduction in flow time, inventory and material handling justifies
+    the transition cost.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c23_cs_009_1",
+      question: "What is the principal reason for grouping machines into a cell in Trident's situation?",
+      options: [
+        "To increase movement between departments",
+        "To create a focused flow for a family of similar components",
+        "To increase work-in-process inventory",
+        "To separate every operation completely"
+      ],
+      answer: 1,
+      reason: "Cellular manufacturing groups machines required for a family of parts to create shorter and more focused production flows."
+    },
+    {
+      question_id: "AI_c23_cs_009_2",
+      question: "Why would one-piece flow help Trident identify defects earlier?",
+      options: [
+        "Large batches hide defects for longer periods",
+        "Parts move through the cell with minimal WIP accumulation",
+        "Defects are automatically eliminated by machine cells",
+        "One-piece flow increases warehouse inventory"
+      ],
+      answer: 1,
+      reason: "Low WIP and close process integration allow defects to be detected quickly before large quantities are produced."
+    },
+    {
+      question_id: "AI_c23_cs_009_3",
+      question: "Which analysis should Trident perform before designing cells for component families?",
+      options: [
+        "Customer Lifetime Value",
+        "Production Flow Analysis",
+        "External failure analysis",
+        "Warranty analysis"
+      ],
+      answer: 1,
+      reason: "Production Flow Analysis is used to examine manufacturing families and determine appropriate machine groupings."
+    },
+    {
+      question_id: "AI_c23_cs_009_4",
+      question: "Which grouping approach simultaneously forms part families and machine cells?",
+      options: [
+        "Part family grouping",
+        "Machine grouping",
+        "Machine-part grouping",
+        "Departmental grouping"
+      ],
+      answer: 2,
+      reason: "Machine-part grouping forms part families and machine cells simultaneously and is considered particularly significant."
+    },
+    {
+      question_id: "AI_c23_cs_009_5",
+      question: "What limitation of cellular manufacturing is highlighted by the fall in demand for one component family?",
+      options: [
+        "Cells can never be changed",
+        "Cells may require costly realignment when demand or required quantity changes",
+        "Cells always increase material handling",
+        "Cells eliminate production flexibility in every situation"
+      ],
+      answer: 1,
+      reason: "A limitation of cellular manufacturing is that cells may need costly reconfiguration when demand patterns or required volumes change."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_010",
+  difficulty: "hard",
+  case_topic: ["Lean Six Sigma", "Process Innovation", "DMAIC", "DMADV", "Lean System"],
+  case_chapter: "Lean System and Innovation",
+  caseText: `
+    <p><b>FutureMed Instruments Ltd.</b> manufactures hospital diagnostic
+    equipment. The company has historically focused on reducing production
+    costs by eliminating unnecessary movement, excessive inventory and
+    waiting time. Its lean programme has already introduced manufacturing
+    cells, smaller batch sizes and improved workplace organisation.</p>
+
+    <p>Despite these improvements, customer complaints about inconsistent
+    product performance continued. The quality department discovered that the
+    process contained substantial variation. Different production shifts
+    followed slightly different methods, and some defects were discovered only
+    during final testing.</p>
+
+    <p>The chief operating officer proposed combining lean techniques with Six
+    Sigma. The lean team would continue removing activities that did not create
+    customer value, while the Six Sigma team would use statistical data to
+    identify and reduce variation and defects.</p>
+
+    <p>For an existing diagnostic device, the team planned to first define the
+    customer requirements and the defect problem. It would then measure
+    performance across different shifts, analyse the causes of variation,
+    implement improvements and establish controls to prevent the problem from
+    returning.</p>
+
+    <p>At the same time, FutureMed was developing an entirely new generation of
+    diagnostic equipment using a technology that had not previously been used
+    by the company. Customer expectations were changing rapidly and competitors
+    were introducing new features. Management wanted customer requirements to
+    influence the design of the product and its production process from the
+    beginning.</p>
+
+    <p>The finance director asked whether the same Six Sigma methodology should
+    be used for both projects. The quality head explained that although both
+    methodologies use customer requirements and Six Sigma quality tools, the
+    nature of the two projects was different.</p>
+
+    <p>The quality head also warned management that Six Sigma should not be
+    treated as a universal solution. It can require substantial infrastructure,
+    may be complicated for some tasks, may not suit intangible results and
+    not every product necessarily requires the same extremely stringent level
+    of quality performance.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c23_cs_010_1",
+      question: "Why is Lean Six Sigma potentially more suitable for FutureMed than using Lean alone?",
+      options: [
+        "Lean removes waste while Six Sigma can address process variation and defects",
+        "Six Sigma eliminates the need for process improvement",
+        "Lean focuses only on accounting",
+        "Six Sigma is used only for inventory management"
+      ],
+      answer: 0,
+      reason: "Lean focuses strongly on waste and flow, while Six Sigma provides a data-driven approach to reducing variation and defects."
+    },
+    {
+      question_id: "AI_c23_cs_010_2",
+      question: "Which methodology should be used for the existing diagnostic device with known process problems?",
+      options: [
+        "DMAIC",
+        "DMADV",
+        "5S only",
+        "Process Innovation only"
+      ],
+      answer: 0,
+      reason: "DMAIC is used to improve existing processes by defining, measuring, analysing, improving and controlling them."
+    },
+    {
+      question_id: "AI_c23_cs_010_3",
+      question: "Which methodology is more appropriate for the completely new diagnostic equipment?",
+      options: [
+        "DMAIC",
+        "DMADV",
+        "Back-flushing",
+        "Autonomous Maintenance"
+      ],
+      answer: 1,
+      reason: "DMADV is designed for developing new products or processes to achieve high-quality performance from the design stage."
+    },
+    {
+      question_id: "AI_c23_cs_010_4",
+      question: "Why would DMADV be particularly relevant when customer expectations and technology are changing rapidly?",
+      options: [
+        "DMADV is intended only for stable existing processes",
+        "DMADV is proactive and suitable for new designs where customer, competitor or technology conditions are changing",
+        "DMADV ignores customer requirements",
+        "DMADV is used only after final inspection"
+      ],
+      answer: 1,
+      reason: "DMADV is a proactive design methodology suited to new products/processes, especially where technology, customers or competitors are changing."
+    },
+    {
+      question_id: "AI_c23_cs_010_5",
+      question: "Which limitation of Six Sigma is specifically reflected in the quality head's warning?",
+      options: [
+        "Six Sigma can be applied without infrastructure",
+        "Six Sigma is always appropriate regardless of the product",
+        "Six Sigma may require substantial infrastructure and may not suit every type of result or process",
+        "Six Sigma does not use data"
+      ],
+      answer: 2,
+      reason: "The chapter identifies substantial infrastructure requirements, complexity, limitations with intangible results and the fact that not every product needs Six Sigma standards."
+    }
+  ]
+},
+
+// ============================================================
+// CHAPTER 23 — LEAN SYSTEM AND INNOVATION
+// 5 MEDIUM + 5 HARD CASE STUDIES
+// ============================================================
+
+{
+  case_id: "AI_c23_cs_001",
+  difficulty: "medium",
+  case_chapter: "Lean System and Innovation",
+  case_topic: ["Lean System", "Seven Wastes", "5S", "Kaizen", "Continuous Improvement"],
+  caseText: `<p>Nova Precision Components Limited manufactures precision brackets and mounting assemblies used by automobile manufacturers. For several years, the company had maintained a relatively stable production volume and relied on large production batches. The production manager believed that running machines for long periods without changing settings was efficient because setup time could be avoided. Accordingly, the company frequently produced substantially more components than were immediately required by the assembly department.</p>
+
+  <p>Over time, the factory floor became crowded with finished components and semi-finished work-in-progress. Operators regularly moved pallets from one side of the factory to another because the next production operation was located in a different section. Some components remained in temporary storage for several days before being processed. Employees also spent considerable time searching for gauges, tools and drawings. Although these activities had become routine, a review conducted by the newly appointed lean manager showed that much of the activity did not increase the value perceived by customers.</p>
+
+  <p>The lean manager therefore asked each department to map the movement of a typical component from receipt of raw material to final dispatch. During the exercise, employees identified several instances where products were waiting for the next operation, unnecessary transportation between departments and excessive movement by operators. They also found that certain batches were being inspected, reworked and moved repeatedly because defects were discovered only after several production stages had been completed.</p>
+
+  <p>Instead of immediately purchasing new machines, management decided to introduce workplace organisation. Unused fixtures, obsolete tools and broken equipment were identified and removed. Items that were required only occasionally were shifted to designated storage locations. Frequently used tools were placed close to operators and clearly labelled. Cleaning responsibilities were allocated to individual work areas, and employees were instructed to inspect machines while cleaning them.</p>
+
+  <p>The company then introduced short weekly improvement meetings. Employees were encouraged to identify small problems affecting quality, movement, waiting time or material flow. Management deliberately avoided setting a requirement that every suggestion had to involve a major investment. One team, for example, changed the location of a frequently used measuring instrument and reduced unnecessary walking by operators. Another team changed the sequence in which components were presented to the next operation.</p>
+
+  <p>After six months, management observed that inventory levels had fallen, the factory floor was easier to supervise and employees were identifying production abnormalities much earlier. The lean manager emphasised that the objective was not merely to make the factory cleaner but to continuously remove activities that did not contribute to customer value.</p>`,
+
+  questions: [
+    {
+      question_id: "AI_c23_cs_001_1",
+      question: "The production manager's decision to manufacture substantially more components than immediately required most directly represents which type of waste?",
+      options: [
+        "Waiting",
+        "Overproduction",
+        "Motion",
+        "Defects"
+      ],
+      answer: 1,
+      reason: "Producing ahead of actual demand creates excess output and is classified as overproduction. Waiting concerns products remaining idle before the next operation, while motion concerns unnecessary movement of people or equipment."
+    },
+    {
+      question_id: "AI_c23_cs_001_2",
+      question: "When operators repeatedly searched for gauges and tools before beginning their work, which lean waste was primarily being experienced?",
+      options: [
+        "Motion",
+        "Transportation",
+        "Overproduction",
+        "Inventory"
+      ],
+      answer: 0,
+      reason: "Unnecessary movement of employees in searching for tools is motion waste. Transportation relates to unnecessary movement of products or materials."
+    },
+    {
+      question_id: "AI_c23_cs_001_3",
+      question: "The removal of obsolete tools and broken equipment from the workplace most closely corresponds to which 5S activity?",
+      options: [
+        "Set in Order",
+        "Shine",
+        "Sort",
+        "Sustain"
+      ],
+      answer: 2,
+      reason: "Sort involves identifying and removing items that are not required. Set in Order deals with arranging required items systematically, while Shine focuses on cleanliness and inspection."
+    },
+    {
+      question_id: "AI_c23_cs_001_4",
+      question: "The weekly improvement meetings primarily reflect which feature of Kaizen?",
+      options: [
+        "One-time radical restructuring",
+        "Continuous small improvements involving employees",
+        "Replacement of all existing machinery",
+        "Centralised improvement by the finance department"
+      ],
+      answer: 1,
+      reason: "Kaizen focuses on continuous, incremental improvements and encourages participation across organisational levels rather than depending exclusively on major capital expenditure."
+    },
+    {
+      question_id: "AI_c23_cs_001_5",
+      question: "Why did the lean manager consider the reduction of unnecessary movement and waiting important even though customers did not directly observe these activities?",
+      options: [
+        "They automatically increase selling prices",
+        "They are non-value-added activities that consume resources without creating customer value",
+        "They are required under Six Sigma",
+        "They increase finished goods inventory"
+      ],
+      answer: 1,
+      reason: "Lean thinking seeks to maximise customer value by identifying and eliminating non-value-added activities and waste throughout the value chain."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_002",
+  difficulty: "medium",
+  case_chapter: "Lean System and Innovation",
+  case_topic: ["JIT", "Kanban", "Cellular Manufacturing", "Multi-skilled Workforce"],
+  caseText: `<p>Orbit Electrical Systems Limited manufactures control modules used in industrial equipment. The company traditionally operated under a push production system. The production planning department prepared monthly schedules, and each department produced components according to those schedules even when the downstream department had not yet consumed its existing stock. As a result, large quantities of work-in-progress accumulated between machining, assembly and testing.</p>
+
+  <p>A review of the production process showed that the machining department frequently produced thousands of connectors because its machines had long setup times. However, the assembly department often required only a few hundred connectors at a time. When engineering changes were introduced, some of the connectors already produced became unusable. Management realised that the apparent efficiency obtained from long production runs was creating inventory, obsolescence and handling costs elsewhere in the organisation.</p>
+
+  <p>The company decided to introduce a pull-based system. Under the proposed arrangement, the assembly department would communicate its actual requirement to machining. A physical authorisation card would be sent upstream whenever additional connectors were required. Machining would produce only the quantity authorised by that signal. The production team was specifically instructed not to manufacture additional units merely because machine capacity was available.</p>
+
+  <p>At the same time, Orbit reorganised several machines into small manufacturing cells. A trained operator was assigned responsibility for moving components through multiple machines within the cell. Previously, each worker had operated only one machine and was primarily concerned with completing the output assigned to that machine. Under the new arrangement, employees were trained to operate several machines, identify defects and perform limited routine maintenance.</p>
+
+  <p>Management also reduced machine setup times so that smaller batches could be economically produced. Employees were authorised to stop a machine when a quality problem was detected rather than allowing defective output to continue through the process. The plant manager explained that stopping production temporarily could sometimes be preferable to creating a larger quantity of defective work that would later require inspection and rework.</p>
+
+  <p>After implementation, work-in-progress decreased substantially. Operators also reported that defects became easier to identify because components no longer travelled through long sequences of unrelated departments before problems were detected. However, management recognised that the system depended heavily on reliable suppliers, accurate information and trained employees. A shortage of critical components could disrupt the entire production flow because the company was deliberately holding less inventory as a buffer.</p>`,
+
+  questions: [
+    {
+      question_id: "AI_c23_cs_002_1",
+      question: "The authorisation card sent by assembly to machining is most consistent with which JIT mechanism?",
+      options: [
+        "Standard costing",
+        "Kanban",
+        "Backflush accounting",
+        "Value engineering"
+      ],
+      answer: 1,
+      reason: "Kanban uses a downstream signal or card to authorise an upstream process to produce only the required quantity, thereby supporting a pull system."
+    },
+    {
+      question_id: "AI_c23_cs_002_2",
+      question: "Why was reducing machine setup time particularly important to Orbit after adopting the new system?",
+      options: [
+        "It permits smaller batches without making production economically impractical",
+        "It increases the amount of safety inventory required",
+        "It eliminates the need for quality control",
+        "It allows the company to return to push production"
+      ],
+      answer: 0,
+      reason: "JIT production seeks smaller batches and reduced setup time makes frequent changeovers more practical."
+    },
+    {
+      question_id: "AI_c23_cs_002_3",
+      question: "The operator moving components through several machines within a small group of machines illustrates:",
+      options: [
+        "Cellular manufacturing",
+        "Over-processing",
+        "Traditional functional layout",
+        "Batch costing"
+      ],
+      answer: 0,
+      reason: "Cellular manufacturing groups machines into a small cell through which an operator can move the product, improving flow and visibility."
+    },
+    {
+      question_id: "AI_c23_cs_002_4",
+      question: "The decision to allow operators to stop the machine when a defect is identified primarily reflects which JIT/lean principle?",
+      options: [
+        "Produce more than demand to protect utilisation",
+        "Do it right first time and prevent defects from moving downstream",
+        "Increase inventory before inspection",
+        "Maximise batch size"
+      ],
+      answer: 1,
+      reason: "Lean emphasises first-time quality and immediate problem resolution rather than allowing defects to flow into subsequent operations."
+    },
+    {
+      question_id: "AI_c23_cs_002_5",
+      question: "What is the major risk created by Orbit's reduction in inventory buffers?",
+      options: [
+        "Higher unnecessary storage cost",
+        "Greater exposure to supply-chain disruptions",
+        "More overproduction automatically",
+        "Elimination of employee responsibility"
+      ],
+      answer: 1,
+      reason: "JIT reduces inventory but therefore exposes the organisation more directly to supplier delays, quality failures and other supply-chain disruptions."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_003",
+  difficulty: "medium",
+  case_chapter: "Lean System and Innovation",
+  case_topic: ["Kaizen Costing", "Standard Costing", "Target Setting", "Employee Participation"],
+  caseText: `<p>Zenith Packaging Limited manufactures specialised packaging materials for pharmaceutical companies. The company had historically relied on standard costing. At the beginning of each six-month period, the finance department prepared budgets and operating standards based on expected material prices, labour rates and production volumes. Once approved by the Board, these standards remained largely unchanged until the next budgeting cycle. Monthly variance reports were circulated to senior management showing differences between actual costs and predetermined standards.</p>
+
+  <p>The system had worked reasonably well when product specifications and customer requirements were relatively stable. However, competitive pressure increased significantly. Customers began demanding lower prices while competitors introduced lighter packaging that required less material. Zenith's production employees regularly identified small opportunities to reduce material consumption, setup time and wastage, but these suggestions were generally considered during the next budgeting cycle rather than implemented immediately.</p>
+
+  <p>The newly appointed CEO proposed adopting Kaizen costing. He explained that the objective should not simply be to determine whether actual costs were within an existing standard. Instead, the company should establish a realistic cost-reduction target for the coming period and encourage employees to identify ways of achieving that target.</p>
+
+  <p>For example, one production team observed that the cutting process generated 8% waste. Instead of replacing the entire cutting machine, employees experimented with small changes in cutting sequence and material positioning. The team reduced waste to 7.4%. Another group redesigned the method of transferring partially completed rolls between two machines and reduced handling time.</p>
+
+  <p>The finance manager initially argued that frequent changes to targets would make financial control difficult. The CEO responded that Kaizen costing was not intended to abandon measurement. Rather, the organisation would continue to compare actual performance with the current improvement target and investigate why the target had or had not been achieved.</p>
+
+  <p>Zenith also changed the target-setting process. Employees and supervisors were asked to participate in determining feasible improvement targets. Actual prior-period results became an important starting point, and teams were expected to propose practical improvements rather than simply receive targets imposed by the finance department. Management believed that employees closest to the process could identify waste that might not be visible from monthly financial reports.</p>`,
+
+  questions: [
+    {
+      question_id: "AI_c23_cs_003_1",
+      question: "Which feature most clearly distinguishes Zenith's proposed Kaizen costing system from its previous standard costing approach?",
+      options: [
+        "Comparison of actual results with predetermined standards",
+        "Continuous cost reduction through incremental improvements",
+        "Use of financial information",
+        "Preparation of budgets"
+      ],
+      answer: 1,
+      reason: "Kaizen costing focuses on continuous reduction of actual costs through small improvements, whereas traditional standard costing primarily focuses on cost control against established standards."
+    },
+    {
+      question_id: "AI_c23_cs_003_2",
+      question: "The cutting team's reduction of waste from 8% to 7.4% without replacing the machine is an example of:",
+      options: [
+        "Radical business process re-engineering",
+        "Kaizen improvement",
+        "Overproduction",
+        "Process abandonment"
+      ],
+      answer: 1,
+      reason: "The improvement is small, incremental and achieved through changes in working methods rather than a radical restructuring."
+    },
+    {
+      question_id: "AI_c23_cs_003_3",
+      question: "Why did the CEO consider employee participation important in target setting?",
+      options: [
+        "Employees must approve all financial statements",
+        "Employees close to the process can identify practical sources of waste and improvement",
+        "It eliminates the need for management",
+        "It prevents the use of quantitative targets"
+      ],
+      answer: 1,
+      reason: "Kaizen encourages bottom-up participation because employees working directly with processes are often best positioned to identify small improvement opportunities."
+    },
+    {
+      question_id: "AI_c23_cs_003_4",
+      question: "If management investigates why the team failed to achieve a monthly Kaizen target, the primary purpose is to:",
+      options: [
+        "Abandon the target permanently",
+        "Understand the reasons for the gap and formulate corrective improvement actions",
+        "Increase inventory automatically",
+        "Replace Kaizen with traditional budgeting"
+      ],
+      answer: 1,
+      reason: "Kaizen costing uses the gap between actual performance and the improvement target to understand causes and encourage further cost reduction."
+    },
+    {
+      question_id: "AI_c23_cs_003_5",
+      question: "Which statement best describes the underlying philosophy reflected in Zenith's approach?",
+      options: [
+        "Once a standard is achieved, no further improvement is required",
+        "Cost reduction is possible only through major capital investment",
+        "There is no final point at which improvement opportunities disappear",
+        "Only finance personnel can identify operational waste"
+      ],
+      answer: 2,
+      reason: "Kaizen is based on the premise that continuous improvement is always possible and that employees across the organisation can contribute."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_004",
+  difficulty: "medium",
+  case_chapter: "Lean System and Innovation",
+  case_topic: ["TPM", "OEE", "Six Big Losses", "Maintenance"],
+  caseText: `<p>Metro Components operates a machining centre used continuously for producing precision shafts. Management had historically evaluated the machine primarily on the basis of the number of units produced per shift. When production fell below the expected quantity, the production manager generally instructed operators to increase machine speed during the remaining available time.</p>
+
+  <p>A TPM team was formed after management noticed that production quantity alone was not explaining the machine's performance. The team began recording planned production time, breakdowns, setup time, minor stoppages, actual production, rejected units and the ideal cycle time of the machine.</p>
+
+  <p>During one representative shift, the machine was scheduled to operate for 600 minutes. The machine experienced 36 minutes of unplanned downtime. During the remaining operating time, 3,360 units were produced. Of these, 75 units were rejected. The ideal cycle time was 10 seconds per unit.</p>
+
+  <p>The TPM team calculated availability, performance and quality separately rather than looking only at total production. The analysis showed that the machine's availability was relatively strong, but performance was weaker because the machine was not operating at its ideal speed. Quality was also below the desired level because rejected units represented a significant proportion of output.</p>
+
+  <p>Operators were then trained to carry out routine cleaning, lubrication, visual inspection and tightening activities. The maintenance department introduced planned maintenance schedules. A separate team investigated recurring minor stoppages and reduced the frequency of short interruptions. Management also began recording setup and adjustment losses rather than treating them simply as unavoidable production time.</p>
+
+  <p>The plant manager explained that TPM was not merely a maintenance department programme. Production employees, engineering staff, quality personnel and management all had roles in maintaining and improving the integrity of the production system. The objective was to progressively reduce equipment-related losses and improve overall equipment effectiveness.</p>`,
+
+  questions: [
+    {
+      question_id: "AI_c23_cs_004_1",
+      question: "Which two broad OEE dimensions are directly affected by machine breakdowns and setup/adjustment losses?",
+      options: [
+        "Performance and quality",
+        "Availability and time loss",
+        "Quality and inventory",
+        "Performance and inventory"
+      ],
+      answer: 1,
+      reason: "Equipment failure/breakdown and setup/adjustment losses are classified among the time/availability losses in the six big losses."
+    },
+    {
+      question_id: "AI_c23_cs_004_2",
+      question: "What is the operating time of the machine for the shift described in the case?",
+      options: [
+        "564 minutes",
+        "600 minutes",
+        "636 minutes",
+        "525 minutes"
+      ],
+      answer: 0,
+      reason: "Operating time = planned production time − unplanned downtime = 600 − 36 = 564 minutes."
+    },
+    {
+      question_id: "AI_c23_cs_004_3",
+      question: "Which OEE component is primarily examined when actual output is compared with what could theoretically have been produced during operating time at the ideal cycle rate?",
+      options: [
+        "Availability",
+        "Performance",
+        "Quality",
+        "Inventory"
+      ],
+      answer: 1,
+      reason: "Performance measures how closely the machine operates to its ideal production speed during operating time."
+    },
+    {
+      question_id: "AI_c23_cs_004_4",
+      question: "The 75 rejected units primarily affect which OEE component?",
+      options: [
+        "Availability",
+        "Performance",
+        "Quality",
+        "Planned production time"
+      ],
+      answer: 2,
+      reason: "Quality is calculated using good count relative to total count. Rejected units therefore reduce the quality component."
+    },
+    {
+      question_id: "AI_c23_cs_004_5",
+      question: "The training of operators to clean, lubricate and visually inspect machines most directly reflects which TPM pillar?",
+      options: [
+        "Autonomous Maintenance",
+        "Early Management",
+        "Office TPM",
+        "Safety, Health and Environment"
+      ],
+      answer: 0,
+      reason: "Autonomous Maintenance involves active participation by employees in routine activities such as cleaning, lubrication, inspection and basic maintenance."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_005",
+  difficulty: "medium",
+  case_chapter: "Lean System and Innovation",
+  case_topic: ["Six Sigma", "DMAIC", "Customer Satisfaction", "Process Improvement"],
+  caseText: `<p>PrimeServe Bank had experienced a growing number of customer complaints concerning delays in processing loan applications. Customers were not necessarily complaining about the interest rate or product design. Instead, they were frustrated because applications frequently moved back and forth between departments, documents were entered incorrectly and customers were asked to provide information that they had already submitted.</p>
+
+  <p>The bank decided to undertake a Six Sigma project. The project team first reviewed customer complaints and defined the project objective as reducing errors and shortening the loan-processing cycle time. The team deliberately avoided jumping directly to solutions because management wanted the project to be supported by measurable evidence.</p>
+
+  <p>During the next stage, the team collected data on the number of applications processed, processing time at each stage, missing documents, data-entry errors and applications returned for correction. The team discovered that the largest delays occurred when applications were transferred between branches and the central processing unit.</p>
+
+  <p>The team then analysed the collected data to identify root causes. It found that different branches were using slightly different document-checking practices. Some employees entered information manually even when the same information already existed in another internal system. In addition, applications with incomplete documents were sometimes transferred to the next department rather than being returned immediately.</p>
+
+  <p>Several improvement measures were introduced. A common document checklist was developed, duplicate data entry was reduced and incomplete applications were identified earlier. The bank also established monitoring measures to ensure that the improvements did not disappear after the project team completed its work.</p>
+
+  <p>The project leader explained that if the new monitoring data showed that the process was again producing unacceptable results, the team would need to revisit the problem rather than assume that the original solution would remain permanently effective.</p>`,
+
+  questions: [
+    {
+      question_id: "AI_c23_cs_005_1",
+      question: "Which DMAIC stage is represented by the team's initial collection of measurable data about processing time and errors?",
+      options: [
+        "Define",
+        "Measure",
+        "Improve",
+        "Control"
+      ],
+      answer: 1,
+      reason: "The Measure stage involves collecting quantitative data about the existing process so that its performance can be assessed objectively."
+    },
+    {
+      question_id: "AI_c23_cs_005_2",
+      question: "The investigation into why applications were delayed between branches and the central processing unit primarily belongs to:",
+      options: [
+        "Define",
+        "Measure",
+        "Analyse",
+        "Verify"
+      ],
+      answer: 2,
+      reason: "Analyse focuses on understanding the causes of the measured problems and identifying root causes."
+    },
+    {
+      question_id: "AI_c23_cs_005_3",
+      question: "Developing a common document checklist and reducing duplicate data entry are examples of actions under:",
+      options: [
+        "Improve",
+        "Define",
+        "Measure",
+        "Analyse"
+      ],
+      answer: 0,
+      reason: "The Improve stage involves implementing corrective measures based on the causes identified during analysis."
+    },
+    {
+      question_id: "AI_c23_cs_005_4",
+      question: "Why did the bank establish continuing monitoring after implementing the improvements?",
+      options: [
+        "To create additional inventory",
+        "To ensure that improved process performance is maintained",
+        "To replace customer feedback",
+        "To eliminate the need for data"
+      ],
+      answer: 1,
+      reason: "Control ensures that improvements are sustained through ongoing monitoring and measurement."
+    },
+    {
+      question_id: "AI_c23_cs_005_5",
+      question: "If the loan-processing process already existed and the bank was trying to improve its performance rather than create a new process, which Six Sigma methodology was more appropriate?",
+      options: [
+        "DMADV",
+        "DMAIC",
+        "5S only",
+        "BPR only"
+      ],
+      answer: 1,
+      reason: "DMAIC is used to improve an existing business process through Define, Measure, Analyse, Improve and Control."
+    }
+  ]
+},
+
+// ============================================================
+// HARD CASES
+// ============================================================
+
+{
+  case_id: "AI_c23_cs_006",
+  difficulty: "hard",
+  case_chapter: "Lean System and Innovation",
+  case_topic: ["JIT", "Backflush Accounting", "Kanban", "Supply Chain Risk", "Management Accounting"],
+  caseText: `<p>Vertex Mobility Systems manufactures electronic control units for a major automobile manufacturer. The company had historically maintained substantial raw-material inventory because purchasing managers believed that inventory protected production against supplier delays. Materials were received at a central warehouse, inspected, recorded in the stores ledger and subsequently issued to production through material requisitions.</p>
+
+  <p>As competition increased, Vertex's management concluded that its inventory and material-handling costs were excessive. The company decided to move toward a JIT purchasing and production system. Several suppliers were strategically selected and asked to deliver components at specified times directly to the production floor. Electronic data interchange was introduced so that suppliers could receive updated requirements. Production cells were established and components were scheduled according to actual downstream requirements.</p>
+
+  <p>Because suppliers were now making several deliveries each day, the finance department found the traditional receiving and invoice-processing system increasingly cumbersome. Management therefore considered using a backflush approach. Under the proposed system, detailed material movements would not necessarily be recorded at every production stage. Instead, once finished units were reported, the system would calculate the standard quantity of components consumed based on the bill of materials and adjust inventory accordingly.</p>
+
+  <p>The financial controller supported the proposal but highlighted several conditions. Production reporting had to be highly accurate. If employees reported the wrong finished quantity, the calculated component consumption would also be wrong. Abnormal scrap could not simply be absorbed into normal usage without investigation. The controller also warned that the new system would generally make detailed lot tracing more difficult unless additional identification systems were introduced.</p>
+
+  <p>At the same time, the purchasing director warned that JIT was changing the company's risk profile. Under the old system, supplier delays could sometimes be absorbed by inventory. Under the new system, a late shipment of a critical component could stop an entire production cell. Consequently, suppliers were being evaluated not only on purchase price but also on quality, delivery reliability, responsiveness and their ability to communicate in real time.</p>
+
+  <p>One supplier repeatedly delivered components with minor dimensional variations. The purchasing department argued that the supplier's low price justified continuing the relationship. The production manager disagreed, pointing out that the supplier's defects were forcing the cell to stop, inspect components and occasionally rework assemblies. The lean manager concluded that evaluating suppliers only on purchase price would contradict the purpose of the JIT programme.</p>
+
+  <p>After a pilot implementation, management found that material-handling activity and warehouse requirements had declined substantially. However, the success of the system depended on accurate production records, reliable suppliers, stable processes and disciplined employees. Management therefore decided that the accounting change could not be considered independently from the operational changes supporting JIT.</p>`,
+
+  questions: [
+    {
+      question_id: "AI_c23_cs_006_1",
+      question: "Vertex's proposed backflush system calculates component consumption primarily after finished production is reported. What makes this approach particularly vulnerable to inaccurate employee reporting?",
+      options: [
+        "Backflush accounting is independent of production quantities",
+        "Incorrect finished production data leads to incorrect calculated component consumption",
+        "Supplier quality becomes irrelevant",
+        "Inventory is always physically counted after every unit"
+      ],
+      answer: 1,
+      reason: "Backflushing relies on production completion information and the BOM to infer component consumption. If production reporting is inaccurate, the resulting inventory records can also be inaccurate."
+    },
+    {
+      question_id: "AI_c23_cs_006_2",
+      question: "Why would abnormal scrap create a particular problem under the proposed backflush approach?",
+      options: [
+        "It may not be correctly reflected by normal BOM-based consumption unless separately identified",
+        "It automatically increases customer demand",
+        "It eliminates all inventory records",
+        "It reduces the need for production reporting"
+      ],
+      answer: 0,
+      reason: "Backflush calculations generally derive expected component usage from finished output and the BOM. Abnormal scrap must be separately identified to avoid distorting inventory and cost information."
+    },
+    {
+      question_id: "AI_c23_cs_006_3",
+      question: "The purchasing director's concern that a supplier delay could stop an entire production cell illustrates which major JIT disadvantage?",
+      options: [
+        "Excess warehouse space",
+        "Exposure to supply-chain disruption because inventory buffers are reduced",
+        "Increased obsolete inventory",
+        "Higher traditional receiving paperwork"
+      ],
+      answer: 1,
+      reason: "JIT deliberately reduces inventory buffers. Therefore, supply interruptions, late deliveries or supplier quality problems can have a more immediate operational impact."
+    },
+    {
+      question_id: "AI_c23_cs_006_4",
+      question: "The purchasing department's argument that the supplier's low price justified continuing the relationship is weakest because:",
+      options: [
+        "JIT evaluates only supplier distance",
+        "JIT requires suppliers to be reliable in quality and delivery, not merely cheap",
+        "JIT eliminates suppliers entirely",
+        "Purchase price has no relevance under any circumstances"
+      ],
+      answer: 1,
+      reason: "JIT purchasing depends on reliable suppliers capable of delivering the required quantity, quality and timing. A low purchase price may be outweighed by disruption, defects, inspection and rework costs."
+    },
+    {
+      question_id: "AI_c23_cs_006_5",
+      question: "Which combination best explains why Vertex should treat the accounting change and operational JIT implementation as interconnected?",
+      options: [
+        "Backflush accounting can work effectively only when production reporting and operational processes are reliable",
+        "Accounting always determines supplier quality",
+        "JIT eliminates the need for operational controls",
+        "Backflush accounting automatically guarantees zero defects"
+      ],
+      answer: 0,
+      reason: "Backflush accounting depends on accurate production reporting and disciplined processes. It is therefore closely linked to the reliability and stability of the underlying JIT production environment."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_007",
+  difficulty: "hard",
+  case_chapter: "Lean System and Innovation",
+  case_topic: ["TPM", "OEE", "Six Big Losses", "Performance Analysis", "Quality"],
+  caseText: `<p>Alpha Industrial Products operates a production line for high-volume precision components. Senior management had been pleased with the line because it was rarely completely stopped. However, the quality department increasingly reported rejected components, while production supervisors complained that the machine frequently slowed down or stopped for a few seconds at a time. These minor interruptions were often not recorded because each individual interruption appeared insignificant.</p>
+
+  <p>The company decided to establish a TPM programme. The team first defined planned production time as 665 minutes for a representative shift. During that period, the machine suffered 36 minutes of unplanned downtime. The line produced 3,360 units, of which 75 were defective. The ideal cycle time of the machine was 10 seconds per unit.</p>
+
+  <p>The production manager initially concluded that the result was satisfactory because the machine had produced more than 3,000 units. The TPM team disagreed. It argued that a high production count alone could hide substantial losses. The team therefore calculated availability, performance and quality separately.</p>
+
+  <p>The calculations showed that availability was above 90%, but performance was significantly below the desired world-class level. Quality was also below the ideal level. Investigation showed that the line was often operated below its designed speed to avoid jams. In addition, minor stoppages occurred repeatedly when components were not positioned correctly. Operators had learned informal methods to correct these problems, but the underlying causes had not been eliminated.</p>
+
+  <p>The TPM team classified the losses into the six major categories. Breakdown losses and setup losses were considered availability-related. Minor stoppages and reduced speed were treated as performance-related. Rejects and rework were classified as quality-related losses.</p>
+
+  <p>Management then introduced autonomous maintenance, including cleaning, lubrication, inspection and tightening. Engineers analysed repeated stoppages using structured root-cause analysis. Operators were trained to recognise early warning signs, and maintenance schedules were redesigned to focus on preventive actions rather than waiting for breakdowns.</p>
+
+  <p>After several months, the number of breakdowns declined, but performance remained weaker than management expected. The TPM team concluded that maintenance alone could not solve the problem because operators were deliberately reducing machine speed to avoid recurring process instability. A separate process-improvement project was therefore initiated to address the root causes of the speed reduction.</p>`,
+
+  questions: [
+    {
+      question_id: "AI_c23_cs_007_1",
+      question: "Why was the production manager's reliance on total units produced insufficient for evaluating the machine?",
+      options: [
+        "Production quantity cannot be measured",
+        "Total output can hide downtime, reduced speed and defective production",
+        "OEE ignores production quantity",
+        "Quality has no effect on machine performance"
+      ],
+      answer: 1,
+      reason: "OEE separates availability, performance and quality, allowing losses that are hidden within total production figures to be identified."
+    },
+    {
+      question_id: "AI_c23_cs_007_2",
+      question: "The repeated short interruptions caused by incorrectly positioned components are classified primarily as:",
+      options: [
+        "Equipment failure/breakdown",
+        "Setup and adjustment",
+        "Idling and minor stoppages",
+        "Quality defects only"
+      ],
+      answer: 2,
+      reason: "Repeated short interruptions that prevent normal operation are minor stoppages, one of the performance-related six big losses."
+    },
+    {
+      question_id: "AI_c23_cs_007_3",
+      question: "Operators deliberately running the machine below its designed speed primarily reduces:",
+      options: [
+        "Availability",
+        "Performance",
+        "Quality only",
+        "Planned production time"
+      ],
+      answer: 1,
+      reason: "Performance reflects the relationship between ideal cycle time and actual production during operating time. Running below ideal speed reduces performance."
+    },
+    {
+      question_id: "AI_c23_cs_007_4",
+      question: "Which TPM pillar is most directly represented by engineers investigating repeated stoppages and implementing small improvements to remove losses?",
+      options: [
+        "Focused Improvement",
+        "Office TPM",
+        "Education and Training only",
+        "Early Management"
+      ],
+      answer: 0,
+      reason: "Focused Improvement uses continuous improvement techniques to identify and reduce losses, often supported by root-cause analysis and Kaizen."
+    },
+    {
+      question_id: "AI_c23_cs_007_5",
+      question: "If availability improves substantially but performance remains weak because the process must still be operated slowly, the most appropriate conclusion is:",
+      options: [
+        "The TPM programme has completely solved the problem",
+        "The remaining loss is primarily associated with process speed/stability rather than machine availability",
+        "Quality must automatically be 100%",
+        "Inventory must be increased"
+      ],
+      answer: 1,
+      reason: "Improved availability does not automatically improve performance. If the machine operates below ideal speed because of process instability, the performance component remains weak."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_008",
+  difficulty: "hard",
+  case_chapter: "Lean System and Innovation",
+  case_topic: ["Cellular Manufacturing", "Production Flow Analysis", "Machine-Part Families", "Flexibility"],
+  caseText: `<p>Beta Engineering manufactures a wide range of industrial components. Its existing factory was organised according to functional departments. All drilling machines were located in one area, all milling machines in another and all grinding machines in a third. Although the arrangement allowed machines of the same type to be supervised together, components travelled long distances between departments.</p>
+
+  <p>Management noticed that two products requiring similar processing steps were often scheduled several days apart because their operations had to pass through the same departments. Work-in-progress accumulated between machines, and production supervisors had difficulty determining where a particular batch was located. Employees also reported that defective parts were sometimes discovered only after the components had travelled through several operations.</p>
+
+  <p>The operations director proposed cellular manufacturing. The first task was not simply to draw U-shaped cells on the factory floor. The engineering team was instructed to study which parts required similar processing sequences and which machines were used by those part groups.</p>
+
+  <p>The team prepared a machine-part incidence matrix showing whether each part required each machine. It then applied a clustering approach to identify groups of parts and machines that could form manufacturing cells. During the analysis, one machine appeared in several otherwise distinct groups. Another part required a machine that was not located in the proposed cell. The team recognised that these exceptional elements could prevent a perfectly independent cellular layout.</p>
+
+  <p>Management also discovered that one proposed cell would have substantially more work than another. Demand for certain parts varied considerably from month to month, making a rigid allocation of machines risky. The plant manager warned that simply minimising material movement could create a new problem if cells became unable to handle changing product mix or if bottleneck machines were duplicated unnecessarily.</p>
+
+  <p>After further analysis, Beta created cells for the most stable product families while retaining limited shared resources for exceptional operations. Within each cell, operators were trained to handle multiple activities. The company also arranged machines so that supervisors could observe the overall flow more easily and employees could identify defects quickly.</p>
+
+  <p>Management considered the project successful because average flow distance and work-in-progress declined. However, it explicitly rejected the idea that cellular manufacturing would automatically solve every production problem. Cell design would need periodic review because demand patterns, product mix and machine requirements could change over time.</p>`,
+
+  questions: [
+    {
+      question_id: "AI_c23_cs_008_1",
+      question: "Why did Beta's existing functional layout contribute to long flow distances?",
+      options: [
+        "Similar machines were concentrated together rather than arranged according to product flow",
+        "Each product used only one machine",
+        "There was no production process",
+        "All machines were automatically connected"
+      ],
+      answer: 0,
+      reason: "In a functional layout, similar machines are grouped by function. A product requiring several different processes therefore travels between departments."
+    },
+    {
+      question_id: "AI_c23_cs_008_2",
+      question: "What was the purpose of the machine-part incidence matrix in the case?",
+      options: [
+        "To calculate employee salaries",
+        "To identify relationships between parts and machines for forming manufacturing families/cells",
+        "To determine customer selling prices",
+        "To calculate inventory holding cost only"
+      ],
+      answer: 1,
+      reason: "Production flow analysis and clustering examine which parts use which machines so that related parts and equipment can be grouped into cells."
+    },
+    {
+      question_id: "AI_c23_cs_008_3",
+      question: "The machine appearing in several otherwise distinct groups is an example of what practical difficulty?",
+      options: [
+        "Exceptional element/shared machine problem",
+        "Perfect one-piece flow",
+        "Zero inventory",
+        "Standard costing variance"
+      ],
+      answer: 0,
+      reason: "Exceptional machines or elements can prevent completely independent cells because certain parts require equipment outside their primary family."
+    },
+    {
+      question_id: "AI_c23_cs_008_4",
+      question: "Why did management retain limited shared resources instead of forcing every operation into a separate cell?",
+      options: [
+        "Cellular manufacturing requires every machine to be duplicated",
+        "Exceptional operations and bottleneck/resource constraints can make complete cell independence impractical",
+        "Cells cannot contain operators",
+        "Functional layouts always have lower flow time"
+      ],
+      answer: 1,
+      reason: "Exceptional elements, bottleneck machines, varying demand and resource constraints can make complete cellular separation impractical or uneconomic."
+    },
+    {
+      question_id: "AI_c23_cs_008_5",
+      question: "What is the key limitation illustrated by Beta's changing product mix?",
+      options: [
+        "Cellular manufacturing can reduce flexibility if demand and product mix change significantly",
+        "Cellular manufacturing always increases inventory",
+        "Cells eliminate the need for employee training",
+        "Cellular manufacturing prevents defect detection"
+      ],
+      answer: 0,
+      reason: "Although cellular manufacturing can greatly improve flow, significant changes in demand or product mix may require cell realignment, which can be costly and reduce flexibility."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_009",
+  difficulty: "hard",
+  case_chapter: "Lean System and Innovation",
+  case_topic: ["Six Sigma", "DMAIC", "DMADV", "Process Innovation", "Lean Six Sigma"],
+  caseText: `<p>NovaBank had been using an online loan-processing platform for several years. Customers complained that the existing process was slow, that information had to be entered repeatedly and that applications sometimes moved between departments without clear ownership. Management initially assumed that the solution would require developing an entirely new platform.</p>
+
+  <p>A Six Sigma team was asked to investigate the issue before any major technology investment was approved. The team began by defining the customer problem: reduce the time and errors associated with the existing loan-processing process. Customer feedback showed that the most frustrating problems were repeated document requests, incorrect data entry and delays when applications moved between departments.</p>
+
+  <p>The team then measured the existing process. It collected information about application volumes, processing time, error rates, rework and hand-offs. Analysis showed that a substantial portion of the delay arose from inconsistent checking procedures between branches rather than from the technology itself.</p>
+
+  <p>The bank therefore introduced a common checklist, eliminated duplicate data entry and redesigned responsibility for incomplete applications. After implementation, processing time declined significantly. The bank continued monitoring error rates and customer complaints to ensure that the improvements remained effective.</p>
+
+  <p>Separately, the bank's strategy department was considering launching a completely new real-time lending service for small businesses. Unlike the existing process, this proposed service did not yet exist. Customer behaviour was expected to change, competitors were introducing similar digital services and the bank intended to redesign several interconnected processes rather than modify only one existing process.</p>
+
+  <p>The Six Sigma leader warned the strategy team not to use the same methodology automatically for both projects. The first project involved improving an existing process, whereas the proposed service required the design of a new product and associated processes. The leader also explained that Lean could be combined with Six Sigma where the bank wanted not only to reduce defects but also to remove unnecessary process steps and improve speed.</p>
+
+  <p>After discussion, management decided to use DMAIC for the existing loan process and a design-oriented Six Sigma methodology for the proposed new service. A cross-functional team was formed because the new service would affect technology, operations, compliance, customer service and product design.</p>`,
+
+  questions: [
+    {
+      question_id: "AI_c23_cs_009_1",
+      question: "Why was DMAIC appropriate for the existing loan-processing project?",
+      options: [
+        "The bank was improving an existing process",
+        "The bank was creating a completely new product",
+        "Customer behaviour was irrelevant",
+        "No process measurements were available"
+      ],
+      answer: 0,
+      reason: "DMAIC is designed for continuous improvement of existing processes. The bank measured and improved an already operating loan process."
+    },
+    {
+      question_id: "AI_c23_cs_009_2",
+      question: "Which fact most strongly supports using DMADV for the proposed real-time lending service?",
+      options: [
+        "The existing process already operates",
+        "The new service and associated processes do not yet exist and require design",
+        "The bank wants to calculate existing defects",
+        "The bank is only reducing processing time"
+      ],
+      answer: 1,
+      reason: "DMADV is appropriate when developing a new product or process, particularly where existing processes cannot simply be improved to meet the required design."
+    },
+    {
+      question_id: "AI_c23_cs_009_3",
+      question: "The discovery that inconsistent checking procedures, rather than technology alone, caused much of the delay demonstrates the importance of which DMAIC stage?",
+      options: [
+        "Define",
+        "Measure",
+        "Analyse",
+        "Control"
+      ],
+      answer: 2,
+      reason: "The Analyse stage examines collected data to identify root causes of process problems."
+    },
+    {
+      question_id: "AI_c23_cs_009_4",
+      question: "The common checklist and elimination of duplicate data entry were primarily actions taken during:",
+      options: [
+        "Improve",
+        "Define",
+        "Measure",
+        "Control"
+      ],
+      answer: 0,
+      reason: "These were corrective actions implemented after the causes of delay and errors had been identified."
+    },
+    {
+      question_id: "AI_c23_cs_009_5",
+      question: "Why could Lean Six Sigma be particularly relevant to the bank's process improvement effort?",
+      options: [
+        "It focuses only on purchasing",
+        "It combines defect reduction with elimination of process waste and improved speed",
+        "It requires all processes to be replaced",
+        "It eliminates the need for customer feedback"
+      ],
+      answer: 1,
+      reason: "Lean Six Sigma combines Lean's focus on waste and process speed with Six Sigma's data-driven defect and variation reduction."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c23_cs_010",
+  difficulty: "hard",
+  case_chapter: "Lean System and Innovation",
+  case_topic: ["Process Innovation", "BPR", "Lean", "Six Sigma", "Innovation Strategy"],
+  caseText: `<p>Omega Appliances manufactures household water-purification systems. Its traditional assembly process consisted of a continuous production line where components were supplied to workers stationed at different points. Over several years, the company had introduced a number of small changes to improve the existing line. Workers had suggested rearranging tools, changing work sequences and eliminating unnecessary movement. These improvements reduced assembly time gradually, but the basic production architecture remained unchanged.</p>
+
+  <p>As customer expectations changed, Omega began receiving demand for several highly customised versions of its product. The existing line was designed around high-volume standardised models and struggled to accommodate frequent changes. Employees were increasingly required to move between stations, temporary storage areas expanded and supervisors found it difficult to balance workloads.</p>
+
+  <p>The operations director proposed two possible approaches. The first was to continue improving the existing line by automating repetitive activities, adjusting workstation layouts and refining existing procedures. The second was to redesign the production system from the beginning around small specialist teams, flexible equipment and a different sequence of operations.</p>
+
+  <p>The finance department initially described both proposals as process improvements. However, the operations director argued that the distinction was important. Improving the existing continuous production process would amend and streamline the current process. Starting again with a fundamentally different production structure would represent implementation of a new process rather than merely optimisation of the existing one.</p>
+
+  <p>At the same time, the quality department proposed a Six Sigma project because customers were reporting inconsistent product performance. The team collected defect data and discovered that a large proportion of failures arose from incorrect assembly instructions and inconsistent testing procedures. The quality team proposed standardised work instructions, improved measurement and ongoing monitoring.</p>
+
+  <p>The lean manager pointed out that the two initiatives addressed different but complementary problems. Six Sigma could reduce defects and process variation, while Lean could remove unnecessary movement, waiting, inventory and over-processing. If the company redesigned the production architecture, however, the project would need to be evaluated as a broader process innovation rather than simply another Kaizen exercise.</p>
+
+  <p>Management therefore divided the programme into three levels. Immediate workplace and movement problems would be addressed through Lean and Kaizen. Existing quality and variation problems would be addressed through Six Sigma. The longer-term redesign of the production system would be evaluated separately as a potential process innovation.</p>
+
+  <p>The CEO insisted that management should not label every change an innovation. A replacement of an old machine with a similar new machine, a seasonal change in production volume or a minor product customisation would not automatically constitute process innovation. The change had to involve implementation of a new or significantly improved production or delivery method involving significant changes in techniques, equipment or software.</p>`,
+
+  questions: [
+    {
+      question_id: "AI_c23_cs_010_1",
+      question: "Omega's earlier rearrangement of tools and work sequences without changing the fundamental production architecture is most consistent with:",
+      options: [
+        "Incremental Lean/Kaizen improvement",
+        "Complete process innovation",
+        "DMADV",
+        "Elimination of the production process"
+      ],
+      answer: 0,
+      reason: "The company made small, incremental improvements to the existing process without fundamentally redesigning the production system, which is consistent with Kaizen/Lean improvement."
+    },
+    {
+      question_id: "AI_c23_cs_010_2",
+      question: "If Omega merely automates repetitive activities on the existing continuous production line while retaining the basic process structure, this would most closely resemble:",
+      options: [
+        "Improvement/re-engineering of the existing process",
+        "A completely new process by definition",
+        "Kaizen costing only",
+        "Six Sigma measurement only"
+      ],
+      answer: 0,
+      reason: "Automating or streamlining activities within an existing process structure is closer to improving/re-engineering the existing process than implementing an entirely new production method."
+    },
+    {
+      question_id: "AI_c23_cs_010_3",
+      question: "Why could redesigning the production system around specialist teams and flexible equipment qualify as process innovation?",
+      options: [
+        "It merely changes the selling price",
+        "It potentially implements a significantly different production method and structure",
+        "It is only a seasonal production adjustment",
+        "It involves no change in production technique"
+      ],
+      answer: 1,
+      reason: "Process innovation involves implementing a new or significantly improved production or delivery method, including significant changes in techniques, equipment or software."
+    },
+    {
+      question_id: "AI_c23_cs_010_4",
+      question: "The quality team's focus on incorrect assembly instructions and inconsistent testing procedures is most closely associated with which Six Sigma objective?",
+      options: [
+        "Reducing defects and process variation",
+        "Increasing unnecessary inventory",
+        "Increasing transportation",
+        "Maximising production batch size"
+      ],
+      answer: 0,
+      reason: "Six Sigma focuses on identifying and eliminating defects and reducing process variation through data-driven analysis and improvement."
+    },
+    {
+      question_id: "AI_c23_cs_010_5",
+      question: "Which proposed change would NOT automatically qualify as process innovation under the facts given?",
+      options: [
+        "Implementing a substantially new production method",
+        "Introducing significantly different production equipment and techniques",
+        "Replacing an old machine with a similar machine without significant process change",
+        "Implementing a significantly improved delivery method using new technology"
+      ],
+      answer: 2,
+      reason: "Simple replacement or extension of existing capital equipment without a significant process change is specifically excluded from process innovation."
+    }
+  ]
+},
+  {
+    case_id: "AI_c23_cs_011",
+    difficulty: "medium",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["Lean System", "Seven Wastes", "Value Chain", "Customer Value", "Continuous Improvement"],
+    caseText: `<p>Ardent Auto Components Limited manufactures braking-system components for automobile manufacturers. The company had been operating for more than ten years and had developed a production system based largely on departmental efficiency. The machining department was evaluated on machine utilisation, the stores department on availability of materials, the inspection department on the number of inspections completed, and the dispatch department on the number of shipments processed. Each department generally attempted to maximise its own performance without considering the effect of its activities on the overall production flow.</p>
+
+    <p>As customer requirements became more demanding, Ardent began receiving complaints about delayed deliveries even though its machines were operating for long hours. The production manager initially believed that the problem was insufficient machine capacity. However, a review of the production floor revealed that large quantities of semi-finished components were waiting between operations. Some batches had completed machining but were waiting for inspection, while other inspected batches were waiting for the next production operation.</p>
+
+    <p>The lean manager followed several batches from the time raw material entered the factory until the finished product was dispatched. He observed that operators frequently walked to a common tool room to collect gauges and fixtures. Material handlers transported containers between departments several times because machining, inspection and assembly were located far apart. In certain cases, material was moved to a temporary storage area even though it was scheduled to be processed shortly afterwards.</p>
+
+    <p>The investigation also revealed that the company occasionally produced components according to the monthly production plan even when the assembly department had already accumulated sufficient stock. The additional production was justified on the ground that the machine would otherwise remain idle. However, several components remained unused for weeks and some became obsolete after customers changed their specifications.</p>
+
+    <p>Another problem involved quality. A dimensional defect in one component was sometimes discovered only after the component had passed through two further operations. The defective item was then returned for rework. This caused additional transportation, inspection and labour time. Employees stated that they had become accustomed to such rework and did not regard it as an unusual event.</p>
+
+    <p>The lean manager explained to senior management that lean thinking should begin with the value perceived by the customer rather than the utilisation of individual departments. Activities that did not contribute to customer value should be questioned. Management therefore began mapping the complete value chain and asked employees to identify unnecessary activities instead of simply attempting to increase departmental output.</p>
+
+    <p>Over the next few months, the company rearranged frequently used tools, reduced unnecessary transportation, changed production priorities according to downstream requirements and introduced small employee-led improvement projects. Management did not expect every improvement to involve new machinery. The objective was to establish a continuous improvement culture in which problems were identified and corrected before they became larger losses.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_011_1",
+        question: "The machining department continuing to produce components even though the assembly department already had sufficient stock represents which waste?",
+        options: [
+          "Waiting",
+          "Overproduction",
+          "Motion",
+          "Transportation"
+        ],
+        answer: 1,
+        reason: "Production in excess of actual downstream requirement is overproduction. The fact that machines would otherwise remain idle does not convert unnecessary production into customer value."
+      },
+      {
+        question_id: "AI_c23_cs_011_2",
+        question: "The semi-finished components remaining idle between machining and inspection primarily represent:",
+        options: [
+          "Waiting",
+          "Motion",
+          "Over-processing",
+          "Kaizen"
+        ],
+        answer: 0,
+        reason: "When products are waiting for the next production step, the situation represents waiting waste."
+      },
+      {
+        question_id: "AI_c23_cs_011_3",
+        question: "Why did the lean manager follow the batches through the entire factory rather than analysing each department separately?",
+        options: [
+          "Lean focuses only on individual machine efficiency",
+          "Lean considers the complete value chain and seeks to identify activities that fail to create customer value",
+          "Departmental accounting is prohibited under lean",
+          "The production process cannot be divided into departments"
+        ],
+        answer: 1,
+        reason: "Lean thinking considers the complete flow from the customer's perspective. Optimising one department can create waste elsewhere in the value chain."
+      },
+      {
+        question_id: "AI_c23_cs_011_4",
+        question: "The operators repeatedly walking to the common tool room is primarily an example of:",
+        options: [
+          "Inventory",
+          "Motion",
+          "Defects",
+          "Overproduction"
+        ],
+        answer: 1,
+        reason: "Unnecessary movement of people or equipment is classified as motion waste."
+      },
+      {
+        question_id: "AI_c23_cs_011_5",
+        question: "Why did the lean manager encourage employee-led small improvement projects instead of requiring major capital expenditure for every improvement?",
+        options: [
+          "Lean and Kaizen emphasise continuous incremental improvement and employee involvement",
+          "Lean prohibits investment in machinery",
+          "Employees are responsible for preparing financial statements",
+          "Major improvements are never permitted under lean"
+        ],
+        answer: 0,
+        reason: "Lean and Kaizen emphasise continuous improvement through small, incremental changes and involvement of employees who understand the process."
+      }
+    ]
+  },
+
+  {
+    case_id: "AI_c23_cs_012",
+    difficulty: "medium",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["5S", "Workplace Organisation", "Visual Management", "PDCA", "Office Lean"],
+    caseText: `<p>Meridian Tax Services is a large professional services organisation with several teams handling tax filings, client documentation and regulatory correspondence. Although the organisation did not operate a manufacturing plant, management believed that the principles of lean workplace organisation could also improve administrative processes.</p>
+
+    <p>The firm conducted an initial review of its document-management practices. Employees kept duplicate copies of client documents in different folders, outdated working papers remained in cabinets and frequently used forms were sometimes stored in locations known only to particular employees. When an employee was absent, another employee could spend considerable time locating the required file.</p>
+
+    <p>Management initiated a 5S programme. During the first exercise, teams reviewed physical and electronic files and identified documents that were no longer required. Some files were obsolete, some were required but not immediately, and others belonged to a different department. The teams used visual identification tags and established deadlines for deciding the appropriate action for questionable items.</p>
+
+    <p>Once unnecessary material had been identified, the firm reorganised frequently used documents. Standard naming conventions were introduced for electronic files, while physical documents were placed in clearly labelled folders. Frequently used forms were positioned where employees could access them quickly. The objective was not merely to make the office look neat but to reduce search time and make abnormalities easier to identify.</p>
+
+    <p>The firm then introduced a daily cleaning and checking routine. Employees were expected to keep workstations orderly and review their digital folders for unnecessary duplicate or obsolete files. During this process, some employees discovered that their computers contained old versions of documents that could easily lead to mistakes.</p>
+
+    <p>Management subsequently documented the best practices identified during the exercise. A standard operating procedure explained where files should be stored, how they should be named and how frequently used documents should be maintained. Area ownership was assigned and periodic audits were introduced.</p>
+
+    <p>The managing partner explained that the programme would fail if employees treated it as a one-time cleaning exercise. The purpose was to create a disciplined system that would continue even after the initial campaign ended. The firm also planned to use photographs and visual boards to compare expected workplace conditions with actual conditions.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_012_1",
+        question: "The initial identification and removal of obsolete documents most directly represents which 5S stage?",
+        options: [
+          "Sort",
+          "Set in Order",
+          "Shine",
+          "Standardize"
+        ],
+        answer: 0,
+        reason: "Sort involves identifying unnecessary items and removing them from the workplace or system."
+      },
+      {
+        question_id: "AI_c23_cs_012_2",
+        question: "Placing frequently used forms in easily accessible locations is primarily associated with:",
+        options: [
+          "Sort",
+          "Set in Order",
+          "Shine",
+          "Sustain"
+        ],
+        answer: 1,
+        reason: "Set in Order involves arranging required items systematically according to their use so that they are easily accessible."
+      },
+      {
+        question_id: "AI_c23_cs_012_3",
+        question: "The firm's daily cleaning and checking routine most closely reflects:",
+        options: [
+          "Shine",
+          "Sort",
+          "Set in Order",
+          "Kaizen costing"
+        ],
+        answer: 0,
+        reason: "Shine involves cleanliness together with inspection and identification of abnormalities."
+      },
+      {
+        question_id: "AI_c23_cs_012_4",
+        question: "Documenting the best practices as standard operating procedures represents which 5S stage?",
+        options: [
+          "Sort",
+          "Shine",
+          "Standardize",
+          "Sustain"
+        ],
+        answer: 2,
+        reason: "Standardize converts successful workplace practices into consistent standards and procedures."
+      },
+      {
+        question_id: "AI_c23_cs_012_5",
+        question: "Why are area ownership, audits and visual comparisons particularly important in the final stage described by management?",
+        options: [
+          "They support Sustain by maintaining discipline and ensuring the 5S system continues",
+          "They eliminate the need for standards",
+          "They are used only for inventory valuation",
+          "They replace Sort"
+        ],
+        answer: 0,
+        reason: "Sustain requires ongoing discipline through ownership, monitoring, audits, communication and continuous training."
+      }
+    ]
+  },
+
+  {
+    case_id: "AI_c23_cs_013",
+    difficulty: "medium",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["JIT", "Kanban", "Pull System", "Supplier Management", "Production Flow"],
+    caseText: `<p>Falcon Medical Devices manufactures disposable medical assemblies. Its previous production system required each department to follow a weekly production schedule issued by the central planning department. The schedule was prepared several days in advance based on forecasts. Each department attempted to complete its assigned production quantity regardless of whether the following department was ready to receive the output.</p>
+
+    <p>This approach resulted in significant work-in-progress. The moulding department frequently produced large batches because changing moulds required considerable setup time. The assembly department, however, consumed the components at a much slower rate. Finished moulded components were therefore stored in racks until required.</p>
+
+    <p>Management decided to implement JIT production. The first step was to reduce setup time so that the moulding department could economically produce smaller quantities. The company then introduced a card-based authorisation system. When the assembly department consumed components, a signal was sent to the moulding department indicating the quantity that needed to be replenished.</p>
+
+    <p>The production manager specifically instructed employees not to produce simply because a machine was available. Production was to be authorised by actual downstream requirements. The manager explained that the system was fundamentally different from the earlier approach in which production was pushed according to a predetermined schedule.</p>
+
+    <p>Falcon also introduced manufacturing cells. A small group of machines was placed close together, and employees were trained to operate more than one machine. Workers were expected to identify quality problems immediately and were authorised to stop production when serious abnormalities occurred.</p>
+
+    <p>The purchasing department simultaneously changed its supplier arrangements. Instead of receiving large monthly deliveries, selected suppliers were asked to deliver smaller quantities more frequently at times coordinated with production. Suppliers were evaluated on quality and delivery reliability as well as price.</p>
+
+    <p>Management acknowledged that the new system created a new risk. Since less inventory was held, a delayed supplier delivery could affect production much more quickly than under the previous system. The company therefore emphasised supplier reliability, information systems and preventive maintenance as important supporting conditions.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_013_1",
+        question: "The card-based authorisation sent from assembly to moulding is intended primarily to create:",
+        options: [
+          "A push system",
+          "A pull system",
+          "A traditional budgeting system",
+          "A quality inspection system"
+        ],
+        answer: 1,
+        reason: "The downstream requirement pulls production from the upstream process. This is the basic principle of a Kanban-supported pull system."
+      },
+      {
+        question_id: "AI_c23_cs_013_2",
+        question: "Why was setup-time reduction important when Falcon moved to JIT?",
+        options: [
+          "It permits smaller production batches to be produced economically",
+          "It increases the need for large inventories",
+          "It prevents employees from changing machines",
+          "It eliminates the need for suppliers"
+        ],
+        answer: 0,
+        reason: "JIT seeks smaller batches and frequent production according to demand. Reduced setup time makes frequent changeovers practical."
+      },
+      {
+        question_id: "AI_c23_cs_013_3",
+        question: "Which feature most clearly distinguishes Falcon's new system from its previous production approach?",
+        options: [
+          "Production is triggered by downstream consumption rather than solely by an advance production schedule",
+          "Production is always carried out in larger batches",
+          "Inventory is deliberately increased",
+          "Employees operate only one machine"
+        ],
+        answer: 0,
+        reason: "The new system uses actual downstream requirements to authorise production, which is characteristic of a pull-based JIT system."
+      },
+      {
+        question_id: "AI_c23_cs_013_4",
+        question: "The placement of several machines close together and operation by trained employees is most consistent with:",
+        options: [
+          "Cellular manufacturing",
+          "Over-processing",
+          "Traditional functional layout",
+          "Backflush accounting"
+        ],
+        answer: 0,
+        reason: "Cellular manufacturing groups related machines into small cells and allows operators to handle multiple operations."
+      },
+      {
+        question_id: "AI_c23_cs_013_5",
+        question: "Why does supplier reliability become particularly important after Falcon reduces inventory?",
+        options: [
+          "Lower inventory provides less protection against delivery interruptions",
+          "JIT requires suppliers to hold all materials permanently",
+          "Lower inventory increases warehouse space",
+          "Supplier price becomes irrelevant"
+        ],
+        answer: 0,
+        reason: "With little inventory buffer, a supplier delay can quickly interrupt production. Reliable and timely supplier deliveries are therefore a key JIT prerequisite."
+      }
+    ]
+  },
+
+  {
+    case_id: "AI_c23_cs_014",
+    difficulty: "medium",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["Kaizen Costing", "Cost Reduction", "Value Analysis", "Employee Participation"],
+    caseText: `<p>Crystal Packaging Works produces specialised cartons for consumer-product companies. For several years, the company used a standard costing system under which annual standards were established by the finance department. Production managers were expected to operate within those standards and monthly variance reports were submitted to senior management.</p>
+
+    <p>The system was effective at identifying whether actual material and labour costs differed from established standards. However, the market changed considerably. Customers increasingly demanded lower prices, while competitors introduced packaging designs that used less material. Crystal's employees noticed several recurring sources of waste, but many improvement suggestions were postponed because the existing standards were still being met.</p>
+
+    <p>The CEO decided that the company should introduce Kaizen costing. Rather than asking only whether employees were meeting existing cost standards, management would establish cost-reduction targets for future periods. Teams would be asked to identify small changes capable of reducing actual cost without compromising customer value or product quality.</p>
+
+    <p>One team discovered that cardboard wastage was higher than necessary because sheets were not always positioned efficiently before cutting. Another team discovered that workers were spending excessive time adjusting a machine between product variants. Small changes in sheet positioning and setup procedures produced measurable savings without requiring replacement of the machines.</p>
+
+    <p>Management also changed its approach to target setting. Instead of allowing the finance department to determine all targets independently, employees and supervisors were asked to participate. The CEO believed that workers closest to the production process understood practical constraints and opportunities that might not appear in financial reports.</p>
+
+    <p>The finance manager continued preparing performance reports but changed the emphasis. A team that achieved the existing standard but failed to meet the new cost-reduction target would still be expected to investigate the reasons for the gap. The purpose was not simply to punish employees but to identify additional opportunities for improvement.</p>
+
+    <p>The CEO also explained that Kaizen should not be confused with a radical one-time redesign. The company's approach was based on repeated, small improvements carried out over time. If a major restructuring were required, management would evaluate it separately rather than treating it as ordinary Kaizen.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_014_1",
+        question: "Why was the old standard costing system insufficient by itself for Crystal's new competitive environment?",
+        options: [
+          "It could control costs against standards but did not necessarily force continuous reduction of actual costs",
+          "It could not calculate any costs",
+          "It prevented variance analysis",
+          "It automatically increased waste"
+        ],
+        answer: 0,
+        reason: "Standard costing primarily focuses on cost control against predetermined standards. Kaizen adds a continuous cost-reduction objective."
+      },
+      {
+        question_id: "AI_c23_cs_014_2",
+        question: "The change in sheet positioning that reduces cardboard waste without replacing machinery is best described as:",
+        options: [
+          "Kaizen costing improvement",
+          "Radical BPR",
+          "Process abandonment",
+          "Overproduction"
+        ],
+        answer: 0,
+        reason: "The change is small, incremental and directed toward reducing actual cost, which is characteristic of Kaizen."
+      },
+      {
+        question_id: "AI_c23_cs_014_3",
+        question: "Why does Kaizen encourage employees and supervisors to participate in target setting?",
+        options: [
+          "They possess practical knowledge of processes and can identify achievable improvement opportunities",
+          "They are legally required to approve budgets",
+          "They replace senior management",
+          "They eliminate the need for performance measurement"
+        ],
+        answer: 0,
+        reason: "Kaizen promotes bottom-up participation because people working directly with processes often have valuable knowledge of waste and improvement opportunities."
+      },
+      {
+        question_id: "AI_c23_cs_014_4",
+        question: "If a team meets its old standard but fails to achieve the newly established cost-reduction target, management should primarily:",
+        options: [
+          "Ignore the difference because the old standard was achieved",
+          "Investigate the reasons for the gap and identify further improvement opportunities",
+          "Immediately eliminate the standard costing system",
+          "Increase production regardless of demand"
+        ],
+        answer: 1,
+        reason: "Kaizen focuses on the gap between actual performance and the current improvement target, encouraging investigation and corrective action."
+      },
+      {
+        question_id: "AI_c23_cs_014_5",
+        question: "Which fact would most strongly indicate that a proposed project is not ordinary Kaizen?",
+        options: [
+          "Employees suggest a small reduction in setup time",
+          "Workers reduce material waste through a small layout change",
+          "Management completely redesigns the production system in one major initiative",
+          "A team improves a process every month"
+        ],
+        answer: 2,
+        reason: "Kaizen involves small incremental changes over time. A radical one-off redesign is more consistent with Business Process Re-engineering."
+      }
+    ]
+  },
+
+  {
+    case_id: "AI_c23_cs_015",
+    difficulty: "medium",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["Process Innovation", "Lean", "BPR", "Production Process"],
+    caseText: `<p>Vertex Furniture Systems manufactures modular office furniture. The company had traditionally assembled products using a fixed production line. Over the years, supervisors introduced many small changes to reduce unnecessary movement. Frequently used tools were moved closer to workers, work instructions were improved and some repetitive activities were automated.</p>
+
+    <p>Although these changes reduced assembly time, the fundamental structure of the production process remained unchanged. Products still moved through the same sequence of workstations and each workstation continued to perform essentially the same type of operation.</p>
+
+    <p>Customer requirements subsequently changed. Corporate customers began requesting highly customised furniture configurations in smaller quantities. The existing line was designed for large standardised batches and became increasingly difficult to manage. Work-in-progress increased and workers had to move partially assembled products between temporary locations.</p>
+
+    <p>The operations director proposed developing a new production arrangement based on flexible manufacturing cells. Instead of maintaining the existing line, the company would reorganise equipment and responsibilities around product families. Teams would include employees with multiple skills and would handle a larger portion of the assembly process.</p>
+
+    <p>The finance manager argued that the proposal should be treated simply as another improvement project because the company was still manufacturing the same furniture. The operations director disagreed. He explained that the nature of the product did not determine whether a change was process innovation. What mattered was whether the organisation was implementing a new or significantly improved production or delivery method involving significant changes in techniques, equipment or software.</p>
+
+    <p>The management team also considered whether replacing an old machine with a newer machine of essentially the same type would qualify as process innovation. The operations director explained that simple replacement or extension of existing capital equipment without a significant process change would not automatically meet the definition.</p>
+
+    <p>Management finally approved the flexible-cell project for detailed evaluation while continuing smaller Lean improvements in the existing factory during the transition period.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_015_1",
+        question: "The earlier movement of tools closer to workers without changing the basic production structure is best viewed as:",
+        options: [
+          "Incremental process improvement",
+          "Mandatory process innovation",
+          "DMADV",
+          "Supplier development"
+        ],
+        answer: 0,
+        reason: "Small improvements to an existing process without significant structural change are incremental process improvements."
+      },
+      {
+        question_id: "AI_c23_cs_015_2",
+        question: "Why could the proposed flexible-cell system potentially qualify as process innovation?",
+        options: [
+          "It changes only the selling price",
+          "It may introduce a significantly different production method and organisation of production",
+          "It merely replaces an identical machine",
+          "It eliminates the need for production"
+        ],
+        answer: 1,
+        reason: "A significantly different production method involving changes in equipment, techniques and process structure can qualify as process innovation."
+      },
+      {
+        question_id: "AI_c23_cs_015_3",
+        question: "Which proposed change would NOT automatically qualify as process innovation?",
+        options: [
+          "Introducing a significantly new production technique",
+          "Redesigning the production method using flexible cells",
+          "Replacing an old machine with a substantially similar machine without significant process change",
+          "Introducing significantly improved production software"
+        ],
+        answer: 2,
+        reason: "Simple replacement or extension of existing capital equipment without significant process change is excluded from process innovation."
+      },
+      {
+        question_id: "AI_c23_cs_015_4",
+        question: "The increasing difficulty caused by small customised orders indicates a limitation of the original production arrangement primarily related to:",
+        options: [
+          "Flexibility",
+          "Customer value measurement only",
+          "Accounting standards",
+          "Backflush accounting"
+        ],
+        answer: 0,
+        reason: "A fixed high-volume production line may struggle when product variety and customisation increase, making flexibility a central concern."
+      },
+      {
+        question_id: "AI_c23_cs_015_5",
+        question: "Why did management continue smaller Lean improvements while evaluating the larger production redesign?",
+        options: [
+          "Lean improvements and larger process innovation can address different levels of operational problems",
+          "Lean prohibits major changes",
+          "Process innovation automatically replaces Lean",
+          "Kaizen and process innovation cannot coexist"
+        ],
+        answer: 0,
+        reason: "Lean/Kaizen can address immediate waste and incremental improvements, while a larger redesign may be evaluated separately as process innovation."
+      }
+    ]
+  },
+
+  // ============================================================
+  // HARD CASES
+  // ============================================================
+
+  {
+    case_id: "AI_c23_cs_016",
+    difficulty: "hard",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["JIT", "Backflush Accounting", "Kanban", "Supplier Risk", "Inventory", "Quality"],
+    caseText: `<p>Orion Electronics manufactures control boards for industrial equipment. For many years, Orion maintained substantial stocks of electronic components because purchasing management believed that uninterrupted production was more important than inventory cost. Materials were delivered to a central warehouse, counted by receiving personnel, inspected and then issued to production using detailed material requisitions.</p>
+
+    <p>The company's inventory value became increasingly difficult to justify. Components with short technological life cycles sometimes became obsolete before being consumed. In addition, the warehouse required significant space and employees spent considerable time receiving, inspecting, storing and moving materials. A new operations director proposed a JIT purchasing system under which selected suppliers would deliver smaller quantities directly to the production floor according to production requirements.</p>
+
+    <p>After a pilot programme, Orion found that material-handling activities had fallen considerably. The purchasing team also established electronic communication links with suppliers so that changes in requirements could be transmitted quickly. Suppliers were evaluated based on delivery reliability, quality consistency and responsiveness rather than purchase price alone.</p>
+
+    <p>Because deliveries were frequent, the finance department found it difficult to maintain the previous paperwork-intensive receiving system. Management therefore proposed backflush accounting. Under this arrangement, detailed recording of every material movement would be reduced, and component consumption would be calculated from completed production quantities and the bill of materials.</p>
+
+    <p>The financial controller agreed that the approach could reduce administrative effort but highlighted a serious issue. If the production department incorrectly reported that 10,000 boards had been completed when only 9,500 were actually completed, the accounting system would calculate component consumption using the incorrect production figure. Similarly, abnormal scrap that was not separately identified could distort the calculated material usage.</p>
+
+    <p>The controller also explained that backflushing could make detailed lot tracing difficult. If the organisation needed to trace a specific batch of components to individual finished units, additional identification and software systems might be necessary. Management therefore could not treat the accounting simplification as risk-free.</p>
+
+    <p>During the pilot, one major supplier experienced repeated quality problems. The purchasing manager argued that changing suppliers would increase purchase prices. The production manager calculated that the supplier's defects were causing line stoppages, additional inspections and rework. Since Orion now held very little safety stock, the consequences of poor supplier performance were becoming more immediate.</p>
+
+    <p>Management finally concluded that successful JIT implementation required reliable suppliers, accurate production reporting, high-quality incoming materials, effective information systems and disciplined employees. The accounting system could support the new operating model only if these conditions were maintained.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_016_1",
+        question: "Why would incorrect production reporting create a problem under Orion's proposed backflush system?",
+        options: [
+          "Backflush accounting does not use production quantities",
+          "Incorrect completed production quantities would lead to incorrect BOM-based component consumption",
+          "Supplier deliveries would automatically stop",
+          "Inventory would automatically become zero"
+        ],
+        answer: 1,
+        reason: "Backflush accounting derives material usage from completed production and the BOM. Incorrect production reporting therefore directly distorts calculated consumption."
+      },
+      {
+        question_id: "AI_c23_cs_016_2",
+        question: "Why must abnormal scrap be separately identified under the system described?",
+        options: [
+          "Otherwise normal BOM consumption may fail to capture the abnormal loss correctly",
+          "Scrap automatically becomes finished goods",
+          "Scrap has no effect on material consumption",
+          "Backflush accounting records every scrap movement individually"
+        ],
+        answer: 0,
+        reason: "Backflush calculations generally reflect expected component consumption based on finished output. Abnormal scrap requires separate identification so that inventory and cost information is not distorted."
+      },
+      {
+        question_id: "AI_c23_cs_016_3",
+        question: "Which statement best explains why the supplier's low purchase price was not sufficient to justify retaining the supplier?",
+        options: [
+          "JIT supplier selection must consider quality and reliable delivery as well as price",
+          "JIT prohibits negotiating prices",
+          "Supplier price has no importance under any purchasing system",
+          "Low prices automatically create overproduction"
+        ],
+        answer: 0,
+        reason: "JIT depends on reliable, high-quality suppliers because inventory buffers are reduced. Defects and delays can create much larger operational costs."
+      },
+      {
+        question_id: "AI_c23_cs_016_4",
+        question: "The difficulty of tracing a particular component batch to specific finished units is a potential:",
+        options: [
+          "Benefit of backflushing",
+          "Problem associated with backflushing",
+          "Benefit of overproduction",
+          "Feature of Kaizen costing"
+        ],
+        answer: 1,
+        reason: "Backflush accounting can make detailed lot tracing difficult because material movements are not necessarily recorded at each stage."
+      },
+      {
+        question_id: "AI_c23_cs_016_5",
+        question: "Which combination represents the strongest operational foundation for Orion's JIT system?",
+        options: [
+          "High inventory, unreliable suppliers and manual reporting",
+          "Reliable suppliers, accurate information, quality materials and disciplined production reporting",
+          "Large batches, long setup times and high safety stock",
+          "Unpredictable demand and frequent supplier failures"
+        ],
+        answer: 1,
+        reason: "JIT requires reliable suppliers, quality materials, efficient information systems, accurate production data and disciplined processes because inventory buffers are deliberately reduced."
+      }
+    ]
+  },
+
+  {
+    case_id: "AI_c23_cs_017",
+    difficulty: "hard",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["TPM", "OEE", "Availability", "Performance", "Quality", "Six Big Losses"],
+    caseText: `<p>ZenTech Manufacturing operates a high-speed packaging machine for 12 hours during a production shift. The machine is scheduled for production for 665 minutes after deducting planned breaks and routine cleaning. During the shift, the machine experiences 36 minutes of unplanned downtime. Operators report that the machine frequently runs below its ideal speed because increasing speed causes minor jams. In addition, quality inspection identifies a number of defective packages at the end of the shift.</p>
+
+    <p>During the shift, the machine produces 3,360 units. Out of these, 75 units are rejected. The ideal cycle time is 10 seconds per unit. The production manager considers the shift successful because the line produced more than 3,000 units. The TPM team, however, argues that production quantity alone does not provide sufficient information about equipment effectiveness.</p>
+
+    <p>The team calculates availability using operating time compared with planned production time. It calculates performance by comparing ideal cycle time and total production with actual operating time. Quality is calculated using good units compared with total units produced. The three components are then multiplied to determine OEE.</p>
+
+    <p>The analysis shows that availability is above 90%, but performance is lower than management's desired level. Quality is also below the ideal target. Further investigation reveals that operators deliberately reduce speed to prevent frequent jams. These jams are often corrected quickly and therefore had not been systematically recorded in the past.</p>
+
+    <p>The TPM team classifies breakdowns and setup losses as availability losses, minor stoppages and reduced speed as performance losses, and defective output and rework as quality losses. Management realises that improving only breakdown frequency will not necessarily bring OEE to the desired level because the machine's performance and quality losses remain significant.</p>
+
+    <p>The company introduces autonomous maintenance, with operators carrying out cleaning, lubrication, inspection and tightening activities. Maintenance engineers introduce preventive maintenance and investigate recurring minor stoppages. Employees are trained to recognise abnormal conditions and report them immediately rather than relying on informal workarounds.</p>
+
+    <p>After several months, availability improves significantly. However, performance remains below expectations because the underlying process still causes jams at higher operating speeds. Management therefore begins a focused improvement programme to identify and eliminate the root causes of the jams instead of simply instructing operators to work faster.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_017_1",
+        question: "What is the operating time available to the machine during the shift?",
+        options: [
+          "601 minutes",
+          "629 minutes",
+          "665 minutes",
+          "701 minutes"
+        ],
+        answer: 1,
+        reason: "Operating time = planned production time − unplanned downtime = 665 − 36 = 629 minutes."
+      },
+      {
+        question_id: "AI_c23_cs_017_2",
+        question: "The machine's frequent operation below ideal speed primarily affects which OEE component?",
+        options: [
+          "Availability",
+          "Performance",
+          "Quality",
+          "Planned production time"
+        ],
+        answer: 1,
+        reason: "Operating below the ideal cycle rate reduces the performance component of OEE."
+      },
+      {
+        question_id: "AI_c23_cs_017_3",
+        question: "Why did the TPM team classify the recurring short jams differently from major breakdowns?",
+        options: [
+          "Short recurring interruptions are minor stoppages, whereas major failures are breakdown losses",
+          "All downtime is classified as quality loss",
+          "Minor stoppages are inventory losses",
+          "Breakdowns have no effect on OEE"
+        ],
+        answer: 0,
+        reason: "The six big losses distinguish equipment breakdowns from idling/minor stoppages. Minor stoppages are generally performance-related."
+      },
+      {
+        question_id: "AI_c23_cs_017_4",
+        question: "Which TPM activity is most directly represented by operators performing cleaning, lubrication and inspection?",
+        options: [
+          "Autonomous Maintenance",
+          "Early Management",
+          "Office TPM",
+          "Quality Maintenance only"
+        ],
+        answer: 0,
+        reason: "Autonomous Maintenance gives production employees an active role in routine equipment care and inspection."
+      },
+      {
+        question_id: "AI_c23_cs_017_5",
+        question: "Why would increasing machine speed immediately, without addressing the cause of jams, be an inappropriate long-term response?",
+        options: [
+          "It could increase performance without addressing the underlying process instability and may worsen defects or stoppages",
+          "Higher speed automatically increases quality",
+          "TPM prohibits machine operation",
+          "Performance is unrelated to speed"
+        ],
+        answer: 0,
+        reason: "The case shows that reduced speed is a symptom of recurring jams. Simply forcing higher speed without addressing the root cause may increase stoppages and defects rather than create sustainable improvement."
+      }
+    ]
+  },
+
+  {
+    case_id: "AI_c23_cs_018",
+    difficulty: "hard",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["Cellular Manufacturing", "Production Flow Analysis", "Clustering", "Machine-Part Families", "Flexibility"],
+    caseText: `<p>Global Machining Industries produces more than 40 varieties of industrial components. Its factory was originally designed around functional departments. Drilling machines were grouped together, followed by milling, turning and grinding departments. The arrangement simplified departmental supervision, but products frequently travelled long distances between machines.</p>
+
+    <p>A production study showed that a typical component might travel from the turning department to milling, return to turning for another operation, move to grinding and then travel back toward inspection. Between operations, batches accumulated because each department preferred to run large quantities to maintain machine utilisation. The production manager initially viewed the large batches as efficient, but the lean team found that they increased work-in-progress and flow time.</p>
+
+    <p>Management decided to investigate cellular manufacturing. Engineers classified parts according to similarities in their design and manufacturing requirements. They then prepared a machine-part matrix showing which machines were required by each part. The objective was to group parts into families and machines into cells so that material movement could be reduced.</p>
+
+    <p>The engineering team considered applying Rank Order Clustering to the matrix. Binary weights were assigned to columns and rows were ranked according to their decimal equivalents. Columns were subsequently ranked using corresponding row weights. The process would be repeated until the arrangement became stable.</p>
+
+    <p>However, the analysis did not produce a perfect block-diagonal arrangement. One machine was required by parts belonging to two different families. Another part required a machine located outside the proposed cell. In addition, one proposed cell contained a machine that would become a bottleneck during periods of high demand.</p>
+
+    <p>The operations director warned that mathematical clustering alone could not determine the final factory design. Machine distance, bottlenecks, part routing, cell load variation, inter-cell movement and future demand all had to be considered. A cell that looked mathematically efficient could create operational problems if demand changed substantially.</p>
+
+    <p>The final design therefore created several cells for stable product families while retaining selected shared machines. Operators within each cell were trained to perform multiple operations and inspect quality continuously. The arrangement reduced average movement and work-in-progress, but management recognised that periodic reassessment would be necessary because customer demand and product mix could change.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_018_1",
+        question: "Why did the functional layout contribute to increased product travel in Global Machining?",
+        options: [
+          "Machines were grouped according to function rather than according to product families and flow",
+          "Every product required only one operation",
+          "There was no work-in-progress",
+          "Cells automatically increase travel distance"
+        ],
+        answer: 0,
+        reason: "Functional layouts group similar machines together. Products requiring multiple processes must therefore travel between functional departments."
+      },
+      {
+        question_id: "AI_c23_cs_018_2",
+        question: "What is the principal purpose of grouping parts into families during cellular manufacturing design?",
+        options: [
+          "To identify parts with similar manufacturing requirements that can be processed through related machine groups",
+          "To increase unnecessary transportation",
+          "To eliminate all employees",
+          "To determine financial accounting standards"
+        ],
+        answer: 0,
+        reason: "Part-family formation allows machines and processes serving similar products to be grouped into manufacturing cells."
+      },
+      {
+        question_id: "AI_c23_cs_018_3",
+        question: "Why was the imperfect block-diagonal matrix not necessarily a reason to abandon cellular manufacturing?",
+        options: [
+          "Exceptional elements and shared machines can be managed through practical cell design and selective shared resources",
+          "All matrices must be perfect",
+          "Cells never require machines",
+          "Clustering automatically eliminates bottlenecks"
+        ],
+        answer: 0,
+        reason: "Real manufacturing systems often contain exceptional machines or parts. Practical cell design can retain shared resources where complete separation is not feasible."
+      },
+      {
+        question_id: "AI_c23_cs_018_4",
+        question: "Why did the operations director say mathematical clustering alone was insufficient?",
+        options: [
+          "Real implementation also requires consideration of bottlenecks, distance, routing, load variation and changing demand",
+          "Mathematical models cannot group machines",
+          "Cellular manufacturing has no operational considerations",
+          "Only finance can design cells"
+        ],
+        answer: 0,
+        reason: "Cell formation must consider practical operational constraints beyond the clustering result, including bottlenecks, machine locations, demand variation and inter-cell movement."
+      },
+      {
+        question_id: "AI_c23_cs_018_5",
+        question: "Which statement best reflects the major flexibility concern identified in the case?",
+        options: [
+          "Cells may require costly realignment when product mix or demand changes substantially",
+          "Cells always increase flexibility regardless of circumstances",
+          "Cellular manufacturing eliminates product variety",
+          "Functional layouts can never be changed"
+        ],
+        answer: 0,
+        reason: "Cellular manufacturing can improve flow and flexibility within suitable product families, but significant changes in demand or product mix may require costly cell reconfiguration."
+      }
+    ]
+  },
+
+  {
+    case_id: "AI_c23_cs_019",
+    difficulty: "hard",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["Six Sigma", "DMAIC", "DMADV", "Lean Six Sigma", "Process Innovation", "Customer Satisfaction"],
+    caseText: `<p>Horizon Financial Services operated a customer-support process that had been developed several years earlier. Customers could contact the company by telephone or online forms, after which service requests were transferred among customer-service representatives, specialist teams and back-office departments. Over time, additional approval steps had been added whenever a new problem occurred.</p>
+
+    <p>The company began receiving increasing complaints about slow response times and repeated requests for information. Management initially proposed replacing the entire customer-service platform. However, the quality director insisted that the organisation first understand whether the existing process itself was causing the problem.</p>
+
+    <p>A Six Sigma team was formed. In the Define stage, the team documented customer expectations and established an objective to reduce response time and processing errors. During Measure, it collected data on response times, transfer frequency, incomplete requests, repeat contacts and errors in customer information.</p>
+
+    <p>The analysis showed that many delays were caused by unnecessary hand-offs. In addition, different teams interpreted the same request differently and customers were sometimes asked to submit information that another internal department already possessed. The team concluded that replacing the technology alone would not solve the problem.</p>
+
+    <p>The company redesigned responsibilities, removed several unnecessary hand-offs and standardised information requirements. After implementation, customer response time improved. The organisation then introduced ongoing monitoring to ensure that the process continued to operate within the desired limits.</p>
+
+    <p>Separately, Horizon's strategy team proposed launching an entirely new digital financial advisory service. The service would use a new technology platform, involve multiple departments and target customers whose behaviour was expected to differ from existing customers. Competitors were already introducing similar services, and management expected technology capabilities to change rapidly.</p>
+
+    <p>The Six Sigma leader explained that the existing customer-support project and the new advisory-service project should not automatically be treated using the same methodology. The first project involved an existing process requiring improvement. The second involved designing a new service and related processes under changing customer and technology conditions.</p>
+
+    <p>Management therefore decided to continue using DMAIC for the existing customer-support process while using DMADV principles for the new service. At the same time, Lean techniques would be incorporated into the existing process to remove unnecessary hand-offs, waiting and other non-value-added activities.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_019_1",
+        question: "Why was the Six Sigma team's first reaction not to replace the entire customer-service platform?",
+        options: [
+          "The team wanted to first measure and analyse the existing process to identify actual causes of poor performance",
+          "Six Sigma prohibits technology",
+          "Technology cannot influence customer service",
+          "DMAIC is used only for new products"
+        ],
+        answer: 0,
+        reason: "DMAIC begins by defining the problem and measuring and analysing the existing process before implementing improvements."
+      },
+      {
+        question_id: "AI_c23_cs_019_2",
+        question: "The discovery that unnecessary hand-offs were causing delays belongs primarily to which stage?",
+        options: [
+          "Define",
+          "Measure",
+          "Analyse",
+          "Control"
+        ],
+        answer: 2,
+        reason: "Identifying root causes from measured process information is the role of the Analyse stage."
+      },
+      {
+        question_id: "AI_c23_cs_019_3",
+        question: "The redesign of responsibilities and removal of unnecessary hand-offs are primarily associated with:",
+        options: [
+          "Improve",
+          "Define",
+          "Measure",
+          "Analyse"
+        ],
+        answer: 0,
+        reason: "After causes are identified, corrective changes are implemented during the Improve stage."
+      },
+      {
+        question_id: "AI_c23_cs_019_4",
+        question: "Why is DMADV more appropriate for Horizon's proposed new advisory service?",
+        options: [
+          "The service and related processes do not yet exist and must be designed under changing conditions",
+          "The existing process has already been measured",
+          "DMADV is used whenever inventory is high",
+          "The bank wants to reduce only one existing defect"
+        ],
+        answer: 0,
+        reason: "DMADV is designed for developing a new product or process, particularly where an existing process cannot simply be improved to meet the desired requirements."
+      },
+      {
+        question_id: "AI_c23_cs_019_5",
+        question: "What additional contribution does Lean make to the existing Six Sigma project in this case?",
+        options: [
+          "It focuses on removing non-value-added activities such as unnecessary hand-offs and waiting",
+          "It replaces all statistical analysis",
+          "It focuses only on financial reporting",
+          "It requires increasing work-in-progress"
+        ],
+        answer: 0,
+        reason: "Lean complements Six Sigma by focusing on waste elimination, flow and customer value, while Six Sigma focuses strongly on defects, variation and data-driven process improvement."
+      }
+    ]
+  },
+  {
+    case_id: "AI_c23_cs_020",
+    difficulty: "medium",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["Lean System", "Seven Wastes", "Customer Value", "Value Chain", "Waste Reduction"],
+    caseText: `<p>Riviera Industrial Pumps Limited manufactures pumps used by chemical processing companies. The company had historically measured the performance of its factory largely through machine utilisation and departmental output. The machining department was rewarded when its machines operated for a high percentage of available time, while the assembly department was expected to achieve its monthly production target. The stores department maintained substantial quantities of commonly used components because managers believed that availability of materials was essential for maintaining production.</p>
+
+    <p>Over the previous two years, however, customer complaints about delivery delays had increased. This surprised senior management because the factory was producing almost the same number of pumps as before. The production head initially suggested purchasing additional machines. Before approving the investment, the CEO appointed a lean manager to investigate the complete flow of a pump from receipt of material to delivery to the customer.</p>
+
+    <p>The lean manager discovered that machining frequently produced components in large batches because changing machine settings took considerable time. The assembly department did not immediately require all the components produced. Consequently, large quantities remained in racks between machining and assembly. Some components remained there for several days, and in a few instances engineering changes made certain components unusable before assembly.</p>
+
+    <p>While observing the factory, the lean manager also noticed that operators frequently walked across the shop floor to obtain tools and measuring instruments. Material handlers moved containers between distant departments. At one stage, a batch was moved to an intermediate storage location even though the next operation was scheduled to begin shortly. The movement was made because the designated area near the next operation was already occupied by another batch.</p>
+
+    <p>Quality problems created additional movement. A dimensional error was sometimes discovered only after assembly had started. The partially assembled pump then had to be dismantled and returned to machining for correction. This caused rework, additional inspection and further transportation.</p>
+
+    <p>The lean manager explained that the problem could not be solved merely by increasing machine utilisation. Producing more components when the downstream process did not require them could actually increase waste. The company therefore began analysing the value chain from the customer's perspective. Activities that did not create customer value were identified and improvement teams were formed.</p>
+
+    <p>The company subsequently reduced batch sizes, rearranged frequently used tools, moved related activities closer together and introduced earlier defect detection. Employees were also encouraged to report unnecessary activities. Management's objective was to reduce waste without sacrificing productivity or customer value.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_020_1",
+        question: "The machining department producing large batches even when assembly did not require the components immediately primarily represents:",
+        options: [
+          "Waiting",
+          "Overproduction",
+          "Motion",
+          "Defects"
+        ],
+        answer: 1,
+        reason: "Production in excess of actual downstream/customer requirement is overproduction. The case specifically states that components were produced before they were required."
+      },
+      {
+        question_id: "AI_c23_cs_020_2",
+        question: "The components remaining in racks for several days before assembly represent which waste?",
+        options: [
+          "Waiting",
+          "Motion",
+          "Over-processing",
+          "Transportation"
+        ],
+        answer: 0,
+        reason: "Products or work-in-progress waiting for the next production step represent waiting waste."
+      },
+      {
+        question_id: "AI_c23_cs_020_3",
+        question: "The operators repeatedly walking across the factory to obtain measuring instruments is an example of:",
+        options: [
+          "Inventory",
+          "Motion",
+          "Overproduction",
+          "Defects"
+        ],
+        answer: 1,
+        reason: "Unnecessary movement of people or equipment is classified as motion waste."
+      },
+      {
+        question_id: "AI_c23_cs_020_4",
+        question: "Why did the lean manager reject the idea that increasing machine utilisation alone would solve the company's delivery problem?",
+        options: [
+          "High utilisation can increase output that is not immediately required and thereby create additional waste",
+          "Lean requires machines to remain idle",
+          "Machine utilisation is never relevant to production",
+          "Customer delivery has no relationship with production flow"
+        ],
+        answer: 0,
+        reason: "Lean evaluates the entire value chain. Maximising an individual machine's utilisation can create overproduction, inventory and waiting elsewhere in the process."
+      },
+      {
+        question_id: "AI_c23_cs_020_5",
+        question: "The decision to reduce batch sizes and move related activities closer together is primarily intended to:",
+        options: [
+          "Increase unnecessary inventory",
+          "Improve flow and reduce non-value-added activities",
+          "Increase transportation",
+          "Delay defect identification"
+        ],
+        answer: 1,
+        reason: "Smaller batches and improved process flow can reduce waiting, inventory, transportation and other forms of waste."
+      }
+    ]
+  },
+
+  {
+    case_id: "AI_c23_cs_021",
+    difficulty: "medium",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["5S", "Sort", "Set in Order", "Shine", "Standardize", "Sustain"],
+    caseText: `<p>Eastern Legal Services maintained a large document-processing centre handling contracts, regulatory documents and client correspondence. Although the organisation had recently introduced digital document management, employees continued to keep substantial numbers of physical files. Senior management noticed that employees frequently spent several minutes searching for documents and sometimes worked from outdated versions.</p>
+
+    <p>A preliminary review showed that cabinets contained expired client files, duplicate copies, old forms and documents belonging to other departments. Some employees kept files on their desks because they believed that they might need them later, even though those documents were rarely accessed.</p>
+
+    <p>The operations manager decided to implement 5S. Teams first examined documents and divided them according to whether they were no longer required, required but not immediately, required but belonging elsewhere, or required in limited quantities. Items that were clearly unnecessary were removed according to the firm's retention policy. Questionable items were identified using visual tags and given deadlines for further action.</p>
+
+    <p>Once the unnecessary files had been removed, the firm reorganised the remaining documents. Frequently used forms were stored close to employees who needed them regularly. Cabinets were labelled and folders were indexed. A standard naming system was introduced for electronic files so that employees could locate the correct version without asking colleagues.</p>
+
+    <p>The firm then introduced a daily cleaning and checking routine. Employees were required to maintain their workstations and review shared folders for duplicate or obsolete files. During this activity, employees discovered that some old digital templates contained incorrect regulatory references.</p>
+
+    <p>Management documented the improved practices and introduced standard procedures for document storage, naming and maintenance. Each area was assigned an owner. Periodic audits were introduced, and photographs showing the expected condition of selected work areas were displayed for comparison.</p>
+
+    <p>The operations manager warned that the programme would not be successful if employees treated it as a one-time cleaning campaign. Regular training, monitoring and employee discipline would be necessary to ensure that the new practices continued.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_021_1",
+        question: "The initial removal of expired and clearly unnecessary files corresponds to:",
+        options: [
+          "Sort",
+          "Set in Order",
+          "Shine",
+          "Standardize"
+        ],
+        answer: 0,
+        reason: "Sort involves identifying unnecessary items and removing them from the workplace."
+      },
+      {
+        question_id: "AI_c23_cs_021_2",
+        question: "The introduction of labelled cabinets and indexed folders primarily represents:",
+        options: [
+          "Sort",
+          "Set in Order",
+          "Shine",
+          "Sustain"
+        ],
+        answer: 1,
+        reason: "Set in Order means arranging required items systematically so that they can be accessed efficiently."
+      },
+      {
+        question_id: "AI_c23_cs_021_3",
+        question: "The discovery of outdated digital templates during the daily checking activity demonstrates that Shine is not limited to:",
+        options: [
+          "Physical cleanliness and can also involve inspection for abnormalities",
+          "Inventory valuation",
+          "Financial reporting",
+          "Supplier selection"
+        ],
+        answer: 0,
+        reason: "Shine involves cleaning as well as inspection. In the case, checking digital and physical work areas helped identify abnormalities."
+      },
+      {
+        question_id: "AI_c23_cs_021_4",
+        question: "Documenting the improved practices into standard procedures corresponds to:",
+        options: [
+          "Sort",
+          "Shine",
+          "Standardize",
+          "Set in Order"
+        ],
+        answer: 2,
+        reason: "Standardize converts successful practices into consistent procedures and standards."
+      },
+      {
+        question_id: "AI_c23_cs_021_5",
+        question: "The assignment of area ownership, audits and continuing training primarily support:",
+        options: [
+          "Sort",
+          "Set in Order",
+          "Shine",
+          "Sustain"
+        ],
+        answer: 3,
+        reason: "Sustain ensures that 5S becomes a continuing discipline through ownership, audits, training, monitoring and recognition."
+      }
+    ]
+  },
+
+  {
+    case_id: "AI_c23_cs_022",
+    difficulty: "medium",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["JIT", "Kanban", "Pull Production", "Cellular Manufacturing", "Multi-skilled Workers"],
+    caseText: `<p>PrimeTech Components manufactures small electrical assemblies used in industrial control panels. Production had traditionally been organised around large weekly batches. The planning department issued production orders at the beginning of each week, and each department attempted to complete its scheduled quantity regardless of whether the next department needed the output immediately.</p>
+
+    <p>The result was a large amount of work-in-progress. The cutting department often produced enough components for several days because changing cutting settings was considered inefficient. The assembly department, however, consumed the components in much smaller quantities. Large quantities therefore accumulated between the two operations.</p>
+
+    <p>Management decided to introduce JIT production. Setup times were studied carefully and several adjustments were made to reduce the time required to change from one component type to another. This allowed the company to produce smaller batches without suffering excessive setup costs.</p>
+
+    <p>A card-based signalling system was then introduced. When the assembly department consumed a specified quantity of components, a signal was sent to the cutting department. The cutting department was authorised to replenish only the quantity represented by the signal. Workers were specifically told not to produce additional units merely because machines were available.</p>
+
+    <p>PrimeTech also reorganised several machines into small cells. Each cell contained machines needed for a related group of products. Operators were trained to operate more than one machine and were given responsibility for identifying abnormalities. They were also trained in limited routine maintenance activities.</p>
+
+    <p>One operator noticed that a machine was producing components with an unusual edge condition. Under the old system, production might have continued until the end of the batch. Under the new system, the operator stopped the process and called maintenance personnel. Management supported the decision because continuing production would have created a larger quantity of defective components.</p>
+
+    <p>The purchasing department simultaneously began working with a smaller group of reliable suppliers. Suppliers were expected to deliver materials at agreed times and quantities. Management recognised that lower inventory meant that supplier failures could affect production quickly, so supplier quality and delivery reliability became important evaluation criteria.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_022_1",
+        question: "The signalling card used by assembly to authorise replenishment from cutting is an example of:",
+        options: [
+          "Kanban",
+          "Standard costing",
+          "Backflush accounting",
+          "BPR"
+        ],
+        answer: 0,
+        reason: "Kanban uses a downstream signal or card to authorise upstream production, supporting a pull system."
+      },
+      {
+        question_id: "AI_c23_cs_022_2",
+        question: "The reduction of setup time supports JIT primarily because it:",
+        options: [
+          "Makes smaller batches more practical",
+          "Requires more safety stock",
+          "Eliminates supplier relationships",
+          "Increases batch sizes"
+        ],
+        answer: 0,
+        reason: "JIT favours smaller batches and frequent production according to actual requirements. Lower setup time makes this economically feasible."
+      },
+      {
+        question_id: "AI_c23_cs_022_3",
+        question: "Why did management instruct workers not to produce simply because machine capacity was available?",
+        options: [
+          "To prevent production without downstream demand",
+          "To increase overproduction",
+          "To maintain maximum inventory",
+          "To create more waiting time"
+        ],
+        answer: 0,
+        reason: "A pull system produces according to actual downstream requirements rather than pushing output merely because capacity is available."
+      },
+      {
+        question_id: "AI_c23_cs_022_4",
+        question: "The operator's ability to operate several machines and perform limited maintenance illustrates:",
+        options: [
+          "A multi-skilled JIT workforce",
+          "Traditional one-machine specialisation",
+          "Over-processing",
+          "Supplier integration only"
+        ],
+        answer: 0,
+        reason: "JIT requires multi-skilled employees who can operate multiple machines, identify defects and undertake limited maintenance."
+      },
+      {
+        question_id: "AI_c23_cs_022_5",
+        question: "Why is supplier reliability especially important under PrimeTech's new system?",
+        options: [
+          "Reduced inventory provides less protection against supplier delays",
+          "JIT requires large warehouses",
+          "Supplier quality is irrelevant when inventory is low",
+          "JIT eliminates purchasing"
+        ],
+        answer: 0,
+        reason: "JIT reduces inventory buffers, making the production system more sensitive to supplier delivery and quality failures."
+      }
+    ]
+  },
+
+  {
+    case_id: "AI_c23_cs_023",
+    difficulty: "medium",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["Kaizen Costing", "Continuous Improvement", "Cost Reduction", "Standard Costing"],
+    caseText: `<p>Sunrise Consumer Products manufactures plastic containers for food-processing companies. The company had traditionally relied on annual standard costing. At the beginning of each financial year, the finance department established standard material usage, labour requirements and overhead rates. Production managers were evaluated partly on whether actual costs remained within the established standards.</p>
+
+    <p>Initially, the system worked effectively. However, competitors began offering similar containers at lower prices. Customers were also becoming increasingly sensitive to material usage because many customers wanted lighter packaging. Sunrise's employees frequently suggested ways to reduce plastic waste and machine setup time, but these suggestions were not systematically incorporated into the annual standard-setting process.</p>
+
+    <p>The CEO decided to introduce Kaizen costing. Instead of considering the existing standard as the final acceptable cost, management would establish a cost-reduction target for the next period. Teams would then investigate small changes that could help achieve the target.</p>
+
+    <p>One production team noticed that plastic sheets were positioned differently by different operators. After several trials, the team developed a more consistent positioning method that reduced material waste. Another team redesigned the sequence of routine machine adjustments and reduced setup time without purchasing new equipment.</p>
+
+    <p>Management then changed the target-setting process. Supervisors and employees were invited to participate in establishing realistic improvement targets. The finance department continued to measure actual performance but began reporting the gap between actual cost and the current Kaizen target rather than treating the old annual standard as the only benchmark.</p>
+
+    <p>Some employees initially worried that the continuous reduction targets would make their work more difficult. Management explained that Kaizen was not about imposing unrealistic reductions from above. The objective was to use the knowledge of employees, supervisors and other functions to identify achievable improvements and eliminate waste gradually.</p>
+
+    <p>The CEO also clarified that Kaizen was different from a radical redesign. If the company decided to completely replace its manufacturing system with a fundamentally different production method, that project would be evaluated separately. Kaizen was intended to continue through small improvements over time.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_023_1",
+        question: "The annual standard costing system primarily focused on:",
+        options: [
+          "Cost control against predetermined standards",
+          "Continuous incremental cost reduction only",
+          "Designing entirely new products",
+          "Eliminating all variance reports"
+        ],
+        answer: 0,
+        reason: "Standard costing establishes predetermined standards and compares actual costs with those standards for cost control."
+      },
+      {
+        question_id: "AI_c23_cs_023_2",
+        question: "The improved plastic-sheet positioning method represents:",
+        options: [
+          "Kaizen improvement",
+          "Radical BPR",
+          "Overproduction",
+          "Process abandonment"
+        ],
+        answer: 0,
+        reason: "The improvement is small, incremental and designed to reduce waste and cost."
+      },
+      {
+        question_id: "AI_c23_cs_023_3",
+        question: "Why did Sunrise involve employees in setting Kaizen targets?",
+        options: [
+          "Employees and supervisors possess practical process knowledge that can help identify achievable improvements",
+          "Employees must legally approve standards",
+          "Employees replace the finance department",
+          "Kaizen does not use targets"
+        ],
+        answer: 0,
+        reason: "Kaizen encourages bottom-up participation because employees closest to the process can identify practical opportunities and constraints."
+      },
+      {
+        question_id: "AI_c23_cs_023_4",
+        question: "Under the new system, a comparison between actual cost and the current Kaizen target is primarily intended to:",
+        options: [
+          "Identify the remaining cost-reduction gap and investigate improvement opportunities",
+          "Prove that no further improvement is possible",
+          "Increase inventory",
+          "Replace all financial information"
+        ],
+        answer: 0,
+        reason: "Kaizen costing focuses on continuously reducing actual cost and examining gaps against improvement targets."
+      },
+      {
+        question_id: "AI_c23_cs_023_5",
+        question: "Which proposal would be least consistent with the Kaizen philosophy described?",
+        options: [
+          "A small monthly reduction in material waste",
+          "Employee suggestions to reduce setup time",
+          "A gradual improvement in work methods",
+          "A one-time radical replacement of the entire production system"
+        ],
+        answer: 3,
+        reason: "Kaizen involves small, continuous and incremental improvements. A radical one-time redesign is more consistent with BPR."
+      }
+    ]
+  },
+
+  {
+    case_id: "AI_c23_cs_024",
+    difficulty: "medium",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["Six Sigma", "DMAIC", "Customer Feedback", "Defect Reduction"],
+    caseText: `<p>ClearPath Insurance Services had operated a claims-processing system for several years. Customers were increasingly complaining that simple claims took too long to settle. Some customers received requests for documents that they had already submitted, while others were asked to correct information that had been entered incorrectly by employees.</p>
+
+    <p>Management decided to initiate a Six Sigma project. Rather than immediately changing the software, the project team first documented the customer problem and established the objective of reducing claim-processing time and errors.</p>
+
+    <p>The team then collected data from several branches. It recorded the number of claims processed, average processing time, number of document-related errors, number of transfers between departments and number of claims returned for correction. The data showed considerable variation between branches.</p>
+
+    <p>The team examined the information in greater detail and found that some branches used additional manual checking steps that were not required elsewhere. It also discovered that incomplete claims were sometimes passed to the next department, creating additional transfers and delays.</p>
+
+    <p>Based on the analysis, the company introduced a common checklist, changed the treatment of incomplete claims and eliminated unnecessary hand-offs. Employees were trained in the revised process and the results were monitored after implementation.</p>
+
+    <p>After several months, the average processing time decreased and customer complaints declined. Management nevertheless continued monitoring because it wanted to ensure that the improvements remained effective rather than disappearing once the project team moved to another assignment.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_024_1",
+        question: "The team's initial definition of reducing claim-processing time and errors belongs to which DMAIC stage?",
+        options: [
+          "Define",
+          "Measure",
+          "Analyse",
+          "Improve"
+        ],
+        answer: 0,
+        reason: "The Define stage establishes the problem, customer requirements and project objectives."
+      },
+      {
+        question_id: "AI_c23_cs_024_2",
+        question: "The collection of claim volumes, processing times and error data represents:",
+        options: [
+          "Define",
+          "Measure",
+          "Improve",
+          "Control"
+        ],
+        answer: 1,
+        reason: "Measure involves collecting quantitative information about the existing process."
+      },
+      {
+        question_id: "AI_c23_cs_024_3",
+        question: "Identifying unnecessary manual checks and transfers as causes of delay is part of:",
+        options: [
+          "Analyse",
+          "Define",
+          "Control",
+          "Verify"
+        ],
+        answer: 0,
+        reason: "The Analyse stage identifies root causes using information collected during measurement."
+      },
+      {
+        question_id: "AI_c23_cs_024_4",
+        question: "Introducing a common checklist and changing the treatment of incomplete claims represents:",
+        options: [
+          "Improve",
+          "Measure",
+          "Define",
+          "Analyse"
+        ],
+        answer: 0,
+        reason: "These are corrective process changes implemented after analysing the causes of the problem."
+      },
+      {
+        question_id: "AI_c23_cs_024_5",
+        question: "Continuing to monitor processing performance after the changes represents which DMAIC stage?",
+        options: [
+          "Define",
+          "Measure",
+          "Improve",
+          "Control"
+        ],
+        answer: 3,
+        reason: "Control ensures that improvements are maintained and the process continues to perform within desired limits."
+      }
+    ]
+  },
+
+  // ============================================================
+  // HARD CASES
+  // ============================================================
+
+  {
+    case_id: "AI_c23_cs_025",
+    difficulty: "hard",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["JIT", "Backflush Accounting", "Inventory", "Supplier Management", "Quality", "Management Accounting"],
+    caseText: `<p>Trident Electronics manufactures sophisticated control units used by several industrial equipment manufacturers. Historically, Trident maintained large quantities of raw materials because its management believed that a high level of inventory reduced the possibility of production stoppages. Every delivery entered a central receiving area, where employees counted the materials, completed receiving documentation and sent samples to the quality department before the materials were transferred to the warehouse.</p>
+
+    <p>Although the system provided a strong physical buffer, the finance department noticed that inventory carrying costs were rising. The warehouse occupied a large area, material-handling staff had increased and several electronic components became obsolete before they were used. Management therefore decided to implement JIT purchasing with selected suppliers.</p>
+
+    <p>Under the new system, suppliers were required to deliver smaller quantities more frequently and, where possible, directly to the production floor. Electronic communication was introduced so that suppliers could receive updated requirements. The purchasing department reduced the number of suppliers and selected companies capable of meeting strict quality and delivery requirements.</p>
+
+    <p>The finance controller proposed replacing much of the traditional material-receipt paperwork with a backflush accounting approach. Under the proposed arrangement, accounting entries would be delayed until production was completed. The quantity of finished goods reported, together with the bill of materials, would be used to calculate the expected quantity of components consumed.</p>
+
+    <p>The production manager supported the proposal but the controller identified several risks. First, production reporting had to be accurate. If employees incorrectly reported completed production, calculated component usage would also be wrong. Second, abnormal scrap had to be separately identified because it could otherwise distort normal material consumption. Third, detailed lot tracing could become difficult because individual material movements would not necessarily be recorded at every production stage.</p>
+
+    <p>The purchasing director also warned that JIT would alter the company's exposure to supplier problems. Under the previous system, several days of inventory could protect production from a delayed delivery. Under the new system, a supplier delivering one day late could cause a production cell to stop. The company therefore introduced supplier performance measures covering quality, delivery reliability, responsiveness and information sharing.</p>
+
+    <p>One supplier offered Trident a substantial price reduction but could not guarantee delivery times and had a history of dimensional defects. The procurement team initially wanted to accept the lower price. The production manager calculated that previous defects from the same supplier had caused inspection, rework and production interruptions that were significantly greater than the apparent purchase-price saving.</p>
+
+    <p>The final implementation therefore linked JIT purchasing, supplier development, employee training, accurate production reporting and backflush accounting. Management concluded that changing only the accounting method without strengthening the operational environment would create unreliable information rather than genuine efficiency.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_025_1",
+        question: "Why is accurate finished-production reporting particularly important under Trident's proposed backflush system?",
+        options: [
+          "Component consumption is inferred from completed production and the bill of materials",
+          "Backflush accounting ignores production quantities",
+          "Finished production is unrelated to component usage",
+          "Backflush accounting requires every material movement to be recorded individually"
+        ],
+        answer: 0,
+        reason: "Backflush accounting calculates expected component usage from completed production quantities and the BOM. Incorrect production reporting therefore produces incorrect consumption figures."
+      },
+      {
+        question_id: "AI_c23_cs_025_2",
+        question: "Why does abnormal scrap need separate identification?",
+        options: [
+          "It may otherwise distort normal BOM-based component consumption",
+          "It automatically becomes finished goods",
+          "It has no accounting impact",
+          "It eliminates the need for inventory records"
+        ],
+        answer: 0,
+        reason: "Normal backflush consumption is based on expected component requirements. Abnormal scrap must be separately recognised to prevent inventory and cost information from being distorted."
+      },
+      {
+        question_id: "AI_c23_cs_025_3",
+        question: "Which issue associated with backflushing is illustrated by the controller's concern about individual material batches?",
+        options: [
+          "Difficulty in detailed lot tracing",
+          "Increase in production variety",
+          "Higher machine utilisation",
+          "Improved supplier quality"
+        ],
+        answer: 0,
+        reason: "Because detailed material movements may not be recorded at each stage, detailed lot tracing can become difficult unless additional systems are introduced."
+      },
+      {
+        question_id: "AI_c23_cs_025_4",
+        question: "Why was the supplier offering the lowest purchase price not necessarily the best JIT supplier?",
+        options: [
+          "JIT supplier selection must consider quality and reliable delivery as well as price",
+          "JIT prohibits competitive pricing",
+          "Supplier price is irrelevant in all systems",
+          "JIT requires only local suppliers"
+        ],
+        answer: 0,
+        reason: "JIT depends heavily on reliable, high-quality and timely supplier performance because inventory buffers are reduced."
+      },
+      {
+        question_id: "AI_c23_cs_025_5",
+        question: "Which statement best describes the relationship between JIT and backflush accounting in the case?",
+        options: [
+          "Backflush accounting can support JIT by reducing detailed material transaction recording, but it depends on accurate and disciplined production processes",
+          "Backflush accounting automatically creates JIT",
+          "JIT requires inaccurate production reporting",
+          "Backflush accounting eliminates the need for supplier reliability"
+        ],
+        answer: 0,
+        reason: "Backflush accounting can reduce transaction recording in a JIT environment, but its effectiveness depends on accurate production reporting, proper scrap identification and reliable processes."
+      }
+    ]
+  },
+
+  {
+    case_id: "AI_c23_cs_026",
+    difficulty: "hard",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["TPM", "OEE", "Six Big Losses", "Autonomous Maintenance", "Focused Improvement"],
+    caseText: `<p>Vantage Packaging operates a high-speed filling machine used to package liquid products. The machine was considered one of the most important assets in the factory because a large proportion of total production passed through it. For several years, management evaluated the machine primarily on the number of units produced per shift. The production supervisor believed that the machine was performing well because it rarely experienced long complete breakdowns.</p>
+
+    <p>However, the quality department had noticed an increasing number of defective packages. Operators also complained that the machine frequently stopped for only a few seconds before restarting. Because these interruptions were short, operators generally corrected them without recording them. In addition, operators had started running the machine below its theoretical speed because higher speeds resulted in frequent jams.</p>
+
+    <p>The company initiated a TPM programme. After deducting planned breaks and scheduled cleaning, the machine had 665 minutes of planned production time during a representative shift. It experienced 36 minutes of unplanned downtime and produced 3,360 packages. Of these, 75 packages were rejected. The ideal cycle time was 10 seconds per package.</p>
+
+    <p>The TPM team calculated availability, performance and quality separately. Availability was calculated using operating time relative to planned production time. Performance was calculated using ideal cycle time, total output and actual operating time. Quality was determined by comparing good output with total output. The three measures were then multiplied to determine OEE.</p>
+
+    <p>The calculations revealed that availability was reasonably strong but performance was below the desired benchmark. Quality was also weaker than management expected. The team concluded that the machine's apparently satisfactory production volume was hiding speed losses and quality losses.</p>
+
+    <p>Further investigation showed that some short stoppages were caused by incorrect component positioning. Other losses were related to worn parts that operators had learned to compensate for by reducing speed. Management introduced autonomous maintenance so operators could perform cleaning, lubrication, inspection and tightening. Preventive maintenance schedules were also strengthened.</p>
+
+    <p>After the maintenance programme, breakdown frequency declined. Nevertheless, performance remained weak because the underlying cause of repeated jams had not been completely removed. The TPM team therefore established a focused improvement group to investigate the problem using structured root-cause analysis rather than merely instructing operators to increase speed.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_026_1",
+        question: "What is the machine's operating time during the representative shift?",
+        options: [
+          "629 minutes",
+          "665 minutes",
+          "701 minutes",
+          "600 minutes"
+        ],
+        answer: 0,
+        reason: "Operating time = planned production time − unplanned downtime = 665 − 36 = 629 minutes."
+      },
+      {
+        question_id: "AI_c23_cs_026_2",
+        question: "The operators deliberately running below theoretical speed primarily creates a loss in:",
+        options: [
+          "Availability",
+          "Performance",
+          "Quality only",
+          "Inventory"
+        ],
+        answer: 1,
+        reason: "Running below ideal speed reduces the performance component of OEE."
+      },
+      {
+        question_id: "AI_c23_cs_026_3",
+        question: "The unrecorded short interruptions caused by incorrect component positioning should primarily be classified as:",
+        options: [
+          "Minor stoppages",
+          "Overproduction",
+          "Transportation",
+          "Setup losses only"
+        ],
+        answer: 0,
+        reason: "Short interruptions that repeatedly stop or interrupt normal operation are classified as idling/minor stoppages, which are performance losses."
+      },
+      {
+        question_id: "AI_c23_cs_026_4",
+        question: "Why was autonomous maintenance introduced in the case?",
+        options: [
+          "To involve operators in routine cleaning, lubrication, inspection and basic equipment care",
+          "To transfer all management responsibilities to operators",
+          "To eliminate preventive maintenance",
+          "To increase production batches"
+        ],
+        answer: 0,
+        reason: "Autonomous Maintenance involves active employee participation in routine equipment care and inspection."
+      },
+      {
+        question_id: "AI_c23_cs_026_5",
+        question: "Why did the TPM team create a focused improvement group even after breakdown frequency declined?",
+        options: [
+          "Performance losses caused by recurring jams remained and required root-cause investigation",
+          "TPM focuses only on breakdowns",
+          "Availability automatically becomes zero after maintenance",
+          "Quality defects are unrelated to OEE"
+        ],
+        answer: 0,
+        reason: "TPM addresses multiple loss categories. Reducing breakdowns does not automatically eliminate performance losses caused by minor stoppages or reduced speed."
+      }
+    ]
+  },
+
+  {
+    case_id: "AI_c23_cs_027",
+    difficulty: "hard",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["Cellular Manufacturing", "Production Flow Analysis", "Rank Order Clustering", "Machine-Part Families", "Bottlenecks", "Flexibility"],
+    caseText: `<p>Atlas Precision Engineering manufactures a large variety of components for industrial machinery. Its factory was originally organised using a functional layout. Turning machines were grouped together, followed by milling, drilling, grinding and inspection areas. This arrangement allowed technical specialists to supervise similar machines, but individual products often travelled long distances between departments.</p>
+
+    <p>A detailed production-flow study found that one component might be turned, moved to milling, transferred to drilling, returned to milling and then sent to grinding. Large batches were used because department managers believed that long production runs improved machine utilisation. However, the resulting work-in-progress frequently remained idle while waiting for the next department.</p>
+
+    <p>Management decided to investigate cellular manufacturing. Engineers classified the components according to design and manufacturing similarities. A machine-part incidence matrix was prepared showing whether individual parts required particular machines. The team planned to use Rank Order Clustering to identify related machine-part groups.</p>
+
+    <p>The engineers assigned binary weights to columns and calculated decimal equivalents for rows. Rows were ranked and rearranged. Corresponding row weights were then used to rank columns, after which the columns were rearranged. The process was repeated until the arrangement became stable.</p>
+
+    <p>The resulting matrix identified several strong groups, but it also showed exceptional elements. One machine was required by parts from two different families. Another part required an operation outside its proposed cell. In addition, one proposed cell contained a machine that was likely to become a bottleneck during periods of high demand.</p>
+
+    <p>The production director explained that the mathematical clustering result could not be adopted blindly. Machine location, part routing, bottleneck capacity, cell workload, inter-cell movement and changes in future demand had to be considered. A mathematically neat grouping could still be operationally inefficient.</p>
+
+    <p>Atlas eventually established cells for relatively stable product families but retained selected shared machines for exceptional operations. Employees were trained to perform multiple operations within their cells. The new arrangement reduced average movement and work-in-progress and allowed defects to be detected closer to where they occurred.</p>
+
+    <p>Management nevertheless recognised that the design could require modification in the future. If customer demand shifted significantly toward a different combination of products, the workload of individual cells could change and machines might have to be relocated or shared differently.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_027_1",
+        question: "What was the principal weakness of Atlas's original functional layout from a flow perspective?",
+        options: [
+          "Products had to travel between departments containing different types of machines",
+          "Every product was completed in one operation",
+          "Machines were grouped by product family",
+          "There was no work-in-progress"
+        ],
+        answer: 0,
+        reason: "A functional layout groups machines by function, causing multi-operation products to travel between departments."
+      },
+      {
+        question_id: "AI_c23_cs_027_2",
+        question: "Why was the machine-part incidence matrix prepared?",
+        options: [
+          "To identify relationships between parts and machines for forming manufacturing cells",
+          "To calculate selling prices",
+          "To calculate employee bonuses",
+          "To determine customer creditworthiness"
+        ],
+        answer: 0,
+        reason: "The matrix identifies which machines are required by which parts and provides the basis for machine-part clustering."
+      },
+      {
+        question_id: "AI_c23_cs_027_3",
+        question: "What is the significance of repeating Rank Order Clustering until the arrangement becomes stable?",
+        options: [
+          "The rows and columns are repeatedly ranked until no further beneficial rearrangement is required",
+          "The machines are physically relocated after every calculation",
+          "Production is stopped permanently",
+          "All exceptional elements are automatically eliminated"
+        ],
+        answer: 0,
+        reason: "Rank Order Clustering alternates row and column ranking and rearrangement until the matrix reaches a stable grouping."
+      },
+      {
+        question_id: "AI_c23_cs_027_4",
+        question: "Why did Atlas retain some shared machines rather than forcing complete machine separation between cells?",
+        options: [
+          "Exceptional elements and bottleneck constraints can make complete separation impractical",
+          "Cellular manufacturing requires every machine to be shared",
+          "Shared machines always reduce quality",
+          "Clustering cannot identify machine groups"
+        ],
+        answer: 0,
+        reason: "Exceptional parts, shared machine requirements and bottleneck capacity may make perfectly independent cells impractical."
+      },
+      {
+        question_id: "AI_c23_cs_027_5",
+        question: "What major limitation of cellular manufacturing is illustrated by Atlas's concern about future demand?",
+        options: [
+          "Significant changes in product mix may require costly cell reconfiguration",
+          "Cells cannot reduce work-in-progress",
+          "Cells always increase material movement",
+          "Employees cannot be trained for multiple operations"
+        ],
+        answer: 0,
+        reason: "Cellular manufacturing can improve flow, but major changes in demand and product mix may require realignment of cells, machines and workloads."
+      }
+    ]
+  },
+
+  {
+    case_id: "AI_c23_cs_028",
+    difficulty: "hard",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["Six Sigma", "DMAIC", "DMADV", "Lean Six Sigma", "Customer Satisfaction", "Process Innovation"],
+    caseText: `<p>Summit Digital Bank had operated a digital loan-processing platform for several years. The platform allowed customers to submit applications online, after which applications were reviewed by customer-service teams, credit specialists and compliance personnel. Over time, additional checks and approval steps had been added whenever problems occurred. Management believed that these additional controls had improved risk management, but customers increasingly complained about the time required to obtain decisions.</p>
+
+    <p>Customer complaints indicated that applicants were repeatedly asked for documents that had already been submitted. Some applications moved between departments several times because employees were uncertain which team was responsible for a particular issue. Data-entry errors also resulted in customers being contacted to correct information that was already available elsewhere within the bank.</p>
+
+    <p>The Chief Operating Officer proposed replacing the entire platform. The quality director disagreed and requested that the bank first conduct a structured Six Sigma investigation. The team began by defining the problem from the customer's perspective and setting objectives for reducing processing time and errors.</p>
+
+    <p>The team then measured the existing process. It collected data regarding application volumes, processing times at individual stages, number of hand-offs, rework, incomplete applications and data-entry errors. Analysis showed that the technology platform itself was not responsible for most delays. Instead, many delays arose from unnecessary transfers and inconsistent procedures among teams.</p>
+
+    <p>Based on these findings, the bank standardised information requirements, removed unnecessary hand-offs and clarified responsibility for incomplete applications. Duplicate data entry was reduced. After implementation, processing time decreased and customer complaints fell.</p>
+
+    <p>The bank continued to monitor the process because management wanted to ensure that the improvements were sustained. If performance deteriorated, the team would investigate the causes rather than simply assume that the previous solution would remain effective forever.</p>
+
+    <p>At the same time, Summit was considering a new digital financial-advisory service. Unlike the loan process, the new service did not yet exist. It would require a new technology platform and changes across technology, customer service, compliance, product design and operations. Customer behaviour was expected to change, competitors were introducing similar services and technology capabilities were evolving rapidly.</p>
+
+    <p>The Six Sigma leader therefore recommended DMAIC for the existing loan process and DMADV for the new financial-advisory service. The leader also suggested combining Lean with Six Sigma for the loan process because the bank needed both defect reduction and removal of unnecessary waiting, hand-offs and process activities.</p>
+
+    <p>Management also considered a separate proposal to redesign the entire loan-processing architecture from scratch. The proposal would replace the existing sequence with a new cross-functional process involving automated decision routing. The quality director stated that such a fundamental redesign should not automatically be described as ordinary Kaizen because Kaizen involves small incremental improvements rather than radical one-time restructuring.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_028_1",
+        question: "Why was DMAIC appropriate for the existing loan-processing project?",
+        options: [
+          "The bank was improving an existing process using measured evidence",
+          "The loan process did not yet exist",
+          "The bank was designing a completely new product",
+          "Customer requirements were irrelevant"
+        ],
+        answer: 0,
+        reason: "DMAIC is used for improving existing processes through Define, Measure, Analyse, Improve and Control."
+      },
+      {
+        question_id: "AI_c23_cs_028_2",
+        question: "The collection of application volumes, processing times, hand-offs and error data primarily represents which DMAIC stage?",
+        options: [
+          "Define",
+          "Measure",
+          "Improve",
+          "Control"
+        ],
+        answer: 1,
+        reason: "The Measure stage collects quantitative data about the existing process."
+      },
+      {
+        question_id: "AI_c23_cs_028_3",
+        question: "The discovery that unnecessary hand-offs and inconsistent procedures were responsible for delays belongs primarily to:",
+        options: [
+          "Analyse",
+          "Define",
+          "Control",
+          "Design"
+        ],
+        answer: 0,
+        reason: "Analyse identifies root causes from the data collected during the Measure stage."
+      },
+      {
+        question_id: "AI_c23_cs_028_4",
+        question: "Why is DMADV more suitable for the proposed financial-advisory service?",
+        options: [
+          "The service and associated processes do not yet exist and must be designed under changing conditions",
+          "The service already operates normally",
+          "Only existing defects are being corrected",
+          "The bank is merely measuring current performance"
+        ],
+        answer: 0,
+        reason: "DMADV is intended for designing new products or processes, especially where the existing process cannot simply be improved to meet requirements."
+      },
+      {
+        question_id: "AI_c23_cs_028_5",
+        question: "Why should the proposed complete redesign of the loan architecture not automatically be classified as Kaizen?",
+        options: [
+          "It involves a radical one-time restructuring rather than small incremental improvements",
+          "Kaizen does not involve process improvement",
+          "Kaizen requires increasing inventory",
+          "Kaizen is limited to financial reporting"
+        ],
+        answer: 0,
+        reason: "Kaizen involves continuous small and incremental improvements. A radical one-time redesign is more consistent with BPR or broader process innovation."
+      }
+    ]
+  },
+
+  {
+    case_id: "AI_c23_cs_029",
+    difficulty: "hard",
+    case_chapter: "Lean System and Innovation",
+    case_topic: ["Process Innovation", "BPR", "Kaizen", "Lean", "Six Sigma", "Customer Requirements"],
+    caseText: `<p>NovaHome Appliances manufactures domestic water-purification equipment. For many years, the company used a conventional assembly line designed for high-volume production of a limited number of standard models. Products moved sequentially through specialised workstations. Each station performed a defined activity before passing the partially completed product to the next station.</p>
+
+    <p>During the first few years, NovaHome introduced numerous small improvements. Workers changed the position of frequently used tools, revised work instructions and adjusted the sequence of certain repetitive tasks. Supervisors also introduced visual indicators to make abnormal conditions easier to identify. These changes reduced unnecessary movement and shortened certain activities, but the fundamental production architecture remained the same.</p>
+
+    <p>Customer requirements later changed dramatically. Large institutional customers began demanding customised configurations in smaller quantities. The traditional production line was increasingly difficult to balance because different configurations required different assembly sequences. Temporary storage areas appeared near several workstations, and employees frequently moved partially completed products between stations that were not designed for the new product variety.</p>
+
+    <p>The operations director proposed two alternatives. The first was to continue modifying the existing line by automating repetitive activities and improving workstation layouts. The second was to redesign the manufacturing system around flexible product-family cells. Under the proposed new system, teams would handle multiple operations, equipment would be arranged around product families and the production sequence would be fundamentally changed.</p>
+
+    <p>The finance team initially classified both alternatives as process improvements. The operations director explained that the distinction mattered because the second proposal involved implementation of a significantly different production method. The fact that the same products were ultimately sold to customers did not prevent a production-method change from qualifying as process innovation.</p>
+
+    <p>Meanwhile, the quality team had identified an increase in customer complaints about inconsistent filtration performance. A Six Sigma project measured defects and found that incorrect assembly instructions and inconsistent testing methods were major contributors. The quality team proposed standardised instructions, improved testing procedures and ongoing monitoring.</p>
+
+    <p>The lean manager stated that Lean and Six Sigma could address different aspects of the problem. Lean techniques could reduce waiting, transportation, unnecessary movement and excess work-in-progress, while Six Sigma could reduce defects and process variation. Kaizen could support small improvements during the transition.</p>
+
+    <p>The CEO also reviewed several proposals submitted by departments. One proposal involved replacing an old assembly machine with a newer machine of essentially the same type. Another involved changing production quantities because of seasonal demand. A third involved implementing a significantly different production process using flexible equipment and redesigned sequencing.</p>
+
+    <p>Management concluded that not every change should be called innovation. The replacement of similar equipment and routine seasonal adjustments would not automatically constitute process innovation. The redesigned production method, however, required detailed evaluation as a potential process innovation because it represented a significant change in production techniques and structure.</p>`,
+
+    questions: [
+      {
+        question_id: "AI_c23_cs_029_1",
+        question: "NovaHome's earlier changes to tool positions and work instructions are best characterised as:",
+        options: [
+          "Incremental Lean/Kaizen improvements",
+          "Radical process innovation",
+          "DMADV",
+          "Supplier innovation"
+        ],
+        answer: 0,
+        reason: "These were small improvements to the existing process and therefore align with Lean/Kaizen rather than a radical process redesign."
+      },
+      {
+        question_id: "AI_c23_cs_029_2",
+        question: "Why could the proposed product-family cell system qualify as process innovation?",
+        options: [
+          "It would implement a significantly different production method involving changes in techniques and process structure",
+          "It changes only the selling price",
+          "It is simply a seasonal adjustment",
+          "It does not change the production process"
+        ],
+        answer: 0,
+        reason: "Process innovation includes implementation of a new or significantly improved production method involving significant changes in techniques, equipment or software."
+      },
+      {
+        question_id: "AI_c23_cs_029_3",
+        question: "The Six Sigma project's discovery that inconsistent testing methods contributed to customer complaints primarily concerns:",
+        options: [
+          "Defect and process-variation reduction",
+          "Inventory accumulation",
+          "Transportation waste",
+          "Supplier pricing"
+        ],
+        answer: 0,
+        reason: "Six Sigma focuses on identifying and reducing defects and variation through measurement, analysis and improvement."
+      },
+      {
+        question_id: "AI_c23_cs_029_4",
+        question: "Which proposal in the case would NOT automatically qualify as process innovation?",
+        options: [
+          "Implementing a significantly redesigned production method",
+          "Introducing flexible equipment and redesigned production sequencing",
+          "Replacing an old machine with a substantially similar machine without significant process change",
+          "Implementing a significantly improved production technique"
+        ],
+        answer: 2,
+        reason: "Simple replacement or extension of existing capital equipment without significant process change does not automatically qualify as process innovation."
+      },
+      {
+        question_id: "AI_c23_cs_029_5",
+        question: "Why is it appropriate for NovaHome to use Lean, Six Sigma and Kaizen simultaneously during the transition?",
+        options: [
+          "They can address complementary issues such as waste, defects, variation and incremental improvement",
+          "They all have exactly the same purpose",
+          "Six Sigma replaces all Lean activities",
+          "Kaizen requires elimination of quality measurement"
+        ],
+        answer: 0,
+        reason: "Lean focuses strongly on waste and flow, Six Sigma on defects and variation, and Kaizen on continuous incremental improvement. They can therefore complement one another."
+      }
+    ]
+  }
 ];
