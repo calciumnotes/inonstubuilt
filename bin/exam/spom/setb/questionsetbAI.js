@@ -4,7 +4,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_001",
   difficulty: "Medium",
   case_topic: ["Strategic Cost Management", "Traditional Cost Management", "Cost Drivers"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>Vertex Appliances Limited is a manufacturer of household appliances operating in a highly competitive market. For several years, the company followed a traditional cost management approach. The management primarily concentrated on reducing manufacturing expenditure and achieving the annual budgeted cost targets. Departmental managers were rewarded largely on the basis of their ability to keep actual expenditure below the amounts approved in the annual budget.</p>
 
@@ -84,7 +84,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_002",
   difficulty: "Medium",
   case_topic: ["Value Chain Analysis", "Primary Activities", "Support Activities"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>Nova Foods Limited manufactures packaged ready-to-eat food products and distributes them through supermarkets, online platforms and independent retailers. The company has recently experienced pressure on margins despite maintaining a strong market position. The Board therefore appointed a strategic management team to examine how value was created across the company's activities.</p>
 
@@ -164,7 +164,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_003",
   difficulty: "Medium",
   case_topic: ["Business Model Canvas", "Value Proposition", "Customer Segments"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>EduSphere Technologies operates an online learning platform designed primarily for professional students. The company initially developed its platform based on the capabilities of its technology team. It offered several advanced features, including artificial intelligence-based dashboards, extensive analytics and multiple customisation options. However, despite considerable expenditure on technology development, customer retention remained below expectations.</p>
 
@@ -244,7 +244,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_004",
   difficulty: "Medium",
   case_topic: ["Value Proposition Canvas", "Customer Jobs", "Pains", "Gains"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>QuickCare Diagnostics operates a chain of diagnostic centres in several cities. Although the company has modern diagnostic equipment and qualified professionals, customer feedback indicated dissatisfaction with the overall service experience. Management initially believed that the problem could be solved by purchasing newer machines and expanding technical capabilities.</p>
 
@@ -326,7 +326,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_005",
   difficulty: "Medium",
   case_topic: ["Porter's Five Forces", "Industry Profitability", "Competition"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>UrbanRide operates an app-based urban transportation service. The industry has attracted several competitors offering similar services. Customers can compare fares through mobile applications and can switch between competing platforms with minimal effort. Most customers are highly price sensitive and frequently select the service offering the lowest fare combined with acceptable availability.</p>
 
@@ -405,7 +405,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_006",
   difficulty: "Hard",
   case_topic: ["Strategic Positioning", "Cost Leadership", "Differentiation", "Value Chain"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>Orion Mobility Limited manufactures electric vehicles and operates in a rapidly evolving automobile industry. The company initially positioned itself as a low-cost manufacturer. Its strategy was based on reducing manufacturing costs, standardising components, increasing production volumes and negotiating aggressively with suppliers. Management believed that offering vehicles at a lower price than competitors would automatically provide sustainable competitive advantage.</p>
 
@@ -489,7 +489,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_007",
   difficulty: "Hard",
   case_topic: ["Cost Driver Analysis", "Structural Cost Drivers", "Executional Cost Drivers"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>Precision Components Limited manufactures specialised engineering components for industrial customers. The company historically allocated all factory overhead to products using machine hours. Management assumed that products consuming more machine hours should bear proportionately higher overhead costs.</p>
 
@@ -573,7 +573,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_008",
   difficulty: "Hard",
   case_topic: ["Porter's Five Forces", "Industry Structure", "Industry Profitability", "Strategic Analysis"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>MedNova Devices Limited manufactures specialised medical devices used by hospitals. The company has historically enjoyed attractive margins because its products require regulatory approvals, specialised technical knowledge and significant investment in research and development. However, the management recently observed several changes in the competitive environment.</p>
 
@@ -657,7 +657,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_009",
   difficulty: "Hard",
   case_topic: ["Market Segmentation", "Basis of Competition", "Key Success Factors"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>EliteStay Hotels operates in the hospitality industry and historically attempted to serve almost every category of traveller. Its properties attracted business travellers, families, budget-conscious tourists, luxury travellers and customers seeking extended stays. Management believed that serving a broad market would maximise revenue and reduce dependence on any individual customer group.</p>
 
@@ -741,7 +741,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_010",
   difficulty: "Hard",
   case_topic: ["Core Competencies", "Competitive Advantage", "Value Chain", "Strategic Cost Management"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>TechForge Systems began as a small engineering company specialising in precision sensors. Over time, it developed a sophisticated capability to design highly reliable sensing systems for harsh industrial environments. The company's engineers accumulated extensive knowledge regarding sensor design, calibration, software integration and performance testing.</p>
 
@@ -826,7 +826,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_011",
   difficulty: "Medium",
   case_topic: ["Strategic Cost Management", "Cost Leadership", "Differentiation", "Cost Reduction"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>GreenBrew Beverages Limited manufactures packaged beverages and has operated successfully for more than a decade. The company originally competed mainly on the basis of price. Its management continuously reviewed manufacturing expenses, negotiated lower prices with suppliers and attempted to improve production efficiency. The finance department considered reduction in the cost per unit as the principal indicator of improvement.</p>
 
@@ -908,7 +908,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_012",
   difficulty: "Medium",
   case_topic: ["Value Chain Analysis", "Internal Cost Analysis", "Vertical Linkage"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>MetroCycle Limited manufactures electric bicycles and sells them through a network of dealers and online channels. The company had grown rapidly but its profitability had not increased in proportion to sales. The Board therefore commissioned a detailed analysis of the activities involved in creating and delivering the product.</p>
 
@@ -990,7 +990,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_013",
   difficulty: "Medium",
   case_topic: ["STEEPLE", "External Environment", "Strategic Positioning"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>SolarGrid Energy Limited manufactures equipment used in renewable energy projects. The company operates in a rapidly changing environment in which government policy, technology, economic conditions, environmental concerns and customer expectations frequently change.</p>
 
@@ -1072,7 +1072,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_014",
   difficulty: "Medium",
   case_topic: ["Market Segmentation", "Demographic", "Behavioural", "Geographic Segmentation"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>StyleNest Apparel Limited sells clothing through physical stores and an online platform. Initially, the company treated its entire customer base as one market and launched similar advertising campaigns for all customers. Although sales were reasonable, management noticed that customer responses differed significantly across locations and customer groups.</p>
 
@@ -1154,7 +1154,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_015",
   difficulty: "Medium",
   case_topic: ["Business Model Canvas", "Key Activities", "Key Resources", "Cost Structure"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>FreshBox operates an online grocery delivery platform serving customers in several cities. The business model was initially developed around a simple proposition of delivering groceries to customers' homes. As competition increased, management realised that merely having an online ordering facility was insufficient to maintain its position.</p>
 
@@ -1235,7 +1235,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_016",
   difficulty: "Hard",
   case_topic: ["Value Proposition Canvas", "Problem-Solution Fit", "Product-Market Fit"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>MedAssist Technologies developed a digital platform intended to help patients manage their healthcare appointments and medical records. The founders initially believed that customers would value the platform primarily because of its sophisticated artificial intelligence engine. Considerable resources were therefore invested in developing predictive analytics, complex dashboards and multiple technical features.</p>
 
@@ -1321,7 +1321,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_017",
   difficulty: "Hard",
   case_topic: ["Porter's Five Forces", "Entry Barriers", "Exit Barriers", "Industry Profitability"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>SkyLink Cargo operates in the air-freight transportation industry. The industry requires substantial investment in aircraft, specialised equipment, technology systems, trained personnel and regulatory compliance. Several established players operate large fleets and have developed long-term relationships with major customers.</p>
 
@@ -1407,7 +1407,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_018",
   difficulty: "Hard",
   case_topic: ["Core Competencies", "Competitive Advantage", "Resources", "Capabilities"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>AutoSense Technologies began as a supplier of electronic components to automobile manufacturers. Over a period of fifteen years, the company developed specialised expertise in designing highly reliable sensors that could operate under extreme temperature, vibration and environmental conditions.</p>
 
@@ -1493,7 +1493,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_019",
   difficulty: "Hard",
   case_topic: ["Business Model Canvas", "Value Proposition Canvas", "Strategic Cost Management", "Cost Drivers"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>LearnSphere Education Limited operates a subscription-based digital learning platform for professional students. The company experienced rapid growth during its first two years, but its profitability remained weak despite a substantial increase in subscribers.</p>
 
@@ -1579,7 +1579,7 @@ const AICaseStudies = [
   case_id: "SCM_c12_cs_020",
   difficulty: "Hard",
   case_topic: ["Strategic Cost Management", "Traditional Cost Management", "Cost Leadership", "Differentiation", "Strategic Emphasis"],
-  case_chapter: "Chapter12",
+  case_chapter: "Chapter1",
   caseText: `
     <p>PrimeGear Tools Limited manufactures professional power tools for construction companies and individual users. The company operates two major product categories. The first category consists of standard tools sold primarily on price and availability. The second category consists of premium professional tools offering advanced durability, specialised design and extended after-sales support.</p>
 
@@ -2504,7 +2504,7 @@ const AICaseStudies = [
   case_id: "AI_c1_cs_031",
   difficulty: "medium",
   case_topic: ["Information Systems", "Information Technology", "Information Management", "Strategic Alignment"],
-  case_chapter: "An Introduction to Strategic Cost Management",
+  case_chapter: "Chapter1",
   caseText: `
     <p><b>Vistara Home Appliances Limited</b> manufactures refrigerators, washing machines and small kitchen appliances through three manufacturing locations. During the last three years, the company expanded rapidly through online sales. However, its information-related systems developed independently within different departments.</p>
 
@@ -2583,7 +2583,7 @@ const AICaseStudies = [
   case_id: "AI_c1_cs_032",
   difficulty: "medium",
   case_topic: ["Value Chain", "Inbound Logistics", "Operations", "Outbound Logistics", "Information Technology"],
-  case_chapter: "An Introduction to Strategic Cost Management",
+  case_chapter: "Chapter1",
   caseText: `
     <p><b>Arclight Furniture Limited</b> manufactures customised office furniture for corporate customers. The company purchases wood panels, metal frames, fittings, glass and electronic components from several suppliers. Historically, materials were received at the factory and manually entered into inventory records. Production supervisors then issued paper-based instructions to workers regarding which materials were required for particular customer orders.</p>
 
@@ -2662,7 +2662,7 @@ const AICaseStudies = [
   case_id: "AI_c1_cs_033",
   difficulty: "medium",
   case_topic: ["Management Accountant", "Analysis", "Planning", "Innovation", "Leadership"],
-  case_chapter: "An Introduction to Strategic Cost Management",
+  case_chapter: "Chapter1",
   caseText: `
     <p><b>Nova Medical Devices Limited</b> had traditionally viewed its management accountants mainly as people responsible for budgets, cost reports and financial control. The company's new Managing Director believed that this approach was too narrow because the business was entering a period of rapid technological change.</p>
 
@@ -2743,7 +2743,7 @@ const AICaseStudies = [
   case_id: "AI_c1_cs_034",
   difficulty: "medium",
   case_topic: ["Communication", "Feedback", "Management by Wandering Around", "Leadership"],
-  case_chapter: "An Introduction to Strategic Cost Management",
+  case_chapter: "Chapter1",
   caseText: `
     <p><b>Zenith Packaging Limited</b> decided to introduce a new production planning system. Senior management believed that the system would improve capacity utilisation and reduce production delays. A detailed circular explaining the new system was sent to all employees.</p>
 
@@ -2822,7 +2822,7 @@ const AICaseStudies = [
   case_id: "AI_c1_cs_035",
   difficulty: "medium",
   case_topic: ["Business Ethics", "Triple Bottom Line", "Lifecycle Cost", "Management Accountant"],
-  case_chapter: "An Introduction to Strategic Cost Management",
+  case_chapter: "Chapter1",
   caseText: `
     <p><b>GreenCore Infrastructure Limited</b> was evaluating a proposal to construct a specialised manufacturing facility. The project appeared highly attractive on the basis of its projected sales and operating profit. The finance team therefore recommended immediate approval.</p>
 
@@ -2901,7 +2901,7 @@ const AICaseStudies = [
   case_id: "AI_c1_cs_036",
   difficulty: "hard",
   case_topic: ["Porter's Five Forces", "Threat of New Entrants", "Information Technology", "Barriers to Entry"],
-  case_chapter: "An Introduction to Strategic Cost Management",
+  case_chapter: "Chapter1",
   caseText: `
     <p><b>MetroTrust Bank</b> operates a large network of physical branches across several cities. For many years, management believed that the branch network itself created a significant barrier to entry because a new banking institution would need substantial capital and infrastructure to compete with the bank's geographic reach.</p>
 
@@ -2982,7 +2982,7 @@ const AICaseStudies = [
   case_id: "AI_c1_cs_037",
   difficulty: "hard",
   case_topic: ["Supplier Bargaining Power", "E-Procurement", "Supplier Concentration", "Information Technology"],
-  case_chapter: "An Introduction to Strategic Cost Management",
+  case_chapter: "Chapter1",
   caseText: `
     <p><b>Orion Auto Components Limited</b> purchases specialised electronic components from a relatively small number of suppliers. Historically, procurement managers negotiated individually with suppliers. Because some suppliers supplied critical components that could not easily be replaced, Orion frequently accepted higher prices and unfavourable delivery terms.</p>
 
@@ -3061,7 +3061,7 @@ const AICaseStudies = [
   case_id: "AI_c1_cs_038",
   difficulty: "hard",
   case_topic: ["Value Proposition Canvas", "Customer Profile", "Value Map", "Problem-Solution Fit", "Product-Market Fit"],
-  case_chapter: "An Introduction to Strategic Cost Management",
+  case_chapter: "Chapter1",
   caseText: `
     <p><b>LearnSphere Technologies</b> operates an online professional education platform. The company initially assumed that students primarily wanted a large number of video lectures. Accordingly, its first value proposition emphasised the size of its lecture library.</p>
 
@@ -3142,7 +3142,7 @@ const AICaseStudies = [
   case_id: "AI_c1_cs_039",
   difficulty: "very hard",
   case_topic: ["Cost Drivers", "Structural Cost Drivers", "Executional Cost Drivers", "Activity Drivers", "Strategic Cost Management"],
-  case_chapter: "An Introduction to Strategic Cost Management",
+  case_chapter: "Chapter1",
   caseText: `
     <p><b>PrecisionCast Industries</b> manufactures highly customised industrial components. Its management initially attempted to reduce manufacturing costs by negotiating lower prices for raw materials. Although material prices declined slightly, total manufacturing cost continued to rise.</p>
 
@@ -3225,7 +3225,7 @@ const AICaseStudies = [
   case_id: "AI_c1_cs_040",
   difficulty: "very hard",
   case_topic: ["Strategic Positioning", "Cost Leadership", "Differentiation", "Value Chain", "Value Proposition", "Business Model"],
-  case_chapter: "An Introduction to Strategic Cost Management",
+  case_chapter: "Chapter1",
   caseText: `
     <p><b>NovaRide Mobility</b> operates in a highly competitive electric mobility market. At the time of entering the market, the company considered two broad strategic positions. The first was to become a cost leader by developing highly efficient production processes and maintaining relatively low prices. The second was to differentiate its products through superior software, customer experience, battery management and after-sales service.</p>
 
@@ -3312,7 +3312,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_001",
   difficulty: "medium",
   case_topic: ["Modern Business Environment", "Buyer’s Market", "Cost of Quality", "TQM"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>Arden Consumer Products Limited</b> has been manufacturing household electrical appliances for more than two decades. For most of its earlier years, the company operated in an environment where customers had relatively limited choices. The company generally determined the selling price by adding a margin to its cost, decided delivery schedules according to its production convenience, and considered the quality level acceptable if the product broadly met its internal specifications.</p>
 
@@ -3391,7 +3391,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_002",
   difficulty: "medium",
   case_topic: ["Cost of Quality", "PAF Model", "Prevention Costs", "Appraisal Costs", "Failure Costs"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>Meditek Instruments Limited</b> manufactures diagnostic equipment supplied to hospitals and medical laboratories. During the previous year, the company experienced increasing quality-related expenditure. Management initially believed that the major quality expenditure was the amount spent on testing finished equipment.</p>
 
@@ -3470,7 +3470,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_003",
   difficulty: "medium",
   case_topic: ["TQM", "Six Cs", "Continuous Improvement", "Customer Focus"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>UrbanCare Hospitals</b> decided to introduce Total Quality Management across its diagnostic and outpatient departments. The Chief Executive announced that quality would no longer be the responsibility of the quality department alone. Doctors, nurses, reception staff, technicians, finance personnel, procurement employees and suppliers would all participate in the quality improvement process.</p>
 
@@ -3549,7 +3549,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_004",
   difficulty: "medium",
   case_topic: ["Supply Chain Management", "Push Model", "Pull Model", "Demand Management"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>ClassicWear Limited</b> manufactures standardised school uniforms. Its products have been sold through retail stores for many years. Historical sales patterns are relatively stable, and demand during the academic season can be forecast with reasonable accuracy. The company has large manufacturing facilities and benefits significantly from economies of scale when producing large batches.</p>
 
@@ -3628,7 +3628,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_005",
   difficulty: "medium",
   case_topic: ["Outsourcing", "Offshoring", "Downsizing", "Strategic Cost Management"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>BrightServe Technologies Limited</b> experienced a substantial fall in demand for one of its traditional service lines. The company had maintained a large internal team even though the volume of work had declined significantly. Several departments were operating below capacity and management faced pressure to reduce costs.</p>
 
@@ -3707,7 +3707,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_006",
   difficulty: "hard",
   case_topic: ["Cost of Quality", "PAF Model", "Optimal COQ", "Quality Improvement", "Financial and Non-Financial Analysis"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>Orion Consumer Electronics Limited</b> manufactures smart home control devices. The company has recently faced increasing competition from international manufacturers. Its finance department prepared a report showing that the company's quality-related expenditure has increased significantly over the last two years. The Chief Financial Officer therefore suggested that quality expenditure should be reduced to protect profit margins.</p>
 
@@ -3788,7 +3788,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_007",
   difficulty: "hard",
   case_topic: ["Supply Chain Management", "Push-Pull Model", "Upstream Supply Chain", "Downstream Supply Chain", "Information Technology"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>ElectraHome Limited</b> manufactures refrigerators and washing machines and sells them through company-owned stores, independent retailers and its online platform. The company historically operated a forecast-driven supply chain. Sales forecasts were prepared at the beginning of each quarter, production schedules were based on those forecasts, suppliers were asked to deliver materials accordingly and finished goods were stored in regional warehouses.</p>
 
@@ -3869,7 +3869,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_008",
   difficulty: "very hard",
   case_topic: ["Customer Account Profitability", "Customer Lifetime Value", "CRM", "Customer Selection", "Customer Retention", "Customer Extension"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>PrimeBank Cards Limited</b> issues credit cards to customers across several cities. The company traditionally classified customers according to annual card expenditure. Customers with high expenditure were automatically treated as the most valuable customers and received premium benefits.</p>
 
@@ -3950,7 +3950,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_009",
   difficulty: "very hard",
   case_topic: ["Gain Sharing", "Outsourcing", "Supply Chain Management", "Cost Reduction", "Strategic Partnership"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>Helix Diagnostics Limited</b> operates a network of diagnostic laboratories. The company had traditionally purchased laboratory maintenance services under fixed-price contracts. The maintenance provider received a predetermined annual payment irrespective of whether its improvement initiatives produced measurable savings for Helix.</p>
 
@@ -4031,7 +4031,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_010",
   difficulty: "very hard",
   case_topic: ["TQM", "PDCA Cycle", "Six Cs", "Deming", "Supply Chain", "Continuous Improvement"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>Vantage Auto Components Limited</b> supplies precision components to automobile manufacturers. During the previous year, the company experienced increasing rejection rates, production downtime and customer complaints. Senior management initially responded by setting a target that every production department must reduce defects by 30% within six months.</p>
 
@@ -4119,7 +4119,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_011",
   difficulty: "medium",
   case_topic: ["Cost of Quality", "PAF Model", "Prevention Cost", "Failure Cost"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>Nova Appliances Ltd.</b> manufactures premium domestic water purifiers for
     the Indian market. For several years, the company operated in a highly
@@ -4228,7 +4228,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_012",
   difficulty: "medium",
   case_topic: ["TQM", "Six Cs", "Employee Involvement", "Customer Focus"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>MetroServe Services Ltd.</b> operates a nationwide network of service
     centres for commercial refrigeration equipment. The company had grown
@@ -4331,7 +4331,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_013",
   difficulty: "medium",
   case_topic: ["Supply Chain Management", "Push System", "Pull System", "Inventory"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>Orion Furniture Ltd.</b> manufactures office desks, chairs and storage
     systems. Historically, the company produced large quantities of standard
@@ -4432,7 +4432,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_014",
   difficulty: "medium",
   case_topic: ["CRM", "Customer Account Profitability", "CLV", "Relationship Marketing"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>PrimeTech Solutions Ltd.</b> supplies specialised software and support
     services to industrial customers. The company traditionally evaluated
@@ -4534,7 +4534,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_015",
   difficulty: "medium",
   case_topic: ["Gain Sharing", "Supplier Relationship Management", "Supply Chain Management"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>Vertex Engineering Ltd.</b> manufactures specialised industrial
     equipment and has maintained a long-term relationship with its major
@@ -4640,7 +4640,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_016",
   difficulty: "hard",
   case_topic: ["Cost of Quality", "PAF Model", "Optimal COQ", "Hidden Quality Costs"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>Zenith Medical Devices Ltd.</b> manufactures diagnostic equipment used
     by hospitals. The company had historically evaluated quality performance
@@ -4751,7 +4751,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_017",
   difficulty: "hard",
   case_topic: ["Supply Chain Management", "Push-Pull", "Resilience", "Upstream and Downstream"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>Helios Electronics Ltd.</b> manufactures smart industrial controllers.
     Its supply chain extends across several countries. Certain electronic
@@ -4863,7 +4863,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_018",
   difficulty: "hard",
   case_topic: ["TQM", "Deming 14 Points", "PDCA", "Six Sigma"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>Axis Mobility Systems</b> manufactures electronic control modules for
     automobile manufacturers. The company had a sophisticated inspection
@@ -4970,7 +4970,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_019",
   difficulty: "hard",
   case_topic: ["Outsourcing", "Offshoring", "Downsizing", "Rightsizing", "Supply Chain"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>GlobalServe Telecom Ltd.</b> had operated a large internal customer
     support division for many years. The division employed several hundred
@@ -5077,7 +5077,7 @@ const AICaseStudies = [
   case_id: "AI_c22_cs_020",
   difficulty: "hard",
   case_topic: ["Supply Chain Management", "Gain Sharing", "Supplier Relationship Management", "E-Procurement", "SLA"],
-  case_chapter: "Modern Business Environment",
+  case_chapter: "chapter2",
   caseText: `
     <p><b>Ardent Healthcare Equipment Ltd.</b> purchases specialised components
     from several suppliers and supplies finished diagnostic equipment to
