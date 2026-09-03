@@ -3305,5 +3305,1880 @@ const AICaseStudies = [
       reason: "The business model explains how the business works and includes the value proposition together with key resources, processes/activities, partners and the profit/cost logic needed to deliver it."
     }
   ]
+},
+// Chapter 2
+
+{
+  case_id: "AI_c22_cs_001",
+  difficulty: "medium",
+  case_topic: ["Modern Business Environment", "Buyer’s Market", "Cost of Quality", "TQM"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>Arden Consumer Products Limited</b> has been manufacturing household electrical appliances for more than two decades. For most of its earlier years, the company operated in an environment where customers had relatively limited choices. The company generally determined the selling price by adding a margin to its cost, decided delivery schedules according to its production convenience, and considered the quality level acceptable if the product broadly met its internal specifications.</p>
+
+    <p>Over the last few years, the situation changed considerably. Customers could compare products from manufacturers located in different countries through online platforms. Competitors began offering faster delivery, better after-sales support and products with additional features. Customers also started posting reviews about product reliability and service experience. A product that received repeated complaints could quickly lose market acceptance even when its selling price was competitive.</p>
+
+    <p>Arden's production manager initially responded by asking the quality department to increase final inspection. The quality department proposed that every finished product should be inspected before dispatch. However, the management accountant pointed out that inspection after production could identify defects but would not necessarily prevent those defects from occurring.</p>
+
+    <p>The company therefore considered introducing quality training for workers, quality planning, supplier evaluation, preventive maintenance and design reviews. Some managers objected that these activities would increase expenditure without directly increasing sales.</p>
+
+    <p>The Managing Director argued that the company was no longer operating in a market where the producer could dictate price, delivery and quality. Customers had greater choice and expected the company to deliver products that satisfied their expectations at a reasonable price.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_001_1",
+      question: "The change experienced by Arden from determining transaction terms largely according to its own convenience to responding to customer expectations most clearly represents a shift from:",
+      options: [
+        "Buyer’s market to seller’s market",
+        "Seller’s market to buyer’s market",
+        "Pull system to push system",
+        "Downstream to upstream management"
+      ],
+      answer: 2,
+      reason: "The modern business environment is characterised by a transition from a seller’s market to a buyer’s market."
+    },
+    {
+      question_id: "AI_c22_cs_001_2",
+      question: "Which factor in the case most strongly supports the existence of a buyer’s market?",
+      options: [
+        "Customers have fewer alternatives than before",
+        "Customers can compare products from different manufacturers and influence purchasing decisions",
+        "The company determines delivery schedules without considering customers",
+        "Prices are always based on cost plus margin"
+      ],
+      answer: 2,
+      reason: "Global competition, availability of information and greater customer choice strengthen the buyer’s position."
+    },
+    {
+      question_id: "AI_c22_cs_001_3",
+      question: "Quality training for employees undertaken before production is primarily a:",
+      options: [
+        "Prevention cost",
+        "Appraisal cost",
+        "Internal failure cost",
+        "External failure cost"
+      ],
+      answer: 1,
+      reason: "Training undertaken to prevent quality problems is a prevention cost."
+    },
+    {
+      question_id: "AI_c22_cs_001_4",
+      question: "Final inspection of finished products before dispatch would generally be classified as:",
+      options: [
+        "Prevention cost",
+        "Appraisal cost",
+        "Internal failure cost",
+        "External failure cost"
+      ],
+      answer: 2,
+      reason: "Inspection and testing to determine conformity with quality requirements are appraisal costs."
+    },
+    {
+      question_id: "AI_c22_cs_001_5",
+      question: "Why is increasing final inspection alone not necessarily a complete quality strategy?",
+      options: [
+        "Inspection cannot identify any defect",
+        "Inspection identifies defects but does not necessarily eliminate the causes of defects",
+        "Inspection is always an external failure cost",
+        "Inspection automatically creates customer loyalty"
+      ],
+      answer: 2,
+      reason: "A stronger quality approach focuses on prevention and continuous improvement rather than merely detecting defects after they occur."
+    }
+  ]
+},
+{
+  case_id: "AI_c22_cs_002",
+  difficulty: "medium",
+  case_topic: ["Cost of Quality", "PAF Model", "Prevention Costs", "Appraisal Costs", "Failure Costs"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>Meditek Instruments Limited</b> manufactures diagnostic equipment supplied to hospitals and medical laboratories. During the previous year, the company experienced increasing quality-related expenditure. Management initially believed that the major quality expenditure was the amount spent on testing finished equipment.</p>
+
+    <p>A detailed review revealed a much broader set of quality-related costs. The company had spent ₹2,40,000 on employee quality training, ₹1,80,000 on testing equipment and ₹1,10,000 on inspection of purchased materials. Production departments incurred ₹3,20,000 on rework and ₹1,40,000 because defective components had to be scrapped before delivery.</p>
+
+    <p>After some defective machines reached customers, the company incurred ₹4,50,000 on warranty repairs and ₹2,20,000 on customer support. Several customers returned products, resulting in ₹1,60,000 of return-processing expenditure. The sales department also reported that some customers had moved to competitors because of the company's reputation for unreliable equipment.</p>
+
+    <p>The Chief Executive initially suggested reducing quality expenditure by eliminating employee training and reducing inspections. The management accountant cautioned that such a decision might reduce visible quality expenditure while increasing hidden failure costs.</p>
+
+    <p>The company decided to classify all quality-related costs under the Prevention, Appraisal and Failure framework before deciding how resources should be allocated.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_002_1",
+      question: "The ₹2,40,000 spent on employee quality training should be classified as:",
+      options: [
+        "Prevention cost",
+        "Appraisal cost",
+        "Internal failure cost",
+        "External failure cost"
+      ],
+      answer: 1,
+      reason: "Quality training is undertaken to prevent quality problems and is therefore a prevention cost."
+    },
+    {
+      question_id: "AI_c22_cs_002_2",
+      question: "Inspection of purchased materials is primarily:",
+      options: [
+        "Prevention",
+        "Appraisal",
+        "Internal failure",
+        "External failure"
+      ],
+      answer: 2,
+      reason: "Inspection and evaluation of materials for conformity are appraisal activities."
+    },
+    {
+      question_id: "AI_c22_cs_002_3",
+      question: "Rework carried out before defective equipment reaches customers is:",
+      options: [
+        "Prevention cost",
+        "Appraisal cost",
+        "Internal failure cost",
+        "External failure cost"
+      ],
+      answer: 3,
+      reason: "Defects discovered and remedied before delivery to customers constitute internal failure costs."
+    },
+    {
+      question_id: "AI_c22_cs_002_4",
+      question: "Warranty repairs performed after customers receive defective equipment represent:",
+      options: [
+        "Prevention cost",
+        "Appraisal cost",
+        "Internal failure cost",
+        "External failure cost"
+      ],
+      answer: 4,
+      reason: "Warranty costs arising from defects discovered after delivery are external failure costs."
+    },
+    {
+      question_id: "AI_c22_cs_002_5",
+      question: "The management accountant's concern about eliminating training and inspection is justified because:",
+      options: [
+        "Prevention and appraisal costs can help reduce failure costs",
+        "Prevention and appraisal costs are always greater than failure costs",
+        "Training itself is an external failure cost",
+        "Failure costs cannot be measured"
+      ],
+      answer: 1,
+      reason: "Investment in prevention and appraisal can reduce internal and external failure costs."
+    }
+  ]
+},
+{
+  case_id: "AI_c22_cs_003",
+  difficulty: "medium",
+  case_topic: ["TQM", "Six Cs", "Continuous Improvement", "Customer Focus"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>UrbanCare Hospitals</b> decided to introduce Total Quality Management across its diagnostic and outpatient departments. The Chief Executive announced that quality would no longer be the responsibility of the quality department alone. Doctors, nurses, reception staff, technicians, finance personnel, procurement employees and suppliers would all participate in the quality improvement process.</p>
+
+    <p>Initially, the hospital appointed one quality manager and asked that person to "take care of all quality matters". However, the quality manager quickly found that individual departmental cooperation was poor. Reception staff were reluctant to change procedures, diagnostic technicians were not involved in improvement meetings, and procurement employees were continuing to select suppliers solely on the basis of price.</p>
+
+    <p>The hospital then changed its approach. Senior management publicly committed to quality improvement and allocated funds for employee training. Cross-functional teams were created so that employees could identify operational problems and propose improvements. The hospital also began collecting feedback from patients and from internal departments that depended on the work of other departments.</p>
+
+    <p>Management emphasised that TQM was not a short-term programme. Procedures would be reviewed continuously, performance would be measured and corrective actions would be taken whenever deficiencies were identified.</p>
+
+    <p>Some senior managers initially argued that once a high quality standard had been achieved, the TQM programme could be closed. The Chief Executive rejected this suggestion and described TQM as an ongoing management philosophy.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_003_1",
+      question: "The decision that quality should not be delegated only to the quality manager is most closely associated with:",
+      options: [
+        "Employee involvement and organisation-wide participation",
+        "External failure management only",
+        "Push supply chain management",
+        "Offshoring"
+      ],
+      answer: 1,
+      reason: "TQM recognises the role of everyone in the organisation and requires total employee involvement."
+    },
+    {
+      question_id: "AI_c22_cs_003_2",
+      question: "Senior management's visible support for the TQM initiative represents which of the Six Cs?",
+      options: [
+        "Control",
+        "Commitment",
+        "Customer focus",
+        "Co-operation"
+      ],
+      answer: 2,
+      reason: "Commitment requires clear support from top management."
+    },
+    {
+      question_id: "AI_c22_cs_003_3",
+      question: "The creation of cross-functional improvement teams most directly demonstrates:",
+      options: [
+        "Co-operation",
+        "External failure",
+        "Appraisal",
+        "Downsizing"
+      ],
+      answer: 1,
+      reason: "TQM requires cooperation and involvement of employees across functions."
+    },
+    {
+      question_id: "AI_c22_cs_003_4",
+      question: "Why is it incorrect to close the TQM programme after achieving a high quality standard?",
+      options: [
+        "TQM is a continuous and never-ending improvement process",
+        "TQM is concerned only with initial implementation",
+        "TQM applies only when quality is poor",
+        "TQM is a one-time inspection programme"
+      ],
+      answer: 1,
+      reason: "Continuous improvement is a core principle of TQM."
+    },
+    {
+      question_id: "AI_c22_cs_003_5",
+      question: "Feedback from departments that depend upon the work of other departments illustrates the importance of:",
+      options: [
+        "Internal customers",
+        "External suppliers only",
+        "Offshore customers",
+        "Financial creditors"
+      ],
+      answer: 1,
+      reason: "TQM's customer focus includes internal customers as well as external customers."
+    }
+  ]
+},
+{
+  case_id: "AI_c22_cs_004",
+  difficulty: "medium",
+  case_topic: ["Supply Chain Management", "Push Model", "Pull Model", "Demand Management"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>ClassicWear Limited</b> manufactures standardised school uniforms. Its products have been sold through retail stores for many years. Historical sales patterns are relatively stable, and demand during the academic season can be forecast with reasonable accuracy. The company has large manufacturing facilities and benefits significantly from economies of scale when producing large batches.</p>
+
+    <p>Because production costs fall substantially when large quantities are manufactured together, management traditionally produces uniforms before the peak selling season. Finished goods are then stored in warehouses and gradually supplied to retailers as required.</p>
+
+    <p>Recently, however, the company launched a second product line consisting of customised uniforms. Customers can select colours, measurements, embroidery and other design features through an online portal. Management found that forecasting demand for these customised products was much more difficult because individual customers had different requirements.</p>
+
+    <p>The supply chain manager suggested that the same supply-chain model should be used for both product lines because maintaining two systems would increase administrative complexity. The management accountant disagreed, pointing out that the characteristics of the two products and the nature of demand were significantly different.</p>
+
+    <p>For standard uniforms, the company had sufficient storage space and working capital. For customised uniforms, management wanted to minimise finished-goods inventory and respond directly to actual customer orders.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_004_1",
+      question: "The traditional production system used for standardised uniforms is most consistent with:",
+      options: [
+        "Pull model",
+        "Push model",
+        "Returns management",
+        "Gain sharing"
+      ],
+      answer: 2,
+      reason: "Production in anticipation of forecasted demand represents the push model."
+    },
+    {
+      question_id: "AI_c22_cs_004_2",
+      question: "Why is the push model suitable for ClassicWear's standard uniforms?",
+      options: [
+        "Demand is unpredictable and products are highly customised",
+        "Demand can be forecast reasonably accurately and large-scale production provides economies of scale",
+        "The company has no storage capacity",
+        "Customers directly control every production decision"
+      ],
+      answer: 2,
+      reason: "Accurate forecasting, economies of scale, storage capacity and working capital support a push model."
+    },
+    {
+      question_id: "AI_c22_cs_004_3",
+      question: "The customised product line would more appropriately use:",
+      options: [
+        "Push model",
+        "Pull model",
+        "Single-supplier model",
+        "Downsizing model"
+      ],
+      answer: 2,
+      reason: "Highly customised products based on actual customer requirements are more suitable for a pull model."
+    },
+    {
+      question_id: "AI_c22_cs_004_4",
+      question: "A major risk of using the push model for the customised uniforms would be:",
+      options: [
+        "Production exactly matches every customer's actual requirement",
+        "Excess inventory caused by inaccurate demand forecasts",
+        "No requirement for storage",
+        "Complete elimination of working capital"
+      ],
+      answer: 2,
+      reason: "Push systems produce in anticipation of demand and therefore carry the risk of overstocking if actual demand differs from forecasts."
+    },
+    {
+      question_id: "AI_c22_cs_004_5",
+      question: "The management accountant's recommendation to use different models for the two product lines reflects the principle that:",
+      options: [
+        "One supply-chain model must always be used throughout an organisation",
+        "Supply-chain design should reflect product and demand characteristics",
+        "Pull systems are always cheaper",
+        "Push systems cannot be used by profitable companies"
+      ],
+      answer: 2,
+      reason: "The appropriate supply-chain model depends upon demand characteristics, customisation, production economics and other circumstances."
+    }
+  ]
+},
+{
+  case_id: "AI_c22_cs_005",
+  difficulty: "medium",
+  case_topic: ["Outsourcing", "Offshoring", "Downsizing", "Strategic Cost Management"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>BrightServe Technologies Limited</b> experienced a substantial fall in demand for one of its traditional service lines. The company had maintained a large internal team even though the volume of work had declined significantly. Several departments were operating below capacity and management faced pressure to reduce costs.</p>
+
+    <p>The Human Resources department proposed reducing the workforce in the affected division and closing certain unprofitable activities. The proposal was justified as an emergency response to the company's financial difficulties.</p>
+
+    <p>Separately, the company considered transferring its payroll processing function to a specialised external service provider. The provider had expertise in payroll administration and could perform the work at a lower operating cost. Management believed that outsourcing would also allow BrightServe's employees to concentrate on core activities.</p>
+
+    <p>A third proposal involved establishing a customer support centre in another country where labour costs were lower and suitable employees were available. The centre would remain under BrightServe's control rather than being operated by an external service provider.</p>
+
+    <p>The Chief Financial Officer initially classified all three proposals simply as "cost reduction". The management accountant explained that although cost management could be a common objective, the three decisions represented different strategic concepts.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_005_1",
+      question: "Reducing the employee workforce because of economic difficulties most directly represents:",
+      options: [
+        "Downsizing",
+        "Outsourcing",
+        "Offshoring",
+        "Gain sharing"
+      ],
+      answer: 1,
+      reason: "Downsizing involves reducing workforce to manage costs or survive economic difficulties."
+    },
+    {
+      question_id: "AI_c22_cs_005_2",
+      question: "Transferring payroll processing to an external specialised service provider is:",
+      options: [
+        "Downsizing",
+        "Outsourcing",
+        "Offshoring only",
+        "Pull supply chain"
+      ],
+      answer: 2,
+      reason: "Outsourcing is the transfer of non-core functions to an external third-party service provider."
+    },
+    {
+      question_id: "AI_c22_cs_005_3",
+      question: "Establishing a company-controlled customer support centre in another country is an example of:",
+      options: [
+        "Outsourcing",
+        "Offshoring",
+        "Downsizing",
+        "Gain sharing"
+      ],
+      answer: 2,
+      reason: "Offshoring involves relocating business functions to another country; it does not necessarily involve transferring the function to an external party."
+    },
+    {
+      question_id: "AI_c22_cs_005_4",
+      question: "Which statement best distinguishes outsourcing from offshoring?",
+      options: [
+        "Outsourcing always involves another country",
+        "Offshoring always involves an external vendor",
+        "Outsourcing involves transfer to an external organisation, while offshoring involves relocation to another country",
+        "There is no difference between them"
+      ],
+      answer: 3,
+      reason: "Outsourcing concerns ownership/provider of the function, while offshoring concerns geographical relocation."
+    },
+    {
+      question_id: "AI_c22_cs_005_5",
+      question: "BrightServe's proposal to operate its own centre abroad rather than appoint an external provider demonstrates that:",
+      options: [
+        "Offshoring can occur without outsourcing",
+        "Outsourcing must always occur with offshoring",
+        "Downsizing and offshoring are identical",
+        "Outsourcing can never occur domestically"
+      ],
+      answer: 1,
+      reason: "A business can offshore a function while continuing to perform it internally."
+    }
+  ]
+},
+{
+  case_id: "AI_c22_cs_006",
+  difficulty: "hard",
+  case_topic: ["Cost of Quality", "PAF Model", "Optimal COQ", "Quality Improvement", "Financial and Non-Financial Analysis"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>Orion Consumer Electronics Limited</b> manufactures smart home control devices. The company has recently faced increasing competition from international manufacturers. Its finance department prepared a report showing that the company's quality-related expenditure has increased significantly over the last two years. The Chief Financial Officer therefore suggested that quality expenditure should be reduced to protect profit margins.</p>
+
+    <p>The quality department provided a different interpretation. It reported that the company currently spends ₹3.2 crore annually on employee training, quality planning, supplier evaluation, preventive equipment maintenance and process engineering. Another ₹1.8 crore is spent on inspections, testing and certification.</p>
+
+    <p>Despite these expenditures, the company incurs ₹4.5 crore in internal failure costs, mainly because of rework, scrap, redesign and production downtime. External failure costs are even higher at ₹8.2 crore because of warranty claims, product returns, customer support, lost sales and loss of market share.</p>
+
+    <p>The Chief Financial Officer argued that reducing prevention and appraisal expenditure would immediately improve reported profit. The quality director warned that the reduction could result in a substantial increase in failure costs. She also pointed out that some consequences of poor quality were not immediately visible in the accounting records. Customers who stopped purchasing after experiencing poor product performance were difficult to identify as a direct quality cost.</p>
+
+    <p>The Managing Director asked the management accountant to analyse whether Orion should attempt to achieve zero defects immediately. The accountant explained that increasing prevention and appraisal expenditure generally reduces failure costs, but there may be an economic trade-off. At some point, the combined cost of conformance and non-conformance may reach an optimum.</p>
+
+    <p>At the same time, the company was considering a continuous improvement programme under which employees would identify waste, rework, idle facilities, yield losses and unnecessary inventory. The quality director argued that continuous improvement could eventually reduce both defects and some of the costs associated with producing quality.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_006_1",
+      question: "Which combination correctly represents Orion's ₹3.2 crore prevention expenditure and ₹1.8 crore inspection expenditure?",
+      options: [
+        "Both are failure costs",
+        "Prevention is a cost of conformance and inspection is an appraisal cost",
+        "Prevention is an external failure cost and inspection is internal failure cost",
+        "Both are external failure costs"
+      ],
+      answer: 2,
+      reason: "Prevention and appraisal are the two major conformance categories in the PAF model."
+    },
+    {
+      question_id: "AI_c22_cs_006_2",
+      question: "Warranty claims and product returns incurred after customers receive products are:",
+      options: [
+        "Prevention costs",
+        "Appraisal costs",
+        "Internal failure costs",
+        "External failure costs"
+      ],
+      answer: 4,
+      reason: "Defects discovered after delivery result in external failure costs."
+    },
+    {
+      question_id: "AI_c22_cs_006_3",
+      question: "The quality director's warning about customers who stop purchasing due to poor quality is important because:",
+      options: [
+        "All quality costs are directly visible in accounting records",
+        "Some costs of poor quality are hidden, including lost customers and market share",
+        "Customer loss is always an appraisal cost",
+        "Lost market share cannot be associated with quality"
+      ],
+      answer: 2,
+      reason: "The TQM view of COQ includes hidden consequences such as lost customers, market share and foregone opportunities."
+    },
+    {
+      question_id: "AI_c22_cs_006_4",
+      question: "Why would an immediate objective of zero defects not necessarily be economically optimal?",
+      options: [
+        "Zero defects require no prevention or appraisal expenditure",
+        "The expenditure required to eliminate the final defects may be disproportionately high, making the combined quality cost uneconomic",
+        "Failure costs always become zero before prevention costs increase",
+        "Zero defects are impossible under TQM"
+      ],
+      answer: 2,
+      reason: "There can be an optimum quality level where total quality costs are minimised; achieving zero defects may require very high conformance expenditure."
+    },
+    {
+      question_id: "AI_c22_cs_006_5",
+      question: "The proposed continuous improvement programme is consistent with the TQM philosophy because it seeks to:",
+      options: [
+        "Accept defects permanently",
+        "Eliminate waste and continuously improve processes",
+        "Replace all prevention activities with inspection",
+        "Increase external failure costs"
+      ],
+      answer: 2,
+      reason: "TQM emphasises continuous improvement, waste elimination and doing things right the first time."
+    }
+  ]
+},
+{
+  case_id: "AI_c22_cs_007",
+  difficulty: "hard",
+  case_topic: ["Supply Chain Management", "Push-Pull Model", "Upstream Supply Chain", "Downstream Supply Chain", "Information Technology"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>ElectraHome Limited</b> manufactures refrigerators and washing machines and sells them through company-owned stores, independent retailers and its online platform. The company historically operated a forecast-driven supply chain. Sales forecasts were prepared at the beginning of each quarter, production schedules were based on those forecasts, suppliers were asked to deliver materials accordingly and finished goods were stored in regional warehouses.</p>
+
+    <p>The system worked reasonably well when product demand was stable. However, product life cycles became shorter and customers increasingly expected customised features. Forecast errors began resulting in excess inventory of some models and shortages of others. Finished goods also became obsolete when newer models were launched.</p>
+
+    <p>ElectraHome decided to introduce an electronic system linking customers, retailers, warehouses, manufacturing facilities and selected suppliers. Online customer orders were transmitted directly to the company's order-processing system. Inventory information was updated continuously, while selected suppliers could access demand information and planned production requirements.</p>
+
+    <p>The company also created a supplier relationship programme. Suppliers were evaluated not only on price but also on innovation, quality, reliability, delivery speed and their ability to reduce risk. For strategically important products, the company involved suppliers early in the product development process.</p>
+
+    <p>At the downstream end, ElectraHome began analysing customer purchase history and preferences. The marketing department wanted to improve customer retention and increase cross-selling. However, the management accountant found that certain customers generating high revenue were consuming disproportionate amounts of service and support resources.</p>
+
+    <p>The Chief Executive initially believed that a supply chain focused on customer orders would eliminate all inventory problems. The management accountant cautioned that the new model would reduce some forms of inventory risk but could not eliminate every supply-chain risk.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_007_1",
+      question: "ElectraHome's original production based on quarterly forecasts represents:",
+      options: [
+        "Pull supply chain",
+        "Push supply chain",
+        "Returns management",
+        "Gain sharing"
+      ],
+      answer: 2,
+      reason: "Push supply chains produce stock based on anticipated or forecast demand."
+    },
+    {
+      question_id: "AI_c22_cs_007_2",
+      question: "The new system allowing customers to transmit actual orders into the company's supply chain is most closely associated with:",
+      options: [
+        "Pull model",
+        "Pure push model",
+        "Downsizing",
+        "External failure"
+      ],
+      answer: 1,
+      reason: "Pull systems respond to actual customer demand rather than producing solely in anticipation of forecast demand."
+    },
+    {
+      question_id: "AI_c22_cs_007_3",
+      question: "Evaluating suppliers on innovation, quality, reliability and risk reduction represents which supply-chain process?",
+      options: [
+        "Customer Relationship Management",
+        "Supplier Relationship Management",
+        "Returns Management",
+        "Customer Service Management"
+      ],
+      answer: 2,
+      reason: "Supplier Relationship Management deals with developing and maintaining supplier relationships and evaluating supplier capabilities."
+    },
+    {
+      question_id: "AI_c22_cs_007_4",
+      question: "The management accountant's finding that high-revenue customers consume disproportionate service resources suggests the need for:",
+      options: [
+        "Customer Account Profitability analysis",
+        "Only sales-volume analysis",
+        "Supplier Relationship Management",
+        "Production forecasting only"
+      ],
+      answer: 1,
+      reason: "Customer Account Profitability measures profitability at the customer level by considering costs associated with serving individual customers."
+    },
+    {
+      question_id: "AI_c22_cs_007_5",
+      question: "Why is the CEO's conclusion that the pull system will eliminate all inventory problems incorrect?",
+      options: [
+        "Pull systems always require greater obsolete inventory",
+        "Actual-demand orientation can reduce inventory and improve responsiveness, but supply-chain risks and operational constraints remain",
+        "Pull systems cannot use electronic connections",
+        "Pull systems are based entirely on inaccurate forecasts"
+      ],
+      answer: 2,
+      reason: "Pull systems can reduce inventory and improve responsiveness but do not eliminate all supply-chain risks."
+    }
+  ]
+},
+{
+  case_id: "AI_c22_cs_008",
+  difficulty: "very hard",
+  case_topic: ["Customer Account Profitability", "Customer Lifetime Value", "CRM", "Customer Selection", "Customer Retention", "Customer Extension"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>PrimeBank Cards Limited</b> issues credit cards to customers across several cities. The company traditionally classified customers according to annual card expenditure. Customers with high expenditure were automatically treated as the most valuable customers and received premium benefits.</p>
+
+    <p>Following a detailed review, the management accountant discovered that this classification produced misleading conclusions. Customer A generated annual card revenue of ₹80,000 but made frequent service calls, required extensive dispute resolution and regularly requested special assistance. Customer B generated revenue of only ₹65,000 but rarely contacted the service centre, made regular payments and frequently purchased additional financial products offered by the bank.</p>
+
+    <p>The marketing department proposed giving the highest benefits to Customer A because the customer generated greater revenue. The management accountant disagreed and recommended that PrimeBank calculate customer-level profitability by assigning relevant sales, marketing, service and support costs to individual customers.</p>
+
+    <p>The bank also noticed that Customer B had remained with the bank for several years and was likely to purchase additional products in the future. The accountant explained that the value of a customer should not necessarily be restricted to the profit generated in the current year.</p>
+
+    <p>The bank then created four customer categories. Platinum customers were highly profitable, Gold customers were profitable, Iron customers were low-profit but desirable, and Lead customers were unprofitable and undesirable. Management wanted to retain Platinum and Gold customers, develop strategies to convert desirable low-profit customers into more profitable relationships and avoid unnecessarily acquiring customers whose lifetime economics were unattractive.</p>
+
+    <p>The Chief Marketing Officer proposed calculating profitability only from card fees. The management accountant argued that such a calculation would ignore other revenues and costs generated by serving the customer. The bank therefore considered using Activity Based Costing to allocate relevant customer-serving costs and then estimating future cash flows over the expected customer relationship.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_008_1",
+      question: "Why would ranking customers solely according to revenue be misleading?",
+      options: [
+        "Revenue always equals profit",
+        "Different customers can consume significantly different sales, marketing, service and support resources",
+        "Customer-level costs are irrelevant",
+        "Only manufacturing costs matter in a service business"
+      ],
+      answer: 2,
+      reason: "Customer profitability requires consideration of the costs incurred to serve each customer, not merely revenue."
+    },
+    {
+      question_id: "AI_c22_cs_008_2",
+      question: "The recommended calculation of revenue less customer-specific service, marketing and related costs is most closely associated with:",
+      options: [
+        "Customer Account Profitability",
+        "Customer Relationship Management only",
+        "Supplier Relationship Management",
+        "Market segmentation only"
+      ],
+      answer: 1,
+      reason: "Customer Account Profitability measures profit at the customer level by considering relevant revenues and costs."
+    },
+    {
+      question_id: "AI_c22_cs_008_3",
+      question: "The use of Activity Based Costing in the case is particularly appropriate because:",
+      options: [
+        "Customer servicing consumes different activities and resources",
+        "ABC ignores service costs",
+        "ABC measures only total company profit",
+        "ABC eliminates the need to calculate revenue"
+      ],
+      answer: 1,
+      reason: "ABC can associate activities and their costs with customers, improving the accuracy of customer profitability analysis."
+    },
+    {
+      question_id: "AI_c22_cs_008_4",
+      question: "Customer B's future purchases and expected long-term relationship are relevant to:",
+      options: [
+        "Customer Lifetime Value",
+        "Prevention cost",
+        "Appraisal cost",
+        "Supplier Relationship Management"
+      ],
+      answer: 1,
+      reason: "Customer Lifetime Value is the present value of projected future cash flows from the lifetime customer relationship."
+    },
+    {
+      question_id: "AI_c22_cs_008_5",
+      question: "Which strategy is most consistent with the customer categories described in the case?",
+      options: [
+        "Give identical resources to every customer regardless of profitability",
+        "Retain profitable customers, develop desirable low-profit customers and avoid persistently unprofitable relationships where appropriate",
+        "Acquire only customers with the highest current revenue",
+        "Stop analysing customers once they have been acquired"
+      ],
+      answer: 2,
+      reason: "Customer profitability analysis helps the organisation determine which customers to retain, acquire more of, develop or potentially stop servicing."
+    }
+  ]
+},
+{
+  case_id: "AI_c22_cs_009",
+  difficulty: "very hard",
+  case_topic: ["Gain Sharing", "Outsourcing", "Supply Chain Management", "Cost Reduction", "Strategic Partnership"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>Helix Diagnostics Limited</b> operates a network of diagnostic laboratories. The company had traditionally purchased laboratory maintenance services under fixed-price contracts. The maintenance provider received a predetermined annual payment irrespective of whether its improvement initiatives produced measurable savings for Helix.</p>
+
+    <p>Helix was dissatisfied with the arrangement because equipment downtime remained high. Diagnostic machines that were unavailable for several hours could delay patient reports, require rescheduling and create additional administrative costs. The maintenance provider argued that some of the problems were caused by Helix's operating practices rather than by equipment maintenance.</p>
+
+    <p>Helix therefore proposed a different contractual arrangement. The maintenance provider would undertake improvement initiatives, but its payment would depend partly upon measurable benefits achieved by Helix. During the first year, the provider would retain the savings resulting from its own ideas. During subsequent years, savings would be shared between Helix and the provider according to an agreed ratio. Savings generated from an improvement proposed exclusively by Helix, where the provider did not require capital investment, would accrue directly to Helix.</p>
+
+    <p>The provider initially objected because there was no guarantee that it would recover all expenditure incurred on improvement projects. However, it later agreed because substantial savings could generate a substantial return.</p>
+
+    <p>The management accountant was asked to explain why the arrangement differed from a conventional outsourcing contract and why transparency in cost information was particularly important.</p>
+
+    <p>Some managers argued that Helix should simply impose strict contractual penalties on the provider for every instance of downtime. Others believed that both parties would be better served by aligning their economic interests and encouraging joint process improvement.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_009_1",
+      question: "The arrangement described between Helix and the maintenance provider is best classified as:",
+      options: [
+        "Gain-sharing arrangement",
+        "Push supply chain",
+        "Downsizing",
+        "Traditional fixed-price purchase only"
+      ],
+      answer: 1,
+      reason: "Gain sharing adjusts contractual rewards so that benefits arising from successful performance are shared between parties."
+    },
+    {
+      question_id: "AI_c22_cs_009_2",
+      question: "Why is the arrangement risky for the maintenance provider?",
+      options: [
+        "The provider is guaranteed payment regardless of performance",
+        "The provider may incur expenditure on improvements without receiving a corresponding payment if benefits do not materialise",
+        "The provider cannot benefit from savings",
+        "The provider has no involvement in improvement"
+      ],
+      answer: 2,
+      reason: "In gain-sharing arrangements, supplier payment may depend on benefits achieved, creating risk for the supplier."
+    },
+    {
+      question_id: "AI_c22_cs_009_3",
+      question: "Why is access to relevant cost information important in this arrangement?",
+      options: [
+        "The parties need a basis for measuring and calculating the benefits to be shared",
+        "Cost information has no connection with gain sharing",
+        "Only the supplier's costs need to be known",
+        "Only revenue is relevant"
+      ],
+      answer: 1,
+      reason: "Both parties need relevant cost information to establish the basis for assessing benefits and calculating the sharing arrangement."
+    },
+    {
+      question_id: "AI_c22_cs_009_4",
+      question: "Which feature most clearly distinguishes this arrangement from a conventional fixed-price contract?",
+      options: [
+        "Payment is linked partly to benefits achieved by the customer",
+        "The supplier performs a service",
+        "The supplier has employees",
+        "The customer pays for services"
+      ],
+      answer: 1,
+      reason: "The defining feature is alignment of payment with benefits generated through successful performance."
+    },
+    {
+      question_id: "AI_c22_cs_009_5",
+      question: "The proposed gain-sharing structure is strategically attractive because it:",
+      options: [
+        "Encourages the supplier and customer to pursue mutually beneficial improvements",
+        "Encourages suppliers to hide cost savings",
+        "Creates rewards for adversarial behaviour",
+        "Removes the need for performance measurement"
+      ],
+      answer: 1,
+      reason: "Gain-sharing arrangements are intended to align interests and create a win-win relationship based on improvement benefits."
+    }
+  ]
+},
+{
+  case_id: "AI_c22_cs_010",
+  difficulty: "very hard",
+  case_topic: ["TQM", "PDCA Cycle", "Six Cs", "Deming", "Supply Chain", "Continuous Improvement"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>Vantage Auto Components Limited</b> supplies precision components to automobile manufacturers. During the previous year, the company experienced increasing rejection rates, production downtime and customer complaints. Senior management initially responded by setting a target that every production department must reduce defects by 30% within six months.</p>
+
+    <p>Production managers immediately began pressuring employees to achieve the numerical target. Employees became reluctant to report problems because they feared that reporting defects would make their departments appear inefficient. Supervisors increased final inspection and rejected products were reworked before dispatch.</p>
+
+    <p>Although the reported customer rejection rate initially declined, internal rework and downtime increased. The management accountant conducted a review and found that the company had concentrated heavily on inspection and numerical targets without adequately addressing process variation, employee training, supplier quality and equipment maintenance.</p>
+
+    <p>The new Quality Director proposed a different approach. First, management would identify the current state using reliable data. The company would then establish improvement objectives and action plans. Employees would implement the revised processes, management would measure their effectiveness and corrective action would be taken based on the results. The cycle would then begin again.</p>
+
+    <p>The Quality Director also proposed reducing fear among employees, improving training, encouraging cooperation between departments and suppliers, involving workers in improvement activities and developing a long-term commitment to quality.</p>
+
+    <p>One production manager objected that suppliers should simply be replaced whenever defects occurred. The Quality Director instead proposed supplier development and closer supplier relationships. Another manager argued that the company should maintain several suppliers for every component purely to maximise competition. The Quality Director explained that Deming's philosophy could support a different approach where variation in inputs is reduced through appropriate supplier relationships.</p>
+
+    <p>The Chief Executive finally asked whether the company's original target-based approach could itself be considered a complete implementation of TQM. The management accountant was asked to evaluate the situation using the principles of Deming and the Six Cs.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_010_1",
+      question: "The original approach of setting a numerical defect target and pressuring employees without addressing underlying processes is most inconsistent with Deming's emphasis on:",
+      options: [
+        "Improving processes and eliminating causes of variation",
+        "Increasing fear among employees",
+        "Maximising inspection",
+        "Short-term reaction rather than long-term planning"
+      ],
+      answer: 1,
+      reason: "Deming emphasised continuous process improvement and criticised approaches that blame employees without improving the underlying system."
+    },
+    {
+      question_id: "AI_c22_cs_010_2",
+      question: "Employees refusing to report problems because of fear is directly inconsistent with which Deming principle?",
+      options: [
+        "Drive out fear",
+        "Move towards a single supplier",
+        "Institute training",
+        "Break down barriers between departments"
+      ],
+      answer: 1,
+      reason: "Deming specifically advocated driving out fear because fear prevents employees from acting in the organisation's best interests."
+    },
+    {
+      question_id: "AI_c22_cs_010_3",
+      question: "The Quality Director's sequence of establishing objectives, implementing the process, measuring effectiveness and taking corrective action represents:",
+      options: [
+        "PAF model",
+        "PDCA cycle",
+        "Six Markets model",
+        "Customer profitability cycle"
+      ],
+      answer: 2,
+      reason: "Plan–Do–Check–Act is Deming's continuous improvement cycle."
+    },
+    {
+      question_id: "AI_c22_cs_010_4",
+      question: "The Quality Director's emphasis on employee participation, supplier cooperation and long-term management support collectively reflects which aspect of TQM?",
+      options: [
+        "Only appraisal",
+        "The integrated and organisation-wide nature of TQM",
+        "Only external failure control",
+        "Only final product inspection"
+      ],
+      answer: 2,
+      reason: "TQM integrates functions, employees and suppliers around continuous improvement and customer satisfaction."
+    },
+    {
+      question_id: "AI_c22_cs_010_5",
+      question: "Which statement best explains why Vantage's original approach should not be regarded as complete TQM?",
+      options: [
+        "TQM is simply a system of setting numerical targets",
+        "TQM requires continuous improvement, employee involvement, customer focus, cooperation and management commitment rather than merely inspection and targets",
+        "TQM eliminates the need for suppliers",
+        "TQM is limited to manufacturing inspection"
+      ],
+      answer: 2,
+      reason: "TQM is a comprehensive management philosophy involving commitment, culture, continuous improvement, cooperation, customer focus and control."
+    }
+  ]
+},
+// ============================================================
+// CHAPTER 22 – MODERN BUSINESS ENVIRONMENT
+// 5 MEDIUM + 5 HARD CASE SCENARIOS
+// ============================================================
+
+{
+  case_id: "AI_c22_cs_011",
+  difficulty: "medium",
+  case_topic: ["Cost of Quality", "PAF Model", "Prevention Cost", "Failure Cost"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>Nova Appliances Ltd.</b> manufactures premium domestic water purifiers for
+    the Indian market. For several years, the company operated in a highly
+    competitive environment in which customers could easily compare prices,
+    product features, warranty terms and online reviews before purchasing a
+    purifier. The management initially believed that maintaining a low selling
+    price was more important than spending money on quality-related activities.</p>
+
+    <p>During the previous year, Nova relied heavily on final inspection. Every
+    finished purifier was tested before being packed and dispatched. The quality
+    manager believed that this approach would ensure that defective products
+    would not reach customers. However, production supervisors complained that
+    defects discovered at the final inspection stage were expensive because
+    substantial labour and material had already been consumed.</p>
+
+    <p>During the year, the company incurred ₹18 lakh on final product testing,
+    ₹6 lakh on inspection of finished goods and ₹4 lakh on certification and
+    measurement equipment. At the same time, ₹22 lakh was spent on rework of
+    defective units detected before dispatch. Scrap and redesign costs amounted
+    to another ₹8 lakh.</p>
+
+    <p>Customer complaints increased significantly. Nova incurred ₹12 lakh on
+    warranty repairs, ₹7 lakh on replacement of products and ₹9 lakh on handling
+    customer returns. The marketing department also estimated that the company
+    had lost approximately ₹15 lakh of contribution because several customers
+    shifted to competing brands after experiencing repeated product failures.</p>
+
+    <p>The new operations director proposed a different approach. Instead of
+    depending almost entirely on final inspection, Nova would spend ₹10 lakh on
+    employee quality training, ₹7 lakh on supplier evaluation and development,
+    ₹5 lakh on preventive maintenance and ₹6 lakh on process engineering and
+    design reviews. The director argued that defects should be prevented rather
+    than merely detected after resources had already been consumed.</p>
+
+    <p>The finance manager objected that prevention expenditure would increase the
+    company's quality costs. The operations director responded that quality cost
+    should not be viewed merely as inspection expenditure and that reducing
+    failures could produce savings greater than the additional prevention
+    expenditure.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_011_1",
+      question: "Which of the following costs incurred by Nova is an example of a prevention cost?",
+      options: [
+        "Final product testing",
+        "Customer returns",
+        "Employee quality training",
+        "Warranty repairs"
+      ],
+      answer: 2,
+      reason: "Employee quality training is undertaken before defects occur and is therefore a prevention cost."
+    },
+    {
+      question_id: "AI_c22_cs_011_2",
+      question: "The ₹22 lakh spent on reworking defective units detected before dispatch represents:",
+      options: [
+        "Prevention cost",
+        "Appraisal cost",
+        "Internal failure cost",
+        "External failure cost"
+      ],
+      answer: 2,
+      reason: "The defects were discovered before products reached customers, so the rework is an internal failure cost."
+    },
+    {
+      question_id: "AI_c22_cs_011_3",
+      question: "Warranty repairs and customer returns primarily represent which element of the PAF model?",
+      options: [
+        "Prevention",
+        "Appraisal",
+        "Internal failure",
+        "External failure"
+      ],
+      answer: 3,
+      reason: "Warranty repairs and customer returns arise from defects discovered after delivery and are external failure costs."
+    },
+    {
+      question_id: "AI_c22_cs_011_4",
+      question: "What is the principal weakness in Nova's earlier quality strategy?",
+      options: [
+        "It completely ignored customer expectations",
+        "It depended heavily on detection rather than preventing defects at source",
+        "It spent too much on employee training",
+        "It used supplier evaluation instead of final inspection"
+      ],
+      answer: 1,
+      reason: "The company relied heavily on final inspection, whereas modern quality management emphasizes prevention and continuous improvement."
+    },
+    {
+      question_id: "AI_c22_cs_011_5",
+      question: "If Nova's prevention expenditure substantially reduces internal and external failures, which principle of quality economics is being demonstrated?",
+      options: [
+        "Higher quality must always increase total cost",
+        "Inspection is always cheaper than prevention",
+        "Quality improvement can generate savings through reduced failures",
+        "Zero defects always represent the lowest possible economic cost"
+      ],
+      answer: 2,
+      reason: "Quality improvement can reduce rework, scrap, warranty and other failure costs, potentially producing overall savings."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c22_cs_012",
+  difficulty: "medium",
+  case_topic: ["TQM", "Six Cs", "Employee Involvement", "Customer Focus"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>MetroServe Services Ltd.</b> operates a nationwide network of service
+    centres for commercial refrigeration equipment. The company had grown
+    rapidly and its management structure had become highly hierarchical.
+    Customer complaints received at a service centre were first sent to the
+    branch manager, then to the regional manager and finally to the technical
+    department whenever approval for an unusual repair was required.</p>
+
+    <p>This structure was originally introduced to maintain control over service
+    decisions. However, customers increasingly complained that technicians
+    could identify the problem immediately but could not take corrective action
+    without obtaining approval from senior management. In some cases, a
+    technician had to wait several hours for approval even though the required
+    repair was inexpensive and technically straightforward.</p>
+
+    <p>The managing director decided to introduce Total Quality Management. He
+    announced that quality was not merely the responsibility of the quality
+    department and instructed every function to participate. Technicians were
+    invited to identify recurring service problems, customer-service employees
+    were asked to suggest improvements, and suppliers were included in discussions
+    concerning recurring component failures.</p>
+
+    <p>The company also introduced regular training programmes. Employees were
+    taught how to analyse complaints, identify root causes and measure service
+    performance. Management stopped blaming individual technicians whenever
+    repeated failures occurred and instead examined whether procedures, training,
+    equipment or information systems were responsible.</p>
+
+    <p>In addition, the company began measuring customer satisfaction and repeat
+    complaints. Service employees were permitted to approve certain repairs
+    within predefined limits without obtaining multiple levels of management
+    approval. The managing director described the initiative as a continuing
+    process rather than a short-term quality campaign.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_012_1",
+      question: "Which Six C of TQM is most directly represented by the company's decision to involve technicians and service employees in improvement activities?",
+      options: [
+        "Commitment",
+        "Co-operation",
+        "Control",
+        "Customer focus"
+      ],
+      answer: 1,
+      reason: "Co-operation involves total employee involvement and using employees' experience in improving the organisation."
+    },
+    {
+      question_id: "AI_c22_cs_012_2",
+      question: "The training programmes introduced by MetroServe primarily support which Six C?",
+      options: [
+        "Culture",
+        "Customer focus",
+        "Control",
+        "Commitment"
+      ],
+      answer: 0,
+      reason: "Training is central to changing attitudes and developing a quality-oriented culture."
+    },
+    {
+      question_id: "AI_c22_cs_012_3",
+      question: "Allowing technicians to make decisions at the point where the customer problem occurs is most consistent with:",
+      options: [
+        "Greater centralisation",
+        "Delegation and decentralisation",
+        "Dependence on final inspection",
+        "Management by objectives"
+      ],
+      answer: 1,
+      reason: "Decisions should be delegated to the point of responsibility to enable faster customer response."
+    },
+    {
+      question_id: "AI_c22_cs_012_4",
+      question: "Why is the managing director's description of TQM as a continuing process significant?",
+      options: [
+        "TQM is intended to be a one-time programme",
+        "TQM focuses only on correcting customer complaints",
+        "TQM involves continuous improvement",
+        "TQM eliminates the need for measurement"
+      ],
+      answer: 2,
+      reason: "Continuous improvement is a fundamental characteristic of TQM."
+    },
+    {
+      question_id: "AI_c22_cs_012_5",
+      question: "MetroServe's decision to measure customer satisfaction most directly reflects which TQM principle?",
+      options: [
+        "Customer focus",
+        "Single sourcing",
+        "Management by objectives",
+        "Inspection dependence"
+      ],
+      answer: 0,
+      reason: "TQM places strong emphasis on understanding and satisfying customer requirements."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c22_cs_013",
+  difficulty: "medium",
+  case_topic: ["Supply Chain Management", "Push System", "Pull System", "Inventory"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>Orion Furniture Ltd.</b> manufactures office desks, chairs and storage
+    systems. Historically, the company produced large quantities of standard
+    models based on annual sales forecasts. The production department preferred
+    long production runs because large batches reduced the average manufacturing
+    cost per unit.</p>
+
+    <p>The forecasting system worked reasonably well when customer preferences
+    remained stable. However, customers increasingly demanded customised desk
+    dimensions, colours, storage arrangements and accessories. Orion continued
+    producing standard configurations in anticipation of demand, resulting in
+    substantial quantities of finished goods remaining in warehouses.</p>
+
+    <p>The finance department observed that working capital was increasingly tied
+    up in inventories. Warehouse costs also increased because finished products
+    occupied significant storage space. Some models became difficult to sell
+    after customers shifted their preferences, even though the products had
+    originally been produced according to management's forecasts.</p>
+
+    <p>The sales department proposed connecting the company's online ordering
+    platform directly with production planning. Under the proposed system,
+    customers would select their preferred specifications online, and production
+    instructions would be generated after actual customer orders were received.
+    Management recognised that this could reduce finished-goods inventory but
+    might also reduce some benefits associated with very large production runs.</p>
+
+    <p>The supply chain manager therefore proposed using the traditional approach
+    for highly predictable standard products while adopting the new demand-driven
+    approach for highly customised products. The objective was to match the
+    characteristics of the product and demand with the appropriate supply-chain
+    method rather than applying one method universally.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_013_1",
+      question: "Orion's historical production based mainly on forecast demand represents which approach?",
+      options: [
+        "Pull system",
+        "Push system",
+        "Returns management",
+        "Customer relationship management"
+      ],
+      answer: 1,
+      reason: "A push system produces inventory based on anticipated or forecast demand."
+    },
+    {
+      question_id: "AI_c22_cs_013_2",
+      question: "The proposed system where production begins in response to actual customer orders is a:",
+      options: [
+        "Push system",
+        "Pull system",
+        "Single supplier system",
+        "Supplier relationship system"
+      ],
+      answer: 1,
+      reason: "A pull system responds to actual customer demand rather than producing mainly on forecasts."
+    },
+    {
+      question_id: "AI_c22_cs_013_3",
+      question: "Which product is most suitable for Orion's proposed pull approach?",
+      options: [
+        "A standard chair with highly predictable annual demand",
+        "A standard desk produced continuously in large batches",
+        "A highly customised workstation",
+        "A product with very stable demand and large economies of scale"
+      ],
+      answer: 2,
+      reason: "Pull systems are particularly suitable for highly customised products where actual customer requirements drive production."
+    },
+    {
+      question_id: "AI_c22_cs_013_4",
+      question: "What is a major disadvantage Orion experienced under its forecast-driven system?",
+      options: [
+        "Customers directly controlled production",
+        "Excess inventory and tied-up working capital",
+        "No possibility of large-scale production",
+        "Complete elimination of warehouse requirements"
+      ],
+      answer: 1,
+      reason: "Forecast errors can result in overstocking, storage costs and working capital being tied up in inventory."
+    },
+    {
+      question_id: "AI_c22_cs_013_5",
+      question: "Why is the supply chain manager's hybrid proposal conceptually appropriate?",
+      options: [
+        "Push systems are always superior to pull systems",
+        "Pull systems should always replace traditional production",
+        "Different demand and product characteristics may justify different approaches",
+        "Supply chain methods should never depend on customer requirements"
+      ],
+      answer: 2,
+      reason: "Push may suit predictable high-volume products, while pull can be better for customised goods based on actual demand."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c22_cs_014",
+  difficulty: "medium",
+  case_topic: ["CRM", "Customer Account Profitability", "CLV", "Relationship Marketing"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>PrimeTech Solutions Ltd.</b> supplies specialised software and support
+    services to industrial customers. The company traditionally evaluated
+    profitability by product line. A product manager would report that a
+    particular software package generated a healthy margin, and management
+    assumed that every customer purchasing the package was equally valuable.</p>
+
+    <p>The finance team recently analysed customer-level information and found
+    significant differences between customers. Customer A purchased a large
+    volume and required very little technical support. Its invoices were paid
+    promptly and orders were generally standardised. Customer B purchased a
+    similar volume but required frequent customised reports, multiple technical
+    visits, extensive training and repeated changes to implementation schedules.</p>
+
+    <p>Although both customers generated similar sales revenue, the cost of
+    serving Customer B was substantially higher. The company therefore decided
+    to allocate relevant manufacturing, distribution, sales, marketing and
+    customer-service costs to individual customers using an activity-based
+    approach.</p>
+
+    <p>The marketing director also argued that current-period profitability alone
+    should not determine customer strategy. One smaller customer had recently
+    begun purchasing regularly and had indicated that its business would expand
+    substantially over the next five years. Another large customer was profitable
+    today but had announced that it intended to shift to a competing platform
+    within twelve months.</p>
+
+    <p>PrimeTech therefore decided to examine customer profitability together
+    with expected future cash flows, duration of the relationship, repeat
+    purchases and customer loyalty. The company also planned to use its CRM
+    system to maintain information about customer preferences, purchase history,
+    complaints and interactions.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_014_1",
+      question: "Why might two customers generating similar sales revenue have different profitability?",
+      options: [
+        "Customers always have identical service costs",
+        "Customer-specific costs of service may differ substantially",
+        "Revenue is irrelevant to profitability",
+        "ABC cannot be used for customer analysis"
+      ],
+      answer: 1,
+      reason: "Customer profitability depends not only on revenue but also on the costs incurred to serve each customer."
+    },
+    {
+      question_id: "AI_c22_cs_014_2",
+      question: "The company's decision to allocate relevant costs to individual customers is primarily associated with:",
+      options: [
+        "Customer Account Profitability",
+        "Push production",
+        "Appraisal costing",
+        "Offshoring"
+      ],
+      answer: 0,
+      reason: "Customer Account Profitability measures profitability at customer level rather than merely by product or business unit."
+    },
+    {
+      question_id: "AI_c22_cs_014_3",
+      question: "Which customer is more likely to have higher customer profitability based on the facts?",
+      options: [
+        "Customer B because it requires more support",
+        "Customer A because it generates similar revenue with lower service requirements",
+        "Both must have identical profitability",
+        "The customer with more complaints"
+      ],
+      answer: 1,
+      reason: "Customer A generates similar revenue but requires fewer costly support activities."
+    },
+    {
+      question_id: "AI_c22_cs_014_4",
+      question: "The analysis of future cash flows, relationship duration and repeat purchases relates most directly to:",
+      options: [
+        "Customer Lifetime Value",
+        "Appraisal cost",
+        "Returns management",
+        "Internal failure cost"
+      ],
+      answer: 0,
+      reason: "CLV considers the present value of projected future cash flows over the expected customer relationship."
+    },
+    {
+      question_id: "AI_c22_cs_014_5",
+      question: "Which information would be most directly useful to PrimeTech's CRM system?",
+      options: [
+        "Only total annual factory depreciation",
+        "Customer preferences, purchase history and complaints",
+        "Only employee attendance",
+        "Only supplier invoice values"
+      ],
+      answer: 1,
+      reason: "CRM systems use customer information such as preferences, purchase history and concerns to improve customer relationships."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c22_cs_015",
+  difficulty: "medium",
+  case_topic: ["Gain Sharing", "Supplier Relationship Management", "Supply Chain Management"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>Vertex Engineering Ltd.</b> manufactures specialised industrial
+    equipment and has maintained a long-term relationship with its major
+    component supplier, Alpha Components. The existing contract was based on a
+    conventional arrangement under which Alpha supplied components at an agreed
+    price and Vertex paid for the components irrespective of whether Alpha
+    introduced process improvements that benefited Vertex.</p>
+
+    <p>During a joint review, Alpha proposed changing the delivery method and
+    redesigning certain packaging arrangements. Alpha estimated that the
+    changes could reduce Vertex's total supply-chain cost significantly. However,
+    implementing the proposal would require Alpha to invest in new equipment
+    and train its employees.</p>
+
+    <p>Vertex did not want to guarantee a fixed payment for the improvement
+    because the actual savings had not yet been established. Instead, the
+    parties considered an arrangement under which Alpha would initially bear
+    the investment cost and its compensation would depend on the benefits
+    actually achieved by Vertex.</p>
+
+    <p>The proposed agreement required both parties to exchange relevant cost
+    information. Savings would be measured against an agreed baseline. The
+    parties would then share the resulting benefits according to predetermined
+    percentages. If the savings exceeded expectations, Alpha could receive a
+    substantially higher return; if little benefit was generated, Alpha would
+    receive substantially less.</p>
+
+    <p>Vertex's procurement head believed that the arrangement could encourage
+    Alpha to behave as a strategic partner rather than merely as a seller
+    attempting to negotiate the highest possible price. The legal department,
+    however, insisted that the contract should clearly specify how savings,
+    investment and benefits would be calculated.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_015_1",
+      question: "The proposed arrangement between Vertex and Alpha is best described as:",
+      options: [
+        "Gain sharing",
+        "Traditional fixed-price purchasing",
+        "Downsizing",
+        "Offshoring"
+      ],
+      answer: 0,
+      reason: "Gain sharing links supplier compensation to benefits or savings achieved by the customer."
+    },
+    {
+      question_id: "AI_c22_cs_015_2",
+      question: "Why would Alpha face greater risk under the proposed arrangement?",
+      options: [
+        "It receives guaranteed payment regardless of results",
+        "It may incur investment but receive limited compensation if savings are low",
+        "It does not participate in the improvement",
+        "Vertex guarantees all supplier costs"
+      ],
+      answer: 1,
+      reason: "The supplier may invest resources without guaranteed payment, making compensation dependent on actual customer benefits."
+    },
+    {
+      question_id: "AI_c22_cs_015_3",
+      question: "Why is an agreed baseline important in this arrangement?",
+      options: [
+        "It eliminates the need to measure savings",
+        "It provides a reference against which actual benefits can be measured",
+        "It guarantees supplier profit",
+        "It converts the arrangement into a fixed-price contract"
+      ],
+      answer: 1,
+      reason: "Savings must be measured against an agreed baseline to determine the benefit available for sharing."
+    },
+    {
+      question_id: "AI_c22_cs_015_4",
+      question: "Which feature of gain sharing is reflected by the parties exchanging relevant cost information?",
+      options: [
+        "Need for transparency in measuring benefits",
+        "Elimination of supplier relationships",
+        "Dependence on final inspection",
+        "Customer abandonment"
+      ],
+      answer: 0,
+      reason: "Relevant cost information is necessary to identify and measure the benefits generated by the improvement."
+    },
+    {
+      question_id: "AI_c22_cs_015_5",
+      question: "What relationship does Vertex seek to encourage through the arrangement?",
+      options: [
+        "Adversarial buyer-supplier relationship",
+        "Short-term transactional relationship only",
+        "Strategic partnership aligned toward mutual benefits",
+        "Relationship based solely on lowest quoted price"
+      ],
+      answer: 2,
+      reason: "Gain sharing is intended to align the interests of both parties and encourage cooperative, win-win behaviour."
+    }
+  ]
+},
+
+// ============================================================
+// HARD CASES
+// ============================================================
+
+{
+  case_id: "AI_c22_cs_016",
+  difficulty: "hard",
+  case_topic: ["Cost of Quality", "PAF Model", "Optimal COQ", "Hidden Quality Costs"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>Zenith Medical Devices Ltd.</b> manufactures diagnostic equipment used
+    by hospitals. The company had historically evaluated quality performance
+    using visible accounting costs. The quality report presented to the board
+    contained inspection expenditure, testing expenditure, warranty payments,
+    scrap and rework. Management was satisfied because the reported quality
+    cost represented only a small percentage of total manufacturing cost.</p>
+
+    <p>However, the commercial team noticed that several long-standing hospital
+    customers had reduced their orders. Some hospitals did not formally complain;
+    instead, they quietly shifted purchases to competing suppliers. The sales
+    director estimated that the company had lost several major contracts, but
+    these losses were not included in the formal quality-cost report because
+    they could not easily be traced to an individual defective unit.</p>
+
+    <p>An independent quality consultant was appointed to conduct a broader
+    quality-cost study. The consultant deliberately excluded Zenith's core
+    production team from determining the final quality-cost classification in
+    order to reduce the possibility of departmental bias.</p>
+
+    <p>The consultant discovered that employees were spending considerable time
+    investigating repeated complaints, redesigning products, attending emergency
+    customer meetings and dealing with delayed installations. These activities
+    had never been recorded as quality costs. The consultant described the
+    situation as an iceberg because the visible costs represented only a portion
+    of the total economic impact of poor quality.</p>
+
+    <p>The board initially proposed spending a very large amount on inspection
+    so that virtually no defective product could leave the factory. The
+    consultant warned that simply increasing appraisal expenditure indefinitely
+    would not necessarily produce the most economical quality level. Instead,
+    resources should be directed toward the weakest points in the process,
+    particularly those activities causing repeated failures.</p>
+
+    <p>The consultant recommended collecting failure information, quantifying
+    hidden effects using reasonable assumptions, classifying costs under the
+    PAF elements, allocating resources to weak areas and repeating the exercise
+    regularly. Management was also advised that the economically optimum level
+    of quality cost may not necessarily correspond to an absolute zero-defect
+    position if the additional cost of achieving it exceeds the associated
+    savings.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_016_1",
+      question: "Why were lost hospital contracts relevant to Zenith's quality-cost analysis even though they were not directly linked to individual defective units?",
+      options: [
+        "They are always appraisal costs",
+        "They may represent hidden costs of poor quality",
+        "They are necessarily prevention costs",
+        "They are unrelated to quality"
+      ],
+      answer: 1,
+      reason: "Lost customers and lost market opportunities can be hidden costs associated with poor quality."
+    },
+    {
+      question_id: "AI_c22_cs_016_2",
+      question: "The consultant's comparison of visible quality costs with much larger hidden effects illustrates the:",
+      options: [
+        "Push-pull model",
+        "Six Markets Model",
+        "Quality Cost Iceberg model",
+        "CLV model"
+      ],
+      answer: 2,
+      reason: "The iceberg model illustrates that many quality-related costs remain hidden beneath the visible portion."
+    },
+    {
+      question_id: "AI_c22_cs_016_3",
+      question: "Why was the consultant's independence particularly relevant in determining Zenith's COQ?",
+      options: [
+        "External assessment can improve impartiality",
+        "Only production managers can calculate COQ",
+        "External consultants eliminate all quality costs",
+        "Internal teams are legally prohibited from measuring COQ"
+      ],
+      answer: 0,
+      reason: "An external person can provide greater impartiality than a core project or product team member with an interest in the results."
+    },
+    {
+      question_id: "AI_c22_cs_016_4",
+      question: "Why did the consultant reject the board's idea of continuously increasing inspection expenditure?",
+      options: [
+        "Appraisal costs are never part of COQ",
+        "Inspection automatically increases external failure costs",
+        "An optimum may exist where total quality cost is minimized rather than appraisal being increased indefinitely",
+        "Inspection has no relationship with defects"
+      ],
+      answer: 2,
+      reason: "The optimal quality level involves balancing prevention, appraisal and failure costs; unlimited appraisal expenditure may not be economical."
+    },
+    {
+      question_id: "AI_c22_cs_016_5",
+      question: "Which sequence best reflects the PAF-based improvement process recommended by the consultant?",
+      options: [
+        "Spend on inspection → stop measuring → reduce suppliers → repeat",
+        "Gather failure data → quantify → classify/chart → allocate resources → repeat",
+        "Increase selling price → reduce quality → outsource → stop monitoring",
+        "Eliminate prevention → maximize inventory → inspect only customers"
+      ],
+      answer: 1,
+      reason: "The PAF approach involves gathering failure information, quantifying it, classifying and studying it, allocating resources to weak spots and repeating the analysis."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c22_cs_017",
+  difficulty: "hard",
+  case_topic: ["Supply Chain Management", "Push-Pull", "Resilience", "Upstream and Downstream"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>Helios Electronics Ltd.</b> manufactures smart industrial controllers.
+    Its supply chain extends across several countries. Certain electronic
+    components are purchased from specialised suppliers, assembled at Helios's
+    plants, stored at regional warehouses and finally distributed through
+    industrial distributors and directly to large customers.</p>
+
+    <p>For many years, Helios relied on a forecast-driven production system.
+    Management considered this appropriate because demand for its standard
+    controller was relatively stable and large production batches reduced unit
+    manufacturing cost. The company maintained substantial finished-goods
+    inventory to ensure rapid delivery to customers.</p>
+
+    <p>However, a series of disruptions exposed weaknesses in the supply chain.
+    A key overseas component supplier temporarily stopped production. At the
+    same time, a major port experienced delays. Helios had finished goods in its
+    warehouses but could not manufacture several newer products because a
+    specialised component was unavailable.</p>
+
+    <p>The supply-chain director separated the problem into upstream and
+    downstream risks. Supplier availability, component sourcing and supplier
+    relationships were classified as upstream concerns. Customer orders,
+    distributor coordination and final delivery were considered downstream
+    concerns.</p>
+
+    <p>The company then created a digital representation of its supply chain and
+    began testing different disruption scenarios. Management examined what
+    would happen if a supplier stopped production for thirty days, if a port
+    closed temporarily, or if customer demand suddenly shifted toward a
+    different product configuration.</p>
+
+    <p>At the same time, the sales department proposed connecting major customers
+    electronically with Helios so that actual customer demand could be captured
+    more rapidly. The production department resisted a complete move away from
+    forecast-based production because some standard products had predictable
+    demand and significant economies of scale.</p>
+
+    <p>The final proposal therefore combined forecast-based production for
+    predictable high-volume products with demand-driven production for highly
+    customised products. Helios also decided to benchmark supply-chain
+    resilience against comparable companies and establish metrics to assess
+    exposure, vulnerability and recovery capability.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_017_1",
+      question: "Helios's dependence on the overseas component supplier primarily represents which part of the supply chain?",
+      options: [
+        "Downstream",
+        "Upstream",
+        "Customer market",
+        "Referral market"
+      ],
+      answer: 1,
+      reason: "Upstream activities relate to the supplier side of the supply chain."
+    },
+    {
+      question_id: "AI_c22_cs_017_2",
+      question: "The digital representation used by Helios to test disruption scenarios is most closely associated with:",
+      options: [
+        "Supplier selection only",
+        "Stress-testing and digital-twin based resilience analysis",
+        "Customer lifetime value",
+        "Appraisal costing"
+      ],
+      answer: 1,
+      reason: "Digital twins and stress tests can be used to model disruption scenarios and assess supply-chain resilience."
+    },
+    {
+      question_id: "AI_c22_cs_017_3",
+      question: "Why does Helios not completely abandon its push approach?",
+      options: [
+        "Push is mandatory in every supply chain",
+        "Some products have predictable demand and benefit from large-scale production",
+        "Pull systems cannot be used with electronic ordering",
+        "Push systems eliminate all inventory risk"
+      ],
+      answer: 1,
+      reason: "Push can be suitable where forecasts are reliable and economies of scale make large-scale production beneficial."
+    },
+    {
+      question_id: "AI_c22_cs_017_4",
+      question: "Which situation most strongly supports the pull approach in Helios's case?",
+      options: [
+        "Predictable standard products",
+        "Highly customised products whose specifications are determined by customers",
+        "Products with stable demand for twenty years",
+        "Products manufactured only to exploit batch economies"
+      ],
+      answer: 1,
+      reason: "Pull is particularly appropriate where production should respond to actual customer requirements, especially customised products."
+    },
+    {
+      question_id: "AI_c22_cs_017_5",
+      question: "Which combination best represents Helios's resilience initiative?",
+      options: [
+        "Increase inventory without measuring risk",
+        "Ignore supplier disruption because finished goods exist",
+        "Model disruptions, assess vulnerability, establish metrics and plan mitigation",
+        "Eliminate customer communication"
+      ],
+      answer: 2,
+      reason: "Resilient supply chains assess exposure and vulnerability, model disruption scenarios, establish metrics and develop mitigation actions."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c22_cs_018",
+  difficulty: "hard",
+  case_topic: ["TQM", "Deming 14 Points", "PDCA", "Six Sigma"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>Axis Mobility Systems</b> manufactures electronic control modules for
+    automobile manufacturers. The company had a sophisticated inspection
+    department and measured the number of defective modules discovered before
+    shipment. Senior management believed that a strong inspection function was
+    sufficient to ensure quality.</p>
+
+    <p>However, the engineering and production departments disagreed frequently.
+    Engineers blamed production for not following specifications, while
+    production managers argued that engineering frequently changed designs
+    without considering manufacturing constraints. Procurement blamed
+    suppliers for component variations, while suppliers complained that Axis
+    frequently changed delivery schedules.</p>
+
+    <p>The managing director decided to introduce a company-wide quality
+    programme. Instead of treating quality as the responsibility of the
+    inspection department, the company established cross-functional teams.
+    Employees were trained in problem-solving methods and encouraged to report
+    process weaknesses without fear of punishment.</p>
+
+    <p>Axis also introduced a structured improvement cycle. Teams first
+    established an improvement objective and developed an action plan. They
+    then implemented the proposed process change, measured the results and,
+    where performance was unsatisfactory, introduced corrective action before
+    beginning another improvement cycle.</p>
+
+    <p>Management also changed its supplier policy. Rather than constantly
+    switching suppliers solely for small price differences, it began developing
+    longer-term relationships with selected suppliers and involving them early
+    in product development. The company believed that closer cooperation would
+    improve quality and supply reliability.</p>
+
+    <p>The quality director nevertheless proposed a separate Six Sigma
+    programme. She explained that TQM and Six Sigma were related but should not
+    be treated as identical. The company would continue using TQM as the
+    broader management philosophy while using Six Sigma techniques where
+    particularly strong emphasis on defect reduction was required.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_018_1",
+      question: "Axis's decision to stop treating inspection as the sole responsibility for quality is most consistent with which Deming point?",
+      options: [
+        "Cease dependence on inspection",
+        "Eliminate management by objectives",
+        "Eliminate slogans",
+        "Institute education"
+      ],
+      answer: 0,
+      reason: "Deming advocated moving away from dependence on inspection and improving quality through the process itself."
+    },
+    {
+      question_id: "AI_c22_cs_018_2",
+      question: "Employees reporting weaknesses without fear of punishment most directly reflects which Deming point?",
+      options: [
+        "Drive out fear",
+        "Single supplier",
+        "Eliminate slogans",
+        "Remove barriers to pride of workmanship"
+      ],
+      answer: 0,
+      reason: "Driving out fear encourages employees to communicate problems and participate in improvement."
+    },
+    {
+      question_id: "AI_c22_cs_018_3",
+      question: "The improvement cycle described by Axis follows which sequence?",
+      options: [
+        "Do → Act → Plan → Check",
+        "Plan → Do → Check → Act",
+        "Check → Plan → Act → Do",
+        "Act → Check → Do → Plan"
+      ],
+      answer: 1,
+      reason: "PDCA stands for Plan, Do, Check and Act."
+    },
+    {
+      question_id: "AI_c22_cs_018_4",
+      question: "Why is Axis's move toward longer-term supplier relationships consistent with Deming's philosophy?",
+      options: [
+        "Deming recommended changing suppliers constantly",
+        "Deming advocated moving toward a single supplier for any one item",
+        "Deming rejected supplier relationships",
+        "Deming recommended buying only from the lowest-price supplier"
+      ],
+      answer: 1,
+      reason: "One of Deming's points is to move toward a single supplier for any one item and build long-term relationships."
+    },
+    {
+      question_id: "AI_c22_cs_018_5",
+      question: "Which statement best describes the distinction made by Axis between TQM and Six Sigma?",
+      options: [
+        "TQM focuses broadly on process improvement, while Six Sigma places strong emphasis on defect reduction",
+        "TQM deals only with suppliers, while Six Sigma deals only with customers",
+        "Six Sigma eliminates the need for TQM",
+        "TQM and Six Sigma are exactly the same methodology"
+      ],
+      answer: 0,
+      reason: "TQM is a broad philosophy of continuous improvement, whereas Six Sigma places strong emphasis on reducing defects."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c22_cs_019",
+  difficulty: "hard",
+  case_topic: ["Outsourcing", "Offshoring", "Downsizing", "Rightsizing", "Supply Chain"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>GlobalServe Telecom Ltd.</b> had operated a large internal customer
+    support division for many years. The division employed several hundred
+    people and handled customer calls, basic technical queries and account
+    administration. Following the introduction of automated systems and online
+    self-service facilities, call volumes began to decline.</p>
+
+    <p>At the same time, GlobalServe faced increasing price competition. The
+    board concluded that some support activities could be performed more
+    efficiently by specialised external service providers. Management also
+    observed that the company was maintaining capacity that was no longer
+    required for its revised business strategy.</p>
+
+    <p>The human resources director proposed reducing the workforce in the
+    support division and closing certain facilities. She described this as a
+    downsizing measure intended to improve the company's financial position
+    during a period of economic pressure.</p>
+
+    <p>The procurement department then proposed transferring selected customer
+    support activities to an independent specialist company located in another
+    country where operating costs were lower and a large pool of trained
+    multilingual employees was available. The proposed arrangement would allow
+    the external provider to operate the function for GlobalServe under a
+    service agreement.</p>
+
+    <p>However, the chief information officer warned that customer information
+    and technical data would cross national borders. He demanded strong
+    contractual controls concerning confidentiality, privacy, security,
+    service standards and incident reporting. He also insisted that the
+    company begin with a limited scope and monitor performance before
+    transferring all customer-support activities.</p>
+
+    <p>The strategy team separately reviewed whether the workforce reduction
+    should be described as rightsizing. It concluded that the broader strategic
+    objective was to determine the appropriate organisational size for the
+    company's new business model, rather than merely cutting employees to
+    reduce immediate expenditure.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_019_1",
+      question: "The proposed transfer of customer support to an independent external specialist is:",
+      options: [
+        "Outsourcing",
+        "Only rightsizing",
+        "Only downsizing",
+        "Internal recruitment"
+      ],
+      answer: 0,
+      reason: "Outsourcing involves transferring non-core functions to an external third-party specialist."
+    },
+    {
+      question_id: "AI_c22_cs_019_2",
+      question: "Why does the arrangement also qualify as offshoring?",
+      options: [
+        "The work is being transferred to another department",
+        "The external provider is located in another country",
+        "The company is reducing its workforce",
+        "The company is using automation"
+      ],
+      answer: 1,
+      reason: "Offshoring involves relocating functions to another country."
+    },
+    {
+      question_id: "AI_c22_cs_019_3",
+      question: "The combined arrangement is most accurately described as:",
+      options: [
+        "Domestic outsourcing",
+        "Offshore outsourcing",
+        "Rightsizing without outsourcing",
+        "Insourcing"
+      ],
+      answer: 1,
+      reason: "The function is outsourced to an external provider located in another country, making it offshore outsourcing."
+    },
+    {
+      question_id: "AI_c22_cs_019_4",
+      question: "Why is the CIO's recommendation to begin with a limited scope consistent with the principles of successful outsourcing?",
+      options: [
+        "Outsourcing should never be monitored",
+        "Organisations should begin cautiously and monitor the external provider's performance",
+        "External providers automatically eliminate security risks",
+        "Small pilots eliminate all cultural differences"
+      ],
+      answer: 1,
+      reason: "Starting small and monitoring performance can help identify quality, security, communication and reliability problems before large-scale transfer."
+    },
+    {
+      question_id: "AI_c22_cs_019_5",
+      question: "Why does the strategy team's description of rightsizing differ from the HR director's downsizing proposal?",
+      options: [
+        "Rightsizing is always a temporary wage reduction",
+        "Rightsizing concerns achieving an appropriate organisational size for strategic objectives, whereas downsizing commonly focuses on workforce reduction",
+        "Downsizing never involves workforce reduction",
+        "Rightsizing and downsizing are always identical"
+      ],
+      answer: 1,
+      reason: "Rightsizing focuses on the appropriate size and structure for the organisation's objectives, while downsizing is commonly associated with workforce reduction, often for economic or strategic reasons."
+    }
+  ]
+},
+
+{
+  case_id: "AI_c22_cs_020",
+  difficulty: "hard",
+  case_topic: ["Supply Chain Management", "Gain Sharing", "Supplier Relationship Management", "E-Procurement", "SLA"],
+  case_chapter: "Modern Business Environment",
+  caseText: `
+    <p><b>Ardent Healthcare Equipment Ltd.</b> purchases specialised components
+    from several suppliers and supplies finished diagnostic equipment to
+    hospitals. Its procurement process had historically involved separate
+    departments for requirement identification, supplier selection, purchase
+    ordering, receipt verification and payment. Management found that the
+    fragmented process created delays and made it difficult to determine who
+    was responsible for individual procurement decisions.</p>
+
+    <p>Ardent decided to implement an integrated electronic procurement system.
+    Employees would identify requirements electronically, approved suppliers
+    would submit quotations through an electronic sourcing platform, purchase
+    orders would be generated electronically and suppliers would submit invoices
+    through the same system. Electronic payment would follow verification under
+    the agreed process.</p>
+
+    <p>The procurement director expected the system to reduce transaction time,
+    improve transparency and make supplier comparison easier. However, the IT
+    head warned that excessive dependence on technology could create a new risk:
+    if the electronic system became unavailable, procurement and payment
+    activities could be disrupted.</p>
+
+    <p>Ardent also wanted to strengthen its relationship with a strategic
+    supplier. Rather than negotiate solely over the component price, the
+    company proposed a joint improvement programme. The supplier would redesign
+    its packaging and delivery process. The parties would establish a baseline,
+    measure actual savings and share the benefits according to an agreed
+    formula.</p>
+
+    <p>Because the supplier would invest its own resources before knowing the
+    exact amount of benefit, the agreement included clear provisions regarding
+    measurement, information sharing and allocation of savings. Ardent also
+    established service-level requirements covering delivery time, quality,
+    communication, escalation procedures and consequences of failure.</p>
+
+    <p>The chief procurement officer explained that these initiatives were not
+    isolated technology projects. The objective was to integrate supplier
+    relationships, purchasing activities, performance measurement and customer
+    service so that the entire supply chain would create greater value.</p>
+  `,
+  questions: [
+    {
+      question_id: "AI_c22_cs_020_1",
+      question: "Which part of the electronic procurement process is represented by suppliers submitting quotations electronically?",
+      options: [
+        "E-Payment",
+        "E-Sourcing",
+        "E-Returns",
+        "Customer Relationship Management"
+      ],
+      answer: 1,
+      reason: "E-Sourcing involves electronic invitations for tenders or quotations and selection of suitable suppliers."
+    },
+    {
+      question_id: "AI_c22_cs_020_2",
+      question: "Electronic catalogues, recurring requisitions and automatic purchase orders would primarily fall under:",
+      options: [
+        "E-Purchasing",
+        "E-Sourcing",
+        "E-Payment",
+        "Returns management"
+      ],
+      answer: 0,
+      reason: "E-Purchasing includes electronic catalogues, requisitions and purchase-order processes."
+    },
+    {
+      question_id: "AI_c22_cs_020_3",
+      question: "The joint supplier improvement programme with baseline measurement and sharing of savings represents:",
+      options: [
+        "Gain sharing",
+        "Downsizing",
+        "Push production",
+        "Appraisal costing"
+      ],
+      answer: 0,
+      reason: "Gain sharing involves sharing benefits generated through supplier/customer improvement initiatives."
+    },
+    {
+      question_id: "AI_c22_cs_020_4",
+      question: "Why is the baseline particularly important in Ardent's gain-sharing arrangement?",
+      options: [
+        "It eliminates the need for actual performance measurement",
+        "It establishes the reference point against which savings can be determined",
+        "It guarantees the supplier a fixed profit",
+        "It prevents the customer from receiving any benefit"
+      ],
+      answer: 1,
+      reason: "A baseline is required to determine the incremental savings or benefits generated by the improvement."
+    },
+    {
+      question_id: "AI_c22_cs_020_5",
+      question: "The service-level requirements covering delivery, quality, escalation and consequences of failure are characteristic of:",
+      options: [
+        "Customer Lifetime Value",
+        "Service Level Agreement",
+        "Push system",
+        "Customer Account Profitability"
+      ],
+      answer: 1,
+      reason: "An SLA defines service requirements, responsibilities, performance standards and potentially rewards or penalties."
+    }
+  ]
 }
 ];
